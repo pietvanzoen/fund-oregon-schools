@@ -1,0 +1,91 @@
+Memorandum
+
+PREPARED FOR: Senator Sollman
+DATE: February 6, 2026
+BY: Lisa Gezelter, LPRO Analyst
+RE: Genesis of SB 1555
+
+This memorandum responds to your request for information about the genesis of
+Senate Bill 1555.
+
+Background
+Article VIII, Section 8 of the Oregon Constitution requires the Legislative Assembly to
+appropriate a “sufficient” amount of funding for K-12 education or issue a report about
+funding insufficiency. That requirement was enacted into law in 2000 with the passage
+of Ballot Measure 1. To comply with this requirement, the legislature needs to know how
+much is sufficient. To answer that question, the legislature created the Quality
+Education Commission (QEC) and the Quality Education Model (QEM) in 1999.
+An education cost model is a tool that helps states estimate the funding required to
+provide an adequate education for all students across all contexts within the state. The
+QEM is Oregon’s cost model for determining the sufficient amount of funding for K-12
+education. The QEC is a governor-appointed body, currently with seven members, that
+decides what inputs go into the QEM. The Oregon Department of Education (ODE) is
+tasked in law with supporting the QEC and, therefore, with running QEM. The QEM
+takes the inputs determined by the QEC, calculates the costs associated with those
+inputs across three prototype schools (one elementary, one middle, and one high
+school), and then scales that calculation statewide.
+The QEM report is issued in even-numbered years. In odd-numbered years, the
+legislature appoints the Joint Committee on Public Education Appropriation (JPEA) to
+consider the QEM report and issue its own report containing a sufficiency determination.
+
+Modernizing Oregon’s Education Cost Model
+In 2024, some QEC commissioners asked for funding to “modernize” the QEM. State
+Senator Michael Dembrow, then a member of the JPEA and Senate Education
+Committee chair, proposed conducting an outside evaluation before allocating more
+money to the QEM and included a requirement for that study in Senate Bill 1552 (2024).
+American Institutes for Research (AIR) completed the evaluation in 2025. The
+researchers found that in many ways, the QEM was not aligned with professional best
+practices, as enumerated in the “American Institutes for Research Evaluation of the
+Quality Education Model” report and presentation, which was delivered before the JPEA
+in October 2025.
+In November 2025, the JPEA found that the 2024 QEM report incorrectly calculated an
+insufficiency when the funding appropriation for the 2025–2027 biennium had, in fact,
+
+reached sufficiency for the first time. The details of the Legislative Fiscal Office’s
+findings are contained in the “Report on the Adequacy of Public Education Funding”
+presentation, specifically on slides 22 and 23, and a video of the presentation is
+available online.
+The co-chairs of the JPEA worked in the fall of 2025 on a new way for the legislature to
+calculate sufficiency based on the recommendations of the AIR evaluation. The report
+adopted by the JPEA identified the following nine opportunities for improvement:
+1. Build alignment in education goals
+2. Rely on neutral experts
+3. Use best practices in education research
+4. Itemize changes in the model’s cost inputs and discuss those in the report
+5. Conduct a quality review of the financial codes used in the QEC’s calculations
+6. Increase transparency of the calculations
+7. Account for the variation of needs across schools
+8. Enhance the scale-up assumptions
+9. Develop a roadmap for educators
+
+Senate Bill 1555
+SB 1555 was introduced by the JPEA to implement the recommendations from the
+evaluation and address the opportunities for improvement identified in the JPEA’s 2025
+report. The measure does the following:
+•
+•
+•
+•
+•
+•
+•
+
+Changes the educational goals on which the cost model rests to be measurable
+and calculable
+Places the work of selecting the cost model’s inputs with professional judgment
+panels of currently practicing Oregon educators
+Places the work of determining a total cost for the model into the hands of neutral
+expert researchers who will be awarded a contract based on their track record of
+best practices
+Requires a legislative public hearing prior to the adoption of the new cost model
+Requires the cost model to account for variation across Oregon’s schools
+Requires communication of the cost model’s inputs to Oregon’s school districts,
+which has not taken place under the current system
+Maintains the cost model’s stability for eight years, providing for an updated
+dollar amount every biennium
+
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+Page |2
+
+
