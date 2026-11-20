@@ -71,6 +71,13 @@ report's figures to avoid mixing baselines.
   answers part of this: Oregon ranked 20th in state-sourced per-pupil funding (2024 Census) and would rise to 12th
   at the full QEM level [SRC:ode/qec/2026_qem_report.pdf p.117]. Analysis: the two claims measure different things
   (total vs. state-sourced spending), so check the opponents' figure before rebutting it.
+- The Legislature's own sufficiency report (Joint Committee on Public Education Appropriation, Nov 2025) says
+  2025-27 state funding "effectively closes the funding gap and allows for the full implementation of the QEM"
+  [SRC:legislature/olis/2025I1/310695_jpea.pdf p.4]. Analysis: that compares 2025-27 funding to the 2024 QEM; the
+  2026 QEM sets a new, higher bar for 2027-29, so a flat budget reopens the gap. Expect budget writers to cite it
+  (see `people/ruiz.md`).
+- Ways & Means co-chairs Lieber and Sanchez said in May 2026 they saw no reason yet to tap the Education Stability
+  Fund [NEWS:NEWS-20260510-wweek-1]. See `people/lieber.md`, `people/sanchez.md`.
 
 ## Timing
 The Governor's Recommended Budget, released in December, "will be based on this revenue forecast" (Nov 18)

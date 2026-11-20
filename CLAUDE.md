@@ -26,6 +26,7 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
      - `gov/` Governor's office: recommended budgets, press releases, executive orders, letters
      - `legislature/olis/<session>/<docId>_<slug>.pdf` committee meeting documents from OLIS
      - `legislature/bills/` measure text and staff measure summaries
+     - `legislature/press/` caucus and committee press releases; `legislature/appointments/` committee assignment memos
      - `ode/` Oregon Department of Education, incl. `ode/qec/` Quality Education Commission reports and minutes
      - `fiscal/oea/` Office of Economic Analysis forecasts; `fiscal/lfo/` Legislative Fiscal Office; `fiscal/lro/` Legislative Revenue Office
      - `districts/<district>/` district budget documents; `orgs/<org>/` advocacy and association documents
