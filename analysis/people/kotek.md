@@ -43,10 +43,11 @@ Budget for 2027-29 in December [NEWS:NEWS-2026-salemreporter-1].
     decisions are made" [SRC:gov/letters/2026-10-13_kotek-letter-to-pps-school-closures.pdf p.1].
   - "Taking the time to get this right is not a delay in making difficult decisions, but rather an essential part
     of the commitment to community partnership." [SRC:gov/letters/2026-10-13_kotek-letter-to-pps-school-closures.pdf p.1]
-  - Asked for clear, transparent information on the data, the factors considered and the tradeoffs [SRC:gov/letters/2026-10-13_kotek-letter-to-pps-school-closures.pdf p.1].
-  - Analysis: the letter is about process. It does not ask PPS to withdraw or pause its plans, sets no timeline,
-    and says nothing about state funding, the State School Fund or reserves [SRC:gov/letters/2026-10-13_kotek-letter-to-pps-school-closures.pdf p.1]. OPB's account
-    [NEWS:NEWS-20261014-opb-1] matches the text.
+  - Said every family deserves clear, transparent information on the data, the factors considered and the
+    tradeoffs [SRC:gov/letters/2026-10-13_kotek-letter-to-pps-school-closures.pdf p.1].
+  - Analysis: the letter is about process. It asks PPS to slow down for engagement but does not ask it to withdraw its
+    plans, sets no timeline, and says nothing about state funding, the State School Fund or reserves [SRC:gov/letters/2026-10-13_kotek-letter-to-pps-school-closures.pdf p.1]. OPB's account
+    [NEWS:NEWS-20261014-opb-1] is consistent with the text.
 - "Portland needs to do everything it possibly can to cut administrative costs and other things before it talks
   about closing schools." [NEWS:NEWS-2026-katu-kotek-pps-1]
 
