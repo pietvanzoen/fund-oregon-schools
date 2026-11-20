@@ -12,8 +12,10 @@
 - 2027 session start date and Ways & Means calendar.
 - 2027 committee assignments: House Ways & Means co-chair and the Education Subcommittee's members (Sollman is
   leaving; check Weber, Ruiz and the rest). Ruiz's and Sanchez's Nov 2026 results. Update `people/legislators.csv`.
-- After the fetch-sources run: check the press-release quotes in `people/lieber.md`, `sanchez.md`, `ruiz.md`,
-  `sollman.md` against the archived text and add page numbers.
+- SB 1555: the staff measure summary (`legislature/olis/2026R1/312317_sb1555-staff-measure-summary.pdf`) failed to
+  fetch; retry or find another URL, and confirm the bill's final status in its OLIS history.
+- `legislature/press/house-dems-members_page.html` archived without the member list (loaded by script); no longer
+  cited. Save it from a browser if a House Democrats roles source is needed.
 - Governor's office phone and contact form, verified before sending to parents.
 
 ## Sources to find and queue (no URL yet)
