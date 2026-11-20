@@ -43,7 +43,7 @@ for _slug in PEOPLE:
 FILE_TO_PAGE = {v: k for k, v in MD_PAGES.items()}
 FILE_TO_PAGE.update({
     "promises.csv": "promises.md",
-    "people/quotes_all.jsonl": "said.md",
+    "people/quotes_all.jsonl": "quotes.md",
     "people/legislators.csv": "who-decides.md",
     "data/qem_gap.csv": "numbers.md",
     "data/ssf_history.csv": "numbers.md",
@@ -153,7 +153,7 @@ def file_refs(text, from_page, src_file):
 
 PAGE_TITLES = {
     "index.md": "the briefing", "timeline.md": "timeline", "reserves.md": "reserves",
-    "promises.md": "promises tracker", "said.md": "what they've said", "who-decides.md": "who decides",
+    "promises.md": "promises tracker", "quotes.md": "what they've said", "who-decides.md": "who decides",
     "numbers.md": "the numbers", "people/kotek.md": "Kotek", "people/lieber.md": "Lieber",
     "people/sanchez.md": "Sanchez", "people/ruiz.md": "Ruiz", "people/sollman.md": "Sollman",
 }
@@ -445,7 +445,7 @@ def on_files(files, config):
     pages = {page: from_analysis(page, src, ctx) for page, src in MD_PAGES.items()}
     pages.update({
         "numbers.md": numbers_page(ctx),
-        "said.md": said_page(ctx),
+        "quotes.md": said_page(ctx),
         "promises.md": promises_page(ctx),
         "who-decides.md": who_page(ctx),
         "sources.md": sources_page(ctx),
