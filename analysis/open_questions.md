@@ -4,7 +4,6 @@
 - November forecast change: news reported ~$245M [NEWS:NEWS-20261118-klcc-1]; DAS's own release reportedly says
   $233M. Archived: read Table B.1b (2027-29, previous vs current forecast) at
   [SRC:fiscal/oea/2026-12_forecast.pdf p.63]; the text extraction scrambles the table, so check the PDF page.
-- Text of the EO 26-06 FAQ (on using the Education Stability Fund) [NEWS:NEWS-20260416-ktvz-1].
 - Date of the Faubion School press event [NEWS:NEWS-2026-salemreporter-1].
 - Source for the claim that Oregon spends above the national average per student (the QEM report gives Oregon's
   state-sourced rank as 20th [SRC:ode/qec/2026_qem_report.pdf p.117]; find the total-spending figure opponents use).
@@ -16,8 +15,6 @@
 ## Sources to find and queue (no URL yet)
 - Legislative Fiscal Office: 2025-27 budget highlights (K-12 section); 2027-29 CSL documents.
 - Current (2026) Education Stability Fund balance; the queued LRO brief is from Nov 2025.
-- EO 26-06 order text (PDF): not linked in the archived press release or ODE page HTML (likely added by script);
-  find the direct PDF link in a browser.
 - Kotek's Oct 13, 2026 letter to PPS: not posted publicly; ask PPS board members or request it from the Governor's office.
 - ODE State School Fund formula guide and district payment estimates.
 - OSBA State School Fund tracker; COSA and OEA budget positions; Oregon Center for Public Policy analyses.

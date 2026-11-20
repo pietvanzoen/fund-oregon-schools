@@ -25,7 +25,10 @@ Asking her to fund goals she did set (instructional time, attendance, SB 141 tar
 | What | Source |
 |---|---|
 | Instructional time to the national average by the end of her second term | [NEWS:NEWS-20260917-opb-1] |
-| Executive order: no cuts to instructional time; restore 2024-25 levels by 2027-28, with no money attached | [NEWS:NEWS-20260416-wweek-1] |
+| Executive order: no cuts to instructional time; restore 2024-25 levels by 2027-28 | [SRC:gov/eo/eo-26-06_preserving-instructional-time.pdf p.2] |
+| Her office on that order: "Is this just another 'unfunded mandate'?" Answer: "No."; money to come from "within the existing budget" | [SRC:gov/eo/eo-26-06_faq.pdf p.3] [SRC:gov/eo/eo-26-06_faq.pdf p.2] |
+| Her office admits current funding "may not be sufficient for some school districts to cover increasing costs" | [SRC:gov/eo/eo-26-06_faq.pdf p.2] |
+| SB 141, whose targets come due in 2029-30, was her bill | [SRC:ode/accountability/2025-12_sb141-progress-report.pdf p.5] |
 | SB 141 targets due 2029-30 (8th-grade math 29% → 52%); ODE said no new money needed | [NEWS:NEWS-20260429-oregonian-1] |
 | "my budget will be prioritizing education and particularly summer investments again" | [NEWS:NEWS-2026-salemreporter-1] |
 | Proposed $11.36B SSF for 2025-27 (+11%) | [NEWS:NEWS-20241203-osba-1] |
