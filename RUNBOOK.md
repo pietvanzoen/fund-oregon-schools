@@ -9,13 +9,17 @@ Answering questions needs none of this; see `.claude/skills/fund-oregon-research
 3. Commit to `main` (or merge a PR). The **fetch-sources** Action runs on any change to the queue: it downloads
    new rows, writes `<file>.txt`, appends to `sources/_manifest.jsonl`, runs the citation check and commits.
 4. You can also start it by hand: Actions → fetch-sources → Run workflow (tick "refresh" to re-download everything).
+5. Downloads are retried (3 attempts, on timeouts, connection errors, 429 and 5xx). If any row still fails, the run
+   still commits what did download, then turns red; the job summary lists each failed path, error and URL. Failed
+   rows stay in the queue: re-run the workflow, or fix the URL if the error is a 404.
 
 Why an Action: Claude's cloud sandbox can't reach oregon.gov or olis.oregonlegislature.gov; GitHub's runners can.
 On your own computer `python3 tools/fetch_sources.py` does the same (needs `pdftotext` from poppler for PDF text).
 
 ## Weekly refresh
 The Action re-fetches everything on Monday mornings. A changed document keeps its old copy in `<dir>/_prior/`
-and is logged in `sources/_versions_log.csv`. Watch `gov/budget/grb_page.html` around Dec 1 for the 2027-29
+and is logged in `sources/_versions_log.csv`. A document removed or moved upstream shows up as a failed download
+(the run turns red); the archived copy stays. Watch `gov/budget/grb_page.html` around Dec 1 for the 2027-29
 budget link, then queue the budget PDFs themselves.
 
 ## Things the fetcher can't do
