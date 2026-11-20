@@ -1,0 +1,61 @@
+/* Citation chips */
+.cite { display: inline-block; font-size: .72em; line-height: 1.5; padding: 0 .45em; margin: 0 .1em;
+  border-radius: 999px; border: 1px solid var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color--light) !important; white-space: nowrap; vertical-align: .1em;
+  text-decoration: none; }
+a.cite:hover, a.cite:focus { border-color: var(--md-accent-fg-color); color: var(--md-accent-fg-color) !important; }
+
+/* Analysis: boxed paragraphs and inline tags */
+.md-typeset .admonition.analysis { border-color: #8a6d3b; }
+.md-typeset .analysis > .admonition-title { background-color: rgba(138, 109, 59, .1); }
+.md-typeset .analysis > .admonition-title::before { background-color: #8a6d3b;
+  -webkit-mask-image: var(--md-admonition-icon--question); mask-image: var(--md-admonition-icon--question); }
+span.analysis { background: rgba(138, 109, 59, .08); border-radius: 3px; padding: 0 .2em; }
+.analysis-tag { font-size: .68em; font-weight: 700; text-transform: uppercase; letter-spacing: .04em;
+  color: #8a6d3b; margin-right: .3em; }
+[data-md-color-scheme="slate"] .analysis-tag { color: #d9b77a; }
+
+/* Pills, meta */
+.pill { display: inline-block; padding: .05em .5em; border-radius: 4px; font-size: .9em;
+  background: var(--md-default-fg-color--lightest); }
+.pill-warn { background: rgba(200, 120, 0, .12); }
+.muted, .page-meta { color: var(--md-default-fg-color--light); font-size: .75em; }
+
+/* Charts: one hue for magnitude; lighter step for the no-new-money baseline */
+.md-typeset figure.chart { display: block; width: 100%; max-width: 620px; margin: 1.5em 0; }
+.md-typeset .chart svg { display: block; width: 100%; max-width: 100%; height: auto; overflow: visible; }
+.chart .grid { stroke: var(--md-default-fg-color--lightest); stroke-width: 1; }
+.chart .tick, .chart .sublabel { fill: var(--md-default-fg-color--light); font-size: 12px; }
+.chart .label { fill: var(--md-default-fg-color); font-size: 14px; font-weight: 600; }
+.chart .value { fill: var(--md-default-fg-color); font-size: 14px; font-weight: 600; }
+.chart .hit { fill: transparent; }
+.chart .s-main .mark { fill: #2a78d6; }
+.chart .s-base .mark { fill: #9cc0ec; }
+[data-md-color-scheme="slate"] .chart .s-main .mark { fill: #3987e5; }
+[data-md-color-scheme="slate"] .chart .s-base .mark { fill: #2c4f7a; }
+.chart .bar:hover .mark, .chart .bar:focus .mark { opacity: .85; }
+.chart .bar:focus { outline: none; }
+.chart figcaption { font-size: .75em; color: var(--md-default-fg-color--light); text-align: left; }
+.chart-tip { position: fixed; z-index: 10; pointer-events: none; padding: .35em .6em; border-radius: 4px;
+  font-size: .7rem; background: var(--md-default-fg-color); color: var(--md-default-bg-color); max-width: 280px; }
+
+/* Quotes */
+.quote-filter { display: flex; flex-wrap: wrap; gap: .4em; margin: 1em 0; }
+.quote-filter button { border: 1px solid var(--md-default-fg-color--lightest); border-radius: 999px;
+  padding: .2em .8em; font-size: .75rem; cursor: pointer; color: var(--md-default-fg-color); }
+.quote-filter button[aria-pressed="true"] { background: var(--md-accent-fg-color); color: #fff;
+  border-color: var(--md-accent-fg-color); }
+.quote-card { border-left: 3px solid var(--md-accent-fg-color); padding: .2em 1em; margin: 1em 0;
+  background: var(--md-code-bg-color); border-radius: 0 4px 4px 0; }
+.md-typeset .quote-card blockquote { border: 0; padding: 0; margin: .6em 0 .3em; font-size: 1.05em;
+  color: var(--md-default-fg-color); }
+.quote-card .who { margin: .2em 0; }
+.quote-card .context { margin: .2em 0 .6em; font-size: .8em; color: var(--md-default-fg-color--light); }
+
+/* Promises */
+.promise-card { border: 1px solid var(--md-default-fg-color--lightest); border-radius: 6px; padding: .4em 1em; margin: 1em 0; }
+.md-typeset .promise-card .promise { font-size: 1.05em; font-weight: 600; margin: .5em 0 .2em; }
+.md-typeset .promise-card .who { margin: 0 0 .5em; color: var(--md-default-fg-color--light); font-size: .85em; }
+.md-typeset .promise-card dl { display: grid; grid-template-columns: max-content 1fr; gap: .3em 1em; margin: 0 0 .6em; font-size: .85em; }
+.md-typeset .promise-card dt { font-weight: 600; margin: 0; }
+.md-typeset .promise-card dd { margin: 0; }

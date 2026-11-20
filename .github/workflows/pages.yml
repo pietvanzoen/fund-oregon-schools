@@ -1,0 +1,51 @@
+name: website
+
+# Builds the public site from analysis/ and sources/ on every PR (to catch breakage) and deploys it to
+# GitHub Pages on pushes to main. Repo setting needed once: Settings → Pages → Source: GitHub Actions.
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # full history for "last updated" dates
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install MkDocs
+        run: pip install "mkdocs>=1.6,<2" "mkdocs-material>=9.7,<10"
+      - name: Citations and data files
+        run: python3 tools/check_citations.py
+      - name: Build site
+        run: mkdocs build --strict
+      - if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

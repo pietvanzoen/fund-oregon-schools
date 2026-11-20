@@ -1,0 +1,63 @@
+# Public website for the research archive, published to GitHub Pages by .github/workflows/pages.yml.
+# Pages are generated from analysis/ and sources/ by tools/site_hook.py; only About lives in website/.
+site_name: Fund Oregon Schools
+site_description: Cited research for parents asking Oregon to fund K-12 schools in the 2027-29 budget
+site_url: https://pietvanzoen.github.io/fund-oregon-schools/
+repo_url: https://github.com/pietvanzoen/fund-oregon-schools
+repo_name: Research archive on GitHub
+edit_uri: ""
+docs_dir: website
+site_dir: public
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - content.tooltips
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey
+      accent: blue
+      toggle: {icon: material/weather-night, name: Dark mode}
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      accent: blue
+      toggle: {icon: material/weather-sunny, name: Light mode}
+  icon:
+    repo: fontawesome/brands/github
+
+hooks:
+  - tools/site_hook.py
+
+extra_css: [assets/site.css]
+extra_javascript: [assets/site.js]
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - The briefing: index.md
+  - The numbers: numbers.md
+  - What they've said: said.md
+  - Promises tracker: promises.md
+  - Timeline: timeline.md
+  - People:
+      - Who decides: who-decides.md
+      - Gov. Tina Kotek: people/kotek.md
+      - Sen. Kate Lieber: people/lieber.md
+      - Rep. Tawna Sanchez: people/sanchez.md
+      - Rep. Ricki Ruiz: people/ruiz.md
+      - Sen. Janeen Sollman: people/sollman.md
+  - Reserves: reserves.md
+  - Sources: sources.md
+  - About this site: about.md
