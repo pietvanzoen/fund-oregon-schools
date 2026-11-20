@@ -2,7 +2,7 @@
 # Pages are generated from analysis/ and sources/ by tools/site_hook.py; only About lives in website/.
 site_name: Fund Oregon Schools
 site_description: Cited research for parents asking Oregon to fund K-12 schools in the 2027-29 budget
-site_url: https://pietvanzoen.github.io/fund-oregon-schools/
+site_url: https://fundoregonschools.info/
 repo_url: https://github.com/pietvanzoen/fund-oregon-schools
 repo_name: Research archive on GitHub
 edit_uri: ""

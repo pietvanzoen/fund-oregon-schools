@@ -3,7 +3,7 @@
 A source archive and cited analysis for a parent campaign asking **Gov. Tina Kotek and the 2027 Oregon
 Legislature to fund K-12 public schools in the 2027-29 budget**.
 
-**Browse it:** <https://pietvanzoen.github.io/fund-oregon-schools/>, a readable website built from this repo.
+**Browse it:** <https://fundoregonschools.info>, a readable website built from this repo.
 
 **Start here:** [`analysis/BRIEFING.md`](analysis/BRIEFING.md): the ask, the numbers, Kotek's own words, weak points.
 
