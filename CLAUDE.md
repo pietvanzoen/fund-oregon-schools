@@ -26,6 +26,7 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
      - `gov/` Governor's office: recommended budgets, press releases, executive orders, letters
      - `legislature/olis/<session>/<docId>_<slug>.pdf` committee meeting documents from OLIS
      - `legislature/bills/` measure text and staff measure summaries
+     - `legislature/press/` caucus and committee press releases; `legislature/appointments/` committee assignment memos
      - `ode/` Oregon Department of Education, incl. `ode/qec/` Quality Education Commission reports and minutes
      - `fiscal/oea/` Office of Economic Analysis forecasts; `fiscal/lfo/` Legislative Fiscal Office; `fiscal/lro/` Legislative Revenue Office
      - `districts/<district>/` district budget documents; `orgs/<org>/` advocacy and association documents
@@ -44,6 +45,15 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
 7. Describe members of the public, don't name them. Officials, legislators, staff and organizations can be named.
 8. Prefer structured outputs (CSV/JSONL) alongside readable Markdown. Every CSV row has a `source` column.
 9. Run `python3 tools/check_citations.py` before committing analysis changes. CI runs it too.
+10. **Independent fact-check before a PR is ready.** When a session adds research (new or changed files in
+    `analysis/`, new news records, new quotes), it starts a separate fact-checker agent before asking for a merge.
+    The fact-checker starts fresh: it gets the branch, this file and a neutral checklist, not the session's reasoning
+    or notes on what's uncertain. It reports only (no edits, pushes or GitHub comments). Checklist: every quote verbatim,
+    correctly attributed and on the cited page; every factual sentence supported by its citation without
+    overstatement; news summaries in own words, quotes under 25 words; "Analysis:" kept apart from fact and nothing
+    unfair to a named official; uncited claims; both tool checks pass. Claims resting on queued, unfetched sources are
+    reported as "verify after fetch", not guessed. The session verifies each finding against the source before fixing
+    it, and the PR description says what the fact-check found and what changed.
 
 ## Key files
 - `sources/_queue.csv` — what to fetch (url, path, title, date, kind, notes)

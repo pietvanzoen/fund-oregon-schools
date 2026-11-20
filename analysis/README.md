@@ -4,6 +4,8 @@
 |---|---|
 | `BRIEFING.md` | The campaign position: ask, numbers, Kotek's words, weak points, timing |
 | `people/kotek.md` | Kotek's record and statements on school funding and outcomes |
+| `people/legislators.csv` | Budget-writing legislators: district, official page, 2025-26 and 2027 roles |
+| `people/lieber.md`, `sanchez.md`, `ruiz.md`, `sollman.md` | Ways & Means co-chairs and Education Subcommittee co-chairs |
 | `people/quotes_all.jsonl` | Verbatim, dated, cited quotes (`person, role, date, quote, context, cite, confidence`) |
 | `promises.csv` | Pledges and mandates: who, when, what, whether money is attached, status |
 | `data/ssf_history.csv` | State School Fund by biennium and budget stage |
