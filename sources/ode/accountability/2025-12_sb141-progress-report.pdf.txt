@@ -1,0 +1,1177 @@
+Report on the
+Implementation of
+Senate Bill 141
+Building Shared Accountability within Oregon’s
+K-12 Education System
+
+December 2025
+
+Oregon Department of Education
+
+Report on the Implementation of Senate Bill 141
+
+Table of Contents
+A Message from the Director ........................................................................................................ 2
+Executive Summary ....................................................................................................................... 4
+Background: Legislative Requirements and Agency Commitments .............................................. 5
+Making Progress Toward Shared Accountability ........................................................................... 6
+Rules and Reports directed by Senate Bill 141 ............................................................................ 10
+Closing......................................................................................................................................... 12
+Appendices ................................................................................................................................. 13
+
+1
+
+Report on the Implementation of Senate Bill 141
+
+A Message from the Director
+Dear members of the Oregon Legislative Assembly,
+Thank you for your leadership and commitment to Oregon’s students.
+Senate Bill 141—also known as the 2025 Education Accountability Act—is a major legislative
+achievement that creates a new statewide system for improving student outcomes and
+strengthening accountability throughout Oregon’s K-12 education system. The law, passed with
+significant effort from lawmakers and support from education partners, sets clear expectations
+for school districts and the state, and provides clear authority for the Oregon Department of
+Education (ODE) to implement a new shared accountability framework. Senate Bill 141 charts
+the course for a foundational shift in how ODE collaborates with and delivers services to
+Oregon’s school districts and students by:
+•
+
+Measuring student outcomes using an expanded list of statewide metrics (e.g., earlygrade attendance, third-grade reading, eighth-grade math, graduation rates) and
+ensuring that this data is used to drive continuous improvement.
+
+•
+
+Setting local performance growth targets and requiring districts to show progress.
+
+•
+
+Providing defined, dynamic, and differentiated supports for districts, ranging from
+technical assistance to coaching to state-directed use of funds.
+
+•
+
+Reducing administrative burden by consolidating grant application processes and
+reporting at the state level.
+
+•
+
+Increasing transparency through data visualizations and improved access to financial
+and academic data.
+
+The passage of Senate Bill 141 reflects a shared commitment to improving outcomes and
+ensuring that resources and strategies are aligned with the agency’s five Priorities for Student
+Success 1. ODE has been implementing this legislation since the publication of our original action
+plan in June 2025. We have already made meaningful progress, including:
+•
+
+Reorganizing internally to strengthen ODE’s capacity to align and focus how we
+support school districts in meaningful ways.
+
+ODE Priorities for Student Success: High-quality learning experiences; aligned and focused educational systems;
+engaged partners and communities; safe and inclusive schools; and committed and supported staff.
+
+1
+
+2
+
+Report on the Implementation of Senate Bill 141
+•
+
+Transitioning ODE’s district support system to a regional delivery model, enabling more
+strategic, targeted, and comprehensive resource deployment.
+
+•
+
+Engaging with 34 school districts to begin streamlining reporting processes and
+consolidating grant applications, including piloting a unified application.
+
+•
+
+Launching data dashboards with user-friendly visuals and longitudinal data, making
+school, district, and state spending and performance information accessible for districts
+and the public, and enabling year-over-year analysis.
+
+•
+
+Developing the initial administrative rules that establish clear targets, measure
+improvement, and track progress.
+
+These efforts, and others, lay the groundwork for a more efficient, responsive, and outcomesfocused K-12 education system led by Oregon’s state education agency.
+While there is more work ahead, we are excited about the path forward. This progress has been
+made possible through collaboration with education leaders, tribal governments, community
+partners, and our dedicated staff. Together, we are building a system that is responsive,
+equitable, and focused on student success.
+Thank you again for your partnership, commitment, and ongoing support as we continue the
+critical work ahead.
+
+Sincerely,
+Dr. Charlene Williams
+Deputy Superintendent of Public Instruction
+Director, Oregon Department of Education
+
+3
+
+Report on the Implementation of Senate Bill 141
+
+Executive Summary
+Senate Bill 141 (2025), also known as the 2025 Education Accountability Act, was introduced by
+Governor Tina Kotek and passed by the Oregon Legislative Assembly during the 2025 legislative
+session. SB 141 is designed to strengthen and expand Oregon’s education accountability system
+through shared responsibility, public transparency, streamlined state processes, and enhanced
+oversight and support of school districts to drive improvements in student outcomes. This
+shared accountability framework spans all levels of Oregon’s K-12 education system, including
+the Oregon Department of Education (ODE), the Legislature, Education Service Districts (ESDs),
+Tribes, school districts, education partners, and community organizations.
+Key provisions of Senate Bill 141 include:
+•
+
+Establishing a clear set of evidence-based metrics to monitor student outcomes and
+requiring districts to set measurable improvement goals beginning in the 2026-27 school
+year;
+
+•
+
+Granting ODE explicit authority to monitor district progress, reinforce successful
+practices, and provide support or direction as needed; and
+
+•
+
+Reducing administrative barriers that divert time and attention from teaching and
+learning.
+
+Section 34 of the Act directs ODE to report to the interim committees of the Legislative
+Assembly a summary of:
+(1) The administrative and organizational changes made to the department between January 1,
+2025, and December 1, 2025, to:
+(a) Improve grant consolidation, reporting, data collection and public transparency
+before the 2026-27 school year;
+(b) Improve and align internal operations across programs and offices in the department
+before the 2026-27 school year; and
+(c) Organize state and regional efforts to elevate best practices and responsive support
+for school districts before the 2026-27 school year.
+(2) The status of the implementation of the provisions of this 2025 Act.
+
+4
+
+Report on the Implementation of Senate Bill 141
+
+Background: Legislative Requirements and Agency Commitments
+In June 2025, the Oregon Department of Education (ODE) began implementing Senate Bill 141
+and established internal structures to deliver this work. As implementation progressed, ODE
+identified additional opportunities to better align implementation with legislative intent and
+position the agency to successfully achieve the outcomes outlined in the bill. Since its passage,
+implementation efforts have evolved, and these refinements are reflected in the updated
+implementation plan (Appendix A).
+While SB 141 outlines specific requirements related to reporting, rulemaking, and key supports
+for districts, ODE has also committed to additional actions that focus on internal transformation
+to better serve districts and education partners; many of these efforts are currently underway.
+
+2023-2024
+
+• HB 2656* Passes, Advisory Committee Meets, and
+Accountability Report is Published
+
+2025 Session
+
+• Oregon Legislature Passes Senate Bill 141
+
+July 2025
+
+• ODE Realigns Operational Structure
+
+October 2025
+
+• Initial Formal Rulemaking Launches
+
+December 2025
+
+• ODE Reports on Implementation Progress
+
+*HB 2656 (2023) directed the establishment of an advisory committee to explore options for
+expanding or revising Oregon’s educational accountability framework.
+
+5
+
+Report on the Implementation of Senate Bill 141
+
+Making Progress Toward Shared Accountability
+ODE has laid the foundation to consolidate grants, increase public transparency through access
+to educational data and information, and expand the existing continuum of district supports.
+Grant Consolidation and Unified Application District Pilot
+Districts and ODE expend significant resources to process grant applications and administer
+grant funding. Through ODE’s myriad grant-in-aid programs, districts provide information via
+the application process, the grant agreement and execution process, and through performance
+and budget reporting. The information required from districts is often unintentionally
+redundant, misaligned, or inconsistently accessible across programs, creating inefficiencies.
+Through the Grant Consolidation and Unified Application District Pilot, ODE will seek a targeted,
+more focused, and broadly applicable set of information from districts. This will reduce the
+overall time spent on reporting, increase the utility of the information provided to support
+data-informed decision making, and increase resources available for teaching and learning.
+Since passage of Senate Bill 141, ODE has:
+•
+
+Identified redundancies in grant reporting. ODE reviewed all grant reporting
+requirements imposed on school districts and identified unintentional redundancies;
+ODE also identified district reports that can be decreased in frequency, eliminated, or
+consolidated.
+
+•
+
+Leveraged national expertise. ODE contracted with nationally recognized consultants
+(Watershed Advisors) to learn from other states’ grant reduction/consolidation efforts.
+The consultants work closely with ODE and district staff to review and consolidate the
+application questions, develop the technological tools and system functionality to
+collect information, and provide key insights and learnings from other states to inform
+Oregon's approach and help navigate challenges and barriers.
+
+•
+
+Launched Unified Application Pilot Program. ODE is collaborating with 34 school
+districts representing small, medium, large, rural, and urban communities 2 to pilot the
+unified grant application in the 2026-27 academic year. This pilot application will launch
+in spring 2026 for funding during the 2026-27 academic year and will provide crucial
+
+Adel SD 21, Arock SD 81,Black Butte SD 41 (K-8) then goes to Sisters, Burnt River SD 30J, Dayville SD 16J, Diamond
+SD 7, Double O SD 28, Drewsey SD 13, Frenchglen SD 16, Harney County SD 3, Hillsboro SD 1J, Huntington SD 16J,
+Jordan Valley SD 3, Juntura SD 12, Lincoln County School District, Long Creek SD 17, Mapleton SD 32, McDermitt,
+Monument SD 8, North Clackamas SD 12, Pine Creek SD 5, Pine Eagle SD 61, Pinehurst SD 94, Plush SD 18, Portland
+SD 1J, Reynolds SD 7, Roseburg School District (Douglas County SD4), Salem-Keizer SD 24J, South Harney SD 33,
+Spray SD 1, Suntex SD 10, Troy SD 54, Ukiah SD 80R, and Vernonia SD 47J.
+
+2
+
+6
+
+Report on the Implementation of Senate Bill 141
+
+feedback and insight to support a scaled, statewide launch of the unified application in
+the future.
+Increasing Public Transparency of K-12 Education
+Oregon’s K-12 education system is complex, but access to information about it shouldn’t be.
+ODE is increasing transparency and public accessibility about the performance of the education
+system through improved data collection, data stewardship, and data visualization. By
+collecting the right data from the right entities at the right time; ensuring integrity, consistency,
+and regularity in the data collected; and understanding the goal of informing different
+audiences for different reasons, ODE is evolving the infrastructure and systems used to make
+public information truly accessible. Ultimately, this will enable identification of trends, gaps,
+and successes over time, and support targeted, data-informed decision-making on behalf of
+districts, ODE, and the state legislature.
+Since passage of Senate Bill 141, ODE has:
+•
+
+Leveraged industry expertise. ODE contracted with nationally recognized leaders
+(Gartner) and conducted a needs assessment of the agency’s data governance structure
+and business intelligence architecture. The consultant provided key insights into ODE’s
+internal practices, systems, and infrastructure that impact data collection, reporting,
+and transparency. These insights are critical inputs as ODE evolves tools and standards
+for data collection, data reporting, and data sharing.
+
+•
+
+Completed environmental scan, sought feedback on design and end-user experience.
+ODE contracted with partners at the University of Oregon’s Behavioral Research and
+Teaching to complete a 50-state scan of state education agency data dashboards. The
+findings included recommendations regarding design features and technical
+architecture; design features were vetted during education and community partner
+engagements.
+Launched early data dashboards. ODE launched several fiscal transparency dashboards 3
+featuring user-friendly visualizations and longitudinal data views that make school,
+district, and state resource and spending allocations accessible to taxpayers, enabling
+year-over-year analysis to promote efficient and effective investments. These early
+
+•
+
+Legislators & Policymakers:
+https://www.oregon.gov/ode/schools-and-districts/FiscalTransparency/Pages/Legislators-and-Policymakers.aspx
+Parents & Community: https://www.oregon.gov/ode/schools-anddistricts/FiscalTransparency/Pages/Understanding-Your-School%27s-Finances.aspx
+School & District Administrators: https://www.oregon.gov/ode/schools-anddistricts/FiscalTransparency/Pages/School-Administrators-and-District-Finance-Managers.aspx
+3
+
+7
+
+Report on the Implementation of Senate Bill 141
+
+version dashboards will be refined over time based on feedback from partners, the
+public, and other interested users.
+•
+
+Established centralized webpages. ODE consolidated its research and data briefs to a
+centralized webpage 4 for partners to view information on assessments, curriculums,
+funding, report cards, and other reports. ODE repeated the approach to consolidate all
+statewide student, school, and education workforce surveys on a centralized webpage. 5
+
+•
+
+Reestablished Chart of Accounts (COA) committee. ODE engaged districts through
+surveys and consulted software vendors on feasibility. In addition, ODE reformed the
+Program, Budget, and Accounting Manual (PBAM) and COA to expand accounting
+guidance, added grant codes for improved tracking of restricted funds, and refined
+definitions to support consistency and training, especially for smaller districts.
+
+Enhancing District Performance and Continuum of Supports
+ODE’s current approach to supporting school districts can feel fragmented, inconsistent, and at
+times incomplete. ODE and districts lack shared clarity on when support or intervention occurs,
+what it looks like, and what the indicators are that it is successful. ODE seeks to expand and
+strengthen its defined, dynamic, and differentiated continuum of supports aligned with the
+Priorities for Student Success. Through targeted, prioritized, and responsive support provided
+by a single, coordinated ODE team, every district will have what they need to improve district
+performance and ultimately student outcomes.
+Since passage of Senate Bill 141, ODE has begun:
+•
+
+Developing a Regional Support Team delivery model. ODE launched an effort to evolve
+its system of district supports to a regional delivery model, enabling ODE to deploy
+supports and resources to districts in a more strategic, targeted, and comprehensive
+manner. These teams will hold primary responsibility for identifying gaps and needs
+across each region and developing a plan for holistic support. Instead of districts
+navigating multiple disconnected conversations, they’ll have a trusted partner who
+listens, brokers resources, and guides improvement using clear protocols. An initial
+phase of this expansion will accompany the Unified Application District Pilot, launching
+spring 2026 for the 2026-27 academic year.
+
+•
+
+Identifying training and support needs for ODE staff. Scaling its existing regional
+support team model will bring additional ODE staff into this functional structure,
+
+Oregon Department of Education : ODE Research and Data Briefs : Reports & Data : State of Oregon
+Oregon Department of Education : Statewide Student, School, and Education Workforce Surveys : Schools &
+Districts : State of Oregon
+4
+5
+
+8
+
+Report on the Implementation of Senate Bill 141
+
+requiring a level of training, coaching, and skill development over time to ensure all
+teams are equipped to effectively assess district performance and needs, and the need
+to develop strategies to deliver targeted support.
+•
+
+Establishing 25 essential practices in alignment with the Priorities for Student Success.
+Evidence-based best practices are critical to district performance and student outcomes.
+ODE is aligning its continuum of supports to these 25 essential practices. This will inform
+Regional Support Teams’ use of the continuum of supports to provide necessary
+assistance depending on identified district needs. These practices are being codeveloped with ODE staff, experts, and districts.
+
+Internal Structure and Organization
+Over the past few biennia, ODE has experienced significant growth (in programs, personnel,
+and fiduciary responsibility). This growth has been primarily through accretion over time,
+presenting an opportunity to re-balance and re-align functional organization across the agency.
+The internal structure of the agency does not – and should not – be recognized as an
+independent priority or work effort. However, internal alignment around organizational
+priorities, clear and shared expectations and definitions of success, and continuous orientation
+to improving student outcomes flow most successfully from a balanced and aligned
+organizational structure. Disciplined project management is also a critical component of
+successful implementation of SB 141.
+Since passage of Senate Bill 141, ODE has:
+•
+
+Created a new agency leadership structure. ODE adopted a new agency leadership
+structure, establishing a Deputy Director of Academics, a Deputy Director of Operations,
+and a Strategic Initiatives Officer. This model was designed to improve operational
+efficiency, build leadership capacity and pipeline, and align agency staff, teams, and
+efforts more effectively around priority initiatives. ODE modified its leadership meeting
+structures and cadence to improve efficiency, strengthen internal communication, and
+build shared ownership and collaboration across the agency.
+
+•
+
+Reorganized the agency. ODE reorganized, resulting in the shifting of teams across the
+agency to better balance workloads and workflows and aligning teams around shared
+functions.
+
+•
+
+Developed intentional internal communication structure and approach. Clear and
+consistent internal communication and change management are critical to moving
+significant efforts forward. ODE developed an internal communications strategy coupled
+with a change management approach to ensure all ODE employees understand the
+9
+
+Report on the Implementation of Senate Bill 141
+
+priority outcomes of Senate Bill 141, feel empowered and prepared to carry that
+message forward, and see their individual role in ensuring collective success.
+•
+
+Established internal governance structure and project management for SB 141/Shared
+Accountability Implementation. Clear roles and responsibilities, and consistent
+monitoring and progress tracking are foundational elements to deliver the
+implementation of Senate Bill 141. The governance structure includes a steering team,
+workstreams, and task forces, as well as clear tracking and monitoring mechanisms to
+ensure adequate resources and collaboration.
+
+•
+
+Selected and onboarded consultant for Division 22/24 review. SB 141 directs thirdparty review of Divisions 22 and 24, which set standards for school districts and
+education service districts. ODE, through the Northwest Comprehensive Center, is
+working with Education Northwest to review existing rule compliance approaches and
+processes specific to Division 22 and Division 24 standards. The consultant will develop
+findings and recommendations, and ODE will update rules in 2026.
+
+Rules and Reports per Senate Bill 141
+Implementing SB 141 requires more than new systems and supports – it also requires clear,
+consistent rules to guide how the law is carried out across Oregon. As a result, there are many
+components of this bill that require ODE to develop and propose administrative rules for
+consideration and adoption by the State Board of Education (SBE).
+
+Adoption Date
+December 2025
+January 2026
+March 2026
+May 2026
+May 2026
+October 2028
+
+Rule Description
+
+Expanded Definitions (Section 2)
+Metrics & Targets (Sections 3 and 4)
+− Includes statewide performance targets, Local metrics,
+differentiated metrics, and performance growth targets.
+Repeal Publisher Fees (Section 27)
+Interim Tests (Sections 24 & 25)
+Chart of Accounts (Section 34)
+Meeting Performance Growth Targets (Sections 5 and 6)
+Intensive Coaching Program (Sections 8 and 9)
+Early Literacy (Section 26)
+
+SB 141 requires both new and significantly amended legislative reports, along with associated
+timelines and purposes. Each report is intended to inform the Legislative Assembly and
+education stakeholders, and where applicable, may include recommendations for future
+legislation.
+
+10
+
+Report on the Implementation of Senate Bill 141
+
+1. Reduction of Redundancies: ODE to prepare a report to the Legislative Assembly based
+on a study conducted to reduce reporting requirements that are imposed on districts.
+Report may include recommendations for legislation. Report to be submitted no later
+than December 15, 2026.
+2. Division 22 and Division 24: ODE to prepare a report that includes findings from the
+third-party review of Division 22 and Division 24 administrative rules. Report may
+include recommendations for legislative changes. Report to be submitted no later than
+December 15, 2026.
+3. Performance Growth Targets, Continuum of Supports, and Comprehensive
+Comparative Data: ODE to prepare an annual report on the implementation of the
+performance growth targets and continuum of supports, including an annual
+performance review for each school district, comprehensive comparative data on school
+districts and public education entities, and progress against established growth targets.
+Annual report to be submitted no later than February 1, 2028.
+4. English Language Learners: ODE to amend an already required report to include how
+each district is progressing toward meeting objectives and needs of ELL students,
+including progress of learners towards meeting performance growth targets. Annual
+report to be submitted by January 1 of each odd-numbered year.
+As Oregon moves from foundational implementation to full operationalization of Senate Bill
+141, the work completed in 2025 serves as a critical springboard for the next phase. These
+initial actions have positioned the department to meet statutory timelines and deliver on
+legislative intent. The coming year will focus on translating these structural changes into
+measurable outcomes for districts and students. This includes advancing rulemaking, piloting
+streamlined processes, and deepening engagement with education partners to ensure
+readiness for the 2026-27 school year. The following section outlines key actions for continued
+implementation.
+
+11
+
+Report on the Implementation of Senate Bill 141
+
+January 2026
+
+• Division 22 and Division 24 Review
+
+2026-27 School Year
+
+• Districts Implement Interim Assessments and
+Additional Metrics
+
+2026-27 School Year
+
+• Districts Pilot the Consolidated Grant Application
+and Reporting Process
+
+February 2028
+
+• ODE Publishes Legislative Report with District
+Performance Reviews
+
+2028-29 School Year
+
+• ODE Introduces Directed Coaching Program and
+Dynamic Public Dashboard
+
+2029-30 School Year
+
+• ODE Launches Revised Intensive Coaching
+Program
+
+Conclusion
+Through the ongoing, successful implementation of Senate Bill 141, the Oregon Department of
+Education is committed to improving student outcomes, reducing administrative burden for
+districts, setting clear and measurable statewide goals, driving continuous improvement
+through real-time data, and fostering collaboration with districts and education partners.
+Together, we are building a transparent, accountable system that balances sustained progress
+and calls attention to the urgency of the need for meaningful change. These efforts are
+designed to ensure that everyone who plays a part in Oregon’s education system can focus on
+our collective commitment to the success of the students we serve.
+
+12
+
+Report on the Implementation of Senate Bill 141
+
+Appendices
+Appendix A: ODE Implementation Plan
+Deadline
+Upon
+Passage of
+the Bill
+
+Fall 2025
+
+12/15/2025
+per SB141
+
+Winter
+2025
+
+Winter
+2025
+
+Bill
+Section
+
+Legislative Requirements
+Repeals ORS 337.065: Publisher Fees.
+
+27
+
+29
+
+34
+
+28
+
+2
+
+Requires ODE to contract with a public or private
+entity to review the administrative rule
+requirements that must be met for a school district
+to be considered standard under ORS 327.103 or an
+education service district to be considered standard
+under ORS 334.217.
+Requires ODE to submit a report provided by ORS
+192.245 to the Legislative Assembly no later than
+December 15, 2025 that includes the following:
+Administrative and organizational changes made to
+the department between 1/1/25 and 12/1/25 to
+improve:
+− Improve grant consolidation, reporting, data
+collection, and public transparency before the
+2026-27 school year;
+− Improve and align internal operations across
+programs and offices in the Department before
+the 2026-27 school year; and
+− Organize state and regional efforts to elevate
+best practices and responsive support for
+school districts before the 2026-27 school year;
+and
+Status on implementation of this 2025 Act.
+Requires ODE to study the reporting requirements
+imposed on school districts including:
+− Requirements for school districts to report to
+the department;
+− State reporting requirements that can be
+decreased in frequency, eliminated or
+consolidated;
+− State reporting requirements that can be aligned
+with federal reporting requirements, including
+any necessary changes to state programs to
+align with federal programs; and
+Redefines “school district” to include the following: a
+common school district or a union high school
+district, education service district (who has enrolled
+K-12 students for specialized services), public charter
+school, approved recovery school, the Youth
+Corrections Education Program, the Juvenile
+
+13
+
+ODE Strategy
+Follow standard procedures for
+rulemaking engagement. Draft
+administrative rule revisions
+based on partner engagement.
+Propose revised rule.
+Contract with NW Region
+Comprehensive Center to
+conduct a review of
+administrative rule
+requirements.
+Draft a report. Follow standard
+procedures for internal report
+review. Submit report.
+
+Identify all grant reporting
+requirements imposed on
+school districts. Review
+requested information for what
+can be decreased in frequency,
+eliminated, or consolidated.
+Align information requested
+with state and federal
+requirements.
+
+Follow standard procedures for
+rulemaking engagement. Draft
+administrative rule revisions
+based on partner engagement.
+Propose revised rule. Follow
+standard procedures for
+
+Report on the Implementation of Senate Bill 141
+
+Winter
+2025
+
+3
+
+Winter
+2025
+
+3
+
+Winter
+2025
+
+3
+
+Winter
+2025
+
+4
+
+Winter
+2025
+
+1/31/2026
+per SB141
+
+29
+
+25
+
+Detention Education Program; the Oregon School for
+the Deaf, and eligible day treatment programs and
+eligible residential treatment programs for education
+services to children who are in treatment programs.
+Adds metrics to previous growth targets including
+early grade attendance, eighth-grade mathematics,
+and local metrics (the State Board of Education will
+adopt a list of no more than 5 local metrics and the
+district will choose 1 metric).
+Requires ODE to establish metric targets for similar
+school districts, as determined by the department.
+including all metrics as well as gaps in disaggregated
+rates based on State Board-adopted statewide
+targets.
+
+Requires the State Board of Education to adopt rules
+for school districts that are not a common school
+district, a union high school district, or a public
+charter school to develop differentiated
+performance growth targets specific to their entity
+type.
+States new metrics, including early attendance, 8th
+grade mathematics, and local metrics, will first apply
+to school districts for the 2026-27 school year.
+When conducting the review of Division 22 and
+Divion 24 requirements, the entity shall identify:
+− Standards that best support student outcomes
+and that should be prioritized by the
+department and districts;
+− Standards that make less significant
+contributions to the support of student
+outcomes and can be removed; and
+− Effective methods for enforcing whether a
+district is standard.
+− A process for a person who resides in the
+district, or a parent or guardian of a student
+who attends school in the district, to submit a
+complaint about noncompliance with a
+standard, including timelines for investigating
+and resolving the complaint. The process may
+require the person, parent, or guardian to first
+attempt to resolve the complaint with the
+district when the complaint involves specific
+types of standards.
+The requirements set forth in Section 24 become
+operative on July 1, 2026. Requires State Board of
+Education to adopt a list of approved interim
+assessments no later than January 31, 2026. The
+amendments noted in Section 24 first apply to the
+2026-27 school year.
+
+14
+
+updating internal and external
+documents and materials with
+redefined language.
+Follow standard procedures for
+rulemaking engagement. Draft
+administrative rule revisions
+based on partner engagement.
+Propose revised rule.
+Draft definition for "similar
+districts". Follow standard
+procedures for feedback.
+Follow standard procedures for
+rulemaking engagement. Draft
+administrative rule revisions
+based on partner engagement.
+Propose revised rule.
+Follow standard procedures for
+rulemaking engagement. Draft
+administrative rule revisions
+based on partner engagement.
+Propose revised rule.
+Communicate with partners.
+Support and collaborate with
+contractor to complete review.
+
+Follow standard procedures for
+rulemaking engagement. Draft
+administrative rule revisions
+based on partner engagement.
+Propose revised rule.
+
+Report on the Implementation of Senate Bill 141
+
+Spring 2026
+
+Spring 2026
+
+Summer
+2026
+
+Fall 2026
+
+Fall 2026
+
+8 and 9
+
+3
+
+15
+
+Amends ORS 327.222
+− “Coaching” is added to the name of the
+Intensive Program,
+− “With the highest needs in this state” removed
+from the program eligibility
+− Add language to confirm that, to the extent
+possible, coaching from the student success
+teams shall occur in person and onsite at the
+school district.
+− Student Success Teams will be led by a person
+who has at least seven years of relevant
+experience, as determined by the Department,
+in systems change, curriculum and instruction,
+leadership, finance, human resources, school
+district board governance, local district
+continuous improvement plans, labor
+management relations or community
+engagement.
+− The Student Success Teams within the Intensive
+Coaching Program have purview over both SIA
+funds AND State School Fund moneys (as well
+as any additional funding based on district
+type).
+Requires ODE to collaborate with each school district
+to develop performance growth targets for the
+school district to make progress toward meeting the
+metric targets.
+Amends ORS 327.201 Adds language to clarify that
+ODE, in addition to previous requirements, can direct
+amounts of future grant distributions for specific
+investments if the grant funds were not used in
+accordance with the grant agreement.
+Removes language regarding grant recipients
+submitting an explanation to ODE if they do not
+meet performance growth targets and ODE having
+the option to respond in a myriad of ways.
+Removes language regarding performance audit on a
+random basis or based on just cause (this language is
+added to Section 5 of the bill).
+ORS 327.214 is repealed: Coaching program for grant
+recipients that do not meet performance growth
+targets.
+
+23
+
+31
+
+Amends ORS 326.051 to require the State Board of
+Education to establish and enforce state standards
+for public K-12 schools including providing a process
+for a person who resides in the district, or a parent/
+
+15
+
+Follow standard procedures for
+rulemaking engagement. Draft
+administrative rule revisions
+based on partner engagement.
+Propose revised rule. Follow
+standard procedures for
+updating internal and external
+documents and materials with
+added/removed language.
+
+Provide guidance and support
+to co-develop performance
+growth targets.
+Follow standard procedures for
+rulemaking engagement. Draft
+administrative rule revisions
+based on partner engagement.
+Propose revised rule. Follow
+standard procedures for
+updating internal and external
+documents and materials with
+added/removed language. do
+we have a policy or procedure
+for directing funds?
+Follow standard procedures for
+rulemaking engagement. Draft
+administrative rule revisions
+based on partner engagement.
+Propose revised rule. Follow
+standard procedures for
+updating internal and external
+documents and materials with
+added/removed language.
+Follow standard procedures for
+rulemaking engagement. Draft
+administrative rule revisions
+based on partner engagement.
+
+Report on the Implementation of Senate Bill 141
+guardian of a student in the district to file a
+complaint about noncompliance.
+
+Fall 2026
+
+12/15/2026
+per SB141
+
+12/15/2026
+per SB141
+
+12/31/2026
+per SB141
+
+Winter
+2026
+
+Winter
+2026
+
+32
+
+29
+
+28
+
+33
+
+28
+
+14
+
+Amends ORS 334.217 to require the State Board of
+Education to establish and enforce standards to
+determine the adequacy of services and facilities
+provided by Education Service Districts. This includes
+all previous requirements plus providing a process
+for a district resident or parent/ guardian of a
+student to file a complaint about non-compliance.
+Requires ODE to submit a report on the review
+required under this section in the manner provided
+by ORS 192.245, and may include recommendations
+for legislation, to the interim committees of the
+Legislative Assembly related to education no later
+than December 15, 2026.
+Requires ODE to submit a report on the study
+conducted regarding grant consolidation and
+streamlining reporting (which may include
+recommendations for legislation) to the Legislative
+Assembly related to education no later than
+December 15, 2026.
+Amends ORS 326.051 and 334.217 (noted in Sections
+31 and 32) become operative on December 31, 2026.
+When adopting rules for the purposes of
+determining how to enforce standards and providing
+a complaint process, including timelines for the
+investigation and resolution of a complaint, the State
+Board must take into consideration the review
+conducted as part of Section 29.
+Requires ODE to study the reporting requirements
+imposed on school districts including: Statutory
+changes that would provide for the alignment of
+grants, programs, planning, reporting and
+monitoring processes.
+Amends ORS 327.190 If the grant applicant has
+developed performance growth targets in
+accordance with requirements, ODE will confirm the
+applicable targets.
+
+16
+
+Propose revised rule. Follow
+standard procedures for
+updating internal and external
+documents and materials with
+added/removed language.
+Follow standard procedures for
+rulemaking engagement. Draft
+administrative rule revisions
+based on partner engagement.
+Propose revised rule. Follow
+standard procedures for
+updating internal and external
+documents and materials with
+added/removed language.
+Draft a report on Division 22
+and Division 24 Standards
+(which may include
+recommendations for
+legislation). Follow standard
+procedures for internal report
+review. Submit report.
+Draft a report of study
+conducted on reporting
+requirements imposed on
+school districts (which may
+include recommendations for
+legislation). Follow standard
+procedures for internal report
+review. Submit report.
+Follow standard procedures for
+rulemaking engagement. Draft
+administrative rule revisions
+based on partner engagement.
+Propose revised rule. Follow
+standard procedures for
+updating internal and external
+documents and materials with
+added/removed language.
+Identify statutory changes that
+would provide alignment and
+include them as part of the
+report submitted to the interim
+committees of the Legislative
+Assembly on December 15,
+2026.
+Follow standard procedures for
+rulemaking engagement. Draft
+administrative rule revisions
+based on partner engagement.
+Propose revised rule. Follow
+standard procedures for
+updating internal and external
+
+Report on the Implementation of Senate Bill 141
+
+Winter
+2026
+
+Winter
+2026
+
+1/1/2028
+per SB141
+
+2/1/2028
+per SB141
+
+Summer
+2028
+
+Fall 2028
+
+5
+
+24
+
+10
+
+10
+
+22
+
+5
+
+Requires State Board of Education to adopt by rule
+timelines and criteria for consideration of whether a
+school district shall be subject to provisions for not
+meeting performance growth targets. Criteria must
+take into consideration data from the statewide
+assessment system and interim assessments and
+may allow the Department to determine whether a
+school district is making satisfactory progress and is
+no longer subject to the continuum of supports.
+Requires that school districts and public charter
+schools administer interim assessments in math and
+language arts to measure student academic growth
+during the school year.
+Amends ORS 327.235 Adds language that requires
+ODE to include an annual performance review of
+each school district and, if applicable, each eligible
+applicant, as defined in ORS 327.185.
+Requires ODE to submit report no later than
+February 1 of each year ODE will report on the
+implementation of sections 2 to 5 of this 2025 Act (in
+addition to ORS 327.175 to 327.235 as previously
+required) which includes an annual performance
+review of each school district.
+Adds additional requirement for ODE’s annual report
+to the Legislature to include progress of English
+language learners toward meeting performance
+growth targets as provided within Section 3.
+Requires ODE to expand continuum of supports. If a
+school district does not meet their performance
+growth targets, the following
+supports/accountability mechanisms will be put into
+place:
+− After two years of not meeting targets, the
+school district must accept coaching and support
+from ODE.
+− After three or more years of not meeting
+targets, the school district must participate in
+intensive coaching. Participating districts will
+receive additional funding based on rules.
+− After four or more years of not meeting targets,
+in addition to participating in the Intensive
+Program, ODE is authorized to prescribe the use
+of up to 25% of the State School Fund or specific
+funding sources per type of school district, e.g.
+recovery schools, JDEPs/YCEPs, etc.
+
+17
+
+documents and materials with
+added/removed language.
+Follow standard procedures for
+rulemaking engagement. Draft
+administrative rule revisions
+based on partner engagement.
+Propose revised rule.
+
+Provide communication,
+assistance, and guiding
+materials to support districts in
+administering assessments and
+reporting results to the
+department.
+Draft revisions to report
+template. Follow standard
+procedures for template
+review. Implement use of new
+report template.
+Draft a report. Follow standard
+procedures for internal report
+review. Submit report.
+
+Draft revisions to report
+template. Follow standard
+procedures for template
+review. Implement use of new
+report template.
+Expand current continuum of
+support to include state
+interventions (directed
+coaching, intensive coaching
+program per ORS 327.222, and
+directed funding)
+
+Report on the Implementation of Senate Bill 141
+Proposing the use of money to the governing
+body of the school district must occur at an open
+meeting no later than January 31st of the school
+year preceding the school year in which the
+department will be prescribing the uses of the
+funds.
+Requires ODE to enter into a partnership with an
+organization that specializes in budgets for public
+kindergarten through grade 12 schools to provide
+additional training and consultation ser-vices for a
+school district for which the uses of moneys will be
+prescribed.
+ODE may enter into a contract with any entities the
+department determines are qualified to provide the
+coaching.
+States review of a districts progress will apply during
+2026-27 school year and a school district may first be
+required to accept coaching and support for the
+2028-29 school year.
+Amends ORS 327.837 When a school district or
+public charter does not meet the goals established in
+the early literacy success plan, ODE may intervene
+by:
+− Requiring the school district or public charter
+school to adopt textbooks or other instructional
+materials from the list of textbooks and other
+instructional materials adopted by the State
+Board of Education under ORS 337.050 for early
+literacy; and
+− Requiring the school district or public charter
+school to participate in school or school district
+training or improvement activities, as identified
+by the department.
+Amends ORS 327.235 (noted in section 10) to
+become operative January 1, 2028 and requires ODE
+to submit first report no later than February 1, 2028,
+based on the 2026-27 school year.
+−
+
+Fall 2028
+
+5
+
+Fall 2028
+
+5
+
+Fall 2028
+
+Fall 2028
+
+Winter
+2028
+
+6
+
+26
+
+11
+
+18
+
+Identify organization for
+potential partnerships.
+
+Identify entities to provide
+coaching.
+Communicate with partners.
+
+Follow standard procedures for
+rulemaking engagement. Draft
+administrative rule revisions
+based on partner engagement.
+Propose revised rule.
+
+Communicate with partners.
+
+

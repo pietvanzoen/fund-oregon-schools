@@ -1,0 +1,335 @@
+Legislative Fiscal Office
+Ken Rocco
+Legislative Fiscal Officer
+
+900 Court Street NE
+H-178 State Capitol
+Salem, Oregon 97301
+503-986-1828
+
+Paul Siebert
+Deputy Legislative Fiscal Officer
+
+Budget Information Brief / 2020-3 UPDATE
+Oregon Budget Reserve Funds
+Typically, states build an ending balance into their budget plans by not spending all forecasted
+available resources for the upcoming fiscal period. An ending balance provides a cushion to be
+used if actual revenues are lower than anticipated at the time the budget was adopted. An
+ending balance is not the same as a budget stabilization or reserve account, which is typically
+known as a “rainy day fund.” An ending balance reflects revenue that the state expects to
+receive based on the most recent revenue forecast but that has not been approved by the
+Legislature to be spent. As revenue forecasts are adjusted during the interim period between
+sessions, the ending balance goes up or down as the revenue forecast goes up or down. Rainy
+day funds, on the other hand, are dedicated accounts made up of money specifically set aside
+for use if needed. While both an ending balance and a rainy day fund are protections against
+potential declining revenues, there are typically specific requirements that must be met to
+access rainy day funds. Rainy day funds became common during the 1990s and exist in some
+form in almost every state.
+The existence of a budget reserve fund, otherwise known as a rainy day fund, is desirable for
+several reasons. During economic downturns, savings can be used to avoid reducing existing
+programs or raising taxes, thereby reducing uncertainty concerning program or service
+availability and quality, as well as tax liability. By using savings, a state can help “smooth” out
+revenue or expenditure fluctuations during economic downturns and assist the economy in
+weathering a recession. The fiscal benefits to states with properly structured reserve funds
+include:
+• Increased economic stability by using reserves to avoid budget cuts in the case of a revenue
+shortfall.
+• More in-depth analysis and discussion to ensure informed decision making.
+• Reduced need to use one-time revenues or accounting actions to fund ongoing costs.
+• Assurance to bond-rating agencies that prudent fiscal management practices are in place.
+• A “savings” rather than “spend it all” mentality.
+Despite the challenge of having a highly volatile revenue system based primarily on income
+taxes and the existence of the kicker provision, Oregon has established two reserve funds, the
+Education Stability Fund and the Rainy Day Fund. 1
+The kicker law, which is unique to Oregon and requires the return of income tax surpluses to taxpayers in biennia
+where actual collections exceed forecasted revenues by 2% or more, made it more challenging to establish
+sufficient budget stabilization funds. Since the creation of the kicker, approximately $5.1 billion in personal income
+taxes and $0.5 billion in corporate taxes have been returned to taxpayers due to this law.
+
+1
+
+Legislative Fiscal Office
+
+1
+
+September 2020 UPDATE
+
+Education Stability Fund (ESF)
+The ESF was established in September 2002, when voters amended the Oregon Constitution to
+convert an existing education endowment fund into a reserve fund.2 The ESF is composed of
+18% of the net proceeds from the lottery and is capped at 5% of the amount accrued in General
+Fund revenues during the prior biennium. Once the cap is reached, 15% of net lottery proceeds
+are deposited into the School Capital Matching Fund authorized under Section 4, Article XI-P of
+the Oregon Constitution to provide state matching funds to school districts that have received
+voter approval for local bonds to finance capital costs (defined as costs of land and other assets
+with a useful life of more than one year). The Fund can also be used to pay off state-issued
+Article XI-P bonds. Since the ESF cap has never been reached, no funds have been transferred
+to the School Capital Matching Fund.
+The Legislature may spend the ESF principal for public education if there is an economic
+downturn and the expenditure is approved by at least three-fifths of the members of each
+chamber. For this purpose, public education is defined as K-12 and post-secondary education
+(community colleges and public universities). There is indication that some public early learning
+programs may be eligible for ESF resources, but the largest expenditure of General Fund in the
+Education program area is for K-12, followed by post-secondary education.
+In order to access the ESF principal, three-fifths of each chamber of the Legislature must
+approve the action. In addition, the expenditure must be for public education and one of the
+following conditions must be met:
+• The last quarterly economic and revenue forecast for a biennium indicates that moneys
+available to the General Fund for the next biennium will be at least 3% less than approved
+appropriations from the General Fund for the current biennium.
+• There has been a decline in seasonally adjusted nonfarm payroll employment for two or
+more consecutive quarters in the last 12 months.
+• A quarterly economic and revenue forecast projects that General Fund revenues in the
+current biennium will be at least 2% below the amount that was projected in the revenue
+forecast on which the legislatively adopted budget for the current biennium was based. It
+should be noted that it does not need to be the most recent forecast for this trigger to be
+met. Article XV, Section 4 (6), requires that “a” forecast in the current biennium must meet
+the 2% threshold.
+If none of these triggers are available, the Governor can declare a state of emergency and the
+ESF can be accessed with a three-fifths majority of each chamber of the Legislature for an
+expenditure of funds for public education.
+ESF interest or investment earnings are retained in the Fund and used for the following
+purposes:
+• Up to 75% are transferred to the Oregon Education Fund to pay for any education lottery
+bond debt service.3
+• At least 25% are dedicated to the Higher Education Coordinating Commission (HECC) for the
+Oregon Opportunity Grant program to provide financial assistance to post-secondary
+students.
+
+2
+3
+
+See Oregon Constitution, Article XV, Section 4(4)(d) – Section 4(7) and ORS 348.696 – 348.716.
+These earnings were used to pay debt service on bonds for schools approved during the 1997 and 1999 sessions.
+
+Legislative Fiscal Office
+
+2
+
+September 2020 UPDATE
+
+In 2015, the Legislature amended ORS 348.696 to ensure that transfers to the Oregon
+Education Fund not required to pay for debt service on bonds are transferred to HECC for the
+Oregon Opportunity Grant program. It is anticipated that any financial obligation relating to
+lottery bonds will end after the 2019-21 biennium and no further transfer to the Oregon
+Education Fund will be required. While the retention of earnings in the Fund and the
+requirement that the earnings be used for public education are constitutional requirements,
+the actual distribution is outlined in statute.
+The Oregon Growth Account (OGA) is established by statute within the ESF. Funds in the OGA
+are invested by the State Treasurer under the direction of the OGA Board. From the creation of
+the ESF through June 2009, 10% of the funds transferred from the state lottery to the ESF were
+deposited in the OGA (1.8% of overall lottery proceeds). During the 2009 session, the
+Legislature temporarily reduced the dedication of lottery proceeds to the OGA from 10% of the
+ESF deposits to 5% for the period of July 2009 to June 2013 and specified that declared earnings
+from the OGA are to be deposited into the ESF instead of the Commercialized Research Fund
+which was repealed during the 2019 legislative session. The OGA is used primarily to provide
+seed capital to Oregon venture and emerging growth businesses. The Oregon Business
+Development Department reports that $55.3 million in OGA investment earnings has been
+distributed to the Oregon Education Fund and to the Oregon Opportunity Grant program.
+The ESF has been used several times to balance or rebalance a biennial budget, most recently
+during the 2nd special session of 2020. Although the ESF must be used for expenditures on
+public education, K-12 through post-secondary comprises a significant portion of the state’s
+budget. Using ESF resources for public education allows General Fund dollars that would
+otherwise be allocated for these purposes to be redirected to other parts of the budget. Details
+of allocations from the ESF are provided in the following table.
+Allocations from the Education Stability Fund*
+Biennium
+2001-03
+
+Amount
+$150.0 million
+
+2001-03
+2003-05
+
+$107.4 million
+$126.5 million
+
+2007-09
+
+$393.8 million
+
+2009-11
+
+$84.3 million
+
+2009-11
+
+$96.4 million
+
+2011-13
+
+$100.0 million
+
+2011-13
+
+$82.2 million
+
+2019-21
+
+$400.0 million
+
+Comments
+Initial transfer of ESF resources to the State School Fund (SSF) included in
+the constitutional amendment establishing the ESF freeing up General
+Fund for other purposes.
+Part of the final 2001-03 budget rebalance during the 2003 session.
+2003 Legislature prospectively transferred 90% of lottery revenues due to
+the ESF directly to the SSF.
+2009 Legislature transferred all the funds in the ESF at the time to
+rebalance the 2007-09 budget.
+During a February 2010 special session, a transfer was made as a
+commitment to maintain a $6.0 billion SSF.
+Transfer as part of a rebalance of the 2009-11 budget and to address
+federal special education and post-secondary maintenance of effort
+requirements.
+Transfer to 2011-12 School Year Subaccount of the SSF that school districts
+must use to reduce class-size or enhance learning opportunities.
+Additional amount approved to enhance SSF funding and for several
+education-related programs.
+Transfer to rebalance the 2019-21 budget due to June 2020 estimated
+revenue shortfalls resulting from the COVID-19 emergency.
+
+*Amounts reflect the values in the state budget system (ORBITS).
+Legislative Fiscal Office
+
+3
+
+September 2020 UPDATE
+
+The ESF has grown considerably, from $7.4 million at the end of 2011-13 to $621.1 million at
+the end of 2017-19, as demonstrated in the graph below. The June 2020 economic and revenue
+forecast by the Department of Administrative Services, Office of Economic Analysis projected
+the ESF to grow to $800.1 million by the end of the 2019-21 biennium. The September 2020
+forecast now projects a balance of $424.4 million at the end of the 2019-21 biennium, the
+decrease primarily due to the $400.0 million transfer to the State School Fund during the 2nd
+special session of 2020. The transfer to the State School Fund is scheduled for March 1, 2021.
+The graph below shows the change in available ESF resources for 2001-03 through 2017-19, as
+well as the allocations to the SSF.
+Education Stability Fund
+Biennial Allocations and Ending Balances
+$700,000,000
+$600,000,000
+$500,000,000
+$400,000,000
+$300,000,000
+$200,000,000
+$100,000,000
+$0
+
+2001-03 2003-05 2005-07 2007-09 2009-11 2011-13 2013-15 2015-17 2017-19 2019-21*
+
+Ending Balance
+
+Allocations
+
+* The 2019-21 information is based on the September
+2020 Forecast and assumes no further allocations in 201921 beyond $400 million.
+
+Oregon Rainy Day Fund (ORDF)
+The ORDF was established by the 2007 Legislature as a general purpose reserve fund. The ORDF
+was originally capitalized with a deposit of approximately $319 million from the retention of the
+majority of the corporate income tax “kicker” that was due to be refunded to corporate
+taxpayers in the fall of 2007. Deposits into the ORDF are to be taken from the General Fund
+ending balance in an amount of up to 1% of General Fund appropriations each biennium. If a
+biennial ending balance is greater than 1% of the General Fund appropriations for that
+biennium, then an amount equal to 1% is transferred to the ORDF and the remainder is
+retained as part of the General Fund. If a biennial ending balance is less than 1% of the General
+Fund appropriations for that biennium, then the entire ending balance amount is transferred to
+the ORDF. Due to the time needed to make final determinations on biennial expenditures, this
+transfer from the ending balance normally occurs early in the year following the conclusion of a
+biennium.
+During the 2009 session, the Legislature passed a measure providing for the deposit of all
+revenue collected from corporate income and excise taxes above the 6.6% tax rate into the
+ORDF, beginning with the 2013 tax year. At the time the measure was enacted, the Legislative
+Revenue Office estimated that $69 million would be collected under the law for deposit on or
+Legislative Fiscal Office
+
+4
+
+September 2020 UPDATE
+
+before June 30, 2015. However, during the 2013 special session, the law was amended to
+increase the rate above which revenue flows to the ORDF from 6.6% to 7.5% for tax years 2013
+to 2016, and to 7.2% for tax years 2017 and beyond.
+Another condition of the ORDF is that if its balance, at the time of the ending balance transfer,
+is greater than 7.5% of the General Fund revenue collected during the prior biennium, then the
+ending balance transfer is not made, and the money remains in the General Fund. The full
+transfer amount is made to the ORDF if its balance does not equal 7.5% of the General Fund
+revenue collected during the prior biennium, even if the transfer amount results in the ORDF
+balance being over the cap.
+Like the ESF, approval by a three-fifths majority of both chambers of the Legislature is required
+to authorize expenditures from the ORDF. In addition, the ORDF has the same trigger
+mechanisms as the ESF as described above, with two exceptions:
+• There is no allowance for a declaration of emergency by the Governor.
+• The Legislature can change existing triggers by passing a new law since the ORDF is a
+statutory rather than constitutional creation.
+As noted above in the discussion of the ESF, it does not need to be the most recent forecast for
+the 2% trigger threshold to be met. Article XV, Section 4 (6) for the ESF and ORS 293.144(2)(c)
+for the ORDF requires that “a” forecast in the current biennium must be at least 2% below the
+amount that was projected in the revenue forecast on which the legislatively adopted budget
+for the current biennium was based. This 2% trigger amount is not automatically nullified if, for
+example, a future forecast for the current biennium projects less than a 2% reduction in
+revenue.
+The Legislature is limited each biennium to appropriating no more than two-thirds of the
+amount in the ORDF at the beginning of that biennium. However, given that the limitation is in
+statute, the Legislature could modify this statutory restriction to spend more of the ORDF in a
+single biennium. If the appropriation is for a future biennium, the Legislature may use the most
+recent forecast of the beginning balance of the ORDF for the biennium for which the
+appropriation is to be made. The ORDF retains all interest earned by the Fund, which is
+calculated and transferred monthly by the Department of Administrative Services. The ORDF
+has been used three times to balance or rebalance a budget as described below.
+Allocations from the Oregon Rainy Day Fund
+Biennium
+2009-11
+
+Amount
+$225.3 million
+
+2009-11
+
+$115.7 million
+
+2009-11
+
+$10.0 million
+
+Legislative Fiscal Office
+
+Comments
+During the 2009 session, the Legislature transferred two-thirds of the
+balance of the ORDF to the General Fund to finalize the 2009-11
+legislatively adopted budget.
+To provide a $6.0 billion State School Fund for the 2009-11 biennium, the
+Legislature established a $200 million “trigger” during the 2009 session.
+The trigger amount was to come from a combination of the projected
+General Fund ending balance and the ORDF, with amounts determined at
+the time of the June 2010 economic and revenue forecast.
+This amount was approved by the Legislature during the February 2010
+special session to be transferred to the General Fund for general
+governmental purposes.
+5
+
+September 2020 UPDATE
+
+The Legislature has not authorized any transfers from the ORDF since the 2010 special session.
+As of the June 2020 forecast, the current balance is $877.8 million, and it is projected that the
+amount in the Fund at the end of the 2019-21 biennium will be $949.4 million.
+In summary, Oregon’s two budget reserve funds have been used to continue programs and
+services during economic downturns, to stabilize and improve the state’s bond rating in the
+credit markets, and to serve as a hedge against cash flow deficits at the state level. Oregon is
+noted as a state that has done a good job establishing and protecting reserves. A challenge the
+state will face is how best to use reserve funds so that actions needed to balance the budget for
+the long term are not unnecessarily postponed. The ESF was used to help balance the 2019-21
+budget as a result of the economic consequences of the COVID-19 emergency. As of the
+September 2020 forecast, the total amount projected to be available at the end of the 2019-21
+biennium in both the ESF and ORDF is $1.38 billion, a net reduction of $373.0 million from the
+June 2020 forecast.
+
+Legislative Fiscal Office
+
+6
+
+September 2020 UPDATE
+
+

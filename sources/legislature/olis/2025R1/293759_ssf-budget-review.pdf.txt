@@ -1,0 +1,264 @@
+2025-27 Budget Review
+State School Fund and Common School Fund
+State School
+Fund
+General Fund
+Lottery Funds
+Other Funds
+Total Funds
+Common School
+Fund
+Other Funds (NL)
+
+2021-23
+Actual
+7,861,224,323
+650,508,965
+756,401,823
+9,268,135,111
+2021-23
+Actual
+136,400,682
+
+2023-25
+Legislatively
+Approved *
+8,736,640,339
+638,737,863
+824,621,798
+10,200,000,000
+
+2025-27
+Current Service
+Level
+9,860,133,424
+625,259,443
+874,049,823
+11,359,442,690
+
+2023-25
+Legislatively
+Approved *
+159,996,772
+
+2025-27
+Current Service
+Level
+159,996,772
+
+2025-27
+Governor's Budget
+9,860,133,424
+625,259,443
+874,049,823
+11,359,442,690
+2025-27
+Governor's Budget
+159,996,772
+
+PROGRAM DESCRIPTION
+The State School Fund (SSF) is the primary funding source for the general operations of school districts
+and educational service districts (ESDs) that serve Oregon students from kindergarten through grade 12.
+SSF resources include state General Fund, Lottery Funds, Marijuana Tax revenues, and Corporate
+Activity Tax revenues from the Fund for Student Success. These state resources are combined with local
+school revenues (primarily property taxes; other revenues include Common School Fund resources as
+described below) and result in total school funding “formula” resources.
+The “formula” refers to the equalization formula (ORS 327.008 et seq) that equitably allocates school
+funding to districts and ESDs on a per-pupil basis, weighted for certain student and district
+characteristics, and considering the availability of local revenues. State resources make up
+approximately two-thirds of total formula resources. School districts receive a general purpose grant
+and a transportation grant from the SSF. ESDs receive a general services grant based partially on the
+weighted average daily membership of the school districts in each ESD’s territory. Certain programs are
+funded from the SSF (“carved out”) in addition to the distribution to school districts and ESDs; these
+programs are identified in statute and include transfers into the High Cost Disabilities account, the
+Statewide English Language Learner Account, and the Educator Advancement Fund. All other school
+spending decisions are made at the local level by elected school boards.
+While the purpose of the equalization formula is to provide for a roughly equivalent level of resources
+for students in Oregon, districts may also benefit from voter-approved local option levies under certain
+circumstances, although few take advantage of this option. If a district qualifies, the state may provide
+further assistance through the Local Option Equalization Grant (six districts received grants in 2023-24).
+
+2025-27 Budget Review – State School Fund and Common School Fund
+
+1
+
+2025-27 Budget Review – State School Fund and Common School Fund
+
+Additionally, though the State School Fund provides the largest share of resources for school districts
+and ESDs, the Department of Education distributes over $4.5 billion (based on the 2023-25 legislatively
+approved budget) of federal and state funding through the grant-in-aid programs for student supports
+including child nutrition, special education, various education initiatives, Student Investment Account
+grants, High School Success grants, professional development, and compensatory education.
+The Common School Fund, which is administered by the State Land Board, accounts for revenues
+generated from state owned properties and unclaimed property. The fund’s resources are
+constitutionally dedicated for the benefit of primary and secondary schools in the state. The State Land
+Board designates an amount each biennium for distribution, and funds are transferred to the Oregon
+Department of Education (ODE) and budgeted as Nonlimited Other Funds. These funds are recognized
+as local revenues for the purposes of the school funding formula.
+
+BUDGET ENVIRONMENT
+Generally speaking, current service level for the State School Fund is calculated according to the
+Department of Administrative Services’ (DAS) biennial budget instructions. Differences from statewide
+practices that affect the calculation include:
+
+
+An assumption that 85% of school district costs are for personnel. Rather than applying the
+general rate of inflation for pass-through payments (2.1%), ODE calculates the statewide
+average salary increase for school personnel – including changes to the PERS rate – and that
+inflation factor is used to inflate 85% of total estimated formula expenditures. On average,
+changes to the PERS rate have a very large effect on both the calculation of the State School
+Fund and on school district expenditures, although there also can be large cost differences
+between individual school districts due to the use of PERS side accounts.
+
+
+
+Inflation is calculated on each year of the biennium separately.
+
+
+
+Caseload changes are not adjusted during the biennium, as is done for some other large
+caseload-driven state programs.
+
+The methodology used to calculate the State School Fund current service level budget has received
+intense scrutiny as school districts have struggled with budget shortfalls due to expiring federal
+pandemic funding, inflation, and other issues. School advocates proposed changes to the method of
+calculating the current service level that would result in more resources for the State School Fund. In
+response to these concerns, the Governor’s Office convened a work group that included the DAS Chief
+Financial Office, ODE, Legislative Fiscal Office, and education stakeholders to review the methodology
+and assumptions used to develop the State School Fund current service level. Three proposed changes
+were included in the 2025-27 current service level calculation, including assuming a 49/51% funding split
+between the first and second years of a biennium and basing future cost changes on the higher year of
+the split ($217 million increase); using 10-years of historical data instead of 20-years to estimate school
+district salary increases ($240 million increase); and annualizing local revenue estimates to recognize
+revenue fluctuations between the first and second years of a biennium ($55 million increase).
+After the funding amount for distribution to school districts and ESDs is calculated, funding for the 18
+legislatively directed “carve-outs” is added to the calculation to produce the final SSF current service
+
+2
+
+2025-27 Budget Review – State School Fund and Common School Fund
+
+level budget. The DAS 2025-27 Budget and Legislative Concepts Instructions identify the SSF as a
+mandated caseload for budgeting purposes and define mandated caseload as “caseload changes for
+programs required by the federal government (federal entitlement programs), the state constitution, or
+court actions.” Only one carve-out, the Early Intervention/Early Childhood Special Education, is
+budgeted as a mandated caseload. It is unclear why other carve-outs for education provided in
+specialized facilities are not budgeted in the same manner. This includes the carve-outs for Pediatric
+Nursing Facilities, Hospital and Residential Care, and the Oregon Youth Challenge Program.
+As far back as 1973, federal courts have ruled children have a fundamental right to a basic minimum
+education. Many court cases have contested the ruling and attempted to redefine it and narrow the
+scope. None have been successful. The most recent ruling came in 2020 with the U.S. Court of Appeals
+ruling in Gary B. v. Whitmer. The ruling upheld that under the U.S. Constitution, there is a “fundamental
+right to basic minimum education.” This definition applies regardless of the setting or situation.
+Education provided to students within juvenile detention and correctional facilities is not considered a
+carve-out. The State School Fund provides funding for educational services in county juvenile detention
+centers and Oregon Youth Authority close custody facilities on a weighted student basis as part of the
+distribution to school districts and ESDs. This modeling method often resulted in budget shortfalls
+needing to be addressed mid-biennium due to the volatility of the caseload. In the 2025-27 current
+service level budget, $8.3 million General Fund supplements the SSF funding for the Juvenile Detention
+Education Program (JDEP) and the Youth Corrections Education Program (YCEP) to cover program costs.
+In the 2024 legislative session, SB 1552 adopted a model for funding the JDEP and YCEP programs. It
+directed ODE to issue a report by August 31, 2024, and every even-numbered year after, with an
+identified Target Funding Level (TFL) for the programs. ODE's August 2024 Juvenile Correction Education
+Funding Report identified a model for calculating TFL based on estimated classroom counts. Using this
+model, the TFL for 2025-27 biennium is $27.2 million, $2.9 million more than the 2025-27 current
+service level budget for these programs.
+The 2025 Legislature will need to address the report’s findings and determine whether JDEP and YCEP
+are more appropriately funded as an SSF carve-out.
+
+CURRENT SERVICE LEVEL
+The 2025-27 current service level calculated for the State School Fund is $11.4 billion, a 11.4% increase
+from the 2023-25 legislatively approved budget. Current service level is a “point in time” estimate based
+on common assumptions about cost changes and estimated revenues for the upcoming two-year
+period. Anticipated cost changes for school funding include:
+
+
+
+
+
+Blended compensation increases at the school district level of 8.24% in the first year of the
+biennium and 2.98% in the second year.
+Employer contributions to the Public Employees Retirement System (PERS) of 20.45% for both
+years of the biennium, and health benefit cost increases of 3.4% annually.
+The standard (statewide) inflation increases of 2.1% each year for services and supplies.
+Anticipated local revenues of $5.6 billion, based on the estimate prepared by the Legislative
+Revenue Office.
+
+3
+
+2025-27 Budget Review – State School Fund and Common School Fund
+
+
+
+Weighted average daily student membership decreases of 0.37%, based on the four-year
+average rate of change between 2020-21 and 2024-25.
+
+GOVERNOR’S BUDGET SUMMARY
+The Governor’s Budget proposes no changes to the current service level budget and includes $11.4
+billion for the State School Fund, a 11.4% increase from the 2023-25 legislatively approved budget. The
+Common School Fund remains funded at $160 million, no change from the 2023-25 legislatively
+approved budget.
+
+OTHER SIGNIFICANT ISSUES
+Using the Quality Education Model (QEM) of prototypical schools, the Quality Education Commission
+(QEC) calculates the level of funding sufficient to meet Oregon’s educational goals and provides a report
+to the Legislature on this amount before August 1st of each even-numbered year. The following year,
+the Joint Committee on Public Education Appropriation (JPEA) evaluates the biennial appropriation for
+K-12 education and determines its sufficiency, based on the estimate included in the QEC report. The
+2023 JPEA report confirmed that the 2023-25 legislatively adopted budget of $10.2 billion for the State
+School Fund was approximately $1.5 billion, or 11.5% less than what the QEM generated as the amount
+required from the State School Fund to meet the educational goals assumed in the QEM. This is a larger
+funding “gap” when compared to the 2021-23 budget, primarily due to changes in the QEM that
+resulted in increased costs. For 2023, the QEM was updated to include additional student supports such
+as librarians, school counselors, summer school, and reduced class sizes.
+The 2024 QEM model projection for the 2025-27 biennium is $13.5 billion. The 2025-27 CSL State School
+Fund investment plus the projected Student Success Act transfer of $823.8 million equate to a total of
+$12.2 billion State School Fund allocated dollars for K-12 education. At this investment level, the funding
+gap is reduced to 9.9%, the smallest in Oregon’s history.
+Enrollment in public schools fell during the pandemic, both nationally and in Oregon. In Oregon, lower
+birthrates and slowing in-migration contribute to a projected ongoing decline in the total numbers of
+school-aged children in the state. The state population forecast prepared by DAS’ Office of Economic
+Analysis as of December 2024 shows an average annual decline of 1.2% in the number of school aged
+children (ages 5-17) between 2020 and 2030, or a net decline from 650,823 in 2020 to 584,478 in 2030.
+Fall school membership reports collected by ODE between the 2020-21 school year and the 2024-25
+school year show a 0.37% weighted average enrollment decrease. It is currently unknown whether or
+how student enrollment will recover from these pandemic-related declines. As the State School Fund is
+distributed on a per-pupil basis, weighted for certain student characteristics, school districts
+experiencing steeper enrollment declines are concerned about the associated loss of funding.
+Several recent Secretary of State audits have contained recommendations to monitor spending on K-12
+education. In an atypical systemic risk assessment titled K-12 Education — Systemic Risk Report: State
+Leaders and Policymakers Must Address Persistent System Risks to Improve K-12 Equity and Student
+Success, published in May 2022, auditors identified six major risks in Oregon’s K-12 education system.
+While all risks included balancing state monitoring of school district performance with local school board
+control, risk #3 specifically identified “spending scrutiny and guidance” as a benefit that ODE could
+4
+
+2025-27 Budget Review – State School Fund and Common School Fund
+
+provide to school districts and the public alike. The audit’s suggested leadership actions include
+supporting ODE in providing more analysis and tools for school districts to use in benchmarking and
+evaluating their spending; monitoring the depth and effectiveness of ODE’s interactions with school
+districts on spending; ensuring that ODE works with districts to enhance transparency and analysis of
+district spending; and supporting ODE in developing academic return on investment models. Auditors
+also recommended increased financial training for district administrators.
+For further reading, please follow the links below:
+
+
+
+
+
+2024 Quality Education Commission Report
+K-12 Education — Systemic Risk Report. State Leaders and Policymakers Must Address
+Persistent System Risks to Improve K-12 Equity and Student Success
+Joint Committee on Public Education Appropriation - Final Report
+Legislative Revenue Office - School Local Option Property Tax Research Report #4-04
+
+C on ta c t In fo r m a ti on
+Wendy Gibson, Principal Legislative Analyst
+L eg is la t iv e F is c a l O f f ic e
+900 Court Street NE, Room H-178, Salem, Oregon 97301
+Oregon State Capitol | (503) 986-1828 | www.oregonlegislature.gov/lfo
+
+5
+
+
