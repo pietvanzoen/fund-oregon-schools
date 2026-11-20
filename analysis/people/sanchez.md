@@ -3,21 +3,21 @@
 Official page: <https://www.oregonlegislature.gov/sanchez>
 
 Democrat, House District 43 (North and Northeast Portland). House co-chair of the Joint Committee on Ways and Means
-[SRC:legislature/appointments/2026-01-23_house-committee-assignments.pdf] [SRC:legislature/press/house-dems-members_page.html].
+[SRC:legislature/appointments/2026-01-23_house-committee-assignments.pdf p.3].
 Her 2027 role isn't confirmed yet: House Democrats haven't announced 2027 committee leadership (as of Nov 19, 2026).
 Part of the Portland delegation.
 
 ## Role in K-12 budget decisions
 - Co-chaired the 2025-27 budget with Sen. Lieber, including the co-chairs' framework for an $11.4B State School Fund
-  [SRC:fiscal/lfo/2025-03_co-chair-budget-framework.pdf] [SRC:legislature/press/2025-03-19_jwm-framework.pdf].
+  [SRC:fiscal/lfo/2025-03_co-chair-budget-framework.pdf p.2] [SRC:legislature/press/2025-03-19_jwm-framework.pdf p.1].
 - On the full Ways and Means Committee she voted yes on SB 141's budget [SRC:legislature/bills/2025R1_SB141_budget-report.pdf p.1].
-- Co-led the 2026 rebalance [SRC:legislature/press/2026-03-01_jwm-rebalance.pdf].
+- Co-led the 2026 rebalance [SRC:legislature/press/2026-03-01_jwm-rebalance.pdf p.1].
 
 ## On revenue and the budget
 - On the 2026 rebalance: "Our priority continues to be maintaining the essential services that Oregonians rely on,
-  like education, health care, and public safety" [SRC:legislature/press/2026-03-01_jwm-rebalance.pdf].
+  like education, health care, and public safety" [SRC:legislature/press/2026-03-01_jwm-rebalance.pdf p.2].
 - Same release: "While this budget rebalance was relatively benign, we know there will be difficult decisions in the
-  years ahead due to the disastrous policies of the federal administration." [SRC:legislature/press/2026-03-01_jwm-rebalance.pdf]
+  years ahead due to the disastrous policies of the federal administration." [SRC:legislature/press/2026-03-01_jwm-rebalance.pdf p.2]
 
 ## On the Education Stability Fund
 - May 7, 2026 forum: argued against tapping it yet: "It's actually not raining quite yet. The hurricane has not hit

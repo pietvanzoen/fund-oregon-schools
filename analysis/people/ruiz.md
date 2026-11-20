@@ -4,14 +4,14 @@ Official page: <https://www.oregonlegislature.gov/ruiz>
 
 Democrat, House District 50 (Gresham). House co-chair of the Ways and Means Subcommittee on Education, which
 writes the State School Fund and Department of Education budgets
-[SRC:legislature/appointments/2026-01-23_house-committee-assignments.pdf], and co-chair of the Joint Committee on
+[SRC:legislature/appointments/2026-01-23_house-committee-assignments.pdf p.3], and co-chair of the Joint Committee on
 Public Education Appropriation (JPEA), which reports on whether school funding is sufficient
 [SRC:legislature/olis/2025I1/310695_jpea.pdf p.2] [SRC:legislature/olis/2025I1/310695_jpea.pdf p.3]. (The JPEA report
 spells his name "Ricky".) His 2027 committee roles aren't announced yet (as of Nov 19, 2026).
 
 ## Role in K-12 budget decisions
 - Presiding co-chair at the subcommittee's March 27, 2025 public hearing on SB 5516, the 2025-27 State School Fund
-  bill [SRC:legislature/olis/2025R1/recordinglog_jwmed_2025-03-27.pdf].
+  bill [SRC:legislature/olis/2025R1/recordinglog_jwmed_2025-03-27.pdf p.1].
 - On the full Ways and Means Committee he voted yes on SB 141's budget [SRC:legislature/bills/2025R1_SB141_budget-report.pdf p.1].
 - Co-chaired the JPEA when it adopted its Nov 2025 report, which states that 2025-27 state funding "effectively
   closes the funding gap and allows for the full implementation of the QEM" [SRC:legislature/olis/2025I1/310695_jpea.pdf p.4].
@@ -19,7 +19,7 @@ spells his name "Ricky".) His 2027 committee roles aren't announced yet (as of N
   practice, revenue sources left out of the gap calculation [SRC:legislature/olis/2025I1/310695_jpea.pdf p.5].
 - With Sen. Sollman, led SB 1555 (2026), which would have replaced the Quality Education Commission and model with a
   cost model developed by the Legislative Policy and Research Office via contract and tied quality goals to SB 141 metrics
-  [SRC:legislature/olis/2025I1/311607_jpea-legislative-concepts.pdf] [SRC:legislature/olis/2026R1/312317_sb1555-staff-measure-summary.pdf].
+  [SRC:legislature/olis/2025I1/311607_jpea-legislative-concepts.pdf p.1] [SRC:legislature/olis/2026R1/312317_sb1555-staff-measure-summary.pdf].
   The overhaul effort was unsuccessful [NEWS:NEWS-20260617-occ-1]. (Confirm SB 1555's final status in its OLIS history.)
 
 ## On school funding

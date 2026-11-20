@@ -4,25 +4,25 @@ Official page: <https://www.oregonlegislature.gov/lieber>
 
 Democrat, Senate District 14 (Beaverton & SW Portland). Senate co-chair of the Joint Committee on Ways and Means,
 the committee that writes the state budget, including the State School Fund
-[SRC:legislature/appointments/2026_senate-committee-assignments.pdf]. Senate Democrats chose her again as Ways and
-Means co-chair for the 2027 session on Nov 13, 2026 [SRC:legislature/press/2026-11-13_senate-dems-2027-leadership.pdf].
+[SRC:legislature/appointments/2026_senate-committee-assignments.pdf p.7]. Senate Democrats chose her again as Ways and
+Means co-chair for the 2027 session on Nov 13, 2026 [SRC:legislature/press/2026-11-13_senate-dems-2027-leadership.pdf p.1].
 She is the only budget writer already named for a 2027 role (a caucus pick; the formal appointment comes when
 the session organizes).
 
 ## Role in K-12 budget decisions
 - Co-chaired the 2025-27 budget: the co-chairs' March 2025 framework proposed an $11.4B State School Fund, assuming
-  oversight and accountability measures were adopted [SRC:fiscal/lfo/2025-03_co-chair-budget-framework.pdf]
-  [SRC:legislature/press/2025-03-19_jwm-framework.pdf].
+  oversight and accountability measures were adopted [SRC:fiscal/lfo/2025-03_co-chair-budget-framework.pdf p.2]
+  [SRC:legislature/press/2025-03-19_jwm-framework.pdf p.1].
 - On the full Ways and Means Committee she voted yes on SB 141's budget [SRC:legislature/bills/2025R1_SB141_budget-report.pdf p.1].
 - Co-led the 2026 rebalance after federal cuts; the co-chairs say it maintains critical state services
-  [SRC:legislature/press/2026-03-01_jwm-rebalance.pdf].
+  [SRC:legislature/press/2026-03-01_jwm-rebalance.pdf p.1].
 
 ## On revenue and the budget
-- On the 2025-27 framework: "This framework is a starting point" [SRC:legislature/press/2025-03-19_jwm-framework.pdf].
+- On the 2025-27 framework: "This framework is a starting point" [SRC:legislature/press/2025-03-19_jwm-framework.pdf p.1].
 - On the 2026 rebalance: "The federal budget cuts have caused both short-term and long-term crises for Oregon's
-  budget" [SRC:legislature/press/2026-03-01_jwm-rebalance.pdf].
+  budget" [SRC:legislature/press/2026-03-01_jwm-rebalance.pdf p.1].
 - Same release: the rebalance "preserves essential state programs for the next 18 months to give us time to solve
-  the larger challenges the federal budget cuts will have for Oregon" [SRC:legislature/press/2026-03-01_jwm-rebalance.pdf].
+  the larger challenges the federal budget cuts will have for Oregon" [SRC:legislature/press/2026-03-01_jwm-rebalance.pdf p.1].
 - At a late-February 2026 media briefing: said the general fund will need long-term fixes to sustainable revenue
   streams (reported speech, not a direct quote) [NEWS:NEWS-20260301-opb-1].
 
