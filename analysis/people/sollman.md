@@ -13,9 +13,9 @@ current debate over the QEM.
 - Carried SB 141 (2025 accountability act) budget in Ways and Means and voted yes
   [SRC:legislature/bills/2025R1_SB141_budget-report.pdf p.1].
 - On the 2025-27 SSF: "Increasing funding while providing clear expectations and ongoing oversight will help ensure
-  our students and educators are getting the support they need." [SRC:legislature/press/2025-05-28_record-k12-funding.pdf]
+  our students and educators are getting the support they need." [SRC:legislature/press/2025-05-28_record-k12-funding.pdf p.1]
 - Same release: "Over the years, Oregon has made significant investments into our K-12 schools, but success stories
-  remain too few and far between" [SRC:legislature/press/2025-05-28_record-k12-funding.pdf].
+  remain too few and far between" [SRC:legislature/press/2025-05-28_record-k12-funding.pdf p.2].
 - Co-chaired the JPEA when it reported that 2025-27 funding "effectively closes the funding gap"
   [SRC:legislature/olis/2025I1/310695_jpea.pdf p.4]. Led SB 1555 with Rep. Ruiz (see `ruiz.md`).
 - June 2026: joined Republicans in voting against three of Kotek's Quality Education Commission nominees:

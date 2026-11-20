@@ -24,7 +24,7 @@ Public Education Appropriation (JPEA), which reports on whether school funding i
 ## On school funding
 - On the 2025-27 SSF, in a joint release from the Senate President and House Speaker: "The end of Covid-era relief
   funds and declining student populations are putting our schools in a challenging situation"
-  [SRC:legislature/press/2025-05-28_record-k12-funding.pdf].
+  [SRC:legislature/press/2025-05-28_record-k12-funding.pdf p.2].
 - On the funding model: "Every year we have this debate of what is adequate funding for public schools in the state
   of Oregon" [NEWS:NEWS-20260121-katu-1].
 - Same interview: "We're not repeating the same cycle and expecting different results" [NEWS:NEWS-20260121-katu-1].
