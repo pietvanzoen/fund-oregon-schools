@@ -3,6 +3,8 @@
 A source archive and cited analysis for a parent campaign asking **Gov. Tina Kotek and the 2027 Oregon
 Legislature to fund K-12 public schools in the 2027-29 budget**.
 
+**Browse it:** <https://fundoregonschools.org>, a readable website built from this repo.
+
 **Start here:** [`analysis/BRIEFING.md`](analysis/BRIEFING.md): the ask, the numbers, Kotek's own words, weak points.
 
 **Ask questions with Claude:** paste this into a new Claude chat and it will set you up (see [`SETUP.md`](SETUP.md)):
@@ -23,6 +25,7 @@ material stays in that archive and is cited from here as `[PPSARCH:...]`.
 | `CLAUDE.md`, `.claude/skills/fund-oregon-research/` | Rules and the answering skill for Claude. |
 | `SETUP.md`, `setup/fund-oregon-research/` | Setup instructions for volunteers' Claude, and the skill they install on their own account. |
 | `RUNBOOK.md` | Adding and refreshing sources. |
+| `mkdocs.yml`, `website/`, `tools/site_hook.py` | The public website. Pages are generated from `analysis/` and `sources/` on every push to `main`; only the About page lives in `website/`. Preview: `pip install "mkdocs>=1.6,<2" "mkdocs-material>=9.7,<10" && mkdocs serve`. |
 
 ## Quick use
 ```bash
