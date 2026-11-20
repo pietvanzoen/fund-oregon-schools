@@ -17,8 +17,18 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 PAGE = {"body": b"<html><body><nav>menu</nav><h1>Budget</h1><p>State School Fund: $12 billion.</p></body></html>"}
 
 
+FLAKY = {"left": 0}
+
+
 class Handler(http.server.BaseHTTPRequestHandler):
     def do_GET(self):  # noqa: N802
+        if self.path.endswith("/gone"):
+            self.send_error(404)
+            return
+        if self.path.endswith("/flaky") and FLAKY["left"] > 0:
+            FLAKY["left"] -= 1
+            self.send_error(503)
+            return
         self.send_response(200)
         self.send_header("Content-Type", "text/html; charset=utf-8")
         self.end_headers()
@@ -29,7 +39,8 @@ class Handler(http.server.BaseHTTPRequestHandler):
 
 
 def run(root, *args):
-    env = dict(os.environ, FOS_ROOT=root, NO_PROXY="127.0.0.1,localhost", no_proxy="127.0.0.1,localhost")
+    env = dict(os.environ, FOS_ROOT=root, NO_PROXY="127.0.0.1,localhost", no_proxy="127.0.0.1,localhost",
+               FOS_RETRY_DELAY="0", FOS_REQUEST_DELAY="0", GITHUB_ACTIONS="", GITHUB_STEP_SUMMARY="")
     return subprocess.run([sys.executable, os.path.join(HERE, args[0]), *args[1:]], env=env,
                           capture_output=True, text=True)
 
@@ -66,6 +77,29 @@ def main():
         assert any(p.endswith(".html") for p in prior), prior
         assert "13 billion" in open(f"{root}/sources/gov/test_page.html.txt").read()
         assert "gov/test_page.html" in open(f"{root}/sources/_versions_log.csv").read()
+
+        # retries: a 503 that clears on the 2nd attempt is fetched; a 404 fails at once and is reported
+        q = open(f"{root}/sources/_queue.csv").read()
+        open(f"{root}/sources/_queue.csv", "w").write(
+            q + f"{url}/flaky,gov/retry_flaky.html,Flaky,,gov,\n{url}/gone,gov/retry_gone.html,Gone,,gov,\n")
+        FLAKY["left"] = 1
+        summary = f"{root}/summary.md"
+        env_extra = {"GITHUB_STEP_SUMMARY": summary, "GITHUB_ACTIONS": "true"}
+        r = subprocess.run([sys.executable, os.path.join(HERE, "fetch_sources.py"), "--only", "gov/retry"],
+                           env={**dict(os.environ, FOS_ROOT=root, NO_PROXY="127.0.0.1,localhost",
+                                       no_proxy="127.0.0.1,localhost", FOS_RETRY_DELAY="0",
+                                       FOS_REQUEST_DELAY="0"), **env_extra},
+                           capture_output=True, text=True)
+        assert r.returncode == 1, (r.stdout, r.stderr)
+        assert "fetched 1" in r.stdout and "failed 1" in r.stdout, r.stdout
+        assert os.path.exists(f"{root}/sources/gov/retry_flaky.html"), r.stderr
+        assert "attempt 1 failed (HTTP 503" in r.stderr, r.stderr
+        assert "attempt 1 failed (HTTP 404" not in r.stderr, r.stderr  # 404 is not retried
+        assert "::error title=Source not fetched::gov/retry_gone.html: HTTP 404" in r.stdout, r.stdout
+        assert "`gov/retry_gone.html` | HTTP 404" in open(summary).read()
+        q2 = open(f"{root}/sources/_queue.csv").read().replace(
+            f"{url}/flaky,gov/retry_flaky.html,Flaky,,gov,\n{url}/gone,gov/retry_gone.html,Gone,,gov,\n", "")
+        open(f"{root}/sources/_queue.csv", "w").write(q2)
 
         open(f"{root}/analysis/a.md", "w").write(
             "Good [SRC:gov/test_page.html] pending [SRC:gov/not_fetched.pdf p.2] news [NEWS:NEWS-1]\n")

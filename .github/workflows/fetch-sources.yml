@@ -32,6 +32,8 @@ jobs:
       - name: Install pdftotext
         run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
       - name: Fetch queued sources
+        id: fetch
+        continue-on-error: true   # still check and commit what did download; the last step fails the job
         run: |
           if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.refresh }}" = "true" ]; then
             python3 tools/fetch_sources.py --refresh
@@ -48,3 +50,8 @@ jobs:
           if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
           git commit -q -m "sources: fetch $(git diff --cached --name-only -- sources | grep -v '\.txt$' | grep -v '^sources/_' | wc -l | tr -d ' ') file(s) from queue"
           git pull -q --rebase && git push -q
+      - name: Fail if any source failed to download
+        if: steps.fetch.outcome == 'failure'
+        run: |
+          echo "::error::Some queued sources failed to download (listed in the job summary and the Fetch step log). They stay in the queue; re-run this workflow to retry."
+          exit 1

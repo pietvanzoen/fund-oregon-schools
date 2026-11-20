@@ -7,6 +7,11 @@
 
 Runs in the fetch-sources GitHub Action (cloud sandboxes usually can't reach oregon.gov / OLIS).
 Needs pdftotext (poppler-utils) for PDF text; without it the PDF is still archived.
+
+Each download is retried (FOS_RETRIES attempts, default 3) on timeouts, connection errors, HTTP 429 and 5xx, with
+a growing pause (FOS_RETRY_DELAY seconds, default 5, then 3x that). Requests to the same host are spaced by
+FOS_REQUEST_DELAY seconds (default 1). Any failed row is listed at the end, written to the GitHub job summary and
+annotated as an error when run in Actions, and makes the exit code 1 even if other rows succeeded.
 """
 import argparse
 import csv
@@ -18,6 +23,9 @@ import os
 import shutil
 import subprocess
 import sys
+import time
+import urllib.error
+import urllib.parse
 import urllib.request
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -84,10 +92,68 @@ def extract_text(path, content_type):
             f.write(html_to_text(raw))
 
 
+RETRIES = max(1, int(os.environ.get("FOS_RETRIES", "3")))
+RETRY_DELAY = float(os.environ.get("FOS_RETRY_DELAY", "5"))
+REQUEST_DELAY = float(os.environ.get("FOS_REQUEST_DELAY", "1"))
+_last_request = {}
+
+
+def _retryable(e):
+    if isinstance(e, urllib.error.HTTPError):
+        return e.code in (408, 429) or e.code >= 500
+    return isinstance(e, (urllib.error.URLError, TimeoutError, ConnectionError, OSError))
+
+
+def _describe(e):
+    if isinstance(e, urllib.error.HTTPError):
+        return f"HTTP {e.code} {e.reason}"
+    if isinstance(e, urllib.error.URLError):
+        return f"connection error: {e.reason}"
+    return f"{type(e).__name__}: {e}"
+
+
+def _download_once(url):
+    host = urllib.parse.urlsplit(url).netloc
+    wait = _last_request.get(host, 0) + REQUEST_DELAY - time.monotonic()
+    if wait > 0:
+        time.sleep(wait)
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=120) as r:
+            return r.read(), r.geturl(), r.headers.get("Content-Type", "")
+    finally:
+        _last_request[host] = time.monotonic()
+
+
 def download(url):
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=120) as r:
-        return r.read(), r.geturl(), r.headers.get("Content-Type", "")
+    """Download with retries. Returns (data, final_url, content_type); raises the last error."""
+    for attempt in range(1, RETRIES + 1):
+        try:
+            return _download_once(url)
+        except Exception as e:  # noqa: BLE001
+            if attempt == RETRIES or not _retryable(e):
+                raise
+            pause = RETRY_DELAY * (3 ** (attempt - 1))
+            print(f"  ~ attempt {attempt} failed ({_describe(e)}); retrying in {pause:g}s", file=sys.stderr)
+            time.sleep(pause)
+
+
+def report_failures(failures):
+    """List failed rows on stderr, in the GitHub job summary, and as Actions error annotations."""
+    if not failures:
+        return
+    print(f"\nFAILED ({len(failures)}):", file=sys.stderr)
+    for rel, url, err in failures:
+        print(f"  {rel}  <=  {url}\n      {err}", file=sys.stderr)
+        if os.environ.get("GITHUB_ACTIONS") == "true":
+            print(f"::error title=Source not fetched::{rel}: {err} ({url})")
+    summary = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary:
+        with open(summary, "a", encoding="utf-8") as f:
+            f.write(f"### {len(failures)} source(s) failed to download\n\n| Path | Error | URL |\n|---|---|---|\n")
+            for rel, url, err in failures:
+                f.write(f"| `{rel}` | {err} | {url} |\n")
+            f.write("\nThey stay in the queue; re-run fetch-sources (Actions -> fetch-sources -> Run workflow) to retry.\n")
 
 
 def log_version(path, prior, old_sha, new_sha, now):
@@ -106,14 +172,14 @@ def main():
     args = ap.parse_args()
 
     known = manifest_by_path()
-    ok = fail = skipped = 0
+    ok = skipped = 0
+    failures = []
     for row in read_queue():
         rel = row["path"].strip().lstrip("/")
         if not rel.startswith(args.only):
             continue
         if ".." in rel.split("/") or rel.startswith("_"):
-            print(f"  ! bad path {rel!r}", file=sys.stderr)
-            fail += 1
+            failures.append((rel, row.get("url", "").strip(), "bad path"))
             continue
         dest = os.path.join(SOURCES, rel)
         if os.path.exists(dest) and not args.refresh:
@@ -124,8 +190,9 @@ def main():
         try:
             data, final_url, ctype = download(url)
         except Exception as e:  # noqa: BLE001
-            print(f"  ! failed: {e}", file=sys.stderr)
-            fail += 1
+            err = _describe(e) + (f" (after {RETRIES} attempts)" if _retryable(e) and RETRIES > 1 else "")
+            print(f"  ! failed: {err}", file=sys.stderr)
+            failures.append((rel, url, err))
             continue
         now = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()
         sha = hashlib.sha256(data).hexdigest()
@@ -153,8 +220,9 @@ def main():
         with open(MANIFEST, "a", encoding="utf-8") as f:
             f.write(json.dumps(rec, ensure_ascii=False) + "\n")
         ok += 1
-    print(f"fetched {ok}, unchanged/skipped {skipped}, failed {fail}")
-    return 1 if fail and not ok else 0
+    print(f"fetched {ok}, unchanged/skipped {skipped}, failed {len(failures)}")
+    report_failures(failures)
+    return 1 if failures else 0
 
 
 if __name__ == "__main__":
