@@ -10,6 +10,10 @@
 - Two OLIS slide decks have almost no extractable text and need OCR: `legislature/olis/2025I1/310555_jpea.pdf`,
   `legislature/olis/2026R1/313099_quality-education-process.pdf`.
 - 2027 session start date and Ways & Means calendar.
+- 2027 committee assignments: House Ways & Means co-chair and the Education Subcommittee's members (Sollman is
+  leaving; check Weber, Ruiz and the rest). Ruiz's and Sanchez's Nov 2026 results. Update `people/legislators.csv`.
+- After the fetch-sources run: check the press-release quotes in `people/lieber.md`, `sanchez.md`, `ruiz.md`,
+  `sollman.md` against the archived text and add page numbers.
 - Governor's office phone and contact form, verified before sending to parents.
 
 ## Sources to find and queue (no URL yet)
