@@ -70,5 +70,8 @@ report's figures to avoid mixing baselines.
   (total vs. state-sourced spending), so check the opponents' figure before rebutting it.
 
 ## Timing
+The Governor's Recommended Budget, released in December, "will be based on this revenue forecast" (Nov 18)
+[SRC:fiscal/oea/2026-12_forecast.pdf p.33]. Reserves stand at 9.7% [SRC:fiscal/oea/2026-12_forecast_slides.pdf p.37].
+
 Before her December budget: target the Governor. After it: target the 2027 Legislature (Ways & Means, education
 committees). See `timeline.md`.
