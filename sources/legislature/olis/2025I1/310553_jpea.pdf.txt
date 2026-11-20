@@ -1,0 +1,1510 @@
+Joint Committee on Public
+Education Appropriations
+November 2025
+
+Report on the
+Adequacy of Public
+Education
+Appropriations
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+About this Report
+This report meets the requirements created by Ballot Measure 1 (November 2000),
+codified in Section 8, Article VIII of the Oregon Constitution, which calls upon the
+Legislative Assembly to appropriate sufficient funds for the state’s public education
+system and issue periodic reports to demonstrate the sufficiency or insufficiency of
+the appropriation. Oregon law requires that the Joint Committee on Public
+Education Appropriation rely on the findings of the Quality Education Commission
+to determine what amount would be sufficient. If the amount is insufficient, the
+Legislative Assembly’s report must include the extent of the insufficiency, the
+impact of the insufficiency on the state’s ability to meet quality goals, and the
+effects of the insufficiency.
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+Committee Members
+Senator Janeen Sollman, Co-Chair
+Representative Ricky Ruiz, Co-Chair
+Senator Lew Frederick
+Senator Suzanne Weber
+Representative Emily McIntire
+Representative Susan McLain
+
+Staff
+Lisa Gezelter, Principal Legislative Analyst, Legislative Policy and Research Office
+Wendy Gibson, Principal Legislative Analyst, Legislative Fiscal Office
+Oregon State Legislature
+Oregon State Capitol | (503) 986-1813 | www.oregonlegislature.gov
+
+Report on the Adequacy of Public
+Education Appropriations
+DATE: November 19, 2025
+
+Executive Summary
+This report meets the requirements created by Ballot Measure 1 (November 2000),
+codified in Section 8, Article VIII of the Oregon Constitution, which calls upon the
+Legislative Assembly to appropriate sufficient funds for the state’s public education
+system and issue periodic reports to demonstrate the sufficiency or insufficiency of
+the appropriation. Oregon law requires that the Joint Committee on Public
+Education Appropriation rely on the findings of the Quality Education Commission
+(QEC) to determine what amount would be sufficient. If the amount appropriated is
+insufficient, the Legislative Assembly’s report must include the extent of the
+insufficiency, the impact of the insufficiency on the state’s ability to meet quality
+goals, and the effects of the insufficiency.
+The 2024 Quality Education Model (QEM) report estimates $25 billion as the total
+cost of a quality education in the 2025-27 biennium. After subtracting local
+revenues, such as property tax and federal revenues available to K-12 schools, the
+QEC reported a total state funding need of $13.5 billion to fully implement the QEM.
+During the 2025 Legislative Session, the Legislative Assembly provided $11.4 billion
+in funding for the State School Fund and $2.2 billion in grant-in-aid for core K-12
+operations and programs, for a total of $13.6 billion. The amount of state funding
+provided for education effectively closes the funding gap and allows for the full
+implementation of the QEM.
+The QEM report also identifies funding for early learning as an alternative for
+meeting the state’s quality goals provided by the QEC. The 2025-27 legislatively
+adopted budget includes $1.1 billion in state funding for early learning programs to
+address the QEC’s recommendation for an additional method to achieve the state’s
+quality education goals.
+However, this committee notes that the Quality Education Model and the current
+processes surrounding its creation and this committee’s work contain concerning
+issues that call into question the validity of the dollar figure it produces and the
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+subsequently calculated gap. This Committee finds the following opportunities
+for improvement:
+•
+
+•
+•
+
+•
+•
+•
+•
+•
+•
+
+The statutory goals on which the QEM rests lack specificity and have no tie to
+the concrete expectations of schools established in Oregon’s revised statutes
+or its administrative rules.
+It is considered best practice for this work to be in the hands of neutral,
+professional experts.
+The implementation of the professional judgment model by the QEC does not
+meet best practices in the education research field and therefore does not
+guarantee that the QEC selects interventions that are proven to work.
+Some of the best practices highlighted in the QEC’s report are not included as
+model inputs.
+The QEC’s model schools do not account for the variation in need among
+Oregon’s schools.
+The QEC’s calculations do not account for all the revenue sources available to
+local school districts when calculating the gap in funding.
+Documentation provided by the QEC is not sufficiently transparent about how
+the costs of implementing its selected interventions are calculated.
+The QEC’s method for scaling up the costs makes certain invalid assumptions.
+There is a notable lack of connection among the best practices identified by
+the QEM, the statutory requirements of school districts, and the practices
+implemented by local school districts.
+
+Lastly, this Committee found that for both early learning and higher education, the
+lack of statutory goals and educational cost-models preclude the Committee from
+issuing any finding regarding sufficiency.
+This report summarizes Oregon’s education quality goals, describes the state’s K-12
+funding for the current biennium, identifies certain funding considerations, describes
+the reasons for this committee’s finding of sufficiency, and notes nine opportunities
+for improvement. The full report may be accessed in the Oregon Legislative
+Information System.
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+Table of Contents
+About this Report .................................................................................................................................................................................. i
+Requirements of Ballot Measure 1 and Committee Charge .............................................................................................. 1
+Committee Meetings............................................................................................................................................................................ 3
+Oregon’s Education Quality Goals ............................................................................................................................................... 3
+Quality Education Commission ...................................................................................................................................................... 5
+Recommendations from the Commission.................................................................................................................................. 7
+Required Funding and Strategies ................................................................................................................................................. 8
+Fund for Student Success ................................................................................................................................................................ 9
+2025-27 Legislatively Adopted Budget .................................................................................................................................... 10
+Sufficiency Determination .............................................................................................................................................................. 18
+Funding Considerations ................................................................................................................................................................. 24
+Impact of Funding ............................................................................................................................................................................. 30
+Suggestions to Improve the Legislative Assembly’s Ability to Meet the Requirements of Article VIII,
+Section 8 in Future Biennia........................................................................................................................................................... 31
+Early Learning System Goals ...................................................................................................................................................... 34
+Post-Secondary Quality Education Goals .............................................................................................................................. 35
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+Requirements of Ballot Measure 1 and
+Committee Charge
+This report addresses the requirements in Ballot Measure 1 (November 2000) and
+ORS 171.857 (2023). Ballot Measure 1 requires the Legislative Assembly to supply
+sufficient appropriations for the state’s public education system to meet quality
+goals established by law and requires a report that demonstrates the sufficiency or
+insufficiency of funds.
+
+Legal Background
+ORS 171.857 (2023) requires that the Joint Committee on Public Education
+Appropriation rely on the findings of the Quality Education Commission to
+determine what amount would be sufficient. If the amount is insufficient, then the
+report must include the extent of the insufficiency, the impact of the insufficiency on
+the state’s ability to meet quality goals, and how the insufficiency may affect current
+practices, best practices, and student performance. The statute addresses public
+post-secondary education by requiring the Legislative Assembly to discuss funding
+of quality goals, if quality goals for post-secondary education exist in statute.
+Oregon voters enacted Ballot Measure 1 in November 2000:
+
+The Legislative Assembly shall appropriate in each biennium a sum of money
+sufficient to ensure that the state’s system of public education meets quality
+goals established by law, and publish a report that either demonstrates the
+appropriation is sufficient, or identifies the reasons for the insufficiency, its
+extent, and its impact on the ability of the state’s system of public education
+to meet those goals. 1
+The 2001 Oregon Legislative Assembly enacted ORS 171.857, specifying the content
+of the report. The statute reads, in part:
+
+The Legislative Assembly in the report shall: [d]emonstrate that the amount
+within the budget appropriated for the state’s system of kindergarten through
+grade 12 public education is the amount of moneys as determined by the
+Quality Education Commission … that is sufficient to meet the quality goals; or
+[i]dentify the reasons that the amount appropriated for the state’s system of
+kindergarten through grade 12 public education is not sufficient, the extent of
+
+1
+
+Or. Const. art. VIII sect. 8(1).
+
+November 5, 2025
+
+1
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+the insufficiency and the impact of the insufficiency on the ability of the
+state’s system of kindergarten through grade 12 public education to meet the
+quality goals. In identifying the impact of the insufficiency, the Legislative
+Assembly shall include in the report how the amount appropriated in the
+budget may affect both the current practices and student performance
+identified by the QEC … and the best practices and student performance
+identified by the QEC.
+Regarding post-secondary public education, ORS 171.857 (2023) states:
+
+The Legislative Assembly shall identify in the report whether the state’s
+system of post-secondary public education has quality goals established by
+law. If there are quality goals, the Legislative Assembly shall include in the
+report a determination that the amount appropriated in the budget is
+sufficient to meet those goals or an identification of the reasons the amount
+appropriated is not sufficient, the extent of the insufficiency and the impact of
+the insufficiency on the ability of the state’s system of post-secondary public
+education to meet those quality goals.
+In 2006, 18 school districts and seven public school students sought a declaratory
+judgment requiring that the Legislative Assembly fund the Oregon public K-12
+school system at a level sufficient to meet the quality educational goals established
+by law as well as a mandatory injunction directing the Legislative Assembly to
+appropriate the necessary funds. 2 The trial court granted summary judgment against
+the plaintiffs, and the Court of Appeals affirmed in 2008. However, the Oregon
+Supreme Court, in a 2009 decision that partially reversed the earlier courts’
+decisions, ruled:
+
+[T]he legislature has failed to fund the Oregon public school system at the
+level sufficient to meet the quality education goals established by law and
+that plaintiffs were entitled to a declaratory judgment to that effect. However,
+we also conclude that, in adopting Section 8, Article VIII, Oregon voters did
+not intend to achieve the level of funding required in that constitutional
+provision through judicial enforcement. 3
+
+2
+
+Pendleton School Dist. v. State of Oregon, 220 Or. App. 56 (2008).
+
+3
+
+Pendleton School Dist. v. State of Oregon, 345 Or. 596 (2009).
+
+November 5, 2025
+
+2
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+Committee Meetings
+September 30, 2025
+The committee met and heard informational presentations on its constitutional and
+statutory responsibilities, the overall revenue and budget picture for Oregon, the
+2024 Quality Education Model report, and the 2025-2027 legislatively adopted
+budget for K-12 education, early learning, and higher education.
+
+October 22, 2025
+The committee met and heard an informational presentation on the American
+Institutes for Research report on Oregon’s professional judgment model.
+
+November ?, 2025
+
+Oregon’s Education Quality Goals
+In 2001, the Legislative Assembly outlined the state’s quality goals for kindergarten
+through grade 12 (K-12) public education in ORS 327.506 (2023), citing goals
+established elsewhere in statute. These goals are described below.
+ORS 329.015 (2023) declares the Legislative Assembly’s belief that the goals of K-12
+education are
+•
+
+•
+
+•
+•
+
+to equip students with the academic and career skills and information
+necessary to pursue the future of their choice through a program of rigorous
+academic preparation and career readiness;
+to provide an environment that motivates students to pursue serious
+scholarship and to have experience in applying knowledge and skills and
+demonstrating achievement;
+to provide students with the skills necessary to pursue learning throughout
+their lives in an ever-changing world; and
+to prepare students for successful transitions to the next phase of their
+educational development.
+
+November 5, 2025
+
+3
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+ORS 329.025 (2023) declares the intent of the Legislative Assembly to maintain a
+system of public education that
+•
+
+•
+
+•
+
+•
+
+•
+•
+•
+•
+
+•
+•
+
+•
+
+•
+•
+•
+•
+
+provides equal and open access and educational opportunities for all students
+regardless of linguistic background, culture, race, gender, capability, or
+geographic location;
+assumes that all students can learn and establishes high, specific skill and
+knowledge expectations and recognizes individual differences at all
+instructional levels;
+provides each student an education experience that supports academic
+growth beyond proficiency in established academic content standards
+and encourages students to attain aspirational goals that are
+individually challenging;
+provides special education, compensatory education, linguistically and
+culturally appropriate education and other specialized programs to all
+students who need those services;
+supports the physical and cognitive growth and development of students;
+provides students with a solid foundation in the skills of reading, writing,
+problem solving and communication;
+provides opportunities for students to learn, think, reason, retrieve
+information, use technology and work effectively alone and in groups;
+provides for rigorous academic content standards and instruction in
+mathematics, science, language arts, history, geography, economics, civics,
+physical education, health, the arts and world languages;
+provides increased learning time;
+provides students an educational background to the end that they will
+function successfully in a constitutional republic, a participatory democracy
+and a multicultural nation and world;
+provides students with the knowledge and skills that will provide the
+opportunities to succeed in the world of work, as members of families and
+as citizens;
+provides students with the knowledge and skills that lead to an active,
+healthy lifestyle;
+provides students with the knowledge and skills to take responsibility for their
+decisions and choices;
+provides opportunities for students to learn through a variety of
+teaching strategies;
+emphasizes involvement of parents and the community in the total education
+of students;
+
+November 5, 2025
+
+4
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+•
+•
+•
+•
+
+transports children safely to and from school;
+ensures that the funds allocated to schools reflect the uncontrollable
+differences in costs facing each district;
+ensures that local schools have adequate control of how funds are spent to
+best meet the needs of students in their communities; and
+provides for a safe, educational environment.
+
+ORS 329.045 (2023) directs the State Board of Education to review and revise its
+Common Curriculum Goals, performance indicators, and diploma requirements,
+which must include the following:
+•
+•
+•
+
+the Essential Learning Skills and rigorous academic content standards in
+various subjects; 4
+the opportunity for educators, parents, and the general public to offer public
+comment; and
+encouraging increased learning time that provides students with instruction in
+core academic subjects, health and physical education, enrichment activities,
+and provides teachers with professional development.
+
+Finally, ORS 329.065 (2023) declares that major statewide initiatives and legislative
+mandates require adequate funding in order to implement and shall not be
+implemented before funding is available.
+
+Quality Education Commission
+In 1997, then Speaker of the House, Lynn Lundquist, created a council to outline an
+approach to determine the cost of a quality K-12 public education. This effort was
+endorsed by Governor John Kitzhaber and subsequently codified by the Legislative
+Assembly in 2001. The council became the Quality Education Commission (QEC).
+Under ORS 327.506 (2023), the QEC is directed to take three actions:
+1. Determine the amount of moneys sufficient to ensure that the state’s system
+of K-12 public education meets the quality goals.
+2. Identify best practices that lead to high student performance and the costs of
+implementing those best practices in the state’s K-12 public schools.
+
+4
+
+The State Board of Education has suspended the requirement that students demonstrate proficiency
+in the Essential Learning Skills as a condition of graduation through the 2027-28 school year.
+November 5, 2025
+
+5
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+3. Issue a report to the Governor and the Legislative Assembly, prior to August 1
+of each even-numbered year, that identifies the following:
+ current practices in the state’s system of K-12 public education;
+ costs of continuing current practices;
+ expected student performance under current practices;
+ best practices for meeting quality goals;
+ costs of implementing best practices;
+ expected student performance under best practices; and
+ at least two alternatives for meeting quality goals.
+
+Quality Education Model
+The Quality Education Model (QEM) was first developed in 1999 as a tool to fulfill
+the responsibilities of the QEC in evaluating educational practices and estimating the
+level of funding that would be required to meet the state’s goals. The current QEM
+is a professional judgment model, enhanced by a more detailed “costing model”
+that relies on financial and other data. The QEC describes its process as utilizing the
+“professional judgment of the Commission, informed by research and relevant
+evidence” to determine the best practices for achieving Oregon’s education goals. 5
+The QEM’s costing component uses the concept of prototype schools (elementary,
+middle, and high schools) to estimate the necessary resources to meet academic
+standards and performance goals. The characteristics of these prototype schools
+reflect research-based best practices for staffing levels, sufficient funds for staffing,
+professional educator development, operations and maintenance costs, and other
+factors that affect student outcomes and costs.
+The QEM is updated every two years to reflect the QEC’s recommendations,
+informed by recent data and new research that is relevant to improving student
+outcomes. More detail on the QEM can be found in the report released every evennumbered year. The QEC is housed within the Oregon Department of Education
+(ODE), which provides professional staff support, and the QEC’s reports and meeting
+records can be found on ODE’s website.
+
+Quality Education Commission, Quality Education Model: Identifying Best Practices and Calculating the
+Cost of a Quality Education 54 (2024), available at https://www.oregon.gov/ode/reports-and5
+
+data/taskcomm/Documents/M000266%20DOE%20Quality%20Education%20Model%20Report%202024.pdf
+November 5, 2025
+
+6
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+Recommendations from the Commission
+The 2024 QEC report (quoted directly below) contained nine recommendations for
+improving student outcomes:
+
+1. Fully fund the QEM or address the alternatives outlined in this report.
+Consider how to address funding for inputs that are not currently in the
+model, as well, in future biennia.
+2. Incorporate the educational best practices recommended in this report at a
+system-wide level and continue to evaluate these practices over time. Oregon
+should avoid the temptation to rely on discrete and administratively heavy
+programs, activities, and interventions that treat only the symptoms, not the
+root causes, of educational achievement challenges. The system must also be
+clearly identified as the agent for change. Oregon must avoid the tendency to
+place responsibility for system outcomes, especially those that are aggregated
+at the student level, on the shoulders of those students.
+3. Sustain targeted funding for the Student Success Act, which is focused on
+eliminating barriers and increasing access to high quality instructional
+experiences for Oregon’s historically, and currently, marginalized student focal
+groups. Continued support for the Corporate Activities Tax will ensure Oregon
+students realize the vision set forth in the Student Success Act. The SSA was
+designed to provide much of the gap-closing investments our schools need,
+and it remains a once-in-a-generation opportunity to improve the
+effectiveness of our system on behalf of the students in our state.
+4. Increase equal opportunity and access to high-quality early learning
+programs. This includes developmentally appropriate, culturally specific, and
+inclusive early learning programs. The research is clear that high-quality early
+learning has lifelong positive impacts on children because it prepares them to
+enter kindergarten ready to learn.
+5. Continue to monitor and invest in the increasingly broad and complex
+student mental health needs. Our students need to be well in order to learn.
+Our public education system must support their health and wellbeing in order
+for them to effectively learn and thrive.
+6. Support social and emotional learning. Students need to develop social and
+emotional skills to be effective learners and to thrive in social settings.
+7. Continue to build community partnerships. Schools and districts thrive in
+communities that partner with entities that are best-situated to provide key
+services to students, such as non-profits and social service agencies.
+
+November 5, 2025
+
+7
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+8. Continue support of transparency through efforts such as the fiscal
+transparency efforts underway at the direction of Governor Kotek through the
+Office of Transparency at ODE and the development of a business case for an
+Educator Workforce Data System that can highlight educator workforce
+challenges across the state and allow for longitudinal analyses sense-making
+(Senate Bill 283, Section 1).
+9. Build learning systems that are designed to continuously improve at the state,
+Education Service District, and local levels. Education leaders need access to a
+central data dashboard and local decision-making teams and protocols that
+allow for timely review and careful responses to those data - identifying which
+students need what kinds of help and taking swift and well-informed action.
+These processes can be made most efficient by provision of a statewide data
+dashboard that includes fiscal, academic, and program information. Educators,
+policymakers, and the general public deserve ready access to information that
+is needed to make better informed decisions at multiple levels.
+
+Required Funding and Strategies
+According to the 2024 QEC report, full implementation of the QEM requires a State
+School Fund appropriation of $13.5 billion for the 2025-27 biennium. This amount
+was determined by estimating the cost of the fully implemented model based on
+projected student enrollment and the use of the costs generated by the QEM for the
+prototype schools. This includes costs associated with new prototype school
+resources needed to fully implement the QEM, based on the professional judgment
+of the QEC.
+The total required to fully fund the QEM is $25 billion. Estimated non-State School
+Fund and Fund for Student Success resources include property taxes, Public
+Employees Retirement System side account earnings, food service receipts, federal
+grants, local option levies, other grants-in-aid provided by the Department of
+Education, and other resources available to school districts.
+However, it is important to note that the Legislative Assembly has created additional
+revenue sources for K-12 education beyond what the QEM accounts for in its
+calculations of the funding gap. See this report’s sufficiency determination section
+for additional information.
+
+November 5, 2025
+
+8
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+As noted above, the QEC is directed to provide at least two funding alternatives for
+meeting quality goals. The 2024 report included three recommendations: 6
+1. Invest in communities to reduce poverty.
+2. Expand preschool programs.
+3. Provide summer learning.
+
+Fund for Student Success
+House Bill 3427 (2019), known as the Student Success Act, created a modified
+corporate activity tax (CAT). The net revenue generated by the tax is allocated
+directly to the Fund for Student Success and dedicated solely to the early learning
+and the K-12 education system.
+The Student Success Act also reduced personal income tax rates by 0.25 percent in
+the lowest three of the four personal income tax brackets. As personal income taxes
+are deposited in the General Fund for any lawful expense or obligation of the state,
+this provision of the measure had the effect of reducing resources available for
+state-funded programs, including K-12 education. The measure addressed the
+reduction in General Fund revenue by requiring a transfer from the Fund for Student
+Success into the State School Fund in the amount equal to the difference between
+personal income taxes generated at the former rate and personal income taxes
+generated at the reduced rate. This transfer alleviates any General Fund revenue
+impacts on other state-funded programs related to the implementation of the
+Student Success Act. No other state General Fund-supported programs received this
+revenue relief.
+Additionally, the statute directs a $40 million transfer from the Fund for Student
+Success into the State School Fund for the High Costs Disabilities program.
+After the two required transfers are made, a small revenue reserve is held in the
+Fund for Student Success to offset any unanticipated revenue declines and the
+remaining revenue is transferred into three accounts within the fund, which provide
+structure for education investments.
+•
+
+The Student Investment Account (SIA) must be at least 50 percent of the
+fund and supports grants to school districts for investments to expand
+learning, reduce class sizes, increase academic achievements, and address
+
+Quality Education Commission, Quality Education Model: Identifying Best Practices and Calculating
+the Cost of a Quality Education 97-98 (2024), available at https://www.oregon.gov/ode/reports-and6
+
+data/taskcomm/Documents/M000266%20DOE%20Quality%20Education%20Model%20Report%202024.pdf
+November 5, 2025
+
+9
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+•
+
+•
+
+student behavioral health needs. In the 2025-27 budget, the SIA was
+allocated $1.1 billion.
+No more than 30 percent of the available revenue is transferred to the
+Statewide Education Initiatives Account (SEIA) to support investments in
+statewide initiatives and educator professional development. Some examples
+of the programs funded through this account is the High School Success
+program, Hunger Free Schools program, Early Literacy Success grant
+programs, and recovery schools. In the 2025-27 budget, the SEIA was
+allocated $618 million.
+At least 20 percent of the available revenue is transferred to the Early
+Learning Account (ELA) to support investments in early learning programs and
+professional development for early childhood educators. In the 2025-27
+budget, the ELA was allocated $575 million.
+
+Since the Student Success Act, the CAT revenue supporting these three accounts has
+funded an additional $6.7 billion in grant-in-aid funding for K-12 education and
+early learning, including $2.3 billion allocated for distribution in the 2025-27
+biennium, as shown in Figure 1.
+Figure 1. Fund for Student Success’ Biennial Revenue Transfer Amounts to Subaccounts
+and the State School Fund
+
+Data: 2021-23 and 2023-25 Legislatively Approved Budget and the 2025-27 Legislatively Adopted Budget
+Source: Legislative Fiscal Office
+
+2025-27 Legislatively Adopted Budget
+Education Program Area
+In the state budget, the Education Program Area includes funding for early
+learning, K-12 education, and post-secondary education through support to
+
+November 5, 2025
+
+10
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+universities and community colleges. This area represents $22.9 billion, which is
+16 percent of the state budget and 40 percent of the total state General Fund
+and Lottery Funds budget.
+Figure 2. 2025-27 Legislatively Adopted General Fund + Lottery Funds Budget, in Millions
+
+Data: 2025-27 Legislatively Adopted Budget
+Source: Legislative Fiscal Office
+
+Excluding the State School Fund, the Department of Education is the largest agency
+budget in the program area, at nearly $5.7 billion, of which most is grant-in-aid to
+support schools, shown in Figure 3. The second largest budget is State Support for
+Public Universities at $2.4 billion followed by the Department of Early Learning and
+Care at $1.5 billion and State Support for Community Colleges at $995 million.
+
+November 5, 2025
+
+11
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+Figure 3. 2025-27 Education Program Area Agency Budgets
+
+Data: 2025-27 Legislatively Adopted Budget
+Source: Legislative Fiscal Office
+
+Within the Education Program Area, the General Fund provides 64 percent of the
+revenue resources, shown in Figure 4. The Fund for Student Success is the second
+highest revenue source for education. It represents 14 percent of the total education
+program area spending but constitutes 18 percent of K-12 spending.
+
+November 5, 2025
+
+12
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+Figure 4. 2025-27 Education Program Area Funding Composition
+
+Data: 2025-27 Legislatively Adopted Budget
+Source: Legislative Fiscal Office
+
+K-12 Education
+State resources for K-12 education are distributed to school districts in two primary
+ways: (1) through the Department of Education grants and programs, and (2)
+through the State School Fund (SSF), which represents the largest share.
+
+Department of Education Programs
+The Department of Education grant-in-aid programs provide funding for specific
+purposes such as school nutritional programs, special education, professional
+development, and Career and Technical Education (CTE). The various granting
+programs are resourced by a variety of revenue sources, including General Fund,
+federal funding, and the Fund for Student Success. Many of these grant-in-aid
+programs are used in the determination of the total need as calculated by the QEM.
+The Department’s 2025-27 budget included additional funding for K-12 education in
+the following areas, as summarized in Figure 5:
+•
+
+Grant-in-aid - Resources for grant-in-aid programs includes resources for
+specific populations (e.g., special education, regional programs, Youth
+Corrections), specific program areas (e.g., Career Technical Education,
+professional development), and nutritional programs (e.g., school lunch). This
+amount has grown significantly in recent biennia beginning in the second
+
+November 5, 2025
+
+13
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+•
+•
+
+•
+•
+
+year of the 2019-21 biennium with the resources from the Fund for Student
+Success, totaling nearly $1.8 billion for the 2025-27 biennium. The largest
+amount ($1.1 billion) is distributed to school districts as grants from the
+Student Investment Account.
+Oregon School for the Deaf - Additional resources for the operation of the
+school beyond the amount funded through the SSF.
+Youth Development Programs - Funding for youth development efforts
+directed to K-12 related programs. The funding also includes a small portion
+of resources for outside of the K-12 area.
+Educator Advancement Council - Funding to support, develop, and diversify
+Oregon’s educator workforce through regional educator-led networks.
+Bond-funded Programs and Debt Service - Costs for state-issued bonds,
+primarily for aid to districts for construction and remodeling of school
+facilities.
+Figure 5. Department of Education’s 2025-27 Funding for K-12, Excluding the SSF
+
+*Excludes funding for ODE operations and early learning programs.
+**Excludes duplicative Other Funds expenditure limitation for General Fund deposited into an account and expended as
+Other funds and programs funded through the State School Fund.
+Data: 2025-27 Legislatively Adopted Budget
+Source: Legislative Fiscal Office
+
+State School Fund
+The single largest source of revenue to school districts and education service
+districts (ESDs) is “formula” resources, a combination of state resources, property tax
+revenues, timber revenue, distributions from the Common School Fund, and other
+local resources allocated to districts.
+
+November 5, 2025
+
+14
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+The “formula” refers to the equalization formula (ORS 327.008 et seq) that was
+intended to equitably allocate school funding to districts and ESDs on a per-pupil
+basis, weighted for certain student and district characteristics, and considering the
+availability of local revenues. The formula funding (SSF combined with local
+revenues) in the 2025-27 biennium totals $17 billion. State resources represent just
+over two-thirds of the total formula resources (67 percent), and local resources
+represent slightly less than a third of the total (33 percent), shown in Figure 6.
+Figure 6. 2025-27 State School Fund Revenue Composition, in Millions
+
+Data: 2025-27 Legislatively Adopted Budget
+Source: Legislative Fiscal Office
+
+In the 2025-27 biennium, the total budgeted formula resources increased by $1.6
+billion over the 2023-25 biennium, driven largely by an increase in the SSF, shown in
+Figure 7. The amount allocated by the legislature to the SSF has a large impact on
+the overall state budget. In the 2025-27 biennium, the SSF represents 27 percent
+($10.5 billion) of the total combined General Funds and Lottery Funds statewide.
+
+November 5, 2025
+
+15
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+Figure 7. Total School Formula Revenue Comparison of 2023-25 and 2025-27 Budget
+
+Data: Legislative Revenue Office March 2024 School Revenue Forecast, 2023-25 Legislatively Approved Budget, and
+2025-27 Legislatively Adopted Budget
+Source: Legislative Fiscal Office
+
+Figure 8 shows the growth of school formula resources over time. From the 2003-05
+through the 2011-13 biennium, total formula resources increased, on average, 5
+percent on a biennium-over-biennium basis. Looking at the more recent past, total
+formula funding from the 2013-15 through the 2025-27 biennia shows that total
+formula resources increased, on average, 10 percent on a biennium-over-biennium
+basis. The 2025-27 State School Fund budget surpassed the average growth with an
+increase of 11.4 percent from the prior biennium, making it the single most
+significant budget increase in more than 10 years.
+
+November 5, 2025
+
+16
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+Figure 8. Total School Formula Resources From 2003-05 Through 2025-27, in Billions
+
+Data: 2025-27 Legislatively Adopted Budget
+Source: Legislative Fiscal Office
+
+Nearly 99 percent of all formula resources available from state and local sources can
+be used by school districts and ESDs without specific direction on how the resources
+are to be spent. The remaining 1 percent represents directed set-asides from within
+the SSF.
+The funding does “carve out” of the SSF, but the set-asides do not always “carve
+into” the amount of funding distributed to school districts and ESDs. This is true
+for the 2025-27 SSF budget of $11.4 billion. The budget includes funding for the
+set-asides in addition to the calculated funding for distribution to school districts
+and ESDs.
+The set-asides are authorized by state law and directed for specific purposes,
+including educational programs for students in long-term care facilities, the Oregon
+School for the Deaf, and hospital programs. Other carve-outs are for specific
+programs to support K-12 education, such as the School Safety and Emergency
+Management program, High-Cost Disability Grants, English language learners grants,
+and Small School Grants.
+
+November 5, 2025
+
+17
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+Figure 9. 2025-27 State School Fund Set-asides
+CARVE OUTS
+Charter School Closure
+School Safety and Emergency Mgmt
+School Facilities Office
+Pediatric Nursing Facilities
+High Cost Disability
+EAC (SSF share)
+EAC (from SD/ESD shares)
+English Language Learners
+10th Grade Assessment
+Talented & Gifted
+Speech Pathologist
+Healthy Schools Facilities Fund
+Menstural Products
+Small School Supplement
+Youth Challenge Program
+Hospital/Residential Care
+Local Option Equalization
+Oregon Digital Learning
+
+ORS
+
+AMOUNT
+412,406
+327.008(7)
+3,000,000
+327.008(8)
+10,000,000
+327.008(9)
+2,124,448
+327.008(10)
+110,000,000
+327.008(11)(a)
+6,794,711
+327.008(11)(b)
+24,013,226
+327.008(12)
+12,500,000
+327.008(13)
+968,000
+327.008(14)
+350,000
+327.008(15)
+150,000
+327.008(16)
+2,000,000
+327.008(17)
+2,595,000
+327.008(18)
+5,000,000
+327.008(19)
+4,906,249
+327.008(1)(d), 343.243
+44,827,044
+327.008(1)(d), 327.339
+4,000,000
+SB 5516
+1,600,000
+
+327.008(3)
+
+Total set-asides
+
+$235,241,084
+
+Data: 2025-27 Legislatively Adopted Budget
+Source: Legislative Fiscal Office
+
+Sufficiency Determination
+Based on the 2024 QEC report, it is the determination of the Joint Committee
+on Public Education Appropriation that state funding appropriated for the K-12
+public education in the 2025-27 biennium is sufficient to meet the 2024 QEC’s
+recommended funding levels.
+The 2024 QEM estimated that the Legislative Assembly needed to appropriate $13.5
+billion for K-12 education in the 2025-27 biennium to reach the state’s quality
+education goals. 7 This amount is based on the QEM’s total cost for the fully
+implemented model of $25.0 billion, offset by other revenues. These other revenues
+include property tax and other local revenues along with various federal program
+funds (e.g., Special Education, nutrition) available to the K-12 system. However, the
+QEM’s revenue calculations do not account for state grant-in-aid received by school
+districts, including the grants funded through the Fund for Student Success.
+Accounting for all state funding available for K-12 education, this committee finds
+
+Quality Education Commission, Quality Education Model: Identifying Best Practices and Calculating the
+Cost of a Quality Education 10 (2024), available at https://www.oregon.gov/ode/reports-and7
+
+data/taskcomm/Documents/M000266%20DOE%20Quality%20Education%20Model%20Report%202024.pdf
+November 5, 2025
+
+18
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+that $25.1 billion is available to schools for core operations and programming, an
+amount sufficient to meet the QEM’s requirements. An additional $1.4 billion is also
+provided to strengthen the overall K-12 education system.
+The QEC states in the QEM report that the “full QEM [has] never represented the
+totality of funding that is available to districts and Education Service Districts within
+the State of Oregon, only those funds which were allocated to districts by the State
+School Funding formula.” 8
+However, as shown in Figures 10 and 11, CAT revenues were used to directly narrow
+the gap in the 2020 and 2022 QEM reports, respectively.
+Figure 10. Funding Gap from the 2020 QEM Report 9
+
+Quality Education Commission, Quality Education Model: Identifying Best Practices and Calculating the
+Cost of a Quality Education 10 (2024), available at https://www.oregon.gov/ode/reports-anddata/taskcomm/Documents/M000266%20DOE%20Quality%20Education%20Model%20Report%202024.pdf
+8
+
+Quality Education Commission, Quality Education Model: Final Report 8 (2020), available at
+https://www.oregon.gov/ode/reports-anddata/taskcomm/Documents/66421_ODE_Quality%20Education%20Model%20Report_2020%20v7.pdf
+9
+
+November 5, 2025
+
+19
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+Figure 11. Funding Gap from the 2022 Revised QEM Report 10
+
+In sharp contrast, the 2024 QEM reports only the statutorily required amount of
+Student Success Act funding transferred to the State School Fund as repayment for
+General Fund losses (see Fund for Student Success section). It does not report any of
+the additional Student Success Act funding for schools, including the Student
+Investment Act grants. Additionally, on page 61 of the 2024 QEM report, Exhibit 33
+removes the previously reported actual Student Success Act funding and inserts only
+the amount of the required transfer into the State School Fund, which misrepresents
+the funding provided. The net effect of these adjustments artificially increased the
+funding gap by 1.0 billion in 2021-23 and by 1.3 billion in 2023-25.
+Figure 12. Impact of the Recalculated Historical Gaps in 2024 QEM, Exhibit 33
+
+The Legislative Assembly recognized a gap in education funding in 2019 with the
+passage of the Student Success Act. To date, the CAT revenue has funded an
+additional $6.7 billion in grant-in-aid funding for K-12 education and early learning,
+
+Quality Education Commission, Identifying Best Practices and Calculating the Cost of a Quality
+Education 8 (2022), https://www.oregon.gov/ode/reports-and10
+
+data/taskcomm/Documents/QEMReport_2022_VERSION2_Revised2_8_23.pdf
+November 5, 2025
+
+20
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+including $2.3 billion allocated for distribution in the 2025-27 biennium. The QEC’s
+inaccurate reflection of the state’s current investment in education, including the
+CAT revenue − created explicitly to close the funding gap in education − is extremely
+misleading. The Student Investment Account grants alone fund an additional $1.1
+billion in formula grants to schools. During the 2025 legislative session, school
+advocates testified to the Joint Ways and Means Subcommittee on Education to the
+importance of these grants to core school operations along with other large grant
+programs, including High School Success, Early Literacy, and Hunger Free Schools.
+Additionally, the legislature also provided $35 million a year in ongoing funding for
+Summer Learning.
+Figure 13 shows the 2024 QEM calculations of the funding gap in K-12 education
+followed by Figure 14, which itemizes the state revenue to more than sufficiently
+close the gap.
+
+November 5, 2025
+
+21
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+Figure 13. QEM Total Cost Assumptions 11
+
+Data: Oregon Quality Education Commission
+Source: Legislative Fiscal Office
+
+Quality Education Commission, Appendix C - 2024 QEM Cost Model (2024)
+https://www.oregon.gov/ode/reports-anddata/taskcomm/Documents/AppendixC_2024%20QEM%20Cost%20Model%20for%20Public%20Release.xlsx
+(last visited October 17, 2025).
+11
+
+November 5, 2025
+
+22
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+Figure 14. State Funding for K-12 Education
+
+Data: 2025-27 Legislatively Adopted Budget
+Source: Legislative Fiscal Office
+
+November 5, 2025
+
+23
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+Funding Considerations
+The Legislative Assembly takes a variety of factors into account when appropriating
+funding for K-12 education.
+
+Revenue-related Factors
+Understanding K-12 education funding in Oregon requires a review of past ballot
+measures, the most important being Ballot Measure 5 (1990). This measure cut
+school property taxes dramatically by capping the school property tax rate at $5 per
+$1,000 of market value, which significantly decreased the amount of local revenues
+for schools. State government resources replaced much of the lost revenue over the
+years since 1990. Before Measure 5, local revenues represented roughly two-thirds of
+total revenues for the general operating costs of districts while the state contributed
+roughly one-third. Currently, these proportions have flipped, with the state resources
+representing approximately two-thirds of the formula revenue and local resources
+contributing one-third. (See above section.)
+As noted in previous reports, the state revenue system, dominated by the personal
+income tax, remains volatile over the short-term. During economic downturns, the
+state has difficulty maintaining adequate levels of funding for all public services,
+including education. Creation of the Education Stability Fund (2002) and the Rainy
+Day Fund (2007) have attempted to mitigate negative impacts. As of the September
+2025 forecast, these two funds are projected to total $3.42 billion or 9.8 percent of
+total estimated General Fund revenues by the end of the 2025-27 biennium. The
+Education Stability Fund was most recently accessed ($400 million) during the
+August 2020 special session. As roughly two-thirds of K-12 operating revenue is
+derived from state funds, school finances remain vulnerable to the volatility of the
+personal income tax.
+The 2 percent personal kicker provisions in the Oregon Constitution—requiring an
+income tax refund following any biennium in which revenue has exceeded the state’s
+two-year budget forecast by two percent or more—adds to revenue volatility. These
+refunds have reduced personal income tax revenue for the years in which they were
+issued, although the actual impact on resources depends on the size of the ending
+balance in the biennium in which the kicker was created. The surplus kicker revenue
+limit slows revenue growth during periods of economic prosperity and reduces
+revenue further during some recessionary periods, thereby worsening the impact of
+recessions on the state General Fund. Kicker payments are provided to taxpayers
+through credits against personal income taxes owed. For 2025-27, the September
+
+November 5, 2025
+
+24
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+2025 revenue forecast estimates that a personal income tax kicker of $1.4 billion will
+be credited during the tax filing season in 2026. This kicker payment has been
+factored into the revenue forecasts.
+According to the September 2025 state economic forecast, growth of the Corporate
+Activity Tax is projected to be 11.1 percent in 2025-27, compared to 2023-25
+collections. Collections in 2023-25 were $2.76 billion and the forecast for 2025-27 is
+$3.07 billion. The growth rates for the subsequent four biennia are 13.1 percent, 9.3
+percent, 9.4 percent, and 9.4 percent.
+Additionally, recent changes in federal policy have varying impacts to revenue in
+different state programs. How the changes will directly or indirectly impact federal
+funding for Oregon’s K-12 schools is unknown.
+
+Competing for State Resources
+The State School Fund remains one of the largest single expenditures funded
+through the state’s General Fund and Lottery Funds, but there are other important
+budget areas that also must be funded or whose funding has been affected by
+outside factors.
+As shown in Figure 15, in the 2025-27 Legislatively Adopted Budget the education
+program area expenditures represent 40 percent of the overall General Fund and
+Lottery Funds budget. Within this program area, programs other than K-12
+education—such as early childhood education programs and higher education—
+both complement and compete for General Fund resources.
+Health and Human Services represents the second largest program area expenditure
+at 35 percent of the state’s General Fund and Lottery Funds budget. Numerous
+federal changes in funding and requirements affect the Health and Human Services
+budget area, limiting the Legislature’s flexibility to reduce costs. For the 2025-27
+biennium, significant investments were made to expand services for youth
+experiencing homelessness; to improve the rates paid to providers of long-term
+care, nursing, behavior rehabilitation, and foster care services; and to stabilize such
+basic systems as food supply, clean drinking water, and housing.
+
+November 5, 2025
+
+25
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+Figure 15: 2025-27 Legislatively Adopted General and Lottery Funds budget, in Millions
+
+Data: 2025-27 Legislatively Adopted Budget
+Source: Legislative Fiscal Office
+
+Cost Considerations
+There are several common factors that drive the costs of providing educational
+services to students. These factors can be grouped into three general areas:
+declining enrollment, student needs, and increasing employee compensation.
+
+Declining Enrollment
+As shown in the Figure 16, public school enrollment in Oregon has been on an
+accelerated decline since the 2019-20 school year. 12 Projections from the National
+Center for Education Statistics indicate the trend will continue through at least
+2030. 13 Declining enrollment increases cost pressures related to fixed assets, such as
+school facilities. In an environment of declining enrollment, cost pressures need to
+be reconsidered to find economies of scale for both variable and fixed costs
+associated with individual schools.
+
+Oregon Department of Education, Fall membership reports. https://www.oregon.gov/ode/reportsand-data/students/Pages/Student-Enrollment-Reports.aspx (last visited October 7, 2025).
+12
+
+National Center for Education Statistics, Projections to Education Statistics to 2030. Projections of
+Education Statistics to 2028 (last visited October 9, 2025).
+13
+
+November 5, 2025
+
+26
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+Figure 16: Public K-12 Enrollment in Oregon, 2015-2025
+
+576,407
+
+578,947
+
+580,684
+
+581,730
+
+582,661
+
+560,917
+553,012
+
+552,380
+547,424
+
+545,088
+
+2015-16 2016-17 2017-18 2018-19 2019-20 2020-21 2021-22 2022-23 2023-24 2024-25
+
+Data: Oregon Department of Education
+Source: Legislative Policy and Research Office
+
+Student Needs
+The SSF is calculated on a per-pupil basis, weighted for students in certain
+categories, including students with an Individual Education Program, students
+learning English, and those experiencing poverty, among others. The overall total of
+weighted enrollment demonstrates the increased needs of the students Oregon
+serves. Since the 2019-20 school year, overall enrollment has declined just over 5
+percent, from 582,661 to 545,088. This is an average decrease of 1.3 percent per
+year. In the same time frame, the total student weights are projected to increase
+from representing 126,409 weights, 18 percent of the total ADMw, to 136,442
+weights, to representing 20 percent of the total ADMw by the 2026-27 school year.
+That is an average increase of 1.1 percent per year.
+Figure 17. Change in ADM and the Weights Making Up the Total ADMw
+
+Data: Department of Education
+Source: Legislative Fiscal Office
+
+November 5, 2025
+
+27
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+According to the U.S. Census Bureau, the poverty level for children in Oregon ages 5
+to 17 has been steady from 2021 to 2023. 14 Students with lower socioeconomic
+status are more likely to face challenges with academic skills, housing stability and
+mobility, nutrition, and health care access, which tend to result in increased need for
+supplemental educational services. 15 These higher costs are partially addressed by
+federal funds through Title I Part A of the Elementary and Secondary Education Act
+as amended (ESEA), through child nutrition programs, through the Oregon Health
+Plan, and through other state funding. Educational challenges are particularly acute
+for students who are experiencing homelessness, whose numbers also increased
+from 2021 through 2024 after years of declines. 16 Under the federal McKinney-Vento
+Act, districts must provide the necessary services to allow students experiencing
+homelessness to remain enrolled in school. Limited federal grant funds are available
+for this purpose, but not all districts receive these grants.
+Students with disabilities are guaranteed the right to a free and appropriate public
+education under the federal Individuals with Disabilities Education Act (IDEA).
+Because these students’ individualized education programs promise the delivery of
+specified educational services, the cost of meeting their educational needs is
+generally higher than for other students. According to the QEM report, the
+proportion of students in Oregon with an Individual Education Program was 14.5
+percent in the 2022-23 school year. 17
+
+U.S. Census Bureau, Small Area Income and Poverty Estimates (SAIPE),
+https://www.census.gov/datatools/demo/saipe/#/?s_state=41&s_county=&s_district=&s_geography=us&s_measures=5_17_fam
+(last visited October 6, 2025).
+14
+
+American Psychological Association, Education and Socioeconomic Status Fact Sheet,
+http://www.apa.org/pi/ses/resources/publications/education (last visited October 8, 2025).
+15
+
+Oregon Department of Education, McKinney-Vento Act Data Poster,
+http://www.oregon.gov/ode/schools-and-districts/grants/ESEA/McKinneyVento/Documents/McKinney-Vento%20Act%20Data%20Poster.pptx (last visited October 8, 2025).
+16
+
+Quality Education Commission, Quality Education Model: Identifying Best Practices and Calculating
+the Cost of a Quality Education 39 (2024), available at https://www.oregon.gov/ode/reports-and17
+
+data/taskcomm/Documents/M000266%20DOE%20Quality%20Education%20Model%20Report%202024.pdf
+November 5, 2025
+
+28
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+Employee Salaries and Wages
+Overall, salaries and benefits represent approximately 85 percent of school district’s
+general operating costs with salaries and wages representing the largest share. Local
+school districts bargain with their employees for increases in salaries and wages. The
+state does not influence these agreements. Local bargaining results in varying levels
+of increases in compensation across districts. The
+Figure 18. Actual Average
+calculation of the SSF’s current service level, in
+Teacher Compensation in SSF
+subsequent biennia, factors in average
+compensation increases across the state. Average
+teacher salary has grown at an average annual rate
+of about 2.8 percent over the past 10 years based
+on information collected from school districts by the
+Oregon Department of Education. This increase is
+not based solely on increases in salary and wages
+but also reflects any changes in teacher longevity
+and seniority. Additionally, the number of staff in
+schools currently sits at a record high, particularly as Data: Department of Education
+Source: Legislative Fiscal Office
+compared to the number of enrolled students,
+shown in Figure 19.
+Figure 19. Count of Enrollment (ADM), Teachers, and Staff in K-12 Education
+
+Data: Department of Education
+Source: Legislative Fiscal Office
+
+Public Employees Retirement System
+Like other public employers in Oregon, school districts and education service
+districts contribute to the Public Employees Retirement System (PERS) for their
+
+November 5, 2025
+
+29
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+employees’ retirement benefits. Employer contribution rates are approved by the
+PERS Board in the fall of even-numbered years for rates that take effect on July 1st
+of odd-numbered years. As PERS rates are expressed as a percentage of payroll,
+payroll growth drives PERS costs, as do other factors including employee
+demographics, economic factors, and actions taken by employers to reduce pension
+obligation costs, such as through funding PERS side accounts. The 2019 Legislative
+Assembly approved changes to PERS that limit employer rates in Senate Bill 1049,
+but PERS contributions remain a variable expense for school districts. Rates can
+change from one biennium to the next based on investment earnings, PERS Board
+changes and assumptions, legislative changes, and court decisions.
+
+Health Benefits
+Like other private and public employers, school districts face increasing costs for
+providing their employees’ health insurance. Even though actions such as large
+employer pools and transferring costs to employees can limit increasing costs, health
+insurance costs for school districts continue to generally outpace the inflation rate.
+Most school districts purchase medical and dental insurance through the Oregon
+Educators Benefit Board, and under current law, the Board is required to adopt
+policies and practices that are designed to limit the annual increases in premium
+amounts paid for contracted health benefit plans to 3.4 percent per year.
+
+Impact of Funding
+Since the Legislative Assembly appropriated a sufficient amount of funding for the
+QEM’s inputs, this Committee wanted to examine the percentage of Oregon schools
+that meet or exceed some of the QEC’s staffing recommendations. The QEC’s
+recommendations are based on three prototype schools sized at 364 students for
+elementary schools, 500 students for middle schools, and 1,000 students for high
+schools. Roughly half of Oregon’s elementary and middle schools and three-quarters
+of its high schools are significantly smaller than the prototype schools considered by
+the QEM. These schools cannot achieve the economies of scale that are represented
+by the prototype schools and may require different staffing levels. Therefore, any
+review of how many schools in Oregon are meeting the QEC’s recommendations
+would be flawed. A better model will allow for a more detailed review of how many
+schools of varying sizes meet the state’s quality recommendations.
+
+November 5, 2025
+
+30
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+Suggestions to Improve the Legislative Assembly’s
+Ability to Meet the Requirements of Article VIII,
+Section 8 in Future Biennia
+Given the finding of sufficiency, this committee has nine suggestions for improving
+the Legislative Assembly’s work under Article VIII, Section 8 of the Oregon
+Constitution. These changes represent procedural improvements as well as technical
+updates that would fix critical flaws and present the Legislative Assembly, and
+therefore the citizens of Oregon, with a sounder footing on which to base their
+opinions and decisions about education funding.
+
+1. Build alignment in education goals.
+The statutory goals on which the QEM rests lack specificity and have little
+tie to the concrete expectations of schools established in Oregon’s revised
+statutes or its administrative rules. Language that is aspirational but not
+measurable may serve a purpose, but the endeavor of costing out a quality
+system should rest on statutory goals that align with the accountability
+metrics established in Senate Bill 141 (2025) and the accompanying targets
+soon to be adopted by the State Board of Education. The goals should also
+align with the existing expectations of standard schools as outlined in state
+law and administrative rule, and with the goal of having a fully qualified and
+licensed individual in each position that requires a license.
+
+2. Rely on neutral experts.
+Currently, there is a conflation of roles where the sole professional
+judgment panel is the Commission itself. Ideally, the work should be
+split—professional researchers and facilitators consulting multiple panels
+of practicing educators to determine what the inputs are. Neutral, expert
+researchers who do not have a vested or personal interest in the final
+amount would then use that information to determine how much it
+would cost to fund a system that uses those inputs to meet specific,
+measurable goals.
+
+3. Use best practices in education research.
+The ability to rely on data resulting from best research practices is of the
+utmost importance for the integrity of the Legislative Assembly’s work. This
+Committee reviewed the American Institutes for Research report on the
+
+November 5, 2025
+
+31
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+quality of the professional judgment model as it is currently used by the
+QEC. That report makes clear that the implementation of the professional
+judgment model by the QEC does not meet best practices in the education
+research field, implying there is no guarantee that the QEC selects optimum
+inputs. Having professional researchers implement a thorough and broadbased professional judgment model would broaden the educator voice in
+this process, ensuring that a wide variety of expertise from educators and
+administrators across Oregon could directly contribute to determining the
+QEM’s inputs.
+
+4. Itemize changes and discuss in report.
+Some of the best practices that are highlighted in the QEC’s report are
+not included as model inputs. The report focuses on several best
+practices, including a 180-day school year, but does not include those as
+inputs into the model. This Committee has fundamental questions about
+why the QEC would identify best practices but not include those in the
+model. Additionally, there is no itemization for costs associated with
+model inputs that require a legislative policy change to implement. For
+example, ORS 327.013 limits the number of pupils in the SSF calculation
+who receive the double special education weighting to 11 percent.
+Assumptions in the QEM related to increasing the weighting limit should
+be clearly itemized, as these assumptions cannot be funded without an
+accompanying policy measure.
+
+5. Quality review the financial codes.
+The QEC’s calculations do not fully account for all revenue sources available
+to local school districts. In the 2024 legislative session, Senate Bill 5701
+provided funding for ODE to create the Office of Fiscal Transparency. The
+office is currently working to increase the data quality and ensure a
+universal understanding of the revenue and expenditure codes used in
+capturing local school district financial information. Each school district
+budgets slightly differently. Without understanding how each district
+acquires and records revenue for payment of items such as PERS, it is
+difficult to accurately capture the revenue. Additionally, the QEC’s revenue
+assumptions omit the second largest source of state K-12 revenue, the Fund
+for Student Success. Having the revenue codes and assumptions reviewed
+and updated by the Office of Fiscal Transparency will ensure any calculated
+gap is not artificially derived.
+
+November 5, 2025
+
+32
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+6. Increase transparency into the calculations.
+A more transparent model would improve the Legislative Assembly’s ability
+to conduct its review. While the 2024 QEM report is a vast improvement
+over 2022’s report, this Committee still has a number of questions about
+how the costs of implementing the QEM’s selected interventions are
+calculated. These questions are not answered by the documentation
+provided by the QEC. For example, on one of the QEC’s cost calculation
+spreadsheets, multiple cost categories are blacked out with no explanation.
+Additionally, some costs are not labeled with a unit to specify whether the
+input is meant to be implemented at the classroom, school, or district level.
+
+7. Account for variation of needs between schools.
+The QEM’s model schools do not account for the variation in need among
+Oregon’s schools and do not meet best practices in the education research
+field. The QEC itself noted this as a limitation on page 59 of its report, 18
+stating that “the model does not capture the variations in costs associated
+with the unique challenges facing different school settings, such as small
+rural schools and larger schools in metropolitan areas.” The QEC goes on to
+state that the QEM “does not capture cost variations based on the
+characteristics of student populations and school communities.” Similarly,
+the QEC notes on page 38 of its report 19 that the current prototype model
+“does not allow for consideration of potential differences in cost for
+operating a variety of bilingual school models.” This Committee believes that
+construction of a more sophisticated model is needed to ensure the
+accuracy of the final dollar figure.
+
+8. Enhance the scale-up assumptions.
+Legislators need to be able to trust the QEM’s scale-up to see the total
+cost of implementing the QEM’s inputs in Oregon schools. The QEM relies
+on three model schools with selected inputs, costs out the per-pupil
+
+Quality Education Commission, Quality Education Model: Identifying Best Practices and Calculating
+the Cost of a Quality Education (2024), available at https://www.oregon.gov/ode/reports-anddata/taskcomm/Documents/M000266%20DOE%20Quality%20Education%20Model%20Report%202024
+.pdf#page=61
+18
+
+19
+
+Quality Education Commission, Quality Education Model: Identifying Best Practices and Calculating
+the Cost of a Quality Education (2024), available at https://www.oregon.gov/ode/reports-anddata/taskcomm/Documents/M000266%20DOE%20Quality%20Education%20Model%20Report%202024
+.pdf#page=40
+November 5, 2025
+
+33
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+amount for each of those schools, and then multiplies that per-pupil
+amount by the number of students in Oregon’s elementary, middle, and
+high schools. The QEC’s current method for scaling up the costs assumes
+schools have no fixed costs and that there are no economies of scale.
+Additionally, it leaves out the costs of alternative education settings such as
+long-term care or hospitals.
+
+9. Develop a roadmap for educators.
+Perhaps the most important opportunity to improve this entire system is
+the chance to create a greater connection between the quality measures
+recommended by the QEM and the experiences of Oregon’s students. On
+page 55 of its report, the QEC states that its estimates of improved
+graduation rates rely on the assumption that local school districts would
+implement the recommended educational best practices, even though there
+is neither a requirement nor a clear road map for them to do so.
+Furthermore, this committee’s review of staffing levels illustrates that a
+majority of schools in Oregon are not implementing the QEC’s
+recommended staffing levels. The current disconnect between the Quality
+Education Model and local districts, whose implementation of the
+recommended best practices varies, gives rise to a broad misunderstanding
+of what the QEM’s dollar figure actually represents. Similarly, the disconnect
+among the Legislative Assembly’s goals as stated in statute, the
+accountability measures established during the 2025 legislative session, the
+Quality Education Model, and local implementation means that not all
+entities are necessarily rowing in the same direction.
+
+Early Learning System Goals
+Although ORS 171.857 (2021) does not require this committee to include Oregon’s
+early learning system in its report, several parts of the system are publicly funded
+and are therefore included here.
+ORS 329.160, as amended by House Bill 3435 (2023), declares the state’s policy to
+implement programs for early childhood education, for parenting education that
+includes prenatal care, for child-parent centers, and for the Oregon Prenatal to
+Kindergarten Program, and that the latter shall be funded with a goal to have full
+funding for all eligible children. However, the statute does not set out any specific
+quality goals for the state’s early learning system as a whole. In some cases, specific
+programs’ definitions and enabling statutes state expectations for their respective
+
+November 5, 2025
+
+34
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+programs. ORS 329.175, as amended by House Bill 3435 (2023), states that the
+Oregon Prenatal to Kindergarten program “provide[s] comprehensive health,
+education and social services to children and their parents or other key family
+members, at any time beginning with prenatal care and continuing until the children
+enter kindergarten, in order to maximize the potential of those children prior to
+kindergarten entry.” Similarly, ORS 329.172(5), as amended by House Bill 3435
+(2023), establishes quality standards for providers in the state’s Preschool Promise
+program. Finally, ORS 343.465 (2021), in declaring the state’s policy of respecting
+uniqueness and cultural and linguistic diversity with regard to preschool children
+who experience disability, establishes some quality standards for services that affirm
+these values.
+The goals laid out in statute for Oregon’s early learning programs are not sufficiently
+measurable for this committee to determine the adequacy of funding. Additionally,
+there is no early learning model that, like the K-12 Quality Education Model,
+measures the cost of reaching early education quality goals. Therefore, the
+committee finds that the state’s system of early childhood public education does not
+have sufficient quality goals established by law as to merit an analysis of whether
+funding is sufficient to meet those goals.
+
+Post-Secondary Quality Education Goals
+ORS 171.857 (2023) requires the Legislative Assembly to identify in this report
+“whether the state’s system of post-secondary public education has quality goals
+established by law.”
+ORS 350.009 (2023) sets out the goals of Oregon’s public higher education:
+1. creating an educated citizenry to support responsible roles in a democratic
+society and provide a globally competitive workforce to drive this state’s
+economy, while ensuring access for all qualified Oregonians to a high-quality
+post-secondary education;
+2. ensuring a high-quality learning environment that allows students to succeed;
+3. creating original knowledge and advancing innovation; and
+4. contributing positively to the economic, civic, and cultural life of communities
+in all regions of Oregon.
+Senate Bill 253 (2011) revised the mission and purpose of post-secondary education
+in Oregon by establishing numerical goals to be achieved by 2025, commonly called
+40-40-20:
+
+November 5, 2025
+
+35
+
+Joint Public Education Appropriations Committee | Oregon State Legislature
+
+•
+
+At least 40 percent of adult Oregonians will earn a baccalaureate degree
+or higher.
+• At least 40 percent will earn an associate degree or post-secondary credential.
+• The remaining 20 percent will earn a high school diploma, extended or
+modified diploma, or the equivalent.
+House Bill 2311 (2017) amended the 40-40-20 goals to apply to adult Oregonians
+who have moved through Oregon’s K-12 and higher education systems. Sponsors of
+the legislation and Legislative Counsel agreed that, due to its aspirational nature, the
+40-40-20 plan does not establish the quality goals that would require a
+determination of sufficiency under Ballot Measure 1.
+In 2007, Governor Ted Kulongoski established the Post-Secondary Quality Education
+Commission, which recommended the development of a post-secondary quality
+education model to support decision-making on policy and state budget
+development, similar to the role of the K-12 Quality Education Model. That
+commission saw the proposed model as a tool to give policymakers and the public
+the ability to analyze a variety of policies and their impact on post-secondary costs.
+The QEC recommended that the proposed model
+•
+•
+
+be based primarily on the 40-40-20 strategy;
+determine the resources required to meet these goals and identify the
+barriers to success; and
+• be included in the state budget.
+Due to falling state revenues at the time, no funding was included in the final
+Legislatively Adopted Budget for that biennium, and it has not been
+addressed since.
+Currently, there is no higher education model that, like the K-12 Quality
+Education Model (QEM), measures the cost of attaining post-secondary quality
+goals. The aspirational goals in ORS 350.009 (2023) are not quantifiable for
+measuring costs, while the 40-40-20 goals are more concrete but are resultsoriented rather than prescriptive.
+Therefore, this committee finds that the state’s system of post-secondary public
+education does not have sufficient quality goals established by law as to merit an
+analysis of whether funding is sufficient to meet those goals.
+
+November 5, 2025
+
+36
+
+
