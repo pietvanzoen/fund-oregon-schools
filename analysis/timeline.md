@@ -20,4 +20,5 @@
 | 2026-11-13 | Senate Democrats name Lieber as Ways & Means co-chair for 2027 | [SRC:legislature/press/2026-11-13_senate-dems-2027-leadership.pdf p.1] |
 | 2026-11-17 | PPS Board's 2027 legislative agenda cites a $12.57B CSL | [PPSARCH:BB:14673756 p.1] |
 | 2026-11-18 | November revenue forecast: ~$245M more for 2027-29 | [NEWS:NEWS-20261118-klcc-1] |
-| 2026-12 | Governor's 2027-29 recommended budget | [NEWS:NEWS-2026-salemreporter-1] |
+| 2026-12-01 | Governor's 2027-29 recommended budget due | [SRC:legislature/ors/ors291.html] [NEWS:NEWS-2026-salemreporter-1] |
+| 2026-12-02 | Families United for Public Schools rally at the Capitol | [SRC:orgs/families-united/demands.html] |

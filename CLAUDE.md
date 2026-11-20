@@ -28,7 +28,9 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
      - `legislature/bills/` measure text and staff measure summaries
      - `legislature/press/` caucus and committee press releases; `legislature/appointments/` committee assignment memos
      - `ode/` Oregon Department of Education, incl. `ode/qec/` Quality Education Commission reports and minutes
-     - `fiscal/oea/` Office of Economic Analysis forecasts; `fiscal/lfo/` Legislative Fiscal Office; `fiscal/lro/` Legislative Revenue Office
+     - `fiscal/oea/` Office of Economic Analysis forecasts; `fiscal/lfo/` Legislative Fiscal Office; `fiscal/lro/` Legislative Revenue Office;
+       `fiscal/dor/` Department of Revenue
+     - `reference/` reference works (e.g. Oregon Encyclopedia); prefer a primary source when one exists
      - `districts/<district>/` district budget documents; `orgs/<org>/` advocacy and association documents
    - Hearing or meeting video/audio: `[VID:<path under sources/ without extension>@H:MM:SS]`
    - News: `[NEWS:<id from sources/news/index.jsonl>]`
