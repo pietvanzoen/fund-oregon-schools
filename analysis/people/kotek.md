@@ -36,12 +36,21 @@ Budget for 2027-29 in December [NEWS:NEWS-2026-salemreporter-1].
 - Analysis: her position has been consistent: not without a supermajority already lined up. No reversal to point to.
 
 ## On PPS closures
-- Oct 13, 2026 letter to Superintendent Armstrong and Board Chair Wang: urged PPS to take its time but did not ask
-  it to withdraw its plans [NEWS:NEWS-20261014-opb-1].
+- Oct 13, 2026 letter to Superintendent Armstrong and Board Chair Wang [SRC:gov/letters/2026-10-13_kotek-letter-to-pps-school-closures.pdf p.1]:
+  - Said her office had heard from parents, students and neighbors expressing shock and disappointment, and
+    confusion about the timeline and why schools were picked [SRC:gov/letters/2026-10-13_kotek-letter-to-pps-school-closures.pdf p.1].
+  - "the district must take the necessary time for families to understand and adequately weigh in before
+    decisions are made" [SRC:gov/letters/2026-10-13_kotek-letter-to-pps-school-closures.pdf p.1].
+  - "Taking the time to get this right is not a delay in making difficult decisions, but rather an essential part
+    of the commitment to community partnership." [SRC:gov/letters/2026-10-13_kotek-letter-to-pps-school-closures.pdf p.1]
+  - Said every family deserves clear, transparent information on the data, the factors considered and the
+    tradeoffs [SRC:gov/letters/2026-10-13_kotek-letter-to-pps-school-closures.pdf p.1].
+  - Analysis: the letter is about process. It asks PPS to slow down for engagement but does not ask it to withdraw its
+    plans, sets no timeline, and says nothing about state funding, the State School Fund or reserves [SRC:gov/letters/2026-10-13_kotek-letter-to-pps-school-closures.pdf p.1]. OPB's account
+    [NEWS:NEWS-20261014-opb-1] is consistent with the text.
 - "Portland needs to do everything it possibly can to cut administrative costs and other things before it talks
   about closing schools." [NEWS:NEWS-2026-katu-kotek-pps-1]
 
 ## To add
-- Full text of her Oct 13, 2026 letter to PPS (not posted publicly; only news descriptions so far).
 - State of the State and budget-release speeches; 2025-27 budget document pages on K-12.
 - Exact date of the Faubion School press event.

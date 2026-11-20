@@ -12,7 +12,7 @@
 | 2026-05-19 | Sen. Sollman (W&M education co-chair) loses her primary | [NEWS:NEWS-20260521-wweek-1] [NEWS:NEWS-20260529-opb-1] |
 | 2026-08 | Quality Education Commission releases 2026 QEM report | [SRC:ode/qec/2026_qem_report.pdf] [NEWS:NEWS-20260812-opb-1] |
 | 2026-09-17 | Kotek releases second-term platform | [NEWS:NEWS-20260917-opb-1] |
-| 2026-10-13 | Kotek's letter to PPS leaders: take the time to get closures right | [NEWS:NEWS-20261014-opb-1] |
+| 2026-10-13 | Kotek's letter to PPS leaders: take the time to get closures right | [SRC:gov/letters/2026-10-13_kotek-letter-to-pps-school-closures.pdf p.1] [NEWS:NEWS-20261014-opb-1] |
 | 2026-10-21 | Quality Education Commission meeting | [SRC:ode/qec/minutes/2026-10-21.pdf] |
 | 2026-11-02 | PPS asks the state for $500M from the Education Stability Fund | [NEWS:NEWS-20261102-opb-1] |
 | 2026-11-06 | Post-election: Kotek declines to commit to a school funding plan | [NEWS:NEWS-20261106-occ-1] |
