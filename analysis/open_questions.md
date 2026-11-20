@@ -21,7 +21,6 @@
 ## Sources to find and queue (no URL yet)
 - Legislative Fiscal Office: 2025-27 budget highlights (K-12 section); 2027-29 CSL documents.
 - Current (2026) Education Stability Fund balance; the queued LRO brief is from Nov 2025.
-- Kotek's Oct 13, 2026 letter to PPS: not posted publicly; ask PPS board members or request it from the Governor's office.
 - ODE State School Fund formula guide and district payment estimates.
 - OSBA State School Fund tracker; COSA and OEA budget positions; Oregon Center for Public Policy analyses.
 - Legislative hearing video: Joint Committee on Public Education Appropriation, Ways & Means education subcommittee,
