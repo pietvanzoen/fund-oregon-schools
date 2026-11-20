@@ -1,6 +1,8 @@
 biennium,report,measure,amount_billion,note,source
 2025-27,QEM 2024,ssf_needed_full_implementation,12.7,"SSF estimated as needed to fully implement QEM, alongside other education funding",[NEWS:NEWS-20241203-osba-1]
-2027-29,QEM 2026,state_funding_current_service,13.8,"'nearly $13.8 billion' to maintain the status quo; confirm page in report",[NEWS:NEWS-20260812-opb-1] [SRC:ode/qec/2026_qem_report.pdf]
-2027-29,QEM 2026,state_funding_meet_targets,16.2,"'more than $16.2 billion' to meet new accountability targets; confirm page",[NEWS:NEWS-20260812-opb-1] [SRC:ode/qec/2026_qem_report.pdf]
-2027-29,QEM 2026,increase_needed_current_service,2.5,nearly $2.5B more than 2025-27,[NEWS:NEWS-20260812-opb-1]
-2027-29,QEM 2026,increase_needed_meet_targets,5.0,nearly $5B more than 2025-27,[NEWS:NEWS-20260812-opb-1]
+2027-29,QEM 2026,status_quo_state_funding,13.78,"Scenario 1: continue prior-biennium service level; +21.6% over prior cycle; $13,775,890,564",[SRC:ode/qec/2026_qem_report.pdf p.13] [SRC:ode/qec/2026_qem_report.pdf p.103]
+2027-29,QEM 2026,ssf_csl_in_report,12.56,"DAS SSF current service level incl. SSA transfer, $12,558,429,348; covers 50.7% of status quo total",[SRC:ode/qec/2026_qem_report.pdf p.103]
+2027-29,QEM 2026,status_quo_gap_above_csl,1.22,"Non-SSF state funds needed for status quo, $1,217,461,216",[SRC:ode/qec/2026_qem_report.pdf p.103]
+2027-29,QEM 2026,full_qem_state_funding,16.21,"Scenario 2: meet state education goals; +19.8% over 2025-27 Full QEM",[SRC:ode/qec/2026_qem_report.pdf p.13] [SRC:ode/qec/2026_qem_report.pdf p.117]
+2027-29,QEM 2026,full_qem_above_status_quo,2.42,,[SRC:ode/qec/2026_qem_report.pdf p.117]
+2027-29,QEM 2026,full_qem_above_csl,3.65,,[SRC:ode/qec/2026_qem_report.pdf p.117]

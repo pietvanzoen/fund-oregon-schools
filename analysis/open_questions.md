@@ -1,11 +1,12 @@
 # Open questions and sources to add
 
 ## Facts to confirm
-- QEM 2026 page numbers for the ~$13.8B and >$16.2B figures, and whether they are total state funding or SSF only
-  (once `ode/qec/2026_qem_report.pdf` is fetched: `python3 tools/doc.py 2026_qem_report --grep "13\.8|16\.2"`).
 - Adopted 2025-27 SSF amount (bill and final figure).
 - Date of the Faubion School press event [NEWS:NEWS-2026-salemreporter-1].
-- Source for the claim that Oregon spends above the national average per student.
+- Source for the claim that Oregon spends above the national average per student (the QEM report gives Oregon's
+  state-sourced rank as 20th [SRC:ode/qec/2026_qem_report.pdf p.117]; find the total-spending figure opponents use).
+- Two OLIS slide decks have almost no extractable text and need OCR: `legislature/olis/2025I1/310555_jpea.pdf`,
+  `legislature/olis/2026R1/313099_quality-education-process.pdf`.
 - 2027 session start date and Ways & Means calendar.
 - Governor's office phone and contact form, verified before sending to parents.
 
