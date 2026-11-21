@@ -240,6 +240,8 @@ def footer(sources, ctx_date_paths):
 
 def from_analysis(page, src, ctx):
     md = open(os.path.join(ANALYSIS, src), encoding="utf-8").read()
+    if page == "timeline.md":
+        md = split_timeline(md)
     md = file_refs(md, page, src)
     md = mark_analysis(md)
     md = cites(md, ctx)
@@ -277,7 +279,29 @@ def coming_up(ctx, n=2):
 
     items = "".join(f"<li><strong>{day(d, end)}:</strong> {esc(e.strip())} {cites(c, ctx)}</li>"
                     for d, end, e, c in rows)
-    return f'<div class="coming-up"><p class="coming-up-title">Coming up</p><ul>{items}</ul></div>\n\n' if rows else ""
+    return (f'<div class="coming-up"><p class="coming-up-title">Coming up</p><ul>{items}</ul>'
+            f'<p class="coming-up-more"><a href="timeline/">All dates →</a></p></div>\n\n') if rows else ""
+
+
+def split_timeline(md):
+    """Timeline page: upcoming rows first (soonest first), then past rows (newest first), split at build time."""
+    head, rows = "| Date | Event | Source |\n|---|---|---|\n", re.findall(r"^\| \d{4}-.*\|$", md, re.M)
+    today = datetime.date.today().isoformat()
+    ahead = [r for r in rows if r[2:12] >= today]  # month-only dates ("2026-08") compare as past once that month starts
+    past = [r for r in rows if r not in ahead][::-1]
+    table = "\n".join(rows)
+    assert table in md, "timeline.md rows must form one contiguous table"
+
+    def nice(row):  # "| 2026-12-01 to 12-03 |" -> "| Dec 1-3, 2026 |", "| 2026-08 |" -> "| Aug 2026 |"
+        m = re.match(r"\| (\d{4})-(\d{2})(?:-(\d{2}))?(?: to \d{2}-(\d{2}))? \|", row)
+        y, mo, d, end = m.groups()
+        mon = datetime.date(int(y), int(mo), 1).strftime("%b")
+        when = f"{mon} {int(d)}" + (f"-{int(end)}" if end else "") + f", {y}" if d else f"{mon} {y}"
+        return f"| {when} |" + row[m.end():]
+
+    ahead, past = [nice(r) for r in ahead], [nice(r) for r in past]
+    out = (f"## Coming up\n\n{head}" + "\n".join(ahead) + "\n\n" if ahead else "") + f"## What's happened\n\n{head}" + "\n".join(past)
+    return md.replace(head + table, out)
 
 
 def landing(md, ctx):
