@@ -2,7 +2,8 @@
 
 | File | What it answers |
 |---|---|
-| `BRIEFING.md` | The campaign position: ask, numbers, Kotek's words, weak points, timing |
+| `OVERVIEW.md` | Short summary used as the website's home page: key numbers, dates, where to start |
+| `BRIEFING.md` | Decision briefing: what's being decided, history (Measures 5 and 50), numbers, positions, proposals, contested claims, next steps, gaps |
 | `people/kotek.md` | Kotek's record and statements on school funding and outcomes |
 | `people/legislators.csv` | Budget-writing legislators: district, official page, 2025-26 and 2027 roles |
 | `people/lieber.md`, `sanchez.md`, `ruiz.md`, `sollman.md` | Ways & Means co-chairs and Education Subcommittee co-chairs |

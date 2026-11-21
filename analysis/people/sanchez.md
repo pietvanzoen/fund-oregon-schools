@@ -28,7 +28,7 @@ Part of the Portland delegation.
 - She also stressed her interest in revenue reform and warned that relying on one-time dollars is risky (reporter's
   paraphrase) [NEWS:NEWS-20260510-wweek-1].
 - Analysis: her objection is mainly timing (save the fund for a bigger storm), alongside a general caution about
-  one-time money. The campaign's answer is that for districts closing schools now, the storm has hit.
+  one-time money.
 
 ## To add
 - Her remarks on the Nov 2026 forecast and the Governor's budget.

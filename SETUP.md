@@ -10,7 +10,7 @@ Claude reads this page and walks you through the rest, one step at a time. It ta
 
 ## Instructions for Claude
 
-The person who sent you this link is a parent volunteer in a campaign asking Gov. Tina Kotek and the 2027 Oregon Legislature to fully fund K-12 public schools in the 2027-29 state budget. They're probably not a developer. This page sets them up to ask you questions answered from a public research archive, https://github.com/pietvanzoen/fund-oregon-schools: the Governor's budget documents, Legislature hearing documents and video, Quality Education Commission reports, revenue forecasts, district budgets, and a cited analysis of all of it.
+The person who sent you this link is probably a parent or volunteer working on Oregon school funding (the 2027-29 state budget, Gov. Tina Kotek and the 2027 Legislature). They're probably not a developer. This page sets them up to ask you questions answered from a public research archive, https://github.com/pietvanzoen/fund-oregon-schools: the Governor's budget documents, Legislature hearing documents and video, Quality Education Commission reports, revenue forecasts, district budgets, and a cited analysis of all of it.
 
 When setup is done they'll have a skill, `fund-oregon-research`, on their account. In any new chat they can ask something like "What has Kotek promised about school funding?" and you'll download a copy of the archive into your workspace (about 90 MB, a few seconds; nothing goes on their computer), search it, and answer with links to the documents and video moments you used. You only read the archive and never change it.
 

@@ -12,6 +12,7 @@ Preview locally:  pip install "mkdocs>=1.6,<2" "mkdocs-material>=9.7,<10" && mkd
 """
 import csv
 import html
+import json
 import os
 import posixpath
 import re
@@ -31,7 +32,8 @@ BLOB = GITHUB + "/blob/main/"
 
 # Generated page -> analysis file it comes from (None = built from data files)
 MD_PAGES = {
-    "index.md": "BRIEFING.md",
+    "index.md": "OVERVIEW.md",
+    "briefing.md": "BRIEFING.md",
     "timeline.md": "timeline.md",
     "reserves.md": "topics/reserves.md",
 }
@@ -152,7 +154,7 @@ def file_refs(text, from_page, src_file):
 
 
 PAGE_TITLES = {
-    "index.md": "the briefing", "timeline.md": "timeline", "reserves.md": "reserves",
+    "index.md": "overview", "briefing.md": "the briefing", "timeline.md": "timeline", "reserves.md": "reserves",
     "promises.md": "promises tracker", "quotes.md": "what they've said", "who-decides.md": "who decides",
     "numbers.md": "the numbers", "people/kotek.md": "Kotek", "people/lieber.md": "Lieber",
     "people/sanchez.md": "Sanchez", "people/ruiz.md": "Ruiz", "people/sollman.md": "Sollman",
@@ -213,17 +215,17 @@ def from_analysis(page, src, ctx):
     md = mark_analysis(md)
     md = cites(md, ctx)
     if page == "index.md":
-        md = re.sub(r"^# .*\n", "# The briefing\n" + INTRO, md, count=1)
+        md = re.sub(r"^(# .*\n)", lambda m: m.group(1) + INTRO, md, count=1)
     return md + footer([f"analysis/{src}"], [f"analysis/{src}"])
 
 
 INTRO = """
 !!! info "How to read this site"
-    This is the research behind a parent campaign asking Gov. Tina Kotek and the 2027 Oregon Legislature to fund
-    K-12 public schools in the 2027-29 budget. Every claim links to where it comes from:
+    This is a research archive on how Oregon funds K-12 public schools, focused on the 2027-29 budget. Every claim
+    links to where it comes from:
     <span class="cite cite-src">📄 p.N</span> is a state or legislative document, opened at the cited page;
     <span class="cite cite-news">📰 Outlet</span> is a news report; <span class="cite cite-pps">🏫 PPS archive</span>
-    is the Portland Public Schools research archive. Boxes marked **Analysis** are the campaign's interpretation,
+    is the Portland Public Schools research archive. Boxes marked **Analysis** are interpretation or arithmetic,
     kept separate from what the documents say. [More about this site](about.md).
 
 """
@@ -405,7 +407,7 @@ def who_page(ctx):
     return f"""# Who decides
 
 The Governor proposes a budget; the Legislature's Ways and Means committee writes the final one. These are the
-budget-writing legislators this campaign tracks. See also [Gov. Kotek](people/kotek.md).
+budget-writing legislators this archive tracks. See also [Gov. Kotek](people/kotek.md).
 
 {table(["Legislator", "Seat", "Area", "Role 2025-26", "Role 2027", "Contact", "Source"], rows)}
 """ + footer(["analysis/people/legislators.csv"], ["analysis/people/legislators.csv"])
@@ -428,7 +430,7 @@ def sources_page(ctx):
                        f'<span class="muted">{esc(path)}</span>')
         out.append("")
     out += ["## News coverage", "",
-            "Summaries are written by the campaign; follow the link to read the full story.", ""]
+            "Summaries are written for this archive; follow the link to read the full story.", ""]
     for r in sorted(ctx.news.values(), key=lambda r: r.get("date", ""), reverse=True):
         out.append(f"- **[{r.get('title', r['id'])}]({r.get('url', '')})** · {r.get('outlet', '')}, "
                    f"{r.get('date', '')}  \n  {r.get('summary', '')}")
@@ -436,6 +438,47 @@ def sources_page(ctx):
             "Portland-specific material lives in the [PPS research archive](https://github.com/timaelliott/save-our-schools)."]
     return "\n".join(out) + footer(["sources/_manifest.jsonl", "sources/news/index.jsonl"],
                                    ["sources/_manifest.jsonl", "sources/news/index.jsonl"])
+
+
+# Per-page <title> and meta description (SEO); written as front matter on each generated page.
+# The home page's <title> is the site name, so it only needs a description.
+PAGE_META = {
+    "index.md": (None, "Primary documents and cited analysis on how Oregon funds K-12 public schools: the State "
+                 "School Fund, the Quality Education Model gap and the 2027-29 budget."),
+    "briefing.md": ("Oregon 2027-29 K-12 budget briefing", "What the Governor and the 2027 Legislature decide on "
+                    "Oregon school funding, how Measures 5 and 50 shaped it, the QEM gap, who stands where, open questions."),
+    "numbers.md": ("Oregon school funding numbers, 2027-29", "State School Fund history, Quality Education Model "
+                   "estimates and Education Stability Fund balances for Oregon's 2027-29 budget, each with its source."),
+    "quotes.md": ("What officials have said about Oregon school funding", "Verbatim, dated and cited statements on "
+                  "K-12 funding from Gov. Tina Kotek and the Oregon legislators who write the school budget."),
+    "promises.md": ("Oregon school goals and mandates tracker", "Gov. Kotek's and the state's K-12 goals and mandates "
+                    "(instructional time, SB 141 targets and more), and whether money was attached to each."),
+    "timeline.md": ("Oregon K-12 funding timeline", "Dated events in Oregon school funding: budgets, revenue "
+                    "forecasts, Quality Education Model reports, executive orders and the 2027-29 budget process."),
+    "who-decides.md": ("Who decides Oregon's K-12 budget", "The Oregon legislators who write the school budget: Ways "
+                       "and Means co-chairs and the Education Subcommittee, with their 2025-26 and 2027 roles."),
+    "reserves.md": ("Oregon Education Stability Fund", "Oregon's Education Stability Fund: projected balance, the "
+                    "rules for withdrawing from it, and proposals to use it for K-12 schools in 2027-29."),
+    "sources.md": ("Primary sources", "Every document in the Oregon K-12 funding archive: budgets, legislative "
+                   "hearing documents, QEM reports and revenue forecasts, with download records and news metadata."),
+    "people/kotek.md": ("Gov. Tina Kotek on school funding", "Gov. Tina Kotek's record and statements on Oregon K-12 "
+                        "funding, outcome goals, the Education Stability Fund and Portland school closures, cited."),
+    "people/lieber.md": ("Sen. Kate Lieber on school funding", "Sen. Kate Lieber, Ways and Means co-chair: her role "
+                         "in Oregon's K-12 budget and her statements on revenue and the Education Stability Fund, cited."),
+    "people/sanchez.md": ("Rep. Tawna Sanchez on school funding", "Rep. Tawna Sanchez, Ways and Means co-chair: her "
+                          "role in Oregon's K-12 budget and her statements on revenue and reserves, cited."),
+    "people/ruiz.md": ("Rep. Ricki Ruiz on school funding", "Rep. Ricki Ruiz, Education Subcommittee and JPEA "
+                       "co-chair: the JPEA sufficiency finding, the push to replace the QEM, and his statements, cited."),
+    "people/sollman.md": ("Sen. Janeen Sollman on school funding", "Sen. Janeen Sollman, Education Subcommittee "
+                          "co-chair: her role in Oregon's K-12 budget and the 2026 effort to replace the QEM, cited."),
+}
+
+
+def front_matter(page):
+    title, desc = PAGE_META.get(page, (None, None))
+    lines = [f"title: {json.dumps(title)}"] if title else []
+    lines += [f"description: {json.dumps(desc)}"] if desc else []
+    return "---\n" + "\n".join(lines) + "\n---\n\n" if lines else ""
 
 
 # ---------------------------------------------------------------- MkDocs hook
@@ -451,5 +494,5 @@ def on_files(files, config):
         "sources.md": sources_page(ctx),
     })
     for uri, content in pages.items():
-        files.append(File.generated(config, uri, content=content))
+        files.append(File.generated(config, uri, content=front_matter(uri) + content))
     return files

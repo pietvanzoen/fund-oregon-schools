@@ -1,15 +1,18 @@
-# Fund Oregon Schools: research archive
+# Oregon K-12 Funding Research
 
-A source archive and cited analysis for a parent campaign asking **Gov. Tina Kotek and the 2027 Oregon
-Legislature to fund K-12 public schools in the 2027-29 budget**.
+A research archive on how Oregon funds K-12 public schools, focused on the **2027-29 budget** (Gov. Tina Kotek's
+Recommended Budget and the 2027 Legislature): primary sources, and analysis that cites them claim by claim.
 
 **Browse it:** <https://fundoregonschools.org>, a readable website built from this repo.
 
-**Start here:** [`analysis/BRIEFING.md`](analysis/BRIEFING.md): the ask, the numbers, Kotek's own words, weak points.
+**Start here:** [`analysis/BRIEFING.md`](analysis/BRIEFING.md): what's being decided, how we got here, the numbers, who
+stands where, contested claims and known gaps.
 
 **Ask questions with Claude:** paste this into a new Claude chat and it will set you up (see [`SETUP.md`](SETUP.md)):
 
 > Please set me up using https://raw.githubusercontent.com/pietvanzoen/fund-oregon-schools/main/SETUP.md
+
+**Who runs it:** a volunteer group of Oregon public school parents. Contact: hello@fundoregonschools.org
 
 Modeled on the PPS rightsizing archive ([timaelliott/save-our-schools](https://github.com/timaelliott/save-our-schools)):
 primary sources kept untouched in `sources/`, and everything in `analysis/` cites back to them. Portland-specific
@@ -25,7 +28,7 @@ material stays in that archive and is cited from here as `[PPSARCH:...]`.
 | `CLAUDE.md`, `.claude/skills/fund-oregon-research/` | Rules and the answering skill for Claude. |
 | `SETUP.md`, `setup/fund-oregon-research/` | Setup instructions for volunteers' Claude, and the skill they install on their own account. |
 | `RUNBOOK.md` | Adding and refreshing sources. |
-| `mkdocs.yml`, `website/`, `tools/site_hook.py` | The public website. Pages are generated from `analysis/` and `sources/` on every push to `main`; only the About page lives in `website/`. Preview: `pip install "mkdocs>=1.6,<2" "mkdocs-material>=9.7,<10" && mkdocs serve`. |
+| `mkdocs.yml`, `website/`, `tools/site_hook.py`, `overrides/` | The public website. Pages are generated from `analysis/` and `sources/` on every push to `main`; only the About page and `robots.txt` live in `website/`. Page titles and meta descriptions are set in `PAGE_META` in `tools/site_hook.py`; `overrides/main.html` adds link-preview (Open Graph) tags. Preview: `pip install "mkdocs>=1.6,<2" "mkdocs-material>=9.7,<10" && mkdocs serve`. |
 
 ## Quick use
 ```bash

@@ -3,7 +3,7 @@ name: fund-oregon-research
 description: Answer questions about Oregon K-12 school funding (State School Fund, QEM gap, Gov. Kotek's promises and budget, reserves, legislators) from the pietvanzoen/fund-oregon-schools archive, with citations.
 ---
 
-# Fund Oregon Schools research archive
+# Oregon K-12 Funding Research archive
 
 Answers come from the public archive at https://github.com/pietvanzoen/fund-oregon-schools: Governor's budget documents and press releases, Legislature (OLIS) hearing documents and video, ODE and Quality Education Commission reports, revenue forecasts, district budgets, news metadata, and a cited analysis layer. This skill gets the archive into the workspace, then hands over to the archive's own instructions.
 
