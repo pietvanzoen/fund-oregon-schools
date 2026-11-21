@@ -18,8 +18,8 @@ is tracked as GitHub issues, shown as (#16) and so on.
    Analysis: an SSF at CSL leaves about $1.2B of the status-quo cost to come from state funds outside the SSF, and is
    $3.65B below the full QEM.
 3. **Why it's a state decision.** After Measures 5 (1990) and 50 (1997) capped property taxes, the state became the
-   main source of school operating money, and districts can add only a capped local option levy
-   [SRC:reference/oregon-encyclopedia_measure-5.html]
+   main source of school operating money [SRC:reference/oregon-encyclopedia_measure-5.html]. Districts can add a local
+   option levy, but only a capped amount of it stays outside the equalization formula
    [SRC:legislature/olis/2018R1/146437_lro-school-local-option.pdf p.4] (section c).
 4. **No funding commitment yet.** Gov. Kotek has set outcome goals (instructional time, SB 141 targets) and an
    executive order on instructional time, but has not said how she'd pay for her school goals
@@ -31,8 +31,9 @@ is tracked as GitHub issues, shown as (#16) and so on.
 
 ## (b) What's being decided, and by whom
 
-- **Governor's Recommended Budget (due Dec 1, 2026).** Based on the Nov 18 revenue forecast
-  [SRC:legislature/ors/ors291.html] [SRC:fiscal/oea/2026-12_forecast.pdf p.33].
+- **Governor's Recommended Budget (due Dec 1, 2026).** State law sets Dec 1 of even-numbered years for a governor
+  continuing in office [SRC:legislature/ors/ors291.html]; Kotek was reelected in November [NEWS:NEWS-20261106-occ-1].
+  It's based on the Nov 18 revenue forecast [SRC:fiscal/oea/2026-12_forecast.pdf p.33].
 - **The 2027 Legislature.** The Joint Committee on Ways and Means and its Education Subcommittee write the SSF budget.
   Sen. Kate Lieber returns as Senate co-chair [SRC:legislature/press/2026-11-13_senate-dems-2027-leadership.pdf p.1];
   other 2027 roles aren't announced. See `people/legislators.csv`.
@@ -48,8 +49,10 @@ is tracked as GitHub issues, shown as (#16) and so on.
   1995-96 ($10 for other local government) [SRC:fiscal/dor/2009-06_brief-history-property-taxation.pdf p.3]. Fully
   in effect, it cut tax rates an average of 51% from 1990-91 levels
   [SRC:fiscal/dor/2009-06_brief-history-property-taxation.pdf p.2].
-- The state had to replace schools' lost property tax only through 1996, but the Legislature appropriated more than
-  required [SRC:fiscal/dor/2009-06_brief-history-property-taxation.pdf p.4]. The state's share of K-12 operating
+- Measure 5 required the state to replace schools' lost property tax through 1996, and Measure 50 added a
+  constitutional requirement to replace school revenue lost to the Measure 5 limits. DOR says both had little effect
+  on actual state school funding, because the Legislature appropriated more than required
+  [SRC:fiscal/dor/2009-06_brief-history-property-taxation.pdf p.4]. The state's share of K-12 operating
   money went from 28.6% in 1990-91 to 70.6% in 1998-99 [SRC:reference/oregon-encyclopedia_measure-5.html] (reference
   work; primary series still to find).
 - **Measure 50 (1997)**:
@@ -62,8 +65,8 @@ is tracked as GitHub issues, shown as (#16) and so on.
   elections [SRC:fiscal/dor/2009-06_brief-history-property-taxation.pdf p.4]; Measure 56 (2008) later changed this
   for some elections (to confirm: #16).
 - **The local option cap.** The amount kept outside the equalization formula is capped at the lesser of 20% of
-  formula revenue or an indexed per-student amount ($1,343.92 in 2017-18). 20 districts levied one in 2016-17
-  [SRC:legislature/olis/2018R1/146437_lro-school-local-option.pdf p.4]
+  formula revenue or an indexed per-student amount ($1,343.92 in 2017-18)
+  [SRC:legislature/olis/2018R1/146437_lro-school-local-option.pdf p.4]. 20 districts levied one in 2016-17
   [SRC:legislature/olis/2018R1/146437_lro-school-local-option.pdf p.5].
 - Analysis: school operating budgets now depend mainly on the state General Fund and on decisions in Salem; a
   district can add only a capped levy. (Current cap, compression losses and the turnout rule today: #16.)
