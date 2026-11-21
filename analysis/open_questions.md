@@ -31,10 +31,8 @@
 - QEM outcome forecasts (#59): the 2026 report moves the projected year of a 90% graduation rate under full funding
   from 2025-26 (2024 report) to 2027-28, and under CSL funding from 2027-28 to 2028-29, without saying why
   (`data/qem_outcome_forecasts.csv`). Ask ODE's QEC staff if it matters.
-- QEM practices (#59), not yet archived though linked on ODE's QEM reports page: the 12 best-practices white papers
-  behind the 2026 report's synthesis, the Appendix C cost-model workbook (the model's inputs) and the Appendix D
-  survey results. Lee and Smith (1997), cited for the high school prototype's size, is a journal article with no
-  public copy.
+- Lee and Smith (1997), cited by the QEC for the high school prototype's size, is a journal article with no public
+  copy; a University of Michigan news release summarizes it, if a secondary copy is wanted.
 
 ## Sources to find and queue (no URL yet)
 - Legislative Fiscal Office: 2025-27 budget highlights (K-12 section); 2027-29 CSL documents.

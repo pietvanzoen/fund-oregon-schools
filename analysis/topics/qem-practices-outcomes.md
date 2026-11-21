@@ -37,7 +37,9 @@ student outcomes, and what research it cites for that link. The dollar figures a
 - The current practices were last changed in the 2022 report, which added nurses (1:750), counselors (1:250), summer
   school, lower English learner staffing ratios, three professional development days, one device per student and
   school adult, a librarian per school, Family Resource Center staff, physical education and music specialists, and cut elementary
-  class sizes from 23-24 to 20 [SRC:ode/qec/2022_qem_report.pdf p.12] [SRC:ode/qec/2022_qem_report.pdf p.13].
+  class sizes from 23-24 to 20 [SRC:ode/qec/2022_qem_report.pdf p.12] [SRC:ode/qec/2022_qem_report.pdf p.13]. The
+  2024 report added no inputs and evaluated no new assumptions, apart from "a small correction"
+  [SRC:ode/qec/2024_qem_report.pdf p.63].
 - The 2026 report made no discretionary changes to the inputs; staffing levels are identical to the 2024 model and
   the increase reflects market prices [SRC:ode/qec/2026_qem_report.pdf p.13] [SRC:ode/qec/2026_qem_report.pdf p.102].
   It excludes enhancements such as a 180-day school year [SRC:ode/qec/2026_qem_report.pdf p.102]. Citing "consensus
@@ -50,11 +52,11 @@ student outcomes, and what research it cites for that link. The dollar figures a
   [SRC:ode/qec/2026_qem_report.pdf p.92]. Districts decide which practices they implement and how they spend
   [SRC:ode/qec/2026_qem_report.pdf p.92].
 - The commission says the cost estimates "do not represent the exact amount of money needed to achieve exact
-  educational outcomes" [SRC:ode/qec/2026_qem_report.pdf p.92]. Outcome measures inform commissioners' judgment
+  educational outcomes" [SRC:ode/qec/2026_qem_report.pdf p.92] [SRC:ode/qec/2026_qem_report.pdf p.93]. Outcome measures inform commissioners' judgment
   but are not formal inputs to the model's arithmetic [SRC:ode/qec/2026_qem_report.pdf p.95]
   [SRC:ode/qec/2026_qem_report.pdf p.115].
-- The 2024 report said the model "has not defined what dollars are needed to accelerate learning for all students",
-  only what was needed to advance graduation rates to 90% [SRC:ode/qec/2024_qem_report.pdf p.18].
+- The 2024 report said the model "has not defined what dollars are needed to accelerate learning for all students in all
+  schools", only what was needed to advance graduation rates to 90% [SRC:ode/qec/2024_qem_report.pdf p.18].
 - The 2022 report said the QEM "has never statistically modeled performance changes directly tied to costs"; its
   projections came from literature syntheses [SRC:ode/qec/2022_qem_report.pdf p.6]. It described the assumption then
   as 90 percent of students meeting state standards, citing the 1999 model report
@@ -69,7 +71,8 @@ student outcomes, and what research it cites for that link. The dollar figures a
 - The 2024 and 2026 reports chart four-year graduation and five-year completer rates against State School Fund
   funding per ADMw from 2013-14, and say regression analyses show a statistically significant relationship between
   per-pupil spending and these rates over time [SRC:ode/qec/2024_qem_report.pdf p.58]
-  [SRC:ode/qec/2026_qem_report.pdf p.95] [SRC:ode/qec/2026_qem_report.pdf p.96].
+  [SRC:ode/qec/2024_qem_report.pdf p.60] [SRC:ode/qec/2026_qem_report.pdf p.95] [SRC:ode/qec/2026_qem_report.pdf p.96]
+  [SRC:ode/qec/2026_qem_report.pdf p.98].
 - The 2026 report says that had funding been at the Full QEM level since 2012-13, the state would be positioned to
   reach a 90 percent graduation rate, and a 90 percent five-year completer rate, by 2027-28
   [SRC:ode/qec/2026_qem_report.pdf p.95]. Its projected years for 90 percent: four-year graduation 2030-31 on the
@@ -91,12 +94,14 @@ student outcomes, and what research it cites for that link. The dollar figures a
 - The 2024 report's list of research articles includes Baker, Farrie and Sciarra (2016), "Mind the Gap: 20 Years of
   Progress and Retrenchment in School Funding and Achievement Gaps" (a 2016 research report), alongside studies of class size (Tennessee's Student Teacher
   Achievement Ratio project), early childhood programs and community schools [SRC:ode/qec/2024_qem_report.pdf p.112]
-  [SRC:ode/qec/2024_qem_report.pdf p.113]. "Mind the Gap" isn't archived yet (#79).
+  [SRC:ode/qec/2024_qem_report.pdf p.113]. The 2026 report cites "Mind the Gap" too, for the
+  statement that the impacts of socio-economic status on learning are well documented
+  [SRC:ode/qec/2026_qem_report.pdf p.20]. It isn't archived yet (#79).
 - The 2026 report presents its own regressions above and AIR's 2025 work below as evidence for its funding level [SRC:ode/qec/2026_qem_report.pdf p.95] [SRC:ode/qec/2026_qem_report.pdf p.100].
 
 ### The 2025 AIR evaluation
-- The Legislative Policy and Research Office contracted the American Institutes for Research (AIR) to evaluate the
-  QEM [SRC:legislature/lpro/2025-01_air_qem-evaluation.pdf p.1]. AIR found the QEM targets one goal, a 90% four-year
+- The American Institutes for Research (AIR) submitted an evaluation of the QEM to the Legislative Policy and
+  Research Office in January 2025 [SRC:legislature/lpro/2025-01_air_qem-evaluation.pdf p.1]. AIR found the QEM targets one goal, a 90% four-year
   graduation rate, though the goals in ORS 327.506 are broader, and uses only three prototypes, so it doesn't show how
   costs vary with student need or locale [SRC:legislature/lpro/2025-01_air_qem-evaluation.pdf p.28]. It recommended
   more outcome goals and many more prototypes built from current Oregon data, noting the prototype sizes rest on
@@ -139,6 +144,10 @@ student outcomes, and what research it cites for that link. The dollar figures a
   disabilities; mentoring through Regional Educator Networks [SRC:ode/qec/2026_qem_report.pdf p.79]
   [SRC:ode/qec/2026_qem_report.pdf p.80] [SRC:ode/qec/2026_qem_report.pdf p.81]
   [SRC:ode/qec/2026_qem_report.pdf p.84].
+- The white papers, the cost-model workbook (Appendix C) and the survey results (Appendix D) are archived under
+  `sources/ode/qec/` (`2026_white-papers/`, `2026_qem_appendix-c_cost-model.xlsx`,
+  `2026_qem_appendix-d_best-practices-survey.pdf`); the report lists the white papers in Appendix E
+  [SRC:ode/qec/2026_qem_report.pdf p.135].
 - The model was not changed in 2026 to include the white papers' funding recommendations; the commission is reviewing
   them for future models [SRC:ode/qec/2026_qem_report.pdf p.87].
 - Its 2026 survey of 200 self-selected respondents found practices rated effective were often not implemented,
@@ -158,8 +167,8 @@ student outcomes, and what research it cites for that link. The dollar figures a
     (attendance), early science, the English Learner Outcomes Program, and Secondary Career Pathway funding
     (graduation, career readiness), prioritizing the districts with greatest need [SRC:ode/qec/2026_qem_report.pdf p.110].
 - Its nine 2026 recommendations also include avoiding isolated pilots, sustaining Student Success Act investments,
-  expanding early learning, student mental health, community partnerships, fiscal transparency, an educator workforce
-  data system and a statewide data dashboard [SRC:ode/qec/2026_qem_report.pdf p.117]
+  expanding early learning, student mental health, community partnerships, fiscal transparency, a business case for an
+  Educator Workforce Data System and a statewide data dashboard [SRC:ode/qec/2026_qem_report.pdf p.117]
   [SRC:ode/qec/2026_qem_report.pdf p.118].
 
 ## Derived figures
