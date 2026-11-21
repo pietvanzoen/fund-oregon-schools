@@ -145,7 +145,7 @@ More: `data/qem_gap.csv`, `data/ssf_history.csv`, `data/reserves.csv`.
 
 **On the amount**
 - PPS Board: fund at least the CSL [PPSARCH:BB:14673756 p.1].
-- Other groups' positions (OEA, OSBA, COSA) are still to archive (#26).
+- Other groups' positions (Oregon Education Association, OSBA, COSA) are still to archive (#26).
 
 **On the model**
 - **Replacing the QEM** with a different cost model [NEWS:NEWS-20260121-katu-1] (#25).

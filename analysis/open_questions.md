@@ -22,7 +22,7 @@
 - Legislative Fiscal Office: 2025-27 budget highlights (K-12 section); 2027-29 CSL documents.
 - Current (2026) Education Stability Fund balance; the queued LRO brief is from Nov 2025.
 - ODE State School Fund formula guide and district payment estimates.
-- OSBA State School Fund tracker; COSA and OEA budget positions; Oregon Center for Public Policy analyses.
+- OSBA State School Fund tracker; COSA and Oregon Education Association budget positions; Oregon Center for Public Policy analyses.
 - Legislative hearing video: Joint Committee on Public Education Appropriation, Ways & Means education subcommittee,
   House and Senate Education (for legislators' on-the-record positions).
 - Budget documents from other large districts (Salem-Keizer, Beaverton, Hillsboro) to show this is statewide.

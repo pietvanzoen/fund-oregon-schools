@@ -61,6 +61,10 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
     unfair to a named official; uncited claims; both tool checks pass. Claims resting on queued, unfetched sources are
     reported as "verify after fetch", not guessed. The session verifies each finding against the source before fixing
     it, and the PR description says what the fact-check found and what changed.
+11. **Glossary.** When analysis uses an abbreviation or term of art that isn't in `analysis/glossary.csv`, add a
+    row (cited, like everything else). Acronyms get a short plain-text `tooltip`, shown on hover across the whole
+    site; `kind: term` rows appear only on the Glossary page. Don't use one abbreviation for two things: OEA is the
+    Office of Economic Analysis, so write out "Oregon Education Association".
 
 ## Writing code (tools/, workflows, site build)
 Least new code that fully does the job; adapted from the ponytail rules
@@ -91,5 +95,6 @@ Least new code that fully does the job; adapted from the ponytail rules
 - `analysis/people/<slug>.md`, `analysis/people/quotes_all.jsonl` — what officials said, dated and cited
 - `analysis/promises.csv` — pledge tracker (who, what, when, source, status)
 - `analysis/data/*.csv` — SSF history, QEM gap, forecasts, reserves
+- `analysis/glossary.csv` — abbreviations and terms: full name, hover tooltip, cited definition
 - `analysis/timeline.md`, `analysis/open_questions.md`
 - Tools: `tools/search.py`, `tools/doc.py`, `tools/linkify.py`, `tools/check_citations.py`, `tools/fetch_sources.py`
