@@ -61,7 +61,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add sources
           if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
-          git commit -q -m "sources: fetch/OCR $(git diff --cached --name-only -- sources | grep -v '\.txt$' | grep -v '^sources/_' | wc -l | tr -d ' ') file(s) from queue"
+          git commit -q -m "sources: fetch $(git diff --cached --name-only -- sources | grep -v '\.txt$' | grep -v '^sources/_' | wc -l | tr -d ' ') file(s), OCR $(git diff --cached --name-only -- sources | grep -c '\.ocr\.txt$') file(s)"
           git pull -q --rebase origin "${GITHUB_REF_NAME}" && git push -q origin "HEAD:${GITHUB_REF_NAME}"
       - name: Fail if any source failed to download
         if: steps.fetch.outcome == 'failure'
