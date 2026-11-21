@@ -37,6 +37,10 @@ scrambled, render the page (`pdftoppm -f <p> -l <p> -png -r 110 sources/<path> /
 4. **Uncited claims**: any factual sentence with no citation.
 5. **News records**: the summary is in the author's own words (not lifted from the article; open the URL with
    your web tools if you can, and compare), every quote is under 25 words, and the outlet and date are right.
+   **Every fact a `[NEWS:...]` citation supports must appear in that record's summary, key facts or quotes.** A
+   cited fact the record doesn't hold is an error, even if the article says it; the fix is to add it to the
+   record. Web fetch summarizes articles and can read them differently from one call to the next: if your reads
+   disagree, say so instead of picking one.
 6. **Citations**: SRC paths and pages that exist; NEWS citations left in place where a newly archived primary
    document now supports the same claim.
 7. **Queued but not fetched**: if a cited source isn't in `sources/` yet, mark the claim "verify after fetch".
