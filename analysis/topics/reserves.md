@@ -5,7 +5,7 @@
 - Projected at $1,271M at the end of 2025-27 [SRC:fiscal/oea/2026-12_forecast.pdf p.41]. Withdrawal takes a
   three-fifths vote in each chamber plus either an economic trigger or a governor's emergency declaration
   [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1] (news coverage: [NEWS:NEWS-20261102-opb-1]).
-- PPS asked for $500M to buy down PERS rates statewide [NEWS:NEWS-20261102-opb-1]; PPS's CFO said it would shrink
+- PPS asked for $500M to buy down PERS rates statewide [NEWS:NEWS-20261102-opb-1]; PPS's chief financial officer said it would shrink
   PPS's gap from $65M to about $42.7M [NEWS:NEWS-20261116-wweek-1].
 - Rep. Tammy Carpenter suggested the fund as a bridge; Rep. Zach Hudson expects 2027 revenue bills
   [NEWS:NEWS-20261112-katu-2].

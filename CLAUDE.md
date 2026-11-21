@@ -83,6 +83,10 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
     both tool checks pass. Claims resting on queued, unfetched sources are
     reported as "verify after fetch", not guessed. The session verifies each finding against the source before fixing
     it, and the PR description says what the fact-check found and what changed.
+11. **Glossary.** When analysis uses an abbreviation or term of art that isn't in `analysis/glossary.csv`, add a
+    row (cited, like everything else). Acronyms get a short plain-text `tooltip`, shown on hover across the whole
+    site; `kind: term` rows appear only on the Glossary page. Don't use one abbreviation for two things: OEA is the
+    Office of Economic Analysis, so write out "Oregon Education Association".
 
 ## Writing code (tools/, workflows, site build)
 Least new code that fully does the job; adapted from the ponytail rules
@@ -100,7 +104,8 @@ Least new code that fully does the job; adapted from the ponytail rules
 - **Bugs:** grep all callers first, then fix the cause in shared code.
 - **Keep** validation and error handling when moving or merging code.
 - **Tests:** anything with branches, loops, parsing, money figures or a new script gets an assert-based case in
-  `tools/test_tools.py` (plain `assert`, run by CI). Trivial changes don't.
+  `tools/test_tools.py` (plain `assert`, run by CI). Trivial changes don't. Site code (`tools/site_hook.py`,
+  `mkdocs.yml`, `overrides/`) gets no tests: CI's `mkdocs build --strict` covers it.
 - **Known limits** go in a comment: `shortcut: <the limit>, <when to upgrade>`.
 - **Never cut:** the rules above about `sources/` (keep originals, provenance), citation and quote checks,
   secrets and access handling, accessibility of the site, or anything Piet asked for.
@@ -115,5 +120,6 @@ Least new code that fully does the job; adapted from the ponytail rules
 - `analysis/data/*.csv` — SSF history, QEM gap, forecasts, reserves: values copied from sources only
 - `analysis/derived/<topic>.csv` — every value we calculated, written by `tools/derive_<topic>.py` (never by hand)
 - `analysis/topics/<topic>.md` — topic files in the three sections; each is published on the website automatically
+- `analysis/glossary.csv` — abbreviations and terms: full name, hover tooltip, cited definition
 - `analysis/timeline.md`, `analysis/open_questions.md`
 - Tools: `tools/search.py`, `tools/doc.py`, `tools/linkify.py`, `tools/check_citations.py`, `tools/fetch_sources.py`

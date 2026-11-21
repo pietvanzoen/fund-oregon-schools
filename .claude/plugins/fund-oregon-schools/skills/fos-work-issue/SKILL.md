@@ -11,7 +11,15 @@ the reviewers' results.
 Follow `CLAUDE.md` throughout (citation formats, quote rules, news rules, rule 10). This skill adds the order of
 work and the review gate; where the two differ, `CLAUDE.md` wins.
 
-## 0. Pick the issue
+## 0. Get access first
+
+Before any `git` or `gh` command, attach the repo with write access: call `add_repo` with owner `pietvanzoen`,
+repo `fund-oregon-schools`, access `push`, and clone where it tells you to. The repo is public, so a plain clone
+works without this, but every `gh api` call and every push is then refused (HTTP 403, "GitHub access to this
+repository is not enabled for this session"). If there's no `add_repo` tool, check the GitHub connector can
+read the issue before going further; if neither works, stop and say so.
+
+## 1. Pick the issue
 
 - If you were given a number, use it.
 - Otherwise take the oldest open issue labelled `auto` that has none of `needs-human`, `decision`, `manual`, and
@@ -23,10 +31,9 @@ work and the review gate; where the two differ, `CLAUDE.md` wins.
 GitHub access: GraphQL isn't available from these sessions. Use `gh api` with REST routes
 (`repos/pietvanzoen/fund-oregon-schools/...`) or the GitHub connector tools.
 
-## 1. Get oriented
+## 2. Get oriented
 
-Work in a clone of pietvanzoen/fund-oregon-schools: the current directory if it is one, otherwise
-`~/fund-oregon-schools` (clone it with `--depth 1` if it's missing). Reviewer prompts live next to this file, in
+Work in the clone from step 0 (or the current directory, if it's already a clone with push access). Reviewer prompts live next to this file, in
 `reviewers/`; inside the clone that's `.claude/plugins/fund-oregon-schools/skills/fos-work-issue/reviewers/`.
 
 ```bash
@@ -44,7 +51,7 @@ task list:
 3. **Can't be done here** — hearing video timestamps, pages behind scripts or logins, a judgement call for Piet.
    These stay unticked and go in the PR's "Not done" section.
 
-## 2. Find and queue documents
+## 3. Find and queue documents
 
 - Search the web for the **official copy**: the agency's own PDF or page (oregon.gov, oregonlegislature.gov,
   OLIS, a district's site). A news article is a lead to the document, not the source.
@@ -69,9 +76,9 @@ git commit -m "sources: queue <n> document(s) for #<issue>"
 git -c push.negotiate=true push -u origin HEAD
 ```
 
-If the issue needs no new documents, skip to step 4.
+If the issue needs no new documents, skip to step 5.
 
-## 3. Wait for the fetch
+## 4. Wait for the fetch
 
 The `fetch-sources` Action runs on the push, downloads the queued rows on GitHub's runners and commits them to
 your branch as "fetch-sources bot". Poll for it (every 30–60 s, give up after 20 minutes):
@@ -91,7 +98,7 @@ When it's `completed`, `git pull -q`. Then:
 
 The bot pushes with a deploy key, so `check` runs on its commit too; your analysis commit runs it again.
 
-## 4. Write the analysis
+## 5. Write the analysis
 
 Read what you cite, at the page you cite: `python3 tools/doc.py <path fragment> <page>` or `--grep`. For a table
 whose extracted text is scrambled, render the page and look at it
@@ -130,7 +137,7 @@ for f in tools/derive_*.py; do python3 "$f"; done; git status --short analysis/d
 
 Commit and push.
 
-## 5. Independent review
+## 6. Independent review
 
 Start **both** reviewers at the same time as fresh agents (not forks: they mustn't see your reasoning). Give each
 one only:
@@ -152,7 +159,7 @@ They report only. For each finding:
 2. If it's right, fix it. If it's wrong, record why in one line.
 3. After substantive fixes, run the reviewer that raised them once more on the new head. Not more than once.
 
-## 6. Open the PR
+## 7. Open the PR
 
 Push, then open the PR with REST:
 
