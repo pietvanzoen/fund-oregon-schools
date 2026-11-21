@@ -89,7 +89,7 @@ When it's `completed`, `git pull -q`. Then:
   the PR as "verify after fetch".
 - **Little or no text** (a scanned slide deck): note it in the PR. Don't guess at its contents.
 
-The bot's commit doesn't trigger CI. Your next commit (the analysis) does.
+The bot pushes with a deploy key, so `check` runs on its commit too; your analysis commit runs it again.
 
 ## 4. Write the analysis
 

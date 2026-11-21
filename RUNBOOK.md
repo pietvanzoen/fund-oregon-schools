@@ -11,6 +11,8 @@ Answering questions needs none of this; see `.claude/plugins/fund-oregon-schools
    It also runs on pushes to `claude/**` branches and commits the fetched files back to that branch, so an
    agent's PR can queue documents and cite them in one go. `python3 tools/check_sources.py` (also in CI) checks
    queue rows and that every archived file has a manifest line.
+   The Action pushes with a deploy key (secret `FETCH_DEPLOY_KEY`, key listed under Settings → Deploy keys with
+   write access), because the `main` ruleset requires PRs and only lets roles and deploy keys bypass it.
 4. You can also start it by hand: Actions → fetch-sources → Run workflow (tick "refresh" to re-download everything).
 5. Downloads are retried (3 attempts, on timeouts, connection errors, 429 and 5xx). If any row still fails, the run
    still commits what did download, then turns red; the job summary lists each failed path, error and URL. Failed

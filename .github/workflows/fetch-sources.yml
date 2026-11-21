@@ -30,7 +30,11 @@ jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
+      # Pushes with a deploy key, which is on the main ruleset's bypass list (personal repos can't list GitHub
+      # Actions there). Without the secret, checkout falls back to GITHUB_TOKEN: branch pushes work, main is refused.
       - uses: actions/checkout@v4
+        with:
+          ssh-key: ${{ secrets.FETCH_DEPLOY_KEY }}
       - name: Install pdftotext
         run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
       - name: Fetch queued sources
@@ -44,8 +48,8 @@ jobs:
           fi
       - name: Check citations
         run: python3 tools/check_citations.py
-      # Commits pushed with GITHUB_TOKEN don't trigger other workflows, so `check` won't run on this commit.
-      # On a claude/** branch the agent's next (analysis) commit triggers it.
+      # A deploy-key push triggers `check` on this commit. (A GITHUB_TOKEN push wouldn't; then the agent's next
+      # commit triggers it.)
       - name: Commit
         run: |
           git config user.name "fetch-sources bot"
