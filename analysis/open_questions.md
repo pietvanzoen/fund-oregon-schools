@@ -12,8 +12,9 @@
 - 2027 session start date and Ways & Means calendar.
 - 2027 committee assignments: House Ways & Means co-chair and the Education Subcommittee's members (Sollman is
   leaving; check Weber, Ruiz and the rest). Ruiz's and Sanchez's Nov 2026 results. Update `people/legislators.csv`.
-- SB 1555: the staff measure summary (`legislature/olis/2026R1/312317_sb1555-staff-measure-summary.pdf`) failed to
-  fetch; retry or find another URL, and confirm the bill's final status in its OLIS history.
+- SB 1555 final status: OLIS showed it "In Senate Committee" (Senate Education) with no chapter number when checked
+  in a browser on Nov 20, 2026, but the archived overview (`legislature/bills/2026R1_SB1555_overview.html`) lacks
+  those fields because they load by script. Save the page from a browser to cite it.
 - `legislature/press/house-dems-members_page.html` archived without the member list (loaded by script); no longer
   cited. Save it from a browser if a House Democrats roles source is needed.
 - Governor's office phone and contact form, verified before sending to parents.
