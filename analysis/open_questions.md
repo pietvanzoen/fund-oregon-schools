@@ -20,7 +20,7 @@
 - Governor's office phone and contact form, verified before sending to parents.
 - Virtual charters (#20): what ORS 338.155's 2021, 2023 and 2025 amendments changed (2025 c.386); whether any 2026
   bills on virtual charters were introduced; the K-8 / 9-12 split of virtual charter ADMw; confirm with ODE that the
-  "Charter Schools Rate (ORS 338.155)" is the General Purpose Grant per current-year ADMw (it checks out for North Bend).
+  "Charter Schools Rate (ORS 338.155)" is the General Purpose Grant per current-year ADMw (it checks out for North Bend and Scio).
 - Virtual charters: the 24 schools on ODE's 2027-29 SIA list include four not in the 2025-26 transparency report
   (Applegate Valley, Jefferson Classical, Lower Columbia, Stellar Pines); confirm when they opened.
 
