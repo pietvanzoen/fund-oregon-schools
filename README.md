@@ -38,3 +38,11 @@ python3 tools/doc.py 2026_qem_report --grep "current service level"
 python3 tools/linkify.py analysis/BRIEFING.md
 python3 tools/check_citations.py
 ```
+
+## What's in progress and what's next
+Open issues carry one status label: `in progress` (being worked; agents add it when they start), `next` (up next,
+picked first by the scheduled run) or `later` (backlog). Bookmark these:
+- [In progress](https://github.com/pietvanzoen/fund-oregon-schools/issues?q=is%3Aopen+label%3A%22in+progress%22)
+- [Next](https://github.com/pietvanzoen/fund-oregon-schools/issues?q=is%3Aopen+label%3Anext+-label%3A%22in+progress%22)
+- [Later](https://github.com/pietvanzoen/fund-oregon-schools/issues?q=is%3Aopen+label%3Alater+-label%3A%22in+progress%22)
+- [Not triaged](https://github.com/pietvanzoen/fund-oregon-schools/issues?q=is%3Aopen+-label%3Anext+-label%3Alater+-label%3A%22in+progress%22)
