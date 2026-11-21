@@ -242,7 +242,7 @@ def from_analysis(page, src, ctx):
     md = mark_analysis(md)
     md = cites(md, ctx)
     if page == "index.md":
-        md = re.sub(r"^(# .*\n)", lambda m: m.group(1) + INTRO, md, count=1)
+        md = re.sub(r"^(# .*\n\n(?:.+\n)+)", lambda m: m.group(1) + "\n" + INTRO, md, count=1)  # box after the opening paragraph, so the purpose comes first
         md, n = re.subn(r"<!-- site: funding chart -->\n(\|.*\n)+", lambda m: funding_chart(ctx) + "\n", md)
         assert n == 1, "OVERVIEW.md lost its '<!-- site: funding chart -->' marker above the key numbers table"
     return md + footer([f"analysis/{src}"], [f"analysis/{src}"])
@@ -250,13 +250,12 @@ def from_analysis(page, src, ctx):
 
 INTRO = """
 !!! info "How to read this site"
-    This is a research archive on how Oregon funds K-12 public schools, focused on the 2027-29 budget. Every claim
-    links to where it comes from:
+    Every claim links to where it comes from:
     <span class="cite cite-src">📄 p.N</span> is a state or legislative document, opened at the cited page;
     <span class="cite cite-news">📰 Outlet</span> is a news report; <span class="cite cite-pps">🏫 PPS archive</span>
     is the Portland Public Schools research archive; <span class="cite cite-der">🧮 our sum</span> is a figure this
     archive calculated itself, linked to its method. Boxes and sections marked **Analysis** are interpretation,
-    kept separate from what the documents say. [What this archive is for, and how to use it](about.md).
+    kept separate from what the documents say. [How to use this research](about.md#how-to-use-this-research).
 
 """
 
