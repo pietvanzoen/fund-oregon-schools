@@ -112,6 +112,17 @@ def main():
         os.remove(f"{root}/analysis/b.md")
         os.remove(f"{root}/analysis/c.csv")
 
+        # glossary warning (rule 11): unknown abbreviations warn; glossary terms, "(XYZ)" and tags don't
+        open(f"{root}/analysis/glossary.csv", "w").write(
+            "term,full_name,kind,tooltip,definition,source\nSSF,State School Fund,acronym,t,d,[NEWS:NEWS-1]\n")
+        open(f"{root}/analysis/g.md", "w").write(
+            "The SSF and the QEM and ADMr. Written out: National Center (NCES). PDF.\n`ABC` [SRC:gov/test_page.html]\n")
+        r = run(root, "check_citations.py")
+        assert r.returncode == 0 and r.stdout.count("glossary.csv") == 2, r.stdout
+        assert "QEM isn't in" in r.stdout and "ADMr isn't in" in r.stdout, r.stdout
+        os.remove(f"{root}/analysis/g.md")
+        os.remove(f"{root}/analysis/glossary.csv")
+
         # derived figures, DER tags, topic sections, the BRIEFING marker and the number warning
         os.makedirs(f"{root}/analysis/derived")
         os.makedirs(f"{root}/analysis/topics")

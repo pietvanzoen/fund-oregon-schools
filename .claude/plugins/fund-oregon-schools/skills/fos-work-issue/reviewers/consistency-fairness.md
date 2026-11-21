@@ -52,11 +52,13 @@ dismiss it over.
 8. **Counter-arguments**: where the change sets out a proposal or argument (e.g. using the Education Stability
    Fund), the main objection on the record is stated fairly too, if the archive has it.
 9. **No campaign content**: no talking points, asks or calls to action in `analysis/`.
+10. **Glossary**: every abbreviation or term of art the change uses has a row in `analysis/glossary.csv`
+    (CLAUDE.md rule 11), and no abbreviation means two things.
 
 ## Copyright and privacy
 
-10. News records: no full or near-full article text; quotes under 25 words.
-11. No members of the public named (parents, students, commenters). Officials, legislators, staff and
+11. News records: no full or near-full article text; quotes under 25 words.
+12. No members of the public named (parents, students, commenters). Officials, legislators, staff and
     organizations can be named.
 
 ## Report
@@ -74,5 +76,5 @@ Not checked / couldn't check: <list or none>
 ```
 
 Kinds: contradiction, superseded, open-question, labelling, separation, wrong-section, fairness, counter-argument,
-campaign, copyright, privacy. Severity: **error** = must change before merge; **warn** = should change; **note** = for
+campaign, copyright, privacy, glossary. Severity: **error** = must change before merge; **warn** = should change; **note** = for
 Piet's judgement. If a category has nothing, say so in one line. Don't list things you checked and found fine.
