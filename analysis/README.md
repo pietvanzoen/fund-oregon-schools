@@ -13,6 +13,7 @@
 | `data/qem_gap.csv` | Quality Education Model estimates vs. funding |
 | `data/reserves.csv` | Education Stability Fund and other reserves, with conditions for use |
 | `topics/reserves.md` | Whether reserves can close gaps |
+| `glossary.csv` | Abbreviations and terms in plain words (`term, full_name, kind, tooltip, definition, source`); feeds the Glossary page and the site's hover tooltips |
 | `timeline.md` | Dated events, past and upcoming |
 | `open_questions.md` | Facts to confirm and sources still to find |
 
