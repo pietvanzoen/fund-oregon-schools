@@ -104,13 +104,58 @@ def main():
         open(f"{root}/analysis/a.md", "w").write(
             "Good [SRC:gov/test_page.html] pending [SRC:gov/not_fetched.pdf p.2] news [NEWS:NEWS-1]\n")
         r = run(root, "check_citations.py")
-        assert r.returncode == 0 and "1 pending" in r.stdout, r.stdout
+        assert r.returncode == 0 and "1 warnings" in r.stdout and "pending (queued" in r.stdout, r.stdout
         open(f"{root}/analysis/b.md", "w").write("Bad [SRC:gov/nope.pdf p.1] [NEWS:NEWS-404]\n")
         open(f"{root}/analysis/c.csv", "w").write("year,amount,source\n2027,1,\n")
         r = run(root, "check_citations.py")
         assert r.returncode == 1 and r.stdout.count("ERROR") == 3, r.stdout
         os.remove(f"{root}/analysis/b.md")
         os.remove(f"{root}/analysis/c.csv")
+
+        # derived figures, DER tags, topic sections, the BRIEFING marker and the number warning
+        os.makedirs(f"{root}/analysis/derived")
+        os.makedirs(f"{root}/analysis/topics")
+        open(f"{root}/analysis/derived/t.csv", "w").write(
+            "id,value,unit,kind,label,method,inputs,assumptions\n"
+            "n,22110,students,derived,Students,sum,data/x.csv,\n"
+            "share,3.97,percent,derived,Share,n / state total,data/x.csv,\n"
+            "est,256.6,USD millions,est,Money,sum of x * y,data/x.csv,y is an average\n")
+        open(f"{root}/analysis/topics/ok.md", "w").write(
+            "# OK topic\n\nIntro.\n\n## What the sources say\n\n- The fund is $13 billion\n  [SRC:gov/test_page.html].\n\n"
+            "## Derived figures\n\n| Figure | Value |\n|---|---|\n| Money | about $257M [DER:t/est] |\n\n"
+            "## Analysis\n\nAbout 22,100 students, about 4% (our sum [DER:t/n] [DER:t/share]).\n")
+        open(f"{root}/analysis/BRIEFING.md", "w").write(
+            "Enrolled about 22,100 students (our sum [DER:t/n]).\n| Money | ~257 | our estimate [DER:t/est] |\n")
+        r = run(root, "check_citations.py")
+        assert r.returncode == 0 and "0 errors" in r.stdout and "not in the text" not in r.stdout, r.stdout
+        r = run(root, "linkify.py", f"{root}/analysis/BRIEFING.md")
+        assert "[DER:t/n](https://github.com/pietvanzoen/fund-oregon-schools/blob/main/analysis/derived/t.csv)" \
+            in r.stdout, r.stdout
+
+        open(f"{root}/analysis/BRIEFING.md", "w").write(
+            "Enrolled about 22,200 students (our sum [DER:t/n]). About $257M of it [DER:t/est].\n"
+            "Unknown [DER:t/nope] and [DER:zz/n].\n")
+        open(f"{root}/analysis/topics/bad.md", "w").write(
+            "# Bad\n\n## What the sources say\n\n- No citation here.\n- Analysis: inference [SRC:gov/test_page.html].\n"
+            "- It is $14 billion [SRC:gov/test_page.html].\n\n## Derived figures\n\n## Analysis\n")
+        open(f"{root}/analysis/topics/order.md", "w").write("# O\n\n## Analysis\n\n## Derived figures\n")
+        open(f"{root}/analysis/derived/u.csv", "w").write(
+            "id,value,unit,kind,label,method,inputs,assumptions\nx,abc,USD,guess,X,m,i,\n")
+        open(f"{root}/analysis/derived/v.csv", "w").write("id,value\nx,1\n")
+        r = run(root, "check_citations.py")
+        out = r.stdout
+        assert r.returncode == 1 and out.count("ERROR") == 10, out
+        assert "BRIEFING.md:1: [DER:t/n] is 22110 students; no number" in out, out  # 22,200 is not 22110 rounded
+        assert "BRIEFING.md:1: [DER:t/est] needs \"our sum\" or \"our estimate\"" in out, out
+        assert "unknown derived figure t/nope" in out and "unknown derived figure zz/n" in out, out
+        assert "bad.md:5: line under \"What the sources say\" has no source citation" in out, out
+        assert "bad.md:6: \"Analysis:\" under" in out and "order.md: needs exactly these sections" in out, out
+        assert "u.csv:2: kind must be derived or est" in out and "u.csv:2: value 'abc' is not a number" in out, out
+        assert "v.csv: columns must be" in out, out
+        assert "warn  analysis/topics/bad.md:7: 14 is not in the text" in out, out
+        shutil.rmtree(f"{root}/analysis/derived")
+        shutil.rmtree(f"{root}/analysis/topics")
+        os.remove(f"{root}/analysis/BRIEFING.md")
 
         r = run(root, "linkify.py", f"{root}/analysis/a.md")
         assert f"[SRC:gov/test_page.html]({url})" in r.stdout, r.stdout

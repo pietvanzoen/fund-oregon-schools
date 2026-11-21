@@ -63,6 +63,6 @@ nav:
       - Rep. Tawna Sanchez: people/sanchez.md
       - Rep. Ricki Ruiz: people/ruiz.md
       - Sen. Janeen Sollman: people/sollman.md
-  - Reserves: reserves.md
+  - Topics: []  # filled by tools/site_hook.py from analysis/topics/*.md
   - Sources: sources.md
   - About this site: about.md

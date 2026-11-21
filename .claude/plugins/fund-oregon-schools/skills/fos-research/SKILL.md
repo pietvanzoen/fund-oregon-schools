@@ -37,6 +37,7 @@ python3 tools/linkify.py analysis/BRIEFING.md                   # print with cit
 | How much does the state spend / need? | `analysis/data/ssf_history.csv`, `qem_gap.csv` → the cited page (cite the document, not the CSV) |
 | What's in the Governor's budget? | `sources/gov/` recommended budget documents; compare with `ssf_history.csv` |
 | Can reserves be used? | `analysis/data/reserves.csv`, `analysis/topics/reserves.md` |
+| A figure tagged `[DER:<topic>/<id>]` | the row in `analysis/derived/<topic>.csv` (method, inputs, assumptions); made by `tools/derive_<topic>.py` |
 | Where does a legislator stand? | `analysis/people/<slug>.md`; hearing video under `sources/legislature/video/` |
 | PPS specifics (closures, PPS budget) | the PPS archive (`anthropic-skills:pps-research` / timaelliott/save-our-schools); cite as `[PPSARCH:...]` |
 | What's coming up? | `analysis/timeline.md` |
@@ -44,7 +45,11 @@ python3 tools/linkify.py analysis/BRIEFING.md                   # print with cit
 ## 4. Answering
 - Lead with the strongest few cited facts when the answer feeds something we're writing (call scripts, emails,
   flyers, testimony). Flag figures that are estimates, projections or an advocacy group's numbers.
-- Keep what documents state, what people said, and your own inference ("Analysis:") separate.
+- Keep what documents state, what people said, and your own inference ("Analysis:") separate. Topic files do this
+  in sections: "What the sources say", "Derived figures", "Analysis".
+- A `[DER:...]` figure is this archive's own calculation, never an official number. Say so ("by the archive's own
+  sum", "the archive estimates"), keep the DER tag or link to its row, and give an `est` figure's assumptions.
+  Don't attribute it to the agency whose data went into it.
 - Give citations as links (`tools/linkify.py`), keeping the tag when the text will be reused elsewhere.
 - Quotes verbatim and short; never smooth a quote.
 

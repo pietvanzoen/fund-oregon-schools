@@ -38,4 +38,6 @@ budget link, then queue the budget PDFs themselves.
 ## After adding sources
 - Update `analysis/` and swap NEWS citations for SRC ones where a primary document now exists.
 - `python3 tools/check_citations.py` and `python3 tools/test_tools.py` must pass (CI runs both).
+- If a data file or derive script changed, run every `tools/derive_*.py` and commit `analysis/derived/`; CI reruns
+  them and fails if the output differs.
 - Add a line to `changelog/`.

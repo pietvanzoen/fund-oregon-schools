@@ -15,7 +15,7 @@ Setup:
 ```bash
 cd ~/fund-oregon-schools && git fetch -q origin {{BRANCH}} && git checkout -q FETCH_HEAD
 git diff {{BASE}} --stat
-git diff {{BASE}} -- analysis/ sources/news/ changelog/
+git diff {{BASE}} -- analysis/ sources/news/ changelog/ tools/derive_*.py
 ```
 
 Read `CLAUDE.md` first: it defines the citation formats and rules you're checking against.
@@ -39,6 +39,12 @@ scrambled, render the page (`pdftoppm -f <p> -l <p> -png -r 110 sources/<path> /
    document now supports the same claim.
 7. **Queued but not fetched**: if a cited source isn't in `sources/` yet, mark the claim "verify after fetch".
    Don't guess.
+8. **Wrong section**: an inference or calculation under "What the sources say", or a calculated figure (a sum,
+   share or estimate we made) shown as if a source stated it, instead of as a `[DER:...]` row. A total the
+   document prints itself is a source fact.
+9. **Derived figures**: for each changed row in `analysis/derived/*.csv`, the method, inputs and assumptions are
+   right and complete, the script does what `method` says, constants it copies from a source carry a citation,
+   and `kind` is `est` whenever the figure rests on an assumption.
 
 ## Scope
 
@@ -48,8 +54,9 @@ scrambled, render the page (`pdftoppm -f <p> -l <p> -png -r 110 sources/<path> /
 
 ## Tool checks
 
-Run `python3 tools/check_citations.py`, `python3 tools/check_sources.py` and `python3 tools/test_tools.py`.
-Report any failure.
+Run `python3 tools/check_citations.py`, `python3 tools/check_sources.py` and `python3 tools/test_tools.py`, and
+every `tools/derive_*.py` followed by `git status --short analysis/derived/` (it should print nothing). Report any
+failure, and each checker warning (a number not found in its cited source) that you confirm.
 
 ## Report
 

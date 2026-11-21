@@ -12,6 +12,7 @@
 | `data/ssf_history.csv` | State School Fund by biennium and budget stage |
 | `data/qem_gap.csv` | Quality Education Model estimates vs. funding |
 | `data/reserves.csv` | Education Stability Fund and other reserves, with conditions for use |
+| `derived/<topic>.csv` | Our own calculations (sums, shares, estimates), cited with DER tags; written by `tools/derive_<topic>.py` |
 | `topics/reserves.md` | Whether reserves can close gaps |
 | `timeline.md` | Dated events, past and upcoming |
 | `open_questions.md` | Facts to confirm and sources still to find |

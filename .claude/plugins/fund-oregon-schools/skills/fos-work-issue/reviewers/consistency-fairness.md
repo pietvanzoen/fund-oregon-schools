@@ -42,8 +42,10 @@ dismiss it over.
 5. **Labelling**: every estimate, projection or forecast is labelled as one. Every figure from an advocacy group,
    union, association or district press material is attributed to that group as its claim or estimate, not stated
    as fact.
-6. **Separation**: what documents state, what people said, and the author's own inference ("Analysis:") are kept
-   apart. Flag inference written as fact.
+6. **Separation**: what sources state, what we calculated, and the author's own inference are kept apart (in topic
+   files: "What the sources say", "Derived figures", "Analysis"; elsewhere "our sum"/"our estimate" and
+   "Analysis:"). Flag inference written as fact, and any **wrong section**: an inference among source facts, or a
+   calculation shown as a source figure instead of a `[DER:...]` figure.
 7. **Fairness to named officials**: positions are described from what they said or did on the record, with dates.
    No loaded words, no motives imputed, no "refused" or "ignored" unless the source says so. The same care
    applies whichever party or side the official is on.
@@ -71,6 +73,6 @@ Plain Markdown, in this shape:
 Not checked / couldn't check: <list or none>
 ```
 
-Kinds: contradiction, superseded, open-question, labelling, separation, fairness, counter-argument, campaign,
-copyright, privacy. Severity: **error** = must change before merge; **warn** = should change; **note** = for
+Kinds: contradiction, superseded, open-question, labelling, separation, wrong-section, fairness, counter-argument,
+campaign, copyright, privacy. Severity: **error** = must change before merge; **warn** = should change; **note** = for
 Piet's judgement. If a category has nothing, say so in one line. Don't list things you checked and found fine.

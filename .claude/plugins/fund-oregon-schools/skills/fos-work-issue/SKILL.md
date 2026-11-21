@@ -99,15 +99,23 @@ whose extracted text is scrambled, render the page and look at it
 
 Then, as the issue needs:
 
-- Topic file `analysis/topics/<topic>.md`: what documents state, what people said (dated, cited), and
-  "Analysis:" kept separate.
-- Structured data in `analysis/data/<name>.csv` with a `source` column on every row.
+- Topic file `analysis/topics/<topic>.md` in three sections, in order: `## What the sources say` (what documents
+  state and what people said, dated, every line cited, no inference), `## Derived figures` (a table of our sums,
+  shares and estimates, each with its `[DER:<topic>/<id>]` tag) and `## Analysis` (our interpretation). It is
+  published on the website automatically, titled by its H1.
+- Structured data in `analysis/data/<name>.csv` with a `source` column on every row: values copied from sources
+  only. A total the document prints is a source value; one we add up is derived.
+- Every calculated value (per-row and totals) goes in `analysis/derived/<topic>.csv`, written only by a plain
+  `tools/derive_<topic>.py` that reads `analysis/data/` (columns `id, value, unit, kind, label, method, inputs,
+  assumptions`; `kind` = `derived` for arithmetic, `est` when it rests on assumptions). Cite any constant the
+  script copies from a source in a comment. Never type a derived value by hand.
 - Quotes in `analysis/people/quotes_all.jsonl` and the person's `analysis/people/<slug>.md`.
 - Pledges in `analysis/promises.csv`; dates in `analysis/timeline.md`.
 - Swap NEWS citations for SRC ones wherever the new primary document supports the same claim.
 - Remove answered items from `analysis/open_questions.md`; add new open questions you hit.
 - `analysis/BRIEFING.md`: change it only when the new material changes something already there (a figure, a
-  date, a stance). Keep the edit minimal and call it out in the PR. Don't add new sections to it.
+  date, a stance). Keep the edit minimal and call it out in the PR. Don't add new sections to it. Our own figures
+  go in their own sentence, marked "our sum" or "our estimate" with the DER tag.
 - A dated entry in `changelog/<YYYY-MM-DD>.md` (create the file if it's a new day), in the style of the
   existing entries, with the issue number.
 
@@ -117,6 +125,7 @@ Run, and fix until clean:
 
 ```bash
 python3 tools/check_citations.py && python3 tools/check_sources.py && python3 tools/test_tools.py
+for f in tools/derive_*.py; do python3 "$f"; done; git status --short analysis/derived/   # commit what changed
 ```
 
 Commit and push.
@@ -131,10 +140,11 @@ one only:
 - nothing else: not your notes, not what you think is shaky, not your own summary of the changes
 
 Reviewers:
-- `fact-check.md` — every claim, quote and number against its cited page; scope (do the ticked items really do
-  what the issue asked)
+- `fact-check.md` — every claim, quote and number against its cited page; derived figures against their method;
+  wrong-section findings; scope (do the ticked items really do what the issue asked)
 - `consistency-fairness.md` — conflicts with the rest of the archive, superseded figures left behind, framing,
-  labelling of estimates and advocacy numbers, fairness to named officials, copyright, privacy
+  labelling of estimates and advocacy numbers, wrong-section findings, fairness to named officials, copyright,
+  privacy
 
 They report only. For each finding:
 

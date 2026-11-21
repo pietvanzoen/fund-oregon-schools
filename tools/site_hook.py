@@ -6,7 +6,9 @@ same files Claude and the citation checker use. Citation tags become small links
   [NEWS:...]    -> "📰 Outlet" news report
   [PPSARCH:...] -> "🏫 PPS archive"
   [VID:...]     -> "🎥 H:MM:SS"
+  [DER:...]     -> "🧮 our sum" / "🧮 our estimate"  our own calculation (analysis/derived/<topic>.csv on GitHub)
 "Analysis:" passages are boxed or tagged so readers can tell interpretation from documented fact.
+Every analysis/topics/<name>.md is published as <name>.md and listed under Topics, titled by its H1.
 
 Preview locally:  pip install "mkdocs>=1.6,<2" "mkdocs-material>=9.7,<10" && mkdocs serve
 """
@@ -23,7 +25,8 @@ from mkdocs.structure.files import File
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import (  # noqa: E402
-    ANALYSIS, MANIFEST, NEWS_INDEX, QUOTES, ROOT, TAG_RE, manifest_by_path, parse_src, read_jsonl, read_queue,
+    ANALYSIS, DERIVED, MANIFEST, NEWS_INDEX, QUOTES, ROOT, TAG_RE, manifest_by_path, parse_src, read_jsonl,
+    read_queue,
 )
 from linkify import link_for, urls  # noqa: E402
 
@@ -35,11 +38,20 @@ MD_PAGES = {
     "index.md": "OVERVIEW.md",
     "briefing.md": "BRIEFING.md",
     "timeline.md": "timeline.md",
-    "reserves.md": "topics/reserves.md",
 }
 PEOPLE = ["kotek", "lieber", "sanchez", "ruiz", "sollman"]
 for _slug in PEOPLE:
     MD_PAGES[f"people/{_slug}.md"] = f"people/{_slug}.md"
+
+# Topic page -> its H1, for the nav and link text
+TOPICS = {}
+for _f in sorted(os.listdir(os.path.join(ANALYSIS, "topics"))):
+    if _f.endswith(".md"):
+        assert _f not in {*MD_PAGES, "numbers.md", "quotes.md", "promises.md", "who-decides.md", "sources.md",
+                          "about.md"}, f"topics/{_f} would replace the {_f} page; rename it"
+        MD_PAGES[_f] = f"topics/{_f}"
+        _h1 = open(os.path.join(ANALYSIS, "topics", _f), encoding="utf-8").readline()
+        TOPICS[_f] = _h1[2:].strip() if _h1.startswith("# ") else _f[:-3]
 
 # Backticked file names in analysis/ -> site page, so "see `people/kotek.md`" becomes a link
 FILE_TO_PAGE = {v: k for k, v in MD_PAGES.items()}
@@ -71,6 +83,11 @@ class Ctx:
         self.news_urls = {k: v.get("url") for k, v in self.news.items()}
         self.titles = {r["path"].strip(): r.get("title", "").strip() for r in read_queue()}
         self.manifest = manifest_by_path()
+        self.derived = {}
+        for f in os.listdir(DERIVED) if os.path.isdir(DERIVED) else []:
+            if f.endswith(".csv"):
+                with open(os.path.join(DERIVED, f), newline="", encoding="utf-8") as fh:
+                    self.derived.update({f"{f[:-4]}/{r['id']}": r for r in csv.DictReader(fh)})
 
 
 def esc(s):
@@ -111,6 +128,14 @@ def chip(kind, body, ctx):
         tip = f"Portland Public Schools research archive ({body.strip()})"
         label = "🏫 PPS archive"
         cls = "pps"
+    elif kind == "DER":
+        rec = ctx.derived.get(body.strip(), {})
+        est = rec.get("kind") == "est"
+        tip = (f"Our {'estimate' if est else 'calculation'}: {rec.get('label', body.strip())}. "
+               f"Method: {rec.get('method', '')}")
+        tip += f". Assumes: {rec['assumptions']}" if rec.get("assumptions") else ""
+        label = "🧮 our estimate" if est else "🧮 our sum"
+        cls = "der"
     else:  # VID
         _, _, ts = body.partition("@")
         tip = "Recording" + (f" at {ts}" if ts else "")
@@ -154,10 +179,11 @@ def file_refs(text, from_page, src_file):
 
 
 PAGE_TITLES = {
-    "index.md": "overview", "briefing.md": "the briefing", "timeline.md": "timeline", "reserves.md": "reserves",
+    "index.md": "overview", "briefing.md": "the briefing", "timeline.md": "timeline",
     "promises.md": "promises tracker", "quotes.md": "what they've said", "who-decides.md": "who decides",
     "numbers.md": "the numbers", "people/kotek.md": "Kotek", "people/lieber.md": "Lieber",
     "people/sanchez.md": "Sanchez", "people/ruiz.md": "Ruiz", "people/sollman.md": "Sollman",
+    **{page: h1.lower() for page, h1 in TOPICS.items()},
 }
 
 
@@ -225,7 +251,8 @@ INTRO = """
     links to where it comes from:
     <span class="cite cite-src">📄 p.N</span> is a state or legislative document, opened at the cited page;
     <span class="cite cite-news">📰 Outlet</span> is a news report; <span class="cite cite-pps">🏫 PPS archive</span>
-    is the Portland Public Schools research archive. Boxes marked **Analysis** are interpretation or arithmetic,
+    is the Portland Public Schools research archive; <span class="cite cite-der">🧮 our sum</span> is a figure this
+    archive calculated itself, linked to its method. Boxes and sections marked **Analysis** are interpretation,
     kept separate from what the documents say. [More about this site](about.md).
 
 """
@@ -482,6 +509,14 @@ def front_matter(page):
 
 
 # ---------------------------------------------------------------- MkDocs hook
+
+def on_config(config):
+    """Fill the empty "Topics" section of the nav in mkdocs.yml with every topic page."""
+    for item in config["nav"]:
+        if isinstance(item, dict) and "Topics" in item:
+            item["Topics"] = [{h1: page} for page, h1 in TOPICS.items()]
+    return config
+
 
 def on_files(files, config):
     ctx = Ctx()
