@@ -30,6 +30,7 @@ session can run. Background: `topics/measures-5-and-50.md` explains why these ar
   [SRC:fiscal/lfo/2025-07_lab-summary-2025-27.pdf p.1].
 - The Quality Education Commission leaves the question of what is adequate, and which funding counts, to the
   Legislature [SRC:ode/qec/2026_qem_report.pdf p.117].
+- The positions of the Oregon Education Association, OSBA and COSA on the 2027-29 amount aren't archived yet (#26).
 - Analysis: the current service level is the State School Fund alone, while both Quality Education Model figures count
   other state money too, so the like-for-like gap between the two model scenarios is the status quo to the full
   model. See `topics/quality-education-model.md`.
@@ -49,17 +50,20 @@ session can run. Background: `topics/measures-5-and-50.md` explains why these ar
   to confirm.
 - Rep. Ruiz frames his proposal as immediate relief while longer-term reform is developed
   [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt].
-- Analysis: every option here needs the same vote and trigger. The objection on record from Kotek, Lieber and Sanchez
-  is to one-time money for ongoing costs; PERS contributions are an ongoing cost, so it may apply to both PERS
-  proposals, while supporters describe a one-time draw as a bridge until lasting reform. See `topics/reserves.md`.
+- Analysis: every option here needs the same vote and trigger. Kotek and Lieber object on the record to one-time money
+  for ongoing costs; PERS contributions are an ongoing cost, so the objection may apply to both PERS proposals, while
+  supporters describe a one-time draw as a bridge until lasting reform. Sanchez's stated objection is mainly timing:
+  saving the fund for worse years. The stances recorded so far were about a draw in 2025-27, not 2027-29. See
+  `topics/reserves.md`.
 
 <!-- site: decision esf-draw-2027-29 -->
 
 ## Changing or replacing the Quality Education Model {#cost-model-2027}
 
-- A legislative concept to move the cost model to the Legislative Policy and Research Office became SB 1555 (2026)
-  [SRC:legislature/olis/2025I1/311607_jpea-legislative-concepts.pdf p.1] [NEWS:NEWS-20260121-katu-1]; the overhaul
-  effort was unsuccessful [NEWS:NEWS-20260617-occ-1].
+- A legislative concept to move the cost model to the Legislative Policy and Research Office
+  [SRC:legislature/olis/2025I1/311607_jpea-legislative-concepts.pdf p.1] became SB 1555 (2026), which would also
+  abolish the Quality Education Commission [SRC:legislature/bills/2026R1_SB1555_overview.html].
+- A 2026 overhaul effort led by Ruiz and Sen. Sollman was unsuccessful [NEWS:NEWS-20260617-occ-1].
 - Analysis: a new cost model would also change the benchmarks the other decisions are measured against. See
   `topics/quality-education-model.md`.
 

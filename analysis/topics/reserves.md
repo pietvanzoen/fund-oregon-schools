@@ -22,11 +22,12 @@ None: every figure above is stated in a cited source.
 
 ## Analysis
 
-Any draw needs a three-fifths vote in each chamber and either an economic trigger or an emergency declaration, which
-Kotek has said she won't make unless the votes are already there. New revenue in her budget needs neither. That holds
-for a large, general draw. An initial proposal for targeted,
+Any draw needs a three-fifths vote in each chamber and either an economic trigger or an emergency declaration. For a
+2025-27 draw, Kotek said she did not plan at that time to declare an emergency unless the votes were there. Revenue the
+forecast already expects needs neither, though a tax increase also needs three-fifths of each chamber
+[SRC:legislature/constitution/oregon-constitution.html]. That holds for a large, general draw. An initial proposal for targeted,
 one-time PERS relief from a 2025-26 co-chair of the Education Subcommittee (Ruiz, Nov 2026) suggests a narrower draw
 is being discussed, though it rests on one social media post with no amount or bill. It still needs the same vote and
-trigger, and the objection on record from Kotek, Lieber and Sanchez to one-time money for ongoing costs may still apply:
-PERS contributions are an ongoing cost. Ruiz frames his proposal as relief while longer-term reform is developed
+trigger, and the objection on record from Kotek and Lieber to one-time money for ongoing costs may still apply: PERS
+contributions are an ongoing cost. Sanchez's stated objection is mainly timing. Ruiz frames his proposal as relief while longer-term reform is developed
 (`decisions.md#esf-draw-2027-29`).

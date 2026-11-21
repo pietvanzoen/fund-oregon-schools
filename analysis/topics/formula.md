@@ -10,8 +10,9 @@ Decisions this informs: `decisions.md#formula-2027`. Open research: #17, #18, #1
 - HB 2953 (2025) as introduced would remove the cap [SRC:legislature/bills/2025R1_HB2953_introduced.pdf p.1].
 - **Transportation.** The state reimburses an approved share of district transportation costs
   [SRC:legislature/ors/ors327.html].
-- **Online charters.** District sponsors must pass through at least 80% (K-8) or 95% (9-12) of their General
-  Purpose Grant per ADMw to a virtual charter [SRC:legislature/ors/ors338.html]; see `topics/virtual-charters.md`.
+- **Charters.** A sponsoring district must pass through at least 80% (K-8) or 95% (9-12) of its General Purpose
+  Grant per ADMw to a public charter school it sponsors, virtual ones included [SRC:legislature/ors/ors338.html]; see
+  `topics/virtual-charters.md`.
 - Gov. Kotek's second-term platform includes revisiting enrollment-based funding [NEWS:NEWS-20260917-opb-1].
 
 ## Derived figures

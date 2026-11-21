@@ -53,8 +53,13 @@ spells his name "Ricky".) His 2027 committee roles aren't announced yet (as of N
   the 2024 QEM; the 2026 QEM (status quo $13.78B for 2027-29) sets a new bar, so the 2025-27 finding doesn't carry
   into 2027-29 (see `decisions.md#ssf-2027-29`).
 - His Nov 2026 reserve proposal goes further than his Feb 2026 stance (per KATU's paraphrase, keep monitoring). It is
-  narrower than PPS's ask for a $500M statewide PERS buy-down [NEWS:NEWS-20261102-opb-1]: targeted at districts under strain, especially those that have already
+  narrower than PPS's request for a $500M statewide PERS buy-down [NEWS:NEWS-20261102-opb-1]: targeted at districts under strain, especially those that have already
   used their own reserves. He presents it as one-time money while a new funding system is built, which speaks to
   the objection that reserves shouldn't pay ongoing costs, though PERS payments are themselves an ongoing cost.
 - He wants a different yardstick for "adequate," not necessarily less money. Open question: what level he'd fund to
   in 2027-29 while the QEM is under review.
+
+## Sources not yet usable
+- The Nov 18, 2026 Moms for Oregon interview (`sources/orgs/momsfororegon/2026-11-18_ruiz-interview.mp4`) is archived
+  but not quoted: its on-screen captions and a test machine transcript disagreed on a key word, so quote it only after
+  listening to the recording.

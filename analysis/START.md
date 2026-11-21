@@ -12,13 +12,15 @@ cites every claim, so parents, reporters and anyone else can check facts and bui
 
 - The Governor's recommended budget is due Dec 1, 2026 [SRC:legislature/ors/ors291.html].
 - The State School Fund adopted for 2025-27 is $11.36B [SRC:fiscal/lfo/2025-07_lab-summary-2025-27.pdf p.1].
-- Keeping today's services in 2027-29 (the current service level, a Department of Administrative Services estimate)
-  costs $12.56B in State School Fund money [SRC:ode/qec/2026_qem_report.pdf p.103].
+- The State School Fund's current service level for 2027-29, a Department of Administrative Services estimate, is
+  $12.56B [SRC:ode/qec/2026_qem_report.pdf p.103].
 - The Quality Education Commission's 2026 report estimates core state funding, counting state money beyond the State
   School Fund, of $13.78B to keep 2025-27 service levels and $16.21B to meet the state's education goals
   [SRC:ode/qec/2026_qem_report.pdf p.117].
 - The Commission leaves what counts as adequate, and which funding counts toward it, to the Legislature
   [SRC:ode/qec/2026_qem_report.pdf p.117].
+- Analysis: the first figures are the State School Fund alone, and the Commission's include other state money, so
+  compare like with like: `decisions.md#ssf-2027-29` explains.
 - The Education Stability Fund is projected at $1,271M at the end of 2025-27 [SRC:fiscal/oea/2026-12_forecast.pdf p.41].
 
 More: `data/qem_gap.csv`

@@ -442,7 +442,7 @@ def funding_chart(ctx):
          f"State School Fund adopted for 2025-27: ${float(adopted['amount_billion']):.2f}B"),
         ("Current service level", csl, "State School Fund · DAS estimate", "s-base",
          f"State School Fund current service level for 2027-29: ${csl:.2f}B"),
-        ("Keep today's services", sq, "QEM status quo · all core state funding", "s-main",
+        ("Keep 2025-27 service levels", sq, "QEM status quo · all core state funding", "s-main",
          f"Quality Education Model status quo: ${sq:.2f}B, counting state money beyond the State School Fund"),
         ("Meet the state's goals", full, "Full QEM · all core state funding", "s-main",
          f"Full Quality Education Model: ${full:.2f}B, ${val('full_qem_above_status_quo'):.2f}B above the status quo"),

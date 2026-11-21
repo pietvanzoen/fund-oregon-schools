@@ -33,14 +33,16 @@ Budget for 2027-29 in December [NEWS:NEWS-2026-salemreporter-1].
   her on virtual schools is in the archive; see `topics/virtual-charters.md`.
 
 ## On the Education Stability Fund
-- Using it requires a governor's emergency declaration and a three-fifths legislative vote
-  [NEWS:NEWS-20261102-opb-1]. She has resisted one-time money for ongoing costs [NEWS:NEWS-20261106-occ-1].
+- Using it requires a three-fifths vote in each chamber plus either an economic trigger or a governor's emergency
+  declaration [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1] (OPB described it as an emergency declaration and a
+  three-fifths vote [NEWS:NEWS-20261102-opb-1]). She has resisted one-time money for ongoing costs [NEWS:NEWS-20261106-occ-1].
 - April 2026 EO 26-06 FAQ: she "remains open to discussing all options to support districts," but does not plan
   to declare an emergency and call a special session for the fund unless legislative leaders indicate a three-fifths
   majority would approve it [SRC:gov/eo/eo-26-06_faq.pdf p.2] [SRC:gov/eo/eo-26-06_faq.pdf p.3]. (KTVZ described
   this as openness to tapping the fund [NEWS:NEWS-20260416-ktvz-1]; the FAQ itself is more guarded.)
 - October 2026: KATU reports she rejected tapping one-time state reserves for PPS [NEWS:NEWS-2026-katu-kotek-pps-1].
-- Analysis: the archived statements are consistent: no draw unless a supermajority is already lined up.
+- Analysis: the April FAQ is conditional (no special session for the fund at that time unless a supermajority is
+  lined up); the October and November statements reject one-time reserves for PPS and for ongoing costs outright.
 
 ## On PPS closures
 - Oct 13, 2026 letter to Superintendent Armstrong and Board Chair Wang [SRC:gov/letters/2026-10-13_kotek-letter-to-pps-school-closures.pdf p.1]:
