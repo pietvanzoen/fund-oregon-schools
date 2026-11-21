@@ -43,6 +43,7 @@ See `updates.csv`.
 
 ## Reference
 
+- `questions.csv`: what readers have asked, what's answered and what's still open
 - `people/quotes_all.jsonl`: officials' statements, verbatim and dated
 - `promises.csv`: goals and mandates, whether money came with them, and how they've been rated
 - `people/people.csv`: who decides, and their roles

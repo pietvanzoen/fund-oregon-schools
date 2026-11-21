@@ -52,7 +52,7 @@ TOPICS = {}
 for _f in sorted(os.listdir(os.path.join(ANALYSIS, "topics"))):
     if _f.endswith(".md"):
         assert _f not in {*MD_PAGES, "numbers.md", "quotes.md", "promises.md", "who-decides.md", "sources.md",
-                          "about.md"}, f"topics/{_f} would replace the {_f} page; rename it"
+                          "about.md", "questions.md"}, f"topics/{_f} would replace the {_f} page; rename it"
         MD_PAGES[_f] = f"topics/{_f}"
         _h1 = open(os.path.join(ANALYSIS, "topics", _f), encoding="utf-8").readline()
         TOPICS[_f] = _h1[2:].strip() if _h1.startswith("# ") else _f[:-3]
@@ -66,7 +66,7 @@ FILE_TO_PAGE.update({
     "decisions.csv": "decisions.md",
     "options.csv": "decisions.md",
     "positions.csv": "decisions.md",
-    "questions.csv": "decisions.md",
+    "questions.csv": "questions.md",
     "data/qem_gap.csv": "numbers.md",
     "data/ssf_history.csv": "numbers.md",
     "data/reserves.csv": "numbers.md",
@@ -200,6 +200,7 @@ PAGE_TITLES = {
     "index.md": "start here", "decisions.md": "what's being decided", "timeline.md": "timeline",
     "updates.md": "what's new", "promises.md": "promises tracker", "quotes.md": "what they've said",
     "who-decides.md": "who decides", "numbers.md": "the numbers", "glossary.md": "glossary",
+    "questions.md": "questions",
     **{f"people/{s}.md": NAMES.get(s, s).split()[-1] for s in PEOPLE},
     **{page: h1.lower() for page, h1 in TOPICS.items()},
 }
@@ -558,6 +559,31 @@ def update_lines(from_page):
     return out
 
 
+def questions_page(ctx):
+    """analysis/questions.csv as one page: answered first, then open by needed-by date, each linked to its decision."""
+    qs = read_csv("questions.csv")
+    decisions = {d["id"]: d["decision"] for d in read_csv("decisions.csv")}
+
+    def about(q):
+        return f"[{decisions[q['decision']]}](decisions.md#{q['decision']})" if q["decision"] else "standing research"
+
+    answered = [q for q in qs if q["status"] == "answered"]
+    still = sorted((q for q in qs if q["status"] == "open"), key=lambda q: q["needed_by"] or "9999")
+    out = ["# Questions", "",
+           "What readers have asked, and what this archive can answer so far. Each question belongs to a "
+           "[decision](decisions.md) or to standing research. Have a question? Email "
+           "[hello@fundoregonschools.org](mailto:hello@fundoregonschools.org); we describe who asked, never name them.",
+           "", "## Answered", ""]
+    out += [f"- **{q['question']}** {about(q)} · `{q['answer']}`" for q in answered] or ["None yet."]
+    out += ["", "## Open", ""]
+    for q in still:
+        work = f" · [follow the work]({GITHUB}/issues/{q['issue']})" if q["issue"] else ""
+        out.append(f"- **{q['question']}**  \n  {about(q)} · asked by {q['asked_by']} · "
+                   f"needed by {q['needed_by'] or 'no date'}{work}")
+    md = file_refs("\n".join(out) + "\n", "questions.md", "questions.csv")
+    return md + footer(["analysis/questions.csv"], ["analysis/questions.csv"])
+
+
 def updates_page(ctx):
     return ("# What's new\n\nNew research and data in this archive, newest first. Each entry says what changed for "
             "readers, links to it and to the change on GitHub.\n\n" + "".join(update_lines("updates.md"))
@@ -668,6 +694,8 @@ PAGE_META = {
                    "funding archive, newest first: analysis, documents and figures added, each linked."),
     "timeline.md": ("Oregon K-12 funding timeline", "Dated events in Oregon school funding: budgets, revenue "
                     "forecasts, Quality Education Model reports, executive orders and the 2027-29 budget process."),
+    "questions.md": ("Questions about Oregon K-12 funding", "What readers have asked about Oregon's 2027-29 school "
+                     "budget, what this archive can answer so far, and what's still open."),
     "who-decides.md": ("Who decides Oregon's K-12 budget", "Gov. Kotek and the Oregon legislators who write the "
                        "school budget: Ways and Means co-chairs and the Education Subcommittee, with their roles."),
     "reserves.md": ("Oregon Education Stability Fund", "Oregon's Education Stability Fund: projected balance, the "
@@ -717,6 +745,7 @@ def on_files(files, config):
         "sources.md": sources_page(ctx),
         "glossary.md": glossary_page(ctx),
         "updates.md": updates_page(ctx),
+        "questions.md": questions_page(ctx),
     })
     for uri, content in pages.items():
         files.append(File.generated(config, uri, content=front_matter(uri) + content))
