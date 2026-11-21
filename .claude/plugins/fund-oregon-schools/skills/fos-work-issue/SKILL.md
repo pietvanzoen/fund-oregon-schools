@@ -292,7 +292,8 @@ Then update the issue body so its status is clear at a glance (`gh api -X PATCH 
     with `https://github.com/pietvanzoen/fund-oregon-schools/blob/main/<path>`), and any new news records by id.
   - On a later PR for the same issue, add to the lists rather than replacing them.
 - Label the PR `needs-human` if any finding is disputed or unresolved, any BRIEFING figure changed, or a
-  checklist item needs Piet's judgement.
+  checklist item needs Piet's judgement. Say which of these applies, and what Piet has to decide, in a
+  **Needs you** line at the top of the PR body.
 - Wait for the `check` and `build` checks on the PR. If one fails, fix it and push.
 
 End with a short report: the PR link, one-line summary, the review table's counts, the site pages from

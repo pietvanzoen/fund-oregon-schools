@@ -1,0 +1,3210 @@
+State of Oregon
+Stronger Accountability, Oversight,
+and Support Would Improve Results
+for Academically At-Risk Students in
+Alternative and Online Education
+December 2017
+
+Secretary of State
+Dennis Richardson
+Audits Division, Director
+Kip Memmott
+Report 2017 – 30
+
+This page intentionally left blank.
+
+Secretary of State Audit Highlights
+
+December 2017
+
+Stronger Accountability, Oversight, and Support Would Improve
+Results for Academically At-Risk Students in Alternative and Online
+Education
+Report Highlights
+The Secretary of State’s Audits Division found that the Oregon Department of Education (ODE) has not focused on
+improving education for at-risk students in alternative and online schools and programs, though they account for
+nearly half the state’s high school dropouts. Sharpening Oregon’s focus would improve accountability, district
+oversight, and school and program performance, and would benefit at-risk students and the state’s economy.
+
+Background
+
+Key Findings
+
+Many vulnerable
+students attend Oregon’s
+alternative schools and
+programs and online
+schools. Responsibility
+for improving education
+for those students is
+shared by ODE, school
+districts, and others.
+
+1. ODE has not adequately tracked and reported on the performance of
+alternative schools and programs. As a result, the state lacks critical
+information about school and program effectiveness.
+
+Audit Purpose
+To determine how ODE
+and school districts can
+help increase the success
+of academically at-risk
+students in alternative
+and online education.
+Online and alternative
+education schools and
+programs also serve
+students who are not
+academically at-risk. The
+audit did not focus on
+their effectiveness with
+these students.
+
+2. Enhanced state monitoring and support, and more robust district oversight
+could improve results for at-risk students in alternative schools and
+programs, and in online schools.
+3. Some states have held districts, alternative schools, and programs to high
+standards and provided more support to help at-risk students succeed.
+4. Other states have also increased oversight of fast-growing online schools. In
+contrast to these states, Oregon’s laws allow online schools to increase
+enrollment rapidly regardless of their performance.
+To reach our findings, we interviewed multiple stakeholders, reviewed
+documents, analyzed school performance data, researched practices in other
+states, visited schools, and surveyed all of Oregon’s school districts. Our office
+also released an audit of graduation rates recently that focuses on students in
+traditional high schools.
+
+Key Recommendations
+This audit includes recommendations designed to improve results for at-risk
+students in alternative and online schools and programs. ODE should develop
+a more meaningful accountability system for alternative and online education.
+The agency should establish and monitor standards for crucial practices, such
+as annual district evaluations of these schools and programs. ODE should also
+strengthen state attendance and funding standards for online schools.
+ODE generally agreed with our recommendations. The agency’s response can
+be found at the end of the report.
+
+Secretary of State, Dennis Richardson
+Oregon Audits Division, Kip Memmott, Director
+
+About the Secretary of State Audits Division
+The Oregon Constitution provides that the Secretary of State shall be, by virtue
+of his office, Auditor of Public Accounts. The Audits Division performs this duty.
+The division reports to the elected Secretary of State and is independent of
+other agencies within the Executive, Legislative, and Judicial branches of
+Oregon government. The division has constitutional authority to audit all state
+officers, agencies, boards, and commissions and oversees audits and financial
+reporting for local governments.
+
+Audit Team
+William Garber, CGFM, MPA, Deputy Director
+Sheronne Blasi, MPA, Audit Manager
+Andrew Love, Audit Manager
+Scott Learn, CIA, MS, Senior Auditor
+Krystine McCants, M. Econ, Staff Auditor
+
+This report is intended to promote the best possible management of public
+resources. Copies may be obtained from:
+website:
+
+sos.oregon.gov/audits
+
+phone:
+
+503-986-2255
+
+mail:
+
+Oregon Audits Division
+255 Capitol Street NE, Suite 500
+Salem, Oregon 97310
+
+We sincerely appreciate the courtesies and cooperation extended by officials
+and employees of the Oregon Department of Education and of the districts and
+schools we visited during this audit.
+
+Secretary of State Audit Report
+Stronger Accountability, Oversight, and Support Would Improve
+Results for Academically At-Risk Students in Alternative and Online
+Education
+Introduction
+Many of Oregon’s most academically at-risk high
+school students attend alternative schools and
+programs and online schools
+Enrollment in Oregon’s alternative schools and programs and online
+schools is a small percentage of the state’s public school enrollment.
+However, judging by dropout rates, these schools serve a high proportion
+of the most academically at-risk students in the state.
+Together, alternative schools and programs and online schools accounted
+for about 10% of Oregon’s public high school enrollment in the 2015-16
+school year, but nearly half the state’s dropouts. Combined, the dropout
+rate for online schools and alternative schools and programs was 18%,
+more than four times the 3.9% state average. The dropout rate at
+traditional high schools was roughly 2%.
+Figure 1: Breakdown of Oregon Grade 9-12 Enrollment and Dropouts, 2015-16 School
+Year *
+
+Total Enrollment
+% of statewide enrollment
+Total number of dropouts
+% of statewide dropouts
+Dropout rate
+
+Online
+Schools
+
+Alternative
+Schools **
+
+Alternative
+Programs
+
+4,600
+2.5%
+730
+10%
+16%
+
+5,950
+3.3%
+990
+14%
+17%
+
+8,600
+4.7%
+1,660
+23%
+19%
+
+* Source: Auditor analysis of ODE’s 2015-16 Dropout Report.
+** Includes online alternative education schools.
+
+In the 2015-16 school year, alternative and online schools made up many
+of the lowest-performing Oregon schools in terms of dropout rates, fiveyear graduation rates, and five-year completion rates.1
+
+1 Five-year completion rates include students who earn regular diplomas, modified diplomas,
+
+extended diplomas, adult high school diplomas, and General Equivalency Degrees (GEDs). Graduation
+rates include only students who earn regular or modified diplomas.
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 1
+
+Some key terms and definitions:
+Academically at-risk students: For this audit, we focused on students
+who are not on track to graduate on time or are at risk of dropping out.
+Aside from a designation of freshmen as being “on track” or “not on track”
+at the end of their first year, the Oregon Department of Education (ODE)
+does not collect data on how many students are academically behind or
+credit deficient in a given school. 2 Outcome measurements, including
+dropout rates, do indicate schools where these students are highly
+concentrated.
+Traditional High Schools: Traditional high schools, operated by districts,
+serve about 90% of public high school students in Oregon. Many
+academically at-risk students enter alternative schools and programs and
+online schools because traditional school settings were not effective for
+them.
+Alternative Schools: Alternative schools are stand-alone schools with
+their own “report cards,” public documents prepared by ODE that show
+school performance data such as graduation rates and test-score
+performance. Many of these schools are designed to serve academically atrisk students, often late in their high school tenure. They may offer small
+class sizes, strong connections with teachers, and more individualized
+instruction. We counted 33 stand-alone alternative schools in Oregon as of
+June 2016, enrolling about 6,000 students.
+Alternative Programs: Alternative programs also typically serve
+academically at-risk students, but they are not separate, stand-alone
+schools. Instead, they operate within high schools or as offerings by
+districts, education service districts, or the state. They include dropout reengagement programs, juvenile detention programs, and relatively large
+programs operated by districts, community colleges or private non-profits,
+such as the Rosemary Anderson High School campuses in Multnomah
+County. They do not have separate report cards; instead, their results are
+folded into high school or district results. We counted more than 100 such
+programs in Oregon, enrolling roughly 8,600 high school students.
+Online Schools: Online or “virtual” schools offer all or most of their
+courses online and attract a wide range of students. Online schools can
+appeal to advanced students who want to move quickly through high
+school, and to students in small rural schools who want a wider variety of
+classes. They offer flexibility for traveling students, such as elite athletes
+and musicians, and for students who work during the day or need to be at
+home. They draw a significant number of students from families who
+previously home-schooled. And, they attract students who have fallen
+behind academically. These students used to have traditional alternative
+2 Oregon students need to earn 24 or more high school credits to graduate. Freshmen who earn less
+
+than six credits by the end of their first year (or less than 25% of their district’s graduation
+requirements, whichever is higher) are considered credit deficient, as are sophomores with less than
+12 credits, juniors with less than 18, and seniors with less than 24.
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 2
+
+education schools and programs as their main option, but can now choose
+online schools as well.
+We counted 20 online schools in Oregon, enrolling more than 5,000 high
+school students. Of those, six are administered by districts, including five
+specifically designated as alternative schools. The other 14 are “charter”
+schools that sign a charter, or contract, with a school district sponsor. Some
+of these schools are entirely online, with minimal face-to-face interaction
+between students and teachers. Others are “hybrids,” offering “brick-andmortar” classrooms for face-to-face tutoring or class instruction.
+ODE does not track credit attainment, but other ODE data suggests that
+online schools, like alternative schools, have academically at-risk students
+enrolling late in their high school tenure. In 2015-16, 12th graders
+enrolling after the start of the school year totaled just 3% at comprehensive
+high schools, but 21% at online schools and 31% in alternative high schools
+and programs.
+Many at-risk students may
+enroll in alternative and online
+education when they may be
+relatively close to dropping out.
+
+ODE data also suggests that many academically at-risk students enroll in
+both alternative and online education when they may be relatively close to
+dropping out. On average, students who dropped out in the 2015-16 school
+year had been in alternative and online schools and programs just 400 days
+before they quit school. Dropouts from traditional high schools were at the
+schools nearly double the time, just under 800 days.
+Online schools enroll a variety of students, including students who have
+struggled in traditional schools, one head of school at a statewide online
+school told us. For those students, he said, “online schools have become the
+new alternative schools in Oregon.”
+
+Other student characteristics differ between online
+and alternative schools and programs
+High school students at both alternative and online schools tend to be more
+“mobile,” switching schools more often than traditional Oregon students.
+Overall, though, online schools have lower proportions of economically
+disadvantaged high school students than the state as a whole – 41% versus
+48%. They also have lower proportions of students with disabilities and
+students from historically underserved races and ethnicities.
+Alternative schools and programs are different. We estimate about 70% of
+high school students in the alternative schools we identified were
+economically disadvantaged in 2015-16.
+Alternative schools and programs also have higher proportions of students
+with disabilities compared to state averages, more mobile students, and
+more students in historically underserved racial and ethnic groups. (See
+Figure 2 on following page.)
+
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 3
+
+Mobile Students: Students
+who attend two or more
+schools during the school year;
+enter school after Oct. 1; exit by
+the first school day in May; or
+have a 10-day enrollment gap.
+Economically Disadvantaged:
+Students eligible for free or
+reduced priced meals.
+Students with Disabilities:
+Students on an Individualized
+Education Program receiving
+special education services.
+Historically Underserved
+Race/Ethnicity: Students who
+are Black/African American,
+Hispanic/Latino, American
+Indian/Alaska Native, or Native
+Hawaiian/Pacific Islander.
+
+These demographics can create equity issues – the potential for inadequate
+service to poor or historically disadvantaged students – if alternative
+schools and programs do not meet student needs.
+
+Figure 2: Grade 9-12 Student Population Characteristics, 2015-16 School Year
+
+Highly Mobile
+Economically Disadvantaged3
+Disabilities
+Historically Underserved
+Race/Ethnicity
+
+Statewide
+
+Online
+Schools
+
+Alternative
+Schools
+
+Alternative
+Programs
+
+19%
+48%
+14%
+26%
+
+50%
+41%
+10%
+15%
+
+60%
+70%
+21%
+35%
+
+73%
+51%
+38%
+34%
+
+Many students face substantial personal challenges
+Academically at-risk students can also face challenges that do not show up
+in the statistics.
+“I feel like a lot of the kids
+here are like me, and they
+were having the same
+problems at other
+(traditional) schools. If
+somebody did harass me, I
+would have people here who
+would help me.”
+
+At alternative schools, the smaller class sizes and potential for closer ties to
+adults may simply make the schools a better fit for students struggling to
+graduate on time. But students can face substantial personal challenges
+beyond being behind in school. Some have been bullied at previous schools
+based on their weight, sexual orientation, or gender identity, for example.
+Some have anxiety, depression, or other mental health problems. Some face
+violence or other personal or family trauma.
+
+-An alternative school
+student
+
+Teachers at alternative schools told us of students with acute childhood
+trauma, including frequent moves, divorce, and abuse. “Most students
+might have two or three major traumatic events in their childhood,” one
+teacher said. “Here it tends to be six or seven.”
+Like alternative schools, online schools also enroll students who are
+“extremely challenged” in some aspect of their life, a teacher at a district
+online school told a legislative committee earlier this year.
+That includes medically fragile students. It also includes “high anxiety
+students who can’t function in a packed classroom of 35 to 45 students,”
+the teacher said, “students being bullied, students being moved around in
+the foster care system, students whose families are uprooted for economic
+reasons, students who must work to support their families, students who
+
+3 The percentage of economically disadvantaged students at a school is based on students’ eligibility
+
+for free and reduced-price lunches. Since 2014, 100% of students at some schools, including some
+alternative schools, have automatically qualified for the lunch program under a new “community
+eligibility” standard. To obtain a more conservative estimate, where possible we adjusted the
+percentage of economically disadvantaged students at those alternative schools back to the last
+percentage the school reported before the community eligibility standard took effect.
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 4
+
+must stay home to care for younger siblings or perhaps an elderly family
+member, and students who are already parents themselves.”
+
+Alternative and online schools perform poorly on
+most traditional measures
+Oregon’s accountability system includes not only school report cards, but
+also separate public reports that give school-level results on graduation
+rates, dropout rates, attendance, class sizes and other metrics. The system
+is designed to increase education system accountability to the public and
+policy makers, providing data on how schools and districts are performing.
+Alternative and online schools tend to have relatively poor results on
+traditional outcome measures, such as graduation rates and dropout rates.4
+The outside challenges students face partially explain the low results. The
+schools are also challenged when students arrive credit deficient and late
+in their high school careers. However, credit deficiency and student
+challenges may not explain all of the low performance.
+ODE compares school performance to the performance of “like” schools –
+schools with similar demographics – to obtain fairer comparisons of school
+performance. We reviewed like-school comparisons on five performance
+measures, including graduation rates and test scores. Overall, alternative
+and online schools ranked below their like-school average about two-thirds
+of the time.
+Performance trends at the schools show mixed results. In the last three
+years, 5-year completion rates rose 2.5% at online schools overall, a
+positive development. But overall online school dropout rates did not
+improve. At alternative schools, performance fell in both categories –
+dropout rates rose slightly and completion rates fell by about 6 percentage
+points. Both rates stayed flat for the state as a whole.
+These measures can serve as rough indicators, but they have flaws. ODE
+notes that the like-school comparisons include only four demographic
+comparisons between schools, not a high level of precision. Improvement
+over time can be distorted by changes in the composition of the student
+body at a school in a given year.
+As we discuss in our audit findings, more specific performance data,
+including data on student progress, would better pinpoint which schools
+are helping at-risk students the most.
+
+4 See Appendix A for a list of the schools and their performance on some traditional measures.
+
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 5
+
+Online school enrollment is rising; enrollment in
+alternative schools and programs is falling
+High school enrollment in Oregon’s online schools, excluding alternative
+online schools, nearly doubled from 2012 to 2016, rising 93% to 4,600
+students. Oregon’s overall high school enrollment grew just 3% in that
+same period. Most of the online growth came from online or “virtual”
+charter schools, including seven that draw students from across the state.
+High school enrollment in alternative schools and programs has fallen
+about 4% and 10%, respectively, since 2012. Total alternative enrollment
+remains considerably larger than the online school enrollment, however.
+
+Enrollment
+
+Figure 3: High School-Age Enrollment Growth, School Years 2011-12 to 2015-16
+10,000
+8,000
+6,000
+4,000
+2,000
+0
+Online Schools
+
+Alternative Schools
+2011-12
+
+Alternative Programs
+
+2015-16
+
+Improving alternative and online education involves
+multiple layers of government
+Under Oregon’s system, school districts, school boards, charter boards,
+ODE, the State Board of Education, and education leaders in the Governor’s
+office all have responsibility for improving alternative and online
+education.
+ODE administers state and federal grant programs, ensures school districts
+comply with laws and rules, and holds districts and schools accountable by
+reporting student performance information. The State Board of Education
+sets educational policies and standards for Oregon’s public schools.
+ODE has 468 departmental positions, with a half-time specialist assigned to
+alternative education, and two staff assigned to charter school duties,
+which cover virtual and brick-and-mortar charter schools. Other ODE staff
+also contribute, including school improvement staff and data analysts.
+Oregon’s 197 school districts are responsible for governing their schools
+consistent with State Board of Education policies. Districts establish and
+evaluate alternative schools and programs, set school days and hours, and
+determine their curriculum.
+Legislators approve funding through the State School Fund, which includes
+a substantial share of state income taxes collected each biennium. Through
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 6
+
+ESSA changes that may
+affect alternative education:
+ School report cards include
+per-pupil expenditures.
+ State accountability system
+has at least one nonacademic measure of school
+quality.
+ Some key improvement
+efforts must target high
+schools graduating less than
+two-thirds of students.
+
+the bills they pass, legislators also send important signals of what they
+expect from schools, districts, and state-level education officials.
+The federal government also plays a large role. The new Every Student
+Succeeds Act (ESSA) provides federal funds that support students in
+poverty and other historically underserved groups. It also requires states
+to have an accountability system that meets certain requirements. ESSA
+gives states some flexibility in designing accountability systems and in
+identifying and supporting schools and districts that need improvement.
+Federal officials approved Oregon’s ESSA plan in August 2017.
+
+Portraits of some of the students we spoke with during our school visits.
+
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 7
+
+Audit Objective, Scope, and Methodology
+Objective
+Our objective was to determine how ODE and school districts can help
+increase the success of academically at-risk students in alternative and
+online education schools and programs.
+Scope
+We focused on improving outcomes for academically at-risk students
+enrolled in alternative education schools and programs as well as online
+schools.
+Online and alternative education schools and programs also serve students
+who are not academically at-risk. The audit did not focus on their
+effectiveness with these students. We also did not focus on at-risk students
+in traditional high schools because our office conducted a separate audit of
+graduation rates that focused on students in traditional high schools. That
+audit (Report Number 2017-29) was released on December 19, 2017.
+
+Methodology
+To address our objective, we conducted interviews with multiple
+stakeholders. Among them were the Oregon School Board Association,
+Confederation of Oregon School Administrators, Oregon Education
+Association, Youth Development Council, Coalition of Communities of
+Color, National Alliance of Charter School Authorizers, Chalkboard Project,
+AdvancED, and education researchers. We also conducted interviews with
+Oregon’s Chief Education Officer, Chief Innovation Officer, and ODE
+management and staff in the following departments: alternative education;
+charter school oversight; school improvement; accountability and
+reporting; finance; and research.
+We visited eight alternative schools, one private alternative education
+school contracted as an alternative program, and two online programs that
+maintain a physical location. We also conducted interviews with personnel
+at five other online schools. As part of our school visits, we conducted
+interviews with school and district administrators, teachers, and students;
+toured school buildings; and reviewed referral policies, accreditation
+annual reviews, school improvement plans, charter contracts for virtual
+charters, annual reports, renewal documents, and financial information.
+We judgmentally selected locations to visit to obtain a diverse sample in
+terms of geography, student population, and relative school or program
+performance.
+We sent an online survey to every district in Oregon to try to establish an
+accurate list of alternative schools and programs and online schools. Of the
+197 districts that received a survey, 131 districts responded (66%
+response rate). We sent 40 of the districts a list of additional questions
+about program evaluation, improvement planning, resources, and support
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 8
+
+from ODE. We selected the 40 districts based on at least one of the
+following criteria: students enrolled in alternative education in the district
+exceeded 5% of the total district student population; the district
+enrollment exceeded 5,000 students but the district did not submit
+information in the ODE alternative education data collection; or the district
+housed a school or program the audit team considered for a possible site
+visit. We received responses from 34 of the 40 districts. The results of the
+40-district survey cannot be generalized to all Oregon districts.
+We identified promising practices for alternative and online education by
+reviewing available research, interviewing education officials in other
+states, and attending an alternative education summit in Oregon. The
+research included best-practice documents from national groups focused
+on alternative and online schools, for example, and studies of online school
+performance.
+We analyzed data provided by ODE and collected by the audit team. This
+included data on school and program performance, enrollment and
+transfer trends, information on dropouts, and student demographics. We
+assessed the reliability of school performance data by (1) evaluating
+previous assessments of reliability by other Oregon Audits Division
+auditors; (2) reviewing existing information about the data and the system
+that produced them; and (3) interviewing agency officials knowledgeable
+about the data. We determined that the data were sufficiently reliable for
+the purposes of this report.
+However, our analysis was limited by incomplete and inaccurate lists of
+schools and programs ODE provided. We concluded that ODE’s lists of
+alternative schools and programs and of online schools were not
+sufficiently reliable for our purposes. We took other steps to attempt to
+create accurate lists, including asking districts about their alternative and
+online offerings in our surveys. However, we may not have captured all of
+Oregon’s alternative and online schools and programs. We rounded
+numbers in the report to reflect this uncertainty.
+We conducted this performance audit in accordance with generally
+accepted government auditing standards. Those standards require that we
+plan and perform the audit to obtain sufficient, appropriate evidence to
+provide a reasonable basis for our findings and conclusions based on our
+audit objective. We believe that the evidence obtained and reported
+provides a reasonable basis to achieve our audit objective.
+
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 9
+
+Audit Results: Stronger Accountability, Oversight, and Support Would
+Improve Results for Academically At-Risk Students in Alternative and Online
+Education
+ODE has not focused on improving education for at-risk students in
+alternative and online education. Improving the performance of these
+schools and programs would benefit the students themselves and Oregon’s
+economy.
+These schools and programs may represent a student’s last and best chance
+to graduate or obtain a General Equivalency Degree (GED) before dropping
+out. That is important, research indicates, because graduates are more
+likely to have jobs, less likely to be incarcerated, and less likely to rely on
+public assistance than students who drop out. Graduates contribute more
+in taxable income. They are also less likely to have problems with drugs,
+and more likely to live long, healthy lives.
+Alternative and online programs are trying different approaches to better
+serve academically at-risk students. With improved monitoring and
+oversight, ODE and districts can identify which approaches are and aren’t
+working, assist struggling programs, and share successful practices.
+Oregon has a low graduation rate overall – 48th among the states in the
+last national ranking5 – in part because of high dropout rates among
+alternative and online students. Our office recently released an audit of
+graduation rates that focused on students in traditional high schools. The
+recommendations in both audits should help more students earn diplomas.
+
+ODE does not accurately track alternative education schools and programs
+and is not collecting, analyzing, and reporting meaningful performance
+information
+ODE records do not include some alternative schools and programs. The
+agency has also not collected student performance data that would help
+identify successful and underperforming alternative education schools and
+programs.
+
+5 Public high school 4-year adjusted cohort graduation rate (ACGR), by selected student
+
+characteristics and state: 2010-11 through 2014-15, United States Department of Education.
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 10
+
+ODE has not developed accurate lists of alternative
+schools and programs
+ODE does not maintain accurate lists of alternative schools and programs.
+It publicly reports this incomplete data in the statewide report card, an
+annual report on the overall status of Oregon’s schools.
+Each year, ODE collects information from districts about their alternative
+schools and programs, including enrollment totals and the types of
+alternative programs offered. This alternative education data collection
+allows the agency to give the public a snapshot of alternative education
+services and enrollment trends.
+Some districts submit detailed data to ODE. Many do not. Of Oregon’s 197
+districts, about three-quarters did not report any alternative education
+data to ODE in 2015-16.
+However, based on our survey, 60 districts that failed to report to ODE
+indicated they do indeed have alternative schools or programs.
+Districts should be responding to ODE’s request for data. Under state law,
+ODE has the authority to ask districts for whatever data it deems necessary
+for advancement of education.
+
+ODE’s Institutions Database has more information, but is still incomplete
+ODE maintains a separate “Institutions Database” that captures more
+stand-alone alternative education schools than ODE’s annual alternative
+education data collection. But the database does not identify at least four
+alternative schools that we confirmed, and it does not include current
+information about public alternative programs.
+Several factors contribute to lack of tracking. For the alternative education
+data collection, ODE does not follow up with districts who do not provide
+requested data. Also, district officials respond to more than 100 data
+requests from the state each year, and may not be fully aware of the
+request. One district official we spoke with said they had never heard of it.
+Oregon’s imprecise statutory definition of alternative education also gives
+little guidance on which schools actually are alternative – it could apply to
+any school or program in the state. An alternative school or program, the
+statute says, “means a school or separate class group designed to best serve
+students’ educational needs and interests and assist students in achieving
+the academic standards of the school district and the state.” Some other
+states such as Arizona, Colorado, and North Carolina have more precise
+definitions, and use them to identify alternative schools for performance
+reporting.
+Oregon also does not distinguish in its performance reporting whether
+some charter schools are essentially acting as alternative schools, focusing
+on academically at-risk students.
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 11
+
+ODE’s accountability reporting provides inadequate
+detail on alternative school and program performance
+Oregon has four substantial gaps in its accountability reporting system for
+alternative education:
+Inadequate Disclosure of Alternative Schools: ODE does not clearly
+identify schools as alternative on its website or in publicly disclosed
+performance reporting, including school report cards, reducing the ability
+for the public to analyze alternative school performance.
+No Overall Performance Analysis: ODE has not analyzed or reported on
+the overall performance of alternative education schools and programs in
+its state report card or in other reports, as it has for charter schools and
+online schools. For example, the 2015-16 state report card showed charter
+school students performing better than state averages on reading tests, but
+lower in math. These are useful points for school improvement efforts.
+Analyzing the overall performance of alternative education could help
+focus improvement efforts, too. It is difficult to do so, however, when the
+state does not have an accurate list of alternative schools and programs.
+Limited Information on Alternative Schools: The state uses the same
+report cards and performance data for stand-alone alternative schools as it
+does for traditional schools, including information such as graduation,
+completion, and dropout rates.
+ODE has set the five-year completion rate as a key result. That rate, which
+includes students graduating or completing a GED in five years, is a more
+meaningful metric for alternative schools that enroll students who are
+credit-deficient and unlikely to graduate in four years.
+Completion rates and other outcome data are valuable – they represent an
+important bottom line for schools. But in alternative schools, these rates
+“primarily reflect the at-risk status of most students when they arrive,” as
+one California research group’s analysis concluded.6
+Oregon could include more details, as other states have done, that indicate
+whether students who are behind when they arrive make progress at the
+schools. The added detail would allow effective comparisons between
+schools. Potential progress measures include attendance improvement,
+reduction in disciplinary incidents, credit attainment and course
+completion, and student growth on pre- and post-tests.
+Currently, ODE’s information on student absences is not adequate for
+alternative schools. Public attendance data focuses on “chronic
+absenteeism.” In alternative schools, many if not most students hit ODE’s
+chronic absentee threshold of 10% of school days absent in a school year,
+
+6 “Accountability for California’s Alternative Schools,” Public Policy Institute of California, May 2016.
+
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 12
+
+and ODE does not report data that highlights meaningful attendance
+improvement.
+Per-student school spending data is not available, though it will be included
+in future accountability reporting under the federal government’s new
+Every Student Succeeds Act (ESSA). This should help show whether
+districts are committing enough resources to alternative schools.
+The reporting system also does not detail support services provided to
+alternative students, such as mental health care, childcare, and counseling.
+Our school visits and best practice research indicate these services are one
+of the keys to student success.
+No Detail on Alternative Programs: While some alternative schools
+receive their own school report card, ODE does not report separate public
+results for alternative programs, which enroll about two-thirds of Oregon’s
+alternative education students. Instead, student performance in those
+programs is folded into district or high school results and not reported
+separately.
+The state has no data at all on alternative programs that are part of
+traditional high schools. It has limited data, such as data on dropouts, for
+alternative programs that are not part of traditional high schools. ODE does
+not report this data separately from district totals.
+The Portland Public, Hillsboro,
+Bend-La Pine, and Parkrose
+districts have many dropouts
+from programs ODE does not
+report separately from district
+totals.
+
+In some districts, the largest numbers of dropouts came from alternative
+programs that the state does not report separately from district numbers.
+About 75% of Portland Public Schools' dropouts came from unreported
+alternative programs in 2015-16. In the Hillsboro, Bend-La Pine, and
+Parkrose districts, about 60% did. And roughly 40% did in districts
+covering Springfield and Douglas County.
+In these cases, as with all alternative programs, the numbers are just part
+of a lump sum dropout rate in district accountability reporting – the total
+from all alternative programs is not even disclosed as a separate line item.
+ODE’s data provides no public detail on the performance of the individual
+alternative programs within the district, even when they are educating a
+large number of a district’s academically at-risk students.
+“The fact is that we don’t even know as a state how these kids are doing,”
+one ODE manager told us.
+
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 13
+
+ODE faces some challenges in quickly creating more effective accountability
+measures. The agency does not have meaningful data on attendance in
+alternative schools and programs, credit accumulation, and other progress
+measurements. Obtaining that information would require additional data
+collection, with at least a year notice to give districts time to prepare it.
+The Stigma Problem
+During our school visits, teachers and students told us repeatedly
+that alternative education carries a harmful and undeserved stigma.
+Students reported hearing from family and friends that only “bad
+kids” end up in an alternative school. They feel that perception in
+the community, too.
+“To my knowledge, they look at us as a bunch of
+hoodlums, druggies, and thieves. It’s very
+unfortunate, because that’s not what we are.”
+
+that as unfair, because alternative schools are designed to serve
+students who have not succeeded in traditional settings.
+- It is frustrating to be held accountable for the
+failures of traditional programs.
+-Alternative School Teacher
+
+-Alternative Program Student
+
+Teachers in many of the schools we visited feel they are doing great
+work helping students turn around academically. That progress is
+not visible, one said, because of how the state reports their school’s
+performance. This reflects not only on the students and the school,
+but also on the teachers.
+
+Attitudes like this can prevent students from entering programs that
+may do them good. Many students found that their programs
+offered what they needed to get back on track, including strong
+relationships and schedule flexibility.
+
+The annual report card “is very disheartening to
+alternative education teachers. We are doing
+amazing things, yet we’re being told that we’re
+failing at every level.”
+
+“My friends were saying, ‘That’s all bad kids,
+good luck making friends.’ Honestly, I didn’t have
+the quality of friends at my old school that I do
+here. It’s not like we push someone away because
+they’re different. We know that everyone is going
+to be different.”
+-Alternative School Student
+
+Teachers face a different kind of stigma among their peers.
+Currently, Oregon uses the same school report card to judge
+comprehensive and stand-alone alternative schools. Teachers see
+
+-Alternative School Teacher
+
+Another drawback of using the same metrics to evaluate both
+comprehensive schools and alternative schools is that alternative
+schools can become the focus of improvement efforts, even when
+that might not be needed.
+“State report cards mean alt. ed. schools are
+under constant pressure to re-invent themselves,
+even if they are doing relatively well, because
+they always look bad.”
+- District Administrator
+
+Other states and some Oregon districts have improved accountability
+measures for alternative education
+Other states, including Colorado, Arkansas, Indiana, and Arizona, have
+implemented more detailed performance reporting for alternative schools.
+These states take different approaches. Some have included more progress
+measurements for all schools, including measuring academic growth and
+indicators of student engagement, such as attendance. Others reduce
+performance targets for traditional measures at alternative schools, such as
+graduation rates, to make attaining the targets more realistic and allow
+fairer comparisons.
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 14
+
+In some states that offer improved measures for alternative schools, the
+schools have to apply to use the alternative accountability system. Unlike
+Oregon, these states have precise definitions of alternative schools.
+Among the more detailed approaches in other states:
+Colorado allows schools to set some of their own publicly reported metrics
+that address the school’s unique goals. Arkansas tracks grades. Indiana
+tracks 10th graders who are not proficient in math or English to see if they
+hit proficiency by grade 12.
+Washington’s Legislature created statutes that require tracking of students
+enrolled in dropout re-engagement programs. The programs track whether
+students have met one of several indicators, including whether students
+successfully enrolled in a college class for the first time, took a GED test, or
+earned high school credits.
+In Oregon, Portland Public Schools is one district experimenting with a
+more tailored accountability framework for its alternative programs. The
+district’s metrics include skill growth in reading and math. It is also
+measuring credit attainment, students attending school at least 85% of the
+time, and growth in attendance compared to the prior school year.
+Researchers see other possibilities for improved measurement of
+alternative education. One possibility is having states assess whether
+students are still attending school three and six months after enrolling in
+an alternative school or program.7
+States could also calculate the graduation rates of all students who are far
+behind on credits at the beginning of their junior year to help determine
+which types of schools, alternative or otherwise, help students make the
+most progress.
+
+Improving performance analysis and reporting would increase Oregon’s
+focus on students in alternative schools and programs
+Knowing more about how alternative students are doing has some obvious
+benefits. Enhanced performance data would help ODE better highlight
+high- and low-performing schools and programs, and identify and
+communicate successful practices. It would also provide better data for
+school improvement and state policy development.
+
+In 2015-16, at least half
+the dropouts in 10 Oregon
+districts came from
+alternative schools, not
+traditional high schools.
+
+One concern we heard from alternative education administrators and
+teachers throughout our audit is that the current system does not hold
+traditional high schools accountable when their students transfer to
+alternative schools and drop out soon after. In 2015-16, 10 Oregon districts
+had 50% or more of their dropouts come from alternative schools, ODE
+data shows. In two relatively small districts – Gervais and Coquille – all the
+dropouts were from alternative schools.
+
+7 “Improving Alternative Education in California,” California Legislative Analyst’s Office, 2007.
+
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 15
+
+To address this concern, ODE could include information in district report
+cards or other public reporting on dropouts and non-graduates who came
+from alternative schools and programs. The agency could report the
+number of dropouts and non-graduates who transferred from each
+traditional high school in the district to alternative schools and programs.
+This could help ensure that traditional schools do not transfer students to
+avoid accountability.
+The alternative school teachers we heard from made an additional point.
+They see their schools working for many students who were well on the
+road to dropping out. But the state does not report that “save rate.” It is
+discouraging, the teachers said, to be lumped in with traditional schools in
+Oregon’s system and stick out as extremely poor performers. More detailed
+information could highlight successes and help ensure that accountability
+is more equitable.
+More broadly, better data could help move alternative school improvement
+higher on Oregon’s agenda, both at ODE and among policy makers. As
+researchers in California have pointed out, a lack of meaningful information
+can put alternative schools and their students “in the shadows of K-12
+policy discussions.”
+Oregon’s Chief Education Office is developing a “Statewide Longitudinal
+Data System” that could help identify schools and programs, including
+alternative schools and programs that are best preparing students for life
+after high school.
+This data should help identify successful practices, but it is not a substitute
+for more information on student progress while students are enrolled in
+the schools and programs.
+
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 16
+
+A Teacher’s Perspective on Alternative Education
+While teaching English at Alliance High School in Portland, Jerry
+Eaton spent a lot of his free time in the school’s shop. He took over
+full time when the former manufacturing teacher retired a few years
+ago. Eaton has technical skills and an ability to connect with at-risk
+students, an unusual combination, Alliance’s principal told us. Now
+in his 17th year of teaching, Eaton shared some of what he learned
+working in alternative education.
+
+passion out there, and letting them know that it doesn’t happen
+without hard work. You can’t get to that point without a lot of rigor.
+Q: What do you like the most about being an alternative
+education teacher?
+- In a comprehensive high school, a lot of the students are
+autodidactic – they don’t really need the teacher. All my students
+really need the teacher. So the biggest perk is having a job that
+really matters. As frustrating as it is sometimes, I never feel like
+I’m doing something meaningless. That’s a priceless thing.
+Q: What do you think the public doesn’t realize about your
+students?
+- How brilliant they are. Almost universal to a one they are outsidethe-box thinkers. They see things from a different angle. Robotics is
+a great example. They’ll come up with ideas where I just say,
+“Wow.” I think a lot of folks think that the social safety net, the
+“entitlements,” are going to lazy people. But they buy time to create
+kids who can become great citizens.
+Q: What’s the biggest challenge of your job?
+
+Jerry Eaton helping a student build a toolbox.
+Q: How did you end up teaching in an alternative school?
+- Through high school I thought I hated teachers. But I really do
+love learning. I just don’t like schooling (as it's too commonly
+done). My younger brother struggled with school, and an
+alternative education program at Parkrose (High School) pulled him
+through. But there wasn’t enough rigor there. He could have
+accomplished more. The older sibling in me is willing to push and
+challenge. I can take an emotional hit from a kid, not get triggered,
+and then still push back.
+
+- Just the difficulties these kids face, and not taking that home with
+you – that’s a tough one. You compartmentalize as much as you
+can, but sometimes that line is not perfectly clear. This could be
+24-hour, 7-days-a-week job, trying to save all the kids, and you
+can’t. That’s not necessarily even good for them. They have to
+figure out some of this for themselves.
+
+Q: Why is building relationships important?
+- Building that relationship helps you create a foundation in the
+classroom that is not based on authority, it’s based on trust and
+mutual respect. You can’t push somebody to go farther who doesn’t
+trust you. A big part of that is being authentic. One of the things I
+can do with a kid is be really straight up. I can see something
+they’re doing and say, that is a bad decision. Honesty matters.
+Integrity matters. And a respect for them as people. A respect for
+their ability to actually get there. These kids want a life with
+meaning, not just getting by. If someone is whispering in your ear
+every day “You’re not worth it.” you start to believe it.
+Q: How do you ensure enough rigor?
+- In manufacturing, we just build from scratch, and find out how
+utterly amazing it is to go from a concept to a thing, to feel the
+satisfaction of a job well done. As a teacher, it’s about getting your
+
+Report Number 2017-30
+Alternative and Online Education
+
+Machinery in Eaton’s crowded shop included a
+Computer Numerical Control machine, sheet
+metal cutters, and other tools. Projects range
+from skateboard manufacturing to robot
+building, helping students acquire skills in
+electronics, machining, metalwork, and
+welding. The school fields a small robotics
+team.
+
+December 2017
+Page 17
+
+State monitoring and support of alternative school and program quality is
+minimal; district oversight is inconsistent
+Results in other states indicate more state involvement in alternative
+education could help improve Oregon’s system.
+Some states have held districts, schools, and programs to higher standards
+and provided more support to help students succeed. Their practices
+include requiring, reviewing, and publicly disclosing school improvement
+plans, setting alternative education standards and goals, providing extra
+funding, visiting schools, and monitoring program quality.
+Our school visits and discussions with district officials also indicated that
+districts can be more consistent in oversight and support. This includes
+more closely monitoring their alternative schools and programs, analyzing
+their performance, and helping them improve.
+
+ODE can do more to drive improvement in alternative
+education
+A 2016 “Grad Nation” report from Johns Hopkins University focused in part
+on alternative education. It said it is “critical that states take a much closer
+look” at alternative programs to determine whether they “truly offer
+students a valuable pathway towards graduation.”
+ODE has taken some initial steps toward improving alternative education.
+It coordinated an annual alternative education summit this past February.
+The agency also offers a form on its website that districts can use when
+evaluating alternative schools and programs, though ODE has not updated
+it since 2006.
+Overall, however, ODE is not a strong driver of alternative education
+improvement. Unlike some other states, ODE does not publicize annual
+school improvement plans and only reviews the plans of a limited set of
+alternative schools for quality. It does not set standards for key conditions
+in alternative schools, such as student-teacher ratios, counseling assistance,
+or referrals to alternative schools and programs. Outside of its new annual
+alternative education summit, it has no platform to identify or share
+successful practices statewide. It does not facilitate training for alternative
+school teachers. It does not systematically review district annual reports on
+alternative schools and programs.
+ODE is also not regularly reviewing alternative curriculum for academic
+rigor. In our visits, schools using a project-based curriculum that awards
+multiple credits for one project appeared to have wide leeway in deciding
+to award the credits, and it was not clear they met state academic
+standards. One school also had substantial problems with accurately
+accounting for student attendance, a potential challenge when alternative
+programs do not follow the traditional classroom model.
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 18
+
+As we detail later, online curriculum, including widely used “credit
+recovery” programs used in alternative, traditional, and online schools, can
+also raise rigor concerns.
+Some other states, all with higher graduation rates than Oregon, are doing
+more to monitor alternative education. Their results indicate the system
+can improve when state monitoring and support expands.
+
+Colorado officials review
+improvement plans for lowperforming schools.
+
+Arkansas sets standards for
+additional counseling and
+lower teacher-student ratios.
+
+Indiana provides additional
+state funding tied to school
+goals for students.
+
+Colorado requires annual school improvement plans, which the state posts
+publicly. State officials review the plans for relatively low-performing
+alternative schools. The state has seen significant performance
+improvements since establishing its accountability system in 2011, though
+state officials say they have not done the in-depth research required to tie
+the gains to the accountability changes.
+Arkansas sets standards, provides extra funding, and monitors alternative
+school and program performance. The state sets standards for additional
+counseling, lower teacher-student ratios, and integration of social skills
+into the curriculum. State officials also review school performance, and
+require written improvement plans with firm timelines when schools fall
+short. Arkansas data indicates outcomes improved for alternative
+education students from 2012 through 2016.
+Indiana uses state-approved grants to provide additional state funding –
+up to 12% more – for alternative education. Schools and programs must
+renew grants annually, and each program has academic and behavioral
+goals for their students. State officials monitor program quality, and visit
+schools and programs before their initial grant.
+In Oregon, some alternative schools do receive monitoring and support
+using federal funds. These schools can benefit from coaching and school
+improvement processes that require collecting more meaningful internal
+data and measuring the results of new initiatives. But this is required for a
+limited set of schools: eight alternative schools as of mid-2017. The
+improvement reports are also not publicly available.
+Schools can also receive accreditation from AdvancED, an independent
+group, every five years. However, more than a third of alternative schools
+in Oregon, 13 of 33, do not appear to be accredited. Also, the accreditation
+reports are not available publicly, and AdvancED does not send reports to
+ODE or communicate non-compliant results to the agency.
+
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 19
+
+ODE’s unclear role and low staffing levels reduce its
+ability to monitor and support alternative education
+Oregon’s statutes are not clear on the amount of oversight expected of ODE
+for alternative education, and ODE officials told us they are wary of
+treading on local control without a clear mandate from the Legislature. In
+some of the other states we reviewed, legislatures passed specific laws that
+created alternative school oversight and performance reporting. Oregon’s
+Legislature has not done so.
+ODE’s minimal staffing of alternative education – one person working half
+time – is not adequate for expanded monitoring. Oregon has 197 school
+districts, with at least 33 alternative schools and more than 100 alternative
+programs. Colorado has three staff dedicated to alternative education
+accountability alone.
+At the school level, some principals told us they are wary of school
+improvement plans that become bureaucratic paper exercises, not practical
+documents that truly help drive school improvement and student growth.
+ODE, districts, and alternative education leaders would need to work
+together to build an improvement process that is effective and credible.
+The potential advantage for alternative schools and programs, as seen in
+other states, is that their public accountability and improvement would be
+based more firmly on student progress at their schools, not on the status of
+students when they arrive.
+ODE could also draw more on other groups that want to help support
+alternative education improvement. Those groups include AdvancED, the
+accrediting body, and the Youth Development Council, an organization
+funded within ODE’s budget that reports to the Governor and focuses, in
+large part, on students disconnected from school.
+
+District oversight and support of alternative schools
+and programs is inconsistent
+Oregon’s school districts have many sources to draw on for best practices
+in alternative education. But our review indicated some districts are not
+monitoring alternative schools and programs closely.
+
+Districts have ample guidance on best practices
+Oregon laws do provide some expectations for school districts regarding
+alternative education accountability. Statutes require that districts receive
+school board approval for new alternative schools and programs. Districts
+are also required to evaluate them annually, providing a written evaluation
+to the school or program.
+
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 20
+
+Promising Practices
+Around the state, alternative programs are
+trying creative ways to build relationships and
+offer students what they need to get on track
+academically. These are the kind of practices
+the state could help evaluate for effectiveness
+and disseminate. Some examples from our
+school visits:
+Relationship building:
+ Discovery programs: Some districts offer
+six-week introductory classes, including
+initial student assessment and relationshipbuilding.
+ “Invisible” Mentors: Staff work together to
+ensure that each student has at least one
+teacher who will check in with them daily
+and give them positive feedback.
+ Field trips: Once every session, the school
+invites students to a fun outing regardless
+of past attendance or performance. This is a
+chance to reconnect with kids who may
+have fallen behind and feel disconnected as
+a result.
+Tracking Student Progress and Attendance:
+ “Blue card” attendance: In one school,
+students carry a blue card and get a
+signature every class if they are on time and
+do their work. Every card is one point, and
+each semester they have to earn 90% of
+these points to get a grade.
+ Weekly reviews: Many programs are
+quickly flagging drops in student
+attendance and progress to address
+concerns right away.
+On-Site Resources and Flexible Structures:
+ Shorter terms: Some programs have several
+terms a year as short as five or six weeks.
+This allows a student who fails a class in
+one term to have a chance to get back on
+track right away.
+ Project-Based Learning: Students earn
+credits in several subjects simultaneously
+by working on projects that interest them.
+Teachers and students work together to
+design projects that incorporate state
+learning standards.
+ GED onsite: One school received
+certification to offer the GED exam onsite.
+This removed transportation and scheduling
+problems that discouraged students from
+taking the exam.
+
+Report Number 2017-30
+Alternative and Online Education
+
+For guidance on what to evaluate, districts can draw on state and
+national advice – as well as feedback from alternative school teachers
+and students.
+ODE has identified some best practices, including keeping schools
+small, cultivating caring student-teacher relationships, and building
+school connections to the community.
+The National Alternative Education Association and the National
+Dropout Prevention Center include similar recommendations. They
+also recommend thorough student screening, close monitoring of
+students’ academic progress, and student access to support services,
+including counselors and social services. The National Alternative
+Education Association also recommends regular surveys of parents,
+students, and staff.
+Those recommendations are consistent with what we heard in our
+school visits. School teachers and administrators frequently stressed
+the importance of small class sizes, for example, and of student access
+to counselors, social workers, and mental health care.
+Students told us that close relationships with teachers – enabled by
+small class sizes – were a key to the success of alternative programs,
+distinguishing them from comprehensive high schools. For example, a
+student at Success Alternative High School in Woodburn, with as few
+as 10 students per class, told us teachers at the traditional high school
+did not have as much time for individual students, and it was
+embarrassing to ask questions.
+“Here I can always go up to my teacher without feeling embarrassed,”
+she said. “They notice your effort. Even the little things you do, they’ll
+tell you. They can focus on you and make time for you.”
+
+District oversight and support varies widely
+Ensuring that schools are following best practices requires close
+attention from districts. But a survey we sent to 40 districts found
+that some do not appear to be tracking their alternative schools and
+programs closely:
+ Ten of 34 survey respondents said their district did not annually
+evaluate all types of alternative programs, or they were not sure if it
+did.
+ More than a quarter of respondents were not sure if their
+alternative programs were accredited.
+ Despite the importance of student-teacher relationships, only half
+of 34 respondents reported surveying students as part of program
+evaluations. Surveys can help alternative schools and programs
+determine if they need to improve student-teacher relationships.
+
+December 2017
+Page 21
+
+In our school visits, subsequent interviews, and document reviews, we
+found district annual reviews varied substantially in quality and depth.
+Some districts did not provide written evaluations as required by statute.
+Others only provided feedback on school-prepared documents. One
+counted the annual report card prepared by ODE as the annual evaluation
+for its stand-alone alternative school.
+Oregon statutes do not define what should be in an annual evaluation of
+alternative education programs. ODE does not collect or review
+evaluations, and has not set quality guidelines for district evaluations of
+their schools and programs.
+During our visits, we also saw wide variances in how closely alternative
+schools followed recommended practices. All had small class sizes. But the
+depth of their initial assessment and tracking of student progress varied
+widely, as did their use of performance data for student improvement. Most
+did not regularly survey students to gauge their connection with adults at
+the schools.
+We also saw big differences in the support services provided to students,
+such as counseling, day care, mental health care, and family support.
+Beaverton’s Community School, for example, had a county-funded mental
+health therapist stationed in the same building, three counselors, and a
+social worker whose duties include home visits and teaching skill-building
+classes for students and their families. The building also housed a day-care
+center for the children of students and staff.
+Among alternative schools, Community School was one of the strongest
+performers on traditional outcome measures, despite 80% of its students
+being eligible for free-and-reduced-price lunches.
+By contrast, two of the other ten schools and programs we visited had no
+counselors. Two had just a half-time counselor. Two had an on-site social
+worker, and only one had a mental health therapist available.
+Districts face budget challenges, and may benefit from outside help to
+improve and support their alternative education programs. In these cases,
+assistance from the state, county health departments, and regional groups,
+such as education service districts or coordinated care organizations, could
+be even more important.
+
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 22
+
+Finding the right alternative
+
+he could be successful with college-level
+coursework.
+Jasper, who is transgender, also found
+the support he needed to transition at
+Wahtonka.
+“I don’t know if it’s the people who
+are here, or just the energy around
+the school, but I have never seen a
+case of someone picking on someone
+else because of who they are. It’s a lot
+easier to be yourself when you’re not
+being ridiculed for being yourself.”
+
+Jasper Moriarty recently graduated from
+Wahtonka Community School in The
+Dalles.
+Middle school was a bad experience for
+Jasper Moriarty. He was bullied and was
+acting out at school. In ninth grade, he
+started briefly at the local
+comprehensive high school, but dropped
+out quickly.
+“I’m just not one of those people who
+would have been successful at a high
+school,” Jasper told us. “Now that I’m
+at an alternative school, I feel like
+things are really going at my pace.”
+The opportunities at the local alternative
+school, Wahtonka Community School,
+included access to classes through a
+community college. Attending a few of
+these classes gave him confidence that
+
+Report Number 2017-30
+Alternative and Online Education
+
+Jasper credits some of his success to the
+close relationships he was able to
+develop in a small community with
+teachers and peers. He said the school
+also offered a good balance between
+freedom to design hands-on courses with
+teacher input, and guidelines that kept
+students accountable.
+“The teachers here really want to be
+here. At the other high school it was
+very easy to feel like you were
+blending in with the crowd. You were
+a face and a number. A GPA really.”
+Research into guidelines for successful
+alternative schools reinforces that small
+class sizes, positive teacher-student
+relationships, and meaningful hands-on
+coursework can all contribute to student
+success.
+It worked for Jasper, who turned 18
+shortly before graduation. He enrolled at
+a community college, and is majoring in
+Biology. After that, Jasper has his sights
+set on medical school and a career as a
+Forensic Pathologist.
+
+December 2017
+Page 23
+
+Online schools: Stronger oversight, support, and attendance requirements
+could better serve academically at-risk students
+Online schools offer potential advantages in serving academically at-risk
+high school students, including readily accessible student data and virtual
+connections with individual students through email, texts, and other
+mediums. They also have challenges, such as higher student-teacher ratios
+than alternative schools and far less face-to-face contact with students –
+potential obstacles for at-risk students already disengaged from school.
+Approaches in other states and recommendations from national education
+groups indicate more state involvement, along with consistent district
+oversight, could help online schools improve results with academically atrisk students.
+
+Online schools offer potential benefits – and face
+unique challenges – in serving academically at-risk
+students
+Online schools have some advantages for educating students who struggle
+in traditional schools, including ready access to student performance data.
+Challenges include relatively high student-teacher ratios and rapid growth.
+
+Online schools enroll many students who are already behind, and have
+taken some steps to help them
+Oregon’s online schools come in many different forms, but all offer online
+instruction as their primary means of instruction. They range from
+statewide virtual charter schools, which draw students from throughout
+the state, to district-run schools and charters that serve students in a single
+district or region.
+They also take different approaches to educating their students. Some are
+“hybrids,” with physical drop-in centers for students to visit and talk with
+teachers. Others have little opportunity for face-to-face interaction.
+Teachers conduct live online classes at some schools, while others have no
+live instruction at all.
+One constant is the schools’ assertion that they enroll many struggling
+students who have fallen behind in credits at traditional high schools,
+including students late in their high school tenure. For those students, as
+with students in alternative schools, online education may be a “last
+chance” solution.
+Of the seven online schools we visited or spoke with, six raised enrollment
+of credit deficient students as a major issue. For example, the executive
+director of the Oregon Connections Academy, the state’s largest online
+school, told us 150 of the 207 non-graduates in its 2015-16 class arrived
+credit deficient. In that class, nearly 20% of the students arrived missing a
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 24
+
+full semester’s worth of credits or more, she said. Only 30% of the students
+who arrived credit deficient graduated on time, the school’s numbers
+indicated, while 83% of students who were not behind on credits
+graduated in four years.
+Officials at the Metro East Web Academy in Gresham said roughly half of
+their students are credit deficient when they arrive, and about 20% are
+more than a year behind in credits.
+As stated previously, ODE does not collect credit attainment data from
+schools, and we did not independently analyze student-level data at
+individual schools. However, our analysis of ODE data on students’ prior
+schools did confirm that students transferring to large statewide online
+schools are typically coming from traditional high schools, not alternative
+programs.
+As noted in the introduction to this report, ODE data indicates that online
+schools, like alternative schools, have students enrolling late in their high
+school tenure when they may be relatively close to dropping out.
+Online schools reported taking steps to help struggling students. They
+generally have student data – including log-in times and assignment
+progress – that can quickly identify students falling behind. At one school,
+teachers receive automatic alerts when that happens.
+Teachers told us the lack of face-to-face interaction can limit building
+relationships with students. But they said they also have more
+opportunities than traditional teachers to connect with struggling students
+through emails, texts, and small group and individual online sessions,
+mediums many of their students favor.
+“There is nothing inauthentic about a virtual connection to them,” a teacher
+and academic coach at a statewide online school told us. “In many ways I
+feel I have it easier, because I don’t have them sitting in a classroom boxed
+in a desk, where they think all they need to do is listen to me. I have them in
+their world, texting and emailing.”
+The schools typically require a parent or other adult close to the student to
+be a “learning coach.”8 This gives the school a direct line of communication
+to students’ families.
+Online schools also reported taking more targeted steps to provide support
+for struggling students. Those steps include home visits, adding academic
+coaches, or family specialists who focus on students falling behind, setting
+up small group tutoring sessions online, and improving assessment of
+incoming students when they arrive.
+
+8 A learning coach is responsible for the student’s day-to-day activities. They help monitor attendance,
+
+ensure that the student attends state examinations as required, and stays in touch with the student’s
+teachers.
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 25
+
+Online schools have unique challenges in serving struggling students
+Online programs in Oregon and nationwide generally have student-teacher
+ratios more comparable to traditional high schools than to alternative
+schools. That model is different from the alternative education approach,
+which shifts struggling students into schools with very small class sizes.
+The small classes are designed to help students connect with adults and
+receive more individual attention, best practices for alternative education
+schools.
+The large student loads at online schools can make it harder to identify and
+help students who are behind, some online teachers told us, particularly if
+parents or other adult learning coaches at home are not much help. “For
+kids who struggle and have learning coaches who struggle, they’re just
+lost,” an online teacher with long experience in traditional schools told us.
+“They have so many more supports available for them at a brick-andmortar school.”
+A 2015 Mathematica Policy Research study found large high school class
+sizes at virtual charter schools and many virtual school principals
+concerned about disengagement among their students. Students in a
+typical online charter have less “synchronous” instruction time – students
+and teachers participating in instruction at the same time – in a week than
+students in brick and mortar schools have in a day, the national study
+found.9
+One district-run online school we visited had a student drop-in center,
+staffed with teachers eager to help students. But even with that hybrid
+model, the school’s administrator told us, unmotivated students struggling
+in traditional schools find “it’s even harder to be motivated here.”
+Online schools are likely to continue growing rapidly, given the rising
+popularity of online education in general and the simplicity of enrolling in
+statewide online schools, which have no district boundaries. Fully online
+schools also face few physical obstacles to expansion, unlike brick-andmortar schools, allowing for speedier growth.
+
+Comparative performance appears to lag in online
+schools
+Oregon’s online schools tend to have higher dropout rates and lower
+graduation rates than traditional schools. In the 2015-16 school year, 14 of
+15 online schools with 20 or more students in their class cohorts were
+among the 50 Oregon schools with the lowest 5-year graduation rates. On
+
+9 “Inside Online Charter Schools,” Mathematica Policy Research, October 2015.
+
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 26
+
+state tests, online charter school students tend to be close to the state
+average in reading, but behind in math.
+However, those results do not take into account the types of students
+enrolling at online schools, or whether they are behind in credits when
+they enroll. As with alternative schools, it is difficult to make fair
+performance comparisons without data on individual student progress.
+Recent studies in Oregon and elsewhere, however, have made more applesto-apples comparisons between online students and traditional students.
+These studies suggest individual student performance in online schools is
+lower relative to comparable students in brick-and-mortar schools.
+
+
+
+
+
+
+A 2016 ODE analysis found that among students with the same 8thgrade test scores, students in online schools were up to 30 percentage
+points less likely to be on track at the end of their 9th-grade year than
+students who attended non-virtual schools. 10
+A 2015 national study by researchers at Stanford University that
+included Oregon found online charter students had “much weaker
+growth overall” compared to comparable students in traditional
+schools. Typical academic gains for math equated to 180 fewer days of
+learning; for reading, it was 72 fewer days. Results were comparable for
+Oregon’s online charters, the researchers found. 11
+A 2017 study of 1.7 million Ohio students by New York University and
+Rand Corporation researchers found that "across all subjects and grade
+spans… students in e-schools score significantly lower than students in
+traditional charter and public schools.” 12
+
+Online school performance issues have led to more
+scrutiny and, in some other states, more oversight
+Reform Recommendations:
+States should:
+ Require schools to meet
+performance standards before
+they can grow.
+ Base school funding on
+performance, such as course
+completion, not on attendance.
+ Not allow small districts to
+sponsor online charter schools
+spanning multiple districts.
+ Ensure that poor-performing
+schools are shut down.
+
+Most of the scrutiny of online schools has focused on online charter
+schools, a rapidly growing category. Nationally, online charters are
+authorized by school districts, state authorizing bodies, universities, or
+other groups. In Oregon, districts authorize all the online charter schools.
+Academic researchers and three groups – The National Alliance for Public
+Charter Schools, the 50-State Campaign for Achievement Now, and the
+National Association of Charter School Authorizers – have made reform
+recommendations for online charters that could apply to non-charter
+online schools as well. (See summary at left.)
+In a 2016 report, the three groups cited “disturbingly low performance”
+and said state leaders need “to make the tough policy changes necessary”
+
+10 Data Brief, Office of Assessment and Accountability, ODE , 2016.
+
+11 “Online Charter School Study,” Center for Research on Education Outcomes, Stanford University,
+
+2015.
+12 “Student Enrollment Patterns and Achievement in Ohio’s Online Charter Schools,” Ahn and
+McEachin, Educational Researcher, Vol. 46, No.1, pp. 44-57, 2017.
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 27
+
+to ensure online education is more effective for students. 13 In 2015,
+University of Washington researchers studied state regulation of online
+charters nationwide, including in Oregon, and concluded that collecting
+additional data from online charters – for student attendance, progress,
+and performance – may make sense given the high rate of disengagement
+among their students. 14
+Some of Oregon’s online school leaders favor disclosure of more detailed
+student progress data for the same reason some alternative education
+leaders do: The existing accountability system does not reflect their
+progress with students who arrive already behind.
+
+Some other states have increased oversight of online schools
+We reviewed approaches to online schools in other states, and identified
+six with performance oversight methods Oregon could consider. These
+states provide considerably more oversight of online schools, particularly
+multidistrict schools. Approaches taken elsewhere include approving
+online curriculum, requiring state approval for new schools, and evaluating
+online school performance in depth.
+
+Alternative Education
+specialists are typically
+included in review of online
+schools.
+
+In Minnesota, multidistrict online schools and full-time online schools
+within districts have to apply for approval, submit annual updates, and
+prepare a three-year review document that the state evaluates. New
+schools get a visit from Department of Education personnel, typically
+including the state’s alternative education specialist, because of high
+numbers of at-risk students at the online schools. The process leads to
+productive conversations about school improvement, the state’s online and
+digital learning specialist said.
+
+Online schools are evaluated
+on 54 criteria, including
+student engagement.
+
+Washington subjects multidistrict schools and providers, charter and noncharter, to full review, and approves online curriculum. A team of
+reviewers evaluates whether they meet 54 criteria, such as collaborative
+instructional activities, timely and frequent feedback, student engagement,
+and protocol for monitoring student progress. Beginning this school year,
+online schools will have to meet performance targets – course success
+rates greater than 70%, for example – or submit a corrective action plan.
+
+State application includes
+plans for counseling and
+tutoring support.
+
+Colorado’s State Board of Education certifies new multidistrict online
+schools, both charter and non-charter, via a joint application by the school
+and its authorizing district. The application focuses on items such as plans
+for counseling, tutoring support, and student assessment. The authorizing
+district maintains oversight after approval, but the state board can
+intervene if the school does not improve after five years on a state
+improvement list. The board shut down one online school’s middle school
+grades after long-term poor performance.
+
+13 “A Call to Action to Improve the Quality of Full-time Virtual Charter Public Schools,” June 2016.
+
+14 “The Policy Framework for Online Charter Schools,” The Center on Reinventing Public Education,
+
+October 2015.
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 28
+
+Central authorizer has
+numerous measurable
+performance requirements.
+
+Central authorizer is currently
+shutting down a virtual charter
+for lack of records access and
+open meetings act violations.
+
+State approves both online
+programs and courses.
+
+In Maine, a central commission authorizes all the state’s charter schools,
+including two statewide virtual schools. A detailed application requires the
+school to specify measurable objectives, a plan for students performing
+poorly, and details on oversight of third-party contractors. The
+commission’s charter with the schools includes numerous measurable
+performance requirements, restrictions on enrollment, a monitoring plan
+with annual performance monitoring reports, and commission monitoring
+of attendance. The commission rejected one online school’s application
+twice before it was accepted, with the commission insisting that teachers
+be available at the school’s location for students who need to meet with
+them.
+Oklahoma’s statewide virtual charter school review board approves and
+sponsors statewide virtual charters, requiring them to file a detailed
+application. About four years after approval, accountability officials at the
+state’s department of education prepare detailed reports on school
+performance. The board is relatively new, but is in the process of shutting
+down one virtual charter for lack of access to financial records and open
+meeting act violations. The statewide oversight began because of concerns
+about low district oversight.
+Florida funds online programs based on credit attainment, not attendance,
+as a taxpayer accountability measure. All providers must publish studentteacher ratios on their web sites, and include the ratio in contracts with
+districts. Florida’s auditor general conducts operational audits of districts
+and program providers. The state approves both online programs and
+online courses.
+
+ODE oversight and monitoring of online schools is
+limited and district oversight is inconsistent
+Some shortfalls in ODE oversight and monitoring of online schools apply
+specifically to online charters.
+Oregon has statutory requirements specific to online or virtual charters.15
+They include a requirement that the school’s contract or “charter” with its
+sponsor includes monitoring and tracking of student performance. They
+also must have a plan to conduct meetings, in person or through
+technology, twice a week between teachers and students.
+Like all charters, online charters also have to submit applications to their
+sponsors, usually school districts. They submit annual performance
+
+15 Under Oregon law, charters are non-profit public schools, generally sponsored by a school district
+
+but governed by a separate charter board. ORS 338.120 specifically addresses virtual public charter
+schools.
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 29
+
+reports, and receive an annual financial audit. From their sponsors, they
+receive a share of per-student payments from the State School Fund.
+However, ODE does not monitor district compliance with these
+requirements. The state receives copies of documents related to charters,
+such as charter agreements and annual reports, but does not review them
+for quality. State statutes also do not spell out performance requirements
+to include in the charter contracts or detail the depth of annual reports.
+ODE officials say the agency is last in line for online charter school
+oversight under state law, after charter boards, districts, and district
+boards.
+Some shortfalls in ODE monitoring and oversight apply to all online
+schools, charters and district-run.
+As with alternative schools, ODE has problems accurately tracking online
+schools. Districts report whether schools are online, but we found some
+schools reported as online that are not, and some online schools not
+reported as online. The classification problems arise when schools offer
+some instruction online, but not all. More precise ODE definitions could
+help.
+Beyond tracking, Oregon does not require state approval for new schools,
+regularly evaluate online school performance in depth, or increase
+oversight of poor-performing online schools. ODE does not require districts
+to follow best practices for oversight of online schools. The state also does
+not require online schools to meet performance standards to grow.
+Finally, the state does not review online curriculum for compliance with
+state standards, leaving that to districts. That lack of curriculum review is a
+particular risk for online programs focused on accelerated credit recovery
+for credit deficient students.16 State and accreditation officials told us these
+programs, which some traditional and alternative schools also use for
+credit deficient students, can be rote and lack rigor. Online credit recovery
+curriculum is also used by traditional and alternative schools that offer it as
+an option within the school.
+
+District oversight is inconsistent
+The state’s limited monitoring and support for districts matters because
+districts differ significantly in the quality of their online school oversight,
+our interviews and document reviews indicated.
+School annual reports and improvement plans vary widely. Some districts
+require in-depth annual outside evaluations of the online schools they
+sponsor. Others rely on the schools’ self-reporting, which can be brief. One
+school we reviewed prepared a two-page document for its annual report,
+
+16 Programs designed to allow credit deficient students to accumulate credits quickly by, for example,
+
+passing knowledge tests that demonstrate their understanding of key course concepts.
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 30
+
+with little focus on performance. Others prepared strong academic
+improvement plans, acknowledging the need to improve.
+Performance requirements in charter contracts can also vary substantially.
+In our discussions with district officials, their awareness of school
+performance and progress varied substantially as well.
+One of the districts we spoke with limits school growth. The rest allow
+unlimited growth. Some have little oversight or engagement with the
+schools, even when their dropout rates and other performance indicators
+are low and the school continues to grow.
+At the district level, few districts have a staff person dedicated solely to
+charter or online school oversight.
+Like traditional schools, online school performance varies, with some
+schools performing relatively well on traditional measures. But the
+inconsistent oversight of the schools, combined with the potential for rapid
+growth, increases the risk that they will serve struggling students poorly.
+
+ODE’s online school attendance and funding
+standard raises risks
+Under ODE policy, the state counts full-time online education students as
+present for the full week if they check in with a teacher twice during that
+week. By contrast, students in traditional schools must attend more than
+half the morning and more than half the afternoon every weekday in order
+to be counted as present for the entire week. The attendance standard
+serves as the basis for State School Fund payments to schools.
+The attendance standard raises the risk that an online school could receive
+taxpayer dollars even if students spend little time engaged with the school
+and make no progress academically. It poses particular problems for at-risk
+students who may already be disengaged from school. And it allows online
+schools to report relatively high attendance performance, limiting the
+attendance metric as an indicator of student engagement.
+ODE policy defines a check-in as a two-way communication between a
+student and teacher, and says it is intended to assure an interaction that
+allows teachers to evaluate whether students are making adequate
+progress. But the seven online schools we spoke with are interpreting the
+check-in requirement in various ways, some of which may not meet ODE’s
+intent. Schools commonly track emails, texts, and phone calls between
+students and teachers to meet the requirement. Some also use online class
+log-ins. One school counted a one-way email or text with anyone on the
+staff as attendance. One said attending a school outing qualified. Another
+simply had students answer a question posed by a teacher in the school’s
+online interface.
+
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 31
+
+The online attendance standard can give students flexibility. A standard
+that requires attendance in live online classes, for example, would penalize
+a student who works all day and has to watch a recorded version of the
+class later. But some school and district officials also acknowledged that a
+twice-a-week check in sets a low bar for attendance.
+Florida tracks credit attainment in online schools and programs as a basis
+for state funding. Other states, including Utah and New Hampshire, track
+course completion. Oregon’s online schools currently track credits earned
+and course completion. With legislative approval, that data could be used
+for state funding purposes.
+A state funding standard based on credits earned or course completion
+would also provide better data to highlight high-performing and lowperforming online schools.
+For public attendance reporting, the online schools currently track data
+that could provide a more accurate picture of attendance than twice-aweek check ins, such as student log-ins and assignment completion.
+
+Statewide virtual charters that contract with for-profit
+firms pose additional risks
+Oregon has three statewide non-profit virtual schools that contract with
+the two largest for-profit “education management organizations” for
+curriculum, technical support, and other services. They are Oregon Virtual
+Academy (ORVA) and Insight School of Oregon – Painted Hills, which
+contract with K-12 Management Inc.; and Oregon Connections Academy
+(ORCA), which contracts with Connections Academy. The two largest
+schools, ORCA and ORVA, serve more than half of Oregon students enrolled
+in online public schools.
+The national ties allow the schools to draw on teacher training databases
+and extensive experience in online education. However the schools, which
+enroll students from across the state, have relatively few opportunities for
+face-to-face contact, a potential problem for struggling students who may
+need strong relationships with teachers to succeed.
+Unlike brick-and-mortar schools or hybrid online schools with a fixed
+location for students to meet with teachers, the growth of these purely
+virtual schools is also not restricted by limited physical space. This allows
+them to grow rapidly, helped by advertising and other support from the
+private-sector contractors. If the schools are not performing well, this rapid
+growth increases the potential for more at-risk students to struggle
+academically.
+All three schools are also sponsored by relatively small school districts,
+with non-online enrollment ranging from about 50 students to 2,350
+students. The districts receive oversight fees, up to $1 million a year, that
+district officials told us also benefit district students not attending the
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 32
+
+online schools. The district fees also rise as the schools’ enrollments rise,
+providing an incentive for districts to allow the schools to grow.
+Researchers and national charter groups have warned that this benefit may
+dissuade districts from holding the schools accountable for low
+performance.
+From interviews and document reviews, we found the level of district
+monitoring varied significantly, and was low for two of the schools.
+The district with relatively strong oversight has annual outside reviews of
+the online school. It used fee revenue from the school to increase district
+staff, in part to help with oversight of the school. In interviews, the
+superintendent told us he was aware of the performance issues at the
+school and knew what the school was doing to address the needs of at-risk
+students. Finally, the district included detailed performance goals in its
+charter with the school, such as having 85% or more of students earn at
+least six credits a year. The charter agreement requires the school to
+prepare a school improvement plan if all the performance goals are not
+reached, which the school has done.
+That level of oversight was not present at districts overseeing the two
+other schools.
+Officials at one of the districts told us they were “pretty much hands off”
+regarding the school. They also said evaluating the school’s performance is
+“completely” in the school’s realm, though the school is growing rapidly,
+and prepared an academic improvement plan that said “the need for
+dramatic improvement has become highly evident.” The officials were not
+sure if the school had submitted an annual report. The district’s charter
+with the school, recently extended for five years, contains one performance
+provision.
+The final school relocated from one district to another in 2015 after the
+first district ended their sponsorship amid concerns about the school’s low
+performance. The school’s proposal to the new district included
+performance goals, but the charter contract with new district removed the
+specific performance requirements included in the first district’s charter. It
+also removed a requirement that the school submit a written plan of
+correction if it did not meet the performance goals. The school prepared a
+school improvement plan with measurable goals, but the superintendent of
+the new district told us the district does not really evaluate performance.
+The superintendent did not know if the school had submitted an annual
+report.
+As noted above, some states have moved to central sponsorship of
+statewide charter schools. At a minimum, ODE should ensure that the
+districts sponsoring these schools are thoroughly overseeing the schools
+and holding them accountable for their performance.
+
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 33
+
+Statutorily required disclosure of contractor profits can be improved
+Oregon statutes require that schools release profit statements for their
+contractors upon request from the public, a transparency measure
+designed to help ensure that schools are not prioritizing profits over
+student-related expenditures.
+However, the information the schools provided at our request either did
+not give enough detail for the public to judge whether reported costs and
+profits were reasonable or did not disclose all profits.
+
+
+
+
+For two of the schools, the documents included three lines of high-level
+expenditures -- contractor salaries, direct operating expenditures, and
+indirect operating expenditures -- that did not provide enough detail
+for the public to gauge the reasonableness of reported contractor costs.
+The other school detailed expenditures more thoroughly and disclosed
+profits on some transactions. However, the documents did not disclose
+profits made on the sale of “educational products” to the school, the
+largest contractor-related budget category.
+
+Oversight from districts on contractor profits and standards from ODE on
+the content of profit statements would help ensure accountability and
+transparency for the public dollars the schools receive.
+
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 34
+
+Recommendations: ODE Should Take Steps to Improve Results for
+Academically At-Risk Oregon Students by Increasing Accountability, Oversight,
+and Support.
+To ensure better identification of alternative schools and programs, ODE
+should:
+1. Develop a clear definition of alternative education schools and
+programs, make accurate lists of these schools and programs, and
+identify them in public performance reporting.
+2. Add an alternative designation for performance reporting purposes
+for charter schools that focus on at-risk students.
+To improve accountability for alternative schools and programs, ODE
+should:
+3. Develop publicly reported measures for alternative schools and for
+alternative programs that allow for more meaningful performance
+evaluation. Focusing on a limited set of additional measures – such as
+student growth, credit accumulation rates, and attendance
+improvement – could help address district workload concerns.
+4. Use those more meaningful metrics to identify schools and programs
+that need improvement.
+5. Evaluate methods to increase accountability for traditional high
+schools that transfer students to alternative schools and programs.
+To better monitor districts and support alternative schools and programs,
+ODE should:
+6. Evaluate the adequacy of its staffing for alternative education and
+how other departments and staff, such as school improvement staff
+and data analysts, can best support that function.
+7. Establish standards and guidance for key practices, including district
+annual evaluations, referrals to alternative education schools and
+programs, credit standards, monitoring of student progress, and
+student-teacher ratios.
+8. Confirm that districts with alternative schools and programs are
+following those standards by reviewing efforts at districts and
+schools. Reviews could focus on low-performing schools.
+9. Work with districts and schools to identify successful alternative
+education approaches that other districts and schools can emulate.
+To reduce the risks and help increase the performance of online education,
+ODE should:
+10. Work with online schools and other stakeholders to strengthen
+attendance and funding standards for virtual schools.
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 35
+
+11. Improve public reporting of online school performance and student
+engagement. Options include reporting teacher-student loads, student
+turnover, and credit accumulation rates, and including virtual schools
+in new alternative school accountability systems when appropriate.
+12. Verify the quality and suitability of online credit recovery options
+used by Oregon schools.
+13. Develop standards for district reviews of online programs and charter
+agreements with online schools, and ensure districts are following
+them.
+To improve prospects for alternative and online students, ODE should
+work with the Legislature to:
+14. Require upgrades to accountability and oversight for alternative
+education, as some other states have done. Possibilities include:
+a) Developing a more precise statutory definition of alternative
+education.
+b) Upgrading public performance reporting for alternative schools
+and programs.
+c) Requiring publicly available annual improvement plans.
+d) Requiring ODE review of plans for low-performing schools and
+programs.
+e) Establishing performance requirements that statewide and
+regional online schools must meet before they can grow.
+15. Increase standards for sponsors of statewide and regional virtual
+charter schools. Options that ODE and the Legislature could explore
+include spelling out individual district responsibilities in detail,
+increased ODE oversight of districts, and shifting sponsorship of the
+schools to a central body.
+
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 36
+
+Appendix A: School Data
+This list may be incomplete. As noted earlier, ODE does not accurately track alternative and online schools.
+Stand-Alone Alternative Schools
+Program Name
+
+District Name
+
+Al Kennedy Alternative High School
+Albany Options School
+Alliance High School
+Arts and Technology High School
+Burns Alternative School
+Centennial Park School
+Central Medford High School
+Columbia County Education Campus
+Community School
+Destinations Academy
+Durham Center
+Early College High School
+Eugene Education Options
+Falcon Heights Academy
+Gateways High School
+Hawthorne Middle/High School
+Innovative Learning Center**
+Kalapuya High School
+Marshall High School
+Metropolitan Learning Center
+New Urban High School
+North Columbia Academy
+Pioneer Secondary Alt. High School
+Reynolds Learning Academy
+Roberts High School
+Sheridan Spartan Academy**
+Wahtonka Community School
+Woodburn Success
+
+South Lane
+Greater Albany
+Portland
+West Linn-Wilsonville
+Harney County
+Centennial
+Medford
+St Helens
+Beaverton
+Coos Bay
+Tigard-Tualatin
+Salem-Keizer
+Eugene
+Klamath County
+Springfield
+Pendleton
+Hermiston
+Bethel
+Bend-LaPine
+Portland
+North Clackamas
+Rainier
+Crook County
+Reynolds
+Salem-Keizer
+Sheridan SD
+North Wasco County
+Woodburn
+
+Report Number 2017-30
+Alternative and Online Education
+
+2016 spring
+enrollment*
+79
+139
+237
+86
+21
+174
+239
+89
+169
+53
+168
+194
+298
+106
+123
+38
+129
+106
+206
+419
+128
+41
+62
+241
+530
+7
+87
+142
+
+Dropout 4-year
+5-year
+5-year
+Underserved
+rate
+grad rate grad rate completion Race/Ethnicity***
+19.1 %
+16.7 %
+26.9 %
+49.3 %
+11%
+3.6 %
+43.0 %
+30.5 %
+67.9 %
+24%
+11.7 %
+23.3 %
+33.8 %
+41.6 %
+45%
+15.5 %
+48.9 %
+52.5 %
+70.0 %
+15%
+12.5 %
+50.0 %
+55.6 %
+66.7 %
+19%
+10.2 %
+21.3 %
+40.8 %
+46.1 %
+40%
+20.2 %
+31.7 %
+47.9 %
+51.5 %
+36%
+18.4 %
+16.7 %
+34.1 %
+38.6 %
+14%
+5.5 %
+53.1 %
+69.3 %
+72.3 %
+54%
+41.3 %
+4.3 %
+13.2 %
+56.6 %
+21%
+18.8 %
+38.8 %
+63.6 %
+66.7 %
+37%
+1.5 %
+80.0 %
+92.9 %
+92.9 %
+45%
+16.5 %
+28.2 %
+35.4 %
+48.3 %
+24%
+64.8 %
+7.4 %
+14.0 %
+31.6 %
+28%
+21.6 %
+9.7 %
+29.6 %
+35.2 %
+35%
+19.8 %
+27.6 %
+17.1 %
+39.0 %
+22%
+25.4 %
+4.1 %
+9.3 %
+41.7 %
+43%
+16.6 %
+30.5 %
+57.7 %
+65.4 %
+23%
+11.8 %
+32.9 %
+34.7 %
+47.5 %
+20%
+3.5 %
+91.4 %
+83.9 %
+96.8 %
+11%
+15.0 %
+24.5 %
+44.8 %
+58.2 %
+18%
+17.7 %
+44.4 %
+47.6 %
+52.4 %
+15%
+8.6 %
+35.4 %
+32.0 %
+56.0 %
+21%
+15.6 %
+29.3 %
+40.3 %
+43.8 %
+54%
+27.3 %
+11.4 %
+19.0 %
+47.9 %
+46%
+42.9 %
+0.0 %
+0.0 %
+10.0 %
+14%
+23.9 %
+35.0 %
+40.0 %
+44.0 %
+29%
+8.6 %
+50.0 %
+64.9 %
+64.9 %
+92%
+
+December 2017
+Page 37
+
+ODE Alt Ed Data
+Collection?
+Yes
+No
+Yes
+Yes
+Yes
+Yes
+No
+Yes
+Yes
+Yes
+Yes
+Yes
+No
+No
+No
+No
+No
+No
+No
+Yes
+No
+No
+Yes
+No
+Yes
+No
+No
+Yes
+
+Online Alternative Schools
+Program Name
+
+District Name
+
+Dillard Alternative High School
+EAGLE CAP Innovative HS
+Samuel Brown Academy
+URCEO
+Winter Lakes School
+
+Winston-Dillard
+Baker
+Gervais
+Eagle Point
+Coquille
+
+2016 spring
+enrollment*
+50
+32
+59
+78
+180
+
+Dropout 4-year
+5-year
+5-year
+Underserved
+ODE Alt Ed Data
+rate
+grad rate grad rate completion Race/Ethnicity***
+Collection?
+22.8 %
+18.8 %
+37.9 %
+37.9 %
+12%
+Yes
+8.6 %
+50.0 %
+31.3 %
+43.8 %
+15%
+Yes
+23.1 %
+14.6 %
+28.6 %
+38.1 %
+67%
+Yes
+21.9 %
+0.0 %
+0.0 %
+49.0 %
+25%
+Yes
+10.7 %
+47.6 %
+57.9 %
+57.9 %
+18%
+Yes
+
+2016 spring
+enrollment*
+192
+
+Dropout 4-year
+5-year
+5-year
+Underserved
+ODE Alt Ed Data
+rate
+grad rate grad rate completion Race/Ethnicity***
+Collection?
+6.5 %
+40.5 %
+66.7 %
+79.6 %
+22 %
+N/A- Not Alt Ed
+
+2016 spring
+enrollment*
+775
+488
+244
+354
+329
+4147
+1883
+66
+153
+163
+720
+102
+
+Dropout 4-year
+5-year
+5-year
+Underserved
+ODE Alt Ed Data
+rate
+grad rate grad rate completion Race/Ethnicity***
+Collection?
+9.2 %
+43.2 %
+47.6 %
+50.8 %
+11%
+N/A- Charter
+9.3 %
+68.8 %
+75.9 %
+80.7 %
+9%
+N/A- Charter
+10.3 %
+56.7 %
+37.5 %
+37.5 %
+11%
+N/A- Charter
+75.6 %
+11.9 %
+20.4 %
+27.7 %
+21%
+N/A- Charter
+19.9 %
+50.3 %
+43.6 %
+60.1 %
+23%
+N/A- Charter
+12.9 %
+61.7 %
+65.7 %
+72.8 %
+14%
+N/A- Charter
+16.3 %
+28.3 %
+33.0 %
+42.8 %
+16%
+N/A- Charter
+38.5 %
+9.5 %
+4.8 %
+9.5 %
+17%
+N/A- Charter
+25.0 %
+30.0 %
+37.5 %
+50.0 %
+13%
+N/A- Charter
+21.4 %
+35.3 %
+20.0 %
+20.0 %
+5%
+N/A- Charter
+4.6 %
+71.4 %
+51.3 %
+61.3 %
+14%
+N/A- Charter
+47.5 %
+11.1 %
+27.5 %
+35.0 %
+23%
+N/A- Charter
+
+District-Run Online Schools
+Program Name
+
+District Name
+
+Hillsboro Online Academy
+
+Hillsboro
+
+Online Charter Schools ****
+Program Name
+
+District Name
+
+Baker Web Academy
+Clackamas Web Academy
+Crater Lake Charter Academy
+Insight School of OR – Painted Hills
+Metro East Web Academy
+Oregon Connections Academy
+Oregon Virtual Academy
+Oregon Virtual Education - West
+Sheridan All Prep Academy
+Silvies River Charter School
+Summit Learning Charter
+West Lane Technology Learning Ctr
+
+Baker
+North Clackamas
+Eagle Point
+Mitchell
+Gresham-Barlow
+Santiam Canyon
+North Bend
+Gaston
+Sheridan
+Frenchglen
+Estacada
+Fern Ridge
+
+* All data from 2015-16 school year unless otherwise noted. Enrollment is for all grades, not just high school grades.
+** School closed for 2016-17 School Year.
+*** Historically Underserved Race/Ethnicity: Students are included in this student group if their race/ethnicity is
+Black/African American, Hispanic/Latino, American Indian/Alaska Native or Native Hawaiian/Pacific Islander.
+**** Online charter list does not include Fossil Charter School or Paisley School, whose online programs end in grade 8.
+
+Report Number 2017-30
+Alternative and Online Education
+
+December 2017
+Page 38
+
+
+--- OCR of this page (tesseract), not checked by a person: check the PDF before quoting or copying a figure ---
+Kate Brown, Governor
+
+Oregon =
+
+OREGON
+
+DEPARTMENT OF
+EDUCATION
+
+Oregon achieves... together!
+
+Colt Gill
+
+Acting Deputy Superintendent of Public Instruction
+
+December 14, 2017
+
+Kip Memmott, Director
+
+Secretary of State, Audits Division
+255 Capitol St. NE, Suite 500
+Salem, OR 97310
+
+Dear Mr. Memmott,
+
+This letter provides a written response to the Audits Division’s final draft audit report titled “Stronger
+Accountability, Oversight and Support Would Improve Results for Academically At-Risk Students in
+Alternative and Online Education.”
+
+The numbers of online, charter, virtual schools, and online credit recovery programs are growing
+quickly across the country and Oregon’s numbers and growth are consistent with this national trend.
+Because of this, ODE appreciates the Secretary of State’s Audit and the opportunity to examine -
+with this external assistance - how Oregon students in these environments are faring.
+
+Oregon’s Consolidated State Plan Under ESSA guides much of ODE’s work with alternative education
+schools and programs as evidenced in our responses to the SOS Recommendations included next. It
+is important to ODE that students enrolled in these programs are taught by skilled teachers, using
+curricula available in Oregon’s traditional schools with high achievement, academic success and
+graduation rate outcomes at or above our state averages for all students.
+
+With help from the targeted recommendations of this audit we have nearly completed the building
+and implementation of a definition of alternative education schools and programs, identifying each
+
+entity and including all such schools and programs in our public performance reports. This includes
+
+developing appropriate outcome measures and using these to select any charter, online, virtual and
+online schools and credit recovery programs that might need improvement.
+
+Much of this work has begun. ODE reports alternative education information on school and district
+report cards and other agency performance reports. A toolkit is being developed to support the work
+of alternative education programs. It features best practices and charter schools that achieve strong
+success outcomes.
+
+Below is our detailed response to each recommendation in the audit.
+
+255 Capitol St NE, Salem, OR 97310 | Voice: 503-947-5600 | Fax: 503-378-5156 | www.oregon.gov/ode
+
+--- OCR of this page (tesseract), not checked by a person: check the PDF before quoting or copying a figure ---
+RECOMMENDATION 1
+
+ODE should develop a clear definition of alternative education schools and programs, make
+accurate lists of these schools and programs, and identify them in public performance reporting.
+
+Agree or Disagree with
+Recommendation
+
+Target date to complete
+implementation activities
+
+(Generally expected within 6
+months)
+
+Name and phone number of
+specific point of contact for
+implementation
+
+Agree
+
+Definition for alternative
+schools is drafted and is
+
+Isabella Jacoby
+503-947-5878
+
+pending approval from
+relevant committees by
+3-30-18
+Accurate lists will be collected
+by 5-1-18
+Public performance reporting
+will be available by 11-30-18
+
+Narrative for Recommendation 1
+
+ODE is in the final stages of developing an alternative education definition. It will be approved by the
+relevant committees by mid-March, 2018. ODE will then verify and/or update the status of all
+accountable schools, including the four identified by the auditors as having discrepancies, by
+contacting each district using existing update processes. This will be completed prior to the opening
+of the Achievement Data Insight validation for institution information, in May 2018. Alternative
+education status will now be added to the data validation process to further confirm data accuracy.
+As part of the ongoing report card redesign process the mechanism for identifying these schools as
+alternative will be developed and included on the 2017-18 report cards, which will be published in
+October 2018.
+
+RECOMMENDATION 2
+
+ODE should add an alternative designation for performance reporting purposes for charter schools
+that focus on at-risk students.
+
+Target date to complete
+
+implementation activities Name and phone number of
+
+Agree or Disagree with specific point of contact for
+
+Recommendation (Generally expected within 6 implementation
+months)
+Agree Spring 2018 Kate Pattison
+
+503-947-5691
+
+Narrative for Recommendation 2
+
+ODE will convene a stakeholder group to review and make recommendations for alternative school
+reporting and accountability. This stakeholder group would include district staff, alternative school
+staff, parents, community organizations, and education partners across the state. This group could
+develop recommendations for measures that can be used to better evaluate alternative schools, and
+
+Page 2 of 10
+
+--- OCR of this page (tesseract), not checked by a person: check the PDF before quoting or copying a figure ---
+Narrative for Recommendation 2 cont.
+
+how this work could align and support existing school improvement efforts in the state. These
+recommendations will need to align with the Oregon Plan under ESSA and with the ESSA law itself,
+which has specific language regarding accountability for schools serving at-risk youth.
+
+This group would also make recommendations for any new data collections that would be required.
+These recommendations would be presented to ODE, the State Board, and the legislature for
+consideration. ODE staff will review the impact of proposed collections on school and district staff,
+and on ODE staff resources. Implementation of proposed collections would likely require funding
+from the Legislature. If such funding is obtained, ODE would convene a stakeholder group to
+determine the scope and specific data elements for these collections.
+
+RECOMMENDATION 3
+
+ODE should develop publicly reported measures for alternative schools and for alternative
+programs that allow for more meaningful performance evaluation. Focusing on a limited set of
+additional measures — such as student growth, credit accumulation rates, and attendance
+improvement — could help address district workload concerns.
+
+Target date to complete
+Agree or Disagree with implementation activities Name and phone number of
+specific point of contact for
+Recommendation (Generally expected within 6 implementation
+months)
+Agree Develop publicly reported Jon Wiens
+measures for alternative 503-947-5764
+
+schools and for alternative
+programs for meaningful
+performance evaluation by
+6-30-2018
+
+Narrative for Recommendation 3
+
+ODE will convene a stakeholder group to review and make recommendations for alternative school
+reporting and accountability. This stakeholder group would include district staff, alternative school
+staff, parents, community organizations, and education partners across the state. This group could
+develop recommendations for measures that can be used to better evaluate alternative schools, and
+how this work could align and support existing school improvement efforts in the state. This group
+would also make recommendations for any new data collections that would be required. These
+recommendations would be presented to ODE, the State Board, and the Legislature for
+consideration.
+
+RECOMMENDATION 4
+
+ODE should use the more meaningful metrics identified in response to Recommendation 3 to
+identify schools and programs that need improvement.
+
+Target date to complete
+Agree or Disagree with implementation activities Name and phone number of
+specific point of contact for
+Recommendation (Generally expected within 6 implementation
+months)
+Agree Fall 2018 Kate Pattison
+503-947-5691
+
+Page 3 of 10
+
+--- OCR of this page (tesseract), not checked by a person: check the PDF before quoting or copying a figure ---
+Narrative for Recommendation 4
+
+After the process described in Recommendation 3's response is completed, the chosen metrics will
+be used to identify schools and programs in need of improvement.
+
+RECOMMENDATION 5
+
+ODE should evaluate methods to increase accountability for traditional high schools that transfer
+students to alternative schools and programs.
+
+Agree or Disagree with
+
+Target date to complete
+implementation activities
+
+Name and phone number of
+specific point of contact for
+
+national resources and review
+cross-state comparisons
+4-1-18
+Recommend Oregon option
+6-30-18
+
+Recommendation (Generally expected within 6 implementation
+months)
+Agree Investigate options from Isabella Jacoby
+
+503-947-5878
+Jon Wiens .
+503-947-5764
+
+Narrative for Recommendation 5
+
+When students transfer to non-accountable alternative programs, Oregon uses a method to “track”
+students back to their last accountable high school for graduation rate purposes. We will evaluate
+the feasibility of expanding this method to other accountability reporting in order to hold specific
+high schools accountable for as many students as is possible.
+
+RECOMMENDATION 6
+
+ODE should evaluate the adequacy of its staffing for the alternative education program and how
+other departments and staff, such as school improvement staff and data analysts, can best
+support that function.
+
+Target date to complete
+
+Agree or Disagree with
+
+implementation activities
+
+Name and phone number of
+specific point of contact for
+
+Recommendation (Generally expected within 6 implementation
+months)
+Agree 8-1-18 Theresa Richards
+
+503-947-5992
+
+Narrative for Recommendation 6
+
+ODE will be evaiuating the adequacy of ODE staffing for the alternative education program including
+evaluating how other department and staff can best support that function.
+
+Page 4 of 10
+
+--- OCR of this page (tesseract), not checked by a person: check the PDF before quoting or copying a figure ---
+RECOMMENDATION 7
+
+ODE should establish standards and guidance for key alternative education practices, including
+district annual evaluations, referrals to alternative education schools and programs, credit
+standards, monitoring of student progress, and student-teacher ratios.
+
+Agree or Disagree with
+Recommendation
+
+Target date to complete
+implementation activities
+
+(Generally expected within 6
+months)
+
+Name and phone number of
+specific point of contact for
+implementation
+
+Agree
+
+6-29-18
+
+Bob Salazar
+503-947-5981
+
+Narrative for Recommendation 7
+
+Using state comparisons provided in the SOS Alternative Education audit, ODE will begin with an
+analysis of proven policies working elsewhere for standards to guide alternative education schools
+and programs. (5-1-18). Using the findings from the policy analysis, ODE will assemble a stakeholder
+advisory group of current alternative education programs and educational policy experts from
+Oregon to develop processes for annual evaluations, credit standards and recommendations for
+shared monitoring of student progress and student-teacher ratios between ODE and the alternative
+
+schools and programs. (2-15-19).
+
+RECOMMENDATION 8
+
+ODE should confirm that districts with alternative schools and programs are following the
+standards developed in response to Recommendation 6 by reviewing efforts at districts and
+schools. Reviews could focus on low-performing schools.
+
+Agree or Disagree with
+Recommendation
+
+Target date to complete
+implementation activities
+
+(Generally expected within 6
+months)
+
+Name and phone number of
+specific point of contact for
+implementation
+
+Agree
+
+6-30-18
+
+Bob Salazar
+
+503-947-5981
+
+Narrative for Recommendation 8
+
+Once policies, procedures and written professional development materials from ODE have been
+created and distributed to the districts with alternative schools and programs (Spring 2019), ODE will
+develop a monitoring system to evaluate the alternative schools and programs using student success
+measures via data collections. ODE proposes examining the effectiveness of developing a separate
+annual report for student success outcomes for alternative schools and programs or including these
+measures in a section of ODE's annual reporting measures (starting 2019-2020 academic year).
+
+Page 5 of 10
+
+
+--- OCR of this page (tesseract), not checked by a person: check the PDF before quoting or copying a figure ---
+RECOMMENDATION 9
+
+ODE should work with districts and schools to identify successful alternative education approaches
+that other districts and schools can emulate.
+
+Target date to complete
+Agree or Disagree with implementation activities Name and phone number of
+Recommendation specific point of contact for
+(Generally expected within 6 implementation
+months)
+Agree 6-30-18 Bob Salazar
+503-947-5981
+
+Narrative for Recommendation 9
+
+As part of the advisory group of stakeholders described in the response to Recommendation #7, ODE
+will include Oregon experts in that group who can help ODE identify successful alternative education
+programs. Once identified, ODE will engage administrators and staff from those alternative
+education schools and programs in creation of the professional development materials described in
+
+the response to Recommendation #8. By doing so, other districts and schools will have these
+materials as guides in their own design of new, or redesign of existing, alternative education
+programs and schools. ODE anticipates that with proven strategies widely available, schools and
+districts will have guidance from ODE and the stakeholder advisory group as they develop alternative
+
+education models across Oregon.
+
+RECOMMENDATION 10
+
+ODE should work with online schools and other stakeholders to strengthen attendance and
+funding standards for virtual schools.
+
+Agree or Disagree with
+Recommendation
+
+Target date to complete
+implementation activities
+
+(Generally expected within 6
+months)
+
+Name and phone number of
+specific point of contact for
+implementation
+
+Agree
+
+ODE will convene online
+school leaders and other
+stakeholders and make
+revisions to the Student
+
+Kate Pattison
+503-947-5691
+Carla Wade
+503-947-5631
+
+Accounting Manual to take
+effect for the 2019-20 school
+year.
+
+Narrative for Recommendation 10
+
+ODE staff will begin working with Online School Leaders to discuss attendance standards. Quarterly
+meetings currently scheduled, next date is January 5, 2018. Additional Stakeholder input will be
+gathered starting spring of 2018.Staff will draft revisions to manual for public comment and
+incorporate input to a revised manual by Fall 2018. Data Governance Committee will review and
+approve proposed revisions. State Board of Education will review proposed revisions by March
+2019.Updated manual with revisions will be used in the implementation during the 2019-20 school
+year.
+
+Page 6 of 10
+
+--- OCR of this page (tesseract), not checked by a person: check the PDF before quoting or copying a figure ---
+RECOMMENDATION 11
+
+ODE should improve public reporting of online school performance and student engagement.
+Options include reporting teacher-student loads, student turnover, and credit accumulation rates,
+and including virtual schools in new alternative school accountability systems when appropriate.
+
+Agree or Disagree with
+
+Target date to complete
+implementation activities
+
+Name and phone number of
+specific point of contact for
+
+implemented by 10-15-18
+
+Recommendation (Generally expected within 6 implementation
+months)
+Plan developed by 6-30-18 Jon Wiens
+Agree Initial Public reporting 503-947-5764
+
+Narrative for Recommendation 11
+
+ODE has begun reporting information on virtual schools in data briefs and in the statewide report
+card, ODE will leverage the stakeholder group formed under Recommendation #3 and have this
+group review and make recommendations for improved reporting of online schools. Improved
+public reporting using existing data elements could begin in Fall of 2018, but some would require
+ODE to collect additional data elements. Recommendations for additional data collections would be
+reviewed by ODE, the State Board and the Legislature.
+
+RECOMMENDATION 12
+
+schools.
+
+ODE should verify the quality and suitability of online credit recovery options used by Oregon
+
+Agree or Disagree with
+
+Target date to complete
+implementation activities
+
+Name and phone number of
+specific point of contact for
+
+Recommendation (Generally expected within 6 implementation
+months)
+Agree 6-20-19 Kate Pattison
+
+503-947-5691
+Carla Wade
+503-947-5631
+
+Narrative for Recommendation 12
+
+ODE will develop strategies to include credit recovery materials in the instructional materials
+review process. This will require working with the legislature to amend the Instructional
+Materials statutes to include “materials used for credit recovery” in the language and
+definitions. Following the revision of statute, ODE would work with stakeholders to develop
+OARs to support the changes in statute. The documentation requirements and review process
+would follow the same format that is already established for core content. Those materials that
+pass the review will be placed on an approved list to be adopted by the State Board of
+Education. Districts or programs choosing to adopt credit recovery resources that are not on the
+adopted list would follow the established independent review process. The independent review
+requires the district to evaluate the materials against the state instructional materials review
+criteria and make a plan for how the materials would be supplemented with something else to
+
+cover the identified gaps.
+
+Page 7 of 10
+
+
+--- OCR of this page (tesseract), not checked by a person: check the PDF before quoting or copying a figure ---
+It is expected this new work would require additional staffing to:
+
+a. Develop suggested language for the statutory revisions
+
+b. Develop associated OARs to support the revised statutes
+
+c. Work with publishers to disseminate information about the review of credit recovery
+instructional materials
+
+d. Work with the staff and stakeholders to establish review criteria for credit recovery
+materials
+
+e. Run the credit recovery instructional materials process
+
+f. Work with other staff to coordinate this work with the core content areas adoption process
+
+This would only cover credit recovery instructional materials. It would not address those online
+programs that are run external to the local school district. This would require a totally new
+review process that would include instructional practices, delivery, content, student and parent
+communications and other factors.
+
+RECOMMENDATION 13
+
+ODE should develop standards for district reviews of online programs and charter agreements
+with online schools, and ensure districts are following them.
+
+Target date to complete
+implementation activities Name and phone number of
+
+A Di ith
+Bree or sagree wit specific point of contact for
+Recommendation (Generally expected within 6 implementation
+months)
+Agree Fall 2018 Bob Salazar
+
+503-947-5981
+
+Narrative for Recommendation 13
+
+ODE staff will review the impact of such a collection on school and district staff, and on
+ODE staff resources. Implementation of such a collection would likely require funding
+from the Legislature. If such funding is obtained, ODE would convene a stakeholder
+group to determine the scope and specific data elements for this collection. ODE is in
+the beginning stages of developing legislative concepts and policy options for the 2019
+legislative session. Over the next three months, ODE’s management team will review
+concepts submitted by ODE staff, the Governor’s Office, our sister agencies, and will
+work to identify legislative concepts for the 2019 legislative session. ODE’s legislative
+request will be submitted to DAS no later than April 9, 2018. DAS and the Governor's
+Education Policy Advisor will review our request. By July of 2019, ODE will know which
+of our legislative requests have been approved for the 2019 legislative session. Within
+this legislative request, ODE would require a new staff position with substantial program
+evaluation experience to conduct the analysis of the data collection and work with the
+stakeholder group to set standards for what would reflect acceptable quality and
+suitability for such programs.
+
+Page 8 of 10
+
+
+--- OCR of this page (tesseract), not checked by a person: check the PDF before quoting or copying a figure ---
+RECOMMENDATION 14
+
+before they can grow.
+
+ODE should work with the Legislature to require upgrades to accountability and oversight for
+alternative education, as some other states have done. Possibilities include:
+
+a) Developing a more precise statutory definition of alternative education.
+b) Upgrading public performance reporting for alternative schools and programs.
+c) Requiring publicly available annual improvement plans.
+d) Requiring ODE review of plans for low-performing schools and programs.
+
+Establishing performance requirements that statewide and regional online schools must meet
+
+Agree or Disagree with
+
+Target date to complete
+implementation activities
+
+Name and phone number of
+specific point of contact for
+
+policy options are being
+explored by ODE. We will
+submit all of our legislative
+request DAS no later than
+April 9, 2019
+
+Recommendation (Generally expected within 6 implementation
+months)
+Agree Legislative concepts and Jessica Nguyen-Ventura
+
+503-378-5156
+
+Narrative for Recommendation 14
+
+ODE is the beginning stages of developing legislative concepts and policy options for the 2019
+legislative session. We will explore recommendation #14 with ODE’s management Team. Over the
+next couple of months, ODE’s management team will review concepts submitted by ODE staff, the
+Governor’s Office, our sister agencies, and will work to identify legislative concepts for the 2019
+legislative session. ODE’s legislative request will be submitted to DAS no later than April 9, 2018. DAS
+and the Governor’s Education Policy Advisor will review our request. By July of 2019, ODE will know
+which of our legislative request have been approved for the 2019 legislative session.
+
+RECOMMENDATION 15
+
+ODE should work with the Legislature to increase standards for sponsors of statewide and regional
+virtual charter schools. Options that ODE and the Legislature could explore include spelling out
+individual district responsibilities in detail, increased ODE oversight of districts, and shifting
+sponsorship of the schools to a central body.
+
+Target date to complete
+
+implementation activities Name and phone number of
+
+A Di ith
+Bree or msagree wi specific point of contact for
+
+Recommendation (Generally expected within 6 implementation
+months)
+Legislative concepts and policy Jessica Nguyen-Ventura
+Agree options are being explored by 503-378-5156
+
+ODE. We will submit all of our
+
+Page 9 of 10
+
+--- OCR of this page (tesseract), not checked by a person: check the PDF before quoting or copying a figure ---
+10
+
+legislative request DAS no
+later than April 9,2019
+
+Narrative for Recommendation 15
+
+ODE is the beginning stages of developing legislative concepts and policy options for the 2019
+legislative session. Over the next couple of months, ODE’s management team will review concepts
+submitted by ODE staff, the Governor’s Office, our sister agencies, and will work to identify
+legislative concepts for the 2019 legislative session. ODE’s legislative request will be submitted to
+DAS no later than April 9, 2018. DAS and the Governor’s Education Policy Advisor will review our
+request. By July of 2019, ODE will know which of our legislative request have been approved for the
+2019 legislative session.
+
+Please contact Colt Gill at 503-947-5652 with any questions.
+
+Sincerely, ———+_——_—___
+
+Colt Gill
+Acting Deputy Superintendent
+
+cc: Cindy Hunt
+Acting Chief of Staff
+
+Page 10 of 10
+

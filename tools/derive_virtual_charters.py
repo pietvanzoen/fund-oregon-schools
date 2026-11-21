@@ -20,18 +20,33 @@ SCIO_ADMW_2025_26 = 2356.76  # Scio SD 95 2025-26 ADMw (current year) [SRC:ode/s
 MIN_PASS_K8, MIN_PASS_HS = 0.80, 0.95
 
 rows = list(csv.DictReader(open(os.path.join(ROOT, "analysis", DATA), newline="", encoding="utf-8")))
+GRADES = "data/virtual_charters_grades_2025-26.csv"
+HSADMW = "data/virtual_charters_hs_admw_2024-25.csv"
+hs_admw = {r["institution_id"]: float(r["hs_admw_9_12"]) for r in csv.DictReader(
+    open(os.path.join(ROOT, "analysis", HSADMW), newline="", encoding="utf-8")) if r["hs_admw_9_12"]}
+in_hss = [r for r in rows if r["institution_id"] in hs_admw]
+grades = {r["institution_id"]: r for r in csv.DictReader(open(os.path.join(ROOT, "analysis", GRADES), newline="", encoding="utf-8"))}
+K8 = ["fall_2025_k"] + [f"fall_2025_g{n}" for n in range(1, 9)]
+HS = [f"fall_2025_g{n}" for n in range(9, 13)]
+k8 = lambda iid: sum(int(grades[iid][c]) for c in K8)
+hs = lambda iid: sum(int(grades[iid][c]) for c in HS)
+in_report = [r["institution_id"] for r in rows]
 col = lambda k: [float(r[k]) for r in rows]
 sponsors = {r["sponsor_district"]: r["sponsor_admw_separated"] for r in rows}
 
 attributable = sum(float(r["ode_separate_extended_admw"]) * float(r["sponsor_gpg_per_ext_admw_2025_26"]) for r in rows)
+keep_split = sum(float(r["ode_separate_extended_admw"]) * float(r["sponsor_gpg_per_ext_admw_2025_26"])
+                 * (k8(r["institution_id"]) * (1 - MIN_PASS_K8) + hs(r["institution_id"]) * (1 - MIN_PASS_HS))
+                 / (k8(r["institution_id"]) + hs(r["institution_id"])) for r in rows)
 est_assume = ("money follows each sponsor's average General Purpose Grant per extended ADMw; mixes state and local "
               "formula revenue; excludes transportation and high-cost disability grants; covers only the 20 charters in "
               "ODE's 2025-26 report")
-keep_assume = ("every contract pays exactly the statutory minimum for a district sponsor; all students K-8 (high end) "
-               "or all 9-12 (low end), because the report has no grade split; ignores the lower special-education "
+keep_common = ("every contract pays exactly the statutory minimum for a district sponsor; ignores the lower special-education "
                "minimums (ORS 338.165(2), which a district and charter may renegotiate case by case under 338.165(4)), which "
                "could let sponsors keep more; the pass-through applies to current-year "
                "ADMw but the estimate uses extended ADMw; " + est_assume)
+keep_assume = ("all students K-8 (high end) or all 9-12 (low end), because the report has no grade split; "
+               + keep_common)
 share_assume = (est_assume + "; the denominator also includes transportation, high-cost disability grants and the "
                 "educator advancement fund, which the numerator leaves out, so the share is understated")
 
@@ -75,6 +90,52 @@ out = [
      f"{DATA}; legislature/ors/ors338.html", keep_assume),
     ("north_bend_gpg_per_current_admw", round(NB_GPG / NB_ADMW_2025_26), "USD per ADMw", "derived",
      "North Bend General Purpose Grant divided by current-year ADMw", "36,777,648.12 / 3,194.12", f"{EST} p.32", ""),
+    ("virtual_charters_listed_2025_26", len(grades), "schools", "derived",
+     "Virtual charters on ODE's 2025-26 charter school list", "count of rows", GRADES, ""),
+    ("new_charters_fall_2025_students", sum(int(g["fall_2025_total"]) for i, g in grades.items() if i not in in_report),
+     "students (headcount)", "derived", "Fall 2025 enrollment of listed virtual charters missing from the transparency report",
+     "sum of fall_2025_total for institution_ids not in the transparency report", f"{GRADES}; {DATA}", ""),
+    ("k8_headcount_fall_2025", sum(k8(i) for i in in_report), "students (headcount)", "derived",
+     "K-8 enrollment, Oct 1 2025, of the 20 charters in the transparency report", "sum of K-8 grade columns", GRADES, ""),
+    ("hs_headcount_fall_2025", sum(hs(i) for i in in_report), "students (headcount)", "derived",
+     "Grades 9-12 enrollment, Oct 1 2025, of the 20 charters in the transparency report", "sum of grade 9-12 columns", GRADES, ""),
+    ("k8_share_fall_2025", round(100 * sum(k8(i) for i in in_report) / sum(k8(i) + hs(i) for i in in_report), 1), "percent",
+     "derived", "K-8 share of fall 2025 enrollment, 20 charters in the transparency report",
+     "k8_headcount_fall_2025 / (k8 + hs headcount)", GRADES, ""),
+    ("sponsor_keep_gradesplit_2025_26", round(keep_split / 1e6, 1), "USD millions", "est",
+     "What sponsors would keep at the statutory minimum, using each school's fall 2025 grade split",
+     "sum over charters of ode_separate_extended_admw x sponsor GPG x (K-8 share x 0.20 + 9-12 share x 0.05)",
+     f"{DATA}; {GRADES}; legislature/ors/ors338.html",
+     "each school's Oct 1 headcount split by grade stands in for its ADMw split (special education and other weights "
+     "may differ by grade); " + keep_common),
+    ("orca_keep_at_minimum_2025_26", round(next(
+        float(r["ode_separate_extended_admw"]) * float(r["sponsor_gpg_per_ext_admw_2025_26"])
+        * (k8(r["institution_id"]) * (1 - MIN_PASS_K8) + hs(r["institution_id"]) * (1 - MIN_PASS_HS))
+        / (k8(r["institution_id"]) + hs(r["institution_id"])) for r in rows if r["institution_id"] == "4399") / 1e6, 1),
+     "USD millions", "est", "What Santiam Canyon would keep from Oregon Charter Academy at the statutory minimum",
+     "Oregon Charter Academy's ode_separate_extended_admw x Santiam Canyon GPG x (K-8 share x 0.20 + 9-12 share x 0.05)",
+     f"{DATA}; {GRADES}; legislature/ors/ors338.html",
+     "Oregon Charter Academy's Oct 1 headcount split by grade stands in for its ADMw split; " + keep_common.replace(
+         "; covers only the 20 charters in ODE's 2025-26 report", "")),
+    ("hss_listed_charters", len(in_hss), "charters", "derived",
+     "Report charters with their own row in ODE's 2025-27 High School Success allocations", "count of rows with a 9-12 ADMw",
+     HSADMW, ""),
+    ("hs_admw_share_2024_25", round(100 * sum(hs_admw[r["institution_id"]] for r in in_hss)
+                                     / sum(float(r["admw_2024_25"]) for r in in_hss), 1), "percent", "est",
+     "9-12 share of 2024-25 ADMw, report charters with an HSS row",
+     "sum of HSS 9-12 ADMw / sum of 2024-25 ADMw, same charters", f"{HSADMW}; {DATA}",
+     "ODE's HSS 9-12 ADMw and the transparency report's 2024-25 ADMw are on the same basis (ODE says the HSS "
+     "allocations use 2024-25 State School Fund data); ODE doesn't say how it weights the 9-12 count"),
+    ("hs_headcount_share_hss_charters_fall_2025", round(100 * sum(hs(r["institution_id"]) for r in in_hss)
+                                     / sum(k8(r["institution_id"]) + hs(r["institution_id"]) for r in in_hss), 1),
+     "percent", "derived", "9-12 share of Oct 1, 2025 headcount, the same charters",
+     "grade 9-12 headcount / K-12 headcount, same charters", f"{GRADES}; {HSADMW}", ""),
+    ("orca_formula_revenue_2025_26", round(next(
+        float(r["ode_separate_extended_admw"]) * float(r["sponsor_gpg_per_ext_admw_2025_26"])
+        for r in rows if r["institution_id"] == "4399") / 1e6, 1),
+     "USD millions", "est", "General Purpose Grant attributable to Oregon Charter Academy's students, 2025-26",
+     "Oregon Charter Academy's ode_separate_extended_admw x Santiam Canyon GPG per extended ADMw", DATA, "uses extended ADMw (here the 2024-25 ADMw) at 2025-26 rates; " + est_assume.replace(
+         "; covers only the 20 charters in ODE's 2025-26 report", "")),
     ("scio_gpg_per_current_admw", round(SCIO_GPG / SCIO_ADMW_2025_26), "USD per ADMw", "derived",
      "Scio General Purpose Grant divided by current-year ADMw", "27,800,843.40 / 2,356.76", f"{EST} p.118", ""),
 ]

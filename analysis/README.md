@@ -17,6 +17,8 @@
 | `glossary.csv` | Abbreviations and terms in plain words (`term, full_name, kind, tooltip, definition, source`); feeds the Glossary page and the site's hover tooltips |
 | `topics/virtual-charters.md` | How State School Fund money follows students to virtual charters; current law and 2025 bills |
 | `data/virtual_charters_2025-26.csv` | 2025-26 enrollment (ADMr/ADMw) by virtual charter and sponsor, with sponsor grant rates, as ODE prints them |
+| `data/virtual_charters_grades_2025-26.csv` | Virtual charters on ODE's 2025-26 list: opening and contract dates, management type, Oct 1, 2025 enrollment by grade |
+| `data/virtual_charters_hs_admw_2024-25.csv` | Virtual charters' 9-12 ADMw from ODE's 2025-27 High School Success allocations (2024-25 data) |
 | `derived/virtual_charters.csv` | Our sums, shares and estimates for the online charters topic, written by `tools/derive_virtual_charters.py` |
 | `timeline.md` | Dated events, past and upcoming |
 | `open_questions.md` | Facts to confirm and sources still to find |
