@@ -242,7 +242,7 @@ def from_analysis(page, src, ctx):
     md = mark_analysis(md)
     md = cites(md, ctx)
     if page == "index.md":
-        md = re.sub(r"^(# .*\n\n(?:.+\n)+)", lambda m: m.group(1) + "\n" + INTRO, md, count=1)  # box after the opening paragraph, so the purpose comes first
+        md = re.sub(r"^## ", lambda m: INTRO + "## ", md, count=1, flags=re.M)  # box after the intro, so the purpose comes first
         md, n = re.subn(r"<!-- site: funding chart -->\n(\|.*\n)+", lambda m: funding_chart(ctx) + "\n", md)
         assert n == 1, "OVERVIEW.md lost its '<!-- site: funding chart -->' marker above the key numbers table"
     return md + footer([f"analysis/{src}"], [f"analysis/{src}"])
