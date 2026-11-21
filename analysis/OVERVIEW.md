@@ -1,8 +1,7 @@
 # Oregon K-12 funding: the research archive
 
-A research archive on Oregon K-12 funding that campaigns can use to check facts and build their own materials. It
-covers how much the state spends on public schools, how that money is shared, and what it buys, focused on the
-2027-29 budget.
+A research archive on Oregon K-12 funding, focused on the 2027-29 budget, that campaigns can use to check facts and
+build their own materials.
 
 - 💰 **How much:** the State School Fund, the gap to the Quality Education Model, and reserves → `data/qem_gap.csv`
 - ⚖️ **How it's shared:** the funding formula: weights, caps and money that follows students → `BRIEFING.md#g-how-the-money-is-shared-the-formula`
