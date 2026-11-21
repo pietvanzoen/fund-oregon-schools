@@ -66,6 +66,10 @@ same bar.
 description:
 - Title says what to do ("Ask ODE how …", "Records request: …"). Labels `manual` and `outreach` (or just
   `manual` for a judgement call), assigned to `pietvanzoen`, "Part of #<n>" at the end.
+- **"Why this matters (context for you)":** a few plain bullets Piet can read cold: what question the answer
+  settles, what the archive can say without it (with the current figure or range), where it's likely to matter
+  (a bill, a hearing, the budget), and what changes in the archive when the answer comes back. Use only facts
+  already in the archive.
 - **For an email or records request:** the exact address, and where you found it (an official page, with the
   page named; never a guessed address; if you can't find one, say so and name the office to call); the subject;
   the full draft in a code block (GitHub gives it a copy button), written to be sent as is and signed
