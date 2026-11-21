@@ -5,16 +5,56 @@
     python3 tools/check_citations.py --pending  # list queued sources not fetched yet
 
 Errors: unknown SRC path (not archived and not queued), page beyond the document, unknown NEWS id,
-CSV row with no source, malformed JSONL, duplicate queue paths or news ids.
+CSV row with no source, malformed JSONL, duplicate queue paths or news ids;
+malformed analysis/derived/<topic>.csv, unknown [DER:topic/id], a DER value not shown in its sentence or table row,
+a DER figure in BRIEFING without "our sum"/"our estimate" in its sentence;
+a topic file without the three sections, or a line under "What the sources say" with no source citation or with
+"Analysis:".
+Warnings also flag a number under "What the sources say" that isn't in the text of a source the line cites.
 """
 import argparse
 import csv
 import os
+import re
 import sys
+from decimal import ROUND_HALF_UP, Decimal
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import (ANALYSIS, NEWS_INDEX, QUOTES, ROOT, SOURCES, TAG_RE, parse_src,  # noqa: E402
+from common import (ANALYSIS, DERIVED, NEWS_INDEX, QUOTES, ROOT, SOURCES, TAG_RE, parse_src,  # noqa: E402
                     read_jsonl, read_queue, text_path)
+
+SECTIONS = ["What the sources say", "Derived figures", "Analysis"]
+DER_COLS = ["id", "value", "unit", "kind", "label", "method", "inputs", "assumptions"]
+NUM_RE = re.compile(r"\d[\d,]*(?:\.\d+)?")
+BLOCK_START = re.compile(r"^\s*(?:[-*] |\d+\. |\||#+ )")
+# shortcut: an abbreviation like "Gov. " also ends a sentence; reword the sentence if it splits a DER figure off
+SENTENCE_END = re.compile(r"(?<=[.!?])\s+(?=[A-Z(\[*])")
+
+
+def blocks(lines):
+    """[(line number, text)] per paragraph, list item, table row or heading; wrapped lines are joined."""
+    out, open_block = [], False
+    for n, line in lines:
+        if not line.strip():
+            open_block = False
+        elif BLOCK_START.match(line) or not open_block:
+            out.append([n, line.strip()])
+            open_block = not line.lstrip().startswith(("|", "#"))
+        else:
+            out[-1][1] += " " + line.strip()
+    return out
+
+
+def numbers(text):
+    """Numbers outside citation tags, commas dropped."""
+    return [x.replace(",", "") for x in NUM_RE.findall(TAG_RE.sub(" ", text))]
+
+
+def rounds_to(value, shown):
+    """True if value, rounded to the precision shown ("22,100" -> hundreds, "4.0" -> tenths), equals shown."""
+    d = Decimal(shown)
+    exp = d.as_tuple().exponent or (len(shown) - len(shown.rstrip("0")) if shown.strip("0") else 0)
+    return Decimal(value).quantize(Decimal(1).scaleb(exp), rounding=ROUND_HALF_UP) == d
 
 
 def main():
@@ -44,6 +84,30 @@ def main():
             if len(str(q.get("text", "")).split()) >= 25:
                 errors.append(f"news {r.get('id')}: quote of 25+ words")
     news_ids = set(ids)
+    news_text = {r.get("id"): " ".join(str(v) for v in r.values()) for r in news}
+
+    derived = {}  # topic -> id -> row; read first so DER tags anywhere can resolve
+    for f in sorted(os.listdir(DERIVED)) if os.path.isdir(DERIVED) else []:
+        if not f.endswith(".csv"):
+            continue
+        rel = os.path.relpath(os.path.join(DERIVED, f), ROOT)
+        with open(os.path.join(DERIVED, f), newline="", encoding="utf-8") as fh:
+            rd = csv.DictReader(fh)
+            if rd.fieldnames != DER_COLS:
+                errors.append(f"{rel}: columns must be {','.join(DER_COLS)}")
+                continue
+            rows = derived.setdefault(f[:-4], {})
+            for n, row in enumerate(rd, 2):
+                if row["id"] in rows:
+                    errors.append(f"{rel}:{n}: duplicate id {row['id']}")
+                if row["kind"] not in ("derived", "est"):
+                    errors.append(f"{rel}:{n}: kind must be derived or est")
+                try:
+                    Decimal(row["value"])
+                except ArithmeticError:
+                    errors.append(f"{rel}:{n}: value {row['value']!r} is not a number")
+                    continue
+                rows[row["id"]] = row
 
     def check_tag(where, kind, body):
         if kind == "SRC":
@@ -59,6 +123,10 @@ def main():
                 warnings.append(f"{where}: pending (queued, not fetched): {path}")
             else:
                 errors.append(f"{where}: unknown source {path} (not archived, not in _queue.csv)")
+        elif kind == "DER":
+            topic, _, did = body.strip().partition("/")
+            if did not in derived.get(topic, {}):
+                errors.append(f"{where}: unknown derived figure {body.strip()} (no such id in analysis/derived/{topic}.csv)")
         elif kind == "NEWS" and body.strip() not in news_ids:
             errors.append(f"{where}: unknown NEWS id {body.strip()}")
         elif kind == "VID":
@@ -71,9 +139,15 @@ def main():
             full = os.path.join(dirpath, f)
             rel = os.path.relpath(full, ROOT)
             if f.endswith(".md"):
-                for n, line in enumerate(open(full, encoding="utf-8"), 1):
+                lines = list(enumerate(open(full, encoding="utf-8").read().split("\n"), 1))
+                for n, line in lines:
                     for m in TAG_RE.finditer(line):
                         check_tag(f"{rel}:{n}", m.group(1), m.group(2))
+                check_der_figures(rel, lines, derived, errors)
+                if os.path.dirname(full) == os.path.join(ANALYSIS, "topics"):
+                    check_sections(rel, lines, news_text, errors, warnings)
+            elif dirpath == DERIVED:
+                continue  # checked above
             elif f.endswith(".csv"):
                 with open(full, newline="", encoding="utf-8") as fh:
                     rd = csv.DictReader(fh)
@@ -98,8 +172,63 @@ def main():
         print("warn ", w)
     for e in errors:
         print("ERROR", e)
-    print(f"{len(errors)} errors, {len(set(warnings))} pending-source warnings, {len(pending)} queued sources not fetched")
+    print(f"{len(errors)} errors, {len(set(warnings))} warnings, {len(pending)} queued sources not fetched")
     return 1 if errors else 0
+
+
+def check_der_figures(rel, lines, derived, errors):
+    """Each DER value is shown in its sentence or table row; in BRIEFING that sentence says "our sum"/"our estimate"."""
+    for n, text in blocks(lines):
+        for sent in [text] if text.startswith("|") else SENTENCE_END.split(text):
+            for m in TAG_RE.finditer(sent):
+                topic, _, did = m.group(2).strip().partition("/")
+                row = derived.get(topic, {}).get(did) if m.group(1) == "DER" else None
+                if not row:
+                    continue  # not DER, or unknown id (reported by check_tag)
+                # shortcut: compares in the derived file's unit (256.6 USD millions matches "$257M", not "$0.26B")
+                if not any(rounds_to(row["value"], x) for x in numbers(sent)):
+                    errors.append(f"{rel}:{n}: [DER:{m.group(2)}] is {row['value']} {row['unit']}; "
+                                  "no number in its sentence rounds to that")
+                if rel == "analysis/BRIEFING.md" and not re.search(r"\bour (sum|estimate)\b", sent, re.I):
+                    errors.append(f"{rel}:{n}: [DER:{m.group(2)}] needs \"our sum\" or \"our estimate\" in its sentence")
+
+
+def check_sections(rel, lines, news_text, errors, warnings):
+    """Topic files: the three sections in order; every line under the first cites a source and carries no inference."""
+    heads = [(i, line[3:].strip()) for i, (_, line) in enumerate(lines) if line.startswith("## ")]
+    if [h for _, h in heads] != SECTIONS:
+        errors.append(f"{rel}: needs exactly these sections, in order: " + ", ".join("## " + s for s in SECTIONS))
+        return
+    for n, text in blocks(lines[heads[0][0] + 1:heads[1][0]]):
+        if text.startswith("#"):
+            continue
+        cites = [m for m in TAG_RE.finditer(text) if m.group(1) != "DER"]
+        if not cites:
+            errors.append(f"{rel}:{n}: line under \"What the sources say\" has no source citation")
+        if "Analysis:" in text:
+            errors.append(f"{rel}:{n}: \"Analysis:\" under \"What the sources say\"; move it to ## Analysis")
+        texts = [cited_text(m, news_text) for m in cites]
+        if not cites or None in texts:
+            continue  # a VID/PPSARCH/pending source has no text here to compare against
+        # shortcut: no unit rescaling ($1.27B vs 1,271M warns); add it if false alarms are frequent, then make this an error
+        hay = set(numbers(" ".join(texts)))  # whole numbers, so "22" doesn't match inside "2022"
+        for x in numbers(text):
+            if x not in hay:
+                warnings.append(f"{rel}:{n}: {x} is not in the text of the sources this line cites")
+
+
+def cited_text(m, news_text):
+    """Text of the cited page (or whole document / news record), or None if there's none to check."""
+    if m.group(1) == "NEWS":
+        return news_text.get(m.group(2).strip())
+    if m.group(1) != "SRC":
+        return None
+    path, page = parse_src(m.group(2))
+    tp = text_path(path)
+    if not tp:
+        return None
+    pages = open(tp, encoding="utf-8", errors="replace").read().split("\f")
+    return pages[page - 1] if page and page <= len(pages) else "\f".join(pages)
 
 
 if __name__ == "__main__":

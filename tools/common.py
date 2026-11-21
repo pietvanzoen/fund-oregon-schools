@@ -11,9 +11,10 @@ QUEUE = os.path.join(SOURCES, "_queue.csv")
 MANIFEST = os.path.join(SOURCES, "_manifest.jsonl")
 NEWS_INDEX = os.path.join(SOURCES, "news", "index.jsonl")
 QUOTES = os.path.join(ANALYSIS, "people", "quotes_all.jsonl")
+DERIVED = os.path.join(ANALYSIS, "derived")
 
-# [SRC:path p.3] [VID:path@1:02:03] [NEWS:id] [PPSARCH:BB:123 p.2]
-TAG_RE = re.compile(r"\[(SRC|VID|NEWS|PPSARCH):([^\]]+)\]")
+# [SRC:path p.3] [VID:path@1:02:03] [NEWS:id] [PPSARCH:BB:123 p.2] [DER:topic/id] (DER: our own calculation)
+TAG_RE = re.compile(r"\[(SRC|VID|NEWS|PPSARCH|DER):([^\]]+)\]")
 
 
 def read_queue():

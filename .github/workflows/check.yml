@@ -16,3 +16,9 @@ jobs:
         run: python3 tools/check_sources.py
       - name: Tool smoke tests
         run: python3 tools/test_tools.py
+      - name: Derived figures match their scripts
+        run: |
+          shopt -s nullglob
+          for f in tools/derive_*.py; do python3 "$f"; done
+          git add --intent-to-add analysis/derived/ 2>/dev/null || true  # a new, uncommitted output shows in the diff too
+          git diff --exit-code -- analysis/derived/

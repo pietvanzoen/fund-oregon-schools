@@ -6,6 +6,7 @@
 
 SRC → the original URL from the manifest (or the queue, if not fetched yet), with #page=N for PDFs.
 NEWS → the article URL. PPSARCH → the PPS archive on GitHub. VID → URL from the manifest plus #t=seconds.
+DER → our own calculation, analysis/derived/<topic>.csv on GitHub.
 """
 import argparse
 import os
@@ -15,6 +16,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import NEWS_INDEX, TAG_RE, manifest_by_path, parse_src, read_jsonl, read_queue  # noqa: E402
 
 REPO = "https://github.com/pietvanzoen/fund-oregon-schools/blob/main/sources/"
+DERIVED = "https://github.com/pietvanzoen/fund-oregon-schools/blob/main/analysis/derived/"
 PPSARCH = "https://github.com/timaelliott/save-our-schools"
 
 
@@ -46,6 +48,8 @@ def link_for(kind, body, src_urls, news, repo):
         return news.get(body.strip())
     if kind == "PPSARCH":
         return PPSARCH
+    if kind == "DER":
+        return DERIVED + body.strip().partition("/")[0] + ".csv"
     return None
 
 
