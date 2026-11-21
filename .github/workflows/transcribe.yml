@@ -29,7 +29,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install -q faster-whisper==1.2.1
+      # av pinned: av 19 dropped the open() argument faster-whisper 1.2.1 passes (metadata_errors)
+      - run: pip install -q faster-whisper==1.2.1 av==17.0.1
       - uses: actions/cache@v4
         with:
           path: ~/.cache/huggingface
