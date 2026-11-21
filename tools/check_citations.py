@@ -134,6 +134,12 @@ def main():
             if not any(p.startswith(path) for p in qpaths) and not os.path.exists(os.path.join(SOURCES, path)):
                 errors.append(f"{where}: unknown video {path}")
 
+    glossary_path = os.path.join(ANALYSIS, "glossary.csv")
+    glossary = set()
+    if os.path.exists(glossary_path):
+        with open(glossary_path, newline="", encoding="utf-8") as fh:
+            glossary = {r["term"] for r in csv.DictReader(fh)}
+
     for dirpath, _, files in os.walk(ANALYSIS):
         for f in sorted(files):
             full = os.path.join(dirpath, f)
@@ -144,6 +150,7 @@ def main():
                     for m in TAG_RE.finditer(line):
                         check_tag(f"{rel}:{n}", m.group(1), m.group(2))
                 check_der_figures(rel, lines, derived, errors)
+                check_glossary(rel, lines, glossary, warnings)
                 if os.path.dirname(full) == os.path.join(ANALYSIS, "topics"):
                     check_sections(rel, lines, news_text, errors, warnings)
             elif dirpath == DERIVED:
@@ -191,6 +198,24 @@ def check_der_figures(rel, lines, derived, errors):
                                   "no number in its sentence rounds to that")
                 if rel == "analysis/BRIEFING.md" and not re.search(r"\bour (sum|estimate)\b", sent, re.I):
                     errors.append(f"{rel}:{n}: [DER:{m.group(2)}] needs \"our sum\" or \"our estimate\" in its sentence")
+
+
+# Everyday abbreviations and outlet names a reader doesn't need explained.
+NOT_GLOSSARY = {"FAQ", "PDF", "URL", "OCR", "COVID", "SW", "NE", "NW", "SE", "II", "III", "US", "USA",
+                "KATU", "KTVZ", "OPB", "KGW", "KOIN", "KLCC", "DER"}
+ABBR_RE = re.compile(r"\b[A-Z][A-Z0-9&]{1,5}[a-z]?\b")  # ADMr, ADMw too
+
+
+def check_glossary(rel, lines, glossary, warnings):
+    """CLAUDE.md rule 11: an abbreviation in analysis needs a glossary row, unless the line writes it out as "(XYZ)"."""
+    seen = set()
+    for n, line in lines:
+        text = re.sub(r"`[^`]*`", " ", TAG_RE.sub(" ", line))
+        for w in ABBR_RE.findall(text):
+            if w in glossary or w in NOT_GLOSSARY or w in seen or f"({w})" in text:
+                continue
+            seen.add(w)
+            warnings.append(f"{rel}:{n}: {w} isn't in analysis/glossary.csv (CLAUDE.md rule 11)")
 
 
 def check_sections(rel, lines, news_text, errors, warnings):
