@@ -1,3 +1,10 @@
+/* Atkinson Hyperlegible Next 800 for page titles; Material only loads 300/400/700 (theme.font.text) */
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@800&display=fallback");
+
+/* Headings: bold Atkinson instead of Material's light defaults */
+.md-typeset h1 { font-weight: 800; color: var(--md-default-fg-color); }
+.md-typeset h2, .md-typeset h3 { font-weight: 700; }
+
 /* Citation chips */
 .cite { display: inline-block; font-size: .72em; line-height: 1.5; padding: 0 .45em; margin: 0 .1em;
   border-radius: 999px; border: 1px solid var(--md-default-fg-color--lightest);
