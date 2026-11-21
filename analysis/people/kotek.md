@@ -40,7 +40,7 @@ Budget for 2027-29 in December [NEWS:NEWS-2026-salemreporter-1].
   majority would approve it [SRC:gov/eo/eo-26-06_faq.pdf p.2] [SRC:gov/eo/eo-26-06_faq.pdf p.3]. (KTVZ described
   this as openness to tapping the fund [NEWS:NEWS-20260416-ktvz-1]; the FAQ itself is more guarded.)
 - October 2026: KATU reports she rejected tapping one-time state reserves for PPS [NEWS:NEWS-2026-katu-kotek-pps-1].
-- Analysis: her position has been consistent: not without a supermajority already lined up. No reversal to point to.
+- Analysis: the archived statements are consistent: no draw unless a supermajority is already lined up.
 
 ## On PPS closures
 - Oct 13, 2026 letter to Superintendent Armstrong and Board Chair Wang [SRC:gov/letters/2026-10-13_kotek-letter-to-pps-school-closures.pdf p.1]:
@@ -57,7 +57,3 @@ Budget for 2027-29 in December [NEWS:NEWS-2026-salemreporter-1].
     [NEWS:NEWS-20261014-opb-1] is consistent with the text.
 - "Portland needs to do everything it possibly can to cut administrative costs and other things before it talks
   about closing schools." [NEWS:NEWS-2026-katu-kotek-pps-1]
-
-## To add
-- State of the State and budget-release speeches; 2025-27 budget document pages on K-12.
-- Exact date of the Faubion School press event.

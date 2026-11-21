@@ -34,9 +34,4 @@ the session organizes).
   [NEWS:NEWS-20260510-wweek-1]
 - Analysis: her stated test is a cut below the current service level (CSL), not whether districts face deficits.
   The 2026 QEM puts the cost of today's services about $1.2B above the SSF CSL, to come from state funds outside the
-  SSF (see `BRIEFING.md`), so an SSF at CSL passes her test whether or not those other funds keep pace. Her position matches Kotek's: no one-time money for ongoing costs (see `kotek.md`).
-
-## To add
-- Her remarks on the Nov 2026 revenue forecast and the Governor's Dec 1 budget.
-- Ways and Means hearing video where she discusses the SSF or reserves (save under `sources/legislature/video/`).
-- Her legislative newsletters on school funding.
+  SSF (see `topics/quality-education-model.md`), so an SSF at CSL passes her test whether or not those other funds keep pace. Her position matches Kotek's: no one-time money for ongoing costs (see `kotek.md`).

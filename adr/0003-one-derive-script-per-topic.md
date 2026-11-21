@@ -14,7 +14,7 @@ trimmed it.
   `tools/derive_<topic>.py`. `analysis/data/` holds only copied values.
 - One plain script per topic: no shared library, no runner.
 - Reproducibility needs no code: CI reruns every derive script and fails if `analysis/derived/` changes.
-- The section, DER-tag and BRIEFING checks live in `check_citations.py`, not a new script.
+- The section, DER-tag and "our sum" checks live in `check_citations.py`, not a new script.
 - The number-in-source check is an exact match (commas and `$` stripped) and only warns, with a `shortcut:`
   comment instead of a unit-rescaling parser.
 

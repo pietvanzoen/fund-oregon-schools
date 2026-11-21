@@ -18,13 +18,14 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
   GitHub Action downloads it (cloud sandboxes usually can't reach oregon.gov or the Legislature's site).
 - **Working a research issue end to end:** follow `.claude/plugins/fund-oregon-schools/skills/fos-work-issue/SKILL.md` (queue → fetch on the
   issue branch → analysis → two independent reviewers → PR; Piet merges).
-- **What to work on next:** `RESEARCH.md`: the core questions, the checks an issue passes before it's labelled
-  `next`, and how to write so the analysis gets used.
-- **Why things are the way they are:** `decisions/` (one record per choice, including choices not to do
-  something). Read the relevant ones before changing `tools/`, workflows or how `sources/` is stored; add one when
-  you weigh options and pick one (template in `decisions/README.md`).
-- **Overview of the decision:** `analysis/BRIEFING.md` (decision briefing). `analysis/OVERVIEW.md` is the website's
-  short home page.
+- **What to research and how it's organized:** `RESEARCH.md`: decisions, their baselines and options, dated
+  positions and questions; the checks an issue passes before it's labelled `next`; staying neutral; how to write
+  so the analysis gets used.
+- **Why the repo is built this way:** `adr/` (architecture decision records, one per choice, including choices not
+  to do something). Read the relevant ones before changing `tools/`, workflows or how `sources/` is stored; add one
+  when you weigh options and pick one (template in `adr/README.md`).
+- **Where things stand:** `analysis/decisions.md` (what's being decided, per decision) and `analysis/START.md` (the
+  website's home page).
 
 ## Rules
 1. `sources/` is primary material. Never edit or paraphrase into it. Add files only through
@@ -77,7 +78,7 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
      assumptions`; `kind` is `derived` (plain arithmetic) or `est` (rests on assumptions, listed). A constant the
      script copies from a source carries its citation in a comment. `analysis/data/*.csv` holds only values
      copied from sources.
-   - In BRIEFING and elsewhere, our figures go in their own sentences, marked "our sum" or "our estimate" with
+   - Outside `topics/`, our figures go in their own sentences, marked "our sum" or "our estimate" with
      the DER tag; inference elsewhere starts its own paragraph or list item with "Analysis:".
 5. Advocacy documents (`orgs/`, district press materials) are labeled as that group's claims or estimates.
 6. News is copyrighted: store metadata, a summary in your own words, and at most short quotes (< 25 words each)
@@ -85,7 +86,8 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
    but follow the same rule anyway for consistency.)
 7. Describe members of the public, don't name them. Officials, legislators, staff and organizations can be named.
 8. Prefer structured outputs (CSV/JSONL) alongside readable Markdown. Every CSV row has a `source` column, except
-   `analysis/derived/*.csv`, whose rows name their `inputs`, and `analysis/updates.csv`, whose rows name their PR.
+   `analysis/derived/*.csv`, whose rows name their `inputs`, `analysis/updates.csv`, whose rows name their PR, and
+   `analysis/questions.csv`, whose rows are questions, not facts.
 9. Run `python3 tools/check_citations.py` before committing analysis changes, and after changing data or a derive
    script, run every `tools/derive_*.py` and commit `analysis/derived/`. CI runs the check, reruns the scripts and
    fails if `analysis/derived/` changes.
@@ -112,7 +114,7 @@ Least new code that fully does the job; adapted from the ponytail rules
 
 - **Before writing:** read the affected code and list everywhere the change must reach: callers, tests, the
   workflows, `site_hook.py` and `mkdocs.yml`, both skills and the reviewer prompts, CLAUDE.md, README, RUNBOOK,
-  and any record in `decisions/` that the change touches or reverses.
+  and any record in `adr/` that the change touches or reverses.
 - **Pick the first option that fully works, in this order:** skip it (say so in one line); reuse what's in
   `tools/` (`common.py`, `check_citations.py`, the existing patterns); the Python standard library; a one-liner a
   reader gets at a glance; otherwise the minimum code. Tools stay stdlib-only: no new dependencies, and no
@@ -137,17 +139,21 @@ Least new code that fully does the job; adapted from the ponytail rules
 - `sources/_manifest.jsonl` — what was fetched (path, url, final_url, fetched_at, sha256, bytes, content_type)
 - `sources/news/index.jsonl` — news records
 - `analysis/people/<slug>.md`, `analysis/people/quotes_all.jsonl` — what officials said, dated and cited
-- `analysis/promises.csv` — pledge tracker (who, what, when, source, status)
+- `analysis/decisions.csv`, `options.csv`, `positions.csv`, `questions.csv` — the decision model (`RESEARCH.md`);
+  `analysis/decisions.md` — where each decision stands, with short cited answers
+- `analysis/people/people.csv` — everyone with a role in a decision (`id` used across the decision files)
+- `analysis/promises.csv` — pledge tracker (who, what, when, status, rating on outcomes, source)
 - `analysis/data/*.csv` — SSF history, QEM gap, forecasts, reserves: values copied from sources only
 - `analysis/derived/<topic>.csv` — every value we calculated, written by `tools/derive_<topic>.py` (never by hand)
 - `analysis/topics/<topic>.md` — topic files in the three sections; each is published on the website automatically
 - `analysis/glossary.csv` — abbreviations and terms: full name, hover tooltip, cited definition
-- `analysis/timeline.md`, `analysis/open_questions.md`
+- `analysis/START.md` (home page), `analysis/timeline.md`
 - `analysis/updates.csv` — What's new for readers (`date, text, page, pr`; the site shows it newest first, the
   overview the latest three). A PR that changes reader-facing files must add a row with its number (CI checks;
-  label `no-update` to waive). `changelog/` is for maintainers
-- `decisions/NNNN-<slug>.md` — decision records: context, decision, options weighed, when to revisit
+  label `no-update` to waive). The maintainers' record is the PR description
+- `adr/NNNN-<slug>.md` — architecture decision records: context, decision, options weighed, when to revisit
 - `sources/**/<file>.pdf.ocr.txt` — the PDF's text plus OCR of its picture-only pages, by `tools/ocr_pdfs.py` in fetch-sources
 - `sources/**/<media file>.txt` — machine transcript of an .mp4/.m4a/.mp3/.wav/.webm, by the `transcribe` Action
-- Tools: `tools/search.py`, `tools/doc.py`, `tools/linkify.py`, `tools/check_citations.py`, `tools/fetch_sources.py`,
-  `tools/ocr_pdfs.py`
+- Tools: `tools/search.py`, `tools/doc.py`, `tools/linkify.py`, `tools/check_citations.py` (`--measures` for the
+  review measures), `tools/check_sources.py`, `tools/fetch_sources.py`, `tools/ocr_pdfs.py`, `tools/derive_<topic>.py`,
+  `tools/site_hook.py`, `tools/test_tools.py`

@@ -123,7 +123,7 @@ def main():
         subprocess.run(git + ["add", "-A"], check=True)
         subprocess.run(git + ["commit", "-qm", "base"], check=True)
         subprocess.run(git + ["checkout", "-qb", "pr"], check=True)
-        open(f"{root}/analysis/open_questions.md", "w").write("not on the site\n")
+        open(f"{root}/RESEARCH.md", "w").write("not under analysis/\n")
         subprocess.run(git + ["add", "-A"], check=True)
         subprocess.run(git + ["commit", "-qm", "q"], check=True)
         assert run(root, "check_citations.py", "--pr", "7", "--base", "main").returncode == 0
@@ -136,7 +136,37 @@ def main():
         assert run(root, "check_citations.py", "--pr", "7", "--base", "main").returncode == 0
         shutil.rmtree(f"{root}/.git")
         os.remove(f"{root}/analysis/updates.csv")
-        os.remove(f"{root}/analysis/open_questions.md")
+        os.remove(f"{root}/RESEARCH.md")
+
+        # decision files (RESEARCH.md): ids agree across files, a baseline per decision, known statuses
+        os.makedirs(f"{root}/analysis/people", exist_ok=True)
+        open(f"{root}/analysis/people/people.csv", "w").write("id,name,source\nkotek,Tina Kotek,[NEWS:NEWS-1]\n")
+        open(f"{root}/analysis/decisions.csv", "w").write(
+            "id,decision,decided_by,due,status,related,outcome,outcome_source,source\n"
+            "d1,D,Gov,2026-12-01,open,,,,[NEWS:NEWS-1]\nd2,D,Gov,Dec 1,done,zz,,,[NEWS:NEWS-1]\n")
+        open(f"{root}/analysis/options.csv", "w").write(
+            "id,decision,kind,option,proposed_by,proposed_on,amount,formality,source\n"
+            "o1,d1,baseline,B,,,,law,[NEWS:NEWS-1]\no2,nope,idea,X,,,,bill,[NEWS:NEWS-1]\n")
+        open(f"{root}/analysis/positions.csv", "w").write(
+            "decision,option,actor,date,stance,source\nd1,,kotek,2026-11,s,[NEWS:NEWS-1]\n"
+            "d1,o9,lieber,soon,s,[NEWS:NEWS-404]\nd1,,Portland Public Schools,2026,s,[NEWS:NEWS-1]\n")
+        open(f"{root}/analysis/questions.csv", "w").write(
+            "id,question,decision,criterion,asked_by,needed_by,status,answer,issue\n"
+            "q1,Q?,d1,c,a parent,2027-01-19,open,,\nq2,Q?,,c,a parent,,answered,,\n")
+        r = run(root, "check_citations.py")
+        out = r.stdout
+        for msg in ("decisions.csv:3: status must be", "decisions.csv:3: due must be", "related decision zz",
+                    "decision d2 has no baseline", "options.csv:3: decision nope", "options.csv:3: kind must be",
+                    "positions.csv:3: option o9", "actor lieber isn't an id", "positions.csv:3: date must be",
+                    "unknown NEWS id NEWS-404", "questions.csv:3: an answered question needs an answer",
+                    "a done decision needs an outcome"):
+            assert msg in out, (msg, out)
+        assert "Portland Public Schools" not in out and "questions.csv: no 'source'" not in out, out
+        r = run(root, "check_citations.py", "--measures")
+        assert "1 open, 1 answered" in r.stdout and "d1 (due 2026-12-01): baseline yes" in r.stdout, r.stdout
+        for f in ("decisions", "options", "positions", "questions"):
+            os.remove(f"{root}/analysis/{f}.csv")
+        shutil.rmtree(f"{root}/analysis/people")
 
         # glossary warning (rule 11): unknown abbreviations warn; glossary terms, "(XYZ)" and tags don't
         open(f"{root}/analysis/glossary.csv", "w").write(
@@ -150,7 +180,7 @@ def main():
         os.remove(f"{root}/analysis/g.md")
         os.remove(f"{root}/analysis/glossary.csv")
 
-        # derived figures, DER tags, topic sections, the BRIEFING marker and the number warning
+        # derived figures, DER tags, topic sections, the \"our sum\" rule outside topics/ and the number warning
         os.makedirs(f"{root}/analysis/derived")
         os.makedirs(f"{root}/analysis/topics")
         open(f"{root}/analysis/derived/t.csv", "w").write(
@@ -163,15 +193,15 @@ def main():
             "| Bill | Fund |\n|---|---|\n| State | $13 billion [SRC:gov/test_page.html] |\n\n"
             "## Derived figures\n\n| Figure | Value |\n|---|---|\n| Money | about $257M [DER:t/est] |\n\n"
             "## Analysis\n\nAbout 22,100 students, about 4% (our sum [DER:t/n] [DER:t/share]).\n")
-        open(f"{root}/analysis/BRIEFING.md", "w").write(
+        open(f"{root}/analysis/notes.md", "w").write(
             "Enrolled about 22,100 students (our sum [DER:t/n]).\n| Money | ~257 | our estimate [DER:t/est] |\n")
         r = run(root, "check_citations.py")
         assert r.returncode == 0 and "0 errors" in r.stdout and "not in the text" not in r.stdout, r.stdout
-        r = run(root, "linkify.py", f"{root}/analysis/BRIEFING.md")
+        r = run(root, "linkify.py", f"{root}/analysis/notes.md")
         assert "[DER:t/n](https://github.com/pietvanzoen/fund-oregon-schools/blob/main/analysis/derived/t.csv)" \
             in r.stdout, r.stdout
 
-        open(f"{root}/analysis/BRIEFING.md", "w").write(
+        open(f"{root}/analysis/notes.md", "w").write(
             "Enrolled about 22,200 students (our sum [DER:t/n]). About $257M of it [DER:t/est].\n"
             "Unknown [DER:t/nope] and [DER:zz/n].\n")
         open(f"{root}/analysis/topics/bad.md", "w").write(
@@ -184,8 +214,8 @@ def main():
         r = run(root, "check_citations.py")
         out = r.stdout
         assert r.returncode == 1 and out.count("ERROR") == 10, out
-        assert "BRIEFING.md:1: [DER:t/n] is 22110 students; no number" in out, out  # 22,200 is not 22110 rounded
-        assert "BRIEFING.md:1: [DER:t/est] needs \"our sum\" or \"our estimate\"" in out, out
+        assert "notes.md:1: [DER:t/n] is 22110 students; no number" in out, out  # 22,200 is not 22110 rounded
+        assert "notes.md:1: [DER:t/est] needs \"our sum\" or \"our estimate\"" in out, out
         assert "unknown derived figure t/nope" in out and "unknown derived figure zz/n" in out, out
         assert "bad.md:5: line under \"What the sources say\" has no source citation" in out, out
         assert "bad.md:6: \"Analysis:\" under" in out and "order.md: needs exactly these sections" in out, out
@@ -194,7 +224,7 @@ def main():
         assert "warn  analysis/topics/bad.md:7: 14 is not in the text" in out, out
         shutil.rmtree(f"{root}/analysis/derived")
         shutil.rmtree(f"{root}/analysis/topics")
-        os.remove(f"{root}/analysis/BRIEFING.md")
+        os.remove(f"{root}/analysis/notes.md")
 
         r = run(root, "linkify.py", f"{root}/analysis/a.md")
         assert f"[SRC:gov/test_page.html]({url})" in r.stdout, r.stdout

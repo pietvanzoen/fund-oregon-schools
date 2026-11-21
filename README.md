@@ -5,8 +5,9 @@ Recommended Budget and the 2027 Legislature): primary sources, and analysis that
 
 **Browse it:** <https://fundoregonschools.org>, a readable website built from this repo.
 
-**Start here:** [`analysis/BRIEFING.md`](analysis/BRIEFING.md): what's being decided, how we got here, the numbers, who
-stands where, contested claims and known gaps.
+**Start here:** [`analysis/START.md`](analysis/START.md) (the home page) and
+[`analysis/decisions.md`](analysis/decisions.md): what's being decided, the options, who stands where and what's open.
+How the research is organized: [`RESEARCH.md`](RESEARCH.md).
 
 **Ask questions with Claude:** paste this into a new Claude chat and it will set you up (see [`SETUP.md`](SETUP.md)):
 
@@ -19,24 +20,16 @@ primary sources kept untouched in `sources/`, and everything in `analysis/` cite
 material stays in that archive and is cited from here as `[PPSARCH:...]`.
 
 ## Layout
-| Path | What |
-|---|---|
-| `sources/` | Primary documents (Governor, Legislature/OLIS, ODE and the Quality Education Commission, fiscal offices, districts, advocacy groups) with provenance in `_manifest.jsonl`; each PDF/HTML has a `.txt` text copy (plus `.pdf.ocr.txt` where pages are pictures). `news/index.jsonl` holds news metadata and summaries, never full text. |
-| `sources/_queue.csv` | Documents to archive. Add a row; the `fetch-sources` Action downloads it. |
-| `analysis/` | Briefing, people and quotes, promises tracker, data tables, timeline, topics, open questions. Every claim cited. `data/` holds figures copied from sources; `derived/` holds our own calculations, written by `tools/derive_<topic>.py`. |
-| `tools/` | Stdlib Python: `search.py`, `doc.py`, `linkify.py`, `check_citations.py`, `fetch_sources.py`, `ocr_pdfs.py`, `test_tools.py`. |
-| `CLAUDE.md`, `.claude/plugins/fund-oregon-schools/` | Rules for Claude, and the `fund-oregon-schools` Claude plugin: `fos-research` (answer questions with citations) and `fos-work-issue` (work a research issue end to end; reviewer prompts in `reviewers/`). Install by adding this repo as a plugin marketplace (`.claude-plugin/marketplace.json`). Bump the version in both `plugin.json` and `marketplace.json` on any change. |
-| `SETUP.md`, `setup/fund-oregon-research/` | Setup instructions for volunteers' Claude, and the skill they install on their own account. |
-| `RESEARCH.md` | What to research and why: core questions tied to decision dates, how issues are chosen, how we check the analysis is useful. |
-| `RUNBOOK.md` | Adding and refreshing sources. |
-| `decisions/` | Decision records: why the archive works the way it does, options weighed, and when to revisit. |
-| `mkdocs.yml`, `website/`, `tools/site_hook.py`, `overrides/` | The public website. Pages are generated from `analysis/` and `sources/` on every push to `main`; only the About page and `robots.txt` live in `website/`. Page titles and meta descriptions are set in `PAGE_META` in `tools/site_hook.py`; `overrides/main.html` adds link-preview (Open Graph) tags. Preview: `pip install "mkdocs>=1.6,<2" "mkdocs-material>=9.7,<10" && mkdocs serve`. |
+- `sources/`: primary documents, untouched, with provenance in `_manifest.jsonl`; `_queue.csv` is what to fetch.
+- `analysis/`: everything derived from them, every claim cited. The research model (decisions, options, positions,
+  questions, evidence) is in [`RESEARCH.md`](RESEARCH.md).
+- Everything else supports the research: see "How the repo supports the research" at the end of `RESEARCH.md`.
 
 ## Quick use
 ```bash
 python3 tools/search.py "State School Fund"
 python3 tools/doc.py 2026_qem_report --grep "current service level"
-python3 tools/linkify.py analysis/BRIEFING.md
+python3 tools/linkify.py analysis/decisions.md
 python3 tools/check_citations.py
 ```
 

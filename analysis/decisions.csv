@@ -1,0 +1,6 @@
+id,decision,decided_by,due,status,related,outcome,outcome_source,source
+grb-2027-29,The Governor's recommended State School Fund amount for 2027-29,Gov. Tina Kotek,2026-12-01,open,ssf-2027-29,,,[SRC:legislature/ors/ors291.html]
+ssf-2027-29,The State School Fund amount for 2027-29,"The Legislature, starting in the Joint Committee on Ways and Means",2027-06-27,open,grb-2027-29;esf-draw-2027-29;cost-model-2027;formula-2027,,,[SRC:legislature/constitution/oregon-constitution.html] [SRC:reference/2026-09-30_opdc-navigating-2027-session.pdf]
+esf-draw-2027-29,"Whether to draw on the Education Stability Fund in 2027-29, and for what","The Legislature (three-fifths of each chamber), with an economic trigger or the Governor's emergency declaration",2027-06-27,open,ssf-2027-29,,,[SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1]
+cost-model-2027,"Whether to change or replace the Quality Education Model, the state's estimate of what schools need",The Legislature,2027-06-27,open,ssf-2027-29,,,[NEWS:NEWS-20260617-occ-1]
+formula-2027,Changes to the State School Fund formula's weights and caps,The Legislature,2027-06-27,open,ssf-2027-29,,,[SRC:legislature/ors/ors327.html]

@@ -16,7 +16,8 @@ there. If github.com can't be reached, read the same files through the GitHub co
 
 ## 1. Orient
 - Read `CLAUDE.md` (citation formats, quote rules).
-- Broad question or first question of a session: read `analysis/BRIEFING.md` and `analysis/README.md`.
+- Broad question or first question of a session: read `RESEARCH.md`, `analysis/START.md` and
+  `analysis/decisions.md`.
 - Check freshness: `git log -1 --format=%cd --date=short`, and `sources/_queue.csv` rows with no matching
   file yet (`python3 tools/check_citations.py --pending`). Mention when an answer rests on unfetched sources.
 
@@ -28,7 +29,7 @@ python3 tools/search.py "Kotek" --kind quote
 python3 tools/search.py "school funding" --kind src             # also hearing transcripts: [VID:...@H:MM:SS] hits
 python3 tools/doc.py qec/2026_qem_report 12                     # page 12 of a sources/ PDF by path fragment
 python3 tools/doc.py qec/2026_qem_report --grep "current service level"
-python3 tools/linkify.py analysis/BRIEFING.md                   # print with citation tags turned into links
+python3 tools/linkify.py analysis/decisions.md                  # print with citation tags turned into links
 ```
 
 ## 3. Answer recipes
@@ -39,7 +40,9 @@ python3 tools/linkify.py analysis/BRIEFING.md                   # print with cit
 | What's in the Governor's budget? | `sources/gov/` recommended budget documents; compare with `ssf_history.csv` |
 | Can reserves be used? | `analysis/data/reserves.csv`, `analysis/topics/reserves.md` |
 | A figure tagged `[DER:<topic>/<id>]` | the row in `analysis/derived/<topic>.csv` (method, inputs, assumptions); made by `tools/derive_<topic>.py` |
-| Where does a legislator stand? | `analysis/people/<slug>.md`; hearing video under `sources/legislature/video/` |
+| Where does someone stand? | `analysis/positions.csv` (dated stances), `analysis/people/<id>.md`; recordings under `sources/` (`[VID:...]`) |
+| What's being decided, and the options? | `analysis/decisions.md`, `decisions.csv`, `options.csv` |
+| What's still open? | `analysis/questions.csv` |
 | PPS specifics (closures, PPS budget) | the PPS archive (`anthropic-skills:pps-research` / timaelliott/save-our-schools); cite as `[PPSARCH:...]` |
 | What's coming up? | `analysis/timeline.md` |
 
