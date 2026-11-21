@@ -22,11 +22,17 @@ read the issue before going further; if neither works, stop and say so.
 ## 1. Pick the issue
 
 - If you were given a number, use it.
-- Otherwise take the oldest open issue labelled `auto` that has none of `needs-human`, `decision`, `manual`, and
-  no open PR or `claude/issue-<n>-*` branch already.
+- Otherwise take the oldest open issue labelled `auto` that has none of `needs-human`, `decision`, `manual`,
+  `in progress`, and no open PR or `claude/issue-<n>-*` branch already. Look among those labelled `next` first;
+  only if none qualifies, take one with no priority label, then one labelled `later`.
+- Mark it as yours before starting: add the `in progress` label
+  (`gh api repos/pietvanzoen/fund-oregon-schools/issues/<n>/labels -f "labels[]=in progress"`). It stays on while
+  the PR is open; the issue closes on merge through `Closes #<n>`.
 - Stop and say why (on the issue, as a short comment) if it turns out to be a decision, needs hearing video or a
   page behind a login for most of its checklist, or asks for a code change rather than research. Add
-  `needs-human` and pick nothing else in that run.
+  `needs-human`, remove `in progress`
+  (`gh api -X DELETE "repos/pietvanzoen/fund-oregon-schools/issues/<n>/labels/in%20progress"`) and pick nothing
+  else in that run.
 
 GitHub access: GraphQL isn't available from these sessions. Use `gh api` with REST routes
 (`repos/pietvanzoen/fund-oregon-schools/...`) or the GitHub connector tools.
@@ -244,6 +250,8 @@ Then update the issue body so its status is clear at a glance (`gh api -X PATCH 
 - Label the PR `needs-human` if any finding is disputed or unresolved, any BRIEFING figure changed, or a
   checklist item needs Piet's judgement.
 - Wait for the `check` and `build` checks on the PR. If one fails, fix it and push.
+- If the PR is `Part of #<n>` (the issue stays open after merge), leave `in progress` on until it merges; Piet
+  removes it or re-labels the issue `next` or `later` when he merges.
 
 End with a short report: the PR link, one-line summary, the review table's counts, and what's left on the issue.
 
