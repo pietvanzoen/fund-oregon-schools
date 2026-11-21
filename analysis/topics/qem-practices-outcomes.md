@@ -120,19 +120,24 @@ and `data/qem_gap.csv`. Decisions this informs: `decisions.md#cost-model-2027`.
   inaccurate pricing [SRC:legislature/lpro/2025-01_air_qem-evaluation.pdf p.33].
 - AIR's own cost model estimated adequate spending of $22,210 per pupil in 2022-23 against $17,136 actually spent
   from state and local sources, a 30% gap [SRC:legislature/lpro/2025-01_air_cost-of-adequacy.pdf p.40]
-  [SRC:legislature/lpro/2025-01_air_cost-of-adequacy.pdf p.41]. Its target is
+  [SRC:legislature/lpro/2025-01_air_cost-of-adequacy.pdf p.41] [SRC:ode/qec/2026_qem_report.pdf p.100]. Its target is
   raising achievement one standard deviation above the statewide average on a measure combining ELA and math
   achievement, chronic absenteeism and graduation [SRC:legislature/lpro/2025-01_air_cost-of-adequacy.pdf p.41]
   [SRC:legislature/lpro/2025-01_air_cost-of-adequacy.pdf p.43]. AIR says its estimate being larger than the QEM's is
   "unsurprising" given its wider outcome target [SRC:legislature/lpro/2025-01_air_cost-of-adequacy.pdf p.45].
 - The QEC cites this to say its Full QEM target is conservative: $18,829 per pupil for 2022-23 against AIR's $22,210
   [SRC:ode/qec/2026_qem_report.pdf p.100].
-- The commission says it is exploring more outcome goals (3rd grade ELA proficiency, 9th grade on-track, regular
-  attendance; all among SB 141's metrics [SRC:ode/qec/2026_qem_report.pdf p.110]) and agrees more prototypes should be added but has lacked staff to do so
-  [SRC:ode/qec/2026_qem_report.pdf p.99]. It asks for 2.0 FTE at ODE in the upcoming biennium to start, out of an estimated
+- AIR says direct comparison is complicated because the two models include different funding and use different
+  outcome goals [SRC:legislature/lpro/2025-01_air_cost-of-adequacy.pdf p.43].
+- In response to AIR, the commission says it is exploring more adequacy goals (3rd grade English language arts
+  proficiency, 9th grade on-track status, regular attendance) and agrees more prototype schools should be added but has
+  lacked the staff to do so [SRC:ode/qec/2026_qem_report.pdf p.99]. It asks for 2.0 FTE at ODE in the upcoming biennium to start, out of an estimated
   12.0-19.0 FTE build-out over two to three biennia [SRC:ode/qec/2026_qem_report.pdf p.116].
 
-### The Legislature's critique (JPEA, Nov 2025)
+### A legislative committee's critique (JPEA, Nov 2025)
+- The same Nov 2025 report found that 2025-27 funding "effectively closes the funding gap and allows for the full
+  implementation of the QEM" [SRC:legislature/olis/2025I1/310695_jpea.pdf p.4]; the 2026 QEM sets a higher bar for
+  2027-29 (see `topics/quality-education-model.md`).
 - The Joint Committee on Public Education Appropriation's Nov 2025 report lists nine "opportunities for improvement"
   in the QEM [SRC:legislature/olis/2025I1/310695_jpea.pdf p.5]. Those bearing on practices and outcomes: the
   statutory goals behind the QEM "lack specificity"; the QEC's use of the professional judgment model "does not
@@ -143,7 +148,8 @@ and `data/qem_gap.csv`. Decisions this informs: `decisions.md#cost-model-2027`.
 - A JPEA legislative concept would move the cost model from the QEC to the Legislative Policy and Research Office
   [SRC:legislature/olis/2025I1/311607_jpea-legislative-concepts.pdf p.1]. The JPEA introduced SB 1555 (2026) to
   carry out its recommendations [SRC:legislature/olis/2026R1/313103_sb1555-genesis-memo.pdf p.2], including that
-  move [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.1]; the overhaul effort was unsuccessful [NEWS:NEWS-20260617-occ-1].
+  move [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.1]. A 2026 overhaul effort led by Ruiz and Sen.
+  Sollman was unsuccessful [NEWS:NEWS-20260617-occ-1].
 
 ### The practices the commission recommends (2026)
 - The 2026 best-practices section is a synthesis of white papers by ODE and Educator Advancement Council experts,
@@ -202,13 +208,15 @@ use it on the recommended practices.
 The counterfactual year for 90% graduation under full funding since 2012-13 moved from 2025-26 (2024 report) to 2027-28 (2026 report),
 and under CSL funding from 2027-28 to 2028-29, while the long-run trend year stayed at 2030-31. For five-year
 completion the full-funding year moved from 2025-26 to 2027-28 and the long-run year from 2030-31 to 2033-34. The 2026 report
-doesn't explain the shift; a date that slides two years in one report cycle is a reason to treat these dates as
-illustrations rather than predictions.
+doesn't explain the shift. The commission itself presents these paths as illustrating long-term impact, and a date
+that moves two years in one report cycle supports reading them as illustrations rather than predictions.
 
-AIR's $22,210 is aimed at a different and higher target than the QEM's (one standard deviation above the statewide
+AIR's $22,210 is aimed at a different, broader target than the QEM's (one standard deviation above the statewide
 average on a combined measure), so the two estimates target different outcomes and the comparison shows direction (both say more is
 needed), not size. AIR criticizes the single outcome goal, and both AIR and the JPEA criticize prototypes that ignore
-variation in need; the commission accepts both points in its 2026 report while saying
-it lacks the staff to act on them. With further QEM changes expected in 2027 (`decisions.md#cost-model-2027`), the
-commission has already moved toward SB 141's terms: its expected outcomes, the extra goals it is exploring and one
-of its two fallback options are all framed in SB 141's metrics (sources above).
+variation in need; in its 2026 report the commission agrees on the prototypes and is exploring broader outcome goals,
+while saying it lacks the staff to act. With further QEM changes expected in 2027 (`decisions.md#cost-model-2027`), the
+commission's direction overlaps with SB 141's terms: the extra goals it is exploring resemble the metrics its SB 141
+fallback option names (reading proficiency, regular attenders, 9th grade on-track), and that option is framed around
+SB 141 (sources above). ODE's director has said the SB 141 targets don't require new money, a view some State Board
+members doubted (`topics/results.md`).

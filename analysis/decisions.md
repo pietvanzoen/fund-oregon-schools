@@ -65,7 +65,8 @@ session can run. Background: `topics/measures-5-and-50.md` explains why these ar
   abolish the Quality Education Commission [SRC:legislature/bills/2026R1_SB1555_overview.html].
 - A 2026 overhaul effort led by Ruiz and Sen. Sollman was unsuccessful [NEWS:NEWS-20260617-occ-1].
 - Analysis: a new cost model would also change the benchmarks the other decisions are measured against. See
-  `topics/quality-education-model.md`.
+  `topics/quality-education-model.md`, and `topics/qem-practices-outcomes.md` for what the model assumes full
+  funding buys and the 2025 outside evaluation of it.
 
 <!-- site: decision cost-model-2027 -->
 
