@@ -111,8 +111,7 @@ is tracked as GitHub issues, shown as (#16) and so on.
   balances ($2.9B Rainy Day Fund, $1.6B ESF) would be 10.6% of the General Fund projection
   [SRC:fiscal/oea/2026-12_forecast.pdf p.41].
 - Analysis: watch the baseline. News coverage's "$2.5B more" and "$5B more" compare the QEM with the 2025-27 budget,
-  not with the CSL [NEWS:NEWS-20260812-opb-1]. Families United does the same
-  [SRC:orgs/families-united/demands-funding.html]. Figures against the CSL and against 2025-27 aren't comparable.
+  not with the CSL [NEWS:NEWS-20260812-opb-1]. Figures against the CSL and against 2025-27 aren't comparable.
 
 More: `data/qem_gap.csv`, `data/ssf_history.csv`, `data/reserves.csv`.
 
@@ -146,24 +145,20 @@ More: `data/qem_gap.csv`, `data/ssf_history.csv`, `data/reserves.csv`.
 
 **On the amount**
 - PPS Board: fund at least the CSL [PPSARCH:BB:14673756 p.1].
-- Families United: fund the level the Quality Education Commission says is needed
-  [SRC:orgs/families-united/demands-funding.html].
 - Other groups' positions (OEA, OSBA, COSA) are still to archive (#26).
 
-**On the formula** (advocacy claims, still to check against the law and data)
-- **Special education cap.** The formula adds weight for students on an IEP only up to 11% of a district's enrollment
-  without state approval [SRC:legislature/ors/ors327.html]. Families United says about 17% of PPS students have an
-  IEP and that HB 2953 (2025), which would have removed the cap, died in committee
-  [SRC:orgs/families-united/demands-funding.html] [SRC:legislature/bills/2025R1_HB2953_introduced.pdf] (#17).
-- **Transportation.** The state reimburses an approved share of district transportation costs
-  [SRC:legislature/ors/ors327.html]. Families United says closures lengthen routes and leave PPS paying for the
-  added miles [SRC:orgs/families-united/demands-funding.html] (#18).
-- **English learner and poverty weights**, and whether they fit urban districts
-  [SRC:orgs/families-united/demands-funding.html] (#19).
-- **Online charters**: state money that follows students to virtual charters
-  [SRC:orgs/families-united/demands-funding.html] (#20).
-- **Unfunded mandates**: requirements adopted without new money (section c) (#21).
+**On the model**
 - **Replacing the QEM** with a different cost model [NEWS:NEWS-20260121-katu-1] (#25).
+
+**Formula questions still to research** (how the SSF is divided among districts)
+- **Special education cap.** The formula adds weight for students on an IEP only up to 11% of a district's enrollment
+  without state approval [SRC:legislature/ors/ors327.html]. HB 2953 (2025) dealt with the cap; its content and
+  status are still to confirm [SRC:legislature/bills/2025R1_HB2953_introduced.pdf] (#17).
+- **Transportation.** The state reimburses an approved share of district transportation costs
+  [SRC:legislature/ors/ors327.html]; how closures change those costs is unresearched (#18).
+- **English learner and poverty weights** (#19).
+- **Online charters**: state money that follows students to virtual charters (#20).
+- **Unfunded mandates**: requirements adopted without new money (section c) (#21).
 
 **On reserves (#22)**
 - **The rules.** Withdrawal from the Education Stability Fund takes a three-fifths vote in each chamber plus either an
@@ -171,12 +166,6 @@ More: `data/qem_gap.csv`, `data/ssf_history.csv`, `data/reserves.csv`.
 - **PPS:** $500M to buy down PERS rates statewide [NEWS:NEWS-20261102-opb-1]. Its CFO said this would cut the PPS gap
   to about $42.7M [NEWS:NEWS-20261116-wweek-1].
 - **Rep. Tammy Carpenter** suggested the fund as a bridge [NEWS:NEWS-20261112-katu-2].
-- **Families United:** an emergency declaration and a one-time bridge to keep schools open through 2027-28 while the
-  formula is fixed [SRC:orgs/families-united/demands-esf.html].
-
-**On buildings (#24)**
-- Families United asks districts to use space in open schools for preschool, aftercare and family services
-  [SRC:orgs/families-united/demands-community-schools.html]. What the state could fund here is unresearched.
 
 ## (g) Contested claims and open questions
 
@@ -193,8 +182,8 @@ More: `data/qem_gap.csv`, `data/ssf_history.csv`, `data/reserves.csv`.
 - **The forecast.** The November gain is modest, and economists warned it may not last [NEWS:NEWS-20261118-klcc-1].
   The exact figure ($245M per news; DAS's release reportedly says $233M) is still to confirm (`open_questions.md`).
 - **One-time money.** Lieber, Sanchez and Kotek object to using reserves for ongoing costs
-  [NEWS:NEWS-20260510-wweek-1] [NEWS:NEWS-20261106-occ-1]. Bridge proposals frame it as time-limited
-  [SRC:orgs/families-united/demands-esf.html].
+  [NEWS:NEWS-20260510-wweek-1] [NEWS:NEWS-20261106-occ-1]. Rep. Carpenter has suggested it as a bridge
+  [NEWS:NEWS-20261112-katu-2].
 - **Unfunded mandates.** The EO 26-06 FAQ answers "No." to whether the order is an unfunded mandate
   [SRC:gov/eo/eo-26-06_faq.pdf p.3], while saying funding may not be sufficient for some districts
   [SRC:gov/eo/eo-26-06_faq.pdf p.2].
@@ -203,7 +192,6 @@ More: `data/qem_gap.csv`, `data/ssf_history.csv`, `data/reserves.csv`.
 
 - **Dec 1, 2026:** Governor's Recommended Budget [SRC:legislature/ors/ors291.html]. Archive it and the K-12 pages
   (see `RUNBOOK.md`).
-- **Dec 2, 2026:** Families United rally at the Capitol [SRC:orgs/families-united/demands.html].
 - **2027 session:** start date, committee assignments and the Ways & Means calendar are still to confirm
   (`open_questions.md`).
 
@@ -232,7 +220,7 @@ Full timeline: `timeline.md`.
 | #21 | Unfunded mandates |
 | #22 | Education Stability Fund: history and bridge proposals |
 | #23 | Statewide inventory of closures and cuts |
-| #24 | Community schools: state levers |
+| #24 | Community schools: what the state funds or could fund |
 | #25 | 2027 formula reform; Kotek's Nov 6 remarks verbatim |
 | #26 | What each group and official is proposing for the 2027-29 amount |
 
