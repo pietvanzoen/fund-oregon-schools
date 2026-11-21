@@ -131,8 +131,7 @@ written by `tools/derive_virtual_charters.py`.
   based on a multiyear contract" with Oregon Charter Academy and "has received about $1.5 million for sponsoring the
   virtual charter school" in recent years [SRC:districts/santiam-canyon/audit_santiam-canyon-sd-129j.pdf p.1]. It
   puts charter school payments at 72% of the district's fiscal 2026 budget
-  [SRC:districts/santiam-canyon/audit_santiam-canyon-sd-129j.pdf p.2]. (The board posted this document under the
-  file name of the district's audit.)
+  [SRC:districts/santiam-canyon/audit_santiam-canyon-sd-129j.pdf p.2].
 - Oregon Charter Academy's financial report for the year ended June 30, 2025 (a scan; read from the page image)
   shows State School Fund revenue of $32,090,872, up from $28,528,569 the year before, out of total revenue of
   $35,057,972 [SRC:districts/santiam-canyon/2025_oregon-charter-academy-financial-report.pdf p.20]. It lists

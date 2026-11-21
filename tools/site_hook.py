@@ -13,6 +13,7 @@ Every analysis/topics/<name>.md is published as <name>.md and listed under Topic
 Preview locally:  pip install "mkdocs>=1.6,<2" "mkdocs-material>=9.7,<10" && mkdocs serve
 """
 import csv
+import datetime
 import html
 import json
 import os
@@ -38,6 +39,7 @@ MD_PAGES = {
     "index.md": "OVERVIEW.md",
     "briefing.md": "BRIEFING.md",
     "timeline.md": "timeline.md",
+    "updates.md": "updates.md",
 }
 PEOPLE = ["kotek", "lieber", "sanchez", "ruiz", "sollman"]
 for _slug in PEOPLE:
@@ -165,22 +167,22 @@ def page_link(target, from_page):
 
 
 def file_refs(text, from_page, src_file):
-    """`people/kotek.md` -> [Kotek page](people/kotek.md). Resolves relative to the analysis file."""
+    """`people/kotek.md` -> [Kotek page](people/kotek.md); a #section anchor is kept. Resolves relative to the analysis file."""
     base = posixpath.dirname(src_file)
 
     def sub(m):
-        ref = m.group(1)
+        ref, anchor = m.group(1), m.group(2) or ""
         key = posixpath.normpath(posixpath.join(base, ref))
         target = FILE_TO_PAGE.get(key) or FILE_TO_PAGE.get(ref)
         if not target:
             return m.group(0)
-        return f"[{PAGE_TITLES.get(target, ref)}]({page_link(target, from_page)})"
+        return f"[{PAGE_TITLES.get(target, ref)}]({page_link(target, from_page)}{anchor})"
 
-    return re.sub(r"`([\w./-]+\.(?:md|csv|jsonl))`", sub, text)
+    return re.sub(r"`([\w./-]+\.(?:md|csv|jsonl))(#[\w-]+)?`", sub, text)
 
 
 PAGE_TITLES = {
-    "index.md": "overview", "briefing.md": "the briefing", "timeline.md": "timeline",
+    "index.md": "overview", "briefing.md": "the briefing", "timeline.md": "timeline", "updates.md": "what's new",
     "promises.md": "promises tracker", "quotes.md": "what they've said", "who-decides.md": "who decides",
     "numbers.md": "the numbers", "glossary.md": "glossary", "people/kotek.md": "Kotek", "people/lieber.md": "Lieber",
     "people/sanchez.md": "Sanchez", "people/ruiz.md": "Ruiz", "people/sollman.md": "Sollman",
@@ -238,25 +240,83 @@ def footer(sources, ctx_date_paths):
 
 def from_analysis(page, src, ctx):
     md = open(os.path.join(ANALYSIS, src), encoding="utf-8").read()
+    if page == "timeline.md":
+        md = split_timeline(md)
     md = file_refs(md, page, src)
     md = mark_analysis(md)
     md = cites(md, ctx)
     if page == "index.md":
-        md = re.sub(r"^(# .*\n)", lambda m: m.group(1) + INTRO, md, count=1)
+        md = landing(md, ctx)
     return md + footer([f"analysis/{src}"], [f"analysis/{src}"])
 
 
 INTRO = """
-!!! info "How to read this site"
-    This is a research archive on how Oregon funds K-12 public schools, focused on the 2027-29 budget. Every claim
-    links to where it comes from:
-    <span class="cite cite-src">📄 p.N</span> is a state or legislative document, opened at the cited page;
-    <span class="cite cite-news">📰 Outlet</span> is a news report; <span class="cite cite-pps">🏫 PPS archive</span>
-    is the Portland Public Schools research archive; <span class="cite cite-der">🧮 our sum</span> is a figure this
-    archive calculated itself, linked to its method. Boxes and sections marked **Analysis** are interpretation,
-    kept separate from what the documents say. [More about this site](about.md).
+<details class="info" markdown>
+<summary>How to read this site</summary>
+
+Every claim links to where it comes from:
+<span class="cite cite-src">📄 p.N</span> is a state or legislative document, opened at the cited page;
+<span class="cite cite-news">📰 Outlet</span> is a news report; <span class="cite cite-pps">🏫 PPS archive</span>
+is the Portland Public Schools research archive; <span class="cite cite-der">🧮 our sum</span> is a figure this
+archive calculated itself, linked to its method. Boxes and sections marked **Analysis** are interpretation,
+kept separate from what the documents say. [How to use this research](about.md#how-to-use-this-research).
+
+</details>
 
 """
+
+
+def coming_up(ctx, n=2):
+    """The next n dated rows of timeline.md, so the landing page shows what's ahead."""
+    today = datetime.date.today().isoformat()
+    rows = [r for r in re.findall(r"^\| (\d{4}-\d{2}-\d{2})(?: to \d{2}-(\d{2}))? \| ([^|]+) \| ([^|]*) \|$",
+                                  open(os.path.join(ANALYSIS, "timeline.md"), encoding="utf-8").read(), re.M)
+            if r[0] >= today][:n]
+
+    def day(start, end):
+        d = datetime.date.fromisoformat(start)
+        return f"{d:%b} {d.day}" + (f"-{int(end)}" if end else "") + f", {d.year}"
+
+    items = "".join(f"<li><strong>{day(d, end)}:</strong> {esc(e.strip())} {cites(c, ctx)}</li>"
+                    for d, end, e, c in rows)
+    return (f'<div class="coming-up"><p class="coming-up-title">Coming up</p><ul>{items}</ul>'
+            f'<p class="coming-up-more"><a href="timeline/">All dates →</a></p></div>\n\n') if rows else ""
+
+
+def split_timeline(md):
+    """Timeline page: upcoming rows first (soonest first), then past rows (newest first), split at build time."""
+    head, rows = "| Date | Event | Source |\n|---|---|---|\n", re.findall(r"^\| \d{4}-.*\|$", md, re.M)
+    today = datetime.date.today().isoformat()
+    ahead = [r for r in rows if r[2:12] >= today]  # month-only dates ("2026-08") compare as past once that month starts
+    past = [r for r in rows if r not in ahead][::-1]
+    table = "\n".join(rows)
+    assert table in md, "timeline.md rows must form one contiguous table"
+
+    def nice(row):  # "| 2026-12-01 to 12-03 |" -> "| Dec 1-3, 2026 |", "| 2026-08 |" -> "| Aug 2026 |"
+        m = re.match(r"\| (\d{4})-(\d{2})(?:-(\d{2}))?(?: to \d{2}-(\d{2}))? \|", row)
+        y, mo, d, end = m.groups()
+        mon = datetime.date(int(y), int(mo), 1).strftime("%b")
+        when = f"{mon} {int(d)}" + (f"-{int(end)}" if end else "") + f", {y}" if d else f"{mon} {y}"
+        return f"| {when} |" + row[m.end():]
+
+    ahead, past = [nice(r) for r in ahead], [nice(r) for r in past]
+    out = (f"## Coming up\n\n{head}" + "\n".join(ahead) + "\n\n" if ahead else "") + f"## What's happened\n\n{head}" + "\n".join(past)
+    return md.replace(head + table, out)
+
+
+def landing(md, ctx):
+    """Overview: the opening paragraph as a lead, the aims as cards, what's coming up, then the reading guide."""
+    md = re.sub(r"^(# .*\n\n)((?:.+\n)+)\n", lambda m: f'{m.group(1)}<p class="lead">{m.group(2).strip()}</p>\n\n',
+                md, count=1)
+    md = re.sub(r"^((?:- .*\n)+)", lambda m: f'<div class="grid cards" markdown>\n\n{m.group(1)}\n</div>\n\n' + coming_up(ctx),
+                md, count=1, flags=re.M)
+    md = re.sub(r"^## ", lambda m: INTRO + "## ", md, count=1, flags=re.M)
+    upd = open(os.path.join(ANALYSIS, "updates.md"), encoding="utf-8").read()
+    latest = "".join(re.findall(r"^- .*\n(?:  .*\n)*", upd, re.M)[:3])
+    md, n = re.subn(r"<!-- site: latest updates -->\n.*\n", lambda m: file_refs(latest, "index.md", "updates.md")
+                    + "\n[All updates](updates.md)\n", md)
+    assert n == 1, "OVERVIEW.md lost its '<!-- site: latest updates -->' marker"
+    return md
 
 
 def read_csv(rel):
@@ -298,10 +358,9 @@ def bar_chart(bars, title, note_lines=()):
     return "".join(parts)
 
 
-def numbers_page(ctx):
+def funding_chart(ctx):
+    """The 2027-29 funding benchmarks chart on the numbers page."""
     qem = {r["measure"]: r for r in read_csv("data/qem_gap.csv") if r["biennium"] == "2027-29"}
-    ssf = read_csv("data/ssf_history.csv")
-    res = read_csv("data/reserves.csv")
 
     def val(m):
         return float(qem[m]["amount_billion"])
@@ -309,7 +368,7 @@ def numbers_page(ctx):
     csl, sq, full = val("ssf_csl_in_report"), val("status_quo_state_funding"), val("full_qem_state_funding")
     src = cites(dedupe(qem["status_quo_state_funding"]["source"] + " " + qem["full_qem_state_funding"]["source"]
               + " " + qem["ssf_csl_in_report"]["source"]), ctx)
-    chart1 = bar_chart([
+    return bar_chart([
         ("Current service level", csl, "State School Fund, no new money", "s-base",
          f"State School Fund current service level: ${csl:.2f}B"),
         ("Keep today's services", sq, f"QEM status quo · +${val('status_quo_gap_above_csl'):.2f}B", "s-main",
@@ -318,6 +377,12 @@ def numbers_page(ctx):
          f"Full Quality Education Model: ${full:.2f}B, ${val('full_qem_above_csl'):.2f}B above the CSL"),
     ], "State funding for K-12 in 2027-29, billions of dollars",
         note_lines=[f"All three figures: 2026 Quality Education Model report. {src}"])
+
+
+def numbers_page(ctx):
+    ssf = read_csv("data/ssf_history.csv")
+    res = read_csv("data/reserves.csv")
+    chart1 = funding_chart(ctx)
 
     hist = [r for r in ssf if r["amount_billion"] and r["stage"] in ("legislatively_adopted", "current_service_level")
             and "PPSARCH" not in r["source"]]
@@ -495,8 +560,8 @@ def abbr_defs():
 # Per-page <title> and meta description (SEO); written as front matter on each generated page.
 # The home page's <title> is the site name, so it only needs a description.
 PAGE_META = {
-    "index.md": (None, "Primary documents and cited analysis on how Oregon funds K-12 public schools: the State "
-                 "School Fund, the Quality Education Model gap and the 2027-29 budget."),
+    "index.md": (None, "Primary documents and cited analysis on Oregon K-12 funding: how much the state spends, "
+                 "how it's shared through the formula, and what it buys, focused on the 2027-29 budget."),
     "briefing.md": ("Oregon 2027-29 K-12 budget briefing", "What the Governor and the 2027 Legislature decide on "
                     "Oregon school funding, how Measures 5 and 50 shaped it, the QEM gap, who stands where, open questions."),
     "numbers.md": ("Oregon school funding numbers, 2027-29", "State School Fund history, Quality Education Model "
@@ -505,6 +570,8 @@ PAGE_META = {
                   "K-12 funding from Gov. Tina Kotek and the Oregon legislators who write the school budget."),
     "promises.md": ("Oregon school goals and mandates tracker", "Gov. Kotek's and the state's K-12 goals and mandates "
                     "(instructional time, SB 141 targets and more), and whether money was attached to each."),
+    "updates.md": ("What's new in the Oregon K-12 funding archive", "New research and data in the Oregon K-12 "
+                   "funding archive, newest first: analysis, documents and figures added, each linked."),
     "timeline.md": ("Oregon K-12 funding timeline", "Dated events in Oregon school funding: budgets, revenue "
                     "forecasts, Quality Education Model reports, executive orders and the 2027-29 budget process."),
     "who-decides.md": ("Who decides Oregon's K-12 budget", "The Oregon legislators who write the school budget: Ways "

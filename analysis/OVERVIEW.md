@@ -1,20 +1,16 @@
 # Oregon K-12 funding: the research archive
 
-Primary documents and cited analysis on how Oregon funds its public schools, focused on the 2027-29 budget.
+A research archive on Oregon K-12 funding, focused on the 2027-29 budget, that campaigns can use to check facts and
+build their own materials.
 
-## Key numbers for 2027-29
+- 💰 **How much:** the State School Fund, the gap to the Quality Education Model, and reserves → `data/qem_gap.csv`
+- ⚖️ **How it's shared:** the funding formula: weights, caps and money that follows students → `BRIEFING.md#g-how-the-money-is-shared-the-formula`
+- 🎯 **What it buys:** results and accountability: outcome targets, and what past increases achieved (research starting) → `BRIEFING.md#h-what-it-buys-results-and-accountability`
 
-| | $B | Source |
-|---|---|---|
-| State School Fund at current service level | 12.56 | [SRC:ode/qec/2026_qem_report.pdf p.103] |
-| Cost of keeping today's services (QEM status quo) | 13.78 | [SRC:ode/qec/2026_qem_report.pdf p.103] |
-| Cost of meeting the state's goals (full QEM) | 16.21 | [SRC:ode/qec/2026_qem_report.pdf p.117] |
-| Education Stability Fund, end of 2025-27 (projected) | 1.27 | [SRC:fiscal/oea/2026-12_forecast.pdf p.41] |
+## Latest updates
 
-## Key dates
-
-- **Dec 1, 2026:** Governor's Recommended Budget due [SRC:legislature/ors/ors291.html]
-- **2027 session:** the Legislature sets the State School Fund. See `timeline.md`.
+<!-- site: latest updates -->
+See `updates.md`.
 
 ## Start here
 
@@ -23,3 +19,4 @@ Primary documents and cited analysis on how Oregon funds its public schools, foc
 - `people/quotes_all.jsonl`: officials' statements, verbatim and dated
 - `promises.csv`: goals and mandates, and whether money came with them
 - `people/legislators.csv`: the budget-writing legislators and their roles
+- `timeline.md`: dates coming up and what has happened

@@ -1,11 +1,13 @@
 # Working conventions for this repository (for Claude agents)
 
-Purpose: a research archive (primary sources + cited analysis) on how Oregon funds K-12 public schools, focused on
+Purpose: a research archive (primary sources + cited analysis) on Oregon K-12 funding: how much the state spends,
+how it's shared (the formula) and what it buys (results and accountability), focused on
 the **2027-29 budget: Gov. Tina Kotek's Recommended Budget and the 2027 Legislature**. It's a data warehouse, not a
 campaign site: no talking points or asks; those are made elsewhere from this data. Core topics: the State School Fund (SSF), the
 Quality Education Model (QEM) and its funding gap, the Governor's Recommended Budget (due Dec 1, 2026), revenue
 forecasts and reserves (Education Stability Fund, Rainy Day Fund), what Kotek and key legislators have promised
-or said, and how district budget gaps (PPS and others) connect to state decisions.
+or said, how district budget gaps (PPS and others) connect to state decisions, the funding formula, and what the
+money buys (results, the Student Investment Account, SB 141 accountability).
 
 Structure and rules are modeled on the PPS research archive (github.com/timaelliott/save-our-schools). That repo
 has no license, so nothing here copies its code; the tools in `tools/` were written for this repo.
@@ -16,6 +18,9 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
   GitHub Action downloads it (cloud sandboxes usually can't reach oregon.gov or the Legislature's site).
 - **Working a research issue end to end:** follow `.claude/plugins/fund-oregon-schools/skills/fos-work-issue/SKILL.md` (queue → fetch on the
   issue branch → analysis → two independent reviewers → PR; Piet merges).
+- **Why things are the way they are:** `decisions/` (one record per choice, including choices not to do
+  something). Read the relevant ones before changing `tools/`, workflows or how `sources/` is stored; add one when
+  you weigh options and pick one (template in `decisions/README.md`).
 - **Overview of the decision:** `analysis/BRIEFING.md` (decision briefing). `analysis/OVERVIEW.md` is the website's
   short home page.
 
@@ -34,13 +39,16 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
        `legislature/social/` legislators' own social media posts, saved by hand (caption text, exact)
      - `legislature/lpro/` Legislative Policy and Research Office reports (e.g. session summaries)
      - `legislature/laws/` Oregon Laws (session laws) chapters, as `<year>orlaw<NNNN>.pdf`
+     - `legislature/ors/` Oregon Revised Statutes chapters; `legislature/constitution/` the Oregon Constitution;
+       `legislature/calendar/` the Legislature's session and interim calendars
      - `ode/` Oregon Department of Education, incl. `ode/qec/` Quality Education Commission reports and minutes,
        `ode/ssf/` State School Fund estimates and transparency reports, `ode/charter/` charter school lists and
        guidance, `ode/legislation/` ODE summaries of enacted legislation, `ode/enrollment/` enrollment reports,
        `ode/grants/` ODE grant allocation reports (for example High School Success)
      - `fiscal/oea/` Office of Economic Analysis forecasts; `fiscal/lfo/` Legislative Fiscal Office; `fiscal/lro/` Legislative Revenue Office;
        `fiscal/dor/` Department of Revenue; `fiscal/sos/` Secretary of State Audits Division reports
-     - `reference/` reference works (e.g. Oregon Encyclopedia); prefer a primary source when one exists
+     - `reference/` reference works (e.g. Oregon Encyclopedia) and other agencies' explainers; prefer a primary
+       source when one exists
      - `districts/<district>/` district budget documents; `orgs/<org>/` advocacy and association documents
    - Hearing or meeting video/audio: `[VID:<path under sources/ without extension>@H:MM:SS]`. The `transcribe`
      Action writes a machine transcript next to each media file (`<file>.mp4.txt`, lines `H:MM:SS text`);
@@ -55,6 +63,7 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
    For transcripts, give speaker attribution with evidence and `confidence: high | medium | low`; don't use low.
    Machine transcripts (Whisper) mishear words and names: listen to the recording at that timestamp and quote
    what was said, never the transcript text unchecked. If you can't listen, don't quote; paraphrase as unverified.
+   OCR text (below a `--- OCR of this page` line in `<file>.pdf.ocr.txt`) misreads too: check the PDF page.
 4. Keep separate what sources state (documents and what people said), what we calculated, and our own inference.
    - Topic files (`analysis/topics/*.md`) have three sections, in this order: `## What the sources say` (only
      statements a cited source makes; every line cited; no inference), `## Derived figures` (a table of our sums,
@@ -100,7 +109,8 @@ Least new code that fully does the job; adapted from the ponytail rules
 (github.com/DietrichGebert/ponytail). Lazy about the solution, never about the scope.
 
 - **Before writing:** read the affected code and list everywhere the change must reach: callers, tests, the
-  workflows, `site_hook.py` and `mkdocs.yml`, both skills and the reviewer prompts, CLAUDE.md, README, RUNBOOK.
+  workflows, `site_hook.py` and `mkdocs.yml`, both skills and the reviewer prompts, CLAUDE.md, README, RUNBOOK,
+  and any record in `decisions/` that the change touches or reverses.
 - **Pick the first option that fully works, in this order:** skip it (say so in one line); reuse what's in
   `tools/` (`common.py`, `check_citations.py`, the existing patterns); the Python standard library; a one-liner a
   reader gets at a glance; otherwise the minimum code. Tools stay stdlib-only: no new dependencies, and no
@@ -131,5 +141,9 @@ Least new code that fully does the job; adapted from the ponytail rules
 - `analysis/topics/<topic>.md` — topic files in the three sections; each is published on the website automatically
 - `analysis/glossary.csv` — abbreviations and terms: full name, hover tooltip, cited definition
 - `analysis/timeline.md`, `analysis/open_questions.md`
+- `analysis/updates.md` — What's new for readers, newest first (the overview shows the latest three); `changelog/` is for maintainers
+- `decisions/NNNN-<slug>.md` — decision records: context, decision, options weighed, when to revisit
+- `sources/**/<file>.pdf.ocr.txt` — the PDF's text plus OCR of its picture-only pages, by `tools/ocr_pdfs.py` in fetch-sources
 - `sources/**/<media file>.txt` — machine transcript of an .mp4/.m4a/.mp3/.wav/.webm, by the `transcribe` Action
-- Tools: `tools/search.py`, `tools/doc.py`, `tools/linkify.py`, `tools/check_citations.py`, `tools/fetch_sources.py`
+- Tools: `tools/search.py`, `tools/doc.py`, `tools/linkify.py`, `tools/check_citations.py`, `tools/fetch_sources.py`,
+  `tools/ocr_pdfs.py`

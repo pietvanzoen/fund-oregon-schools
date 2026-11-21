@@ -24,7 +24,8 @@ Read `CLAUDE.md` first: it defines the citation formats and rules you're checkin
 
 For each factual sentence, figure, date and quote, open the cited source **at the cited page** and check it:
 `python3 tools/doc.py <path fragment> <page>` or `--grep "<words>"`. For a table whose text extraction looks
-scrambled, render the page (`pdftoppm -f <p> -l <p> -png -r 110 sources/<path> /tmp/p`) and read the image.
+scrambled, or text below a `--- OCR of this page` line (machine OCR of a picture), render the page
+(`pdftoppm -f <p> -l <p> -png -r 110 sources/<path> /tmp/p`) and read the image.
 
 1. **Quotes**: word for word, on the cited page, attributed to the right person. For hearing captions, check who
    was speaking just before. Any changed word is an error. A quote cited `[VID:...]` rests on a machine

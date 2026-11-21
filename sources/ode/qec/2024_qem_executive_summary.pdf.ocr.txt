@@ -1,0 +1,410 @@
+QUALITY
+EDUCATION MODEL
+Executive Summary
+August 2024
+
+Quality Education Commission
+
+
+--- OCR of this page (tesseract), not checked by a person: check the PDF before quoting or copying a figure ---
+QUALITY
+EDUCATION MODEL
+
+Executive fey :
+August 2024
+
+WZ
+
+Quality Education Commission
+Quality Education Commission
+255 Capitol Street NE
+Salem, OR 97310
+Office: 503-947-5670
+Fax: 503-378-5156
+
+Executive Summary www.oregon.gov/ode | 1
+
+Executive Summary
+The Quality Education Model (QEM) was developed as a research and data-driven tool to evaluate educational
+practices and estimate the level of state school funding required to meet Oregon’s education goals. The model
+provides key data, national research, and lessons learned from Oregon schools to promote more informed dialogue
+among policymakers, educators, the public, and other community partners. The legislatively-mandated Quality
+Education Commission (QEC) develops the QEM and assists others in using it for policy analysis and decision-making.
+The goal is for the report to inform decisions for a more equitable system that prepares students for postsecondary
+success in higher education, meaningful employment, and/or enlistment in the military. For the 2024 QEM Report, the
+QEC uses estimates of implementing school- and district-based activities focused on the following best practices:
+
+▪
+▪
+▪
+▪
+▪
+
+Foundational Skills Development;
+Regular School Attendance;
+English Language Learner Success;
+Creating a Supportive Student Learning Environment;
+Being on Track to Graduate High School;
+
+▪
+▪
+
+Career and Technical Education Success; and
+
+Educator Recruitment and Retention.
+
+This report, written by the QEC, also describes the current environment in K-12 public education in Oregon, supported
+by data on funding, enrollment, attendance, 4-year graduation rates, 5-year completion rates, and state test scores
+for Oregon’s focal student groups. These data add context for a more accurate evaluation of Oregon’s K-12 progress
+and remaining challenges. Leveraging extensive research and current school data, the QEM estimates costs for two
+scenarios:
+1. Maintaining current practices and resource levels (“Current Service Level” or “CSL”) for the 2025-27 biennium;
+and
+2. Enacting the “Fully-Implemented QEM,” which represents the State School Fund allocated dollars (SSF; general
+funds, lottery funds, and other funds) resource levels needed to complement other available school funding to
+achieve a system of effective schools.
+The CSL and Full QEM have never represented the totality of funding that is available to districts and Education Service
+Districts within the State of Oregon, only those funds which were allocated to districts by the State School Funding
+formula. Other sources of funding, such as federal funding, local revenue (generated outside the formula distribution),
+Food Service Enterprise revenues, and PERS Side Account Earnings net of Debt Service obligations reduce the
+totality of funding needs that the legislature is asked to appropriate to the State School Fund. The CSL and Full QEM
+projections have historically represented the Legislatively-appropriated SSF funds. The recent addition of the Student
+Success Act transfer to the SSF is also now included in these projections. In addition to all other sources of funding,
+the Full QEM funding model requires a $12.705 legislative State School Fund appropriation, combined with an $822
+million Student Success Act Transfer, for a total of $13.526 billion.
+In this biennial report, the QEC elected to make no additions or changes to the model inputs in relation to best
+
+2 | Quality Education Commission Report 2024 www.oregon.gov/ode
+
+practices. However, there were several changes to the model due to actual expenses. These changes impact both
+the CSL and the Full QEM. Future QEM reports and the CSL and Full QEM projections may change as a result of
+findings and recommendations from a planned third-party QEM evaluation, to be conducted by the Legislative Policy
+and Research Office (LPRO). Historically, the Commission incorporates evidence-based inputs that are feasible and
+demonstrate meaningful benefits for Oregon’s students. These inputs have been added over time to ensure that
+recommended best practices are implemented in the public K-12 education system. The Commission also tracks
+potential system inputs that are not incorporated, as it is also mindful of the system’s ability to evolve toward more
+equitable funding structures and the fact that this process takes time.
+The QEC continues its commitment to demonstrate the connections between the model and the referenced best
+practices. In 2024, this included engagement with Oregon educators, a best practices survey completed by Oregon
+educators, and analyzing experiences in Oregon schools. The Fully-Implemented QEM includes funding for the
+resources necessary to implement the best practices contained in this report. If the Fully-Implemented QEM is not
+funded, Oregon districts will not have sufficient funds sufficient for implementing these best practices that lead to
+attainment of Oregon’s education goals. As the state collectively works toward that end, the QEC has identified several
+programs and activities that are aligned with the best practices conveyed in this report, and reinforce key systems
+change principles that should be carried forward in service of Oregon’s students, including the following:
+
+▪
+
+Consistent with the analyses provided by recent Secretary of State audits, support for the Student Success Act
+(SSA) and High School Success program must continue. Changing system outcomes requires consistency and time.
+The pandemic disrupted the state’s ability to fully implement the SSA initially. Oregon districts now have plans
+in place and have set Longitudinal Performance Growth Targets (LGPTs) with regard to five central indicators:
+1) regular attendance, 2) 3rd Grade English language arts (reading), 3) 9th Grade On Track, 4) 4-year graduation
+rates, and 5) 5-year completion rates. Targets are set for all student focal groups, orienting the system to focus its
+attention on student groups who have been, and continue to be, marginalized by Oregon’s K-12 public education
+system.
+
+▪
+
+Attendance is a serious challenge for Oregon, as it is with other states. Continued support for the Every Day
+Matters Program and the best practices it leverages is necessary to ensure that Oregon students attend school to
+benefit from the instruction and supports provided.
+
+▪
+
+The state must continue to promote co-development of policy implementation and related practices for local and
+state education leadership and reciprocal responsibility, as modeled by the Integrated Guidance project. Decisions
+driven by individual schools, districts, and their communities are critical as they are highly contextualized and
+nuanced, but without a consistent framework and protocols for implementing effective practices and processes,
+Oregon’s schools and students cannot reach their full potential.
+
+The QEC continues its focus on the structure of the educational system as a whole and the processes required to make
+it function more effectively in serving the broad range of student needs in Oregon schools in this report.
+
+KEY FINDINGS
+▪ The funding gap between the state’s proposed 2025-27 Current Service Level (CSL) and the fully implemented
+QEM as a percentage of total K-12 school funding is the smallest amount in the history of the QEM.
+
+▪
+
+The Governor’s Office and DAS partnered to ensure consistent CSL determination, contributing to better system
+alignment and additional funding for Oregon’s schools.
+
+Executive Summary www.oregon.gov/ode | 3
+
+▪
+
+For the upcoming 2025-27 biennium, the QEM estimates that it will require a State School Fund (SSF) investment
+of $12.705 billion and Student Success Act (SSA) transfer of $822 million, for a total Full QEM model projection of
+$13.526 billion. This is $2.252 billion more than the $11.275 billion investment the state forecasts to maintain the
+current service level provided during the 2023-25 biennium. This is a 9.9% gap in comparison to total public K-12
+funding ($22.849 billion).
+
+▪
+
+Due to tax revenue barriers and decreased prioritization of K-12 public education funding over the past 25 years,
+Oregon is projected to fund its K-12 system close to two billion dollars less per biennium than is needed to run a
+system of effective schools.
+
+▪
+
+According to US Census data from 2022, Oregon ranked 13th in state-sourced per pupil funding. If Oregon were
+to fund its schools at the level recommended in this report, our national ranking would rise to 6th. Oregon
+ranked 18th in state-sourced per-pupil funding in 1999, when the first Full Implementation QEM projection was
+conducted.
+
+▪
+
+The Full Implementation of the QEM is not aspirational. It is attainable. There are several important funding
+needs that are not represented in the 2024 Full QEM. The Commission continues to analyze new inputs for future
+integration in the model, including, but not limited to, transitioning to a 180-day school year.
+
+Oregon’s education system funding requirements are demonstrated in Exhibit 1 below. The table shows the CSL level
+of total funding from all key sources, including federal revenues, local revenues, and those that are distributed by the
+SSF.
+Historically, the QEM has modeled only the portion of funding that supports Oregon’s public K-12 schools that is
+distributed through the SSF; a new source of SSF revenue was put in place with the adoption of the Student Success
+Act in 2019 (SSA), in the form of an SSA transfer. Oregon’s total public K-12 funding and revenue sources are shown
+in Exhibit 1 below. The portion shaded in dark blue, the SSF, is what has been historically modeled by the QEM. The
+SSA transfer that is distributed through the SSF has been added since 2019. This SSA transfer is shaded in light blue.
+All other revenue sources are shown in dark green. The Full QEM projection of $13.526 Billion fills the gap between
+other revenue sources and overall need. It includes both the legislatively-appropriated SSF ($12.705 Billion) and the
+anticipated SSA transfer to the SSF ($822 million).
+
+4 | Quality Education Commission Report 2024 www.oregon.gov/ode
+
+EXHIBIT 1: 2025-27 TOTAL K-12 EDUCATIONAL SERVICES COST TO DISTRICTS AND ESDS
+
+2025-27 Total K-12 Educational Services Cost to Districts and ESDs
+3.58%
+
+50.64%
+45.78%
+
+Other Revenues (Federal, Local, Food Service Enterprise, PERS Side Account Earnings, SEIA, Etc.)
+SSA Transfer to SSF
+State School Fund
+
+Note: The federal dollars represented in the dark green portion in Exhibit 1 above include expiring ESSER III funds
+that were expended during the 2023-25 biennium. Non-SSF/SSA Transfer sources of revenue also include Corporate
+Activities Taxes and local revenues that are expected to increase.
+
+Executive Summary www.oregon.gov/ode | 5
+
+EXHIBIT 2: OREGON EDUCATION SYSTEM FUNDING REQUIREMENTS ($ IN MILLIONS)
+Description
+
+2021-23
+
+2023-25
+
+2025-27
+
+Current Service Level Total Funding
+Requirements from All Sources
+
+$16,980.20
+
+$19,217.80
+
+$22,848.70
+
+▪ Less: Local, Federal, and Non-State School
+
+$7,819.80
+
+$8,508.00
+
+$11,516.60
+
+QEM CSL Estimate
+
+$9,160.40
+
+$10,709.80
+
+$11,332.10
+
+▪ Percent Change from Prior Biennium
+
+4.4%
+
+16.9%
+
+5.8%
+
+State School Fund Appropriation
+
+$9,300.00
+
+$10,200.00
+
+$11,274.50*
+
+▪ Percent Change from Prior Biennium
+
+3.3%
+
+9.7%
+
+10.5%
+
+Fully-Implemented Quality Education Model
+Funding Requirements from All Sources
+
+$18,990.30
+
+$21,735.00
+
+$25,043.50
+
+▪ Less: Local, Federal, and Non-State School
+
+$7,819.80
+
+$8,508.00
+
+$11,516.60
+
+State School Fund Allocated Funding
+Requirements for Fully-Implemented
+Quality Education Model
+
+$11,170.50
+
+$13,227.00
+
+$13,526.90
+
+▪ Percent Change from Prior Biennium
+
+3.7%
+
+18.4%
+
+2.3%
+
+Funding Gap: Amount Fully-Implemented
+Model is Above Current Service Level
+
+$1,870.50
+
+$3,027.00
+
+$2,252.40
+
+▪ Percent Change from Prior Biennium
+▪ Gap as a Percent of the Current Service
+
+5.4%
+
+61.8%
+
+-25.6%
+
+20.1%
+
+29.9%
+
+19.98%
+
+▪ Gap as a Percent of the CSL Total Funding
+
+11.0%
+
+15.8%
+
+9.9%
+
+Fund Sources
+
+Fund Sources
+
+Level SSF Appropriation
+
+Requirements from All Sources
+
+* For 2025-27, the State School Fund Appropriation (Including SSA Transfer to SSF) is assumed to be the
+DAS SSF CSL Projection, as the QEC Report is published before the budget is legislatively adopted.
+
+Historical data that show the relationship between the Full QEM and Legislative State School Fund (SSF)
+appropriations is provided in the line graph below. The SSF has been steadily increasing across this time period, and
+the SSA investments have been substantial. However, the appropriations have not been sufficient to support statewide
+implementation of best practices and related increases in Oregon’s education goals.
+
+6 | Quality Education Commission Report 2024 www.oregon.gov/ode
+
+EXHIBIT 3: QEM FULL IMPLEMENTATION FUNDING GAP, 1999-2027
+QEM Full Implementation Funding Gap, 1999-2027
+$16,000.0
+$14,000.0
+$12,000.0
+
+Millions ($)
+
+$10,000.0
+$8,000.0
+$6,000.0
+$4,000.0
+$2,000.0
+
+2025-27
+
+2023-25
+
+2021-23
+
+2019-21
+
+2017-19
+
+2015-17
+
+2013-15
+
+2011-13
+
+2009-11
+
+2007-09
+
+2005-07
+
+2003-05
+
+2001-03
+
+1999-01
+
+$0.0
+
+QEM Full Implementation Recommended SSF
+
+QEM Full Implementation Recommended SSF (Less SSA Transfer)
+
+Legislative SSF Appropriation + SSA Transfer
+
+Legislative SSF Appropriation (Less SSA Transfer)
+
+Gap
+
+Gap (less SSA Transfer)
+
+The 2024 QEM Report sets a new standard for transparency, with the complete workbook, including inputs and
+algorithms used for calculations, now available to the public. The work of the Commission is complex, as is the data
+analysis, research, and facilitation support provided by ODE. The Commission, and the modeling and reporting
+process, would benefit from the provision of additional staff for ODE, in the form of an additional Senior Research
+Analyst to assist with data visualization and model validation, and a Policy Analyst to help manage meeting and report
+design, facilitation, and related planning.
+The Commission wants to emphasize that the Full Implementation of the QEM is not aspirational. It is attainable.
+There are several important funding needs that are not represented in the 2024 Full QEM. The Commission continues
+to analyze new inputs for future integration in the model, including, but not limited to, transitioning to a 180-day
+school year.
+
+
+--- OCR of this page (tesseract), not checked by a person: check the PDF before quoting or copying a figure ---
+DEPARTMENT OF
+| EDUCATION
+
+Oregon achieves... together!
+

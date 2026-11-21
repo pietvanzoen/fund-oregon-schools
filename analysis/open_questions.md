@@ -7,9 +7,12 @@
 - Date of the Faubion School press event [NEWS:NEWS-2026-salemreporter-1].
 - Source for the claim that Oregon spends above the national average per student (the QEM report gives Oregon's
   state-sourced rank as 20th [SRC:ode/qec/2026_qem_report.pdf p.117]; find the total-spending figure opponents use).
-- Two OLIS slide decks have almost no extractable text and need OCR: `legislature/olis/2025I1/310555_jpea.pdf`,
-  `legislature/olis/2026R1/313099_quality-education-process.pdf`.
-- 2027 session start date and Ways & Means calendar.
+- `legislature/olis/2025I1/310555_jpea.pdf` is a one-page cover email dated Nov 7, 2025, sending a "REVISION 1"
+  draft of the JPEA report as an embedded PDF attachment [SRC:legislature/olis/2025I1/310555_jpea.pdf p.1]. The
+  attachment isn't archived or searchable on its own. Analysis: comparing its text with the Nov 5 draft
+  (`310553_jpea.pdf`), only the wording changes the email lists differ, not the figures; its figures differ from the
+  Nov 14 version (`310695_jpea.pdf`), which is the one cited elsewhere. Archive it only if the draft history matters.
+- 2027 Ways & Means hearing calendar and bill deadlines (session start is set: Jan 19, 2027).
 - 2027 committee assignments: House Ways & Means co-chair and the Education Subcommittee's members (Sollman is
   leaving; check Weber, Ruiz and the rest). Ruiz's and Sanchez's Nov 2026 results. Update `people/legislators.csv`.
 - SB 1555 final status: OLIS showed it "In Senate Committee" (Senate Education) with no chapter number when checked
@@ -20,6 +23,10 @@
 - Governor's office phone and contact form, verified before sending to parents.
 - Virtual charters (#20): confirm with ODE that the "Charter Schools Rate (ORS 338.155)" is the General Purpose Grant
   per current-year ADMw (it checks out for North Bend and Scio) (#47).
+
+- `districts/santiam-canyon/audit_santiam-canyon-sd-129j.pdf` is S&P Global Ratings' Apr 7, 2026 rating update,
+  not the district's audit: the path was taken from the board posting. Renaming it means moving the file to
+  `_prior/` and re-adding it (`RUNBOOK.md`); for Piet to decide.
 
 ## Sources to find and queue (no URL yet)
 - Legislative Fiscal Office: 2025-27 budget highlights (K-12 section); 2027-29 CSL documents.

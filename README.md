@@ -1,6 +1,6 @@
 # Oregon K-12 Funding Research
 
-A research archive on how Oregon funds K-12 public schools, focused on the **2027-29 budget** (Gov. Tina Kotek's
+A research archive on Oregon K-12 funding (how much the state spends, how it's shared and what it buys), focused on the **2027-29 budget** (Gov. Tina Kotek's
 Recommended Budget and the 2027 Legislature): primary sources, and analysis that cites them claim by claim.
 
 **Browse it:** <https://fundoregonschools.org>, a readable website built from this repo.
@@ -21,13 +21,14 @@ material stays in that archive and is cited from here as `[PPSARCH:...]`.
 ## Layout
 | Path | What |
 |---|---|
-| `sources/` | Primary documents (Governor, Legislature/OLIS, ODE and the Quality Education Commission, fiscal offices, districts, advocacy groups) with provenance in `_manifest.jsonl`; each PDF/HTML has a `.txt` text copy. `news/index.jsonl` holds news metadata and summaries, never full text. |
+| `sources/` | Primary documents (Governor, Legislature/OLIS, ODE and the Quality Education Commission, fiscal offices, districts, advocacy groups) with provenance in `_manifest.jsonl`; each PDF/HTML has a `.txt` text copy (plus `.pdf.ocr.txt` where pages are pictures). `news/index.jsonl` holds news metadata and summaries, never full text. |
 | `sources/_queue.csv` | Documents to archive. Add a row; the `fetch-sources` Action downloads it. |
 | `analysis/` | Briefing, people and quotes, promises tracker, data tables, timeline, topics, open questions. Every claim cited. `data/` holds figures copied from sources; `derived/` holds our own calculations, written by `tools/derive_<topic>.py`. |
-| `tools/` | Stdlib Python: `search.py`, `doc.py`, `linkify.py`, `check_citations.py`, `fetch_sources.py`, `test_tools.py`. |
+| `tools/` | Stdlib Python: `search.py`, `doc.py`, `linkify.py`, `check_citations.py`, `fetch_sources.py`, `ocr_pdfs.py`, `test_tools.py`. |
 | `CLAUDE.md`, `.claude/plugins/fund-oregon-schools/` | Rules for Claude, and the `fund-oregon-schools` Claude plugin: `fos-research` (answer questions with citations) and `fos-work-issue` (work a research issue end to end; reviewer prompts in `reviewers/`). Install by adding this repo as a plugin marketplace (`.claude-plugin/marketplace.json`). Bump the version in both `plugin.json` and `marketplace.json` on any change. |
 | `SETUP.md`, `setup/fund-oregon-research/` | Setup instructions for volunteers' Claude, and the skill they install on their own account. |
 | `RUNBOOK.md` | Adding and refreshing sources. |
+| `decisions/` | Decision records: why the archive works the way it does, options weighed, and when to revisit. |
 | `mkdocs.yml`, `website/`, `tools/site_hook.py`, `overrides/` | The public website. Pages are generated from `analysis/` and `sources/` on every push to `main`; only the About page and `robots.txt` live in `website/`. Page titles and meta descriptions are set in `PAGE_META` in `tools/site_hook.py`; `overrides/main.html` adds link-preview (Open Graph) tags. Preview: `pip install "mkdocs>=1.6,<2" "mkdocs-material>=9.7,<10" && mkdocs serve`. |
 
 ## Quick use
@@ -37,3 +38,11 @@ python3 tools/doc.py 2026_qem_report --grep "current service level"
 python3 tools/linkify.py analysis/BRIEFING.md
 python3 tools/check_citations.py
 ```
+
+## What's in progress and what's next
+Open issues carry one status label: `in progress` (being worked; agents add it when they start), `next` (up next,
+picked first by the scheduled run) or `later` (backlog). Bookmark these:
+- [In progress](https://github.com/pietvanzoen/fund-oregon-schools/issues?q=is%3Aopen+label%3A%22in+progress%22)
+- [Next](https://github.com/pietvanzoen/fund-oregon-schools/issues?q=is%3Aopen+label%3Anext+-label%3A%22in+progress%22)
+- [Later](https://github.com/pietvanzoen/fund-oregon-schools/issues?q=is%3Aopen+label%3Alater+-label%3A%22in+progress%22)
+- [Not triaged](https://github.com/pietvanzoen/fund-oregon-schools/issues?q=is%3Aopen+-label%3Anext+-label%3Alater+-label%3A%22in+progress%22)

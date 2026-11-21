@@ -1,6 +1,6 @@
 ---
 name: fos-research
-description: Answer questions about Oregon K-12 school funding for the 2027-29 budget (State School Fund, Quality Education Model gap, Gov. Kotek's promises and budget, revenue forecasts, Education Stability Fund, legislators' positions) from this repository's archived sources, citing every claim. Use whenever working in the fund-oregon-schools repo or asked about Oregon state school funding or Kotek's education record.
+description: Answer questions about Oregon K-12 school funding for the 2027-29 budget (State School Fund, Quality Education Model gap, Gov. Kotek's promises and budget, revenue forecasts, Education Stability Fund, legislators' positions, the funding formula, and results and accountability) from this repository's archived sources, citing every claim. Use whenever working in the fund-oregon-schools repo or asked about Oregon state school funding or Kotek's education record.
 ---
 
 # Oregon school funding archive: answering questions
@@ -53,7 +53,9 @@ python3 tools/linkify.py analysis/BRIEFING.md                   # print with cit
   Don't attribute it to the agency whose data went into it.
 - Give citations as links (`tools/linkify.py`), keeping the tag when the text will be reused elsewhere.
 - Quotes verbatim and short; never smooth a quote. Hearing transcripts (`<file>.mp4.txt`) are machine-made:
-  verify a quote by listening at its timestamp, or don't quote it.
+  verify a quote by listening at its timestamp, or don't quote it. Text below a `--- OCR of this page` line
+  (from `<file>.pdf.ocr.txt`, picture-only slides and scans) is machine OCR: render the PDF page to check a quote
+  or figure before using it.
 
 ## Never
 - Invent or smooth a quote, number or source.
