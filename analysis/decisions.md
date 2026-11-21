@@ -6,21 +6,26 @@ files; the text is cited like any analysis. A due date for a decision by the Leg
 session can run. Background: `topics/measures-5-and-50.md` explains why these are state decisions.
 
 **How to read the tables.** Options come in three kinds. Every decision has a baseline; some also have benchmarks or
-proposals.
+proposals. These labels are this site's own.
 
-- **Baseline:** what happens if nobody changes course. For the State School Fund, that's its current service level:
-  the Department of Administrative Services' estimate of the last budget's State School Fund spending, adjusted for
-  inflation and enrollment, which comes to $12.56B for 2027-29. It covers the State School Fund alone, not the state's
-  other money for schools [SRC:ode/qec/2026_qem_report.pdf p.100] [SRC:ode/qec/2026_qem_report.pdf p.103]. For the
-  Education Stability Fund, the baseline is leaving the money in reserve; for the cost model and the formula, it's
-  keeping them as they are. Read each proposal against its baseline.
+- **Baseline:** the point of comparison if nobody changes course. For the State School Fund, this site uses the
+  current service level, the starting point budget writers use: the Department of Administrative Services' estimate
+  for 2027-29, made by adjusting the last budget's State School Fund spending for inflation and enrollment. It comes
+  to $12.56B and covers the State School Fund alone, not the state's other money for schools
+  [SRC:ode/qec/2026_qem_report.pdf p.100] [SRC:ode/qec/2026_qem_report.pdf p.103]. (The Quality Education
+  Commission's report uses "baseline" differently, for its full model.) For the Education Stability Fund, the baseline
+  is leaving the money in reserve; for the cost model and the formula, it's keeping them as they are. Read each
+  proposal against its baseline.
 - **Benchmark:** another figure worth comparing against, such as the amount adopted for 2025-27, or the Quality
-  Education Commission's estimate of what schools need to meet the state's goals.
-- **Proposal:** what someone has proposed, who proposed it, when, and how formal it is (for example a bill, a formal
-  request, a platform, a statement or a social media post).
+  Education Commission's estimates of what it costs to keep 2025-27 service levels ($13.78B) and to meet the state's
+  goals ($16.21B) [SRC:ode/qec/2026_qem_report.pdf p.117]. Both Commission figures count state money beyond the
+  State School Fund, so compare them with each other, not with the current service level.
+- **Proposal:** what someone has proposed, who proposed it, when, and how formal it is (a law, a bill, a request, a
+  platform, a statement or a social post, as the tables say).
 
 Analysis: the choice of baseline matters. Whether the current service level keeps all of today's services is an open
-question (`questions.csv`).
+question (`questions.csv`, "csl-meaning"); the Commission counts about $1.2B of other state money on top of it for
+its status quo estimate [SRC:ode/qec/2026_qem_report.pdf p.103].
 
 ## The Governor's recommended budget for 2027-29 {#grb-2027-29}
 
