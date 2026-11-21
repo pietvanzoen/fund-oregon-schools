@@ -5,6 +5,20 @@ stands where and when, and what this archive can answer so far. The tables are b
 files; the text is cited like any analysis. A due date for a decision by the Legislature is the latest the 2027
 session can run. Background: `topics/measures-5-and-50.md` explains why these are state decisions.
 
+**How to read the tables.** Each decision lists three kinds of option:
+
+- **Baseline:** what happens if nobody changes course. For the school budget, that's the state's estimate of what it
+  costs to keep today's schools running in 2027-29, the same programs at next biennium's prices: $12.56B
+  [SRC:ode/qec/2026_qem_report.pdf p.103]. For the reserve fund, it's leaving the money in reserve. Each proposal is a
+  change from the baseline, so you can see what it adds or takes away.
+- **Benchmark:** another figure worth comparing against, such as the amount adopted for 2025-27, or the Quality
+  Education Commission's estimate of what schools need to meet the state's goals.
+- **Proposal:** what someone is actually asking for, with who asked, when, and how formal the ask is (a bill, a
+  formal request, a statement, a social media post).
+
+Analysis: the choice of baseline matters. Whether "today's programs at next biennium's prices" keeps all of today's
+services is itself an open question (`questions.csv`).
+
 ## The Governor's recommended budget for 2027-29 {#grb-2027-29}
 
 - State law sets Dec 1 of even-numbered years for a governor continuing in office to submit a budget
