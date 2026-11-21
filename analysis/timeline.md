@@ -7,7 +7,7 @@
 | 2025-11-19 | JPEA sufficiency report: 2025-27 funding "effectively closes the funding gap" | [SRC:legislature/olis/2025I1/310695_jpea.pdf p.4] |
 | 2026-03-01 | Ways & Means co-chairs release the 2025-27 budget rebalance | [SRC:legislature/press/2026-03-01_jwm-rebalance.pdf p.1] |
 | 2026-04-16 | Executive Order 26-06 on instructional time | [SRC:gov/press/2026-04-16_eo-26-06-instructional-time.html] [NEWS:NEWS-20260416-wweek-1] |
-| 2026-04-29 | State Board of Education approves SB 141 targets | [NEWS:NEWS-20260429-oregonian-1] |
+| 2026-04-28 | State Board of Education adopts SB 141 statewide performance growth targets for the common metrics | [SRC:ode/accountability/2026-05_statewide-performance-growth-targets.pdf p.1] |
 | 2026-05-07 | Lieber and Sanchez at a school funding forum: no plan to tap the Education Stability Fund | [NEWS:NEWS-20260510-wweek-1] |
 | 2026-05-19 | Sen. Sollman (W&M education co-chair) loses her primary | [NEWS:NEWS-20260521-wweek-1] [NEWS:NEWS-20260529-opb-1] |
 | 2026-08 | Quality Education Commission releases 2026 QEM report | [SRC:ode/qec/2026_qem_report.pdf] [NEWS:NEWS-20260812-opb-1] |

@@ -83,9 +83,11 @@ is tracked as GitHub issues, shown as (#16) and so on.
 - Executive Order 26-06: no cuts to instructional time; districts restore 2024-25 levels by 2027-28
   [SRC:gov/eo/eo-26-06_preserving-instructional-time.pdf p.2]. Its FAQ says funding options will be explored
   "within the existing budget" [SRC:gov/eo/eo-26-06_faq.pdf p.2].
-- SB 141 performance growth targets for 2029-30, e.g. 8th-grade math from 28.9% to 52.0%
-  [SRC:ode/accountability/2026-05_statewide-performance-growth-targets.pdf p.1]. ODE said no new money was needed
-  [NEWS:NEWS-20260429-oregonian-1].
+- SB 141 statewide performance growth targets for the common metrics, adopted by the State Board on Apr 28, 2026,
+  for 2029-30, e.g. 8th-grade math from 28.9% to 52.0%
+  [SRC:ode/accountability/2026-05_statewide-performance-growth-targets.pdf p.1]. Answering funding questions from a
+  board member and an adviser, ODE Director Charlene Williams said meeting the targets "does not require new
+  dollars" [NEWS:NEWS-20260429-oregonian-1].
 
 **The 2026 QEM and district pressure**
 - The 2026 QEM report sets the 2027-29 benchmarks in section (d) [SRC:ode/qec/2026_qem_report.pdf p.103].
