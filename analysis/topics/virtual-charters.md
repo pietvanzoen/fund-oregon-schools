@@ -72,8 +72,7 @@ written by `tools/derive_virtual_charters.py`.
 - Scio's 2025-26 General Purpose Grant is $27,800,843.40, its 2025-26 ADMw 2,356.76, and its Charter Schools Rate
   $11,796 [SRC:ode/ssf/2025-26_ssf-estimates_2026-05-01.pdf p.118].
 - ODE's 2025-26 total revenue for formula is $8,248,519,310: state revenue for formula of $5,504,883,786 (the
-  $5,566,106,000 State School Fund appropriation, part of an $11,359,400,000 2025-27 budget, less transfers and
-  deductions) plus local revenue. The school district share is $7,877,335,941, from which high-cost disability
+  $5,566,106,000 State School Fund appropriation less transfers and deductions) plus local revenue. The school district share is $7,877,335,941, from which high-cost disability
   grants ($55,000,000) and the district share of the educator advancement fund ($6,003,307) are taken before
   distribution [SRC:ode/ssf/2025-26_ssf-estimates_2026-05-01.pdf p.1].
 - The transparency report does not split virtual charter students between K-8 and 9-12
@@ -188,7 +187,8 @@ sponsor's average rate. It is one year of state plus local formula revenue, not 
 - **Nyssa.** If Nyssa's program is not a charter, the ORS 338.155 pass-through minimums would not govern that
   arrangement.
 - **OJP's $11,000.** That is in line with the 2025-26 General Purpose Grant per ADMw ($10,801-$11,397 among virtual
-  charter sponsors, above). It is the revenue that moves with the student, not a net cost to the system.
+  charter sponsors, above). It is mostly revenue that moves with the student between districts rather than a net cost to the system, though
+  see (a)-(d) below.
 - **Kotek.** As of Nov 20, 2026, no proposal from her on virtual schools is in the archive; her 2027-29 budget is
   due Dec 1 (see `BRIEFING.md`).
 - **The bills.** Counting HB 3444's amendments, five of the six 2025 bills would have widened access to or funding for virtual charters; HB 2144

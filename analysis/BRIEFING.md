@@ -159,7 +159,7 @@ More: `data/qem_gap.csv`, `data/ssf_history.csv`, `data/reserves.csv`.
   [SRC:legislature/ors/ors327.html]; how closures change those costs is unresearched (#18).
 - **English learner and poverty weights** (#19).
 - **Online charters** (#20). The 20 virtual charters in ODE's 2025-26 report had about 22,100 ADMr (our sum
-  [DER:virtual_charters/admr_total_2025_26] from
+  [DER:virtual_charters/charter_count_2025_26] [DER:virtual_charters/admr_total_2025_26] from
   [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.1]
   [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.2]). That is about 4% of statewide
   ADMr (our sum [DER:virtual_charters/admr_share_2025_26], using [SRC:ode/ssf/2025-26_ssf-estimates_2026-05-01.pdf p.1]).
