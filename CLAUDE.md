@@ -82,7 +82,8 @@ Least new code that fully does the job; adapted from the ponytail rules
 - **Bugs:** grep all callers first, then fix the cause in shared code.
 - **Keep** validation and error handling when moving or merging code.
 - **Tests:** anything with branches, loops, parsing, money figures or a new script gets an assert-based case in
-  `tools/test_tools.py` (plain `assert`, run by CI). Trivial changes don't.
+  `tools/test_tools.py` (plain `assert`, run by CI). Trivial changes don't. Site code (`tools/site_hook.py`,
+  `mkdocs.yml`, `overrides/`) gets no tests: CI's `mkdocs build --strict` covers it.
 - **Known limits** go in a comment: `shortcut: <the limit>, <when to upgrade>`.
 - **Never cut:** the rules above about `sources/` (keep originals, provenance), citation and quote checks,
   secrets and access handling, accessibility of the site, or anything Piet asked for.
