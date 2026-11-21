@@ -21,10 +21,10 @@ material stays in that archive and is cited from here as `[PPSARCH:...]`.
 ## Layout
 | Path | What |
 |---|---|
-| `sources/` | Primary documents (Governor, Legislature/OLIS, ODE and the Quality Education Commission, fiscal offices, districts, advocacy groups) with provenance in `_manifest.jsonl`; each PDF/HTML has a `.txt` text copy. `news/index.jsonl` holds news metadata and summaries, never full text. |
+| `sources/` | Primary documents (Governor, Legislature/OLIS, ODE and the Quality Education Commission, fiscal offices, districts, advocacy groups) with provenance in `_manifest.jsonl`; each PDF/HTML has a `.txt` text copy (plus `.pdf.ocr.txt` where pages are pictures). `news/index.jsonl` holds news metadata and summaries, never full text. |
 | `sources/_queue.csv` | Documents to archive. Add a row; the `fetch-sources` Action downloads it. |
 | `analysis/` | Briefing, people and quotes, promises tracker, data tables, timeline, topics, open questions. Every claim cited. `data/` holds figures copied from sources; `derived/` holds our own calculations, written by `tools/derive_<topic>.py`. |
-| `tools/` | Stdlib Python: `search.py`, `doc.py`, `linkify.py`, `check_citations.py`, `fetch_sources.py`, `test_tools.py`. |
+| `tools/` | Stdlib Python: `search.py`, `doc.py`, `linkify.py`, `check_citations.py`, `fetch_sources.py`, `ocr_pdfs.py`, `test_tools.py`. |
 | `CLAUDE.md`, `.claude/plugins/fund-oregon-schools/` | Rules for Claude, and the `fund-oregon-schools` Claude plugin: `fos-research` (answer questions with citations) and `fos-work-issue` (work a research issue end to end; reviewer prompts in `reviewers/`). Install by adding this repo as a plugin marketplace (`.claude-plugin/marketplace.json`). Bump the version in both `plugin.json` and `marketplace.json` on any change. |
 | `SETUP.md`, `setup/fund-oregon-research/` | Setup instructions for volunteers' Claude, and the skill they install on their own account. |
 | `RUNBOOK.md` | Adding and refreshing sources. |

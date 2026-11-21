@@ -207,6 +207,12 @@ def main():
         open(f"{root}/sources/_queue.csv", "w").write(q3)
         os.remove(f"{root}/sources/gov/hand_added.pdf")
 
+        sys.path.insert(0, HERE)
+        from ocr_pdfs import MIN_CHARS, pages_to_ocr
+        # p.1 picture-only slide, p.2 text-rich page with a logo, p.3 blank page without an image
+        assert pages_to_ocr(["Title", "x" * MIN_CHARS, ""], {1, 2}) == [1]
+        assert pages_to_ocr(["  a b  " * 5, ""], {1}) == [1]
+
         print("all tool tests passed")
     finally:
         srv.shutdown()

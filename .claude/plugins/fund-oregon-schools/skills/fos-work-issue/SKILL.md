@@ -147,7 +147,8 @@ The bot pushes with a deploy key, so `check` runs on its commit too; your analys
 ## 5. Write the analysis
 
 Read what you cite, at the page you cite: `python3 tools/doc.py <path fragment> <page>` or `--grep`. For a table
-whose extracted text is scrambled, render the page and look at it
+whose extracted text is scrambled, or a fact found in text below a `--- OCR of this page` line (machine OCR of
+a picture), render the page and look at it
 (`pdftoppm -f <p> -l <p> -png -r 110 sources/<path> /tmp/page`, then Read the image).
 
 Then, as the issue needs:

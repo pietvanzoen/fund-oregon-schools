@@ -1,7 +1,7 @@
 name: fetch-sources
 
-# Downloads rows in sources/_queue.csv that aren't archived yet, extracts text, records provenance,
-# and commits the result. Runs on GitHub's runners because cloud sandboxes usually can't reach
+# Downloads rows in sources/_queue.csv that aren't archived yet, extracts text, OCRs PDF pages with little text
+# (tools/ocr_pdfs.py), records provenance, and commits the result. Runs on GitHub's runners because cloud sandboxes usually can't reach
 # oregon.gov or olis.oregonlegislature.gov.
 
 on:
@@ -35,8 +35,8 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ssh-key: ${{ secrets.FETCH_DEPLOY_KEY }}
-      - name: Install pdftotext
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+      - name: Install pdftotext and tesseract
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils tesseract-ocr
       - name: Fetch queued sources
         id: fetch
         continue-on-error: true   # still check and commit what did download; the last step fails the job
@@ -46,6 +46,11 @@ jobs:
           else
             python3 tools/fetch_sources.py
           fi
+      # Also catches PDFs archived before this step existed: each PDF with low-text pages is OCR'd once.
+      - name: OCR PDF pages with little text
+        id: ocr
+        continue-on-error: true   # commit the OCR text that finished; the last step fails the job
+        run: python3 tools/ocr_pdfs.py
       - name: Check citations
         run: python3 tools/check_citations.py
       # A deploy-key push triggers `check` on this commit. (A GITHUB_TOKEN push wouldn't; then the agent's next
@@ -56,10 +61,15 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add sources
           if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
-          git commit -q -m "sources: fetch $(git diff --cached --name-only -- sources | grep -v '\.txt$' | grep -v '^sources/_' | wc -l | tr -d ' ') file(s) from queue"
+          git commit -q -m "sources: fetch $(git diff --cached --name-only -- sources | grep -v '\.txt$' | grep -v '^sources/_' | wc -l | tr -d ' ') file(s), OCR $(git diff --cached --name-only -- sources | grep -c '\.ocr\.txt$') file(s)"
           git pull -q --rebase origin "${GITHUB_REF_NAME}" && git push -q origin "HEAD:${GITHUB_REF_NAME}"
       - name: Fail if any source failed to download
         if: steps.fetch.outcome == 'failure'
         run: |
           echo "::error::Some queued sources failed to download (listed in the job summary and the Fetch step log). They stay in the queue; re-run this workflow to retry."
+          exit 1
+      - name: Fail if OCR failed on any PDF
+        if: steps.ocr.outcome == 'failure'
+        run: |
+          echo "::error::OCR failed on some PDFs (listed in the OCR step log). Their pdftotext text is unchanged; re-run this workflow to retry."
           exit 1

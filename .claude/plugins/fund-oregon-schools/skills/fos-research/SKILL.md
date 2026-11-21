@@ -53,7 +53,9 @@ python3 tools/linkify.py analysis/BRIEFING.md                   # print with cit
   Don't attribute it to the agency whose data went into it.
 - Give citations as links (`tools/linkify.py`), keeping the tag when the text will be reused elsewhere.
 - Quotes verbatim and short; never smooth a quote. Hearing transcripts (`<file>.mp4.txt`) are machine-made:
-  verify a quote by listening at its timestamp, or don't quote it.
+  verify a quote by listening at its timestamp, or don't quote it. Text below a `--- OCR of this page` line
+  (from `<file>.pdf.ocr.txt`, picture-only slides and scans) is machine OCR: render the PDF page to check a quote
+  or figure before using it.
 
 ## Never
 - Invent or smooth a quote, number or source.

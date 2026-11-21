@@ -1,0 +1,452 @@
+A Brief History
+of Oregon
+Property
+Taxation
+
+150-303-405-1 (Rev. 6-09)
+
+150-303-405 (Rev. 6-09)
+
+
+--- OCR of this page (tesseract), not checked by a person: check the PDF before quoting or copying a figure ---
+A Brief History
+
+of Oregon
+
+Property
+
+Taxation
+
+C onecon
+DEPARTMENT
+
+Cayo: REVENUE
+
+50-303-405-1 (Rev. 6-09)
+
+To understand the current structure of Oregon’s property tax system, it is helpful to view the system in a historical
+context. Although governments in Oregon began taxing property before statehood, the structure of the tax changed
+very little until the 1990s, when two statewide ballot measures dramatically altered the system.
+Measure 5, which introduced tax rate limits, was passed in 1990 and became effective in the 1991-92 tax year. When
+fully implemented in 1995-96, Measure 5 cut tax rates an average of 51 percent from their 1990-91 levels. Measure 50,
+passed in 1997, cut taxes, introduced assessed value growth limits, and replaced most tax levies with permanent tax
+rates. It transformed the system from one primarily based on levies to one primarily based on rates. When implemented
+in 1997-98, Measure 50 cut effective tax rates an average of 11 percent from their 1996-97 levels.
+This document consists of four sections designed to provide a history of Oregon’s property tax system focusing on
+changes in the 1990s. The first section, Overview, is a broad look at how Measure 5 and Measure 50 have affected the
+property tax system. The second section, Property Tax Administration, reviews how property assessment, tax
+calculation, and tax collection have been transformed. The third section, Urban Renewal Agency Revenue, describes
+the changes that urban renewal agencies have experienced. The last section, Tax Relief, explains programs to reduce
+tax burdens that have existed for the past 30 years.
+
+Overview
+One useful way to understand the history of the property tax system is to divide the discussion into three distinct
+periods: Pre-Measure 5, Measure 5, and Measure 50.
+
+Pre-Measure 5
+Oregon had a pure levy-based property tax system until 1991-92. Each taxing district calculated its own tax levy based
+on its budget needs. County assessors estimated the real market values of all property in the state. Generally speaking,
+the full market value of property was taxable; there was no separate definition of assessed value. The levy for each
+taxing district was then divided by the total real market value in the district to arrive at a district tax rate. The taxes
+each district imposed equaled its tax rate multiplied by its real market value. Consequently, there was no difference
+between imposed taxes and tax levies under this system. Most levies were constitutionally limited to an annual growth
+rate of 6 percent, and levies that would increase by more than 6 percent required voter approval.
+Under this system, the tax rate for an individual property depended on the combination of taxing districts from which it
+received services. Taxes for each property were calculated by adding the tax rates for the relevant taxing districts to
+arrive at a consolidated tax rate. That tax rate was multiplied by the assessed value of the property to determine the tax
+imposed on that property. The annual growth in taxes on an individual property depended on a number of factors,
+including new or larger levies and the amount of new construction within the district. For example, if new construction
+did not occur, and property values did not change, then any growth in levies meant taxes increased for individual
+properties. On the other hand, new construction within the district meant that the levies were distributed across greater
+value. The tax rate would fall when the value of the district increased. This growth could result in lower taxes for some
+individual properties.
+
+2
+
+Measure 5
+Measure 5 introduced limits, starting in 1991-92, on the taxes paid by individual properties. The limits of $5 per
+$1,000 real market value for school taxes and $10 per $1,000 real market value for general government taxes apply
+only to operating taxes, not bonds.1 If either the school or general government taxes exceeded its limit, then each
+corresponding taxing district had its tax rate reduced proportionately until the tax limit was reached. This reduction in
+taxes to the limits is called “compression.”
+Measure 5 resulted in a system that was a hybrid of levy-based and rate-based systems. For properties where the school
+and general government taxes were below the limits, the process resembled a levy-based system; taxes imposed
+depended on levies. For properties where the calculated taxes exceeded the limits, and hence the tax rates were fixed at
+the limits, the process more closely resembled a rate-based system because the taxes imposed depended on assessed
+values.
+
+Measure 50
+The 1997 Legislature drafted Measure 50 in response to the passage of citizens’ initiative Measure 47 in November
+1996. Measure 47 would have rolled back property taxes (not assessed values) to 90 percent of the 1995-96 level for
+each property in the state. Measure 50 repealed Measure 47. This legislatively referred measure was drafted to correct
+a number of technical problems with Measure 47, while replicating its tax cuts.
+The objective of Measure 50 was to reduce property taxes in 1997-98 and to control their future growth. It achieved
+these goals by cutting the 1997-98 district tax levies, and by making three changes: switching to permanent rates,
+reducing assessed values, and limiting annual growth of assessed value.
+While Measure 5 simply limited the tax rates used to calculate taxes imposed, Measure 50 changed the concepts of
+both assessed values and tax rates. Assessed value is no longer equal to real market value. For 1997-98, the assessed
+value of every property was reduced to 90 percent of its 1995-96 assessed value.2 Because growth in value has not
+been uniform throughout the state, this change had varying impacts. Properties that had experienced the greatest value
+growth between 1995-96 and 1997-98 received the greatest cuts in assessed value and consequently, in taxes. For new
+property that did not exist in 1995-96, such as business personal property or improvements, the assessed value was
+calculated as a percentage of its market value.
+For existing property, Measure 50 limited the annual growth in assessed value to 3 percent. This limitation made
+predicting future assessed values much simpler. For new property (e.g., newly constructed homes), assessed value is
+calculated by multiplying the new property’s real market value by the ratio of assessed value to real market value of
+similar property. This approach to assigning values to a new property assures that it is taxed consistently with similar
+existing properties. Measure 50 also stipulates that assessed value may not exceed real market value. As a result, if the
+real market value of a property falls below its assessed value, the taxable value will be set at the real market value.
+Before Measure 50, local governments and voters set levies, and tax rates were the result of dividing levies by assessed
+value. Under Measure 50, permanent tax rates replaced most levies, making the permanent rates central to the property
+tax system. There are three types of property taxes that taxing districts may impose: taxes from the permanent rates,
+local option levies, and bond levies.3 Only the permanent rates are fixed. Bond levies typically are approved in terms
+of dollars, and the rates are calculated as the total levy divided by the assessed value in the district. Local option levies
+may be approved either in rate or dollar terms. If the local option levy is in dollar terms, then rates are calculated the
+same way as for bond levy rates.
+1
+
+The limit for school taxes was $15 per $1,000 assessed value in 1991-92. It was reduced by $2.50 each year until it reached a rate of $5 per
+$1,000 assessed value in 1995-96.
+2
+
+In 1995-96, assessed and real market value were equal.
+
+3
+
+Currently, there also are gap bonds and a pension levy. Gap bonds represent debt obligations that have been funded with the operating taxes of
+districts. The pension levy represents an ongoing obligation the City of Portland has to its fire and police forces. Both of these eventually will
+become part of the permanent rate for their respective districts.
+
+3
+
+Taxes from the permanent rates, typically referred to as operating taxes, are used to fund the general operating budgets
+of the taxing districts. They account for the single largest component of property taxes. Strictly speaking, the
+permanent rates are rate limits, so districts may use any rate up to their permanent rate.
+Local option taxes represent the only way taxing districts can raise operating revenue beyond the permanent rate
+amount. Even so, these taxes are the first to be reduced if the Measure 5 limitations are exceeded. Because voters at the
+local level must approve these levies, they represent one aspect of local control over the level of property taxes. All
+districts, except educational service districts (ESDs), are authorized to levy local option taxes. However, community
+colleges cannot seek local option levies that are greater than the amount of reduction caused by Measure 50 in fiscal
+year 1997-98. Fiscal year 2000-01 was the first year that school districts were able to use local option levies. Measure
+50 requires that local option levies, in elections other than general elections, be approved by a majority of voters with
+at least 50 percent of all registered voters actually voting.
+Bond levies have remained largely unchanged. They are used to pay principal and interest for bonded debt. Under the
+provisions of Measure 50, new bond levies, like new local option levies, are subject to a 50 percent voter participation
+requirement if the election is not a general election.
+
+School District Replacement Revenue
+Under Measures 5 and 50, the state was required to compensate schools for losses in tax revenue as a result of the
+changes made by each ballot measure. In both cases, the effect of the requirement was negligible, because the
+Legislature appropriated more than the required amount each biennium. Under Measure 5, losses from tax
+compression were required to be replaced through 1996, but the state was not required to continue the level of basic
+school support that it had provided to school districts prior to Measure 5. The replacement revenue requirement ended
+up being partially offset by reductions in other basic school support funds that were no longer mandated. Measure 50
+also contained a constitutional requirement that the Legislature replace school district revenue lost as a result of the
+Measure 5 rate limits. This requirement likewise has had a minimal effect on actual state school funding, because the
+school revenue compression losses under Measure 50’s lower tax environment have been smaller than the amount of
+basic school support the Legislature provided.
+
+Property Tax Administration
+Measures 5 and 50 resulted in significant changes to the way county governments and the state administer the tax.
+
+Property Assessment
+The process of identifying and assigning a value to taxable property is called assessment. County assessors administer
+most property assessment. The Oregon Department of Revenue assesses some property, including public utilities and
+large industrial properties. Utility property is placed on a separate assessment roll, which is transferred to the county
+assessment roll before preparation of tax bills. The Department of Revenue appraises large industrial plants, but those
+properties appear only on the county assessment roll.
+Property subject to taxation includes all privately owned real property (land, buildings, and improvements) and
+business personal property (machinery, office furniture, and equipment). There is no property tax on household
+furnishings (exempted in 1913), personal belongings, or automobiles (exempted in 1920). These and other property tax
+exemptions are detailed in the State of Oregon Tax Expenditure Report,4 a companion document to the Governor’s
+Budget.
+Before Measure 5 passed in 1990, each county assessor annually prepared an assessment roll listing all taxable
+property as of January 1. For example, the assessed value of a property for the 1989-90 fiscal year was determined as
+of January 1, 1989. Through 1980, assessed value was set to market value for all classes of property. From 1980 to
+4
+
+The most recent edition of State of Oregon Tax Expenditure Report can be found at www.oregon.gov/DOR/STATS/.
+
+4
+
+1983, taxable property was divided into two categories: homestead and all other. Homestead property consisted of
+owner-occupied, single family residences. Property was appraised at market value, but assessments were limited to 5
+percent growth statewide per year for each category. Beginning in 1984-85, the distinctions of homestead and all other
+property were eliminated. In 1985, the Legislature repealed the 5 percent limit on assessed value increases. Beginning
+with the 1985-86 tax year, all property was assessed again at 100 percent of full market value.
+The legislation to implement Measure 5 made two primary changes in the assessment process. First, it changed the
+assessment date from January 1 to July 1, effective at the beginning of the 1991-92 fiscal year. Second, the new
+legislation set assessed value equal to real market value, where real market value was defined as the minimum value
+for which the property would sell during the year.
+With Measure 50, property assessment changed dramatically. For 1997-98, the assessed value of a property was set at 90
+percent of the property’s 1995-96 assessed value. From 1998-99 onward, assessed value growth is limited to 3 percent
+per year. For new properties, assessed value is calculated by multiplying the ratio of assessed to real market value for
+similar property in the county by that property’s real market value. For example, if the ratio of assessed to real market
+value for residential property in a given county is 0.8, then the assessed value for a new house would be 80 percent of its
+real market value. Measure 50 also redefined real market value as the value for which the property would sell for in the
+market on the assessment date (January 1), thus abandoning the concept of minimum value during the year that was
+adopted under Measure 5.
+Equalization
+The process of maintaining uniformity of values among property owners and among various classes of property is
+called equalization. Before Measure 5 took effect, county boards of equalization heard taxpayer appeals and could
+adjust assessed values up or down to maintain uniformity. Boards of equalization also could adjust values for entire
+classes of property at the request of the county assessor to maintain uniformity in assessments. Measure 5 substantially
+reduced the authority of the county boards of equalization, and when Measure 50 took effect, the equalization process
+became unnecessary.
+Measure 5 removed the power of the county boards of equalization to equalize values. Their sole responsibility was
+changed to hearing petitions for reduction of value from individual taxpayers. At the county level, it was up to
+assessors to maintain uniformity in values by assessing each property at its real market value. At the state level, the
+director of the Department of Revenue used information on sale prices and assessed values to adjust county assessment
+rolls, if needed, to maintain uniformity among property owners and property classes.
+Under Measure 50, the mandated calculation of assessed value from a base year value with the 3 percent annual
+growth limit meant that equalization became unnecessary.
+Assessment Appeals
+After tax statements are issued, the county Boards of Property Tax Appeals (BOPTA) hear appeals to reduce real
+market value and assessed value and appeals to request a waiver of late filing penalties.
+Before Measure 5, property was assessed January 1 of each year. Property owners received their assessment notices in
+the spring, and appeals were settled prior to computing tax rates and mailing tax bills in October.
+Two features of Measure 5 required changing the appeal process. First, the assessment date was changed from January
+1 to July 1. This meant that, as a practical matter, there was not enough time to complete the appeal process prior to
+mailing tax bills. The Legislature remedied this problem by combining the assessment notice and the tax bill, and by
+providing for appeals after tax bills were mailed. Property owners could file appeals between October 25 and
+December 31 with the county Board of Equalization (BOE). Taxpayers received tax refunds if their appeals were
+successful.
+The second Measure 5 change to the appeal process was the definition of assessed value. The assessed value was set to
+real market value, defined as the minimum value the property could sell for during the year. This meant that, for some
+properties, the assessed value was not the value on the assessment date (July 1), but on a later date. To allow for
+
+5
+
+adjustments to the assessed value of properties whose value declined after the assessment date, the Legislature
+provided for a second appeals period. Between July 15 and July 31 following the end of the tax year, property owners
+who thought the market value of their property declined during the tax year could appeal to the county Board of Ratio
+Review (BORR). If successful, taxpayers received refunds.
+Measure 50 eliminated the BOE and BORR and replaced them with BOPTA. The limitation placed on increases in
+assessed value has resulted in a large decline in the number of appeals filed at this level. With the assessment date reset
+to January 1, the second appeals period no longer exists, and appeals must be filed between the date when tax
+statements are issued and December 31.
+
+Tax Calculation
+Just as the assessment process changed under Measure 5 and Measure 50, so did the calculation of taxes. Measure 5
+imposed tax rate limits, and Measure 50 established permanent tax rates to replace most tax levies that existed under
+the pre-Measure 5 and Measure 5 systems. This section describes the calculation of taxes and tax rates under the three
+systems.
+Tax Levies
+Before Measure 50 passed in 1997, tax levies played a key role in determining the amount of property taxes raised by
+local governments. Measure 50 required that most of the tax levies that existed previously be assigned permanent tax
+rates. Below, we discuss the old levy system and describe how it changed under Measure 50.
+Under both the pre-Measure 5 and the Measure 5 systems, tax levies played a key role in determining the amount of
+property tax revenue local governments received, and the amount of tax imposed on each property. The process of
+calculating and declaring the amount of taxes to be raised from taxpayers was termed “making the levy.” The
+governing body of each local government had the authority to levy property taxes. Each governing body determined
+the levy for its taxing district annually before July 15 as part of the budget process. Annual budgets for taxing districts
+are based on a fiscal year that begins July 1 and ends the following June 30.
+Constitutional and statutory limits on the amount that a taxing district may levy were:
+1. Levy inside the 6 percent limitation (tax base levy). A local government tax base, approved by a majority of its
+voters at a state general or primary election, represented a permanent authority to levy a specific dollar amount
+each year. That dollar amount could not be more than 6 percent larger than the highest amount levied in the three
+prior years. Tax base levies could be increased in proportionate amounts for annexed territory. A taxing district
+was permitted to have only one tax base levy. Proceeds from the tax base levy could be expended for any purpose
+allowed by law for the district except general obligation bonds. Tax base levies were subject to the Measure 5 tax
+rate limits.
+2. Levy outside the 6 percent limitation (one year, serial, safety net, or continuing levies). One year and serial
+levies, approved by a majority of voters at a special election, were temporary taxing authorities permitting the levy
+of a specific dollar amount for one year or for two or more years (serial levies). Safety net levies were available
+only to school districts and qualifying ESDs, and did not require voter approval. The safety net levy was the
+amount needed to bring the current year’s total tax base, and other levies for operating purposes, up to the amount
+of the prior year’s total levy for operating purposes.5 Continuing levies were those approved by voters before 1953.
+They were permanent and limited in amount by the product of the voted tax rate and the assessed value of the
+taxing district (as opposed to a limit on the levy amount). Starting in 1978, serial levies also could be established
+using a specified voter approved tax rate, but the term could not exceed three years. These were sometimes
+referred to as “rate levies.” The 1989 Legislature (Oregon Laws Chapter 658) increased the limit on fixed-dollar
+serial levies from three to five years for operating purposes and 10 years for any other purposes. All one year,
+serial, safety net, and continuing levies were subject to the Measure 5 tax rate limits.
+5
+
+Levies for operating purposes did not include levies for payment of bonded debt, capital construction, or serial levies approved for more than
+three years (ORS 328.715).
+
+6
+
+3. Levy for bonded indebtedness (bond and interest levy). Taxing districts could levy an amount sufficient to pay
+principal and interest for bonded debt each year. Bond measures to be paid from future tax levies first had to be
+approved by a majority of those voting, unless otherwise provided by law. Proceeds from a bond levy could not be
+diverted to another purpose. Bond levies used for capital construction were not subject to the Measure 5 tax rate
+limits.
+Measure 50 converted most of the levies imposed under the pre-Measure 5 and Measure 5 systems to a permanent tax
+rate. Tax base levies, one year levies, serial levies, safety net levies, and continuing levies all became part of the
+permanent rate created by Measure 50. In addition, Measure 50 created a new type of levy known as a local option levy.
+Local option levies are operating levies that can be passed by voters to raise revenue beyond the permanent rate amounts.
+The original Measure 50 language did not allow school districts or ESDs to use local option levies. However, legislation
+passed in 1999 enabled school districts to use local option levies starting in 2000-01. Levies for bonded indebtedness are
+essentially the same as they were before Measure 50. Taxes from permanent rates and from local option levies are subject
+to the Measure 5 rate limits, but taxes from bond levies remain exempt from limits.
+Tax Rates
+Measure 50 replaced most tax levies with permanent tax rates. Therefore, the exercise of setting tax rates remains only
+for local option levies, bond levies, and urban renewal special levies. Under Measure 50, the county assessor computes
+tax rates for local option levies, bond levies, and urban renewal special levies, and then adds those rates to the
+permanent rates to compute the total rate to be extended to a property. The tax extended to a property is the total tax
+rate multiplied by the assessed value of the property.
+Under the pre-Measure 50 systems, the county assessor extended authorized levies and computed district tax rates for
+each taxing district. District tax rates were expressed as a dollar amount per $1,000 of assessed value, and were
+computed by dividing total taxes levied by the total assessed value inside the taxing district boundaries. The total tax
+extended to a property was the sum of the district tax rates multiplied by the assessed value of the property. Under
+Measure 5, if the tax extended to the property exceeded the Measure 5 limits, the tax going to each local government
+was reduced proportionally until the limit was reached.
+When Measure 50 first took effect in the 1997-98 tax year, permanent tax rates were calculated based on a complicated
+formula that took into account several factors. These included: a) the amount of taxes that would have been raised in
+1997-98 under Measure 47, b) the levies that existed under the Measure 5 system, c) the tax cut required by Measure
+50, and d) a variety of special provisions that exempted certain types of levies from the Measure 50 cuts, and reduced
+the amount of the tax cuts for districts with rapid assessed value growth due to new construction.
+Property Tax Compression
+Compression is the process used to reduce property taxes to the Measure 5 limits. Prior to Measure 5, compression did
+not exist. Reductions in taxes due to compression are the difference between what taxing districts wish to raise through
+property taxes (tax extended) and the amount they actually raise (tax imposed).
+Measure 5 introduced limits, phased in between 1991-92 and 1995-96, on the taxes individual properties pay. The
+limits are $5 per $1,000 real market value for school taxes, and $10 per $1,000 real market value for general
+government taxes. These limits are applied only to operating taxes, not bonds. For each property, the assessor
+compares education taxes with the education limit and other governmental taxes with the general government limit. If
+property taxes exceed the Measure 5 limits, then taxes are compressed in a specific order. First, local option taxes are
+reduced, possibly to zero. If there are no local option taxes or they have been reduced to zero, the tax rates from the
+permanent tax rates for each taxing district are reduced proportionately.6
+It is important to note that while property tax rates under Measure 50 are applied to a property’s assessed value, the
+Measure 5 rate limits apply to real market value. Prior to Measure 50, this distinction was unnecessary because
+
+6
+
+Gap bonds and pension levies are reduced also, if present.
+
+7
+
+assessed value equaled real market value. While the Measure 5 limits still apply under Measure 50, the effect of the
+Measure 5 limits is minimal for most properties because Measure 50 substantially reduced property taxes.
+
+Tax Collection
+Once the tax rates and Measure 5 tax rate limits are applied to each property, the assessor certifies the assessment roll,
+and turns it over to the tax collector. The tax collector bills and collects all taxes and makes periodic remittances of
+collections to taxing districts. Tax statements mailed to property owners list the assessed value of property and the
+taxes extended by each taxing district. They also indicate how much is inside and how much is outside the Measure 5
+property tax limits, and the amount of taxes actually due after the limits have been applied.
+Taxes are levied and become a lien on property on July 1. Tax payments are due on November 15 of the same calendar
+year. Under the partial payment schedule, the first one-third of taxes is due on November 15, the second one-third on
+February 15, and the remaining one-third on May 15. A discount of 3 percent is allowed if full payment is made by
+November 15; a 2 percent discount is allowed for a two-thirds payment made by November 15. For late payments,
+interest accrues at a rate of 1.33 percent per month. If taxes remain unpaid after three years from the tax due date,
+counties initiate property foreclosure proceedings.
+
+Urban Renewal Agency Revenue
+In Oregon, urban renewal agencies receive the bulk of their revenues through a tax increment financing mechanism.
+When an urban renewal plan is created, the assessed value of the property within its boundaries is locked in time, or
+frozen, at the amount calculated from the last certified tax roll prior to the plan’s approval. The agency then raises
+revenue in subsequent years from any value growth above the frozen amount; this value growth is referred to as the
+increment. The tax rate used to calculate taxes imposed for the urban renewal plan is the consolidated tax rate for the
+taxing districts within the geographic boundaries of the plan. These urban renewal taxes, referred to as “tax off the
+increment,” are calculated as the consolidated tax rate multiplied by the value of the increment.
+
+Pre-Measure 5
+Before Measure 5, urban renewal agencies received taxes that would have been imposed by each taxing district on the
+excess value of property within each urban renewal plan area (an agency can have more than one plan area).
+Technically, only the properties within the urban renewal plan area paid taxes to the urban renewal agency. However,
+all taxpayers in taxing districts overlapping the plan area paid urban renewal taxes because the removal of urban
+renewal excess value from the tax rate calculation caused tax rates to be slightly higher for everyone in the taxing
+district.
+
+Measure 5
+The legislation passed to implement Measure 5 made a number of changes to tax increment financing in urban renewal
+areas to avoid potential inequities among taxpayers. If the Measure 5 tax limits had been imposed under the old urban
+renewal system where only properties inside the plan areas paid urban renewal taxes, those properties could have paid
+taxes that were dramatically different from surrounding properties’ taxes. If an agency used its revenue to finance
+bonds outside the limits, the properties in the plan area could pay far higher taxes than similar properties outside the
+plan area. Likewise, if the agency used the revenue for nonbond purposes, then properties inside the plan area would
+have relatively more of their taxes subject to the Measure 5 rate limits, and could pay far lower taxes than similar
+properties outside the plan area.
+The Legislature attempted to remedy this problem by spreading urban renewal taxes over all properties inside the
+urban renewal agency’s boundary for taxing districts overlapping urban renewal plan areas. Urban renewal taxes
+appeared separately on tax statements, just like those of each taxing district.
+In 1992, tax increment financing in urban renewal areas was changed again. The Oregon Supreme Court ruled that all
+revenue collected by an urban renewal agency to pay for bonds is inside Measure 5 rate limits, and hence subject to the
+
+8
+
+general government limit. This has had a substantial effect on urban renewal agencies, because a large percentage of
+their revenues are used to pay for bonds.
+
+Measure 50: 1997-98 to 2001-02
+Measure 50 returned the structure of urban renewal financing to the same form it had prior to Measure 5, with one
+exception. Urban renewal agencies do not have permanent rates and continued to raise revenue primarily through tax
+increment financing. Under certain circumstances, urban renewal agencies were allowed to raise additional revenue,
+beyond what they raised from their increment, via special levies. Starting in 1997-98, if an existing urban renewal plan
+received less revenue from its increment under Measure 50 than what it would have received under the pre-Measure 50
+tax system, the agency could impose a special levy to make up the difference. The special levy is imposed on all
+properties within the boundaries of the urban renewal agency (either a city or a county), not just on properties in the
+plan area. New plan areas (established after 1996) receive tax increment financing revenue only; the agency may not
+impose a special levy for new plan areas.
+
+Measure 50: After 2001-02
+Two substantial changes took effect in 2002-03. One was a result of new legislation in the 2001 session: House Bill
+3215. This established that certain plan areas could not divide taxes from local option or bond levies that were passed
+by voters after October 6, 2001. These plan areas are either option 1 or option 2 plans7, or are new plans that were
+adopted after October 6, 2001. All other plan areas adopted before October 6, 2001, divide taxes from local option and
+bond levies like in the past, without regard to when the voters approved the levies.
+The second new change in 2002-03 was that a court case, Shilo Inn vs. Multnomah County, clarified that all urban
+renewal revenues must be considered in the general government category for the purpose of meeting the constitutional
+tax limitations, regardless of what type of district was the source of the division of tax revenue. Previously, the tax
+reduction to meet the constitutional limitations was calculated based on the type of district the division of tax came
+from. If a school district had faced division of tax, the amount of tax divided for urban renewal was reduced with the
+other education category taxes at the $5 per $1,000 limit. The court case changed this so the division of tax from the
+school district would be grouped with all other general government revenue for testing against the $10 per $1,000
+general government limit.
+In order to accommodate both the legislative change and the court decision, the division of tax calculation reverted to
+the method used under Measure 5 before 1997-98, where division of tax was spread across the urban renewal agency.
+The excess value within each plan area in the district and the district billing rate determines the amount of urban
+renewal revenue from division of tax. This amount is divided by the value of property that is both within the agency
+and within the district (shared value) to determine the division of tax rate. The district billing rate is reduced by the
+division of tax rate for taxpayers in the area of shared value. All revenues from the division of tax rate are considered
+general government revenues for the purpose of meeting the constitutional tax limitations.
+The net effect of these changes will vary by taxpayer, but education districts in urban renewal agency areas will tend to
+have less revenue lost to the constitutional limitations than before, and general government districts in those areas will
+tend to see more revenue lost to the constitutional limitations than before.
+
+Tax Relief
+During the past 30 years, the Legislature has created six property tax relief programs. Currently, only two of these
+programs remain: the Elderly Rental Assistance (ERA) and the Deferral programs. The Homestead Deferral programs
+include property tax deferral programs for seniors (62 years and older) and disabled homeowners, and a special
+assessment deferral program for seniors.
+7 For definitions of option 1 and option 2 plans please see glossary in the most recent Oregon Property Tax Statistics report, available at
+
+http://www.oregon.gov/DOR/STATS/statistics.shtml.
+
+9
+
+In 1973, the Legislature enacted the Homeowner and Renter Refund program (HARRP) to provide tax relief to lowand middle-income Oregonians. The program was modified in 1989 and phased out in 1991. While it existed, the
+program provided property tax refunds to households based on income levels and property taxes paid (for renters, 17
+percent of rent was considered to be property tax), up to specified maximum refund amounts. The refunds were
+initially available to households with incomes less than $17,500. Starting in 1989, the Legislature restricted HARRP
+refunds to households with nonhousing assets less than $25,000. The maximum refund amounts increased as income
+declined. For homeowners, the maximum refund for the lowest income category was $750, declining to $0 as income
+exceeded $17,500. The maximum refund amounts for renters were one-half of those for homeowners. The 1991
+Legislature phased out HARRP, making the 1990 tax year the last year for refunds. For 1990, the household income
+limit was reduced to $10,000; the maximum refund was reduced to $500 for homeowners and $250 for renters.
+The Elderly Rental Assistance program (ERA) was a companion to HARRP that continued after HARRP was
+eliminated. It provides tax relief to elderly renters whose rent, fuel, and utility expenses are large in relation to their
+income. Starting in 1975, ERA refunds were available to people at least 58 years old with incomes less than $5,000. If
+rent, fuel, and utility expenses exceeded 40 percent of household income, renters would receive an ERA refund instead
+of a HARRP refund if the ERA amount was higher. In 1990, with the phase out of HARRP, the income threshold for
+ERA was raised to $10,000, and the rent, fuel, and utility expense threshold was reduced to 20 percent of income.
+Homeowners 62 years or older who meet certain income requirements are able to defer all property taxes. Under the
+Senior Citizen’s Deferral program, the state pays the property taxes of participants and charges the homeowner 6
+percent annual interest on the deferred amount. Homeowners are not required to pay the taxes or interest to the state
+until they die or sell their homes, or no longer inhabit their home (except for medical reasons). The income eligibility
+requirement is indexed to inflation and was $39,000 in 2008. Once approved, senior citizens are eligible for continued
+deferral in future years so long as their federal adjusted gross income remains below the threshold.
+The second program, the Senior Citizen’s Special Assessment Deferral program, allows qualifying seniors to defer
+their special assessment charges for public improvements (e.g. sewer or sidewalk improvement charges). The
+qualifying income limit is the same as the limit for the Senior Citizen’s Deferral program.
+The third Deferral program, the Disabled Citizen’s Property Tax Deferral program, started in 2001 for fiscal year
+2001-02, and is similar to the Senior Citizen’s Deferral program because the same income limits apply, and property
+taxes are deferred at 6 percent annual interest. However, this program is for disabled homeowners who are eligible for,
+or receive Social Security disability benefits. In addition, age limitation does not apply.
+
+10
+
+
