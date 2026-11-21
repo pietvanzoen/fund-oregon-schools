@@ -11,12 +11,17 @@ a DER figure in BRIEFING without "our sum"/"our estimate" in its sentence;
 a topic file without the three sections, or a line under "What the sources say" with no source citation or with
 "Analysis:".
 Warnings also flag a number under "What the sources say" that isn't in the text of a source the line cites.
+analysis/updates.csv (What's new) has its own columns instead of a source: date, text, page, pr.
+
+    python3 tools/check_citations.py --pr 64 --base origin/main  # also: a PR that changes reader-facing files
+                                                                # must add an updates.csv row with its number
 """
 import argparse
 import csv
 import glob
 import os
 import re
+import subprocess
 import sys
 from decimal import ROUND_HALF_UP, Decimal
 
@@ -26,6 +31,9 @@ from common import (ANALYSIS, DERIVED, NEWS_INDEX, QUOTES, ROOT, SOURCES, TAG_RE
 
 SECTIONS = ["What the sources say", "Derived figures", "Analysis"]
 DER_COLS = ["id", "value", "unit", "kind", "label", "method", "inputs", "assumptions"]
+UPDATE_COLS = ["date", "text", "page", "pr"]
+UPDATES = os.path.join(ANALYSIS, "updates.csv")
+NOT_READER_FACING = {"analysis/updates.csv", "analysis/open_questions.md"}  # not shown on the site
 NUM_RE = re.compile(r"\d[\d,]*(?:\.\d+)?")
 BLOCK_START = re.compile(r"^\s*(?:[-*] |\d+\. |\||#+ )")
 # shortcut: an abbreviation like "Gov. " also ends a sentence; reword the sentence if it splits a DER figure off
@@ -62,6 +70,8 @@ def rounds_to(value, shown):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--pending", action="store_true")
+    ap.add_argument("--pr", type=int, help="pull request number: require an updates.csv row for it")
+    ap.add_argument("--base", default="origin/main", help="branch the PR merges into, for --pr")
     a = ap.parse_args()
     errors, warnings = [], []
 
@@ -159,6 +169,8 @@ def main():
                     check_sections(rel, lines, news_text, errors, warnings)
             elif dirpath == DERIVED:
                 continue  # checked above
+            elif full == UPDATES:
+                check_updates(rel, errors)
             elif f.endswith(".csv"):
                 with open(full, newline="", encoding="utf-8") as fh:
                     rd = csv.DictReader(fh)
@@ -179,12 +191,53 @@ def main():
                     for m in TAG_RE.finditer(q.get("cite", "")):
                         check_tag(f"{rel}:{n}", m.group(1), m.group(2))
 
+    if a.pr:
+        check_pr_update(a.pr, a.base, errors)
+
     for w in sorted(set(warnings)):
         print("warn ", w)
     for e in errors:
         print("ERROR", e)
     print(f"{len(errors)} errors, {len(set(warnings))} warnings, {len(pending)} queued sources not fetched")
     return 1 if errors else 0
+
+
+def read_updates():
+    with open(UPDATES, newline="", encoding="utf-8") as fh:
+        rd = csv.DictReader(fh)
+        return rd.fieldnames, list(rd)
+
+
+def check_updates(rel, errors):
+    cols, rows = read_updates()
+    if cols != UPDATE_COLS:
+        errors.append(f"{rel}: columns must be {','.join(UPDATE_COLS)}")
+        return
+    for n, r in enumerate(rows, 2):
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", r["date"]):
+            errors.append(f"{rel}:{n}: date must be YYYY-MM-DD")
+        if not r["text"].strip():
+            errors.append(f"{rel}:{n}: no text")
+        page = r["page"].split("#")[0]
+        if page and not os.path.exists(os.path.join(ANALYSIS, page)):
+            errors.append(f"{rel}:{n}: page {page} isn't a file under analysis/")
+        if r["pr"] and not r["pr"].isdigit():
+            errors.append(f"{rel}:{n}: pr must be a PR number")
+
+
+def check_pr_update(pr, base, errors):
+    """Readers learn about new research from What's new, so a PR that changes what the site shows adds a row."""
+    out = subprocess.run(["git", "-C", ROOT, "diff", "--name-only", f"{base}...HEAD"],
+                         capture_output=True, text=True)
+    if out.returncode:
+        errors.append(f"--pr: git diff against {base} failed: {out.stderr.strip()}")
+        return
+    changed = [f for f in out.stdout.split() if (f.startswith("analysis/") and f not in NOT_READER_FACING)
+               or f == "sources/news/index.jsonl"]
+    if changed and not any(r["pr"] == str(pr) for r in read_updates()[1]):
+        errors.append(f"PR #{pr} changes {', '.join(changed[:3])}{' …' if len(changed) > 3 else ''} but "
+                      f"analysis/updates.csv has no row with pr {pr}. Add one (date, text for readers, page, {pr}), "
+                      "or label the PR no-update if readers don't need to know.")
 
 
 def check_der_figures(rel, lines, derived, errors):

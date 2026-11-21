@@ -39,7 +39,6 @@ MD_PAGES = {
     "index.md": "OVERVIEW.md",
     "briefing.md": "BRIEFING.md",
     "timeline.md": "timeline.md",
-    "updates.md": "updates.md",
 }
 PEOPLE = ["kotek", "lieber", "sanchez", "ruiz", "sollman"]
 for _slug in PEOPLE:
@@ -65,6 +64,7 @@ FILE_TO_PAGE.update({
     "data/ssf_history.csv": "numbers.md",
     "data/reserves.csv": "numbers.md",
     "glossary.csv": "glossary.md",
+    "updates.csv": "updates.md",
 })
 
 SECTION_NAMES = {
@@ -311,10 +311,8 @@ def landing(md, ctx):
     md = re.sub(r"^((?:- .*\n)+)", lambda m: f'<div class="grid cards" markdown>\n\n{m.group(1)}\n</div>\n\n' + coming_up(ctx),
                 md, count=1, flags=re.M)
     md = re.sub(r"^## ", lambda m: INTRO + "## ", md, count=1, flags=re.M)
-    upd = open(os.path.join(ANALYSIS, "updates.md"), encoding="utf-8").read()
-    latest = "".join(re.findall(r"^- .*\n(?:  .*\n)*", upd, re.M)[:3])
-    md, n = re.subn(r"<!-- site: latest updates -->\n.*\n", lambda m: file_refs(latest, "index.md", "updates.md")
-                    + "\n[All updates](updates.md)\n", md)
+    latest = "".join(update_lines("index.md")[:3])
+    md, n = re.subn(r"<!-- site: latest updates -->\n.*\n", lambda m: latest + "\n[All updates](updates.md)\n", md)
     assert n == 1, "OVERVIEW.md lost its '<!-- site: latest updates -->' marker"
     return md
 
@@ -470,6 +468,25 @@ Exact words from the officials who decide school funding, each with its source. 
 """ + footer(["analysis/people/quotes_all.jsonl"], ["analysis/people/quotes_all.jsonl"])
 
 
+def update_lines(from_page):
+    """analysis/updates.csv as What's new bullets, newest first (same date: the later row first)."""
+    rows = sorted(enumerate(read_csv("updates.csv")), key=lambda x: (x[1]["date"], x[0]), reverse=True)
+    out = []
+    for _, r in rows:
+        d = datetime.date.fromisoformat(r["date"])
+        line = f"- **{d:%b} {d.day}, {d.year}:** {r['text']}"
+        line += f" → `{r['page']}`" if r["page"] else ""
+        line += f" · [#{r['pr']}]({GITHUB}/pull/{r['pr']})" if r["pr"] else ""
+        out.append(file_refs(line, from_page, "updates.csv") + "\n")
+    return out
+
+
+def updates_page(ctx):
+    return ("# What's new\n\nNew research and data in this archive, newest first. Each entry says what changed for "
+            "readers, links to it and to the change on GitHub.\n\n" + "".join(update_lines("updates.md"))
+            + footer(["analysis/updates.csv"], ["analysis/updates.csv"]))
+
+
 def promises_page(ctx):
     cards = []
     for r in read_csv("promises.csv"):
@@ -622,6 +639,7 @@ def on_files(files, config):
         "who-decides.md": who_page(ctx),
         "sources.md": sources_page(ctx),
         "glossary.md": glossary_page(ctx),
+        "updates.md": updates_page(ctx),
     })
     for uri, content in pages.items():
         files.append(File.generated(config, uri, content=front_matter(uri) + content))

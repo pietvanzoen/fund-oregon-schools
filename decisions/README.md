@@ -37,3 +37,4 @@ The concrete signal that should reopen this.
 | [0003](0003-one-derive-script-per-topic.md) | Calculated values live in their own files, one plain derive script per topic |
 | [0004](0004-fetch-bot-pushes-with-deploy-key.md) | The fetch-sources bot pushes with a deploy key |
 | [0005](0005-no-test-framework-for-now.md) | Tests are plain asserts in one script, no framework, for now |
+| [0006](0006-whats-new-from-a-csv.md) | What's new is a CSV with a PR column, checked in CI, not built from commits |

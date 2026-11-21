@@ -83,7 +83,7 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
    but follow the same rule anyway for consistency.)
 7. Describe members of the public, don't name them. Officials, legislators, staff and organizations can be named.
 8. Prefer structured outputs (CSV/JSONL) alongside readable Markdown. Every CSV row has a `source` column, except
-   `analysis/derived/*.csv`, whose rows name their `inputs`.
+   `analysis/derived/*.csv`, whose rows name their `inputs`, and `analysis/updates.csv`, whose rows name their PR.
 9. Run `python3 tools/check_citations.py` before committing analysis changes, and after changing data or a derive
    script, run every `tools/derive_*.py` and commit `analysis/derived/`. CI runs the check, reruns the scripts and
    fails if `analysis/derived/` changes.
@@ -141,7 +141,9 @@ Least new code that fully does the job; adapted from the ponytail rules
 - `analysis/topics/<topic>.md` — topic files in the three sections; each is published on the website automatically
 - `analysis/glossary.csv` — abbreviations and terms: full name, hover tooltip, cited definition
 - `analysis/timeline.md`, `analysis/open_questions.md`
-- `analysis/updates.md` — What's new for readers, newest first (the overview shows the latest three); `changelog/` is for maintainers
+- `analysis/updates.csv` — What's new for readers (`date, text, page, pr`; the site shows it newest first, the
+  overview the latest three). A PR that changes reader-facing files must add a row with its number (CI checks;
+  label `no-update` to waive). `changelog/` is for maintainers
 - `decisions/NNNN-<slug>.md` — decision records: context, decision, options weighed, when to revisit
 - `sources/**/<file>.pdf.ocr.txt` — the PDF's text plus OCR of its picture-only pages, by `tools/ocr_pdfs.py` in fetch-sources
 - `sources/**/<media file>.txt` — machine transcript of an .mp4/.m4a/.mp3/.wav/.webm, by the `transcribe` Action
