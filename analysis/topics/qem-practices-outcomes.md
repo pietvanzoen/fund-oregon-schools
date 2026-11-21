@@ -40,7 +40,9 @@ student outcomes, and what research it cites for that link. The dollar figures a
   class sizes from 23-24 to 20 [SRC:ode/qec/2022_qem_report.pdf p.12] [SRC:ode/qec/2022_qem_report.pdf p.13].
 - The 2026 report made no discretionary changes to the inputs; staffing levels are identical to the 2024 model and
   the increase reflects market prices [SRC:ode/qec/2026_qem_report.pdf p.13] [SRC:ode/qec/2026_qem_report.pdf p.102].
-  It excludes enhancements such as a 180-day school year [SRC:ode/qec/2026_qem_report.pdf p.102].
+  It excludes enhancements such as a 180-day school year [SRC:ode/qec/2026_qem_report.pdf p.102]. Citing "consensus
+  about the shortcomings of the current model", commissioners agreed that significant changes should wait for an
+  improved model and process [SRC:ode/qec/2026_qem_report.pdf p.102].
 
 ### The outcome the model is tied to
 - The model assumes that with sustained full funding, and with districts implementing the recommended practices,
@@ -83,12 +85,12 @@ student outcomes, and what research it cites for that link. The dollar figures a
   link between spending and student performance [SRC:ode/qec/2022_qem_report.pdf p.14].
 - All three are archived: Jackson's review in its public working-paper version, which gives the same 12-of-13 count
   [SRC:reference/2019-01_jackson_does-school-spending-matter.pdf p.10]; Baker's review
-  [SRC:reference/2017-12_baker_how-money-matters-for-schools.pdf]; and the Center for American Progress report, an
-  advocacy think tank's work [SRC:orgs/center-for-american-progress/2018-11-13_quality-approach-school-funding.html].
+  [SRC:reference/2017-12_baker_how-money-matters-for-schools.pdf]; and the Center for American Progress report, a
+  policy organization's report, filed under `orgs/` [SRC:orgs/center-for-american-progress/2018-11-13_quality-approach-school-funding.html].
   Their own findings, alongside research that finds smaller effects, are for #63.
 - The 2024 report's list of research articles includes Baker, Farrie and Sciarra (2016), "Mind the Gap: 20 Years of
-  Progress and Retrenchment in School Funding and Achievement Gaps", alongside studies of class size (Tennessee's Student Teacher
-  Achievement Ratio (STAR) project), early childhood programs and community schools [SRC:ode/qec/2024_qem_report.pdf p.112]
+  Progress and Retrenchment in School Funding and Achievement Gaps" (a 2016 research report), alongside studies of class size (Tennessee's Student Teacher
+  Achievement Ratio project), early childhood programs and community schools [SRC:ode/qec/2024_qem_report.pdf p.112]
   [SRC:ode/qec/2024_qem_report.pdf p.113]. "Mind the Gap" isn't archived yet (#79).
 - The 2026 report presents its own regressions above and AIR's 2025 work below as evidence for its funding level [SRC:ode/qec/2026_qem_report.pdf p.95] [SRC:ode/qec/2026_qem_report.pdf p.100].
 
@@ -102,7 +104,8 @@ student outcomes, and what research it cites for that link. The dollar figures a
 - AIR wrote that its findings "do not invalidate the current QEM estimates": it found no omitted resources or
   inaccurate pricing [SRC:legislature/lpro/2025-01_air_qem-evaluation.pdf p.33].
 - AIR's own cost model estimated adequate spending of $22,210 per pupil in 2022-23 against $17,136 actually spent
-  from state and local sources, a 30% gap [SRC:legislature/lpro/2025-01_air_cost-of-adequacy.pdf p.41]. Its target is
+  from state and local sources, a 30% gap [SRC:legislature/lpro/2025-01_air_cost-of-adequacy.pdf p.40]
+  [SRC:legislature/lpro/2025-01_air_cost-of-adequacy.pdf p.41]. Its target is
   raising achievement one standard deviation above the statewide average on a measure combining ELA and math
   achievement, chronic absenteeism and graduation [SRC:legislature/lpro/2025-01_air_cost-of-adequacy.pdf p.41]
   [SRC:legislature/lpro/2025-01_air_cost-of-adequacy.pdf p.43]. AIR says its estimate being larger than the QEM's is
@@ -113,6 +116,18 @@ student outcomes, and what research it cites for that link. The dollar figures a
   attendance) and agrees more prototypes should be added but has lacked staff to do so
   [SRC:ode/qec/2026_qem_report.pdf p.99]. It asks for 2.0 FTE at ODE in the upcoming biennium to start, out of an estimated
   12.0-19.0 FTE build-out over two to three biennia [SRC:ode/qec/2026_qem_report.pdf p.116].
+
+### The Legislature's critique (JPEA, Nov 2025)
+- The Joint Committee on Public Education Appropriation's Nov 2025 report lists nine "opportunities for improvement"
+  in the QEM [SRC:legislature/olis/2025I1/310695_jpea.pdf p.5]. Those bearing on practices and outcomes: the
+  statutory goals behind the QEM "lack specificity"; the QEC's use of the professional judgment model "does not
+  guarantee that the QEC selects interventions that are proven to work"; some best practices in the report are not
+  model inputs; the model schools don't account for variation in need; and there is "a notable lack of connection"
+  among the QEM's best practices, districts' statutory requirements and what districts actually do
+  [SRC:legislature/olis/2025I1/310695_jpea.pdf p.5].
+- A JPEA legislative concept would move the cost model from the QEC to the Legislative Policy and Research Office
+  [SRC:legislature/olis/2025I1/311607_jpea-legislative-concepts.pdf p.1]. It became SB 1555 (2026)
+  [NEWS:NEWS-20260121-katu-1]; the overhaul effort was unsuccessful [NEWS:NEWS-20260617-occ-1].
 
 ### The practices the commission recommends (2026)
 - The 2026 best-practices section is a synthesis of white papers by ODE and Educator Advancement Council experts,
@@ -156,7 +171,7 @@ None: every figure above is stated in a cited source.
 The QEM ties a staffing and program list to one outcome, a 90% four-year graduation rate, but the link is a
 judgment, not a calculation. The commission itself says outcomes are not model inputs, and in 2022 said the model had
 never statistically tied performance to cost. Its regressions of graduation on state funding per student since
-2013-14 are a check on the estimate, not a derivation of it; they chart two trends that both rose over the same
+2013-14 are a check on the estimate, not a derivation of it; they chart two trends that broadly rose over the same
 years, which is consistent with funding mattering but does not by itself separate funding from other causes.
 
 The strongest evidence the commission cites that money matters is outside research (Jackson's review of
@@ -172,6 +187,10 @@ illustrations rather than predictions.
 
 AIR's $22,210 is aimed at a different and higher target than the QEM's (one standard deviation above the statewide
 average on a combined measure), so the QEC's reading of it as showing the Full QEM is "conservative" holds only in
-the loose sense that both say more money is needed. Under the 2027 debate over replacing the QEM (`BRIEFING.md`
-section c), the commission's alternatives aimed at SB 141 metrics are the part of its report that already speaks the
-language of the new accountability system.
+the loose sense that both say more money is needed. AIR and the JPEA make overlapping criticisms (one outcome goal,
+prototypes that ignore variation in need), and the commission accepts the first two in its 2026 report while saying
+it lacks the staff to act on them. With further QEM changes expected in 2027 (`BRIEFING.md` sections e and f), the
+commission has already moved toward SB 141's terms: it says its practices are expected to improve outcomes as SB 141
+measures them, the extra goals it is exploring are SB 141 metrics, and one of its two fallback options funds programs
+aimed at those metrics [SRC:ode/qec/2026_qem_report.pdf p.13] [SRC:ode/qec/2026_qem_report.pdf p.99]
+[SRC:ode/qec/2026_qem_report.pdf p.110].

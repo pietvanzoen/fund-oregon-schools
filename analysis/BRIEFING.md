@@ -274,5 +274,6 @@ Full timeline: `timeline.md`.
 | #57 | Student Investment Account: spending and results |
 | #58 | Statewide outcomes over time, set against funding |
 | #60 | SB 141 accountability: progress and consequences |
+| #63 | Research on whether school funding changes outcomes (studies the QEC cites are archived; #79 still to fetch) |
 
 More in `open_questions.md`.
