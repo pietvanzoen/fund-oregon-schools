@@ -1,0 +1,36 @@
+# Results and accountability: what the money buys
+
+Standing research: what state funding buys, and the outcome goals and mandates attached to it. Open research: #57,
+#58, #60, #61, #63, #71, #72.
+
+## What the sources say
+
+- **SB 141 targets.** The State Board of Education adopted statewide performance growth targets for the common
+  metrics on Apr 28, 2026, for 2029-30, for example 8th-grade math from 28.9% to 52.0%
+  [SRC:ode/accountability/2026-05_statewide-performance-growth-targets.pdf p.1].
+- ODE Director Charlene Williams said meeting the targets "does not require new dollars", framing the work as districts
+  using or redirecting the resources they have; a board member and a board adviser voiced doubts about meeting them
+  without more money, and the board then voted unanimously [NEWS:NEWS-20260429-oregonian-1].
+- Under SB 141, state help and oversight step up for districts that show no progress [NEWS:NEWS-20260429-oregonian-1].
+- **Executive Order 26-06**: no cuts to instructional time; districts restore 2024-25 levels by 2027-28
+  [SRC:gov/eo/eo-26-06_preserving-instructional-time.pdf p.2]. Its FAQ says funding options will be explored
+  "within the existing budget" [SRC:gov/eo/eo-26-06_faq.pdf p.2].
+- The FAQ answers "No." to whether the order is an unfunded mandate [SRC:gov/eo/eo-26-06_faq.pdf p.3], while saying
+  current funding "may not be sufficient for some school districts to cover increasing costs"
+  [SRC:gov/eo/eo-26-06_faq.pdf p.2].
+- If the full QEM isn't funded, the Quality Education Commission's 2026 report offers more funding for programs aimed
+  at the SB 141 metrics as an alternative [SRC:ode/qec/2026_qem_report.pdf p.110].
+- The model assumes that sustained full funding, with districts using the recommended practices, would bring the
+  four-year graduation rate to 90 percent [SRC:ode/qec/2026_qem_report.pdf p.92]; outcomes inform the commission's
+  judgment but are not inputs to the model [SRC:ode/qec/2026_qem_report.pdf p.95]. See
+  `topics/qem-practices-outcomes.md`.
+
+## Derived figures
+
+None: every figure above is stated in a cited source.
+
+## Analysis
+
+The archive so far covers mostly how much is spent; what the money buys is the least-researched part. Still to
+research: Student Investment Account spending and results (#57), outcomes over time set against funding (#58), SB 141 progress and consequences (#60, #71), where
+increases go (#61), research on whether funding changes outcomes (#63), and unfunded mandates (#72).

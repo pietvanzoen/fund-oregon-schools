@@ -1,8 +1,8 @@
 # What full funding is meant to buy: the QEM's practices and outcomes
 
 How the Quality Education Commission (QEC) links its Quality Education Model (QEM) to practices in schools and to
-student outcomes, and what research it cites for that link. The dollar figures are in `BRIEFING.md` (section d) and
-`data/qem_gap.csv`.
+student outcomes, and what research it cites for that link. The dollar figures are in `topics/quality-education-model.md`
+and `data/qem_gap.csv`. Decisions this informs: `decisions.md#cost-model-2027`.
 
 ## What the sources say
 
@@ -209,6 +209,6 @@ AIR's $22,210 is aimed at a different and higher target than the QEM's (one stan
 average on a combined measure), so the two estimates target different outcomes and the comparison shows direction (both say more is
 needed), not size. AIR criticizes the single outcome goal, and both AIR and the JPEA criticize prototypes that ignore
 variation in need; the commission accepts both points in its 2026 report while saying
-it lacks the staff to act on them. With further QEM changes expected in 2027 (`BRIEFING.md` sections e and f), the
+it lacks the staff to act on them. With further QEM changes expected in 2027 (`decisions.md#cost-model-2027`), the
 commission has already moved toward SB 141's terms: its expected outcomes, the extra goals it is exploring and one
 of its two fallback options are all framed in SB 141's metrics (sources above).

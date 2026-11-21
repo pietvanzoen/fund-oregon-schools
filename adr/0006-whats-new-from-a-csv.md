@@ -9,7 +9,7 @@ new research without one. Readers also had no way to get from an entry to the ch
 ## Decision
 `analysis/updates.csv` (`date, text, page, pr`) holds the entries; the site renders What's new and the overview's
 latest three from it, each linking its page and its PR. CI (`check_citations.py --pr`) fails a PR that changes
-reader-facing files (`analysis/` except `open_questions.md` and `updates.csv`, and the news index) without a row
+reader-facing files (`analysis/` except `updates.csv`, and the news index) without a row
 for its own number. The `no-update` label waives it. Merges should be squash-only (a repo setting Piet sets), so main has one commit per PR.
 
 ## Options weighed

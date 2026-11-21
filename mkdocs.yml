@@ -51,13 +51,10 @@ markdown_extensions:
       permalink: true
 
 nav:
-  - Overview: index.md
-  - The briefing: briefing.md
-  - The numbers: numbers.md
-  - What they've said: quotes.md
-  - Promises tracker: promises.md
-  - Timeline: timeline.md
-  - What's new: updates.md
+  - Start here: index.md
+  - What's being decided: decisions.md
+  - Questions: questions.md
+  - Topics: []  # filled by tools/site_hook.py from analysis/topics/*.md
   - People:
       - Who decides: who-decides.md
       - Gov. Tina Kotek: people/kotek.md
@@ -65,7 +62,12 @@ nav:
       - Rep. Tawna Sanchez: people/sanchez.md
       - Rep. Ricki Ruiz: people/ruiz.md
       - Sen. Janeen Sollman: people/sollman.md
-  - Topics: []  # filled by tools/site_hook.py from analysis/topics/*.md
-  - Glossary: glossary.md
-  - Sources: sources.md
+  - Reference:
+      - The numbers: numbers.md
+      - What they've said: quotes.md
+      - Promises tracker: promises.md
+      - Timeline: timeline.md
+      - Glossary: glossary.md
+      - Sources: sources.md
+  - What's new: updates.md
   - About this site: about.md

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Print a Markdown file with citation tags turned into links (the tag text is kept).
 
-    python3 tools/linkify.py analysis/BRIEFING.md            # to stdout
-    python3 tools/linkify.py analysis/BRIEFING.md --repo     # link SRC to the archived copy on GitHub instead
+    python3 tools/linkify.py analysis/decisions.md           # to stdout
+    python3 tools/linkify.py analysis/decisions.md --repo     # link SRC to the archived copy on GitHub instead
 
 SRC → the original URL from the manifest (or the queue, if not fetched yet), with #page=N for PDFs.
 NEWS → the article URL. PPSARCH → the PPS archive on GitHub. VID → URL from the manifest plus #t=seconds.

@@ -2,7 +2,7 @@
 
 Nothing in website/ duplicates the research: every page except About is generated here at build time from the
 same files Claude and the citation checker use. Citation tags become small links to the source:
-  [SRC:...]     -> "📄 p.N"  state or legislative document (original URL, opened at the cited page)
+  [SRC:...]     -> "📄 Short title, p.N"  state or legislative document (original URL, opened at the cited page)
   [NEWS:...]    -> "📰 Outlet" news report
   [PPSARCH:...] -> "🏫 PPS archive"
   [VID:...]     -> "🎥 H:MM:SS"
@@ -36,11 +36,14 @@ BLOB = GITHUB + "/blob/main/"
 
 # Generated page -> analysis file it comes from (None = built from data files)
 MD_PAGES = {
-    "index.md": "OVERVIEW.md",
-    "briefing.md": "BRIEFING.md",
+    "index.md": "START.md",
+    "decisions.md": "decisions.md",
     "timeline.md": "timeline.md",
 }
-PEOPLE = ["kotek", "lieber", "sanchez", "ruiz", "sollman"]
+# Every people/<id>.md is a profile page; people.csv gives the names
+PEOPLE = sorted(f[:-3] for f in os.listdir(os.path.join(ANALYSIS, "people")) if f.endswith(".md"))
+with open(os.path.join(ANALYSIS, "people", "people.csv"), newline="", encoding="utf-8") as _fh:
+    NAMES = {r["id"]: r["name"] for r in csv.DictReader(_fh)}
 for _slug in PEOPLE:
     MD_PAGES[f"people/{_slug}.md"] = f"people/{_slug}.md"
 
@@ -49,7 +52,7 @@ TOPICS = {}
 for _f in sorted(os.listdir(os.path.join(ANALYSIS, "topics"))):
     if _f.endswith(".md"):
         assert _f not in {*MD_PAGES, "numbers.md", "quotes.md", "promises.md", "who-decides.md", "sources.md",
-                          "about.md"}, f"topics/{_f} would replace the {_f} page; rename it"
+                          "about.md", "questions.md"}, f"topics/{_f} would replace the {_f} page; rename it"
         MD_PAGES[_f] = f"topics/{_f}"
         _h1 = open(os.path.join(ANALYSIS, "topics", _f), encoding="utf-8").readline()
         TOPICS[_f] = _h1[2:].strip() if _h1.startswith("# ") else _f[:-3]
@@ -59,7 +62,11 @@ FILE_TO_PAGE = {v: k for k, v in MD_PAGES.items()}
 FILE_TO_PAGE.update({
     "promises.csv": "promises.md",
     "people/quotes_all.jsonl": "quotes.md",
-    "people/legislators.csv": "who-decides.md",
+    "people/people.csv": "who-decides.md",
+    "decisions.csv": "decisions.md",
+    "options.csv": "decisions.md",
+    "positions.csv": "decisions.md",
+    "questions.csv": "questions.md",
     "data/qem_gap.csv": "numbers.md",
     "data/ssf_history.csv": "numbers.md",
     "data/reserves.csv": "numbers.md",
@@ -119,7 +126,7 @@ def chip(kind, body, ctx):
             url = BLOB + "sources/" + path
         title = ctx.titles.get(path) or os.path.basename(path)
         tip = title + (f", page {page}" if page else "")
-        label = f"📄 p.{page}" if page else "📄 doc"
+        label = f"📄 {short_title(title)}" + (f", p.{page}" if page else "")
         cls = "src"
     elif kind == "NEWS":
         rec = ctx.news.get(body.strip(), {})
@@ -148,6 +155,14 @@ def chip(kind, body, ctx):
         return f'<span class="cite cite-{cls}" title="{esc(tip)}">{esc(label)}</span>'
     return (f'<a class="cite cite-{cls}" href="{esc(url)}" title="{esc(tip)}" '
             f'target="_blank" rel="noopener">{esc(label)}</a>')
+
+
+def short_title(title):
+    """A source name short enough for a citation chip, so copied text still says where it's from."""
+    t = title.split(" (")[0]
+    head = t.split(": ")[0]
+    t = head if len(head) >= 8 else t
+    return t if len(t) <= 48 else t[:46].rsplit(" ", 1)[0] + "…"
 
 
 def dedupe(tags):
@@ -182,10 +197,11 @@ def file_refs(text, from_page, src_file):
 
 
 PAGE_TITLES = {
-    "index.md": "overview", "briefing.md": "the briefing", "timeline.md": "timeline", "updates.md": "what's new",
-    "promises.md": "promises tracker", "quotes.md": "what they've said", "who-decides.md": "who decides",
-    "numbers.md": "the numbers", "glossary.md": "glossary", "people/kotek.md": "Kotek", "people/lieber.md": "Lieber",
-    "people/sanchez.md": "Sanchez", "people/ruiz.md": "Ruiz", "people/sollman.md": "Sollman",
+    "index.md": "start here", "decisions.md": "what's being decided", "timeline.md": "timeline",
+    "updates.md": "what's new", "promises.md": "promises tracker", "quotes.md": "what they've said",
+    "who-decides.md": "who decides", "numbers.md": "the numbers", "glossary.md": "glossary",
+    "questions.md": "questions",
+    **{f"people/{s}.md": NAMES.get(s, s).split()[-1] for s in PEOPLE},
     **{page: h1.lower() for page, h1 in TOPICS.items()},
 }
 
@@ -240,6 +256,8 @@ def footer(sources, ctx_date_paths):
 
 def from_analysis(page, src, ctx):
     md = open(os.path.join(ANALYSIS, src), encoding="utf-8").read()
+    if page == "decisions.md":
+        md = decision_tables(md)
     if page == "timeline.md":
         md = split_timeline(md)
     md = file_refs(md, page, src)
@@ -255,7 +273,7 @@ INTRO = """
 <summary>How to read this site</summary>
 
 Every claim links to where it comes from:
-<span class="cite cite-src">📄 p.N</span> is a state or legislative document, opened at the cited page;
+<span class="cite cite-src">📄 Title, p.N</span> is a state or legislative document, opened at the cited page;
 <span class="cite cite-news">📰 Outlet</span> is a news report; <span class="cite cite-pps">🏫 PPS archive</span>
 is the Portland Public Schools research archive; <span class="cite cite-der">🧮 our sum</span> is a figure this
 archive calculated itself, linked to its method. Boxes and sections marked **Analysis** are interpretation,
@@ -313,13 +331,65 @@ def landing(md, ctx):
     md = re.sub(r"^## ", lambda m: INTRO + "## ", md, count=1, flags=re.M)
     latest = "".join(update_lines("index.md")[:3])
     md, n = re.subn(r"<!-- site: latest updates -->\n.*\n", lambda m: latest + "\n[All updates](updates.md)\n", md)
-    assert n == 1, "OVERVIEW.md lost its '<!-- site: latest updates -->' marker"
+    assert n == 1, "START.md lost its '<!-- site: latest updates -->' marker"
     return md
 
 
 def read_csv(rel):
     with open(os.path.join(ANALYSIS, rel), newline="", encoding="utf-8") as f:
         return list(csv.DictReader(f))
+
+
+def actor(a):
+    """A people.csv id as a linked name; an organization's name as it is."""
+    if a in PEOPLE:
+        return f"[{NAMES.get(a, a)}](people/{a}.md)"
+    return NAMES.get(a, a)
+
+
+def question_rows(qs):
+    def status(q):
+        if q["status"] == "answered" and q["answer"]:
+            return f"answered: `{q['answer']}`"
+        if q["issue"]:
+            return f"{q['status']} · [follow the work]({GITHUB}/issues/{q['issue']})"
+        return q["status"]
+    return table(["Question", "Asked by", "Needed by", "Status"],
+                 [[q["question"], q["asked_by"], q["needed_by"] or "no date", status(q)] for q in qs])
+
+
+def decision_tables(md):
+    """Replace each '<!-- site: decision <id> -->' in decisions.md with that decision's tables from the CSVs."""
+    decisions = {d["id"]: d for d in read_csv("decisions.csv")}
+    options, positions, questions = read_csv("options.csv"), read_csv("positions.csv"), read_csv("questions.csv")
+    opt_text = {o["id"]: o["option"] for o in options}
+
+    def block(m):
+        d = decisions[m.group(1)]
+        out = [f"**Decided by:** {d['decided_by']} · **Due:** {d['due']} · **Status:** {d['status']} {d['source']}"]
+        if d["outcome"]:
+            out.append(f"**Outcome:** {d['outcome']} {d['outcome_source']}")
+        os_ = [o for o in options if o["decision"] == d["id"]]
+        out += ["", "**Baseline and options**", "",
+                table(["", "Option", "Proposed by", "When", "Amount", "Formality", "Source"],
+                      [[o["kind"], o["option"], o["proposed_by"] or "—", o["proposed_on"] or "—", o["amount"] or "—",
+                        o["formality"], o["source"]] for o in os_])]
+        ps = sorted((p for p in positions if p["decision"] == d["id"]), key=lambda p: p["date"])
+        if ps:
+            out += ["", "**Who stands where**", "",
+                    table(["Who", "When", "On", "Stance", "Source"],
+                          [[actor(p["actor"]), p["date"], opt_text.get(p["option"], "the decision as a whole"),
+                            p["stance"], p["source"]] for p in ps])]
+        qs = [q for q in questions if q["decision"] == d["id"]]
+        if qs:
+            out += ["", "**Questions**", "", question_rows(qs)]
+        return "\n".join(out) + "\n"
+
+    md, n = re.subn(r"<!-- site: decision ([\w-]+) -->\n", block, md)
+    assert n == len(decisions), f"decisions.md has {n} decision markers; decisions.csv has {len(decisions)} rows"
+    standing = [q for q in questions if not q["decision"]]
+    return md.replace("<!-- site: standing questions -->\n",
+                      (question_rows(standing) if standing else "None yet.") + "\n")
 
 
 def table(headers, rows):
@@ -364,17 +434,25 @@ def funding_chart(ctx):
         return float(qem[m]["amount_billion"])
 
     csl, sq, full = val("ssf_csl_in_report"), val("status_quo_state_funding"), val("full_qem_state_funding")
+    adopted = next(r for r in read_csv("data/ssf_history.csv")
+                   if r["biennium"] == "2025-27" and r["stage"] == "legislatively_adopted")
     src = cites(dedupe(qem["status_quo_state_funding"]["source"] + " " + qem["full_qem_state_funding"]["source"]
               + " " + qem["ssf_csl_in_report"]["source"]), ctx)
     return bar_chart([
-        ("Current service level", csl, "State School Fund, no new money", "s-base",
-         f"State School Fund current service level: ${csl:.2f}B"),
-        ("Keep today's services", sq, f"QEM status quo · +${val('status_quo_gap_above_csl'):.2f}B", "s-main",
-         f"Quality Education Model status quo: ${sq:.2f}B, ${val('status_quo_gap_above_csl'):.2f}B above the CSL"),
-        ("Meet the state's goals", full, f"Full QEM · +${val('full_qem_above_csl'):.2f}B", "s-main",
-         f"Full Quality Education Model: ${full:.2f}B, ${val('full_qem_above_csl'):.2f}B above the CSL"),
-    ], "State funding for K-12 in 2027-29, billions of dollars",
-        note_lines=[f"All three figures: 2026 Quality Education Model report. {src}"])
+        ("Adopted for 2025-27", float(adopted["amount_billion"]), "State School Fund", "s-base",
+         f"State School Fund adopted for 2025-27: ${float(adopted['amount_billion']):.2f}B"),
+        ("Current service level", csl, "State School Fund · DAS estimate", "s-base",
+         f"State School Fund current service level for 2027-29: ${csl:.2f}B"),
+        ("Keep 2025-27 service levels", sq, "QEM status quo · all core state funding", "s-main",
+         f"Quality Education Model status quo: ${sq:.2f}B, counting state money beyond the State School Fund"),
+        ("Meet the state's goals", full, "Full QEM · all core state funding", "s-main",
+         f"Full Quality Education Model: ${full:.2f}B, ${val('full_qem_above_status_quo'):.2f}B above the status quo"),
+    ], "State funding for K-12, billions of dollars: 2025-27 adopted and 2027-29 estimates",
+        note_lines=["The first two bars are the State School Fund alone; the Quality Education Model figures also "
+                    "count other state money, so compare them with each other. The Quality Education Commission "
+                    "leaves what counts as adequate to the Legislature.",
+                    f"2027-29 figures: 2026 Quality Education Model report. {src} 2025-27: "
+                    + cites(adopted["source"], ctx)])
 
 
 def numbers_page(ctx):
@@ -391,7 +469,7 @@ def numbers_page(ctx):
          f"{r['biennium']} {r['stage'].replace('_', ' ')}: ${float(r['amount_billion']):.2f}B")
         for r in hist
     ], "State School Fund by two-year budget, billions of dollars",
-        note_lines=["2027-29 is the no-new-money baseline, not an adopted budget. " +
+        note_lines=["2027-29 is the current service level estimate, not an adopted budget. " +
                     cites(dedupe(" ".join(r["source"] for r in hist)), ctx)])
 
     nice = lambda s: s.replace("_", " ")  # noqa: E731
@@ -403,7 +481,7 @@ def numbers_page(ctx):
                 for r in ssf])
     facts = "\n\n".join(
         f'!!! note "{esc(r["fund"])}: about ${r["amount_billion"].lstrip("~")}B (as of {r["as_of"]})"\n'
-        f'    **To use it:** {r["conditions_to_use"]}.  \n    {r["note"]} {cites(r["source"], ctx)}'
+        f'    **To use it:** {r["conditions_to_use"]}.  \n    {cites(r["note"], ctx)} {cites(r["source"], ctx)}'
         for r in res)
 
     return f"""# The numbers
@@ -481,6 +559,31 @@ def update_lines(from_page):
     return out
 
 
+def questions_page(ctx):
+    """analysis/questions.csv as one page: answered first, then open by needed-by date, each linked to its decision."""
+    qs = read_csv("questions.csv")
+    decisions = {d["id"]: d["decision"] for d in read_csv("decisions.csv")}
+
+    def about(q):
+        return f"[{decisions[q['decision']]}](decisions.md#{q['decision']})" if q["decision"] else "standing research"
+
+    answered = [q for q in qs if q["status"] == "answered"]
+    still = sorted((q for q in qs if q["status"] == "open"), key=lambda q: q["needed_by"] or "9999")
+    out = ["# Questions", "",
+           "What readers have asked, and what this archive can answer so far. Each question belongs to a "
+           "[decision](decisions.md) or to standing research. Have a question? Email "
+           "[hello@fundoregonschools.org](mailto:hello@fundoregonschools.org); we describe who asked, never name them.",
+           "", "## Answered", ""]
+    out += [f"- **{q['question']}** {about(q)} · `{q['answer']}`" for q in answered] or ["None yet."]
+    out += ["", "## Open", ""]
+    for q in still:
+        work = f" · [follow the work]({GITHUB}/issues/{q['issue']})" if q["issue"] else ""
+        out.append(f"- **{q['question']}**  \n  {about(q)} · asked by {q['asked_by']} · "
+                   f"needed by {q['needed_by'] or 'no date'}{work}")
+    md = file_refs("\n".join(out) + "\n", "questions.md", "questions.csv")
+    return md + footer(["analysis/questions.csv"], ["analysis/questions.csv"])
+
+
 def updates_page(ctx):
     return ("# What's new\n\nNew research and data in this archive, newest first. Each entry says what changed for "
             "readers, links to it and to the change on GitHub.\n\n" + "".join(update_lines("updates.md"))
@@ -490,18 +593,17 @@ def updates_page(ctx):
 def promises_page(ctx):
     cards = []
     for r in read_csv("promises.csv"):
-        money = r["money_attached"]
-        no_money = re.match(r"(?i)^(no|none)\b|said no new money", money)
-        badge = (f'<span class="pill pill-warn">⚠️ {esc(money)}</span>' if no_money
-                 else f'<span class="pill">{esc(money)}</span>')
+        rated = r["rating"] + (f" (as of {r['rated_on']})" if r["rated_on"] else "")
         cards.append(
             f'<div class="promise-card"><p class="promise">{esc(r["promise"])}</p>'
             f'<p class="who"><strong>{esc(r["who"])}</strong> · {esc(r["date"])} · {esc(r["type"])}</p>'
-            f'<dl><dt>Money attached</dt><dd>{badge}</dd><dt>Status</dt><dd>{esc(r["status"])}</dd>'
+            f'<dl><dt>Money attached</dt><dd><span class="pill">{esc(r["money_attached"])}</span></dd>'
+            f'<dt>Status</dt><dd>{esc(r["status"])}</dd><dt>Rating</dt><dd>{esc(rated)}</dd>'
             f'<dt>Source</dt><dd>{cites(r["source"], ctx)}</dd></dl></div>')
     return f"""# Promises tracker
 
-Pledges and mandates on school outcomes and funding, and whether money came with them.
+Pledges and mandates on school outcomes and funding, and whether money came with them. Ratings follow outcomes
+(what was funded, enacted or voted), not intentions: not yet rated, in the works, stalled, kept, compromise or broken.
 
 <div class="promises">{''.join(cards)}</div>
 """ + footer(["analysis/promises.csv"], ["analysis/promises.csv"])
@@ -509,18 +611,18 @@ Pledges and mandates on school outcomes and funding, and whether money came with
 
 def who_page(ctx):
     rows = []
-    for r in read_csv("people/legislators.csv"):
-        slug = (r.get("profile") or "").replace(".md", "")
-        name = f"[{r['name']}](people/{slug}.md)" if slug in PEOPLE else r["name"]
-        rows.append([name, f"{r['chamber']} {r['district']} ({r['party']})", r["area"], r["role_2025_26"],
-                     r["role_2027"], f"[official page]({r['official_page']})", cites(r["source"], ctx)])
+    for r in read_csv("people/people.csv"):
+        seat = " ".join(x for x in (r["office"], r["district"], f"({r['party']})" if r["party"] else "") if x)
+        contact = f"[official page]({r['official_page']})" if r["official_page"] else "—"
+        rows.append([actor(r["id"]), seat, r["area"], r["role_2025_26"], r["role_2027"], contact,
+                     cites(r["source"], ctx)])
     return f"""# Who decides
 
 The Governor proposes a budget; the Legislature's Ways and Means committee writes the final one. These are the
-budget-writing legislators this archive tracks. See also [Gov. Kotek](people/kotek.md).
+people with a role in a decision this archive tracks ([what's being decided](decisions.md)).
 
-{table(["Legislator", "Seat", "Area", "Role 2025-26", "Role 2027", "Contact", "Source"], rows)}
-""" + footer(["analysis/people/legislators.csv"], ["analysis/people/legislators.csv"])
+{table(["Name", "Office", "Area", "Role 2025-26", "Role 2027", "Contact", "Source"], rows)}
+""" + footer(["analysis/people/people.csv"], ["analysis/people/people.csv"])
 
 
 def sources_page(ctx):
@@ -579,8 +681,9 @@ def abbr_defs():
 PAGE_META = {
     "index.md": (None, "Primary documents and cited analysis on Oregon K-12 funding: how much the state spends, "
                  "how it's shared through the formula, and what it buys, focused on the 2027-29 budget."),
-    "briefing.md": ("Oregon 2027-29 K-12 budget briefing", "What the Governor and the 2027 Legislature decide on "
-                    "Oregon school funding, how Measures 5 and 50 shaped it, the QEM gap, who stands where, open questions."),
+    "decisions.md": ("What's being decided on Oregon K-12 funding, 2027-29", "The Governor's budget, the State "
+                     "School Fund amount, the Education Stability Fund and the cost model: options, who stands where, "
+                     "open questions, each cited."),
     "numbers.md": ("Oregon school funding numbers, 2027-29", "State School Fund history, Quality Education Model "
                    "estimates and Education Stability Fund balances for Oregon's 2027-29 budget, each with its source."),
     "quotes.md": ("What officials have said about Oregon school funding", "Verbatim, dated and cited statements on "
@@ -591,8 +694,10 @@ PAGE_META = {
                    "funding archive, newest first: analysis, documents and figures added, each linked."),
     "timeline.md": ("Oregon K-12 funding timeline", "Dated events in Oregon school funding: budgets, revenue "
                     "forecasts, Quality Education Model reports, executive orders and the 2027-29 budget process."),
-    "who-decides.md": ("Who decides Oregon's K-12 budget", "The Oregon legislators who write the school budget: Ways "
-                       "and Means co-chairs and the Education Subcommittee, with their 2025-26 and 2027 roles."),
+    "questions.md": ("Questions about Oregon K-12 funding", "What readers have asked about Oregon's 2027-29 school "
+                     "budget, what this archive can answer so far, and what's still open."),
+    "who-decides.md": ("Who decides Oregon's K-12 budget", "Gov. Kotek and the Oregon legislators who write the "
+                       "school budget: Ways and Means co-chairs and the Education Subcommittee, with their roles."),
     "reserves.md": ("Oregon Education Stability Fund", "Oregon's Education Stability Fund: projected balance, the "
                     "rules for withdrawing from it, and proposals to use it for K-12 schools in 2027-29."),
     "glossary.md": ("Glossary of Oregon school funding terms", "Plain-language definitions of the abbreviations "
@@ -640,6 +745,7 @@ def on_files(files, config):
         "sources.md": sources_page(ctx),
         "glossary.md": glossary_page(ctx),
         "updates.md": updates_page(ctx),
+        "questions.md": questions_page(ctx),
     })
     for uri, content in pages.items():
         files.append(File.generated(config, uri, content=front_matter(uri) + content))

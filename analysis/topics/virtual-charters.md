@@ -329,9 +329,9 @@ sponsor's average rate. It is one year of state plus local formula revenue, not 
   charter sponsors, above). It is mostly revenue that moves with the student between districts rather than a net cost to the system, though
   see (a)-(d) below.
 - **Kotek.** As of Nov 20, 2026, no proposal from her on virtual schools is in the archive; her 2027-29 budget is
-  due Dec 1 (see `BRIEFING.md`).
+  due Dec 1 (see `decisions.md#grb-2027-29`).
 - **HB 3953** is about who may sponsor a charter, not about virtual charters or their funding, so it is left out
-  of the bill list above. HB 3444's sponsor is presumably Rep. Boomer Wright in `people/legislators.csv`; the
+  of the bill list above. HB 3444's sponsor is presumably Rep. Boomer Wright in `people/people.csv`; the
   bill gives only his surname.
 - **The bills.** Counting HB 3444's amendments, five of the six 2025 bills would have widened access to or funding for virtual charters; HB 2144
   would have changed how the 3% rule is administered and had ODE collect the enrollment data. Three would have

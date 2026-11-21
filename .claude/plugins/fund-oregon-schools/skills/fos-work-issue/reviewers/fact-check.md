@@ -15,12 +15,12 @@ Setup:
 ```bash
 cd ~/fund-oregon-schools && git fetch -q origin {{BRANCH}} && git checkout -q FETCH_HEAD
 git diff {{BASE}} --stat
-git diff {{BASE}} -- analysis/ sources/news/ changelog/ tools/derive_*.py
+git diff {{BASE}} -- analysis/ sources/news/ tools/derive_*.py
 ```
 
 Read `CLAUDE.md` first: it defines the citation formats and rules you're checking against.
 
-## Check every changed or added line in `analysis/`, `sources/news/index.jsonl` and `changelog/`
+## Check every changed or added line in `analysis/` and `sources/news/index.jsonl`
 
 For each factual sentence, figure, date and quote, open the cited source **at the cited page** and check it:
 `python3 tools/doc.py <path fragment> <page>` or `--grep "<words>"`. For a table whose text extraction looks
@@ -55,7 +55,7 @@ scrambled, or text below a `--- OCR of this page` line (machine OCR of a picture
 
 ## Scope
 
-- For each checklist item ticked in the issue (or claimed as done in `changelog/`), does the branch actually do
+- For each checklist item ticked in the issue (or claimed as done in the PR description), does the branch actually do
   it? List any that are ticked but not done, or only partly done.
 - For each checklist item or sub-item left **unticked**: is the reason given one of the valid ones (needs a person,
   the source doesn't exist, audio you can't check, behind a login or script, fetch failed twice), and does it hold?

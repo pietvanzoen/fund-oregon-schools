@@ -29,8 +29,3 @@ Part of the Portland delegation.
   paraphrase) [NEWS:NEWS-20260510-wweek-1].
 - Analysis: her objection is mainly timing (save the fund for a bigger storm), alongside a general caution about
   one-time money.
-
-## To add
-- Her remarks on the Nov 2026 forecast and the Governor's budget.
-- Hearing video where she discusses the SSF or reserves.
-- Confirm her 2027 role once House Democrats announce committee leadership.

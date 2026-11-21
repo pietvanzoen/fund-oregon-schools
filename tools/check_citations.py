@@ -7,11 +7,16 @@
 Errors: unknown SRC path (not archived and not queued), page beyond the document, unknown NEWS id,
 CSV row with no source, malformed JSONL, duplicate queue paths or news ids;
 malformed analysis/derived/<topic>.csv, unknown [DER:topic/id], a DER value not shown in its sentence or table row,
-a DER figure in BRIEFING without "our sum"/"our estimate" in its sentence;
+a DER figure outside topics/ without "our sum"/"our estimate" in its sentence;
 a topic file without the three sections, or a line under "What the sources say" with no source citation or with
 "Analysis:".
 Warnings also flag a number under "What the sources say" that isn't in the text of a source the line cites.
 analysis/updates.csv (What's new) has its own columns instead of a source: date, text, page, pr.
+The decision files (RESEARCH.md) must agree: every option, position and question names a decision in decisions.csv,
+every decision has a baseline option, statuses and kinds are known values, and a position's actor is a people.csv id
+or an organization's name. questions.csv has no source column; tags in any *source column are checked.
+
+    python3 tools/check_citations.py --measures  # RESEARCH.md's review measures: questions and decisions
 
     python3 tools/check_citations.py --pr 64 --base origin/main  # also: a PR that changes reader-facing files
                                                                 # must add an updates.csv row with its number
@@ -33,7 +38,12 @@ SECTIONS = ["What the sources say", "Derived figures", "Analysis"]
 DER_COLS = ["id", "value", "unit", "kind", "label", "method", "inputs", "assumptions"]
 UPDATE_COLS = ["date", "text", "page", "pr"]
 UPDATES = os.path.join(ANALYSIS, "updates.csv")
-NOT_READER_FACING = {"analysis/updates.csv", "analysis/open_questions.md"}  # not shown on the site
+NOT_READER_FACING = {"analysis/updates.csv"}  # not shown on the site
+QUESTIONS = os.path.join(ANALYSIS, "questions.csv")
+DATE_RE = re.compile(r"\d{4}(-\d{2}(-\d{2})?)?")
+KINDS = {"baseline", "benchmark", "proposal"}
+DECISION_STATUS = {"open", "decided", "implemented"}
+QUESTION_STATUS = {"open", "answered", "not planned"}
 NUM_RE = re.compile(r"\d[\d,]*(?:\.\d+)?")
 BLOCK_START = re.compile(r"^\s*(?:[-*] |\d+\. |\||#+ )")
 # shortcut: an abbreviation like "Gov. " also ends a sentence; reword the sentence if it splits a DER figure off
@@ -72,8 +82,11 @@ def main():
     ap.add_argument("--pending", action="store_true")
     ap.add_argument("--pr", type=int, help="pull request number: require an updates.csv row for it")
     ap.add_argument("--base", default="origin/main", help="branch the PR merges into, for --pr")
+    ap.add_argument("--measures", action="store_true", help="print RESEARCH.md's review measures")
     a = ap.parse_args()
     errors, warnings = [], []
+    if a.measures:
+        return measures()
 
     queue = read_queue()
     qpaths = [r["path"].strip() for r in queue]
@@ -171,6 +184,8 @@ def main():
                 continue  # checked above
             elif full == UPDATES:
                 check_updates(rel, errors)
+            elif full == QUESTIONS:
+                continue  # checked with the decision files
             elif f.endswith(".csv"):
                 with open(full, newline="", encoding="utf-8") as fh:
                     rd = csv.DictReader(fh)
@@ -178,11 +193,11 @@ def main():
                         errors.append(f"{rel}: no 'source' column")
                         continue
                     for n, row in enumerate(rd, 2):
-                        s = (row.get("source") or "").strip()
-                        if not s:
+                        if not (row.get("source") or "").strip():
                             errors.append(f"{rel}:{n}: row has no source")
-                        for m in TAG_RE.finditer(s):
-                            check_tag(f"{rel}:{n}", m.group(1), m.group(2))
+                        for col in (c for c in rd.fieldnames if c.endswith("source")):
+                            for m in TAG_RE.finditer(row.get(col) or ""):
+                                check_tag(f"{rel}:{n}", m.group(1), m.group(2))
             elif f.endswith(".jsonl"):
                 for n, q in enumerate(read_jsonl(full), 1):
                     for k in ("person", "date", "quote", "cite"):
@@ -191,6 +206,8 @@ def main():
                     for m in TAG_RE.finditer(q.get("cite", "")):
                         check_tag(f"{rel}:{n}", m.group(1), m.group(2))
 
+    if os.path.exists(os.path.join(ANALYSIS, "decisions.csv")):
+        check_model(errors)
     if a.pr:
         check_pr_update(a.pr, a.base, errors)
 
@@ -200,6 +217,77 @@ def main():
         print("ERROR", e)
     print(f"{len(errors)} errors, {len(set(warnings))} warnings, {len(pending)} queued sources not fetched")
     return 1 if errors else 0
+
+
+def model_csv(name):
+    path = os.path.join(ANALYSIS, name)
+    if not os.path.exists(path):
+        return []
+    with open(path, newline="", encoding="utf-8") as fh:
+        return list(csv.DictReader(fh))
+
+
+def check_model(errors):
+    """decisions, options, positions and questions refer to each other by id (RESEARCH.md, "The model")."""
+    decisions = model_csv("decisions.csv")
+    ids = {d["id"] for d in decisions}
+    options = model_csv("options.csv")
+    opt_ids = {o["id"] for o in options}
+    people = {r["id"] for r in model_csv("people/people.csv")}
+    for n, d in enumerate(decisions, 2):
+        where = f"analysis/decisions.csv:{n}"
+        if d["status"] not in DECISION_STATUS:
+            errors.append(f"{where}: status must be one of {', '.join(sorted(DECISION_STATUS))}")
+        if not DATE_RE.fullmatch(d["due"]):
+            errors.append(f"{where}: due must be YYYY-MM-DD")
+        if d["status"] != "open" and not d["outcome"].strip():
+            errors.append(f"{where}: a {d['status']} decision needs an outcome")
+        for r in filter(None, d["related"].split(";")):
+            if r not in ids:
+                errors.append(f"{where}: related decision {r} isn't in decisions.csv")
+        if not any(o["decision"] == d["id"] and o["kind"] == "baseline" for o in options):
+            errors.append(f"{where}: decision {d['id']} has no baseline option in options.csv")
+    for n, o in enumerate(options, 2):
+        where = f"analysis/options.csv:{n}"
+        if o["decision"] not in ids:
+            errors.append(f"{where}: decision {o['decision']} isn't in decisions.csv")
+        if o["kind"] not in KINDS:
+            errors.append(f"{where}: kind must be one of {', '.join(sorted(KINDS))}")
+    for n, p in enumerate(model_csv("positions.csv"), 2):
+        where = f"analysis/positions.csv:{n}"
+        if p["decision"] not in ids:
+            errors.append(f"{where}: decision {p['decision']} isn't in decisions.csv")
+        if p["option"] and p["option"] not in opt_ids:
+            errors.append(f"{where}: option {p['option']} isn't in options.csv")
+        if re.fullmatch(r"[a-z-]+", p["actor"]) and p["actor"] not in people:
+            errors.append(f"{where}: actor {p['actor']} isn't an id in people/people.csv")
+        if not DATE_RE.fullmatch(p["date"]):
+            errors.append(f"{where}: date must be YYYY, YYYY-MM or YYYY-MM-DD")
+    for n, q in enumerate(model_csv("questions.csv"), 2):
+        where = f"analysis/questions.csv:{n}"
+        if q["decision"] and q["decision"] not in ids:
+            errors.append(f"{where}: decision {q['decision']} isn't in decisions.csv")
+        if q["status"] not in QUESTION_STATUS:
+            errors.append(f"{where}: status must be one of {', '.join(sorted(QUESTION_STATUS))}")
+        if q["status"] != "open" and not q["answer"].strip():
+            errors.append(f"{where}: an {q['status']} question needs an answer (a link, or what was found)")
+        if q["needed_by"] and not DATE_RE.fullmatch(q["needed_by"]):
+            errors.append(f"{where}: needed_by must be YYYY-MM-DD")
+
+
+def measures():
+    """RESEARCH.md, "How we know it's working": counts for the review at each due date."""
+    qs = model_csv("questions.csv")
+    by = {s: [q for q in qs if q["status"] == s] for s in QUESTION_STATUS}
+    print(f"questions: {len(by['open'])} open, {len(by['answered'])} answered, {len(by['not planned'])} not planned")
+    for d in model_csv("decisions.csv"):
+        if d["status"] != "open":
+            continue
+        kinds = {o["kind"] for o in model_csv("options.csv") if o["decision"] == d["id"]}
+        stances = sum(p["decision"] == d["id"] for p in model_csv("positions.csv"))
+        print(f"{d['id']} (due {d['due']}): baseline {'yes' if 'baseline' in kinds else 'NO'}, "
+              f"proposals {'yes' if 'proposal' in kinds else 'none'}, {stances} stances")
+    return 0
 
 
 def read_updates():
@@ -241,7 +329,7 @@ def check_pr_update(pr, base, errors):
 
 
 def check_der_figures(rel, lines, derived, errors):
-    """Each DER value is shown in its sentence or table row; in BRIEFING that sentence says "our sum"/"our estimate"."""
+    """Each DER value is shown in its sentence or table row; outside topics/ that sentence says "our sum"/"our estimate"."""
     for n, text in blocks(lines):
         for sent in [text] if text.startswith("|") else SENTENCE_END.split(text):
             for m in TAG_RE.finditer(sent):
@@ -253,7 +341,7 @@ def check_der_figures(rel, lines, derived, errors):
                 if not any(rounds_to(row["value"], x) for x in numbers(sent)):
                     errors.append(f"{rel}:{n}: [DER:{m.group(2)}] is {row['value']} {row['unit']}; "
                                   "no number in its sentence rounds to that")
-                if rel == "analysis/BRIEFING.md" and not re.search(r"\bour (sum|estimate)\b", sent, re.I):
+                if not rel.startswith("analysis/topics/") and not re.search(r"\bour (sum|estimate)\b", sent, re.I):
                     errors.append(f"{rel}:{n}: [DER:{m.group(2)}] needs \"our sum\" or \"our estimate\" in its sentence")
 
 
