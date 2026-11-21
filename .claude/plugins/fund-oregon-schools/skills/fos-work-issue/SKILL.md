@@ -55,10 +55,26 @@ task list:
 
 - Search the web for the **official copy**: the agency's own PDF or page (oregon.gov, oregonlegislature.gov,
   OLIS, a district's site). A news article is a lead to the document, not the source.
+- **Take every URL from a link on the agency's own page; never build or guess one.** Agencies put dates in file
+  names and replace the file when they revise it, so a URL made from a pattern, or found in an old search
+  result, is often dead (on #20, `…Report 4.7.26.pdf` and `…3.5.25.pdf` both 404'd; the live link on ODE's page
+  was `…4.21.26.pdf`).
+- **Where to look, in this order:** web search and web fetch first. If the page you need is a list of links
+  built by script, or search can't show it, use the built-in browser if this session has it (it only works
+  while Piet's desktop app is open, and asks for approval on each new site). If neither works, don't queue the
+  row: list the document in the PR as "needs a browser" and move on. Never wait on the browser in an
+  unattended run.
+- **Check the URL before queueing** when you can (web fetch or the browser): a wrong URL costs a whole fetch
+  round trip.
+- **Pages that load their content by script** (e.g. OLIS measure history): the fetcher saves only the HTML as
+  served. Prefer a version of the page that has the content as plain HTML, if the site offers one; otherwise
+  take facts only from text the fetcher archived, and say in the PR what it couldn't capture. Never cite a fact
+  you saw only in the browser as if it came from an archived source.
 - Check it isn't already archived or queued: `grep -i <word> sources/_queue.csv sources/_manifest.jsonl` and
   `python3 tools/search.py "<title words>"`.
 - Add one row per document to `sources/_queue.csv` (`url,path,title,date,kind,notes`), with the path built from
-  the conventions in `CLAUDE.md`. Put why it matters in `notes`.
+  the conventions in `CLAUDE.md`. Put why it matters in `notes`, and end `notes` with `from: <URL of the page the
+  link was on>`, so a later fix for a dead link starts from that page.
 - News: never queue an article. Add a record to `sources/news/index.jsonl` per `RUNBOOK.md` (summary in your own
   words, quotes under 25 words).
 - Run `python3 tools/check_sources.py` and `python3 tools/check_citations.py`. Fix every error; for each warning
@@ -91,8 +107,9 @@ gh api "repos/pietvanzoen/fund-oregon-schools/actions/workflows/fetch-sources.ym
 When it's `completed`, `git pull -q`. Then:
 
 - **Success:** the files and their `.txt` are in `sources/`.
-- **Failure:** the job summary lists each failed path and error. For a 404, find the right URL, fix the row,
-  commit, push and wait once more. For anything else, or a second failure, leave the row queued and list it in
+- **Failure:** the job summary lists each failed path and error. For a 404, don't guess another URL: go back
+  to the page in the row's `from:` note (or find the agency's listing page), take the current link, fix the
+  row, commit, push and wait once more. For anything else, or a second failure, leave the row queued and list it in
   the PR as "verify after fetch".
 - **Little or no text** (a scanned slide deck): note it in the PR. Don't guess at its contents.
 
