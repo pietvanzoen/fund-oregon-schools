@@ -1,0 +1,618 @@
+Oregon Department of Education
+Office of Finance and Information Technology - School Finance
+Virtual Charter School Ext ADMw Transparency Report
+Date:
+4/27/2026
+
+ORS 338.155(1)
+(c) For the purpose of determining the amounts to be distributed to a school district from the State School Fund for a public charter school, the
+district extended ADMw described in ORS 327.013 shall be calculated:
+(C) By calculating the current school year’s ADMw separately for a virtual public charter school and for the school district if the school district,
+without consideration of the ADM of the virtual public charter school, had a decrease in ADM or ADMw compared to the previous school year.
+
+2025-26 2nd Period ADM
+
+Institutions_ DistrictInsti
+Id
+tution_Id
+District
+1894
+1894 Baker SD 5J
+4728
+1894 Baker SD 5J
+4759
+1894 Baker SD 5J
+5491
+1894 Baker SD 5J
+1924
+1924 North Clackamas SD 12
+4223
+1924 North Clackamas SD 12
+4226
+1924 North Clackamas SD 12
+4369
+1924 North Clackamas SD 12
+4475
+1924 North Clackamas SD 12
+1930
+1930 Estacada SD 108
+4670
+1930 Estacada SD 108
+1966
+1966 North Bend SD 13
+4690
+1966 North Bend SD 13
+2009
+2009 Prairie City SD 4
+5622
+2009 Prairie City SD 4
+5809
+2009 Prairie City SD 4
+2015
+2015 Harney County SD 4
+5446
+2015 Harney County SD 4
+2023
+2023 Harney County Union High SD 1J
+4702
+2023 Harney County Union High SD 1J
+2060
+2060 Paisley SD 11
+3360
+2060 Paisley SD 11
+2084
+2084 Fern Ridge SD 28J
+4045
+2084 Fern Ridge SD 28J
+2094
+2094 Marcola SD 79J
+5444
+2094 Marcola SD 79J
+2103
+2103 Scio SD 95
+2994
+2103 Scio SD 95
+5457
+2103 Scio SD 95
+2104
+2104 Santiam Canyon SD 129J
+4399
+2104 Santiam Canyon SD 129J
+2137
+2137 Gervais SD 1
+5392
+2137 Gervais SD 1
+2183
+2183 Gresham-Barlow SD 10J
+3553
+2183 Gresham-Barlow SD 10J
+4601
+2183 Gresham-Barlow SD 10J
+
+CharterSchool
+
+Virtual
+Charter
+Qualifier
+
+Baker Web Academy
+Baker Early College
+Oregon International S
+
+Yes
+
+Clackamas Web Acade
+Clackamas Middle Colle
+Milwaukie Academy of
+Cascade Heights Public
+
+Yes
+
+Summit Learning Chart
+
+Yes
+
+Evergreen Virtual Acad
+
+Yes
+
+Oregon Connections Ac
+Virtual Preparatory Aca
+
+Yes
+Yes
+
+Oregon Family School
+
+Yes
+
+Silvies River Charter Sc
+
+Yes
+
+Paisley School
+
+Yes
+
+West Lane Charter Sch
+
+Yes
+
+TEACH-NW
+
+Yes
+
+Lourdes School
+Willamette Connection
+
+Yes
+
+Oregon Charter Academ
+
+Yes
+
+Frontier Charter Acade
+
+Yes
+
+Center for Advanced Le
+Gresham Arthur Acade
+
+2024-25
+ADMr
+1,552.65
+3,325.81
+575.00
+15,527.80
+543.40
+293.94
+277.18
+226.83
+1,926.22
+1,349.84
+1,925.13
+857.36
+242.25
+1,013.85
+108.30
+185.77
+929.73
+94.68
+1,246.99
+226.66
+1,310.65
+97.36
+277.46
+681.25
+670.29
+38.49
+1,442.77
+556.73
+2,706.54
+903.70
+366.34
+10,024.03
+1.01
+162.12
+
+2025-26
+ADMr
+1,512.05
+3,839.73
+595.69
+15,440.63
+541.66
+296.50
+264.04
+224.13
+1,925.16
+1,387.63
+1,842.51
+845.34
+250.82
+1,275.14
+119.49
+182.74
+903.18
+83.38
+1,535.23
+288.24
+1,280.63
+90.04
+272.49
+718.37
+664.15
+27.87
+1,326.74
+554.19
+2,601.34
+903.29
+325.81
+9,933.84
+164.24
+
+Page 1 of 2
+
+Declining
+ADM
+Qualifier
+Yes
+
+Yes
+
+Yes
+Yes
+No
+
+Yes
+Yes
+No
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+
+2024-25
+ADMw
+2,230.26
+3,402.95
+587.04
+19,157.04
+576.46
+317.22
+283.72
+237.53
+2,363.15
+1,385.78
+2,398.84
+906.03
+503.10
+1,033.27
+109.07
+345.71
+935.42
+300.33
+1,251.95
+23.83
+328.58
+1,604.24
+100.17
+491.76
+684.86
+1,003.32
+38.89
+1,468.54
+1,037.18
+2,773.59
+1,252.76
+381.60
+12,586.75
+1.04
+174.64
+
+2025-26
+ADMw
+2,241.97
+3,915.32
+604.00
+19,129.51
+579.52
+329.70
+270.79
+234.98
+2,366.67
+1,431.59
+2,303.67
+890.65
+542.36
+1,290.40
+120.09
+351.95
+907.34
+331.77
+1,541.50
+31.71
+389.59
+1,574.43
+93.01
+473.29
+721.27
+979.81
+28.07
+1,348.98
+1,025.79
+2,655.36
+1,243.06
+339.81
+12,486.38
+174.25
+
+Declining
+ADMw
+Qualifier
+No
+
+Should extended
+ADMw be
+separted for
+virtual charters?
+Yes
+
+Yes
+
+Yes
+
+No
+
+Yes
+
+Yes
+
+Yes
+
+No
+
+No
+
+No
+
+Yes
+
+No
+
+Yes
+
+No
+
+No
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+2024-24
+Separate
+2024-25 Total
+Extended
+ADMw
+Extended ADMw
+2,241.97
+6,761.29
+3,915.32
+604.00
+19,157.04
+20,575.03
+579.52
+317.22
+283.72
+237.53
+2,366.67
+3,798.26
+1,431.59
+2,398.84
+3,304.87
+906.03
+542.36
+1,952.84
+1,290.40
+120.09
+351.95
+1,287.37
+935.42
+331.77
+1,873.27
+1,541.50
+31.71
+421.30
+389.59
+1,604.24
+1,704.41
+100.17
+491.76
+1,213.03
+721.27
+1,003.32
+2,510.74
+38.89
+1,468.54
+1,037.18
+3,810.77
+2,773.59
+1,252.76
+1,634.36
+381.60
+12,586.75
+14,035.54
+1.04
+174.64
+
+Oregon Department of Education
+Office of Finance and Information Technology - School Finance
+Virtual Charter School Ext ADMw Transparency Report
+Date:
+4/27/2026
+
+ORS 338.155(1)
+(c) For the purpose of determining the amounts to be distributed to a school district from the State School Fund for a public charter school, the
+district extended ADMw described in ORS 327.013 shall be calculated:
+(C) By calculating the current school year’s ADMw separately for a virtual public charter school and for the school district if the school district,
+without consideration of the ADM of the virtual public charter school, had a decrease in ADM or ADMw compared to the previous school year.
+
+2025-26 2nd Period ADM
+
+Institutions_ DistrictInsti
+Id
+tution_Id
+District
+4667
+2183 Gresham-Barlow SD 10J
+4740
+2183 Gresham-Barlow SD 10J
+2248
+2248 Fossil SD 21J
+1205
+2248 Fossil SD 21J
+2249
+2249 Mitchell SD 55
+5150
+2249 Mitchell SD 55
+5440
+2249 Mitchell SD 55
+5441
+2249 Mitchell SD 55
+2257
+2257 Sheridan SD 48J
+4833
+2257 Sheridan SD 48J
+
+CharterSchool
+Lewis and Clark Monte
+Metro East Web Acade
+
+Virtual
+Charter
+Qualifier
+Yes
+
+Fossil Charter School
+
+Yes
+
+Insight School of Orego
+Cascade Virtual Academ
+Destinations Career Ac
+
+Yes
+Yes
+Yes
+
+Sheridan AllPrep Acade
+
+Yes
+
+2024-25
+ADMr
+285.16
+900.25
+2,487.96
+50.38
+218.51
+1,456.29
+80.75
+722.43
+373.10
+
+2025-26
+ADMr
+306.35
+890.10
+3,294.85
+54.25
+196.23
+1,479.04
+85.73
+664.46
+366.32
+
+Page 2 of 2
+
+Declining
+ADM
+Qualifier
+
+No
+No
+
+Yes
+
+2024-25
+ADMw
+298.66
+974.46
+151.00
+2,543.42
+330.85
+224.43
+1,479.26
+83.92
+974.73
+391.49
+
+2025-26
+ADMw
+320.11
+965.79
+193.00
+3,347.06
+333.75
+204.74
+1,501.69
+89.14
+905.93
+381.54
+
+Declining
+ADMw
+Qualifier
+
+Should extended
+ADMw be
+separted for
+virtual charters?
+
+No
+
+No
+
+No
+
+No
+
+Yes
+
+Yes
+
+2024-24
+Separate
+2024-25 Total
+Extended
+ADMw
+Extended ADMw
+298.66
+974.46
+193.00
+3,540.06
+3,347.06
+333.75
+2,129.32
+204.74
+1,501.69
+89.14
+1,366.22
+974.73
+391.49
+
+
