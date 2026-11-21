@@ -16,9 +16,6 @@ jobs:
           filter: blob:none  # but no old file contents: sources/ holds large PDFs
       - name: Citations and data files
         run: python3 tools/check_citations.py
-      - name: What's new row for this PR
-        if: github.event_name == 'pull_request' && !contains(github.event.pull_request.labels.*.name, 'no-update')
-        run: python3 tools/check_citations.py --pr ${{ github.event.pull_request.number }} --base origin/${{ github.base_ref }}
       - name: Queue and archived files
         run: python3 tools/check_sources.py
       - name: Tool smoke tests
@@ -29,3 +26,6 @@ jobs:
           for f in tools/derive_*.py; do python3 "$f"; done
           git add --intent-to-add analysis/derived/ 2>/dev/null || true  # a new, uncommitted output shows in the diff too
           git diff --exit-code -- analysis/derived/
+      - name: What's new row for this PR
+        if: ${{ !cancelled() && github.event_name == 'pull_request' && !contains(github.event.pull_request.labels.*.name, 'no-update') }}
+        run: python3 tools/check_citations.py --pr ${{ github.event.pull_request.number }} --base origin/${{ github.base_ref }}
