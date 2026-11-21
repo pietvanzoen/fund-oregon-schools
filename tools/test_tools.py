@@ -120,6 +120,19 @@ def main():
         assert "[SRC:gov/test_page.html]" in r.stdout, r.stdout + r.stderr
         r = run(root, "doc.py", "test_page", "--grep", "billion")
         assert "13 billion" in r.stdout, r.stdout + r.stderr
+        r = run(root, "check_sources.py")
+        assert r.returncode == 0 and "0 errors" in r.stdout, r.stdout
+        q3 = open(f"{root}/sources/_queue.csv").read()
+        open(f"{root}/sources/_queue.csv", "w").write(
+            q3 + "https://www.opb.org/article/x/,gov/news_copy.html,News,,gov,\n"
+                 "https://www.oregon.gov/x.pdf,misc/x.pdf,Bad folder,,gov,\n")
+        open(f"{root}/sources/gov/hand_added.pdf", "w").write("x")
+        r = run(root, "check_sources.py")
+        assert r.returncode == 1 and r.stdout.count("ERROR") == 3, r.stdout
+        assert "news site" in r.stdout and "must start with" in r.stdout and "no line in" in r.stdout, r.stdout
+        open(f"{root}/sources/_queue.csv", "w").write(q3)
+        os.remove(f"{root}/sources/gov/hand_added.pdf")
+
         print("all tool tests passed")
     finally:
         srv.shutdown()

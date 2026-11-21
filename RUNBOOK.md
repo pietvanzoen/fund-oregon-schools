@@ -8,6 +8,9 @@ Answering questions needs none of this; see `.claude/skills/fund-oregon-research
    `CLAUDE.md` (e.g. `fiscal/oea/2026-11_forecast.pdf`, `legislature/olis/2027R1/<docId>_<slug>.pdf`).
 3. Commit to `main` (or merge a PR). The **fetch-sources** Action runs on any change to the queue: it downloads
    new rows, writes `<file>.txt`, appends to `sources/_manifest.jsonl`, runs the citation check and commits.
+   It also runs on pushes to `claude/**` branches and commits the fetched files back to that branch, so an
+   agent's PR can queue documents and cite them in one go. `python3 tools/check_sources.py` (also in CI) checks
+   queue rows and that every archived file has a manifest line.
 4. You can also start it by hand: Actions → fetch-sources → Run workflow (tick "refresh" to re-download everything).
 5. Downloads are retried (3 attempts, on timeouts, connection errors, 429 and 5xx). If any row still fails, the run
    still commits what did download, then turns red; the job summary lists each failed path, error and URL. Failed

@@ -14,6 +14,8 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
 - **Answering questions:** follow `.claude/skills/fund-oregon-research/SKILL.md`. Answer from what's in the repo.
 - **Adding sources:** follow `RUNBOOK.md`. In short: add a row to `sources/_queue.csv`; the `fetch-sources`
   GitHub Action downloads it (cloud sandboxes usually can't reach oregon.gov or the Legislature's site).
+- **Working a research issue end to end:** follow `.claude/skills/work-issue/SKILL.md` (queue → fetch on the
+  issue branch → analysis → two independent reviewers → PR; Piet merges).
 - **Overview of the decision:** `analysis/BRIEFING.md` (decision briefing). `analysis/OVERVIEW.md` is the website's
   short home page.
 
@@ -52,7 +54,8 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
 10. **Independent fact-check before a PR is ready.** When a session adds research (new or changed files in
     `analysis/`, new news records, new quotes), it starts a separate fact-checker agent before asking for a merge.
     The fact-checker starts fresh: it gets the branch, this file and a neutral checklist, not the session's reasoning
-    or notes on what's uncertain. It reports only (no edits, pushes or GitHub comments). Checklist: every quote verbatim,
+    or notes on what's uncertain. It reports only (no edits, pushes or GitHub comments). A second fresh reviewer checks consistency with the rest of the archive and
+    fairness of framing (`.claude/skills/work-issue/reviewers/`). Checklist: every quote verbatim,
     correctly attributed and on the cited page; every factual sentence supported by its citation without
     overstatement; news summaries in own words, quotes under 25 words; "Analysis:" kept apart from fact and nothing
     unfair to a named official; uncited claims; both tool checks pass. Claims resting on queued, unfetched sources are

@@ -12,7 +12,9 @@ on:
         type: boolean
         default: false
   push:
-    branches: [main]
+    # main: after a merge. claude/**: an agent's issue branch, so one PR can queue sources, get them fetched
+    # here, and then add the analysis that cites them (see .claude/skills/work-issue/SKILL.md).
+    branches: [main, "claude/**"]
     paths: ["sources/_queue.csv"]
   schedule:
     - cron: "17 14 * * 1"   # Mondays ~6-7am Pacific: weekly refresh to catch revised or removed documents
@@ -21,7 +23,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: fetch-sources
+  group: fetch-sources-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -42,6 +44,8 @@ jobs:
           fi
       - name: Check citations
         run: python3 tools/check_citations.py
+      # Commits pushed with GITHUB_TOKEN don't trigger other workflows, so `check` won't run on this commit.
+      # On a claude/** branch the agent's next (analysis) commit triggers it.
       - name: Commit
         run: |
           git config user.name "fetch-sources bot"
@@ -49,7 +53,7 @@ jobs:
           git add sources
           if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
           git commit -q -m "sources: fetch $(git diff --cached --name-only -- sources | grep -v '\.txt$' | grep -v '^sources/_' | wc -l | tr -d ' ') file(s) from queue"
-          git pull -q --rebase && git push -q
+          git pull -q --rebase origin "${GITHUB_REF_NAME}" && git push -q origin "HEAD:${GITHUB_REF_NAME}"
       - name: Fail if any source failed to download
         if: steps.fetch.outcome == 'failure'
         run: |
