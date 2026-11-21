@@ -1,6 +1,7 @@
 # Online charters: State School Fund money that follows students
 
-Issue #20. Copied values: `data/virtual_charters_2025-26.csv` and `data/virtual_charters_grades_2025-26.csv`. Our calculations: `derived/virtual_charters.csv`,
+Issue #20. Copied values: `data/virtual_charters_2025-26.csv`, `data/virtual_charters_grades_2025-26.csv` and
+`data/virtual_charters_hs_admw_2024-25.csv`. Our calculations: `derived/virtual_charters.csv`,
 written by `tools/derive_virtual_charters.py`.
 
 ## What the sources say
@@ -41,9 +42,10 @@ written by `tools/derive_virtual_charters.py`.
   2021 c.494, 2023 c.571 and 2025 c.386 [SRC:legislature/ors/ors338.html].
 - **2021 (SB 743, chapter 494).** Added the separate ADMw calculation for a virtual charter when the sponsoring
   district, leaving out the charter, "had a decrease in ADM compared to the previous school year". For the 2021-22
-  and 2022-23 school years only, it also set the sponsor's ADMw at the greater of its current or previous year's
-  ADMw (leaving out the charter) and the charter's at its current ADMw plus 10% of the difference between the two
-  years. It applied from 2021-22 distributions [SRC:legislature/laws/2021orlaw0494.pdf p.1]
+  and 2022-23 school years only, for a sponsor of a virtual charter "that had a decrease in ADM for the current
+  school year compared to the previous school year", it also set the sponsor's ADMw at the greater of its current
+  or previous year's ADMw (leaving out the charter) and the charter's at its current ADMw plus 10% of the
+  difference between the two years. It applied from 2021-22 distributions [SRC:legislature/laws/2021orlaw0494.pdf p.1]
   [SRC:legislature/laws/2021orlaw0494.pdf p.2].
 - **2023 (SB 278, chapter 571).** Made the trigger a decrease in ADM "or ADMw", applying from 2022-23
   distributions [SRC:legislature/laws/2023orlaw0571.pdf p.1].
@@ -108,6 +110,12 @@ written by `tools/derive_virtual_charters.py`.
   [SRC:ode/enrollment/fallmembershipreport_2025-26.xlsx]. The transparency report gives each virtual charter's
   ADMr and extended ADMw as totals, with no grade breakdown
   [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.1].
+- ODE's 2025-27 High School Success allocations, made "with 2024-25 State School Fund Data", print a 9-12 ADMw
+  for each district and charter school [SRC:ode/grants/2025-27_hss-allocations_2025-09-16.pdf p.1]. Eighteen of
+  the 20 report charters have their own row; Fossil Charter School and Paisley School do not, and only their
+  sponsor districts' rows are printed [SRC:ode/grants/2025-27_hss-allocations_2025-09-16.pdf p.3]
+  [SRC:ode/grants/2025-27_hss-allocations_2025-09-16.pdf p.7]. Oregon Charter Academy's row shows 1,383.64
+  [SRC:ode/grants/2025-27_hss-allocations_2025-09-16.pdf p.8].
 - Contracts for the three largest, per ODE's list: Baker Web Academy (managed by a non-profit charter management
   organization) began Oct 16, 2024 and runs to June 30, 2032; Oregon Charter Academy June 13, 2024 to June 30,
   2032; Fossil Charter School July 1, 2025 to June 30, 2030 [SRC:ode/charter/2025-26_public-charter-schools.xlsx].
@@ -116,8 +124,8 @@ written by `tools/derive_virtual_charters.py`.
 
 - Baker SD 5J's 2024-25 financial report says the district receives revenue on behalf of Baker Web Academy and
   Baker Early College and passes it on to them, accounted for in its General Fund
-  [SRC:districts/baker-5j/fy2024-25_annual-financial-report.pdf p.34]. It describes "the 10-year sponsorship
-  agreement that is renewed annually" [SRC:districts/baker-5j/fy2024-25_annual-financial-report.pdf p.17]. The
+  [SRC:districts/baker-5j/fy2024-25_annual-financial-report.pdf p.34]. Describing "Baker Charter School (Charter)", it refers to
+  "the 10-year sponsorship agreement that is renewed annually" [SRC:districts/baker-5j/fy2024-25_annual-financial-report.pdf p.17]. The
   report gives no amount passed through or kept.
 - S&P Global Ratings' Apr 7, 2026 rating update on Santiam Canyon SD 129J says the district retains "a percentage
   based on a multiyear contract" with Oregon Charter Academy and "has received about $1.5 million for sponsoring the
@@ -125,6 +133,12 @@ written by `tools/derive_virtual_charters.py`.
   puts charter school payments at 72% of the district's fiscal 2026 budget
   [SRC:districts/santiam-canyon/audit_santiam-canyon-sd-129j.pdf p.2]. (The board posted this document under the
   file name of the district's audit.)
+- Oregon Charter Academy's financial report for the year ended June 30, 2025 (a scan; read from the page image)
+  shows State School Fund revenue of $32,090,872, up from $28,528,569 the year before, out of total revenue of
+  $35,057,972 [SRC:districts/santiam-canyon/2025_oregon-charter-academy-financial-report.pdf p.20]. It says its
+  principal revenue is "payments of state school support from Santiam Canyon School District"
+  [SRC:districts/santiam-canyon/2025_oregon-charter-academy-financial-report.pdf p.35]. It does not give the amount
+  Santiam Canyon kept.
 
 ### Secretary of State audits
 
@@ -226,6 +240,10 @@ Estimates ("est") rest on the assumptions listed there.
 | K-8 share of that enrollment | 61.6% | derived | [DER:virtual_charters/k8_share_fall_2025] |
 | What sponsors would keep at the statutory minimum, using each school's grade split | about $36M | est | [DER:virtual_charters/sponsor_keep_gradesplit_2025_26] |
 | What Santiam Canyon would keep from Oregon Charter Academy at the statutory minimum | about $3.9M | est | [DER:virtual_charters/orca_keep_at_minimum_2025_26] |
+| General Purpose Grant attributable to Oregon Charter Academy's students, 2025-26 | about $31.1M | est | [DER:virtual_charters/orca_formula_revenue_2025_26] |
+| Report charters with their own High School Success row | 18 | derived | [DER:virtual_charters/hss_listed_charters] |
+| 9-12 share of those charters' 2024-25 ADMw | 48.0% | est | [DER:virtual_charters/hs_admw_share_2024_25] |
+| 9-12 share of the same charters' Oct 1, 2025 headcount | 45.8% | derived | [DER:virtual_charters/hs_headcount_share_hss_charters_fall_2025] |
 
 The $257M estimate multiplies each virtual charter's extended ADMw in the transparency report by its sponsor's
 General Purpose Grant per extended ADMw. It mixes state and local money (the grant is calculated before local
@@ -278,22 +296,34 @@ sponsor's average rate. It is one year of state plus local formula revenue, not 
 - **With the grade split.** In fall 2025, 61.6% of the 20 report charters' students were in K-8
   [DER:virtual_charters/k8_share_fall_2025]. Using each school's own split in place of the all-K-8 and
   all-high-school bounds, sponsors would keep about $36M at the statutory minimum
-  [DER:virtual_charters/sponsor_keep_gradesplit_2025_26], with the same caveats.
+  [DER:virtual_charters/sponsor_keep_gradesplit_2025_26], with the same caveats. ODE's High School Success
+  figures are a check on the headcount stand-in: for the 18 charters with a row, high school is 48.0% of 2024-25
+  ADMw [DER:virtual_charters/hs_admw_share_2024_25] against 45.8% of fall 2025 headcount
+  [DER:virtual_charters/hs_headcount_share_hss_charters_fall_2025]. The years differ, but the headcount split
+  looks close; if anything it slightly understates high school, which would put the true figure a little below
+  $36M.
 - **Santiam Canyon and Oregon Charter Academy.** At the statutory minimum, with Oregon Charter Academy's grade split, Santiam Canyon would keep about
   $3.9M a year [DER:virtual_charters/orca_keep_at_minimum_2025_26]. S&P's "about $1.5 million" in recent years (S&P doesn't
-  say whether that is a yearly or a cumulative figure) is well below that, which suggests the contract pays Oregon Charter Academy more than the minimum. The years differ, and S&P doesn't
-  say how it counted, so the contract is still needed to settle it.
+  say whether that is a yearly or a cumulative figure) is well below that. Oregon Charter Academy's own report
+  points the same way: it took in $32.1M of State School Fund money in 2024-25, more than our $31.1M estimate of
+  the whole General Purpose Grant for its students in 2025-26 [DER:virtual_charters/orca_formula_revenue_2025_26].
+  At the minimum the academy would get the whole grant less about $3.9M. Both point to a contract that
+  passes on more than the minimum. The years differ, the academy's "State School Fund" line may include amounts our
+  estimate leaves out (transportation, high-cost disability), and S&P doesn't say how it counted, so the contract
+  is still needed to settle it.
 - **Contract terms.** ODE's list gives Baker Web Academy's contract as Oct 16, 2024 to June 30, 2032, about eight
-  years, while Baker's financial report describes a 10-year agreement renewed annually; a rolling term renewed each
+  years, while Baker's financial report describes a 10-year agreement renewed annually for "Baker Charter School",
+  which we take to be Baker Web Academy or both of its charters; a rolling term renewed each
   year would fit both, but the contract is needed to say. S&P says Santiam Canyon's agreement with Oregon Charter
   Academy was renewed for seven years starting in 2025, against ODE's start date of June 13, 2024
   [SRC:districts/santiam-canyon/audit_santiam-canyon-sd-129j.pdf p.1].
 - **Oversight fees.** The 2017 audit tied sponsors' fees to an incentive to let the schools grow, while noting
   that district officials said the fees also help their other students and that one sponsor used them to pay for
-  oversight. The 2019 follow-up found sponsor standards had not been raised. No later status report is archived.
+  oversight. The 2019 follow-up found sponsor standards had not been raised (see "Secretary of State audits" above). No later status report is archived.
 - **No official dollar total.** Neither audit gives a total of State School Fund dollars paid for virtual charter
   students (we read the 2017 report's online-schools section, pp.34–40, and the 2019 follow-up's status table),
-  and no archived ODE document splits virtual charters' ADMr or ADMw by grade.
+  and apart from the High School Success 9-12 ADMw (18 of 20 charters, 2024-25 data) no archived ODE document
+  splits virtual charters' ADMr or ADMw by grade.
 - **Nyssa.** If Nyssa's program is not a charter, the ORS 338.155 pass-through minimums would not govern that
   arrangement.
 - **OJP's $11,000.** That is in line with the 2025-26 General Purpose Grant per ADMw ($10,801-$11,397 among virtual
@@ -310,8 +340,9 @@ sponsor's average rate. It is one year of state plus local formula revenue, not 
   charters. HB 3444 as introduced was about brick-and-mortar charters; its -1 and -2 amendments would have raised
   the virtual charter minimum to 95% and opened SIA to virtual charters. None left committee.
 - **The statute's history.** The separate calculation for virtual charters dates from 2021 and was widened in
-  2023 to cover a fall in either ADM or ADMw. The 2021 act also had a two-year transition (2021-22 and 2022-23)
-  that limited how much of a shrinking sponsor's hold-harmless carried over to its virtual charter. The 2025
+  2023 to cover a fall in either ADM or ADMw. The 2021 act also had a two-year transition (2021-22 and 2022-23):
+  where a virtual charter's ADM fell, the sponsor kept the greater of its two years' ADMw and the charter got its
+  current ADMw plus 10% of the year-over-year difference. The 2025
   change (HB 3038) is about recovery schools, not virtual charters. None of the three changed the pass-through
   minimums.
 - **What this means for other districts' SSF share.** A student who moves from a district school to a virtual
@@ -334,7 +365,5 @@ sponsor's average rate. It is one year of state plus local formula revenue, not 
   search. A records request is #46.
 - An official dollar total for State School Fund money paid for virtual charter students: none in ODE's archived
   documents or the 2017 and 2019 Secretary of State reports. Asking ODE is #47.
-- ADMw by grade for virtual charters: ODE publishes only headcount by grade (fall membership), used here as a
-  stand-in.
-- Oregon Charter Academy's 2025 financial report (posted to Santiam Canyon's board) has no extractable text; it may show the
-  payment from the district.
+- A 9-12 ADMw for Fossil Charter School and Paisley School, which have no row of their own in the High School
+  Success allocations.

@@ -21,6 +21,10 @@ MIN_PASS_K8, MIN_PASS_HS = 0.80, 0.95
 
 rows = list(csv.DictReader(open(os.path.join(ROOT, "analysis", DATA), newline="", encoding="utf-8")))
 GRADES = "data/virtual_charters_grades_2025-26.csv"
+HSADMW = "data/virtual_charters_hs_admw_2024-25.csv"
+hs_admw = {r["institution_id"]: float(r["hs_admw_9_12"]) for r in csv.DictReader(
+    open(os.path.join(ROOT, "analysis", HSADMW), newline="", encoding="utf-8")) if r["hs_admw_9_12"]}
+in_hss = [r for r in rows if r["institution_id"] in hs_admw]
 grades = {r["institution_id"]: r for r in csv.DictReader(open(os.path.join(ROOT, "analysis", GRADES), newline="", encoding="utf-8"))}
 K8 = ["fall_2025_k"] + [f"fall_2025_g{n}" for n in range(1, 9)]
 HS = [f"fall_2025_g{n}" for n in range(9, 13)]
@@ -111,7 +115,27 @@ out = [
      "USD millions", "est", "What Santiam Canyon would keep from Oregon Charter Academy at the statutory minimum",
      "Oregon Charter Academy's ode_separate_extended_admw x Santiam Canyon GPG x (K-8 share x 0.20 + 9-12 share x 0.05)",
      f"{DATA}; {GRADES}; legislature/ors/ors338.html",
-     "Oregon Charter Academy's Oct 1 headcount split by grade stands in for its ADMw split; " + keep_common),
+     "Oregon Charter Academy's Oct 1 headcount split by grade stands in for its ADMw split; " + keep_common.replace(
+         "; covers only the 20 charters in ODE's 2025-26 report", "")),
+    ("hss_listed_charters", len(in_hss), "charters", "derived",
+     "Report charters with their own row in ODE's 2025-27 High School Success allocations", "count of rows with a 9-12 ADMw",
+     HSADMW, ""),
+    ("hs_admw_share_2024_25", round(100 * sum(hs_admw[r["institution_id"]] for r in in_hss)
+                                     / sum(float(r["admw_2024_25"]) for r in in_hss), 1), "percent", "est",
+     "9-12 share of 2024-25 ADMw, report charters with an HSS row",
+     "sum of HSS 9-12 ADMw / sum of 2024-25 ADMw, same charters", f"{HSADMW}; {DATA}",
+     "ODE's HSS 9-12 ADMw and the transparency report's 2024-25 ADMw are on the same basis (ODE says the HSS "
+     "allocations use 2024-25 State School Fund data); ODE doesn't say how it weights the 9-12 count"),
+    ("hs_headcount_share_hss_charters_fall_2025", round(100 * sum(hs(r["institution_id"]) for r in in_hss)
+                                     / sum(k8(r["institution_id"]) + hs(r["institution_id"]) for r in in_hss), 1),
+     "percent", "derived", "9-12 share of Oct 1, 2025 headcount, the same charters",
+     "grade 9-12 headcount / K-12 headcount, same charters", f"{GRADES}; {HSADMW}", ""),
+    ("orca_formula_revenue_2025_26", round(next(
+        float(r["ode_separate_extended_admw"]) * float(r["sponsor_gpg_per_ext_admw_2025_26"])
+        for r in rows if r["institution_id"] == "4399") / 1e6, 1),
+     "USD millions", "est", "General Purpose Grant attributable to Oregon Charter Academy's students, 2025-26",
+     "Oregon Charter Academy's ode_separate_extended_admw x Santiam Canyon GPG per extended ADMw", DATA, est_assume.replace(
+         "; covers only the 20 charters in ODE's 2025-26 report", "")),
     ("scio_gpg_per_current_admw", round(SCIO_GPG / SCIO_ADMW_2025_26), "USD per ADMw", "derived",
      "Scio General Purpose Grant divided by current-year ADMw", "27,800,843.40 / 2,356.76", f"{EST} p.118", ""),
 ]

@@ -19,10 +19,7 @@
   cited. Save it from a browser if a House Democrats roles source is needed.
 - Governor's office phone and contact form, verified before sending to parents.
 - Virtual charters (#20): confirm with ODE that the "Charter Schools Rate (ORS 338.155)" is the General Purpose Grant
-  per current-year ADMw (it checks out for North Bend and Scio) (#47). ODE publishes enrollment by grade only as
-  headcount, not ADMw.
-- Virtual charters: Oregon Charter Academy's 2025 financial report (Santiam Canyon board, Mar 11, 2026) archived with
-  no extractable text; read it for the payment from the district.
+  per current-year ADMw (it checks out for North Bend and Scio) (#47).
 
 ## Sources to find and queue (no URL yet)
 - Legislative Fiscal Office: 2025-27 budget highlights (K-12 section); 2027-29 CSL documents.
