@@ -256,7 +256,7 @@ INTRO = """
     <span class="cite cite-news">📰 Outlet</span> is a news report; <span class="cite cite-pps">🏫 PPS archive</span>
     is the Portland Public Schools research archive; <span class="cite cite-der">🧮 our sum</span> is a figure this
     archive calculated itself, linked to its method. Boxes and sections marked **Analysis** are interpretation,
-    kept separate from what the documents say. [More about this site](about.md).
+    kept separate from what the documents say. [What this archive is for, and how to use it](about.md).
 
 """
 
