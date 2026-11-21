@@ -200,7 +200,7 @@ sponsor's average rate. It is one year of state plus local formula revenue, not 
   due Dec 1 (see `BRIEFING.md`).
 - **HB 3953** is about who may sponsor a charter, not about virtual charters or their funding, so it is left out
   of the bill list above. HB 3444's sponsor is presumably Rep. Boomer Wright in `people/legislators.csv`; the
-  bill gives only "Representative WRIGHT".
+  bill gives only his surname.
 - **The bills.** Counting HB 3444's amendments, five of the six 2025 bills would have widened access to or funding for virtual charters; HB 2144
   would have changed how the 3% rule is administered and had ODE collect the enrollment data. Three would have
   loosened the 3% rule. HB 2583 would have opened Student Investment Account grants to some or all virtual
