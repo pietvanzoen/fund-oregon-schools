@@ -258,6 +258,14 @@ They report only. For each finding:
 
 ## 7. Open the PR
 
+First bring in what merged while you worked: `git fetch origin main && git merge origin/main` (merge, never
+rebase: the branch is already pushed and the fetch bot pushes to it too). Conflicts are nearly always in the
+append-only files, where both sides added rows or sections: `analysis/updates.csv`, `sources/_queue.csv`,
+`sources/_manifest.jsonl`, `changelog/*.md`, and the folder list in `CLAUDE.md`. Keep both sides' lines, drop
+only exact duplicates, and keep the CSV header once. Then rerun `tools/check_citations.py`, every
+`tools/derive_*.py` and `tools/test_tools.py`. A conflict anywhere else (a topic file, BRIEFING, a data CSV) means
+someone changed the same facts: resolve it against the sources, and say what you did in the PR's **Anything odd**.
+
 Push, then open the PR with REST:
 
 ```bash
@@ -301,7 +309,8 @@ Then update the issue body so its status is clear at a glance (`gh api -X PATCH 
 - Label the PR `needs-human` if any finding is disputed or unresolved, any BRIEFING figure changed, or a
   checklist item needs Piet's judgement. Say which of these applies, and what Piet has to decide, in a
   **Needs you** line at the top of the PR body.
-- Wait for the `check` and `build` checks on the PR. If one fails, fix it and push.
+- Wait for the `check` and `build` checks on the PR. If one fails, fix it and push. If the PR shows a merge
+  conflict later (another PR merged first), merge `origin/main` in again as above.
 
 End with a short report: the PR link, one-line summary, the review table's counts, the site pages from
 `## Where to find it`, and what's left on the issue.
