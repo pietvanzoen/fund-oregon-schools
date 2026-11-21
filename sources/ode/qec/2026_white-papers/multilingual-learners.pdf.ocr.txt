@@ -1,0 +1,912 @@
+Best Practices in
+Supporting Multilingual
+Learners
+Quality Education Commission Best
+Practices White Paper Series
+ODE Office of Equity Diversity and Inclusion Multilingual & Migrant Education
+
+August 2025
+
+
+--- OCR of this page (tesseract), not checked by a person: check the PDF before quoting or copying a figure ---
+Best Practices in
+Supporting Multilingual
+Learners
+
+Quality Education Commission Best
+Practices White Paper Series
+
+ODE Office of Equity Diversity and Inclusion -
+Multilingual & Migrant Education
+
+August 2025
+
+inl Cli
+
+OREGON QUALITY
+
+DEPARTMENT OF EDUCATION
+EDUCATION COMMISSION
+
+Best Practices in Supporting Multilingual Learners
+
+Contents
+Executive Summary ..................................................................................................................... 2
+Introduction ................................................................................................................................. 5
+Background and Relevant Research ............................................................................................ 5
+Research-Informed Best Practices .............................................................................................. 8
+Implementation Strategies .......................................................................................................... 9
+Conclusion and Recommendations ........................................................................................... 14
+References ................................................................................................................................. 17
+
+1
+
+Best Practices in Supporting Multilingual Learners
+
+Executive Summary
+Introduction
+Creating equitable and supportive learning environments for multilingual learners (MLs) in
+Oregon requires a focus on research-based best practices. Drawing on resources from the
+Oregon Department of Education (ODE) Multilingual and Migrant Education team, including
+their November 2024 presentation to the Quality Education Commission, this white paper
+addresses this need by presenting a framework of such practices, designed to maximize
+opportunities for ML success. Recognizing the significant and growing ML population in the
+state, this analysis explores the challenges they face and identifies key strategies for
+improvement, organized around four core areas: authentic community engagement, improved
+systems and instruction, transformative educators, and pathways to multilingualism.
+
+Challenges and Opportunities
+Multilingual learners represent a substantial portion of Oregon's student population, bringing a
+wealth of linguistic and cultural assets to the state's schools. According to data from the ESEA
+Title III: English Learner Collection for 2023-24, there were 65,965 students who are federally
+defined as English Learners. However, these students often encounter significant challenges
+that hinder their academic and personal success. These challenges are multifaceted and
+interconnected, stemming from various sources:
+•
+
+Systemic Inequities: Historical and ongoing systemic issues within the education system
+often result in underfunding and under-resourcing of programs specifically designed to
+support MLs. This can manifest in limited access to qualified teachers specializing in
+multilingual education, inadequate instructional materials tailored to diverse linguistic
+needs, and insufficient support services for both students and families.
+
+•
+
+Lack of Awareness and Understanding: A lack of understanding among educators and
+administrators regarding the unique linguistic, cultural, and academic needs of MLs can
+lead to ineffective instructional practices. This includes a failure to recognize and
+leverage students' linguistic and cultural assets as valuable resources in the learning
+process.
+
+•
+
+Communication Barriers: Language barriers between schools and families can
+significantly impede parental involvement and limit families' ability to effectively
+advocate for their children's educational needs. This lack of communication can
+exacerbate existing inequities and create a disconnect between the home and school
+environments.
+2
+
+Best Practices in Supporting Multilingual Learners
+•
+
+Limited Access to Resources: MLs often face limited access to early childhood education
+programs, high-quality instructional materials in their native languages, and culturally
+relevant support services. This lack of access can significantly impact language
+development, academic readiness, and overall well-being.
+
+These challenges have significant impacts on MLs, including:
+•
+
+Academic Achievement Gaps: MLs often experience persistent achievement gaps
+compared to their monolingual English-speaking peers, leading to lower graduation
+rates and reduced post-secondary opportunities.
+
+•
+
+Social-Emotional Well-being: Students who do not feel supported, included, and
+understood in their school environment may experience feelings of isolation, anxiety,
+and low self-esteem, all negatively impacting their overall engagement and well-being.
+
+•
+
+Limited Language Development: Without adequate language support, MLs' English
+language development can be delayed, further impacting their academic progress and
+limiting their future opportunities.
+
+Despite these challenges, there are also significant opportunities to improve outcomes for MLs.
+Oregon's existing commitment, demonstrated through weighted funding for ELs, Migrant
+Education Programs, and dual language initiatives, provides a solid foundation. However, a
+more strategic and comprehensive approach is necessary to fully realize these opportunities
+and ensure equitable outcomes for all MLs.
+
+Key Areas for Improvement and Recommendations
+•
+
+Authentic Community Engagement: Building strong, reciprocal relationships with ML
+families and communities is crucial. Districts should prioritize providing accessible
+communication channels, including high-quality interpretation and translation services,
+and actively engage families in decision-making processes that impact their children's
+education.
+
+•
+
+Systems, Instruction, and Assessment Improvements: Implementing research-based
+instructional practices, such as sheltered instruction and differentiated instruction, is
+essential for making content accessible to MLs. Districts should also utilize accurate
+assessments that measure both language acquisition and content knowledge, ensuring
+equitable access to rigorous coursework and targeted support services.
+
+•
+
+Transformative Educators and Administrators: Recruiting, training, and retaining a
+diverse educator workforce equipped to meet the unique needs of MLs is paramount.
+This includes providing ongoing professional development focused on culturally
+3
+
+Best Practices in Supporting Multilingual Learners
+responsive teaching, linguistically tailored instruction, and effective strategies for
+supporting MLs' academic and social-emotional growth.
+•
+
+Pathways to Multilingualism: Expanding access to high-quality dual language programs
+and supporting Tribal language revitalization efforts are essential for promoting
+multilingualism and valuing students' linguistic and cultural assets.
+
+Conclusion
+Creating truly equitable and supportive learning environments for multilingual learners requires
+sustained commitment and collaborative effort from all stakeholders. By prioritizing the four
+key areas outlined above and ensuring transparent reporting of resource use and student
+outcomes, Oregon can create a more just and equitable educational system where all students,
+regardless of their linguistic or cultural background, can thrive and reach their full potential.
+This is not merely an investment in individual students; it is an investment in the future of
+Oregon's communities and its overall prosperity.
+
+4
+
+Best Practices in Supporting Multilingual Learners
+
+Introduction
+Creating equitable and supportive learning environments for multilingual learners (MLs) in
+Oregon requires a focus on research-based best practices. Drawing on resources from the
+Oregon Department of Education (ODE) Multilingual and Migrant Education team, including
+their November 2024 presentation to the Quality Education Commission, this white paper
+addresses this critical need by presenting a framework of such practices, specifically designed
+to maximize opportunities for ML success within the context of Oregon's diverse student
+population.
+This white paper outlines the Oregon Department of Education's (ODE) strategic plan for
+supporting multilingual learners, also known as English learners (ELs), which provides the
+foundation for these best practices. The ODE's plan explicitly focuses on these four key priority
+areas:
+•
+
+Authentic and Responsive Community Engagement and Partnerships,
+
+•
+
+Systems, Instruction, and Assessment Improvements,
+
+•
+
+Transformative Educators and Administrators, and
+
+• Pathways to Multilingualism.
+These areas are not mutually exclusive but rather interconnected and mutually reinforcing,
+working together to create a cohesive and comprehensive approach to supporting MLs. While
+acknowledging existing state efforts, including current funding and programs, this paper
+advocates for a more comprehensive and strategic implementation of these best practices to
+ensure all MLs have access to the high-quality education they deserve. This comprehensive
+approach recognizes that simply acknowledging the presence of MLs is insufficient. It will
+require active and sustained to dismantle systemic barriers and create truly inclusive and
+equitable learning environments. By focusing on these best practices, we aim to move beyond
+simply addressing surface-level issues and instead address the root causes of inequity, fostering
+a more just and equitable educational system for all students in Oregon.
+
+Background and Relevant Research
+Multilingual learners represent a significant portion of Oregon's student population, yet they
+often face unique challenges that hinder their academic success (Oregon English Learner
+Report, 2025). These challenges are multifaceted, ranging from systemic issues within the
+education system to broader societal factors (Oregon SEED Report, 2024). This analysis will
+examine the root causes of these challenges, exploring issues such as underfunding, lack of
+educator training, and communication barriers with families (Oregon Multilingual Learner
+Strategic Plan, 2024). We examine the impacts on students, including academic achievement
+5
+
+Best Practices in Supporting Multilingual Learners
+gaps and social-emotional well-being, alongside the potential long-term consequences for
+individuals and the state. Finally, we acknowledge Oregon's existing commitment to
+multilingual learners, including current funding and programs.
+
+Root Causes:
+Systemic Inequities: Historical and ongoing systemic inequities within the education system
+often result in underfunding and under-resourcing of programs that support multilingual
+learners. This can manifest in limited access to qualified teachers, inadequate instructional
+materials, and insufficient support services (Fine et al., 2023; IES REL West, 2023; SB 940 Study
+Report, 2024).
+Lack of Understanding and Awareness: A lack of understanding among educators and
+administrators about the unique needs of multilingual learners can lead to ineffective
+instructional practices and a failure to recognize students' linguistic and cultural assets (WIDA,
+2023; Wang & Yan, 2024).
+Language Barriers: Communication barriers between schools and families can hinder parental
+involvement and limit families' ability to advocate for their children's needs (Martínez Álvarez
+et al., 2024).
+Limited Access to Early Childhood Education: Many multilingual learners may not have access
+to high-quality early childhood education programs, which can impact their language
+development and academic readiness (Education First, 2024).
+Societal Factors: Factors such as poverty, discrimination, and limited access to healthcare can
+also negatively impact multilingual learners' educational experiences (Gándara & Escamilla,
+2023).
+
+Impacts:
+Academic Achievement Gaps: Multilingual learners often experience achievement gaps
+compared to their monolingual peers. Data from the provided text indicates that ELs in Oregon
+had lower assessment scores and enrolled in fewer content courses than their peers. This can
+lead to lower graduation rates and limited post-secondary opportunities (Johnson, 2023; Cook
+et al., 2024).
+Social-Emotional Well-being: Students who do not feel supported and included in their school
+environment may experience feelings of isolation, anxiety, and low self-esteem. This can
+
+6
+
+Best Practices in Supporting Multilingual Learners
+negatively impact their social-emotional well-being and their overall engagement in school
+(REL West, 2024; Johnson et al., 2025).
+Limited Language Development: When students do not receive adequate language support,
+their English language development may be delayed, which can further impact their academic
+progress (Smith & Nguyen, 2023).
+Reduced Opportunities: Limited access to rigorous coursework, enrichment activities, and
+career connected learning opportunities can restrict multilingual learners' future opportunities
+(Miller et al., 2024).
+
+Potential Consequences:
+Perpetuation of Inequities: If these challenges are not addressed, existing inequities will
+continue to persist, limiting the life opportunities of multilingual learners.
+Economic Impact: A less educated workforce can have negative consequences for the state's
+economy.
+Social Impact: Failure to support multilingual learners can lead to social isolation,
+marginalization, and a lack of civic engagement.
+
+Data and Examples:
+Oregon Data: In 2022-23, Oregon served 100,175 students who were currently or formerly
+designated as ELs, representing 18.4% of all Oregon students. This data underscores the
+substantial number of students who are impacted by these challenges (Oregon English Learner
+Report, 2025).
+Language Diversity: The fact that multilingual learners in Oregon speak at least 254 different
+languages highlights the need for culturally and linguistically responsive practices (Oregon
+English Learner Report, 2025).
+Mesoamerican Indigenous Languages: The growing number of speakers of Mesoamerican
+Indigenous languages in Oregon requires specific attention and resources to ensure these
+students' linguistic and cultural needs are met.
+Dual Language Program Enrollment: The data showing that only 23% of ELs in elementary
+school and 6% in middle and high school are enrolled in bilingual programs indicates a
+significant gap in access to these effective programs.
+
+7
+
+Best Practices in Supporting Multilingual Learners
+By understanding the root causes, impacts, and potential consequences of these challenges, we
+can develop more effective strategies and policies to support multilingual learners and create
+more equitable educational opportunities for all students.
+
+Oregon's Commitment to Multilingual Learners
+Oregon currently provides weighted funding for ELs, with additional funds for current ELs
+enrolled in an English language development program. The state has a long history of Migrant
+Education Programs and leverages a binational partnership with Mexico. Oregon offers a Seal of
+Biliteracy/Multiliteracy program and has over 195 dual language programs across various
+districts. ODE has a dedicated Multilingual and Migrant Education team to support these
+initiatives.
+
+Research-Informed Best Practices
+Creating equitable and supportive learning environments for multilingual learners requires the
+implementation of evidence-based practices. This section highlights research-informed best
+practices drawn from ODE's latest Oregon Multilingual Learner Strategic Plan, organized around
+four key areas of focus: fostering strong Community Engagement and Partnerships,
+implementing effective Systems, Instruction, and Assessment Improvements, developing
+Transformative Educators and Administrators, and establishing robust Pathways to
+Multilingualism. These practices are designed to promote student success and close
+opportunity gaps.
+
+Authentic and Responsive Community Engagement and
+Partnerships:
+•
+
+Provide high-quality interpretation and translation services: Ensure clear
+communication with families in their preferred languages (Schueler & Yergeau, 2023).
+
+•
+
+Engage students and families in decision-making: Empower them to be active
+participants in their education (Wilson et al., 2023).
+
+•
+
+Leverage family strengths: Recognize and value the knowledge, skills, and cultural
+experiences families bring to the educational environment (Coady et al., 2024).
+
+Systems, Instruction, and Assessment Improvements:
+•
+
+Implement research-based instructional practices: Utilize proven methods like
+integrated instruction that make content accessible to multilingual learners (Van Houten
+et al., 2021).
+8
+
+Best Practices in Supporting Multilingual Learners
+•
+
+Use accurate assessments: Employ assessments that capture both linguistic and content
+progress, providing a fair evaluation of students' abilities (Huynh, 2023).
+
+•
+
+Ensure equitable access: Guarantee access to grade-level courses, accelerated learning,
+and enrichment opportunities for all multilingual learners (Miller, González, & Parker,
+2024).
+
+•
+
+Provide targeted support: Offer specialized support for newcomers, students with
+interrupted education, and long-term English learners (Rinaldi, 2017).
+
+Transformative Educators and Administrators:
+•
+
+Recruit and retain a diverse educator workforce: Increase the number of multilingual
+educators of color who mirror the identities of students (Childhood Education
+International, 2024).
+
+•
+
+Provide high-quality professional learning: Ensure educators receive ongoing training in
+culturally responsive teaching and linguistically tailored instruction (Phillips et al., 2023).
+
+Pathways to Multilingualism:
+•
+
+Implement high-quality dual language programs: Expand access to dual language
+programs that prioritize English learners (WestEd R15CC, 2024).
+
+•
+
+Offer and support Tribal language courses: Promote language revitalization and
+preservation efforts (Rhoades & Christie, 2023).
+
+•
+
+Encourage earning the Seal of Biliteracy/Multiliteracy: Prepare and support students to
+earn the Seal of Biliteracy/Multiliteracy (Egnatz & Santos, 2021).
+
+•
+
+These best practices, grounded in research and aligned with ODE's equity stance, aim to
+create a more equitable and supportive learning environment for all multilingual
+learners in Oregon.
+
+Implementation Strategies
+This section outlines how districts can implement the research-informed best practices
+previously identified, organized around four key areas: Community Engagement and
+Partnerships, Systems, Instruction, and Assessment Improvements, Transformative Educators
+and Administrators, and Pathways to Multilingualism. Each area will include practical examples,
+potential barriers, and mitigation strategies.
+
+9
+
+Best Practices in Supporting Multilingual Learners
+
+Fostering Strong Community Engagement and
+Partnerships:
+Best Practices:
+•
+
+Provide high-quality interpretation and translation services.
+
+•
+
+Engage students and families in decision-making.
+
+•
+
+Leverage family strengths.
+
+Implementation Strategies:
+•
+
+Establish a multilingual family advisory council: This council can provide input on district
+policies and programs and serve as a communication bridge between the district and
+multilingual communities.
+
+•
+
+Offer workshops and training sessions for families in their native languages: These
+sessions can cover topics such as navigating the school system, understanding academic
+expectations, and supporting their children's learning at home.
+
+•
+
+Create welcoming spaces for families in schools: This could include family resource
+centers or designated areas where families can connect with each other and school
+staff.
+
+•
+
+Utilize technology for communication: Employ translation tools on websites and on
+communication platforms to ensure information is accessible to all families.
+
+Example: A district with a large Spanish-speaking population could partner with a local
+community organization to offer workshops on topics such as understanding report cards,
+accessing school resources, and advocating for their children's needs.
+Potential Barriers:
+•
+
+Lack of funding for interpretation and translation services.
+
+•
+
+Difficulty finding qualified interpreters and translators for less common languages.
+
+•
+
+Low family participation due to work schedules, transportation issues, or cultural
+barriers.
+
+Mitigation Strategies:
+•
+
+Seek grant funding or explore cost-sharing options with other districts.
+
+•
+
+Develop a network of volunteer interpreters and translators from the community.
+
+10
+
+Best Practices in Supporting Multilingual Learners
+•
+
+Offer workshops and events at convenient times and locations and provide childcare
+and transportation if needed.
+
+•
+
+Build relationships with community leaders and organizations to promote family
+engagement.
+
+Implementing Effective Systems, Instruction, and
+Assessment Improvements:
+Best Practices:
+•
+
+Implement research-based instructional practices.
+
+•
+
+Use accurate assessments.
+
+•
+
+Ensure equitable access.
+
+•
+
+Provide targeted support.
+
+Implementation Strategies:
+•
+
+Provide professional development for teachers on effective strategies for teaching
+multilingual learners: This could include training on sheltered instruction, differentiated
+instruction, and culturally responsive teaching.
+
+•
+
+Implement a multi-tiered system of support (MTSS) for multilingual learners: This
+system can provide targeted interventions and support based on students' individual
+needs.
+
+•
+
+Use a variety of assessment tools to measure students' progress: This could include
+formative assessments, summative assessments, and language proficiency assessments.
+
+•
+
+Ensure that multilingual learners have access to rigorous coursework and enrichment
+opportunities: This could include offering advanced placement courses, dual enrollment
+programs, and extracurricular activities.
+
+Example: A district could implement a sheltered instruction observation protocol (SIOP)
+framework to ensure that content instruction is accessible to all multilingual learners.
+Potential Barriers:
+•
+
+Lack of resources for professional development and instructional materials.
+
+•
+
+Resistance from some teachers to adopting new instructional practices.
+
+•
+
+Difficulty finding assessments that accurately measure multilingual learners' progress.
+
+Mitigation Strategies:
+11
+
+Best Practices in Supporting Multilingual Learners
+•
+
+Prioritize professional development funding and seek out high-quality training
+programs.
+
+•
+
+Provide ongoing support and coaching for teachers to implement new instructional
+practices.
+
+•
+
+Collaborate with other districts or organizations to share resources and expertise on
+assessment.
+
+Developing Transformative Educators and
+Administrators:
+Best Practices:
+•
+
+Recruit and retain a diverse educator workforce.
+
+•
+
+Provide high-quality professional learning.
+
+Implementation Strategies:
+•
+
+Establish "Grow Your Own" programs: These programs can support local community
+members in becoming teachers, with a focus on recruiting multilingual individuals.
+
+•
+
+Partner with local universities to offer specialized training programs for educators who
+work with multilingual learners: These programs can provide teachers with the
+knowledge and skills they need to effectively support these students.
+
+•
+
+Offer mentorship programs for new teachers who work with multilingual learners: This
+can provide them with guidance and support from experienced educators.
+
+Example: A district could partner with a local community college to offer a pathway program
+for bilingual paraprofessionals to become licensed teachers.
+Potential Barriers:
+•
+
+Difficulty recruiting and retaining diverse teachers, especially in rural areas.
+
+•
+
+Lack of funding for professional development and mentorship programs.
+
+•
+
+Limited availability of specialized training programs.
+
+Mitigation Strategies:
+•
+
+Offer competitive salaries and benefits packages to attract and retain diverse teachers.
+
+•
+
+Seek grant funding to support professional development and mentorship programs.
+
+•
+
+Develop online or hybrid training programs to increase access for educators in remote
+areas.
+12
+
+Best Practices in Supporting Multilingual Learners
+
+Establishing Robust Pathways to Multilingualism:
+Best Practices:
+•
+
+Implement high-quality dual language programs.
+
+•
+
+Offer and support Tribal language courses.
+
+•
+
+Encourage earning the Seal of Biliteracy/Multiliteracy.
+
+Implementation Strategies:
+•
+
+Conduct a community needs assessment to determine the demand for dual language
+programs.
+
+•
+
+Develop a plan for implementing and sustaining dual language programs, including
+curriculum development, staffing, and professional development.
+
+•
+
+Partner with Tribal nations to develop and implement Tribal language programs.
+
+•
+
+Provide resources and support for students to prepare for the Seal of Biliteracy
+assessments.
+
+Example: A district could implement a two-way immersion dual language program where both
+native English speakers and native speakers of another language learn together in both
+languages.
+Potential Barriers:
+•
+
+Lack of funding for dual language programs and Tribal language initiatives.
+
+•
+
+Difficulty finding qualified bilingual teachers and Tribal language instructors.
+
+•
+
+Limited resources and support for students to prepare for the Seal of Biliteracy
+assessments.
+
+Mitigation Strategies:
+•
+
+Seek grant funding and explore partnerships with other districts or organizations to
+share resources.
+
+•
+
+Develop pathways for bilingual paraprofessionals and community members to become
+licensed teachers and Tribal language instructors.
+
+•
+
+Provide professional development for teachers on how to integrate language learning
+into the curriculum.
+
+By addressing these key areas and implementing the suggested strategies, districts can create
+more equitable and supportive learning environments for all multilingual learners. Continuous
+13
+
+Best Practices in Supporting Multilingual Learners
+evaluation and adaptation based on student outcomes and community feedback are essential
+for ongoing improvement.
+
+Conclusion and Recommendations
+This white paper has examined the critical need for equitable and supportive educational
+environments for multilingual learners (MLs) in Oregon, drawing upon the Oregon Department
+of Education's (ODE) strategic plan. Key findings highlight the considerable number of MLs in
+Oregon, their diverse linguistic and cultural backgrounds, and the persistent challenges they
+face, including academic achievement gaps, social-emotional well-being concerns, and limited
+access to opportunities. These challenges stem from root causes such as systemic inequities,
+lack of awareness among educators, language barriers with families, limited access to early
+childhood education, and broader societal factors (also see Oregon English Learner Report,
+2025).
+
+Key Findings:
+•
+
+Multilingual learners represent a substantial portion (18.4%) of Oregon's student
+population, speaking at least 254 different languages.
+
+•
+
+These students experience academic achievement gaps and limited access to rigorous
+coursework and enrichment.
+
+•
+
+Challenges are rooted in systemic issues, including underfunding, lack of educator
+training, and communication barriers with families.
+
+•
+
+Access to dual language programs and Tribal language courses is limited, hindering
+opportunities for multilingualism.
+
+Most Important Solutions:
+•
+
+ODE's strategic plan identifies four priority areas with the corresponding best practices
+that offer the most promising solutions:
+
+•
+
+Authentic and Responsive Community Engagement and Partnerships: Prioritizing
+meaningful engagement with families and communities through accessible
+communication and collaborative decision-making.
+
+•
+
+Systems, Instruction, and Assessment Improvements: Implementing research-based
+instructional practices, accurate assessments, and equitable access to rigorous
+coursework and targeted support.
+
+•
+
+Transformative Educators and Administrators: Recruiting, training, and retaining a
+diverse educator workforce equipped to support multilingual learners effectively.
+14
+
+Best Practices in Supporting Multilingual Learners
+•
+
+Pathways to Multilingualism: Expanding access to dual language programs, supporting
+Tribal language revitalization, and promoting the Seal of Biliteracy/Multiliteracy.
+
+Actionable Recommendations:
+To effectively implement these solutions and create truly equitable learning environments for
+multilingual learners, the following actionable recommendations are provided for various
+stakeholders:
+For Policymakers:
+•
+
+Increase and sustain funding: Allocate adequate and sustained funding for programs and
+services that support multilingual learners, including interpretation and translation
+services, professional development, and dual language programs.
+
+•
+
+Promote data transparency and accountability: Establish clear metrics for tracking
+student outcomes and require districts to transparently report on resource allocation
+and program effectiveness, particularly within the context of integrated funding and
+local control.
+
+•
+
+Support Grow-Your-Own programs: Invest in initiatives that support community
+members, especially multilingual individuals, in becoming licensed educators.
+
+•
+
+Strengthen partnerships with Tribal nations: Support Tribal language revitalization
+efforts through funding and collaborative program development.
+
+•
+
+Mandate and fund high-quality professional development: Ensure all educators receive
+ongoing training in culturally responsive teaching, linguistically tailored instruction, and
+effective strategies for supporting multilingual learners.
+
+For Educators:
+•
+
+Implement research-based instructional practices: Utilize strategies such as sheltered
+instruction, differentiated instruction, and culturally responsive teaching to make
+content accessible to all learners.
+
+•
+
+Utilize accurate and varied assessments: Employ assessments that measure both
+linguistic and content progress and recognize students' diverse strengths.
+
+•
+
+Actively engage families and communities: Build strong relationships with families,
+communicate effectively in their preferred languages, and involve them in decisionmaking processes.
+
+•
+
+Advocate for equitable resources: Advocate for adequate funding, staffing, and
+resources to support multilingual learners in their classrooms and schools.
+
+•
+
+Seek out professional development opportunities: Engage in ongoing learning to
+enhance their skills in supporting multilingual learners.
+15
+
+Best Practices in Supporting Multilingual Learners
+For Other Stakeholders (Families, Community Organizations, etc.):
+•
+
+Actively participate in school and district decision-making: Engage in school board
+meetings, parent-teacher organizations, and other opportunities to advocate for the
+needs of multilingual learners.
+
+•
+
+Partner with schools and districts: Collaborate with schools to provide support services,
+resources, and cultural expertise.
+
+•
+
+Advocate for policies that support multilingual learners: Engage with policymakers to
+advocate for increased funding, equitable policies, and access to high-quality programs.
+
+•
+
+Share cultural knowledge and experiences: Contribute to creating culturally responsive
+learning environments by sharing their unique perspectives and knowledge.
+
+This white paper has explored the multifaceted challenges and promising opportunities related
+to supporting multilingual learners (MLs) in Oregon. By examining the root causes of existing
+inequities, including systemic issues, lack of awareness, and limited access to resources, we
+have highlighted the significant impact these challenges have on students' academic
+achievement, social-emotional well-being, and future opportunities. Oregon's existing
+commitment to MLs, through weighted funding, Migrant Education Programs, and dual
+language initiatives, provides a foundation upon which to build. Therefore, this white paper
+emphasizes the importance of implementing research-informed best practices across four key
+areas. These practices, when implemented with fidelity and supported by adequate resources,
+can address the root causes of inequity and create learning environments where every ML feels
+valued, respected, and empowered to succeed. Moving forward, it is crucial that policymakers,
+educators, and community stakeholders work collaboratively to prioritize these key areas,
+ensuring transparent reporting of resource allocation and student outcomes, particularly given
+the complexities of integrated funding and local control. This collaborative and transparent
+approach will not only maximize the impact of investments but also build public trust and
+contribute to a more just and equitable educational system for all of Oregon's students.
+
+16
+
+Best Practices in Supporting Multilingual Learners
+
+References
+Education First. (2024). Toward inclusivity: Advancing social and emotional learning for
+multilingual learners.
+Fine, C. J., … et al. (2023). Science education with multilingual learners: Equity as access and
+opportunity. Science Education.
+Gándara, P., & Escamilla, K. (2023). Bilingual education and America’s future: Evidence and
+pathways. UCLA Civil Rights Project.
+IES REL West. (2023). Systemic factors that shape multilingual learners’ educational
+experiences.
+Martínez Álvarez, P., … et al. (2024). Education’s future for English learners must start now.
+Teachers College, Columbia University.
+Oregon SEED Survey Report (2024). Student Educational Equity Development (SEED) Survey.
+Oregon Department of Education.
+Oregon English Learner Report (2025). English Learners in Oregon. Oregon Department of
+Education.
+Wang, W., & Yan, Y. (2024). A review of teacher language awareness (2015–2024): Current
+trends and future directions. Journal of Language Teaching, 4(4), 10–20.
+WIDA. (2023). Reading development and multilingual learners: Guideposts for success. WIDA.
+Cook, A., Smith, B., & Lee, C. (2024). Addressing the academic and linguistic needs of
+multilingual learners: A comprehensive review. Journal of Bilingual Education Research,
+12(2), 45–62.
+Johnson, M. (2023). Achievement and growth trajectories of English learners in elementary
+science. AERA Open.
+Johnson, E., Chavez, L., & Patel, S. (2025). Language proficiency and emotional wellbeing in
+multilingual children. Journal of Multilingual Education and Development, 17(1), 10–25.
+tandfonline.com
+Miller, R., González, E., & Parker, J. (2024). Equity in access: Preparing multilingual learners for
+post-secondary success. Educational Policy and Practice, 9(3), 101–120.
+REL West. (2024, October). Advancing social and emotional learning for multilingual learners.
+Institute of Education Sciences. education-first.com
+Smith, D. & Nguyen, T. (2023). Supporting language development and academic success among
+English learners. Educational Review Quarterly, 45(4), 78–95.
+SB 940 Study Report (2024). Transferring High School Credits Earned Outside of the United
+States: Report to the Legislature. Oregon Department of Education
+Oregon Multilingual Learner Strategic Plan (2024). Oregon Department of Education.
+17
+
+Best Practices in Supporting Multilingual Learners
+Coady, M. R., Ankeny, R., & Protacio, M. S. (2024). Learning from multilingual families in
+partnership with schools. School Community Journal.
+Schueler, B. E., & Yergeau, M. (2023). Building family engagement with multilingual families.
+Exchange Press.
+Wilson, A. B., Harper, R. A., & Escamilla, K. (2023). Shared decision-making and empowerment
+in multilingual education. Journal of School Leadership and Community Engagement,
+15(2), 112–130.
+U.S. Department of Education. (n.d.). Raise the Bar policy brief: Strengthening educator
+diversity. https://www.ed.gov/raisethebar/Eliminating-Educator-Shortages-throughIncreasing-Educator-Diversity
+Phillips, A., Barnatt, J., & Viesca, K. (2023). Linguistically responsive leaders: Working with
+multilingual students and their families. School Leadership Review, 15(1), 45–60.
+Egnatz, L. & Santos, V. (2023) A Seal of Biliteracy for All: Expanding Assessment Options Toward
+Access & Equity for Learners of Less Commonly Tested Languages. Global Seal of
+Biliteracy.
+WestEd R15CC (2024). Dual Language Immersion programs: The state of current research.
+Rhoades, C., & Christie, B. (2023). Native American language revitalization: A literature review
+(Bureau of Indian Affairs). https://www.bia.gov/sites/default/files/inlinefiles/bia_native_american_revitalization_lit_review_draft_08182023.pdf
+
+18
+
+

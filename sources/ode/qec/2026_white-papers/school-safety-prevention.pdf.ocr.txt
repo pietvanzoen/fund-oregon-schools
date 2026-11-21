@@ -1,0 +1,1142 @@
+Best Practices for School
+Safety and Prevention
+in Schools
+Quality Education Commission Best
+Practices White Paper Series
+ODE Safe and Inclusive Schools Team
+October 2024
+
+
+--- OCR of this page (tesseract), not checked by a person: check the PDF before quoting or copying a figure ---
+Best Practices for School
+Safety and Prevention
+in Schools
+
+Quality Education Commission Best
+Practices White Paper Series
+
+ODE Safe and Inclusive Schools Team
+
+October 2024
+
+OREGON
+
+DEPARTMENT OF
+
+QUALITY Jz EDUCATION
+OFFICE of EQUITY,
+beer DIVERSIeY & INCLUSION
+
+Best Practices for School Safety and Prevention in Schools
+
+Contents
+Executive Summary ..................................................................................................................... 2
+Introduction ................................................................................................................................. 7
+Challenges and Opportunities in Ensuring Student Safety and Inclusion ................................... 7
+Key Principles............................................................................................................................... 9
+Strategies for Creating Safe and Inclusive Schools ................................................................... 13
+Best Practices from the Oregon Department of Education ...................................................... 16
+Conclusion and Recommendations ........................................................................................... 19
+References ................................................................................................................................. 24
+
+1
+
+Best Practices for School Safety and Prevention in Schools
+
+Executive Summary
+The creation of safe and inclusive learning environments is paramount to ensuring holistic wellbeing and equitable educational opportunities for all students. This white paper delves into the
+key principles and best practices that support this critical endeavor. Drawing on resources from
+the Oregon Department of Education's Safe and Inclusive Schools Team, including their October
+2024 presentation to the Quality Education Commission, this paper explores the complex
+interplay of challenges and opportunities that influence student safety and inclusion. It further
+highlights the core principles that drive effective school safety and equity initiatives and
+provides practical, evidence-based strategies for implementation to empower schools in
+fostering environments where every student feels seen, heard, safe, and valued, supporting
+them in reaching their full potential.
+
+Challenges and Opportunities in Ensuring Student
+Safety and Inclusion
+Schools today face a complex array of challenges impacting student safety. These challenges
+necessitate proactive, preventative, and comprehensive strategies, but also present significant
+opportunities for positive change.
+Challenges:
+•
+
+Threats of Violence: Schools must address a range of threats, from verbal and physical
+altercations to serious incidents like school shootings, including online threats that can
+rapidly escalate and spread fear throughout the school and community.
+
+•
+
+Bullying (Including Cyberbullying): Bullying, in all its forms, remains a pervasive problem,
+with cyberbullying extending its reach beyond the school day.
+
+•
+
+Mental Health Concerns: Students experience increasing rates of anxiety, depression,
+and other mental health challenges, impacting academic performance, behavior, and
+social interactions, and increasing the risk of self-harm.
+
+•
+
+Social and Emotional Barriers: Many students struggle with self-regulation, managing
+emotions, building healthy relationships, and resolving conflicts.
+
+•
+
+Disparities and Inequities: Certain student populations, such as students of color,
+students who identify as LGBTQ2SIA+, students living with disabilities, and students
+living in out-of-home settings, often face disproportionate rates of discipline and high
+rates of youth suicide.
+
+2
+
+Best Practices for School Safety and Prevention in Schools
+•
+
+Lack of Resources and Support: Limited funding for school safety and mental wellness,
+school-based mental health services, staff training, and prevention programs hinder
+effective foundational support for Oregon schools and districts.
+
+•
+
+Impact of External Factors: Societal issues such as housing instability, community
+violence, and access to firearms significantly impact school safety and well-being.
+
+Opportunities:
+•
+
+Evidence-Based Practices: Implementing strategies like Transformative Social-Emotional
+Learning (TSEL), Positive Behavior Interventions and Supports (PBIS), Multitiered
+Systems of Support (MTSS), Restorative and Trauma-Informed Practices, as well as
+Culturally Responsive and Sustaining Practices can significantly improve school climate
+and student outcomes.
+
+•
+
+Collaboration and Partnerships: Strong partnerships between schools, families,
+caregivers, community organizations, mental health providers, and law enforcement are
+essential.
+
+•
+
+Focus on Prevention: Proactive prevention efforts, including suicide prevention
+programs, mental health awareness campaigns, and online safety and reporting options
+are a crucial aspect of safety and prevention in schools.
+
+•
+
+Data-Driven Decision Making: Using discipline data and other forms of data to monitor
+school climate, student behavior, intervention effectiveness, and to identify possible
+disproportional trends allows for informed decision-making, strengthening foundational
+behavioral supports and an overall healthy school culture.
+
+•
+
+Emphasis on Positive School Culture and Climate: Cultivating a safe, trusting, and
+inclusive school climate is paramount to every student’s success.
+
+•
+
+Leveraging Technology Responsibly: Technology can be a powerful tool for promoting
+safety and inclusion, such as through online reporting systems, accessible learning
+platforms, and teaching digital civics and citizenship.
+
+•
+
+Investing in Staff Training and Professional Development: Equipping staff with the
+necessary knowledge and skills in school safety efforts is essential.
+
+Key Principles for Fostering Safe and Inclusive Schools
+A foundation for building safe and inclusive schools rests on core, interconnected principles.
+These principles inform policies, practices, and interactions, creating an integrated approach to
+student well-being.
+
+3
+
+Best Practices for School Safety and Prevention in Schools
+•
+
+Culturally Responsive and Sustaining Practices: This involves actively valuing the diverse
+backgrounds of all students through culturally relevant curriculum, responsive teaching,
+inclusive environments, diverse staffing, and ongoing professional development.
+
+•
+
+Transformative Social-Emotional Learning (TSEL): TSEL focuses on developing skills like
+self-awareness, self-management, social awareness, relationship skills, and responsible
+decision-making, improving students' academic performance, behavior, and well-being.
+Oregon’s Transformative SEL Framework is intended to enact ORS 329.045 and help
+build capacity for strengthening equity-focused school cultures that support student and
+adult wellbeing. A focus on Transformative SEL enables students and adults to be
+affirmed in their identities, where they can develop a sense of agency and belonging,
+engage in collaborative problem-solving, and deepen their curiosity about the kind of
+society they want to make a reality.
+
+•
+
+Culturally Responsive Positive Behavior Interventions and Supports (CR-PBIS): CR-PBIS is
+a proactive, systems-level approach to preventing and addressing problem behavior
+through clear expectations, positive reinforcement, tiered supports, and data-based
+decision-making.
+
+•
+
+Multitiered Systems of Support (MTSS): Multitiered Systems of Support is a framework
+for schools to provide academic, behavioral, and social-emotional support by using datadriven decision-making to match students with the appropriate level of support across
+multiple tiers. MTSS aims to proactively offer universal supports to all students (Tier 1),
+more targeted interventions to some students (Tier 2), and intensive, individualized
+support to a smaller number of students who require the most help (Tier 3).
+
+•
+
+Restorative Justice: This approach focuses on building relationships by intentionally
+increasing understanding of culture and community, creating relational capacity among
+the school community and partners, strengthening empathy for one-another, and on
+repairing harm by addressing accountability, healing, and increased community
+connection
+
+•
+
+Trauma-Informed Practices: These practices recognize the impact of trauma and
+prioritize creating safe and supportive environments through safety, trustworthiness,
+peer support, collaboration, empowerment, and addressing cultural and historical
+issues.
+
+•
+
+Universal Design for Learning (UDL): UDL provides a framework for designing accessible
+and engaging learning experiences through multiple means of representation, action
+and expression, and engagement.
+
+4
+
+Best Practices for School Safety and Prevention in Schools
+Best Practices from the Oregon Department of Education
+•
+
+Behavior Safety [threat]Assessments (BSAs): A multi-level approach to identify
+situations that may pose a risk of violence or harm, determine the seriousness of that
+risk, and develop both safety and supervision strategies, involving school-based and
+community-based teams.
+
+•
+
+Suicide Prevention (Adi's Act): This legislation mandates every school district school
+board to adopt a policy that requires a Student Suicide Prevention Plan.
+
+Bullying, Harassment, Intimidation, and Sexual Violence Prevention: ODE emphasizes creating
+safe environments and provides resources and guidance based on Oregon law (ORS 339.351,
+OAR 581-029-0001), addressing bullying, cyberbullying, harassment, intimidation and sexual
+violence in schools by exploring the diverse resources available with a strong emphasis on the
+guidance and support provided by the Oregon Department of Education (ODE).
+
+Conclusion
+Creating safe and inclusive schools is a fundamental investment in the future of our
+communities. It requires an unwavering commitment and a spirit of collaboration among all
+partners. This white paper offers a foundation for understanding the best practices in school
+safety, prevention and inclusion; we can transform our schools into spaces where all students
+feel valued, respected, and empowered to succeed, both academically and personally. When
+students feel safe and included, they are more likely to engage in learning, develop positive
+relationships, and cultivate a strong sense of belonging. This, in turn, contributes to improved
+academic outcomes, reduced behavioral issues, and a more positive school climate overall.
+Ultimately, the creation of safe and inclusive schools is not just about addressing immediate
+needs; it's about nurturing the next generation of leaders, innovators, and responsible citizens
+who will contribute positively to a more just and equitable world.
+Recommendations
+Achieving safe and inclusive schools necessitates significant investment across six key areas:
+•
+
+Dedicated funding
+
+•
+
+Inclusive and diverse staffing
+
+•
+
+Evidence-based professional development and training
+
+•
+
+Community partnerships
+
+•
+
+Data collection and evaluation
+
+•
+
+Support for policies and systemic changes
+
+5
+
+Best Practices for School Safety and Prevention in Schools
+While isolating precise spending on school safety and prevention efforts is difficult due to a lack
+of adequate, dedicated funding as well as local control over resource allocation, it is imperative
+that districts, schools and education service districts prioritize these investments.
+To ensure transparency and maximize the effectiveness of these resources, districts, schools
+and education service districts should clearly articulate how they are expending funds to
+support these six key areas and regularly report on the outcomes of these investments. This
+transparent approach will allow partners to understand how they are using resources to create
+safe and inclusive learning environments for all students.
+
+6
+
+Best Practices for School Safety and Prevention in Schools
+
+Introduction
+Safe and inclusive schools are essential for fostering a positive learning environment where all
+students feel seen, heard, safe, and valued. This white paper explores key principles and best
+practices to create such environments, drawing on the valuable resources provided by the
+Oregon Department of Education's (ODE) Safe and Inclusive Schools Team October 2024
+presentation to the Quality Education Commission.
+
+Challenges and Opportunities in Ensuring
+Student Safety and Inclusion
+Schools today navigate a complex landscape of challenges that impact student safety. These
+challenges require proactive and comprehensive strategies to ensure a positive and supportive
+learning environment for all. However, within these challenges lie significant opportunities for
+growth and positive change.
+
+Challenges
+•
+
+Threats of Violence: This encompasses a range of concerns, from verbal threats and
+physical altercations to more serious incidents like school shootings. The prevalence of
+school violence creates a climate of fear and anxiety, disrupting the learning process and
+impacting student well-being. This also includes online threats, which can quickly
+escalate and create widespread panic.
+
+•
+
+Bullying (Including Cyberbullying): Bullying, whether physical, verbal, or emotional,
+continues to be a pervasive problem in schools. Cyberbullying, facilitated by technology,
+extends bullying beyond the school day and can have devastating effects on victims.
+This includes harassment, intimidation, and discriminatory behaviors targeting students
+based on protected characteristics.
+
+•
+
+Mental Health & Youth Suicide: Students are facing increasing rates of anxiety,
+depression, and other mental health challenges. These issues can manifest in many
+ways, including increased school absences, academic concerns, behavioral challenges,
+and social isolation. Untreated mental health concerns can also increase the risk of selfharm and suicidal ideation.
+
+•
+
+Social and Emotional Needs: Many students experience social and emotional challenges
+that hinder their ability to fully engage in school. These can include difficulty with selfregulation, managing emotions, building healthy relationships, and resolving conflicts.
+
+7
+
+Best Practices for School Safety and Prevention in Schools
+•
+
+Disparities and Inequities: such as students of color, students who identify as
+LGBTQ2SIA+, students living with disabilities, and students living in out of home settings,
+often face disproportionate rates of bullying, harassment, and disciplinary action.
+Addressing these disparities is crucial for creating truly inclusive schools.
+
+•
+
+Lack of Resources and Support: Schools often struggle with limited resources, including
+funding for mental health services, staff turnover, ongoing training, and prevention and
+support programs. This lack of resources can make it difficult to implement and sustain
+effective prevention and intervention strategies.
+
+•
+
+Impact of External Factors: Societal issues such as poverty, violence in the community,
+and access to firearms can significantly impact school safety and student well-being.
+
+Opportunities
+Despite these challenges, there are significant opportunities to create positive changes:
+•
+
+Evidence-Based Practices: Research has identified numerous effective strategies for
+promoting school safety and inclusion, including Social-Emotional Learning (SEL),
+Culturally Responsive Positive Behavior Interventions and Supports (CR-PBIS),
+Restorative Justice, Trauma-Informed Practices, and Culturally Responsive Practices.
+Implementing these evidence-based approaches can significantly improve school
+climate and student outcomes.
+
+•
+
+Collaboration and Partnerships: Strong partnerships between schools, families,
+community organizations, mental health providers, and law enforcement are essential
+for addressing school safety and inclusion comprehensively. These partnerships can
+provide access to additional resources, expertise, and support.
+
+•
+
+Focus on Prevention: Proactive prevention efforts, such as solidifying tier 1 schoolbased climate and culture supports for bullying prevention, ensuring Oregon K-12
+Health Education Standards are taught in classrooms, and promoting mental health
+awareness campaigns can help to address problems before they escalate.
+
+•
+
+Data-Driven Decision Making: Using data from surveys, referrals, assessments, or
+empathy interviews to monitor school climate, student behavior, and the effectiveness
+of interventions can help schools to make informed decisions and continuously improve
+their practices. School and district teams monitoring disproportionality in behavior data
+can make informed decisions regarding students’ experiences and necessary systemic
+changes to increase opportunity and access to universal supports and tiered
+interventions.
+
+•
+
+Emphasis on Positive School Climate: Creating a positive school climate characterized
+by respect, trust, and belonging is crucial for promoting student well-being and
+8
+
+Best Practices for School Safety and Prevention in Schools
+preventing violence and bullying. By utilizing strategies in Oregon’s Student Success
+Plans in addition to TSEL standards and practices, schools can create safe school and
+classroom environments for every student to thrive.
+•
+
+Leveraging Technology Responsibly: While technology presents challenges, it can also
+be a powerful tool for promoting safety and inclusion. For example, schools and districts
+can promote the SafeOregon Tip Line, providing students with a confidential online
+reporting system to report bullying or threats. Teaching online safety, including keeping
+personal information private, sharing media including photos, and accessing appropriate
+content and platforms is essential for all students.
+
+•
+
+Investing in Staff Training and Professional Development: Equipping school staff with
+the knowledge and skills to address issues of safety, belonging, and suicide prevention is
+essential. This also includes training on topics such as cultural competency, traumainformed practices, and crisis intervention.
+
+•
+
+By acknowledging the challenges and actively pursuing the opportunities, schools can
+create learning environments where all students feel safe, supported, and empowered
+to succeed.
+
+Key Principles
+Prioritizing the holistic well-being of every student is paramount to creating safe and inclusive
+schools. This requires commitment to key principles that address their diverse needs and
+experiences. The following principles—Culturally Responsive and Sustaining Practices, SocialEmotional Learning (SEL), Positive Behavior Interventions and Supports (PBIS), Restorative
+Justice, Trauma-Informed Practices, and Universal Design for Learning (UDL)—offer a roadmap
+for fostering environments where all students can thrive academically, socially, and
+emotionally.
+
+Culturally Responsive and Sustaining Practices
+This goes beyond simply acknowledging diversity. It involves actively embracing and valuing the
+diverse backgrounds, cultures, languages, and experiences of all students. Key elements
+include:
+•
+
+Culturally Relevant Curriculum: Integrating diverse perspectives, histories, and
+contributions into the curriculum. This helps students see themselves reflected in the
+learning materials and fosters a sense of belonging.
+
+•
+
+Culturally Responsive Teaching: Adapting teaching methods to meet the diverse
+learning styles and needs of students from diverse cultural backgrounds. This includes
+understanding cultural communication styles, incorporating students' cultural
+9
+
+Best Practices for School Safety and Prevention in Schools
+knowledge into lessons, and creating a safe space for students to share their
+experiences.
+•
+
+Inclusive School Environment: Creating a welcoming and inclusive school environment
+where all students feel respected and valued. This includes celebrating cultural events,
+providing resources in multiple languages, and ensuring that school policies and
+practices are equitable for all students.
+
+•
+
+Diverse Staffing: Hiring and retaining diverse staff that reflects the student population.
+This provides students with role models and mentors who understand their cultural
+backgrounds and experiences.
+
+•
+
+Professional Development: Providing ongoing professional development for staff on
+cultural competency, culturally responsive teaching, and implicit bias.
+
+Transformative Social-Emotional Learning (TSEL)
+Oregon’s Transformative SEL Framework is intended to enact ORS 329.045 and help build
+capacity for strengthening equity-focused school cultures that support student and adult
+wellbeing. A focus on Transformative SEL enables students and adults to be affirmed in their
+identities, where they can develop a sense of agency and belonging, engage in collaborative
+problem-solving, and deepen their curiosity about the kind of society they want to make a
+reality. The Guiding Principles are the foundational values and beliefs that guide decisions
+about implementing Transformative Social Emotional Learning (TSEL). They are:
+•
+•
+•
+•
+•
+
+Culturally Responsive
+Community Responsive
+Strengths-Based
+Trauma-Informed
+Grounded in Neuroscience and the Science of Learning
+
+Culturally Responsive Positive Behavior Interventions
+and Supports (CR-PBIS)
+CR-PBIS is an evidence-based implementation of PBIS that requires all systems and
+interventions to be culturally responsive to the communities they serve. Foundational PBIS
+includes proactive, systems-level approach to creating positive school climates, teaching
+expected behaviors, and providing tiered supports to students. The core components in CR-PBIS
+are:
+
+10
+
+Best Practices for School Safety and Prevention in Schools
+•
+
+Identity: Educators exercise identity awareness and be conscious of how they influence
+their classroom and school each day. This includes their identity as well as the identities
+of students, school staff, families, and the community.
+
+•
+
+Voice: Provide meaningful and authentic opportunities for students, families, caregivers
+and community voices to be heard within the school system, including reaching out for
+engagement in decision making and school involvement.
+
+•
+
+Supportive Environment: Understand that school expectations are a framework for
+teaching desired behavior and not a system which discipline is enforced. Staff and
+students understand the vision of the school, holding each other accountable to
+achieving that goal. This can include the use of acknowledgement and reinforcement
+but understands that staff’s obligation is to reteach desired behaviors.
+
+•
+
+Situational Appropriateness: Determine behavior that will lead to positive outcomes in
+different settings and utilize those skills with fluency. Instruction on behavior should be
+context-specific, clearly explaining when and where expectations may change (for
+example, between the playground and library, or the hallway and math class), while also
+considering the cultural dynamics of students, staff, and both home and school
+environments.
+
+•
+
+Data for Equity: Culturally responsive and supportive school systems understand the
+importance of disaggregated data for analysis and action planning regarding equity and
+foundational students supports.
+
+Restorative Justice
+Restorative justice is a philosophy and set of practices that focus on building and strengthening
+relationships and repairing harm in community rather than traditional disciplinary practices and
+exclusionary discipline. It emphasizes accountability, empathy, and community involvement.
+Key principles of restorative justice include:
+•
+
+Relationship Building: Proactively building and strengthening relationships between
+individuals and within the community. Restorative practices can include utilizing
+affective language, affective and restorative questions, restorative conversations or
+impromptu dialogue, community building circles, responsive circles, listening circles,
+peer mediation and dialogue, and restorative conferencing.
+
+•
+
+Opportunity for Voice and Community Connection: The wider school community can
+have input, voice, and opportunity to shape the way schools interact with families,
+caregivers, and community partners through listening circles, restorative dialogue,
+conferencing and relationship building events.
+11
+
+Best Practices for School Safety and Prevention in Schools
+•
+
+Focus on Addressing and Healing from Harm: Addressing the harm caused in
+community by exploring the conditions that created the context for harm and coming to
+agreements rather than simply relying on traditional disciplinary measures, specifically
+exclusionary discipline.
+
+•
+
+Accountability: Holding those who have caused harm accountable for their actions and
+encouraging them to take responsibility for repairing the harm they have caused.
+
+•
+
+Ensuring Those Who Have Caused Harm Continue to be Connected and Supported in
+Community: Ensuring safety and healing for those who cause harm by creating
+conditions for community connection rather than exclusion.
+
+•
+
+Community Involvement: Involving the community in the restorative process.
+Strengthening relationships in the community promotes accountability and healing.
+Furthermore, community involvement creates networks of support, open lines of
+communication, and continuous feedback loops for improvement.
+
+Trauma-Informed Practices
+Trauma-informed practices recognize the widespread impact of trauma on individuals and
+communities and seek to create safe and supportive environments that promote healing and
+resilience. Key principles of trauma-informed practices include:
+•
+
+Safety: Creating a physically and emotionally safe environment.
+
+•
+
+Trustworthiness and Transparency: Building trust and transparency between students
+and staff.
+
+•
+
+Peer Support: Providing opportunities for peer support and connection.
+
+•
+
+Collaboration and Mutuality: Working collaboratively with students and families.
+
+•
+
+Empowerment, Voice, and Choice: Empowering students and giving them a voice in
+their education.
+
+•
+
+Cultural, Historical, and Gender Issues: Addressing cultural, historical, and gender
+issues related to trauma.
+
+Universal Design for Learning (UDL)
+UDL is a framework for designing learning experiences that are accessible and engaging for all
+students, regardless of their learning styles or needs. It is based on three principles:
+•
+
+Multiple Means of Representation (the "what" of learning): Providing information and
+content in multiple ways to accommodate different learning styles.
+
+•
+
+Multiple Means of Action and Expression (the "how" of learning): Providing students
+with multiple ways to demonstrate their learning.
+12
+
+Best Practices for School Safety and Prevention in Schools
+•
+
+Multiple Means of Engagement (the "why" of learning): Providing students with
+multiple ways to engage with the learning material and stay motivated. UDL emphasizes
+flexibility and choice in learning, allowing students to learn in ways that work best for
+them.
+
+Strategies for Creating Safe and Inclusive
+Schools
+Creating safe and inclusive schools requires a multi-tiered approach that addresses school
+climate, policies, the physical environment, and community partnerships. This section outlines
+key strategies aligned with Oregon's focus on equity and student well-being as defined in
+Oregon’s Equity Lens, providing examples and referencing relevant state resources and
+initiatives such as OHA’s Oregon Student Health Survey, ODE’s Every Student Belongs Initiative,
+community partners such as SafeOregon, and codified laws in the Oregon Revised Statutes
+related to school safety, bullying, and suicide prevention.
+
+School Climate
+1. Conduct Regular Climate Surveys: To assess school climate and promote equity, the
+Oregon Department of Education (ODE) emphasizes the importance of data collection.
+The Student Educational Equity Development (SEED) Survey is a comprehensive tool
+designed to gather data from students statewide, in grades 3-11. The content of the
+survey varies by grade level. The survey measures student perceptions in four core
+domains:
+• Access to learning resources
+• Opportunity to learn
+• Self-efficacy
+• Sense of belonging
+The middle and high school versions of the survey also include questions pertaining to
+extracurricular engagement and career and technical education. High school versions
+of the survey further include questions around post-graduation planning. The survey is
+available in multiple languages. The same accessibility supports are available for the
+SEED survey as on statewide summative assessments. In 2020-21, 2021-22, and 202223, schools and districts choose whether to offer the SEED Survey to their students.
+Beginning in 2023-24, in compliance with HB 2656, districts must make the SEED survey
+available to all students in grades 3-11 enrolled in Oregon public schools or programs.
+13
+
+Best Practices for School Safety and Prevention in Schools
+SEED Survey information may also help districts develop a fuller picture of their local
+contexts and make strategic modifications to curriculum, instruction, and paraacademic supports that they offer students. The Oregon Health Authority’s Oregon
+Student Health Survey (OSHS) also provides valuable data, particularly on healthrelated aspects of school climate; however, the SEED Survey offers a more in-depth and
+equity-focused approach.
+Example: Districts using the SEED data to identify trends in bullying, threats to safety,
+or feelings of overall safety, potential suicide ideation or mental wellness needs, using
+this data to inform school-wide interventions. Reports using the SEED data are
+available on the ODE website and provide valuable statewide and district data.
+2. Promote Student Leadership: Oregon schools have various student leadership
+opportunities.
+Example: Many high schools have Associated Student Body (ASB) programs, and
+initiatives like the Oregon Association of Student Councils (OASC) provide resources
+and training for student leaders. Some districts also have student representatives on
+school boards. Schools can utilize these and other student groups to create and
+promote campaigns related to school belonging, inclusion, and acceptance. Relatedly,
+schools can develop and implement peer mediation programs and other restorative
+approaches that involve student led initiatives.
+3. Foster Positive Relationships Between Students and Staff: ODE emphasizes the
+importance of positive relationships in their guidance on Transformative SocialEmotional Learning and trauma-informed practices.
+Example: Implementing adult and peer mentoring programs like has been used in
+some Oregon schools, focused on building strong relationships between students,
+educators, coaches, staff and mentors.
+4. Organize Inclusive School Activities: Oregon schools participate and promote various
+inclusive activities and community groups.
+Example: Cultural celebrations are common in many Oregon schools, reflecting the
+state's diverse population. ODE also promotes inclusive practices through its work on
+Every Student Belongs, which addresses issues of bullying and harassment based on
+protected characteristics.
+
+14
+
+Best Practices for School Safety and Prevention in Schools
+
+Policies and Procedures
+1. Develop Clear Policies and Procedures: Oregon has specific legislation related to
+bullying, harassment, and suicide prevention that guides district policies.
+Example: Oregon Revised Statute (ORS) 339.341 outlines requirements for school
+districts regarding bullying prevention including policy. ORS 339.343 (Adi's Act)
+mandates suicide prevention policies and plans. These laws provide a framework for
+district-level policies. (Source: Oregon Revised Statutes)
+2. Establish Reporting Mechanisms for Incidents: The SafeOregon Tip Line is Oregon’s
+statewide reporting system to report and respond to school safety issues including
+bullying, threats of violence, and online safety concerns. They provide resources for
+schools for the promotion and use of the tipline as well as annual reports of tips
+received.
+Example: Schools have access to curriculum promoting the use of the SafeOregon Tip
+Line as a confidential reporting mechanism and are notified by tip line staff when a tip
+is reported. A toolkit is available to all schools containing campaign materials for
+reporting online threats which can be used in communication schools and districts put
+out to the school community. (Source: SafeOregon)
+3. Consistent Enforcement and Follow-Up: ODE emphasizes the importance of consistent
+enforcement and restorative practices.
+Example: (General but aligned with Oregon's emphasis on restorative justice): Some
+Oregon districts are implementing restorative justice practices as an alternative, or in
+addition to, exclusionary discipline, focusing on repairing harm and building
+relationships.
+
+Physical Environment
+1. Create Safe and Welcoming Environments: Oregon districts and schools prioritize
+student wellbeing, belonging, and safety.
+Example: Schools work to build and strengthen positive relationships between staff,
+students, families, and community by implementing student centered expectations and
+learning objectives in classrooms. Each student has identified a trusted adult in the
+building who is able to connect with them, ensuring continued supported leading to
+belonging and mental wellbeing.
+2. Promote Safety and Security: Schools in Oregon implement various security measures.
+15
+
+Best Practices for School Safety and Prevention in Schools
+Examples: Oregon Revised Statue 336.071 requires schools instruct students on
+emergency procedures and maintains a comprehensive Emergency Operations Plan.
+Many schools have security protocols, visitor management systems, and other physical
+school safety measures in place.
+3. Ensuring Diversity and Belonging: ODE's focus on equity and inclusion encourages
+schools to reflect diversity in their physical environment, through intentional equity
+initiatives and implementing initiatives such as Every Student Belongs to ensure acts of
+racism and discrimination are addressed.
+Example: Schools displaying artwork representing diverse cultures and languages and
+creating inclusive spaces for students from diverse backgrounds.
+
+Community Partnerships
+1. Collaborate with Community Organizations: Oregon’s schools partner with various
+community organizations.
+Examples: Schools partnering with local mental health agencies to provide mental
+health services, suicide prevention training, and resources for students and their
+adults. Collaboration with community-based organizations serving specific
+populations, such as youth of color or LGBTQ2SIA+ youth.
+2. Engage Families and Caregivers: ODE emphasizes family and caregiver engagement
+through initiatives like Title I and family involvement programs.
+Example: Schools hosting culturally responsive family nights and workshops for
+parents and engaging with parent-teacher organizations to build positive relationships
+and strong connections.
+3. Build Relationships with Local Law Enforcement and Other Agencies: Oregon schools
+have established relationships with local law enforcement and other agencies.
+Example: School resource officers (SROs) are present in some Oregon schools, working
+to build relationships with students, staff, and families.
+
+Best Practices from the Oregon Department of
+Education
+The ODE Safe and Inclusive Schools Team presentation highlights several best practices,
+grounded in the School Safety and Prevention System as required under ORS 339.341 and OAR
+581-029-0001:
+16
+
+Best Practices for School Safety and Prevention in Schools
+
+Behavior Safety Assessments (BSAs)
+A Behavioral Safety (threat) Assessment (BSA) helps identify situations that may pose a risk of
+violence or harm, determine the seriousness of that risk, and develop both safety and
+supervision strategies. BSA teams follow an assessment protocol based on the SK Cascade
+Model, developed from evidence-based research, while also ensuring the process addresses
+issues of bias and equity.
+A school-based team composed of an administrator, school counselor and/or school
+psychologist completes the initial assessment of concerning statements or behaviors at the
+school level. Most safety threats fall within the Level 1 protocol conducted by the school-based
+team.
+When a threat is determined to be viable, the assessment is then escalated to the Level 2
+protocol which is carried out by a multidisciplinary, community-based Behavior Safety
+Assessment Team. The school-based team needs to have completed all steps of the Level 1
+assessment and determined the need for a Level 2 consultation before requesting the protocol.
+Schools can request assistance with Level 2 assessments by partnering with their School Safety
+and Prevention Specialist.
+The Oregon Department of Education is partnering across the state to develop and implement
+the Oregon Model of Behavior Safety Assessment grounded in the SK Cascade Model of
+Behavior Threat Assessment Management with a framework for integrating an explicit focus on
+equity including bias mitigation, inclusive decision making, and a focus on support over
+discipline. The Oregon Model of Behavior Safety Assessment Promotes the use of an equity lens
+to ensure responses to student behavior are fair, non-discriminatory, and culturally responsive,
+while maintaining safety. It combines principles of restorative and transformative justice with
+strategies for identifying, assessing, and responding to threats that emphasize accountability,
+healing, community connection, and reintegration rather than punishment or exclusion.
+Aligning to National Threat Assessment Center and FBI standards, the Oregon Model is
+endorsed by John Van Dreal and recognized/backed by PACE. With support from a Bureau of
+Justice Assistance Students, Teachers and Officers Preventing (STOP) Violence Grant, the
+Oregon Department of Education will advance a restorative and transformative justice
+theoretical framework and orientation towards school safety, which posits that culturally
+responsive and trauma-informed behavioral safety assessment systems integrating
+transformative and restorative practices will address the full continuum of student mental and
+behavioral health needs, from individual crisis response and recovery to whole school culture
+and climate interventions.
+17
+
+Best Practices for School Safety and Prevention in Schools
+
+Suicide Prevention, Intervention, Postvention (Adi's Act)
+Senate Bill 52 (SB 52, 2019), also known as Adi’s Act (ORS 339.343; OAR 581-022-2510),
+requires each school district school board to adopt a policy requiring a Student Suicide
+Prevention plan. Every year, schools and districts make these available to students and the
+school district community and post them on the district's website.
+District suicide prevention plans that are compliant with state requirements provide procedural
+planning in the areas of prevention, intervention, and postvention, have equity and racial
+equity centered supports, and include a staff training process that outlines when and how
+students and families will be referred to appropriate mental health and crisis services.
+The administrative rule (OAR 581-022-2510) implementing Adi's Act (ORS 339.343) further
+requires school districts to ensure supports for all students including LGBTQ2SIA+ (lesbian, gay,
+bisexual, transgender/non-binary, queer/questioning, two-spirit, intersex, asexual, and the
+myriad other way to describe gender identities and sexual orientations) youth, BIPOC (Black,
+Indigenous, and People of Color) and tribal communities/members/students, youth in out-ofhome settings, youth with disabilities, as well as historically and currently underserved youth.
+OAR 581-022-2510 is part of the Division 22 Standards for Public Elementary and Secondary
+Schools. These standards require school district superintendents to report their compliance
+annually.
+
+Bullying and Harassment Prevention
+Oregon law (ORS 339.351(2)) defines “harassment, intimidation, or bullying” as any act that
+“substantially interferes with a student’s educational benefits, opportunities, or performance,
+and; Takes place on or immediately adjacent to school grounds, at any school-sponsored
+activity, on school-provided transportation, or at any official school bus stop; and has the effect
+of: Physically harming a student or damaging a student’s property; Knowingly placing a student
+in reasonable fear of physical harm to the student or damage to the student’s property; or
+Creating a hostile educational environment, including interfering with the psychological wellbeing of students.” ORS 339.351(1) includes cyberbullying, which it defines as “the use of any
+electronic communication device to harass, intimidate, or bully.”
+The Oregon Department of Education commits to creating safe and supportive educational
+environments for all students. We strive to empower students, educators, and parents with the
+tools and knowledge to recognize, prevent, and address bullying, harassment, intimidation,
+cyberbullying, and sexual violence in schools by fostering a culture of respect, inclusion, safety
+and empathy. Prevention efforts start by creating a safe, inclusive, and welcoming school
+18
+
+Best Practices for School Safety and Prevention in Schools
+environment where students’ identities and differences are recognized and celebrated. This
+includes the integration of Oregon’s Student Success Plan strategies and classroom community
+building efforts in every classroom and across school settings.
+Schools can instruct students and engage families and caregivers about the harm of bullying
+and cyberbullying through integrated initiatives across curriculum and grade levels, national
+and state awareness months, campaigns to bring awareness to emotional and mental health,
+and community engagement/learning opportunities. Relatedly, having clear, posted policies and
+procedures regarding bullying, developed with input from the school community and centered on
+restorative and inclusive practices, supports a framework of positive school culture.
+
+When issues do arise, a best practice for students to report bullying is to offer multiple, easy-toaccess options such as speaking directly with a trusted teacher or administrator, filling out a
+confidential online form, and/or submitting a tip through Safe Oregon. Instructing students and
+informing families on these reporting options and providing clear guidance on what to include
+in a report such as dates, locations, and a description of what happened helps schools respond
+more effectively. Encouraging open communication, ensuring reports are taken seriously, and
+following up with students and families about next steps are all important ways schools can
+build trust and provide meaningful support.
+Any bullying complaints in Oregon not involving a protected class, as defined within ORS
+174.100 and 339.351, are handled at the local (district) level. For bullying complaints on the
+basis of protected class, support for students and families is available through districts’ Civil
+Rights Coordinators and through ODE’s Civil Rights department.
+
+Conclusion and Recommendations
+Creating safe and inclusive schools requires ongoing commitment and collaboration. This white
+paper provides a starting point for schools and communities to explore best practices and
+resources available, like those offered by the Oregon Department of Education. By
+implementing these strategies, we can create schools where all students can thrive and reach
+their full potential.
+Schools, families, and communities must work together to create safe and inclusive learning
+environments for all students. We encourage you to explore the resources provided by the
+Oregon Department of Education and other organizations dedicated to this critical mission.
+Without substantial resources and support across diverse areas, achieving safe and inclusive
+schools remains an unattainable goal. Implementing best practices requires significant
+investment in six key necessities: funding, school and district staff (qualified and diverse staff),
+professional development, collaboration and partnerships, data collection and evaluation, and
+19
+
+Best Practices for School Safety and Prevention in Schools
+supportive policies and systemic changes. This crucial investment is not simply an expenditure;
+it is the foundation upon which we must build to ensure equitable opportunities and positive
+outcomes for every student.
+
+Adequate and sustained funding
+Adequate and sustained funding is essential for creating safe and inclusive schools. Without
+sufficient financial resources, schools cannot effectively staff programs, provide professional
+development, or acquire the necessary materials to support all students. Funding is necessary
+for:
+•
+
+Staffing: Oregon’s School Safety and Prevention Specialists ensure support within the
+School Safety and Prevention System and provide assistance and training to all schools,
+districts, private/alternative schools, and any non-profit that supports youth-centered
+activities for public school students. Full funding should be secured for this program as
+a foundational necessity to school safety and wellness for Oregon students and
+educators.
+
+•
+
+Professional Development: Providing ongoing training for all staff on suicide prevention
+each year, ongoing training for new and returning staff on Behavior Safety Assessment,
+as well as topics like cultural awareness, trauma-informed practices, restorative justice,
+developmentally appropriate behavior, and employee wellness.
+
+•
+
+Curriculum and Materials: Purchasing culturally relevant and sustaining curriculum
+materials, as well as resources to support diverse learning needs.
+
+•
+
+Mental Health Services: Funding mental health screenings, counseling services, and
+partnerships with community mental health providers.
+
+School and District Staff
+The presence of qualified and diverse staff is essential for creating a welcoming and
+supportive learning environment. Educators and support personnel who are culturally
+competent, trained in relevant practices, and representative of the student body are crucial
+for fostering a sense of belonging and addressing the diverse needs of all students.
+Qualified and Diverse Staff who are:
+•
+
+Culturally Competent: Understand and respect diverse cultural backgrounds and
+experiences.
+
+•
+
+Trained in TSEL and Trauma-Informed Practices: Equipped to support students' socialemotional needs and address the impact of trauma.
+
+20
+
+Best Practices for School Safety and Prevention in Schools
+•
+
+Skilled in Restorative Practices: Able to build and strengthen relationships and facilitate
+restorative conversations, circles, and conferences.
+
+•
+
+Knowledgeable about UDL: Capable of designing inclusive learning experiences.
+
+•
+
+Representative of the Student Population: Reflecting the diversity of the student body in
+terms of race, ethnicity, gender, language, and other characteristics.
+
+Dedicated School Staff:
+•
+
+School Safety Staff: Provide access and support for school-based Behavior Safety
+Assessment teams, can identify pathways to violence, and are also trained in the areas
+of Emergency Management Sexual Incident Response, and Crisis Management
+
+•
+
+School Counselors and Social Workers: Providing mental health support, suicide risk
+assessments, counseling, and crisis intervention.
+
+•
+
+Special Education Staff: Supporting students with disabilities and ensuring access to
+appropriate accommodations and services.
+
+•
+
+Equity Coordinators or Specialists: Leading school-wide efforts to promote equity and
+address disparities in discipline and school/district systems.
+
+Professional Development and Training
+Ongoing and comprehensive professional development equips all school personnel with the
+knowledge, skills, and dispositions necessary to implement best practices for safety,
+prevention, and wellbeing. This continuous learning ensures that staff are prepared to
+address the evolving needs of students and create culturally responsive and traumainformed learning environments.
+•
+
+Behavior Safety Assessment (BSA): District and School staff who are involved in BSA
+need ongoing training and practice to refine practices. Any new staff need training,
+preferably in the beginning of the year before any referrals are made to the school
+team.
+
+•
+
+Suicide Prevention, Intervention, and Postvention: Recognizing warning signs and
+providing appropriate support. Recommended trainings vary based on school staff’s
+role.
+
+•
+
+Bullying Prevention and Intervention: Implementing effective strategies to prevent and
+address bullying.
+
+•
+
+Cultural Competency and Implicit Bias: Understanding and addressing their own biases
+and creating culturally responsive classrooms.
+
+•
+
+Social-Emotional Learning (SEL): Implementing SEL programs and integrating TSEL into
+classrooms and curriculum throughout K-12.
+21
+
+Best Practices for School Safety and Prevention in Schools
+•
+
+Trauma-Informed Practices: Recognizing the signs of trauma and creating supportive
+learning environments for all students.
+
+•
+
+Restorative Justice: Building and strengthening relationships and facilitating restorative
+conversations, circles, and conferencing.
+
+•
+
+Universal Design for Learning (UDL): Designing accessible and engaging learning
+experiences.
+
+Collaboration and Partnerships
+Strong collaboration and partnerships between schools, families, caregivers, community
+organizations, and other partners are vital for creating a comprehensive support system for
+students. These partnerships leverage external resources, expertise, and perspectives to
+enhance school-based efforts and create a more integrated approach to student well-being.
+•
+
+Strong Partnerships with Families and Caregivers: Schools need to actively engage
+families and caregivers in school activities and decision-making.
+
+•
+
+Collaboration with Community Organizations: Partnering with community organizations
+can provide access to additional resources and support.
+
+•
+
+Relationships with Local Law Enforcement and Other Agencies: Establishing clear
+communication protocols and working collaboratively with law enforcement, social
+services, and other agencies.
+
+Data Collection and Evaluation
+Robust data collection and evaluation systems are crucial for monitoring progress, identifying
+areas for improvement, and ensuring accountability in creating safe and inclusive schools. By
+collecting and analyzing data on school climate, student behavior, and the effectiveness of
+interventions, schools can make informed decisions and continuously improve their practices.
+•
+
+Regular Data Collection: Schools need to collect data on school climate, student
+behavior, and the effectiveness of interventions.
+
+•
+
+Data Analysis and Use: Using data to inform decision-making and continuously improve
+practices.
+
+•
+
+Evaluation of Programs and Initiatives: Regularly evaluating the effectiveness of
+implemented programs and initiatives.
+
+Policy and Systemic Support
+Supportive policies and practices at the district, school and classroom levels are essential for
+establishing a framework for safe and inclusive schools. Policies should promote equity, address
+22
+
+Best Practices for School Safety and Prevention in Schools
+systemic barriers, and provide clear guidance for schools in implementing best practices in
+school safety and prevention while also ensuring accountability.
+•
+
+Supportive Policies at the District Level: Policies should support the implementation of
+best practices for safe and inclusive schools.
+
+•
+
+Systemic Changes: Addressing systemic inequities and barriers that contribute to
+disparities in student outcomes.
+
+Creating safe and inclusive schools requires prioritizing investments across six key areas:
+adequate and sustained funding, qualified and diverse staffing, comprehensive professional
+development, robust collaboration and partnerships with families and the community, rigorous
+data collection and evaluation systems, and supportive policies and systemic changes.
+Recognizing the complexities of integrated funding models, where resources often support
+multiple interconnected goals, and the local control that empowers districts to allocate funds
+based on their unique needs, the focus should shift from solely tracking discrete program
+spending to demonstrating the impact of investments on student outcomes within these six key
+areas. This shift in focus acknowledges the reality that funds allocated for chronic absenteeism,
+for example, might also contribute to improved academic achievement, reduced disciplinary
+incidents, and an improvement in school safety. Therefore, transparent reporting on resource
+allocation and the resulting outcomes—such as improved student well-being, reduced bullying
+incidents, increased academic engagement, and enhanced cultural responsiveness—ensures
+accountability and provides a more accurate picture of the overall investment in creating safe
+and inclusive learning environments.
+By clearly demonstrating how investments in these six key areas translate into positive changes
+for students, schools, districts, and education service districts can build public trust, secure
+continued support, and create a strong foundation where every student feels a sense of
+belonging, is valued for their unique contributions, and is empowered to thrive academically,
+socially, and emotionally. This outcome-focused, transparent approach is not simply an
+expenditure; it is a strategic investment in a stronger, more just future for all Oregon Students,
+contributing to safe and engaged communities and a more equitable society.
+
+23
+
+Best Practices for School Safety and Prevention in Schools
+
+References
+Braithwaite, J. (2007). Crime, shame, and reintegration. Cambridge University Press.
+Evans, K., & Vaandering, D. (2022). The little book of restorative justice in education: Fostering
+responsibility, healing, and hope in schools. Good Books.
+Fronius, T., et al. (2019). Restorative justice in U.S. schools: A research review. WestEd.
+Hammond, Z. (2015). Culturally responsive teaching and the brain: Promoting authentic
+engagement and rigor among culturally and linguistically diverse students. Corwin, a
+SAGE Company.
+Hernández, M. G., Lopez, D. M., & Swier, R. (2022). Dismantling Disproportionality: A Culturally
+Responsive and Sustaining Systems Approach. New York: Teachers College Press.
+Leverson, M., Smith, K., McIntosh, K., Rose, J., & Pinkleman, S. (2021, March). Center on PBIS:
+Resource: Pbis cultural responsiveness field guide: Resources for trainers and coaches.
+Center on PBIS | Resource: PBIS Cultural Responsiveness Field Guide: Resources for
+Trainers and Coaches. https://www.pbis.org/resource/pbis-cultural-responsivenessfield-guide-resources-for-trainers-and-coaches
+National Center for School Safety. (2022). Introduction to Restorative Practices. URL:
+https://www.nc2s.org/wp-content/uploads/2022/07/An-Introduction-to-RestorativePractices.pdf
+Oregon Department of Education. (2023) Engaging Equity: Mindsets, Practices, & Systems
+https://drive.google.com/file/d/1EVqgoEcgsGGYjgodOotI9K8xWyFp5Vit/view?usp=shari
+ng
+Oregon Department of Education. Equity Decision Tools for School Leaders. Equity Decision
+Tools for School Leadershttps://www.oregon.gov/ode/students-andfamily/healthsafety/Documents/Decision%20Tools%20for%20SY%202020-21.pdf
+Oregon Department of Education. Multi-Tiered Systems of Support (MTSS)
+https://www.oregon.gov/ode/students-and-family/mental-health/pages/mtss.aspx
+Oregon Department of Education. (2023) Transformational Social and Emotional Learning.
+https://oregoninstructionalframeworks.org/tsel/oregons-transformative-selframework/
+Oregon Department of Education. (2025). Spotlight: Conditions for Learning & Thriving. Oregon
+Instructional Frameworks.
+https://oregoninstructionalframeworks.org/resource/spotlight-conditions-for-learningthriving/
+Oregon Health Authority. (2024) 2024 Youth Suicide Intervention and Prevention Plan
+https://sharedsystems.dhsoha.state.or.us/DHSForms/Served/le8874a_24.pdf
+Public Consulting Group. (n.d.). Behavioral Threat Assessment and Management (BTAM)
+Solutions. Public Consulting Group.
+https://publicconsultinggroup.com/education/education-products/behavioral-threatassessment-and-management-btam-solutions/
+Van Dreal, J., McCarthy, C., & Van Dreal, C. (2022). Youth violence prevention: The pathway
+back through inclusion and connection. Rowman & Littlefield.
+Wachtel, T. (2016). Defining Restorative. International Institute for Restorative Practices. URL:
+https://www. iirp.edu/restorative-practices/defining-restorative/
+24
+
+

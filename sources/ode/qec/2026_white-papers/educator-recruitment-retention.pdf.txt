@@ -1,0 +1,820 @@
+Best Practices for
+Educator Recruitment
+and Retention
+Quality Education Commission Best
+Practices White Paper Series
+March 2026
+
+Best Practices for Educator Recruitment and Retention
+
+Contents
+Executive Summary ..................................................................................................................... 2
+Regional Educator Networks ................................................................................................... 2
+Grow Your Own Partnerships .................................................................................................. 3
+Introduction ................................................................................................................................. 5
+Background and Relevant Research ............................................................................................ 7
+National Concerns about Educator Shortages......................................................................... 7
+Workforce Stability and Why it Matters .................................................................................. 7
+Staff Continuity and Student Belonging .................................................................................. 8
+Recruitment and Retention as Interdependent Systems ........................................................ 8
+Challenges Impacting a High-Quality Educator Workforce ......................................................... 9
+Access and Equity Challenges Across Oregon’s Educator Preparation Pathways ................... 9
+State Disinvestment Impacts Recruitment to Oregon Postsecondary Programs.................. 10
+Insufficient Support for Early-Career Educators Undermines Retention Across Oregon’s
+Workforce .............................................................................................................................. 11
+Educator Turnover Contributes to Workforce Instability ...................................................... 11
+Mentoring Alone Is Insufficient to Ensure Stable Staffing in High-Needs Schools ................ 12
+Promising Practices for K-12 Educators in Oregon ................................................................... 13
+Regional Educator Networks: Strengthening Professional Learning to Stabilize the K–12
+Workforce .............................................................................................................................. 13
+Grow Your Own Partnerships: Expanding Pathways into Education Careers ....................... 17
+Conclusion ................................................................................................................................. 20
+References ................................................................................................................................. 21
+
+1
+
+Best Practices for Educator Recruitment and Retention
+
+Executive Summary
+
+Like other states, Oregon’s educator workforce faces well-documented pressures—entry
+barriers in preparation pathways, uneven access to high-quality training, and elevated
+early-career attrition across roles—that erode school stability and student experience. This
+white paper highlights practical, scalable solutions already underway. Regional Educator
+Networks (RENs) align professional learning to classroom needs through job-embedded
+coaching, mentoring, professional learning communities, and improvement cycles that reduce
+isolation for novices and elevate practice for experienced educators. Grow Your Own (GYO)
+partnerships expand accessible, affordable, community-based pathways that diversify
+candidate pools and create on-ramps for high school students, paraprofessionals, and rural
+residents. Together, these initiatives demonstrate promising practices that can improve
+recruitment, increase retention, and stabilize Oregon’s K–12 workforce while advancing better
+outcomes for students.
+
+Regional Educator Networks
+The ten Regional Educator Networks (RENs) are designed to ensure that every educator in
+Oregon has access to high-quality professional learning opportunities (ORS 342.940). Since
+2019, the RENs have strengthened systems to support educator growth by providing and
+improving professional learning programs at district and regional levels, ultimately leading to
+better outcomes for students. Data collected from the 2024-25 school year identified the
+following promising practices:
+1. On-going, job-embedded supports for novice educators.
+Over the 2024-25 school year, 50% of REN participants were novice educators in their
+first three years of their career. RENs focus on sustained, relational, and instructional
+supports—moving beyond one-off workshops to cohort-based learning, mentoring,
+Professional Learning Communities (PLCs), Communities of Practice (CoPs), and
+individual coaching. These types of opportunities align with the standards and practices
+of high-quality professional learning and are more likely to result in improved teaching
+practices, which in turn supports improved outcomes for students (Learning Forward,
+2026).
+2. High-quality, standards-aligned mentoring.
+Mentoring is a core workforce retention strategy. Research finds that mentoring is vital
+for educator growth, fostering trust-based relationships, leadership development, and
+collaboration through professional learning communities (Ryerson, 2025). During the
+2024–25 school year, a one-time $8 million investment allowed school districts and
+2
+
+Best Practices for Educator Recruitment and Retention
+RENs to launch or expand mentoring for beginning teachers and administrators,
+prioritizing educators in high-need settings such as special education, rural
+communities, diverse backgrounds, and emergency licensure pathways.
+3. Professional learning opportunities tailored to the needs of experienced educators.
+REN investments support experienced educators to participate in coaching cycles,
+content-specific institutes, and leadership development rather than introductory
+skill-building. Monthly cycles of inquiry—using structured protocols to analyze student
+work, test instructional strategies, and assess impact—position experienced educators
+as active learners focused on results and instructional coherence. These types of
+opportunities align with standards and practices of high-quality professional learning
+and are likely to result in improved teaching practices, which in turn supports improved
+outcomes for students.
+
+Grow Your Own Partnerships
+Since 2020, Oregon’s investments in Grow Your Own (GYO) partnerships have demonstrated
+promising practices to address educator recruitment and retention by supporting critical
+pathways for individuals to become highly skilled educators, expanding student learning
+opportunities, and promoting equity across districts. GYO programs serve a broad range of
+educators—including K-12 educators, early learning educators, classified employees, CTE
+instructors, emergency/substitute teachers, and administrators. Data collected during 20232025 identified the following promising practices:
+1. Reduced barriers to educator careers for underserved candidates.
+GYO programs helped reduce institutional and financial barriers by providing accessible,
+affordable, and community-aligned preparation pathways for educator candidates,
+particularly for rural, bilingual or multilingual, racially and ethnically diverse educator
+candidates. From 2023 to 2025, GYO programs supported 2,172 adults and 644 high
+school students pursuing credentials through enrollment in a postsecondary program.
+During that time, GYO programs helped address accessibility issues for students and
+pre-service candidates who often experience barriers when pursuing educator careers in
+Oregon with accessible, affordable entry points into career pathways.
+2. Supported local and/or regional career pathways to meet current and future
+workforce needs.
+Through partnership and cross-sector collaboration, GYO programs coordinated support
+with Pre-K programs, school districts, Education Service Districts, postsecondary
+institutions, Tribes, and community organizations to address local and regional
+3
+
+Best Practices for Educator Recruitment and Retention
+workforce needs—including Special Education (SPED), English for Speakers of Other
+Languages (ESOL), and Career and Technical Education (CTE).
+3. Strengthen retention strategies by expanding career advancement opportunities.
+GYO programs use career advancement as a retention strategy. GYO programs
+supported employees—such as classified staff, early learning educators, K-12 educators,
+and educators on emergency or restricted licenses—advance into licensed or leadership
+roles. These efforts strengthen workforce stability by promoting employee development
+and reducing turnover.
+
+4
+
+Best Practices for Educator Recruitment and Retention
+
+Introduction
+
+For more than thirty years, Oregon has worked to expand equitable, high-quality learning
+opportunities for K–12 students by strengthening the recruitment and retention of educators
+through key legislative actions. These efforts have been guided by statutes related to the
+recruitment and retention of K–12 educators—particularly culturally and linguistically diverse
+educators (e.g., ORS 342.437, ORS 342.940, ORS 342.447). For nearly a decade, the Oregon
+Educator Equity Report has been jointly produced by the Oregon Department of Education
+(ODE), the Higher Education Coordinating Commission (HECC), the Oregon Teacher Standards
+and Practices Commission (TSPC), and the Educator Advancement Council (EAC). This biannual
+report provides an update on the state’s progress to meet these goals and includes data on
+educator preparation and workforce diversity. It also highlights evidence-based practices for
+recruiting, preparing, supporting, and advancing culturally and linguistically diverse educators,
+drawing on cross-agency data to examine the conditions that influence educator recruitment,
+retention, and career advancement.
+In addition to reporting on the state’s progress, the Legislature established the EAC in 2017 to
+coordinate statewide efforts to improve the conditions that affect educator recruitment and
+retention. As described in the 2024 Quality Education Commission Report, the EAC functions as
+a statewide intergovernmental coalition with council directors representing Oregon’s state
+education agencies, local education agencies, pre-K–12 educators, Tribes, postsecondary
+institutions, and community partners. The role of the Council underscores the need to
+coordinate strategies and work collaboratively to address educator workforce needs and to
+mitigate persistent challenges related to low recruitment and high turnover across the state.
+Data presented in this paper draw from state and local agency reports and collections, as well
+as a longitudinal workforce study conducted in 2024 by a research team from the University of
+California, Irvine (UCI) at the request of the EAC. The UCI report 1 examines turnover patterns
+among diverse educator groups over a fifteen-year period, including changes across different
+economic contexts, and analyzes labor market outcomes for teachers who exit Oregon public
+schools. In the UCI study, “educator” includes licensed, non-licensed, and early learning
+educators, as well as educator candidates (as defined in Senate Bill 1552 from 2024 and ORS
+342.940). This definition—shared in the 2024 Oregon Educator Equity Report 2 and supported
+by research—recognizes the critical role adults in a variety of school positions play in
+supporting students’ academic, health, and social-emotional well-being.
+
+1
+2
+
+For more details, see Building a Diverse Workforce (2024).
+For more details, see the 2024 Oregon Educator Equity Report.
+
+5
+
+Best Practices for Educator Recruitment and Retention
+This paper includes examples of promising practices to recruit and retain Oregon’s K–12
+educators across the educator career continuum (Zugelder & L’Esperence, 2022). The
+continuum offers a practical framework to describe the interrelated phases of an educator’s
+career, suggesting that educators may experience the continuum stages at various points in
+their career (Eros, 2011). Overall, the career continuum emphasizes the importance of retaining
+educators in each of the following stages:
+•
+
+Educator Pathways and Preparation include access to educator pathways (e.g.,
+proximity to an Oregon postsecondary institution), enrollment, credential, and
+recruitment of pre-service educators, as well as training and advancement opportunities
+for current school employees.
+
+•
+
+Support for Novice Educators includes recruitment, selection, and hiring practices;
+access to professional supports; and high-quality mentoring and induction programs
+that provide structured, intentional guidance to newly hired educators as they transition
+into their roles, learn their organizational context, and develop the skills necessary for
+long-term success and retention.
+
+•
+
+Professional Growth and Development refer to opportunities for ongoing,
+job-embedded learning and skill development for licensed and non-licensed educators,
+including coaching, mentoring, role-specific training, collaborative learning structures,
+and continuous professional learning aligned with individual, school, and system needs.
+
+•
+
+Career Advancement includes access to leadership opportunities, specialized roles,
+credentialing or degree programs, and other career pathways supported by
+postsecondary partners that expand opportunities for relevant coursework, credentials,
+and evidence-based professional learning.
+
+Together, these dynamic and interconnected phases illustrate key points in an educator’s
+career that significantly influence retention and overall workforce stability. This paper begins
+with a summary of national educator workforce concerns to highlight systemic issues related to
+turnover and school instability, as these challenges continue to shape recruitment and
+retention efforts (Burns et al., 2023). It then reviews the current research on turnover, mobility,
+and retention across teachers, administrators, and support staff, underscoring how changes in
+the school workforce affect long-term stability. Finally, the paper revisits the educator
+continuum to describe regional and local recruitment and retention challenges in Oregon and
+summarizes several promising practices and recent progress to address them.
+
+6
+
+Best Practices for Educator Recruitment and Retention
+
+Background and Relevant Research
+
+National Concerns about Educator Shortages
+Since the early 1970s, concerns about national and state teacher shortages have raised alarms
+among state and local education policy leaders (Nguyen, Lam, & Bruno, 2022). These concerns
+have been driven in part by an aging workforce and rising numbers of retiring teachers that
+outpace the supply of new educators, particularly in hard-to-staff specialized roles (McVey &
+Trinidad, 2019). For decades, research on workforce shortages—including understanding and
+identifying patterns of attrition and turnover—as a “leaky pipeline” with educators entering
+and leaving the profession at multiple stages. Although this metaphor is useful, it
+underrepresents the complexities of educator mobility across different career stages. It also
+tends to focus primarily on teachers. While extensive research documents the impact teachers
+have on student outcomes (Chetty et al., 2011), compelling evidence also highlights the
+important contributions of administrators (Perry et al., 2024) and school staff (Holme et al.,
+2018) to overall school climate and culture. A comprehensive understanding of educator
+workforce stability must therefore consider the recruitment and retention of all adults who
+support student academic success and well-being in various school roles (Penner et al., 2024).
+
+Workforce Stability and Why it Matters
+In the context of recruitment and retention, school stability refers to the conditions that
+support the consistent presence of a school’s instructional workforce over multiple years.
+Stable schools benefit from shared institutional knowledge, strong professional relationships,
+and coherent instructional practices aligned to student goals, as well as sustainable and
+consistent funding. Conversely, stability is weakened by chronic or cumulative turnover that
+disrupts organizational functioning and impedes school improvement efforts (Holme et al.,
+2018). When instability persists, schools can resemble a “revolving door,” with educators
+cycling in and out before relationships, routines, and shared practices can take root (Penner et
+al., 2023). Frequent turnover and long-term unfilled vacancies undermine both recruitment and
+retention efforts by signaling challenging working conditions, limited support, and weak
+organizational coherence—reducing applicant interest and making hard-to-fill positions even
+more difficult to staff. Such instability contributes to shortages that are often “innumerable and
+hyper-local,” producing inequitable impacts across districts and regions (McVey & Trinidad,
+2019).
+Turnover presents a particular challenge for individual schools and small districts striving to
+maintain a stable workforce under both short-term and long-term conditions (Holme et al.,
+2018). Examining turnover, including mobility, offers meaningful indicators of retention,
+workforce stability, and student outcomes (Eros, 2011; Goldhaber & Cowan, 2014; Holme et al.,
+7
+
+Best Practices for Educator Recruitment and Retention
+2018; Ingersoll, 2001; Kraft et al., 2016; Penner et al., 2024). Staff mobility data capture
+whether employees remain in the same school, move to another school or district, or leave the
+profession altogether (Penner et al., 2024). Understanding these movement patterns can help
+to design and implement targeted strategies to increase stability, as turnover churn can
+undermine or impede local recruitment and retention efforts (Holme et al., 2018; Penner et al.,
+2024; Taie & Lewis, 2023).
+
+Staff Continuity and Student Belonging
+Teachers, principals, and staff collectively form the institutional foundation of K–12 schools and
+create school culture through their interactions with students and families. Research shows
+that students’ sense of belonging is strongly associated with regular attendance, engagement,
+and academic persistence, and that belonging is fostered through relationships with caring
+adults across multiple school roles—not only classroom teachers (Best et al., 2018; Hemelt et
+al., 2021; Mulhern, 2020). Long-term vacancies and frequent turnover disrupt student–adult
+relationships and erode the conditions that support belonging and engagement. Student survey
+data indicate that feeling “welcomed,” “seen,” and supported by adults at school is a strong
+protective factor against chronic absenteeism and disengagement—underscoring the
+importance of staff continuity across roles (Jacoby, 2023).
+
+Recruitment and Retention as Interdependent Systems
+Finally, effective recruitment and retention practices must work in tandem to support overall
+school stability. Educator shortages are linked to recruitment and retention challenges and
+often force schools to adopt measures that compromise instructional quality (e.g., larger class
+sizes, reduced course offerings, or reliance on under-qualified staff), harming student
+outcomes. Systemic efforts to improve educator recruitment and retention are essential to
+ensuring that students and families have access to stable school environments with highly
+qualified, well-supported staff.
+The next section provides a brief discussion of systemic challenges that impede Oregon’s
+recruitment and retention efforts, including barriers to accessing high-quality preparation and
+training, insufficient supports for novice educators, and limited opportunities for professional
+growth and career advancement—each of which affects both recruitment and retention for
+current and prospective school staff.
+
+8
+
+Best Practices for Educator Recruitment and Retention
+
+Challenges Impacting a High-Quality Educator
+Workforce
+Like many states, Oregon faces many challenges that affect the recruitment and retention of a
+high-quality educator workforce. Despite recent state investments designed to reduce barriers
+to entering the profession (e.g., scholarships, reduced licensing costs), monitoring and
+evaluating local and regional workforce stability remains difficult. The impact of the pandemic
+on educator burnout has heightened statewide urgency around improving the recruitment,
+preparation, employment, and retention of educators, as burnout has reached crisis levels in
+several areas (Oregon Educator Equity Report, 2024). Addressing these recruitment and
+retention challenges therefore begins by identifying system-level workforce conditions that are
+essential to K–12 students having access to high-quality educators. 3
+
+Access and Equity Challenges Across Oregon’s Educator
+Preparation Pathways
+Oregon’s teacher workforce faces persistent access and equity challenges rooted in preparation
+pathways, geography, economic conditions, and racial and ethnic disparities (Oregon’s Teacher
+Workforce Report, 2025). Teachers who are prepared by Oregon educator preparation
+programs (EPPs) are retained at significantly higher rates than those prepared out of state, yet
+the state increasingly relies on educators trained in non-Oregon programs, especially in regions
+without nearby EPPs, creating uneven access to stable educators across counties.
+Geographic patterns further amplify these inequities. For example, teachers tend to live, train,
+and work close to where they grew up, meaning rural and remote regions—particularly in
+Eastern, Southern, and coastal areas of the state—struggle to attract and retain teachers who
+lack local ties and therefore experience lower retention rates (Oregon’s Teacher Workforce
+Report, 2025). Economic disparities intensify these challenges, as nearly a quarter of counties
+require new teachers to spend more than the commonly accepted affordability threshold on
+rent, and these same counties also exhibit higher student-to-teacher ratios, reducing access to
+appropriately staffed schools for students in high-cost areas (ibid). Racial and ethnic inequities
+also emerge. While Oregon-prepared teachers of color have higher retention than their white
+peers, teachers of color trained by out-of-state education programs experience lower retention
+rates than white teachers, suggesting possible differences in preparation, support, and
+
+For the purposes of this paper, the definition of “educator” includes licensed, non-licensed, and early learning
+educators, as well as educator candidates (ORS 342.940).
+3
+
+9
+
+Best Practices for Educator Recruitment and Retention
+workplace experiences that disproportionately affect educators of color (ibid). Together, these
+interconnected factors limit equitable access to a stable and diverse educator workforce.
+
+State Disinvestment Impacts Recruitment to Oregon
+Postsecondary Programs
+Recruitment challenges are often attributed to a lack of interest in the profession, but this
+narrative overlooks structural and equity-related barriers that restrict entry for early-career
+educators. Oregon has experienced significant disinvestment in postsecondary education since
+the Great Recession, leading to increased costs for students (e.g., rising tuition) and reduced
+affordability (State Higher Education Finance, 2024). Decades of underfunding have strained
+public and private postsecondary systems, likely contributing to declining enrollment and
+completion rates and limiting program options available to prospective educators.4
+Statewide enrollment of Oregon residents in education majors and programs has begun to
+rebound at both community colleges and universities since the COVID-19 pandemic, with
+community colleges driving the largest gains (Higher Education Coordinating Commission, Fall
+Enrollment Report, 2025). Enrollment in Oregon EPPs has increased from 2018–19 to 2024–25.
+However, during this same period, the number of pre-service candidates completing an EPP
+declined. While enrollment and completion have improved since the COVID-19 pandemic, the
+number of educators entering Oregon’s workforce from out-of-state, online, and for-profit
+programs has also steadily increased (Oregon Educator Equity Report, 2024; Oregon’s Teacher
+Workforce Report, 2025).
+These examples illustrate the challenges of maintaining a high-quality, stable workforce—
+particularly during the earliest stages of the educator career pathway. Postsecondary
+institutions play a vital role not only in recruiting but also in retaining educators. Workforce
+stability, particularly for rural school communities, can be supported through expanded
+partnerships between school districts (employers) and postsecondary institutions (preparation).
+Partnerships strengthen pathways for teachers and substitutes with emergency or restricted
+licenses to complete training for preliminary licensure. Postsecondary access to high-quality
+preparation is critical not only for pre-service candidates but also for ensuring that all K–12
+students are supported by well-trained and well-supported adults.
+
+4 Since 2021, at least two private in-state EPPs have closed (Educator Equity Report, 2022).
+
+10
+
+Best Practices for Educator Recruitment and Retention
+
+Insufficient Support for Early-Career Educators
+Undermines Retention Across Oregon’s Workforce
+Novice educators—including teachers, paraprofessionals, and other school staff—benefit from
+structured early-career supports such as high-quality induction, mentoring, and coaching, all of
+which improve retention and reduce early attrition. These supports are especially critical during
+the first years of service, when turnover risk is highest and professional identity, skill
+development, and workplace relationships are still emerging. This section draws from a
+longitudinal study5 examining novice educator turnover and mobility in Oregon from 2006–07
+to 2021–22 (Penner et al., 2024). Data spanning contexts such as the Great Recession and the
+COVID-19 pandemic show significant churn across educators of all types, including teachers,
+administrators, paraprofessionals, and staff.
+
+Educator Turnover Contributes to Workforce Instability
+Administrators. New administrators experience elevated turnover and mobility, highlighting
+the fragility of early-career leadership positions. Overall, administrators exhibit higher turnover
+than teachers, and early-career administrators are especially likely to move between schools or
+districts rather than remain in their initial placements. This suggests that leadership retention
+challenges are driven more by movement within the system than exit from public education.
+Administrator turnover increased sharply after the COVID-19 pandemic, exacerbating pressures
+associated with demanding working conditions, organizational stress, and school climate
+challenges. Leadership turnover is only weakly correlated with teacher turnover, indicating that
+administrative instability can occur even when teaching staff remain relatively stable.
+Teachers. Similar patterns emerge among new teachers. Although many new teachers enter
+Oregon’s workforce each year, turnover among novices remains consistently higher than
+among more experienced educators. New teachers are also more racially and linguistically
+diverse than veteran educators, making early-career retention critical to sustaining workforce
+diversification. Novice teachers are disproportionately placed in less stable, higher-need school
+environments where they often collaborate with other novices and experience leadership
+turnover—conditions associated with reduced retention.
+Paraprofessionals and staff. Turnover is even more pronounced among novice
+paraprofessionals and support staff, whose early attrition represents a major point of
+workforce vulnerability. Paraprofessionals and staff exhibit the highest turnover rates of all
+In 2022, the EAC contracted with a research team from the University of California, Irvine to conduct a
+longitudinal study on Oregon’s educator workforce from 2006-07 to 2021-22.
+
+5
+
+11
+
+Best Practices for Educator Recruitment and Retention
+educator groups, with newer employees more likely to exit public education entirely rather
+than transfer within the system. Contributing factors include compensation challenges, job
+precarity, limited advancement opportunities, and demanding working conditions.
+Post-pandemic turnover rose sharply, compounding these challenges. Because paraprofessional
+and staff turnover is also only weakly correlated with teacher turnover, schools may lose newly
+hired support staff even when teaching assignments appear stable—impacting supports such as
+special education services and student well-being.
+
+Mentoring Alone Is Insufficient to Ensure Stable Staffing
+in High-Needs Schools
+Findings from the UCI report highlight the need for targeted early-career supports—including
+mentoring, improved working conditions, and leadership stability—to promote retention.
+Oregon’s past investments in induction and mentoring demonstrate the impact such supports
+can have. From 2010 to 2019, Oregon funded a state mentoring program 6 that supported
+thousands of beginning teachers and administrators and served more than 10,000 educators
+over a decade. The program improved novice educator confidence, instructional skills, and
+professional networks. A complementary research study found that the program significantly
+improved state-level retention, reducing the likelihood that novice teachers would leave
+Oregon public schools within a year, with especially strong effects for teachers of color and
+educators in more diverse districts (Liu & Penner, 2024). However, the study also found that
+mentoring did not improve school-level retention and may have contributed to mobility across
+districts, producing mixed effects on local workforce stability.
+Mentoring is an important support for early-career educators, but on its own it is insufficient to
+ensure stable staffing in high-need schools. Persistent turnover across educator roles
+underscores the need for more comprehensive and equitable early-career supports. While
+mentoring strengthens instructional practice and state-level retention, additional strategies—
+such as improved working conditions, stronger school leadership, and clearer career
+advancement pathways—are necessary to stabilize staffing and build a resilient and equitable
+educator workforce.
+These system-level challenges underscore the need for strategies that operate along the entire
+educator career continuum—linking preparation access to induction, ongoing professional
+
+In 2007, the Oregon Legislature passed HB 2574 authorizing the Department of Education (ODE) to establish a
+beginning teacher and administrator mentoring program. The Oregon Mentoring Program provided support to
+beginning teachers, principals, and superintendents. The program sunset in 2019.
+
+6
+
+12
+
+Best Practices for Educator Recruitment and Retention
+learning, and career advancement—so that recruitment and retention reinforce one another
+rather than compete.
+
+Promising Practices for K-12 Educators in
+Oregon
+Oregon’s educator workforce continues to experience well-documented pressures that limit
+recruitment, weaken preparation pathways, and contribute to early-career attrition. The
+initiatives highlighted in this white paper demonstrate that the state has already begun to build
+the infrastructure necessary to address these challenges through coordinated,
+evidence-informed strategies.
+Within this coordinated system, the Regional Educator Networks (RENs) and Grow Your Own
+(GYO) partnerships translate evidence into practice by strengthening job-embedded supports
+and expanding local pathways, respectively. The RENs strengthen professional learning systems
+by providing sustained, job-embedded supports that enhance instructional quality, reduces
+novice isolation, and build regional capacity through mentoring, coaching, and improvement
+cycles. Targeted investments in high-quality, standards-aligned mentoring—such as the SB 283
+Mentor Grant—further underscore the importance of consistent, relationship-centered support
+for teachers and administrators at critical points in their careers. At the same time, GYO
+partnerships support local and regional workforce efforts by recruiting people from the
+community – such as paraprofessionals, school staff, high school students or other local
+residents – to become licensed or advance their careers in education.
+
+Regional Educator
+Networks: Strengthening Professional Learning to
+Stabilize the K–12 Workforce
+Oregon’s Regional Educator Networks (RENs) demonstrate that high-quality, job-embedded
+professional learning is a critical driver of educator retention and workforce stability. 7 By
+prioritizing novice educators and providing sustained mentoring, coaching, PLCs, and
+Communities of Practice, RENs reduce isolation, build instructional confidence, and connect
+induction to long-term professional growth. Targeted investments—such as the SB 283 Mentor
+7 In 2019, the EAC created ten Regional Educator Networks to ensure that every educator in Oregon has access to
+
+high-quality professional learning opportunities (ORS 342.940).
+
+13
+
+Best Practices for Educator Recruitment and Retention
+Grant—show that structured, standards-aligned mentoring significantly improves novice
+teacher and administrator effectiveness while strengthening resilience and commitment to the
+profession. For experienced educators, RENs shift professional learning from one-off training to
+improvement-focused practice, positioning educators as leaders in inquiry cycles, coaching, and
+curriculum-aligned implementation. Through these coordinated strategies, RENs strengthen
+local capacity, elevate instructional practice, and reinforce a coherent professional learning
+system that supports educator growth across the career continuum. Together, these efforts
+contribute to a more stable, well-supported K–12 workforce and improved outcomes for
+Oregon’s students.
+Data collected from REN sponsoring organizations during the 2024-25 school year suggests
+RENs are a promising strategy for Oregon to address many system challenges impacting
+educator recruitment and retention. Examples of REN promising practices include:
+1. On-going and job-embedded supports for novice educators.
+Over the 2024-25 school year, 50% of REN participants were novice educators in their
+first three years of their career. RENs focus on sustained, relational, and instructional
+supports—moving beyond one-off workshops to cohort-based learning, mentoring,
+Professional Learning Communities (PLCs), Communities of Practice (CoPs), and
+individual coaching. These types of opportunities align with the standards and practices
+of high-quality professional learning and are more likely to result in improved teaching
+practices, which in turn supports improved outcomes for students (Learning Forward,
+2026). The most effective networks emphasize the following formats for on-going and
+job-embedded supports:
+•
+
+•
+
+Creating sustained learning formats. Research shows effective early educator
+support includes on-going coaching and professional learning during a teacher’s first
+three years to help ease the transition from preparation program to the classroom
+(Kwok & Macfarlane, 2025). RENs supported early career educators through
+sustained learning formats with multi-day learning series, PLCs, CoPs, and jobembedded coaching to develop skills, confidence, and peer connections. Effective
+networks focused on instructional practices through structured PLCs—with
+facilitation, protocols, and collaborative inquiry routines. This is a promising practice
+for novice educators to develop habits of collaborative inquiry and data-informed
+decision-making early in their careers. This approach aligns induction support with
+long term professional growth rather than treating it as a separate system.
+Developing strong, regional mentoring networks. Mentor or coach selection,
+training and pairing matter when supporting novice educators (Kwok & Macfarlane,
+2025). Across the RENs, new educators were paired with trained mentors across
+14
+
+Best Practices for Educator Recruitment and Retention
+districts, to reduce isolation and increase access to high quality support, particularly
+in rural contexts. These networks met monthly or bimonthly and included a
+combination of facilitated learning sessions, mentor-mentee collaboration time, and
+problem solving around shared challenges such as classroom management,
+curriculum implementation, and culturally responsive practice. Effective networks
+emphasized relational support paired with instructional focus, rather than isolated
+professional development sessions.
+Example from Douglas Regional Educator Network.
+
+Douglas Regional Educator Network (Douglas REN) serves primarily rural and remote
+districts and is coordinated by Douglas ESD. Douglas REN emphasizes relationship-based
+engagement, frequent touchpoints, and structured improvement routines to reduce
+isolation and support limited local capacity.
+How it works.
+• Regional coordination. Coordination body meets up to eight times per year for
+extended sessions on priority setting, data review, and aligned technical
+assistance.
+• Monthly improvement meetings. Network teams meet for two hours monthly,
+using root-cause analysis and Plan–Do–Study–Act cycles; receive targeted
+coaching from ESD instructional staff.
+• Design team structure. Phase-specific templates, facilitation protocols, and
+onboarding ensure shared language and routines. Novices develop collaborative
+inquiry skills; experienced educators often serve as facilitators, mentors, or team
+leads—building leadership pathways while refining practice.
+Why it works. Consistent improvement routines plus frequent, relationship-based
+touchpoints create coherence and mitigate isolation—key conditions for retention and
+instructional improvement in rural systems.
+
+2. High-quality, standards-aligned mentoring. Mentoring is a core workforce retention
+strategy. Research finds that mentoring is vital for educator growth, fostering trustbased relationships, leadership development, and collaboration through professional
+learning communities (Ryerson, 2025). During the 2024–25 school year, a one-time $8
+million investment allowed school districts and RENs to launch or expand mentoring for
+beginning teachers and administrators, prioritizing educators in high-need settings such
+15
+
+Best Practices for Educator Recruitment and Retention
+as special education, rural communities, diverse backgrounds, and emergency licensure
+pathways. 8
+
+
+
+
+Transformative program design. Seven key transformative mentor program
+characteristics were developed and defined by analyzing the Oregon Mentoring
+Standards, New Teacher Center’s High-Quality Mentoring and Coaching Practices,
+and National Institute for Excellence in Teaching resources. These transformative
+practices were then reviewed and compared to the characteristics of mentor
+programs across Oregon. These characteristics included supported support cycles,
+clearly defined mentor selection process and training, data-informed decisionmaking, collaborative learning communities, inclusive practices, leadership
+development pathways and tiered mentee support beyond year two.
+Positive impact on novice teachers and administrators. Evidence from the
+evaluation findings shows that mentoring greatly impacted educators. Mentoring
+increased teacher confidence, improved instructional quality among beginning
+teachers, developed strong leadership skills in new administrators, and encouraged
+mentees to remain in their positions. These outcomes supported the professional
+growth and improvement of educator retention statewide. Mentees repeatedly
+reported feeling more supported, less isolated, and better equipped to navigate the
+challenges of their early years in the profession.
+
+3. Professional learning opportunities tailored to the needs of experienced educators.
+REN investments support experienced educators to participate in coaching cycles,
+content-specific institutes, and leadership development rather than introductory
+skill-building. Monthly cycles of inquiry—using structured protocols to analyze student
+work, test instructional strategies, and assess impact—position experienced educators
+as active learners focused on results and instructional coherence. These types of
+opportunities align with standards and practices of high-quality professional learning
+and are likely to result in improved teaching practices, which in turn supports improved
+outcomes for students.
+•
+
+8
+
+Educator leadership is a retention strategy. Positioning experienced educators as
+contributors (not mere recipients) strengthens professional culture, builds local
+leadership, and sustains engagement across the career continuum. Experienced
+educators serve as mentors, PLC facilitators, model-lesson hosts, and improvement
+leads while continuing to receive coaching and feedback—reinforcing that
+leadership and learning are interconnected.
+
+For more details, see SB 283 Mentorship Evaluation Report.
+
+16
+
+Best Practices for Educator Recruitment and Retention
+•
+
+Developing instructional coherence. Embedding leadership in improvement cycles
+helps align professional learning to curriculum, assessment, and student outcomes.
+Monthly cycles of inquiry—using structured protocols to analyze student work, test
+instructional strategies, and assess impact—position experienced educators as
+active learners focused on results and instructional coherence.
+
+Example from Western Regional Educator Network.
+
+Western Regional Educator Network (WREN) serves urban, suburban, and rural districts
+(Lane, Linn, Benton, Lincoln), coordinated by Lane ESD and Linn Benton Lincoln ESD.
+Western REN uses a multi-tiered improvement structure to support implementation
+and continuous learning.
+How it works.
+• Design teams. District and school teams develop Professional Learning Plans
+aligned to regional priorities; meet monthly/quarterly; receive targeted technical
+assistance on improvement science tools, data use, and professional learning
+strategy refinement.
+• Facilitator PLCs (virtual). Design team leads meet regularly to deepen facility with
+improvement routines (theories of action, Plan–Do–Study–Act cycles, evidence
+protocols), troubleshoot challenges, and share strategies.
+• Networked sessions (in person). Two to three sessions per year convene teams to
+share PDSA findings, reflect on what works, and translate lessons to classroom
+practice.
+Why it works. The cadence—design team meetings, facilitator PLCs, and network
+convenings—balances collaboration with protected time for testing, learning, and
+refinement, tightening the link between professional learning and instructional
+improvement.
+
+Grow Your Own Partnerships: Expanding Pathways into
+Education Careers
+Recruitment and retention efforts require multiple strategies to demonstrate effectiveness and
+sustainability. Grow Your Own (GYO) programs contribute to these strategies by expanding
+access to postsecondary pathways, high-quality preparation and training programs, and career
+advancement opportunities for school employees. By intentionally serving rural communities,
+underrepresented groups, and working adults, GYO programs reduce barriers, address regional
+shortages, and enhance stability across the educator workforce. As a community-anchored
+approach, GYO programs recruit local residents such as paraprofessionals, school employees,
+17
+
+Best Practices for Educator Recruitment and Retention
+high school students, and Tribal community members. By providing mentoring, tuition
+assistance, program navigation, and flexible training pathways, GYO programs help districts fill
+vacancies, strengthen local retention, and diversify Oregon’s educator workforce. These are
+promising practices that collectively support stronger recruitment pathways, increase
+retention, and a more diverse and well-prepared educator workforce for Oregon’s schools.
+In the 2023–25 biennium, 29 GYO programs received state funding to support local and
+regional recruitment and retention efforts through partnerships with 65 school districts, 16
+Education Service Districts, Tribal governments, Regional Educator Networks (RENs),
+community colleges, universities, and community-based organizations. 9 Data reported by GYO
+grantees highlights three promising impacts:
+1. Reduced barriers to educator careers for underserved candidates.
+GYO programs helped reduce institutional and financial barriers by providing accessible,
+affordable, and community-aligned preparation pathways for educator candidates,
+particularly for rural, bilingual or multilingual, racially and ethnically diverse educator
+candidates. From 2023 to 2025, GYO programs supported 2,172 adults and 644 high
+school students pursuing credentials through enrollment in a postsecondary program.
+During that time, GYO programs helped address accessibility issues for students and
+pre-service candidates who often experience barriers when pursuing educator careers in
+Oregon with accessible, affordable entry points into career pathways. Some examples
+included:
+•
+
+•
+
+GYO programs served rural participants.
+From 2023 to 2025, 63% of adult and 69% of high school GYO participants
+resided in rural counties. Over half of high school students who completed a GYO
+program live in rural areas—an important outcome in communities where
+postsecondary opportunities are limited.
+GYO programs supported underrepresented groups.
+From 2023 to 2025, more than one-third of all participants identified as
+Hispanic/Latino/a/x, and over 40% of adult participants were bilingual or
+multilingual. Nearly 5% of adult participants and close to 4% of high school
+students identify as citizens of federally recognized Tribes.
+
+2. Supported local and/or regional career pathways to meet current and future
+workforce needs.
+
+The nine federally recognized Tribes also received funding for GYO programs during the 2023-25 biennium. Due
+to different reporting requirements data was not included in this report.
+9
+
+18
+
+Best Practices for Educator Recruitment and Retention
+Through partnership and cross-sector collaboration, GYO programs connect and
+coordinate with Pre-K programs, school districts, Education Service Districts,
+postsecondary institutions, Tribes, and community organizations to support local and
+regional workforce needs—including Special Education (SPED), English for Speakers of
+Other Languages (ESOL), and Career and Technical Education (CTE).
+•
+
+•
+
+•
+
+GYO programs help districts develop qualified educators for high need
+specializations.
+From 2023 to 2025, 20% of adult participants pursued degrees in areas in which
+school districts often struggle to find qualified candidates, including Special
+Education (SPED) and English for Speakers of Other Languages (ESOL).
+GYO programs support the completion of educator credentials.
+From 2023 to 2025, nearly 600 GYO adult participants earned a license, degree,
+certificate, or endorsement. About half earned preliminary teaching licenses,
+and more than 10% completed Early Learning and Care certifications. These
+credentials improve candidates’ ability to be hired into educator careers.
+GYO programs strengthen high school career pathways.
+Research finds that CTE coursework increases engagement and improves high
+school completion, especially for underserved groups (Hemelt, et al., 2019).
+From 2023 – 2025, 58% of high school GYO participants engaged in work-based
+learning through CTE programs. In addition, about 50% of high school students
+earned dual credit and 58% participated in a CTE program.
+
+3. Strengthen retention strategies by expanding career advancement opportunities.
+GYO programs use career advancement as a retention strategy. GYO programs
+supported employees—such as classified staff, early learning educators, K-12 educators,
+and educators on emergency or restricted licenses—advance into licensed or leadership
+roles. These efforts strengthen workforce stability by promoting employee development
+and reducing turnover.
+•
+
+GYO programs provided school district employees career advancement
+opportunities.
+From 2023 to 2025, 70% of all adult GYO participants were school employees
+including classified employees, restricted-license teachers, emergency-license
+teachers, and substitutes and enrolled in a postsecondary program. Additionally,
+21% of licensed educators advanced into leadership roles by earning principal or
+administrator licenses.
+
+19
+
+Best Practices for Educator Recruitment and Retention
+
+Conclusion
+Collectively, the Regional Educator Networks and Grow Your Own Partnerships are strategies
+that strengthen Oregon’s educator continuum. By aligning preparation, induction, professional
+learning, and leadership development, they offer scalable pathways to improve recruitment,
+increase retention, and stabilize the K–12 workforce. Continued investment in these
+interconnected systems will help ensure that every Oregon student is supported by
+well-prepared, well-supported educators—and that the state’s education workforce is
+positioned for long-term stability and success.
+
+20
+
+Best Practices for Educator Recruitment and Retention
+
+References
+
+Baumhardt, A. (2022, August 10). Oregon schools lean heavily on emergency teachers, including
+untrained ones. Oregon Capital
+Chronicle. https://www.oregoncapitalchronicle.com/2022/08/10/oregon-schools-leanheavily-on-emergency-teachers-including-untrained-ones/
+Educator Advancement Council, Higher Education Coordinating Commission, and Oregon
+Department of Education, Teacher Standards and Practices Commission. (2024). Oregon
+Educator Equity Report. https://5il.co/2ukqj
+Eros, J. (2011). The career cycle and the second stage of teaching: Implications for policy and
+professional development. Arts Education Policy Review, 112: 65–70. DOI:
+10.1080/10632913.2011.546683
+Goldhaber, D., & Cowan, J. (2014). Excavating the teacher pipeline: Teacher preparation
+programs and teacher attrition. Journal of Teacher Education, 65(5), 449–462.
+Hemelt, S. W., Lenard, M. A. & Paeplow, C. G. (2019). Building bridges to a life after high school:
+Contemporary career academies and student outcomes. Teachers and Teaching, 24(6),
+626-643. https://doi.org/10.1080/13540602.2018.1465404
+Higher Education Coordinating Commission. (2025). Fall 2025 Oregon Public Institution
+Enrollment. Oregon.gov. https://www.oregon.gov/highered/strategyresearch/Documents/Featured-Data/Fall-4th-week-2025-web.pdf
+Jacoby, I. (2023, October). Student sense of belonging in schools: Connection to
+outcomes. https://www.oregon.gov/ode/educatorresources/assessment/Documents/S
+enseofBelongingOutcomes.pdf
+Kwok, A. and Macfarlane, K. O. (2025). Strengthening early-career teachers: Effective
+components of teacher induction programs. EdResearch for Action.
+https://edresearchforaction.org/wp-content/uploads/Teacher-Induction.pdf
+Liu, Y. & Penner, E. K. (2024). Does mentoring impact beginning teacher retention? A
+longitudinal program evaluation. Manuscript pending publication.
+McVey, K. P. & Trinidad, J. (2019). Nuance in the noise: The complex reality of teacher
+shortages. Bellwether Education Partners. ERIC Document Number: ED596444
+National Center for Education Statistics. (2024). Teacher Turnover: Stayers, Movers, and
+Leavers. Condition of Education. U.S. Department of Education, Institute of Education
+Sciences. Retrieved [date], from https://nces.ed.gov/programs/coe/indicator/slc.
+Nguyen, T. D., Lam, C.B. and Bruno, P. (2022). Is there a national teacher shortage? A systematic
+examination of reports of teacher shortages in the United States. (EdWorkingPaper: 22631). Retrieved from Annenberg Institute at Brown
+University: https://doi.org/10.26300/76eq-hj32
+Oregon Longitudinal Data Collaborative. (2025). Oregon’s teacher workforce: A new
+look at public school teacher preparation, hiring, and retention in Oregon. Higher
+Education Coordinating Commission. https://www.oregon.gov/highered/strategyresearch/Documents/OLDC/OLDC-Oregon-Teacher%20Study.pdf
+Penner, E. K., Liu, Y., & Ainsworth, A. J. (2024). Revolving school doors? A longitudinal
+examination of teacher, administrator, and staff contributions to school churn.
+21
+
+Best Practices for Educator Recruitment and Retention
+Redding, C. & Nguyen, T.D. (2020). Recent trends in the characteristics of new teachers, the
+schools in which they teach, and their turnover rates. Teachers College Record. 122. 136. DOI:10.1177/016146812012200711
+Reyerson, A. (2025). SB 283 Mentor Grant Cumulative Report. Willamette Education Service
+District. https://5il.co/3t0f9
+Schaefer, L., Long, J. S., & Clandinin, D. J. (2012). Questioning the research
+on early career teacher attrition and retention. Alberta Journal of Educational Research,
+Vol. 58, No. 1, Spring 2012, 106-121.
+Sheehy, M. (2024) More districts are paying teachers strategically to meet critical needs. Is
+yours? https://www.nctq.org/research-insights/more-districts-are-paying-teachersstrategically-to-meet-critical-needs-is-yours/
+State Higher Education Executive Officers Association. (2025). State Higher Education Finance:
+FY 2024. https://shef.sheeo.org/wpcontent/uploads/2025/05/SHEEO_SHEF_FY24_Report.pdf
+
+22
+
+

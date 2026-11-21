@@ -1,7 +1,7 @@
 # Results and accountability: what the money buys
 
 Standing research: what state funding buys, and the outcome goals and mandates attached to it. Open research: #57,
-#58, #59, #60, #61, #63, #71, #72.
+#58, #60, #61, #63, #71, #72.
 
 ## What the sources say
 
@@ -20,6 +20,10 @@ Standing research: what state funding buys, and the outcome goals and mandates a
   [SRC:gov/eo/eo-26-06_faq.pdf p.2].
 - If the full QEM isn't funded, the Quality Education Commission's 2026 report offers more funding for programs aimed
   at the SB 141 metrics as an alternative [SRC:ode/qec/2026_qem_report.pdf p.110].
+- The model assumes that sustained full funding, with districts using the recommended practices, would bring the
+  four-year graduation rate to 90 percent [SRC:ode/qec/2026_qem_report.pdf p.92]; outcomes inform the commission's
+  judgment but are not inputs to the model [SRC:ode/qec/2026_qem_report.pdf p.95]. See
+  `topics/qem-practices-outcomes.md`.
 
 ## Derived figures
 
@@ -28,6 +32,5 @@ None: every figure above is stated in a cited source.
 ## Analysis
 
 The archive so far covers mostly how much is spent; what the money buys is the least-researched part. Still to
-research: Student Investment Account spending and results (#57), outcomes over time set against funding (#58), how the
-Commission links its model to practices and outcomes (#59), SB 141 progress and consequences (#60, #71), where
+research: Student Investment Account spending and results (#57), outcomes over time set against funding (#58), SB 141 progress and consequences (#60, #71), where
 increases go (#61), research on whether funding changes outcomes (#63), and unfunded mandates (#72).
