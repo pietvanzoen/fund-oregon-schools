@@ -1,0 +1,1128 @@
+SCHOOL FINANCE SERIES
+
+How Money Matters
+for Schools
+Bruce D. Baker
+
+DECEMBER 2017
+
+How Money Matters
+for Schools
+Bruce D. Baker
+
+Acknowledgments
+Thank you to LPI colleagues Titilayo Tinubu Ali, Peter Cookson, and Linda Darling-Hammond for
+assistance in developing this document. Thanks also to Bulletproof Services, Gretchen Wright,
+and Aaron Reeves for their editing and design contributions to this project, and Lisa Gonzales for
+overseeing the editorial and production process.
+This report draws in part upon my earlier report Does money matter in education? I thank the
+Shanker Institute for its support of that report and Matt DiCarlo for his research assistance.
+With LPI, I also would like to acknowledge the generous support of the Raikes Foundation for this
+work and the series of reports as a whole, along with general operating support from the Ford
+Foundation, the William and Flora Hewlett Foundation, and the Sandler Foundation. This work does
+not necessarily represent the views of these funders.
+
+External Reviewer
+This report benefited from the insights and expertise of Rick Simpson, Vice Chair, California
+Commission on Judicial Performance, and the former Education Adviser to nine Speakers of the
+California Assembly. We thank him for the care and attention he gave the report. Any remaining
+shortcomings are my own.
+
+The appropriate citation for this report is: Baker, B. D. (2017). How money matters for schools. Palo
+Alto, CA: Learning Policy Institute.
+This report can be found online at https://learningpolicyinstitute.org/product/
+how-money-matters-schools.
+This work is licensed under the Creative Commons Attribution—Noncommercial 4.0 International
+License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc/4.0/.
+
+iv
+
+LEARNING POLICY INSTITUTE | HOW MONEY MATTERS FOR SCHOOLS
+
+Table of Contents
+Acknowledgments. .................................................................................................................................. iv
+Preface. ..................................................................................................................................................... vi
+Abstract. ................................................................................................................................................... vii
+Introduction................................................................................................................................................1
+Linking Money to Real Resources. .........................................................................................................2
+The Goals of State School Finance Formulas.................................................................................3
+What About the Arguments That “Money Doesn’t Matter”?. .........................................................4
+Studies of the Outcomes of School Finance Reforms.........................................................................6
+National Longitudinal Studies of School Finance Reforms. ...........................................................6
+State-Level Studies of School Finance Reforms.............................................................................7
+The Costs of Common Outcomes................................................................................................ 10
+How Money Is Used Matters. ................................................................................................................ 11
+Conclusions............................................................................................................................................. 14
+Endnotes.................................................................................................................................................. 16
+About the Author.................................................................................................................................... 21
+
+List of Tables and Figures
+Figure 1:
+Figure 2:
+Figure 3:
+
+Conceptual Map of the Relationship of Schooling Resources to Children’s
+Measurable School Achievement Outcomes. ..................................................................2
+Revenue of High-Poverty Districts in Massachusetts 1995–2015. ...............................8
+Progressiveness of Funding in Massachusetts 1995–2015..........................................9
+
+LEARNING POLICY INSTITUTE | HOW MONEY MATTERS FOR SCHOOLS
+
+v
+
+Preface
+Schools in the United States are among the most inequitably funded of any in the industrialized
+world, with those serving the most affluent students often much better resourced than those
+serving the poorest. These inequities in funding create dramatically different educational
+opportunities for children and contribute to differences in access to key educational resources—
+expert teachers, personalized attention, high-quality curriculum, good educational materials, and
+plentiful information resources—that support learning at home and at school.
+In order to remedy these disparities and make the best use of public education resources, state and
+district leaders need to understand the costs, benefits, and effectiveness of strategies intended to
+address students’ learning needs. Research on school resource adequacy and equity can help inform
+lawmakers about the wise and efficient use of resources to ensure that all schools are equipped to
+advance deeper learning and student well-being.
+To assist policymakers as they seek to address these educational investment issues, the Learning
+Policy Institute (LPI) is publishing a series of reports, written by members of LPI’s School Finance
+Researcher Network, on topics that aim to increase policymakers’ access to research and data
+related to equitable school resources that are wisely used.
+The first of these reports is Bruce Baker’s How money matters for schools. The report reviews a
+substantial body of research to answer three questions: (1) Does money matter? (2) Do schooling
+resources that cost money matter? and (3) Do state school finance reforms matter? The answer to
+all three questions is yes.
+After a thorough examination of the research, Baker summarizes: “An increasing body of rigorous
+empirical evidence suggests that substantive and sustained state school finance reforms matter for
+improving both the level and distribution of short-term and long-term student outcomes.”
+As Baker points out, a society that invests in its children reaps real and lasting economic and
+social benefits.
+In the coming months, LPI will publish additional reports on topics such as finance equity and
+democracy, promising practices at the state and regional levels, the cost-effectiveness and broader
+social benefits of equitable and adequate funding, and how states and localities can address the
+out-of-school factors that influence student achievement through investments in community
+school models.
+In combination, the series will provide a strong evidence-based tool kit for policymakers and
+legislators and a road map for understanding that resource equity is more than an aspiration: It can
+become a reality, with policies based on evidence and practices informed by the best research.
+Linda Darling-Hammond
+September 6, 2017
+
+vi
+
+LEARNING POLICY INSTITUTE | HOW MONEY MATTERS FOR SCHOOLS
+
+Abstract
+For decades, some politicians and pundits have argued that “money does not make a difference”
+for school outcomes. While it is certainly possible to spend money poorly, this viewpoint is
+strongly contradicted by a large body of evidence from rigorous empirical research. A thorough
+review of research on the role of money in determining school quality leads to the following three
+conclusions: (1) on balance, in direct tests of the relationship between financial resources and
+student outcomes, money matters; (2) schooling resources that cost money are positively associated
+with student outcomes; and (3) sustained improvements to the level and distribution of funding
+across local public school districts lead to improvements in the level and distribution of student
+outcomes. While money alone is not the answer to all educational ills, more equitable and adequate
+allocation of financial inputs to schooling provides a necessary underlying condition for improving
+the equity and adequacy of outcomes. This document presents a brief explanation of the goal of
+school finance reforms, followed by summaries of the main bodies of evidence that illustrate how
+equitable and adequate school funding improves student outcomes. It closes with information
+about how certain kinds of specific investments can help to achieve these outcomes.
+
+LEARNING POLICY INSTITUTE | HOW MONEY MATTERS FOR SCHOOLS
+
+vii
+
+viii
+
+LEARNING POLICY INSTITUTE | HOW MONEY MATTERS FOR SCHOOLS
+
+Introduction
+For decades, some politicians and pundits have argued that “money does not make a difference” for
+school outcomes.1 While it is certainly possible to spend money poorly, this viewpoint is strongly
+contradicted by a large body of evidence from rigorous empirical research. A thorough review of
+research on the role of money in determining school quality leads to the following conclusions:
+Does money matter? Yes. On average, aggregate per-pupil spending is positively
+associated with improved student outcomes. The size of this effect is larger in some
+studies than in others, and, in some cases, additional funding appears to matter
+more for some students than for others—in particular students from low-income
+families who have access to fewer resources outside of school. Clearly, money must
+be spent wisely to yield benefits. But, on balance, in direct tests of the relationship
+between financial resources and student outcomes, money matters.
+Do schooling resources that cost money matter? Yes. Schooling resources that
+cost money are positively associated with student outcomes. These include smaller
+class sizes, additional instructional supports, early childhood programs,2 and more
+competitive teacher compensation (permitting schools and districts to recruit and
+retain a higher quality teacher workforce). Again, in some cases, these resources
+matter more for some students and in some contexts. On the whole, however,
+educational resources that cost money benefit students, and there is scarce
+evidence that one can gain stronger outcomes without these resources.
+Do state school finance reforms that provide more equitable and adequate
+funding matter? Yes. Sustained improvements in the level and distribution of
+funding across local public school districts lead to improvements in the level and
+distribution of student outcomes. While money alone may not be the answer,
+more equitable and adequate allocation of financial inputs to schooling provides a
+necessary underlying condition for improving the equity and adequacy of outcomes.
+The available evidence suggests that appropriate combinations of more adequate
+funding with more accountability for its use may be most promising.3
+This document presents a brief explanation of the goal of school finance reforms, followed by
+summaries of the main bodies of evidence that illustrate how equitable and adequate school
+funding improves student outcomes. It closes with information about how certain types of specific
+investments matter—especially when it comes to achieving these outcomes. (For a longer and more
+complete version of this report, see Does money matter in education?4)
+
+LEARNING POLICY INSTITUTE | HOW MONEY MATTERS FOR SCHOOLS
+
+1
+
+Linking Money to Real Resources
+Figure 1 provides a simple model of the relationship of schooling resources to children’s school
+achievement. First, the fiscal capacity of states—their wealth and income—does affect their ability
+to finance public education systems. But the effort put forth in state and local tax policy plays an
+equal role.
+The amount of state and local revenue raised drives the majority of current spending by local
+public school districts, because federal aid constitutes such a relatively small share—only about
+9%, on average. Furthermore, the amount of money a district is able to spend on current operations
+determines the staffing ratios, class sizes, and wages a local public school district is able to pay.
+Indeed, there are trade-offs to be made between staffing ratios and wage levels: If all else is equal,
+the more teachers are hired, the less each can be paid. Finally, a sizable body of research has
+illustrated the connection between staffing qualities and quantities and student outcomes.
+
+Figure 1
+Conceptual Map of the Relationship of Schooling Resources to Children’s
+Measurable School Achievement Outcomes
+Staffing Quantities
+
+State & Local
+Wealth & Income
+
+(Pupil-to-Teacher Ratios
+& Class Size)
+
+State & Local
+Revenue
+
+State & Local
+Fiscal Effort
+
+Current
+Operating
+Expenditure
+
+Trade-offs
+
+Student
+Outcomes
+
+Staffing Quality
+(Competitive Wage)
+
+The connections laid out in this model seem rather obvious. The amount a district raises dictates
+how much it can spend. How much you spend in a labor-intensive industry dictates how many
+individuals you can employ, the wage you can pay them, and in turn the quality of individuals you
+can recruit and retain.
+
+2
+
+LEARNING POLICY INSTITUTE | HOW MONEY MATTERS FOR SCHOOLS
+
+The Goals of State School Finance Formulas
+Modern state school finance formulas—aid distribution formulas—typically strive to achieve two
+simultaneous objectives:
+1. Accounting for differences in the costs of achieving equal educational opportunity
+across schools and districts.
+2. Accounting for differences in the ability of local public school districts to cover
+those costs.
+In most cases, local district ability to raise revenues is a function of both local taxable property
+wealth and the incomes of local property owners, thus their ability to pay taxes on their properties.
+Without sufficient targeted investments from the state, then, school revenues vary by the wealth of
+those who live in different districts—with wealthier districts having more money to spend than poor
+ones. States try to offset these inequalities, although they succeed to varying degrees depending
+on how much money they put into the system and how they allocate it across functions (e.g.,
+foundation aid, transportation costs, facilities) and different districts.
+A typical state school finance formula implies that some basic funding level should be sufficient
+to produce a given level of student outcomes in an average school district. Logically, then, if one
+wishes to produce a higher level of outcomes, the foundation level should be increased. It costs
+more to achieve higher outcomes, and the foundation level in a state school finance formula is the
+tool used for determining the overall level of support to be provided.
+As a rule of thumb, for a state school finance system to provide equal educational opportunity,
+that system must provide sufficiently higher resources to ensure adequacy and equity in higher
+need (e.g., higher poverty) settings than in lower need settings. Such a system is called progressive.
+By contrast, many state school finance systems barely achieve “flat” funding between high- and
+low-need settings, and still others remain regressive, spending more money on the education of
+more affluent students than on those who have greater needs.
+To secure the same quality of education across districts, resource levels may need to be adjusted to
+permit districts in different parts of a state to recruit and retain teachers of comparable quality; that
+is, the wages paid to teachers affect who will be willing to work in any given school. In other words,
+teacher wages affect teacher quality, and in turn, they affect school quality and student outcomes.
+This is plain common sense, and this teacher wage effect operates at two levels.
+1. In general, teacher wages must be sufficiently competitive with other career
+opportunities for similarly educated individuals. The overall competitiveness
+of teacher wages affects the overall academic quality of those who choose to
+enter teaching.
+2. The relative wages for teachers across local public school districts determine the
+distribution of teaching quality. Districts with more favorable working conditions
+can pay a lower wage and attract the same teacher.
+
+LEARNING POLICY INSTITUTE | HOW MONEY MATTERS FOR SCHOOLS
+
+3
+
+Finally, adjusting funding based on student need in state school finance formulas assumes that the
+additional resources can be leveraged to improve outcomes for students from low-income families
+or students with limited English language proficiency. First, note that some share of the additional
+resources is needed in higher poverty settings simply to provide for “real resource” equity—or to
+pay the wage premium for doing the more complicated job, under less desirable working conditions.
+Second, resource-intensive strategies such as reduced class sizes in the early grades, highquality early childhood programs, intensive tutoring, and extended learning time programs may
+significantly improve outcomes of students from low-income families. And these strategies all come
+with significant additional costs.
+
+What About the Arguments That “Money Doesn’t Matter”?
+There has been a long-standing debate about whether increased resources actually improve student
+achievement. The debate began in the 1960s with the influential Coleman report (1966), which
+found a strong effect of student backgrounds on student achievement. Although the report did not
+conclude that resources don’t matter, it was widely interpreted as suggesting that resources have
+trivial effects on outcomes in comparison to student socioeconomic status.
+After the release of the Coleman report, numerous scholars conducted studies to probe these
+findings further. In 1986, 20 years after Coleman, economist Eric Hanushek published a paper
+looking at these studies, which became one of the most widely cited sources for the claim that
+money doesn’t matter.5 Hanushek tallied the findings of those studies. Some found a positive
+relationship between spending and student outcomes, while others did not. He came to the
+following conclusion: “There appears to be no strong or systematic relationship between school
+expenditures and student performance.”6
+This finding echoed for many years through the halls of state and federal courthouses, where school
+funding is deliberated. However, many of the studies originally reviewed by Hanushek, published
+in the 1960s and 1970s, had serious methodological flaws and would no longer pass muster, given
+advances in data quality and statistical techniques.
+The most direct rebuttal to Hanushek’s conclusion came in a series of re-analyses by University
+of Chicago scholars Rob Greenwald, Larry Hedges, and Richard Laine,7 who gathered the studies
+originally cited by Hanushek in 1986 and conducted meta-analyses of those from the U.S. that met
+research quality parameters such as peer review and use of proper statistical controls. They found
+that, among statistically significant findings, the vast majority of study findings were positive (11:1)
+as were most of the non-significant findings. They concluded:
+“Global resource variables such as PPE [per-pupil expenditures] show strong and
+consistent relations with achievement. In addition, resource variables that attempt
+to describe the quality of teachers (teacher ability, teacher education, and teacher
+experience) show very strong relations with student achievement.”
+Digging deeper and exploring the relationship between a variety of resource and student outcome
+measures, Greenwald, Hedges and Laine came to the conclusion that “a broad range of resources
+were positively related to student outcomes, with ‘effect sizes’ large enough to suggest that moderate
+increases in spending may be associated with significant increases in achievement.”8
+
+4
+
+LEARNING POLICY INSTITUTE | HOW MONEY MATTERS FOR SCHOOLS
+
+Other researchers looked with greater precision
+at the measures of financial inputs to schooling
+that are most strongly associated with variations
+in student outcomes. For example, Harold
+Wenglinsky found that “per-pupil expenditures
+for instruction and the administration of school
+districts are associated with achievement
+because both result in reduced class size, which
+raises achievement.”9 Ron Ferguson found that
+investments in teacher quality were particularly
+effective in raising achievement.10
+
+Recent studies have invariably
+found a positive, statistically
+significant relationship between
+student achievement gains and
+financial inputs.
+
+More recent studies have added improvements, such as adjusting for regional cost differences11
+and making other statistical corrections to measure inputs more precisely.12 These studies have
+invariably found a positive, statistically significant relationship between student achievement gains
+and financial inputs.13
+To summarize this discussion of whether resources matter, it is important to recognize that
+Hanushek’s original conclusion from 1986 was merely a statement of “uncertainty” about whether
+a consistent relationship exists between spending and student outcomes—one that is big enough
+to be important. His conclusion, based on many studies with methodological flaws, was that the
+relationship was inconsistent. By the early 2000s, the cloud of uncertainty had largely lifted with
+the more rigorous studies that followed, conducted by many finance scholars using detailed datasets
+to examine more finely grained relationships between money and student outcomes. We review
+some of these studies showing how money matters.
+
+Summing It Up
+Since the Coleman report, some have said that “money doesn’t matter” because of the strong
+effect of student backgrounds on student achievement, plus early studies with inconsistent results.
+However, this position is no longer well grounded because:
+• Older studies were methodologically limited.
+• New data analyses using advances in data quality and statistical techniques consistently
+show that money makes a difference.
+∘ National studies in the early 2000s conducted by finance scholars using detailed
+datasets found positive relationships between school funding reforms that increased
+spending on students from low-income families and student outcomes.
+∘ Similar findings pertain to reforms in Kansas, Massachusetts, Michigan, and Vermont
+(see pp. 6–10 for more details).
+∘ Often, moderate increases in spending are associated with significant increases in
+achievement and graduation rates.
+∘ Investments in teacher quality (teacher ability, teacher education, and teacher
+experience) are particularly effective in raising achievement.
+
+LEARNING POLICY INSTITUTE | HOW MONEY MATTERS FOR SCHOOLS
+
+5
+
+Studies of the Outcomes of School Finance Reforms
+Investments in more adequate and equitable approaches to school funding have been delayed for
+some time by both revenue challenges and the widely held view that “money doesn’t matter” when
+it comes to educational outcomes. The question to be answered, however, is an empirical one:
+What happens when states adjust their school funding systems to take pupils’ needs into greater
+account? We now have two kinds of studies that answer this question: large-scale, cross-state
+studies that look at the effects of reforms nationwide, and state-specific studies that look at changes
+in outcomes over time as a function of school funding reforms. Both show positive outcomes for
+students of more progressive school funding changes.
+
+National Longitudinal Studies of School Finance Reforms
+An increasing body of rigorous evidence, including multistate analyses over time, suggests that
+substantive and sustained state school finance reforms are important for improving both the
+level and distribution of short-term and long-term student outcomes. One such study found
+“evidence that equalization of spending levels leads to a narrowing of test score outcomes across
+family background groups.”14
+Access to increased longitudinal data on both local district level school finances and student
+outcomes has enabled a new wave of research on the topic.15 One such analysis evaluated the longterm effects on high school graduation rates and eventual adult income of substantial infusions of
+funding to local public school districts through school finance reforms of the 1970s and 1980s.16
+This study linked the presence of reforms to changes in the distribution of dollars and other
+resources across schools and children, and the outcome effects of those changes. The researchers
+found that “the estimated effect of a 21.7% increase in per-pupil spending throughout all 12
+school-age years for children from low-income families is large enough to eliminate the education
+attainment gap between children from low-income and non-poor families.” This size investment
+led to a 20-percentage-point increase in graduation rates and, on average, an additional year of
+educational attainment for these children.
+Even lower levels of investment made a
+sizable difference. The researchers found that
+“increasing per-pupil spending by 10% in all 12
+school-age years increases the probability of
+high school graduation by 7 percentage points
+for all students, by roughly 10 percentage
+points for low-income children, and by 2.5
+percentage points for non-poor children.” They
+also observed positive effects on adult wages,
+with a 9.6% increase in adult hourly wages, and
+a substantial decrease in adult poverty rates
+resulting from this size investment.17
+
+“A 21.7% increase in per-pupil
+spending throughout all 12
+school-age years for children
+from low-income families is
+large enough to eliminate the
+education attainment gap
+between children from lowincome and non-poor families.”
+
+A recent study evaluated the influence of adequacy-oriented school funding reforms during
+the 1990s and 2000s.18 Using data from the National Assessment of Educational Progress, the
+researchers found that “reforms cause gradual increases in the relative achievement of students
+
+6
+
+LEARNING POLICY INSTITUTE | HOW MONEY MATTERS FOR SCHOOLS
+
+in low-income school districts, consistent with the goal of improving educational opportunity for
+these students. The implied effect of school resources on educational achievement is large.”19
+Another national longitudinal analysis found
+that states with greater overall investment in
+education resulting in more intensive staffing
+per pupil tend to have higher outcomes for
+children from low-income families, higher
+performance in schools serving children from
+low-income families, and smaller disparities
+between schools serving children from lowincome families and schools serving more
+advantaged populations.20
+And most recently, a study found that there is a
+strong relationship between state school finance
+reforms and graduation rates. Seven years after
+the reforms, the poorest districts showed an
+average 12% increase in per-pupil spending and
+increases in graduation rates of between 6 and
+12 percentage points.21
+
+States with greater overall
+investment in education resulting
+in more intensive staffing per pupil
+tend to have higher outcomes
+for children from low-income
+families, higher performance in
+schools serving children from
+low-income families, and smaller
+disparities between schools
+serving children from low-income
+families and schools serving
+more advantaged populations.
+
+Collectively, these studies provide compelling
+new evidence of the large-scale achievement and economic benefits of substantive and sustained
+additional funding for schools serving higher-poverty student populations.
+
+State-Level Studies of School Finance Reforms
+Over the years, several state-specific studies of school finance reforms have validated the positive
+influence of those reforms on a variety of student outcomes. Massachusetts and Michigan reforms
+of the 1990s are among the most studied. Both states implemented significant reforms to their
+school finance systems in the early to mid-1990s, and maintained them for a decade or more,
+although Massachusetts reforms have waned over the past decade and Michigan reforms have
+largely collapsed.22 Even the most vocal critics of school finance reform concede that Massachusetts
+in particular may have struck the right balance between funding and accountability reforms.23 These
+reforms set standards for student learning and teacher preparation, while creating expectations and
+systems to support improvement in response to data about student outcomes.
+In 1993, following the McDuffy v. Secretary of Education lawsuit,24 Massachusetts adopted a package
+of far-reaching education reforms that included a new education funding formula under Chapter 70
+of the state code.25 Chapter 70 established a “foundation budget” for all districts, which calculates
+expenditures for each district in each of 11 functional categories (e.g., administration, teachers,
+pupil services, professional development, etc.), adjusted for wage costs and for the higher costs of
+students in poverty, English learners, and those identified for special education. It then calculated
+how much each district could afford to contribute (based on local revenues) and created a fund of
+state aid to fill gaps when local revenue proved inadequate to meet the foundation level.26
+
+LEARNING POLICY INSTITUTE | HOW MONEY MATTERS FOR SCHOOLS
+
+7
+
+$10K
+
+McDuffy v. Secretary
+of Executive Office
+of Education
+
+Hancock v. Driscoll
+
+$5K
+$0
+
+REVENUE PER PUPIL AT 30% POVERTY
+
+$15K
+
+Figure 2
+Revenue of High-Poverty Districts in Massachusetts 1995–2015
+
+1995
+
+2000
+
+State
+
+2005
+YEAR
+Local
+
+2010
+
+2015
+
+Federal
+
+Source: Baker, B. D., Srikanth, A., & Weber, M. A. (2016). Rutgers Graduate School of Education/Education Law Center:
+School Funding Fairness Data System. http://www.schoolfundingfairness.org/data-download.
+
+Figure 2 shows the changes in revenue by source for high-poverty school districts in Massachusetts
+since then. State aid per pupil scaled up dramatically from 1995 through 2000 and then climbed
+more slowly through 2015. During this period, in McDuffy’s successor case Hancock v. Driscoll (2005),
+Massachusetts’ Supreme Judicial Court held that while serious inadequacies in public education
+remained, the state was working to systemically address those deficiencies and the funding system
+did not violate Massachusetts’ constitutional duty as outlined in McDuffy.27
+Figure 3 shows that these reforms had significant influence on the level and progressiveness of
+funding and staffing for Massachusetts school districts. That is, over the period when state aid to
+high-poverty schools was increased significantly, high-poverty districts received 40% more state
+and local revenue per pupil than low-poverty districts. This raised current spending and staffing
+ratios. Although the state still spends more on high-poverty than low-poverty districts, the degree
+of progressiveness has waned since 2008, as state aid has remained flat for high-poverty districts
+and local spending has increased for low-poverty districts.
+
+8
+
+LEARNING POLICY INSTITUTE | HOW MONEY MATTERS FOR SCHOOLS
+
+1
+
+1.2
+
+1.4
+
+Hancock v. Driscoll
+
+McDuffy v. Secretary of Executive Office of Education
+.8
+
+PROGRESSIVENESS [>1.0=PROGRESSIVE]
+
+1.6
+
+Figure 3
+Progressiveness of Funding in Massachusetts 1995–2015
+
+1995
+
+Current Spending
+
+2000
+
+YEAR
+
+2005
+
+State & Local Revenue
+
+2010
+
+2015
+
+Teachers per 100 Pupils
+
+Source: Baker, B. D., Srikanth, A., & Weber, M. A. (2016). Rutgers Graduate School of Education/Education Law Center:
+School Funding Fairness Data System. http://www.schoolfundingfairness.org/data-download.
+
+Three studies of Massachusetts school finance reforms from the 1990s found positive effects on
+student performance. The earliest study found that the combination of funding and accountability
+reforms “has been successful in raising the achievement of students in the previously low-spending
+districts.”28 The second found that increases in per-pupil spending led to significant increases
+in mathematics, reading, science, and social studies test scores for 4th- and 8th-grade students
+overall.29 The most recent of the three found that “changes in the state education aid following the
+education reform resulted in significantly higher student performance.”30
+Such findings have been replicated in other states, including Vermont, where studies of Act 60
+school finance reforms in the late 1990s concluded the initiative “dramatically reduced dispersion in
+education spending … by weakening the link between spending and property wealth.” The research
+also found that “student performance has become more equal in the post-Act 60 period.”31
+Many other researchers have explored the effects of specific state school finance reforms over time.
+In the early 1990s, Michigan eliminated the property tax as a source of school tax revenue and
+replaced it with state funds generated through the sales tax and a new tax earmarked to schools.32
+Proposal A dramatically improved funding equity among school districts by creating a minimum
+per-pupil foundation allowance and by accelerating funding for the low-revenue school districts
+more quickly than the other school districts, reducing inequality in spending among rich and poor
+districts. Between 1993 and 2003, both revenues and expenditures increased by 60%, while funds
+were more equitably distributed.
+
+LEARNING POLICY INSTITUTE | HOW MONEY MATTERS FOR SCHOOLS
+
+9
+
+Studies of Michigan’s school finance reforms
+have shown positive effects on student
+performance. One of these studies found that
+“Proposal A was quite successful in reducing
+interdistrict spending disparities. There was
+also a significant positive effect on student
+performance in the lowest spending districts as
+measured in state tests.”33 Another study found
+significant positive effects on achievement in the
+previously lower performing districts.34
+
+A growing body of research
+demonstrates that state school
+finance reforms can have large,
+positive effects on student
+outcomes, raising educational
+attainment and reducing gap.
+
+Similarly, a study of the effects of 1992 school
+finance reforms in Kansas, which also involved primarily a leveling up of low-spending districts,35
+found that a 20% increase in spending was associated with a 5% increase in the likelihood of
+students going on to postsecondary education.36
+To summarize, a growing body of research demonstrates that state school finance reforms can have
+large, positive effects on student outcomes, raising educational attainment and reducing gaps.
+
+The Costs of Common Outcomes
+A related body of studies has sought to determine the predicted cost of achieving state-mandated
+outcome targets, and the weights or adjustments needed for children with different backgrounds to
+have equal opportunity to achieve those goals. These studies find that:
+• It costs more to achieve higher outcome goals—such as higher graduation rates or
+test scores for all children—than lower outcome goals, all else being equal.37
+• Student characteristics make a difference for costs. In particular, as concentrated
+poverty increases, the costs of achieving any given level of outcomes increase
+significantly.38
+• District features, especially size, also matter. The per-pupil costs of achieving a
+given level of outcomes are sensitive to district structural characteristics, most
+notably, economies of scale.39
+As common sense would suggest, it takes more money to get a more ambitious job done, and it
+takes more when students have greater needs. In fact, in a school district in which 100% of the
+children come from low-income households, the costs of achieving common outcome goals may be
+double (or more) than those of a district with no children from low-income households.
+
+10
+
+LEARNING POLICY INSTITUTE | HOW MONEY MATTERS FOR SCHOOLS
+
+How Money Is Used Matters
+That money matters for improving school quality is grounded in the premise that having more
+money provides schools and districts the opportunity to improve the qualities and quantities of
+school- and classroom-level resources.
+The primary resources involved in the production of schooling outcomes are human resources:
+quantities and qualities of teachers, administrators, support, and other staff in schools. Quantities
+of school staff are reflected in pupil-to-teacher ratios and average class sizes. Reduction of class
+sizes or reductions of total teaching or specialist caseloads requires additional staff, thus additional
+money, assuming the wages and benefits for additional staff remain constant. Qualities of school
+staff depend in part on the compensation available to recruit and retain the staff—specifically
+salaries and benefits, in addition to working conditions. Notably, working conditions may
+be reflected in part through measures of workload, such as average class sizes, as well as the
+composition of the student population.
+A 2015 study explored how specific schooling resources responded to shifts in funding. The
+researchers found that spending increases were associated with noticeable improvements in wages,
+smaller pupil-teacher ratios, and longer school years.40 These investments in schooling resources
+that occurred as a result of school finance reforms were likely responsible for the resultant gains in
+student outcomes. Such findings are consistent with studies validating the link between spending
+and staffing quantities.41
+Increased funding tends to lead to reduced class size as districts hire more teachers.42 A significant
+body of research points to the effectiveness of class-size reduction for improving student outcomes
+and reducing gaps among students, especially for younger students and those who have been
+previously low-achieving.43 These reductions for young children have long-term effects on
+outcomes many years into the future.44 Often studies find that the effects of class size reduction on
+achievement are greatest when certain smaller class thresholds (such as 15 or 18) are reached, and
+are most pronounced for students of color and those in schools serving concentrations of students
+in poverty.45
+A 2013 study provides the most direct cost-effectiveness comparison of class size reduction policies
+with other options for which sufficient data on costs and outcome benefits were available, finding
+that “if focused on students in the poorest third of schools, then the cost-effectiveness of class size
+reduction is within the range of other interventions.”46
+A recent comprehensive meta-analysis of programs and strategies for improving outcomes for
+children from low-income households finds interventions that intensify human resources to be
+particularly effective when compared with alternatives.47 Examining 101 studies from the past
+15 years, the researchers found the largest effects on achievement were from interventions like
+tutoring, small-group instruction, and coaching or mentoring of children’s teachers.
+The major alternative to buying more staff is to invest more in each staff member—that is, to
+improve wage competitiveness in order to recruit and retain higher quality teachers and other
+school staff. Spending to achieve competitive wages also matters. A substantial body of literature
+validates the conclusion that teachers’ overall wages and relative wages affect the quality of those
+who choose to enter the teaching profession—and whether they stay once they get in. For example,
+
+LEARNING POLICY INSTITUTE | HOW MONEY MATTERS FOR SCHOOLS
+
+11
+
+one study found that salaries affect the decision to enter teaching and the duration of the teaching
+career in Michigan,48 while others concluded that higher salaries are associated with more qualified
+teachers across states.49
+And increases in teacher wages have been found in several studies to be associated with increased
+student achievement—presumably because more capable teachers can be recruited and retained.50 A
+study that adjusted for labor market differentials showed that:
+Once we adjust for labor market factors, we estimate that raising teacher wages by
+10 percent reduces high school dropout rates by 3 percent to 4 percent. Our findings
+suggest that previous studies have failed to produce robust estimates because they
+lack adequate controls for non-wage aspects of teaching and market differences in
+alternative occupational opportunities.51
+Salaries also play a potentially important role in improving the equity of student outcomes.
+Although several studies have shown that higher salaries relative to labor market norms can draw
+higher quality candidates into teaching, the evidence also indicates that relative teacher salaries
+across schools and districts may influence the distribution of teaching quality. For example, a New
+York study found that:
+(T)eachers in districts with higher salaries relative to non-teaching salaries in the
+same county are less likely to leave teaching and that a teacher is less likely to
+change districts when he or she teaches in a district near the top of the teacher salary
+distribution in that county.52
+In short, although salaries are not the only factor involved, they do affect the quality of the
+teaching workforce, which in turn affects student outcomes. A permanent upward shift in the
+competitiveness of teacher wages may substantively improve the quality of the teacher workforce
+and, ultimately, student outcomes.
+At the same time, research evaluating spending constraints or reductions has revealed the potential
+harm to teaching quality that flows from leveling down or reducing spending. For example, a 2001
+study noted that “using data from the National Center for Education Statistics, we find that tax
+limits systematically reduce the average quality of education majors, as well as new public school
+teachers in states that have passed these limits.”53 The researchers also found that tax limitations
+are associated with “larger student-teacher ratios and lower cost-of-living adjusted starting teacher
+salaries, all else equal” and with “lower student performance on mathematics, science, social studies
+and reading examinations, all else equal.54
+California serves as a particularly dramatic case
+study of the long-run detrimental effects of
+strict tax and expenditure limits, following the
+tax cap imposed by Proposition 13 in 1979. A
+series of studies illustrate the negative fallout
+of Proposition 13 for the state’s public schools.
+After 20 years of declining investments, analyses
+by the RAND Corporation and the Public Policy
+Institute of California confirmed that, by 2000,
+California students performed considerably
+
+12
+
+Increases in teacher wages have
+been found in several studies
+to be associated with increased
+student achievement—presumably
+because more capable teachers
+can be recruited and retained.
+
+LEARNING POLICY INSTITUTE | HOW MONEY MATTERS FOR SCHOOLS
+
+worse than those in other states, even after adjusting for language backgrounds, ethnicity,
+and parental education.55 The RAND Corporation report found that the growing number of
+underqualified teachers contributed to growing inequality in opportunities to learn. And according
+to an analysis by Policy Analysis for California Education (PACE), the decline in funding and the
+growing inequality in access to qualified teachers caused the relationship between socioeconomic
+measures and achievement scores to grow stronger.56
+Because of school funding inequities, many local public school districts across the nation must
+serve high-need student populations with comparable or fewer financial resources than nearby
+districts serving less-needy student populations.57 This can affect both teacher quality and class
+sizes negatively. Research has shown that school funding disparities in California and New York
+were associated with disparities in teacher compensation and class sizes—the less funding, the
+less competitive the compensation and the larger the classes.58 Further, disparities in teacher
+compensation were associated with disparities in teacher qualifications, with children from
+low-income families and children of color often served by teachers with less training, education,
+and experience.
+Similarly, a national analysis identified several large states—including California, Illinois, Louisiana,
+New York, Ohio, Pennsylvania, and Virginia—in which “district spending is positively associated
+with competitive salary differentials, average teacher salaries, and numbers of certificated staff
+per 100 pupils.”59 Further, “in each of these states, district poverty rates are negatively associated
+with competitive salary differentials, average teacher salaries and numbers of certified staff per 100
+pupils.” Where high-need districts and schools have both larger classes and less competitive wages
+than their neighbors, trading off one for the other simply isn’t an option. Both large classes and
+lower quality teachers undermine educational quality for students.
+To summarize:
+• Reasonable class sizes matter for student achievement, especially in the early years
+and for students who have more educational needs or attend high-poverty schools.
+• The relative salaries of teachers, with respect to other labor market opportunities in
+non-teaching fields, can substantively affect the quality of entrants to the teaching
+profession, applicants to preparation programs, and student outcomes.
+• Diminishing resources for schools can constrain both the number of teachers and
+teacher salaries, thus reducing the quality of the labor supply.
+• Salary differentials across schools and districts—typically associated with
+unequal school funding systems—affect how teachers sort across schools within
+the profession.
+• And, not surprisingly, how much money is available affects the competitiveness of
+salaries and the reasonableness of student-teacher ratios.60
+
+LEARNING POLICY INSTITUTE | HOW MONEY MATTERS FOR SCHOOLS
+
+13
+
+Conclusions
+The preponderance of evidence shows that resources do matter—and that state school finance
+reforms that create more adequate and equitable funding can improve student outcomes, especially
+for students from low-income families.
+First, improvements in the adequacy and equity of per-pupil spending are positively associated with
+improved student outcomes. In some studies, the size of this effect is larger than in others, and, in
+some cases, additional funding appears to matter more for some students than for others—typically
+for students with the greatest educational needs. Clearly, there are other factors that moderate the
+influence of funding on student outcomes, such as how that money is spent. But the association of
+higher spending with better student outcomes holds true, on average, even in large-scale studies
+across multiple contexts. On balance, in direct tests of the relationship between financial resources
+and student outcomes, money matters.
+Second, schooling resources that cost money, including class-size reductions and increased teacher
+compensation, are positively associated with student outcomes, especially when they are used
+strategically—for example, when resources are used to create optimal class sizes for young children
+and those with greater needs, and when investments in salaries are used to improve teacher quality.
+Third, sustained improvements to the level and distribution of funding across local public school
+districts have been shown to lead to improvements in the level and distribution of student
+outcomes, ranging from graduation rates to educational attainment and wages. While money alone
+may not be the answer, adequate and equitable distributions of financial inputs to schooling provide
+a necessary underlying condition for improving the adequacy and equity of outcomes. If the money
+is there, schools can use it productively; if it is not, they cannot. But proper use of funds is also
+important. Evidence from Massachusetts, in particular, suggests that appropriate combinations of
+more funding with accountability grounded in thoughtful standards for students and teachers may
+be most promising.
+Given the preponderance of evidence that resources do matter and that state school finance reforms
+can effect changes in student outcomes, it seems surprising that doubt has persisted. In many cases,
+direct assertions are made that schools can do more with less money; that money is not a necessary
+underlying condition for school improvement; and, in the most extreme cases, that cuts to funding
+might actually stimulate improvements that past funding increases have failed to accomplish.
+There is no evidence for these claims. On the
+contrary, there is evidence that money does
+matter. Schools and districts with more money
+clearly have a greater ability to provide higher
+quality, broader, and deeper educational
+opportunities to the children they serve.
+Furthermore, in the absence of adequate funding,
+or in the aftermath of deep cuts to existing
+funding, schools are unable to do many of the
+things necessary to develop or maintain the key
+elements of quality education, and achievement
+ultimately declines.
+
+14
+
+Resources do matter, and state
+school finance reforms that create
+more adequate and equitable
+funding can improve student
+outcomes, especially for students
+from low-income families.
+
+LEARNING POLICY INSTITUTE | HOW MONEY MATTERS FOR SCHOOLS
+
+Without adequate funding, efficiency trade-offs (like focusing on teacher quality versus teacher
+quantity) and innovations (like blended learning) that are broadly endorsed are impossible to
+consider. One cannot trade spending money on class-size reductions for an increase in teacher
+salaries to improve teacher quality if funding is not there for either—if class sizes are already large
+and teacher salaries noncompetitive. And when these conditions occur where student needs are
+greatest, the ability to provide the resources necessary to close learning gaps is missing.
+The available evidence leaves little doubt: Sufficient financial resources, equitably distributed in
+relation to pupil needs, are a necessary underlying condition for providing quality education.
+
+LEARNING POLICY INSTITUTE | HOW MONEY MATTERS FOR SCHOOLS
+
+15
+
+Endnotes
+1.
+
+See for example, Hanushek, E. (2003). The structure of analysis and argument in plaintiff expert reports for
+Williams v. State of California, p. 4. http://www.decentschools.org/expert_reports/hanushek_report.pdf.
+
+2.
+
+For a comprehensive review of research on the effectiveness of early childhood education programs, see
+Barnett, W. S. (2011). Effectiveness of early educational intervention. Science 333(6045), 975–978.
+
+3.
+
+Baker, B. D. (2016). Does money matter in education? Washington, DC: Albert Shanker Institute.
+
+4.
+
+Baker, B. D. (2016). Does money matter in education? Washington, DC: Albert Shanker Institute.
+
+5.
+
+A later article by Hanushek, reiterating and updating his earlier findings, also shows up as widely cited
+in the Social Science Citation Index: Hanushek, E. A. (1997). Assessing the effects of school resources on
+student performance: An update. Educational Evaluation and Policy Analysis 19(2): 141–164.
+
+6.
+
+Hanushek, E. A. (1986).“Economics of schooling: Production and efficiency in public schools,” Journal
+of Economic Literature 24(3): 1141–1177. A few years later, Hanushek paraphrased this conclusion as
+“Variations in school expenditures are not systematically related to variations in student performance”
+in Hanushek, E. A. (1989). “The impact of differential expenditures on school performance,” Educational
+Researcher 18(4): 45–62.
+
+7.
+
+R. Greenwald, L. Hedges and R. Laine, “The Effect of School Resources on Student Achievement,” Review of
+Educational Research 66, no. 3 (1996): 361–396.
+
+8.
+
+R. Greenwald, L. Hedges and R. Laine, “The Effect of School Resources on Student Achievement,” Review of
+Educational Research 66, no. 3 (1996): 361–396.
+
+9.
+
+H. Wenglinsky, “How Money Matters: The Effect of School District Spending on Academic Achievement,”
+Sociology of Education 70, no. 3 (1997): 221–237, at p. 221.
+
+10. Ferguson, R. (1991). Paying for public education: New evidence on how and why money matters. Harvard
+Journal on Legislation, 28, 465–498.
+11. C. Taylor. “Does Money Matter? An Empirical Study Introducing Resource Costs and Student Needs into
+Educational Production Function Analysis,” in Developments in School Finance, 1997, ed. W. J. Fowler Jr.
+(Washington, DC: U.S. Department of Education, National Center for Education Statistics, 1998), http://
+nces.ed.gov/pubs98/98212.pdf#page=83.
+12. B. D. Baker, “Can Flexible Non-Linear Modeling Tell Us Anything New About Educational Productivity?”
+Economics of Education Review 20, no. 1 (2001): 81–92; D. N. Figlio, “Functional Form and the Estimated
+Effects of School Resources,” Economics of Education Review 18, no. 2 (1999): 242–252; and J. Dewey, T.
+Husted and L. Kenny, “The Ineffectiveness of School Inputs: A Product of Misspecification,” Economics of
+Education Review 19, no. 1 (2000): 27–45.
+13. For a more complete review of these studies, see Baker, B. D. (2017, October 20). School funding
+myths & misdirects [Blog post]. Retrieved from https://schoolfinance101.wordpress.com/2017/10/20/
+school-funding-myths-misdirects/.
+14. Card, D., & Payne, A. A. (2002). School Finance Reform, the Distribution of School Spending, and the
+Distribution of Student Test Scores. Journal of Public Economics, 83(1), 49–82, at p. 49.
+15. One publicly available longitudinal data set can be found at: Baker, B. D., Srikanth, A., & Weber, M. A.
+(2016). Rutgers Graduate School of Education/Education Law Center: School Funding Fairness Data System.
+http://www.schoolfundingfairness.org/data-download.
+16. Jackson, C. K., Johnson, R. C., & Persico, C. (2015). The effects of school spending on educational and
+economic outcomes: Evidence from school finance reforms (NBER working paper #20847). Cambridge, MA:
+National Bureau of Economic Research.
+17. Jackson, C. K., Johnson, R. C., & Persico, C. (2015). The effects of school spending on educational and
+economic outcomes: Evidence from school finance reforms (NBER working paper #20847). Cambridge, MA:
+National Bureau of Economic Research.
+
+16
+
+LEARNING POLICY INSTITUTE | HOW MONEY MATTERS FOR SCHOOLS
+
+18. Lafortune, J., Rothstein, J., & Schanzenbach, D. W. (2015). School finance reform and the distribution of
+student achievement. (Working paper). University of California at Berkeley. http://eml.berkeley.edu/~jrothst/workingpapers/LRS_schoolfinance_120215.pdf.
+19. Lafortune, J., Rothstein, J., & Schanzenbach, D. W. (2015). School finance reform and the distribution of
+student achievement. (Working paper). University of California at Berkeley. http://eml.berkeley.edu/~jrothst/workingpapers/LRS_schoolfinance_120215.pdf.
+20. Baker, B. D., & Weber, M. (2016). Beyond the echo chamber: State investments and student outcomes in
+U.S. elementary and secondary education. Journal of Education Finance, 42(1), 1–27; See also: Baker, B. D.,
+Farrie, D., & Sciarra, D. G. (2016). Mind the gap: 20 years of progress and retrenchment in school funding
+and achievement gaps. ETS Research Report Series, 2016(1), 1–37.
+21. Candelaria, C., & Shores, K. (2017). Court-ordered finance reforms in the adequacy era: Heterogeneous causal
+effects and sensitivity. Stanford, CA: Center for Educational Policy Analysis.
+22. Baker, B. D. (2016). School finance & the distribution of equal educational 0pportunity in the postrecession U.S. Journal of Social Issues, 72(4), 629–655; See also Baker, B. D. (2016). Review of “School
+spending and student achievement in Michigan: What’s the relationship?” Boulder, CO: National Education
+Policy Center.
+23. Hanushek, E. A., & Lindseth, A. A. (2009). Schoolhouses, Courthouses, and Statehouses: Solving the FundingAchievement Puzzle in America’s Public Schools. Princeton, NJ: Princeton University Press.
+24. McDuffy v. Secretary of the Executive Office of Education, 415 Mass. 545 (1993).
+25. Defining Adequate School Funding Level In Massachusetts. (2017). http://www.doe.mass.edu/finance/
+chapter70/chapter-cal.pdf.
+26. Massachusetts Budget and Policy Center. (2010). Demystifying the chapter 70 formula: How the
+Massachusetts education funding system works. Boston, MA: Author. http://www.massbudget.org/
+report_window.php?loc=Facts_10_22_10.html.
+27. Hancock v. Driscoll, 443 Mass. 428 (2005).
+28. Downes, T. A., Zabel, J., & Ansel, D. (2009). Incomplete grade: Massachusetts education reform at 15.
+Boston, MA: MassINC, 5.
+29. The magnitudes imply that a $1,000 increase in per-pupil spending leads to approximately a one
+third to one half of a standard deviation increase in average test scores. It is noted that the state aid
+driving the estimates is targeted to underfunded school districts, which may have atypical returns to
+additional expenditures. Guryan, J. (2001). Does money matter? Regression-discontinuity estimates from
+education finance reform in Massachusetts (Working Paper No. 8269). Cambridge, MA: National Bureau of
+Economic Research.
+30. Nguyen-Hoang, P., & Yinger, J. (2014). Education finance reform, local behavior, and student performance
+in Massachusetts. Journal of Education Finance, 39, 297–322, at p. 297.
+31. Downes, T. A. (2004). “School finance reform and school quality: Lessons from Vermont” in Yinger, J. (Ed.),
+Helping Children Left Behind: State Aid and the Pursuit of Educational Equity, 283–313, at p. 312. Cambridge,
+MA: MIT Press.
+32. Lockwood, A. School finance reform in Michigan: Proposal A–A retrospective. Lansing, MI: Office of
+Revenue and Tax Analysis, Michigan Department of Treasury. https://www.michigan.gov/documents/
+propa_3172_7.pdf.
+33. Roy, J. (2011). Impact of school finance reform on resource equalization and academic performance:
+Evidence from Michigan. Education Finance and Policy, 6(2), 137–167, at p. 137.
+34. Papke, L. (2005). The effects of spending on test pass rates: Evidence from Michigan. Journal of Public
+Economics, 89(5–6), 821–839.
+35. Llopis-Jepsen, C. (2014, January 19). School finance shaped by history of lawsuits. The Topeka
+Capital-Journal. http://cjonline.com/news-education-state-government-state/2014-01-19/
+school-finance-shaped-history-lawsuits.
+
+LEARNING POLICY INSTITUTE | HOW MONEY MATTERS FOR SCHOOLS
+
+17
+
+36. Deke, J. (2003). A study of the impact of public school spending on postsecondary educational attainment
+using statewide school district refinancing in Kansas. Economics of Education Review, 22, 275–284.
+37. Duncombe, W., & Yinger, J. (2000). Financing higher student performance standards: The case of New
+York State. Economics of Education Review 19, no. 4, 363–386; Reschovsky, A., & Imazeki, J. (2001).
+Achieving Educational Adequacy through School Finance Reform. Journal of Education Finance, 373–396;
+Imazeki, J., & Reschovsky, A. (2004). Is No Child Left Behind an un (or under) funded federal mandate?
+Evidence from Texas. National Tax Journal, 571–588; Imazeki, J., & Reschovsky, A. (2006). Does No Child
+Left Behind place a fiscal burden on states? Evidence from Texas. Education Finance and Policy 1, no. 2,
+217–246; Imazeki, J., & Reschovsky, A. (2005). Assessing the use of econometric analysis in estimating
+the costs of meeting state education accountability standards: Lessons from Texas. Peabody Journal of
+Education 80, no. 3, 96–125.
+38. Downes, T. A., & Pogue, T. F. (1994). Adjusting school aid formulas for the higher cost of educating
+disadvantaged students. National Tax Journal, 89–110; Duncombe, W., & Yinger, J. (1998). School finance
+reform: Aid formulas and equity objectives. National Tax Journal, 239–262; Duncombe, W., & Yinger,
+J. (1997). Why is it so hard to help Central City schools? Journal of Policy Analysis and Management 16,
+no. 1, 85–113; Duncombe, W., & Yinger, J. (2005). How much more does a disadvantaged student cost?
+Economics of Education Review 24, no. 5, 513–532.
+39. See Baker, B. D. (2005). The emerging shape of educational adequacy: From theoretical assumptions
+to empirical evidence. Journal of Education Finance, 259–287; See also Andrews, M., Duncombe, W., &
+Yinger, J. (2002). Revisiting economies of size in American education: Are we any closer to a consensus?
+Economics of Education Review 21, no. 3, 245–262; Duncombe, W., Miner, J., & Ruggiero, J. (1995). Potential
+cost savings from school district consolidation: A case study of New York. Economics of Education Review
+14, no. 3, 265–284; Imazeki, J., & Reschovsky, A. (2003). Financing adequate education in rural settings.
+Journal of Education Finance, 137–156; Gronberg, T. J., Jansen, D. W., & Taylor, L. L. (2011). The impact of
+facilities on the cost of education. National Tax Journal 64, no. 1, 193–218.
+40. Jackson, C. K., Johnson, R., & Persico, C. (2015). The effects of school spending on educational and economic
+outcomes: Evidence from school finance reforms. (NBER Working Paper No. 20847). Cambridge, MA:
+National Bureau of Economic Research.
+41. Baker, B. D., & Weber, M. (2016). Beyond the echo chamber: State investments and student outcomes in
+U.S. elementary and secondary education. Journal of Education Finance, 42(1), 1–27.
+42. See also: Baker, B. D., Farrie, D., & Sciarra, D. G. (2016). Mind the gap: 20 years of progress and retrenchment in school funding and achievement gaps. ETS Research Report Series, 2016(1), 1–37.
+43. Baker, B. D. (2016). Does money matter in education? Washington, DC: Albert Shanker Institute; Finn, J. D.,
+& Achilles, C. M. (2009). Tennessee’s class size study: Findings, implications, misconceptions. Educational
+Evaluation and Policy Analysis, 21(2), 97–109; Finn, J. D., Gerber, S. B., Achilles, C. M., & Boyd-Zaharias,
+J. (2001). The enduring effects of small classes. Teachers College Record, 103(2), 145–183; Krueger, A.
+(2001). Would smaller class sizes help close the black-white achievement gap? (Working Paper No. 451).
+Princeton, NJ: Industrial Relations Section, Department of Economics, Princeton University; Levin, H.
+M. (2007). The public returns to public educational investments in African American males. Economics
+of Education Review 26(6), 699–708; Konstantopoulos, S., & Chun, V. (2009). What are the long-term
+effects of small classes on the achievement gap? Evidence from the lasting benefits study. American
+Journal of Education, 116(1), 125–154; Krueger, A. (1999). Experimental estimates of education production
+functions. Quarterly Journal of Economics, 114(2), 497–532; Dynarski, S., Hyman, J., & Schanzenbach, D.
+W. (2013). Experimental evidence on the effect of childhood investments on postsecondary attainment
+and degree completion. Journal of Policy Analysis and Management, 32(4), 692–717; Chetty, R., Friedman, J.
+N., Hilger, N., Saez, E., Schazenbach, D. W. & Yagan, D. (2010). How does your kindergarten classroom affect
+your earnings? Evidence from Project STAR (NBER Working Paper No. 16381). Cambridge, MA: National
+Bureau of Economic Research; Lubienski, S. T., Lubienski, C., & Crawford-Crane, C. (2008). Achievement
+differences and school type: The role of school climate, teacher certification, and instruction. American
+Journal of Education, 115, 97–138.
+44. Kim, J. (2006/2007). The relative influence of research on class-size policy. Brookings Papers on Education
+Policy, 273–295; Glass, G. V., & Smith, M. (1979). Meta-analysis of class size and achievement. Educational
+Evaluation and Policy Analysis, 1(1), 2–16.
+
+18
+
+LEARNING POLICY INSTITUTE | HOW MONEY MATTERS FOR SCHOOLS
+
+45. Mosteller, F. (1995). The Tennessee study of class size in the early school grades. The future of children,
+113–127; Nye, B., Hedges, L. V., & Konstantopoulos, S. (1999). The long-term effects of small classes: A
+five-year follow-up of the Tennessee class size experiment. Evaluation and Policy Analysis, 21(2), 127–142;
+Kim, J. (2006/2007). The relative influence of research on class-size policy. Brookings Papers on Education
+Policy, 273–295.
+46. Dynarski, S., Hyman, J., & Schanzenbach, D. W. (2013). Experimental Evidence on the Effect of Childhood
+Investments on Postsecondary Attainment and Degree Completion. Journal of Policy Analysis and
+Management, 32(4), 692–717.
+47. Dietrichson, J., Bøg, M., Filges, T., & Klint Jørgensen, A. M. (2017). Academic interventions for elementary
+and middle school students with low socioeconomic status: A systematic review and meta-analysis.
+Review of Educational Research, 87(2), 243–282. For a summary of the findings of this article, see: https://
+fredrikdeboer.com/2017/05/16/study-of-the-week-what-actually-helps-poor-students-human-beings/.
+48. Murnane, R. J., & Olsen, R. (1989). The effects of salaries and opportunity costs on length of state in
+teaching: Evidence from Michigan. Review of Economics and Statistics, 71, 347–352.
+49. Figlio, D. N. (1997). Teacher salaries and teacher quality. Economics Letters, 55, 267–271. Figlio, D. N.
+(2002). Can public schools buy better-qualified teachers? Industrial and Labor Relations Review, 55,
+686–699; See also, Ferguson, R. (1991). Paying for public education: New evidence on how and why money
+matters. Harvard Journal on Legislation, 28, 465–498.
+50. Ferguson, R. (1991). Paying for public education: New evidence on how and why money matters. Harvard
+Journal on Legislation, 28, 465–498; Greenwald, R., Hedges, L. V., & Laine, R. D. (1996). The Effect of
+School Resources on Student Achievement. Review of Educational Research, 66(3), 361–396; Loeb, S., &
+Page, M. (2000). Examining the link between teacher wages and student outcomes: The importance of
+alternative labor market opportunities and non-pecuniary variation. Review of Economics and Statistics,
+82, 393–408.
+51. Loeb, S., & Page, M. (2000). Examining the link between teacher wages and student outcomes: The
+importance of alternative labor market opportunities and non-pecuniary variation. Review of Economics
+and Statistics, 82, 393–408.
+52. Ondrich, J., Pas, E., & Yinger, J. (2008). The determinants of teacher attrition in upstate New York. Public
+Finance Review, 36(1), 112–144.
+53. Figlio, D. N., & Rueben, K. (2001). Tax limits and the qualifications of new teachers. Journal of Public
+Economics, 80(1), 49–71; See also Downes, T. A., & Figlio, D. N. (1999). Do tax and expenditure limits
+provide a free lunch? Evidence on the link between limits and public sector service quality. National Tax
+Journal, 52, 113–128.
+54. Figlio, D. N. (1997). Did the “tax revolt” reduce school performance? Journal of Public Economics, 65(3),
+245–269.
+55. Carroll, S., Reichardt, R., & Guarino, C. (2000). The distribution of teachers among California’s school
+districts and schools. Santa Monica, CA: RAND Corporation; Sonstelie, J., Brunner, E., & Ardon, K. (2000).
+For better or for worse? School finance reform in California. San Francisco, CA: Public Policy Institute
+of California.
+56. Policy Analysis for California Education (2000). Crucial issues in California education 2000: Are the reform
+pieces fitting together? Stanford, CA: Author.
+57. Baker, B. D. (2014). America’s most financially disadvantaged school districts and how they got that way: How
+state and local governance causes school funding disparities. Washington, DC: Center for American Progress.
+58. Adamson, F., & Darling-Hammond, L. (2012). Funding disparities and the inequitable distribution of
+teachers: Evaluating sources and solutions. Education Policy Analysis Archives, 20, 37. http://epaa.asu.edu/
+ojs/article/view/1053.
+59. Baker, B. D., & Weber, M. (2016). State school finance inequities and the limits of pursuing teacher equity
+through departmental regulation. Education Policy Analysis Archives, 24, 47.
+60. Baker, B. D., Farrie, D., & Sciarra, D. G. (2016). Mind the gap: 20 years of progress and retrenchment in
+school funding and achievement gaps. ETS Research Report Series, 2016(1), 1–37.
+
+LEARNING POLICY INSTITUTE | HOW MONEY MATTERS FOR SCHOOLS
+
+19
+
+20
+
+LEARNING POLICY INSTITUTE | HOW MONEY MATTERS FOR SCHOOLS
+
+LEARNING POLICY INSTITUTE | HOW MONEY MATTERS FOR SCHOOLS
+
+21
+
+About the Author
+Bruce Baker is a professor in the Graduate School of Education at Rutgers in New Jersey. From
+1997 to 2008, he was a professor at the University of Kansas in Lawrence. He co-authored
+Financing Education Systems, a graduate-level textbook on school finance policy, and has written a
+multitude of peer-reviewed research articles on state school finance policy, teacher labor markets,
+school leadership labor markets, and higher education finance and policy. His recent work has
+focused on measuring cost variations associated with schooling contexts and student population
+characteristics, including ways to improve state school finance policies and local district allocation
+formulas (including weighted student funding) to better meet the needs of students. Baker has also
+consulted for state legislatures, boards of education, and other organizations on education policy
+and school finance issues.
+
+22
+
+LEARNING POLICY INSTITUTE | HOW MONEY MATTERS FOR SCHOOLS
+
+1530 Page Mill Road, Suite 200
+Palo Alto, CA 94304
+p: 650.332.9797
+1301 Connecticut Avenue NW, Suite 500
+Washington, DC 20036
+p: 202.830.0079
+@LPI_Learning | learningpolicyinstitute.org
+The Learning Policy Institute conducts and communicates independent, high-quality research to improve education
+policy and practice. Working with policymakers, researchers, educators, community groups, and others, the Institute
+seeks to advance evidence-based policies that support empowering and equitable learning for each and every child.
+Nonprofit and nonpartisan, the Institute connects policymakers and stakeholders at the local, state, and federal
+levels with the evidence, ideas, and actions needed to strengthen the education system from preschool through
+college and career readiness.
+
+

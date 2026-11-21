@@ -1,0 +1,1142 @@
+Talented and Gifted
+Education: Best
+Practices for Programs
+and Services
+Quality Education Commission Best
+Practices White Paper Series
+Oregon Department of Education
+Office of Teaching, Learning, and Assessment
+March 2026
+
+
+--- OCR of this page (tesseract), not checked by a person: check the PDF before quoting or copying a figure ---
+Talented and Gifted
+Education: Best
+Practices for Programs
+
+and Services
+
+Quality Education Commission Best
+Practices White Paper Series
+Oregon Department of Education
+
+Office of Teaching, Learning, and Assessment
+
+March 2026
+
+ia
+
+OREGON QUALITY
+
+DEPARTMENT OF EDUCATION
+EDUCATION COMMISSION
+
+Contents
+Executive Summary ..................................................................................................................... 2
+Introduction ................................................................................................................................. 5
+Literature Review: Foundational Instructional Strategies .......................................................... 7
+Prevalent Challenges in TAG Education ...................................................................................... 8
+Shifting Practices: Systemic & Instructional Alignment ............................................................ 10
+Policy and Resource Alignment ................................................................................................. 16
+Evaluation and Impact Assessment........................................................................................... 17
+Conclusion ................................................................................................................................. 19
+References ................................................................................................................................. 21
+Appendix: Example of a PEP from an Oregon district ............................................................... 23
+
+1
+
+Executive Summary
+Talented and Gifted (TAG) education is the intentional practice of identifying and cultivating the
+exceptional strengths and advanced readiness found within our diverse student population.
+TAG education in the state of Oregon upholds a commitment to academic excellence and
+educational equity, ensuring that student’s unique strengths are met with responsive, highleverage instructional practices. While Oregon’s administrative rules provide a clear, shared
+vision for identification and service, they also offer districts the flexibility to build tailored
+support systems for their unique student populations.
+Oregon Administrative Rule 581-022-2500 requires districts to develop a district-level TAG plan
+and specifies that instruction provided by districts must be specifically designed to
+accommodate a TAG student's assessed level of learning (the depth, complexity, and gradelevel of instructional materials) and accelerated rate of learning (pass at which they
+progress).The primary requirement for districts is to ensure that daily instruction for TAGidentified students (provided each day, throughout the day) is directly aligned with the learning
+evidence used to determine the student's unique learning needs. This approach moves beyond
+a "one-size-fits-all" model by requiring educators to tailor both the content and the pace of
+delivery to the individual. By bridging the gap between identification and classroom practice,
+the district ensures that every student receives a personalized educational experience that
+maximizes their opportunities to learn at their assessed rate and level and prevents learning
+stagnation.
+This report outlines the high-leverage instructional practices that fulfill the state mandate to
+provide services to students identified as talented and gifted, followed by an analysis of the
+staffing and professional learning hurdles that limit their consistent implementation. It explores
+solutions focused on systemic and instructional alignment and proposes a number of
+implementation strategies, the essential mindsets and skills supporting teachers to provide the
+conditions students deserve and the opportunities for meaningful state-level support.
+By implementing a suite of high-leverage instructional strategies and shifting the focus from a
+standardized delivery to a model that respects each student’s actual rate of learning, educators
+can provide the specialized support required for advanced learners while simultaneously
+elevating the quality of instruction for all students. Research shows that the following practices
+are key to effectively support the diverse needs of TAG learners:
+1. Curriculum Compacting
+2. Tiered lessons
+3. Differentiation/Depth/Complexity
+2
+
+4. Acceleration
+The path to educational equity and excellence lies in creating a seamless connection between
+district-wide systems and the daily experiences of students in the classroom. By fostering
+systemic and instructional alignment, districts can transform mandates into everyday classroom
+practices that celebrate student readiness based on their assessed rate and level of learning.
+The following strategies are key to this approach:
+1. High-leverage instructional practices, including formative assessment coupled with
+responsive teaching, eliminating redundancy of mastered content, promoting student
+agency;
+2. Cultivating internal expertise by providing staff with specialization training, using a
+“train the trainer” model to provide multi-layered professional learning for all
+instructional staff to ensure every educator has access to training in social-emotional
+learning (SEL), differentiation & curriculum compacting, equitable TAG identification,
+and developing individual student plans; and
+3. Providing more pathways to equitable identification.
+That said, districts across Oregon currently face a number of impediments to providing
+equitable and effective TAG services to TAG-identified students as required by law. The primary
+barriers include:
+•
+
+Inconsistent access to high leverage instructional practices designed to provide
+academic challenge in teacher preparation programs
+
+•
+
+A shortage of gifted education practitioners with expertise in the specialized affective
+needs of gifted students
+
+•
+
+Limited professional development opportunities offered by districts to grow these skills
+across staff.
+
+In Oregon, school districts receive the majority of their operational funds through the State
+School Fund (SSF), which is distributed using a per-student weighting formula; this funding
+formula does not currently provide an automatic funding weight for TAG students. As such,
+districts must decide how much of their general budget to designate for TAG identification and
+services, with a resulting range in dedicated funds districts allocate for TAG education that
+varies widely from several hundred dollars to $0 per TAG-identified student. The opportunity
+exists for districts to prioritize and leverage ESSA allowances under Title 1 and 2A funds,
+ensuring that every student’s learning needs are met with the same robust commitment as
+other student populations. As districts consider how to best allocate available state and federal
+3
+
+funds to address barriers and offer TAG services in a manner that promotes educational equity
+and excellence, the following areas offer strategic investment opportunities:
+1. Professional Development Resource Allocation
+2. Adopting High Quality Instructional Materials
+3. Leveraging State-Level Partnership
+To maximize impact, TAG programs must be treated as a systemic educational necessity rather
+than an optional and occasional enrichment opportunity. Achieving educational equity and
+excellence will necessitate addressing specialized staffing shortages by providing funding, either
+at the state or district-level, for teachers to obtain a certified TAG specialization. An investment
+in educators who provide rigorous academic content and necessary affective support pays
+dividends when they are positioned to provide professional learning and coaching to others.
+This approach must also be paired with equitable practices like universal screening and the use
+of multiple identification pathways to find talent in underrepresented populations and ensure a
+student’s background does not limit access to advanced services. By adopting a robust, lineitem budget for specialized training and then focusing professional learning on high-leverage
+practices such as curriculum compacting, districts can actively challenge students working
+above grade level. Ultimately, this systemic approach guarantees the primary equity metric for
+TAG programs: that every TAG student gains at least one full year of measurable academic and
+affective growth for every year spent in school.
+
+4
+
+Introduction
+Talented and Gifted (TAG) education is the intentional practice of identifying and cultivating the
+exceptional strengths and advanced readiness found within our diverse student population.
+Every learner deserves a school experience that addresses and respects their pace of learning
+and provides academic challenges necessary to elevate their intellectual and social-emotional
+growth. TAG education in the state of Oregon upholds a commitment to academic excellence
+and educational equity, ensuring that student’s unique strengths are met with responsive, highleverage instructional practices.
+To appreciate the current landscape of Talented and Gifted (TAG) education in Oregon, it is
+helpful to examine the collaborative relationship between state-level guidance and the
+localized leadership within individual districts. While Oregon’s administrative rules provide a
+clear, shared vision for identification and service, they also offer districts the flexibility to build
+tailored support systems for their unique student populations.
+This report outlines the high-leverage instructional practices that fulfill the state mandate to
+provide services to students identified as talented and gifted, followed by an analysis of the
+staffing and professional learning hurdles that limit their consistent implementation. It explores
+solutions focused on systemic and instructional alignment and proposes a number of
+implementation strategies, the essential mindsets and skills supporting teachers to provide the
+conditions students deserve and the opportunities for meaningful state-level support.
+
+State-Level Support (ODE)
+State-level leadership for TAG education is anchored in a dedicated TAG education specialist
+position, funded through a strategic carve-out from the State School Fund (SSF). This position
+serves as a resource for the entire state, providing essential technical assistance on equitable
+TAG identification, instructional services, and district-level training that are aligned with the
+requirements set out in the Standards for Oregon Public Elementary and Secondary Schools
+(Division 22). By delivering both virtual and in-person professional learning, including annual
+training for district coordinators and workshops on K–12 instructional practices, this position
+empowers licensed and support staff across Oregon. Through partnerships with ESDs and
+dedicated office hours, ODE fosters a culture of family advocacy and continuous improvement,
+ensuring that the Division 22 Standards assurance process remains a reliable benchmark for
+educational excellence in TAG.
+
+5
+
+District-Level Requirements
+By law (OAR 581-022-2500), districts must develop a district-level TAG plan using the Oregon
+Department of Education's TAG Template Instructions Companion Guide. The template
+provides a universal framework for school districts to develop, submit, and maintain their TAG
+Education Plans.
+Mandatory TAG Education Plan Components
+Every district TAG Education Plan is required to address:
+•
+
+School District Policy: A detailed list of local board policies governing TAG education,
+including the district’s mission and how it addresses students' intellectual and academic
+needs.
+
+•
+
+Identification of TAG-Eligible Students: A description of the identification process,
+including the use of multiple data collection methods, culturally responsive practices,
+and universal screening tools. Districts must document practices used to minimize bias
+and equitably identify students from underrepresented populations, such as students
+experiencing disabilities and culturally, linguistically, and economically diverse students.
+
+•
+
+Instructional Services and Approaches: A comprehensive list of services (e.g., cluster
+grouping, acceleration, differentiated instruction) provided at the elementary, middle,
+and high school levels.
+
+•
+
+Plan for Continuous Improvement: Includes three SMART goals for program and service
+improvement including but not limited to: professional learning for educators, equitable
+identification practices, instructional services, family engagement, and an evaluation
+protocol to measure effectiveness of specific TAG practices.
+
+•
+
+Communication with Families: Plans must detail how the district communicates with
+families, including notification of testing dates, program options, and the right to file a
+complaint.
+
+Key Instructional Requirement
+OAR 581-022-2500(3): specifies that instruction provided by districts must be specifically
+designed to accommodate a TAG student's assessed level of learning (the depth, complexity,
+and grade-level of instructional materials) and accelerated rate of learning (pass at which they
+progress).The primary requirement for districts is to ensure that daily instruction for TAGidentified students (provided each day, throughout the day) is directly aligned with the learning
+evidence used to determine the student's unique learning needs. This approach moves beyond
+a "one-size-fits-all" model by requiring educators to tailor both the content and the pace of
+delivery to the individual. By bridging the gap between identification and classroom practice,
+6
+
+the district ensures that every student receives a personalized educational experience that
+maximizes their opportunities to learn at their assessed rate and level and prevents learning
+stagnation.
+
+Literature Review: Foundational Instructional
+Strategies
+By implementing a suite of high-leverage instructional strategies, educators can provide the
+specialized support required for advanced learners while simultaneously elevating the quality
+of instruction for all students. These practices are not designed to be additional or
+supplemental tasks; rather, they are essential refinements to the pace, depth, and complexity
+of the core curriculum. By shifting the focus from a standardized delivery to a model that
+respects each student’s actual rate of learning, districts can replace redundant assignments
+with meaningful, rigorous engagement that keeps every learner challenged and engaged.
+Research shows that the following practices are key to effectively support the diverse needs of
+TAG learners:
+1. Curriculum Compacting
+This strategy involves streamlining the curriculum for students who have already mastered
+certain concepts, allowing them to move on to more rigorous activities and advance in gradelevel standards ahead of the typical pacing of the regular classroom. Using this method,
+teachers eliminate 24%-70% of the curriculum without negative effects on test scores. This
+practice is essential for reclaiming the “six months of wasted class time” identified by The
+National Teacher’s Project (TNTP) in its landmark 2018 study, The Opportunity Gap.
+2. Tiered lessons
+In a classroom setting, tiered instruction is a differentiation strategy where all students work
+toward the same essential learning goal, but the pathway to that goal is customized based on
+their current readiness, interests, or learning profiles. Rather than giving every student the
+same assignment, a teacher tiers the lessons and assignments into different levels of depth or
+complexity. This instructional strategy is one of many that ensures students are met with
+appropriate academic rigor even when they are receiving instruction in academically inclusive
+classrooms where there is typically a range of 5-7 grade levels of proficiency (RamboHernandez, Makel, & Peters).
+3. Differentiation/Depth/Complexity
+Teachers use tools like Depth and Complexity focusing on patterns, ethics, or multiple
+perspectives to add rigor to existing lessons. Webb’s Depth of Knowledge framework enables
+7
+
+teachers to evaluate and design activities that go beyond surface-level understanding and
+maximize the depth and complexity of learning experiences. Unlike Bloom’s Taxonomy which
+focuses on levels of difficulty, or how hard a task is to complete, DOK focuses on cognitive
+complexity, or the mental processing required to explain a concept or solve a problem. By
+integrating these frameworks, educators can move beyond "more work" and instead offer
+"deeper work," allowing students to transfer their knowledge across different subjects and
+authentic scenarios.
+4. Acceleration
+This approach is the most research-supported intervention in gifted literature, providing
+cognitive, emotional, and social benefits by matching the pace of learning to the student’s
+ability. Dr. Matthew Makel’s research affirms that academic acceleration is not only
+educationally efficacious but also has no negative long-term impact on social-emotional wellbeing. Acceleration is the primary tool for combating the opportunity gap by providing students
+with the "four key resources:” grade-level (or above) content, strong instruction, deep
+engagement, and high expectations. Districts may offer single-subject acceleration (e.g., a 5th
+grader taking middle school math) or whole-grade acceleration (e.g. a 5th grader
+demonstrating proficiency of 6th grade standards and therefore advanced to 7th grade where
+new learning will occur).
+
+Prevalent Challenges in TAG Education
+Districts across Oregon currently face a number of impediments to providing equitable and
+effective TAG services to TAG-identified students as required by law. The primary barriers
+include: inconsistent access to high leverage instructional practices designed to provide
+academic challenge in teacher preparation programs, a shortage of gifted education
+practitioners with expertise in the specialized affective needs of gifted students and the limited
+professional development opportunities offered by districts to grow these skills across staff.
+
+Teacher Preparedness Gap
+Surveys of teachers indicate that limited resources and inadequate training are the most
+significant barriers to providing effective gifted education. Many teachers report feeling
+unprepared to meet the creative potential of exceptional students due to a lack of specialized
+modules in their pre-service programs. They enter the classroom with a "preparedness gap"
+because gifted education is a specialized field rarely covered in standard pre-service programs.
+While new teachers are trained to support struggling learners, they are often left without the
+tools to challenge students who have already mastered the grade-level curriculum.
+8
+
+Meeting Students’ Specialized Affective Needs
+The social-emotional needs specific to gifted students remain a significant hurdle, often
+complicated by the "Disharmony Hypothesis." This misconception inaccurately suggests an
+inherent link between high cognitive ability and poor social-emotional skills. While the "gifted"
+label can add a layer of social complexity, many challenges stem from a lack of environmental
+fit rather than internal deficit.
+Educators commonly overlook asynchronous development—the phenomenon where a
+student’s cognitive, emotional, and physical maturation move at different speeds. A student
+may possess the intellectual capacity to discuss global ethics while still needing the emotional
+support typical of their chronological age. Without targeted support, this gap can lead to
+heightened anxiety, perfectionism, or a profound sense of isolation.
+Grouping strategies that do not consider cluster grouping creates learning environments that
+are academically and effectively limited for TAG-identified students.
+Ultimately, schools must move toward evaluating the success of affective development
+programs that go beyond academics. Success in these programs is measured by a student's
+progress in self-awareness, their ability to navigate peer relationships, and the feeling of being
+seen and accepted by their instructors and peers. When educators prioritize these specialized
+affective needs, they move from simply managing a student's intensity to helping them harness
+it as a lifelong strength.
+
+Limited Professional Development
+Limited professional development provided by districts and education services districts (ESDs)
+and wide variability of local resource structures compound inequitable funding and resource
+allocation across the state. For example, larger metropolitan districts utilize localized resources
+such as voter-approved levies, bonds, and community partnerships to provide opportunities
+and support for TAG and advanced learners. In contrast, smaller and rural districts often do not
+have access to similar local resources and therefore rely heavily on the general State School
+Fund, where resources are spread across a wide range of essential services, including TAG
+education.
+
+9
+
+Shifting Practices: Systemic & Instructional
+Alignment
+The path to educational equity and excellence lies in creating a seamless connection between
+district-wide systems and the daily experiences of students in the classroom. By fostering
+systemic and instructional alignment, districts can transform mandates into everyday classroom
+practices that celebrate student readiness based on their assessed rate and level of learning.
+
+Systemic Protocols for Student Success
+Districts who have strengthened outcomes and advanced equity for all students have
+implemented the following protocols along with district-level accountability:
+•
+
+Multiple On-Ramps: Offer multiple entry points for TAG identification starting in
+kindergarten.
+
+•
+
+Data Disaggregation: Analyze data by grade, program enrollment (e.g., special
+education, 504), and demographic groups.
+
+•
+
+Tiered Acceleration: Implement curriculum-embedded, tiered instruction and
+acceleration.
+
+•
+
+Professional Learning: Prioritize sustained professional development for both general
+education and TAG teachers.
+
+•
+
+Dedicated Budgeting: Establish specific budget lines for TAG licensure, staffing,
+coordination, and services.
+
+•
+
+Monitoring and Engagement: Use clear tools for progress monitoring and develop
+strategies for family engagement.
+
+•
+
+Policy Safeguards: Adopt policies that ensure equitable access and provide for ongoing
+program evaluation. To fully realize the talent of every student, it is essential to identify
+the specific structural areas where targeted support can most effectively strengthen our
+educational ecosystem. By examining current hurdles through an asset-based lens, we
+can transition from a model of limited resources to one of shared expertise. This
+analysis allows districts to move beyond temporary quick fixes to building a durable
+infrastructure that empowers every educator to meet the unique needs of advanced
+learners.
+
+10
+
+High-Leverage Instructional Practices
+Oregon’s framework for TAG education serves as a powerful tool for ensuring that every
+student’s unique strengths are met with an equally unique instructional response. At the heart
+of this approach is the transition from static planning to formative assessment and responsive
+teaching. In accordance with OAR 581-022-2500(3), instruction is designed to honor a student’s
+assessed level and accelerated rate of learning.
+This process begins with the practice of pre-assessment, which allows educators to clearly see
+the knowledge a student already brings to the classroom based on current grade-level
+standards. By acknowledging this existing proficiency, teachers can adjust instructional
+pathways to ensure that every student encounters fresh, challenging content every day. This
+responsive model ensures that school is always a place of new discovery, lending to the
+promise of a "one-for-one" year of growth.
+To achieve the mandated instructional services to students identified as TAG, many educators
+employ the following practices in their classrooms:
+1. Formative Assessment Coupled with Responsive Teaching.
+Oregon’s approach to TAG education emphasizes both legal compliance and responsiveness to
+individual student needs and strengths through differentiated instruction, acceleration options,
+and personalized planning. OAR 581-022-2500(3) states, “the instruction provided to identified
+students shall be designed to accommodate their assessed levels of learning and accelerated
+rates of learning.” In order for classroom teachers to know where students are in the learning
+process, it’s important to preassess using relevant assessments that align with current grade
+level state standards. Once a student has demonstrated the percentage of information already
+mastered, the idea is to meet the student where they are in the learning process. For example,
+if a student scores 25% on a pre-assessment, that should be interpreted as, “The student knows
+25% of what I’m about to teach.” The next step is to account for what has already been learned
+by adjusting any instructional opportunities and pathways so students encounter new learning
+each day they are in the classroom.
+2. Eliminating Redundancy of Mastered Content
+To ensure that TAG education is implemented with integrity, districts must move away from
+repetitive instruction that stalls student progress. Curriculum compacting is a strategic
+instructional technique where teachers assess a student's prior knowledge of a unit before it
+begins. If the student demonstrates mastery of the "basics," the teacher "compacts" the
+traditional curriculum, eliminating the time spent on redundant practice. This creates a
+dedicated "pathway" where the student can instead engage with advanced standards and
+11
+
+materials that are strictly aligned to their assessed rate and level of learning. By replacing
+mastered content with accelerated or enriched material, districts ensure that the classroom
+remains a place of active discovery rather than a cycle of waiting.
+3. Promoting Student Agency
+Teachers promote student agency by shifting from a stand and deliver approach, in which they
+are center stage in the classroom, to an approach that centers on sharing leadership and power
+(empowerment), and in which they adopt a facilitative role. At its core, student agency involves
+voice, choice, and ownership, allowing students to take an active role in defining their learning
+path. When students are agents in their learning, they develop a stronger sense of purpose and
+the learning becomes more relevant and meaningful. Zaretta Hammond’s work on Culturally
+Responsive Teaching emphasizes that agency is a prerequisite for intellectual independence,
+"moving students from dependent learners to self-directed scholars.”
+4. Structural Solutions
+Research suggests that intentionally placing gifted students together allows for more rapid and
+advanced instruction while fostering a vital sense of community. By engaging with intellectual
+peers who share similar interests and "intensities," students find a validating space where they
+feel understood and experience a sense of belonging. Implementing structural solutions like
+cluster grouping is a highly effective, research-based strategy for addressing the needs of TAGidentified learners within the general education setting. In this model, a small group of TAG
+students are intentionally placed in a classroom with a teacher who has received specialized
+training in differentiation. Unlike traditional tracking, which separates students into different
+classes, cluster grouping maintains a diverse classroom environment while ensuring that gifted
+students have a critical mass of intellectual peers to interact and engage with when needed.
+This structure offers several key advantages:
+•
+
+Facilitates Targeted Instruction: Rather than a teacher trying to differentiate for one or
+two isolated gifted students, a cluster allows for efficient small-group instruction. This
+makes it more manageable for the teacher to implement high-leverage practices like
+curriculum compacting or tiered assignments.
+
+•
+
+Addresses Assessed Rate and Level: Students in a cluster can move through standard
+material at an accelerated rate, preventing the boredom and underachievement that
+often occur when gifted learners are asked to wait for the rest of the class to catch up.
+
+•
+
+Fosters a Sense of Belonging: Gifted students often experience asynchronous
+development, where their intellectual needs outpace their social or emotional maturity.
+Being part of a cluster provides a validating and safe space where they can engage with
+
+12
+
+others who share their intense interests and complex thinking, reducing feelings of
+isolation.
+•
+
+Upholds High Expectations and Outcomes for All: Research on the Total School Cluster
+Grouping Model suggests that when a school commits to this structure, it often raises
+expectations for all students. As teachers learn to differentiate for the cluster, they
+frequently apply those high-level strategies to other students in the room, narrowing
+the "belief gap" and promoting growth for every learner.
+
+By formalizing these clusters, districts can move toward a systematic, equitable approach that
+ensures gifted students access to the specialized instruction they require daily.
+
+Cultivating Internal Expertise
+Currently, the expertise required to navigate the complexities of gifted education is
+concentrated in a few dedicated individuals. By investing in a broader network of certified
+specialists, districts can move toward a model where every school has access to the high-level
+coaching and advocacy necessary to sustain advanced instructional practices designed to
+provide academic challenge. This foundational element is required to translate identification
+data into meaningful, specialized instruction for students. Transforming this current scarcity
+into a robust community of practice ensures that specialized knowledge is a common resource
+available to all staff and students.
+To overcome the specialist deficit, districts may allocate funds to invest in a number of
+educators to receive specialization training. Research shows that training in gifted education
+fosters more positive teacher attitudes and leads to better student learning outcomes.
+Specialized training provides teachers with tools and skill development to meet the needs of all
+students in their classrooms, including those identified as TAG. Providing opportunities for
+advanced specialization training—such as TSPC-approved TAG programs (e.g., Pacific
+University’s TSPC-approved program) —for a dedicated cohort of licensed educators and
+administrators could create a district-wide professional learning model in which TAG specialists
+employ a “train the trainer” model upon completion of their certified training.
+The cascading approach of “train the trainer” is essential because it ensures that expert
+knowledge spreads throughout the entire district. It creates a sustainable system where
+teachers learn from one another, making high-quality instruction available to more students. By
+investing in a few leaders to mentor many, the district builds a lasting foundation of support
+that can thrive even as staffing needs change, thus creating a culture of continuous professional
+growth that benefits the entire student body.
+13
+
+Providing Professional Learning for all Instructional Staff
+To move beyond basic compliance, districts must implement a multi-layered professional
+learning strategy. While not every teacher is a TAG specialist, every educator should have
+access to the following targeted training modules, facilitated by the district's certified TAG
+coaches or by means of the “train-the-trainer” model:
+•
+
+Social-Emotional Learning (SEL): Specific training for classroom teachers and counselors
+to address various challenges that impact gifted learners including asynchronous
+development (where a student's intellectual ability far outpaces their emotional
+maturity), identifying and supporting "overexcitabilities," and providing healthy coping
+mechanisms for the intense perfectionism often found in advanced learners. Educators
+need training to recognize traits like perfectionism, heightened sensitivity, and a strong
+sense of justice, which are common in gifted learners. When educators focus on academic
+efficacy through understanding mindsets (fixed or growth), they help students become
+less risk-averse and build an understanding of the concept that productive struggle and
+failure are an important part of the learning process rather than a threat to their
+identity.
+
+•
+
+Differentiation & Curriculum Compacting: Practical "how-to" sessions on Curriculum
+Compacting, where teachers learn to assess what a student already knows and replace
+redundant work with enrichment or accelerated content. This ensures the "one-for-one"
+growth rule by preventing students from "waiting" for the rest of the class to catch up.
+
+•
+
+Equitable TAG Identification: Professional development on using local norms and nonverbal assessments to identify giftedness in underrepresented populations. This training
+helps staff recognize "hidden" giftedness in students who may be English Language
+Learners or from diverse socioeconomic backgrounds.
+
+•
+
+Teachers develop individual, personalized plans in collaboration with families to
+document specific instructional needs and goals for students. These Personalized
+Education Plans serve as a roadmap for differentiation, ensuring that a student’s unique
+strengths are matched with appropriate pace and depth. In many Oregon districts, the
+PEP acts as a living document that outlines the specific high-leverage practices, such as
+curriculum compacting or tiered assignments, that will be offered in lieu of reviewing
+content already mastered. See Appendix A for an example PEP.
+
+For a complete list of common instructional practices and services provided by districts in
+Oregon for all students through a lens of Talented and Gifted Education, please visit the
+glossary section of Oregon’s District TAG Plan template.
+
+14
+
+Providing More Pathways to Equitable Identification
+An equitable TAG program is predicated on the idea that talent, brilliance, and giftedness exist
+in every population. One pathway districts utilize to identify students more equitably is
+implementing universal screening, where every student in a specific grade level is given a
+common experience (assessment, observation protocol, planned activities) designed to identify
+students as means to receive TAG services. The practice of universal screening removes the
+practice of relying solely on parent or teacher referrals which can be prone to bias.
+Furthermore, by utilizing multiple identification pathways—such as research-based
+characteristic lists and scales, classroom performance on standards-based learning, using local
+norms and learning progressions, districts can begin to capture strengths and brilliance from
+students who may not be captured by traditional standardized testing. This inclusive approach
+unearths and nurtures the talent already present within the diverse student body.
+Districts that engage in universal screening in conjunction with collecting both qualitative and
+quantitative data minimize the bias that often impacts underrepresented populations, such as
+multilingual learners or students experiencing poverty.
+Districts benefit from a clear understanding and articulation of the services that are provided to
+students once they are identified as TAG. This requires aligning identification to services and
+applying proven strategies like differentiation and acceleration, which studies show benefit the
+entire student population. To achieve true equity, Peters and Makel recommend identifying the
+top performers within each specific school. Using local norms, comparing their performance to
+peers within the same grade, school, or district, rather than against a broad state and national
+average, can increase demographic representation by up to 300%.
+Districts can evaluate identification systems based on The CASA Criteria: Cost, Alignment,
+Sensitivity, and Access (Peters, Makel, et al., 2023).
+●
+●
+●
+●
+
+Cost: Is the system affordable for the district and families?
+Alignment: Does the identification match the services provided?
+Sensitivity: Is the test sensitive enough to find the talent intended?
+Access: Does every student have an equal chance to be identified?
+
+Districts can move away from expensive, one-off clinical assessments. Instead, they should
+budget for universal screening that utilizes existing data (e.g. standards-based basal assessment
+and MAP Growth data) and local norming strategies which are more cost-effective and
+equitable
+
+15
+
+Policy and Resource Alignment
+In Oregon, school districts receive the majority of their operational funds through the State
+School Fund (SSF), which is distributed using a per-student weighting formula. While the state
+adds "weights" (extra funding) for some student populations including students experiencing
+disabilities, it does not currently provide an automatic funding weight for TAG students. As a
+result, districts decide how much of their general budget to designate for TAG identification
+and services. The range in dedicated funds districts allocate for TAG education varies widely
+from several hundred dollars to $0 per TAG-identified student. The opportunity exists for
+districts to prioritize and leverage ESSA allowances under Title 1 and 2A funds, ensuring that
+every student’s learning needs are met with the same robust commitment as other student
+populations.
+
+Professional Development Resource Allocation
+Examples of allowable uses of ESSA funds for TAG include:
+1. Professional Learning for Identification and Instructional Strategies for Advanced Learners
+To ensure the long-term success of the gifted program, the district must prioritize consistent
+support for the annual training of its TAG coordinators. As the primary architects of the
+district’s TAG services, coordinators require ongoing access to the latest research, compliance
+updates, and pedagogical innovations to lead effectively. By investing in their continuous
+professional growth, the district ensures that its leadership remains equipped to oversee
+complex identification processes and maintain a high standard of specialized instruction across
+all school sites.
+2. Attending Gifted Education Conferences
+The district can dedicate resources to send instructional staff to state and national gifted
+education conferences to foster a culture of excellence and professional networking. These
+conferences serve as vital hubs for emerging best practices, allowing educators to engage with
+leading experts and bring specialized instructional strategies back to their local classrooms.
+Providing teachers with the opportunity to step outside the district and learn from a broader
+professional community not only boosts morale but also ensures that TAG programs remain at
+the forefront of modern educational standards.
+3. Providing Ongoing Professional Learning on Inclusive Practices for K-12 Teachers,
+Administrators, and Instructional Assistants
+As Peters and Makel emphasize, "There are kids in every school who could be learning more."
+To upend the Opportunity Myth, districts must commit to finding talent where it lives—in every
+ZIP code—and providing the immediate instructional acceleration required by law.
+16
+
+Because gifted students spend the majority of their day in general education settings, districts
+can benefit from investing in comprehensive training on inclusive practices for the entire K-12
+staff. This initiative ensures that every educator—regardless of their grade level or subject
+area—possesses the foundational skills to recognize high potential and implement
+differentiated strategies. By cultivating a universal understanding of how to support diverse
+learners, the district creates a more cohesive environment where TAG students are understood,
+challenged, and supported in every classroom they enter.
+
+High Quality Instructional Materials
+To effectively support learners identified as TAG, it is crucial to prioritize the acquisition of
+specialized resources and instructional materials that align with their accelerated rate of
+learning and level of need. Budgeting for these additional materials ensures that educators
+have access to high-quality instructional materials, complex informational texts, and inquirybased tools that go beyond standard grade-level offerings. By investing in these targeted
+resources, districts can provide TAG students with the necessary challenge to prevent academic
+plateauing or regressing, fostering an environment where students are consistently engaging in
+productive struggle through rigorous and relevant content.
+
+State-Level Partnership
+ODE supports regional and district-level staff by providing a diverse range of resources that are
+designed to expand local capacity in TAG education. ODE hosts both virtual and in-person
+professional learning opportunities for staff so they can stay aligned with current equitable
+identification pathways and high leverage instructional best practices. District TAG leaders may
+book meetings with ODE’s TAG Education Specialist or join scheduled office hours where
+dedicated technical assistance addresses specific implementation challenges with expert and
+peer guidance. This collaborative approach not only strengthens institutional capacity but also
+fosters a direct line of communication with state leadership, ensuring that local initiatives are
+both supported and sustainable
+
+Evaluation and Impact Assessment
+Evaluation is a powerful tool for affirming the effectiveness of instructional strategies and
+translating a commitment to equity results in tangible student success. By adopting a talentscouting approach to data, districts can move beyond static scores and instead focus on the
+dynamic trajectory of each learner. This assessment phase serves as a feedback loop that
+honors the hard work of both students and educators, providing a clear map of how specialized
+17
+
+support translates into academic excellence. Measuring impact moves beyond simply checking
+for a deficit to documenting the flourishing growth across the entire student body.
+
+Equity Metric: Measuring a Full Year of Growth
+The primary indicator of success in an equitable system is the "one-for-one" growth metric:
+ensuring that every student achieves at least one full year of academic progress for every year
+spent in the classroom. This is particularly vital for students already performing at or above
+grade level, whose growth can sometimes be masked by high proficiency scores.
+To achieve this, educators look through a lens of talent development, using existing data, such
+as classroom assessments, interim assessments, and progress monitoring, to identify exactly
+where a student is and where they can go. This approach dismantles the false hierarchy that
+suggests the needs of different student populations are in competition. In a truly equitable
+classroom, the progress of one student does not come at the expense of another. Instead, we
+embrace the understanding that diverse needs are compatible and that our collective goal is to
+provide every learner with the specialized pathways necessary to reach their highest potential.
+
+Program Fidelity: Assessing the Consistent Use of HighLeverage Instructional Practices
+Districts can assess program integrity by:
+•
+
+Tracking the consistent use of high-leverage instructional practices, such as the
+percentage of classrooms utilizing curriculum compacting or tiered assignments. Some
+districts in Oregon currently use a classroom walkthrough tool that is designed to
+observe rate and level instructional practices.
+
+•
+
+Using local norm data to track if advanced achievement is becoming more proportional
+across racial and socioeconomic lines is an approach that addresses the Excellence Gap.
+
+•
+
+Monitoring assignment rigor and conducting "assignment audits" based on TNTP's
+methodology to ensure TAG students are receiving work that matches their identified
+level (e.g., tracking the percentage of teachers utilizing curriculum compacting).
+
+Capacity Building: Focus on Collaborative Growth
+To measure the growth of internal expertise, ODE encourages districts to align their program
+evaluation framework (required by OAR 581-022-2500 and included in their district-level TAG
+plan) to formally monitor the number of educators and administrators who complete the TAG
+Specialization Program each year. This metric serves as a key indicator of the district’s "capacity
+18
+
+building"—our ability to expand the pool of qualified professionals who can lead advanced
+instruction and make informed placement decisions. By monitoring these completion rates,
+leadership can identify schools that are becoming centers of excellence and target additional
+recruitment or support to areas where specialized human capital remains thin.
+
+Education Partner Feedback: Monitor Appeals and
+Complaints
+Districts can maintain a transparent accountability loop by closely monitoring the volume and
+nature of appeals and complaints handled by the State TAG Education Specialist. This feedback
+serves as a critical "red flag" system, highlighting potential systemic gaps in how the district
+identifies students or provides mandated services. By analyzing this data, districts can
+proactively address recurring concerns from families and ensure that local policies remain in full
+alignment with state standards, ultimately improving trust and satisfaction among all
+stakeholders.
+
+Conclusion
+To maximize impact, TAG programs must be treated as a systemic educational necessity rather
+than an optional and occasional enrichment opportunity. Success requires universal screening
+and multiple identification pathways to eliminate barriers for underrepresented students,
+ensuring talent is recognized regardless of background. Utilizing local norm data, districts can
+ensure that advanced achievement is equitable and proportional across all demographic lines.
+Achieving educational equity and excellence will necessitate intentionally realigning
+professional learning toward inclusive practices that do more than just support advanced
+learners; they must actively challenge students working above grade level within the general
+education environment. A key lever for districts to prioritize is funding licensed TAG
+specializations and "train-the-trainer" models to embed expertise across all classrooms. This
+ensures advanced learners achieve at least one year of academic and effective growth for every
+year spent in school.
+To bridge the gap between identification and excellence, it is essential that Oregon’s education
+system and funding model create conditions where districts and ESDs can consistently allocate
+a dedicated budget for specialized pedagogical training and high-quality instructional materials.
+This financial commitment is essential to sustain a high-performing system.
+Achieving true systemic integrity and educational equity for TAG students requires a deliberate
+commitment to both specialized instruction and sustained resource investment. The core
+19
+
+solution involves addressing specialized staffing shortages by providing funding, either at the
+state or district-level, for teachers to obtain a certified TAG specialization. An investment in
+educators who provide rigorous academic content and necessary affective support pays
+dividends when they are positioned to provide professional learning and coaching to others.
+This approach must also be paired with equitable practices like universal screening and the use
+of multiple identification pathways to find talent in underrepresented populations and ensure a
+student’s background does not limit access to advanced services. By adopting a robust, lineitem budget for specialized training and then focusing professional learning on high-leverage
+practices such as curriculum compacting, districts can actively challenge students working
+above grade level. Ultimately, this systemic approach guarantees the primary equity metric for
+TAG programs: that every TAG student gains at least one full year of measurable academic and
+affective growth for every year spent in school.
+
+20
+
+References
+Content from the “TAG QEC” Presentation (Source 1)
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+
+Oregon Administrative Rule 581-022-2500
+Division 22 Standards assurance process
+TAG Template Instructions Companion Guide
+Curriculum compacting
+TNTP - The Opportunity Myth (2018)
+Rambo-Hernandez, Makel, & Peters
+Depth and Complexity
+Webb’s Depth of Knowledge framework
+Acceleration most research-supported intervention
+Acceleration Dr. Matthew Makel’s research
+opportunity gap
+Teacher Preparedness Gap limited resources and inadequate training
+Meeting Students’ Specialized Affective Needs high cognitive ability and poor socialemotional skills
+Meeting Students’ Specialized Affective Needs layer of social complexity
+Meeting Students’ Specialized Affective Needs affective development programs
+Zaretta Hammond’s work on Culturally Responsive Teaching
+Structural Solutions placing gifted students together
+Cultivating Internal Expertise training in gifted education
+Pacific University TAG Specialization Program
+Providing Professional Learning for all Instructional Staff perfectionism, heightened
+sensitivity, and a strong sense of justice
+Oregon’s District TAG Plan template
+ODE TAG Data Brief underrepresented populations
+National Association for Gifted Children (NAGC) - Strategies
+Peters & Makel - Gifted Education advances integration and equity (Kappan Online)
+The way schools identify gifted students is inequitable, UW-Whitewater study finds
+increase demographic representation by up to 300%
+How Does Your Identification System Measure Up? A Guide to Applying the CASA
+Criteria to Gifted and Talented Identification Systems Peters, Makel, et al., 2023
+Peters & Makel - Gifted Education advances integration and equity (Kappan Online)
+ESSA funds allowable uses of ESSA funds
+Peters & Makel - Gifted Education advances integration and equity (Kappan Online)
+Opportunity Myth
+classroom walkthrough tool
+local norm data Peters, S. J. (2025). Use local norms to find them. NWEA Blog.
+TNTP's methodology
+curriculum compacting; Reis, S. M., et al. - Curriculum Compacting and Achievement
+Test Scores
+21
+
+General Information/Research
+● Makel, M. C., et al. - Academic Acceleration and Psychological Well-Being
+● Assouline, et al. (2021/2023). Accelerated Learning for Gifted Students: A Systematic
+Review.
+● Wiley, K. R. (2020). The social and emotional world of gifted students. Psychology in the
+Schools.
+● Oregon Department of Education (ODE). TAG Basics and Mandates.
+● Makel, M. C., et al. (2022). Academic Acceleration in Gifted Youth and Fruitless Concerns
+Regarding Psychological Well-Being. PMC.
+● Peters, S. J., & Brulles, D. (2017). Designing Gifted Education Programs and Services.
+
+22
+
+Appendix: Example of a PEP from an Oregon district
+Personalized Learning Plan for Talented and Gifted Students
+The [ ] School District TAG Personalized Learning Plan (PLP) is a plan generated in partnership between the teacher and TAG student. It outlines
+modifications to core instruction based on individual level and rate of learning and includes goals to enhance and elevate student learning
+experiences. The completed TAG PLP should be shared with parents either in person at fall conferences or be sent home with the student.
+TAG services are daily modifications to core curriculum and instruction that accommodate the student’s assessed levels of learning and accelerated
+rates of learning in the area(s) in which the student is identified. TAG services also include social emotional supports. TAG services are provided by
+the classroom teacher(s) with resources and support from building TAG coordinators, district TAG TOSA, and additional staff as needed such as
+special education teachers, counselors, and administrators.
+Click HERE for detailed instructions for completing, saving, and sharing this form. Please review these instructions prior to completing the PLP.
+School and Student Information
+School: Select school
+
+Teacher:
+
+Grade: Select grade
+
+Student Name: Enter student’s name
+
+Student ID:
+
+TAG Identification, PLP Information, and Student Interests
+Area of TAG Identification: ☐ Intellectually Gifted
+☐ Initial PLP
+
+Date: Enter today’s date
+
+☐ Academically Talented in Math
+
+☐ Updated or revised PLP
+
+☐ Academically Talented in Reading
+
+Date of initial PLP: Enter date
+
+Grade level at time of initial PLP: Select grade
+
+Areas of student interest: Click or tap here to enter text.
+
+To gain a better understanding and perspective of the student as a whole child, please indicate any services, supports, or interventions they
+currently receive.
+☐ 1:1 Support
+
+☐ 504
+
+☐ Behavior support
+
+☐ Counseling
+
+☐ ELD
+
+☐ IEP
+
+☐ OT
+
+☐ PT
+
+☐ Social Worker
+
+☐ Speech
+
+☐ Request for consultation if further supports are needed (provide copy of TAG Personalized Learning Plan to appropriate staff member or administrator)
+
+23
+
+Notes or comments: Click or tap here to enter text.
+
+Please note social emotional learning supports here. See the new Social and Emotional Learning Framework and Standards from ODE for more
+information, suggestions, and resources.
+Please mark the social emotional supports your gifted student needs.
+☐ Take risks as a learner, engage in productive struggle, and work on activities that take student out of comfort zone.
+☐ Persevere with challenges as they arise.
+☐ Advocate when work is not the right fit (too easy or too hard) and a challenge, extension, or support is needed.
+☐ Identify and reflect on how thoughts, emotions, and perspectives can influence behaviors.
+☐ Apply social skills (i.e., empathy, compassion, etc.) to develop and maintain healthy relationships.
+☐ Take other’s perspectives during teamwork and collaborative problem solving.
+☐ Learn executive function strategies to support organization and self-management.
+☐ Spend time with like-minded peers allowing students to find others with similar interests and abilities, leading to friendships and opportunities for growth.
+OPTIONAL: Type supports specific to your student here:
+Click or tap here to enter text.
+
+Please document current level and rate of learning that correlate to the student’s area(s) of TAG identification and include curriculum and
+instructional modifications (click the hyperlinks for more information and resources). In addition, outline specific student learning goals and
+supports connected to the modifications that students will work toward during the school year (see PLP Modifications and Learning Goals for
+examples). Reflect on student progress toward the end of the year.
+Content Area
+
+Determine Level of Learning
+
+Determine Rate of Learning
+
+Curriculum and Instructional Modifications
+
+24
+
+Math
+☐ Student is
+identified TAG
+Math
+☐ Student is
+identified
+Intellectually
+Gifted
+
+☐ Above grade level
+☐ At grade level
+☐ Below grade level
+☐ Consistently works at a
+higher level than peers in the
+class
+
+☐ Finishes assignments quickly and correctly
+☐ Learns with few repetitions
+☐ Processes, problem solves, and responds quickly and
+accurately
+☐ Consistently learns faster than peers in the class
+☐ Does not demonstrate an advanced rate of learning
+
+Click the links for more information on each modification.
+☐ Choice assignments
+☐ Curriculum compacting
+☐ Differentiated instruction
+☐ Extensions and enrichment
+☐ Higher-order thinking and questioning strategies
+☐ Independent study
+☐ No modifications needed
+
+Select goals connected to modifications that will support academic progress in math. See iReady K-5 Math Suggestions for TAG
+Students for more suggestions.
+
+Date for spring
+goal reflection:
+
+☐ Develop accurate approaches and strategies for solving math problems that include explanation and justification. (higher-order
+thinking)
+
+Click or tap
+here to enter
+text.
+
+☐ When solving complex math problems, explain thinking processes to the teacher, a small group, or in writing. (higher-order
+thinking)
+☐ Partner with like-minded peers and use high-level math discourse to explain thinking, deepen understanding, and make
+connections. (cluster grouping, flexible grouping, differentiation, higher-order thinking)
+☐ Use various manipulatives or multiple methods to solve problems and demonstrate thinking. (higher-order thinking)
+☐ Complete fill in number of iReady MyPath lessons each week. (differentiation, accelerated pace, individualized instruction)
+
+Notes for next
+year’s
+teacher(s):
+Click or tap here
+to enter text.
+
+Was the goal
+completed?
+Click or tap
+here to enter
+text.
+
+☐ Work on Differentiation Extend Challenge options or Enrichment activities in iReady lessons that deepen understanding with higherorder thinking tasks. (differentiation, extensions, enrichment, higher-order thinking, cluster grouping)
+☐ Complete iReady Math in Action extension activities. (cluster grouping, choice assignments, extensions, independent projects,
+individualized instruction)
+☐ If assessments determine that student has mastered a standard, student may work on replacement activities such as iReady
+MyPath, Math in Action, independent projects, ALEKS online math program (contact TAG TOSA for more information on ALEKS), walkto-math at the next grade level, etc. (compacting, choice assignments, independent projects, accelerated pace, individualized
+instruction)
+Type goals specific to your student here:
+Click or tap here to enter text.
+
+25
+
+Reading
+☐ Student is
+identified TAG
+Reading
+☐ Student is
+identified
+Intellectually
+Gifted
+
+☐ Above grade level
+☐ At grade level
+☐ Below grade level
+☐ Consistently works at a
+higher level than peers in the
+class
+
+☐ Finishes assignments quickly and correctly
+☐ Learns with few repetitions
+☐ Processes and responds quickly and accurately
+☐ Consistently learns faster than peers in the class
+☐ Does not demonstrate an advanced rate of learning
+
+Click the links for more information on each modification.
+☐ Choice assignments
+☐ Curriculum compacting
+☐ Differentiated instruction
+☐ Extensions and enrichment
+☐ Higher-order thinking and questioning strategies
+☐ Independent study
+☐ No modifications needed
+
+Select goals connected to modifications that will support academic progress in reading. See HMH K-5 Reading Suggestions for TAG
+Students.
+
+Date for spring
+goal reflection:
+
+☐ Develop ability to decode new and unknown words using phonemes, affixes, root words, compounds, and syllables. (differentiation)
+
+Click or tap
+here to enter
+text.
+
+☐ Read books from various genres. (choice assignments)
+☐ Participate in book studies and book groups using texts of appropriate complexity. (cluster grouping, flexible grouping, higher-order
+thinking)
+☐ Complete Challenge assignments in HMH Supporting All Learners. (extensions, independent projects, individualized instructions)
+☐ Work with like-minded peers receiving instruction using HMH Ready for More Tabletop Minilessons to apply comprehension skills
+to more complex texts. (differentiation, cluster grouping, flexible grouping)
+☐ Student will complete the Inquiry and Research Project from Modules in HMH. Rubric may be adjusted depending on student’s
+ability. (independent study, individualized instruction)
+
+Notes for next
+year’s
+teacher(s):
+Click or tap here
+to enter text.
+
+Was the goal
+completed?
+Click or tap
+here to enter
+text.
+
+☐ If student completes weekly story and/or lessons ahead of the class, student may work on replacement activities such as HMH
+Inquiry and Research Projects, independent projects, or walk-to-reading at the next grade level. (compacting, extensions, enrichment,
+independent projects, accelerated pace, individualized instruction)
+☐ Participate in Battle of the Books (OBOB). (enrichment, cluster grouping, flexible grouping)
+Type goals specific to your student here:
+Click or tap here to enter text.
+
+26
+
+If student requires modifications and learning goals in additional content areas (science, social studies, etc.) please record that information
+here.
+
+Content
+area
+
+☐ Above grade level
+☐ At grade level
+☐ Below grade level
+
+Enter other
+content area
+
+☐ Consistently works at a
+higher level than peers in the
+class
+
+☐ Finishes assignments quickly and correctly
+☐ Learns with few repetitions
+☐ Processes, problem solves, and responds quickly and
+accurately
+☐ Consistently learns faster than peers in the class
+☐ Does not demonstrate an advanced rate of learning
+
+Goals connected to modifications that will support academic progress in the specified content area.
+Click or tap here to enter text.
+
+Click the links for more information on each modification.
+☐ Choice assignments
+☐ Curriculum compacting
+☐ Differentiated instruction
+☐ Extensions and enrichment
+☐ Higher-order thinking and questioning strategies
+☐ Independent study
+Date for spring
+goal reflection:
+Click or tap here
+to enter text.
+
+Notes for next year’s teacher(s):
+Click or tap here to enter text.
+
+Was the goal
+completed?
+Click or tap here
+to enter text.
+
+Additional notes or comments: Click or tap here to enter text.
+
+27
+
+

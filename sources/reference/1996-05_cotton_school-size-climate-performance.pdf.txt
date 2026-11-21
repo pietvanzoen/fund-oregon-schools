@@ -1,0 +1,1188 @@
+School Improvement Research Series
+Research You Can Use
+Close-Up #20
+
+School Size, School Climate, and Student Performance
+May 1996
+Kathleen Cotton
+If restructuring truly is an aim of school reform, then the scale of schooling is a major
+structural issue.
+—Craig Howley, 1994
+Is it possible to get people to pay attention to the virtues of smallness as well as the virtues of
+scale?
+—Kent McGuire, 1989
+
+Introduction
+There is a natural predilection in American education toward enormity, and it does not serve
+schools well.
+—William J. Fowler, Jr., 1992
+Schools keep getting bigger and bigger. Between 1940 and 1990, the total number of elementary and
+secondary public schools declined 69 percent—from approximately 200,000 to 62,037—despite a 70 percent
+increase in the U.S. population (Walberg 1992; Howley 1994). Consequently, the average school enrollment
+rose more than five times—from 127 to 653. In today's urban and suburban settings, high school enrollments
+of 2,000 and 3,000 are commonplace, and New York City has many schools with enrollments nearing 5,000
+(Henderson and Raywid 1994).
+School districts, too, have decreased in number and increased in size during this time period. The 117,108
+school districts that existed in 1940 have experienced dramatic consolidation; they have decreased by 87
+percent—to 15,367 (Walberg 1992). Not surprisingly, the largest schools can generally be found within the
+largest districts (Williams 1990).
+Smith and DeYoung (1988) identify several factors driving this long-term consolidation trend. One has
+been the desire of school administrators to "demonstrate their commitment to the forces of science,
+progress, and modernization" by seeking to make schooling "'efficient,' a notion importantly borrowed from
+the private sector" (3). Smith and DeYoung also cite the 1957 launching of the Soviet space satellite Sputnik
+and the contemporary belief that catching up with the Soviet Union required bigger schools that could
+produce more scientists. Furthermore, they note that compliance with the school desegregation and special
+entitlement programs originating in the 1960s have resulted in additional school mergers.
+
+Smith and DeYoung and many others note that James Conant's 1959 book, The American High School
+Today, greatly accelerated the momentum of the school consolidation movement (Pittman and Haughwout
+1987; Stockard and Mayberry 1992; Walberg 1992; Williams 1990). Conant argued that, in order to be cost
+effective and to offer a sufficiently large and varied curriculum, a secondary school had to have at least 100
+students in its graduating class. Conant claimed that the small high school was the number-one problem in
+education, and that its elimination should be a top priority (37-38). 1
+The push for school and district consolidation continues into the present (Schoggen and Schoggen 1988).
+That is unfortunate because, as the balance of this report documents, research has repeatedly found small
+schools to be superior to large schools on most measures and equal to them on the rest. This holds true for
+both elementary and secondary students of all ability levels and in all kinds of settings.2
+
+The Research Base
+What the Research is About
+I reviewed 103 documents which identify a relationship between school size and some aspect(s) of
+schooling. Because several of the reviews cover the same research studies, and some of the studies are
+reported in more than one article, I deleted the redundant materials from my analysis and placed them, along
+with the non-research articles, in the General References section of the annotated bibliography. I retained 69
+documents—49 primary sources (studies and evaluations), 14 secondary sources (reviews and syntheses),
+and six documents that report both reviews and studies. These form the basis of my analysis and are cited in
+the Key References section.
+Forty of the key documents are concerned with secondary students, five with elementary students, nineteen
+with students at both levels, and ten with school staff as well as (or instead of) student populations. Fortynine of the reports cite the effects of school size, nine look at outcomes produced by alternative schools, and
+eleven examine the effects of school-within-a-school (SWAS) arrangements.
+Researchers and reviewers have investigated the effects of school and unit size on many student
+performance, attitude, and behavior measures. These include:
+Achievement - 31 documents
+Attitudes (toward school or particular school subjects) - 19
+Social behavior problems (discipline problems, vandalism, drugs/alcohol, etc.) - 14
+Levels of extracurricular participation - 17
+Feelings of belongingness vs. alienation - 6
+Interpersonal relations with other students and school staff - 14
+Attendance - 16
+Dropout rate - 10
+Self-concept (academic and general) - 9
+College-related variables (acceptance, completion, etc.) - 6
+In addition, 12 of the reports address teachers 1 attitudes and collaboration, 10 concern the quality of the
+curriculum, and 11 focus on schooling costs. Many of the reports are concerned with more than one
+outcome area.
+What is Meant by "Large" and "Small" Schools
+
+There is no clear agreement on the dividing line between small and large schools.
+—Davant T. Williams, 1990
+"One might note that the term 'small school' has no concrete numerical limits," write Green and Stevens
+(1988, 11). One certainly might. In the first place, of the 69 key reports, only 27 mention any numbers at all
+in their analyses of large versus small schools. In the second place, the upward limit for a "small" school in
+those 27 documents ranges from 200 to 1,000 students; and the range for a "large" school is 300 to 5,000
+students. Williams, however, writes that,
+On average, the research indicates that an effective size for an elementary school is in the range
+of 300-400 students and that 400-800 students is appropriate for a secondary school (7-8).
+While many researchers argue that no school should be larger than 400 or 500 students, I use Williams's
+numbers in this report, since my own sense of the research is very similar to his.
+
+Research Findings
+"Professional faith in the virtues of larger schools persisted, virtually unchallenged, at least through the mid1960s," writes Howley (1989, 3). The challenges began with Roger Barker and Paul Gump's 1964 book, Big
+School, Small School: High School Size and Student Behavior. Barker and Gump's research revealed that
+both the number and the variety of extracurricular activities in which students participate are significantly
+higher in small schools than in large ones. The small-school student was also more likely to hold important
+positions in the activities in which he or she participated and to derive greater satisfaction from
+participating. Although there is no conscious intent to deny participation opportunities to many students,
+large high schools nevertheless have this effect, leading Barker and Gump to conclude that small schools are
+best and that the supposed superiorities of large schools are "illusions" (195).3
+In the more than 30 years since Barker and Gump published their research, many other investigators have
+challenged the assumption that bigger schools are better schools. Their findings are presented in the sections
+that follow. Findings from the research on school-within-a-school plans are presented in a separate section
+following the school size findings.
+Quality of the Curriculum
+It does not follow necessarily that more opportunities exist in larger schools.
+—Kent McGuire, 1989
+Many educators past and present have argued for large schools on grounds of curriculum quality. Following
+James Conant's original line of reasoning, they argue that larger schools can offer more numerous and more
+varied curricular offerings than small schools can. Therefore, goes the argument, operating small schools
+with more limited curricula is unfair to the students who attend them.
+While this has a certain common sense appeal, examination of the research reveals that there simply is no
+reliable relationship between school size and curriculum quality (Fowler and Walberg 1991; Gregory 1992;
+Howley 1994, 1996; McGuire 1989; Melnick, et al. 1986; Monk 1987, 1992; Monk and Haller 1993;
+Nachtigal 1992; Pittman and Haughwout 1987; Rogers 1987; Williams 1990). For one thing, researchers
+have found that "it takes a lot of bigness to add a little variety"—that is, "on the average a 100% increase in
+enrollment yields only a 17% increase in variety of offerings" (Pittman and Haughwout, 337). Moreover,
+"[t]he strength of the relationship between school size and curricular offerings diminishes as schools become
+
+larger. Increases in the size of very small schools are associated with greater curricular gains than increases
+in the size of larger schools" (Monk 1992).
+For another thing, researchers have found that the allegedly richer curriculum that larger schools are able to
+support tend to be made up, not of higher-level courses in, say, math or foreign languages, but rather of
+additional introductory courses in non-core areas. For still another, investigators have found that only five to
+twelve percent of the students in large schools avail themselves of the extra courses these schools typically
+offer (McGuire 1989; Monk 1992; Rogers 1987).
+Finally, Monk, in his 1987 study of the size-curriculum relationship, concludes that, "it is possible to offer
+at the 400 pupil level a curriculum that compares quite favorably in terms of breadth and depth with
+curriculums offered in much larger settings" (27).
+Beyond these findings, the development and use of distance learning and other technologies in isolated
+settings is increasing and can be expected to further ameliorate curriculum inequalities.
+Cost-Effectiveness
+Small high schools cost more money only if one tries to maintain the big-school
+infrastructure....
+—Thomas B. Gregory, 1992
+Some educators and legislators have also argued that large schools are more cost-effective. Again, a closer
+look reveals that this is not necessarily true. Researchers have found that the relationship between size and
+costs varies depending on individual school circumstances (Gregory 1992; Howley 1996; McKenzie 1983;
+Melnick, et al. 1986; Nachtigal 1992; Robertson 1995; Rogers 1987; Walberg 1992; Williams 1990). Many
+small schools are operated very economically, while many large ones have exorbitant per-pupil costs.
+McKenzie (1983) argues that many analyses of the school size-cost relationship are simplistic and do not
+yield useful information. He then provides a mathematical depiction of that relationship, which shows that it
+is U-shaped; that is, average per-pupil costs do decline up to a point as enrollment increases, reach a
+minimum, and then rise with further school growth. Researchers (e.g., Gregory 1992, Robertson 1995)
+claim that the large staff needed to manage and control large numbers of students accounts for this upturn in
+costs as schools become larger and larger.
+Following an examination of both the curriculum quality and cost-effectiveness issues, Gregory (1992)
+writes,
+The perceived limitations in the program that small high schools can deliver and their presumed
+high cost regularly have been cited as justifications for our steady march toward giantism. The
+research convincingly stamps both of these views as misconceptions (10).
+Academic Achievement
+Size-achievement relationship is not clear, though some research indicates smaller schools
+facilitate higher achievement.
+— Alan M. Burke, 1987
+About half the student achievement research finds no difference between the achievement levels of students
+in large and small schools, including small alternative schools (Burke 1987; Caldas 1987; Edington and
+Gardner 1984; Fowler 1995; Gregory 1992; Haller, Monk, and Tien 1993; Howley 1996; Huang and
+
+Howley 1993; McGuire 1989; Melnick, et al. 1986; Smith and DeYoung 1988; Stockard and Mayberry
+1992; Walberg 1992; Way 1985). The other half finds student achievement in small schools to be superior
+to that in large schools (Bates 1993; Eberts, Kehoe, and Stone 1982; Eichenstein 1994; Fowler and Walberg
+1991; Kershaw and Blank 1993; Miller, Ellsworth, and Howell 1986; Robinson-Lewis 1991; Walberg
+1992). None of the research finds large schools superior to small schools in their achievement effects.
+Consequently, we may safely say that student achievement in small schools is at least equal—and often
+superior—to student achievement in large schools. Achievement measures used in the research include
+school grades, test scores, honor roll membership, subject-area achievement, and assessment of higher-order
+thinking skills.
+In reporting these conclusions, researchers are careful to point out that these results are found even when
+variables other than size—student attributes, staff characteristics, time-on-task, etc.—are held constant
+(Eberts, Kehoe, and Stone 1982, 27; Fowler and Walberg 1992). Since many small schools are rural
+schools, investigators have also wondered if it might be the ruralness—rather than the smallness—of these
+schools that is beneficial to students; research shows that smallness is beneficial, regardless of the setting of
+the small school (Stockard and Mayberry 1992; Walberg 1992). Walberg writes,
+...even discounting the positive effects of rural location, smaller high schools yielded greater
+achievement and years of attained education after high school. Thus, smaller schools showed
+long-range effects independent of rural advantages (10).
+Finally, whereas the research finds that small schools produce equal or superior achievement for students in
+general, the effects of small schools on the achievement of ethnic minority students and students of low
+socioeconomic status are the most positive of all (Berlin and Cienkus 1989; Eberts, Kehoe, and Stone 1982;
+Fowler 1995; Friedkin and Necochea 1988; Howley 1994, 1995; Huang and Howley 1993; Jewell 1989;
+Miller, Ellsworth, and Howell 1986; Rutter 1988; Stockard and Mayberry 1992). To put this a little
+differently, these researchers have found that large schools have a more negative impact on minority and
+low-SES students than on students in general. I will return to this point in a later discussion about school
+size as an equity issue.
+Student Attitudes
+Students in a small high school experience...an increasingly more positive attitude toward
+school.
+— Thomas B. Gregory and Gerald R. Smith, 1987
+Considerable research effort has been expended studying the relative effects of large and small schools on
+student attitudes toward school in general and toward particular school subjects. The research on student
+attitudes overwhelmingly favors small schools over large ones (Aptekar 1983; Bates 1993; Edington and
+Gardner 1984; Fowler 1995; Fowler and Walberg 1991; Gregory 1992; Gregory and Smith 1983, 1987;
+Howley 1994, 1996; Kershaw and Blank 1993; Miller, Ellsworth, and Howell 1986; Rutter 1988; Smith and
+DeYoung 1988; Smith, Gregory, and Pugh 1981; Walberg 1992). As with achievement, the research
+indicates that the attitudes of low-SES and minority students are especially sensitive to school size and
+benefit greatly from attending small schools.
+Social Behavior
+Behavior problems are so much greater in larger schools that any possible virtue of larger size
+is canceled out by the difficulties of maintaining an orderly learning environment.
+— Jean Stockard and Maralee Mayberry, 1992
+
+The research linking school size to social behavior has investigated everything from truancy and classroom
+disruption to vandalism, aggressive behavior, theft, substance abuse, and gang participation. This research
+shows that small schools have lower incidences of negative social behavior, however measured, than do
+large schools (Burke 1987; Duke and Perry 1978; Gottfredson 1985; Gregory 1992; Kershaw and Blank
+1993; Rutter 1988; Stockard and Mayberry 1992). The social behavior of ethnic minority and low-SES
+students is even more positively impacted by small schools than that of other students.
+Extracurricular Participation
+Small schools allow greater student participation in extracurricular activities.
+—James M. Kearney, 1994
+As Barker and Gump first noted in their 1964 study, levels of extracurricular participation are significantly
+higher in small schools than in large ones (Burke 1987; Cawelti 1993; Foster and Martinez 1985; Fowler
+1995; Fowler and Walberg 1991; Grabe 1981; Hamilton 1993; Holland and Andre 1991; Howley 1996;
+Kershaw and Blank 1993; Pittman and Haughwout 1987; Rogers 1987; Schoggen and Schoggen 1988;
+Smith and DeYoung 1988; Stockard and Mayberry 1992; Walberg 1992). These researchers have also
+found that students in small schools are involved in a greater variety of activities and that they derive more
+satisfaction from their participation than students in large schools. According to Hamilton's research,
+Students in the large schools were more polarized, with a group of active participants at one
+end of the continuum and a large group of students who did not participate in any
+extracurricular activities at the other. In the small schools there were few students who did not
+participate in anything (70).
+In addition, at the conclusion of their large-scale 1988 study, Schoggen and Schoggen report that, although
+large schools offer more varied activities,
+...the average large school student does not utilize these opportunities. Although the small
+school does not provide such a wealth of activities, the average student has a better experience
+as measured by the amount of involvement in the available activities (292).
+The greater and more varied participation in extracurricular activities by students in small schools is the
+single best-supported finding in the school size research. Like the findings in other areas, findings about
+participation hold true regardless of setting and are most applicable to minority and low-SES students.
+Because research has identified important relationships between extracurricular participation and other
+desirable outcomes, such as positive attitudes and social behavior, this finding is especially significant.
+Attendance
+The attendance rate of participating students was better than that of a comparison group.
+—Mary Lou McGanney, Dolores M. Mei, and Jan Rosenblum, 1989
+The pattern of findings favoring small schools continues with the research on student attendance. Not only
+do students in smaller schools have higher attendance rates than those in large schools (Fowler 1995; Fowler
+and Walberg 1991; Gregory and Smith 1992; Howley 1994; Kershaw and Blank 1993; Smith and DeYoung
+1988; Walberg 1992), but students who change from large schools to small, alternative secondary schools
+generally exhibit improvements in attendance (Bates 1993; Duke and Perry 1978; McGanney, Mei, and
+Rosenblum 1989; Robinson-Lewis 1991; Rutter 1988). Again, the minority or low-SES student is the most
+profoundly affected.
+
+Dropouts
+Strictly from the perspective of avoiding high rates of dropouts, it may be that smaller is better.
+— Laurence A. Toenjes, 1989
+Measured either as dropout rate or graduation rate, the holding power of small schools is considerably
+greater than that of large schools. Nine of the ten documents that address this topic reveal differences
+favoring or greatly favoring small schools (Fetler 1989; Gregory 1992; Jewell 1989; Pittman and
+Haughwout 1987; Rogers 1987; Smith and DeYoung 1988; Stockard and Mayberry 1992; Toenjes 1989;
+Walberg 1992), with the other document reporting mixed results. Toenjes concludes his study of the 21
+largest school districts in Texas with this observation:
+[I]t may be that...the relevant conditions that exist in the smaller high school are much more
+conducive to keeping students in school than are the conditions in the larger high schools. If this
+is true, it raises a new equity issue, based not on how many dollars per pupil are spent, but on
+the size of the school to which the pupils are assigned (15).
+In later sections of this report, I give further attention both to the "relevant conditions" for keeping students
+in school and to the matter of equity.
+Belongingness/Alienation
+Several studies suggest that students in small high schools...have a greater "sense of belonging"
+to the group than students in larger schools.
+— Jean Stockard and Maralee Mayberry, 1992
+Concerned about the emotional effects of different kinds of school environments, some researchers have
+studied the degree to which students feel a sense of belonging in their schools. Given the foregoing findings
+about other student variables, it is not surprising that these investigators have found a much greater sense of
+belonging (sometimes expressed as a lower level of alienation) among students in small schools than in
+large ones (Burke 1987; Campbell, et al. 1981; Edington and Gardner 1984; Foster and Martinez 1985;
+Fowler and Walberg 1991; Gregory 1992; Gregory and Smith 1983, 1992, Howley 1994; Pittman and
+Haughwout 1987; Smith, Gregory, and Pugh 1981; Stockard and Mayberry 1992; Stolp 1995; Walberg
+1992).
+Feeling alienated from one's school environment is both a negative thing in itself and is often found in
+connection with other undesirable outcomes. Foster and Martinez's review of previous research, plus their
+own study of student participation and attitudes, led them to conclude that,
+Student alienation and student par-ticipation in cocurricular activities have been found to be
+negatively correlated... Unfortunately, alienation affects confidence, self-esteem, and
+responsibility for self-direction (57-58).
+Self-Concept
+Evidence of increases in social bonding to teachers and school, self-esteem, academic selfconcept, locus of control and sociocentric reasoning suggest that [small alternative] programs
+can respond constructively to students' underlying needs.
+—Robert A. Rutter, 1988
+
+Foster and Martinez's observations about students' perceptions of themselves is borne out by Grabe (1981),
+Rutter (1988), and Stockard and Mayberry (1992). These researchers have found that both personal and
+academic self-regard are more positive in smaller schools. Closely related to this are the findings on the
+quality of the interpersonal milieu in these environments.
+Interpersonal Relations
+Students perceive the most positive conditions of the alternative school to be the interpersonal
+relationships with faculty members, the supportive atmosphere of the school, and the
+opportunities provided by the school.
+— Cheryl A. Kershaw and MaryAnn Blank, 1993
+Some researchers approach the matter of school size from a slightly different angle, querying students about
+the interpersonal climate in their schools. This research focuses on elements such as relations among
+students and between students and teachers, especially teacher attention and demonstrations of caring
+toward students. Positive correlations between small schools and favorable interpersonal relations have been
+found by Bates (1993); Burke (1987); Fowler and Walberg (1991); Gottfredson (1985); Gregory and Smith
+(1982, 1983); Smith, Gregory, and Pugh (1981); Kershaw and Blank (1993); Pittman and Haughwout
+(1987); Rutter (1988); Smith and DeYoung (1988); and Stockard and Mayberry (1992). None of the
+research consulted for this report found equal or superior interpersonal relations in large schools.
+College Variables
+[Students] did not differ in terms of grade-point averages or persistence in college, regardless
+of their school district's characteristics, including size of graduating class.
+— William J. Fowler, Jr., 1992
+Some who have argued for large schools on grounds of curricular size and variety have also claimed that
+this alleged curricular superiority provides better preparation for college. Like the curriculum argument, the
+assertions about college readiness have been disproved by research. Six documents address the relative
+merits of large and small schools vis à vis college-related variables—entrance examination scores,
+acceptance rates, attendance, grade point average, and completion. Five found small schools equal (Rogers
+1987; Fowler 1992; Jewell 1989) or superior (Burke 1987; Swanson 1988) to large ones in their capacity to
+prepare students for college entrance and success.
+Teacher Attitudes
+Large schools appear to promote negative teacher perceptions of school administration and low
+staff morale.
+—Denise C. Gottfredson, 1985
+There is less research on school size in relation to teacher or administrator variables, but what there is favors
+smaller schools (Eberts, Kehoe, and Stone 1982; Gottfredson 1985; Gregory 1992; Johnson 1990; Miller,
+Ellsworth, and Howell 1986; Stockard and Mayberry 1992). These researchers examined administrator
+attitudes toward their work, and teacher attitudes toward their work, their administration, and one another,
+as well as the incidence of cooperation/collaboration with their colleagues.
+School-Within-A-School Plans
+
+The major challenge to schools within schools has been obtaining sufficient separateness and
+autonomy to permit staff members to generate a distinctive environment and to carry out their
+own vision of schooling.
+—Mary Ann Raywid, 1985
+What They Are
+In addition to the research on school size, there is a growing body of literature on school-within-a-school
+(SWAS) plans. SWAS arrangements are intended to mitigate the negative effects of large schools by
+organizing their students into smaller groups. SWAS plans are of different kinds and have different
+purposes, as identified by Cawelti (1993, 19-21):
+Vertical house plans. In these arrangements, students in grades 9-12 (or 10-12) are assigned to
+groups of a few hundred each within a large high school. Each "house" has its own discipline plan,
+parent involvement, student activity program, student government, and social activities.
+Ninth grade house plan. Ninth graders have their own "house" within a large high school and have
+smaller classes and counseling for students to ease the transition into high school.
+Special curriculum schools. Students are organized into houses based on special interests or needs—
+English-as-a-Second-Language, for example.
+Charter schools. These are similar to special curriculum schools, except that the motivation for
+creating them tends to come from groups of teachers or parents who have recognized a particular
+focus needed by students. 4
+Research Findings
+Findings about the effects of schools-within-schools must be regarded as tentative. Compared with the
+research on the effects of school size, the research on SWAS structures is less extensive, less conclusive,
+and often less rigorous (e.g., surveys of teacher perception rather than comparative studies). Further, the
+reports of these studies do not always identify the extent to which the SWAS is a truly self-contained and
+distinct entity within a larger school building. This is important to know, because some researchers (Howley
+1996; Meier 1995; Raywid 1985) assert that establishing schools-within-schools will not allow us to reap
+the benefits associated with small schools unless they are "separate entities, administratively,
+programmatically, culturally, and probably with respect to aims" (Howley 1996). Meier makes this point
+even more forcefully:
+A small school must be a school—not a school-within-a-school (whatever that is) or a "minischool" or a house or a family. It can be just one of many housed in a shared building, but a
+building does not equal a school. A school must be independent, with all that the word implies,
+with control over a sufficient number or para-meters that count—budget, staffing, scheduling,
+and the specifics of curriculum and assessment, just to mention a few. And power indeed to put
+toilet paper in bathrooms. And mirrors, too (1995, 115).
+By this standard, some of the SWAS arrangements described above and, indeed, some programs reviewed
+for this paper, would not be likely to produce benefits of the magnitude small schools are able to confer
+upon their students and staffs.
+With these important qualifications, we can say that such research as there is on the effect of SWAS
+arrangements generally finds them beneficial. Whether SWAS students are compared with non-SWAS peers
+in large schools or with their own pre-SWAS performance, researchers have noted benefits in the following
+areas:
+
+Academic achievement (Burke 1987; Boloz and Blessing 1994; Eichenstein 1994; Levine and Sherk
+1990; Robinson-Lewis 1991; Way 1985; Welch and McKenna 1988)
+Social behavior (Burke 1987; Fouts 1994; Goldberg 1982; Way 1985; Welch and McKenna 1988)
+Attitudes (Burke 1987; Boloz and Blessing 1994; Way 1985)
+Satisfaction (Burke 1987; Eichenstein 1994; Nickle, et al. 1990)
+Student-teacher relations (Boloz and Blessing 1994; Goldberg 1982; Welch and McKenna 1988)
+Attendance (Eichenstein 1994; Fouts 1994; Gordon 1993; Robinson-Lewis 1991)
+
+Why Smaller Is Better
+Why does smaller seem to work better?...people seem to learn, to change, and to grow in
+situations in which they feel that they have some control, some personal influence, some
+efficacy.
+— Barney M. Berlin and Robert C. Cienkus, 1989
+Finding that small schools and schooling units are at least equal and often superior to large ones, researchers
+and reviewers have sought to identify the factors responsible for the impressive attainments of these schools.
+In doing so, they draw from their own observations and from survey responses given by school staff and
+students in large and small schools. Not surprisingly, many of the practices identified are in operation
+largely because they are so much easier to implement and manage in smaller environments than in large
+ones.
+One key feature of small schools and units is that everyone's participation is needed for clubs, teams, and
+student government to have an adequate number of members. It is therefore much less likely that students in
+small environments will be redundant, overlooked, or isolated. Noted earlier in this report, this point is
+discussed in detail in Schoggen and Schoggen (1988).
+Closely related to the participation factor is the observation that people in small schools and units come to
+know and care about one another to a much greater degree than is possible in large schools. This applies to
+relationships among students, among staff members, between staff and students, and between the school and
+its surrounding community (Bates 1993; Berlin and Cienkus 1989; Miller, Ellsworth, and Howell 1986;
+Rutter 1988; Schoggen and Schoggen 1988). Students who have moved from a large school to an
+alternative school or school-within-a-school nearly always cite the attentive, caring staff as the reason for
+their academic and attitudinal improvements.
+The higher rates of parent involvement in smaller schools/units is frequently cited as a major positive
+influence on student achievement and attitudes (e.g., Berlin and Cienkus 1989; Burke 1987; Raze 1985;
+Walberg 1992). Walberg writes,
+Parents...are more likely to know the principal and teachers, be informed about their children's
+progress, participate more fully in school activities, and influence decision making. This can
+occur partly because the school is smaller but also because it is likely to be physically and
+psychologically close to students' homes (21).
+Staff and students generally have a stronger sense of personal efficacy in small schools and units (Berlin
+and Cienkus 1989; Rutter 1988; Stockard and Mayberry 1992). Students take more of the responsibility for
+their own learning, learning activities are more frequently individualized, classes are smaller, and scheduling
+is much more flexible (Duke and Perry 1978; Kershaw and Blank 1993; Nickle, et al. 1990). The learning
+needs of students, not the organizational needs of the school, drive school operations (Berlin and Cienkus
+1989; Rutter 1988).
+
+In terms of instructional approaches and strategies, teachers in small schools/units are more likely to form
+teaching teams, integrate their subject-matter content, employ multiage grouping and cooperative learning,
+and use alternative assessments. There is also, in these schools and units, a greater emphasis on learning
+which is experiential and relevant to the world outside of school (Fouts 1994; Kershaw and Blank 1993;
+Nickle 1994; Raze 1985; Rutter 1988; Walberg 1992).
+
+School Size and Educational Equity
+It appears that keeping schools relatively small might be more efficacious and may exhibit rare
+consensus as a goal of educators, the public, and those seeking equality of opportunity for
+students.
+—William J. Fowler, Jr. and Herbert J. Walberg, 1991
+We know that, in general, the states with the largest schools and school districts have the lowest school
+achievement, highest dropout rates, and least favorable teacher-student ratios (Jewell 1989; Walberg 1992).
+We know, too, as documented earlier in this report, that the students who are most adversely affected by
+attending large schools are members of racial minority groups and those from low socioeconomic
+backgrounds.
+Unfortunately, it is also the case that minority and low-SES students are primarily "concentrated in states
+that have large school districts and school districts that have large schools" (Jewell 1989, 150). Jewell
+writes,
+"...if minority students must struggle more to achieve a solid public education and if large
+districts and large schools find it increasingly difficult to achieve solid educational results for
+their students, we may be acting contrary to the interests of all concerned by organizing our
+public education system in a manner which assigns high proportions of minority youngsters to
+large schools within very large school districts." (152)
+
+Summary and Conclusion
+Our data, based upon general tendencies, persist in repeating a single message—smaller seems
+to be better.
+— Robert W. Jewell, 1989
+The following list highlights the major points identified in this paper:
+1. School consolidation has been carried out through much of this century, resulting in many fewer and
+much larger schools and school districts. Consolidation efforts continue into the present time.
+2. The research base on the relative effects of large and small schools is large and quite consistent. The
+research base on the effects of school-within-a-school (SWAS) arrangements is smaller and less
+conclusive.
+3. There is no clear agreement among researchers and educators about what constitutes a "small" school
+or a "large" school. Many researchers, however, indicate that an appropriate and effective size is 300400 students for an elementary school and 400-800 students for a secondary school.
+4. Much school consolidation has been based on the beliefs that larger schools are less expensive to
+operate and have higher-quality curricula than small schools. Research has demonstrated, however,
+that neither of these assertions is necessarily true.
+
+5. Academic achievement in small schools is at least equal—and often superior—to that of large schools.
+6. Student attitudes toward school in general and toward particular school subjects are more positive in
+small schools.
+7. Student social behavior—as measured by truancy, discipline problems, violence, theft, substance
+abuse, and gang participation—is more positive in small schools.
+8. Levels of extracurricular participation are much higher and more varied in small schools than large
+ones, and students in small schools derive greater satisfaction from their extracurricular participation.
+9. Student attendance is better in small schools than in large ones.
+10. A smaller percentage of student drop out of small schools than large ones.
+11. Student have a greater sense of belonging in small schools than in large ones.
+12. Student academic and general self-concepts are higher in small schools than in large ones.
+13. Interpersonal relations between and among students, teachers, and administrators are more positive in
+small schools than in large ones.
+14. Students from small and large high schools do not differ from one another on college-related variables
+such as entrance examination scores, acceptance rates, attendance, grade point average, and
+completion.
+15. Teacher attitudes toward their work and their administrators are more positive in small schools than in
+large ones.
+16. Attributes associated with small school size that researchers have identified as accounting for their
+superiority include,
+a. Everyone's participation is needed to populate the school's offices, teams, clubs, etc., so a far
+smaller percentage of students is overlooked or alienated.
+b. Adults and students in the school know and care about one another to a greater degree than is
+possible in large schools.
+c. Small schools have a higher rate of parent involvement.
+d. Students and staff generally have a stronger sense of personal efficacy in small schools.
+e. Students in small schools take more of the responsibility for their own learning; their learning
+activities are more often individualized, experiential, and relevant to the world outside of
+school; classes are generally smaller; and scheduling is much more flexible.
+f. Grouping and instructional strategies associated with higher student performance are more often
+implemented in small schools—team teaching, integrated curriculum, multiage grouping
+(especially for elementary children), cooperative learning, and performance assessments.
+17. The evidence for the effectiveness of school-within-a-school (SWAS) arrangements is much more
+limited, but it, suggests that students benefit from this form of organization if the SWAS is
+sufficiently separate and distinct from the other school(s) housed in the same building.
+18. Poor students and those of racial and ethnic minorities are more adversely affected—academically,
+attitudinally, and behaviorally—by attending large schools than are other students. Unfortunately, poor
+and minority students continue to be concentrated in large schools.
+Despite this persuasive support for small schools, a gap remains—indeed grows—between research and
+practice regarding school size. "The preponderance of professional literature in the past decade," writes
+Williams,
+indicates that educational researchers support the concept of small school effectiveness. It
+appears, however, that the determinants of school size are seldom the result of research.... More
+often, school size is the result of other factors—political, economic, social, demographic...(12).
+We who have become convinced of the superiority of small schools have, as our next challenge, the task of
+communicating our findings to those who have the power to influence decisions about the size of our
+schools.
+
+Key References
+Aptekar, L. "Mexican-American High School Students' Perception of School." Adolescence 18/70 (Summer
+1983): 345-357.
+Reports the results of a study comparing the attitudes of juniors and seniors in two predominantly
+Hispanic high schools—one small and one very small—toward several aspects of their school
+experience, including policy, school as a whole, teachers, administrators, and involvement in school
+activities. Students at the very small school had more positive outlooks regarding most of the study's
+120 variables.
+Barker, R., and Gump, P. Big School, Small School: High School Size and Student Behavior. Stanford, CA:
+Stanford University Press, 1964.
+Reports research on the relative merits of large and small schools in terms of their effects on both
+academic and extracurricular outcomes. One finding is that levels of extracurricular participation are
+much higher in small schools than in large ones. This study is frequently cited by subsequent
+researchers investigating the effects of school size.
+Bates, J. T. "Portrait of a Successful Rural Alternative School." Rural Educator 14/3 (Spring 1993): 20-24.
+Describes a successful rural alternative school for at-risk secondary students, identifies the practices
+that appear to account for its success, and presents results of a survey of its students. Finds that the
+key features are the school's small size, its caring staff, its flexibility, and its close relationship with
+its community.
+Berlin, B. M., and Cienkus, R. C. "Size: The Ultimate Educational Issue?" Education and Urban Society
+21/2 (February 1989): 228-231.
+Summarizes key findings from this issue of Education and Urban Society and provides an orientation
+to the individual articles. Emphasizes three main findings: (1) smaller is better for districts, schools,
+and classes; (2) low-SES children benefit more from smallness than higher-SES children; and (3)
+children's instructional needs, rather than the schools organizational needs, should determine how
+instruction is organized and conducted.
+Boloz, S. A., and Blessing, C. Walking on Sacred Ground: A Navajo School-within-a-School Model. 1994
+(ED 3667 515).
+Describes a SWAS in rural Arizona that serves 450 at-risk and limited-English-proficient Navajo
+children in grades K-2 using a child-centered, process-oriented, literacy-based model. Preliminary
+outcomes include high student-teacher camaraderie, higher student achievement, and better attitudes
+toward reading than a group of control students.
+Brown, J. Missouri Teachers Experience Stress. 1984 (ED 253 313).
+Seeks to identify the levels and kinds of stress experienced by the 271 Missouri elementary teachers
+who responded to a mail survey. Older teachers experienced less stress over administrative and
+parental factors than younger ones, and teachers of higher grade levels experienced more stress over
+student values and attitudes. Respondents found overcrowded classes stressful, but the only effect of
+large school enrollments was that teachers experienced parent values and attitudes as more stressful.
+Burke, A. M. Making a Big School Smaller: The School-Within-a-School Arrangement for Middle Level
+Schools. Orting, WA: Orting Middle School, May 1987 (ED 303 890).
+Reviews a large body of literature on secondary and elementary school size and on school-within-aschool arrangements to derive implications for middle/junior high schools. Concludes that small
+middle schools and SWAS arrangements are desirable for these young adolescents on grounds of
+
+achievement, behavior, attitudes, and teacher and parent satisfaction.
+Caldas, S. J. "Reexamination of Input and Process Factor Effects on Public School Achievement." Journal
+of Educational Research 86/4 (March/April 1987): 206-214.
+Examines data from the Louisiana public schools to determine the effects of various background and
+school-controllable variables on student achievement. Found that background variables exert a much
+more powerful influence on achievement than school-controllable variables—of which only school
+attendance had a significant effect. School size was unrelated to school achievement.
+Campbell, W. J.; Cotterell, J. L.; Robinson, N. M.; and Sadler, D. R. "Effects of School Size upon Some
+Aspects of Personality." The Journal of Educational Administration 19/2 (Summer 1981): 201-231.
+Reports the result of an Australian study in which large-school and small-school students (who would
+be called seventh graders in the U.S.) were surveyed on eight personality dimensions to determine
+ways in which school size might affect adolescent development. Most strongly affected were the
+variables "concern for persons" and "sense of cohesion."
+Conant, J. The American High School Today: A First Report to Interested Citizens. New York: McGrawHill, 1959.
+Argues that small schools—those with less than 100 students per class—are not able to provide an
+adequately diverse curriculum to serve the needs of American high school students. Favored the
+establishment of "comprehensive" high schools that could provide rich curricular offerings. This has
+been an extremely influential book, leading to the establishment of high schools considerably larger
+than Conant ever envisioned.
+Duke, D. L., and Perry, C. "Can Alternative Schools Succeed Where Benjamin Spock, Spiro Agnew, and B.
+F. Skinner Have Failed?" Adolescence 13/51 (Fall 1978): 375-392.
+Analyzes data from surveys and on-site observations at 18 alternative high schools in California to
+determine why these schools have so few discipline problems compared with regular public high
+schools. Identifies several factors, including the smaller size of the alternative schools.
+Eberts, R. W.; Kehoe, E.; and Stone, J. A. The Effect of School Size on Student Outcomes. Final Report.
+Eugene, OR: Center for Educational Policy and Management, University of Oregon, June 1982 (ED 245
+382).
+Uses data from 300 school districts nationwide to identify relationships between school size and many
+other factors. Highlights include that teacher satisfaction was greater in smaller schools, and student
+achievement was higher in small and medium-size schools than in large schools.
+Edington, E. D., and Gardener, C. E. "The Relationship of School Size to Scores in the Affective Domain
+from the Montana Testing Service Examination." Education 105/1 (Fall 1984): 40-45.
+Compares responses in five affective areas by sixth and eleventh grade students from large and small
+schools in Montana over a two-year period. Several subgoals were measured in the areas of
+communication attitude, attitude toward school, character, cooperation, and change. Students from
+smaller schools expressed more positive responses on nearly all measures than those from larger
+schools.
+Edington, E. D., and Martellaro, H. C. "Does School Size Have Any Relationship to Academic
+Achievement?" Rural Educator 11/2 (Winter 1989-1990): 6-11.
+Examines data on school size, student achievement, and other variable such as Title I eligibility and
+ethnicity, to determine which variables were related to the achievement of New Mexico students over
+a four-year period. School size and achievement were unrelated. Title I eligibility and the presence of
+Native American and Hispanic American populations were negatively related to achievement.
+
+Eichenstein, R. Project Achieve, Part I: Qualitative Findings 1993-94. Brooklyn, NY: Office of Educational
+Research, New York City Board of Education, August 1994 (ED 379 388).
+Identifies the structures, practices, and outcomes of "house units" operating within 10 New York City
+public high schools. Averaging 250 students each, the houses feature heterogeneous grouping and a
+variety of support services. The units had positive effects on student attendance, responsiveness, and
+grades, and students expressed satisfaction with the "house" arrangement.
+Fetler, M. "School Dropout Rates, Academic Performance, Size, and Poverty: Correlates of Educational
+Reform." Educational Evaluation and Policy Analysis 11/2 (Summer 1989): 109-116.
+Identifies relationships among dropout rates, achievement, school size, and AFDC recipient status
+using data from all California secondary schools over a two-year period. Various relationships were
+identified, including a correlation between high achievement and low dropout rates and between large
+size and high dropout rates.
+Foster, C. M., and Martinez, I. "The Effects of School Enrollment Size in the Middle and Junior High
+School on Teacher and Student Attitude and Student Self-Concept." Research in Rural Education 3/2
+(Winter 1985): 57-60.
+Examines the relationship between school size and student and teacher variables at the middle and
+junior high school levels in three states. School enrollments ranged from 200 to 1500. Junior high
+school teachers preferred larger schools, and middle school teachers preferred smaller ones. Junior
+high and middle school students' attitudes toward school and self-concepts were both unrelated to
+school size.
+Fouts, J. T. A School within a School: Evaluation Results of the First Year of a Restructuring Effort. Kent,
+WA: Kent-Meridian High School, January 1994 (ED 370 195).
+Evaluates the implementation and initial results produced by a health/science SWAS serving 70
+students in a large Washington high school. First-year results indicate that program students exhibited
+more growth in writing skills, fewer absences, and fewer discipline referrals than a randomly selected
+comparison group.
+Fowler, W. J., Jr. "School Size and Student Outcomes." Advances in Educational Productivity 5 (1995): 326.
+Reviews research on the relationship between school size and student attitudes, achievement,
+attendance, extracurricular participation, and satisfaction. Findings in all areas favor small schools,
+especially for minority students.
+Fowler, W. J., Jr., and Walberg, H. J. "School Size, Characteristics, and Outcomes." Educational
+Evaluation and Policy Analysis 13/2 (Summer 1991): 189-202.
+Examines data from nearly 300 public secondary schools in New Jersey to identify relationships
+among school and pupil characteristics and school outcomes. Large school size was negatively related
+to student achievement, participation in school activities, satisfaction, attendance, feelings of
+belonging, and school climate.
+Friedkin, N. E., and Necochea, J. "School System Size and Performance: A Contingency Perspective."
+Educational Evaluation and Policy Analysis 10/3 (Fall 1988): 237-249.
+Advances and provides empirical support for a theory of the differential effect of school system size
+in different kinds of settings. Concludes that large systems benefit high-SES populations because they
+have greater resources and a lower incidence of students with exceptional problems and needs. Large
+systems have negative effects on low-SES populations because of more limited resources and a higher
+incidence of students with exceptional problems and needs.
+
+Goldberg, M. F. "What's Happening in... Shoreham-Wading River High School?" Phi Delta Kappan 64/2
+(October 1982): 132.
+Provides an overview of the "House Groups" arrangement at a New York high school, which features
+long-term, supportive relationships between students and their staff advisors. In operation since 1973,
+the plan is credited for the school's positive climate and low incidence of graffiti and vandalism.
+Gordon, R. "The School within a School Program: Preventing Failure and Dropout among At-Risk High
+School Students." ERS Spectrum 11/1 (Winter 1993): 27-30.
+Reports outcomes of evaluations of the Des Moines, Iowa school-within-a-school program, which
+provides basic skills, career guidance, and counseling support to at-risk students in grades 7-10. The
+program operates in five high and two middle schools. Outcomes include a reduced dropout rate,
+increased attendance, and progress toward graduation requirements.
+Gottfredson, D. C. School Size and School Disorder. Baltimore, MD: Center for Social Organization of
+Schools, Johns Hopkins University, July 1985 (ED 261 456).
+Uses national secondary school survey data to identify relationships among school size, school
+disorder, and many other school variables and student characteristics. Results show that large schools
+are negatively related to school safety and that the communications problems and lack of staff
+involvement that often occur in large schools are related to school disorder. While some studies
+suggest that large schools are more disorderly because they are impersonal, this study produced no
+such finding.
+Grabe, M. "School Size and the Importance of School Activities." Adolescence 16/61 (Spring 1981): 21-31.
+Compares students from large high schools with those from smaller high schools in terms of their
+levels of participation in school activities, their self-concepts, and their feelings of alienation. Smaller
+school students were more involved in school activities and in more diverse activities than those in
+larger schools, and participation levels were positively related to self-concept. Data indicate that
+smaller school students were also more alienated, and the researcher offers possible reasons for this
+outcome.
+Gregory, T. "Small Is Too Big: Achieving a Critical Anti-Mass in the High School." In Source Book on
+School and District Size, Cost, and Quality. Minneapolis, MN: Minnesota University, Hubert H. Hum-phrey
+Institute of Public Affairs; Oak Brook, IL: North Central Regional Educational Laboratory, 1992, 1-31 (ED
+361 159).
+Cites findings about the failure of large high schools to meet the needs of either students or teachers.
+Identifies the advantages of small schools, such as better attitudes and student behavior, that are
+consistently found by research. Argues that school organization and financing can be managed in such
+a way that very small high schools (with 250 students or less) can offer excellent learning programs
+affordably. Profiles a highly successful small Colorado high school.
+Gregory, T. B., and Smith, G. R. "Alternative Schools." In Encyclopedia of Educational Research, Fifth
+Edition, Volume 1, edited by H. E. Mitzel. New York: The Free Press, 1982, 120-125.
+Draws from the research on the nature and effects of alternative schools for this section of the
+encyclopedia. Claims that the research base is small, but so far indicates that these schools meet
+students needs; reduce delinquency, crime, vandalism, absenteeism, and tardiness; and enhance selfconcept, social skills and attitudes toward school. Identifies small size, choice, informality and student
+empowerment as reasons for these schools' success.
+Gregory, T. B., and Smith, G. R. Differences Between Alternative and Conventional Schools in Meeting
+Students' Needs. Paper presented at the Annual Meeting of the American Educational Research Association,
+Montreal, Quebec, Canada, April 1983 (ED 232 257).
+
+Compares responses of students and teachers in 14 alternative and 11 conventional secondary schools
+in 10 states as to how well the schools are meeting students needs. Questionnaires covered variables
+relating to security, social interaction, esteem, and self-actualization. Both students and teachers in the
+alternative schools rated their schools much higher in all areas than did the teachers and students in
+the conventional high schools.
+Haller, E. J. "High School Size and Student Indiscipline: Another Aspect of the School Consolidation
+Issue." Educational Evaluation and Policy Analysis 14/2 (Summer 1992): 145-156.
+Uses data from the large-scale High School and Beyond study to determine whether it is the ruralness
+or the smallness of small rural schools that is responsible for the lower levels of truancy and disorder
+in these schools as compared with larger suburban or urban schools. Findings indicate that
+consolidating small rural schools into larger ones would create only trivial increases in these
+discipline problems.
+Haller, E. J.; Monk, D. H.; and Tien, L. T. "Small Schools and Higher-Order Thinking Skills." Journal of
+Research in Rural Education 9/2 (Fall 1993): 66-73.
+Compares the performance of tenth graders from small and large schools on measures of higher-order
+thinking in mathematics and science. Although students from large schools had more advanced math
+and science courses available to them than those from small schools, there were no differences
+between the two groups on measures of higher-order thinking skills.
+Hamilton, S. F. "Synthesis of Research on the Social Side of Schooling." Educational Leadership 40/5
+(February 1983): 65-72.
+Discusses the purposes and methods of ecological research, then applies these to the study of
+particular small and large schools in order to identify differences, particularly in levels of student
+participation in extracurricular activities. Students in small schools had both more and more varied
+activities than those in large high schools.
+Holland, A., and Andre, T. "The Relationship of Self-Esteem to Selected Personal and Environmental
+Resources of Adolescents." Adolescence 29/114 (Summer 1994): 345-360.
+Examines relationships among school size, gender, gender role identification, extracurricular
+activities, parent variables, and self-esteem. There were no consistent relationships between school
+size and self-esteem. Both males and females from smaller schools were more likely to participate in
+extracurricular activities than those from large schools.
+Howley, C. The Academic Effectiveness of Small-Scale Schooling (An Update). ERIC Digest. Charleston,
+WV: Clearinghouse on Rural Education and Small Schools, June 1994 (ED 372 897).
+Summarizes research on the school size-academic achievement relationship and concludes that
+smaller schools correlate with higher achievement for students in general and for disadvantaged
+students most of all. No significant relationships were identified between school size and higher-order
+thinking skills. Argues that school size is a restructuring issue deserving greater attention from
+reformers.
+Howley, C. B. "The Matthew Principle: A West Virginia Replication?" Education Policy Analysis Archives
+3/18 (November 15, 1995): 1-25. Electronic journal: http://seamonkey.ed.asu.edu/epaa/v13n18.html
+Replicates and expands a 1988 California study of elementary and secondary schools showing that
+large schools benefit the affluent and that small schools benefit the economically disadvantaged to an
+even greater degree. This study corroborated the findings of the earlier one (see Fried-kin and
+Necochea 1988 above). The researcher notes that West Virginia has unfortunately closed 20 percent of
+its schools, most of them small, since 1990 when the study was conducted.
+
+Huang, G., and Howley, C. "Mitigating Disadvantage: Effects of Small-Scale Schooling on Student
+Achievement in Alaska." Journal of Research in Rural Education 9/3 (Winter 1993): 137-149.
+Examines data on more than 13,000 Alaska fourth, sixth, and eighth graders who had been in the
+same school district for at least four years in relation to school size and socioeconomic status.
+Disadvantaged students in small schools significantly outperformed those in large schools on the Iowa
+Test of Basic Skills.
+Jewell, R. S. "School and School District Size Relationships: Costs, Results, Minorities, and Private School
+Enrollments." Education and Urban Society 21/2 (February 1989): 140-153.
+Compares data on school system size, district size, and school size to other variables including income
+levels, school costs, minority enrollments, college test scores, graduation rates, teachers' salaries,
+pupil/teacher ratios, private school enrollments, and tax rates for public education. Finds, among other
+things, that small schools and districts have higher graduation rates, even after controlling for the
+proportion of minority students, and that most minority students are enrolled in large schools and
+districts.
+Johnson, S. M. Teachers at Work: Achieving Success in Our Schools. New York: Basic Books, 1990.
+Reports on a study of 115 teachers regarded as "very good" by their principals. Teachers described
+their experiences and beliefs regarding workplace quality, home-school relations, school governance,
+pro-fessional growth, and other topics. One finding: teachers in small schools had much more
+influence on the ways their schools functioned than teachers in large schools.
+Kershaw, C. A., and Blank, M. A. Student and Educator Perceptions of the Impact of an Alternative School
+Structure. Paper presented at the Annual Meeting of the American Educational Research Association,
+Atlanta, GA, April 1993 (ED 360 729).
+Reviews literature on alternative school programs and reports the results of a study on the effects of
+one alternative school. The perceptions of students, teachers, counselors, and an administrator are
+reported and compared with conditions at the larger "base" schools that student subjects had also
+attended. Respondents felt the smaller, more structured, and more personable environment of the
+alternative school was beneficial to students.
+Levine, D. U., and Sherk, J. K. Effective Implementation of a Comprehension-Improvement Approach in
+Secondary Schools. Kansas City, MO: Center for the study of Metropolitan Problems in Education, Missouri
+University, May 1990 (ED 327 830).
+Depicts activities undertaken to improve students' reading comprehension at several urban secondary
+schools, including eight schools-within-schools for low-achieving students in grade 9. Participating
+teachers used local variations of a program intended to help them acquire and use comprehensionimprovement strategies. Teacher surveys revealed positive results, including gains in reading
+comprehension, at all participating schools.
+Lindsay, P. "The Effect of High School Size on Student Participation, Satisfaction, and Attendance."
+Educational Evaluation and Policy Analysis 4/1 (Spring 1982): 57-65.
+Looks at the relationship between school size and the attendance, participation levels, and satisfaction
+of high school seniors across the U.S. Even after adjusting for the effects of setting, SES, and
+academic ability, smaller school size was found to be positively related to all three dependent
+variables for both girls and boys.
+McGanney, M. L.; Mei, D. M.; and Rosenblum, J. Ninth Grade Houses: The Program and Its Impact in
+New York City Public High Schools. Paper presented at the Annual Meeting of the American Educational
+Research Association, San Francisco, CA, March 1989 (ED 306 284).
+Presents information on the implementation of ninth-grade house plans in 97 New York high schools.
+
+Participating teachers and administrators had favorable views toward the program, and the attendance
+rates of participating students was better than that of a comparison group. Includes recommendations
+for program continuation.
+McGuire, K. "School Size: The Continuing Controversy." Education and Urban Society 21/2 (February
+1989): 164-174.
+Discusses biases and other flaws in the methods usually used to determine the relationship between
+school size and cost, and between school size and educational quality. Speculates that factors other
+than size itself—such as whether students engage in active or passive learning—are the main
+determinants of educational success.
+McKenzie, P. The Distribution of School Size: Some Cost Implications. Paper presented at the Annual
+Meeting of the American Educational Research Association, Montreal, Quebec, Canada, April 1983 (ED
+232 256).
+Remarks that many analyses of the school size-cost relationship are simplistic and do not yield useful
+information. Discusses and provides mathematical formula for the dispersion-cost relationship, which
+reveals that average per pupil costs decline up to a point as enrollment increases, reach a minimum,
+and then rise with further school enrollment size increases.
+Melnick, S. A.; Shibles, M. R.; Gable, R. K.; and Grzymkowski, V. A Comparative Study of the
+Relationships between School District Size and Selected Indicators of Educational Quality. Hartford, CT:
+Connecticut Association of School Administrators, Small/Rural Schools Committee, February 1986 (ED 305
+215).
+Compares small schools and large, non-urban schools in Connecticut in terms of costs, staffing,
+curriculum, achievement, attendance, dropouts, and graduate preparation. No significant differences
+were found on most measures, but large schools were found to offer more advanced courses and have
+higher percentages of students continuing to higher education, and smaller schools had a larger
+teacher-student ratio.
+Merritt, R. "The Effect of Enrollment and School Organization on the Dropout Rate." Phi Delta Kappan
+65/3 (November 1983): 224.
+Presents findings from a study of dropout rates at 272 secondary schools in Mississippi. Larger
+schools (those with 400 or more students) had higher dropout rates than smaller schools, unless the
+grade levels served are taken into account. Large schools serving grades 7-12 had significantly lower
+dropout rates than those serving only 9-12 or 10-12, presumably because students experience fewer
+transitions.
+Miller, J. W.; Ellsworth, R.; and Howell, J. "Public Elementary Schools Which Deviate from the Traditional
+SES-Achievement Relationship." Educational Research Quarterly 10/3 (1986): 31-50.
+Reports the results of a study that sought to identify reasons that elementary schools exhibit reading
+achievement that is either significantly higher or significantly lower than the socioeconomic levels of
+the student population would predict. One key finding is that higher-than-expected reading
+performance was exhibited by low-SES students attending small schools.
+Monk, D. H. "Modern Conceptions of Educational Quality and State Policy Regarding Small Schooling
+Units." In Source Book on School and District Size, Cost, and Quality. Minneapolis, MN: Minnesota
+University, Hubert H. Humphrey Institute of Public Affairs; Oak Brook, IL: North Central Regional
+Educational Laboratory, 1992, 34-49 (ED 361 160).
+Discusses research and contemporary thinking about the relationship between educational quality and
+the size of schools and school districts. Argues that, despite the trend toward reorganization of small
+schools and districts into fewer and larger ones, such reorganization does not guarantee improvements
+
+in student access to courses or in student outcomes. Encourages policymakers to consider several
+suggested alternatives to the elimination of small schools and districts.
+Monk, D. H. "Secondary School Enrollment and Curricular Comprehensiveness." Economics of Education
+Review 6/2 (1987): 137-150.
+Looks at the relationship between school size and the breadth and depth of the curriculum. Finds that
+increasing school size up to about 400 students tends to bring with it a richer curriculum. For various
+reasons, increases beyond 400 students do not generally broaden or deepen the curriculum.
+Recommends maintaining secondary enrollments at the 400-student level.
+Monk, D. H., and Haller, E. J. "Predictors of High School Academic Course Offerings: The Role of School
+Size." American Educational Research Journal 30/1 (Spring 1993): 3-21.
+Examines relationships among the factors of size, SES, unionization of teachers, setting, and grade
+configuration on the scope of the high school curriculum. Finds differential effects of size on
+curriculum owing to the influence of the other factors, suggesting that there is no one optimal high
+school size.
+Monk, D. H., and Kadamus, J. A. "The Reform of School District Organizational Structure." Advances in
+Educational Productivity 5 (1995): 27-47
+Discusses issues involved in using research to influence educational policy, describes a process for
+analysis and decision making regarding district organization, and offers a case study of the events and
+problems associated with district reorganization in New York State.
+Nachtigal, P. "Remapping the Terrain: School Size, Cost, and Quality." In Source Book on School and
+District Size, Cost, and Quality. Minneapolis, MN: Minnesota University, Hubert H. Humphrey Institute of
+Public Affairs; Oak Brook, IL: North Central Regional Educational Laboratory, 1992, 52-71 (ED 361 161).
+Traces research showing that large schools are not necessarily more cost-effective than small schools,
+nor do they necessarily offer better programs of study. Argues that when small, rural schools engage
+in community development and community-based learning, what we are accustomed to thinking of as
+schooling "costs" actually become investments in the community's future.
+Pittman, R. B., and Haughwout, P. "Influence of High School Size on Dropout Rate." Educational
+Evaluation and Policy Analysis 9/4 (Winter 1987): 337-343.
+Scrutinizes data on 744 high schools to determine the relationship among school size, school climate
+factors, and the dropout rate. Concluded that large size contributes to the dropout rate indirectly—but
+dramatically—by lowering the quality of school climate, composed of the variables of cohesion, levels
+of participation in school activities, interaction with faculty, and magnitude of school problems.
+Raze, N. Instructional Implications for Small Schools: A Review of the Literature. Redwood City, CA: San
+Mateo County Office of Education, SMERC Information Center, February 1985 (ED 272 347).
+Reviews literature on the relative merits of small and large elementary schools, concluding that,
+overall, small schools are more desirable, not only in rural settings, but in suburban and urban locales
+as well. Cites schooling practices that are particularly suited to small school environments, including
+multiage grouping, team teaching, experiential learning, and parent participation.
+Robertson, P. Reinventing the High School: The Coalition Campus School Project in New York City. Paper
+presented at the Annual Meeting of the American Educational Research Association, San Francisco, CA,
+April 1995.
+Discusses the Coalition Campus School Project, which has begun eleven new, small high schools in
+New York City. Provides data showing that these schools are appreciably lowering their costs by using
+staff differently than large schools do. Argues that the ultimate cost to society of operating small
+
+schools is probably far lower than operating large ones. This is because the proven positive effects of
+small schools on students extend into adulthood, increasing their productivity and reducing the
+likelihood that they will be burdensome to society.
+Robinson-Lewis, G. Summative Evaluation of the School-Within-A-School (SWAS) Program: 1988-1989,
+1989-1990, 1990-1991. Kansas City, MO: Kansas City School District, August 1991 (ED 346 203).
+Presents findings emerging from an evaluation of the Kansas City, Missouri SWAS program for atrisk students in grades 7 and 9. Compared with their performance prior to program participation,
+SWAS student had higher ITBS scores, high grades, and better attendance. Recommendations for
+future operations are included.
+Rogers, R. G. "Is Bigger Better? Fact or Fad Concerning School District Organization." ERS Spectrum 5/4
+(Fall 1987): 36-39.
+Challenges Illinois State Board of Education's conclusion that large schools offer a better and broader
+education than small schools. Examines data from small schools in 34 Illinois districts to determine
+the relationship between secondary school size and curriculum, costs, extracurricular participation,
+college attendance and success, and dropout rates. Findings in all areas favor small high schools.
+Rutter, R. A. Effects of School as a Community. Madison, WI: National Center on Effective Secondary
+Schools, 1988 (ED 313 470).
+Identifies qualities of conventional, large secondary schools that make them unsuitable for meeting the
+needs of at-risk students. Examines more and less successful alternative secondary programs and
+identifies the qualities of those that are enabling at-risk young people to succeed. Important
+differences relate to the interpersonal support and individualized attention that are possible in smaller
+learning environments.
+Schoggen, P., and Schoggen, M. "Student Voluntary Participation and High School Size." Journal of
+Educational Research 81/5 (May/June 1988): 288-293.
+Examines the relationship between high school size and student participation in voluntary
+extracurricular activities by reviewing yearbook information on over 10,000 seniors in nonurban
+settings in New York state. Corroborated results of earlier studies that revealed much higher levels of
+participation in smaller schools.
+Simmons, R. G. "Social Transition and Adolescent Development." New Directions for Child Development
+37 (Fall 1987): 33-61.
+Cites research on the events and particular stresses of adolescent development, especially as they
+affect disadvantaged students. Discusses adolescent development in relation to research on school
+structures and sizes. Recommends that young adolescents attend smaller schools—or, if they attend
+larger schools, that they be placed in "smaller, stable, intimate subgroup environments within the
+school."
+Smith, D. T., and DeYoung, A. J. "Big School vs. Small School: Conceptual, Empirical, and Political
+Perspectives on the Re-emerging Debate." Journal of Rural and Small Schools (Winter 1988): 2-11.
+Restates the arguments that have been used in support of consolidating small, predominantly rural
+schools into larger units, and cites research findings demonstrating that the case for consolidation is
+unsound. Identifies a range of small-school and -district advantages similar to those cited in other
+research investigations.
+Smith, G. R., and Gregory, T. B. Major Contrasts in the Social Climates of Two High Schools in the Same
+Town. Paper presented at the Annual Meeting of the American Educational Research Association,
+Washington, DC, April 1987.
+
+Uses a climate assessment instrument, a series of in-depth interviews, and data on student
+performance to identify differences between a comprehensive high school with 1,000 students and an
+alternative school with 175 students. The alternative school's teachers and students were much more
+satisfied than those in the large school and their sense of community was much stronger. The
+alternative school's students also exhibited higher achievement test scores.
+Smith, G. R.; Gregory, T. B.; and Pugh, R. C. "Meeting Student Needs: Evidence for the Superiority of
+Alternative Schools." Phi Delta Kappan 62/8 (April 1981): 561-564.
+Investigates the relative opinions of comprehensive and alternative school students and teachers as to
+how well their schools meet the students' needs in the areas of security, social relationships, esteem
+(expectations of success), and self-actualization. Alternative schools received much higher ratings
+than comprehensive schools by both students and teachers, with school size being a "potentially
+confounding variable" rather than a clear cause of the differences.
+Stockard, J., and Mayberry, M. "Resources and School and Classroom Size." Chapter 3 in Effective
+Educational Environments. Newbury Park, CA: Corwin Press, Inc., 1992, 40-58.
+Summarizes key documents from the school size literature, ranging from James Conant's The
+American High School Today to the present. Concludes that some of the assumptions supporting the
+move to larger and larger high schools are inaccurate and cites research findings in support of small
+schools and districts.
+Stolp, S. "Every School a Community: The Academic Value of Strong Social Bonds Among Staff and
+Students." OSSC Bulletin 39/1 (October 1995): entire issue.
+Cites research and case studies demonstrating the beneficial effects of school environments
+characterized by shared purpose, belongingness, mutual support, and other features of community.
+Notes that many of these environmental features are best achieved in small schools or small sub-units
+within schools.
+Toenjes, L. A. Dropout Rates in Texas School Districts: Influences of School Size and Ethnic Group. Austin,
+TX: Texas Center for Educational Research, August 1989 (ED 324 783).
+Studies data on the largest 21 school districts in Texas to determine the relationship of school size and
+ethnicity to dropout rates. Whites had the highest dropout rates (compared to blacks and Hispanics),
+and there was a strong positive relationship between school size and dropout rate.
+Walberg, H. J. "On Local Control: Is Bigger Better?" In Source Book on School and District Size, Cost, and
+Quality. Minneapolis, MN: Minnesota University, Hubert H. Humphrey Institute of Public Affairs; Oak
+Brook, IL: North Central Regional Educational Laboratory, 1992, 118-134 (ED 361 164).
+Provides data on increases in the past 50 years of school and district size, reviews literature on the
+effects of school and district size, and presents findings from an analysis indicating that the higher the
+percentage of school costs provided by the state, the lower the achievement of students in that state.
+Way, J. W. Evaluation of the School Within a School, 1984-85. Kansas City, MO: Kansas City School
+District, August 1985 (287 911).
+Investigates the effects of school-within-a-school programs for low-achieving ninth and tenth graders
+in five secondary schools. Program students compared favorably with comparison students and with
+their own previous performance on measures of reading achievement, academic self-concept, attitudes
+toward school, and discipline interruptions. Math performance was superior but not significantly so,
+and attendance data were confounded.
+Welch, J., and McKenna, E. SWAS: School within a School. A Middle Level Dropout Intervention
+Program. North Kingstown, RI: North Kingstown Public Schools, November 1988 (ED 302 919).
+
+Describes the SWAS program serving at-risk middle school students at Davisville Middle School.
+Program students re-enter the regular Davisville program when their achievement and teacher
+recommendations warrant doing so. A key components is required parent involvement. During the
+period studied, 84 percent of participating students had improved grades, and teacher perceptions of
+student behavior and attitudes were positive.
+Williams, D. T. The Dimensions of Education: Recent Research on School Size. Working Paper Series.
+Clemson, SC: Clemson University, Strom Thurmond Institute of Government and Public Affairs, December
+1990 (ED 347 006).
+Reviews 30 research studies on school size and its relationship to other factors, such as class size and
+district size. Finds that large schools are not necessarily more cost-effective, nor do they necessarily
+provide a higher-quality education, than small schools. Quotes extensively from the studies reviewed.
+General References
+Alberta Department of Education. Small School/Large School Comparative Analysis. Edmonton, Alberta:
+Planning and Research Branch, Alberta Department of Education, October 1984 (ED 257 609).
+Discusses the relative merits of small and large schools in Alberta, particularly in the rural
+communities that make up most of the province. Cites research indicating that there are no significant
+achievement differences, but finds that small schools are costlier. Supports the continuation of small,
+rural schools and cites conditions required for quality education in such settings.
+Bank Street College of Education, and Public Education Association. Making Big High Schools Smaller. A
+Review of the Implementation of the House Plan in New York City's Most Troubled High Schools. New
+York: Bank Street College of Education; Public Education Association, January 1989 (ED 347 212).
+Reviews the implementation of five ninth grade SWAS units in New York City that focus on dropout
+prevention. At this early stage, the report does not focus on student outcomes, but rather critiques
+implementation activities and makes recommendations for improvement. In general, evaluators felt
+that the SWAS arrangements were too similar to traditional high schools and should have more
+administrative support, student choice, and flexible scheduling.
+Barker, B. O. The Advantages of Small Schools. ERIC Digest. Las Cruces, NM: ERIC Clearinghouse on
+Rural Education and Small Schools, February 1986 (ED 265 988).
+Summarizes research on the advantages of small schools (defined as 300 or fewer students) in the
+areas of student achievement; personal relationships among students, teachers, administrators, parents,
+and community members; student participation in extracurricular activities; student and staff morale;
+feasibility of using effective instructional methods; and incidence of discipline problems.
+Cawelti, G. "Restructuring Large High Schools to Personalize Learning for All." ERS Spectrum 11/3
+(Summer 1993): 17-21.
+States the generally accepted findings from the school size research—that large schools have negative
+effects on student attitudes, participation, and achievement. Describes the kinds of structures that are
+being developed in some large high schools to mitigate those effects: "house plans" or schools-withinschools, special curriculum schools, teacher-adviser programs, and block scheduling.
+Cohen, B. P. The Effects of Crowding on Human Behavior and Student Achievement in Secondary Schools.
+Philadelphia, PA: Philadelphia School District, Office of Curriculum and Instruction, 1975 (ED 188 279).
+Reviews research literature on the differential effects of small and large secondary schools as a
+prelude to presenting design ideas for an effective secondary school. Found small schools to be
+superior to large ones in terms of dropouts, student interest and involvement, vandalism, absenteeism,
+achievement, leadership development and sense of identity.
+
+Conway, G. E. Small Scale and School Culture: The Experience of Private Schools. Charleston, WV: ERIC
+Clearinghouse on Rural Education and Small Schools, November 1994 (ED 376 996).
+Examines school size in relation to educational quality and school culture in private schools. Small
+size enables private schools to establish shared purposes, personal loyalties, and common sentiments
+that are often absent from large public schools.
+Edington, E. D., and Martellaro, H. C. Variables Affecting Academic Achievement in New Mexico Schools.
+Paper presented at the Annual Meeting of the American Educational Research Association, New Orleans,
+LA, April 1984 (ED 271 267).
+Investigates the relationship between school size and achievement—both with and without
+considering the influence of other variables—in New Mexico schools over a four-year period. This
+reports on the same study as Edington and Martellaro (1989-90), above.
+Fowler, W. J., Jr. What Do We Know about School Size? What Should We Know? Paper presented at the
+Annual Meeting of the American Educational Research Association, San Francisco, CA, April 1992 (ED
+347 675).
+Reviews research on the relationship between secondary school size and other variables such as
+curricular offerings and the student outcomes of achievement attitudes, extracurricular participation,
+and college behavior. Research indicates that small schools—those with no more than 400 students—
+produce more desirable outcomes in all of these areas than large schools.
+Green, G., and Stevens, W. "What Research Says about Small Schools." The Rural Educator 10/1 (Fall
+1988): 9-14.
+Reviews research literature on the effects of school size on levels of student participation in schoolrelated activities and student achievement. Concludes that students in small schools exhibit academic
+performance at least equal to, and sometimes higher than, those from larger schools and that their
+levels of participation are considerably higher.
+Gregory, T. B., and Smith, G. R. "The Case for Small High Schools." In High Schools as Communities: The
+Small School Reconsidered. Bloomington, IN: Phi Delta Kappa, 1987, 68-85 (ED 278 518).
+Summarizes research pointing to the superiority of small high schools over large ones. Findings
+concern costs, curricular richness, and benefits accruing to teachers and students.
+Henderson, H., and Raywid, M. A. "'Small' Revolution in New York City." Journal of Negro Education
+63/1 (1994): 28-45.
+Discusses the development of several dozen new alternative high schools in New York City
+established largely in response to research indicating that smaller schools serve students—and
+especially disadvantaged students—better than larger, more compartmentalized and bureaucratized
+schools.
+Howley, C. "Literature Review." In Sizing up Schooling: A West Virginia Analysis and Critique.
+Unpublished Doctoral Dissertation, West Virginia University, Morgan-town, WV, 1996.
+Reviews the literature on school size and concludes that size, rather than being a mere "container" for
+other variables, is a key structural variable in its own right. Asserts that school size interacts with SES
+in such a way that high- and low-SES student populations will be affected differently by the size of
+school they attend.
+Howley, C. B. Personal communication, March 21, 1996.
+Calls attention, in a letter accompanying his review draft of the present paper, to the fact that the
+research on small vs. large schools is more extensive and conclusive than that on SWAS plans.
+Remarks on the necessity for the SWAS to be a separate entity from the other school(s) in the same
+
+building.
+Howley, C. B. "Synthesis of the Effects of School and District Size: What Research Says About
+Achievement in Small Schools and School Districts." Journal of Rural and Small Schools 4/1 (Fall 1989):
+2-12.
+Summarizes the reasoning behind the large-scale school consolidation movement of this century, cites
+early research on the effects of school size, explains the superiority of more recent research methods,
+shares the results of methodologically sound school size research, and discusses the implications of
+these findings for planners. Finds small schools more beneficial to students than large schools in a
+variety of ways.
+Huling, L. "How School Size Affects Student Participation, Alienation." NASSP Bulletin 64/438 (October
+1980): 13-18.
+Reviews research on the relationship of high school size to student participation in cocurricular
+activities and to student alienation. Reports that large size correlates negatively to participation and
+positively to alienation, especially for "marginal" students. Recommends that educators and board
+members consider these findings along with academics, cost, and convenience when making decisions
+related to school size.
+Kearney, J. M. The Advantages of Small Rural Schools. Final Report to the Idaho Rural School Association.
+Moscow, ID: University of Idaho, College of Education, February 1994 (ED 373 934).
+Reviews research on small and rural secondary schools, discusses the characteristics of rural
+education, analyzes Idaho high school data, and presents arguments for and against consolidation of
+rural schools. Among the findings are that small schools produce achievement outcomes superior to
+those of larger schools and that minority and at-risk students benefit the most from small school
+environments.
+Lomotey, K., and Swanson, A. D. "Urban and Rural Schools Research: Implications for School
+Governance." Education and Urban Society 21/4 (August 1989): 436-454.
+Compares rural schools, typical urban schools, and effective urban schools on many characteristics,
+including size, nature of student population, achievement, school culture, discipline, administrative
+leadership, teaching staff, curriculum, and others. Finds that many of the virtues of rural schools are
+related to their relatively small size.
+Lund, D. R.; Smith, J. A.; and Glennon, M. L. "What's Happening in...East Williston, New York?" Phi
+Delta Kappan 64/7 (March 1983): 503-504.
+Traces the history of the school-within-a-school at Wheatley School, an alternative secondary
+program featuring shared decision making, nontraditional teaching methods, and student selfevaluation. Identifies problems encountered, outcomes and recommendations for improvement.
+Martellaro, H. C., and Edington, E. Relationship of School Enrollment Size to Academic Achievement in
+New Mexico. Paper presented at the Annual Meeting of the Rural Education Association, Manhattan, KS,
+October 1983 (ED 234 956).
+Reports on the same research study as that summarized in Edington and Martellaro (1984), above.
+Meier, D. The Power of their Ideas. Lessons for America from a Small School in Harlem. Boston: Beacon
+Press, 1995.
+Describes the history and operation of the highly successful Central Park East, comprised of four
+public schools which, collectively, serve students in grades K-12, most of whom are low-SES African
+Americans and Hispanics. The author draws from her CPE experience to argue for a kind of school
+reform in which all children would attend small schools.
+
+Mergendoller, J. R. To Facilitate or Impede? The Impact of Selected Organizational Features of Secondary
+Schools on Adolescent Development. Ecological Perspectives for Successful Schooling Practice. San
+Francisco: Far West Laboratory for Educational Research and Development; Madison, WI: Wisconsin
+Center for Education Research, 1982 (ED 233 501).
+Presents a theory of adolescent development and reviews research findings in light of the author's
+theory. Argues that the greater participation levels in smaller schools benefit students' development,
+because they are able to experience multiple roles, feel needed, and develop friendships with fellow
+participants.
+Nickle, M. N.; Flynt, F. C.; Poynter, S. D.; and Rees, J. A., Jr. "Does it Make a Difference if You Change
+the Structure? School-within-a-School." Phi Delta Kappan 72/2 (October 1990): 148-152.
+Describes a SWAS program developed by four teachers in a Springdale, Arkansas high school.
+Featuring an interdisciplinary program, flexible scheduling, and common planning periods, the
+program became part of the Coalition of Essential Schools. Students surveyed identified several
+reasons for preferring the SWAS to "regular" school—less pressure, taking more responsibility for
+their learning, interrelatedness of learning content, and relevance of the instructional program to "real
+life."
+Ornstein, A. C. "School Size and Effectiveness: Policy Implications." The Urban Review 22/3 (September
+1990): 239-245.
+Gives a brief overview of research findings on the relationship between school size (elementary and
+secondary) and variables such as cost, curricular richness, and affective characteristics of students.
+Identifies appropriate elementary school size as 200-600 and appropriate secondary school size as
+300-1000.
+Oxley, D. "Organizing Schools into Small Units: Alternatives to Homogeneous Grouping." Phi Delta
+Kappan 75/7 (March 1994): 521-526.
+Cites research findings about the negative effects of large high schools and the practice of academic
+tracking as a lead-in to a discussion of the virtues of small units of heterogeneously grouped students
+at the secondary level. Discusses two schools—one German and one American—which are structured
+in this way and which focus on successfully educating all of their students.
+Parrett, W. H. "Experiences of Alternative Secondary Schools Can Help Rural Schools." Action in Teacher
+Education 4/4 (Winter 1982): 45-49.
+Identifies educational practices that have proved effective in alternative schools and recommends that
+rural schools, which because of their small size can also implement these practices, review and make
+use of them. Among practices cited are use of adapted materials, attention to students' personal issues,
+community learning experiences, soliciting student input for learning experiences, and individualizing
+learning activities.
+Piper, P. S. "Schools-Within-A-School: The Kapa'a Elementary School Model." Educational Innovations in
+the Pacific 2/1 (September 1994). (ED 375 469).
+Discusses the development and implementation of several subject-area school-within-a-school
+structures—those focusing on math, science, creative and critical thinking, technology, language arts,
+etc. Though initial parent, staff, and student attitudes were positive, several problems and their
+proposed solutions are identified. Recommendations for successful schools-within-schools are
+included.
+Ramirez, A. "Size, Cost, and Quality of Schools and School Districts: A Question of Context." In Source
+Book on School and District Size, Cost, and Quality. Minneapolis, MN: Minnesota University, Hubert H.
+Humphrey Institute of Public Affairs; Oak Brook, IL: North Central Regional Educational Laboratory, 1992,
+
+72-93 (ED 361 162).
+Reviews literature on the relationship between school and district size on one hand, and course
+offerings, teacher qualifications, student behavior, student participation, and school climate on the
+other. Concludes that size per se is unrelated to student achievement and that the organization of
+classrooms—"the basic unit of contact"—is the key element of a schools' success or failure.
+Raywid, M. A. "Family Choice Arrangements in Public Schools: A Review of the Literature." Review of
+Educational Research 55/4 (Winter 1985): 435-467.
+Reviews the history of family choice opportunities in public schools and discusses the range of
+motives behind families' exercise of school choice. Describes several choice models, including
+alternative schools and SWAS plans.
+Rogers, B. "Small Is Beautiful." In Source Book on School and District Size, Cost, and Quality.
+Minneapolis, MN: Minnesota University, Hubert H. Humphrey Institute of Public Affairs; Oak Brook, IL:
+North Central Regional Educational Laboratory, 1992, 96-116 (ED 361 163).
+Cites research findings regarding the advantages of small secondary schools and illustrates these with
+anecdotal reports gathered from participating schools in the Coalition for Essential Schools. Discusses
+reasons the vision of the large, "comprehensive" high school is unsuitable for meeting the needs of
+today's students.
+Sergiovanni, T. J. Organizations or Communities? Changing the Metaphor Changes the Theory. Paper
+presented at the Annual Meeting of the American Educational Research Association, Atlanta, GA, April
+1993 (ED 376 008).
+Argues that we should regard schools as communities, rather than regarding them as organizations.
+Because communities focus more on the personal and interpersonal than do organizations, this shift
+brings with it several implications, including the need to move away from bureaucratic authority,
+change school structures, and decrease school size.
+Sparkes, R. L., and McIntire, W. G. "Community and School Size as Factors in the Job Satisfaction of
+Principals in Newfoundland and Labrador." Journal of Rural and Small Schools 2/3 (Spring 1988): 11-15.
+Reports findings from a survey of over 400 principals in Newfoundland and Labrador on measures of
+job satisfaction, and correlates these with school and community size. Principals of large schools
+(those with 16 or more teachers) in large communities (those with populations over 1,500) exhibited
+greater professional satisfaction than those in smaller schools and/or communities. Recommendations
+include better recruitment procedures and professional development activities for principals of small
+schools.
+Stevens, N. G., and Peltier, G. L. "A Review of Research on Small-School Student Participation in
+Extracurricular Activities." Journal of Research in Rural Education 10/2 (Fall 1994): 116-120.
+Cites research on the beneficial effects of attending small schools, including greater participation in
+extracurricular activities, leadership opportunities, learning motivation, and feelings of being needed
+and valued. Effects of greater participation in school activities were found to be long-lasting.
+Swanson, A. D. "The Matter of Size: A Review of the Research on Relationships between School and
+District Size, Pupil Achievement and Cost." Research in Rural Education 5/2 (Spring 1988): 1-8.
+Reviews research on the relative merits of small and large schools and school districts, giving
+consideration to both the achievement and affective qualities outcomes of students in different
+settings. Findings include that smaller schools foster more positive student attitudes and interpersonal
+relationships and are not so deficient in their range of curricular offerings as was once believed.
+Walberg, H. J., and Walberg, H. J., III. "Losing Local Control." Educational Researcher 23/5 (June/July
+
+1994): 19-26.
+Examines relationships in 38 states among school size, district size, percentage of schooling costs paid
+by the state, percentage paid locally, and student achievement. Smaller schools exhibit higher
+achievement than larger schools at the secondary and particularly the elementary level. States in
+which states provide a smaller percentage of costs and local government pays a larger percentage
+have higher achievement than states in which the reverse condition prevails.
+1 Conant's idea of an adequately large high school—one with 300 (grades 10-12) or 400 (grades 9-12)—
+
+would be considered a small school today. As several reserachers have pointed out, Conant never advocated
+the schools with thousands of students for which his book was used as a rationale.
+2 Some researchers (e.g., Friedkin and Necochea 1988; Howley 1995) have found that large schools benefit
+
+high-SES students and hamper low-SES students to an even greater degree (see the annotated references).
+The majority of the research, however, indicates that small schools are beneficial to all students.
+3 The Barker and Gump research shows that, in a small school, every student is needed to populate teams,
+
+offices, and clubs, and thus even marginal students are encouraged to participate and made to feel that they
+belong. As schools grow larger, opportunities for extracurricular participation also grow—but not
+proportionately. Typically, a twenty-fold increase in school population leads to only a five-fold increase in
+participation opportunities. Thus, in larger schools, a greater proportion of students are unneeded to fill
+participation slots—"redundant," as Barker and Gump put it.
+4 Cawelti also discussed teacher-advisor programs and block scheduling as strategies for arranging students
+
+in small groups within large schools, but since these are not actual SWAS plans, I have not included his
+discussion of them here.
+
+

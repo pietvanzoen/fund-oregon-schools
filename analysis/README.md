@@ -15,6 +15,9 @@
 | `derived/<topic>.csv` | Our own calculations (sums, shares, estimates), cited with DER tags; written by `tools/derive_<topic>.py` |
 | `topics/reserves.md` | Whether reserves can close gaps |
 | `glossary.csv` | Abbreviations and terms in plain words (`term, full_name, kind, tooltip, definition, source`); feeds the Glossary page and the site's hover tooltips |
+| `topics/qem-practices-outcomes.md` | What full funding is meant to buy: the QEM's prototype schools, practices, 90% graduation assumption, cited research, AIR and JPEA critiques |
+| `data/qem_prototype_schools.csv` | The 2026 QEM's three prototype schools: size, class size and resources, as the report prints them |
+| `data/qem_outcome_forecasts.csv` | Years the 2024 and 2026 QEM reports give for reaching a 90% graduation or completer rate, by funding path |
 | `topics/virtual-charters.md` | How State School Fund money follows students to virtual charters; current law and 2025 bills |
 | `data/virtual_charters_2025-26.csv` | 2025-26 enrollment (ADMr/ADMw) by virtual charter and sponsor, with sponsor grant rates, as ODE prints them |
 | `data/virtual_charters_grades_2025-26.csv` | Virtual charters on ODE's 2025-26 list: opening and contract dates, management type, Oct 1, 2025 enrollment by grade |

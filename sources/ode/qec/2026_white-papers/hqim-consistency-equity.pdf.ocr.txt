@@ -1,0 +1,1104 @@
+High-Quality
+Instructional Materials,
+a Key to Consistency
+and Equity in Oregon’s
+Classrooms
+Quality Education Commission Best
+Practices White Paper Series
+Office of Teaching, Learning, and Assessment, ODE
+
+February 2026
+
+
+--- OCR of this page (tesseract), not checked by a person: check the PDF before quoting or copying a figure ---
+High-Quality
+Instructional Materials,
+a Key to Consistency
+and Equity in Oregon’s
+Classrooms
+
+Quality Education Commission Best
+Practices White Paper Series
+
+Office of Teaching, Learning, and Assessment, ODE
+
+February 2026
+
+jx ji
+
+OREGON QUALITY
+
+DEPARTMENT OF EDUCATION
+EDUCATION COMMISSION
+
+Contents
+Executive Summary......................................................................................................................... 2
+Introduction .................................................................................................................................... 3
+Background and Literature Review................................................................................................. 3
+Identifying High-Quality Instructional Materials (HQIM) ............................................................ 4
+Evolution of HQIM ....................................................................................................................... 5
+Impact of Effective HQIM Adoption and Implementation ............................................................. 5
+Benefits for Educators and Students ........................................................................................... 5
+Impacts On Student Growth and Outcomes ............................................................................... 6
+System Needs and Policy Gaps ....................................................................................................... 7
+Cost of Unaligned Materials ........................................................................................................ 7
+The Compliance Gap.................................................................................................................... 7
+Limitation of the Adoption Schedule .......................................................................................... 8
+Implementation Phases............................................................................................................... 8
+Proposed Solution: The Shift from Compliance to Commitment ................................................... 9
+Implementation Strategies .......................................................................................................... 9
+Impact: Investment in HQIM ........................................................................................................ 11
+Incentivizing HQIM with Strategic Policies................................................................................ 12
+Current State Investments ........................................................................................................ 13
+Conclusion and Recommendations .............................................................................................. 14
+Recommendations..................................................................................................................... 14
+Call to Action ............................................................................................................................. 15
+References .................................................................................................................................... 16
+Appendix A: Five Phases of Implementation (Rivet Education) ................................................... 17
+Appendix B: Inventory Dashboard of Literacy Instructional Materials ........................................ 19
+Appendix C: Learning from Other States ...................................................................................... 20
+
+1
+
+Executive Summary
+
+Despite the well-documented benefits of High‑Quality Instructional Materials (HQIM) in
+supporting equitable, grade‑level learning, many educators lack consistent access to these
+resources. In the absence of intentionally designed, standards‑aligned materials, teachers often
+spend more than 12 hours per week 1 developing or sourcing instructional content that varies in
+quality and alignment to Oregon’s grade‑level standards. This uneven approach fragments
+instructional coherence across classrooms, schools, and districts statewide, while diverting
+valuable educator time and expertise away from student‑centered teaching and learning.
+Ensuring systematic access to HQIM is therefore critical to strengthening instructional
+consistency, reducing educator workload, and expanding equitable opportunities for all
+students to achieve grade‑level proficiency and beyond.
+To achieve instructional coherence and advance educational equity, Oregon should strategically
+invest in a statewide system that incentivizes the selection and effective sustained
+implementation of HQIM while prioritizing Curriculum-Based Professional Learning (CBPL) for
+all districts. Bolstered by a collaborative partnership between Oregon Department of Education
+(ODE) and local education agencies, this approach shifts the focus from a rigid, resourceintensive [seven-year] adoption cycle toward a sustainable model that integrates professional
+learning designed with the specific program under implementation, ensuring that educators are
+supported in delivering grade-level, standards-aligned instruction. By aligning HQIM
+requirements and investment in CBPL, ODE can create and facilitate coherent instructional
+systems that reduce variability between schools and districts, strengthen teacher capacity, and
+guarantee equitable access to grade-level content for all students in Oregon schools.
+
+1 EdReports. (n.d.). Why materials matter. Retrieved December 26, 2025, from https://www.edreports.org
+
+2
+
+Introduction
+
+HQIM are comprehensive evidence-based resources that form the core of instruction and
+enable educators to teach all grade-level standards, for a given content area, while centering
+diverse student needs in the learning process. These materials are aligned to Oregon’s content
+standards and integrate research-based instructional practices that promote deep
+understanding through critical thinking, knowledge and skill development, and developing a
+sense of belonging. When implemented by well-supported teachers who feel confident in their
+use, HQIM ensure equitable access to grade-level content and foster meaningful student
+engagement.2 They are culturally and linguistically responsive, provide coherent progressions,
+and incorporate aligned assessments that inform responsive instruction.3 By combining clarity
+of purpose with adaptability and an equity-focused design, HQIM can empower educators to
+deliver instruction that cultivates engagement, ownership of learning, and leads to improved
+outcomes for all students.
+Recent policy developments, including Senate Bill 141 (2025)4, have elevated expectations for
+student success and strengthened statewide accountability systems. Together with Oregon’s
+commitment to equity and continuous improvement, these efforts reflect a coordinated,
+statewide approach to supporting instructional quality and professional learning. As Oregon
+reimagines its K–12 educational system, HQIM when implemented with consistency and
+supported by robust professional learning, represent a critical lever for achieving Oregon’s
+vision for teaching and learning.
+This paper articulates a vision for teaching and learning, examines the critical benefits of HQIM
+for both students and educators, analyzes the current limitations within Oregon’s instructional
+materials adoption program, and proposes actions aligned with ODE’s Instructional Materials
+Professional Development Strategic Plan that prioritize effective implementation, including
+sustained professional learning.
+The report outlines a roadmap for improving instructional quality and educational equity
+through the effective implementation of HQIM statewide. It moves from defining the problem
+of incoherent instruction and benefits of HQIM to proposing a shift from compliance-driven
+adoption cycles toward implementation-focused strategies.
+
+Background and Literature Review
+
+ODE’s Office of Teaching, Learning, and Assessment (OTLA) operates under a clear and
+compelling vision: “To ensure that every student, every day, is engaged in meaningful,
+affirming, grade-level instruction.” This vision serves as the foundation for all initiatives and
+2 Council of Chief State School Officers. (2022). High-quality instructional materials and professional learning: A guide for state leaders.
+Retrieved from https://www.ccsso.org
+3 Rivet Education. (2021). Defining high-quality instructional materials and professional learning. Retrieved from
+https://www.riveteducation.org
+4 Oregon Legislative Assembly. (2025). Senate Bill 141: Relating to education; declaring an emergency (Chapter 406). Retrieved from
+https://olis.oregonlegislature.gov/liz/2025R1/Measures/Overview/SB141
+
+3
+
+actions led by OTLA. HQIM represents one of the most powerful levers for realizing this vision in
+classrooms across the state.
+ODE’s HQIM Program supports districts and educators in selecting materials that are highquality by facilitating a structured, multi‑step process for evaluation and adoption of HQIM.
+Instructional materials are evaluated by ODE to ensure they are high-quality prior to being
+recommended for adoption by districts. The following graphic outlines the six key steps ODE
+uses to develop criteria, review materials, and support statewide implementation.
+
+ODE’s Annual HQIM Process
+
+Identifying High-Quality Instructional Materials (HQIM)
+ODE defines HQIM as “evidence-based curricular materials that help teachers effectively teach
+grade-level standards, and center students in the learning process.” It is through the evaluation
+of programs that instructional materials are identified and vetted as high quality in Oregon. The
+evaluation utilizes the Oregon Instructional Materials Evaluation Tool (OR-IMET) which is
+founded in criteria that focus on key characteristics of HQIM, such as:
+•
+•
+•
+•
+
+Standards-Aligned: Aligns with the majority of Oregon’s K–12 content standards.
+Comprehensive: Offers coherent learning progressions and includes integrated
+assessments.
+Grade-level Learning and Engaging: Challenges students intellectually and promotes
+deep, meaningful learning.
+Culturally Responsive and Inclusive: Represents diverse identities and ensures equitable
+access by honoring students’ cultural and linguistic backgrounds in both content and
+instructional design.
+4
+
+•
+•
+
+Expert-Reviewed: Evaluated by trained and trusted reviewers for quality and
+effectiveness.
+Adaptable and Teacher-Friendly: Designed for flexibility and ease of use across diverse
+classroom settings.
+
+Evolution of HQIM
+In recent years, instructional resources have evolved from fragmented, single-textbook models
+to comprehensive systems that are standards-aligned, equity-driven, and supported by
+Curriculum-Based Professional Learning (CBPL). These systems often include combinations of
+print and digital resources, embedded assessments, multilingual and accessible texts, and
+multimedia components (including artificial intelligence), designed to ensure alignment with
+Oregon’s content standards and responsiveness to diverse learner needs. When paired with
+CBPL, they enable educators to implement Oregon’s content standards effectively and
+equitably. This evolution reflects a shift from discrete resources to comprehensive ecosystems
+that promote instructional coherence and equity.
+
+Impact of Effective HQIM Adoption and
+Implementation
+
+Effective implementation of HQIM influence far more than lesson preparation or instructional
+consistency. When HQIM are implemented with integrity and supported by CBPL, they
+strengthen educator practice, create inclusive and engaging learning experiences for students,
+and contribute to measurable improvements in student growth and outcomes. By embedding
+structured supports and culturally responsive practices, HQIM helps ensure that learners across
+classrooms, schools, and districts have access to grade‑level instruction. In this way, HQIM
+functions not only as instructional tools, but as a foundational component of Oregon’s broader
+effort to prioritize educational equity, advance academic excellence, and improve student
+outcomes.
+
+Benefits for Educators and Students
+Educators devote significant time and expertise to planning instruction aligned to Oregon
+standards. HQIM provide a strong foundation by streamlining preparation and offering clear
+guidance, allowing teachers to focus on responsive instruction and student engagement. With
+essential structures in place, educators can apply professional judgment and creativity while
+maintaining consistency and rigor.
+HQIM also promote instructional coherence and equity. When educators use aligned, highquality materials, students experience consistent, grade-level learning across classrooms and
+schools. This coherence is especially beneficial for multilingual learners and students with
+disabilities, who benefit from predictable language, routines, and learning progressions.
+Effective use of HQIM ensures access to strong instruction is both intentional and equitable for
+all learners.
+5
+
+Impacts On Student Growth and Outcomes
+When educators implement HQIM effectively, students demonstrate stronger academic
+growth, improved language development, and greater confidence in tackling challenging
+tasks. 56 According to TNTP’s “Opportunity Myth” research found that use of HQIM in middle
+school classrooms led to student performance gains equivalent to “moving a teacher from the
+50th to the 80th percentile for effectiveness”, resulting in 1.7 months of additional instructional
+progress for all students in a given classroom 7. The benefits are even more pronounced for
+students who are behind grade level, who see an average of 7.3 months of additional progress
+using HQIM.8
+
+Embedded Support for Multilingual Learners
+In addition to improving achievement for all students, HQIM can support multilingual learners
+by embedding purposeful instructional scaffolds 9 such as opportunities for oral language
+development through high-level academic discourse 10, progress towards English language
+proficiency through structured learning experiences in all four language domains (reading,
+writing, speaking, and listening) 11, and cross-linguistic connections between a students’ primary
+language and English. This provides multilingual learners with equitable access to linguistically
+responsive grade-level content while simultaneously fostering proficiency in English 12.
+
+Supporting Access to Equitable Instruction
+As required by federal and state law 13, all instructional materials adopted for use in Oregon
+classrooms must meet accessibility standards, including alignment with the current Web
+Content Accessibility Guidelines (WCAG) for digital and web-based content. In addition, ODE’s
+High-Quality Instructional Materials (HQIM) criteria emphasize embedded student supports,
+guidance for differentiated instruction, and equitable access for students with disabilities. By
+integrating accessibility best practices such as Universal Design for Learning, HQIM promote
+inclusive instructional design and ensure that students with IEPs and 504 Plans can fully access
+high-quality instruction.
+
+5 Carvajal Hageman, Kelly. Curriculum Case Study: How One School District in the ‘Nylon Capital of the World’ Once Faced State Takeover for
+Poor Performance, then Became Among the Best in Delaware. Accessed January 20, 2026.
+6 TNTP. The Opportunity Myth: What Students Can Show Us About How School Is Letting Them Down—and How to Fix It. TNTP, 2018.
+7 TNTP. The Opportunity Myth.
+8 TNTP. The Opportunity Myth.
+
+9 Blair, A., de Oliveira, L. C., & Avalos, M. A. (2024). Expanding teacher understanding of scaffolding for multilingual learners. TESOL in Context.
+10 August, D., & Shanahan, T. (2006). Developing Literacy in Second-Language Learners. National Literacy Panel.
+
+11 Gibbons, P. (2015). Scaffolding Language, Scaffolding Learning. Heinemann.
+
+12 Blair & Avalos. Expanding teacher understanding of scaffolding for multilingual learners
+
+13 Oregon Department of Education, Accessible Educational Materials (AEM). Accessed 1/22/26.
+
+6
+
+System Needs and Policy Gaps
+Cost of Unaligned Materials
+
+When districts lack access to HQIM, teachers are forced to fill instructional gaps on their own.
+Research shows educators spend an average of seven hours per week searching for
+supplemental resources and an additional five hours creating materials, often outside
+contracted time 14. This time-intensive work frequently results in inconsistent instructional
+quality, misalignment to standards, fragmented learning experiences, and diminished
+coherence across classrooms. Many teachers adapt or combine internet resources that are
+often unvetted and create situations where “the caliber, rigor, and any rational sequencing of
+material […] becomes a matter of luck and chance.” 15 Furthermore, much of this development
+occurs without oversight or collaboration, leading to materials that are frequently below grade
+level.
+
+The Compliance Gap
+Oregon has maintained a robust instructional materials adoption process since 1953, ensuring
+compliance with established statutes and administrative rules. However, the current system
+prioritizes selection and compliance over strategic, statewide implementation. While materials
+are adopted according to policy, 16 there is limited emphasis on supporting districts and
+educators in effectively integrating those materials into classroom practice. Without a
+coordinated implementation strategy, the potential impact of HQIM is significantly diminished.
+
+14 EdReports. (n.d.). Why materials matter.
+
+15 David Steiner, The Unrealized Promise of High-Quality Instructional Materials, January 2024 — Volume 24, No. 1. Accessed December 25,
+2025
+16Oregon Secretary of State, Ch. 581 Division 22, OAR 581-022-2355 Adoption of Instructional Materials; OAR 581-022-2350 Independent
+Adoption of Instructional Materials
+
+7
+
+Limitation of the Adoption Schedule
+The existing seven-year cycle, combined with annual adoption requirements, places a
+significant burden on districts. This structure often results in a continuous selection process
+with little time for effective implementation.
+Adoption
+Elementary educators and schools, in
+Required Content Area
+Year
+particular, report burnout from frequent
+content-area adoptions which lack a strategic,
+Year 1
+Physical Education,
+integrated approach.
+The Arts, and
+Currently, the adoption schedule includes nine
+World Languages
+distinct content areas evaluated during a
+seven-year cycle. Districts are required by state Year 2
+English Language Arts
+policy to adopt instructional materials for at
+Year 3
+English Language Proficiency
+least one content area every year, following
+the publication of a state-approved list. In
+Year 4
+Mathematics
+Oregon, districts are required to select from
+the approved list or conduct an independent
+Year 5
+Science
+adoption utilizing the OR-IMET. The adoption
+schedule’s pace is relentless, placing significant Year 6
+Health
+strain on district resources and educator
+Year 7
+Social Sciences
+capacity. The resulting cycle contributes to
+implementation fatigue and disrupts the
+continuity necessary for effective HQIM
+implementation and sustained instructional improvement.
+
+Implementation Phases
+Even when teachers have access to HQIM, research shows they do not consistently use them as
+intended. RAND Corporation’s 2022 American Instructional Resources Survey found that,
+although roughly half of teachers reported regularly using at least one new instructional
+material during the school year (i.e., at least once per week), most did not rely on those
+materials for the majority of their instructional time. 17 This gap between access and effective
+use highlights a critical challenge: implementing HQIM is not simply about adoption and
+distribution. Without a clear, compelling implementation roadmap, initiatives such as CBPL risk
+becoming fragmented, reducing their potential impact on student outcomes.
+Effective implementation requires a fundamental shift in teacher practice and professional
+learning, supported by aligned state and local systems, structures, and policies. Research
+identifies five distinct phases that characterize successful HQIM implementation. RIVET
+
+17 Doan, S., Eagan, J., Grant, D., Kaufman, J. H., & Setodji, C. M. (2022, November 15). American instructional resources surveys: 2022 technical
+documentation and survey results (RAND Research Report RR‑A134‑14). RAND Corporation.
+https://www.rand.org/pubs/research_reports/RRA134‑14.html. Accessed December 26, 2025.
+
+8
+
+Education’s Phases of Implementation 18 provide district leaders with a structured framework to
+track progress and evaluate implementation at each stage (see Appendix C). Without such
+guidance, factors that should enhance effectiveness can instead become barriers to improving
+student achievement.
+By applying an evidence-based implementation model, districts can measure alignment with
+key indicators, identify areas needing additional support, and uphold the integrity of classroom
+instruction. This structured approach fosters consistency and transparency across districts while
+offering actionable data to inform decisions and allocate resources ultimately ensuring HQIM is
+integrated effectively into teaching and learning. The result is sustainability for educators and
+instructional innovation for students.
+
+Proposed Solution: The Shift from Compliance
+to Commitment
+
+Since its establishment in 1953, ODE’s HQIM program has primarily operated through annual adoption cycles
+and Division 22 requirements. While these processes have ensured adherence to state adoption
+expectations, they have not consistently translated into improved instructional quality or equitable access to
+HQIM for all Oregon students. Even when districts adopt HQIM, many educators continue using familiar
+resources often varying widely in quality and rigor because they lack confidence in the new materials or have
+insufficient professional learning to support implementation. This dynamic can undermine the intended
+impact of HQIM and perpetuate inconsistencies in instructional practice, limiting opportunities for coherence
+and statewide alignment.
+Oregon should transition from an adoption-focused, compliance-driven system to a model that prioritizes
+effective implementation, shared commitment to instructional quality, and transparency with students,
+families, and communities. Instead of focusing solely on meeting adoption requirements, a strong HQIM
+program creates conditions where districts fully integrate HQIM into teaching and learning. An
+implementation-focused system recognizes that the true impact of HQIM lies not in selection alone, but in
+how effectively materials are used in classrooms to support both educators and students.
+Through cohesive implementation strategies and clear reporting, ODE can build trust and accountability
+while reducing duplication of efforts across Oregon’s 197 districts. Ultimately, this shift from compliance to
+commitment positions Oregon to deliver on its vision for the student experience.
+
+Implementation Strategies
+To realize the full impact of high-quality instructional materials, educators must implement
+them with integrity by intentionally aligning instruction to the materials’ design, scope, and
+sequence to ensure coherent learning over time. Strategically applying proven implementation
+strategies increases the likelihood that both students and educators experience the intended
+outcomes of HQIM use.
+To advance Oregon’s vision for high-quality student instruction, ODE has joined the Council of
+Chief State School Officers’ (CCSSO) Instructional Materials Professional Development (IMPD)
+18 RIVET Education. Instructional Materials Implementation Tool. Retrieved from https://riveteducation.org/implementation-tool/. Accessed
+December 31, 2025
+
+9
+
+Network. The IMPD Network brings together various state education agencies around a shared
+commitment to strengthening the effective use of HQIM to improve student learning
+outcomes. As a participating member, ODE is developing and implementing a strategic
+approach to HQIM implementation. The strategies that follow are incorporated into ODE’s
+HQIM Strategic Plan.
+
+Curriculum-Based Professional Learning (CBPL)
+CBPL is an essential component of an effective HQIM implementation plan. CBPL strengthens
+
+instructional practice by centering professional learning around the specific HQIM educators
+use. This approach provides training directly connected to adopted HQIM, enabling teachers to
+deepen their understanding of both the content and pedagogy, while implementing HQIM with
+integrity and coherence. The power of CBPL comes from connecting content knowledge and
+instructional strategies to the district’s adopted HQIM that teachers rely on daily. CBPL goes
+beyond the initial product training from a publisher to provide teachers and leaders with the
+ongoing, job-embedded, dynamic support needed to use the HQIM skillfully. 19
+
+PHASE
+
+CBPL FOCUS
+
+Exploration
+
+Selection of materials
+
+Program
+Installation
+Initial
+Implementation
+
+Consistent
+Implementation
+
+Innovation and
+Sustainability
+
+Teachers know how to use
+the HQIM and school leaders
+can create the enabling
+conditions to support HQIM
+Teachers use the HQIM as
+intended, and leaders are
+equipped to monitor
+implementation
+Leaders provide consistent
+feedback and coaching on
+implementation; teachers
+leverage embedded supports
+to meet students’ needs
+Teachers own
+implementation and
+continue to make smart
+adaptations to materials to
+meet students’ needs
+
+STRUCTURES
+Workshops
+Consultation
+Workshops
+PLCs
+Coaching
+Consultations with leaders
+Workshops
+PLCs
+Coaching
+Consultations with leaders
+PLCs
+Coaching
+Workshops (for teachers new
+to the curriculum)
+Consultations with leaders
+PLCs
+Coaching
+Workshops (for new
+teachers)
+Consultations with leaders
+
+RESPONSIBLE
+District leaders
+District leaders
+
+School leaders
+
+School leaders
+
+Teachers
+
+Figure 1: Adapted from Rivet Education. 2024. Framework for Curriculum-Based Professional Learning.
+
+Communication
+Effective communication strategies are necessary for signaling the value of HQIM and CBPL
+across all levels of Oregon’s education system. Strategies around communication emphasize
+19 Rivet Education. 2024. Framework for Curriculum-Based Professional Learning. Rivet Education. Accessed December 3, 2025.
+
+10
+
+transparent messaging, engagement, and reporting data publicly to build statewide coherence
+and trust. By leveraging clear, consistent communication, ODE can articulate the instructional
+vision, align district and educator practices with state priorities, and foster collective ownership
+of HQIM and CBPL initiatives. 20 Furthermore, communication serves as a mechanism for
+reinforcing equity by ensuring that all partners (educators, families, and communities)
+understand the purpose and impact of these reforms on student learning outcomes.
+
+HQIM Signaling
+ODE should clearly communicate the importance of HQIM by establishing rigorous criteria for
+evaluating materials, aligning adoption processes with best instructional practices, evaluating
+for quality, and incentivizing districts to not only select but fully implement HQIM. This signaling
+can be strengthened through transparent guidance, the use of trusted external reviews such as
+EdReports, and embedding high expectations for HQIM within state policy. Strong signaling
+promotes coherence and equity in instructional practices across the state, ensuring that all
+students benefit from materials that support effective teaching and learning.
+
+Educator Prep Programs
+ODE, in collaboration with higher education institutions and other educational partners, should
+establish intentional systemic alignment to strengthen Educator Preparation Programs (EPPs).
+This ensures that teacher candidates graduate with the knowledge and skills necessary to
+identify, select, and effectively implement HQIM within diverse classroom contexts. Embedding
+HQIM-related competencies into teacher preparation standards is essential for creating
+coherence between state instructional priorities and the preparation of Oregon’s future
+educators.
+
+Data Collection
+Robust, integrated data systems are critical for monitoring the adoption of HQIM and CBPL, and
+their impact on student learning. Collecting and analyzing data on instructional material
+selection, educator participation in professional learning, and indicators of instructional quality
+is critical in understanding and improving the HQIM program for Oregon. Creating and
+maintaining data systems enable continuous improvement cycles and inform equity-driven
+strategies by identifying gaps in access, implementation integrity, and student achievement. 21
+
+Impact: Investment in HQIM
+
+Transitioning to a statewide model that prioritizes effective implementation of HQIM requires
+more than compliance; it requires commitment. Incentivizing adoption and use of HQIM sends
+a clear message: HQIM are a strategic investment in student success, not an administrative
+20 Council of Chief State School Officers. “Brown Bag: The Instructional Materials and Professional Development (IMPD) Network – Our Next
+Phase of Work.” Research Partnership for Professional Learning (RPPL), January 17, 2023. Accessed [Month Day, Year]. Available from RPPL:
+Brown Bag: The IMPD Network – Next Phase of Work
+21 Council of Chief State School Officers. “Brown Bag: The Instructional Materials and Professional Development (IMPD) Network
+
+11
+
+requirement. By pairing adoption expectations with meaningful incentives, ODE can foster a
+culture of quality and sustainability, ensuring districts have both the resources and the
+motivation to implement HQIM with integrity. This approach strengthens instructional
+coherence, reduces educator workload, and ultimately advances equitable learning
+opportunities for all Oregon students.
+
+Incentivizing HQIM with Strategic Policies
+To ensure that HQIM are not treated as a compliance checkbox but as a strategic investment in
+student success, Oregon should consider a set of targeted policy incentives. These incentives
+often operate across three critical levers: signaling, funding, and assessment alignment.
+
+Signaling
+Signaling begins with consistent, transparent communication that reinforces the value of HQIM
+across every level of Oregon’s education system. To strengthen visibility and accountability,
+ODE should implement public-facing dashboards that clearly display district adoptions,
+implementation progress, and related student outcome trends. These dashboards provide
+educators, families, and communities with actionable insights into statewide efforts regarding
+K-12 instruction. Complementing this transparency, clear and consistent messaging through
+statewide guidance, webinars, and regular engagement with district leaders will articulate
+Oregon’s instructional vision and foster collective ownership of HQIM initiatives.
+
+Funding
+Funding is one of the most powerful levers for driving HQIM implementation integrity. State
+Education Agencies (SEA) often provide funding incentives to motivate district adoption and use
+of HQIM. As modeled in other states, Oregon could provide grant funding to support both
+HQIM adoption and CBPL, with priority given to districts serving historically underserved
+populations. Additionally, performance-based funding models should reward districts that show
+measurable improvements in instructional quality and student achievement tied to HQIM
+implementation. Multi-year funding streams linked to clear implementation milestones help
+ensure sustainability and prevent districts from reverting to fragmented practices once initial
+funds are exhausted.
+Louisiana’s Department of Education offers a strong model: the state provides competitive
+funding to districts for HQIM procurement and implementation, and pairs this with HighQuality Professional Learning (HQPL) packages that support educators throughout the adoption
+cycle. By adopting a similar strategy, Oregon can reduce financial barriers, accelerate statewide
+alignment with best instructional practices that support equity and student success, and ensure
+that HQIM are implemented with integrity and impact. 22
+
+22 Louisiana Department of Education. (2025). High-Quality Professional Learning Packages. Retrieved from
+https://doe.louisiana.gov/docs/default-source/curricular-resources/high-quality-professional-learning-packages.pdf?sfvrsn=30a39da7_8
+
+12
+
+Connection to a Balanced Assessment System
+HQIM and a balanced assessment system work together to create a coherent, standards aligned
+learning experience for students. A balanced assessment system uses a variety of measures and
+types of assessment that include formative assessment practices, interim, and summative
+assessments. These assessments create opportunities to make student thinking visible and
+enable educators to use evidence of student learning to inform instructional practices or make
+adjustments. Alignment with standards aligned assessments reinforces the instructional
+coherence that HQIM are designed to deliver. Connecting assessments with the most
+frequently used, approved HQIM content ensures that classroom instruction and accountability
+systems are working toward improved student outcomes. ODE should publish clear guidance on
+how HQIM-aligned instruction supports success on assessments and use assessment data to
+inform continuous improvement cycles. This alignment not only incentivizes adoption but also
+strengthens the case for full integration of HQIM into daily teaching and learning.
+
+Current State Investments
+Strengthening & Sustaining ODE’s HQIM Program
+Historically, ODE’S instructional materials program has relied on publisher fees as its primary
+funding source. This model, while functional, limited flexibility and long-term planning.
+In 2025, Senate Bill 141 established stable funding for the program and eliminated the need to
+collect publisher fees. This legislative change enables ODE to design a more sustainable and
+responsive system that better meets the needs of educators and students across the state. It
+also provides an opportunity to revisit aspects of the program that have remained unchanged
+for decades.
+To ensure this modernization reflects the priorities of Oregon’s education community, ODE is
+engaging partners throughout the process. The timeline for this work includes continued
+engagement with partners culminating in recommendations to Oregon’s State Board of
+Education in Spring 2026.
+This collaborative approach ensures that updates to the instructional materials program are
+informed by broad input and aligned with Oregon’s commitment to high-quality teaching and
+learning.
+
+Early Literacy District Grants to purchase materials and fund
+CBPL.
+Early Literacy Success School District Grants represent a strategic investment in Oregon’s
+educational future. These grants provide districts with monetary resources to purchase HQIM
+and CBPL for educators. This dual focus ensures that students have access to evidence-based
+materials while teachers receive the training and support needed to implement them
+effectively.
+13
+
+By aligning funding with both instructional resources and professional learning, the grants
+advance ODE’s goals of improving literacy outcomes for Oregon’s youngest learners and
+strengthening educator capacity to deliver grade-level, standards-aligned instruction. Early
+Literacy Success School District Grants support district investment in HQIM and CBPL, creating a
+comprehensive foundation for equitable, high-quality instruction that benefits students
+statewide.
+
+Conclusion and Recommendations
+
+HQIM are a key lever for achieving ODE's vision of equitable, grade-level instruction, benefiting both students
+and teachers through consistency and reduced burden.
+
+Recommendations
+Engagement
+Conduct widespread, inclusive engagement with local education agencies, education service
+districts, and community members (including students) to collect feedback on ODE’s program
+to learn more about experiences with HQIM and identify needs in the field. This strategy
+provides ODE with the necessary information to be responsive to the needs of Local
+Educational Agencies (LEAs).
+
+Shift from Compliance to Strategic Implementation
+Replace the seven-year adoption cycle with a flexible, less compliance-driven model that
+prioritizes the effective, multi-year implementation of HQIM, including adequate CBPL, rather
+than only procurement. This approach emphasizes instructional quality and coherence over
+procedural compliance.
+
+Fund and Scale Curriculum-Based Professional Learning (CBPL)
+Invest in CBPL that is directly connected to adopted HQIM, ensuring educators receive ongoing,
+job-embedded professional learning that deepens their content knowledge and instructional
+practice. Integration of CBPL into the implementation cycle is essential for maximizing the
+impact of HQIM on student outcomes.
+
+Incentivize District Adoption of SBE-Approved HQIM
+Establish performance-based and/or per-student funding models that prioritize equitable
+access to State Board of Education-approved HQIM within a defined timeframe. These
+incentives will help ensure that all students benefit from coherent, standards-aligned
+instruction. By accelerating statewide alignment, this approach reduces disparities in
+instructional quality and creates a foundation for equity-driven teaching and learning.
+Additionally, it enables the ODE to provide targeted, statewide CBPL opportunities, supporting
+educators across districts to implement HQIM effectively.
+
+14
+
+Call to Action
+To experience the full impact of effective HQIM implementation, Oregon should adopt a
+statewide approach anchored in the strategic pillars previously outlined: CBPL, clear
+communication, signaling the importance of HQIM, robust data collection, and alignment with
+educator preparation programs and state assessments. These pillars work together to create
+coherence, sustainability, and accountability across the state. Achieving this vision requires
+dedicated funding for both districts and ODE to scale adoption and ensure effective
+implementation of HQIM statewide. By investing in these strategies, Oregon can equip every
+educator and guarantee that every student has equitable access to grade-level, high-quality
+instruction—advancing educational excellence and equity for all Oregon students.
+
+15
+
+References
+
+Council of Chief State School Officers. (2023, January 17). Brown Bag: The Instructional
+Materials and Professional Development (IMPD) Network – Our next phase of work.
+Research Partnership for Professional Learning (RPPL). Available from RPPL: Brown Bag:
+The IMPD Network – Next Phase of Work. Accessed [Month Day, Year].
+Doan, S., Eagan, J., Grant, D., Kaufman, J. H., & Setodji, C. M. (2022, November 15). American
+instructional resources surveys: 2022 technical documentation and survey results (RAND
+Research Report RR‑A134‑14). RAND Corporation.
+https://www.rand.org/pubs/research_reports/RRA134‑14.html. Accessed December 26,
+2025.
+EdReports. (n.d.). Why materials matter. Retrieved December 26, 2025, from
+https://www.edreports.org
+Instruction Partners. (2023, January). Foundational skills high‑quality instructional materials for
+multilingual learners: Characteristics and components to look for. Instruction Partners.
+Accessed December 26, 2025.
+Jackson, C. K., & Makarin, A. (2016). Can online off-the-shelf lessons improve student outcomes?
+Evidence from a field experiment (NBER Working Paper No. 22398). National Bureau of
+Economic Research. https://doi.org/10.3386/w22398
+Kane, T. J., Owens, A., Marinell, W. H., Thal, D., & Staiger, D. O. (2016). Teaching higher:
+Educators’ perspectives on Common Core implementation. Center for Education Policy
+Research, Harvard University.
+Louisiana Department of Education. (2025). High-quality professional learning packages.
+Retrieved from https://doe.louisiana.gov/docs/default-source/curricularresources/high-quality-professional-learning-packages.pdf?sfvrsn=30a39da7_8
+Market Data Retrieval. (2016). State of the K-12 market: 2016—Classroom trends: Teachers as
+buyers of instructional materials and users of technology. Market Data Retrieval. ISBN:
+9781943664931
+RAND Corporation. (2021, October 26). American Teacher Panel: Use of instructional materials.
+RAND Corporation. Accessed December 26, 2025.
+Taylor, J. A., Getty, S. R., Kowalski, S. M., Wilson, C. D., Carlson, J., & Van Scotter, P. (2015). An
+efficacy trial of research-based curriculum materials with curriculum-based professional
+development. American Educational Research Journal, 52(5), 984–1017.
+https://doi.org/10.3102/0002831215585962
+The New Teachers Project (TNTP). (2018). The opportunity myth: What students can show us
+about how school is letting them down—and how to fix it. TNTP. Accessed December 26,
+2025.
+
+16
+
+Appendix A: Five Phases of Implementation
+(Rivet Education)23
+Rivet Education (commonly referred to as Rivet) is a nationally trusted educational consulting
+organization that partners with state education agencies and school district leaders to ensure
+the effective selection, adoption, and implementation of HQIM. Rivet outlines each phase of
+effective HQIM implementation along with key actions and success criteria.
+
+Alongside the five phases of implementation, Rivet highlights three key actors: school system
+leaders, school building leaders, and practicing K–12 educators. Their Instructional Materials
+Implementation Tool offers targeted guidance for each phase, including clear instructions and
+tools tailored to these audiences. By engaging these groups—both individually and
+collectively—state education agencies can move beyond an adoption-focused approach toward
+a comprehensive strategy that addresses every component of successful implementation.
+
+Exploration
+Districts often begin the instructional materials implementation cycle by reviewing the needs of
+their current students, identifying potential gaps in the materials in-use, and surveying
+implementers of current materials. The foundation-building of the exploration phase impacts
+school system leaders as they are tasked with setting timelines, milestones, and communication
+strategies. They secure funding for materials and professional learning, define and share a
+content-specific instructional vision, and prepare adoption teams by gathering stakeholder
+input and using state rubrics to review options. The local education agency (LEA) convenes a
+balanced adoption team to formally review and select HQIM based on alignment and evidence;
+decisions and rationale are communicated to all partners, including community members and
+families. Completing these essential first steps ensures readiness to transition to the Program
+Installation phase.
+
+23 RIVET Education. Instructional Materials Implementation Tool. Retrieved from https://riveteducation.org/implementation-tool/. Accessed
+December 31, 2025
+
+17
+
+Program Installation
+Once HQIM are formally adopted, the focus shifts to building systems, procedures, and
+structures that ensure their consistent and sustained use as the primary instructional resource.
+Responsibilities in this phase are organized by role. School system leaders manage procurement
+and distribution, establish enabling conditions—such as a CBPL plan and timeline—and
+communicate clear expectations to district-level instructional leaders. School leaders use this
+guidance to create and maintain those conditions, reinforce expectations aligned with the
+system’s vision, and invest in a content-specific vision for instruction at the school level.
+Teachers impacted by the adoption engage in effective program installation, which includes
+organizing materials, preparing for instructional shifts with colleagues and professional learning
+communities, and participating in meaningful CBPL connected to the vision for equitable
+instruction.
+
+Initial Implementation
+In this phase, educators begin using HQIM in classrooms with support from school and district
+leaders. The emphasis is on building school-wide confidence and competence through
+coaching, collaborative planning, and feedback cycles. Leaders monitor early implementation,
+identify challenges, and provide targeted support to ensure implementation integrity.
+Professional learning remains ongoing and connected to classroom practice.
+
+Consistent Implementation
+Districts and schools move toward district-wide consistency in HQIM use. Instructional practices
+become more aligned, and teachers demonstrate increasing proficiency in leveraging materials
+to meet diverse student needs. Leaders use data to monitor progress, adjust support, and
+reinforce expectations. Professional learning evolves to deepen instructional expertise and
+sustain momentum.
+
+Innovation + Sustainability
+The final phase focuses on maintaining strong implementation, while developing necessary
+support for continuous improvement and sustainability. Districts embed HQIM into
+instructional systems, budgets, and professional learning cycles. Educators have license to
+innovate within the framework of HQIM to personalize learning and address equity goals.
+School and district leaders document and refine processes for evaluating materials, supporting
+educators, and maintaining coherence across classrooms. This phase ensures HQIM remains a
+cornerstone of instructional quality for the length of the implementation.
+
+18
+
+Appendix B: Inventory Dashboard of Literacy
+Instructional Materials
+The Early Literacy Instructional Materials Dashboard, created in accordance with ORS.327.835
+(3)(b), provides an inventory of literacy assessments, tools, curricula, and digital resources used
+in Pre-K to 5th-grade classrooms throughout Oregon. It includes instructional materials used by
+recipients of the Early Literacy Success School District Grant.
+The inventory dashboard uses information submitted by districts and charter schools through
+grant applications and reporting. ODE has made some changes to entries for clarity. The
+dashboard will be updated annually based on information submitted by districts and charter
+schools.
+The dashboard offers an unprecedented opportunity for:
+•
+•
+
+Families and community members to see the instructional materials being used in their
+student’s school district for early literacy across grades and explore what is used in
+other districts.
+School districts, ESDs, and charter schools to understand what others are using across
+the state, search all the districts using a particular instructional material, and create
+opportunities for collaboration.
+
+19
+
+Appendix C: Learning from Other States
+Feature
+General
+Theory of
+Action
+
+Louisiana
+
+Rhode Island
+
+Texas
+
+To support local school systems in
+making their own local, high-quality
+decisions, the Louisiana Department of
+Education leads online reviews of
+instructional materials. The tiered
+reviews describe the degree of
+alignment with state content
+standards. Each local school system
+should determine if their use is
+appropriate to meet the educational
+needs of their students.
+Tier 1 - Exemplifies Quality: Meets all
+non-negotiable criteria and scored the
+best possible on all indicators of
+superior quality.
+Tier 2 - Approaching Quality: Meets all
+non-negotiable criteria and some
+indicators of superior quality.
+Tier 3 - Not representing Quality: Does
+not meet non-negotiable criteria.
+In addition to establishing a review
+process to assist local education
+agencies in identifying textbooks and
+other instructional materials that align
+to Louisiana state academic standards,
+the LDOE also provides support by
+building high-quality tools to fill in the
+gaps where needed.
+● Louisiana ELA Guidebooks
+Access and Purchasing
+Information
+● Bayou Bridges Access and
+Purchasing Information
+● Foundations of Freedom
+Access and Purchasing
+Information
+● Land of Liberty: The History of
+the United States Access and
+Purchasing Information
+
+Find details in RI DOE’s
+guidance doc.
+
+“Enhance transparency,
+support local processes
+by providing dedicated
+funding per student, and
+protect teachers’
+planning time by ensuring
+resources are high quality
+and standards aligned.”
+
+20
+
+Feature
+Program
+Funding
+Model
+
+Louisiana
+
+Rhode Island
+
+Texas
+
+The Super App is a comprehensive
+application that allows LEAs to plan for
+their needs, access their formula funds,
+and apply for competitive funds on
+one timeline.
+● Competitive funding to
+provide high-impact teacher
+collaboration in order to
+improve unit and lesson
+planning of high-quality
+curricula.
+● Funds may be used to provide
+one Literacy Teacher
+Collaboration (TC) facilitator
+per each CIR/UIR-A school.
+● Funds may be used to provide
+one Math/Numeracy Teacher
+Collaboration (TC) facilitator
+per each CIR/UIR-A school.
+● Funds may be used to provide
+initial implementation
+curriculum training on new
+adoptions in CIR/UIR-A
+schools.
+● Funds may be used to
+purchase seats at regional new
+teacher initial implementation
+curriculum training in CIR/UIRA schools.
+Educators should be provided with
+high-impact teacher collaboration
+aligned to high quality instructional
+materials HQIM and the LDOE HighQuality Professional Learning Cycle to
+strengthen unit and lesson preparation
+and improve instructional coherence
+and implementation.
+○ Students should be
+provided access to
+high quality
+instructional
+materials (HQIM) that
+fully align to state
+standards and
+provide meaningful
+instructional support.
+
+LEAs are purchasing
+HQCM materials and
+providing PL for
+implementation. RIDE
+has supported selection
+by hosting EdReports
+sessions, pilots that
+included materials and PL
+for one unit, and hosting
+colloquia to share best
+practices.
+
+LEAs receive an allotment
+per student.
+
+21
+
+Feature
+State-led
+process
+
+Louisiana
+
+Rhode Island
+
+Texas
+
+To ensure that teachers and students
+have high-quality instructional
+materials:
+
+This is legislation from
+our General Assembly.
+Find links in the guidance
+doc above. Science
+implementation was
+originally set to be done
+by Sept 2025, but the
+legislators amended it to
+Sept 2026
+
+TEA conducts evaluation
+and releases a list of
+approved materials in
+accordance with their
+new IMRA
+schedule/process.
+
+●
+
+●
+
+●
+
+the Louisiana Legislature,
+through La RS 17:351.1
+provides regulations relative
+to the review and adoption of
+textbooks and other
+instructional materials;
+the State Board of Elementary
+and Secondary Education,
+through Bulletin 741 §1703,
+has updated regulations
+regarding the same; and
+the Louisiana Department of
+Education (LDOE) has
+established a review process
+to assist local education
+agencies in identifying
+textbooks and other
+instructional materials that
+align to Louisiana state
+academic standards.
+
+22
+
+Feature
+
+Louisiana
+
+Rhode Island
+
+Texas
+
+Incentive(s)
+for Districts
+
+Super App is a comprehensive
+application that allows school systems
+to plan for their needs, access formula
+funds, and apply for competitive funds
+on one timeline. When approved,
+school systems can access federal
+formula and competitive dollars and
+meet the federal requirement for each
+school system's ESSA plan (20 USC
+§6312). This application includes
+funding for the core components of
+school improvement at Comprehensive
+Intervention Required (CIR) and Urgent
+Intervention Required - Academics
+(UIR-A). To learn more about CIR and
+UIR labels, refer to the Identification of
+Struggling Schools table (see below) or
+the list of struggling schools.
+
+No incentives, but the
+expectation to meet the
+deadline of legislation.
+
+Texas’ Instructional
+Materials & Technology
+Allotment (IMTA) now
+provides districts with an
+$40 per student to
+procure SBOE-approved
+HQIM, with an additional
+$20 allotted per student
+for printed formats of
+SBOE-approved Open
+Educational Resource
+(OER) options.
+
+LEAs select from the list
+that RIDE compiles. For
+ELA and Math, there are
+many curricula to choose
+from. RIDE encourages
+LEAs to have selection
+committees that include
+classroom educators, so
+their students and
+communities are
+considered.
+
+Districts have control over
+which materials they
+utilize but are highly
+incentivized to adopt
+from the TEA approved
+list.
+
+For UIR-Academics and CIR-Academics,
+Targeted Support includes professional
+learning, coaching and support in the
+implementation of High Quality
+Professional Learning (HQPL)
+Structures, individualized coaching
+support, and funding for
+implementation of High-Quality
+Curriculum (HQIM).
+Local Control
+
+In Louisiana, all school systems are able
+to purchase instructional materials that
+are best for their local communities.
+The Louisiana Department of Education
+leads the online review of instructional
+materials to determine the degree of
+alignment with state content standards
+to support school systems with these
+decisions. Each local school system
+should determine if their use is
+appropriate to meet the educational
+needs of their students.
+
+“Instructional Materials
+and Technology
+Allotment (IMTA)”
+
+The LDOE also offers school systems
+textbooks policy guidance which
+outlines the choices school systems
+have when adopting textbooks and
+other instructional materials.
+
+23
+
+

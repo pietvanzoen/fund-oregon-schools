@@ -1,0 +1,902 @@
+Implementing Belonging
+and Wellness in Schools
+Quality Education Commission Best
+Practices White Paper Series
+School Wellness, Inclusion, Safety, and Health
+Unit, ODE
+
+March 2026
+
+Implementing Belonging and Wellness in Schools
+
+Contents
+Executive Summary ..................................................................................................................... 2
+What are Belonging and Wellness? ............................................................................................ 4
+Background .................................................................................................................................. 7
+Historically underserved students ........................................................................................... 9
+Opportunities to Strengthen Belonging, Wellness, and Well-being ......................................... 11
+Collaboration with state and local partners on supporting students’ Social Determinants of
+Health, including braided and blended funding .................................................................... 11
+Expanding existing evidence-based strategies supporting belonging ................................... 13
+Accountability Framework Implementation .......................................................................... 14
+Strengthening Data Collection for Measuring Belonging and Wellness................................ 14
+Proposed Solutions: Comprehensive and Community-Centered Approaches ......................... 16
+Coordinate local and statewide funding utilizing a comprehensive policy framework
+centering community voice ................................................................................................... 16
+Full Staffing for Health Services ............................................................................................. 17
+Flexible Funding for Wraparound Supports .......................................................................... 18
+Leverage state system investments in Education Accountability Act implementation by
+expanding Education Service Districts ................................................................................... 18
+Conclusion ................................................................................................................................. 19
+Appendix: ODE Strategic Plan ................................................................................................... 20
+
+1
+
+Implementing Belonging and Wellness in Schools
+
+Executive Summary
+“Sense of Belonging is a core element in a student’s experience with school and learning. Sense of
+belonging has been found to be positively associated with motivational outcomes, social-emotional
+outcomes and behavioral outcomes, and has smaller, yet still significant impacts on academic
+achievement. Sense of belonging is positively connected to both the experience of learning and the
+outcomes of learning.” 1
+
+Students who attend a school with a positive school climate experience a stronger sense of
+belonging and wellness. “School climate” refers to the atmosphere and quality of life within a
+school and is shaped by relationships, practices, policies and expenditures in a school. A
+positive school climate offers students and staff an environment conducive to feeling socially,
+emotionally, and physically safe and fosters a productive space for learning and teaching.
+Conversely, when a school’s climate needs improvement, students have a decreased sense of
+belonging that is associated with lower regular attendance rates. 2 Oregon faces significant
+challenges in student outcomes, evidenced by 2024-25 measures showing 66.5% regular
+attendance and 83.0% on-time graduation. These point to unmet needs in belonging, wellness,
+and well-being. Systems that center equity, relationships, and meaningful content in schools
+have effectively leveraged public investments. Oregon has an opportunity to increase the
+return value of existing state education investments by increasing statewide coordination and
+encouraging local coordination around research-based policy frameworks supporting student
+belonging, wellness, and well-being.
+Belonging and wellness policy frameworks offer a comprehensive, systemic approach that
+builds upon the strengths of the 2019 Student Success Act and are centered on equity, cultural
+responsiveness, and evidence-based initiatives. Current example initiatives include the Student
+Korpershoek, H., Canrinus, E.T., Fokkens-Bruinsma, M. & de Boer, H., “The relationships between school
+belonging and students’ motivational, social-emotional, behavioral, and academic outcomes in secondary
+education: A meta-analytic review,” Research Papers in Education, 35 no. 6, (2020): 641-680.
+2
+American Educational Research Association. (2013). Prevention of bullying in schools, colleges, and universities:
+Research report and recommendations. AERA.
+Centers for Disease Control and Prevention. (2019). School connectedness: Strategies for increasing protective
+factors among youth. U.S. Department of Health and Human Services.
+Cohen, J., McCabe, E. M., Michelli, N. M., & Pickeral, T. (2009). School climate: Research, policy, practice, and
+teacher education. Teachers College Record, 111(1), 180–213.
+National Center on Safe Supportive Learning Environments. (2023). School climate improvement resource package.
+U.S. Department of Education.
+National School Climate Center. (2015). School climate and student success: The role of positive school climate in
+improving academic outcomes. NSCC.
+RAND Corporation. (2020). Teachers’ working conditions and their impact on teacher retention. RAND.
+Thapa, A., Cohen, J., Guffey, S., & Higgins‑D’Alessandro, A. (2013). A review of school climate research. Review of
+Educational Research, 83(3), 357–385.
+1
+
+2
+
+Implementing Belonging and Wellness in Schools
+Investment Account, Comprehensive School Mental Health Systems, and Transformative SocialEmotional Learning (TSEL). By coordinating large-scale investments across state partners
+supporting these various initiatives using a holistic, evidence-based policy framework such as
+the “Full-Service Community School” Model, Oregon can address challenges around school
+climate that ensures all students are ready to learn.
+Key recommendations to increase belonging and wellness that scale existing state programs
+are:
+1. Fully fund initiatives and staffing for key roles (e.g., school nurses, social workers,
+community coordinators).
+2. Centering needs of focal student populations in Oregon’s Revised Accountability
+implementation.
+3. Centering cultural and linguistic responsiveness in all systems and practices.
+4. Elevating student, staff, and family voice in policy development at all levels of the
+system (e.g. school site, school district, statewide).
+
+3
+
+Implementing Belonging and Wellness in Schools
+
+What are Belonging and Wellness?
+“Belonging and Wellness” is defined as creating conditions so that students are ready to learn.
+This includes building interpersonal relationships, practices, policies, systems, and expenditures
+that affirm student identity and build respect for themselves and others. School system
+indicators assist in assessing the conditions for belonging and wellness; these include regular
+attendance rates, exclusionary discipline rates, bullying, as well as social-emotional measures
+available through formal or informal data collections (e.g. school surveys, student empathy
+interviews).
+Regular attendance for students is a multi-faceted challenge for schools and communities that
+is impacted by social needs of families, engaging content in the classroom, and feelings of
+community. Students are Regular Attenders if they attend more than 90% of their enrolled days
+in a school or district.3 Research shows that students miss school for reasons that fall into four
+categories: barriers, negative school experiences, lack of engagement, and misconceptions.
+Research consistently demonstrates that absenteeism is both a symptom and a driver of
+broader inequities in health, safety, engagement, and access to learning, leading to declines in
+student achievement. 4 How does a school community come together to address what feels like
+an insurmountable problem?
+Figure 1: Four Categories of School Absenteeism 5
+
+1
+
+2
+
+3
+
+4
+
+Barriers:
+
+Negative School
+Experiences:
+
+Lack of
+Engagement:
+
+Misconceptions:
+
+"I don't want to go"
+
+"What's the point?"
+
+"I can't go to
+school"
+
+"I didn't realize"
+
+This metric is based on students enrolled on the first school day in May that have been enrolled for at least 75
+days. This aligns with federal accountability requirements and helps ensure the determination for each student is
+based on a significant period of enrollment.
+4
+Balfanz, R., & Byrnes, V. (2012). The importance of being in school. Johns Hopkins University.
+5
+Source: Dr. Robert Balfanz, Director, Everyone Graduates Center, Johns Hopkins University School of Education
+3
+
+4
+
+Implementing Belonging and Wellness in Schools
+
+Barriers
+
+Negative School
+Experiences
+
+• Family responsibilities
+• Students with jobs that support themselves and
+family
+• Poor transportation
+
+• Social anxiety
+• Unwelcome school climate
+• Biased disciplinary and suspension practices
+
+Lack of
+Engagement
+
+• Doing poorly in class
+• Lack of challenging, culturally responsive
+instruction and enrichment opportunities
+• Don't see the connection between regular school
+attendance and important outcomes
+
+Misconceptions
+
+• Assume students must stay home for any symptom
+of illness
+• Absences are only a problem if they are unexcused
+• Lose track and underestimate total absences
+
+States that have successfully increased regular attendance have done so not through isolated
+attendance initiatives, but by strengthening the underlying conditions that make school
+accessible, relevant, and supportive for students. Evidence-based strategies for improving
+student attendance and education outcomes center belonging and wellness in schools. When
+the social, physical, and emotional health needs of students are supported and addressed,
+communities feel that their school is a safe place to live, work, and play, school climates thrive,
+and the student experience transforms from “I have to go to school” to “I’m excited to go to
+class”. By supporting the belonging, wellness, and well-being of students and staff in school
+buildings, communities will feel safe, included, and ready to learn when they come to class.
+Oregon’s education system already has the puzzle pieces that support belonging, wellness, and
+well-being in schools across the state. Education leaders and decision makers can infuse
+existing funding streams with community connection to create the belonging, wellness, and
+well-being that underpin safe and inclusive schools. Each district has the opportunity to receive
+non-competitive grant funding in support of student and staff mental health and well-being
+through the Student Success Act’s Student Investment Account. The approximate funding
+5
+
+Implementing Belonging and Wellness in Schools
+allocated to schools in Oregon for mental health initiatives in school years 2023-24 and 202425, included:
+•
+
+$15,500 invested by 2 districts in 1 position for Trauma-Informed Professional
+Development
+
+•
+
+$114,500 invested by 5 districts in Suicide Prevention Professional Development
+and Curriculum
+
+•
+
+$1.5M invested by 4 districts in 13 Restorative Justice positions
+
+•
+
+$37M invested by 69 districts in 338 Social-Emotional Learning (SEL) positions,
+Professional Development, and Curriculum
+
+•
+
+$7.5M invested by 32 districts in 43 Multi-Tiered Systems of Support (MTSS)
+positions
+
+•
+
+$5.5M invested by 33 districts in 73 Outreach positions and Outreach Activities
+
+•
+
+$33M invested by 93 districts in 330 School Counselor and Social Worker positions
+
+•
+
+$1.7M invested by 7 districts in 11 Drug and Alcohol Counselor positions
+
+•
+
+$21M invested by 64 districts in 238 Behavior Support positions (Behavior
+Specialists, Behavior Interventionists, Behavior Deans, Skill-Building Staff, SEL Staff,
+Student Success Coordinators, Mental Health Counselors, Professional
+Development, and Travel)
+
+•
+
+$372K invested by 13 districts in Positive Behavior Interventions and Supports
+(PBIS) Professional Development and 4 positions
+
+Without belonging and wellness threading together these financial investments, schools run
+the risk of not fully leveraging their investment and achieving lower educational outcomes than
+were possible. Students who feel a strong sense of belonging are significantly less likely to be
+chronically absent and more likely to persist academically. 6 Belonging, wellness, and well-being
+are not supplemental supports; they are prerequisites for consistent school attendance.
+Students are more likely to miss school when they feel unsafe, disconnected, unseen in
+curriculum, unsupported in their health needs, or alienated by disciplinary practices. 7
+Conversely, when schools cultivate strong relationships, inclusive environments, and responsive
+supports, attendance improves as a natural outcome rather than a compliance-driven goal.
+Belonging and wellness further encompass students’ physical, mental, social, and emotional
+health. Health-related barriers—including unmanaged chronic conditions, mental health
+challenges, hunger, and fatigue—are among the most commonly cited drivers of absenteeism
+6
+7
+
+Allen, K. A., et al. (2018). School belonging and student outcomes. Educational Psychology Review.
+Gottfried, M. A., & Hutt, E. (2019). Absent from school. Harvard Education Press.
+
+6
+
+Implementing Belonging and Wellness in Schools
+nationally. 8 Education systems that integrate physical health services, mental and behavioral
+health supports, and social-emotional development into the core of schooling reduce these
+barriers and increase students’ capacity to attend regularly.
+Figure 2: Ratios between students and mental health providers. 9
+
+321:1
+School
+
+Counselors
+
+School
+Social
+Workers
+
+250:1
+
+2253:1
+250:1
+
+School
+Nurses
+
+School
+Psychologists
+
+2289:1
+750:1
+
+1196:1
+500:1
+
+The orange-background ratios are Oregon’s 2024 ratios while the green background ratios are the recommended ratios.
+
+Background
+Oregon’s education system is nationally ranked 43rd for educational outcomes 10 and 48th for
+regular attendance.11 On-time high-school graduation rates are 83.0% in Oregon, compared to
+the national average of approximately 87%. How can schools eliminate chronic absenteeism
+when the root causes are socially complex?
+
+Centers for Disease Control and Prevention. (2019). Health and academic achievement.
+Data for Oregon are available at the Common Core of Data https://nces.ed.gov/ccd/files.asp; American School
+Counselor Association’s recommended ratios https://www.schoolcounselor.org/getmedia/efe644ea-e26c-453182e9-ddbab422227a/24-25-Ratios.pdf; Nursing Services in Oregon Public Schools, 2025,
+https://www.oregon.gov/ode/students-andfamily/healthsafety/Documents/schoolhealth/2025%20School%20Nurse%20Report.pdf; School Social Work
+Association of America’s recommended ratios https://www.sswaa.org/national-census; National Association of
+School Psychologists recommended ratios https://www.nasponline.org/research-and-policy/policypriorities/critical-policy-issues/shortage-of-school-psychologists
+10
+Source: Kids Count Data Center
+11
+Source: U.S. Department of Education
+8
+9
+
+7
+
+Implementing Belonging and Wellness in Schools
+Supporting the social, physical, and emotional health needs of students can look very different
+across districts, schools, classrooms, or individuals and are dependent on many complex
+factors, such as the needs of the community or the abilities of a student. When the belonging,
+wellness, and well-being of students and staff are addressed holistically, research shows that
+student attendance increases, with performance outcomes increasing in tandem.
+Figure 3: Comparison of Student Attendance Rates Nationwide
+
+*Data are not available for the 2019-20 due to the COVID-19 Pandemic. Source: U.S. Department of Education; Oregon
+Department of Education.
+
+Whether at the district or state level, a recurring challenge in supporting regular student
+attendance are siloed programs and supports. When school systems are designed to meet
+students’ needs holistically, the school system becomes accountable for student attendance
+rather than placed solely on individual students or their families. Belonging serves as the
+connective thread and equity platform across education systems. Because belonging needs to
+be embedded in all practices across a school system such as staffing models, instructional
+practices, discipline policies, and student services, it cannot be packaged into a single initiative.
+Instead, it requires coordinated investments in roles such as school nurses, counselors, social
+workers, and restorative justice coordinators, as well as alignment across policies and a
+commitment to relationship- and community-building. States that have taken this integrated
+approach show stronger improvements in attendance and engagement than those relying on
+attendance enforcement alone.
+8
+
+Implementing Belonging and Wellness in Schools
+Importantly, ODE is working to coordinate internal programs to work toward this goal. Student
+Success Plans, Recovery Schools, Transformative Social Emotional Learning, Compressive School
+Counseling programs, School Safety and Prevention Systems, Every Day Matters and Adi’s Act
+are all current and impactful strategies that support student belonging, wellness and wellbeing.
+
+Historically underserved students
+Focal student groups are defined by the 2019 Student Success Act as “students of color;
+students with disabilities; emerging bilingual students; students navigating poverty,
+homelessness, and/or foster care; and other students who have historically experienced
+disparities in our schools.” Overall, focal student groups report lower mental health compared
+to the general population of students, highlighting a need to develop responsive support for
+these groups.
+Students who need nursing support to navigate their chronic medical conditions, otherwise
+known as Youth with Special Health Care Needs (YSHCN), miss school at higher rates than peers
+because of lack of access to school nurses. For example, if a school does not have a nurse to
+help a student with diabetes access their daily insulin, that student may have to miss school so
+that they are able to attend to their basic health care needs. On average there is one school
+nurse for every 2,289 students in Oregon, which is three times higher than Oregon’s
+recommended ratio of one nurse per 750 students (ORS 336.201). 12 1 in 4 school districts
+statewide do not report any school nurse on staff; and only 11% of statewide districts meet the
+recommended nurse-to-student ratio. Oregon’s critical shortage of school nurses contributes to
+the 40% of students with disabilities who were chronically absent during the 2024-25 school
+year. Improving attendance for all students requires fully funding school nurses across the state
+to remove barriers to attendance; as well as continued emphasis on upstream, preventative
+strategies supporting whole child health. Strengthening these conditions not only improves
+attendance but advances equity, academic outcomes, and long-term well-being for all of
+Oregon’s students.
+
+Oregon Department of Education, 2025. Nursing Services in Oregon Public Schools: 2024 – 2025 Legislative
+Report.
+12
+
+9
+
+Implementing Belonging and Wellness in Schools
+Figure 4: General student population positive youth development shows standard
+bell curves for reported student happiness.
+
+Source: Oregon Health Authority; Student Health Survey 2024-2025 Data
+
+Figure 5: When disaggregated by race and ethnicity, students of color are more
+likely to report “fair” or worse mental health.
+
+Source: Oregon Health Authority; Student Health Survey 2024-2025 Data
+
+10
+
+Implementing Belonging and Wellness in Schools
+
+Opportunities to Strengthen Belonging,
+Wellness, and Well-being
+Strategies intentionally strengthening belonging, wellness, and well-being are shown to
+positively impact student attendance. When students experience school as a place where they
+are safe, known, valued, and supported, attendance improves, followed by gains in academic
+achievement. 13 ODE operationalizes belonging, wellness, and well-being by centering three
+cross-cutting strategies:
+1. Create structured engagement venues to elevate student and family voice. Feedback
+loops that inform policy, practice, and service design increase trust and relevance, which
+are strongly associated with improved attendance.
+2. Center equity, cultural responsiveness, and linguistic responsiveness in implementation.
+Because absenteeism disproportionately affects historically underserved students such
+as the Focal Student Groups outlined by the 2019 Student Success Act, equity-centered
+design is essential to closing attendance gaps.
+3. Schools intentionally infuse connection into daily practice, reinforcing relationships and
+relevance of material.
+The following opportunities build upon these strategies by leveraging existing or upcoming
+state support or initiatives.
+
+Collaboration with state and local partners on
+supporting students’ Social Determinants of Health,
+including braided and blended funding
+Creating and sustaining upstream investments in belonging, wellness, and well-being is an
+evidence-based preventative strategy that reduces the need for reactive interventions. By
+addressing root causes of absenteeism such as bullying, unmet health needs, exclusionary
+discipline, and lack of connection, education systems can reduce chronic absence while
+simultaneously improving academic, behavioral, and health outcomes.14 Holistic supports for
+
+MacNeil, A. J., Prater, D. L., & Busch, S. (2009). The effects of school culture and climate on student
+achievement. International Journal of Leadership in Education, 12(1), 73–84.
+14
+Balfanz, R., & Byrnes, V. (2012). The importance of being in school. Johns Hopkins University.
+13
+
+11
+
+Implementing Belonging and Wellness in Schools
+belonging, wellness, and well-being are known in the public health sector as the “Social
+Determinants of Health”, which have additional decades of evidence underpinning their impact.
+The State of Oregon has been working on supporting the Social Determinants of Health (SDoH)
+for nearly two decades through partner state systems at Oregon Health Authority, the
+Department of Early Learning and Care, Oregon Department of Human Services, Oregon
+Housing and Community Services, and the System of Care Advisory Council, among other state
+partners. Meanwhile, schools and districts largely work to provide housing, economic, and
+social supports in silo from these systemic state services. In education systems, a comparable
+policy framework to SDoH is the Full-Service Community School (FSCS) Model 15, which can be
+utilized to create understanding of how to operationalize health into education settings.
+Figure 6: Title I schools utilizing belonging and wellness frameworks (i.e. FullService Community School model) decreased chronic absenteeism rates by 20% to
+30% in two years
+
+Source: Germain, E., Hernández, L. E., Klevan, S., Levine, R., & Maier, A. (2024). Reducing chronic absenteeism: Lessons
+from community schools. Learning Policy Institute.
+
+ODE is working to bridge the systemic gaps that exist between state agencies to get supports
+closer to students and their families; however, without on-the-ground staff in school and
+district buildings statewide providing coordination as outlined in the FSCS Model, the
+community connections crucial to getting these services to families are still missing.
+Students who experience supportive, inclusive school environments demonstrate improved
+long-term health, economic, and overall well-being outcomes. By connecting the existing SDoH
+systems in Oregon into schools, ODE can leverage a cost-effective approach to improve overall
+15
+
+Learning Policy Institute. Key Practices for Community Schools Transformation.
+
+12
+
+Implementing Belonging and Wellness in Schools
+student attendance and academic achievement; and state partners are more able to deliver
+services to the families that are difficult to reach through traditional communication strategies.
+While partner state agencies have to seek out families who qualify for health and economic
+supports, those families walk into the doors of the education system every day.
+
+Expanding existing evidence-based strategies
+supporting belonging
+Transformative Social-Emotional Learning (TSEL) is the framework through which Oregon
+operationalizes belonging, wellness, and well-being. TSEL provides the roadmap for embedding
+social and emotional development into instruction, relationships, and school culture rather
+than treating it as a separate curriculum; including embedding representation and lived
+experiences of Oregon’s diverse students into instructional materials.
+TSEL is a process where students and adults can build strong, respectful, lasting relationships
+that facilitate co-learning, critically examine the root causes of inequity, and develop
+collaborative solutions that promote personal, community, and societal well-being.16 Oregon’s
+Transformative SEL Framework describes the conditions that transform learning environments
+to support whole child approaches in meeting the full scope of students’ social, emotional, and
+academic needs.17 The framework and standards utilize and expand on CASEL’s definition of
+Transformative SEL to help build capacity for strengthening school cultures that center equity,
+and support student and adult well-being through a systemic approach.
+TSEL has been shown to positively impact regular attendance for students. Students who
+experience strong relationships with educators, culturally responsive learning environments,
+and meaningful opportunities for agency are more likely to attend school consistently and less
+likely to disengage over time. 18 TSEL is utilized to improve school climate and inclusion,
+strengthen peer and adult relationships, increase academic achievement, reduced disciplinary
+incidents, and lower levels of emotional distress. 19
+For SEL to be transformative, implementation must move beyond compliance with a curriculum
+and toward embedded practices across content areas and daily interactions. Student voice is
+centered in decision making and programs. Collectively, TSEL strategies equitably address both
+Collaborative for Academic, Social, and Emotional Learning (CASEL)
+Oregon’s Transformative Social and Emotional Learning Framework and Standards
+18
+Jagers et al., 2019. Transformative Social and Emotional Learning: In Pursuit of Educational Equity and
+Excellence. University of Michigan.
+19
+Durlak et al., 2011. The impact of enhancing students’ social and emotional learning: a meta-analysis of schoolbased universal interventions. Loyola University Chicago.
+16
+17
+
+13
+
+Implementing Belonging and Wellness in Schools
+the motivational and structural drivers of absenteeism to improve regular student attendance.
+ODE continues to provide guidance and technical assistance to districts for TSEL and
+instructional standards with equity-focused content, though accountability and increased
+funding are challenges to strengthening statewide impact.
+
+Accountability Framework Implementation
+The legislature passed Oregon’s Education Accountability Act (EAA)(Senate Bill 141, codified
+into ORS 327.222) in June 2025. To implement this Act, the state is focusing on shared
+responsibility, streamlined reporting, better data, and tailored supports and interventions for
+districts. The state has an opportunity to holistically address belonging, wellness, and wellbeing within the intensive coaching requirements by fully funding ODE to provide school
+districts with a continuum of supports, including intensive coaching programs. Intensive
+coaching includes engaging with schools, districts, and ESDs to identify and respond to a
+district’s unique needs for school climate supports, resources, and models.
+ODE has the capacity to leverage and build upon existing whole-child staff expertise to
+support the state’s systemic ability create positive school climates that are foundational
+to increased regular attendance, academic outcomes, and graduation rates, especially for
+historically underserved populations; establish and begin to deliver a well-rounded, evidencebased continuum of supports that are sufficient and responsive to meet the need of school
+districts statewide; and meet the statutory requirements of ORS 327.222.
+By fully leaning into the intensive coaching requirements of the EAA implementation, the
+state has the opportunity to improve: regular attendance; feelings of belonging, trust, and
+emotional well-being for students and staff; student safety (by seeing decreased incidents of
+harm); streamlined existing state systems; greater access to school safety and
+prevention, mental and physical health supports for students and staff; and reduced use of
+exclusionary discipline, especially for disproportionately impacted student populations.
+
+Strengthening Data Collection for Measuring Belonging
+and Wellness
+Oregon has five surveys that function as important tools for understanding the experiences and
+needs of students and staff in Oregon’s public schools, especially in supporting student and
+staff belonging and wellness. The five surveys include: 20
+
+20
+
+View a comparison summary of the SHS, SEED, and EVE surveys for more information on survey administration.
+
+14
+
+Implementing Belonging and Wellness in Schools
+•
+
+Student Health Survey (SHS): A comprehensive, school-based, anonymous, and
+voluntary health survey of 6th, 8th and 11th graders conducted yearly. The SHS is
+designed to address student health and safety, student mental and behavioral health,
+and school climate and culture.
+
+•
+
+Student Educational Equity Development Survey (SEED): Offered annually to students in
+grades 3-11 and designed to gather information about the educational experiences of
+students across eight domains: Access to Learning Resources, Sense of Belonging,
+Opportunity to Learn, Self-Efficacy, Career Connected Learning, Post-Graduation
+Planning, Well-Rounded Education, and Extracurricular Engagement.
+
+•
+
+Elevating Voices in Education (EVE): This workforce survey is open to all licensed and
+classified staff employed or under contract with a public K-12 public education provider
+that includes questions on topics such as workplace climate, professional learning, wellbeing, students, equity, and job satisfaction.
+
+•
+
+Student Voice Summer Survey (SVSS): A student perception survey designed to help
+leaders better understand students’ experience in summer programs.
+
+•
+
+School Administrators Survey (COMING SOON): Beginning in SY 2026-2027, this survey
+will collection information from school staff about health policies and practices in place
+in their school that can help leaders explore the connection between school health
+policies and programs with student health and education outcomes.
+
+In 2023, the Oregon State Legislature demonstrated a commitment to collecting student and
+staff voice by mandating administration of these school surveys that ODE and OHA are working
+together to implement and scale. ORS 329.078 requires all school districts in Oregon to make
+the SHS and SEED Survey available to students in grades 3 through 11; ORS 342.676 requires
+public education providers to encourage their workforce to respond to the EVE survey.
+Before these surveys were mandated, Oregon had no way to systemically measure belonging
+and wellness centered in community voice. While the survey results are meaningful in silo,
+streamlined analysis of survey data offer powerful insight into how communities and state
+agencies can support school communities’ climate. ODE and OHA are working together to
+strengthen tools for both state agency and community analysis of data and trends available
+within the survey results; and all surveys have seen participation climb steadily since the 2023
+legislative mandate. The surveys are a new and meaningful tool in illustrating issues in school
+climate from student and staff perspectives and will continue to grow in impact as survey
+administration reaches full implementation over the next biennium.
+
+15
+
+Implementing Belonging and Wellness in Schools
+
+Proposed Solutions: Comprehensive and
+Community-Centered Approaches
+Proposed solutions build on strengths of Oregon’s education system and provide a roadmap for
+state leaders to leverage current education investments to fully actualize increases in belonging
+and wellness outcomes for school communities.
+
+Coordinate local and statewide funding utilizing a
+comprehensive policy framework centering community
+voice
+ODE, in collaboration with partner state agencies, implements many evidence-based policies
+and programs to support students. A proven way to organize these policies and programs into a
+framework that encourages cohesion and collaboration across government and communities is
+the Full-Service Community School (FSCS) Model, which acts as a filing system for education
+leaders and policymakers to understand how to implement supports that help a student be
+ready to learn. FSCS strategies have driven clear, measurable improvements in student
+attendance and reductions in chronic absenteeism across diverse districts nationwide by
+constructing a framework that centers student and staff voice and illustrating strategies that
+education leaders can pursue to support feedback. 21 Districts that implement integrated
+student supports, family engagement structures, expanded learning time, and collaborative
+leadership consistently increase daily attendance and re-engage students who were previously
+disengaged. 22 When schools connect students and families to health services, mental health
+care, food access, housing stability resources, and academic supports, they remove the
+structural barriers that keep students out of class. These strategies produce the strongest gains
+for historically underserved student groups. FSCS does not rely on isolated programs; it
+restructures school systems to actively eliminate attendance barriers and sustain engagement
+at scale.
+Additionally, FSCS strategies have been shown to reduce exclusionary discipline and create
+safer, more supportive learning environments.23 Schools that adopt restorative practices,
+Frankl, Evie, 2016. Community Schools: Transforming Struggling Schools into Thriving Schools. Southern
+Education Foundation.
+22
+Community Schools: An Evidence-Based Strategy for Equitable School Improvement, NEPC and LPI, 2017, p.13.
+23
+Task Force on Next Generation Community Schools, 2021. Addressing education inequality with a next
+generation of community schools: A blueprint for mayors, states, and the federal government. Brookings Institute.
+21
+
+16
+
+Implementing Belonging and Wellness in Schools
+coordinated behavioral health supports, and individualized student plans cut suspensions and
+disciplinary referrals while strengthening school climate. By replacing punitive responses with
+relationship-based interventions, schools keep students in class and prevent the cycle of
+disengagement that fuels chronic absence. Districtwide FSCS implementation has repeatedly
+demonstrated that when systems align around whole-child supports, they decrease disciplinary
+exclusion and increase consistent attendance. The evidence shows that FSCS is not a pilotdependent reform; it is a replicable, systems-level strategy that advances equity by removing
+barriers that have disproportionately impacted historically underserved students.
+
+Full Staffing for Health Services
+Belonging and wellness are not ancillary supports but core system conditions that shape
+whether students are able and willing to attend school. Oregon’s existing policies and
+frameworks provide a strong foundation for this work, yet gaps in staffing, funding, and
+implementation coherence continue to limit impact. Oregon has a critical school nursing
+shortage that disproportionately impacts students with chronic health care conditions or
+special health care needs, such as students with diabetes who need nursing support to receive
+insulin. Without nursing support, these students cannot attend school regularly. School nurses
+can improve attendance by increasing return-to-class rates, supporting chronic disease
+management, among other duties.
+With 24% of school districts reporting 0 school nurse staff and only 11% of districts meeting the
+recommended ratio of one nurse to every 750 students, Oregon has a clear opportunity to
+improve student health, reduce absenteeism, and promote equitable academic success
+statewide. To fully fund school nurses to meet minimum requirements for ratios, there are two
+clear pathways identified:
+1. Increase health services funding allocation in State School Fund to explicitly and fully
+fund the amount of school nurses necessary for each school district to meet required
+nurse-to-student ratios.
+2. Create new population for Medically Complex or Nursing-Dependent students in the
+State School Fund enrolled students allocation that matches payments for other
+underserved populations. School districts receive specific funds from the State School
+Fund to support specialized populations in receiving their free and public education,
+such as pregnant or foster students. There are currently no defined reimbursement
+populations that specifically support the needs of medically complex students in these
+calculations.
+
+17
+
+Implementing Belonging and Wellness in Schools
+
+Flexible Funding for Wraparound Supports
+Without on-the-ground school staffing to coordinate the wraparound supports provided by
+state systems, services never make it to the students who most need them. Oregon can fully
+leverage its investments in health and economic supports for schools by including flexible
+funding for school staffing to meet community needs for complex challenges. Examples include,
+but are not limited to:
+•
+
+Social Workers
+
+•
+
+Quality Mental Health Providers
+
+•
+
+Restorative Justice Coordinators
+
+•
+
+School Climate Coaches
+
+Leverage state system investments in Education
+Accountability Act implementation by expanding
+Education Service Districts
+There is needed capacity within ODE to implement coaching program requirements required
+by ORS 327.167 outlined in the 2025 Education Accountability Act (EAA)(SB 141). The
+EAA requires ODE to monitor student outcomes and provide assistance to school districts that
+do not meet statewide performance metrics, 24 including regular attendance and early-grade
+regular attendance rates.
+After two years of not meeting growth targets, districts will be required to accept coaching
+from ODE to address specific areas of need. After three or more years or not meeting growth
+targets, districts will be required to participate in an intensive coaching program with a
+dedicated team of experts to implement specific changes. To support ODE in delivering a wellrounded continuum of supports that are sufficient and responsive to meet the need of school
+districts statewide, there is a wider need to support the state’s systemic ability to
+create positive school climates that are foundational to increased regular attendance, academic
+outcomes, and graduation rates, especially for historically underserved populations.
+Intensive coaching as required by ORS 327.169 includes engaging with schools, districts, and
+ESDs to identify and respond to districts’ unique needs for school climate supports, resources,
+and models. By funding expanded partnerships with Education Service Districts (ESDs) to create
+a regional continuum of supports, Oregon would be able to exponentially increase ODE’s ability
+See the Performance Growth Target website for more information:
+https://www.oregon.gov/ode/accountability/Pages/PGTResources.aspx
+24
+
+18
+
+Implementing Belonging and Wellness in Schools
+to serve all school districts in belonging and wellness as part of EAA implementation. An
+expanded partnership with ESDs could look like implementation of evidence-based
+operational models that leverage existing state support systems; and provide resources and
+consultation to assist schools, education providers, and families in preventing students from
+being taken out of school because of behavior or other issues. By providing support for
+teachers and education staff to meet the needs of students, ESDs can prevent both students
+and teachers from withdrawing from school.
+
+Conclusion
+“Belonging and Wellness” can be defined as creating conditions so that students are ready to
+learn, which includes building the interpersonal relationships, practices, policies, systems, and
+expenditures that affirm student identity and build respect for themselves and others. Regular
+attendance for students is a multi-faceted challenge for schools and communities that is
+impacted by feelings of belonging and wellness, social needs of families, and engaging content
+in the classroom. Oregon faces many challenges in supporting its K-12 system, from low regular
+attendance rates for students (and especially those representing historically underserved
+populations) to uncoordinated investments around supports for students, families, staff, and
+communities.
+Proposed solutions build on strengths of Oregon’s education system and provide a roadmap for
+state leaders to leverage current education investments to fully actualize increases in belonging
+and wellness outcomes for school communities. Without on-the-ground school staffing to
+coordinate the wraparound supports provided by state systems, services never make it to the
+students who most need them. Oregon can fully leverage its investments in health and
+economic supports for schools by including flexible funding for school staffing to meet
+community needs for complex challenges. An opportunity for ODE to support statewide
+implementation for community coordinators includes the upcoming Education Accountability
+Act coaching pathways.
+Leaders across Oregon can utilize the Full-Service Community School model to help organize
+the funding, policies, and programs currently serving students to fully coordinate and leverage
+existing funding. By centering student, family, and staff voice in policy and program decision
+making or coordination, education administrators can vastly expand impact of existing funding.
+Additional funding to expand foundational health services staff (school nurses) and school-level
+system coordination would exponentially increase impacts of current systems and services
+statewide; and are research-backed strategies to increase regular student attendance.
+19
+
+Implementing Belonging and Wellness in Schools
+
+Appendix: ODE Strategic Plan
+In 2026, ODE published the Agency Strategic Plan (2026-2028), which commits to implementing
+the following strategies aimed at supporting belonging and wellness in schools:
+Belonging and Wellness Priority Outcome 1: Increased regular attendance
+•
+
+BW.1.1: In partnership with the Oregon Health Authority, provide schools and districts
+with integrated wellness, inclusion, safety, and health data analysis and interpretation
+
+•
+
+BW.1.2: Focus on blending and braiding funding to de-silo attendance approaches and
+supports
+
+•
+
+BW.1.3: Develop and implement School Wellness, Inclusion, Safety, and Health
+Framework
+
+BW.1.4: Disseminate and center strategies to reduce absences and increase regular
+attendance, particularly for focal student populations
+Belonging and Wellness Priority Outcome 2: Increased feelings of belonging, trust, and
+emotional well-being among students and adults
+•
+
+•
+
+BW.2.1: Expand district use of Student Educational Equity Development (SEED) Survey
+analysis protocols and communication toolkit resources
+
+•
+
+BW.2.2: Establish system for data collection and analysis on district expenditures related
+to mental and physical health and safety
+
+•
+
+BW.2.3: Embed Transformative Social and Emotional Learning (TSEL) standards into
+learning standards, guidance, and professional development at all levels
+
+•
+
+BW.2.4: Ensure statewide implementation of ODE’s Community Engagement Toolkit and
+best practices
+
+BW.2.5: Strengthen government-to-government Tribal partnerships and tribal
+consultation efforts between school districts, ESDs, and Tribe
+Belonging and Wellness Priority Outcome 3: Increased feeling of student safety in schools (and
+decreased incidents of harm)
+•
+
+•
+
+BW.3.1: Examine and improve existing belonging, wellness, inclusion, safety and health
+data collections
+
+•
+
+BW.3.2: Establish a statewide definition of safety and harm to be utilized by civil rights,
+school safety and prevention, School Safety and Emergency Management (SSEM), and
+facilities
+
+•
+
+BW.3.3: Design, implement, and evaluate an Oregon Model for Behavior Safety
+Assessments
+
+•
+
+BW.3.4: Utilize a whole-child framework to address wellness, inclusion, safety, health and
+mental health
+20
+
+Implementing Belonging and Wellness in Schools
+Shared Accountability Priority Outcome: Established continuum of supports
+•
+
+SA.2.2: Expand ODE’s defined, dynamic, and differentiated continuum of supports aligned
+with the Priorities for Student Success
+
+•
+
+SA.2.3: Improve support to districts through implementation of an aligned regional
+support team model across the agency
+
+ODE will be monitoring the following systemic outcomes during implementation to understand
+success contributions to continuous improvement practices:
+Short-term outcomes:
+•
+
+Measurable improvements in indicators of belonging and connection (through SHS, EVE,
+and SEED surveys)
+
+•
+
+Lower reports of unmet health care need; and improved student health, mental
+health (measured through SHS)
+
+•
+
+Higher levels of staff satisfaction (measured through EVE)
+
+Increased regular attendance for all schools and students, but especially historically
+underserved populations, focal student groups, and schools receiving intensive coaching
+for school climate
+Medium-term outcomes:
+•
+
+•
+
+Increased Regular Attender rates for all students, and especially K-2 students
+
+•
+
+Increased 3rd Grade English Language Arts Proficiency rates
+
+•
+
+Increased 8th Grade Math Proficiency rates
+
+• Increased 9th Grade On-Track rates
+Long-term outcomes:
+•
+
+Increased 4-Year Cohort Graduation rates
+
+•
+
+Increased 5-Year Cohort Completion rates
+
+21
+
+

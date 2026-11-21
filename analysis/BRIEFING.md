@@ -202,8 +202,10 @@ The archive so far covers mostly how much is spent. What the money buys is the l
   step up for districts that show no progress [NEWS:NEWS-20260429-oregonian-1]; the details, and ODE's Dec 2025
   progress report, are still to work through (#60).
 - **What full funding is meant to buy.** If the full QEM isn't funded, the Quality Education Commission's 2026 report
-  offers more funding for programs aimed at the SB 141 metrics [SRC:ode/qec/2026_qem_report.pdf p.110]. How the
-  commission links its model to practices and outcomes is still to research (#59).
+  offers more funding for programs aimed at the SB 141 metrics [SRC:ode/qec/2026_qem_report.pdf p.110]. The model
+  assumes that sustained full funding, with districts using the recommended practices, would bring the four-year
+  graduation rate to 90 percent [SRC:ode/qec/2026_qem_report.pdf p.92]; outcomes inform the commission's judgment but
+  are not inputs to the model [SRC:ode/qec/2026_qem_report.pdf p.95]. See `topics/qem-practices-outcomes.md`.
 - **What past increases achieved.** Student Investment Account spending and results (#57), and statewide outcomes over
   time set against funding (#58), are not yet archived.
 
@@ -271,7 +273,7 @@ Full timeline: `timeline.md`.
 | #26 | What each group and official is proposing for the 2027-29 amount |
 | #57 | Student Investment Account: spending and results |
 | #58 | Statewide outcomes over time, set against funding |
-| #59 | The Quality Education Commission's evidence on practices and outcomes |
 | #60 | SB 141 accountability: progress and consequences |
+| #63 | Research on whether school funding changes outcomes (studies the QEC cites are archived; #79 still to fetch) |
 
 More in `open_questions.md`.

@@ -1,0 +1,1017 @@
+The Every Day Matters
+and High School Success
+Programs: Supporting
+Regular Attendance and
+On-Time Graduation
+Quality Education Commission Best
+Practices White Paper Series
+March 2025
+
+
+--- OCR of this page (tesseract), not checked by a person: check the PDF before quoting or copying a figure ---
+The Every Day Matters
+and High School Success
+Programs: Supporting
+Regular Attendance and
+On-Time Graduation
+
+Quality Education Commission Best
+Practices White Paper Series
+
+March 2025
+
+jx CS
+
+OREGON QUALITY
+
+DEPARTMENT OF EDUCATION
+EDUCATION COMMISSION
+
+The Every Day Matters and High School Success Programs: Supporting Regular Attendance and
+On-Time Graduation
+
+Contents
+Executive Summary ..................................................................................................................... 2
+Introduction ................................................................................................................................. 3
+Background and Literature Review ............................................................................................. 3
+High School Success ................................................................................................................. 3
+Every Day Matters.................................................................................................................... 3
+Key Performance Measures ..................................................................................................... 4
+Established Research ............................................................................................................... 5
+Proposed Solutions...................................................................................................................... 9
+Equity Advanced .................................................................................................................... 10
+Engaged Community .............................................................................................................. 11
+Well-Rounded Education ....................................................................................................... 12
+Strengthened Systems and Capacity ..................................................................................... 13
+Key State Investments and Impacts .......................................................................................... 14
+Attendance Improvement Funds ........................................................................................... 14
+High School Success School District Grants ........................................................................... 17
+HSS and EDM Grant Impacts .................................................................................................. 18
+Challenges in Implementation ............................................................................................... 19
+Conclusion ................................................................................................................................. 20
+References ................................................................................................................................. 21
+
+1
+
+The Every Day Matters and High School Success Programs: Supporting Regular Attendance and
+On-Time Graduation
+
+Executive Summary
+The High School Success (HSS) and Every Day Matters (EDM) programs were created by voters
+and state legislature to address improving Oregon’s educational system. With on-time
+graduation rates at 76.8% in 2014-15 and Regular Attender rates at 82.6%, the state recognized
+that support was needed to improve student outcomes. The goals of these grants are to
+increase regular attendance, increase on-time (four year) high school graduation, and improve
+college and career readiness through strategic improvements in school districts, education
+service districts, and partnerships with community business and organizations.
+HSS and EDM are now components of the Integrated Programs, a complementary set of
+education improvement initiatives in Oregon, and strategies for improvement are framed using
+the four common goals: Equity Advanced, Engaged Community, Well-Rounded Education, and
+Strengthened Systems and Capacity.
+These grant funds are currently supporting these goals statewide through activities like
+professional development for staff in the realm of social-emotional learning, trauma informed
+practices, and equitable grading practices; hiring ninth grade on-track coaches; hiring staff to
+support students and families with attendance; and creating additional opportunities for
+students to engage in college level coursework and career technical education (CTE) programs.
+Challenges include finding adequate staff to fill positions, particularly in rural and remote
+school districts, addressing staff burnout, the COVID-19 pandemic disruption, and improving
+education as one piece of a greater system-wide set of needs.
+As part of the Integrated Programs, the HSS and EDM initiatives have supported schools and
+districts to align their strategic plans, center on equitable student needs, and design
+continuously-improving education for each community. The grant-in-aid for the initiatives
+allows the focus to remain on implementation of key strategies that empower students and
+move them into lasting careers. While education outcomes have improved in Oregon, gaps
+remain; utilizing research-backed strategies will continue progress.
+
+2
+
+The Every Day Matters and High School Success Programs: Supporting Regular Attendance and
+On-Time Graduation
+
+Introduction
+Ensuring that students graduate on time, prepared for college or a career remains a central goal
+of the Oregon Department of Education (ODE). Drawing on resources from the ODE’s Every Day
+Matters (EDM) and High School Success (HSS) teams, including their March 2025 presentation
+to the Quality Education Commission, this white paper addresses this need by presenting a
+framework of practices designed to maximize opportunities for student success.
+This paper reviews the context for the two initiatives and describes the key performance
+measures related to them. Next, the paper explores the challenges districts face, and, using the
+framework of four common goals, identifies key strategies for increasing on-time (4 year)
+graduation and regular attendance. Finally, state resources and impacts attributed to the
+programs are discussed.
+
+Background and Literature Review
+High School Success
+Measure 98 was passed by voters in Oregon in 2016, establishing the High School Graduation
+and College and Career Readiness Fund. Measure 98, also known as High School Success (HSS),
+provides direct funding to school districts and charter schools to improve student progress
+toward graduation beginning with grade nine, increase the graduation rates of high schools,
+and improve high school graduates’ readiness for college and career. Grant recipients are
+required to spend these funds in three areas: dropout prevention strategies, college-level
+educational opportunities for students, and career and technical education (CTE) programs. In
+addition to the required spending areas, the statute established eligibility requirements each
+grantee must meet to receive Measure 98 funds. These eligibility requirements include time for
+teachers to collaborate around data, practices to reduce chronic absenteeism, systems to
+support on time graduation, and creating equitable assignments of students to advanced
+coursework. Having these systems in place increases the likelihood of success for all students.
+
+Every Day Matters
+The Every Day Matters (EDM) program was also established in 2016 through House Bill 4002
+and has two programmatic goals: to increase statewide capacity to address the root causes of
+chronic absenteeism by centering student engagement and belonging, and to increase regular
+attender rates statewide. There is an important distinction between these two goals—
+identifying and addressing the root causes of chronic absenteeism is deep, focused work and
+impacts both individual students and their families as well as the focal student groups more
+3
+
+The Every Day Matters and High School Success Programs: Supporting Regular Attendance and
+On-Time Graduation
+broadly. The second goal is to demonstrate shifts in the entire system to increase regular
+attendance: each student group as well as the Oregon student population overall.
+
+Key Performance Measures
+Both the High School Success and the Every Day Matters programs support districts in meeting
+the state’s accountability measures, improving graduation rates, ninth grade on-track rates, and
+regular attender rates.
+
+Figure 1: Oregon’s Key Performance Measures: 2015-16 or 2017-18 Actuals1
+Regular Attender
+2016 Actual Rate
+
+9th Grade On-Track
+2018 Actual Rate
+
+4-Year Graduation
+2016 Actual Rate
+
+All Students
+
+81.3%
+
+84.5%
+
+74.8%
+
+Students of Color
+
+79.0%
+
+78.8%
+
+68.3%
+
+Special Education Students
+
+74.8%
+
+71.4%
+
+55.5%
+
+Prior to the COVID-19 pandemic, the agency set a 2020 goal of an all-student regular attender
+rate of 84%, 81% for students of color, and 78% for students experiencing disabilities.2 Progress
+was made toward meeting those goals; however, COVID-19 deeply disrupted student
+attendance, both nationally and in Oregon. As seen in Figure 2 below, the 2024-25 regular
+attender rate was still below pre-pandemic rates and far below the Key Performance Measure
+(KPM) goal.
+2017-18 rates for ninth grade on-track were nearly 85% for all students, with students of color
+and special education students lower at 78.8% and 71.4%, respectively. The ninth grade ontrack rate KPM goal for all students in 2024-25 was 90%, 88% for students of color, and 83% for
+students with disabilities.
+In 2016, graduation rates in Oregon were 74.8% for all students, 68.3% for students of color,
+and 55.5% for students with disabilities. The 2024-25 graduation rate KPM goal for all students
+is 86%, 84% for students of color, and 82% for students with disabilities.
+
+The first year of published ninth grade on-track rates was 2017-18
+The goals referenced in this report are the Key Performance Measure targets; learn more about the KPMs here:
+https://www.oregonlegislature.gov/lfo/Pages/KPM.aspx
+
+1
+2
+
+4
+
+The Every Day Matters and High School Success Programs: Supporting Regular Attendance and
+On-Time Graduation
+
+Figure 2: Oregon’s Key Performance Measures: 2024-25 Target Versus Actuals
+Regular
+Attender
+2025 KPM
+Goal
+
+Regular
+Attender
+2025 Actual
+Rate
+
+9th Grade
+On-Track
+2025 KPM
+Goal
+
+9th Grade
+On-Track
+2025 Actual
+Rate
+
+4-Year
+Graduation
+2025 KPM
+Goal
+
+4-Year
+Graduation
+2025 Actual
+Rate
+
+All
+Students
+
+85%
+
+66.5%
+
+90%
+
+86.6%
+
+86%
+
+83%
+
+Students of
+Color
+
+82%
+
+59%
+
+88%
+
+81.6%
+
+84%
+
+79.1%
+
+Special
+Education
+Students
+
+79%
+
+59.8%
+
+83%
+
+76.8%
+
+82%
+
+72.2%
+
+While regular attender rates, ninth grade on-track rates, and graduation rates have risen since
+the COVID-19 pandemic school closures, current rates have not met state goals.
+Even though graduation rates have continued to rise, nearly one in five Oregon students are not
+graduating on time. Rates are even more concerning for historically and currently marginalized
+student populations such as students experiencing poverty, houselessness, or foster care,
+students with disabilities, and students of color. This trend of disparities is consistent in ninth
+grade on-track and regular attender rates.
+
+Established Research
+Regular Attendance and Chronic Absenteeism
+Chronic absenteeism, or missing 10 percent or more of enrolled days, is a challenge for families,
+educators, and students—but the problem is not spread evenly across student groups. The
+2017 Chronic Absenteeism Report from Oregon’s Chief Education Office found that “Students
+who experience racism, who are more likely to be disciplined than others, who do not see
+themselves or their communities reflected in the curriculum, who cannot connect school to
+their life goals, and whose families have experienced historic trauma associated with schools
+are less likely to come to school. In addition, students not attending school are often working in
+other ways to support their family stability” (pg.72). The National Education Association’s 2018
+brief affirms that students of color, students in high-poverty school districts, students with
+disabilities, and students enrolled in urban school districts experience higher rates of chronic
+absenteeism. In Oregon, gaps in regular attendance for historically and currently marginalized
+student groups persist. As reported in the 2023-24 Oregon Statewide Report Card, gaps
+
+5
+
+The Every Day Matters and High School Success Programs: Supporting Regular Attendance and
+On-Time Graduation
+continue to widen between the Regular Attender rates for all students and individual student
+groups with the most significant differences. 3 These groups are:
+•
+•
+•
+•
+
+Students experiencing houselessness
+Native Hawaiian/Pacific Islander students
+Non-binary students
+Students experiencing poverty
+
+National data indicates that districts with high poverty have chronic absenteeism rates four
+times higher than the national average, which implicates factors related to social inequities.
+Chronic absenteeism has both long- and short-term impacts. When students are out of school,
+they miss the consistent instruction needed to build and strengthen academic skills.
+Additionally, chronic absenteeism can lead to a disconnection with teachers and peers,
+increasing a sense of social isolation. Students who are chronically absent for multiple years
+between preschool and second grade are less likely to be reading at grade level by the third
+grade. In turn, students not reading at grade level by the third grade are four times less likely to
+graduate high school.
+The COVID-19 pandemic severely impacted student attendance—school districts that had high
+chronic absenteeism rates between 20% and 30% pre-pandemic increased to 50% or higher;
+nearly half of students in those districts missed a month or more of school each year. “Even
+districts and schools which have prior experience with chronic absenteeism and response
+systems in place, find their experience and systems strained by the sheer volume of chronically
+absent students” (Balfanz, 2024, pg.2). Personal, social, economic, health, and educational
+impacts during the pandemic have continued for many students—and this disrupts classroom
+learning for all as teachers work to get students caught up on missed material (Balfanz, 2024,
+pg. 1).
+
+3
+
+See the 2023-24 Statewide Annual Report Card
+
+6
+
+The Every Day Matters and High School Success Programs: Supporting Regular Attendance and
+On-Time Graduation
+
+There are many reasons that students miss school. Research places these root causes into four
+main categories (Attendance Works, 2025):
+•
+•
+•
+•
+
+Barriers (students can’t go to school)
+Aversions (students don’t want to go to school)
+Lack of engagement (students don’t know or feel the point of going to school)
+Misconception (student or family beliefs about attendance)
+
+Examples of the root causes include chronic physical or mental health challenges, lack of
+affordable transportation, responsibilities to family such as caring for younger children or
+employment, experiences of being bullied, or embarrassment over struggling academically. The
+root causes of absenteeism are broad, and no single strategy can overcome them all.
+Departments across school districts work together to address each of these barriers. For
+example, staff working on curriculum and learning promote high quality, engaging instruction;
+special education staff support the specific needs of students with disabilities; and the
+transportation department works hard to overcome barriers to reliable transportation to
+school.
+The use of early warning and monitoring systems supports attendance improvement, as these
+data systems identify students at risk of negative school outcomes. Also important to improving
+student attendance is family engagement, including identifying root causes and devising
+solutions; and mitigating lost learning and weak social connections for students that have
+missed school (Attendance Works, 2024).
+
+7
+
+The Every Day Matters and High School Success Programs: Supporting Regular Attendance and
+On-Time Graduation
+
+Attendance Connection to Graduation
+Analyses of data from multiple states and school districts… consistently found
+chronic absenteeism to be among the strongest predictors of dropping out of
+high school, stronger even than suspensions, test scores, and being overage
+for grade, after having controlled for student demographics and backgrounds.
+– Balfanz and Byrnes, 2012, pg. 25
+The ODE 2021 report, Predictors of On-Time High School Graduation, demonstrates that for ontime graduation in Oregon, regular attendance is one of the highest predictors; students who
+were not on-track to graduate at the end of their ninth grade year who were regular attenders
+for four years graduated at 80.4%, compared to 39.2% for students who did not attend
+regularly for any of their high school years. Even prior to high school, studies show that
+students in middle school who missed 15 or more days graduated at up to 50 percentage points
+less compared to students who missed 0 to 5 school days (Balfanz and Byrnes, 2012).
+
+Graduation
+The long-term consequences of not graduating from high school include lower lifetime wages,
+poorer health outcomes, and an increased risk of incarceration. “In 2020, the median weekly
+earnings for full-time workers with a high school degree but no college was $781. This is $162
+higher than the median weekly earnings for full-time workers without a high school degree”
+(U.S. Dept of Health and Human Services). A high school diploma is required for many jobs,
+limiting earning potential and career development for those without one.
+Nationally, the graduation rate was 87% in 2021-22—this showed marked improvement from a
+decade prior, when it was 80% (National Center for Education Statistics, 2024). Oregon’s rate
+was 81.3% in 2021-22, well below the national average. National rates for races and ethnicities
+falling below the average were: American Indian/Alaska Native students, 74%; Black students,
+81%; and Hispanic students, 83%. Additionally, students with disabilities graduated at 71%,
+English learning students at 72%, economically disadvantaged students at 81% and students
+navigating housing instability (homelessness) at 68%.
+In Oregon, although nearly all student populations have experienced increases in graduation
+rates over the past few years, gaps between groups have persisted. The groups experiencing
+the greatest disparities are:
+•
+
+Students currently or formerly incarcerated
+
+•
+
+Students navigating foster care
+
+•
+
+Students experiencing houselessness
+
+•
+
+Emerging bilingual students
+8
+
+The Every Day Matters and High School Success Programs: Supporting Regular Attendance and
+On-Time Graduation
+The strongest predictor of on-time graduation is being on-track to graduate at the end of the
+ninth-grade year (OR Dept of Education, 2021). Students who complete one-quarter of the
+required credits needed for graduation prior to beginning their tenth-grade year are more than
+twice as likely to graduate than those who do not. This indicator remains constant among all
+student populations.
+Easing the transition to high school, including the development of freshman academies, the
+hiring of ninth grade on-track coaches (US Dept of Education, 2008), and an emphasis on
+regularly reviewing student data (US Dept of Education, 2016)(Faria et al., 2017), are imperative
+to boost freshman success, and reduce high school dropout rates.
+Additional strategies for supporting students through graduation include dual credit programs
+(US Dept of Education, 2017a); utilizing engaging coursework connected to careers; engaging
+mentors or adult advocates to students at risk of dropping out; personalize learning; and
+providing academic support through homework assistance, tutors, or intensive programs (US
+Dept of Education, 2017b)(US Department of Education, 2008).
+The complexity of supporting students to complete graduation is due to the many factors
+influencing it—from disengagement with curriculum and teachers to family needs to
+employment. The challenge is both individual and systemic; support, therefore, also needs to
+be both individual and systemic.
+
+School Connectedness
+As stated in the EdResearch for Action’s Strengthening School Connectedness to Increase
+Student Success, “Students are more likely to succeed when they feel connected to school”.
+Research also shows that there are several factors that, together, increase student connections
+to school: supportive peer group belonging, feeling accepted for who they are, staff caring
+about them, and engagement in social activities where they feel supportive of others.
+Connection in school leads to higher attendance rates, fewer disciplinary events, and greater
+academic outcomes, including high school graduation and post-secondary achievement. Mental
+health is improved as well—with lower anxiety and depression and less engagement with risky
+behaviors.
+
+Proposed Solutions
+Effective strategies to support students align with foundational research about connection,
+belonging, and engagement. Districts and schools support student attendance through many
+holistic strategies that aim to address various root causes of chronic absenteeism. Belonging
+and engagement are at the center of the student experience. This carries into the work to
+support students in achieving an on-time graduation. Students that see themselves in the
+9
+
+The Every Day Matters and High School Success Programs: Supporting Regular Attendance and
+On-Time Graduation
+curriculum, see connections between their learning and their future careers, and feel supported
+in their learning and development are more likely to graduate. Reviewing student progress,
+attendance, and behavior regularly increases the ability to intervene early, if needed, and
+increases likelihood of success.
+ODE’s Integrated Programs 4 share four common goals: equity advanced, engaged community,
+well-rounded education, and strengthened systems and capacity. These goals provide
+scaffolding for strategies to improve regular attendance and on-time graduation in Oregon’s
+schools.
+
+Equity Advanced
+Equity advanced is working towards ending the predictable
+disparity in academic success and student well-being. Reviewing
+disaggregated data (data at the student group level) is
+critical, both regionally and locally. A key
+effective strategy in disaggregating data
+is to utilize an Early Indicator and
+Intervention System, sometimes referred
+to as a Student Success System or an
+Early Warning System.
+Culturally responsive and sustaining
+pedagogy and practices supports regular attendance and student
+success. Within this work, ODE recognizes the historical,
+systemic, multisystem barriers historically and currently
+marginalized students and families face in education systems and the
+impact these barriers have. Use of language is important to advance equity as well. Ensuring
+that the challenge is framed as a systemic problem rather than an individual shortcoming puts
+the focus on the whole-system inequities and barriers rather than blaming parents, students, or
+individual educators.
+Strategies to advance equity to improve regular attendance and increase on-time graduation
+include:
+•
+
+Creating a positive school climate and culture that is welcoming and inclusive of
+students, families and school staff.
+
+The ODE’s Integrated Programs include HSS and EDM; learn more about them here:
+https://www.oregon.gov/ode/StudentSuccess/Pages/Innovation-and-Improvement.aspx
+
+4
+
+10
+
+The Every Day Matters and High School Success Programs: Supporting Regular Attendance and
+On-Time Graduation
+•
+
+Reviewing disaggregated data regularly to see which student groups are most and least
+supported in their course enrollment and completion, advanced coursework, discipline,
+use of mental health supports, etc. Address disparities found.
+
+•
+
+Making laundry facilities, clean clothing, food, and personal hygiene available.
+
+•
+
+Ensuring that all students have regular connections with career counselors.
+
+•
+
+Using culturally-responsive, high quality curriculum and instructional materials.
+
+•
+
+Recruiting and supporting staff that reflect the student population’s race, culture,
+gender, etc.
+
+•
+
+Establishing connections or mentors for students with professionals of similar culture
+and background in their desired field.
+
+Engaged Community
+
+The engaged community goal recognizes that caring and reciprocal relationships and
+partnerships are needed to achieve equitable outcomes and healthy systems. This includes the
+school community through multi-disciplinary teams, recognizing that the root causes span
+multiple aspects of school systems. Best practices for supporting regular attendance and
+student success emphasize support across a school system.
+Community partnerships support this work through proactive interventions at the community
+level that address specific root causes and enhance the infrastructure and systems that support
+youth and their families. Schools are an important part of a community ecosystem. Student
+success and attendance is not just a classroom or school level issue; supports and interventions
+should expand across multiple sectors.
+Having intentional conversations with families and community allows educators to understand
+the values of the community, learn what’s working well and what continues to be a problem,
+11
+
+The Every Day Matters and High School Success Programs: Supporting Regular Attendance and
+On-Time Graduation
+and get feedback on strategies for improvement. If the school develops a robust improvement
+plan that doesn’t reflect the values of the community, students and families are unlikely to feel
+deep connection and trust with the school staff.
+Strategies to engage with community to improve regular attendance and increase on-time
+graduation include:
+•
+
+Center children/youth engagement and re-engagement strategies around caring
+connections and healthy relationships with students, families, and communities.
+
+•
+
+Tend to long-standing harm or impact that marginalized communities have experienced.
+
+•
+
+Engage students in climate surveys and empathy interviews to understand their views
+on school belonging and safety.
+
+•
+
+Deepen schools’ connections with their communities through intentional, authentic,
+and frequent engagement of students, families, educators, school staff, advocates, tribal
+partners, community-based organizations, business and industry partners, and elected
+leaders including school board members.
+
+•
+
+Facilitate meaningful engagement with licensed, classified, and unrepresented staff
+including district and school administrators.
+
+•
+
+Sustain ongoing engagement and consultation through intentional practices and
+feedback loops.
+
+•
+
+Provide transparent and accessible information on the status and priorities of the
+school.
+
+Well-Rounded Education
+Well-rounded education moves beyond the
+courses students take and into the essential
+knowledge and skills students need to thrive.
+This requires a focus on the whole student.
+This means student mental and behavioral
+health, safety, and well-being cannot be
+separated from academic opportunities.
+Programs and experiences that excite and
+motivate students are a key strategy for
+increasing attendance. CTE programs, schoolbased activities, integrated social-emotional
+learning, experiential learning, and
+extracurricular activities also support regular attendance by addressing the root cause of
+engagement.
+12
+
+The Every Day Matters and High School Success Programs: Supporting Regular Attendance and
+On-Time Graduation
+Strategies to create a well-rounded education to improve regular attendance and increase ontime graduation include:
+•
+
+Utilizing multiple types of information to build and refine support systems to address
+the holistic needs of students.
+
+•
+
+Providing engaging extracurricular opportunities like sports, drama, debate, marching
+band, podcasts, etc.
+
+•
+
+Fostering avenues for learners to share and communicate their dreams/aspirations,
+understand their strengths, interests, and talents, develop goals and build the skills,
+knowledge and support to attain their goals.
+
+•
+
+Providing instruction, modeling, and classroom norms that promote students’ social
+competency, self-efficacy and essential employability skills.
+
+•
+
+Applying personalized learning and universal design principles to meet the unique needs
+and ensure strong growth of each individual student.
+
+•
+
+Strengthening local partnerships to connect career to learning.
+
+•
+
+Increasing co-curricular opportunities for youth, such as volunteer work, leadership
+experiences, Model UN, etc.
+
+•
+
+Providing career and technical education programs that are aligned with local industry
+and of interest to students.
+
+Strengthened Systems and Capacity
+
+Educational systems are made up of people, practices, policies, resources, community assets,
+and partnerships. Shared responsibility and accountability for the success of students in
+Oregon’s schools requires systemic change. This includes actions that: leverage continuous
+improvement practices to redesign for educational processes that center care, connection, and
+relationship; support strengths-based reporting, monitoring and evaluation practices in service
+to a continuous improvement process, including how we collect, analyze, use, and share data;
+and more.
+13
+
+The Every Day Matters and High School Success Programs: Supporting Regular Attendance and
+On-Time Graduation
+Strategies to strengthen systems and capacity to improve regular attendance and increase ontime graduation include:
+•
+
+Coordinating support between educators and community service providers focusing on
+the accessibility of resources, information, and extended learning opportunities.
+
+•
+
+Implementing attendance teams, ninth grade on-track teams, and student support
+teams to regularly review data and engage with students and families.
+
+•
+
+Recruiting, hiring, developing and retaining racially and linguistically diverse educators
+that represent students being served.
+
+•
+
+Applying data-informed decision-making routines to review progress and goals at both
+district and school levels with a regular cadence.
+
+•
+
+Using data to describe system health, perceptions, disaggregated student outcome data,
+transition points, staff evaluation feedback, educational community and partner input.
+
+•
+
+Leveraging regional assets and partnerships aligned to continuous improvement.
+
+It is vital to support the well-being of adults in the system who carry the day-to-day work of
+engaging with students. Building adult capacity is integral to building relationships with all
+students and families and addressing root causes of chronic absenteeism and support student
+success. Currently few, if any, districts are focusing efforts on supporting the adults and staff
+burnout has been an area of concern statewide.
+
+Key State Investments and Impacts
+Joining both the Every Day Matters and High School Success programs in the Integrated
+Programs is the Early Indicator and Intervention System (EIIS) grant to implement data systems.
+These systems use data to identify which students are most in need, track which interventions
+have been tried, and which have been demonstrated to work most effectively. EIIS promote
+consistency of support, rather than random acts.
+Oregon has three main routes to support strengthened systems and capacity through the HSS
+and EDM initiatives: technical assistance dollars to ESDs, funding through the Integrated
+Community Partnership grant, and funds to school districts.
+
+Attendance Improvement Funds
+ODE specifically invests in two key areas for building capacity to improve attendance, which
+helps inform best practices and what works across the state. The first is technical assistance
+funds to Education Service Districts (ESDs) across the state; the second is partnership grants for
+community organizations.
+
+14
+
+The Every Day Matters and High School Success Programs: Supporting Regular Attendance and
+On-Time Graduation
+
+Education Service District Technical Assistance
+First, ODE believes ESDs are important partners in this initiative, with each ESD receiving
+technical assistance funds from ODE. Overall, this amounts to $3M per biennium. With these
+funds ESDs identify staff members and/or contractors who support organizational changes to
+address the deep, systemic issues at the core of chronic absenteeism. Foundational learning
+and knowledge about how to center students and families in the work to reduce chronic
+absenteeism is carried through the ESDs and woven into coaching and collaborative work
+between ESDs and school districts—further infused into teacher, leader, and staff learning at
+the school level. ODE supports the ESDs through a community of practice that started in the
+2024-25 school year.
+Primary ESD support areas include:
+• Staffing for a Student Engagement Specialist
+• Professional Learning and Communities of Practice with districts
+• Contracting with national organizations
+• Translation services
+• Student engagement tools
+ESDs are also sharing and promoting common resources and engaging in a statewide
+Community of Practice, which allows staff central to this work across the state to discuss
+challenges and potential solutions together.
+
+15
+
+The Every Day Matters and High School Success Programs: Supporting Regular Attendance and
+On-Time Graduation
+
+Community Partnership Grants
+Figure 3: Map of Oregon with Education Service Districts and Community Partner
+Grantees
+
+Green are priority areas and funded; Blue indicates that ODE received applications from these areas (not priority areas); Purple
+indicates that ODE did not receive applications in this region; yellow stars indicate the location of grantees.
+
+The second investment of a little more than $4M per biennium is toward integrated community
+partnership grants. This grant provides opportunities for community partners to offer local,
+community-rooted approaches that address the root causes of chronic absenteeism in
+partnership with schools, districts, or ESDs, and with a focus on specific focal student groups. It
+currently funds sixteen organizations across Oregon, including 4 ESDs, 9 community-based
+organizations, 2 culturally specific organizations, and a tribal government. Projects must include
+both direct services to students and/or families, as well as capacity-building strategies and
+activities.
+Many of the strategies identified in the grantee projects align with or mirror emerging and
+evidence-based strategies nationwide. As more lessons are learned about what works with
+community partners, ODE elevates these strategies as promising strategies across the state for
+schools to develop similar community partnerships. Grantees have been participating in a
+Community of Practice. This Community of Practice is offered to cultivate a larger learning and
+collaborative network across the state where local education partners can learn from and
+16
+
+The Every Day Matters and High School Success Programs: Supporting Regular Attendance and
+On-Time Graduation
+support each other, discuss successes and promising practices as well as collaboratively
+problem-solve barriers together.
+The Every Day Matters team supports and encourages the use of positive, strength-based
+intervention approaches that are designed with students and families rather than ‘for’ them.
+Some common strategies that have been utilized to address attendance include:
+•
+•
+•
+•
+
+Strengthening community partnerships
+Creating time for staff to work with data, and co-design solutions with students and
+families throughout decision making processes
+Investments in embedding SEL throughout the school day, CCL, mentorships, and
+trauma-informed practices
+Providing Mental/behavioral health and wellness support for students and staff
+
+High School Success School District Grants
+Spending supported by High School Success funds are centered on the three programmatic
+goals of the program: dropout prevention, college-level educational opportunities, and career
+and technical education (CTE).
+
+Dropout Prevention
+
+Dropout prevention strategies include providing teachers the training, resources, and time
+needed to collaborate around student data, bolstering student academic supports through
+mentors, tutors, and graduation coaches, increased opportunities for learning before, during,
+and after school, and helping students meet basic needs – clothing, food, hygiene,
+transportation, and technology and internet access.
+It is strongly recommended to support the staffing of ninth grade on-track coaches statewide.
+In 2023-24, approximately 45,000 ninth grade students attended 411 high schools in 192 school
+districts. To meet the 250:1 student to counselor ratio recommended by the American School
+Counselor Association, an additional $18 million would be needed to cover staffing, along with
+an additional $900,000 for professional development.
+
+17
+
+The Every Day Matters and High School Success Programs: Supporting Regular Attendance and
+On-Time Graduation
+
+College-Level Educational Opportunities
+
+The types of college-level educational opportunities include increasing options and pathways
+for students to receive college credit while in high school through dual credit programs,
+Advanced Placement/International Baccalaureate (AP/IB) courses, and partnerships with higher
+education institutions through programs such as Regional Promise. Schools and districts have
+also provided students with exposure to colleges and universities through visits, tours, and
+other programs such as AVID, along with hiring college and career counselors to support
+students and families navigate the admissions and financial aid process. These funds have also
+gone to support students within marginalized populations by expanding academic support and
+covering tuition and test fees connected to receiving college credit.
+
+Career Technical Education
+Spending on career technical education is required to support programs of study relevant to
+the job market in the community that the school or district serves. Since the implementation of
+High School Success, the number of CTE programs has increased by over 42%. Funds have also
+updated facilities and equipment used within existing programs to meet industry standards and
+provided professional development and licensure for staff. Again, a spending theme seen
+across the entire High School Success initiative is the removal of barriers for students. Within
+CTE, this means paying for tuition, test fees, and transportation for students, along with student
+certifications in trade areas such as health care, welding, and electrical engineering.
+
+HSS and EDM Grant Impacts
+To access funds, grantees name specific activities to be funded, along with the outcomes these
+activities are expected to influence. Grantees report on progress towards these outcomes on an
+annual basis, along with challenges faced and barriers overcome.
+Additionally, grantees with more than 80 students are required to set Longitudinal Performance
+Growth Targets for five metrics: four-year graduation rate, five-year completer rate, ninth
+grade on-track rate, regular attender rate, and the Grade 3 English Language Arts (ELA)
+
+18
+
+The Every Day Matters and High School Success Programs: Supporting Regular Attendance and
+On-Time Graduation
+proficiency rate. 5 The data from 2023-24 indicates strong progress towards meeting these
+targets.
+Most grantees met their first year of targets for most metrics. Exceptions include baseline
+targets for the Grade 3 ELA proficiency rate and gap-closing targets for the five-year completer
+rate. Additionally, a higher rate of change is seen for the combined focal student group than for
+all students in all five metrics, suggesting that the disproportionality is decreasing. The largest
+increases were seen in the regular attender rate, with 54 grantees surpassing their 2027-28
+baseline targets. Growth in these metrics will continue to be assessed, along with progress
+towards meeting each individual grantee’s outcomes, on an annual basis.
+Other impacts of the Every Day Matters and High School Success grants include increased
+access to resources to help them reduce barriers for their students, such as support to get basic
+needs met, food, clothing, housing, mental and physical health support, etc. This reduces
+disparities for our students, increasing students' well-being and increasing attendance and
+academic success. These impacts are shared during regular, ongoing dialogue between grantees
+and ODE staff.
+Another area of growth which can be attributed to High School Success spending is the increase
+in Career Technical Education programs available to students statewide. There has been a 42%
+increase in the number of CTE programs since the implementation of the High School Success
+grant, with the number of students enrolled in programs increasing by over 10%. Equity of
+enrollment has improved for current English Learners/Emerging Bilinguals, students with
+disabilities, and Native Hawaiian/Pacific Islander students, and to a lesser degree for
+Black/African American students and female students.
+
+Challenges in Implementation
+Schools, districts, and Education Service Districts have been using the High School Success and
+Every Day Matters grants for about seven years—and some challenges in both implementation
+and impact have remained. For one, school districts cannot solve shortages in staffing alone—
+attempts to find qualified educators, mental health providers, and specialists are challenging
+across the state, even more difficult in rural and remote parts of the state. Concurrent with
+staffing challenges are not enough hours in the day challenges. When an educator is juggling
+teaching, reaching out to families, deepening instructional material content, meeting with
+support teams to discuss necessary student intervention, and more, picking up the slack due to
+
+The Longitudinal Performance Growth Targets and the requirements around them were replaced in 2025 with
+the Education Accountability Act. See the Performance Growth Target website for more information:
+https://www.oregon.gov/ode/accountability/Pages/PGTResources.aspx
+
+5
+
+19
+
+The Every Day Matters and High School Success Programs: Supporting Regular Attendance and
+On-Time Graduation
+short staffing are impossible. Unfortunately, the items likely to be dropped are the educator’s
+investments in themself: professional development, wellness, and preventing burnout.
+The COVID-19 pandemic disrupted life for everyone in the educational system—and the
+impacts for students and staff on belonging, wellness, and safety continue. While the Key
+Performance Measures of regular attendance and ninth grade on-track rates have started to
+rebound, the declines were severe.
+Finally, many of the challenges that students face in attending regularly and graduating on time
+are social factors that exist outside of the classroom. Poverty, housing instability, availability of
+good wage jobs, medical services, and transportation are not systems that education alone can
+fix. While efforts to collaborate across agencies have strengthened, challenges continue.
+
+Conclusion
+The foundational principles of the initiatives to support regular attendance and high school
+success highlight the importance of culturally responsive practices and policies; building
+relationships; addressing systems that cause harm to students and educators and ensuring that
+systems are re-designed in ways that are informed by current educational research.
+Using the four common goals of the Integrated Programs as scaffolding for continuous
+improvement allows districts and schools to align to the research: Equity Advanced, Engaged
+Community, Well-Rounded Education, and Strengthened Systems and Capacity. The Every Day
+Matters and High School Success initiatives support growth and improvement for school
+districts through grants—funneling funds toward improvement in regular attendance rates,
+ninth grade on-track rates, and on-time graduation.
+Continued state funding for the Every Day Matters, High School Success, and Early Indicator and
+Intervention Systems will build on the impacts already seen. While the COVID-19 pandemic had
+detrimental effects on Key Performance Measures in the state, funds to school districts,
+Education Service Districts, and community organizations have supported the rebound that has
+been seen in regular attendance, ninth grade on-track, and on-time graduation rates.
+Expansion of funding would further support the efforts of the initiatives and, therefore, the
+efforts of local educators; expansion of CTE programs, increased college and career
+opportunities, robust systems to support mental health, increased counselors and career
+support, professional development for staff, and family liaisons are all key to improving
+education in Oregon.
+
+20
+
+The Every Day Matters and High School Success Programs: Supporting Regular Attendance and
+On-Time Graduation
+
+References
+Anna Aizer and Joseph J. Doyle, Jr., (2013). Juvenile Incarceration, Human Capital and Future
+Crime: Evidence from Randomly-Assigned Judges. National Bureau of Economic
+Research Working Paper 19102, https://doi.org/10.3386/w19102.
+Allison, M. A., Attisha, E., Lerner, M., De Pinto, C. D., Beers, N. S., Gibson, E. J., ... & WeissHarrison, A. (2019). The link between school attendance and good
+health. Pediatrics, 143(2).
+Attendance Works. (2024). Every Day Counts Summit: Working Towards a Positive New Normal.
+Retrieved from https://www.attendanceworks.org/every-day-counts-summit-workingtowards-a-positive-new-normal/
+Attendance Works. (2025). Identifying the Root Causes of Absence. Retrieved from
+https://www.attendanceworks.org/chronic-absence/addressing-chronic-absence/3tiers-of-intervention/root-causes/
+Balfanz, R. (2024). Meeting the Chronic Absenteeism Challenge: What Do We Know? Retrieved
+from https://www.gradpartnership.org/wp-content/uploads/2024/05/EGC-GP-NPSSMay-2024-Brief.pdf
+Balfanz, R., & Byrnes, V. (2012). The importance of being in school: A report on absenteeism in
+the nation's public schools. The Education Digest, 78(2), 4. Retrieved from
+https://new.every1graduates.org/wpcontent/uploads/2012/05/FINALChronicAbsenteeismReport_May16.pdf
+Balfanz, R., Jerabek, A., Payne, K. & Scala, J. (2024). Strengthening School Connectedness to
+Increase Student Success. EdResearch for Action. Retrieved from
+https://edresearchforaction.org/wp-content/uploads/55011-EdResearch-SchoolConnectedness-Brief-29-REV.pdf
+Barley, Z. A., & Beesley, A. D. (2007). Rural school success: What can we learn. Journal of
+research in rural education, 22(1), 1-16.
+Benz, M. R., Lindstrom, L., & Yovanoff, P. (2000). Improving Graduation and Employment
+Outcomes of Students with Disabilities: Predictive Factors and Student Perspectives.
+Exceptional Children, 66(4), 509-529.
+Brand, B., Valent, A., & Browning, A. (2013). How Career and Technical Education Can Help
+Students Be College and Career Ready: A Primer. College and Career Readiness and
+Success Center.
+Clavenna-Deane, B. A., & Coates, W. R. (2022). High School Experiences That Support PostSchool Success: What Can We Learn?. Career Development and Transition for
+Exceptional Individuals, 45(4), 176-186.
+21
+
+The Every Day Matters and High School Success Programs: Supporting Regular Attendance and
+On-Time Graduation
+Conley, D. T. (2014). Getting ready for college, careers, and the common core. San Francisco,
+CA: Jossey-Bass.
+Faria, A-M., Sorensen, N., Heppen, J., Bowden, J., Taylor, S., Eisner, R., Foster, S. (2017). Getting
+students on track for graduation: Impacts of the Early Warning Intervention and
+Monitoring System after one year. Regional Educational Lab Midwest. Retrieved from
+https://ies.ed.gov/use-work/resource-library/report/impact-study/getting-studentstrack-graduation-impacts-early-warning-intervention-and-monitoring-system-after-one
+Ginsberg, A., Jordan, P., & Chang, H. (2014). Absences add up: How school attendance
+influences student success. Retrieved from
+https://www.attendanceworks.org/absences-add-up/
+Lara, J., Pelika, S., & Coons, A. (2018). Chronic Absenteeism. National Education Association.
+Retrieved from https://files.eric.ed.gov/fulltext/ED595241.pdf
+Marsh, R. J., & Mathur, S. R. (2020). Mental health in schools: An overview of multitiered
+systems of support. Intervention in School and Clinic, 56(2), 67-73.
+McCallumore, K. M., & Sparapani, E. F. (2010). The Importance of the Ninth Grade on High
+School Graduation Rates and Student Success in High School. Education, 130(3).
+National Center for Education Statistics. (2020). Trends in High School Dropout and Completion
+Rates in the United States: 2019. Retrieved from
+https://nces.ed.gov/pubs2020/2020117.pdf
+National Center for Education Statistics. (2024). High School Graduation Rates. Condition of
+Education. U.S. Department of Education, Institute of Education Sciences. Retrieved
+[date], from https://nces.ed.gov/programs/coe/indicator/coi.
+Oregon Chief Education Office. (2017). Chronic Absenteeism Report. Retrieved from
+https://www.oregon.gov/ode/students-andfamily/healthsafety/Documents/ChiefEd_Chronic-Absenteeism_Report_2017.pdf
+Oregon Department of Education. (2021). Predictors of On-time High School Graduation.
+Rumberger, R. W. (2001). Why Students Drop Out of School and What Can Be Done. UCLA: The
+Civil Rights Project. Retrieved from https://escholarship.org/uc/item/58p2c3wp
+Shlafer, R., Reedy, T., & Davis, L. (2017). School-based outcomes among youth with
+incarcerated parents: differences by school setting. Journal of School Health, 87(9): 687695.
+Stephan, S. H., Sugai, G., Lever, N., & Connors, E. (2015). Strategies for integrating mental
+health into schools via a multitiered system of support. Child and Adolescent Psychiatric
+Clinics, 24(2), 211-231.
+Sum, A., Khatiwada, I., McLaughlin, J., & Palma, S. (2009). The consequences of dropping out of
+high school. Center for Labor Market Studies Publications, 23.
+22
+
+The Every Day Matters and High School Success Programs: Supporting Regular Attendance and
+On-Time Graduation
+U.S. Department of Education. (2008). Dropout Prevention. What Works Clearinghouse.
+Retrieved from https://ies.ed.gov/ncee/WWC/Docs/PracticeGuide/dp_pg_090308.pdf
+U.S. Department of Education. (2016). Issue Brief: Early Warning Systems. Retrieved from
+https://www.ed.gov/sites/ed/files/rschstat/eval/high-school/early-warning-systemsbrief.pdf
+U.S. Department of Education. (2017a). Dual Enrollment Programs. What Works Clearinghouse.
+Retrieved from
+https://ies.ed.gov/ncee/WWC/Docs/InterventionReports/wwc_dual_enrollment_02281
+7.pdf
+U.S. Department of Education. (2017b). Preventing Dropout in Secondary Schools: Practice
+Guide Summary. What Works Clearinghouse. Retrieved from
+https://ies.ed.gov/ncee/WWC/Docs/PracticeGuide/wwc_dp_summary_101717.pdf
+U.S. Department of Education. (2017). Issue Brief: High School Transition Activities. Retrieved
+from https://www.ed.gov/sites/ed/files/rschstat/eval/high-school/high-schooltransition-activities.pdf
+U.S. Department of Health and Human Services, High School Graduation.
+https://odphp.health.gov/healthypeople/priority-areas/social-determinantshealth/literature-summaries/high-school-graduation
+Venezia, A., & Jaeger, L. (2013). Transitions from high school to college. The future of children,
+117-136.
+Wolf Harlow, C. (2003). Education and Correctional Populations. Bureau of Justice Statistics.
+Retrieved from https://bjs.ojp.gov/content/pub/pdf/ecp.pdf
+
+23
+
+

@@ -3,6 +3,7 @@
 | Date | Event | Source |
 |---|---|---|
 | 2024-12-02 | Kotek releases 2025-27 recommended budget ("Building on Progress"), SSF $11.36B | [SRC:gov/press/2024-12-02_releases-2025-27-budget.html] [NEWS:NEWS-20241203-osba-1] |
+| 2025-01 | American Institutes for Research submits its evaluation of the QEM and its cost-of-adequacy study to the Legislative Policy and Research Office | [SRC:legislature/lpro/2025-01_air_qem-evaluation.pdf p.1] [SRC:legislature/lpro/2025-01_air_cost-of-adequacy.pdf p.1] |
 | 2025-05-28 | Ways & Means Education Subcommittee advances the $11.4B 2025-27 SSF (SB 5516) | [SRC:legislature/press/2025-05-28_record-k12-funding.pdf p.1] |
 | 2025-11-19 | JPEA sufficiency report: 2025-27 funding "effectively closes the funding gap" | [SRC:legislature/olis/2025I1/310695_jpea.pdf p.4] |
 | 2026-03-01 | Ways & Means co-chairs release the 2025-27 budget rebalance | [SRC:legislature/press/2026-03-01_jwm-rebalance.pdf p.1] |

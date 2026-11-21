@@ -1,0 +1,3595 @@
+Understanding the Cost of Providing
+Adequate Educational Opportunity in
+Oregon
+Submitted to:
+Oliver Droppers | Deputy Director for Policy Research
+Legislative Policy and Research Office
+Oregon State Capitol
+900 Court St NE Rm. 453
+Salem, OR 9730
+(503) 986-1520
+Submitted by:
+Christopher D. Brooks | Researcher
+Jesse Levin | Principal Research Economist
+Brad Salvato | Research Assistant
+American Institutes for Research
+Bruce D. Baker | Professor
+University of Miami
+January 2025
+
+Contents
+
+Introduction .................................................................................................................................... 1
+Description of Data ..................................................................................................................... 2
+1.
+
+Student Needs and Outcomes in Oregon ............................................................................... 4
+Outcome Factor Score ................................................................................................................ 4
+Outcome Factor Score and Student Needs ................................................................................ 9
+Summary of the Risk/Needs Analysis of Oregon Public Schools .............................................. 14
+
+2.
+
+Variations in the Existing Levels of Current Spending in Oregon ......................................... 16
+Spending and Student Need ..................................................................................................... 16
+Spending, Wealth, and Income ................................................................................................. 20
+Summary of the Spending Analysis of Oregon Public Schools ................................................. 22
+
+3.
+
+Estimating Costs and Cost Variation to Achieve Common Outcomes in Oregon ................. 23
+Estimating the Cost Model ....................................................................................................... 24
+Comparing Oregon and National/Regional Cost Models ......................................................... 28
+
+4.
+
+Estimating the Weights Model ............................................................................................. 29
+Calculating Effective Weights and Applying the Weights Model Results ................................. 30
+
+5.
+
+Supplementary Analyses....................................................................................................... 34
+The Role of Capital Funding ...................................................................................................... 34
+Comparing Cost Model Estimates to Actual Funding and the QEM ......................................... 36
+
+6.
+
+Conclusion ............................................................................................................................. 41
+
+References .................................................................................................................................... 45
+Appendix A. Detailed Road Map to the Analyses ......................................................................... 48
+Appendix B. Explaining the Economic Disadvantage Index .......................................................... 55
+
+ii | AIR.ORG
+
+Understanding the Cost of Providing Adequate Educational Opportunity in Oregon
+
+Exhibits
+Exhibit 1. Measurement Model Used to Generate the Outcome Factor Score ............................. 6
+Exhibit 2. Correlations Between Components of the Outcome Factor Score ................................ 6
+Exhibit 3. Distribution of Outcome Factor Score (Bars) and Outcome Targets (Dashed
+Lines), School Years 2014–15 to 2022–23 ...................................................................................... 8
+Exhibit 4. Average School-Level Outcomes by Outcome Target Level, School Year 2022–
+23 .................................................................................................................................................... 8
+Exhibit 5. Correlations Between the Outcome Factor Score and Student Needs
+Characteristics, 2022–23 School Year ........................................................................................... 10
+Exhibit 6. Scatter Plots of Reported Economic Disadvantage Versus Outcome Factor
+Score, School Year 2022–23.......................................................................................................... 11
+Exhibit 7. Scatter Plots of Economic Disadvantage Index Versus Outcome Factor Score,
+School Year 2022–23..................................................................................................................... 12
+Exhibit 8. Regression of the Outcome Factor Score on Student Need Measures ........................ 13
+Exhibit 9. Regression of the Outcome Factor Score on Student Needs and School and
+District Contexts ............................................................................................................................ 15
+Exhibit 10. Correlations Between Student Needs and School Spending Per Pupil, School
+Year 2022–23 ................................................................................................................................ 16
+Exhibit 11. Total Expenditures Per Pupil by Reported Economic Disadvantage and EDI,
+School Year 2022–23..................................................................................................................... 17
+Exhibit 12. Expenditures from State and Local Sources per Pupil by Reported Economic
+Disadvantage and EDI, School Year 2022–23 ............................................................................... 17
+Exhibit 13. Regression of Spending as a Function of Student School and District Factors .......... 19
+Exhibit 14. Correlations Between Economic Context Factors and Spending, School Year
+2022–23 ........................................................................................................................................ 21
+Exhibit 15. Regressions of School Spending on Measures of District Wealth and Income .......... 21
+Exhibit 16. Regressions of Expenditures from State and Local Sources Per-Pupil on
+Measures of District Wealth and Income ..................................................................................... 22
+Exhibit 17. Cost Function Model Estimates .................................................................................. 25
+Exhibit 18. Funding Gaps by Outcome Gaps for Statewide Average and Statewide
+Average +1 Standard Deviation Target Outcome Standards, School Year 2022–23 .................... 26
+
+iii | AIR.ORG
+
+Understanding the Cost of Providing Adequate Educational Opportunity in Oregon
+
+Exhibit 19. Actual Spending and Projected Adequate Costs and School-Level Economic
+Disadvantage Index Values, School Year 2022–23 ....................................................................... 27
+Exhibit 20. Relationship Between National Cost Model Estimates and Oregon Model
+Estimates ....................................................................................................................................... 28
+Exhibit 21. Regression Model Estimates of Raw Pupil Cost Weights and Base Funding .............. 30
+Exhibit 22. Summary Statistics for District Characteristics in Weights Model, School Year
+2022–23 ........................................................................................................................................ 31
+Exhibit 23. Application of Weights for +1 Standard Deviation Outcomes to a Hypothetical
+District ........................................................................................................................................... 33
+Exhibit 24. Cost Model Estimates including Capital Spending ...................................................... 35
+Exhibit 25. Regression Model Estimates of Raw Pupil Cost Weights and Base Funding
+Using Cost Model Estimates That Include Capital Spending ........................................................ 36
+Exhibit 26. Comparison of Actual State and Local Spending Per Pupil and Adequate
+Spending Per Pupil in Oregon, School Year 2022–23 ................................................................... 37
+Exhibit 27. Comparing Actual State and Local Spending Per-Pupil and Adequate Spending
+Estimates Per-Pupil Across EDI Quintiles, School Year 2022–23 .................................................. 38
+Exhibit 28. Comparing Actual State and Local Spending Per-Pupil and Adequate Spending
+Estimates Per-Pupil Across District Size Categories, School Year 2022–23 .................................. 40
+Exhibit 29. Comparison of Additional Funding Required to Meet Statewide Adequacy
+Standards Estimated by the AIR Cost Model and QEM, School Year 2022–23 ............................ 42
+Exhibit A.1. Conceptual Model for Step 1a. Risk (Needs) Analysis ............................................... 50
+Exhibit A.2. Conceptual Model for Step 1b. Spending Analysis .................................................... 51
+Exhibit A.3. Conceptual Model for Step 2a. Cost Modeling ......................................................... 53
+Exhibit A.4. Conceptual Model for Step 2b. Translation to Formula ............................................ 54
+Exhibit B.1. Distribution of School-Level Economic Disadvantage Rates, School Years
+2014–15 to 2022–23 ..................................................................................................................... 56
+Exhibit B.2. Distribution of School-Level Income-to-Poverty Ratio, School Years 2014–15
+to 2022–23 .................................................................................................................................... 57
+Exhibit B.3. Regression Models of Economic Disadvantage ......................................................... 58
+Exhibit B.4. Economic Disadvantage Index (Model 2) .................................................................. 59
+
+iv | AIR.ORG
+
+Understanding the Cost of Providing Adequate Educational Opportunity in Oregon
+
+Introduction
+In this report, we employ a cost function analysis to estimate the cost of an adequate education
+for all students in Oregon. A key driver in this analysis is the concept of educational adequacy,
+which is used to frame the determination of the funding necessary to deliver an adequate
+education. For this report, we define an adequate education as one that provides an equal
+opportunity for a student to achieve a set of desired outcomes. Adequate funding is the level of
+funding necessary to give all students an equal opportunity to achieve this target set of
+outcomes, regardless of their specific needs or the characteristics of the school they attend,
+both of which may affect the cost of reaching the target outcomes. Using this framing, our
+analysis determines cost differentials of providing an adequate education associated with
+various student needs and the differences in the contexts in which they learn. Supporting the
+provision of an adequate education necessarily requires that funding be differentiated across
+school districts to address the varying costs associated with the specific levels of student needs
+being served and other contextual characteristics of schools and districts that influence the cost
+of producing student outcomes.
+Our analysis leverages administrative records on Oregon’s public school system from the 2014–
+15 to 2022–23 school years to answer four primary research questions:
+1. What student, school, and district characteristics are most strongly correlated with
+student outcomes?
+2. What is the association between educational revenues and student, school, and district
+characteristics, including measures of student need and local wealth and income?
+3. What are the predicted costs of providing all Oregon public K-12 schools an equal
+opportunity to realize current statewide average academic outcomes and a higher
+outcome target that better represents adequate performance levels?
+4. How could a funding formula be designed to appropriately distribute an adequate
+funding level to each school district in Oregon according to the level of student needs
+they face and other contextual factors?
+To answer these questions, we employed a four-stage analysis. In the first stage, we identify
+measures of educational need, such as percentages of student who are English learners (EL),
+with a disability (SWD), or are economically disadvantaged, as well as other school and district
+characteristics that are associated with educational outcomes. In the second stage, we examine
+the associations between school funding and spending and student needs and school and
+
+1 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+district characteristics in Oregon’s K-12 public schools to determine the extent to which funding
+and spending is equitably distributed across districts. In the third stage, we use these findings to
+predict the costs associated with providing an education that is adequate, meaning that all
+schools have the ability to achieve the specified target outcome levels. Finally, our fourth stage
+develops a funding formula, using a multiplicative student enrollment-based weights model, for
+distributing an adequate level of funding for each school district in Oregon to meet the target
+outcome levels.1 Following these main analyses we offer two supplemental analyses of: (a)
+adequate cost of capital expenditures and (b) a comparison of the cost estimates produced
+from our cost model to both current expenditure levels in Oregon and the estimated adequate
+costs produced by the Quality Education Model (QEM). We then conclude by summarizing and
+discussing the findings.
+
+Description of Data
+Administrative data provided directly by the Oregon Department of Education (ODE) or
+gathered from the ODE website were essential to the analyses in this report. These data were
+supplemented by several other data sources maintained by the National Center for Education
+Statistics (NCES), U.S. Census Bureau, and the School Finance Indicators Database. The
+administrative data used for this study, described in the following paragraphs and referenced
+throughout this report, include expenditures, enrollments, student outcomes, school
+characteristics, and geographic contextual information. The enrollment and outcome data are for
+school years 2014–15 through 2021–22. The fiscal data containing education expenditures are
+from the school years 2017–18 through 2021–22.
+
+Enrollments, School Characteristics, Student Outcomes, and Geographic Context
+The enrollment data used in this report were provided by the ODE. Individual data files
+reported school-level enrollments, which in some analyses are aggregated to the district level
+each year. School-level enrollments are also disaggregated by student characteristics including
+students with disabilities (SWD), ELs, economically disadvantaged students, and by grade level.
+Using these disaggregated enrollments, we calculated the percentages of students in each
+school within each of these student groups and by grade. In district-level analysis, we calculate
+percentages by totaling school-level counts to the district level in each year and dividing by
+total district enrollment.
+Different types of student disabilities have different levels of cost for schools and districts on
+average. To account for this, we constructed three types of cost-based SWD counts and
+
+1 See Appendix A for a more detailed conceptual overview of these analyses and how they contribute to estimating the cost of
+
+an adequate education.
+
+2 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+percentages (Low, Middle, and High) based on disability groupings suggested in analyses
+included in the Special Education Expenditure Project (Chambers et al., 2003). Low-cost
+disabilities include (a) specific learning disability and (b) speech or language impairment.
+Middle-cost disabilities include (a) developmental delay, (b) emotional disturbance, (c)
+intellectual disability, or (d) other health impairment. High-cost disabilities include (a) autism
+spectrum disorder, (b) deaf–blindness, (c) hearing impairment, (d) multiple disabilities, (e)
+orthopedic impairment, (f) traumatic brain injury, and (g) visual impairment.
+Our measures of student outcomes include school-aggregated student test scores, chronic
+absenteeism rates, and four-year graduation rates, all provided by the ODE. Test scores are for
+math and English Language Arts (ELA) end-of-grade testing in grades 3 through 8 and grade 11.
+Chronic absenteeism rates are defined as the share of a school that missed 10% or more of the
+total school days in the school year. Four-year graduation rates are the percentage of students
+who earned a regular or modified diploma within four years of entering 9th grade.
+We used several other publicly available data sources to gather for describing schools’
+geographic contexts and student needs. In some analyses, we use the National Center for
+Education Statistics (NCES) Income to Poverty Ratio from the Neighborhood Poverty Index
+database, which measures average family income in school neighborhoods relative to the
+federal poverty thresholds for various family sizes and structures (NCES (n.d. -b). We also
+collect from NCES district-level data describing geographic differences in the price levels of
+educational staff called the Comparable Wage Index for Teachers (CWIFT) (NCES, n.d. -a). We
+also gathered data from the U.S. Census Bureau (2021), including estimates of children 5 to 17
+in families below the poverty income threshold in Oregon school districts and zip-code-level
+reports of population density per square mile.
+
+Fiscal Data
+Fiscal data used in this report were provided by ODE. The fiscal data contained expenditures for
+each district and school, organized by the state’s chart of accounts. Using these data, we
+calculated school-level spending per pupil for each school in the state, which consisted of the
+following steps:
+1. We removed non-current expenditures, which includes capital expenditures, debt service,
+and internal services funds to ensure expenditures reflected the current resources spent on
+educating students and to avoid double counting.
+2. We isolated expenses that were directly attributed to specific school sites within the data
+and calculated the total amount of spending attributed to each individual school.
+3. We calculated the total amount of spending not assigned to individual schools for each
+district.
+
+3 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+4. We assigned district-level spending (overhead) to individual schools proportional to each
+school’s share of district total enrollment.
+5. We calculated the amount of direct expenditures by Education Service Districts (ESDs) on
+each school district (excluding transfers from ESDs to districts to avoid double counting),
+disaggregated by spending on general education and spending on special education.
+6. We assigned ESD spending on districts to individual schools proportional to each school’s
+share of district total enrollment for ESD spending on general education and proportional to
+each school’s share of total SWD enrollment ESD spending on special education.
+7. We divided the total spending, including district overhead and ESD expenditures, by schoollevel enrollment totals to calculate expenditures per student for each school.
+Information on the funding source included in the expenditure data allows us to further
+distinguish spending per pupil supported by federal versus state and local revenue sources.
+
+Schools Excluded from the Analysis
+For most of the analyses presented in this report, we excluded schools that, according to our
+measures of spending, had total expenditures that were less than $5,000 per pupil or more
+than $50,000 per pupil. Examining the small number of schools omitted by this decision
+indicated that these schools likely had abnormal spending patterns or underlying data issues
+that did not make them appropriate for our analytic sample. However, any schools with
+reported demographic and district context information are included in our estimates of our
+weights model and projections of total district-level cost in the fourth stage of our analyses, as
+well as in the supplemental analyses on total statewide adequate education costs.
+
+1. Student Needs and Outcomes in Oregon
+In this section, we report on a risk/needs analysis of Oregon public schools. We have
+constructed a panel of data containing 1,154 to 1,172 schools per year from the 2014–15 to
+2022–23 school years. We begin with a discussion of the construction of our student outcome
+factor score for Oregon schools. Next, we explore what measures of student needs and
+characteristics are associated with the outcome factor score. Finally, we investigate other
+school- and district-level characteristics associated with the outcome factor score.
+
+Outcome Factor Score
+To characterize the outcomes of schools across the various outcomes, we constructed an
+aggregate outcome score meant to describe overall school performance. The intent behind
+combining multiple outcome measures into a single score is to create a more robust indicator
+of school performance that reflects a broader set of educational goals than any single outcome
+
+4 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+measure. To construct the outcome score, we conducted confirmatory factor analysis using a
+measurement model that treats the overall outcome measure as a latent (i.e., unobserved)
+variable and estimates the latent variable to best fit the data. Rather than make an arbitrary
+decision to weight each outcome equally or choose another arbitrary weighting scheme, the
+model uses the existing variation in outcomes across each measure to identify the relative
+importance of each measure to the unobserved aggregate outcome score. Another advantage
+of this approach is that the statistical program used to construct the factor score can
+appropriately generate a factor score even when individual measures are missing for some
+schools. For example, only schools serving Grade 12 students have a graduation rate reported
+and our outcome factor score can accommodate schools that do not have this measure.
+Exhibit 1 shows the model used to generate the factor scores along with the standardized
+factor loadings for each outcome measure included. Our factor score includes the following
+measures, as reported by the Oregon Department of Education:
+•
+
+School-level math and reading scores from end-of-grade standardized tests in grades 3-8
+and in grade 11.
+
+•
+
+School-level chronic absenteeism rates, defined as the share of students that are absent for
+more than 10% of total school days each year.
+
+•
+
+School-level graduation rates, defined as the percentage of students who earned a regular
+or modified diploma within four years of entering the ninth grade.
+
+The numbers included in the outcome factor model represent standardized coefficients and
+describe the change in each individual outcome resulting from a one standard deviation
+increase in the outcome factor score.
+As shown in Exhibit 1, math and ELA assessment scores generate the strongest factor loadings
+with magnitudes of 0.66 and 0.61 respectively. Chronic absenteeism rates are the next
+strongest factor loading, at -0.54, with a negative sign indicating that higher chronic
+absenteeism rates correlate with worse school outcomes. Lastly, four-year graduation rates
+have a factor loading of 0.39. Once constructed, the outcome factor score has a mean of zero
+and a standard deviation of one.
+To demonstrate that the outcome factor score is working as intended, we show the correlation
+between the outcome factor score and several student outcomes in Exhibit 2. The outcome
+factor score is moderately to strongly correlated to each of the outcomes included in the
+correlation table. By contrast, not all outcomes included are strongly correlated with each
+other. For example, the correlation between graduation rates and standardized test scores in
+
+5 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+ELA and math are only 0.203 and 0.240, respectively. This indicates that the outcome factor
+score is a better representation of the collection of outcomes included than any individual
+outcome measure.
+Exhibit 3 provides the distribution of the outcome factor score across Oregon schools (weighted
+by enrollment) in 2022–23. The outcome factor is a standardized value, with a mean of 0 and a
+standard deviation of 1. Cost predictions later in this report will be set to the cost of achieving
+current average outcomes (0) and one standard deviation above current average outcomes
+(+1).
+Exhibit 1. Measurement Model Used to Generate the Outcome Factor Score
+
+Note. The model is weighted by enrollment. The model also allowed for the error terms between math z scores
+and reading z scores to be correlated. 4-year graduation rates were transformed using a logit transformation. All
+variables were then standardized as z scores prior to inclusion in the model. All factor loadings are statistically
+significant (p < .001).
+Source. Calculations based on data from the ODE.
+
+Exhibit 2. Correlations Between Components of the Outcome Factor Score
+Outcome
+factor score
+
+ELA Z score
+
+Math Z score
+
+Chronic
+absenteeism
+
+Outcome factor score
+
+1.000
+
+ELA Z score
+
+0.663
+
+1.000
+
+Math Z score
+
+0.744
+
+0.674
+
+1.000
+
+Chronic absenteeism
+
+-0.733
+
+-0.261
+
+-0.307
+
+1.000
+
+Graduation rate
+
+0.608
+
+0.203
+
+0.240
+
+-0.488
+
+4-year
+graduation
+rate
+
+1.000
+
+Source. The ODE.
+
+6 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Exhibit 4 describes outcomes for schools with outcome factor scores +/- 0.25 from both
+outcome targets used in our cost function analysis for the 2022–23 school year. The bottom of
+each column reports the number of schools with an outcome factor score within the score band
+for this school year. Because not all outcome measures apply or are available for all schools, the
+“count” column reports the number of schools with available outcome data for each measure.
+Exhibit 4 shows that schools with an outcome factor score between –0.25 and 0.25 have
+average standardized ELA and math test scores slightly below the statewide average, a chronic
+absenteeism rate of 36.0%, and a graduation rate of 84.6%. Schools with outcome factor scores
+between 0.75 and 1.25 have average standardized test scores in ELA and math approximately
+one standard deviation above the statewide mean, a chronic absenteeism rate of 26.7%, and a
+graduation rate of 89.36%.2 These numbers suggest that the outcome factor score is an
+effective measure of performance, as all outcome variables improve among higher-performing
+schools near our target of one standard deviation above mean outcomes.
+To contextualize the numbers in Exhibit 4 with real-world targets, Oregon’s approved
+consolidated state plan under the federal Every Student Succeeds Act (ESSA) set long-term
+outcome targets of 80% proficiency rates in ELA and math and a 90% graduation rate by the
+2026-27 school year (ODE, 2023). Schools with outcome factor scores near either of our
+outcome targets were not meeting the long-term goals in the 2022-23 school year. However,
+the higher-performing schools, with outcome factor scores near one, were notably closer to
+these long-term goals, being approximately halfway between the outcomes of schools with
+average outcome factor scores and the long-term outcome targets. Schools with outcome
+factor scores near 0 also fall well below the target graduation rate of 90%. However, schools
+with outcome factor scores near 1 have an average graduation rate of 89.36%, much closer to
+the statewide long-term goal. Finally, while the ESSA plan does not set targets for chronic
+absenteeism, the national average chronic absenteeism rate was 28% in the 2022–23 school
+year. Oregon schools with outcome factor scores between 0.75 and 1.25 were slightly below
+this rate at 26.7%, while schools with average outcome factors scores were well above this rate
+at 36.0% (ED, 2025). These data suggest that defining adequacy as one standard deviation
+above the mean outcome factor score is an appropriate outcome target. This implies targets for
+
+2 Notably, the average graduation rates in both bands tend to be higher than the statewide average in recent years of
+
+approximately 80%. This likely reflects the fact that graduation rates were the outcome measure least correlated with the
+outcome factor score.
+
+7 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Exhibit 3. Distribution of Outcome Factor Score (Bars) and Outcome Targets (Dashed Lines),
+School Years 2014–15 to 2022–23
+
+Note. Outcome factor scores are calculated at the school-level using a measurement model based on standardized
+measures of end-of-grade math and reading test scores, chronic absenteeism rates, and graduation rates. The
+dashed vertical lines at 0 and 1 represent the outcome goals in our cost analysis.
+Source. The ODE.
+
+Exhibit 4. Average School-Level Outcomes by Outcome Target Level, School Year 2022–23
+Outcome measure
+
+Average performing schools
+(Outcome factor score = -0.25 to 0.25)
+
+Higher performing schools
+(Outcome factor score = 0.75 to 1.25)
+
+Mean
+
+Count
+
+Mean
+
+Count
+
+ELA test score (std.)
+
+0.091
+
+272
+
+1.062
+
+104
+
+Math test score (std.)
+
+-0.042
+
+272
+
+1.105
+
+104
+
+ELA proficiency rates
+
+42.4%
+
+268
+
+60.2%
+
+103
+
+Math proficiency rates
+
+32.0%
+
+268
+
+55.6%
+
+103
+
+Chronic absenteeism rate
+
+36.0%
+
+275
+
+26.7%
+
+105
+
+Graduation rate
+
+84.6%
+
+75
+
+89.4%
+
+27
+
+Number of observations
+
+275
+
+105
+
+Note. Math and ELA scores are standardized (mean=0; standard deviation=1) with reported averages representing
+standard deviations from the mean. Counts represent the numbers of school observations in the 2022–23 school
+year.
+Source. The ODE.
+
+8 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+chronic absenteeism rates that are just below the national average, as well as graduation rates
+that are slightly less than the long-term target listed in Oregon’s ESSA plan and standardized
+ELA and math proficiency rates that are closer to the long-term ESSA targets.
+While we estimate costs for both outcome targets, our preferred target, and focus of our
+recommendation in this report, is raising all student outcomes to one standard deviation above
+the statewide average outcome factor score.
+
+Outcome Factor Score and Student Needs
+Exhibit 5 below shows the correlations between each of our need factors and the outcome
+factor score across schools in the 2022–23 school year. Table entries with “(school)” in the label
+are measures available at the school level, while those with “(district)” are available only at the
+district level.
+The table includes five different measures of economic disadvantage. First, we use the share of
+children reported as economically disadvantaged in the data provided by the ODE. Second, we
+use neighborhood income-to-poverty ratios from NCES (n.d. -b). Third, we use district-level
+estimates of children aged 5 to 17 in families below the poverty income threshold from the U.S.
+Census Bureau. Our fourth and fifth measures are constructed by fitting models to predict the
+school-level percentage of economic disadvantage with combinations of other measures. The
+first predicted measure is an economic disadvantage index (EDI) based on a model that
+includes: (a) the income to poverty ratio, (b) the census poverty rate, and (c) the comparable
+wage index for teachers (CWIFT), from NCES (n.d. -a).3 Our second predicted EDI adds the share
+of school enrollment that is Hispanic and the share of school enrollment that is Black, each of
+which is individually negatively correlated with the outcome factor score.4
+We also report the correlations between the outcome factor score and the share of school
+enrollment that has one or more disability, further broken out by the share of students with
+low-, middle-, or high-cost disabilities, and the shares of school enrollment that are EL, Black,
+and Hispanic.
+Among all two-way correlations with the outcome factor score reported in Exhibit 5, the
+strongest negative correlation is with our second predicted EDI, which embeds racial
+
+3 We include the CWIFT because it captures differences in wages across regions within the state that may reflect differences in
+
+the quality of living attainable at a given wage. Our own earlier work showed the importance of using regional wage
+adjustments for setting poverty income thresholds. Including this measure in our model provides an indirect correction to the
+income/poverty thresholds used in other measures in the model. See Baker, B. D., et al. (2013).
+4 See Appendix B for a detailed summary of how the two EDI measures were constructed.
+
+9 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+composition differences. All other correlations are in the expected direction and generally of a
+relevant and important magnitude. Note that the income-to-poverty index runs in the opposite
+direction of other measures, with higher values indicating higher local incomes relative to the
+poverty income threshold. Hence, the positive coefficient indicates that schools in higher
+income-to-poverty ratio neighborhoods tend to have higher outcome factor scores.
+Exhibit 5. Correlations Between the Outcome Factor Score and Student Needs Characteristics,
+2022–23 School Year
+Source
+
+Outcome
+factor score
+
+% Economic disadvantage (school)
+
+ODE
+
+-0.516
+
+Income-to-poverty ratio (school)
+
+NCES (EDGE)
+
+0.508
+
+Census child poverty (district)
+
+Census (SAIPE)
+
+-0.288
+
+Predicted EDI (school)
+
+Constructed
+
+-0.477
+
+Predicted EDI (school) [includes race]
+
+Constructed
+
+-0.614
+
+% SWD (school)
+
+ODE
+
+-0.416
+
+Low cost
+
+Constructed
+
+-0.279
+
+Middle cost
+
+Constructed
+
+-0.381
+
+High cost
+
+Constructed
+
+-0.167
+
+% EL (school)
+
+ODE
+
+-0.469
+
+% Hispanic (school)
+
+ODE
+
+-0.488
+
+% Black (school)
+
+ODE
+
+-0.175
+
+Need factor
+
+Note. Labels (district) and (school) represent the level at which the variable is reported in our data. Correlations
+are weighted by total enrollment in each school.
+Source. The ODE; NCES, n.d.-b; U.S. Census Bureau, 2021.
+
+Exhibits 6 and 7 reveal the value of using our EDI compared to the directly collected economic
+disadvantage shares. Exhibit 6 plots the economic disadvantage shares for all schools, and
+schools by grade level, against the outcome factor score. In each case, we can see the negative
+relationship between outcome factor score and economic disadvantage shares. However, the
+data on economic disadvantage illustrate stark discontinuities across the scatter plots. There is
+a clear trend from 0% to approximately 60% economic disadvantage and then very few schools
+with reported economic disadvantage rates from 60% to 99%, with a substantial cluster of
+schools at 100%. This is likely due to the Community Eligibility Provision in the federal Child
+Nutrition Program, which allows schools with high incidence of economic disadvantage to
+certify all enrolled students as eligible for free- or reduced-price lunches, even if every student
+is not actually economically disadvantaged. This means that the economic disadvantage rates
+reported by the ODE may not actually be accurate proxies for the actual economic needs of
+students within each school.
+
+10 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Exhibit 6. Scatter Plots of Reported Economic Disadvantage Versus Outcome Factor Score,
+School Year 2022–23
+
+Note. Plotted points are weighted by student enrollment so that larger circles indicate greater total enrollment in
+each school.
+Source. Calculations based on data from the ODE.
+
+Exhibit 7 recreates the plots in Exhibit 6 but maps our second EDI measure (i.e., that takes into
+account race), rather than the ODE-reported rates of economic disadvantage, on the horizontal
+axis.5 As noted previously, the EDI uses alternative variables to predict economic disadvantage
+in each school. These variables do not have the same pattern of clustering at 100% as ODEreported economic disadvantage.6 Therefore, we observe that the distribution of economic
+disadvantage no longer exhibits clustering at 100%. This suggests that some of the schools
+clustered at 100% economic disadvantage in Exhibit 6 have their true values that lie between
+the gap between 60% and 100%. When taken together, the exhibits indicate that the stronger
+correlation between the EDI and the outcome factor score, relative to ODE-reported economic
+disadvantage and the outcome factor score reported in Exhibit 6, is due in part to ODE-reported
+economic disadvantage rates having substantial clustering at 100%. These exhibits also suggest
+that the EDI is a more accurate measure of economic need in each school.
+
+5 See Appendix B for a more detailed overview of the construction of the EDI.
+6 Also, note that the EDI is not scaled to a percentage bounded by 0 and 100, but rather to the relative need of a school, and in
+
+instances of the greatest economic need, can produce estimates that are above 100.
+
+11 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Exhibit 7. Scatter Plots of Economic Disadvantage Index Versus Outcome Factor Score, School
+Year 2022–23
+
+Note. Plotted points are weighted by student enrollment so that larger circles indicate greater total enrollment in
+each school.
+Source. Calculations based on data from the ODE; NCES, n.d.-b; U.S. Census Bureau, 2021.
+
+Exhibit 8 provides the first of two regression analyses of the relationship between our student
+need factors and the outcome factor score. Model 1 uses a set of student need characteristics
+that includes ODE-reported economic disadvantage rates. Model 2 uses the same set of
+characteristics but substitutes ODE-reported economic disadvantage rates for our preferred
+second EDI measure that takes into account race. The first takeaway from Exhibit 8 is that the
+amount of variation in the outcome factor score explained (R2) by Model 2 (0.467) is higher
+than Model 1 (0.394) so that the former is our preferred model.
+Exhibit 8 highlights several other notable associations between student needs and the outcome
+factor score. The shares of school enrollment that are with low or middle cost disabilities or are
+EL are negatively associated with the outcome factor score in both models. For example, in
+Model 2, a school that has 100% EL enrollment is expected to have an outcome factor score
+that is 0.657 standard deviations lower than a school with 0% EL enrollment.
+
+12 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Exhibit 8. Regression of the Outcome Factor Score on Student Need Measures
+Model 1
+DV = Outcome factor score
+% economic disadvantage
+(school)
+
+Model 2
+
+Coefficient
+
+Standard
+error
+
+-0.824***
+
+0.135
+
+EDI (school) [includes race]
+
+Coefficient
+
+Standard
+error
+
+-1.719***
+
+0.195
+
+% students with low-cost
+disabilities (school)
+
+-4.259***
+
+0.687
+
+-4.373***
+
+0.581
+
+% students with middle-cost
+disabilities (school)
+
+-7.147***
+
+0.656
+
+-6.606***
+
+0.640
+
+% students with high-cost
+disabilities (school)
+
+-0.334
+
+0.956
+
+-0.728
+
+1.048
+
+-1.399***
+
+0.258
+
+-0.657***
+
+0.219
+
+Time
+
+-0.001
+
+0.008
+
+0.012*
+
+0.006
+
+Constant
+
+1.315***
+
+0.148
+
+1.829***
+
+0.154
+
+% EL (school)
+
+Number of observations
+2
+
+R
+
+10,218
+
+10,149
+
+0.394
+
+0.467
+
+Note. *** p<.01. Estimates are weighted by total school enrollment. Reported standard errors are robust,
+clustered at the district level. All percentage variables range from 0-1. Labels (district) and (school) represent the
+level at which the variable is reported in our data.
+Source. The ODE; NCES, n.d.-b; U.S. Census Bureau, 2021.
+
+The second set of regressions presented in Exhibit 9 adds a series of district contextual factors
+and again estimates models that include ODE reported economic disadvantage rates (Model 1)
+and that replaces this with the second EDI measure we generated (Model 2). Model 2 using EDI
+instead of reported economic disadvantage rates again predicts a larger share of variation in
+the outcome factor score than does the Model 1 which is based on reported economic
+disadvantage (R2Model 2 = 0.489 versus R2Model 1 = 0.429). The student needs coefficients are
+generally in the same direction and of a similar magnitude as in Exhibit 8. In terms of school and
+district characteristics, children in school districts with enrollments between 301 and 2000 tend
+to perform less well, relative to children in districts with enrollment of more than 2,000. For
+example, according to Model 2, a district with an enrollment between 301 and 600 students is
+expected to have an outcome factor score that is 0.210 standard deviations lower than a
+district with more than 2,000 students, holding all else in the model constant. Further, in Model
+2, children in the most sparsely populated districts tend to perform better than children in
+districts with a density of more than 100 people per square mile. Often we find that due to the
+composition of our outcome factor score, schools at different grade ranges show systematically
+
+13 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+different scores. This appears to be the case in Oregon as well, as in Model 2, the share of
+students in grades 9-12 is positively associated with the outcome factor score.
+
+Summary of the Risk/Needs Analysis of Oregon Public Schools
+The major takeaways of this first analysis are as follows:
+•
+
+The EDI measure that accounts for race performs better than alternatives when predicting
+the outcome factor index score.
+
+•
+
+The EDI measure that accounts for race has a statistically significant negative relationship
+with the outcome factor score when controlling for a host of other factor associated with
+student need and district context.
+
+•
+
+Above and beyond the EDI, other measures such as shares of children with disabilities and
+shares who are EL also exhibit negative relationships with the outcome factor score.
+
+•
+
+Select district size categories and population density categories, as well as grade range,
+show significant differences in average outcomes.
+
+These findings guide our variable selections in the analyses that follow, most notably when it
+comes to cost modeling.
+
+14 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Exhibit 9. Regression of the Outcome Factor Score on Student Needs and School and District
+Contexts
+DV = Outcome factor score
+Student factors (school)
+% economic disadvantage
+EDI
+% students with low-cost disabilities
+% students with middle-cost
+disabilities
+% students with high-cost disabilities
+% EL
+School factors (school)
+Enrollment size
+Under 100
+101 to 300
+>300
+Grade distribution
+% in grades 9 to 12
+% in grades 6 to 8
+% in Grades K–5
+District and location factors (district)
+Enrollment size
+Under 100
+101 to 300
+301 to 600
+601 to 1,200
+1,201 to 2,000
+>2,000
+Population density
+Under 10 per square mile
+11 to 50 per square mile
+51 to 100 per square mile
+>100 per square mile
+CWIFT centered on Oregon minimum
+Time
+Constant
+Number of observations
+R2
+
+Model 1
+Coefficient
+Standard error
+
+Model 2
+Coefficient
+Standard error
+
+-0.671***
+
+0.105
+
+-3.767***
+
+0.548
+
+-1.847***
+-3.534***
+
+0.158
+0.505
+
+-7.104***
+
+0.709
+
+-7.372***
+
+0.665
+
+-1.041
+-2.099***
+
+1.023
+0.269
+
+-0.195
+-0.623***
+
+1.020
+0.226
+
+-0.096
+-0.049
+(Reference)
+
+0.087
+0.040
+
+-0.120
+-0.048
+(Reference)
+
+0.086
+0.041
+
+-0.080**
+-0.129*
+(Reference)
+
+0.035
+0.072
+
+0.065*
+0.092
+(Reference)
+
+0.034
+0.066
+
+-0.121
+-0.096
+-0.159*
+-0.141**
+-0.155**
+(Reference)
+
+0.136
+0.091
+0.082
+0.066
+0.075
+
+-0.161
+-0.138
+-0.210***
+-0.169**
+-0.151**
+(Reference)
+
+0.140
+0.099
+0.081
+0.069
+0.074
+
+0.182
+-0.094
+-0.127
+(Reference)
+1.375*
+0.000
+1.192***
+10,218
+0.429
+
+0.132
+0.101
+0.087
+
+0.447***
+-0.051
+-0.153*
+(Reference)
+-0.533
+0.017***
+1.975***
+10,149
+0.489
+
+0.140
+0.095
+0.082
+
+0.797
+0.007
+0.163
+
+0.674
+0.006
+0.157
+
+Note. *p < .1. **p < .05. ***p < .01. Estimates are weighted by total school enrollment. Reported standard errors
+are robust, clustered at the district level. All percentage variables range from 0–1. Coefficients for categorical
+variables are interpretable relative to the reported (Reference) group. (District) and (School) represent the level at
+which the variable is reported in our data.
+Source. The ODE; NCES, n.d.-b; U.S. Census Bureau, 2021.
+
+15 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+2. Variations in the Existing Levels of Current Spending in Oregon
+The following section reports on our spending analysis of Oregon public schools. In this analysis
+we are interested in (1) whether school spending varies with respect to student needs
+(evidence of which signifies equitable variation) and (2) whether school spending varies with
+respect to wealth, income, and tastes of local communities (evidence of which signifies
+inequitable variation). The previous section identified the most relevant measures of student
+need, based on available data.
+
+Spending and Student Need
+We begin in Exhibit 10 by reporting the correlations between total spending (including federal
+aid) per pupil and spending from state and local sources to student population characteristics in
+the 2022–23 school year and. Again, “(school)” denotes that the data are reported at to the
+school level and “(district)” at the district level. Both sets of correlations generally indicate that
+expenditures are associated with higher concentrations of district need. However, no
+correlation is above 0.2 or below –0.2, indicating these relationships are not especially strong.
+Exhibit 10 also indicates that generally student needs measured at both the school or district
+levels are more strongly correlated with expenditures when federal funding is included, which
+aligns with the fact that federal funding is typically targeted towards higher-need populations.
+In Exhibit 11, we use scatter plots to visualize the association between total expenditures perpupil and school-level rates of reported economic disadvantage (left) and the EDI measure
+Exhibit 10. Correlations Between Student Needs and School Spending Per Pupil, School Year
+2022–23
+Source
+
+Total
+expenditures
+per pupil
+
+State and local
+expenditures
+per pupil
+
+% Economic disadvantage (school)
+
+State
+
+0.186
+
+0.114
+
+Income-to-poverty ratio (school)
+
+NCES (EDGE)
+
+-0.057
+
+0.009
+
+Census child poverty (district)
+
+Census (SAIPE)
+
+0.167
+
+0.005
+
+EDI (school) [includes race]
+
+Constructed
+
+0.137
+
+0.037
+
+State
+
+0.163
+
+0.148
+
+% students with low-cost disabilities (school)
+
+Constructed
+
+0.176
+
+0.139
+
+% students with middle-cost disabilities (school)
+
+Constructed
+
+0.093
+
+0.100
+
+% students with high-cost disabilities (school)
+
+Constructed
+
+0.024
+
+0.037
+
+State
+
+0.097
+
+0.067
+
+Student factor
+
+% students with disabilities (school)
+
+% EL (school)
+
+Note. Expenditure figures are calculated at the school level. Labels (district) and (school) represent the level at
+which the variable is reported in our data. Correlations are weighted by total enrollment in each school.
+Sources. Oregon Department of Education; NCES, n.d.-b; U.S. Census Bureau, 2021.
+
+16 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+(right). On average, both economic disadvantage measures show small positive correlations
+with total spending per pupil. Exhibit 12 shows when only expenditures from state and local
+sources are considered, the association between economic need and spending is weaker (the
+plotted points follow a slightly flatter pattern). In general, the current funding model in Oregon
+does not appear to lead to substantial differentiation in state and local expenditures per pupil
+with respect to either the ODE-reported economic disadvantage rates or the EDI measure.
+Exhibit 11. Total Expenditures Per Pupil by Reported Economic Disadvantage and EDI, School
+Year 2022–23
+
+Note. Plotted points are weighted by student enrollment so that larger circles indicate greater total enrollment in
+each school.
+Source. Calculations based on data from the ODE; NCES, n.d.-b; U.S. Census Bureau, 2021.
+
+Exhibit 12. Expenditures from State and Local Sources per Pupil by Reported Economic
+Disadvantage and EDI, School Year 2022–23
+
+Note. Plotted points are weighted by student enrollment so that larger circles indicate greater total enrollment in
+each school.
+Source. Calculations based on data from the ODE; NCES, n.d.-b; U.S. Census Bureau, 2021.
+
+17 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+In Exhibit 13, we display multivariate regressions describing the relationships between school
+and district characteristics and student need factors and total spending from local, state, and
+federal sources. Again, Model 1 uses ODE-reported economic disadvantage, whereas Model 2
+uses the preferred EDI measure that accounts for race.
+In Model 1, per-pupil spending appears to be higher in schools with higher rates of economic
+disadvantage, on average, when controlling for all other listed covariates. Likewise, in Model 2,
+the association between EDI and spending per pupil, while still positive, is slightly less strong.
+Spending is systematically higher in schools with larger shares of children with disabilities
+across all cost categories. For example, in Model 2, a district that has 100% low-cost SWD is
+expected to spend $9,851 per pupil more than a district with no low-cost SWD. Notably, there is
+no statistically significant relationship between share of EL students and total spending in either
+model.
+Spending is also expected to be higher in very small and small schools, in schools serving
+children in upper grades (9–12), and in very small districts. For example, a district with fewer
+than 100 students enrolled is expected to spend $20,286 more per pupil than a district with
+more than 2,000 students enrolled, all else equal. Spending differences by district enrollment
+size level off at 300 or more students. In states with cold weather and mountainous terrain, it
+may be reasonable to consider both the role of school size and district size in affecting costs
+that are outside of state or district control. A district, for example, may cover a large geographic
+area and may by necessity (of travel safety) run multiple small, distant schools. In such
+instances, consolidating schools to benefit from economies of scale may not be feasible. Thus,
+the costs associated with the diseconomies of scale of operating extremely small schools must
+be considered.
+Together, these analyses suggest some logical relationships between total spending and both a)
+school and district size and b) student need factors including children with disabilities and
+disadvantage as measured by the EDI. However, schools serving a higher rate of EL students do
+not have higher expenditures, on average.
+
+18 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Exhibit 13. Regression of Spending as a Function of Student School and District Factors
+Model 1
+‘
+
+Model 2
+
+Coefficient
+
+Standard
+error
+
+2,141.115***
+
+755.821
+
+Coefficient
+
+Standard
+error
+
+1,958.906**
+10,242.358**
+11,514.277***
+9,044.343***
+404.396
+
+898.020
+4,106.179
+4,368.103
+3,444.778
+1,274.876
+
+Student factors (school)
+% economic disadvantage
+EDI [includes race]
+% students with low-cost disabilities
+% students with middle-cost disabilities
+% students with high-cost disabilities
+% EL
+School factors (school)
+Enrollment size
+Under 100
+101 to 300
+>300
+Grade distribution
+% in Grades 6–8
+% in Grades 9–12
+% in Grades K–5
+District factors (district)
+Enrollment size
+Under 100
+101 to 300
+301 to 600
+601 to 1,200
+1,201 to 2,000
+>2,000
+Population density
+Under 10 per square mile
+11 to 50 per square mile
+51 to 100 per square mile
+>100
+CWIFT centered on Oregon minimum
+Time
+Constant
+Number of observations
+R2
+
+7,599.883***
+10,060.292**
+7,926.002**
+150.225
+
+2,835.920
+4,731.930
+3,143.754
+2,154.408
+
+4,559.354**
+1,539.859***
+(Reference)
+
+1,755.727
+217.145
+
+4,450.685**
+1,556.747***
+(Reference)
+
+1,787.235
+222.943
+
+-478.841***
+800.505***
+(Reference)
+
+181.701
+243.586
+
+-562.458***
+648.017***
+(Reference)
+
+170.900
+228.744
+
+21,768.307***
+5,969.457***
+843.414
+77.895
+-302.424
+(Reference)
+
+5,026.614
+1,377.461
+561.606
+405.133
+339.318
+
+21,939.683***
+5,956.689***
+858.151
+59.641
+-408.117
+(Reference)
+
+5,027.993
+1,388.588
+596.155
+412.436
+365.197
+
+174.278
+666.590
+80.502
+601.478
+-542.922
+532.424
+(Reference)
+6,251.296
+5,950.143
+927.087***
+41.852
+16,720.929***
+821.002
+10,768
+0.362
+
+-3.860
+675.201
+189.511
+569.621
+-407.335
+489.114
+(Reference)
+6,601.487
+5,244.325
+935.771***
+64.442
+16,514.495***
+984.041
+10,699
+0.353
+
+Note. **p < .05. ***p < .01. Estimates are weighted by total school enrollment. Reported standard errors are
+robust, clustered at the district level. All percentage variables range from 0–1. Coefficients for categorical variables
+are interpretable relative to the reported (Reference) group. (District) and (School) represent the level at which the
+variable is reported in our data.
+Source. The ODE; NCES, n.d.-a; NCES, n.d.-b; U.S. Census Bureau, 2021.
+
+19 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Spending, Wealth, and Income
+An equitable school funding system should make it so that district spending levels are not
+systematically related to local property wealth or the taste preferences of the local population.
+Here we explore several measures that have in some settings been shown to be positively
+associated with funding per pupil, such as median household incomes, net assessed property
+value (NAV) per pupil, and the share of the population that is between the ages of 5 and 17. We
+also explore measures for which we might expect a negative association with funding per pupil,
+such as the share of property value that is held in personal property and the share of the
+population that is more than 65 years old. We also examine the extent to which education
+funding is associated with higher labor costs using the CWIFT.
+In Exhibit 14, we examine the correlations between measures of wealth and local preference
+factors and district-level expenditures. Correlations between spending per pupil and individual
+measures of household income, taxable property wealth (personal shares of that wealth), and
+other factors that often predict school spending variation are generally modest, suggesting
+some level of wealth neutrality in the state. Further, median household is negatively correlated
+with spending, while NAV per pupil is positively associated with expenditures. To the extent
+that discretionary revenues are raised via property taxes, we would expect this latter
+relationship.
+In Exhibits 15 and 16, we report the estimates from multivariate regressions of district-level
+educational total expenditures and expenditures from state and local sources on wealth and
+local preference factors, respectively. The regression results reveal that on average, total
+spending per pupil is positively associated with taxable property wealth but negatively
+associated with median household income.
+The findings in Exhibit 15 also show that the share of taxable wealth held as personal property
+is negatively associated with total spending. This makes sense, given that a larger personal
+and/or primary residential share of property wealth means that a larger share of each dollar in
+revenue, or spending, is paid by the local residents who may have a say in setting local tax rates
+for discretionary revenue. Larger shares of populations over the age of 65 are also negatively
+associated with total spending per pupil, as might be expected.
+The models in Exhibit 16 show the same measures in relation to state and local expenditures
+per pupil. The resulting patterns are similar, including higher spending in higher property
+wealth districts but lower in higher income districts, lower spending where personal share of
+property is larger, and lower spending where those over age 65 constitute a larger share of the
+population.
+
+20 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Exhibit 14. Correlations Between Economic Context Factors and Spending, School Year 2022–
+23
+Total
+expenditure
+per pupil
+Total expenditure
+per pupil
+State and local
+expenditure per
+pupil
+Median household
+income
+NAV per pupil
+% of NAV in
+personal property
+% of population 5–
+17 years old
+% of population
+over 65
+CWIFT
+
+State and
+local
+expenditure
+per pupil
+
+Median
+household
+income
+
+NAV
+per
+pupil
+
+% of
+NAV in
+personal
+property
+
+% of
+population
+5–17 years
+old
+
+% of
+population
+over 65
+
+CWIFT
+
+1
+0.863
+
+1
+
+-0.256
+
+-0.108
+
+1
+
+0.258
+
+0.312
+
+0.221
+
+1
+
+0.024
+
+-0.003
+
+-0.115
+
+0.066
+
+1
+
+-0.060
+
+-0.070
+
+-0.192
+
+0.024
+
+0.153
+
+1
+
+-0.102
+
+-0.125
+
+-0.373
+
+0.041
+
+-0.145
+
+0.035
+
+1
+
+0.027
+0.123
+0.555
+0.216
+0.016
+-0.201
+-0.684
+1
+Note. All measures are reported at the district level. Correlations are weighted by total enrollment in each school.
+SFID is the School Finance Indicators Database (Baker et al., 2024). Percentage of assessed value that is personal
+property = (manufactured structures assessed value + personal property assessed value) / total assessed value)
+Source. The ODE; Baker et al., 2024; NCES, n.d.-a.
+
+Exhibit 15. Regressions of School Spending on Measures of District Wealth and Income
+Nominal total district spending
+per pupil
+
+ln(of total district spending
+per pupil)
+
+Coefficient
+
+Standard error
+
+Coefficients
+
+Standard error
+
+Median household income
+
+-0.087***
+
+0.028
+
+-0.407***
+
+0.103
+
+NAV per pupil
+
+0.003***
+
+0.001
+
+0.131***
+
+0.046
+
+% of NAV that is personal property
+
+-9,789.123**
+
+4,899.818
+
+-0.732**
+
+0.326
+
+% population between five and
+17 years old
+
+-7,932.651**
+
+3,853.829
+
+-0.526**
+
+0.259
+
+County population 65 and over (%)
+
+-16,277.186**
+
+6,705.103
+
+-1.130**
+
+0.450
+
+CWIFT centered on Oregon minimum
+
+1,656.229
+
+3,464.820
+
+0.229
+
+0.227
+
+Time
+
+902.718***
+
+39.203
+
+0.064***
+
+0.002
+
+Constant
+
+25,778.930***
+
+2,117.696
+
+12.834***
+
+0.950
+
+DV = Total district spending per pupil
+
+Number of observations
+
+1,266
+
+1,266
+
+R2
+
+0.663
+
+0.720
+
+a
+
+indicates that the variable used in model was transformed as a natural logarithm.
+Note. *p < .1. **p < .05 ***p < .01. Estimates are weighted by total school enrollment. Reported standard errors
+are robust, clustered at the district level. All percentage variables range from 0–1.
+Source. The ODE; Baker et al., 2024; NCES, n.d.-a.
+
+21 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Exhibit 16. Regressions of Expenditures from State and Local Sources Per-Pupil on Measures
+of District Wealth and Income
+DV = Total district revenue per pupil
+
+Nominal total district spending
+per pupil
+
+ln(total district spending
+per pupil)
+
+Coefficient
+
+Standard error
+
+Coefficient
+
+Standard error
+
+Median household income
+
+-0.075***
+
+0.025
+
+-0.370***
+
+0.098
+
+NAV per pupil
+
+0.003***
+
+0.001
+
+0.128***
+
+0.044
+
+% NAV that is personal property
+
+-9,341.769**
+
+4,437.163
+
+-0.722**
+
+0.307
+
+% population between five and
+17 years old
+
+-7,459.289**
+
+3,502.102
+
+-0.518**
+
+0.245
+
+County population 65 and over (%)
+
+-14,365.628**
+
+6,336.166
+
+-1.048**
+
+0.437
+
+CWIFT centered on Oregon
+minimum
+
+2,816.341
+
+3,228.043
+
+0.295
+
+0.218
+
+Time
+
+725.891***
+
+32.999
+
+0.054***
+
+0.002
+
+Constant
+
+23,180.394***
+
+1,930.620
+
+12.359***
+
+0.893
+
+Number of observations
+
+1,249
+
+1,249
+
+R2
+
+0.613
+
+0.665
+
+a
+
+indicates that the variable used in the model was transformed as a natural logarithm.
+Note. *p < .1. **p < .05 ***p < .01. Estimates are weighted by total school enrollment. Reported standard errors
+are robust, clustered at the district level. All percentage variables range from 0–1.
+Source. The ODE; Baker et al., 2024; NCES, n.d.-a.
+
+Summary of the Spending Analysis of Oregon Public Schools
+The major findings of our spending analysis are as follows:
+•
+
+Total spending and spending from state and local sources are positively associated with
+school-level shares of SWD and economic disadvantage.
+
+•
+
+School-level EL rates are not associated with differences in either measure of spending.
+
+•
+
+Schools and districts with enrollments below 300 tend to have higher spending levels per
+pupil.
+
+Further, with respect to wealth, income and preferences of local communities (e.g., inequitable
+variation):
+•
+
+Both measures of spending are positively associated with taxable property wealth but
+negatively associated with median household income.
+
+•
+
+Tax price measured as the share of the additional dollar of revenue paid by local residents is
+negatively associated with spending.
+
+•
+
+Districts with larger elderly populations spend less on average.
+
+22 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+3. Estimating Costs and Cost Variation to Achieve Common Outcomes
+in Oregon
+We now report the findings from our cost function analysis. This analysis builds on the results
+reported above and develops findings regarding how much funding is necessary for Oregon to
+provide an adequate education for all the K-12 students it serves. The cost model at the center
+of this analysis estimates the cost of achieving a target outcome level assuming average
+efficiency and how those costs vary across districts according to their student needs and other
+cost factors. Our cost model estimates are based on total expenditures from local, state, and
+federal sources. Outcomes are measured using the outcome factor score described previously.7
+The cost model requires that we select student need factors and district characteristics for
+estimation. Based on the advantages of the preferred EDI measure relative to the ODE-reported
+economic disadvantaged rate, we opt to use the EDI, along with the share of enrollment that is
+SWD (broken out into three severity categories: low-cost, middle-cost, and high-cost) or EL, and
+measures of district size, school grade range, population density, and local labor costs (CWIFT).
+Evidence from Exhibit 9 also suggests that the share of students with a high-cost disability is not
+a strong predictor of outcomes and therefore we opt to collapse middle- and high-cost
+disabilities into a single variable.
+Our cost model also includes factors that might affect spending choices that are not directly
+associated with the measured outcomes. Measured school outcomes such as test scores,
+attendance, or graduation rates do not encompass the full scope of the purpose or aims of
+public schooling. However, as a cost function is constrained to predicting measures that are
+readily quantified and publicly available, we must predict costs while netting out local
+preferences on spending for other purposes not captured in our observed outcomes and other
+possible determinants of inefficiency, including competition density and local public monitoring
+(Duncombe et al., 1997; Grosskopf et al., 2014). We identified a set of factors to be used as
+indirect efficiency measures that predict additional spending variation, above and beyond
+spending variation associated with the outcomes accounted for in our model. These include a
+Herfindahl Index (sum of squared school shares of districtwide enrollment), the ratio of median
+housing values to labor market averages, total assessed property value per pupil, the districtlevel percentage of net assessed value that is personal property, and the GINI index (a measure
+of county level wealth inequality that details the extent to which total household incomes are
+equally distributed within counties [more equality] or are concentrated among a smaller share
+
+7 The section Step 2a. Developing a School-Level Cost Function Model for Projecting the Cost of Adequate Education in
+
+Appendix A provides a detailed description of the cost function model at the heart of this analysis.
+
+23 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+of the overall population [less equality]).8 Our predicted costs using the estimated cost function
+set these efficiency factors to the statewide averages so that our projections of the spending
+associated with achieving target outcome levels can be understood as being for a district of
+average wealth, income, tastes, tax prices, and other efficiency pressures.
+
+Estimating the Cost Model
+Exhibit 17 presents our cost model estimates, where the model was fit to the natural logarithm
+of school-level per pupil spending as the dependent variable. Our model illustrates that:
+• Higher outcomes, as measured by the outcome factor score, are associated with greater
+costs, all else equal.
+•
+
+Costs are higher for achieving common outcomes in schools where our EDI measure is
+higher.
+
+•
+
+Larger shares of children with disabilities are associated with greater costs of producing
+outcomes.
+
+•
+
+Costs are higher in schools where EL shares are higher.
+
+•
+
+Districts with enrollments lower than 1,200 students have higher costs per pupil than
+districts with more than 1,200 students, and the increase in cost becomes greater as the
+district enrollment falls below 1,200.
+
+We use the above model in Exhibit 17 to predict for each school the level of spending (cost)
+associated with achieving two separate target outcome standards based on the outcome factor
+score: (1) reaching the statewide average and (2) one standard deviation above the statewide
+average. Then, we calculate the funding gap for each school defined as the difference between
+current spending and predicted adequate cost. The scatter plots in Exhibit 18 chart the
+relationship between the school-level funding gap and outcome gap (defined the difference
+between actual outcome and the target outcome) for the two outcome standards. The dashed
+horizontal line denotes where the funding gap equals 0; that is where a school has exactly
+enough funding to cover the predicted adequate cost of reaching the outcome goal. Left of this
+line indicates there is not enough funding to meet adequate cost and to the right that there is
+more than enough funding to meet adequate cost. Similarly, the horizontal dashed line
+represents an outcome gap of 0, with values above it denoting actual school performance that
+exceeds the target outcome standard and values below actual performance that is lower than
+the standard.
+
+8 The efficiency controls were derived from data obtained from the ODE, NCES, and Census.
+
+24 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Exhibit 17. Cost Function Model Estimates
+DV = (ln) School total spending per pupil with district overhead
+Outcome factor score (school)
+
+Coefficient
+↑
+
+Student needs (school)
+EDI
+
+↑
+
+% students with low-cost disabilities
+
+↑
+
+% students with middle- and high-cost disabilities
+
+↑
+
+% EL
+
+↑
+
+School and district factors
+Grade range distribution (school)
+% in Grades K–8
+
+(Reference)
+
+% Grades 9–12
+
+↑
+
+District enrollment (district)
+Under 100
+
+↑
+
+101 to 300
+
+↑
+
+301 to 600
+
+↑
+
+601 to 1,200
+
+↑
+
+>1,200
+
+(Reference)
+
+(ln)Population density (district)
+
+↔
+
+CWIFT centered on Oregon minimum (district)
+
+↔
+
+Efficiency factors (district)
+Herfindahl index
+
+↔
+
+Ratio of median housing values to labor market avg.
+
+↓
+
+Total assessed value per pupil (ln)
+
+↑
+
+% NAV that is personal property
+
+↓
+
+GINI index (census income)
+
+↑
+
+Time (Base year = 2025)
+
+↑
+
+Number of observations
+
+9,002
+
+2
+
+R
+
+0.383
+
+Partial F (instruments)
+
+28.795
+
+Hansen J (p-value)
+
+.822
+
+Note. Arrows represent the relationship of the given cost factor characteristic with costs. Arrows pointing up (↑)
+represent a statistically significant (at the 5%-error level) increase in cost associated with an increase in the given
+characteristic. Double-headed horizontal arrows (↔) represent no significant relationship. Arrows pointing down
+(↓) represent a statistically significant (at the 5%-error level) decrease in cost associated with an increase in the
+given characteristic. Estimates are weighted by total school enrollment. Standard errors for the model are robust,
+clustered at the district level. All percentage variables range from 0–1. Coefficients for categorical variables are
+interpretable relative to the reported reference (Reference) group. The reference school serves students in grades
+K-8 with enrollment greater than 1,200. (District) and (School) represent the level at which the variable is reported
+in our data.
+Source. The ODE; Baker et al., 2024; NCES, n.d.-a; NCES, n.d.-b; U.S. Census Bureau, 2021.
+
+25 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+The left-hand panel of the exhibit provides a validity check on our model by comparing
+estimated funding deficits to actual outcomes. If the model works as expected, we should see
+that schools with spending levels above their predicted costs tend to have outcomes that are
+above the target outcome standard. Likewise, schools with spending levels below their
+predicted costs should, on average, have outcomes below the outcome target standard. Exhibit
+18 shows that this is indeed the case. Generally, schools that spend less than needed to achieve
+the statewide average outcome level (i.e., those to the left of the vertical dashed line) have
+lower-than-average outcomes (i.e., fall below the horizontal dashed line). In contrast, schools
+that spend more than the model deems necessary to reach this target outcome standard (i.e.,
+those to the right of the vertical dashed line) tend to have outcomes that exceed the statewide
+average (i.e., appear above the horizontal dashed line).
+The panel on the right side of the exhibit shows the relationship between the funding gap and
+the outcome gap when the outcome target standard is set to one standard deviation above the
+statewide average. Raising the outcome standard also raises the expected costs to achieve that
+goal and thus increases funding gaps to achieve that standard. As such, far more schools fall in
+the lower left quadrant – spending less than needed to achieve the higher standard and falling
+below that outcome standard. Only a few schools are in the upper right, spending enough or
+more than needed to meet or exceed the outcome standard and performing above that goal.
+Exhibit 18. Funding Gaps by Outcome Gaps for Statewide Average and Statewide Average +1
+Standard Deviation Target Outcome Standards, School Year 2022–23
+
+Note. Plotted points are weighted by student enrollment so that larger circles indicate greater total enrollment in
+each school. The outcome gap represents the difference between the outcome target and actual outcomes. The
+funding gap represents the difference between projected costs per pupil to meet the outcome target and actual
+expenditures per pupil.
+Source. Calculations based on data from the ODE; Baker et al., 2024; NCES, n.d.-a; NCES, n.d.-b; U.S. Census
+Bureau, 2021.
+
+26 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Exhibit 19 shows how the relationships in 2022–23 between EDI and both the cost model
+projections to meet (a) the statewide average outcome standard and (b) statewide average plus
+one standard deviation target outcome standard differ from the EDI relationship with actual
+spending. In the exhibit, average cost projections and current spending across different levels of
+student economic disadvantage are represented by their linear trends. Current spending ranges
+from just above $16,000 for low-needs schools to just over $21,000 on average for high-needs
+schools. In contrast, providing an equal opportunity for all public K-12 students in Oregon to
+achieve current state average outcomes would require spending that increases far more
+dramatically as student economic needs increase at the school level, with costs ranging from
+approximately $12,000 per pupil at the low end to nearly $27,000 per pupil at the high end.
+Raising the standard to one standard deviation over statewide average outcomes increases
+those costs by approximately $3,000 per pupil for the lowest-needs schools and by
+approximately $7,000 more in the highest-needs schools. We provide more specific estimates
+in our weights analysis that follows.
+Exhibit 19. Actual Spending and Projected Adequate Costs and School-Level Economic
+Disadvantage Index Values, School Year 2022–23
+
+Source. Calculations based on data from the ODE; Baker et al., 2024; NCES, n.d.-a; NCES, n.d.-b; U.S. Census
+Bureau, 2021.
+
+27 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Comparing Oregon and National/Regional Cost Models
+As additional validation of our Oregon school-level cost model, we compare our estimates to
+those from our National Education Cost Model which has appeared in several peer-reviewed
+publications and working papers (Baker, 2024; Baker et al., 2021; Weber & Baker, 2023). The
+national education cost model uses a variety of federal source data, including spending data
+from the NCES’s fiscal survey (F33), which reports a somewhat lower current operating
+expenditure figure for Oregon school districts. All data in the national model are reported at the
+district level and outcome measures include only standardized assessments of reading and
+math between Grades 3–8. Still, we find that the cost predictions from our Oregon school-level
+model aggregated to the district level, which were derived using state-provided data, correlate
+at 0.89 with cost predictions from the national model. When we estimate a regional version of
+our national model (Oregon, Washington, Idaho, California) the correlation with the districtlevel costs projected for Oregon drops slightly to 0.87. Exhibit 20 below shows the relationship
+between our Oregon school-level cost model, rolled up to district cost estimates, and the
+national education cost model. We interpret the similarity in these cost estimates as a point of
+validation for Oregon school-level cost model.
+Exhibit 20. Relationship Between National Cost Model Estimates and Oregon Model
+Estimates
+
+Note. Plotted points are weighted by student enrollment so that larger circles indicate greater total enrollment in
+each school.
+Source. Calculations based on data from the ODE; Baker et al., 2024; NCES, n.d.-a; NCES, n.d.-b; U.S. Census
+Bureau, 2021.
+
+28 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+4. Estimating the Weights Model
+Finally, we translate our cost estimates into a funding formula. Here, we estimate our weights
+models which can then be used to simulate a pupil weighted school funding formula that the
+state might consider. The goal is to develop a formula for calculating the state and local
+revenue to be delivered to local public-school districts such that they can provide all children
+with equal opportunity to achieve the outcome goal. Meeting this goal requires two preliminary
+steps:
+•
+
+First, our cost model described above produced estimates of school-level costs to achieve
+the outcome goal. However, districts are the entities that raise local revenues and receive
+state aid. As such, we aggregate our school-level cost estimates for each local public school
+district to generate estimates at the district level.
+
+•
+
+Second, the spending figures upon which our cost estimates are based include expenditures
+from federal funds. However, the focus of our analysis is to inform the adequate level and
+equitable distribution of that funding over which the state has influence. Therefore, we
+must remove federal funds from our cost estimates to isolate only those costs that would
+be supported by state and local funding. Because federal funding was elevated in recent
+years due to COVID-19 relief, and because those funds will no longer flow in the coming
+years, we base our federal funding estimates, which we subtract from our district cost
+estimates of the average pre-COVID (2017–18 to 2019–20) federal revenues per pupil.
+
+After aggregating the school-level per-pupil cost estimates to the district level and subtracting
+per-pupil federal revenues, we then run an additional weights regression model in which the
+updated district-level predicted per-pupil cost is regressed on a subset of the covariates
+included in the more elaborate cost function model.
+Exhibit 21 below presents our weights model where the estimated weights represent cost
+multipliers and can be interpreted individually as student weights. For example, the weight of
+5.27 for children with low-cost disabilities estimated in the model for the high target outcome
+standard (statewide average plus one standard deviation) suggests that each such student costs
+5.27 times (or 526% more than) the base per-pupil cost. While the weights can be interpreted
+as student-level cost adjustments, in reality the raw estimates represent the additional cost
+associated with a district where 100% of the enrollment are in the student group being
+considered (e.g., students with low-cost disabilities).
+In practice, to arrive at a measure of additional cost corresponding to a given weight the raw
+estimates must first be combined with district share of students in the group and then
+projected against the base cost amount. Specifically, because each student need category
+generally applies to a fraction of students being served in the district, in order to calculate a
+
+29 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+target per-pupil funding amount from the estimates the raw weights must be adjusted
+downward according to the fraction of students in each category. These weights, once adjusted
+to the fraction of students in each district, are termed effective weights.
+
+Calculating Effective Weights and Applying the Weights Model Results
+To calculate the effective weight for a school or district in which some proportion of students is
+represented in each category, the weight is exponentiated according to the student proportion
+as follows:
+𝐸𝑓𝑓𝑒𝑐𝑡𝑖𝑣𝑒 𝑊𝑒𝑖𝑔ℎ𝑡 = 𝑊𝑒𝑖𝑔ℎ𝑡 𝐶ℎ𝑎𝑟𝑎𝑐𝑡𝑒𝑟𝑖𝑠𝑡𝑖𝑐 𝑉𝑎𝑙𝑢𝑒
+Exponentiating by the proportion of students (or index value) for which a weight applies
+appropriately discounts the weight. At the extremes, a proportion of one means that the full
+weight is applied (so that the effective weight simply equals the raw weight), and a proportion
+of zero discounts the weight to a value of one.
+Exhibit 21. Regression Model Estimates of Raw Pupil Cost Weights and Base Funding
+DV = District cost per pupil—pre-COVID- federal
+funding per pupil
+
+State average
+
+Statewide average + 1
+standard deviation
+
+EDI
+
+1.422
+
+1.452
+
+% Students with low-cost disabilities
+
+5.289
+
+5.269
+
+% Students with middle- and high-cost disabilities
+
+6.173
+
+6.145
+
+% EL
+
+1.709
+
+1.682
+
+Student needs
+
+School and district factors
+Grade range distribution
+% in grades K–8
+% grades 9 to 12
+
+(Reference)
+1.061
+
+1.057
+
+Under 100
+
+1.833
+
+1.837
+
+101 to 300
+
+1.434
+
+1.430
+
+301 to 600
+
+1.217
+
+1.216
+
+601 to 1,200
+
+1.111
+
+1.110
+
+District enrollment
+
+>1,200
+
+(Reference)
+
+Time (Base year = 2025)
+Constant (Base cost in 2025)
+Number of observations
+
+1.068
+
+1.066
+
+11,648.98
+
+14,643.47
+
+1,599
+
+1,599
+
+Note. Figures are exponentiated coefficients from Poisson regression. The reference group is a district serving
+students in grades K-8 with enrollment greater than 1,200. All percentage variables range from 0–1. All measures
+are calculated or reported at the district level. All variables are statistically significant at the .01 level.
+Source. The ODE; Baker et al., 2024; NCES n.d. -a.
+
+30 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+As an example, using the raw EL weight from the second model calibrated to the higher target
+outcome standard (statewide average + 1 standard deviation), in a hypothetical district where
+10% of students are EL the effective weight would be:
+𝐸𝑓𝑓𝑒𝑐𝑡𝑖𝑣𝑒 𝑊𝑒𝑖𝑔ℎ𝑡 = 1.6820.10 = 1.053
+meaning that this district would cost 5.3% more per pupil than a district with otherwise similar
+characteristics but with no EL students. As shown below, effective weights must be calculated
+for each model factor, which can then be used to compute the projected amount of funding
+necessary to cover the cost of providing an adequate education in each district.
+In Exhibit 22, we report summary statistics (averages and standard deviations) for the district
+characteristics included in our weights model for school year 2022–23. In Exhibit 23, we apply
+the average values to illustrate the calculation of effective weights from the results of our
+model calibrated to the high target outcome adequacy standard of one standard deviation
+above the statewide average outcome level. The average district has an EDI score of 65.8% with
+enrollment percentages of students who are low-cost SWD, middle- or high-cost equal, and EL
+equal to 7.7%, 7.7%, and 10.6% respectively. Further, 32.9% of the students in the average
+district are enrolled in Grades 9–12 and it enrolls over 1,200 students. Finally, we will predict
+the adequate cost for the 2022–23 school year, which is three years prior to the weights model
+base year of 2025 (where year equals 0) meaning the value of this model factor will be set to -3.
+Exhibit 22. Summary Statistics for District Characteristics in Weights Model, School Year
+2022–23
+Model factor
+
+Average/
+Share of districts
+
+Standard deviation
+
+Student Needs
+Average
+EDI
+65.8%
+16.6
+% students with low-cost disabilities
+7.7%
+1.7
+% students with middle- and high-cost disabilities
+7.7%
+1.5
+% EL
+10.6%
+8.1
+Grade range distribution
+% 9 to 12
+32.9%
+3.4
+District enrollment
+Share of Districts
+Under 100
+4.5%
+101 to 300
+17.6%
+301 to 600
+13.6%
+601 to 1,200
+18.8%
+>1,200
+45.5%
+Number of observations
+176
+Note. Statewide averages are weighted by district enrollment. Percentages indicate the share of districts in Oregon
+belonging to each enrollment category.
+Source. The ODE.
+
+31 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Exhibit 23 demonstrates how “effective weights” are calculated for a school district and used to
+determine an overall needs index. The estimated raw weights shown in Exhibit 23 are the
+funding weights (reported in Exhibit 21) derived from cost estimates for providing funding to
+give each district an equal opportunity to achieve a district-level outcome factor score one
+standard deviation above the 2022-23 statewide mean.
+In this example, we use a hypothetical district with the statewide average characteristics and an
+enrollment of more than 1,200 students, as summarized in Exhibit 22. These values are
+displayed in the third column of Exhibit 23. We use the estimated raw weights and the
+characteristics values to calculate effective weights in the fourth column of Exhibit 23. As noted
+above, the effective weight is calculated via the following formula:
+𝐸𝑓𝑓𝑒𝑐𝑡𝑖𝑣𝑒 𝑊𝑒𝑖𝑔ℎ𝑡 = 𝑊𝑒𝑖𝑔ℎ𝑡 𝐶ℎ𝑎𝑟𝑎𝑐𝑡𝑒𝑟𝑖𝑠𝑡𝑖𝑐 𝑉𝑎𝑙𝑢𝑒
+So, in this example, the effective weight for EDI is calculated as:
+𝐸𝑓𝑓𝑒𝑐𝑡𝑖𝑣𝑒 𝑊𝑒𝑖𝑔ℎ𝑡 = 1.452.658 = 1.278
+Performing this calculation for each of the model factors generates effective weights for each
+student-need category or district characteristic.9 Finally, to calculate the overall needs index,
+we multiply all the effective weights together, producing a value of 1.485. This number
+indicates that a district with this level of student need and with these characteristics would
+require 48.5% more funding per pupil than the base per-pupil funding amount. By multiplying
+the overall needs index by the base per-pupil funding of $14,643, we show that this
+hypothetical district is projected to require $21,748 per pupil from state and local sources to
+meet the costs of achieving the outcome target.
+Applying this same methodology to every school district in Oregon, using actual levels of
+student need and district characteristics, would yield district-specific cost estimates for raising
+the outcome factor score to one standard deviation above the statewide mean in 2022-23.
+Based on our analyses, we recommend adopting the base per-pupil funding amount and the
+funding distribution formula outlined in Exhibit 23. This funding model would give all school
+districts in Oregon an equal opportunity to reach outcome factor scores one standard deviation
+above the statewide average, which represents a reasonable adequacy target for the state.
+
+9 Exhibit 23 displays student needs and grade range distribution as percentages. In our weights model, these variables are
+
+stored as proportions, ranging from 0-1. Therefore, when calculating effective weights, the listed percentages must be divided
+by 100.
+
+32 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Exhibit 23. Application of Weights for +1 Standard Deviation Outcomes to a Hypothetical
+District
+
+Model factor
+
+Estimated raw
+weight
+
+Characteristic value
+(enrollment percentage/
+enrollment group indicator/
+
+Effective weight
+
+year)
+Student needs
+EDI
+
+1.452
+
+65.8%
+
+1.278
+
+% students with low-cost disabilities
+
+5.269
+
+7.72%
+
+1.137
+
+% students with middle- and highcost disabilities
+
+6.145
+
+7.71%
+
+1.150
+
+% EL
+
+1.682
+
+10.6%
+
+1.057
+
+1.057
+
+32.9%
+
+1.018
+
+Under 100
+
+1.837
+
+0
+
+1.000
+
+101 to 300
+
+1.430
+
+0
+
+1.000
+
+301 to 600
+
+1.216
+
+0
+
+1.000
+
+601 to 1,200
+
+1.110
+
+0
+
+1.000
+
+Time (Base year = 2025)
+
+1.066
+
+-3.00
+
+0.826
+
+Base per-pupil amount
+
+14,643.47
+
+Grade range distribution
+% Grades 9–12
+Enrollment group
+
+Overall needs index (multiplied effective weights)
+District per-pupil funding =
+
+$14,643
+
+x
+
+1.485
+
+=
+
+1.485
+$21,746
+
+Note. Estimated weights are taken from the model calibrated to the high target outcome standard (Statewide
+Average + 1 Standard Deviation) reported in Exhibit 21. Effective weights are calculated by raising the estimated
+weight to the power of the model factor value. The combined needs index is the product of all effective weights.
+The district formula per-pupil funding estimate is calculated by multiplying base funding by the combined needs
+index. The final calculation indicates that a district with average located in a district with enrollment greater than
+1,200 would require $21,745.55per pupil in funding to address the cost adequately of educating all students to
+achieve one standard deviation above statewide average outcomes.
+Source. Calculations based on data from the ODE; Baker et al., 2024; NCES, n.d.-a.
+
+33 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+5. Supplementary Analyses
+The Role of Capital Funding
+In this section, we explore the sensitivity of the cost model and subsequent weights model to
+the inclusion of capital financing and debt service expenditures in our spending measure.
+Specifically, we add district-level spending on capital and debt back into our total spending perpupil figure and re-estimate our cost model. Exhibit 24 shows that the subsequent cost model
+yields generally logical results but fails some statistical tests.10
+Overall, the coefficients on the outcome factor and student needs factors are smaller than in
+previous cost models. That is, including capital spending reduces the sensitivity of spending to
+student needs and outcomes, as there is more variation added to our spending measure that is
+not associated with either of these model factors. This difference makes sense given that
+capital spending can be quite “lumpy” both across districts and over time (i.e., significant
+capital investments often only occur sporadically in and across districts). There is also a larger
+share of spending in our spending figures that do not vary across schools within districts
+because capital spending is reported at the district level.
+To better understand the sensitivity of the estimated weights and base funding to the inclusion
+of capital spending we next re-estimate our weights models and display the results in Exhibit
+25. As a reminder, the weights model makes use of predictions from the cost model (this time
+estimated with capital spending included), subtracts pre-COVID federal aid from the cost model
+predictions, and uses these adequate cost figures sans federal aid as the dependent variable in
+a model that uses a more limited subset of the factors used in the cost model. We estimate the
+weights model using cost model predictions that have been calibrated to the statewide average
+outcome standard. Using the new cost model that accounts for capital spending we find that
+the estimated raw weights on student needs are smaller than before, as the cost model was
+less sensitive to those needs. But, as one might expect, the base per-pupil cost when capital is
+included increases quite substantially from $11,649 to $20,722.
+We do not necessarily believe, however, that spending on bond principal and interest should be
+funded through the general aid program given that needs and costs (outside of our cost model)
+will vary substantially across settings. And it is worth reiterating that the results produced when
+capital funding is included fail tests statistical validity and show weak relationships between
+funding and student need. Therefore, these findings should not be used to develop a funding
+
+10 Specifically, in the new model the test for overidentification (Hansen J) fails indicating that the instrumental variables used in
+
+the model are not valid.
+
+34 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+model for capital spending. That said, we do believe in a strong state role in ensuring equitable
+access to quality facilities for all children to provide the programs and services covered by the
+general aid formula. Also notable is the fact that modernized facilities with newer mechanical
+systems can often operate more efficiently, drawing less funding into maintenance and
+operations from general funds and leaving more for programs and services.
+Exhibit 24. Cost Model Estimates including Capital Spending
+DV = (ln) School total spending per pupil with
+district overhead and capital outlay
+Outcome factor score
+Student needs
+EDI
+% students with low-cost disabilities
+% students with middle- and high-cost disabilities
+% EL (school)
+School and district characteristics
+% in Grades 9–12
+District enrollment
+Under 100
+101 to 300
+301 to 600
+601 to 1,200
+(ln)Population density
+CWIFT centered on Oregon minimum
+Efficiency measures
+Herfindahl index
+Ratio of median housing values to labor market avg.
+Total assessed value per pupil (in)
+% NAV that is personal property
+GINI index (census income)
+Time (base year = 2025)
+Constant
+Number of observations
+R2
+Partial F
+Hansen J (p-value)
+
+Coefficient
+
+Standard error
+
+0.097*
+
+0.050
+
+0.161*
+0.766***
+0.869***
+0.240***
+
+0.089
+0.235
+0.269
+0.054
+
+0.055***
+
+0.010
+
+0.538***
+0.315***
+0.154***
+0.045**
+0.004
+0.447***
+
+0.071
+0.029
+0.025
+0.018
+0.004
+0.109
+
+-0.034
+-0.113***
+0.173***
+-0.317**
+0.284
+0.057***
+7.411***
+
+0.447
+0.035
+0.021
+0.158
+0.221
+0.002
+0.313
+8,836
+0.538
+28.35
+0.0035
+
+Note. *p < .1. **p < .05. ***p < .01. Estimates are weighted by total school enrollment. Standard errors for the
+model are robust, clustered at the district level. All percentage variables range from 0–1. Coefficients for
+categorical variables are interpretable relative to the reported (Omitted) group. (District) and (School) represent
+the level at which the variable is reported in our data.
+Source. The ODE; Baker et al., 2024; NCES, n.d.-a; NCES, n.d.-b; U.S. Census Bureau, 2021.
+
+35 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Exhibit 25. Regression Model Estimates of Raw Pupil Cost Weights and Base Funding Using
+Cost Model Estimates That Include Capital Spending
+DV = District cost per pupil—pre-COVID- federal
+funding per pupil
+Student needs
+EDI
+% Students with low-cost disabilities
+% Students with middle- and high-cost disabilities
+% EL
+School and district factors
+Grade range distribution
+% in grades K–8
+% in Grades 9–12
+Under 100
+101 to 300
+301 to 600
+601 to 1,200
+>1,200
+
+Coefficient
+
+Standard error
+
+0.954
+1.975
+2.423
+1.665
+
+0.001
+0.010
+0.023
+0.005
+
+(Reference)
+1.047
+1.656
+1.370
+1.164
+1.042
+
+0.002
+0.001
+0.001
+0.001
+0.001
+(Reference)
+
+Time (Base year = 2025)
+1.067
+0.000
+Constant (Base cost in 2025)
+20,722.470
+29.050
+Number of observations
+1,599
+Note. All percentage variables range from 0–1. All measures are calculated or reported at the district level. All
+variables are statistically significant at the .01 level.
+Source. The ODE; Baker et al., 2024; NCES, n.d.-a.
+
+Comparing Cost Model Estimates to Actual Funding and the QEM
+Our final analysis is to contextualize the level of funding recommended by the weights models,
+which excludes federal funding, against actual expenditures in Oregon from state and local
+sources, and to compare our cost estimates to those generated by the QEM. In this section we
+report the estimated adequate cost associated with the outcome target standard of raising
+student achievement to one standard deviation above the statewide average.11 These cost
+predictions are generated by applying the coefficients from the weights model to actual data on
+student demographics and district characteristics for every school district in the state.
+Exhibit 26 reports the statewide projected adequate cost per pupil and actual state and local
+expenditure per pupil in the 2022–23 school year. Our model indicates that an additional
+$5,074 in spending per student is required for the state to meet the projected costs of
+adequacy. This represents a 30% increase in per-pupil spending from state and local sources.
+
+11 As noted previously, we believe an outcome target which raises statewide achievement by one standard deviation is the
+
+more appropriate measure for assessing an adequate education.
+
+36 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Exhibit 26. Comparison of Actual State and Local Spending Per Pupil and Adequate Spending
+Per Pupil in Oregon, School Year 2022–23
+
+Note. Actual spending is defined as current per-pupil spending from state and local sources reported in Oregon
+that removes non-current expenditures (capital expenditures, debt services, and internal service funds). Adequate
+cost is the projected per-pupil funding required to raise all students to one standard deviation above the statewide
+average outcome factor score. The cost projections omit federal funding and non-current expenditures. Gap is
+calculated as: (1- (Adequate Cost Per Pupil/Actual Spending Per Pupil).
+Source. Calculations based on data from ODE; Baker et al., 2024; NCES n.d. -a.
+
+In Exhibit 27, we further break out average actual spending and projected adequate spending
+per-pupil by EDI score quintiles. Average EDI scores increase with the quintile number, with
+districts in the first quintile have the lowest levels of economic need in Oregon, while districts in
+
+37 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+the fifth quintile have the highest levels of economic need.12 Projected costs to reach adequacy
+also increase as the level of need increases in each quintile. The gap between projected
+adequate cost per pupil and current expenditure per pupil is substantial in each quintile.
+However, these differences are greatest in districts with the highest EDI scores. For example,
+districts in the first quintile of EDI are projected on average to need $2,702 per pupil in
+additional funding to meet the adequacy target. In contrast, the average district in the fifth
+quintile of EDI requires $7,992 per pupil more to meet the same target. The differences across
+quintiles highlight the importance of both increasing funding to adequate levels and ensuring
+that funding is distributed equitably, so that schools and districts serving students with greater
+needs have the resources necessary to meet the same outcome standard.
+Exhibit 27. Comparing Actual State and Local Spending Per-Pupil and Adequate Spending
+Estimates Per-Pupil Across EDI Quintiles, School Year 2022–23
+
+Note. Actual spending is defined as current per-pupil spending from state and local sources reported in Oregon
+that removes non-current expenditures (capital expenditures, debt services, and internal service funds). Adequate
+cost is the projected per-pupil funding required to raise all students to one standard deviation above the statewide
+average outcome factor score. The cost projections omit federal funding and non-current expenditures. Gap is
+calculated as: (1- (Per Pupil Adequate Cost/Per Pupil Actual Spending).
+Source. Calculations based on data from ODE; Baker et al., 2024; NCES n.d. -a.
+
+12 EDI scores can be interpreted similarly to economic disadvantage rate with larger values indicating greater economic need.
+
+The average EDI score within each quintile are as follows: Quintile 1 = 49; Quintile 2 = 63; Quintile 2 = 69; Quintile 4 = 76;
+Quintile 5 = 92.
+
+38 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+In Exhibit 28, we display the average actual spending and adequate costs for districts according
+to enrollment size categories.13 Adequate costs per pupil are substantially higher in smaller
+school districts, with a $15,184 difference between districts with enrollments below 100 and
+above 1,200. This reflects the diseconomies of scale that low enrollment districts typically face
+when meeting the high fixed costs of operating a school district. Actual expenditures per pupil
+also reflect diseconomies of scale, with spending being greater in smaller school districts. While
+there are gaps between actual expenditures and adequate costs per pupil in every size
+category, the gaps are greatest for districts with enrollments of 101-300, 301-600, and 6011,200. For these districts, the gaps between actual spending and adequate costs range from
+$6,498 to $9,286 per pupil. Districts with over 1,200 hundred students have an estimated
+average adequacy gap of $4,886 per pupil. This number is quite notable, as this category is both
+the plurality of the district enrollment categories (45.5%) and because over 90% of total student
+enrollment in Oregon is attributed to districts with enrollments over 1,200.
+We now turn to comparing our cost estimates to those generated by the Quality Education
+Commission’s (QEC) QEM. Direct comparisons between cost estimates are complicated by the
+fact that our cost model and the QEM make different assumptions about what funding is
+included or excluded in their analysis and what outcome goals are being used in estimating the
+cost of providing an adequate education. The QEM generates a total statewide cost estimate
+for achieving the target goal of 90% graduation rates statewide. This statewide total is then
+reduced by all projected non-State School Fund revenues and reported as the amount of State
+School Fund revenues needed in a budget biennium to offer an adequate education to all
+students. The QEM also notably does not offer recommendations on a particular formula that
+should be used to ensure the adequate amount of funding is appropriately (equitably)
+distributed to ensure equal educational opportunity.
+In contrast, our cost function approach: (a) assumes that all educational state and local funding
+included in our per-pupil spending figures will be delivered through a formula that is based on
+our weights model; (b) provides these estimates for each school year; and (c) is built to
+estimate costs based on a more inclusive outcome factor that accounts for academic
+achievement in ELA and math, chronic absenteeism, and graduation rates.
+
+13 The distribution of school districts across enrollment size categories is as follows: 4.5% of districts have enrollments below
+
+100; 17.6% have enrollments between 101 and 300; 13.6% have enrollments between 301 and 600; 18.8% have enrollments
+between 601 and 1,200; and 45.5% of districts have enrollments above 1,200.
+
+39 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Exhibit 28. Comparing Actual State and Local Spending Per-Pupil and Adequate Spending
+Estimates Per-Pupil Across District Size Categories, School Year 2022–23
+
+Note. Actual spending is defined as current per-pupil spending from state and local sources reported in Oregon
+that removes non-current expenditures (capital expenditures, debt services, and internal service funds). Adequate
+cost is the projected per-pupil funding required to raise all students to one standard deviation above the statewide
+average outcome factor score. The cost projections omit federal funding and non-current expenditures. Gap is
+calculated as: (1- (Per Pupil Adequate Cost/Per Pupil Actual Spending).
+Source. Calculations based on data from ODE; Baker et al., 2024; NCES n.d. -a.
+
+Despite these differences, the QEM and our cost models offer estimates of the additional
+funding that is deemed necessary to reach specific adequate outcomes (QEC, 2024).14 In Exhibit
+29, we report two estimates of the additional funding required to adequately educate all
+students in Oregon: (1) the difference between our estimated total cost of all students reaching
+statewide average outcomes and our calculation of total actual expenditures from state and
+local sources in Oregon and (2) the QEM estimates of the funding gap between current
+spending and adequacy.
+
+14 The QEC reports funding gaps for each budget biennium on page 61 of their 2024 report. To translate biennium funding gaps
+
+into school year funding gaps, we simply divide the biennium gap by two and assign that value as the constant gap for both
+school years within the biennium. To calculate our total statewide differences between funding and actual spending, we
+multiplied our projected per-pupil estimates for each school district by district total enrollment and totaled these district costs
+to generate a statewide projected cost for adequacy across both outcome goals. We then multiplied our calculated current
+expenditures per pupil in each district, totaled it, and took the difference between our projected costs and actual expenditures
+in each school year from 2014-15 to 2022–23. This was done for both target outcome standards that we modeled.
+
+40 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Exhibit 29 shows that our projections for the additional funding required to meet the cost of
+achieving a one standard deviation increase in the statewide average outcome factor score is
+substantially larger than the QEM estimate of additional funding needed to achieve adequacy
+for the 2022–23 school year. This is unsurprising given that our cost model has a wider array of
+target outcome standard than the QEM. However, in the most recent QEM reports, covering
+school years 2023–24 through 2026–27, the estimated gaps between current spending and
+adequate spending have been notably larger. This is due to the QEC updating numerous cost
+and resource assumptions in their 2022 report, which carried over to their 2024 report. The
+QEM estimated that the funding gap would be $1.514 billion in the 2023-24 and 2024-25 school
+years and $1.126 billion per school year in 2025-26 and 2026-27. These figures are somewhat
+closer to our estimates for the 2022–23 school year of $2.803 billion. Regardless, while the level
+of funding across these models may differ, both align with the notion that additional resources
+are required to provide equal and adequate educational opportunity for all students in
+Oregon.15
+
+6. Conclusion
+This report provides a comprehensive analysis of the cost of providing an adequate education
+to all students in Oregon, using a cost function approach and leveraging data from the 2014–15
+to 2022–23 school years. The findings have several important implications for understanding
+and promoting equitable funding policies that provide an adequate educational opportunity for
+all students.
+First, we investigated the relationship between student outcomes, student need, and district
+contexts, finding that the shares of SWD or EL students, along with our EDI measure, are
+negatively associated with academic outcomes at the school level. The share of SWD students
+and EDI scores are also positively associated with total spending and spending from state and
+local sources. This does not, however, mean that funding is sufficiently differentiated to meet
+the costs of providing an adequate education for these students. Furthermore, there is not a
+clear association between EL rates and funding from state and local sources.
+
+15 See AIR’s Task 3 Report (Brooks & Levin, 2025) for a detailed comparison of the cost function approach used in this report
+
+and the professional judgement panel approach used by the QEC in the QEM. The Task 3 report also provides a summary of the
+methods of the QEM and offers a series of recommendations for how the methodology of the QEM can be improved to better
+align with best practices for estimating the cost of an adequate education when using a professional judgement approach.
+
+41 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Exhibit 29. Comparison of Additional Funding Required to Meet Statewide Adequacy
+Standards Estimated by the AIR Cost Model and QEM, School Year 2022–23
+
+Note. The QEM estimates for the difference between (biennial) current funding and adequate cost were divided by
+two to generate an annual funding gap for the 2022–23 school year. Additional funding for meeting AIR cost model
+adequacy is calculated by multiplying per-pupil adequate costs and actual state and local expenditures per pupil,
+respectively, by the total fall enrollment reported by ODE for the 2022-23 school year (552,380) and subtracting
+the subsequent total actual spending from total adequate costs.
+Source. Calculations based on data from the ODE; QEC, 2024 p.61; Baker et al., 2024; NCES n.d. -a.
+
+Next, our cost model estimates indicate that costs are higher in schools with higher EDI scores
+and those serving more EL students and SWD. Economies of scale are evident, with smaller
+districts having higher per-pupil costs as well. Our cost model analysis resulted in an estimated
+base per-pupil funding amount of $11,649 to provide an equal opportunity for all students to
+reach statewide average outcomes and $14,643 to achieve outcomes that are one standard
+deviation above the statewide average. Further, our analysis produced a series of multiplicative
+weights to adjust the base funding amount per pupil according to various measures of student
+need, such as the share of a district that is EL or has a low-, middle-, or high-cost disability, and
+district contexts, such as district enrollment and the proportion of district enrollment in Grades
+9-12. These results provide a firm basis for an empirical cost-based funding formula capable of
+generating district funding allocations that will support an adequate education for all students.
+
+42 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Lastly, we provided two supplemental analyses. First, we found that accounting for capital
+expenditure in the cost model raises base per-pupil cost estimates by approximately $9,000 per
+pupil. However, this increase in the base per-pupil cost in the weights model that includes
+capital spending coincided with much smaller student needs weights and failed important
+statistical validity tests. Considering these findings, we recommend that the state should have a
+role in ensuring districts can equally build and maintain school facilities. However, capital
+funding should be considered outside of the primary state mechanism for appropriating
+funding to support operations (current expenditures).
+Second, the findings of our cost model analysis suggested that providing an adequate education
+to all students in Oregon, defined as all students achieving at a level equivalent to a one
+standard deviation increase in the statewide average outcome factor score, would have
+required an additional $5,074 per pupil more than was spent from state and local funding in the
+2022–23 school year. When comparing actual spending per-pupil to the estimated costs of
+adequate education across EDI score quintiles, we found that substantial investments would be
+necessary across all quintiles to provide an adequate education (defined as generating
+outcomes that are one standard deviation above the statewide average), but the required
+increase in funding was largest for the highest need districts. This highlights the importance of
+both increasing overall funding and adopting our recommended funding formula, which would
+equitably distribute funding to meet the costs of an adequate education across districts with
+varying characteristics and levels of student need. Finally, we also found that our cost model
+estimates directionally align with the estimates produced by the Quality Education Commission
+QEM. However, differences in the target education outcomes that each costing-out method
+adopts significantly limits the direct comparability of these estimates. We nonetheless
+cautiously view this as a point of validation for both approaches.
+High-quality education holds transformative potential for children of all backgrounds. However,
+our findings suggest that not every student in Oregon attends schools that are granted the
+resources necessary to ensure that they have an equal educational opportunity. The
+inequitable associations we have identified between student needs and academic outcomes,
+and the difference between current spending and estimated adequate costs, especially for
+districts with high levels of need, represent an opportunity to improve the adequacy and equity
+of the current funding mechanism. Our analysis findings indicate that Oregon does not
+currently fund its K-12 education system at a level that is sufficient to meet an adequacy target
+of having all districts achieve one standard deviation above current statewide outcomes. The
+results also suggest that the distribution of funding is not progressive enough with regards to
+student needs and other district characteristics. We strongly recommend Oregon consider the
+levels of funding suggested by the base per-pupil cost and funding weights for student needs
+
+43 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+and district characteristics outlined in Exhibit 21 and further explained in Exhibit 23, to better
+meet the costs of adequately educating all students.
+In a world of necessarily scarce resources, implementing the funding structure outlined in this
+report, even gradually, may seem daunting. However, each and every one of Oregon’s students
+deserves a high-quality education that enables them to pursue fulfilling and gainful future lives,
+regardless of their needs or where they attend school. The analyses and recommendations
+provided in this study can be used by Oregon’s leaders and policymakers to create a more
+equitable and adequate education funding system in service to all of Oregon’s K-12 students.
+
+44 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+References
+Baker, B. D. (2024). How and Why Racial Isolation Affects Education Costs & the Provision of
+Equal Educational Opportunity. http://www.edworkingpapers.com/ai24-1047
+Baker, B. D., Taylor, L., Levin, J., Chambers, J., & Blankenship, C. (2013). Adjusted Poverty
+Measures and the Distribution of Title I Aid: Does Title I Really Make the Rich States
+Richer? Education Finance and Policy, 8(3), Article 3.
+https://doi.org/10.1162/EDFP_a_00103
+Baker, B. D., Weber, M., & Srikanth, A. (2021). Informing Federal School Finance Policy with
+Empirical Evidence. Journal of Education Finance, 47(1), Article 1.
+Brooks, C.D. & Levin, J. (2025). Review and Evaluation of the Efficacy and Methodology of the
+Quality Education Model. American Institutes for Research.
+Chambers, J. G., Shkolnik, J., & Perez, M. (2003). Total Expenditures for Students with
+Disabilities, 1999-2000: Spending Variation by Disability. Special Education Expenditure
+Project (SEEP). https://www.air.org/sites/default/files/SEEP5-Total-Expenditures.pdf
+Child Nutrition Programs: Income Eligibility Guidelines (2024-2025) | Food and Nutrition Service.
+(2025, January 17). https://www.fns.usda.gov/cn/fr-022024
+Corcoran, S. P., & Evans, W. N. (2010). Income Inequality, the Median Voter, and the Support for
+Public Education (SSRN Scholarly Paper 1626587). Social Science Research Network.
+https://papers.ssrn.com/abstract=1626587
+Duncombe, W., & Yinger, J. (1997). Why Is It So Hard to Help Central City Schools? Journal of
+Policy Analysis and Management, 16(1), Article 1.
+Duncombe, W., & Yinger, J. (1998). School finance reform: Aid formulas and equity objectives.
+National Tax Journal, 51(2), 239–262. https://doi.org/10.1086/NTJ41789325
+Duncombe, W., & Yinger, J. (2005). Estimating the Costs of Meeting Student Performance
+Outcomes Adopted by the Kansas State Board of Education.
+https://kslegislature.gov/li_2018/b2017_18/committees/ctte_h_k12_education_budget
+_1/documents/testimony/20170306_02.pdf
+Duncombe, W., & Yinger, J. (2011). Making do: State constraints and local responses in
+California’s education finance system. International Tax and Public Finance, 18(3),
+Article 3. https://doi.org/10.1007/s10797-010-9159-3
+
+45 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Fletcher, D., & Kenny, L. W. (2008). The Influence of the Elderly on School Spending in a Median
+Voter Framework. Education Finance and Policy, 3(3), Article 3.
+https://doi.org/10.1162/edfp.2008.3.3.283
+Gramlich, E. M., & Rubinfeld, D. L. (1982). Micro Estimates of Public Spending Demand
+Functions and Tests of the Tiebout and Median-Voter Hypotheses. Journal of Political
+Economy, 90(3), Article 3. https://doi.org/10.1086/261073
+Gronberg, T. J., Jansen, D. W., & Taylor, L. L. (2017). Are Charters the Best Alternative? A Cost
+Frontier Analysis of Alternative Education Campuses in Texas. Southern Economic
+Journal, 83(3), Article 3. https://doi.org/10.1002/soej.12173
+Grosskopf, S., Hayes, K. J., & Taylor, L. L. (2014). Efficiency in Education: Research and
+Implications. Applied Economic Perspectives and Policy, 36(2), Article 2.
+Holcombe, R. G. (1980). An Empirical Test of the Median Voter Model. Economic Inquiry, 18(2),
+Article 2.
+Imazeki, J., & Reschovsky, A. (2006). Does No Child Left Behind Place a Fiscal Burden on States?
+Evidence from Texas. Education Finance and Policy, 1(2), Article 2.
+https://doi.org/10.1162/edfp.2006.1.2.217
+National Center for Education Statistics. (n.d.-a). Comparable Wage Index for Teachers (CWIFT)
+2021. Retrieved September 7, 2024, from
+https://nces.ed.gov/programs/edge/economic/teacherwage
+National Center for Education Statistics. (n.d.-b). Education Demographic and Geographic
+Estimates (EDGE) School Neighborhood Poverty Estimates.
+https://nces.ed.gov/programs/edge/economic/neighborhoodpoverty
+Oregon Department of Education (ODE). (2023). Oregon’s Consolidated State Plan Under the
+Every Student Succeeds Act. Oregon Department of Education.
+https://www.ed.gov/media/document/or-2024-state-plan
+Quality Education Commission (QEC). (2024). Quality Education Model: Identifying Best
+Practices and Calculating the Cost of a Quality Education. Oregon Department of
+Education. https://www.oregon.gov/ode/reports-anddata/taskcomm/Documents/M000266%20DOE%20Quality%20Education%20Model%20
+Report%202024.pdf
+Taylor, L., Willis, J., Berg-Jacobson, A., Jaquet, K., & Caparas, R. (2018). Estimating the Costs
+Associated with Reaching Student Achievement Expectations for Kansas Public Education
+Students: A Cost Function Approach. WestEd.
+http://www.robblaw.com/PDFs/Taylor%20Kansas%20Adequacy%20Study%202018-0318%202ND%20VERSION.pdf
+
+46 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+U.S. Census Bureau. (2021). SAIPE Datasets. Census.Gov. https://www.census.gov/programssurveys/saipe/data/datasets.html
+U.S. Department of Education (ED). (2025). Chronic Absenteeism. U.S. Department of Education.
+http://www.ed.gov/teaching-and-administration/supporting-students/chronicabsenteeism
+Weber, M. & Baker, B. D. (2023). Does School Funding Matter in a Pandemic? COVID-19
+Instructional Models and School Funding Adequacy. https://doi.org/10.26300/406BHY46
+
+47 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Appendix A. Detailed Road Map to the Analyses
+The goal of a state school finance system is to deliver the funding necessary for each district
+and school to provide students with the educational programs and services needed to achieve
+common outcome goals. Embedded in this aim are two key principles. The first is educational
+equity, which is achieved when all children have equal opportunity to achieve common
+outcome goals. This requires that students with greater educational needs also receive greater
+educational funding. The second goal is educational adequacy, which is achieved when
+outcome goals are sufficient for those children to become productive, self-determined, and
+civically engaged adults. Combining the two, the aim of this cost function analysis is to generate
+estimates of the costs that will provide all students in Oregon with an equal opportunity to
+achieve adequate outcomes and subsequently determine a funding formula that would
+appropriately distribute funding across districts to meet those costs.
+To estimate the educational costs associated with achieving both equitable and adequate
+education for all students, we employ an analysis in two steps, each of which contains two substeps. They are:
+Step 1. Analyzing current Oregon data
+1a.
+1b.
+
+assessing the relationships between student needs and schooling
+contexts and educational outcomes
+estimating the relationships between student needs and schooling
+contexts and school funding/spending
+
+Step 2. Projecting an adequate school funding system for Oregon
+2a.
+
+developing a school-level cost model for projecting the cost of adequate
+education
+
+2b.
+
+translating the school-level cost model into a district-level weighted
+funding formula
+
+In the remainder of this appendix, we outline the importance of each in estimating the cost of
+an adequate education for all students in Oregon.
+
+Step 1a. Assessing the Relationship Between Student Needs and Schooling
+Contexts and Educational Outcomes
+In Oregon and many other states in the U.S., educational outcomes vary widely, according to
+levels of student need, the environments in which children are raised, and the settings in which
+
+48 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+they are schooled. They also continue to vary widely due to the failures of states to enact
+education funding and other policies that promote equal opportunity for an adequate
+education.
+Step 1a of our process, outlined in Exhibit A.1, is to identify the “risk” factors, or what we more
+commonly refer to in education finance policy analysis as “need” factors, that are associated
+with inequality in educational outcomes.16 The goal in Step 1a is to identify the measures of
+student educational need (shown as the yellow circle) and other contexts (shown as the blue
+circle) that are most strongly associated with educational outcomes (in the green circle). These
+measures include student needs, such as the percentages of students who are ELs, SWD, or
+economically disadvantaged students being served in a school or district, and other contextual
+factors, such as the number of students enrolled.
+There is consistent evidence that economically disadvantaged students require additional
+resources to achieve at levels equivalent to their more affluent peers. However, economic
+disadvantage may be measured in several different ways. At the school level, one could use the
+share of students qualified for free or reduced priced lunches under the National School Lunch
+Program. At the district level, one could use census-reported child poverty rates for families of
+children between the ages of 5 and 17 who live in the geographic school district and attend a
+public school (U.S. Census Bureau, 2021). Economic disadvantage can also be measured by the
+income-to-poverty ratio of families living in the neighborhoods surrounding individual schools
+(NCES, n.d. -b). Determining which of these measures best captures the (negative) relationship
+between economic disadvantage and student outcomes is essential for developing a cost model
+that addresses this disparity.
+Other constraints that guide our selection of measures in our analysis are that:
+•
+
+The data must be available and have been consistently measured for at least five or more
+years.
+
+•
+
+The data must be uniformly and consistently reported by a vetted and reliable source across
+the institutions included in our analyses, ideally at the school level but at the very least, at
+the district level.
+
+•
+
+It must be possible to translate the data into a school finance policy/formula, which
+typically requires that data be publicly available.
+
+16 These outcomes, such as standardized test scores, chronic absenteeism rates, and graduation rates, are widely available
+
+educational measures that are reasonable predictors of important longer-term aims of an adequate education, such as higher
+educational attainment and better economic outcomes in adulthood.
+
+49 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Exhibit A.1. Conceptual Model for Step 1a. Risk (Needs) Analysis
+
+Step 1b. Estimating the Relationship Between Student Needs and Schooling
+Contexts and School Funding/Spending
+In Step 1b, shown in Exhibit A.2, we evaluate the current distributions of spending across
+schools and districts with respect to the student, school, and district characteristics associated
+with worse educational outcomes that were identified in Step 1a. Disrupting the relationship
+between these characteristics and education outcomes requires additional resources that
+afford more intensive programs and services. The first portion of Step 1b, shown on the left
+side of Exhibit 3, evaluates the relationship between student characteristics and school and
+district contexts, and school spending and revenues. A school funding system in which funding
+or spending is higher in schools or districts with greater needs would be considered progressive
+and one in which funding or spending is lower in schools or districts with greater needs would
+be considered regressive.
+Step 1b also includes a more traditional school finance wealth neutrality analysis, shown on the
+right side of Exhibit 3. This analysis estimates the extent to which the spending choices and
+characteristics of local communities and public school districts drive school and district
+spending differences. Literature on local public finance suggests that the demand for local
+public goods and services — measured by choices on how much to spend on public goods and
+services — is influenced by the income and preferences of the median voter and the price of
+taxes paid to raise an additional dollar of revenue (Corcoran & Evans, 2010; Gramlich &
+Rubinfeld, 1982; Holcombe, 1980). Communities with higher-income families may choose to
+spend more because they can. Communities with larger shares of adults and parents with
+higher education may have a greater preference to spend on schools, whereas communities
+with larger shares of elderly citizens without school-aged children may prefer to spend less on
+schools (Fletcher & Kenny, 2008). Communities in which larger shares of the taxable property
+
+50 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+wealth lie in high-value commercial or industrial properties may have an easier time raising an
+additional dollar in revenue (because less of it falls on the median voter/homeowner). A welldesigned state school finance formula should mitigate these inequalities in fiscal capacity and
+taste, meaning that there should not be an association between these factors and school
+spending across Oregon.
+The right side of Step 1b serves a secondary purpose in identifying factors that may predict
+spending variation that is not associated with outcomes — or inefficiencies, per se. Importantly,
+this should not necessarily be construed as waste. Rather, some communities with high income
+and low tax prices may choose to spend on additional programs and services (more elaborate
+arts programs, electives, boutique sports such as fencing, lacrosse, squash, etc.) that the
+community desires but may have a less direct impact on the outcome measures used in our
+models. We will revisit this in Step 2. The purpose of Step 1b is to reveal the current patterns of
+Oregon’s educational funding levels and funding equity. This allows us to compare the current
+state of funding and outcome in Oregon to what it would require to adequately fund all
+students, which we calculate in our cost function model in Step 2a.
+Exhibit A.2. Conceptual Model for Step 1b. Spending Analysis
+
+Step 2a. Developing a School-Level Cost Function Model for Projecting the Cost
+of Adequate Education
+Step 2 takes us from characterizing current relationships between student and district (or
+school) characteristics, outcomes, and spending to estimating a model of what a cost-based
+adequate funding model would look like in Oregon. In Step 2a, shown in Exhibit 4, we develop a
+cost function model to determine the costs associated with achieving a given level of
+educational outcomes for all children and across all settings. In our models, we predict
+adequate costs based on real world variation in school-level expenditures that contain variation
+associated with the educational outcomes of interest which we classify as true costs and
+
+51 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+variation on other community preferences and institutional choices, outcomes, and student
+characteristics. To appropriately estimate the costs associated with achieving adequate levels
+of educational outcomes for all students, we must disentangle spending associated with our
+outcomes of interest (the blue and yellow circles in Exhibit A.3.) from the spending variation
+due to preference and choice (the purple circle in Exhibit A.3.)
+To do this, we first include our student need (risk) factors and other district characteristics such
+as economies of scale, population sparsity, and regional variation in competitive wages (the
+blue and yellow bubbles in Exhibit A.3). These measures are considered true “cost factors” in
+that they are (1) factors outside the control of local schools or districts and (2) characteristics
+that affect costs (i.e., the spending needed to achieve the desired outcomes).
+We then include factors that might affect spending choices not directly associated with the
+measured outcomes (the efficiency factors in the purple bubble in Exhibit A.3.). Measured
+school outcomes, such as test scores, attendance, or graduation rates, do not encompass the
+full scope of the purpose or aims of public schooling. However, as a cost function is constrained
+to predicting measures that are readily quantified and publicly available, we must predict costs
+while netting out local preferences on spending and other possible determinants of inefficiency,
+including competition density and local public monitoring (Duncombe et al., 1997; Grosskopf et
+al., 2014). This step is a critical feature of the cost model and one that is lacking in other
+commonly used methods of estimating the cost of an adequate education, such as the
+education production function.
+In turn, we identified a set of factors to be used as indirect efficiency measures that predict
+additional spending variation, above and beyond spending variation associated with outcomes.
+These include a Herfindahl Index (sum of squared school shares of districtwide enrollment), the
+ratio of median housing values to labor market averages, total assessed property value per
+pupil, the district-level percentage of net assessed value that is personal property, and the GINI
+index (a measure of county level wealth inequality that details the extent to which total
+household incomes are equally distributed within counties [more equality] or are concentrated
+among a smaller share of the overall population [less equality]).17 Our predicted costs using the
+estimated cost function set these efficiency factors to the statewide averages so that our
+projections of the spending associated with achieving target outcome levels can be understood
+as being for a district of average wealth, income, taste, tax prices, and other efficiency
+pressures.
+
+17 The efficiency controls were derived from data obtained from the ODE, NCES, and Census.
+
+52 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Another complication in cost modeling, wherein spending per student is the dependent
+measure, is that spending and outcomes exist in a potentially circular relationship, indicated by
+arrows between the green and blue circles in Exhibit A.3. It is simultaneously true that (a)
+spending affects the outcomes and (b) outcome goals affect spending choices. This circular
+relationship is problematic, as ideally there would be a one-way relationship, with the
+dependent measure (spending) varying due to variation in the independent variables
+(educational outcomes,) but not the other way around. This can bias the estimated relationship
+between outcomes and spending. Fortunately, we can employ a statistical technique known as
+an instrumental variables or two-stage least squares approach, which corrects for bias in our
+estimates due to the circular relationship between spending and outcomes. As shown in the
+bottom right of Exhibit 4, it does so by using instruments (the black circle in Exhibit A.3) that are
+related to outcomes only through their relationship to costs.
+We follow the standard statistical guidance for implementing instrumental variables, which
+have been developed and refined in academic research for decades (Duncombe & Yinger, 1997;
+1998; 2006; Gronberg et al., 2017; Imazeki & Reschovsky, 2006; Taylor et al., 2018). Specifically,
+our cost function model uses a set of conceptually relevant and statistically appropriate
+exogenous “instruments” to use in our first stage regressions as predictors of school-level
+outcomes, based on characteristics of surrounding schools and districts. These include the
+average outcome factor index of the nearest 10 schools outside of the observed district, and
+the median household income of other districts in the same labor market space (NCES, n.d. –
+b).
+Exhibit A.3. Conceptual Model for Step 2a. Cost Modeling
+
+53 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Step 2b. Translating the School-Level Cost Model into a District-Level Weighted
+Funding Formula
+As noted above, the cost function is a complex statistical model that identifies, at average levels
+of efficiency, the relationship between spending and outcomes, and it can be used to predict
+the spending needed to achieve a given level of outcomes (at average efficiency) for each
+school or district in Oregon based on the children they serve and their geographic and
+economic context. In Step 2b, we translate the complex cost function model results into
+relevant, usable pupil-based weighted funding models (Exhibit A.4).
+The cost predictions from Step 2a include spending from state and local sources and from
+federal sources. Because state funding formulas only distribute funding from local and state
+sources, we start by subtracting the typical rates of federal funding (i.e., federal funding levels
+prior to the influx of funding following the onset of the COVID-19 pandemic) from the cost
+targets. Next, we identify a set of student needs and district contexts that are associated with
+increased education costs. We run a statistical model to estimate the weights (or multipliers),
+that when applied to a base-per-pupil funding amount, would appropriately differentiate
+funding levels according to the unique levels of student needs and district contexts in order to
+provide equal opportunity for all districts to achieve the target level of student outcomes.
+Using the funding adjustment weights and base funding from our weights models, we further
+construct a simulation in which the weights and base funding amount are applied to each
+district to generate a funding allocation target from state and local resources.
+Exhibit A.4. Conceptual Model for Step 2b. Translation to Formula
+
+54 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Appendix B. Explaining the Economic Disadvantage
+Index
+In this appendix we provide a brief explanation of our construction of an EDI for the State of
+Oregon. Plausible measures for use as an indicator of economic disadvantage include the
+following:
+•
+
+School-reported shares of children who qualify for subsidized lunch under the National
+School Lunch Program (whose family income falls below the 185% income threshold for
+poverty)
+–
+
+•
+
+Share of children between the ages of five and 17 residing in each district who are from
+families that fall below the income threshold for poverty (100% threshold)
+–
+
+•
+
+Source. The ODE
+
+Source. U.S. Census Bureau, 2021
+
+Ratio of income to poverty income threshold (income-to-poverty ratio) for families of
+children residing in spaces geographically surrounding each school
+–
+
+Source. The NCES, n.d.-b
+
+As discussed and presented in the body of this report, existing school-level data on shares of
+children who qualify for subsidized lunches are unevenly distributed across Oregon schools. We
+also believe that due to increased use of the Community Eligibility Provision, reported rates of
+children qualified for free or reduced-priced lunches do not accurately represent child poverty
+variation across schools, especially for the range between 60% and 100%. Exhibit B.1 shows
+that over the past decade as more schools have exercised the Community Eligibility Provision
+option, the number of schools reported as having 100% of children qualified for subsidized
+lunches has increased. Also, far fewer schools are reported as having between 60% and 100% of
+children who qualify. It is quite likely that there exists meaningful variation in the extent of child
+economic disadvantage across these schools, which is masked by identical reported of 100%
+qualification on this measure.
+
+55 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Exhibit B.1. Distribution of School-Level Economic Disadvantage Rates, School Years 2014–15
+to 2022–23
+
+Note. Each graph reports an academic year (2014 = 2014–15 school year).
+Source. The ODE.
+
+The income-to-poverty ratio provided by the NCES (n.d.-b) suggests that a typical distribution of
+economic advantage/disadvantage exists. Where this index has a value of 100, families in
+neighborhoods around the school have income levels, on average, at the poverty level. Most
+families have much higher income than this. We can see from Exhibit B.2 that many schools are
+surrounded by neighborhoods that have more than five times the income level of poverty
+income (Index >= 500). The average appears to be somewhere between 200 and 300. This
+measure is not compromised by the Community Eligibility Provision but also may not perfectly
+capture school enrollment characteristics if significant differences between where students live
+versus where they attend school exist.
+
+56 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Exhibit B.2. Distribution of School-Level Income-to-Poverty Ratio, School Years 2014–15 to
+2022–23
+
+Note. Each graph reports an academic year (2014 = 2014–15 school year).
+Source. The NCES (n.d. -b).
+
+In our main report, we test the relationship between reported subsidized lunch rates and
+student outcomes, and between the income-to-poverty ratio and student outcomes, finding
+that the income-to-poverty ratio has a slightly stronger correlation with our outcome measure
+than the free/reduced lunch rate.
+We go on to test two alternatives, which we create by estimating regression models and
+generating predicted values of free/reduced lunch rates, referring to those predicted values as
+an Economic Disadvantage Index. Exhibit B.3 shows our two regression models. In the first, we
+predict reported economic disadvantage rates using (a) district census poverty rates and (b)
+regional variation in competitive wages. Note that we include the wage index because poverty
+thresholds (for subsidized lunches or the census) are not adjusted for the income that might be
+required from one location to another to have a comparable quality of life. Academic
+publications by the authors have shown the importance of adjusting poverty measures for
+competitive wage variation (Baker et al., 2013). The second model includes school-level racial
+
+57 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+composition—specifically the percentage of Hispanic and Black enrollments. This model
+explains substantially more variation in existing subsidized lunch rates than the first model
+(0.47 compared to 0.39). More importantly, the second model creates a student need index
+that is much more highly correlated with student outcomes (0.65 compared to 0.54). As such,
+we choose the student need index generated by Model 2 here for our cost modeling.
+Exhibit B.3. Regression Models of Economic Disadvantage
+DV = % economic
+disadvantage
+
+Income-to-poverty
+ratio
+Census poverty rate 5
+to 17-year-olds
+CWIFT
+% Black enrollment
+% Hispanic enrollment
+Time
+Constant
+Number of
+observations
+R2
+
+Level
+
+School
+District
+District
+School
+School
+
+Source
+
+NCES /
+EDGE
+Census /
+SAIPE
+NCES /
+EDGE
+ODE
+ODE
+
+Model 1
+
+Model 2
+
+Coefficient
+
+Standard
+Error
+
+Coefficient
+
+Standard
+Error
+
+-0.001***
+
+0.000
+
+-0.000***
+
+0.000
+
+1.781***
+
+0.058
+
+1.306***
+
+0.053
+
+0.575***
+
+0.051
+
+-0.589***
+
+0.052
+
+0.001
+0.050
+
+1.318***
+0.663***
+0.029***
+1.113***
+
+0.059
+0.014
+0.001
+0.050
+
+0.039***
+0.290***
+10,272
+
+10,272
+
+0.339
+
+0.471
+
+Note. *** p < .01. ** p < .05. * p < .1.
+Source. Census Small Area Income Poverty Estimates, National Center for Education Statistics Education
+Demographic and Geographic Estimates (EDGE) and Comparable Wage Index for Teachers (CWIFT) data, ODE
+supplied student enrollment data.
+
+Exhibit B.4 shows that the EDI generated by Model 2 is relatively normally distributed and does
+not suffer the overtime distortion created by community eligibility, even though the model is
+based on predicting variation in reported subsidized lunch rates.
+
+58 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+Exhibit B.4. Economic Disadvantage Index (Model 2)
+
+Note. Each graph reports an academic year (2014 = 2014–15 school year).
+Source. Census Small Area Income Poverty Estimates, National Center for Education Statistics Education
+Demographic and Geographic Estimates (EDGE) and Comparable Wage Index for Teachers (CWIFT) data, ODE
+supplied student enrollment data.
+
+59 | AIR.ORG
+
+Establishing the Costs of Adequate Education Opportunities for All Students in Oregon
+
+About the American Institutes for Research®
+Established in 1946, the American Institutes for Research® (AIR®) is a
+nonpartisan, not-for-profit institution that conducts behavioral and social
+science research and delivers technical assistance both domestically and
+internationally in the areas of education, health, and the workforce. AIR's work
+is driven by its mission to generate and use rigorous evidence that contributes
+to a better, more equitable world. With headquarters in Arlington, Virginia, AIR
+has offices across the U.S. and abroad. For more information, visit AIR.ORG.
+
+AIR® Headquarters
+1400 Crystal Drive, 10th Floor
+Arlington, VA 22202-3289
++1.202.403.5000 | AIR.ORG
+Notice of Trademark: “American Institutes for Research” and “AIR” are registered trademarks. All other brand, product, or company names are trademarks or registered trademarks of their
+respective owners.
+Copyright © 2023 American Institutes for Research®. All rights reserved. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including
+photocopying, recording, website display, or other electronic or mechanical methods, without the prior written permission of the American Institutes for Research. For permission requests,
+please use the Contact Us form on AIR.ORG.
+27218_01/25
+
+1 | AIR.ORG
+
+Document Title
+
+
