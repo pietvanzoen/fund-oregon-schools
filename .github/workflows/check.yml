@@ -2,6 +2,7 @@ name: check
 
 on:
   pull_request:
+    types: [opened, synchronize, reopened, labeled, unlabeled]  # labeled: the no-update label reruns the check
   push:
     branches: [main]
 
@@ -10,6 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # history, so the PR's changes can be diffed against its base branch
+          filter: blob:none  # but no old file contents: sources/ holds large PDFs
       - name: Citations and data files
         run: python3 tools/check_citations.py
       - name: Queue and archived files
@@ -22,3 +26,6 @@ jobs:
           for f in tools/derive_*.py; do python3 "$f"; done
           git add --intent-to-add analysis/derived/ 2>/dev/null || true  # a new, uncommitted output shows in the diff too
           git diff --exit-code -- analysis/derived/
+      - name: What's new row for this PR
+        if: ${{ !cancelled() && github.event_name == 'pull_request' && !contains(github.event.pull_request.labels.*.name, 'no-update') }}
+        run: python3 tools/check_citations.py --pr ${{ github.event.pull_request.number }} --base origin/${{ github.base_ref }}

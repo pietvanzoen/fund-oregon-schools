@@ -10,7 +10,7 @@ build their own materials.
 ## Latest updates
 
 <!-- site: latest updates -->
-See `updates.md`.
+See `updates.csv`.
 
 ## Start here
 

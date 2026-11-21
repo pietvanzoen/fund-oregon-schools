@@ -112,6 +112,32 @@ def main():
         os.remove(f"{root}/analysis/b.md")
         os.remove(f"{root}/analysis/c.csv")
 
+        # What's new: updates.csv has its own columns (no source); --pr wants a row for a PR touching analysis/
+        open(f"{root}/analysis/updates.csv", "w").write(
+            "date,text,page,pr\n2026-11-21,Ok,a.md,5\nNov 21,,nope.md,x\n")
+        r = run(root, "check_citations.py")
+        assert r.returncode == 1 and r.stdout.count("ERROR") == 4 and "no 'source'" not in r.stdout, r.stdout
+        open(f"{root}/analysis/updates.csv", "w").write("date,text,page,pr\n2026-11-21,Ok,a.md,5\n")
+        git = ["git", "-C", root, "-c", "user.email=t@t", "-c", "user.name=t"]
+        subprocess.run(git + ["init", "-q", "-b", "main"], check=True)
+        subprocess.run(git + ["add", "-A"], check=True)
+        subprocess.run(git + ["commit", "-qm", "base"], check=True)
+        subprocess.run(git + ["checkout", "-qb", "pr"], check=True)
+        open(f"{root}/analysis/open_questions.md", "w").write("not on the site\n")
+        subprocess.run(git + ["add", "-A"], check=True)
+        subprocess.run(git + ["commit", "-qm", "q"], check=True)
+        assert run(root, "check_citations.py", "--pr", "7", "--base", "main").returncode == 0
+        open(f"{root}/analysis/a.md", "a").write("More.\n")
+        subprocess.run(git + ["commit", "-qam", "a"], check=True)
+        r = run(root, "check_citations.py", "--pr", "7", "--base", "main")
+        assert r.returncode == 1 and "no row with pr 7" in r.stdout and "analysis/a.md" in r.stdout, r.stdout
+        open(f"{root}/analysis/updates.csv", "a").write("2026-11-22,More,a.md,7\n")
+        subprocess.run(git + ["commit", "-qam", "row"], check=True)
+        assert run(root, "check_citations.py", "--pr", "7", "--base", "main").returncode == 0
+        shutil.rmtree(f"{root}/.git")
+        os.remove(f"{root}/analysis/updates.csv")
+        os.remove(f"{root}/analysis/open_questions.md")
+
         # glossary warning (rule 11): unknown abbreviations warn; glossary terms, "(XYZ)" and tags don't
         open(f"{root}/analysis/glossary.csv", "w").write(
             "term,full_name,kind,tooltip,definition,source\nSSF,State School Fund,acronym,t,d,[NEWS:NEWS-1]\n")
