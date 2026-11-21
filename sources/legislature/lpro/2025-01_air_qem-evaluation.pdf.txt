@@ -1,0 +1,1795 @@
+Im lo
+
+Review and Evaluation of the Efficacy
+and Methodology of the Quality
+Education Model
+Submitted to:
+Oliver Droppers | Deputy Director for Policy Research
+Legislative Policy and Research Office
+Oregon State Capitol
+900 Court St NE Rm. 453
+Salem, OR 97301
+(503) 986-1520
+Submitted by:
+Christopher D. Brooks | Researcher
+Jesse Levin | Principal Research Economist
+American Institutes for Research
+January 2025
+
+Contents
+
+Introduction .................................................................................................................................... 1
+Description of Data and Methods............................................................................................... 2
+Section 1. Techniques for Costing Out Adequate Education .......................................................... 2
+Costing Out an Adequate Education for All Students ................................................................. 2
+Input-Oriented Approaches ........................................................................................................ 3
+Outcome-Oriented Approaches ................................................................................................. 5
+Summary of Methods of Estimating the Cost of an Adequate Education.................................. 7
+Comparing the PJP and Cost Function Approaches .................................................................... 8
+Section 2. Defining Best Practices for the PJP Approach .............................................................. 10
+Defining Goals ........................................................................................................................... 10
+Developing Prototype Schools .................................................................................................. 12
+Recruiting Panelists and Building Panels .................................................................................. 14
+Determining the Types and Quantities of Resources to Specify .............................................. 16
+Establishing Prices for Goods and Service ................................................................................ 20
+Applying PJP Cost Estimates to Generate Adequate Cost Estimates for Actual Schools
+and Districts .............................................................................................................................. 21
+Summary of Section 2 ............................................................................................................... 24
+Section 3. The QEC and QEM ........................................................................................................ 24
+Summary of the QEC and Prior Reports ................................................................................... 24
+Summary of the Methods of the QEM ..................................................................................... 25
+Summary of Section 3 ............................................................................................................... 27
+Section 4. Evaluating the Strengths and Weaknesses of the QEM............................................... 27
+Conclusion ..................................................................................................................................... 30
+References .................................................................................................................................... 34
+
+ii | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+Exhibits
+
+Exhibit 1. Summary of the Strengths and Weaknesses of Professional Judgment Panels
+and Cost Functions .......................................................................................................................... 9
+Exhibit 2. Summary of Best Practices to Define Goals .................................................................. 11
+Exhibit 3. Outlining a Set of Hypothetical Schools for PJPs to Develop Prototypes ..................... 13
+Exhibit 4. Summary of Best Practices for Developing Prototype Schools .................................... 14
+Exhibit 5. Summary of Best Practices for Building the PJP Panels ................................................ 16
+Exhibit 6. Example Essential Programmatic Components for PJP Analysis .................................. 18
+Exhibit 7. Example Assumptions for PJP Resource Specification.................................................. 19
+Exhibit 8. Summary of Best Practices for Determining the Types and Quantities of
+Resources ...................................................................................................................................... 20
+Exhibit 9. Summary of Best Practices for Establishing Prices in PJP Analysis ............................... 21
+Exhibit 10. Summary of Best Practices for Estimating Adequate Costs for Actual Schools
+and Districts .................................................................................................................................. 23
+Exhibit 11. Summary of Our Recommendations for Improving the Methodology of the
+QEM .............................................................................................................................................. 31
+
+iii | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+Introduction
+In this report, we offer a review and evaluation of the methodology and efficacy of the state of
+Oregon’s Quality Education Model (QEM). The QEM is primarily a Professional Judgment Panel
+(PJP) approach to education cost modeling developed and used by the Quality Education
+Commission (QEC) to estimate the total statewide cost of providing an adequate education to
+meet the quality goals established by state law. The American Institutes for Research® (AIR®)
+has decades of experience in conducting PJP cost studies, including studies in California
+(Chambers et al., 2006; Levin et al., 2018), Delaware (Atchison et al., 2023), New Mexico
+(Chambers et al., 2008), New York (Chambers et al., 2004), and Ohio (Levin et al., forthcoming).
+Over this period, AIR has continued to develop and refine the methodological best practices of
+producing robust estimates for the adequate cost of education that are built on the
+professional expertise of educators. In applying this expertise to an assessment of the QEM, we
+answer the following four questions:
+1. What are commonly accepted methods for estimating the cost of an adequate
+education, and what are the relative strengths and weaknesses of the PJP approach
+used in the QEM?
+2. What are the best practices for conducting a PJP, and why are these practices important
+when determining the costs of an adequate education?
+3. What methods and practices are used in the QEM to estimate adequate costs?
+4. How can the methods employed in the QEM be modified or improved to better align
+with the best practices for conducting a PJP?
+We answer these questions in the four sections below. First, we review the advantages and
+disadvantages of the PJP approach and compare this method with alternative costing-out
+approaches. Second, we leverage our experience in conducting PJP analysis to describe the best
+methodological practices for implementing the PJP approach. Third, we offer a history and
+summary of the QEM, and its methods, inputs, and assumptions. Finally, we provide a critical
+evaluation of the strengths and weaknesses of the QEM’s methodology with suggestions for
+how the process and methods used to develop the QEM and its cost estimates might be
+improved.
+
+1 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+Description of Data and Methods
+Our analysis of the methods and best practices for conducting cost studies and the PJP
+methodology are based on published studies and reports by AIR (Atchison et al., 2023;
+Chambers et al., 2004; Chambers et al., 2006; Chambers et al., 2008; Chambers & Levin, 2009;
+Levin et al., 2018; Levin et al., forthcoming)). Our analysis of the QEM is based on several
+publicly available sources. These include the 14 QEC reports published between 1999 and 2024
+and Appendices C and D of the 2024 QEC report (QEC, 2024). We also consulted Oregon
+Revised Statutes 327.497; 327.500; 327.502; and 327.506 (2024), which pertain to the
+establishment of the Quality Education Commission, the appointment and terms of its
+members, the state’s quality education goals, and the reporting requirements for the QEM.
+Finally, based on knowledge gathered through these sources, we also spoke with the current
+QEC Chair and asked clarifying questions on the processes involved in the QEM.
+
+Section 1. Techniques for Costing Out Adequate Education
+This section provides an overview of costing-out techniques in education finance research, with
+a particular emphasis on the PJP approach, which is the primary method used to develop and
+maintain the QEM. We first summarize the aims of costing-out adequate education. We then
+define and detail the PJP approach. Finally, we compare the relative strengths and weaknesses
+of the PJP approach with other common costing-out techniques, such as the education costfunction and evidence-based approaches.
+
+Costing Out an Adequate Education for All Students
+Educational adequacy requires that all students should have equal opportunity to achieve a
+common set of outcomes at the same target level, regardless of their specific educational needs
+or learning circumstances, including where they attend school. Achieving performance targets
+requires appropriate educational resources. In turn, districts must have the funding to purchase
+those resources. Therefore, determining the cost of an adequate education for all students is
+essential for ensuring that K-12 school systems are funded appropriately.
+The cost of educating students to a common level of outcomes varies across schools and
+districts based on the level of student needs or other contexts, known as cost factors. Cost
+factors are characteristics of students, schools, or districts that affect the level of spending
+required to achieve stated goals and are outside the control of local school and district
+administrators (Chambers & Levin, 2009). These can include levels of student need (e.g.,
+experiencing economic disadvantage, having a disability, or being an English learner), as well as
+other district and school contexts such as degree of urbanicity, enrollment size, and staffing
+price levels determined by local labor markets.
+
+2 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+The purpose of a cost study is to estimate the amount of funding required to provide an
+adequate education for all students, across all contexts, in a state. Determining the cost of an
+adequate education is both theoretically and methodologically complex, and when done to the
+highest standard involves two key components. First, the cost study should identify the total
+level of funding required to support an adequate education. Second, it should identify how the
+cost of meeting the target outcome varies according to student needs and other contextual
+factors.
+There are two basic methodological approaches that are widely accepted by researchers as
+being valid for estimating the cost of an adequate education: (1) input-oriented approach and
+(2) the outcome-oriented approach. Below we compare the most rigorous input-oriented
+approach, the PJP, with the most rigorous outcome-oriented approach the cost function.
+
+Input-Oriented Approaches
+Input-oriented analyses attempt to identify the inputs or resources (i.e. ingredients) necessary
+for providing an adequate education and then determine the cost of those resources. This
+process is built on the ingredients method to cost analysis, later termed the resource cost
+modeling (RCM) approach that has been widely used to cost out educational interventions and
+programs (Chambers, 1999, 2001; Chambers & Hartman, 1981; Levin, 1983; Levin & McEwan,
+2001; Levin et al., 2018). The RCM as applied to educational adequacy studies can be formally
+defined by three basic steps:
+1. Identify the personnel and non-personnel resources necessary to implement
+educational programming that will allow all students the opportunity to achieve a
+common (adequate) set of outcomes at a minimal cost
+2. Determine appropriate input prices for these resources
+3. Combine the necessary resource quantities with their corresponding prices to
+calculate a total cost estimate (Cost = Resource Quantities × Price)
+Input-oriented education cost studies apply this process to estimate the cost of an adequate
+education. There are two general input-oriented approaches used in education cost studies for
+identifying the resources in Step 1 of the RCM: the PJP approach, and the evidence-oriented
+approach. The following offers a summary of both approaches and explains why the PJP
+approach is more appropriate for estimating the cost of adequate education.
+
+The Professional Judgment Panel Approach
+PJP involves convening focus groups of expert educators to design programs and specify the
+resource quantities needed to implement school-level education programs that will achieve
+specific outcome goals at a minimum cost. Resource specifications include a broad array of
+personnel and non-personnel resources such as student-teacher ratios in each grade level,
+
+3 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+numbers of full-time equivalent counselors, social workers and other pupil support staff in a
+school, and the amount of professional development funding in a school year. In cost studies
+conducted by AIR that use the PJP approach, expert panelists are encouraged to keep four
+guiding principles in mind when determining these resource quantities:
+1. Goals: Will your program designs and resource specifications allow students to achieve
+the objectives in the goals statement?
+2. Evidence: Is there evidence from research or panelists’ professional experience that
+supports the program design and suggested resource quantities?
+3. Efficient: Will your program designs and resource specifications achieve the goals at a
+minimum cost?
+4. Realistic: Can your program designs and resource specifications realistically be
+implemented?
+There are several key design components that we believe are especially important for operating
+a high-quality PJP. They are:
+•
+
+defining outcome goals that reflect state priorities and leverage several perspectives on
+educational success,
+
+•
+
+developing prototype schools that vary by levels of student need and district and school
+contexts that influence the cost of achieving the outcome goals,
+
+•
+
+recruiting panelists with a variety of educational expertise who serve different roles
+(principals, teachers, specialists in serving specific student populations such as English
+learners or students with disabilities), and who represent the different district and
+school contexts that exist across a state,
+
+•
+
+determining the types of resources that should be considered by panelists in developing
+educational program designs for a set of hypothetical schools that are representative of
+the range of student needs and school/district contexts across the state,
+
+•
+
+facilitating panel discussions in which the hypothetical school program designs are
+developed and the resources necessary to implement these designs are specified,
+
+•
+
+establishing prices for the goods and services specified by the panelists, and
+
+•
+
+estimating how adequate costs vary according to levels and types of student need and
+school and district contexts, based on the calculated costs associated with the
+hypothetical school program designs.
+
+4 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+When the steps above are implemented correctly, the PJP approach can generate valuable
+quantitative and qualitative information on the resources required for educational adequacy.
+First, there is quantitative information on how the cost of an adequate education varies
+according to levels of student need and other school and district characteristics. This
+information can be leveraged to estimate the cost of an adequate education for all schools and
+districts in a state. Second, there should be documentation of the rationale for the school
+program designs and corresponding resource specifications made by PJP panelists. These data
+can yield qualitative insights into the types of education programming and resources that
+expert panelists believe are the best practices for promoting student success. A unique
+advantage of the PJP approach is this combination of cost information (i.e., the cost of an
+adequate education and how cost varies according to student needs and school contexts) and
+documentation (i.e., how personnel and non-personnel resources should be deployed to
+maximize their efficacy). In Section 2 of this report, we will explore each of the key components
+listed in this section and outline the best practices for the PJP approach.
+
+The Evidence-Oriented Approach
+Another input-oriented approach for identifying resources is the evidence-based (EB) approach.
+The EB approach involves two steps: (1) compiling published research studies on existing school
+interventions proven to be effective at producing specific outcomes, and (2) deriving the
+resources used and their associated costs in order to generate cost estimates for providing an
+adequate education. Studies are selected based on how promising the research findings are in
+terms of demonstrating their ability to produce specific educational outcomes of interest.
+One issue with this approach is that the findings of any research study are contextual, with
+implementation of each intervention considered occurring in a particular school and district
+context (e.g., defined by the needs of students served, scale of operations of the school and
+district, geographic setting of the school) and at a given point in time. Therefore, the extent to
+which the amalgamated findings of these interventions—performed in multiple contexts and
+time periods—are generalizable to the current needs and interests of a different setting, is
+unknown. Accepting that the results of intervention studies involving student populations and
+school contexts that are dissimilar to those in the state of interest as appropriate for estimating
+adequate educational cost is highly questionable. We therefore prefer the PJP approach as the
+primary method for gathering the inputs upon and costs.
+
+Outcome-Oriented Approaches
+We now turn to describing the outcome-oriented approaches to adequate cost analysis, which
+rely on using school- or district-level data to evaluate the empirical relationship between
+aggregate per pupil spending and student outcomes. There are two primary techniques for
+using an outcome-oriented approach: (a) the cost function approach, or Education Cost Model,
+
+5 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+and (b) the Successful Schools Method or Beating the Odds Approach. Below, we offer a
+summary of each approach and explain why the cost function approach is the most appropriate
+outcome-oriented method for estimating the cost of adequate education.
+
+Cost Function Approach
+The goal of the cost function approach is to estimate what must be spent to achieve desired
+outcomes for the factors that influence the costs of meeting a set of educational goals. Salient
+cost factors include the scale of operations measured as enrollment size (i.e., this recognizes
+the existence of diseconomies of scale in which per-pupil costs are higher for smaller schools or
+districts than for larger schools/districts), geographic variation in the price of resources, and the
+characteristics of the student populations served. Typically, low-income students, English
+language students (ELs), and students with disabilities (SWDs) are recognized as requiring
+additional resources to achieve educational success.1
+In addition, rigorous cost functions account for the fact that there may be investments in
+outcomes that either are not measured or not included in the model. For example, having an
+exemplary basketball program may be something that a community values and is willing to
+invest in, but it may not affect the types of student outcomes included in the cost function. A
+thorough cost function attempts to account for these educational preferences, and therefore
+considers spending as a function of (a) measured outcomes; (b) characteristics of the
+educational setting (i.e., economies of scale, population density); (c) regional variation in the
+prices of inputs (e.g., teacher wages); (d) student population characteristics; and (e) factors
+affecting spending that are unrelated to outcomes.
+The cost function uses these variables to predict how spending differs as cost factors vary (e.g.,
+student needs, educational setting context, and price level of inputs) when outcomes are fixed
+to an adequate target outcome level and efficiency is set to an acceptable level (usually the
+efficiency level is set to the statewide average). These estimates can use data from every school
+or district in the state to capture myriad combinations of contexts, student needs, and
+spending. These cost estimates can then be applied to predict the amount of spending required
+for every school or district to achieve outcomes at an adequate level.
+
+1 In the Task 5 report of AIR’s evaluation of school funding in Oregon, we use the cost function approach to estimate the cost of
+
+adequate education in Oregon (Brooks et al., 2025). In that report, we compare the cost estimates produced by our cost
+function to current actual funding in Oregon and to the input-oriented cost estimates produced by the QEM’s PJP approach.
+
+6 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+The Successful Schools Method and Beating the Odds Approach
+The Successful Schools Method relies on researchers identifying schools that are considered to
+have adequate educational outcomes and then examining the level of spending and
+characteristics of these schools. These spending levels are then used to determine the cost of
+adequacy for schools and districts that are characteristically similar. The Beating the Odds
+Approach is a related strategy, wherein statistical techniques are used to identify schools
+performing better than expected when accounting for the funding the school receives and the
+demographic characteristics of the populations it serves.
+Both of these approaches are inferior to the cost function, as what is considered “efficiency” of
+schools in the context of a Successful Schools or Beating the Odds approach may correlate with
+other factors outside of a school’s control, such as the administrative costs associated with
+reporting requirements for federal or state programs that target high-need students. This is a
+fundamental and un-addressable shortcoming of the Successful Schools Method. Studies that
+rely on the Successful School Method will typically assert that the spending levels of a highperforming school with very few high-need students are indicative of the adequate level of
+resources that schools need to succeed. This effectively ignores the fact that some schools
+serve high rates of students with costly educational needs (e.g., EL or SWD) or have challenging
+cost structures (e.g., being a small, remote, and rural school). These high-cost schools cannot
+realistically be expected to produce equivalent student outcomes when provided the resources
+of a school without these types of cost factors.
+While the Beating the Odds approach attempts to statistically control for school characteristics
+that may be associated with the efficiency measure, there is always concern that omitted
+variables may contribute to “efficiency” scores, which would introduce bias into the selection of
+schools used to determine adequate cost. In the cost function, cost estimates are based on
+every school in the state, not selected exemplars, which alleviates concern over selection bias.
+One additional issue with the Beating the Odds approach is that relatively few schools
+consistently “beat the odds” over time (Chambers & Levin, 2009). This is especially true when
+examining various subpopulations of students and multiple measurements of student
+outcomes, all of which are salient to understanding how resources should vary to meet the
+differing levels of student need across schools and districts.
+
+Summary of Methods of Estimating the Cost of an Adequate Education
+The PJP approach and the cost function approach are the two most appropriate primary
+methods for costing-out an adequate education. However, we note that the process of
+identifying resources for adequate education could benefit by combining elements of the
+approaches described above. For example, in AIR’s PJP analyses, we provide panelists with
+evidence-based reviews, curated by external experts and the research team, on the best
+
+7 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+available education literature describing effective programs and services for supporting
+students with varying needs. We encourage panelists to base their resource recommendations
+on evidence that includes academic research. Furthermore, we have also previously provided
+panelists with resource profiles (e.g., staffing ratios) of typical schools as well as those that have
+been identified as high performing. However, both the reviews and profiles are ultimately
+meant to inform the professional judgment process and are not themselves used to determine
+the cost of an adequate education.
+
+Comparing the PJP and Cost Function Approaches
+The PJP approach and the cost function approach are both useful for gaining insights into the
+levels and types of resources needed to provide an adequate education for all students. While
+both use different methodological techniques, each have unique strengths and weaknesses
+that allow the two approaches to complement each other. In Exhibit 1, we summarize their
+strengths and weaknesses and explore these in more depth below.
+The strength of the PJP approach is that cost estimates rely on the expertise of teachers,
+administrators, and staff who are able to provide great detail surrounding how resources are
+best used to generate student outcomes. When panels are both numerous and representative
+of the educational contexts of interest, panelist expertise can offer detailed insights into the
+real-world needs of actual students and help to identify the specific types and quantities of
+resources that are required to promote student success.
+Furthermore, the PJP approach can estimate costs based on meeting a wider variety of
+educational goals than the cost function. States may have goals for education, such as
+preparing citizens for democratic participation or improving students’ character that are not
+readily quantifiable and thus cannot be included when creating estimates using large-data
+approaches, such as the cost function or successful school approaches. These broader goals
+may also not be widely studied in the academic literature, which also limits the utility of
+evidence-based approaches to take these goals into account. By contrast, expert panelists can
+consider the resources needed to attain these goals when creating cost estimates.
+Whereas being able to accommodate a broader set of goals is a strength, the lack of an explicit
+empirical link between resources and outcomes is also a weakness of the PJP. With PJP, the link
+between resources and outcomes is hypothetical, relying on the professional opinion of expert
+educators to know and recommend the appropriate combinations of resources to achieve the
+state’s educational goals. There is no guarantee that the planned programs, and associated
+collections of resources necessary to support them, represent the most efficient way to
+produce the desired student outcomes.
+
+8 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+Exhibit 1. Summary of the Strengths and Weaknesses of Professional Judgment Panels and
+Cost Functions
+Professional judgment panels
+Strengths
+
+Weaknesses
+
+Cost function
+
+•
+
+Can robustly estimate the cost of an
+adequate education.
+
+•
+
+Can robustly estimate the cost of an
+adequate education.
+
+•
+
+Outcome targets can contain both
+readily measured and more abstract
+education goals.
+
+•
+
+Directly examines link between
+resources and outcomes using
+administrative data.
+
+•
+
+Generates insights into how funds
+should be spent to achieve adequate
+outcomes.
+
+•
+
+Estimates based on all schools and
+districts with available data in the
+state.
+
+•
+
+More accurate when some schools
+and districts are presently meeting
+outcomes goals.
+
+•
+
+More accurate when some schools
+and districts are presently meeting
+outcomes goals.
+
+•
+
+Professional judgment makes a
+hypothetical link between resources
+and outcomes.
+
+•
+
+Outcomes limited to those that are
+readily measured and present in
+administrative data.
+
+•
+
+Limited to the number of education
+contexts evaluated by panels.
+
+•
+
+Limited ability to understand how
+funding is used to support
+educational programming.
+
+Additionally, it is impossible for PJPs to examine the full spectrum of possible educational
+contexts and the process is relatively burdensome and time-consuming for both the expert
+educators on the panels and researchers. The number of different hypothetical schools that can
+be examined during a PJP convening is necessarily limited. In turn, the student needs and
+contexts for which costs are estimated are limited by the number of hypothetical schools
+presented to panels.
+The cost function approach has the advantage of using actual data for all available schools and
+districts in a state, thus allowing cost estimates to be derived using real-world variation in
+needs and contexts in every educational setting. However, cost function analysis also has
+meaningful shortcomings relative to the PJP approach: cost functions can only predict
+outcomes that are readily quantifiable (e.g., test scores or graduation rates) and cannot
+estimate the costs required to achieve more abstract aims (e.g., developing a sense of
+democratic citizenship). Further, cost function analysis offers limited insights into the types of
+programs and resource configurations needed to actualize adequate student outcomes.
+
+9 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+Finally, all costing-out approaches are most useful when there are schools and districts currently
+meeting the educational goals of the state. For example, it would be more difficult for panelists
+in a PJP to estimate the resources required for an adequate education if they have no reference
+points for schools that are adequately resourced. Likewise, cost functions can more accurately
+project the cost of an adequate education when the target outcomes levels exist in actual data.
+
+Section 2. Defining Best Practices for the PJP Approach
+As noted in Section 1, there are six key components that we believe are essential for generating
+high-quality cost estimates of an adequate education using the PJP approach. They are:
+•
+
+defining outcome goals,
+
+•
+
+developing prototype schools,
+
+•
+
+recruiting panelists for the PJP,
+
+•
+
+determining the types of resources to be considered by PJP panelists,
+
+•
+
+establishing prices for the goods and services specified by the PJP panelists, and
+
+•
+
+estimating how adequate costs vary according to levels and types of student need, and
+school and district contexts.
+
+In this section, we elaborate on each of these key components and offer recommended best
+practices for conducting a high-quality PJP study. These are used to generate recommendations
+in Section 4 for how the QEM methodology may be improved.
+
+Defining Goals
+To understand the costs of an adequate education, it is essential for the PJPs to have a
+collection of the outcome goals (targets) for students in the state. In studies conducted by AIR,
+these have traditionally been formalized in a goals statement. Panelists design educational
+programs that will meet the outcome targets in the goals statement and specify the resources
+necessary to implement these programs at a minimum cost. A key strength of the PJP approach
+is its ability to accommodate an expansive view of outcome targets, including goals that are not
+easily quantified. Effective PJPs leverage this opportunity to define adequacy targets using
+multifaceted aims, which might include student well-being, academic and postsecondary
+success, and democratic citizenship. In addition, goals might include access to specific subject
+areas as is often described in state content standards. In Exhibit 2, we summarize the best
+practices for defining goals for PJP, and detail these points below.
+
+10 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+Exhibit 2. Summary of Best Practices to Define Goals
+Three defining goals for PJP analyses
+1. Set adequacy goals based on
+the published aims, content
+standards, priorities of the state,
+or public and stakeholder values.
+
+2. Leverage multiple goals,
+including more aims that are
+broader than only quantifiable
+academic achievement (e.g.,
+career readiness, preparation for
+an evolving world).
+
+3. Balance the breadth of
+goals selected with not
+overwhelming panelists with
+too many aims.
+
+A recommended starting point for determining appropriate outcome targets is to examine state
+plans and learning standards. For example, Oregon Revised Statute (ORS) 329.015 (2023) states:
+“The Legislative Assembly believes that the goals of kindergarten through grade 12
+education are:
+a. To equip students with the academic and career skills and information necessary to
+pursue the future of their choice through a program of rigorous academic
+preparation and career readiness;
+b. To provide an environment that motivates students to pursue serious scholarship
+and to have experience in applying knowledge and skills and demonstrating
+achievement;
+c. To provide students with the skills necessary to pursue learning throughout their
+lives in an ever-changing world; and
+d. To prepare students for successful transitions to the next phase of their educational
+development.”
+These aims, while broad, would make for useful outcome targets for a PJP in Oregon.
+Furthermore, ORS 350.014 (2023) defines the “mission of education beyond high school” to be
+that, by 2025, no less than 40% of adults earn at least a bachelor’s degree, 40% earn an
+associate’s degree or a postsecondary credential, and the remaining 20% or so earn a high
+school diploma or equivalent. While this aim is focused on higher education, it implies that an
+adequate educational opportunity as defined in Oregon includes a Grades K–12 school system
+that allows students to succeed in postsecondary studies.
+Other strategic plans offer more measurable goals for the PJP. For example, Oregon’s
+Consolidated State Plan Under the Every Student Succeeds Act (ESSA) enumerates annual
+outcome targets for the state in each school year from the 2014–15 to 2025–26 school year
+(Oregon Department of Education [ODE], 2023). These include 80% proficiency rates on math
+and English language arts standardized testing, 90% 4-year graduation rates, and 90% of English
+
+11 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+learners achieving English language proficiency in the 2025–26 school year. Oregon also
+includes chronic absenteeism rates as an accountability measure in its ESSA plan, although no
+formal target levels are defined. These measures are potentially useful outcome goals when
+costing-out an adequate education.2
+Finally, the goals of the PJP need to be aligned with the academic standards of the state. ODE
+publishes academic content standards to define what students should learn and what
+instructional supports and curricular differentiation should be available to all students (ODE,
+n.d.). Keeping such content standards in mind when developing adequate educational
+programming is essential.
+Setting the goals that the PJPs use as their objective in developing school program designs and
+specifying necessary resources is a balance between selecting ambitious outcomes that (1)
+accurately reflect a robust conceptualization of educational adequacy and (2) are focused
+enough so panelists can reasonably be expected to keep these aims in mind when completing
+their work. With too few outcomes, the cost estimates may not capture a meaningful
+conception of an adequate education. With too many outcomes, some important aspects of
+adequacy may not be fully considered.
+
+Developing Prototype Schools
+The next stage of the PJP process is to develop prototype schools, which are vignettes of
+hypothetical schools with defined characteristics and levels of student need. Panelists develop
+program designs that will provide an adequate education for students (i.e., one that will meet
+the outcomes defined in the goals statement) and determine the level of resources needed to,
+at a minimum cost, support their program designs in each hypothetical school. Through the
+development of multiple prototype schools in the PJP process, researchers can estimate the
+cost of providing an adequate education across schools with different characteristics and
+needs.
+Exhibit 3 offers a hypothetical example of how a PJP analysis may structure panels to generate
+cost estimates for schools with varying needs and characteristics. In this example, panels are
+differentiated by locale (urban, suburban, small towns, and rural). This will generate data on
+how the cost of adequacy, per pupil, may differ across educational contexts. Next, each panel is
+presented with three sets of tasks, one for each schooling level (i.e., elementary, middle, and
+
+2 The examples provided here are taken from published government documents; other sources of information may also
+
+generate useful guidelines for determining educational goals (e.g., surveys of educational stakeholders, engagement with the
+public, etc.).
+
+12 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+high). This ensures that the PJP cost estimates also account for the different programmatic
+needs of students as they progress through Grades K–12. Finally, for each schooling level,
+panelists complete four tasks to estimate costs in hypothetical schools that vary with respect to
+student needs:
+•
+
+Task 1 – Moderate needs school: A prototype school in which rates of student need (i.e.,
+SWD, EL, and economically disadvantaged) and total enrollment are set close to the average
+for schools for given urbanicity- and school-level categories in the state.
+
+•
+
+Task 2 – High-economic disadvantage school: A prototype school with a high level of
+economic disadvantage (e.g. the 90th percentile or average of the top quartile of the
+statewide distribution for given urbanicity- and school-level categories), with all other
+characteristics held at Task 1 levels.
+
+•
+
+Task 3 – High-economic disadvantage and high EL school: A prototype school in which both
+economic disadvantage and EL rates are high, holding all other values at Task 1 levels. Task
+3 is linked to Task 2 to provide realistic depictions of student need, as students that are EL
+also tend to experience economic disadvantage at high rates in many settings.
+
+•
+
+Task 4 – High SWD school: A prototype school where the SWD rate is set to the 90th
+percentile of the statewide distribution for given urbanicity- and school-level categories,
+holding all other values at Task 1 levels.
+
+Exhibit 3. Outlining a Set of Hypothetical Schools for PJPs to Develop Prototypes
+
+13 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+Under the scenario outlined in Exhibit 3, a total of 48 prototype schools would be developed by
+each PJP that describe the adequate programs and resources for hypothetical schools defined
+by specific levels of enrollment and economic disadvantage, EL, and SWD rates for each of the
+four locale categories, three schooling levels, and four tasks. That is, each prototype would be
+developed to reflect programs for actual ranges of student needs according to locale and
+schooling level. For example, if the 90th percentiles of the distributions of economic
+disadvantage and EL within each locale and schooling level were used to define the
+hypothetical High economic disadvantage/High EL school, we would expect these rates might
+differ dramatically between rural versus urban districts in Oregon. Developing the definitions of
+hypothetical school that are tailored to each context of interest, using actual data, ensures that
+the resource and cost estimates produced by the PJP are based on realistic scenarios.
+By having panelists complete these tasks by locale and schooling level categories, the PJP
+analyses outlined in Exhibit 3 will produce data on the cost of an adequate education for a
+school with moderate levels of need (Task 1) and be able to estimate how these costs differ as
+the level of student needs characteristics vary across locale and schooling level. These data are
+essential for providing quantitative estimates on school- and district-level adequate costs based
+on actual student need data in the state. Using a variety of school prototypes also yields
+valuable qualitative insights into the types and quantities of additional resources that are
+needed to adequately educate students with specific learning needs or in varying contexts. In
+Exhibit 4, we summarize the best practices for developing prototype schools.
+Exhibit 4. Summary of Best Practices for Developing Prototype Schools
+Three best practices for developing prototype schools in PJP analyses
+1. Generate multiple hypothetical
+schools to create variation in the
+cost factors of interest, including
+school characteristics and levels of
+student needs (i.e., SWD, EL,
+economic disadvantage).
+
+2. Define levels of student need
+and enrollment that define each
+hypothetical school using realworld data that pertains to the
+school characteristics of interest
+so that each PJP exercise is
+realistic.
+
+3. Balance variation in
+student needs and school or
+district contexts of interest
+with not overwhelming
+panelists with too many
+prototypes.
+
+Recruiting Panelists and Building Panels
+The third stage of the PJP process that we highlight is the recruitment of expert panelists. The
+most essential components of recruitment are:
+1. generating panels that represent the educational settings of interest for a given set of
+prototypes,
+2. including panelists with diverse perspectives, positions, and experience in schools and
+districts,
+
+14 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+3. including panelists who are familiar with the learning and resource needs of each
+student population and grade levels of interest, and
+4. running multiple panels who independently develop prototypes for the same set of
+hypothetical schools.
+Several of these goals are related to how the hypothetical schools to which PJPs respond are
+defined. For example, the hypothetical set of schools outlined in Exhibit 3 is stratified according
+to locale. Thus, to follow the first goal of building panels, it is necessary for the panelists who
+participate in estimating the cost of adequately educating students in a given locale type (e.g.,
+rural schools) to have experience working in that locale type. This helps to ensure that panelists
+are developing programs and specifying resources for schools in the context that they are
+accustomed to.
+Likewise, it is best for PJP panels to include members with representative and diverse sets of
+experiences. These include experiences in a variety of roles in a school, such as a mix of district
+or school administrators, general education teachers, English learner and special education
+teachers, instructional support (librarians, media technology coordinators), and pupil support
+staff involved in student well-being (e.g., counselors, educational psychologists, social workers,
+and community liaisons).
+Panels should also include panelists with experience across all the grade levels and types of
+student needs present in the hypothetical schools. For example, if all panelists have experience
+only in elementary schools, they will be limited in their collective understanding of how costs
+vary in middle and high schools. Similarly, if all panelists are from areas with low EL enrollment
+but are presented with a hypothetical school with high EL enrollment, they will be less able to
+accurately assess the needs of this student population.
+Finally, it is best practice to have multiple panels to increase the sample size used to estimate
+the cost of an adequate education. For example, the example set of hypothetical schools
+presented in Exhibit 3 requires at least four panels, each of which drawing on the experiences
+of educators from schools within each of the locale categories: rural, town, suburb, and city.
+This provides the level of expertise needed to arrive at robust cost estimates while also limiting
+the time burden on any one panel. However, ideally two or more panels would be created for
+each of these locale categories. This would allow for additional perspective on the cost
+estimates produced by the PJP study. This additional information would limit the risk that costs
+may be inaccurate from an outlier panel that developed extraordinarily rich or lean program
+designs and corresponding resource specifications.
+PJP work is time-intensive, which can make it difficult to recruit educators to fill the diverse set
+of roles that must be filled. The perspectives and expertise of each panelist necessarily inform
+
+15 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+the program design and resource specifications they provide. As noted above, while not every
+panelist needs to have experience in every aspect of the prototype schools, if the panel lacks
+the knowledge necessary to develop a comprehensive program design for each of the
+hypothetical schools, it is likely that the cost estimates that they produce will not satisfactorily
+estimate the cost of an adequate education. This undermines the accuracy and usefulness of
+the analysis. A diversity of roles and representativeness of the hypothetical schools of interest
+is therefore essential when developing PJP panels.
+Exhibit 5. Summary of Best Practices for Building the PJP Panels
+Four best practices for building panels for PJP analyses
+1. Ensure panelists
+represent the
+educational setting
+(locale) of interest in
+the hypothetical
+schools.
+
+2. Recruit panelists
+who have a variety
+of experiences
+across their roles as
+educators.
+
+3. Include panelists who
+are familiar with the
+resource needs of each
+student population and
+grade levels of interest.
+
+4. Run multiple
+panels to generate
+variation in cost
+estimates, even
+across the same
+hypothetical schools
+for which
+prototypes are
+being developed.
+
+Determining the Types and Quantities of Resources to Specify
+Determining the types and quantities of resources is a foundational step in PJP analysis. The
+first part of this process requires that the researchers are comprehensive in making
+programmatic decisions and specifying the types and quantities of personnel and nonpersonnel resources deemed necessary to provide an adequate education. Doing this correctly
+is critical, as any important or costly programmatic components that are not included at this
+stage will be missing from the resource specifications and subsequent cost estimates. This can
+lead to an underestimation of total costs and undermine the value of the PJP.
+
+16 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+In Exhibit 6, we outline the major programmatic components that AIR presents to panelists in
+its PJP analyses. Each component includes several types of individual resources that might be
+considered. While the list in the exhibit offers examples of the types of core positions to
+consider during PJP analyses, these are not meant to be exhaustive. The complete list of the
+exact types of resources made available must be developed within the context of the state
+educational system to align with the typical job titles and positions that currently exist.
+Moreover, the research team should necessarily be flexible in accommodating into the
+prototypes the addition of new types of staff or other resources that panelists feel are
+important.
+Also important to note is that the lists of resources specified by the panels need to vary
+according to school level. For example, in elementary school, the number of FTE teachers may
+be broken out by grade level, while in middle and high schools where courses are most often
+departmentalized it may be more appropriate to specify FTE teachers according to subject
+matter. Again, the types of resource decisions presented to panelists should mirror how the
+state structures its schools.
+There are some resources which may be important to include in the total cost of an adequate
+education that are too difficult or otherwise inappropriate for PJP panelists to cost-out. These
+can include costs such as (a) centralized district administration and services provided by the
+district to schools (e.g., itinerant district staff who provide special education services to
+individual schools); (b) substitute days; (c) food services; (d) transportation; and (e) facilities,
+maintenance, and operations. In such cases, the research team must first consider which to
+include in the cost estimates. For instance, in some states transportation or food services may
+be supported by funding sources and mechanisms that are separate from those used for core
+school instruction. Next, the research team must use secondary data sources to develop
+accurate estimates for the pertinent costs and add these to the school-level cost estimates
+based on the PJP resource specifications. The goal is to arrive at comprehensive cost estimates
+which can be used to inform district-level funding allocations that support the provision of an
+adequate education for all students in a district. This should necessarily consider both
+centralized district-level as well as school-level operations. Further, the process should reflect
+the best practices for establishing prices for resources highlighted later in this section.
+This stage of PJP analysis also includes panelists specifying the quantities of resources needed
+to support the program developed for each school prototype. While detailed instructions on
+how to facilitate a PJP panel are beyond the scope of this report, we emphasize the importance
+of facilitating the PJP effectively. In studies conducted by AIR, this requires at least one lead
+facilitator and one supporting staff member for each panel. Moreover, completing the initial
+draft of the full set of school prototypes takes no less than three days and requires follow up to
+fill in gaps and finalize the program designs and resource specifications.
+
+17 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+Exhibit 6. Example Essential Programmatic Components for PJP Analysis
+Component
+
+Description
+
+Programs, staff, and services
+Core instruction
+
+How many FTE teachers are needed to implement core instruction? In elementary school this may be broken out by
+grade level for core instruction and supplemented by additional subject matter specialists (e.g., arts, physical
+education, music). At the middle and high school levels, this may be specified by subject (e.g., math, English, history,
+science, foreign languages, health), and for Career and Technical Education. In all school levels, educational
+assistants, academic coaches, curriculum specialists, and remedial specialists may be needed.
+
+Special education and English
+language (EL) specialists
+
+How many FTE teachers and staff are needed who provide general special education, specialized services,
+speech/language pathology, occupational therapy, physical therapy, or specialized learning needs of EL students?
+
+Instructional and pupil
+support
+
+How many FTE staff are needed for pupil supports: guidance counselors, school psychologists, social workers, school
+nurses, librarians/media specialists, technology consultants, family/community liaisons, and services coordinators?
+
+Non-personnel expenditures
+and professional
+development
+
+What are the total or per pupil costs for: books; instructional technology/supplies; general supplies for classrooms,
+pupil supports, and administrators; extracurricular materials; contracted services; professional development; and
+professional travel and dues?
+
+Athletic programs
+
+In higher grade levels, what are the stipends or salary required for: athletic directors or other athletic
+administrators; coaches; student transportation for events; and contracted services, supplies, and equipment?
+
+Extended-day and extendedyear instructional programs
+and extracurriculars
+
+What share of students should attend extended-day or -year instructional programs (e.g., general education, special
+education) or participate in other afterschool curricular activities? How many days a year and hours per day are
+these offered? What is the target pupil–teacher ratio for these programs? Are assistants or administrators needed
+to support these programs? Are stipends above or instead of hourly compensation rates required? What is the cost
+of supplies, materials, and equipment per pupil in these programs?
+
+School administration and
+maintenance/operations staff
+
+How many FTE principals, assistant principals, professional administrative staff, and clerical office staff are required?
+Are school-level maintenance and operations or custodial staff necessary?
+
+School structure
+School year length and
+contract time
+
+How many instructional and non-instructional days per year should teachers, administrators, and staff be contracted
+for? How many hours should each be contracted for in a week?
+
+Teacher experience
+
+What should be the distribution of novice, mid-career and veteran teachers?
+
+18 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+The first step when facilitating PJP panels is to have panelists develop detailed program design
+documents for each hypothetical school. These program design documents should have
+detailed descriptions of the programs and supports in the schools and serve to describe how
+resources will be used to fulfill the educational needs of students in each school. The
+descriptions generated in this process yield valuable qualitative insights into the types of
+resources needed to provide an adequate education that can be used to develop
+recommendations for best practices for serving various types of student population.
+The second step of facilitating the PJP is to have panelists define the number of FTEs required
+to fill each position and the dollar values in total, per-pupil, per FTE position terms of the
+necessary non-personnel resources (e.g., professional development, books, materials) defined
+in the school prototype program designs. It is important that facilitators build consensus among
+panelists but simultaneously draw out competing views or differing perspectives that may
+inform cost estimates. This process can present challenges that are more easily addressed
+through advance preparation on the part of the study team and anticipation of panelist
+questions and concerns. One form of preparation is to define base assumptions for approaching
+the development of school prototypes, making clear what is and is not included in the adequate
+cost estimates. In Exhibit 7, we include an example list of assumptions regarding costs that may
+be presented to panelists.
+Exhibit 7. Example Assumptions for PJP Resource Specification
+Example assumptions
+1. All FTE work specifications must be made in 0.5 or whole integer increments to ensure staffing
+levels are realistic.
+2. Assume that the program being designed is for an existing school that has basic supplies,
+equipment, and textbooks that are typical of the state’s schools.
+3. Assume that the school has access to sufficient resources to devote non-personnel spending to
+student activities and athletics that are typical of the state’s schools.
+4. Assume necessary facilities already exist. Estimating funding for new facility development and
+improvements are outside the scope of this panel and therefore not part of the PJP tasks.
+5. Centralized facilities maintenance and operations are considered a district expense, and do not
+need to be accounted for by the PJP panelists.
+6. Centralized district administration costs will be addressed separately by the research team and do
+not need to be costed by the panel.
+7. Home-to-school and school-to-home transportation services will be addressed separately by the
+research team and do not need to be costed by the panel.
+
+19 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+Determining the types and quantities of resources is crucial in PJP analysis to ensure accurate
+cost estimates. This involves establishing programmatic decisions and resources, tailoring the
+resources to reflect the realistic school structures of each prototype, and considering both
+personnel and non-personnel costs. Effective preparation and facilitation are essential to build
+consensus among panelists and address multiple perspectives. By following the
+recommendations outlined in this section, and summarized in Exhibit 8, a PJP can provide
+reliable and comprehensive estimates for the cost of an adequate education.
+Exhibit 8. Summary of Best Practices for Determining the Types and Quantities of Resources
+Four best practices for determining resource specifications in PJP analyses
+1. Compile an
+exhaustive list of
+relevant resources that
+must be considered
+when determining the
+cost of an adequate
+education.
+
+2. Define the list of
+resources for which
+panels will specify
+quantities and
+differentiate these lists
+to accurately reflect
+different schooling
+levels represented by
+the hypothetical school
+tasks.
+
+3. Define the list of
+centralized resources
+for which the study
+team will estimate
+costs and document
+resources that are
+outside of the scope of
+the analysis.
+
+4. Present panelists
+with concise
+assumptions about
+costs and resources to
+facilitate more efficient
+discussions.
+
+Establishing Prices for Goods and Service
+Identifying prices for goods and services is a critical step in translating the resources specified
+by a PJP into estimated costs. The best practices summarized in Exhibit 9 are therefore
+essential. First, the study team should assume that all prototype schools face statewide average
+price levels for all goods and services, meaning there is no need to adjust the prices observed
+by the panelists for any regional differences.3 With this in mind, the guiding principle for this
+component of PJP analysis is to identify prices that are realistic and ideally based on real-world
+price data from the state where the PJP is conducted.
+Whenever possible, prices should be derived from school and district financial records within
+the state of the PJP study. For example, defining the compensation rate (price) of an FTE
+teacher using statewide average teacher salaries and benefit rates is more likely to yield
+accurate and relevant cost estimates than using national salary data. This principle also applies
+to other personnel and non-personnel goods and services. For this reason, it is best to use job
+
+3 In the final component of a PJP, discussed below, costs derived from prototype schools are used to estimate actual costs for
+
+schools and districts statewide. At this point, regional price differences should be accounted for.
+
+20 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+titles present in state salary records when presenting positions to PJP panelists for resource
+specification.
+When state data is unavailable, national sources may be appropriate. In such cases, it is
+recommended to adjust national prices to reflect state-level prices. In education, the most
+appropriate regional price adjustment for salaries and wages is the Comparable Wage Index for
+Teachers (CWIFT), an index published by the federal Institute of Education Sciences. This index
+measures the relative wage levels of individuals outside of education as a proxy for the relative
+costs of salaries in each state.4 For nonwage prices, other indices, such as the Regional Price
+Parity Index published by the U.S. Bureau of Economic Analysis (2024), are more appropriate.5
+The prices identified in this stage can be multiplied by the resource specifications generated by
+the panelists to estimate costs for each prototype school. These costs, if reported in total
+dollars, are then divided by the total enrollment in the prototype school to make per-pupil cost
+estimates that are comparable across the prototypes.
+Exhibit 9. Summary of Best Practices for Establishing Prices in PJP Analysis
+Three best practices for establishing prices
+1. Whenever possible,
+use average prices
+within the state being
+studied.
+
+2. Structure resource specifications
+to facilitate cost identification (e.g.,
+use job titles and roles that align
+with available salary and benefits
+data).
+
+3. When only national prices are
+available, adjust these prices to
+reflect costs in the state of analysis
+using vetted regional cost indices.
+
+Applying PJP Cost Estimates to Generate Adequate Cost Estimates for Actual
+Schools and Districts
+To this point, we have described the best practices for planning, developing, and implementing
+the PJP approach to produce cost estimates for each prototype school. In this section, we
+outline the best practices for translating the costs generated for prototype schools into
+estimates of the cost of providing an adequate education for all actual schools and districts in
+
+4 The CWIFT data and documentation is available at https://nces.ed.gov/programs/edge/economic/teacherwage.
+5 The Regional Price Parity Index data and documentation is available at https://www.bea.gov/data/prices-inflation/regional-
+
+price-parities-state-and-metro-area.
+
+21 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+the state. The best practices for this process are summarized in Exhibit 10.6 This work involves
+three primary stages:
+1. Using prototype-school-level cost estimates to estimate the average variation in costs based
+on levels of student need and school and district characteristics.
+2. Predicting school-level adequate costs for all schools in the state based on administrative
+data on actual school characteristics and student needs.
+3. Aggregating school-level costs to the district level, adding expenses that were excluded
+from the PJP resource specification process, and adjusting district-level costs by regional
+cost factors.
+The research team can use the costs calculated from the PJP panelists to create a dataset that
+includes the per-pupil cost estimates and the and the student and school characteristics for
+each prototype school. These data can then be used in a regression analysis using the following
+general formula:
+Adequate Cost Per Pupil = f(Student Needs Characteristics, School Characteristics,
+District Characteristics)
+In this formula, the dependent variable is the estimate of adequate cost per pupil derived from
+the prototype schools, and the independent variables are the defined values for student need,
+school characteristics, and district characteristics specified for the prototypes. The regression
+results will show how adequate cost varies with the various needs and characteristics according
+to the costs derived from the prototype program designs and resource specifications developed
+by the panels. For example, the estimated regression will measure how much more a school
+must spend per pupil as the rate of student economic disadvantage increases.
+This regression model can be used in combination with administrative data on actual levels of
+student need, school characteristics, and district characteristics to generate predictions of the
+adequate costs per pupil for every school in the state. Since education funding is typically
+distributed from districts to schools, it is best practice to aggregate school-level adequate costs
+to the district level. This can be done by multiplying each school-level cost projection by school
+
+6 While it is beyond the scope of this work to detail the exact statistical methods and modeling assumptions that are involved in
+
+this process, we recommend referencing prior AIR PJP analysis for additional details on the statistical analyses involved in these
+steps. This is not meant to imply that this stage of analysis is either a black box or especially complex. At its core, the most
+difficult step of PJP analysis is conducting a high-quality panel that yield accurate estimates of the cost of an adequate
+education. The analyses outlined for this component are doable on any commonly used program for statistical analysis or even
+MS Excel.
+
+22 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+enrollment, which generates total costs for each school, aggregating total costs to the district
+level, and then dividing these district-level total costs by total district enrollment.
+Because the aggregated district-level cost estimates generated from prototype schools omit
+centralized district expenditures or other estimates that are too complex to estimate in the PJP
+process, the predicted per-pupil costs for actual districts will underestimate the true total cost
+of an adequate education. To address this, existing fiscal data on district-level per pupil
+expenditures for items such as district administration, facilities and maintenance, food service,
+and transportation should be added to the district-level per pupil estimates of adequate costs.
+Finally, costs for educational goods and services vary across geographical regions, even within
+the same state. The best practice for identifying prices is to use statewide averages when
+available, so the cost estimates produced for each district will reflect statewide average
+regional pricing. Therefore, we recommend applying an adjustment based on regional cost
+factors (such as the CWIFT) to ensure that cost estimates reflect differences in costs across
+geographic areas within Oregon.
+Following these steps will produce district-level per pupil adequate cost estimates for all
+districts in a state. Costs can then be aggregated to the state level by multiplying per pupil costs
+in each district by total enrollment in each district and aggregating these across all districts in
+the state.
+Developing district-level cost estimates based on the findings of the PJP analysis is essential for
+translating the school-level resource specifications developed by the panelists into actionable
+evidence on the cost of an adequate education. These district-level estimates can be used to
+assess where differences between projected adequate per-pupil costs and actual expenditures
+per pupil exist and generate estimates of the statewide funding needed to meet adequacy
+targets.
+Exhibit 10. Summary of Best Practices for Estimating Adequate Costs for Actual Schools and
+Districts
+Three best practices for estimating adequate costs for actual schools and districts
+1. Use cost estimates from PJP
+prototype schools to estimate
+how adequate cost varies with
+respect to student need and
+school/district characteristics.
+
+23 | AIR.ORG
+
+2. Use the estimates of cost
+variation and administrative data
+on student needs and
+school/district characteristics to
+predict adequate school-level
+costs for all schools in state.
+
+3. Aggregate school-level
+cost estimates to the district
+level, add district-level costs
+not addressed by the PJPs,
+and apply regional cost
+adjustments.
+
+Review and Evaluation of the Quality Education Model
+
+Summary of Section 2
+Overall, there are many methodological considerations that are essential for implementing a
+PJP that produces valid estimates of the cost of an adequate education. This section highlighted
+the best practices for six key components of the PJP process. In the next section, we summarize
+the current practices used to develop and maintain the QEM across these same six
+components. We will then conclude by offering a series of recommendations on how the QEC
+may improve the methodology used by the QEM to estimate the cost of providing an adequate
+education in Oregon.
+
+Section 3. The QEC and QEM
+
+In this section we provide a brief overview of the QEC and their mandate, as well as an in-depth
+summary of the QEM as it pertains to the key components of the PJP process outlined in
+Sections 1 and 2. This discussion is then used to frame our policy recommendations in Section
+4.
+
+Summary of the QEC and Prior Reports
+The Oregon Quality Education Commission (QEC) was established in 1999 (and formally codified
+in 2001) to "define the costs sufficient to meet the established quality goals for kindergarten
+through grade 12 public education" (ORS 327.497). The commission consists of 11 members
+appointed by the governor of Oregon, with no more than five members being current
+employees of a public school district at the time of their appointment. Members serve fouryear terms but may be reappointed and replaced at the governor's discretion. Each appointed
+commissioner is also subject to senate confirmation.
+To estimate the costs for Oregon to meet its quality goals, the QEC defines the best practices
+that lead to high student performance and calculates the costs of implementing these practices.
+The QEC then uses these cost estimates to determine the total cost of an adequate education
+across Oregon. Every two years, the commission delivers a report to the Governor and Oregon
+Legislature, identifying the current practices and their costs (known as the Current Service
+Level) and the best practices and their costs (as defined by the QEM). The estimation of costs
+and delivery of reports are supported by staff from the Oregon Department of Education (ODE),
+who assist with research, data collection, and analysis.
+Since 1999, there have been 14 reports published by the QEC. Each report has detailed the cost
+of fully implementing the level of spending necessary to adequately educate students in
+Oregon. However, the legislature has never appropriated funds at the level recommended by
+
+24 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+the QEC. For the 2025-27 biennium, the QEC projects that an additional 20% of funding in the
+State School Fund would be sufficient to meet their projected statewide cost for an adequate
+education, equivalent to $2.252 billion in additional funding for education in the two-year
+budget period.
+
+Summary of the Methods of the QEM
+Fundamental to the cost projections produced by the QEC is the QEM. The QEM is an inputoriented cost model for educational adequacy that primarily relies on the professional
+judgment of the 11 QEC commissioners. Commissioners use multiple methods of data
+collection to inform their professional judgment, including reviews of research literature,
+surveys of education stakeholders throughout Oregon, and statistical analyses of current
+resource allocation patterns. The data collected by the QEC are supplemental to the
+commissioners’ professional judgment and do not directly determine resource specifications,
+meaning the QEM is primarily a PJP approach to cost estimation. Therefore, our summary of
+QEM methods and our recommendations in Section 4 focus specifically on the PJP practices of
+the QEM.
+As a PJP model, the QEM uses very few outcome goals and hypothetical schools for which
+prototypes are developed. For example, the only goal the QEM targets in its cost estimation is
+for Oregon to reach a 90% 4-year graduation rate. While this goal is included in Oregon’s ESSA
+plan, it is still notable that this is the only goal used, despite the quality education goals defined
+for the QEC in ORS 327.506 being more expansive (ODE, 2023).
+Likewise, there are only three prototype schools in the QEM used to drive cost projections,
+which are differentiated by schooling level (elementary, middle, and high). This means that the
+cost estimates produced by the QEM vary according to schooling level, but do not generate
+estimates for how costs may vary across other important cost factors, such as levels of student
+need (i.e., SWD, EL, or economic disadvantage) or school or district characteristics (e.g., locale).
+Furthermore, the 2024 QEC report notes that these prototype schools were developed in 1999
+using enrollment sizes that reflected the best practices identified in research literature at that
+time, and not on current data on average school sizes in Oregon.
+The limitations of the number of goals used when determining resource levels and the small
+number of prototype schools used were recognized by the QEC in their 2024 report (p. 59). The
+commissioners suggested that in future iterations of the QEM analysis they may need to
+expand both the number and types of goals, as well as the number of prototype schools. We
+agree with these points and will explore them in greater detail in Section 4.
+
+25 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+The QEM uses only one set of panelists when specifying resources for the prototype schools,
+which is composed of the 11 QEC commissioners. Because this is the only panel, and the QEC
+members are appointed by the governor and confirmed by the Oregon State Senate, it would
+be incumbent on the governor and Senate to ensure that the panel includes participants with a
+variety of perspectives and experiences representing the various contexts in which K-12
+education is delivered across the state.
+In terms of the identification and specification of resources, the QEM includes hundreds of
+inputs across many different aspects of each prototype school, including salary data;
+instructional staff and instructional support staff; extended school year programs; nonpersonnel costs associated with books, materials, and technology; and operational and district
+costs. For the 2022 report, the QEC undertook a significant reassessment of resource
+assumptions that had been in place in the QEM for some time. Resource specifications were
+modified to add additional nurses, counselors, summer school programs, EL student supports,
+classroom supplies, professional development, student and teacher computers, librarians,
+media center assistants, substitute teachers, family resource centers, and physical education
+and music teachers. It also reduced class sizes in elementary schools from 23–24 to 20
+students. The QEC noted its rationale for most of these updates and often included citations to
+external research supporting these changes.
+These changes are commendable as they demonstrate that the PJP practices of the QEM are
+responsive to evolving education contexts and needs. However, the updated assumptions made
+in the 2022 report also significantly increased the estimated cost of adequate education in
+Oregon by approximately $2 billion compared to the figure provided in the 2020 report. Having
+now made these substantial updates, it is possible that more incremental updating of all
+assumptions in the QEM may generate greater stability in cost estimates going forward.
+However, in the 2024 report, no additional resource types were added to the QEM, and no
+resource specifications were modified via professional judgment.
+The QEC determines the prices of the resources specified in the QEM using data provided by
+ODE. In our review of Appendix C of the 2024 QEC report, all prices listed appear to be
+calculated based on actual data from Oregon, suggesting that the cost estimates are built on
+prevailing state prices.
+Finally, the current QEM produces a single cost estimate for the adequate cost of education for
+all students in Oregon, based on the calculated costs per pupil in each schooling-level specific
+prototype multiplied by the number of students in Oregon belonging to each schooling level.
+This total funding amount is then reduced by the amount of actual or projected funding from
+
+26 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+sources other than the State School Fund (SSF), which is Oregon’s primary school funding
+model. The resulting measure is the estimated total funding amount needed in the SSF to meet
+the cost of an adequate education statewide. This amount is then compared to actual and
+projected legislative SSF appropriations for the upcoming funding biennium. The QEC then
+reports a funding gap between the SSF cost estimates and actual funding levels, which, as noted
+above, is estimated at $2.252 billion for the 2025–2027 biennium.
+Importantly, the lack of variation in student needs in school prototypes prevents further
+detailing of how estimates of adequate costs may differ across districts with varying levels of
+need, or how the size of gaps between QEM estimates and the Current Service Level in each
+district may vary according to certain types of student need. These insights would be valuable
+for better assessing the equity of Oregon’s school funding, a stated priority for best practice in
+the 2024 QEC report (p. 72).7
+
+Summary of Section 3
+The QEC has the challenging responsibility of estimating the cost of an adequate education for
+students in Oregon. As highlighted in Section 1, even if executed perfectly, any individual
+approach to costing-out education necessarily has meaningful limitations. The QEM is based on
+a PJP approach and as noted in Section 2, there are myriad best practices for conducting this
+type of analysis. Many best practices are time- and resource-demanding. In some instances,
+best practices cannot be fully met or implemented due to study constraints. Based on our
+review of the QEM methodology described in this section, we have identified several aspects of
+the QEM that do not align with PJP best practices that we believe can and should be addressed.
+In the next section, we outline our recommendations for how the QEC can improve the QEM to
+enable a more accurate analysis of the cost of an adequate education for all students in
+Oregon.
+
+Section 4. Evaluating the Strengths and Weaknesses of the QEM
+Based on our identification of the best practices in PJP analysis and summary of the QEM,
+Exhibit 11 offers a series of assessment ratings of how the QEM is currently performing, as well
+as recommendations for how the QEM methodology could be improved.
+
+7 Indeed, the ability to distribute funding across districts in an equitable manner has been stressed in the school finance
+
+literature as a key desirable property of funding mechanisms (Chambers & Levin, 2009).
+
+27 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+Regarding outcome goals, we recommend that the QEM integrate a more robust set of
+adequacy goals beyond just the attainment of a statewide 90% graduation rate. While this is an
+admirable goal, it does not fully reflect the broader aims of education or the goals and priorities
+of Oregon's public education system.
+For the construction of prototype schools, we recommend that the QEM substantially expand
+the number of prototypes to better reflect the variation in key student needs in Oregon.
+Currently, the QEM only differentiates by schooling level, using average values of student need
+across the state. This approach limits the quantitative and qualitative insights into how
+adequate costs vary with student needs. We recommend developing prototype schools that
+vary according to levels of student needs (i.e., SWD, EL, economic disadvantage) and school and
+district characteristics such as locale. While too many prototype schools may be burdensome,
+there are too few now, and a balance through iteration is likely the best approach.
+In terms of panel recruitment, we recommend greatly expanding the number of panels. The
+QEC might consider recruiting approximately 20 experts in various educational roles from
+districts and schools in each of the four locales (urban, suburban, town and rural) and dividing
+them into two distinct panels for each locale type. These panels should include teachers,
+administrators, staff, and other stakeholders who are representative of the school or district
+characteristics and educational contexts in Oregon. The panels of experts can then better
+estimate the types and quantities of resources needed across the state to provide all students
+with an adequate education.
+We also find that the QEC is generally effective in determining the types and quantities of
+resources needed and assigning prices using data specific to Oregon, which is made evident by
+the recent addition of Appendix C to QEC reporting. We encourage the QEC to continue to
+develop the presentation and transparency of this document, including directly reporting the
+actual salary and benefit rates for every staffing position included in the analysis, following a
+similar format to the “3. Salary History” tab in Appendix C.
+The 2022 QEC report updated the types of resources and assumptions being made in the QEM.
+While this updating is an essential practice, it also resulted in a sudden and substantial increase
+in the estimated adequate cost. A smoother integration of continual updates to resource types
+and assumptions that reflect shifting changes, priorities, and trends in the services offered by
+schools in Oregon will increase the stability of cost estimates over time, an important goal.
+Likewise, we note that the 2024 QEC report mentions that cost estimates do not include the
+costs of a 180-day school year, expanded Career and Technical Education programs, and gifted
+and talented services. This decision may be in part due to the narrow scope of the QEM target
+outcome goal, and it is within the discretion of panelists to exclude programmatic components
+
+28 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+that they determine are not required to provide an adequate education. However, we
+recommend that these and other components that may be of interest to the QEC be presented
+to future PJP panels as resource options and choices. Future panels may similarly conclude that
+these are not required to meet the QEM education goal but should nonetheless be allowed to
+consider them.
+Furthermore, if our recommendations are followed and the number of panels engaged in the
+PJP process increases, the QEC may need to rethink how assumptions and resource
+specifications are presented in the QEM to allow for greater input from participants less
+familiar with the QEM process. For example, instead of asserting assumptions about student-toteacher ratios for a school or grade range, participants should be able to specify the number of
+teachers by grade or subject for each prototype school. These expanded choices may create
+more opportunities for valuable discussion leading to more precise and efficient resource
+specifications.
+In combination with the PJP, the QEC engages in several other forms of data collection and
+analysis: research reviews, best practices surveys, and statistical analysis. We believe that all
+three are beneficial aspects of the QEM process but encourage that these measures only be
+used to bolster the professional judgment of the panelists and not be used for asserting
+resource levels that could otherwise be appropriately estimated by PJP panelists. For example,
+the best practices survey and research literature reviews can be used to identify resources that
+may need to be added to the QEM. However, neither should be used to assert specific resource
+specifications onto the QEM. Likewise, statistical analysis can be useful for identifying
+information on current resource and staffing levels across the state of Oregon, but it should
+only be used to identify types of resource to include in the models or to provide panelists with
+some baseline understanding of current resource specifications.8 Ultimately, it should be the
+expert panelists who determine the best practices for achieving Oregon’s education goals
+through their resource specifications and deliberations. Other methods may supplement and
+facilitate this process, but they should not subsume it.
+Last, we recommend leveraging the additional information produced by increasing the number
+of hypothetical schools and subsequent prototypes to estimate how costs per pupil vary with
+levels of student needs or other district characteristics. These insights can inform Oregon’s
+school funding formula by indicating how much additional funding per pupil is needed to
+
+8 The one exception to this is our recommendation that secondary data analysis be used to develop per-pupil cost estimates for
+
+resources that are too complex or otherwise inappropriate for panels to specify (e.g., centralized district administrative
+overhead, transportation, facilities and maintenance, and food service).
+
+29 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+adequately support higher-need students or schools operating in different contexts such as
+rural areas. The analyses, as outlined in our recommendations, will also yield district-level
+adequate cost estimates, which would allow the QEC to identify which districts are
+underfunded and whether these districts share any common attributes in terms of student
+need or other characteristics.
+
+Conclusion
+In this report, we have outlined the current QEM methodology and offered recommendations
+for aligning the QEM with PJP best practices. The PJP approach to estimating the cost of an
+adequate education is a valid and useful tool in education finance. High-quality implementation
+of a PJP requires many methodological considerations and decisions. Furthermore, following
+the best practices as we have defined them is both a resource-intensive and iterative process.
+PJP practices should be continually refined and improved to be responsive to the setting in
+which they are conducted; to do it will require that the QEC be given access to the resources,
+data, and expertise necessary to implement their analyses to the highest standard.
+Importantly, our findings do not invalidate the current QEM estimates. Fundamental errors in
+PJP occur when important resources are omitted, or inaccurate pricing data are used; neither is
+a concern with the current QEM methodology. The greatest misalignment between the QEM
+and PJP best practices is in aspects that impact the utility of the information produced. For
+example, current QEM cost estimates target only a single goal of 90% graduation rates.
+Expanding the goals to include a broader conceptualization of adequacy would make the cost
+estimates more meaningful and relevant to policy. Furthermore, introducing additional
+prototype schools that vary by characteristics and needs will generate data on how costs vary in
+these settings. This would enable QEC to report more in-depth findings related to equity, such
+as the gaps in actual spending and adequate costs that exist for school districts in Oregon,
+based on the levels of student need and other characteristics in each district.
+Finally, in the AIR Task 5 report on Oregon’s school funding system, we estimate the cost of an
+adequate education for all students using a cost function approach and compare our estimates
+of adequate costs to those generated by the QEM. As noted in this report, the cost function has
+unique advantages and disadvantages relative to the PJP approach used to develop the QEM.
+We believe that both PJP and cost function estimates are valuable and can be used conjointly to
+garner in-depth insights into the costs of an adequate education. If the QEC receives the
+support necessary to implement the PJP best practices outlined in this report, then we believe
+that the QEM and our cost function estimates would be valuable complementary tools for
+identifying the cost of an adequate education in Oregon.
+
+30 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+Exhibit 11. Summary of Our Recommendations for Improving the Methodology of the QEM
+
+Best practices
+
+Does QEM
+follow best
+practices?
+
+Recommendations
+
+Defining goals
+Set goals based on published aims
+and public values
+
+—
+
+The QEC uses a published goal of the state (90% graduation rates), yet many other goals are not
+considered, including those defined for the QEC in ORS 327.506. We recommend a review of other
+goals, including those mentioned in Section 2 of this report.
+
+X
+
+The QEC currently uses only one goal. We recommend adopting multiple additional measures of
+student outcomes based on the broader aims and values of the Oregon Grades K–12 public education
+system.
+
+Leverage multiple goals
+
+Balance having a variety of goals
+with not overwhelming panelists
+
+X
+
+Many additional goals can be adopted before significantly overwhelming panelists.
+
+Developing prototype schools
+Generate numerous prototypes
+X
+
+Currently, the QEC differentiates prototypes only by schooling level. We recommend significantly
+increasing the number of prototype schools according to school characteristics (such as locale,
+enrollment size, or method of instructional delivery), and by incidence of different student needs
+(such as EL, SWD, or economic disadvantage).
+
+—
+
+If the number of prototype schools increases, it is essential that they be generated to be realistic,
+meaning they use actual data for enrollment counts and levels of student need for schools with similar
+characteristics (e.g., locale). Prototypes with higher or lower rates of a given student need should
+likewise be calculated on actual data for high and low levels of student need in schools with similar
+characteristics. Currently, the QEC prototypes use enrollment sizes based on research estimates that
+are more than 25 years old. Using current data on elementary, middle, and high schools in Oregon
+would yield more realistic cost estimates. Student needs are considered in the QEM, but these are
+affixed to statewide averages and therefore lack the meaningful variation required to speak to the
+differential cost of meeting the needs of these student populations.
+
+Generate realistic prototypes
+
+Balance the number of prototypes
+with not overwhelming the
+panelists
+
+Many additional goals may be adopted before serious concern for overwhelming panelists is likely.
+—
+
+Note. “✓” indicates the QEM fully meets the best practice for PJP; “—” indicates the QEM partially meet the best practices for PJP; “X” indicates the QEM does
+not currently meet the best practice for PJP.
+
+31 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+Best practices
+
+Does QEM
+follow best
+practices?
+
+Recommendations
+
+Recruiting panelists
+Recruit panelists who reflect the
+setting of the prototype
+
+Ensure myriad roles in schools are
+represented
+
+Include panelists who are familiar
+with the grade levels and student
+needs of interest
+Run multiple panels to generate cost
+variation
+
+—
+
+Currently, QEC members represent a diverse set of experiences both inside and outside of the Grades
+K–12 education system in Oregon. As the number of prototype schools increases, we recommend that
+the QEC recruit panels of active educators who reflect the setting of the prototype school (e.g., recruit
+panelists only from rural schools and districts to serve on a panel developing prototypes for rural
+schools). Each panel should be composed of approximately 10 educators.
+
+—
+
+As the specificity of prototype schools increases with respect to locale and student needs, we
+recommend engaging larger numbers of panels and panelists in the QEM process. Each panel should
+be representative of a variety of roles and experiences, including instructors and instructional
+specialists, administrators, and school business officials.
+
+—
+
+All panels should develop programs and specify resources across multiple hypothetical schools that
+vary by schooling level and student needs. Therefore, each panel should include members who have
+direct experience serving the key characteristics of the hypothetical schools for which they are
+developing prototypes.
+
+X
+
+Currently, the QEC is the only panel used to specify costs, which does not produce variation in
+estimates. It is recommended that multiple panels would estimate costs for the same prototype
+schools to generate variation in cost estimates.
+
+—
+
+The QEC clearly documents myriad resources in the QEM. The QEM also includes several methods for
+identifying other resources to consider, such as the best practices survey, reviews of academic
+research, and quantitative analyses of resource spending in Oregon. However, as noted in the 2024
+QEC report, QEM projections currently omit consideration of the costs of a 180-day school year,
+expanded Career and Technical Education programs, and gifted and talented services. While the QEC
+has the discretion to omit inputs not deemed necessary for achieving adequacy in its own
+deliberations, we recommend that these and other potential resources be presented to future PJP
+panels as resource options. These programmatic components may be of greater interest as the
+number of goals used in the QEM process expand. Future panels should be presented with these
+options and then determine whether or not an adequate education requires these programmatic
+components.
+
+Identifying resources
+Compile an exhaustive list of
+resources
+
+Note. “✓” indicates the QEM fully meets the best practice for PJP; “—” indicates the QEM partially meet the best practices for PJP; “X” indicates the QEM does
+not currently meet the best practice for PJP.
+
+32 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+Best practices
+Define resources that panelists will
+specify, and differentiate by
+schooling level
+
+Does QEM
+follow best
+practices?
+
+—
+
+Define resources that the study
+team will specify and determine
+costs for
+Present panelists with assumptions
+about costs and resources
+Establishing prices
+Use statewide average prices
+whenever possible
+When using national prices, adjust
+these to state-level costs
+Structure resource types to facilitate
+accurate cost identification
+
+—
+✓
+
+Recommendations
+Currently, the QEC designs the QEM and also specifies resources. The QEM is effective at documenting
+the resources that are specified and differentiating these by school level. However, we recommend
+involving many more panelists in the resource specification work who have no role in identifying the
+resources in the QEM. As this expansion occurs, it is important that the QEC allows all appropriate
+resources to be specified by panelists, rather than asserting costs via the best practices survey,
+external research, or quantitative analyses of spending in Oregon. These sources may inform
+discussions, although panelists should make their decisions using professional judgment.
+For items that may be too complex for panelists or are irrelevant to school prototypes (e.g., food
+service, district overhead, transportation, facilities and maintenance), the QEC should set costs at
+fixed levels based on actual spending per pupil in Oregon.
+The QEM provides clear documentation of current resource assumptions. However, as more panelists
+are involved, these assumptions should be explicitly communicated to all participants.
+
+✓
+
+The QEM currently uses available data from ODE for prices when possible. We recommend this
+practice continue whenever possible.
+The only instances of national prices identified in the QEM are for growth rates in computer and
+textbook costs. Because these are rates, regional adjustment is not needed.
+
+✓
+
+The staffing roles included in QEM specifications align with job titles that currently exist in Oregon
+Public Schools. If the number of specified resources expands, this practice should be continued.
+
+✓
+
+Generating Cost Estimates
+Estimate average variation in costs
+based on student needs and school
+characteristics
+Predict actual cost levels for each
+school in the state
+Aggregate school-level costs to the
+district level, add centralized district
+costs, and apply regional cost
+adjustments
+
+—
+X
+
+X
+
+The QEM currently estimates cost variation across school levels. However, we recommend greatly
+expanding the types of variation considered to include more school and district contexts and levels of
+student need. This will produce detailed estimates of how costs vary across these settings.
+We recommend that the QEC adopt the approach outlined in Section 2 of this report for translating
+cost estimates for prototype schools into actual school-level cost projections.
+We recommend that the QEC adopt the approach outlined in Section 2 of this report for estimating
+the cost of adequate education at the district level for all districts in Oregon. This will allow for a more
+detailed assessment of the gaps between current funding and adequate costs in the state, and
+whether districts with larger gaps share common characteristics, such as urbanicity or higher levels of
+certain types of student need.
+
+Note. “✓” indicates the QEM fully meets the best practice for PJP; “—” indicates the QEM partially meet the best practices for PJP; “X” indicates the QEM does
+not currently meet the best practice for PJP.
+
+33 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+References
+Atchison, D., Levin, J., Fatima, S., Trauth, A., Srikanth, A., Herberle, C., Gannon-Slater, N., Junk,
+K., & Wallace, L. (2023). Assessment of Delaware Public School Funding. American
+Institutes for Research. https://education.delaware.gov/wpcontent/uploads/2023/12/23-22933_1_Delaware_Full_Report-FMT-ed103023-Version2.pdf#:~:text=1%20|%20AIR.ORG%20Assessment%20of%20Delaware%20Public%20Sch
+ool%20Funding%201.
+Brooks, C.D., Baker, B., Levin, J., & Salvato, B. (2025). Understanding the Cost of Providing
+Adequate Educational Opportunity in Oregon. American Institutes for Research.
+Chambers, J. G. (1999). Measuring Resources in Education: From Accounting to the Resource
+Cost Model Approach. U.S. ED Office of Educational Research and Improvement.
+https://nces.ed.gov/pubs99/199916.pdf
+Chambers, J. G. (2001). Measuring Resources in Education: A Comparison of Accounting and the
+Resource Cost Model Approach. School Business Affairs, 66(11), 26–34.
+Chambers, J., & Hartman, W. (1981, April 1). A Cost-Based Approach to the Funding of
+Educational Programs: An Application to Special Education.
+https://www.semanticscholar.org/paper/A-Cost-Based-Approach-to-the-Funding-ofEducational-Chambers-Hartman/6c75c9279177e023e6bc14251cd71facf2a650e1
+Chambers, J. & Levin, J. (2009). Determining the Cost of Providing an Adequate Education for All
+Students. National Education Association.
+Chambers, J., Levin, J., & DeLancey, D. (2006). Efficiency and Adequacy in California School
+Finance: A Professional Judgment Approach. American Institutes for Research.
+https://doi.apa.org/doi/10.1037/e538562012-001
+Chambers, J., Levin, J., DeLancey, D., & Manship, K. (2008). An Independent Comprehensive
+Study of the New Mexico Public School Funding Formula. American Institutes for
+Research. https://www.air.org/sites/default/files/Independent-Comprehensive-StudyNew-Mexico-Public-School-Funding-Formula-January-2008.pdf
+Chambers, J. G., Parrish, T. B., Levin, J. D., Smith, J. R., Guthrie, J. W., & Seder, R. C. (2004). The
+New York Adequacy Study: “Determining the Cost of Providing All Children in New York
+an Adequate Education” Volume 1 – Final Report. American Institutes for Research.
+https://www.air.org/sites/default/files/2021-06/NYAdequacyReportVOLUMEI_0.pdf
+Levin, H. M. (1983). Cost-effectiveness: A primer. Sage Publications.
+
+34 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+Levin, H. M., & McEwan, P. J. (2001). Cost-effectiveness analysis: Methods and applications (2nd
+ed). Sage Publications.
+Levin, J., Brodziak de los Reyes, I., Atchison, D., Manship, K., Arellanes, M., & Hu, L. (2018).
+What Does It Cost to Educate California’s Students? A Professional Judgment Approach.
+Policy Analysis for California Education.
+https://gettingdowntofacts.com/sites/default/files/GDTFII_Report_Levin.pdf
+Levin, J., Brooks, C., Fatima, S., Berg-Jacobson, A., Hadley, L., Atchison, D., & Baker, B.
+(forthcoming). Ohio Economically Disadvantaged Students Cost Study. American
+Institutes for Research.
+National Center for Education Statistics. (n.d.). Comparable Wage Index for Teachers (CWIFT)
+2021. Retrieved September 7, 2024, from
+https://nces.ed.gov/programs/edge/economic/teacherwage
+Oregon Department of Education (ODE). (n.d.). Standards and Instruction. State of Oregon.
+Retrieved January 22, 2025, from https://www.oregon.gov/ode/educatorresources/standards/Pages/default.aspx
+Oregon Department of Education (ODE). (2023). Oregon’s Consolidated State Plan Under the
+Every Student Succeeds Act. Oregon Department of Education.
+https://www.ed.gov/media/document/or-2024-state-plan
+Oregon Revised Statutes (ORS) 329.015 (2023). Educational Goals.
+https://www.oregonlegislature.gov/bills_laws/ors/ors350.html
+Oregon Revised Statutes (ORS) 327.500 (2023). Establishment.
+https://www.oregonlegislature.gov/bills_laws/ors/ors350.html
+Oregon Revised Statutes (ORS) 327.497 (2023). Legislative Findings.
+https://www.oregonlegislature.gov/bills_laws/ors/ors350.html
+Oregon Revised Statutes (ORS) 350.014 (2023). Mission of Education beyond High School.
+https://www.oregonlegislature.gov/bills_laws/ors/ors350.html
+Oregon Revised Statutes (ORS) 327.502 (2023). Officers.
+https://www.oregonlegislature.gov/bills_laws/ors/ors350.html
+Oregon Revised Statutes (ORS) 327.506 (2023). Quality Education Goals.
+https://www.oregonlegislature.gov/bills_laws/ors/ors350.html
+Quality Education Commission (QEC). (2024). Quality Education Commission Reports.
+https://www.oregon.gov/ode/reports-and-data/taskcomm/Pages/QEMReports.aspx
+
+35 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+U.S. Bureau of Economic Analysis (BEA). (2024). Real Personal Consumption Expenditures by
+State and Real Personal Income by State and Metropolitan Area, 2023.
+https://www.bea.gov/news/2024/real-personal-consumption-expenditures-state-andreal-personal-income-state-and
+
+36 | AIR.ORG
+
+Review and Evaluation of the Quality Education Model
+
+About the American Institutes for Research®
+Established in 1946, the American Institutes for Research® (AIR®) is a
+nonpartisan, not-for-profit institution that conducts behavioral and social
+science research and delivers technical assistance both domestically and
+internationally in the areas of education, health, and the workforce. AIR's work
+is driven by its mission to generate and use rigorous evidence that contributes
+to a better, more equitable world. With headquarters in Arlington, Virginia, AIR
+has offices across the U.S. and abroad. For more information, visit AIR.ORG.
+
+AIR® Headquarters
+1400 Crystal Drive, 10th Floor
+Arlington, VA 22202-3289
++1.202.403.5000 | AIR.ORG
+Notice of Trademark: “American Institutes for Research” and “AIR” are registered trademarks. All other brand, product, or company names are trademarks or registered trademarks of their
+respective owners.
+Copyright © 2023 American Institutes for Research®. All rights reserved. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including
+photocopying, recording, website display, or other electronic or mechanical methods, without the prior written permission of the American Institutes for Research. For permission requests,
+please use the Contact Us form on AIR.ORG.
+27219_01/25
+
+1 | AIR.ORG
+
+Document Title
+
+

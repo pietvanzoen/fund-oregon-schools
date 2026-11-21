@@ -1,0 +1,3212 @@
+Quality
+Education Model
+Identifying Best Practices
+and Calculating the Cost
+of a Quality Education
+August 2022
+
+Quality Education
+Commission
+
+
+--- OCR of this page (tesseract), not checked by a person: check the PDF before quoting or copying a figure ---
+QUALITY
+EDUCATION MODEL
+
+Identifying Best Practices
+and Calculating the Cost
+of a Quality Education
+
+, , OREGON
+Quality Education Jims ocbnarMenr OF
+Commission EDUCATION
+
+. together
+
+Quality Education Commission
+255 Capitol Street NE
+Salem, OR 97310
+Office: 503‐947‐5670
+Fax: 503‐378‐5156
+
+
+--- OCR of this page (tesseract), not checked by a person: check the PDF before quoting or copying a figure ---
+OREGON
+
+DEPARTMENT OF
+
+EDUCATION
+
+Quality Education Commission
+
+255 Capitol Street NE
+Salem, OR 97310
+Office: 503-947-5670
+Fax: 503-378-5156
+JOHN REXFORD, CHAIR
+Superintendent, High Desert Education Service District, Retired
+SAMUEL HENRY, VICE‐CHAIR
+Associate Professor, Graduate School of Education, Portland State University, Retired
+MONICA COX
+Director/Founder, Ten02 Consulting
+DANA HEPPER
+Director of Policy & Advocacy, Children’s Institute
+TRICIA MOONEY
+Superintendent, Hermiston School District
+CAMILLE PREUS
+Executive Director, Oregon Community College Association, Retired
+REED SCOTT‐SCHWALBACH
+President, Oregon Education Association
+CARLOS SEQUEIRA
+Asst. Superintendent, School Improvement, Lane Education Service District
+WHITNEY SWANDER
+Independent Consultant
+ANDREA TOWNSEND
+Equity & Inclusion Administrator, Ashland School District
+
+Advisor
+COLT GILL
+Director, Oregon Dept. of Education
+
+Staff
+DAN FARLEY
+Administrator for Research & Accountability, Oregon Dept. of Education
+EVAN FULLER
+Research Analyst, Oregon Dept. of Education
+KATIE CHANDLER
+Administrative Support, Oregon Dept. of Education
+
+Quality Education Commission, Staff www.oregon.gov/ode | 1
+
+EXECUTIVE SUMMARY .................................................................................................. 3
+INTRODUCTION .......................................................................................................... 4
+COSTING OUT THE QUALITY EDUCATION MODEL ......................................................... 8
+METHODOLOGY FOR CALCULATING CURRENT SERVICE LEVEL ........................................ 14
+BEST PRACTICES: EQUITY IN ACTION ............................................................................. 17
+K‐12 EDUCATION FACTORS RELEVANT TO THE QEM ...................................................... 26
+FINDINGS, RECOMMENDATIONS & CONCLUSIONS ......................................................... 33
+RESOURCES .................................................................................................................. 35
+REFERENCES ................................................................................................................. 35
+
+EXHIBITS
+EXHIBIT A: GAP BETWEEN QEM AND ACTUAL STATE FUNDING………………………………………………………………………10
+EXHIBIT B: GRADUATION RATES AMONG STUDENT GROUPS ............................................................................. 26
+EXHIBIT C: RACE/ETHNICITY CHANGES ............................................................................................................... 28
+EXHIBIT D: 2013‐14 and 2021‐22 STUDENT ENROLLMENT COUNT ................................................................... 28
+EXHIBIT E: SPECIAL EDUCATION ENROLLMENT................................................................................................... 29
+EXHIBIT F: OREGON TEACHER WORKFORCE DEMOGRAPHICS ........................................................................... 29
+Note: The QEM report originally published on August 1, 2022 was updated to address a few needed changes.
+Those changes are conveyed in the Change Log below:
+Page 1 – Added ODE staff who worked on this September 2022 QEM Report revision
+Page 4 – Added clarification regarding why it is not feasible to generate reliable performance and cost estimates
+Page 7 - Changed the term "constitutionally" to "statutorily"
+Page 10 – Added clarification regarding SSA funding in relation to QEM gap projections
+Page 16 – Added clarification about the Corporate Kicker funding being allocated to the General Fund and then to
+the State School Fund
+Page 28 – Exhibit C. Percentage Latino/a/x changed to 25.0%
+Page 28 – Exhibit D. Changed comparison year to 2013‐14 for race/ethnicity reporting categories consistency
+Pages 36-37 - Appendix 1 – Added to provide further cost information regarding specific impacts of updated QEM
+assumptions
+2 | Quality Education Model Report 2022 www.oregon.gov/ode
+
+Quality Education Commission Mission
+
+during the pandemic impacts some of the data sets used
+in this report, but still provides a picture of progress
+made since the 2020 report.
+
+The Legislature created the 11‐member Quality
+Education Commission in 1999 (codified in 2001) to
+research best education practices and determine the
+resources needed to provide an optimal public education
+system, creating the Quality Education Model. The QEC
+reports these findings to the Legislature and Governor
+every two years. The model is updated and enhanced
+to incorporate current effective practices and evaluate
+education policy proposals with each report. The Oregon
+Department of Education staffs the QEC.
+
+While individual efforts and programs are critical to
+improving results for our students, the 2022 report
+focuses on processes that support student success,
+such as the equity‐centered practices in the Student
+Success Act implementation and district Continuous
+Improvement Plans. Such systems are rooted in equity,
+aligned with the Department of Education’s Integrated
+Model of Mental Health.1
+
+2020‐2022 K‐12 Education
+
+Model Review Needed
+
+It has been a tumultuous two years in education since
+the 2020 report. The COVID‐19 pandemic continued
+the school closures of 2020, moving learning online.
+Schools reopened only in the spring of 2021. The
+global pandemic created many challenges for students,
+teachers, administrators, and parents. In addition
+to physical and mental health and safety concerns,
+protests for racial equity continued nationally and
+political tensions rose. Schools saw significant staff
+resignations. Distance learning, vaccines, and mask
+mandates roiled communities. Education curriculum and
+practices became politicized. Schools and teachers faced
+unprecedented challenges coping with the upheaval.
+Finally, the pandemic exposed and exacerbated the
+gravity of unmet student socioeconomic needs. As
+a result, schools were challenged to revise routine
+operations and to deliver education to students in
+alternative ways.
+
+While the Quality Education Model has served Oregon
+well for the last 20 years, much has changed in the way
+schools operate. The Quality Education Commission
+respectfully requests the Governor and Legislature
+invest in a research‐based update to the QEM in order
+to incorporate changes in the educational service
+delivery model and in educational best practices that
+have emerged since the QEM’s first iteration in 1999 and
+expand the model’s capability to more precisely capture
+the variability in costs that occur by region and the costs
+of meeting the differential needs of schools and districts.
+
+2022 Report
+Oregon began to make progress on best practices
+recommendations prior to COVID‐19 with the passage
+of the Student Success Act, which outlines an on‐going
+commitment to utilizing public education resources to
+eliminate systemic disparities and work in collaboration
+with students, parents, educators, and the community to
+make decisions. The state suspension of some reporting
+
+QEM Funding Levels
+For the 2021‐23 biennium, the Quality Education
+Model called for a funding level of $11.170 billion; the
+Legislature appropriated $9.300 billion, resulting in a gap of
+$557 million. For the upcoming 2023‐25 biennium, the
+QEM estimates that it will require a State School Fund
+investment of $11.889 billion, $2.517 billion more than the
+investment required to maintain the current service level
+provided during the 2021‐23 biennium.
+
+1 https://www.oregon.gov/ode/students‐and‐family/equity/SchoolSafety/Pages/Integrated‐Model‐of‐Mental‐Health.
+aspx#:~:text=The%20ODE%20Integrated%20Model%20of,%2C%20choice%2C%20empowerment%20and%20transparency.
+
+Executive Summary www.oregon.gov/ode | 3
+
+The Quality Education Commission
+A strong public education system is essential to Oregon and the diverse communities that call our state home. Public
+education is the building block of an informed and engaged community, and society benefits when we ensure that
+every student has access to a high quality education.
+The QEC believes everyone has the ability to learn and that we have an ethical and moral responsibility to ensure
+an education system that provides optimal learning environments that lead students to be prepared for their
+desired individual futures and a prosperous future for the collective Oregon community.
+With these important values in mind, the Oregon
+Legislature established the Quality Education
+Commission to identify the best practices for
+delivering a quality K‐12 education to all students
+and calculating its associated costs, as defined by
+the goals in the Education Act for the 21st Century.
+The QEC report then guides state policymakers in
+determining education policy and budgets. To carry
+out this responsibility, the Commission continuously
+reviews and enhances the Quality Education Model
+as a research‐based tool for educators and
+policymakers to understand the level of investment
+needed to achieve those ends.
+This is the 13th report issued by the commission,
+written in the aftermath of a two‐year period of
+significant public education disruptions caused by the
+global COVID‐19 pandemic. Health considerations
+provoked school closures. Educators, students, and
+families faced a rapid transition to learning via
+computer screen or, in some cases, other remote‐
+learning options. Students and staff lost loved ones to
+the virus, struggled with mental health implications
+associated with social distancing requirements, and
+the many other challenges our state has faced
+including wildfires and crippling ice storms.
+The pandemic interrupted not only the delivery of
+education services, but also the collection of data
+the state relies upon to measure progress including
+
+4 | Introduction www.oregon.gov/ode
+
+attendance data and some statewide standardized tests. In
+past years, the QEM set realistic benchmarks based upon
+previous data trends in district spending for skilled labor
+costs, services, and supplies required to provide a quality
+education to the average student in a prototype brick and
+mortar school.
+The COVID‐19 pandemic disrupted every data trend
+relied upon in the past, resulting in large gaps in
+dependable information used to gauge student
+performance. In full transparency, the QEM has
+never statistically modeled performance changes
+directly tied to costs; the projections used historically
+were based on external estimates of these types of
+changes gathered from literature syntheses.
+Statistically modeled predictions about costs cannot
+be made sufficiently reliable to support high stakes
+decision making such as funding allocations. It is not
+possible to account for all of the variables that affect
+student performance in modeling, which yields
+volatile estimates.
+This year, the QEC could not access reliable student
+achievement data, making even those unreliable
+estimates impossible. Furthermore, the prototype
+school used by the Model must be updated to more
+accurately reflect the elements and diverse student
+populations of Oregon schools today.
+
+To compensate for these data limitations, the Commission used different approaches to measure spending
+needs for re‐establishing financially stable schools with high quality human resources who are able to undertake
+the outreach activities needed for student retention, and to meet the challenges related to re‐opening of
+schools, addressing learning impacts caused by the pandemic, and providing critical health and safety services
+for enabling children to learn.
+Adapting to COVID‐19 restrictions exposed and exacerbated the gravity of unmet student socio‐economic needs,
+as well as the challenges of hiring, development, and retention of staff. Independent research has also shown the
+disproportionate impacts of “unfinished learning” from two years impacted by the pandemic on marginalized
+students (McKinsey & Company, 2021). And, while it is beyond the scope of this report to address all issues of
+data quality, the Commission did its best to find ways to surmount these problems and meet its due diligence
+requirements under Oregon Revised Statute 327.506.
+
+Best Practices: Focus on Equity Across Systems
+The Quality Education Commission believes focusing on equity is fundamental to meet the needs of all students,
+especially those who have been historically marginalized.
+Traditional assessments continue to show academic achievement gaps among student groups. The QEC believes that
+while K‐12 education has been underfunded for decades, the consideration of policies that target and deploy
+resources in ways that reflect the diversity of our state are needed. Funding from the Student Success Act was
+intended to narrow the funding gap by ensuring that traditionally marginalized students are the priority of district
+efforts to support learning gains for all students. The Student Success Act and its component programs aim to reduce
+disparities and improve equity. The Student Investment Account grant program within the SSA includes a process
+that requires educator and community engagement in decision making to set spending priorities at the district level,
+important best practices codified by the SSA and now being applied to other state education investments through
+the Integrated Guidance process. At the state level, the Student Success Act increases funding for culturally specific
+Student Success Plans along with other system‐wide equity initiatives, such as expanding access to free meals.
+
+Introduction www.oregon.gov/ode | 5
+
+Public schools should provide equitable access and ensure that all students have the knowledge and skills to
+succeed as contributing members of a rapidly changing, global society, regardless of factors such as race, gender,
+sexual orientation, ethnic background, English proficiency, immigration status, socioeconomic status, or disability.
+‐ National School Boards Beliefs and Policies
+
+These equity‐focused changes have been called for
+by students, education organizations, state boards of
+education, community‐based organizations, direct‐
+service providers, the Legislature, and Governor Brown.
+
+Best Practices in Action:
+Melinda Torres 2022 Education
+Support Professional of the Year
+
+In order to incorporate the student perspective, the
+Oregon Department of Education surveys students in
+grades 3 to 11, asking them about their activities, supply
+needs, and their views of how the school year has gone
+in terms of their learning. This “Student Educational
+Equity Development” (SEED)2 survey guides ODE in its
+efforts to develop appropriate resources and supports
+for districts and to better target those resources where
+most needed.
+The QEC supports the direction of these efforts and
+calls for the work to continue following the leadership
+of communities most impacted by inequity, in order to
+reach the state’s equity imperative.
+
+Funding
+In addition to early progress on strategies to eliminate
+educational inequities, the Quality Education
+Commission finds that the state has made progress in
+recent years to narrow the investment gap between
+what it has historically budgeted for K‐12 and what
+that system needs to achieve the state’s educational
+objectives. Unfortunately, that progress has faced
+barriers:
+
+▪
+
+The funding anticipated from the Student Success
+Act—designed to narrow the gap but not close
+it—has been delayed by revenue shortfalls and
+additional cost line‐items.
+
+▪
+
+The 2021 Legislature enacted a budget that used the
+fund in part to supplant a portion of State School
+Fund’s General Fund source.
+
+▪
+
+The calculation of the current service level (baseline)
+budget does not reflect the rising costs of school
+districts and restricts the QEM calculation.
+
+2022 Education Support Professional of the
+Year Melinda Torres serves as the liaison
+supporting students who are in foster care
+or are experiencing houselessness for the
+Coos Bay School District. Melinda manages
+the Keeping At‐Risk Kids Afloat project and
+provides case management for youth and
+families experiencing housing instability.
+“Melinda is the driving force in our ability
+to expand services and build outreach and
+community partnerships to expand the
+program over time. She recently volunteered
+to be the Foster Liaison in the district as part
+of her duties to expand assistance to those
+students and families,” said Bryan Trendell,
+Superintendent of the Coos Bay Public
+Schools.3
+
+2 Oregon Dept. of Education, “Student Educational Equity Development Survey (SEED).” n.d. https://www.oregon.gov/ode/educator‐
+resources/assessment/Pages/Student_Educational_Equity_Development_Survey.aspx
+3 https://www.myoregon.gov/2022/04/28/oregon‐honors‐education‐support‐professional‐of‐the‐year‐melinda‐torres/
+
+6 | Introduction www.oregon.gov/ode
+
+▪
+
+Corporate kicker resources, statutorily dedicated to
+the K‐12 State School Fund, appear to be going into
+the state General Fund instead which bears
+investigation and correction.
+
+▪
+
+Funding for the whole education system, starting
+with universal pre‐school so that all students have
+access to high‐quality early learning programs all the
+way to post‐secondary career and college success;
+
+▪
+
+The Quality Education Model’s costing approach,
+which relies on a set of hypothetical “prototype
+schools” doesn’t account for the diverse conditions
+and communities present across the state of Oregon
+or virtual schools and is in need of retooling to
+ensure it meets the needs of today’s students and
+schools. Despite limitations, the QEC has made
+adjustments to the QEM in order to better reflect
+today’s educational practices.
+
+▪
+
+Enhancing wrap‐around support for students and
+families through community schools;
+
+▪
+
+Investing fully in supports that address student
+mental and behavioral health;
+
+▪
+
+Strengthening support for students and families in
+partnership with community‐based organizations;
+and
+
+▪
+
+Continuation of system‐wide school improvement
+strategies.
+
+The State School Fund resources required to fund K‐12
+schools at a level recommended by the QEC for the
+2023‐25 biennium is estimated to be $11.889 billion,
+$2.517 billion more than the funding required to
+maintain the current service level provided during the
+2021‐23 biennium.
+
+Recommendations
+In order to achieve lasting educational gains for all
+students, the QEC recommends continued progress
+on investing in systems that support Oregon’s most
+marginalized students.
+Oregon’s students of color, English language learners,
+students experiencing disabilities, and students from
+low‐income families bring a wealth of diversity and
+strength to Oregon’s public schools. These same
+students face injustice and inequity inside and outside
+of school that impede learning, such as houselessness,
+poverty, discrimination, and other adverse childhood
+experiences. By increasing the public school system’s
+investment in and attention to the needs of these
+students in particular, the overall system will improve for
+all students.
+
+Conclusion
+For more than 20 years, this report has examined the
+inputs needed to sustain a high‐quality public education
+system by determining what practices are necessary to
+achieve those ends. In these reports, the QEC has also
+determined the level of investment the state would need
+to make in order to achieve those results.
+Much has changed in the education landscape in those
+decades, however. The QEC believes that the model
+should be reviewed and updated to incorporate such
+considerations as capital needs, early education access,
+the cost of ameliorating the impacts of low socio‐
+economic status on students, and successful strategies
+to address the growing crisis of student behavioral
+and mental health challenges. The new mathematical
+tool should update student demographic information,
+implement newest research and professional judgment
+regarding educational best practices, include a more
+robust treatment of appropriate technology uses in
+education, and consider more targeted uses of resources
+that incorporates a focus on equity and increased
+supports for traditionally marginalized students.
+
+Additionally, the QEC recommends the following
+practices:
+
+▪
+
+The implementation of educational best practices
+informed by input from educators, parents,
+students, and the community;
+
+▪
+
+Dedication to the intent of Student Success Act
+funding for additional supports, not to backfill the
+State School Fund, and commitment to equity and
+stakeholder engagement;
+
+Introduction www.oregon.gov/ode | 7
+
+The Quality Education Model
+
+Prototype Schools
+
+The Quality Education Model (QEM) is a type of
+“professional judgment model,” enhanced with statistical
+analysis. The school serves as the unit of analysis for
+evaluating costs, using a set of inputs required to run a
+highly effective system of schools, then estimating what
+it would cost to provide that set of inputs.
+
+Elementary School—360 Students
+
+Each prototype school reflects the resources needed
+to implement best practices associated with high‐
+performing schools and serves as a mechanism to
+evaluate the resource and cost implications of proposed
+education programs, policies, and strategies.
+The QEM has been refined and updated each biennium
+and takes advantage of the detailed financial and other
+data collected by the Oregon Department of Education.
+
+Student Achievement Component
+The QEM incorporates student performance‐related
+research on effective practices, then combines statistical
+analysis with the professional judgment of educators
+to estimate how those practices may improve student
+success as measured by such data as test scores and
+graduation rates. These tools may help education
+policymakers evaluate initiatives and investments even
+in the event that scarce resources dictate that not all
+desired investments may be made.
+
+Costing Components
+Using the school as the unit of analysis, estimates are
+made as to the cost of operating schools using selected
+inputs, including operational costs, quality indicators,
+and best practices. Costs are identified for each input,
+then scaled up to the state level.
+Operational costs include teachers, administrators,
+support staff, supplies, and utilities. Quality indicators
+are those factors that indicate organizational functioning
+and efficiency. The quality indicators are based on
+research about effective schools and serve as measures
+of whether a school employs effective practices and
+uses resources efficiently. The quality indicators fall into
+four broad categories: school‐level, teacher‐related,
+classroom‐focused, and student‐centered factors. Best
+
+▪
+▪
+▪
+▪
+▪
+▪
+▪
+
+All‐day kindergarten
+Class size average of 20
+1 librarian per school
+1 school nurse per school
+1 PE and music specialist per school
+1 Family Resource staffer per school
+Computers for students & staff
+
+Middle School—500 Students
+▪
+▪
+▪
+▪
+▪
+▪
+▪
+▪
+▪
+▪
+
+Class size average of 20.8
+1.5 additional teachers for math, English,
+and science
+Alternative programs for special needs and
+at‐risk students
+Volunteer coordinator and community
+outreach worker
+One counselor for every 250 students
+Adequate campus security
+1 school nurse per school
+1 librarian per school
+Computers for students & staff
+1 Family Resource staffer per school
+
+High School—1,000 Students
+▪
+▪
+▪
+▪
+▪
+▪
+▪
+▪
+▪
+▪
+
+Class size average of 20.8
+3.0 additional teachers for math, English, and
+science
+Alternative programs for special needs and
+at‐risk students
+Volunteer coordinator and community
+outreach worker
+One counselor for every 250 students
+Adequate campus security
+School‐to‐work coordinator
+1 school nurse, 1 librarian per school
+1 Family Resource staffer per school
+Computers for students & staff
+
+8 | Costing Out the Quality Education Model www.oregon.gov/ode
+
+practices are strategies and programs that have been
+demonstrated by research and experience to be effective
+in promoting high levels of student achievement.
+The Model assumes that, when fully funded and
+implemented, 90 percent of students would meet state
+standards.4
+
+Costing Methodology
+The Quality Education Commission calculates two
+estimates of delivering a system of quality education
+to Oregon students for the coming biennium: the first
+based on what is known as the “current service level’
+and the second on fully funding the model.
+The current service level is calculated by estimating the
+district operating expenditures to deliver the same level
+and quality of educational services that was provided
+in the prior biennium. This estimate begins with the
+most recent audited district and ESD financial actual
+expenditure records and adjusts for inflationary changes
+and changes in enrollment and student weights in the
+State School Fund formula. This estimated cost is then
+adjusted to account for ESD expenditures and the High‐
+Cost Disabilities fund for special education students to
+determine the total school funding requirement. Then,
+revenues from non‐state sources are subtracted from the
+total school funding requirement to calculate the state
+funding requirement. Since 2020, the model has then
+further adjusted the calculation by subtracting Student
+Success Act funds from the state funding requirement
+to recover the State School Fund investment required to
+maintain the current service level. This baseline CSL cost
+
+estimate has historically aligned closely with the Dept.
+of Administrative Services estimates of the State School
+Fund current service level. Because setting the baseline
+in the model relies on the DAS calculation, whose
+methodology has been disputed in recent years, the QEC
+recommends that a reconsideration of the assumptions
+in the CSL calculation be revisited by policymakers. See
+page 14 for details of the concerns.
+The second estimate, known as the “fully‐implemented
+QEC recommendation” calculates the district operating
+expenditure cost to fully adopt and implement a set
+of educational best practices recommended by the
+QEC as necessary to meet the educational goals of
+the state. This estimate begins with the most recent
+audited district and ESD financial actual expenditure
+records, adjusts the level of education input factors
+required to sufficiently increase the level and quality of
+education services, and adjusts for inflationary changes
+in educational input factor costs and growth in the
+student‐need weighted measure of enrollment used in
+the allocation of funds under the same set of cost and
+enrollment growth assumptions used in the baseline
+CSL case. This estimate then performs the same ESD
+expenditure, High‐Cost Disabilities Fund, non‐state
+revenue source, and SSA‐funding adjustments to recover
+the State School Fund investment required to adopt
+the fully‐implemented QEC recommendation, which
+has always exceeded the DAS CSL estimate and the
+legislative SSF appropriation. This second estimate is
+what the QEC uses to calculate the SSF funding gap.
+
+The 2001 Legislative Assembly enacted HB 2295 (ORS 327.497 to 327.506), that placed the QEC in statute and
+directed it to refine and update the model on an ongoing basis. The statutory charge of the QEC is as follows:
+
+▪
+
+Determine the level of funding sufficient to ensure the state K‐12 education system meets the quality goals
+set forth in statute each biennium;
+
+▪
+
+Identify best practices based on research, data, and professional judgment and public values, and their costs;
+and
+
+▪
+
+Issue a report to the Governor and the Legislative Assembly prior to August 1st in even‐numbered years
+identifying current practices, costs, and expected performance, as well as best practices, costs, and expected
+performance under those practices.
+
+The Quality Education Model identifies components of a quality education then estimates the cost of those
+components. The model is based on prototypical schools, encompasses the goals and requirements of the Oregon
+Education Act, and includes “key quality indicators.”
+‐ Legislative Background Brief
+https://www.oregonlegislature.gov/lpro/Publications/QualityEducationModel.pdf
+
+4 Legislative Council on the Oregon Quality Education Model, The Oregon Quality Education Model, Relating Funding and Performance,
+June 1999, 10. https://www.oregon.gov/ode/reports‐and‐data/taskcomm/Documents/QEMReports/1999QEMReport.pdf
+
+Costing Out the Quality Education Model www.oregon.gov/ode | 9
+
+Recommended QEM Funding Levels
+Since the beginning of the QEM calculation, analysts have used the State School Fund appropriation as the education
+funding number to compare with the QEM funding requirement. The 2021 Legislature appropriated $9.3 billion to
+the State School Fund for the 2021‐23 biennium. The Quality Education Model analysis determined that a budget of
+$11.163 billion would be needed to fully fund the model, a gap of $557 million.
+For the 2021‐23 biennium, the Quality Education Model called for a state investment of $11.163 billion to fund
+the Fully‐Implemented Quality Education Model Recommendation; the Legislature appropriated $9.300 billion in
+the State School Fund, and $1.306 billion in Student Success Act grant funding to districts, resulting in a state
+funding gap of $557 million. For the upcoming 2023‐25 biennium, the QEM estimates maintaining the current
+service level will require a combined State School Fund and Student Success Act funding level of $10.710. The
+Commission estimates that the total Student Success Act grant funding to districts for the 2023‐25 biennium will
+be $1.338 billion, leaving a State School Fund funding requirement of $9.372 billion in order to maintain the
+current service level. The Commission estimates that the total state funding necessary to enact the Fully‐
+Implemented Quality Education Model Recommendation in the 2023‐25 biennium will be $13.228 billion, which,
+after adjustment for projected Student Success Act grant to district funds, would require a State School Fund
+Appropriation of $11.889 billion, $2.517 billion dollars greater than the amount required to maintain the current
+service level.
+
+EXHIBIT A: GAP BETWEEN QEM AND ACTUAL STATE FUNDING
+Biennium
+
+QEM Full
+Implementation
+Model
+
+SSF Legislative
+Appropriation
+
+SSA
+Funding
+
+Total
+State
+Funding
+
+Funding
+Gap
+
+Gap as
+Percentage
+
+1999‐2001
+
+$5.654
+
+$4.562
+
+$4.562
+
+$1.092
+
+23.9%
+
+2001‐2003
+
+$6.215
+
+$4.573
+
+$4.573
+
+$1.642
+
+35.9%
+
+2003‐2005
+
+$6.659
+
+$4.907
+
+$4.907
+
+$1.752
+
+35.7%
+
+2005‐2007
+
+$7.096
+
+$5.305
+
+$5.305
+
+$1.791
+
+33.8%
+
+2007‐09
+
+$7.766
+
+$6.131
+
+$6.131
+
+$1.635
+
+26.7%
+
+2009‐11
+
+$7.872
+
+$5.756
+
+$5.756
+
+$2.116
+
+36.8%
+
+2011‐13
+
+$8.004
+
+$5.799
+
+$5.799
+
+$2.205
+
+38.0%
+
+2013‐15
+
+$8.775
+
+$6.650
+
+$6.650
+
+$2.125
+
+32.0%
+
+2015‐17
+
+$9.158
+
+$7.376
+
+$7.376
+
+$1.782
+
+24.2%
+
+2017‐19
+
+$9.971
+
+$8.200
+
+$8.200
+
+$1.771
+
+21.6%
+
+2019‐21
+
+$10.773
+
+$9.000
+
+$9.000
+
+$1.773
+
+19.7%
+
+2021‐23
+
+$11.163
+
+$9.300
+
+$1.306
+
+$10.606
+
+$0.557
+
+6.0%
+
+2023‐25
+
+$13.227
+
+$9.372
+
+$1.338
+
+$10.710
+
+$2.517
+
+26.9%
+
+Updated 2022 Model Assumptions
+The QEM is reviewed and refined each biennium to reflect current practices and costs. A number of outdated
+assumptions were revised for the 2022 calculation. Some of these updated assumptions reflect changes in the
+professional judgment of the commission from the prior biennia, such as additional staffing allocations for
+librarians, school nurses, and counselors, and funding for summer school expansion, while others are
+adjustments to better reflect current costs for services and resources, including substitute teachers, computers,
+and unreimbursed supplies. These assumptions are addressed below:
+
+10 | Costing Out the Quality Education Model www.oregon.gov/ode
+
+▪
+
+School Nurses: Addition of dedicated school nurses at every school at a ratio of 1:750, in alignment with best
+practice and a recognition of the critical importance of keeping students and staff healthy as a foundation to
+learning as well as prescribed in HB 2693 section 5 (2009).
+
+▪
+
+School Counselors: School Counselors are added at a 1:250 ratio as recommended by the American School
+Counselor Association.6
+
+▪
+
+Summer School: Summer School is added for 50% of students for 6 weeks; 100% of 6th graders for 4
+weeks and 20% for six weeks; 100% of 9th grades for 4 weeks and 20% of 9th graders for an additional 2
+weeks.
+
+▪
+▪
+
+English Language Learners: Staffing ratios are reduced for ELLs, calculated at 10% of student body.
+
+▪
+
+Professional Development/Mentoring: The QEM has added three contract days for teacher
+professional development or mentoring to account for training needs of new staff and retention efforts by
+districts.
+
+▪
+
+Computer Devices: The QEM has added a 1:1 student/school‐based adults to computing device. School‐
+based adults would include licensed staff, teaching assistants, office staff, counselors, and administrators.
+Teacher laptops estimated at $1000 and replaced on a 3‐year cycle. Student tablets/ iPads are budgeted at
+$400 on a 4‐year replacement cycle.
+
+▪
+
+Librarians: The QEM adds one certified librarian per school, as recommended by the American Association of
+School Librarians.8
+
+▪
+▪
+▪
+▪
+
+Media Center Assistants: Assistants increased to one full FTE for each level.
+
+▪
+
+Reducing Class Size: Class sizes in elementary classes are reduced from 23‐24 to 20 to reflect current research
+on best practices.
+
+Unreimbursed Supplies: The QEM now adds $450 per classroom for unreimbursed supplies. According
+to NCES surveys, 9 out of 10 K‐12 teachers spend an average of $459 on classroom supplies and are not
+reimbursed.7
+
+Substitute Teachers: Substitute costs based on actual data and escalated by average teacher growth rates.
+Family Resource Center: Staff Family Resource Centers at 1 FTE at each school level.
+PE/Music Specialists: The QEM adds 1 FTE physical education specialist and 1 FTE music specialist in
+elementary grades.
+
+Itemized cost estimates for the changes in these assumptions have been calculated independently and in sum, as
+reflected in Appendix 1. The itemized cost estimates are provided for informational purposes and should not be
+implemented independently.
+
+5 2023‐25 Legislative Appropriation value uses the QEM estimate of the Current Service Level requirement as this report is prepared
+before the final legislatively approved budget for the 2023‐25 biennium is voted on and enacted into law.
+6 American School Counselor Association, School Counselor Roles & Ratios, 2022. https://www.schoolcounselor.org/About‐School‐
+Counseling/School‐Counselor‐Roles‐Ratios
+
+Costing Out the Quality Education Model www.oregon.gov/ode | 11
+
+Reconsideration of Model
+The Quality Education Model was first created in 1999— students and the operation of schools have changed
+significantly since that time. Using an average prototype school—based on brick‐and‐mortar schools—and scaling up
+or down can result in misleading conclusions. The expansion of online learning options, changing student
+demographics and characteristics and evolving approaches to teaching all have funding ramifications that may not be
+accurately captured by the current model. Rural, remote schools are more expensive to operate, for example, and
+the prototype schools fail to capture some of these differences. The Quality Education Commission recognizes that it
+is time to re‐examine the approach used by the current model to calculate costs as well as update the foundational
+assumptions underlying the estimate of what elements compose a high‐quality education for all.
+Funding is a central component in providing a high‐ quality education. When states invest in their public schools and
+create more equitable school finance systems, student achievement levels rise, and the positive effects are even
+greater among low‐income students.9 Recent studies have invariably found a positive, statistically significant
+relationship between student achievement gains and financial inputs—in particular students from low‐income
+families who have access to fewer resources outside of school.10 Of 13 multi‐state studies, 12 (92 percent) find a
+positive and statistically significant relationship between school spending and student performance.11
+
+7 Emma Garcia and Lora Engdahl, It’s the beginning of the school year and teachers are once again opening up their wallets to buy school
+supplies. Economic Policy Institute, August 22, 2019. https://www.epi.org/blog/teachers‐are‐buying‐school‐supplies/
+8 American Association of School Libraries, Appropriate Staffing for School Libraries, June 2019
+https://www.ala.org/aasl/sites/ala.org.aasl/files/content/advocacy/statements/docs/AASL_Appropriate_Staffing.pdf
+9 Carmel Marten, et al, A Quality Approach to School Funding Lessons Learned from School Finance Litigation, Center for American
+Progress, Nov. 13, 2018. https://www.americanprogress.org/article/quality‐approach‐school‐funding/
+10 Bruce Baker, How Money Matters for Schools, Palo Alto, CA: Learning Policy Institute, 2017. https://learningpolicyinstitute.org/sites/
+default/files/product‐files/How_Money_Matters_REPORT.pdf
+11 C. Kirabo Jackson. Does School Spending Matter? The New Literature on an Old Question, An Equal Start: Policy and Practice to
+Promote Equality of Opportunity for Children, 2020.
+
+12 | Quality Education Model Report 2022 www.oregon.gov/ode
+
+Given the fundamental changes in how schools now
+operate, the QEC believes the model needs to be re‐
+examined. The QEC anticipates that a study by a school
+finance expert may examine the current service level
+calculation methodology, may re‐examine prototype
+school assumptions and approach, and may suggest
+other updates reflecting the issues raised elsewhere in
+this report. The QEC, through the Oregon Department
+of Education, will be requesting a Policy Option Package
+of the new Governor and 2023 Legislature to fund this
+important work.
+We expect that such an update will result in adjustments
+to the QEC’s calculation of investment levels needed
+to attain the results the state envisions for its students:
+individual student needs are met in order for all students
+to be prepared for their next steps toward a successful
+future after high school.
+
+Two Alternatives for Meeting
+Quality Goals
+(5) In addition, the commission shall provide in the
+report issued under subsection (4) of this section
+at least two alternatives for meeting the quality
+goals. The alternatives may use different approaches
+for meeting the quality goals or use a phased
+implementation of best practices for meeting the
+quality goals.
+ORS 327.506
+
+Oregon law directs the Quality Education Commission to
+identify at least two approaches for achieving a greater
+level of education quality in the event the Legislature
+does not fully fund the QEM.
+1. Continue to fund the Student Success Act. The
+act targets marginalized students with practices
+supported by research that result in greater
+student engagement and academic progress. If not
+reduced or repurposed, the resources in the SSA
+move closer to, but do not close, the education
+funding gap identified in this report.
+2. Phase in Funding. If fully funding the QEM cannot
+be done, the commission recommends phasing in
+the funding over a period of time, perhaps over
+two‐three biennia.
+
+Costing Out the Quality Education Model www.oregon.gov/ode | 13
+
+When setting agency budgets and the State School
+Fund, legislative budget analysts take the prior year’s
+appropriation, add inflation and other cost drivers, and
+come up with a figure that represents the number of
+dollars to maintain existing services. This is known as
+the “current service level.” The exercise is meant to
+communicate an appropriation level that would allow
+the subject agency to operate at a stable level biennium
+over biennium.
+The Quality Education Commission believes this
+methodology, as it has been applied in recent years to
+the State School Fund (the main budget for K‐12), is
+flawed, and was described in a QEC analysis in 2018.12
+Article VIII, Section 8 of the Oregon Constitution
+establishes that the Legislative Assembly shall
+appropriate in each biennium a sum of money
+sufficient to ensure that the state’s system of public
+education meets the quality goals established
+by law. It further requires the Legislature to
+publish a report that either demonstrates that the
+appropriation is sufficient, or identifies the reasons
+for the insufficiency, its extent, and its impact on the
+ability of the state’s system of public education to
+meet those goals.
+Years of budget cuts during the 1990s ratcheted down
+the “current service level” (CSL) for each calculation after
+a biennium of cuts. Thus, the CSL failed to represent
+the cost of providing Oregon students with a stable
+education, because prior years’ cuts were essentially
+immortalized in each new base budget. Nevertheless,
+legislatures have continued to base school budgets on
+these compressed financial figures, never adding back
+the dollars cut when making new calculations. This has
+resulted in years of underfunding.
+
+Determination of the Current‐Service‐
+Level Budget for K‐12 Public Schools
+In determining a baseline budget that, for most districts,
+allows for continued operations at the current service
+level, state budget writers generally consider a range of
+factors to determine what may be, for the successive
+biennium, a “no‐cuts” level of resources. In the K‐12
+sector, this analysis has been conducted two different
+ways.
+For six biennia (from 1999 to 2014), prompted by
+Executive Order 99‐15, the “roll‐up” budget calculation
+was developed through a collaborative process that
+included representatives from not only the state
+Budget and Management Office of the Department of
+Administrative Services, but also from the Legislative
+Fiscal and Revenue offices, the Legislative Ways
+and Means Co‐Chairs, and advocates representing
+administrators, school boards, business officials, and
+educators. The process was revised in 2014 by Executive
+Order 14‐14, removing the advocates and Ways and
+Means leaders, resulting in four biennia of disagreement
+between the state and the education community on
+the official CSL estimate. The differences in calculations
+stem from methodological variations that have typically
+resulted in an official state estimate that is lower than
+that of education advocates. So in addition to the
+ratcheting effect described above, the state’s method
+of actual rollup cost analysis also undermines funding
+stability and adequacy.
+In 2019, HB 2074 was introduced to restore much of
+the process that had resulted in more than 12 years of
+consensus estimates. It was not adopted. It would have
+placed in statute a process composed of the original
+representatives to encourage a return to an agreed‐upon
+number. The legislation called for a factual calculation
+of what it would take to provide the same level of
+service from biennium to biennium, accounting for
+such uncontrollable cost factors as inflation, contracts,
+mandates, and growth of enrollment. The CSL and the
+
+12 Quality Education Commission, Oregon Continues to Underfund K‐12 Education, May 2018. https://www.oregon.gov/ode/reports‐
+and‐data/taskcomm/Documents/QEMReports/QEC%20Short%20Paper%20Final%205‐22‐18%20v2.pdf
+
+14 | Quality Education Model Report 2022 www.oregon.gov/ode
+
+QEM baseline are derived from the same assumptions
+and starting point, so accuracy is important to legislators
+who need to know not only how different budget levels
+impact the school districts in their House and Senate
+boundaries, but also, what the gap is between that level
+and the QEM’s calculation of sufficient funding for any
+given biennium.
+Legislators in 2021 asked the Quality Education
+Commission to explore this topic in its 2022 report,
+outlining the methodological differences and suggesting
+a way to resolve the controversy.
+Here are some of the variations between the state and
+advocates’ method of determining CSL:
+
+▪
+
+Dividing the two‐year budget:
+The Department of Administrative Services bases
+its CSL assumptions on a year‐over‐year funding
+division of exactly 50 percent in each of the two
+school years. This directive ignores the actual 49‐51
+percent distribution experienced by districts because
+their contracts escalate year over year, making the
+costs in the two years unequal. The determination
+of the CSL is derived from the second year as the
+jumping‐off point, so by using the second year of
+the biennium at this reduced 50 percent rate, the
+CSL rollup will always be reduced. In the 2020
+calculation for the 2021‐23 biennium, this resulted
+in a figure that was $210.67 million lower than if the
+second year had been assumed to be 51 percent of
+the biennial appropriation.
+
+▪
+
+Health insurance cost assumptions:
+The official state analysis escalates healthcare
+costs by a legislatively imposed cap of 3.4 percent,
+regardless of actual cost increases experienced
+by districts. This also drives down the official CSL
+estimate, though actual costs are generally higher
+because many school district contracts stipulate that
+some or all premium costs are paid by the district,
+rather than shifted to employees.
+
+▪
+
+PERS rates assumptions:
+Built into the state’s model are assumed retirement
+rates that do not reflect actual rates set for each
+district by the Public Employees Retirement System.
+In the 2021‐23 calculation, the State CSL applied a 6
+percentage point reduction in PERS rates from the
+K‐12 pooled rate, which overestimates individual
+district cost savings. This ignores the cost of debt
+payments districts must make. Side Account debt
+has also never been included as a liability of the
+State School Fund, and it appears nowhere in the
+state’s cost calculations for determination of the CSL.
+
+These two factors account for a significant portion of
+the disparity between the state and advocates’ CSL
+calculations.
+
+▪
+
+Personnel cost assumptions:
+The state uses a costing model to determine how
+much personnel costs will be in the successive
+biennium. Though ODE knows the actual salaries
+of every education employee as well as the contract
+data that would escalate the costs if every current
+educator were retained for the next biennium, its
+models about future retirements and resignations
+assume that higher‐salary turnovers always will be
+replaced by lower‐salary beginning teachers, which
+is an unsubstantiated assumption Particular to
+this report, recent staffing shortages have caused
+districts to offer incentives to attract needed
+replacement staff who are often educators with
+experience and education levels that place them
+higher on a salary scale. The state method varies
+from the model used by school business officials
+who make different assumptions about turnover
+trends to calculate the presumed total salary
+liabilities of school districts.
+
+It should be noted that the advocates’ method, prepared
+by the Oregon Association of School Business Officials
+in consultation with school boards and administrators,
+gathers actual data from the largest 13 school districts,
+which enroll the majority of Oregon public school
+students.
+Though the state methodology has resulted in lower CSL
+estimates in each biennium since the consensus process
+was abandoned, in 2021, the estimate was particularly
+stark, because the state’s number for the current service
+level was $8.99 billion—a number that was actually
+lower than the prior biennium’s $9 billion appropriation
+and was $600 million lower than the CSL calculated
+by advocates using the business officials’ method.
+In 2021, school advocates argued that the current
+service level funding of $8.97 billion, was based on
+flawed assumptions and demonstrated that the actual
+allocation would have to be $9.6 billion to avoid cuts at
+most school districts.
+The Quality Education Commission recommends returning
+to a process that enables the state and advocates to
+reconcile these methodological differences to ensure
+greater accuracy in calculating the true, predictable costs
+of educating Oregon students without programming or
+staffing cuts. Such a change could then be incorporated
+into the QEM’s baseline, which would improve the
+accuracy of calculating the state’s investment gap and that
+chasm’s impact on student achievement.
+
+Methodology for Calculating Current Service Level www.oregon.gov/ode | 15
+
+Best Practices in Action:
+
+Allocating the Corporate Kicker to K‐12
+
+Early School Success: A New
+Partnership with School Districts
+
+The 2021 Legislature asked the Quality Education
+Commission to review its understanding of the
+Constitutional requirement (passed in 2012) that
+corporate kicker revenues be devoted to the General
+Fund and must be used to provide additional funding
+for public education, kindergarten through twelfth
+grade.
+The constitutional language reads that the
+Legislature is to appropriate to K‐12 education
+“additional funding” for its budget “as soon after the
+biennium as is practicable” [Oregon Constitution, Article
+IX, Section 14, (2) and (3)].
+
+Launched in 2019, Early School Success is a five‐year
+initiative that provides school districts with the tools
+they need to offer developmentally appropriate
+aligned instruction to children from preschool
+through fifth grade.
+Districts engaged with ESS are provided with
+consultation, professional development,
+and coaching. This will support the use of
+developmentally appropriate teaching strategies for
+preschool through fifth grade. ESS districts will also
+develop deeper, more effective partnerships with
+families.
+ESS works with partner districts to:
+Analyze and define district and teacher
+strengths, needs, challenges, existing resources,
+and instructional practice.
+Design and test approaches to address district
+and community needs informed by child
+development research.
+Plan the implementation of the refined
+strategies.
+
+The 2013 legislature added statutory language directing
+the appropriation of the money “to the State School
+Fund” and that this shall be “in addition to the total
+amount of revenues the Legislative Assembly would
+otherwise appropriate, allocate or make available for the
+biennium for funding kindergarten through grade 12
+public education.” (2013 HB 2325) ORS 291.345 (1) & (2)
+Were the Legislature to allocate these episodic resources
+after the final determination of this kicker in August
+following Oregon’s long legislative session—when the
+state has completed its audit of the previous biennium
+and certifies any kickers that may be due—and not to
+include it in its assumptions of biennial budget sources
+in the Legislatively Approved Budget, the State School
+Fund may have had more resources than historically
+have been appropriated. Instead, the Ways and Means
+legislators have estimated expected resources and
+have included these dollars in the total of General
+Fund monies, available for use across the state budget,
+according to a Legislative Fiscal Officer in his testimony
+before the Education Subcommittee of Ways and Means
+on May 12, 2021 (hearing on SB 226, minute 25:44). This
+QEC believes this practice conflicts with voter intent.
+The QEC recommends that a legal review and/or a
+Secretary of State audit of this practice would clarify how
+the Legislature is to treat corporate kicker revenue in the
+future, and whether it must be appropriated solely to
+K‐12 through the State School Fund.
+
+16 | Quality Education Model Report 2022 www.oregon.gov/ode
+
+Educational equity means that each child receives
+what they need to develop to their full academic and
+social potential.
+‐ National Equity Report
+
+Equity‐Centered Practices and
+Framework
+In 1954, the Supreme Court declared that public
+education is “a right which must be made available to
+all on equal terms.”13 Yet integrating school buildings
+would prove to be just the first step in an ongoing
+journey toward educational equity in the nation. Barriers
+still remain to making a world‐class public education
+“available to all on equal terms.”14 In addition, our ideas
+about equity have evolved to encompass more than
+a guarantee that school doors will merely be open to
+every student: every student must be given the tools to
+succeed that meet their individual needs.
+Equality in education is achieved when students are all
+treated the same and have access to similar resources.
+Equality‐focused approaches to the provisions of
+educational services fail to recognize students may
+face disparate challenges, barriers, and discrimination
+that may impact educational performance that require
+different levels of resources to achieve the same level of
+educational outcomes. Equality‐focused approaches did
+not result in success for all students, as demonstrated
+by traditional measurements of success such as
+assessments, which continue to show academic gaps
+among student groups.
+Equity‐centered approaches to education services
+recognize that some students may have additional needs
+and challenges that require more support. Equity is
+achieved when all students receive the resources they
+need so they graduate prepared for success after high
+school.
+
+As an example of what the difference means in practice,
+consider a district that has a policy of one reading
+specialist per elementary school. Everyone would agree
+that this is an equal distribution. However, School A has
+15 students who are reading below grade level whereas
+School B has 250 below grade level readers. Equal
+distribution is therefore not providing adequate services
+to the children in School B because the needs in that
+school are obviously much greater.15
+Working toward equity in schools involves the following
+actions:
+
+▪
+
+Ensuring equally high outcomes for all participants in
+our educational system, removing the predictability
+of success or failures that currently correlates with
+any social or cultural factor;
+
+▪
+
+Interrupting inequitable practices, examining biases,
+and creating inclusive school environments for
+adults and children; and
+
+▪
+
+Discovering and cultivating the unique gifts, talents
+and interests that every human possesses.16
+
+Putting equity at the center of Oregon’s education system
+enables these practices and investments—those that are
+well implemented and tailored to the circumstances of stu‐
+dents in each individual school—to be fully integrated into
+each school’s daily routine. Because needs may vary among
+districts and schools, each district should evaluate how best
+to invest their resources to maximize impacts in each of
+their schools, as identified in their needs assessments.
+
+13 “Brown v. Board of Education of Topeka (1).” Oyez. Accessed May 1, 2022. https://www.oyez.org/cases/1940‐1955/347us483.
+14 Brown v. Board of Education of Topeka.
+15 Center for Public Education, Education Equity: What Does it Mean? How Do We Know When We Reach It? Research Brief,
+January 2016, 2.
+16 National Equity Project, accessed May 2022. https://www.nationalequityproject.org/education‐equity‐
+definition#:~:text=Educational%20equity%20means%20that%20each,full%20academic%20and%20social%20potential.
+
+Best Practices: Equity in Action www.oregon.gov/ode | 17
+
+To achieve Oregon’s educational goals, schools must
+engage students in a way that clearly demonstrates
+that finishing high school is an essential interim step
+for students to achieve their life goals. High school
+graduation remains the Quality Education Model’s key
+measure of K‐12 system success.
+“Targeted universalism” means setting universal
+goals pursued by targeted processes to achieve
+those goals. Within a targeted universalism
+framework, universal goals are established for all
+groups concerned. The strategies developed to
+achieve those goals are targeted, based upon how
+different groups are situated within structures,
+culture, and across geographies to obtain the
+universal goal. Targeted universalism is goal oriented
+and the processes are directed in service of the
+explicit, universal goal.
+Oregon has begun to institute a number of best practices
+recommended by the QEC, exemplified by the Student
+Success Act, the Oregon Integrated Systems Framework,
+the Continuous Improvement Plan process, as well
+as ensuring well‐rounded and coordinated learning
+principles that may include mental/behavioral health
+and community‐based supports, summer session, and
+attention to chronic absenteeism. Students learn in
+different ways, and schools need the flexibility and
+funding to tailor their teaching methods to the needs
+of students. These best practices are suggestions, not
+mandates; schools need the flexibility to adopt those
+practices that best suit their individual districts and
+schools.
+
+Student Success Act
+Oregon’s leaders demonstrated
+a historic financial commitment
+to Oregon’s students,
+educators, schools, and the
+state by enacting in 2019 the
+Student Success Act,17 funded
+by a new corporate activities
+tax.18 The act created 12 new
+programs and expanded 16
+existing educational programs,
+affecting students from
+early learning to 12th‐grade
+graduation.
+A key element of the Student Success Act is its
+commitment to improving equity by increasing access
+and opportunities for historically marginalized students.
+It provides implementation guidelines designed to create
+long‐term school improvement. That commitment is
+reflected in the allocation of added funding specifically
+for these high‐priority focal groups and in the
+requirement that both education staff and community
+members be involved in the development of school
+district plans for use of the Student Investment Account
+grant funds.
+When fully implemented, the 2019 Student Success
+Act was expected to invest $2 billion in Oregon K‐12
+education every two years, distributed into three
+accounts:
+1. The Early Learning Account ($400 million/20
+percent), to expand access to early education
+programs;
+2. The Student Investment Account ($1 billion/50
+percent), for noncompetitive grants to school
+districts to address student mental and behavioral
+health, class size, more time, well‐rounded
+educational opportunities, and reducing academic
+disparities among students; and
+3. The Statewide Education Initiatives Account ($600
+million/30 percent).
+
+17 HB 3427 (2019), https://olis.oregonlegislature.gov/liz/2019R1/Downloads/MeasureDocument/HB3427/Enrolled
+18 HB 3427 established the Fund for Student Success; collection of the tax will not begin until January 2020. The CAT was estimated to
+generate $1.6 billion in 2019‐21 biennium.
+
+18 | Best Practices: Equity in Action www.oregon.gov/ode
+
+In Oregon, we believe that strong schools can open doors of opportunity for all students—whether black, brown, or
+white. When we provide our students and educators with the funding and specific tools that they need to thrive in the
+classroom, we can create an Oregon that lives up to its values of hope, opportunity, and fairness for all families.
+‐ Sen. Arnie Roblan, HB 3427 floor letter, 5/13/2019
+
+ALIGNMENT & INTEGRATION OF STATE & FEDERAL EDUCATION INVESTMENTS
+
+Integration is possible for these six initiatives because of what they have in common. While each program can be pulled apart (and has
+been historically), this guidance brings them together so applicants, schools, and programs can leverage multiple strategies and funding
+sources to implement more cohesive plans that positively impact students. The Quality Education Commission supports ODE initiatives
+and works to align its recommendations with ODE guidance as that guidance evolves. For more information, see the ODE webpage.
+
+Statewide Education Initiatives Account (30 percent)
+Of particular interest to the QEC is the Statewide Education Initiatives Account, which receives 30 percent of the Student
+Success Fund and funds grants to school districts to implement ODE initiatives such as the following programs:
+
+▪
+▪
+▪
+▪
+▪
+▪
+
+Expansion of the African American/Black Student
+Success Plan and boosting of its funding;
+Funding the American Indian/Alaska Native Student
+Success Plan for the first time;
+Creating a new Latino/a/x and Indigenous Student
+Success Plan;
+Establishing in 2021 an LGBTQ2SIA+ Student Success
+Plan;
+Directing the ODE in 2022 to develop a Native
+Hawaiian and Pacific Islander Success Plan;
+Fully funding the “High School Success” program
+established by a 2016 ballot measure;
+
+▪
+▪
+▪
+▪
+▪
+▪
+
+Expanding the funding of the Educator Advancement
+Council in order to diversify the educator workforce;
+Devoting some funding to a Youth Reengagement
+Program for 14 to 24 year olds;
+Expanding school nutrition programs to serve nearly
+half of Oregon students;
+Providing $3 million in funding for summer school
+programs in Title I schools;
+Developing an early indicator/intervention system to
+support all ninth graders to be on track to graduate
+on time; and
+Providing resources to ODE to increase staffing for
+all SSA functions and program supports.
+
+Best Practices: Equity in Action www.oregon.gov/ode | 19
+
+Integrated Needs Assessment
+In February 2022, the Oregon Department of Education
+(ODE) released the Aligning for Student Success:
+Integrated Guidance for Six ODE Initiatives, which shares
+information and tools as ODE operationally brings
+together six programs to create significant opportunities
+to improve outcomes and learning conditions for
+students and educators.
+The new Integrated Needs Assessment resource released
+alongside the Aligning for Student Success: Integrated
+Guidance for Six ODE Initiatives offers districts a single
+tool to support improvement and system health,
+capturing a moment‐in‐time analysis of needs. This
+resource provides an approach to engaging with the
+Integrated Needs Assessment and embeds suggested
+actions, processes, and sources of data that might be
+helpful considerations for teams. Developed by the
+Oregon Department of Education, the Integrated Needs
+Assessment aligns questions and builds off previous tools
+and frameworks for continuous improvement, including
+the ORIS framework.19
+The process of assessing needs is a critical part of
+the continuous improvement cycle. A comprehensive
+and integrated needs assessment examines practices,
+systems health and program quality, is informed by
+community input, and yields the best results when
+honest reflective discussion considering multiple
+viewpoints are included as part of the process. It
+includes a robust analysis of disaggregated student
+performance data including trends for focal student
+groups and root cause analysis may also be conducted
+to further examine core issues impacting outcomes.
+
+When engaging in the Integrated Needs Assessment,
+consider the following components:
+
+▪
+
+Consider Community Engagement Input: Community
+engagement efforts provide critical information. It is
+important to review input, to notice and document
+patterns and trends that have emerged when
+assessing needs. Trends and themes may vary across
+community groups including students, focal groups,
+families, and community partners.
+
+▪
+
+Review Disaggregated Data: Review multiple sources
+of information across grades and subject areas,
+with specific attention to the needs of student
+focal groups to help inform the assessment. Other
+important sources of data about student wellbeing,
+climate, feelings of belonging, attendance, and
+behavior are also factored into the process. In
+addition to student data, it is important to review
+staff data such as retention rates, staff to student
+ratios, and staff wellbeing.
+
+▪
+
+Identify Priorities Aligned to the Four Common
+Goals: Review the four common goals introduced
+on page 17. They represent shared goals across the
+six programs in the Aligning for Student Success:
+Integrated Guidance for Six ODE Initiatives and are
+aligned to Oregon’s State ESSA plan.
+
+19 Oregon Department of Education, Oregon Integrated Systems Framework. School Level System Health Needs Assessment, May 2019.
+https://www.oregon.gov/ode/schools‐and‐districts/grants/ESEA/IA/Documents/V1%20‐%20SCHOOL%20Oregon%20Integrated%20
+Systems%20Framework%20Needs%20Assessment.pdf
+
+20 | Best Practices: Equity in Action www.oregon.gov/ode
+
+Continuous Improvement Process
+Schools and districts in Oregon are called upon to
+engage in continuous improvement work to improve
+student success. A continuous improvement process is
+the process by which districts and schools:
+
+▪
+
+Determine what is working and what needs to
+change;
+
+▪
+
+Establish a process to engage stakeholders to effect
+change;
+
+▪
+
+Leverage effective practices to implement a plan;
+and
+
+▪
+
+Use data to monitor and make timely adjustments to
+improve student success.
+
+SET THE
+DIRECTION/
+VISION
+
+MONITOR
+WORK, ADJUST,
+& FEEDBACK
+LOOPS
+
+District
+
+IMPLEMENT
+STRATEGIC
+PLAN
+
+ASSESS
+NEEDS
+
+CREATE
+STRATEGIC
+PLAN
+
+The continuous improvement process results in the
+development of an ambitious, priority‐driven action plan
+where routine collaboration and decision‐making among
+district leaders is reflected throughout implementation.
+
+An Equity‐Centered System with a
+Mental/Behavioral Health and Wellness
+Foundation
+In March 2022, the Centers for Disease Control released
+a survey that found more than 4 in 10 teens reporting
+that they feel “persistently sad or hopeless,” and 1
+in 5 saying they have contemplated suicide. The CDC
+survey reflects a generation reeling from the pandemic,
+grappling with food insecurity, academic struggles, poor
+health and abuse at home.20 In addition, over a third (36
+percent) of students said they experienced racism before
+or during the COVID‐19 pandemic.21
+The highest levels were reported among Asian students
+(64 percent) and Black students and students of multiple
+races (both 55 percent). Youth who felt connected to
+adults and peers at school were significantly less likely
+than those who did not to report persistent feelings
+of sadness or hopelessness (35 vs. 53 percent); that
+they seriously considered attempting suicide (14 vs.
+26 percent); or attempted suicide (6 vs. 12 percent).
+However, fewer than half (47 percent) of youth reported
+feeling close to people at school during the pandemic.
+In October 2021, the American Academy of Pediatrics,
+the American Academy of Child and Adolescent
+Psychiatry, and Children’s Hospital Association declared a
+National State of Emergency in Children’s Mental Health,
+citing rates of childhood mental health concerns and
+suicide rose steadily between 2010 and 2020 and that
+by 2018, suicide was the second leading cause of deaths
+for youths aged 10‐24; the pandemic has intensified the
+crisis, with emergency rooms seeing dramatic increases
+in visits for all mental health emergencies including
+suicide attempts.22
+The crisis of disrupted learning in all grades but
+particularly in elementary schools has been well‐
+documented in Oregon. This is not a phenomenon of
+the pandemic’s making; reports of student outbursts,
+fleeing, classroom violence, and other manifestations
+of trauma have been reported to be occurring at least
+weekly in schools across the state for more than six
+years.
+
+20 Centers for Disease Control, New CDC data illuminate youth mental health threats during the COVID‐19 pandemic, 3‐31‐2021. https://
+www.cdc.gov/media/releases/2022/p0331‐youth‐mental‐health‐covid‐19.html
+21 Centers for Disease Control.
+22 American Academy of Pediatrics, AAP‐AACAP‐CHA Declaration of a National Emergency in Child and Adolescent Mental Health, 10‐21‐
+2021. https://www.aap.org/en/advocacy/child‐and‐adolescent‐healthy‐mental‐development/aap‐aacap‐cha‐declaration‐of‐a‐national‐
+emergency‐in‐child‐and‐adolescent‐mental‐health/
+
+Best Practices: Equity in Action www.oregon.gov/ode | 21
+
+The Quality Education Commission recognizes that sound mental health, which encompasses emotional, social,
+cognitive and behavioral functioning is critical to learning. An effective education system incorporates mental/
+behavioral health as a foundational element.
+Mental/behavioral health occurs within a continuum of care that supports students’ physiological needs, safety,
+security, social connection, identity, diversity and purpose. Schools are primary providers of mental and emotional
+health supports for students. About one in five youths in the United States experience some form of emotional, social
+or behavioral difficulty. Roughly 70 percent of American students who access mental health services and supports do
+so in their schools.23 Research has convincingly shown that children and teens do better in school when student and
+school staff mental/behavioral health and well‐being needs are being met.
+In 2021, the legislature recognized the importance of social‐emotional learning and directed the State Board of
+Education to adopt K‐12 social‐emotional learning standards no later than September 15, 2023 (HB 2166), with school
+districts implementing the new standards no later than July 1, 2024.
+
+23 Oregon Dept. of Education, ODE Mental Health Talking Points, February 2021. https://www.oregon.gov/ode/students‐and‐family/
+equity/SchoolSafety/Documents/ODE%20Mental%20Health%20Talking%20Points.pdf
+
+22 | Best Practices: Equity in Action www.oregon.gov/ode
+
+“Mental health” refers to the emotional, social,
+cognitive, behavioral, physical and relational thriving
+of individuals and systems.
+
+▪
+
+ODE believes that mental health is centered
+within a continuum of care that meets each
+person’s needs for physical and emotional
+safety, security, social connection, identity,
+diversity and purpose.
+
+▪
+
+The ODE Integrated Model of Mental Health
+recognizes and emphasizes the strengths,
+resilience, and ways of knowing of each
+individual within a school community, and
+prioritizes voice, choice, empowerment and
+transparency.
+
+▪
+
+These values are supported by four,
+interconnected pillars of practice: trauma‐
+informed care, social emotional learning (SEL),
+racial equity and anti‐racism, and a strengths‐
+focused multi‐tiered system of support (MTSS).
+
+▪
+
+▪
+
+Promoting mental health in school communities
+requires universal prevention (pedagogies and
+offerings that support students and adults
+in practicing and embodying healthy ways of
+being), in combination with targeted, culturally‐
+and linguistically‐attuned services.
+Inherent to this effort is the explicit
+acknowledgment of the inequities, disparities,
+racism, oppression, marginalization, insults
+and assaults experienced by Black, Latinx,
+Asian, Indian/Tribal, LGBTQ2SIA+ community
+members, individuals with disabilities and
+others, and the commitment to changing the
+policies, practices and systems that perpetuate
+these harms.
+
+Community Partnerships
+Public education systems are stronger when they
+coordinate with community leaders and community‐
+based organizations to coordinate to identify and
+comprehensively address students and families’ needs.
+Schools are important hubs for students and families to
+gather, learn, and access services, and public education
+is best able to help meet the needs of students when
+they can call on the expertise and capacity that exists in
+the community to respond. Partnering with culturally
+specific community organizations to shape district and
+school policies and programs, and directly provide
+culturally relevant services is an inclusive approach that
+can accelerate change. Community partnerships look
+differently from community to community, school to
+school, as they draw on the existing strengths of the
+community and forge mutuality between schools and
+community partners.
+Oregon’s districts and schools maintain many existing
+community partnerships. A few examples include the
+following:
+
+▪
+
+Regional collaboratives like Central Oregon’s Better
+Together, a regional, cross‐sector partnership
+working collectively to improve education outcomes
+for children and youth from cradle to career. Made
+up of over 300 stakeholders from six school districts,
+two higher education institutions, and multiple early
+learning organizations, non‐profits, businesses, and
+government agencies. Better Together convenes and
+facilitates these partners to close gaps and increase
+student success.
+
+▪
+
+Local partnerships with a district or school, for
+example, Adelante Mujeres, partners with districts in
+Forest Grove through the Chicas Youth Development
+Program, which partners with public schools to
+provide culturally relevant after‐school programing,
+leadership, and community service opportunities
+to Latina youth and their families. The program
+begins in 3rd grade and provides developmentally
+appropriate learning opportunities through 12th
+grade. Chicas uses culturally relevant approaches
+to support academic progress, cultivate interest in
+STEM, and prepare youth and families to prepare for
+college.
+
+Best Practicces: Equity in Action www.oregon.gov/ode | 23
+
+Beyond the current patchwork and often ad hoc nature
+of community partnerships, the Community Schools
+Model24 has risen as a researched‐based approach to
+bridging the academic and holistic (cultural, health,
+social, etc) needs of students toward academic success
+and overall thriving communities. Community Schools
+focus on the uniqueness of the students and families
+a neighborhood school services, and then strategically
+partners with a diverse range of partners to address the
+specific needs and opportunities present in each school.
+Often this looks like co‐locating services that students
+and families are currently accessing in other parts of
+town (food assistance, health care, mental health, day
+care, etc.), thus reducing barriers to the critical supports
+that help students thrive. The Community Schools
+Model also is responsive to a robust culture of family
+and community engagement, and positions the school
+as a hub for learning, community building, and access to
+services across the lifespan, with students as the focal
+point. Current emphasis of these factors in the SSA can
+serve as a foundation for Oregon to explore and test the
+effect of moving toward a Community Schools Model
+approach.
+
+Early Childhood Education and College
+and Career
+While early childhood education (ages 0‐5) and higher
+education are outside the scope of the Quality Education
+Model, the QEC acknowledges the impact of the
+education that precedes and follows K‐12 education,
+especially in terms of access to opportunity.
+The opportunity and achievement gaps found in
+K‐12 have their roots in circumstances that exist long
+before students enter kindergarten. The first five
+years of life are a time of rapid brain development and
+the creation of foundational structures of the brain.
+High‐quality preschool investments offer the greatest
+chance to improve long‐term success for Oregon’s most
+marginalized children.25
+Children age 0‐5 are the most racially and ethnically
+diverse and face the greatest poverty rates of any
+
+age group. These students could benefit greatly from
+developmentally appropriate, culturally responsive,
+inclusive preschool and other early learning opportunities.
+In the last few decades, numerous studies have shown
+the increasing benefits of early childhood education.
+Developmentally appropriate pre‐kindergarten and
+full‐day kindergarten gives students appropriate
+preparation for their academic and social experiences
+later in school, including exposure to reading materials
+and social development through daily interactions with
+children and adults. Understanding its value, the Oregon
+Legislature directed school districts to offer half‐day
+kindergarten in 1981 and provided funding for those that
+offer full‐day kindergarten beginning in 2015.26
+Expelling and suspending these very young students
+may deprive them of much‐needed supports and
+interventions, lessens their opportunities for learning,
+and takes an emotional toll on them and their families.
+Suspensions and expulsions have too often been used
+disproportionately with Black students and those
+with disabilities. The Center for American Progress
+found that children age three to five with disabilities or
+emotional and social challenges comprised 75 percent
+of those suspended and expelled, while making up
+only 12 percent of the overall student population. Data
+reveal that disparities in discipline begin in pre‐K and
+carry through secondary school.27 The 2021 Legislature
+enacted SB 236, prohibiting state‐funded early
+childhood care and learning providers from suspending
+or expelling a child and enacted HB 2166 to create the
+Early Childhood Suspension and Expulsion Prevention
+Program, funded with d $5.8 million for the 2021‐2023
+biennium.
+On the other end of the K‐12 education spectrum is
+college and career training. Postsecondary education
+and training is a demonstrated pathway to higher
+lifetime incomes, family‐wage careers, and economic
+mobility, among numerous other civic, health, and
+family benefits. Longstanding systemic barriers built
+into government, institution, and education systems
+have failed to sufficiently support communities of color,
+
+24 Anne Maier, Julia Daniel, Jennie Oakes. Community Schools as an Effective School Improvement Strategy: A Review of the Evidence.
+Learning Policy Institute. December 2017. https://learningpolicyinstitute.org/product/community‐schools‐effective‐school‐improvement‐
+brief
+25 Jorge Louis Garcia, et. al., The Life‐Cycle Benefits of an Influential Early Childhood Program, NBER Working Paper 22993. December
+2016. https://www.nber.org/papers/w22993
+26 ORS 336.095. https://www.oregonlegislature.gov/bills_laws/ors/ors336.html
+27 Judi Sharma, Oregon Could Be the Next State to Address Exclusionary Discipline in Early Education blog post, July 2, 2021. https://www.
+newamerica.org/education‐policy/edcentral/oregon‐exclusionary‐discipline/
+
+24 | Best Practices: Equity in Action www.oregon.gov/ode
+
+Best Practices in Action:
+
+students experiencing poverty, and other marginalized
+communities in accessing, completing, and benefiting
+from postsecondary education and training.28 College‐
+going and persistence data for Oregon high school
+graduates show students from low‐income families and
+students of color persist and graduate from college at
+lower rates than more advantaged students.29
+
+2021 Teacher of the Year
+Nicole Butler‐Hooten
+
+Schools, colleges, non‐profits and industry should work
+together to help 6th‐12th grade students envision
+futures that include college and careers. One initiative
+in this effort are Professional Learning Communities
+(PLCs) which bring college faculty and high school
+teachers together to help students access and complete
+college.30 The opportunity for high school students to
+enroll in college‐level courses while still in high school
+helps students make an affordable transition at a point
+where many students are lost to the education system.
+Investment in Career and Technical Education programs
+has increased the number of students prepared for
+careers and college.31
+
+Best Practices for Funding
+A growing body of evidence shows that increased
+spending on education leads to better student success.
+When states invest in their public schools and create
+more equitable school finance systems, student
+achievement levels rise, and the positive effects are even
+greater among low‐income students. Overall, efforts
+to cut funding for education or services that support
+students are short‐sighted and defy current research.32
+
+After 14 years working at Irving, second grade
+teacher Butler‐Hooten is described by district
+leaders as a driven and consistent educator who
+pushes her students toward tough but attainable
+standards. As a Siletz woman and member of the
+Apache Tribe who identifies strongly with her
+indigenous lineage, her teaching centers around
+equity and connecting with families.
+“One of the things that she’s so good about is
+giving students many opportunities to show their
+learning in different ways — to make a classroom
+environment feel safe enough for students to take
+risks in their learning, “Principal Bridgens said.
+Butler‐Hooten also serves on the district’s equity
+team, Bridgens said, and is a mentor to student
+teachers year after year.”33
+
+28 Higher Education Coordinating Commission, Oregon HECC Equity Lens, last updated Dec. 2021.
+29 Oregon Quality Education Commission, 2020 Quality Education Model Final Report, August 2020, 19.
+30 Willamette Promise Continuation Grant Application. Narrative. Oct. 2015. https://www.oregon.gov/ode/schools‐and‐districts/grants/
+Documents/2015‐10‐20‐‐_wp‐proposal.pdf
+31 Oregon Dept of Education, STEM and CTE Investments: A Report on HB 3072, Jan. 2018. https://www.oregon.gov/ode/learning‐
+options/CTE/data/Pages/Reporting,‐Accountability,‐and‐Data‐Informed‐Decision‐Making.aspx
+32 Carmel Martin, et al, A Quality Approach to School Funding. Lessons Learned from School Finance Litigation. American Progress. Nov.
+13, 2018. https://www.americanprogress.org/article/quality‐approach‐school‐funding/
+33 Brown, Jordyn, Bethel’s Nicole Butler Hooten is Oregon’s 2021Teacher of the Year, The Register Guard, Oct. 1, 2020.
+
+Best Practicces: Equity in Action www.oregon.gov/ode | 25
+
+The closing of school buildings and the shift to online learning was a dramatic change in schools’ operations. The
+pandemic has had an effect on students’ and educators’ mental health, as well. Trauma, stress, and isolation—
+sometimes affecting cognitive functioning—have been widely experienced during this crisis.34
+As a result, student data was affected and data collection was impaired. Comparing 2020 and 2021 data to prior years
+could not be done with any validity, given the historic impacts of the pandemic.
+This report contains available data that are important to consider in discussions of education best practices and funding.
+
+Graduation Rates
+Graduation rates are a critical metric for measuring student success and the state’s equity goals. Despite the
+challenges school communities still confront, in 2021, Oregon’s four‐year graduation rate was 80.6 percent. This is
+the second‐highest graduation rate in Oregon’s recorded history, and higher than the most recent, pre‐pandemic
+graduation rate of 80.0 percent for the class of 2019. It is lower than 2020’s 83 percent graduation rate. In recent
+years, with a coordinated statewide focus on improving graduation rates, Oregon has made steady progress both in
+increasing graduation rates and narrowing inequalities, resulting in graduation rates much higher than the Class of
+2014′s rate of 72 percent.35 36
+
+EXHIBIT B: GRADUATION RATES AMONG STUDENT GROUPS
+Student Group
+
+Class of 2014
+
+Class of 2021
+
+Difference
+
+All
+
+72.0
+
+80.6
+
+8.6
+
+Asian
+
+85.9
+
+91.9
+
+6.0
+
+Native Hawaiian/
+Pacific Islander
+
+68.8
+
+69.8
+
+1.0
+
+American Indian/
+Alaskan Native
+
+53.5
+
+67.0
+
+13.5
+
+Black/African American
+
+60.2
+
+73.5
+
+13.3
+
+Hispanic/Latino
+
+64.9
+
+77.0
+
+12.1
+
+Former English Learners
+
+69.9
+
+84.2
+
+14.3
+
+English Learners
+in High School
+
+51.7
+
+64.4
+
+12.7
+
+Special Education
+
+51.1
+
+66.1
+
+15.0
+
+34 E. Cushing, Late stage pandemic is messing with your brain, The Atlantic, 3(8), March 2021.
+35 Kate Brown and Colt Gill. Opinion: Despite Pandemic, Oregon’s Resilient Students of Class of 2021 Showed Gains, The Oregonian,
+January 23, 2022. https://www.oregonlive.com/opinion/2022/01/opinion‐despite‐pandemic‐oregons‐resilient‐students‐of‐class‐of‐2021‐
+showed‐gains.html
+36 Oregon Dept. of Education, Graduation Reports, Cohort Graduation Rate 2020‐21, Media File, accessed May 2022. https://www.
+oregon.gov/ode/reports‐and‐data/students/Pages/Cohort‐Graduation‐Rate.aspx
+
+26 | K‐12 Education Factors Relevant to the QEM www.oregon.gov/ode
+
+Prior to the pandemic, Oregon’s high school graduation
+rates for all student groups over the past decade have
+risen impressively. Differences remain, however, in
+graduation rates of students of color, students from low‐
+income families, English language learners, and students
+with disabilities. For students who fall into more than
+one of these groups—and fully one third of Oregon
+students do—the challenges are even greater.
+Research over the past eight years by the QEC points
+to the implementation of continuous improvement
+processes that increase effective instructional practices
+and personalize education for students as factors in
+Oregon’s improving graduation rates.
+A good example of effective instructional practices
+can be seen in the graduation rates of students who
+complete state‐approved courses in Career and
+Technical Education Programs of Study. CTE instruction
+incorporates standards‐based academic content,
+technical skills, and workplace behaviors necessary
+for success in careers of the 21st century. Among
+students beginning high school in 2016‐17, the four‐year
+graduation rate was 12.2 percentage points higher for
+CTE concentrators than for all students statewide, with
+graduation rates nearing 95 percent; students in every
+racial/ethnic student population graduated at higher
+rates than the state average.37
+
+Assessment
+COVID‐19 came to Oregon in March 2020, shutting
+down schools. The US Dept. of Education permitted
+every state to skip standardized testing altogether in
+2020. In 2021, Oregon requested to waive all federal
+testing requirements again. In addition to the additional
+challenges and burdens on districts driven by the
+pandemic, there were concerns with the ability of school
+districts to create safe and secure testing environments.
+A total assessment waiver was denied, but assessments
+were reduced to testing students in grades 3‐8 and 11 in
+one or two subjects.38 Participation rates ranged from a
+low of 3.6 percent to a high of 37.5 percent 39 and cannot
+be used to compare with prior years.
+It is unclear how future test scores will be comparable
+with prior years, due to passage of SB 1583 (2022),
+which directs the Oregon Department of Education
+to administer assessments only at the minimum level
+required by federal law and to apply annually for a
+waiver of federal testing requirements.
+
+Going forward, findings from statewide community visits
+also highlight a need for outreach to students, youth,
+parents, and families, to build relationships, integrating
+culturally responsive practices, and to provide wrap‐
+around services. These are state investments the QEC
+would recommend in future biennia.
+
+37 Oregon Department of Education, Oregon Statewide Report Card 2020‐2021, p. 50. https://www.oregon.gov/ode/schools‐and‐
+districts/reportcards/Documents/rptcard2021.pdf
+38 Elizabeth Miller, US Education Department approves Oregon’s request to scale back standardized tests, Oregon Public Broadcasting,
+April 7, 2021. https://www.opb.org/article/2021/04/07/oregon‐schools‐standardized‐testing‐plan/
+39 Going forward, SB 1583 (2022) directs the Oregon Department of Education to administer assessments only at the minimum level
+required by federal law and to apply annually for a waiver of federal testing requirements. As a result, it is unclear whether test scores will
+be comparable with prior years.
+
+K‐12 Education Factors Relevant to the QEM www.oregon.gov/ode | 27
+
+Enrollment
+Enrollment fell in Oregon schools in the last year. Districts reported a total of 553,012 students in October 2021, a
+decrease from the prior year’s total of 560,917, and down from 582,661 in the 2019‐2020 school year with the pandemic
+likely driving the decrease. Declines are centered in grades 1‐8, but increases are seen at the secondary level.
+
+EXHIBIT C: RACE/ETHNICITY CHANGES
+Fall
+2019
+
+Student
+Group
+
+Fall
+2020
+
+Fall
+2021
+
+Change
+2019 to
+2020
+
+Change
+2020 to
+2021
+
+Students
+in 2021
+
+White
+
+61.5%
+
+60.4%
+
+59.6%
+
+‐19,729
+
+‐9,300
+
+329,230
+
+Hispanic/Latino
+
+23.7%
+
+24.4%
+
+25.0%
+
+‐1,172
+
+900
+
+138,010
+
+Multi‐Racial
+
+6.6%
+
+6.9%
+
+7.1%
+
+323
+
+540
+
+39,170
+
+Asian
+
+4.0%
+
+4.1%
+
+4.0%
+
+‐475
+
+‐620
+
+22,110
+
+Black/African
+American
+
+2.3%
+
+2.3%
+
+2.3%
+
+‐155
+
+‐270
+
+12,750
+
+American Indian/
+Alaskan Native
+
+1.2%
+
+1.2%
+
+1.1%
+
+‐440
+
+‐220
+
+6,350
+
+Native Hawaiian/
+Pacific Islander
+
+.8%
+
+.8%
+
+.8%
+
+‐96
+
+120
+
+4,450
+
+All Students
+
+‐‐‐
+
+‐‐‐
+
+‐‐‐
+
+‐21,744
+
+‐8,860
+
+552,100
+
+The trend in greater student diversity continues. Asian student enrollment shows an overall decrease, while Hispanic/
+Latino Multi‐racial, and Native Hawaiian/Pacific Islander student enrollment has continued to increase since 2016‐17.
+American Indian/Alaska Native, Black/African American, and White student enrollments continue to decline slightly.
+NOTE: Federal regulations for race/ethnicity reporting mask some of the diversity in the students we serve. All
+students who identify as Hispanic are reported as Hispanic, regardless of the race(s) they identify with. Non‐Hispanic
+students who identify with two or more races are reported as multiracial. This means students who identify as Black,
+for example, might be reported as Black, Multiracial, or Hispanic.
+The most rapid growth in enrollment has been among Hispanic students. The share of White students has declined
+from 94 percent to 63 percent over a 44‐year period. The Multi‐ethnic category, first used in 2004‐05, has grown to
+almost 7 percent of the total in 2021‐22.
+The increasing student diversity and loss of enrollment has funding implications. More than 30,000 students, primarily
+in the lower grades, have left the public school system over the two years of the pandemic. This decline affects school
+funding in the districts experiencing significant losses.
+
+EXHIBIT D: 2013‐14 and 2021‐22 STUDENT ENROLLMENT COUNT
+American
+Indian /
+Alaska
+Native
+(Non‐
+Hispanic)
+
+2013‐14
+2021‐22
+
+Year
+
+Asian
+(Non‐
+Hispanic)
+
+Native
+Hawaiian
+/ Pacific
+Islander
+(Non‐
+Hispanic)
+
+Black /
+African
+American
+(Non‐
+Hispanic)
+
+9,161
+
+22,344
+
+3,907
+
+6,357
+
+22,145
+
+4,454
+
+Hispanic
+/ Latino
+
+Multi‐
+White
+Total
+Racial
+(Non‐
+(Non‐
+Hispanic) Hispanic)
+
+13,699
+
+124,701
+
+363,770
+
+29,516
+
+567,098
+
+12,731
+
+138,112
+
+329,994
+
+39,219
+
+553,012
+
+28 | K‐12 Education Factors Relevant to the QEM www.oregon.gov/ode
+
+Class Size
+Reducing class size is a big cost driver in education.
+Research indicates that children in smaller classes are
+more successful, both academically and otherwise,
+particularly in elementary grades, and that class size
+reduction can be an effective strategy for closing racially
+or socioeconomically‐based achievement gaps.40
+The largest class size study, the Tennessee’s Student
+Teacher Achievement Ratio (STAR) was a four‐year
+longitudinal study that found smaller class sizes had a
+positive effect on student learning.41 The STAR research
+shows that small classes (15‐17 pupils) in kindergarten
+through third grade (K‐3) provide short‐ and long‐term
+benefits for students, teachers, and society at large.
+Although all students benefit, poor, minority, and male
+students reap extra benefits in terms of improved test
+scores, school engagement, and reduced grade retention
+and dropout rates.42
+Oregon educators continue to cite large class size as an
+impediment to student learning. The 2018 TELL survey,
+which surveyed educators across the state, found 62
+percent of those surveyed answered they disagreed or
+strongly disagreed with the statement “class sizes are
+reasonable such that teachers have the time available to
+meet the needs of all students.”43
+Oregon began collecting class size data in 1997, but the
+collection has been refined over the years to include
+more detailed data elements. In 2013, the calculation
+was improved to use teacher staffing numbers in schools
+rather than the number of adults in the school, the use
+of which had artificially lowered class size calculations.
+Class size data for 2020‐21 is difficult to compare
+from prior years, given changes in course scheduling
+and recordkeeping in some districts. For 2020‐21,
+almost all class size medians decreased at the state‐
+level contrasted to all previous years. Self‐contained
+
+classes decreased by 1.5 to 5.5 students per class.
+Departmentalized classes decreased by 7‐9 students
+per class. These changes were expected due to schools
+following the Ready Schools, Safe Learners guidance
+to schedule smaller class cohorts to prevent COVID‐19
+transmission through adequate social distancing within
+enclosed classrooms. Individual schools also showed
+overly large class sizes and increased medians in some
+cases. These increases may indicate that the school was
+offering comprehensive distance learning on the first
+weekday in May.
+Funds available through the Student Success Act may
+be used to reduce class sizes. For 2022, the QEC has
+changed its class size assumptions in elementary grades
+to better meet the social/emotional and learning needs
+of students.
+
+Poverty and Houselessness
+The impacts of socio‐economic status on student
+learning are well‐documented. Researchers have
+demonstrated a strong connection between family
+income and student achievement. In 2018, after eight
+years of uninterrupted economic growth, Oregon’s
+poverty rate stood at 13 percent, meaning that more
+than one in 10 Oregonians met the federal definition
+of poverty and likely lacked one or more basic needs,
+representing more than 516,000 Oregonians, including
+134,000 children.44
+Child poverty stands at 13.8 percent, a reduction from
+past years.45 Between January and April of 2020, this
+rate dropped nearly five points, following the release
+of federal pandemic relief funds, such as the Child Tax
+Credit.46 That tax credit expired in December 2021,
+sending many recipient families back into poverty.
+When measured by eligibility for free and reduced lunch
+programs, Oregon’s low‐income students exceed 50
+percent of enrollment.
+
+40 Baker, B.D., Farrie, D. and Sciarra, D.G. (2016), Mind the Gap: 20 Years of Progress and Retrenchment in School Funding and
+Achievement Gaps. ETS Research Report Series, 2016: 1‐37.
+41 C.M. Achilles, et al, Tennessee’s Student Teacher Achievement Ratio (STAR) project, 2008. https://doi.org/10.7910/DVN/SIWH9F,
+Harvard Dataverse, V1, UNF:3:Ji2Q+9HCCZAbw3csOdMNdA== [fileUNF]
+42 Achilles, C.M. et al (2012). Class‐size Policy: The Star Experiment and Related Class‐size Studies. NCPEA Policy Brief, 1.2.
+43 TELL Survey results. https://telloregon.org/results/
+44 Audrey Mechling, A Portrait of Poverty in Oregon, Oregon Center for Public Policy, August 7, 2021. https://www.ocpp.org/2020/08/07/
+poverty‐oregon/
+45 Annie E. Casey Foundation, Kids Count Data Center, 2019. https://datacenter.kidscount.org/data/tables/2564‐childhood‐
+poverty#detailed/2/any/false/1729,37,871,870,573,869,36,868,867,133/any/5332
+46 Ashley Walker, Children’s Institute, Federal Aid Programs Brought 60K Children Out of Poverty. Jan. 7, 2022. https://childinst.org/
+federal‐aid‐program‐brought‐60k‐oregon‐kids‐out‐of‐poverty/
+
+K‐12 Education Factors Relevant to the QEM www.oregon.gov/ode | 29
+
+Education equity is the equitable implementation
+of policy, practices, procedures, and legislation
+that translates into resource allocation, education
+rigor, and opportunities for historically and
+currently marginalized youth, students, and families
+including civil rights protected classes. This means
+the restructuring and dismantling of systems
+and institutions that create the dichotomy of
+beneficiaries and the oppressed and marginalized.
+‐ Office of Equity, Diversity & Inclusion
+Oregon Dept. of Education
+Oregon’s 22,000 homeless students suffer some of the
+greatest barriers to learning, due to trauma, insecurity,
+frequent school moves, and inability to study in a home
+environment. Several state and federal programs support
+some relief for these children, but Oregon’s housing
+crisis has grown so large that these resources cannot
+fully address the size of the problem.
+While the overall statewide number of students
+experiencing houselessness, or who are unaccompanied,
+decreased, the COVID‐19 pandemic and the closure of
+schools provided challenges for districts to identify and
+re‐engage youth and students who are experiencing
+houselessness and provide services.
+
+Language Diversity
+Bilingualism of students is a benefit to students,
+families, and Oregon. The current prototype schools
+model does not allow for consideration of potential
+differences in cost for operating a variety of bilingual
+school models, which could be something to consider
+in future iterations. For now, the QEM includes
+updated estimates on the need for ELL educators and
+professional development of all teachers. Rates of ELL
+students impact QEM estimates, and districts that have
+students identified as English Language Learners receive
+additional weight in the school funding formula.
+
+Oregon schools see a diversity of languages spoken.
+The largest district, Portland Public Schools, reports 60
+different languages spoken in their schools.47 According
+to data from the ESEA Title III: English Learner Collection
+for 2020‐21, there were 55,617 English Learners
+(almost 10 percent of all K‐12 students). In addition to
+the languages listed below, 256 students did not list
+a specific language and 1,327 students were listed as
+“Other Language”; 683 of these students participated in
+English Learner programs.48
+As of May 1, 2019, there were 102,786 students (about
+18 percent of all Oregon students) who had direct
+experience with the state’s English learner programs,
+as current or former English Learners (ELs). Within this
+student population, there was tremendous diversity in
+the cultural and linguistic assets they brought to their
+schools and districts. About half of those students
+(51,122 or 8.9 percent of all Oregon students) were
+classified as current ELs, meaning they were still
+developing their proficiency in English. A similar number
+(51,664 or 9.0 percent of Oregon students) were
+classified as former ELs, students who were at one time
+classified as current ELs, but had developed proficiency
+in English.49
+
+Special Education
+The Individuals with Disabilities Education Act (IDEA)
+makes a free appropriate public education available
+to eligible students aged 5‐21 and ensures special
+education and related services to those students.
+The percentage of Oregon students receiving special
+education services under IDEA has averaged 13.9 percent
+of total enrollment over the last five years, despite the
+fact that each school district’s special education weight is
+capped at 11 percent in the distribution formula. A high‐
+cost disability grant supplements some of the difference
+for students whose support needs exceed $30,000 per
+year.
+
+47 Portland Public Schools Multilingual and Multicultural Center, accessed May 2022. https://mlc.portlandschools.org/
+about#:~:text=Since%20then%2C%20Portland’s%20multilingual%20community,speak%20over%2060%20different%20languages.
+48 Oregon Dept. of Education, Oregon Statewide Report Card 2020‐21. https://www.oregon.gov/ode/schools‐and‐districts/reportcards/
+Documents/rptcard2021.pdf
+49 Oregon Dept. of Education, English Language Learners in Oregon Annual Report 2018‐2019, June 2020. https://www.oregon.gov/ode/
+reports‐and‐data/LegReports/Documents/Oregon%20English%20Learners%20Report%202018‐19%20Final.pdf
+
+30 | K‐12 Education Factors Relevant to the QEM www.oregon.gov/ode
+
+EXHIBIT E: SPECIAL EDUCATION ENROLLMENT
+2016‐17
+
+2017‐18
+
+2018‐19
+
+2019‐2020
+
+2020‐21
+
+Special Education
+
+77,964
+
+78,867
+
+80,436
+
+82,485
+
+79,782
+
+Total Enrollment
+
+578,947
+
+580,684
+
+581,730
+
+582,661
+
+560,917
+
+% of Enrollment
+
+13.5%
+
+13.6%
+
+13.8%
+
+14.2%
+
+14.2%
+
+Workforce Diversity
+In the 2020‐21 school year, Oregon employed 31,729
+teachers, of which 11.3 percent were teachers of color
+(teachers who were identified in state reporting as Asian,
+Black or African American, Hispanic or Latino, American
+Indian or Alaska Native, Native Hawaiian or Pacific
+Islander, or Two or More Races). The overall teacher
+workforce increased by 1,938 teachers over the ten‐year
+span, and representation of teachers of color increased by
+3 percent (from 8.3 percent in the 2010‐11 school year).50
+The benefits of a teacher workforce that mirrors its stu‐
+dent demographics are multifold. Studies investigating the
+impact of racial matching for teachers and students found
+positive results on racially, ethnically and/or linguistically
+diverse student test scores and improved perceptions of
+teachers of color for White students, a key facet of devel‐
+oping anti‐racism in today’s schools and society (Clotfelter,
+Ladd, & Vigdor, 2007). Another longitudinal study provid‐
+ed evidence that Black students taught by a Black teacher
+at least once between third and fifth grade were less
+likely to drop out of high school and more likely to aspire
+to go to college (Gershenson, et al., 2017). Most recent‐
+ly, results suggest that Black students are more likely to
+take advanced coursework if taught by a Black teacher
+(Hart, 2020).51 Policymakers and education leaders are
+challenged to redefine policies, structures and practices
+that invest in community‐based professional learning for
+ethnic studies, multicultural education, and culturally sus‐
+taining pedagogy, and anti‐racist practices in schools.52
+The Educator Advancement Council launched ten
+Regional Educator Networks (RENs) across Oregon to
+implement meaningful, systematic changes to improve
+recruitment, retention, and professional learning of
+educators of color.
+
+In collaboration with the Oregon Department of
+Education (ODE), the Teacher Standards and Practices
+Commission, the Higher Education Coordinating
+Commission, and representatives of school districts
+are providing programs and initiatives for professional
+development of educators. Components include
+educator recruitment and retention; educator diversity;
+mentoring and coaching educators; and expanding
+educator scholarship opportunities.
+
+EXHIBIT F: OREGON TEACHER WORKFORCE
+DEMOGRAPHICS
+8.
+
+91.7%
+
+11. 3%
+
+88.7%
+
+Workforce Shortage
+In addition to educator workforce diversity challenges,
+Oregon is facing a drastic educator crisis that may
+become even graver. In 2021, the Teacher Standards
+and Practices Commission was compelled to lower
+the standards for substitute teaching licenses until
+2024, requiring applicants only to be over the age of
+18 and pass a background check. Shortages in special
+education, math, science, languages, and increasingly,
+
+50 Educator Advancement Council, Oregon Dept. of Education, Data Brief: Teacher Workforce Demographic Changes Over the Last 10
+Years, updated 2/24/2022. https://core‐docs.s3.amazonaws.com/documents/asset/uploaded_file/2764/EAC/2063658/EAC_newsletter_
+ode_staff_positions_data_Feb_2022.pdf
+51 Educator Advancement Council, Oregon Dept. of Education, Oregon Educator Equity Report, November 2020, 14. https://core‐docs.
+s3.amazonaws.com/documents/asset/uploaded_file/1719960/2020_Ed_Equity_Report.pdf
+52 Oregon Educator Equity Report, 15
+
+K‐12 Education Factors Relevant to the QEM www.oregon.gov/ode | 31
+
+across all subjects and grade levels—as well as in
+educator support staff (bus drivers, special education
+assistants, etc.)—have reached levels that jeopardize
+the educational quality and learning gains Oregon has
+made in recent years. Fully 25 percent of educators are
+currently retirement‐eligible, and half of educators in
+recent national and state surveys have reported that
+they are considering resignation or retirement in 2022.53
+In a national poll, when asked about the likelihood that
+they’ll leave teaching in the next two years, 54 percent
+of teachers said they are “somewhat” or “very likely” to
+do so.54
+The TELL survey is a valuable resource for education
+policy makers in assessing our progress. It is an
+anonymous online survey of educators regarding their
+education experiences and teaching environment,
+the results of which are one component of a school
+improvement planning. The longitudinal data has
+incredible value for Oregon. For example, the 2018
+survey, the most recent one to have been completed,
+showed data that the pandemic has exposed more
+broadly. In 2018, 48 percent of educators identified
+that the level of non‐licensed personnel was already
+inadequate for schools to operate effectively, and
+that current licensed staff was largely not involved in
+mentoring support for new hires, a typical key program
+for support and retention efforts. To see survey results
+by district, visit https://telloregon.org/results/.
+
+Funding School Facilities
+The 2014 Task Force on School Capital Improvement
+Planning found that the condition of Oregon’s K‐12
+schools, “reflects a national pattern of under‐investment:
+crumbling buildings, obsolete systems, and deteriorating
+site conditions. Oregon’s school facilities are falling into
+obsolescence and failing to provide our children with
+environments for achievement and success.”55
+The 2013 Legislature created the Oregon School
+Capital Improvement Matching (OSCIM) Program.
+While the state program appears to be functioning
+well, it still contributes a relatively small share of the
+total capital spending of school districts and the state
+should consider additional ways to support districts in
+improving their facilities.
+
+In response to workforce concerns, the 2022 Legislature
+passed HB 4030, the Educator Workforce Bill, that
+features a number of short‐term policy changes and a
+$100 million investment focused on helping to address
+Oregon’s educator workforce shortages. The bill
+provides for training opportunities, relaxed reciprocity
+agreements, recruitment and retention grants, and
+additional support for TSPC. The 2021 Legislature
+enacted HB 2166, which allows the Teacher Standards
+and Practices Commission to permit accredited educator
+preparation providers to offer nontraditional pathways
+to licensure and increases the scholarship amount for
+diverse teacher candidates from $5,000 to $10,000.
+
+53 Oregon Education Association, Education at a Breaking Point, Ringing the Alarm on the Historic Staffing Crisis Within Oregon Schools,
+2021. https://www.oregoned.org/uploads/02_docs/EducatorStaffingCrisis_Report_2021_v2.pdf
+54 Liana Loewus, Why Teachers Leave—Or Don’t: A Look at the Numbers, Education Week, May 4, 2021. https://www.edweek.org/
+teaching‐learning/why‐teachers‐leave‐or‐dont‐a‐look‐at‐the‐numbers/2021/05
+55 Oregon School Capital Improvement Planning Task Force and Portland State University. Hatfield School of Government. Center for
+Public Service, “The Schools our Students Deserve: A Statewide School Facilities Program for Oregon” (2014). Center for Public Service
+Publications and Reports. 5. https://pdxscholar.library.pdx.edu/publicservice_pub/5
+
+32 | K‐12 Education Factors Relevant to the QEM www.oregon.gov/ode
+
+Findings
+1.
+
+In addition to incorporating comprehensive
+strategies to eliminate educational inequities,
+the Quality Education Commission finds that
+while the state has made progress in recent years
+to narrow the investment gap between what it
+has historically budgeted for K‐12 and what that
+system needs to achieve the state’s educational
+objectives, that progress has been challenged by a
+host of barriers.
+
+2.
+
+The calculation of the gap itself is fraught with
+methodological challenges. The new Student
+Success Act—designed to narrow the gap but not
+close it—has been delayed by revenue shortfalls
+and additional cost line‐items. In 2021, the
+Legislature did not view the new SSA funding
+entirely as additive, enacting budgets that used
+the fund in part to supplant a portion of State
+School Fund’s General Fund source, which
+lessened its gap‐closing potential in the current
+biennium. Additional questions regarding the
+calculation of the current service level (baseline)
+budget, as well as the use of corporate kicker
+funds complicate the picture for K‐12 funding and
+its relative adequacy or inadequacy.
+
+3.
+
+State School Fund resources required to fund K‐12
+schools at a level recommended by the QEC for the
+2023‐2025 biennium is estimated to be $11.889
+billion, $2.517 billion more than the amount
+required to maintain the current service level.56
+
+Recommendations
+1. Incorporate educational best practices at a
+system‐wide level. Oregon should avoid the
+temptation to rely on discrete programs, activities,
+and interventions that treat only the symptoms,
+not the root causes, of educational achievement
+challenges.
+
+2. Remain faithful to the intent of and targeted
+funding for the Student Success Act. The Student
+Success Act’s revenue source, the Corporate
+Activities Tax, ought to be sustained in order to
+accomplish the implementation vision of the
+Act. SSA was designed to provide much of the
+gap‐closing investments our schools need, and it
+remains a once‐in‐a‐generation opportunity to
+improve the effectiveness of our system on behalf
+of the students in our state.
+3. Increase equal opportunity and access to high‐
+quality early learning programs. This includes
+developmentally appropriate, culturally specific,
+and inclusive early learning programs. The research
+is clear that high‐quality early learning has lifelong
+positive impacts on children because it prepares
+them to enter kindergarten ready to learn.
+4. Pay attention to social and emotional learning.
+Students need to develop social and emotional
+skills to be effective learners and to thrive in social
+settings.
+5. Build community partnerships. Schools and
+districts thrive in communities that partner with
+entities that are best‐situated to provide key
+services to students, such as non‐profits and social
+service agencies.
+6. Build systems designed to continuously improve.
+School district leaders ought to pay close attention
+to the varying needs of schools within their districts
+in order for overall educational achievement gains
+to occur, even as state funding improves.
+
+56 As the Legislative Appropriation for the 2023‐25 biennium will not pass into law until after the publication of this report, the state
+funding gap is calculated as the difference between the Full‐Implementation QEM Recommendation and the 2023‐25 current service level
+estimated by the QEM.
+
+Findings, Recommendations, & Conclusions www.oregon.gov/ode | 33
+
+Conclusion
+For more than 20 years, this report has examined the
+inputs needed to sustain a high‐quality public education
+system by determining what practices are necessary
+to achieve those ends. In these reports, the QEC has
+also determined the level of investment the state
+would need to make in order to achieve those results.
+Much has changed in the education landscape in those
+decades. The Quality Education Commission believes
+that the model should to be reviewed and updated to
+incorporate such considerations as capital needs, early
+education access, the cost of ameliorating the impacts of
+low socio‐economic status on students, and successful
+strategies to address the growing crisis of student
+behavioral and mental health challenges.
+In its initial development, education finance and policy
+experts crafted a model that addressed the needs of
+students in the 1990s. Should the Legislature agree to
+invest in new work to revise those assumptions based
+on today’s students’ needs, future Models will be better
+able to approximate the investment level and best
+practices needed to ensure that all students have the
+educational opportunities they deserve.
+
+34 | Findings, Recommendations, & Conclusions www.oregon.gov/ode
+
+RESOURCES
+Quality Education Commission reports 1999 – 2022
+https://www.oregon.gov/ode/reports‐and‐data/
+taskcomm/Pages/QEMReports.aspx
+Education Funding Reports (Ballot Measure 1) 2001‐2021
+https://www.oregonlegislature.gov/citizen_
+engagement/Pages/Publications‐Reports.aspx
+Quality Education Commission Statutes ORS 327.497‐506
+https://www.oregonlegislature.gov/bills_laws/ors/
+ors327.html
+1999 School Finance Legislation Issue Brief (Legislative
+Revenue Office)
+https://www.oregonlegislature.gov/lro/Documents/
+rr4‐99_schoolfinance_fund_distribution.pdf
+
+REFERENCES
+American Academy of Pediatrics. AAP‐AACAP‐CHA
+Declaration of a National Emergency in Child and
+Adolescent Mental Health, 10‐21‐2021. https://www.
+aap.org/en/advocacy/child‐and‐adolescent‐healthy‐
+mental‐development/aap‐aacap‐cha‐declaration‐of‐a‐
+national‐emergency‐in‐child‐and‐adolescent‐mental‐
+health/
+Brown, Kate and Colt Gill. Opinion: Despite Pandemic,
+Oregon’s Resilient Students of Class of 2021 Showed
+Gains. The Oregonian. January 23, 2022. https://
+www.oregonlive.com/opinion/2022/01/opinion‐
+despite‐pandemic‐oregons‐resilient‐students‐of‐class‐
+of‐2021‐showed‐gains.html
+Center for Public Education. Education Equity: What does
+it Mean? How Do We Know When We Reach It?
+Research Brief. January 2016, 2. https://files.eric.
+ed.gov/fulltext/ED608822.pdf
+
+Jorge Louis Garcia, et. al. The Life‐Cycle Benefits of an
+Influential Early Childhood Program, NBER Working
+Paper 22993. December 2016. https://www.nber.org/
+papers/w22993
+Kober, Nancy and Diane Stark Rentner. Center on Education
+Policy. History and Evolution of Public Education in the
+US. 2020. https://files.eric.ed.gov/fulltext/ED606970.
+pdf
+Legislative Council on the Oregon Quality Education Model.
+The Oregon Quality Education Model. Relating
+Funding and Performance. June 1999, 10. https://
+www.oregon.gov/ode/reports‐and‐data/taskcomm/
+Documents/QEMReports/1999QEMReport.pdf
+Martin, Carmel et al. A Quality Approach to School Funding.
+Lessons Learned from School Finance Litigation.
+American Progress. Nov. 13, 2018. https://www.
+americanprogress.org/article/quality‐approach‐
+school‐funding/
+Powell, John, et al., Targeted Universalism: Policy &
+Practice, HAAS Institute for a Fair and Inclusive
+Society, May 2019.
+Mechling, Audrey. Oregon Center for Public Policy, A
+Portrait of Poverty in Oregon, August 7, 2021.
+https://www.ocpp.org/2020/08/07/poverty‐oregon/
+Miller, Elizabeth. US Education Department approves
+Oregon’s request to scale back standardized tests,
+Oregon Public Broadcasting, April 7, 2021. https://
+www.opb.org/article/2021/04/07/oregon‐schools‐
+standardized‐testing‐plan/
+Oregon Educator Equity Report. Nov. 2020. https://
+core‐docs.s3.amazonaws.com/documents/asset/
+uploaded_file/1719960/2020_Ed_Equity_Report.pdf
+
+Cushing, E., Late stage pandemic is messing with your
+brain. The Atlantic, 3(8). March 2021. https://www.
+theatlantic.com/health/archive/2021/03/what‐
+pandemic‐doing‐our‐brains/618221/
+
+Oregon Education Association. Education at a Breaking
+Point, Ringing the Alarm on the Historic Staffing Crisis
+Within Oregon Schools. 2021. https://www.oregoned.
+org/uploads/02_docs/EducatorStaffingCrisis_
+Report_2021_v2.pdf
+
+Educator Advancement Council. Oregon Dept. of Education.
+Oregon Educator Equity Report. November 2020. 14.
+https://core‐docs.s3.amazonaws.com/documents/
+asset/uploaded_file/1719960/2020_Ed_Equity_
+Report.pdf
+
+Sharma, Judi. Oregon Could Be the Next State to Address
+Exclusionary Discipline in Early Education blog
+post, July 2, 2021. https://www.newamerica.org/
+education‐policy/edcentral/oregon‐exclusionary‐
+discipline/
+
+Educator Advancement Council. Oregon Department
+of Education. Data Brief: Teacher Workforce
+Demographic Changes over the Last 10 Years.
+Updated 2/24/22. https://core‐docs.s3.amazonaws.
+com/documents/asset/uploaded_file/2764/
+EAC/2063658/EAC_newsletter_ode_staff_positions_
+data_Feb_2022.pdf
+
+Willamette Promise Continuation Grant Application.
+Narrative. Oct. 2015. https://www.oregon.
+gov/ode/schools‐and‐districts/grants/
+Documents/2015‐10‐20‐‐_wp‐proposal.pdf
+
+Resources & References www.oregon.gov/ode | 35
+
+$
+690,000
+9,370.94
+
+6,465,947,380
+
+$
+
+$
+
+695,000
+9,727.85
+
+2024‐25
+6,760,852,427
+
+Appendix 1 ‐ Cost Impacts of Changes to QEM Recommendations
+2023‐24
+2022 QEM Full Implementation Model
+
+$
+
+2023‐25
+$ 13,226,799,806
+
+$
+$
+
+$
+
+13,067,710,032
+13,052,790,692
+
+13,245,914,010
+13,052,790,692
+
+13,213,585,075
+
+$
+
+$
+$
+
+$
+$
+
+$
+
+24,425,613
+
+23,233,969
+
+59,089,774
+74,009,114
+
+(19,114,204)
+74,009,114
+
+3,214,731
+
+$
+
+$
+
+$
+
+$
+$
+
+$
+$
+
+$
+
+(25)
+
+18.06
+
+17.64
+
+16.78
+
+114.87
+125.64
+
+(13.80)
+125.64
+
+9.54
+
+9,550
+
+$
+$
+
+13,203,565,837
+
+$
+
+25,008,399
+
+$
+
+$
+
+2022 QEM Model ADMw Extended
+SSF Funds per student weight
+
+$
+
+13,202,374,193
+
+$
+
+(34,000,000)
+
+Cost Impact per
+student weight
+
+$
+
+13,201,791,407
+
+$
+
+Cost Impact of
+this change
+
+$
+
+13,260,799,806
+
+2022 QEM Full Implementation
+Model Biennial Cost without this
+change
+
+$
+
+420
+
+30
+$
+
+$
+82,083,720
+
+42,207,207
+$
+
+$
+12,644,716,086
+1,338,196,612
+1,306,519,474
+
+13,184,592,600
+$
+$
+$
+
+10,709,762,604
+596,756,869
+5.57%
+
+$
+Cost with no Changes
+ESTIMATED SSA FUNDS
+FULL QEM SSF
+
+$
+$
+
+Increase per‐pupil funding for Parent Community Outreach
+Program
+Reduce per‐pupil funding for additional formative needs
+assessments
+reduce Class sizes in grades 2‐5 to 20 students
+Increase counsellors in Elementary Schools from 0.5 to 1.44
+FTE
+Increasing Media/Librarian from 0 to 1 FTE
+Increase Software replacement percentage from 46.7% to
+50%
+Increase per‐pupil Funding for Texts, Consumables and
+Classroom Sets
+Reimburse Teacher out of pocket expenses for classroom
+supplies
+Reduce recommendation for State Level Special Education
+fund from $52m to historical actual amount of $35m
+Increase per‐pupil ESD Expenditures on Instructional Support
+by 20%
+
+QEM CSL SSF
+FUNDING GAP ($)
+FUNDING GAP (%)
+
+QEM CSL SSF
+FUNDING GAP ($)
+FUNDING GAP (%)
+
+Cost with all Changes
+ESTIMATED SSA FUNDS
+FULL QEM SSF
+$
+$
+
+$
+$
+$
+10,709,762,604
+1,178,840,590
+
+13,226,799,806
+1,338,196,612
+11,888,603,194
+
+11.01%
+
+
