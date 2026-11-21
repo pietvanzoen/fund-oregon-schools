@@ -33,10 +33,11 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
      - `legislature/press/` caucus and committee press releases; `legislature/appointments/` committee assignment memos;
        `legislature/social/` legislators' own social media posts, saved by hand (caption text, exact)
      - `legislature/lpro/` Legislative Policy and Research Office reports (e.g. session summaries)
-    - `legislature/laws/` Oregon Laws (session laws) chapters, as `<year>orlaw<NNNN>.pdf`
+     - `legislature/laws/` Oregon Laws (session laws) chapters, as `<year>orlaw<NNNN>.pdf`
      - `ode/` Oregon Department of Education, incl. `ode/qec/` Quality Education Commission reports and minutes,
        `ode/ssf/` State School Fund estimates and transparency reports, `ode/charter/` charter school lists and
-       guidance, `ode/legislation/` ODE summaries of enacted legislation, `ode/enrollment/` enrollment reports
+       guidance, `ode/legislation/` ODE summaries of enacted legislation, `ode/enrollment/` enrollment reports,
+       `ode/grants/` ODE grant allocation reports (for example High School Success)
      - `fiscal/oea/` Office of Economic Analysis forecasts; `fiscal/lfo/` Legislative Fiscal Office; `fiscal/lro/` Legislative Revenue Office;
        `fiscal/dor/` Department of Revenue; `fiscal/sos/` Secretary of State Audits Division reports
      - `reference/` reference works (e.g. Oregon Encyclopedia); prefer a primary source when one exists
