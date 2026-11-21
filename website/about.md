@@ -13,7 +13,7 @@ budget.
 
 A volunteer group of Oregon public school parents maintains this archive.
 
-Contact: [fundoregonschools@gmail.com](mailto:fundoregonschools@gmail.com)
+Contact: [hello@fundoregonschools.org](mailto:hello@fundoregonschools.org)
 
 ## How it works
 
@@ -36,4 +36,4 @@ Paste this into a new Claude chat and it will set you up to ask questions of the
 ## Spot a mistake or have a source to add?
 
 [Open an issue](https://github.com/pietvanzoen/fund-oregon-schools/issues/new) on GitHub, or email
-[fundoregonschools@gmail.com](mailto:fundoregonschools@gmail.com).
+[hello@fundoregonschools.org](mailto:hello@fundoregonschools.org).
