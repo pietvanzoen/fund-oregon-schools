@@ -158,10 +158,12 @@ More: `data/qem_gap.csv`, `data/ssf_history.csv`, `data/reserves.csv`.
 - **Transportation.** The state reimburses an approved share of district transportation costs
   [SRC:legislature/ors/ors327.html]; how closures change those costs is unresearched (#18).
 - **English learner and poverty weights** (#19).
-- **Online charters** (#20). The 20 virtual charters in ODE's 2025-26 report had about 22,100 ADMr (about 4% of the
-  state) [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.1]; their sponsoring districts
-  must pass through at least 80% (K-8) or 95% (9-12) of the grant and keep the rest
-  [SRC:legislature/ors/ors338.html]. See `topics/virtual-charters.md`.
+- **Online charters** (#20). The 20 virtual charters in ODE's 2025-26 report had about 22,100 ADMr
+  [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.1]
+  [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.2] (Analysis: our sum, about 4% of
+  statewide ADMr [SRC:ode/ssf/2025-26_ssf-estimates_2026-05-01.pdf p.1]). District sponsors must pass through at
+  least 80% (K-8) or 95% (9-12) of their General Purpose Grant per ADMw [SRC:legislature/ors/ors338.html]; what
+  they keep depends on each contract. See `topics/virtual-charters.md`.
 - **Unfunded mandates**: requirements adopted without new money (section c) (#21).
 
 **On reserves (#22)**
@@ -221,7 +223,7 @@ Full timeline: `timeline.md`.
 | #17 | Special education 11% cap and HB 2953 |
 | #18 | Transportation grant and closures |
 | #19 | English learner and poverty weights |
-| #20 | Online charters |
+| #20 | Online charters: charter contracts and what sponsors keep, an official dollar total, K-8/9-12 split, 2017 audit, 2026 bills |
 | #21 | Unfunded mandates |
 | #22 | Education Stability Fund: history and bridge proposals |
 | #23 | Statewide inventory of closures and cuts |
