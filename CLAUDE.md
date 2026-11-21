@@ -26,7 +26,7 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
    logged in `sources/_versions_log.csv`, never overwritten.
 2. `analysis/` is derived. Every factual claim carries a citation:
    - Archived file: `[SRC:<path under sources/> p.<page>]` (page = PDF page; `.pdf.txt` separates pages with \f).
-     Omit `p.` for HTML pages. Path conventions:
+     Omit `p.` for HTML pages, and for a claim about a whole PDF ("mentions no charter bill"). Path conventions:
      - `gov/` Governor's office: recommended budgets, press releases, executive orders, letters
      - `legislature/olis/<session>/<docId>_<slug>.pdf` committee meeting documents from OLIS
      - `legislature/bills/` measure text and staff measure summaries
@@ -106,7 +106,9 @@ Least new code that fully does the job; adapted from the ponytail rules
 - **Keep** validation and error handling when moving or merging code.
 - **Tests:** anything with branches, loops, parsing, money figures or a new script gets an assert-based case in
   `tools/test_tools.py` (plain `assert`, run by CI). Trivial changes don't. Site code (`tools/site_hook.py`,
-  `mkdocs.yml`, `overrides/`) gets no tests: CI's `mkdocs build --strict` covers it.
+  `mkdocs.yml`, `overrides/`) gets no tests: CI's `mkdocs build --strict` covers it. Derive scripts
+  (`tools/derive_*.py`) get no tests either: they're plain arithmetic on archived data, CI reruns them and fails on
+  any change in output, and the fact-checker checks each method; a test would only pin today's numbers.
 - **Known limits** go in a comment: `shortcut: <the limit>, <when to upgrade>`.
 - **Never cut:** the rules above about `sources/` (keep originals, provenance), citation and quote checks,
   secrets and access handling, accessibility of the site, or anything Piet asked for.

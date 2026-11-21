@@ -28,6 +28,7 @@ DER_COLS = ["id", "value", "unit", "kind", "label", "method", "inputs", "assumpt
 NUM_RE = re.compile(r"\d[\d,]*(?:\.\d+)?")
 BLOCK_START = re.compile(r"^\s*(?:[-*] |\d+\. |\||#+ )")
 # shortcut: an abbreviation like "Gov. " also ends a sentence; reword the sentence if it splits a DER figure off
+TABLE_SEP = re.compile(r"^\|[\s:|-]+\|$")
 SENTENCE_END = re.compile(r"(?<=[.!?])\s+(?=[A-Z(\[*])")
 
 
@@ -207,10 +208,11 @@ ABBR_RE = re.compile(r"\b[A-Z][A-Z0-9&]{1,5}[a-z]?\b")  # ADMr, ADMw too
 
 
 def check_glossary(rel, lines, glossary, warnings):
-    """CLAUDE.md rule 11: an abbreviation in analysis needs a glossary row, unless the line writes it out as "(XYZ)"."""
+    """CLAUDE.md rule 11: an abbreviation in analysis needs a glossary row, unless the line writes it out as "(XYZ)".
+    Quoted text is skipped: it's the source's wording (e.g. a bill's "Representative WRIGHT")."""
     seen = set()
     for n, line in lines:
-        text = re.sub(r"`[^`]*`", " ", TAG_RE.sub(" ", line))
+        text = re.sub(r"`[^`]*`|\"[^\"]*\"|“[^”]*”", " ", TAG_RE.sub(" ", line))  # quoted text is verbatim
         for w in ABBR_RE.findall(text):
             if w in glossary or w in NOT_GLOSSARY or w in seen or f"({w})" in text:
                 continue
@@ -224,8 +226,10 @@ def check_sections(rel, lines, news_text, errors, warnings):
     if [h for _, h in heads] != SECTIONS:
         errors.append(f"{rel}: needs exactly these sections, in order: " + ", ".join("## " + s for s in SECTIONS))
         return
-    for n, text in blocks(lines[heads[0][0] + 1:heads[1][0]]):
-        if text.startswith("#"):
+    rows = blocks(lines[heads[0][0] + 1:heads[1][0]])
+    for i, (n, text) in enumerate(rows):
+        # headings, and a table's header and separator rows, carry no facts to cite
+        if text.startswith("#") or TABLE_SEP.match(text) or (i + 1 < len(rows) and TABLE_SEP.match(rows[i + 1][1])):
             continue
         cites = [m for m in TAG_RE.finditer(text) if m.group(1) != "DER"]
         if not cites:

@@ -172,6 +172,10 @@ Reviewers:
   labelling of estimates and advocacy numbers, wrong-section findings, fairness to named officials, copyright,
   privacy
 
+If you can't start fresh agents (for example, you are yourself a subagent without that tool), don't skip the
+review and don't review your own work in their place: say "reviewers not run" at the top of the PR's Review
+section and add `needs-human`. The PR doesn't merge until both reviews have run.
+
 They report only. For each finding:
 
 1. Check it against the source yourself. Reviewers can be wrong.

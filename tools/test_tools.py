@@ -116,7 +116,8 @@ def main():
         open(f"{root}/analysis/glossary.csv", "w").write(
             "term,full_name,kind,tooltip,definition,source\nSSF,State School Fund,acronym,t,d,[NEWS:NEWS-1]\n")
         open(f"{root}/analysis/g.md", "w").write(
-            "The SSF and the QEM and ADMr. Written out: National Center (NCES). PDF.\n`ABC` [SRC:gov/test_page.html]\n")
+            "The SSF and the QEM and ADMr. Written out: National Center (NCES). PDF.\n`ABC` [SRC:gov/test_page.html]\n"
+            'The bill names "Representative WRIGHT".\n')
         r = run(root, "check_citations.py")
         assert r.returncode == 0 and r.stdout.count("glossary.csv") == 2, r.stdout
         assert "QEM isn't in" in r.stdout and "ADMr isn't in" in r.stdout, r.stdout
@@ -133,6 +134,7 @@ def main():
             "est,256.6,USD millions,est,Money,sum of x * y,data/x.csv,y is an average\n")
         open(f"{root}/analysis/topics/ok.md", "w").write(
             "# OK topic\n\nIntro.\n\n## What the sources say\n\n- The fund is $13 billion\n  [SRC:gov/test_page.html].\n\n"
+            "| Bill | Fund |\n|---|---|\n| State | $13 billion [SRC:gov/test_page.html] |\n\n"
             "## Derived figures\n\n| Figure | Value |\n|---|---|\n| Money | about $257M [DER:t/est] |\n\n"
             "## Analysis\n\nAbout 22,100 students, about 4% (our sum [DER:t/n] [DER:t/share]).\n")
         open(f"{root}/analysis/BRIEFING.md", "w").write(
