@@ -15,6 +15,7 @@
 | 2026-10-13 | Kotek's letter to PPS leaders: take the time to get closures right | [SRC:gov/letters/2026-10-13_kotek-letter-to-pps-school-closures.pdf p.1] [NEWS:NEWS-20261014-opb-1] |
 | 2026-10-21 | Quality Education Commission meeting | [SRC:ode/qec/minutes/2026-10-21.pdf] |
 | 2026-11-02 | PPS asks the state for $500M from the Education Stability Fund | [NEWS:NEWS-20261102-opb-1] |
+| 2026-11-03 | Oregon Journalism Project investigation of online schools; Kotek says she is reviewing the state's approach | [NEWS:NEWS-20261103-wweek-1] |
 | 2026-11-06 | Post-election: Kotek declines to commit to a school funding plan | [NEWS:NEWS-20261106-occ-1] |
 | 2026-11-12 | Reps. Carpenter and Hudson discuss revenue and reserves at a Portland forum | [NEWS:NEWS-20261112-katu-2] |
 | 2026-11-13 | Senate Democrats name Lieber as Ways & Means co-chair for 2027 | [SRC:legislature/press/2026-11-13_senate-dems-2027-leadership.pdf p.1] |
