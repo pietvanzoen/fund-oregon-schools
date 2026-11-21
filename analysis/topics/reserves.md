@@ -7,6 +7,9 @@
   [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1] (news coverage: [NEWS:NEWS-20261102-opb-1]).
 - PPS asked for $500M to buy down PERS rates statewide [NEWS:NEWS-20261102-opb-1]; PPS's chief financial officer said it would shrink
   PPS's gap from $65M to about $42.7M [NEWS:NEWS-20261116-wweek-1].
+- Rep. Ricki Ruiz, education budget subcommittee co-chair, previewed "an initial proposal to use one-time Education
+  Stability Fund dollars to provide targeted PERS relief to districts experiencing significant financial strain" [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt].
+  No amount or bill is named [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt].
 - Rep. Tammy Carpenter suggested the fund as a bridge; Rep. Zach Hudson expects 2027 revenue bills
   [NEWS:NEWS-20261112-katu-2].
 - Kotek opposes using one-time reserves for ongoing costs [NEWS:NEWS-20261106-occ-1].
@@ -18,6 +21,8 @@ None: every figure above is stated in a cited source.
 ## Analysis
 
 The reserve route needs both an emergency she has resisted and a supermajority, so it's a weaker
-primary ask than new revenue in her budget.
+primary ask than new revenue in her budget. That still holds for a large, general draw. A targeted one-time PERS
+relief proposal from the co-chair who writes the school budget (Ruiz, Nov 2026) makes a narrower draw more plausible
+than it looked; it still needs the same vote and trigger.
 
-To add: statute text, current and projected balances (LFO), history of past withdrawals with amounts.
+To add: the 2021 use of $200M from the fund in the Democrats' school funding plan (queued), statute text, current and projected balances (LFO), history of past withdrawals with amounts.

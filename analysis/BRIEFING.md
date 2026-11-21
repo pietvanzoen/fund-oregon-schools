@@ -143,7 +143,9 @@ More: `data/qem_gap.csv`, `data/ssf_history.csv`, `data/reserves.csv`.
   hurricane has not hit yet" [NEWS:NEWS-20260510-wweek-1]. See `people/sanchez.md`.
 - **Rep. Ricki Ruiz** (Education Subcommittee and JPEA co-chair, 2025-26): co-chaired the JPEA when it made its
   sufficiency finding, and led the push to replace the QEM [SRC:legislature/olis/2025I1/310695_jpea.pdf p.3]
-  [SRC:legislature/olis/2025I1/310695_jpea.pdf p.4] [NEWS:NEWS-20260121-katu-1].
+  [SRC:legislature/olis/2025I1/310695_jpea.pdf p.4] [NEWS:NEWS-20260121-katu-1]. In Nov 2026 he previewed an initial
+  proposal to use one-time Education Stability Fund dollars for targeted PERS relief to districts under strain, and a
+  new cost model with more prototype schools [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt].
   See `people/ruiz.md`.
 - **Sen. Janeen Sollman** (Education Subcommittee co-chair) is leaving after losing her primary
   [NEWS:NEWS-20260521-wweek-1]. See `people/sollman.md`.
@@ -174,6 +176,8 @@ More: `data/qem_gap.csv`, `data/ssf_history.csv`, `data/reserves.csv`.
   economic trigger or a governor's emergency declaration [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1].
 - **PPS:** $500M to buy down PERS rates statewide [NEWS:NEWS-20261102-opb-1]. Its chief financial officer said this would cut the PPS gap
   to about $42.7M [NEWS:NEWS-20261116-wweek-1].
+- **Rep. Ricki Ruiz:** an initial proposal for one-time, targeted PERS relief to districts under financial strain,
+  especially those that have already used their own reserves; no amount named [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt].
 - **Rep. Tammy Carpenter** suggested the fund as a bridge [NEWS:NEWS-20261112-katu-2].
 
 ## (g) Contested claims and open questions
@@ -193,7 +197,7 @@ More: `data/qem_gap.csv`, `data/ssf_history.csv`, `data/reserves.csv`.
   The exact figure ($245M per news; DAS's release reportedly says $233M) is still to confirm (`open_questions.md`).
 - **One-time money.** Lieber, Sanchez and Kotek object to using reserves for ongoing costs
   [NEWS:NEWS-20260510-wweek-1] [NEWS:NEWS-20261106-occ-1]. Rep. Carpenter has suggested it as a bridge
-  [NEWS:NEWS-20261112-katu-2].
+  [NEWS:NEWS-20261112-katu-2], and Rep. Ruiz has floated one-time, targeted PERS relief [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt].
 - **Unfunded mandates.** The EO 26-06 FAQ answers "No." to whether the order is an unfunded mandate
   [SRC:gov/eo/eo-26-06_faq.pdf p.3], while saying funding may not be sufficient for some districts
   [SRC:gov/eo/eo-26-06_faq.pdf p.2].

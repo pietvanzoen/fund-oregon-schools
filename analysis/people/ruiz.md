@@ -31,7 +31,18 @@ spells his name "Ricky".) His 2027 committee roles aren't announced yet (as of N
   of Oregon" [NEWS:NEWS-20260121-katu-1].
 - Same interview: "We're not repeating the same cycle and expecting different results" [NEWS:NEWS-20260121-katu-1].
 
+## Plans for 2027 (as he described them)
+- Nov 19, 2026, in his own Instagram post after an Oregon School Boards Association (OSBA) panel: "Our long-term vision is to build a new education funding system that is equitable, targeted,
+  and tailored to the unique needs of each region of Oregon" [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt]. It includes "an adequate resource needs
+  cost model that increases the number of prototype school models" [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt]. He says a visit to James John
+  Elementary shaped his support for immediate relief [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt].
+
 ## On the Education Stability Fund
+- Same post: he previewed "an initial proposal to use one-time Education Stability Fund dollars to provide targeted PERS relief to
+  districts experiencing significant financial strain, particularly those that have already tapped into their own
+  reserves" [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt]. On why now: "Our districts cannot wait years for a better funding system while
+  making increasingly difficult decisions today" [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt]. He also says it "won’t fix the long-term issues until
+  we overhaul the whole education funding system" [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt]. The post gives no dollar amount and names no bill.
 - Feb 2026: told KATU that discussions about possibly tapping reserves were ongoing and lawmakers would keep
   monitoring (KATU paraphrase, no direct quote) [NEWS:NEWS-20260217-katu-1]. The fund was not tapped in the 2026 session
   [NEWS:NEWS-20260510-wweek-1].
@@ -40,10 +51,17 @@ spells his name "Ricky".) His 2027 committee roles aren't announced yet (as of N
 - The JPEA's sufficiency report, under his co-chairmanship, says 2025-27 met the QEM. It compares 2025-27 funding with
   the 2024 QEM; the 2026 QEM (status quo $13.78B for 2027-29) sets a new bar, so the 2025-27 finding doesn't carry
   into 2027-29 (see `BRIEFING.md`).
+- His Nov 2026 reserve proposal goes further than his Feb 2026 "keep monitoring" stance. It is narrower than PPS's
+  ask for a $500M statewide PERS buy-down: targeted at districts under strain, especially those that have already
+  used their own reserves. He presents it as one-time money while a new funding system is built, which speaks to
+  the objection that reserves shouldn't pay ongoing costs, though PERS payments are themselves an ongoing cost.
 - He wants a different yardstick for "adequate," not necessarily less money. Open question: what level he'd fund to
   in 2027-29 while the QEM is under review.
 
 ## To add
 - Subcommittee hearing video on SB 5516 (2025) and SB 1555 testimony (2026).
-- His remarks on 2027-29 State School Fund levels.
+- His remarks on 2027-29 State School Fund levels (the Nov 2026 post names none).
+- The reserve proposal's amount, eligibility test and bill number once drafted; any OSBA write-up of the Nov 2026 panel.
+- Moms for Oregon video interview, Nov 18, 2026 (`sources/orgs/momsfororegon/2026-11-18_ruiz-interview.mp4`):
+  quote only after the machine transcript is checked by listening (its on-screen captions and audio differ).
 - Confirm his 2027 role once House Democrats announce committee leadership.

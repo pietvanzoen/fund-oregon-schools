@@ -30,7 +30,8 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
      - `gov/` Governor's office: recommended budgets, press releases, executive orders, letters
      - `legislature/olis/<session>/<docId>_<slug>.pdf` committee meeting documents from OLIS
      - `legislature/bills/` measure text and staff measure summaries
-     - `legislature/press/` caucus and committee press releases; `legislature/appointments/` committee assignment memos
+     - `legislature/press/` caucus and committee press releases; `legislature/appointments/` committee assignment memos;
+       `legislature/social/` legislators' own social media posts, saved by hand (caption text, exact)
      - `legislature/lpro/` Legislative Policy and Research Office reports (e.g. session summaries)
      - `ode/` Oregon Department of Education, incl. `ode/qec/` Quality Education Commission reports and minutes,
        `ode/ssf/` State School Fund estimates and transparency reports, `ode/charter/` charter school lists and
