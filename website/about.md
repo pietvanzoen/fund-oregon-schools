@@ -19,6 +19,13 @@ budget.
 It's a research archive, not a campaign: it doesn't advocate for anything or offer talking points. Campaigns can use it to
 check facts and build their own materials.
 
+## For example
+
+- [Check how far school funding falls short](numbers.md) of what the Quality Education Model says schools need
+- [Find what Gov. Kotek has said](quotes.md) about school funding, word for word and dated
+- [See when the session starts](timeline.md) and when revenue forecasts land
+- [Look up the rules for using the Education Stability Fund](reserves.md)
+
 ## How to use this research
 
 - **Repeating a fact:** click its citation and quote the original document, not this site.
