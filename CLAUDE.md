@@ -18,6 +18,9 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
   GitHub Action downloads it (cloud sandboxes usually can't reach oregon.gov or the Legislature's site).
 - **Working a research issue end to end:** follow `.claude/plugins/fund-oregon-schools/skills/fos-work-issue/SKILL.md` (queue → fetch on the
   issue branch → analysis → two independent reviewers → PR; Piet merges).
+- **Why things are the way they are:** `decisions/` (one record per choice, including choices not to do
+  something). Read the relevant ones before changing `tools/`, workflows or how `sources/` is stored; add one when
+  you weigh options and pick one (template in `decisions/README.md`).
 - **Overview of the decision:** `analysis/BRIEFING.md` (decision briefing). `analysis/OVERVIEW.md` is the website's
   short home page.
 
@@ -104,7 +107,8 @@ Least new code that fully does the job; adapted from the ponytail rules
 (github.com/DietrichGebert/ponytail). Lazy about the solution, never about the scope.
 
 - **Before writing:** read the affected code and list everywhere the change must reach: callers, tests, the
-  workflows, `site_hook.py` and `mkdocs.yml`, both skills and the reviewer prompts, CLAUDE.md, README, RUNBOOK.
+  workflows, `site_hook.py` and `mkdocs.yml`, both skills and the reviewer prompts, CLAUDE.md, README, RUNBOOK,
+  and any record in `decisions/` that the change touches or reverses.
 - **Pick the first option that fully works, in this order:** skip it (say so in one line); reuse what's in
   `tools/` (`common.py`, `check_citations.py`, the existing patterns); the Python standard library; a one-liner a
   reader gets at a glance; otherwise the minimum code. Tools stay stdlib-only: no new dependencies, and no
@@ -136,6 +140,7 @@ Least new code that fully does the job; adapted from the ponytail rules
 - `analysis/glossary.csv` — abbreviations and terms: full name, hover tooltip, cited definition
 - `analysis/timeline.md`, `analysis/open_questions.md`
 - `analysis/updates.md` — What's new for readers, newest first (the overview shows the latest three); `changelog/` is for maintainers
+- `decisions/NNNN-<slug>.md` — decision records: context, decision, options weighed, when to revisit
 - `sources/**/<file>.pdf.ocr.txt` — the PDF's text plus OCR of its picture-only pages, by `tools/ocr_pdfs.py` in fetch-sources
 - `sources/**/<media file>.txt` — machine transcript of an .mp4/.m4a/.mp3/.wav/.webm, by the `transcribe` Action
 - Tools: `tools/search.py`, `tools/doc.py`, `tools/linkify.py`, `tools/check_citations.py`, `tools/fetch_sources.py`,
