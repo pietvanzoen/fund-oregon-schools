@@ -42,11 +42,17 @@ student outcomes, and what research it cites for that link. The dollar figures a
   [SRC:ode/qec/2024_qem_report.pdf p.63].
 - The 2026 report made no discretionary changes to the inputs; staffing levels are identical to the 2024 model and
   the increase reflects market prices [SRC:ode/qec/2026_qem_report.pdf p.13] [SRC:ode/qec/2026_qem_report.pdf p.102].
-  It excludes enhancements such as a 180-day school year [SRC:ode/qec/2026_qem_report.pdf p.102]. Citing "consensus
-  about the shortcomings of the current model", commissioners agreed that significant changes should wait for an
-  improved model and process [SRC:ode/qec/2026_qem_report.pdf p.102].
+  It excludes enhancements such as a 180-day school year [SRC:ode/qec/2026_qem_report.pdf p.102]. The report gives
+  several reasons: time and financial limits after the AIR evaluation [SRC:ode/qec/2026_qem_report.pdf p.13];
+  the Legislature's work on a new way of estimating funding needs and "consensus about the shortcomings of the
+  current model", which led commissioners to agree that significant changes should be informed by an improved model
+  and process; and the state's acute fiscal challenges [SRC:ode/qec/2026_qem_report.pdf p.102]. It also says
+  holding the judgment parameters steady across 2024 and 2026 keeps continuity with state budgeting
+  [SRC:ode/qec/2026_qem_report.pdf p.108].
 
 ### The outcome the model is tied to
+- The 2026 report says the practices it costs are expected to improve student outcomes "as measured in the 2025
+  Education Accountability Act" (SB 141) [SRC:ode/qec/2026_qem_report.pdf p.13].
 - The model assumes that with sustained full funding, and with districts implementing the recommended practices,
   90 percent of students would graduate within four years of entering ninth grade
   [SRC:ode/qec/2026_qem_report.pdf p.92]. Districts decide which practices they implement and how they spend
@@ -78,8 +84,10 @@ student outcomes, and what research it cites for that link. The dollar figures a
   [SRC:ode/qec/2026_qem_report.pdf p.95]. Its projected years for 90 percent: four-year graduation 2030-31 on the
   long-run trend, 2028-29 at CSL funding, 2027-28 at the Full QEM; five-year completion 2033-34, 2030-31 and
   2027-28 [SRC:ode/qec/2026_qem_report.pdf p.95].
-- The 2024 report's projected years for four-year graduation were 2030-31, 2027-28 and 2025-26
-  [SRC:ode/qec/2024_qem_report.pdf p.59]. Both sets: `data/qem_outcome_forecasts.csv`.
+- The 2024 report's projected years for four-year graduation were 2030-31, 2027-28 and 2025-26; its Full QEM year
+  is likewise for funding at that level since 2012-13 [SRC:ode/qec/2024_qem_report.pdf p.59]. The Full QEM years in
+  both reports are counterfactuals (what full funding since 2012-13 would have produced), not projections of funding
+  the QEM from now on [SRC:ode/qec/2024_qem_report.pdf p.59] [SRC:ode/qec/2026_qem_report.pdf p.95]. Both sets: `data/qem_outcome_forecasts.csv`.
 
 ### Research on funding and outcomes the commission cites
 - The 2022 report cited research that student achievement rises when states invest in schools, especially for
@@ -118,7 +126,7 @@ student outcomes, and what research it cites for that link. The dollar figures a
 - The QEC cites this to say its Full QEM target is conservative: $18,829 per pupil for 2022-23 against AIR's $22,210
   [SRC:ode/qec/2026_qem_report.pdf p.100].
 - The commission says it is exploring more outcome goals (3rd grade ELA proficiency, 9th grade on-track, regular
-  attendance) and agrees more prototypes should be added but has lacked staff to do so
+  attendance; all among SB 141's metrics [SRC:ode/qec/2026_qem_report.pdf p.110]) and agrees more prototypes should be added but has lacked staff to do so
   [SRC:ode/qec/2026_qem_report.pdf p.99]. It asks for 2.0 FTE at ODE in the upcoming biennium to start, out of an estimated
   12.0-19.0 FTE build-out over two to three biennia [SRC:ode/qec/2026_qem_report.pdf p.116].
 
@@ -132,7 +140,7 @@ student outcomes, and what research it cites for that link. The dollar figures a
   [SRC:legislature/olis/2025I1/310695_jpea.pdf p.5].
 - A JPEA legislative concept would move the cost model from the QEC to the Legislative Policy and Research Office
   [SRC:legislature/olis/2025I1/311607_jpea-legislative-concepts.pdf p.1]. It became SB 1555 (2026)
-  [NEWS:NEWS-20260121-katu-1]; the overhaul effort was unsuccessful [NEWS:NEWS-20260617-occ-1].
+  [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.1] [NEWS:NEWS-20260121-katu-1]; the overhaul effort was unsuccessful [NEWS:NEWS-20260617-occ-1].
 
 ### The practices the commission recommends (2026)
 - The 2026 best-practices section is a synthesis of white papers by ODE and Educator Advancement Council experts,
@@ -185,21 +193,19 @@ years, which is consistent with funding mattering but does not by itself separat
 
 The strongest evidence the commission cites that money matters is outside research (Jackson's review of
 quasi-experimental studies, Baker's review), which concerns spending in general rather than the QEM's particular
-practices. What full funding "buys" in the QEM is therefore best read as: the 2022 staffing list (smaller elementary
+practices; research finding smaller or no effects isn't archived yet (#63). What full funding "buys" in the QEM is therefore best read as: the 2022 staffing list (smaller elementary
 classes, counselors, nurses, librarians, summer school), priced at today's costs, plus an expectation that districts
 use it on the recommended practices.
 
-The projected year for 90% graduation under full funding moved from 2025-26 (2024 report) to 2027-28 (2026 report),
+The counterfactual year for 90% graduation under full funding since 2012-13 moved from 2025-26 (2024 report) to 2027-28 (2026 report),
 and under CSL funding from 2027-28 to 2028-29, while the long-run trend year stayed at 2030-31. The 2026 report
-doesn't explain the shift; a forecast that slides two years in one report cycle is a reason to treat these dates as
+doesn't explain the shift; a date that slides two years in one report cycle is a reason to treat these dates as
 illustrations rather than predictions.
 
 AIR's $22,210 is aimed at a different and higher target than the QEM's (one standard deviation above the statewide
-average on a combined measure), so the QEC's reading of it as showing the Full QEM is "conservative" holds only in
-the loose sense that both say more money is needed. AIR and the JPEA make overlapping criticisms (one outcome goal,
+average on a combined measure), so the two estimates target different outcomes and the comparison shows direction (both say more is
+needed), not size. AIR and the JPEA make overlapping criticisms (one outcome goal,
 prototypes that ignore variation in need), and the commission accepts the first two in its 2026 report while saying
 it lacks the staff to act on them. With further QEM changes expected in 2027 (`BRIEFING.md` sections e and f), the
-commission has already moved toward SB 141's terms: it says its practices are expected to improve outcomes as SB 141
-measures them, the extra goals it is exploring are SB 141 metrics, and one of its two fallback options funds programs
-aimed at those metrics [SRC:ode/qec/2026_qem_report.pdf p.13] [SRC:ode/qec/2026_qem_report.pdf p.99]
-[SRC:ode/qec/2026_qem_report.pdf p.110].
+commission has already moved toward SB 141's terms: its expected outcomes, the extra goals it is exploring and one
+of its two fallback options are all framed in SB 141's metrics (sources above).

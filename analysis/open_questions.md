@@ -28,8 +28,8 @@
   not the district's audit: the path was taken from the board posting. Renaming it means moving the file to
   `_prior/` and re-adding it (`RUNBOOK.md`); for Piet to decide.
 
-- QEM outcome forecasts (#59): the 2026 report moves the projected year of a 90% graduation rate under full funding
-  from 2025-26 (2024 report) to 2027-28, and under CSL funding from 2027-28 to 2028-29, without saying why
+- QEM outcome forecasts (#59): the 2026 report moves the year a 90% graduation rate would have been reached under full funding
+  since 2012-13 (a counterfactual) from 2025-26 (2024 report) to 2027-28, and under CSL funding from 2027-28 to 2028-29, without saying why
   (`data/qem_outcome_forecasts.csv`). Ask ODE's QEC staff if it matters.
 - Lee and Smith (1997), cited by the QEC for the high school prototype's size, is a journal article with no public
   copy; a University of Michigan news release summarizes it, if a secondary copy is wanted.
