@@ -6,7 +6,7 @@ Primary documents and cited analysis on how Oregon funds its public schools, foc
 - A dated record of what officials have promised and said
 - Easy to check a number before you repeat it
 
-It's a research archive, not a campaign.
+It's a research archive that campaigns can use to check facts and build their own materials.
 
 ## Key numbers for 2027-29
 
