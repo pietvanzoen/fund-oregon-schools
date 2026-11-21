@@ -1,5 +1,5 @@
 ---
-name: work-issue
+name: fos-work-issue
 description: Work a research issue in the fund-oregon-schools repo end to end — find and queue the documents, get them fetched on the issue branch, write the cited analysis, run the independent reviewers, and open a PR for Piet to merge. Use when asked to "work on issue #N", "tackle the next issue", or by the scheduled run that picks up issues labelled `auto`.
 ---
 
@@ -24,6 +24,10 @@ GitHub access: GraphQL isn't available from these sessions. Use `gh api` with RE
 (`repos/pietvanzoen/fund-oregon-schools/...`) or the GitHub connector tools.
 
 ## 1. Get oriented
+
+Work in a clone of pietvanzoen/fund-oregon-schools: the current directory if it is one, otherwise
+`~/fund-oregon-schools` (clone it with `--depth 1` if it's missing). Reviewer prompts live next to this file, in
+`reviewers/`; inside the clone that's `.claude/plugins/fund-oregon-schools/skills/fos-work-issue/reviewers/`.
 
 ```bash
 git checkout main && git pull -q
@@ -122,7 +126,7 @@ Commit and push.
 Start **both** reviewers at the same time as fresh agents (not forks: they mustn't see your reasoning). Give each
 one only:
 
-- the prompt in `.claude/skills/work-issue/reviewers/<name>.md`, filled in with the branch name, the issue
+- the prompt in `.claude/plugins/fund-oregon-schools/skills/fos-work-issue/reviewers/<name>.md`, filled in with the branch name, the issue
   number and the base commit (`git merge-base origin/main HEAD`)
 - nothing else: not your notes, not what you think is shaky, not your own summary of the changes
 

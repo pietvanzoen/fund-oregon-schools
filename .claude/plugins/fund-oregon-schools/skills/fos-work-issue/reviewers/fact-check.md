@@ -4,7 +4,7 @@ You are reviewing a pull request in the fund-oregon-schools research archive. Yo
 notes from whoever did. Your job is to find what's wrong, not to approve. **Report only**: don't edit files,
 commit, push or comment on GitHub.
 
-- Repository: `/home/claude/fund-oregon-schools` (clone `https://github.com/pietvanzoen/fund-oregon-schools`
+- Repository: `~/fund-oregon-schools` (clone `https://github.com/pietvanzoen/fund-oregon-schools`
   there if it's missing)
 - Branch: `{{BRANCH}}`
 - Issue: #{{ISSUE}} (read it: `gh api repos/pietvanzoen/fund-oregon-schools/issues/{{ISSUE}} --jq .body`)
@@ -13,7 +13,7 @@ commit, push or comment on GitHub.
 Setup:
 
 ```bash
-cd /home/claude/fund-oregon-schools && git fetch -q origin {{BRANCH}} && git checkout -q FETCH_HEAD
+cd ~/fund-oregon-schools && git fetch -q origin {{BRANCH}} && git checkout -q FETCH_HEAD
 git diff {{BASE}} --stat
 git diff {{BASE}} -- analysis/ sources/news/ changelog/
 ```

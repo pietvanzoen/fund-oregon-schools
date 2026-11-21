@@ -13,7 +13,7 @@ on:
         default: false
   push:
     # main: after a merge. claude/**: an agent's issue branch, so one PR can queue sources, get them fetched
-    # here, and then add the analysis that cites them (see .claude/skills/work-issue/SKILL.md).
+    # here, and then add the analysis that cites them (see .claude/plugins/fund-oregon-schools/skills/fos-work-issue/SKILL.md).
     branches: [main, "claude/**"]
     paths: ["sources/_queue.csv"]
   schedule:

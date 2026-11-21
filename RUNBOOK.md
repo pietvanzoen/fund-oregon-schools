@@ -1,6 +1,6 @@
 # RUNBOOK: adding and refreshing sources
 
-Answering questions needs none of this; see `.claude/skills/fund-oregon-research/SKILL.md`.
+Answering questions needs none of this; see `.claude/plugins/fund-oregon-schools/skills/fos-research/SKILL.md`.
 
 ## Add a document (most common)
 1. Find the official URL (prefer the agency's own PDF over a news write-up).

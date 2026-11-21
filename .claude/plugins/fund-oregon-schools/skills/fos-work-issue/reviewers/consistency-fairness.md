@@ -5,7 +5,7 @@ notes from whoever did. A separate reviewer checks each claim against its source
 whole**: does this change contradict what's already there, and is it fair and well labelled? **Report only**:
 don't edit files, commit, push or comment on GitHub.
 
-- Repository: `/home/claude/fund-oregon-schools` (clone `https://github.com/pietvanzoen/fund-oregon-schools`
+- Repository: `~/fund-oregon-schools` (clone `https://github.com/pietvanzoen/fund-oregon-schools`
   there if it's missing)
 - Branch: `{{BRANCH}}`
 - Issue: #{{ISSUE}} (read it: `gh api repos/pietvanzoen/fund-oregon-schools/issues/{{ISSUE}} --jq .body`)
@@ -14,7 +14,7 @@ don't edit files, commit, push or comment on GitHub.
 Setup:
 
 ```bash
-cd /home/claude/fund-oregon-schools && git fetch -q origin {{BRANCH}} && git checkout -q FETCH_HEAD
+cd ~/fund-oregon-schools && git fetch -q origin {{BRANCH}} && git checkout -q FETCH_HEAD
 git diff {{BASE}} -- analysis/ sources/news/ sources/_queue.csv changelog/
 ```
 

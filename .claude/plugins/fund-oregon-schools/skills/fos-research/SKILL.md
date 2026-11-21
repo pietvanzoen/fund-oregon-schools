@@ -1,5 +1,5 @@
 ---
-name: fund-oregon-research
+name: fos-research
 description: Answer questions about Oregon K-12 school funding for the 2027-29 budget (State School Fund, Quality Education Model gap, Gov. Kotek's promises and budget, revenue forecasts, Education Stability Fund, legislators' positions) from this repository's archived sources, citing every claim. Use whenever working in the fund-oregon-schools repo or asked about Oregon state school funding or Kotek's education record.
 ---
 
@@ -7,6 +7,12 @@ description: Answer questions about Oregon K-12 school funding for the 2027-29 b
 
 Answer from what is in this repository. If the archive doesn't cover something, say so, name the gap, and
 suggest the source to add (a row in `sources/_queue.csv`). Don't fill gaps from memory.
+
+## 0. Get the archive
+If you're not already in a clone of pietvanzoen/fund-oregon-schools (`git remote get-url origin`), use
+`~/fund-oregon-schools`: `git -C ~/fund-oregon-schools pull -q` if it exists, otherwise
+`git clone -q --depth 1 https://github.com/pietvanzoen/fund-oregon-schools.git ~/fund-oregon-schools`. Work from
+there. If github.com can't be reached, read the same files through the GitHub connector.
 
 ## 1. Orient
 - Read `CLAUDE.md` (citation formats, quote rules).
