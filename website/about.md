@@ -16,7 +16,7 @@ budget.
 - Keep a dated, word-for-word record of what officials have promised and said.
 - Make it easy for anyone (parents, reporters, legislative staff) to check a number before repeating it.
 
-It's a research archive, not a campaign itself: there are no asks or talking points here. Campaigns can use it to
+It's a research archive, not a campaign: it doesn't advocate for anything or offer talking points. Campaigns can use it to
 check facts and build their own materials.
 
 ## How to use this research
