@@ -12,5 +12,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Citations and data files
         run: python3 tools/check_citations.py
+      - name: Queue and archived files
+        run: python3 tools/check_sources.py
       - name: Tool smoke tests
         run: python3 tools/test_tools.py

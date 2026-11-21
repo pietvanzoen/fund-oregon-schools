@@ -23,7 +23,7 @@ If commands can't run or github.com is unreachable, use the GitHub connector ins
 
 ## 2. Follow the archive's own instructions
 
-Read `CLAUDE.md` and `.claude/skills/fund-oregon-research/SKILL.md` in the repo and follow them. That repo file shares this skill's name but is the archive's own, more detailed version: it is the authority on where to look, the search tools (`tools/search.py`, `tools/doc.py`, `tools/linkify.py`), citation formats and quote rules. For a broad question or the first question in a chat, also read `analysis/BRIEFING.md`. These files change as the archive is updated, so read them each time rather than relying on what they said before.
+Read `CLAUDE.md` and `.claude/plugins/fund-oregon-schools/skills/fos-research/SKILL.md` in the repo and follow them. That repo file (the `fos-research` skill) is the archive's own, more detailed version of this one: it is the authority on where to look, the search tools (`tools/search.py`, `tools/doc.py`, `tools/linkify.py`), citation formats and quote rules. For a broad question or the first question in a chat, also read `analysis/BRIEFING.md`. These files change as the archive is updated, so read them each time rather than relying on what they said before.
 
 Check the archive's latest commit date (`git log -1 --format=%cd --date=short`, or the latest commit through the connector) and mention it when the question touches recent events; anything newer than that won't be in the archive.
 

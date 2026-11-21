@@ -12,7 +12,9 @@ on:
         type: boolean
         default: false
   push:
-    branches: [main]
+    # main: after a merge. claude/**: an agent's issue branch, so one PR can queue sources, get them fetched
+    # here, and then add the analysis that cites them (see .claude/plugins/fund-oregon-schools/skills/fos-work-issue/SKILL.md).
+    branches: [main, "claude/**"]
     paths: ["sources/_queue.csv"]
   schedule:
     - cron: "17 14 * * 1"   # Mondays ~6-7am Pacific: weekly refresh to catch revised or removed documents
@@ -21,14 +23,18 @@ permissions:
   contents: write
 
 concurrency:
-  group: fetch-sources
+  group: fetch-sources-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
+      # Pushes with a deploy key, which is on the main ruleset's bypass list (personal repos can't list GitHub
+      # Actions there). Without the secret, checkout falls back to GITHUB_TOKEN: branch pushes work, main is refused.
       - uses: actions/checkout@v4
+        with:
+          ssh-key: ${{ secrets.FETCH_DEPLOY_KEY }}
       - name: Install pdftotext
         run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
       - name: Fetch queued sources
@@ -42,6 +48,8 @@ jobs:
           fi
       - name: Check citations
         run: python3 tools/check_citations.py
+      # A deploy-key push triggers `check` on this commit. (A GITHUB_TOKEN push wouldn't; then the agent's next
+      # commit triggers it.)
       - name: Commit
         run: |
           git config user.name "fetch-sources bot"
@@ -49,7 +57,7 @@ jobs:
           git add sources
           if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
           git commit -q -m "sources: fetch $(git diff --cached --name-only -- sources | grep -v '\.txt$' | grep -v '^sources/_' | wc -l | tr -d ' ') file(s) from queue"
-          git pull -q --rebase && git push -q
+          git pull -q --rebase origin "${GITHUB_REF_NAME}" && git push -q origin "HEAD:${GITHUB_REF_NAME}"
       - name: Fail if any source failed to download
         if: steps.fetch.outcome == 'failure'
         run: |
