@@ -211,7 +211,7 @@ def check_sections(rel, lines, news_text, errors, warnings):
         if not cites or None in texts:
             continue  # a VID/PPSARCH/pending source has no text here to compare against
         # shortcut: no unit rescaling ($1.27B vs 1,271M warns); add it if false alarms are frequent, then make this an error
-        hay = " ".join(texts).replace(",", "").replace("$", "")
+        hay = set(numbers(" ".join(texts)))  # whole numbers, so "22" doesn't match inside "2022"
         for x in numbers(text):
             if x not in hay:
                 warnings.append(f"{rel}:{n}: {x} is not in the text of the sources this line cites")

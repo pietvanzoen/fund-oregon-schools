@@ -15,7 +15,7 @@ is tracked as GitHub issues, shown as (#16) and so on.
 2. **The state's own benchmarks.** The 2026 Quality Education Model (QEM) report puts the SSF current service level
    (CSL) at $12.56B, the cost of keeping today's services at $13.78B, and the cost of meeting the state's goals at
    $16.21B [SRC:ode/qec/2026_qem_report.pdf p.103] [SRC:ode/qec/2026_qem_report.pdf p.117].
-   An SSF at CSL leaves about $1.2B of the status-quo cost to come from state funds outside the SSF
+   With the SSF at CSL, about $1.2B remains to reach the status-quo total core funding for K-12
    [SRC:ode/qec/2026_qem_report.pdf p.103], and is $3.65B below the full QEM [SRC:ode/qec/2026_qem_report.pdf p.117].
 3. **Why it's a state decision.** After Measures 5 (1990) and 50 (1997) capped property taxes, the state became the
    main source of school operating money, and districts can add only a capped local option levy
@@ -110,9 +110,9 @@ is tracked as GitHub issues, shown as (#16) and so on.
 - Reserves are currently 9.7% (OEA slides) [SRC:fiscal/oea/2026-12_forecast_slides.pdf p.37]. The projected 2027-29
   balances ($2.9B Rainy Day Fund, $1.6B ESF) would be 10.6% of the General Fund projection
   [SRC:fiscal/oea/2026-12_forecast.pdf p.41].
-- News coverage's "$2.5B more" and "$5B more" compare the QEM with the 2025-27 budget, not with the CSL
-  [NEWS:NEWS-20260812-opb-1].
-- Analysis: watch the baseline. Figures against the CSL and against 2025-27 aren't comparable.
+- News coverage reports the QEM need as "$2.5B more" and "$5B more" [NEWS:NEWS-20260812-opb-1].
+  - Analysis: watch the baseline. Those increases appear to compare the QEM with the 2025-27 budget, not with the
+    CSL; figures against the CSL and against 2025-27 aren't comparable.
 
 More: `data/qem_gap.csv`, `data/ssf_history.csv`, `data/reserves.csv`.
 
