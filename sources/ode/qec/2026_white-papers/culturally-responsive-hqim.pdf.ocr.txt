@@ -1,0 +1,737 @@
+Best Practices for
+Culturally Responsive
+High-Quality
+Instructional Materials
+in Oregon
+Quality Education Commission Best
+Practices White Paper Series
+February 2026
+
+
+--- OCR of this page (tesseract), not checked by a person: check the PDF before quoting or copying a figure ---
+Best Practices for
+Culturally Responsive
+High-Quality
+Instructional Materials
+in Oregon
+
+Quality Education Commission Best
+Practices White Paper Series
+
+February 2026
+
+jx lS
+
+OREGON QUALITY
+
+DEPARTMENT OF EDUCATION
+EDUCATION COMMISSION
+
+Best Practices for Culturally Responsive High-Quality Instructional Materials in Oregon
+
+Contents
+Executive Summary ..................................................................................................................... 2
+The Framework: From Policy to Practice .................................................................................... 4
+Defining Culturally Responsive High-Quality Instructional Materials (HQIM) ............................ 4
+Why Culturally Responsive HQIM Matter: Impact on Students, Educators, and Systems ......... 8
+Barriers to Effective Implementation ........................................................................................ 10
+Policy-Aligned Considerations ................................................................................................... 12
+Measuring Progress: A Learning-Oriented Approach ............................................................... 14
+Conclusion ................................................................................................................................. 16
+References ................................................................................................................................. 19
+
+1
+
+Best Practices for Culturally Responsive High-Quality Instructional Materials in Oregon
+
+Executive Summary
+Oregon's High-Quality Instructional Materials (HQIM) program is at an important inflection
+point. The passage of SB 141 in 2025 removed publisher fees from the state adoption process
+and established stable funding mechanisms, creating new opportunities for smaller, culturally
+responsive, and dual language publishers to participate in state reviews. These structural
+changes, combined with sustained investment in professional learning and implementation
+support, position Oregon to strengthen both the diversity of available materials and the
+conditions under which those materials reach students.
+Research is clear that instructional materials are one of the most cost-effective levers for
+improving student outcomes. High-quality, standards-aligned curriculum can produce learning
+gains that match or exceed more costly interventions, and cumulative exposure to HQIM
+compounds meaningfully over time. Yet materials alone are not enough — how materials are
+selected, implemented, and supported determines whether their potential is realized in
+classrooms.
+Culturally responsive HQIM goes beyond standards alignment. They affirm student identities,
+integrate multiple perspectives, provide authentic representation, and support the holistic
+development of all learners — including multilingual learners, students with disabilities, and
+students from historically underrepresented communities. Research on Bishop's mirrors,
+windows, and sliding glass doors framework, Oregon's Transformative SEL Standards, and
+publishing industry data all underscore the ongoing need for intentional curation of materials
+that reflect the diversity of Oregon's students. For multilingual learners specifically, materials
+developed natively for dual language and bilingual programs — rather than translated versions
+of English-dominant originals — represent an important and underserved need that Oregon's
+broadened publisher participation could begin to address.
+Despite these opportunities, Oregon districts face real implementation barriers. Back-to-back
+adoption cycles, constrained planning windows, limited access to curriculum-specific
+professional learning, and insufficient coaching infrastructure all affect whether adopted
+materials take root in classrooms. Teachers currently spend approximately seven hours per
+week searching for curriculum and five hours creating materials — a significant workload
+burden that coherent, well-supported HQIM adoption can reduce. Research consistently shows
+that curriculum-based professional learning and instructional coaching are pivotal to realizing
+HQIM's benefits, particularly when grounded in culturally responsive pedagogy.
+This paper offers five policy-aligned recommendations for Oregon:
+2
+
+Best Practices for Culturally Responsive High-Quality Instructional Materials in Oregon
+1) Embed cultural responsiveness, including representation, multiple perspectives,
+Transformative SEL principles, and attention to dual language needs, as integral
+components of existing ODE adoption criteria rather than supplemental considerations.
+2) Pair every adoption with curriculum-based professional learning and instructional coaching
+focused on the actual materials teachers use, with attention to dosage, coach preparation,
+and quality monitoring.
+3) Sustain the equitable access funding established by SB 141 and clarify expectations for
+independent adoptions to ensure locally selected materials meet the same rigorous
+standards as state-adopted options.
+4) Systematically include student and family voice as implementation feedback, particularly
+from historically marginalized communities, treating this input as a continuous
+improvement tool rather than a compliance exercise.
+5) Adopt a learning-oriented measurement approach that tracks student outcomes,
+implementation fidelity, professional learning quality, representation audits, and student
+and family experience across adoption cycles.
+Oregon has built a strong foundation. Our challenge is to pivot from the initial adoption of HighQuality Instructional Materials (HQIM) toward long-term implementation. The transformative
+potential of culturally responsive HQIM is not realized at the moment of purchase, but through
+years of sustained funding and coherent support in classrooms where every student is valued
+and challenged.
+Oregon has been improving its statewide High Quality Instructional Materials (HQIM) program
+to address challenges associated with instructional incoherence and inconsistent instructional
+quality across the state. With the passage of SB 141 in 2025, which removed publisher fees
+from the state adoption process and established stable funding mechanisms for instructional
+materials, Oregon created new opportunities for smaller and more culturally responsive
+publishers to participate in the state review process. This legislative change, combined with
+sustained investment in professional learning and implementation support, positions Oregon to
+strengthen both the diversity of available materials and the conditions under which those
+materials are implemented in classrooms. As the Oregon Department of Education works to
+strengthen its materials criteria and create systems of local implementation support, it uplifts
+and maintains culturally responsive pedagogy as a central foundation to improving student
+outcomes.
+
+3
+
+Best Practices for Culturally Responsive High-Quality Instructional Materials in Oregon
+
+The Framework: From Policy to Practice
+The following sections provide the research background, policy context, and practical guidance
+for implementing culturally responsive HQIM in Oregon. Section 1 establishes definitions and
+Oregon's legal framework for instructional materials adoption. Section 2 examines research
+evidence on curriculum impact and implementation conditions. Section 3 identifies common
+barriers districts face. Section 4 presents policy-aligned options for
+strengthening selection and implementation processes. Section 5 offers a measurement
+approach for continuous improvement. These recommendations build on Oregon's existing
+statutory requirements and recent policy developments to support districts in selecting and
+implementing materials that serve all students effectively.
+
+Defining Culturally Responsive High-Quality
+Instructional Materials (HQIM)
+Under Oregon law, instructional materials are any organized system that constitutes the major
+instructional vehicle for a course (print or digital). The State Board maintains criteria and an
+adoption schedule; districts may choose either State-adopted materials or conduct an
+independent adoption that meets the same criteria, with local school board approval (Oregon
+Department of Education Instructional Materials OAR & ORS) (Oregon Department
+of Education HQIM).
+Oregon’s statutes (ORS Chapter 337) codify the state’s evaluation and adoption processes. In
+2025, Section 27 of SB 141 was enacted, and subsequent ODE rulemaking removed publisher
+fees from the process, aligning rules with statute and updating program funding mechanisms.
+This reduction of fees is intended to lower barriers for participation in the state adoption
+process, enabling smaller, emerging, and potentially more culturally responsive publishers
+to submit materials for state review and thereby broadening the diversity, inclusiveness, and
+cultural relevance of instructional materials available to Oregon districts.
+
+What qualifies as HQIM?
+Across states and national organizations, HQIM are typically characterized by alignment to
+standards, inclusion of diverse perspectives and accurate representation, student access to
+materials that affirm their identities and experiences, and use of evidence-based practices that
+foster belonging and engagement for students and families. Oregon communicates similar
+expectations through public guidance and links to adoption criteria and OAR/ORS.
+4
+
+Best Practices for Culturally Responsive High-Quality Instructional Materials in Oregon
+Several recent national reports emphasize that HQIM are a lever for coherence, equity, and
+efficiency, and that how materials are selected and implemented is as important as what is
+selected (ED Reports Infographic, n.d.; South Carolina Department of Education & EdReports,
+2024).
+
+What makes materials culturally responsive?
+“Culturally responsive” describes materials and supports that affirm student identities,
+integrate multiple perspectives, and advance rigorous learning for all students, including
+multilingual learners and students with disabilities.
+
+Multilingual Learning and Culturally Responsive
+Curriculum
+For multilingual learners, specifically, culturally responsive materials
+recognize linguistic diversity as an asset. Rather than viewing student’s home languages as
+barriers to overcome, asset-based approaches position bilingualism and multilingualism as
+cognitive and cultural strengths that enrich classroom learning. Materials should include
+scaffolds and supports to encourage full participation of students with home languages beyond
+English (Bunch, Kibler, & Pimentel, 2012). Oregon's Instructional Materials Evaluation Tool
+(IMET) operationalizes this principle through Criterion 3.2, which requires that adopted
+materials provide explicit strategies enabling students who read, write, or speak languages
+other than English to participate fully in learning.
+It is also worth distinguishing between translated materials and materials developed for dual
+language and bilingual programs. Translated materials, while valuable, often retain the cultural
+framing, sequencing, and assumptions of their English-language originals. Materials designed
+from the ground up for dual language contexts treat bilingualism as the instructional model
+rather than a modification, and are more likely to reflect the linguistic and cultural assets of
+bilingual learners authentically (Howard et al., 2018). As Oregon broadens publisher
+participation through SB 141, encouraging the development and submission of such
+materials represents an important future direction for the state's HQIM program.
+
+Disability, Representation, and Culturally Responsive
+Curriculum
+For students with disabilities, culturally responsive materials provide authentic representation
+and ensure access to grade-level content. High-quality materials include scaffolds that enable
+5
+
+Best Practices for Culturally Responsive High-Quality Instructional Materials in Oregon
+students with disabilities to participate in general education settings while representing
+disability as part of human diversity. IMET Criterion 3.2 also requires materials to provide
+explicit supports for students with disabilities and multiple modes of expression so all students
+can demonstrate understanding in ways that honor their strengths and learning preferences. By
+embedding these requirements in state adoption criteria, Oregon ensures that culturally
+responsive materials provide not only representation but the instructional supports necessary
+for equitable access to rigorous content.
+
+Transformative Social Emotional Learning (TSEL) and
+Culturally Responsive Curriculum
+Students’ social, emotional, and academic development are deeply interconnected. Schoolbased social and emotional learning (SEL) programs significantly improve academic
+achievement with particularly strong effects in literacy and math (Ha, McCarthy, Strambler, &
+Cipriano, 2025).
+The Collaborative for Academic, Social, and Emotional Learning
+(CASEL) highlight that classroom-based approaches to teaching SEL competence can include
+explicit instruction on emotional skills and attitudes, teaching practices such
+as cooperative learning, and integration of SEL within academic curriculum, including language
+arts, math, science, and social science (CASEL, 2023). An integrative approach weaves socialemotional learning into subject-area instruction, leveraging teachable moments within the
+curriculum to demonstrate SEL’s relevance to the learning process (CASEL, 2017).
+While most research has examined standalone SEL programs, emerging evidence indicates that
+integrating SEL into academic content produces stronger outcomes for students’ skills,
+attitudes and academic performance compared to separate SEL instruction (Cipriano et al.,
+2023).
+Oregon’s Transformative SEL Framework and Standards align with CASEL’s emphasis on
+culturally responsive practices. Transformative SEL focuses specifically on identity, agency,
+belonging, collaborative problem-solving, and curiosity, with instruction that honors and makes
+connections to students’ lived experiences and identities (Jagers, Skoog-Hoffman, Barthelus, &
+Schlund, 2021). “The intention of Oregon’s Transformative SEL Standards is to provide an
+intentional approach that builds on student assets, creates a sense of belonging, and develops
+agency and identity.”
+When considering HQIM adoption, these findings suggest that culturally responsive curriculum
+should attend to both academic rigor and social-emotional development. Materials that affirm
+6
+
+Best Practices for Culturally Responsive High-Quality Instructional Materials in Oregon
+student identities, provide opportunities for collaborative learning, offer student agency and
+choice, and integrate multiple perspectives may support both rigor and social-emotional
+development. While additional research is needed on how core instructional materials designed
+with embedded SEL compare to discrete or free-standing programs, the established connection
+between social-emotional learning and academic success reinforces that instructional materials
+evaluation should consider the available supports for the holistic development of students.
+
+Bishop's Framework for Culturally Responsive
+Curriculum
+Rudine Sims Bishop's influential 1990 essay, “essay, “Mirrors, Windows, and Sliding Glass
+Doors,” highlights the importance for students, especially students from traditionally
+underrepresented identity groups, to see themselves and their experiences mirrored in the
+curriculum for self and cultural affirmation (Bishop, 1990).
+However, mirrors are not enough. Curriculum should also provide students with windows
+allowing the observation of others' experiences and perspectives, as well as sliding glass doors
+that encourage imaginative engagement with unfamiliar ideas, times, places, and characters.
+Together, these three elements create learning environments where all students see
+themselves valued while developing the critical consciousness and cultural competence needed
+to engage meaningfully with diverse perspectives.
+To implement these principles in materials review, educators and selection committees can
+look to specific evaluation criteria. For instance, the Oregon Department of Education
+has a four-part criteria for the evaluation of social science instructional materials. Part
+2 requires the evaluation of materials based on Equitable Student Engagement and Cultural
+Pedagogy. Criterion 2.1 (Engagement and Relevance) focuses on making content relevant and
+engaging for diverse learners. Criterion 2.2 (Culturally Responsive Instructional Support) focuses
+on authentic representation, multiple perspectives, and asset-based practices that build on
+students' cultural knowledge.
+
+7
+
+Best Practices for Culturally Responsive High-Quality Instructional Materials in Oregon
+Table 1. Connecting Bishop's Framework to Oregon's Evaluation Criteria
+Bishop’s Framework
+
+ODE Evaluation Criteria
+
+What to Look For
+
+Mirrors (recognition and Criterion 2.2affirmation)
+Representation
+
+Wide-ranging identities
+represented authentically
+
+Windows (understanding Criterion 2.2 - Multiple
+others)
+Perspectives
+
+Multiple perspectives, diverse
+viewpoints represented
+
+Sliding Glass
+Doors (engagement)
+
+Criterion 2.1 Student choice, relevant
+Engagement & Relevance contexts, authentic
+engagement
+
+Additional Tools for Culturally Responsive Curriculum
+The Education Trust's (Tool for Representational Balance in Books, 2023) provides a
+comprehensive framework for evaluating how people, groups, and topics are represented in
+curricular materials. The tool offers specific criteria including multidimensionality, agency, and
+the avoidance of stereotypes which can be applied
+to instructional materials evaluation processes. Similarly, ODE’s (Digital Instructional Materials
+Toolkit, 2024) encompasses guidance on critical topics including accessibility, student data
+privacy, cultural responsiveness in digital materials, and centering linguistic strengths through
+technology, recognizing that modern basal programs increasingly include digital components.
+Together, these frameworks demonstrate that culturally responsive HQIM adoption requires
+evaluating not only the diversity of representation but also the quality and complexity of that
+representation, ensuring that materials reflect the rich diversity of student experiences
+while maintaining high academic standards. These tools can be applied alongside Oregon’s
+adoption criteria to strengthen attention to representation, relevance, and academic rigor.
+
+Why Culturally Responsive HQIM Matter:
+Impact on Students, Educators, and Systems
+High-quality instructional materials function not only as classroom tools, but as a central
+improvement lever within a coherent instructional system. The research base underscores
+that the quality of instructional materials, combined with aligned professional learning and
+culturally responsive implementation, substantially shapes both academic outcomes and
+students’ sense of belonging and engagement.
+8
+
+Best Practices for Culturally Responsive High-Quality Instructional Materials in Oregon
+
+Curriculum quality as improvement lever
+Using stronger, standards-aligned curricula can produce meaningful gains in student
+learning relative to other interventions (EdReports, 2015). ODE guidance on HQIM summarizes
+this research base, noting that HQIM can match or exceed the effect of more costly strategies
+when paired with appropriate support. Cumulative exposure to HQIM can yield substantial,
+compounding effects over time when implemented with fidelity and support (Accelerated
+Learning Work Group, 2023).
+
+Representation, belonging, and academic engagement
+Publishing-industry data analyzed by the Cooperative Children’s Book Center (CCBC) show
+year-over-year changes in the proportion of books by and about racially and ethnically
+diverse creators and characters, underscoring the importance of intentional selection to ensure
+materials reflect students’ identities and communities (Cooperative Children's Book Center,
+2024). While these data describe publisher output rather than school adoptions, they illustrate
+an ongoing need to curate diverse, accurate, and developmentally appropriate texts.
+
+Professional learning and implementation
+conditions amplify benefits
+Research on how teachers access and use materials indicates variability in quality,
+mixing/modifying, and workload. RAND’s American Instructional Resources Survey (AIRS) finds
+that teachers often combine multiple curricula and supplemental resources (Doan et al., 2025).
+In surveys, teachers report spending approximately 7 hours searching for curriculum and 5
+hours creating curriculum per week. This has significant implications for coherence
+and equitable learning experiences for students (Doan et al., 2025).
+AIRS analysis links curriculum-based professional learning (PL) to more regular use of
+standards-aligned materials and shows positive effects on instruction and student achievement,
+pointing to why curriculum-based PL and coaching are pivotal to realizing HQIM’s benefits (Zuo
+et al., 2023) (Doan et al., 2025). When PL is grounded in culturally responsive pedagogy,
+educators are better equipped to implement materials in ways that affirm students’ identities,
+draw on community and cultural strengths, and increase relevance and
+engagement. Research also indicates that culturally responsive curriculum-based PL
+strengthens instructional coherence, improves student belonging and motivation, and supports
+more equitable academic outcomes (Ciampa & Reisboard, 2024).
+
+9
+
+Best Practices for Culturally Responsive High-Quality Instructional Materials in Oregon
+
+Barriers to Effective Implementation
+Oregon’s instructional materials adoption system is designed to promote
+coherence, standards alignment, and long-term stability across districts. However, the realities
+of back-to-back adoptions, constrained planning windows, and uneven professional learning
+infrastructure impact implementation and shape how materials are experienced in classrooms.
+The following considerations highlight structural and implementation factors that influence
+teacher workload, instructional quality, and sustained impact for students.
+
+Adoption timelines and planning windows
+Oregon maintains a multi-year adoption schedule organized by content area; for example, the
+2025 Social Science adoption runs February 2026 through June 2033. During these cycles,
+planning professional learning aligned to standards and instructional materials often competes
+with other operational demands. Without intentional planning by districts and stable,
+predictable budgets allowing for on-cycle adoptions, classroom teachers (especially in K-5)
+face a carousel of new instructional materials to learn and implement every few years.
+
+High-quality instructional materials take time to root. Implementation typically unfolds across
+multiple years, especially when the materials represent significant shifts in content organization
+or pedagogical approach. Research on implementation timelines suggests that districts need
+extended periods to intentionally build educator capacity, align support structures, and
+gradually strengthen practice across classrooms (Accelerated Learning Work Group, 2023).
+Rivet Education recommends extended adoption cycles, when paired with ongoing professional
+learning and curriculum updates in-between adoptions to ensure that curriculum stays aligned
+with current standards, evolving best practices, and the research base. This can help prevent
+classrooms from relying on outdated materials or practices while allowing educators to deepen
+their expertise with adopted programs (Rivet Education, 2024).
+10
+
+Best Practices for Culturally Responsive High-Quality Instructional Materials in Oregon
+
+Time and workload
+Teachers often assemble and modify materials from multiple sources to meet state
+standards and student needs, with many using multiple core and supplemental resources
+concurrently. National surveys find that teachers spend approximately 7 hours per week
+searching for curriculum and 5 hours per week creating materials (Tosh et al., 2020). Without
+coherent guidance and support, this practice increases workload and
+reduces implementation fidelity. District efforts to link and align basal supplemental materials
+within comprehensive scope and sequence plans can help ensure coverage while reducing the
+need for teachers to design instruction from scratch.
+
+Professional learning and coaching
+Many educators lack extensive access to curriculum-specific professional learning focused on
+the materials they are expected to use. Research demonstrates that participation in curriculumaligned professional learning is linked to stronger standards-aligned practice and more
+consistent implementation (Steiner et al., 2025). Meta-analyses of coaching interventions
+support curriculum-embedded coaching as a high-yield professional development approach,
+though scaling these efforts requires attention to coach preparation, dosage, and ongoing
+quality monitoring (Kraft et al., 2018).
+
+Perceived material-student fit
+A significant share of teachers report that grade-level materials feel too challenging for some
+learners, which can lead to lower implementation rates and increased modification.
+This perception often reflects insufficient professional learning on how to scaffold grade-level
+content while maintaining rigor. Lesson internalization is a structured practice where educators
+deeply study, annotate, and rehearse lessons before teaching them. This approach effectively
+builds teacher confidence and skill with new materials. Through internalization,
+teachers anticipate student needs, identify potential scaffolds, and plan adaptations
+that maintain grade-level rigor while ensuring accessibility. Professional learning that helps
+educators understand how materials can be adapted to meet diverse student needs while
+keeping students engaged with grade-level learning correlates with more
+positive perceptions of materials and stronger implementation (Accelerated Learning Work
+Group, 2023).
+
+11
+
+Best Practices for Culturally Responsive High-Quality Instructional Materials in Oregon
+
+Community and Student Engagement
+Many selection processes incorporate educator voice through review teams and pilot feedback.
+Fewer processes systematically capture student and community experience with adopted
+materials. Best practice includes piloting materials with diverse groups of students and families
+before full adoption, ensuring that feedback reflects the range of backgrounds, languages, and
+experiences present in the district's student population (EdReports, 2021; Accelerated Learning
+Work Group, 2023).
+Understanding how students and families experience materials in practice (including questions
+of belonging, relevance, and clarity) provides essential information for continuous
+improvement and helps districts identify where additional support or adjustment may be
+needed. When piloting intentionally includes outreach to families from historically marginalized
+communities, districts gain critical insight into whether materials are culturally responsive in
+practice, not just in stated design. Research demonstrates that meaningful family engagement
+in educational decision-making, including curriculum selection, strengthens trust between
+families and schools and supports student success, particularly for culturally and linguistically
+diverse students (Regional Educational Laboratory West, 2021).
+
+Policy-Aligned Considerations
+Realizing the full promise of high-quality instructional materials (HQIM) requires coherent
+state policies, local partnerships, and sustained implementation supports. The following
+priorities outline how Oregon can embed equity and cultural responsiveness within existing
+systems while strengthening materials evaluation, adoption, implementation, and continuous
+improvement practices statewide. The options below are not new mandates; they align with
+Oregon’s statutes/rules and the research base on curriculum implementation.
+
+Embed culturally responsive review within existing ODE
+criteria
+Reinforce that cultural responsiveness is an integral component of quality that
+includes representation, multiple perspectives, and rigor as found within Oregon’s adoption
+criteria. Districts may optionally apply recognized frameworks during local reviews, such as
+Bishop’s mirrors/windows/sliding glass doors, to deepen their analysis of how materials reflect
+and affirm diverse student identities. Districts should also integrate Transformative Social and
+Emotional Learning (TSEL) principles as criteria for evaluating materials, ensuring
+12
+
+Best Practices for Culturally Responsive High-Quality Instructional Materials in Oregon
+that instructional content promotes identity development, agency, belonging, and collaborative
+problem-solving alongside academic rigor.
+
+Emphasize implementation supports with adoption
+Pair adoption with curriculum-based PL and instructional coaching focused on the actual
+program teachers use. Coaching has one of the strongest causal evidence bases among
+PL approaches; planning for scale should include dosage, coach preparation, and ongoing
+quality monitoring (Kraft et al., 2018). Districts should prioritize curriculum-embedded coaching
+that helps teachers internalize lessons, adapt materials responsively, and strengthen
+pedagogical practices aligned to the adopted program. Sustained investment in implementation
+support yields greater returns than adoption alone.
+
+Sustain equitable access funding and signal coherence
+Following the passage of SB 141, which removed publisher fees from Oregon's adoption
+process, the state should continue to provide clear program signals that
+prioritize equitable access to HQIM and sustained use over time. This includes clarifying
+expectations for independent adoption processes to ensure that locally selected materials meet
+the same rigorous standards as state-adopted options. Oregon can support districts by
+connecting them to state evaluation tools, such as the IMET, and national review sources
+like EdReports, enabling thorough local vetting without requiring districts to build review
+infrastructure from scratch. Sustained funding mechanisms that support not
+only initial purchase but also ongoing professional learning, coaching, and curricular updates
+help ensure that all districts, regardless of size or resources, can implement HQIM effectively
+and equitably.
+
+Include student and family voice as implementation
+feedback
+Co-design formative feedback mechanisms with students, families, and community partners to
+understand how materials are experienced in practice. Research demonstrates that schools
+including student voice practices are better able to facilitate students' academic and
+developmental success as well as access to educational opportunity, particularly for students
+from historically marginalized communities (Conner et al., 2023; Regional Educational
+Laboratory Pacific, 2025). This includes gathering input on belonging, identity affirmation,
+relevance, and clarity through age-appropriate student surveys, family focus groups, and
+community review sessions. When treated as implementation feedback rather than high-stakes
+13
+
+Best Practices for Culturally Responsive High-Quality Instructional Materials in Oregon
+evaluation, student and family voice becomes a powerful tool for continuous improvement.
+Districts should use this feedback to make in-year adjustments to instructional approaches,
+supplemental supports, or professional learning priorities while protecting the coherence of
+core adopted materials. By actively involving community voices in the materials
+implementation process, districts gain insight into how well adopted materials reflect the
+distinct characteristics, values, and needs of local communities (Stentiford & Koutsouris, 2023).
+Centering the perspectives of students and families from historically marginalized communities
+ensures that cultural responsiveness is assessed through lived experience, not assumptions.
+
+Measuring Progress: A Learning-Oriented
+Approach
+A continuous improvement dashboard can help the state and districts understand whether
+implementation is strengthening over time. Measurement should be formative rather than
+punitive, focusing on learning and adjustment rather than compliance. Effective
+implementation monitoring examines multiple dimensions of materials use and impact,
+recognizing that no single metric captures the full picture of how HQIM are experienced in
+classrooms (Accelerated Learning Work Group, 2023). Some possible
+measurements to monitor include:
+
+Student outcome data
+Monitor grade-level access and achievement growth for all students, disaggregated by student
+group (including by race/ethnicity, language status, disability status, and economic
+background). Analyze correlations between HQIM use and outcomes to understand whether
+consistent implementation is associated with accelerated learning, particularly for students
+who begin below grade level. Research indicates that students performing below grade level
+can make significantly greater progress when supported by high-quality materials paired with
+effective instruction, making disaggregated outcome data essential for understanding
+implementation impact (TNTP, 2018).
+
+Implementation data
+Track rates of teacher modification and supplementation through surveys, classroom
+observations, or analysis of lesson plans. High modification rates may signal the need
+for additional professional learning, insufficient materials-student fit, or gaps in the scope and
+sequence that require supplemental resources. Understanding patterns in how and why
+teachers adapt materials helps districts provide targeted support. Implementation fidelity
+14
+
+Best Practices for Culturally Responsive High-Quality Instructional Materials in Oregon
+research suggests that some adaptation is both inevitable and productive when teachers use
+materials responsively, but extensive modification or replacement of core materials can
+undermine coherence and reduce the cumulative benefit of standards-aligned curricula
+(Century & Cassata, 2016).
+
+Professional learning data
+Monitor participation rates in curriculum-based professional learning and coaching, including
+frequency, duration, and quality of interactions. Collect teacher self-reports of changes in
+practice, confidence with materials, and perceived effectiveness. Assess coaching quality
+through observation protocols, feedback cycles, or structured reflection tools. Given the strong
+research base linking curriculum-aligned professional learning to improved implementation and
+student outcomes, tracking both access to and quality of professional learning is critical for
+understanding implementation conditions (Kraft et al., 2018).
+
+Representation audits
+District curriculum teams should periodically review a sample of implemented lessons to assess
+whether diverse representation is maintained in practice, not just in purchased materials. This
+includes examining whether teachers are consistently using diverse texts, whether
+supplemental materials reflect multiple perspectives, and whether classroom implementation
+honors the cultural responsiveness embedded in adopted programs.
+
+Student and family voice
+Use age-appropriate surveys, focus groups, or classroom discussions to gather feedback on
+whether students see themselves in materials, find content relevant to their needs,
+experiences, and interests, and feel their identities are valued. This qualitative data is essential
+for understanding the lived experience of culturally responsive HQIM.
+Research demonstrates that student voice regarding curriculum and
+materials provides valuable insight into belonging, engagement, and educational opportunity,
+particularly for students from historically marginalized communities (Conner et al.,
+2023; Regional Educational Laboratory Pacific, 2025). Family input through structured listening
+sessions or review opportunities adds an additional perspective on cultural authenticity and
+community relevance.
+
+A Cycle of Continuous Improvement
+These measures should inform continuous improvement cycles rather than high-stakes
+accountability. The goal is to learn what is working, identify where additional support is needed,
+15
+
+Best Practices for Culturally Responsive High-Quality Instructional Materials in Oregon
+and adjust implementation conditions accordingly. By treating measurement as a learning tool,
+districts and the state can create feedback loops that strengthen practice over time while
+respecting the complexity of implementation and the professional expertise of educators.
+
+Conclusion
+For Oregon, the next phase of HQIM work is not simply what is adopted, but rather how
+adopted HQIM are implemented, supported, and experienced by students and educators. The
+passage of SB 141 in 2025 created important structural conditions for this work by removing
+financial barriers to publisher participation and establishing stable funding mechanisms. These
+policy changes create opportunities to broaden the diversity of available materials while
+ensuring districts have resources to support implementation over time.
+However, realizing these opportunities requires sustained and adequate funding at both state
+and local levels. Districts need stable, predictable funding not only for the initial purchase of
+high-quality materials but also for the multi-year implementation support
+that determines whether materials achieve their intended impact. Too often, adoption cycles
+are funded while implementation infrastructure—professional learning, coaching, curriculum
+updates, and community engagement—operates on unstable or insufficient budgets. This
+creates a pattern where districts invest in materials but cannot invest in the conditions that
+make those materials effective. Without adequate funding for ongoing coaching and
+curriculum-based professional learning, even the highest-quality, most culturally
+responsive materials risk remaining underutilized or inconsistently implemented.
+Stable funding must support the full implementation lifecycle: initial professional learning
+during the adoption year, sustained coaching over multiple years as teachers deepen their
+practice, periodic curriculum updates to maintain alignment with evolving standards and
+research, and structures for gathering and responding to student and family feedback. When
+funding is episodic or insufficient, districts are forced to make impossible choices
+between purchasing new materials and supporting teachers in using existing materials well.
+Adequate, sustained funding for both materials and implementation support is not
+an additional expense but a necessary investment in ensuring that Oregon's commitment to
+culturally responsive HQIM translates into classroom reality.
+Materials alone do not transform instructional practice or student outcomes. Realizing the
+promise of culturally responsive HQIM depends on several interconnected conditions working
+in concert. First, curriculum-based professional learning must be ongoing, job-embedded, and
+focused on the actual programs teachers use in classrooms. This includes structured practices
+like lesson internalization that build teacher confidence and skill with materials
+16
+
+Best Practices for Culturally Responsive High-Quality Instructional Materials in Oregon
+while maintaining grade-level rigor for all students. Second, instructional coaching must be
+curriculum-embedded and sustained, providing teachers with expert support as they
+implement new materials and adapt instruction to meet diverse student needs.
+Research demonstrates that coaching has one of the strongest evidence bases among
+professional development approaches, but realizing these benefits at scale requires careful
+attention to coach preparation, adequate dosage, and quality monitoring—all of which depend
+on adequate funding.
+Third, coherent state and local policies must align to support rather than fragment
+implementation. This means connecting adoption processes to multi-year professional learning
+plans, ensuring adequate funding not only for initial purchase but for sustained support, and
+creating feedback mechanisms that inform continuous improvement without imposing punitive
+accountability. When policies, professional learning, and materials work together as a coherent
+system, the cumulative effects on instruction and student learning can be substantial.
+Fourth, feedback from students and communities must inform how materials are experienced
+in practice. Student and family voice provides essential insight into questions of belonging,
+relevance, and cultural authenticity that cannot be determined through professional review
+alone. When districts systematically gather and respond to this feedback, they ensure that
+cultural responsiveness is assessed through lived experience rather than assumptions, and that
+implementation adjustments reflect the perspectives of those most directly affected by
+instructional decisions.
+With these conditions in place HQIM have the potential to serve as a high-leverage
+improvement strategy that strengthens instructional quality across Oregon's diverse school
+communities. Well-implemented, culturally responsive materials can elevate student belonging
+and engagement, reduce unnecessary teacher workload by providing coherent instructional
+resources, support rigorous learning, and improve outcomes for all students.
+The path forward requires sustained commitment from state and local leaders to move beyond
+adoption events toward long-term implementation success. It demands investment in the
+professional learning infrastructure that enables teachers to use materials skillfully and
+responsively. It requires ensuring funding for implementation support as essential rather than
+optional, recognizing that the return on investment in HQIM depends entirely on whether
+teachers receive the ongoing coaching and professional learning necessary to implement
+materials with fidelity and responsiveness. It calls for policy coherence that
+protects implementation fidelity while allowing for thoughtful adaptation to local contexts and
+student needs. And it necessitates centering student and community voice as a
+17
+
+Best Practices for Culturally Responsive High-Quality Instructional Materials in Oregon
+fundamental component of continuous improvement rather than an afterthought to
+professional decision-making.
+Oregon's HQIM program, strengthened by SB 141's funding stability and reduced barriers to
+publisher participation, has established a strong foundation. The challenge now is to build on
+this foundation through sustained attention to implementation and adequate resourcing,
+recognizing that the transformative potential of culturally responsive materials is realized not at
+the moment of adoption, but through years of well-funded, coherently supported use in
+classrooms where all students see themselves valued, challenged, and equipped for success.
+
+18
+
+Best Practices for Culturally Responsive High-Quality Instructional Materials in Oregon
+
+References
+Accelerated Learning Work Group. (2023). Guide to the implementation of high-quality
+instructional materials (HQIM). National Comprehensive Center
+at Westat. https://files.eric.ed.gov/fulltext/ED650496.pdf
+Bunch, G. C., Kibler, A., & Pimentel, S. (2012). Realizing opportunities for English learners in the
+Common Core English language arts and disciplinary literacy standards. Stanford
+University, Understanding Language
+Initiative. https://ul.stanford.edu/sites/default/files/resource/202112/01_Bunch_Kibler_Pimentel_RealizingOpp%20in%20ELA_FINAL_0.pdf
+Century, J., & Cassata, A. (2016). Implementation research: Finding common ground on what,
+how, why, where, and who. Review of Research in Education, 40(1), 169–
+215. https://www.researchgate.net/publication/312086095_Implementation_Research
+_Finding_Common_Ground_on_What_How_Why_Where_and_Who
+Ciampa, K., & Reisboard, D. (2024). Empowering teacher educators: Advancing culturally
+responsive practices through professional development. Action in Teacher Education,
+46(4), 350–371. https://doi.org/10.1080/01626620.2024.2357088
+Cipriano, C., Strambler, M. J., Naples, L. H., Ha, C., Kirk, M., Wood, M., Sehgal, K., Zieher, A. K.,
+Eveleigh, A., McCarthy, M., Funaro, M., Ponnock, A., Chow, J. C., & Durlak, J. (2023). The
+state of evidence for social and emotional learning: A contemporary meta-analysis of
+universal school-based SEL interventions. Child Development, 94(5), 1181–
+1204. https://doi.org/10.1111/cdev.13968
+Collaborative for Academic, Social, and Emotional Learning (CASEL). (2017). Effective social and
+emotional learning programs: Preschool and elementary school
+edition. https://casel.org/
+Collaborative for Academic, Social, and Emotional Learning (CASEL). (2023). Fundamentals of
+SEL. https://casel.org/fundamentals-of-sel/
+Conner, J., Holquist, S. E., Al Saghir, G., Mitra, D., & Search Institute. (2023). The Student Voice
+Toolkit. Search Institute. https://searchinstitute.org/resources-hub/student-voicetoolkit
+Cooperative Children's Book Center. (2024). Books by and/or about Black, Indigenous and
+People of Color received by CCBC. University of Wisconsin-Madison School of
+Education. https://ccbc.education.wisc.edu/literature-resources/ccbc-diversitystatistics/
+EdReports. (2021). Lessons from the field: Best practices for piloting
+curriculum. https://www.edreports.org/resources/article/lessons-from-the-field-bestpractices-for-piloting-curriculum
+EdReports. (2015). Why materials matter. https://edreports.org/impact/why-materials-matter
+Education Trust. (2023). Tool for representational balance in books. https://edtrust.org/rti/toolfor-representational-balance/
+Ha, C., McCarthy, M., Strambler, M. J., & Cipriano, C. (2025). Does social and emotional learning
+support academic achievement? Evidence from a meta-analysis. Child Development.
+Advance online publication. https://doi.org/10.1111/cdev.14229
+19
+
+Best Practices for Culturally Responsive High-Quality Instructional Materials in Oregon
+Howard, E. R., Lindholm-Leary, K. J., Rogers, D., Olague, N., Medina, J., Kennedy, B., Sugarman,
+J., & Christian, D. (2018). Guiding principles for dual language education (3rd ed.).
+Center for Applied Linguistics. https://dlenm.org/wpcontent/uploads/2024/11/Guiding-Principles-for-Dual-Language-Education-3rdedition.pdf
+Jagers, R. J., Skoog-Hoffman, A., Barthelus, B., & Schlund, J. (2021). Transformative Social
+Emotional Learning In Pursuit of Educational Equity and Excellence. American
+Educator. https://files.eric.ed.gov/fulltext/EJ1304336.pdf
+Kraft, M. A., Blazar, D., & Hogan, D. (2018). The effect of teacher coaching on instruction and
+achievement: A meta-analysis of the causal evidence. Review of Educational Research,
+88(4), 547–588. https://doi.org/10.3102/0034654318759268
+Oregon Department of Education. (2023). Oregon Transformative SEL framework and
+standards. https://www.oregon.gov/ode/students-andfamily/equity/SchoolSafety/Pages/Social-Emotional-Learning.aspx
+Oregon Department of Education. (n.d.). High-quality instructional materials
+(HQIM). https://www.oregon.gov/ode/educatorresources/teachingcontent/instructional-materials/pages/default.aspx
+Oregon Department of Education. (n.d.). Instructional materials OAR &
+ORS. https://www.oregon.gov/ode/educator-resources/teachingcontent/instructionalmaterials/pages/oar-ors.aspx
+Oregon Department of Education. (2025, January 16). Criteria for review and adoption of
+instructional materials in social science (K–12). https://www.oregon.gov/ode/educatorresources/teachingcontent/instructional-materials/Pages/Adoption-Criteria.aspx
+RAND Corporation. (2020). American Instructional Resources
+Survey. https://www.rand.org/education-and-labor/projects/measuringcurriculum.html
+Regional Educational Laboratory Pacific. (2025). Including voice in education: Empowering
+student voice in school design. Institute of Education Sciences. https://ies.ed.gov/relpacific/2025/01/infographic-6
+Regional Educational Laboratory West. (2021). Engaging and empowering diverse families:
+Evidence-based strategies for family engagement. Institute of Education
+Sciences. https://ies.ed.gov/ncee/rel/regions/west/pdf/Family_Engagement_and_Empo
+werment_Brief_Final_Clean_ADA_Final.pdf
+Rivet Education. (n.d.). Implementation guidance. https://riveteducation.org/implementationguidance/
+Steiner, D. (2024, January). The unrealized promise of high-quality instructional materials. State
+Education Standard: The Journal of the National Association of State Boards of
+Education, 24(1). https://www.nasbe.org/the-unrealized-promise-of-high-qualityinstructional-materials/
+Stentiford, L., & Koutsouris, G. (2023). Community voices in curriculum
+development. Curriculum Perspectives, 43, 213–224. https://doi.org/10.1007/s41297023-00223-w
+
+20
+
+Best Practices for Culturally Responsive High-Quality Instructional Materials in Oregon
+TNTP. (2018). The opportunity myth: What students can show us about how school is letting
+them down—and how to fix it. https://tntp.org/publications/view/studentexperiences/the-opportunity-myth
+Tosh, K., Doan, S., Woo, A., & Henry, D. (2020). Digital instructional materials: What are
+teachers using and what barriers exist? RAND
+Corporation. https://www.rand.org/pubs/research_reports/RR2575z17.html
+
+21
+
+

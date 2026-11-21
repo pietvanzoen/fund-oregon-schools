@@ -1,0 +1,804 @@
+Leaning into the Power
+of Formative
+Assessment Practice
+
+Quality Education Commission Best
+Practices White Paper Series
+ODE Assessment Team
+March 2026
+
+Leaning into the Power of Formative Assessment Practice
+
+Contents
+Executive Summary ..................................................................................................................... 2
+The Case for Formative Assessment ........................................................................................ 2
+Oregon’s Framework: The Four-Leaf Clover Model ................................................................ 2
+System Strengths and Needs ................................................................................................... 3
+Scaling Formative Assessment Statewide................................................................................ 3
+Conclusion ................................................................................................................................ 4
+Introduction ................................................................................................................................. 5
+Background and Literature Review ............................................................................................. 6
+The Four-Leaf Clover Model of Formative Assessment in Oregon ............................................. 8
+Opportunity Analysis: System Strengths and Needs ................................................................... 9
+Proposed Solutions: Benefits and Impact ................................................................................. 12
+Benefits for Students ............................................................................................................. 13
+Benefits for Teachers ............................................................................................................. 13
+Evaluation and Impact Assessment........................................................................................... 14
+Needed Resources ..................................................................................................................... 15
+Policy and Resource Alignment ................................................................................................. 16
+Key Investments for Scaling Formative Assessment ................................................................. 17
+Conclusion ................................................................................................................................. 18
+
+1
+
+Leaning into the Power of Formative Assessment Practice
+
+Executive Summary
+The formative assessment process is one of the most powerful, research-affirmed levers
+available to improve student learning. Unlike tests, often high-stake events, formative
+assessment is a continuous, student-centered practice that is embedded in daily instruction. It
+enables teachers and students to use evidence of learning in real time to adjust actions,
+promote agency and accelerate learning. This white paper outlines why formative assessment is
+essential to Oregon’s vision for equitable, ambitious instruction. It identifies the system
+strengths and challenges that shape its implementation and presents a statewide strategy to
+scale high quality formative assessment as a central component in every classroom.
+
+The Case for Formative Assessment
+Decades of research demonstrate that formative assessment yields the greatest positive impact
+of any documented instructional practice on student learning. It works by transforming the
+learning experience from traditional one-way instruction into a more dynamic partnership
+between students and teachers. Students are clearer about what they are learning, where they
+are in their progress and what actions they will need to take to help them grow. Teachers gain
+insight into student thinking and can respond immediately with targeted feedback, in the
+moment adjustments to produce deeper engagement.
+Oregon’s balanced assessment system positions formative assessment as the key component to
+student achievement. Yet misunderstandings persist. Too often, “formative assessment” is
+mistaken for events like quizzes or exit tickets. This narrow view does not fully capture the real
+purpose or power of formative assessment. It is a process, not an event. It relies on
+instructional practices, student discourse, meaningful feedback and tasks aligned to the full
+depth of the standards.
+
+Oregon’s Framework: The Four-Leaf Clover Model
+Oregon uses the Smarter Balanced Four-Leaf Clover model to illustrate formative assessment as
+an interconnected cycle:
+1. Clarify learning goals and success criteria: Students and teachers share a vision of what
+success looks like, grounded in high-quality instructional materials (HQIM) and gradelevel standards.
+2. Elicit evidence of student learning: Evidence emerges through questioning, discussion,
+tasks, demonstrations and dialogue. Not for evaluation but for understanding.
+3. Interpret evidence: Teachers and students analyze what the evidence reveals about
+strengths, opportunities for growth and potential next steps.
+2
+
+Leaning into the Power of Formative Assessment Practice
+4. Act: Feedback, instructional adjustments, self-assessment and peer feedback accelerate
+learning.
+
+When consistently used, formative assessment promotes partnership between educators and
+students, builds student agency, promotes equity and promotes rigor across all classrooms. It
+positions assessment as a process that honors student identity, experiences and assets as
+essential components of learning.
+
+System Strengths and Needs
+Oregon has foundational strengths that support high-quality formative assessment, including
+adoption of HQIM, clear academic standards and an emerging culture of ambitious teaching
+and statewide expertise in balanced assessment. Still, there are challenges.
+Challenges
+•
+
+Misalignment between standards and assessment rigor: Evidence gathered in
+classrooms does not always reach the Depth of Knowledge (DOK) levels required by the
+stands, limiting its usefulness.
+
+•
+
+Inconsistent coherence across the system: At times, curriculum, instruction and
+assessment operate in silos, leading to mixed expectations for rigor and uneven student
+experiences.
+
+•
+
+Insufficient time, tools and professional learning: Teachers need protected
+collaboration time, modeling, coaching and shared frameworks to implement formative
+assessment deeply and consistently.
+
+Uneven understanding of asset-based practice: When misunderstood, asset-based
+instruction can result in lowered expectations rather than strengthened rigor that builds
+on student knowledge and strengths.
+Opportunities
+•
+
+•
+
+Strengthen coherence from classroom to system level.
+
+•
+
+Link HQIM, formative assessment practices, and ambitious teaching as a unified
+approach to equity.
+
+•
+
+Use evidence to support continuous improvement at classroom, school and district
+levels.
+
+•
+
+Collaborative professionalism: Professional learning communities, observation protocols
+(such as FARROP) and shared frameworks improve consistency and expertise statewide.
+
+Scaling Formative Assessment Statewide
+To implement formative assessment as an equitable, high-impact practice across Oregon, the
+state must invest in:
+3
+
+Leaning into the Power of Formative Assessment Practice
+
+
+
+
+
+
+Clear frameworks linking standards, curriculum, instruction and assessment.
+Practical tools and protocols including FARROP to observe, refine and scale strong
+practice.
+Professional learning communities that analyze evidence of learning and plan
+responsive instruction.
+Coaching and leadership structures that model effective formative assessment.
+Time for teacher collaboration embedded into schedules.
+
+System-wide coherence, supported by aligned policies, resources and evaluation will ensure
+that formative assessment becomes not a compliance task, but a routine or powerful practice
+that drives student learning.
+
+Conclusion
+The formative assessment process is essential to Oregon’s vision of rigorous, equitable,
+student-centered learning. When embedded into daily instruction, it empowers students as
+active learners and equips educators with actionable insight to meet every student’s learning
+needs. With strategic investment in tools, time and professional learning that includes
+alignment across standard, instructional materials and assessment, Oregon can ensure that
+every student experiences learning that is responsive, challenging and meaningful. By scaling
+formative assessment as a statewide practice, Oregon strengthens its commitment to
+education equity and sets the conditions for all students to learn and grow.
+
+4
+
+Leaning into the Power of Formative Assessment Practice
+
+Introduction
+Assessment is often thought of as a series of big, high-stakes events such as standardized tests
+or final exams that educators have little control over because instruction must be paused to
+create time and space to practice how to engage with it and then time to administer it. Yet this
+narrow view overlooks the form of assessment that students and teachers engage with most
+frequently: the formative assessment process. Unlike one-time measures, the formative
+assessment process is woven into daily instruction, providing ongoing opportunities for
+feedback, adjustment, and growth. When practiced effectively, it has the potential to be truly
+transformational, shifting learning from a static evaluation to a dynamic process. More than any
+other type of assessment, formative practices can profoundly shape student learning
+experiences, fostering deeper understanding, greater ownership, and lasting impact. 1
+Formative assessment, also known as assessment for learning, is a cornerstone of effective
+classroom practice. High-quality formative assessment depends on a respectful, collaborative
+classroom environment where teachers and students work in partnership. When implemented
+well, students become active partners in their learning, and teachers have many opportunities
+to respond to students’ needs. It is one of the most flexible and powerful tools educators can
+use to make meaningful differences for students. The formative assessment process functions
+as a process of educator-to-student and, more importantly, student-to-student interactions and
+behaviors that increase student ownership of the learning process. The goal is to improve
+understanding of intended learning outcomes while fostering students’ growth as self-directed
+learners.
+In 2021, the Michigan Assessment Consortium updated the definition originally developed in
+2006 by the Formative Assessment for Students and Teachers (FAST) group of the Council of
+Chief State School Officers (CCSSO).
+“Formative assessment is a planned, ongoing process used by all students and educators
+during learning and teaching to elicit and use evidence of student learning to improve
+student understanding of intended disciplinary learning outcomes and support students
+to become self-directed learners. Effective use of the formative assessment process
+requires students and educators to integrate and embed the following practices in a
+collaborative and respectful classroom environment:
+• Clarifying learning goals and success criteria within a broader progression of learning;
+• Eliciting and analyzing evidence of student thinking;
+
+Michigan Department of Education & Michigan Assessment Consortium. Formative Assessment for Michigan
+Educators (FAME). Retrieved from FAME Michigan.
+
+1
+
+5
+
+Leaning into the Power of Formative Assessment Practice
+• Engaging in self-assessment and peer feedback;
+• Providing actionable feedback; and
+• Using evidence and feedback to move learning forward by adjusting learning
+strategies, goals, or next instructional steps.” 2
+This paper reviews the transformative power of the formative assessment process, how it
+contrasts with formative assessments and traditional testing, analyzes its core components:
+rigor, feedback and self-assessment, and proposes the necessary resources and system
+alignment needed to establish it as universal practice. In addition, the paper will detail the
+practice’s proven impact on student learning, examine the critical alignment needed between
+academic standards and assessment practices, and outline the distinct yet interconnected roles
+of educators and students in the process. Finally, it will propose a strategy for shifting from a
+culture of compliance where assessment is viewed as an external requirement, to one of
+genuine commitment, where the formative assessment process is embraced as a central driver
+of equity, engagement, and instructional excellence.
+
+Background and Literature Review
+Oregon’s approach to a balanced assessment system has focused on three essential
+components, starting with formative assessment practices designed to support student learning
+in the moment, intended to foster a stronger partnership between student and educator. In
+addition to the formative assessment process, Oregon also includes interim assessments,
+tailored to support teaching and learning throughout the year, and finally summative
+assessments, which serve accountability and system evaluation purposes. 3 Too often, formative
+assessment is mistakenly associated with interim or summative assessments, as if it were an
+event that occurs outside of daily instruction. It is not. Formative assessment happens within
+the flow of teaching and learning, using classroom activities that can be applied formatively to
+directly support student growth. Decades of research have found that quality formative
+assessment has the largest positive impact of any instructional strategy on student learning and
+achievement that has been documented. 4 5 In addition, John Hattie has identified nearly every
+Michigan Assessment Consortium. (2021). Revising the definition of formative assessment [PDF]. Michigan
+Assessment Consortium. https://famemichigan.org/assets/resources/Revising-the-Definition-of-FormativeAssessment.pdf. Licensed under Creative Commons Attribution 4.0 International.
+3
+Oregon Department of Education. (2019). The right assessment for the right purpose: Guidance document.
+Oregon Department of Education. https://www.oregon.gov/ode/educatorresources/assessment/Documents/RightAssessmentRightPurpose.pdf
+4
+Crooks, T.J. (1988). The impacts of classroom evaluation practices on students. Review of Educational Research,
+58(4), 438-481. https://doi.org/10.3102/00346543058004438 (Original work published 1988).
+5
+Black, P., & Wiliam, D. (1998). Inside the black box: Raising standards through classroom assessment. Phi Delta
+Kappan, 80(2), 139–144, 146–148. https://www.jstor.org/stable/20439383
+2
+
+6
+
+Leaning into the Power of Formative Assessment Practice
+aspect of the formative assessment process as ways to have a positive impact on or even
+accelerating student achievement. 6
+There have often been misunderstandings about what the formative assessment process truly
+is and how it should be used. To address these misconceptions and support a shift in practice, it
+is helpful for educators to recall that the word assessment originates from the Latin assidere,
+meaning “to sit beside.” Assessment should be more than a way to measure learning—it is one
+of the essential components of ambitious teaching practices which emphasizes interactive,
+discourse-based practices where students actively make sense of ideas, rather than passively
+receiving information. It requires teachers to respond to student thinking in real time and hold
+students accountable to rigorous learning goals. 7 Caroline Wylie and Margaret Heritage write in
+their book Fair and Justice-Oriented Assessment: Developing Teachers’ Knowledge and Skills,
+“Formative assessment provides a steady stream of information about how
+student learning is progressing toward the intended longer-term outcomes.
+Formative assessment is conducted at the point of learning and is intended to
+reveal what students’ next steps might be, so that both teachers and students
+can take continuous action to secure progress. Its primary purpose is to keep
+student learning on track toward meeting the longer-term outcomes that are
+the focus of summative assessment.” 8
+
+Visible Learning. (n.d.). Hattie ranking: Influences and effect sizes related to student achievement. Retrieved
+December 4, 2025, from https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/
+7
+Youngs, P., & Anagnostopoulos, D. (2025). Teaching ambitiously in elementary school. Cambridge, MA: Harvard
+Education Press.
+8
+Heritage, M., Wylie, C. (2026). Fair and justice-oriented assessment: developing teachers’ knowledge and skills.
+Cambridge, Massachusetts: Harvard education press.
+6
+
+7
+
+Leaning into the Power of Formative Assessment Practice
+
+The Four-Leaf Clover Model of Formative
+Assessment in Oregon
+Oregon uses the four-leaf clover from Smarter Balanced to illustrate
+the formative assessment process with each leaf symbolizing one
+essential dimension of practice. This visual metaphor emphasizes that
+formative assessment is not a single event, but a continuous,
+interconnected cycle that supports student learning. 9
+•
+
+•
+
+•
+
+Dimension 1: Clarify Learning Goals and Criteria for Success
+At the top left, the process begins with clarification. This step
+is directly tied to high-quality instructional materials (HQIM),
+where teachers establish clear learning goals and success criteria. It is also the moment
+when educators draw upon what they already know about their students—their cultural
+backgrounds and strengths—to design activities and tools that honor and build upon
+those assets. Learning goals are written in student-friendly language beginning with, “I
+understand” or “I can”. Clarification ensures that both teachers and students share a
+common understanding of what success looks like.
+Dimension 2: Elicit Evidence of Student Learning
+The second dimension focuses on gathering evidence. Here, both educators and
+students actively elicit information about learning using multiple sources of evidence
+such as questioning, discussion, performance tasks, or other strategies to draw accurate
+conclusions about student learning. This evidence is not collected for evaluation, but to
+provide insight into how students are progressing toward the established goals.
+Dimension 3: Interpret Evidence to Determine Next Steps
+Once evidence is gathered, the third dimension involves interpretation. Teachers and
+students work together to analyze information, often “on the fly” from multiple points
+of instruction, identifying patterns, strengths, and areas for growth. This step is critical
+because it views evidence not as one singular event, but part of an ongoing process that
+turns data into meaningful insights that guide instructional decisions. Educators must
+anticipate student thinking as part of their planning process.
+o What questions might unlock a student’s thinking?
+o What whole-class discussion might need to happen, and with what focus?
+
+Smarter Tools for Teachers. (n.d.). Understanding the formative assessment process. Retrieved December 10,
+2025 from https://smartertoolsforteachers.org/landing/formative.
+9
+
+8
+
+Leaning into the Power of Formative Assessment Practice
+Are examples and artifacts of student work needed?
+Dimension 4: Act by Providing Feedback and Adjusting Instruction
+Finally, the fourth dimension is action. Based on the interpretation, teachers adjust
+instruction, intentionally carve out time to provide timely feedback, establish clear
+protocols for students to give and receive peer feedback, and design next steps that are
+explicitly linked to HQIM and the success criteria. Students, in turn, use this feedback to
+refine their learning strategies, set goals, and take ownership of their progress. It is
+critical to note that meaningful feedback requires a classroom culture where students
+feel a sense of belonging with routines that support students on how to give and receive
+feedback.
+o
+
+•
+
+The four-leaf clover model underscores the partnership between teachers and students at
+every stage of the formative assessment process. Each leaf is interdependent, creating a cycle
+of clarity, evidence, interpretation, and action. When implemented well, this process ensures
+that assessment is not about judgment or high-stakes events, but about continuous growth,
+responsiveness, and equity in learning. 10
+The table below provides a clear illustration of what formative assessment is—and what it is
+not. By contrasting the defining features of formative practices with those that fall outside its
+scope, the table helps clarify common misconceptions and highlights the essential qualities that
+make formative assessment distinct.
+Formative Assessment Is…
+A planful, intentional process
+Student-centered
+Full of descriptive feedback
+Dynamic and ongoing
+Built on clear criteria
+Full of evidence from students
+
+Formative Assessment Is NOT…
+A singular event or test
+Teacher-centered
+Evaluative feedback (for gradebook)
+Static and “one-and-done”
+The same test a teacher uses every year
+Quantity over quality
+
+Opportunity Analysis: System Strengths and
+Needs
+Planning for formative assessment looks different from traditional lesson planning. It is not
+simply an additional step. It involves making intentional choices that connect high-quality
+
+Oregon Department of Education. (n.d.). Formative assessment. Oregon Department of Education. Retrieved
+December 4, 2025, from https://www.oregon.gov/ode/educatorresources/assessment/pages/formative_assessment.aspx
+10
+
+9
+
+Leaning into the Power of Formative Assessment Practice
+instructional materials with student learning. Effective planning requires teachers to consider
+several key elements:
+Learning goals: What students are expected to learn, based on standards and
+instructional materials.
+• Evidence of learning: How teachers and students will know where they are in their
+learning journey.
+• Tools and tasks: The materials, questions, or activities that will provide accurate
+evidence of student understanding.
+• Indicators of progress: What students will say, do, make, or write to demonstrate
+movement toward learning targets and success criteria.
+• Feedback: The type of descriptive feedback—delivered by teachers, peers, or self—that
+will help students advance.
+• Reflection: Opportunities for students to reflect on the feedback they receive and use it
+to guide their next steps.
+Intentional planning ensures that formative assessment and high-quality instructional materials
+work together to support student success.
+•
+
+At the same time, one of the most significant challenges in Oregon’s assessment system is the
+mismatch that often happens between standards and assessment rigor. For assessment at all
+levels to be meaningful, the evidence gathered must align directly with the intended learning
+targets and skills. This requires instructional rigor across the full spectrum of Depth of
+Knowledge (DOK) Levels 1–4, from recall and comprehension to strategic thinking and extended
+reasoning. When assessment fail to reach higher levels of rigor, they risk capturing only surfacelevel understanding rather than the deeper competencies that standards demand. Addressing
+this mismatch is essential to ensure that formative evidence is both accurate and actionable,
+providing teachers and students with insights that truly reflect progress toward long-term
+learning goals. Ambitious teaching lays the groundwork for fair and justice-oriented assessment
+literacy by encouraging teachers to really know ALL their students and to value the experiences,
+identities, and knowledge they bring from their homes and communities into the classroom.
+Together, rigor in assessment design and ambitious teaching practices ensure that formative
+assessment is both equitable and transformative, advancing student learning in ways that
+honor identity, experience, and achievement. 11
+Best practice calls for a balanced approach where standards, instructional materials, and
+strategies work in harmony. Vertical coherence ensures that learning builds progressively
+across grade levels, while horizontal coherence ensures consistency within a grade or subject
+
+Shepard, L. A. (2021, Fall). Ambitious teaching and equitable assessment: A vision for prioritizing learning, not
+testing. American Educator, 45(3), 28–37, 48. https://files.eric.ed.gov/fulltext/EJ1321974.pdf
+11
+
+10
+
+Leaning into the Power of Formative Assessment Practice
+area. Without this alignment, assessment can feel fragmented, disconnected from instruction,
+or even contradictory in purpose. 12
+Coherence depends on strong connections among:
+•
+•
+•
+
+Standards (both vertical and horizontal)
+High-Quality Instructional Materials (HQIM)
+High-Impact Instructional Strategies
+
+An education system is coherent when:
+•
+•
+•
+•
+•
+
+A teacher can explain how a lesson fits into a broader learning progression.
+Assessment data is used to shape instruction in real-time.
+Professional learning focuses on the same instructional goals as the curriculum and
+assessment tools.
+Students encounter consistent expectations and grade-level rigor year after year and
+across classrooms.
+Students, teachers, and parents share a common understanding of what constitutes
+rigorous grade-level work and valid evidence of student learning.
+
+Striving for balance means creating a system where formative, interim, and summative
+assessments reinforce one another, offering a unified and reliable picture of student learning
+rather than isolated snapshots. When there isn’t coherence, educators are left confused often
+navigating misaligned expectations, which undermines instructional planning and weakens
+student outcomes.
+Even when rigor and coherence are addressed, resource allocation remains a major barrier to
+effective implementation. Formative assessment cannot be sustained in isolation; it requires
+dedicated resources and structural supports. Teachers need protected collaboration time
+through professional learning communities (PLCs) and data teams to analyze evidence and plan
+responsive instruction. Opportunities for peer observation allow educators to learn from one
+another’s practices and refine their approaches. 13 In addition, focused professional learning is
+essential for all staff—administrators, coaches, and teachers—to build a shared understanding
+of formative assessment’s purpose and methods.
+Yet minimal resource allocation often leaves educators without the time, training, or
+collaborative structures necessary to fully realize the benefits of formative assessment. In the
+absence of such knowledge and skills, the promise of assessment to bolster student learning is
+significantly reduced. Without intentional investment in these supports, formative assessment
+National Center for the Improvement of Educational Assessment. (2023, March 15). Designing for coherence.
+NCIEA. https://www.nciea.org/blog/designing-for-coherence/
+13
+Oregon Department of Education. (n.d.). Formative assessment. Oregon.gov.
+https://www.oregon.gov/ode/educator-resources/assessment/Pages/Formative_Assessment.aspx
+12
+
+11
+
+Leaning into the Power of Formative Assessment Practice
+risks being implemented unevenly or superficially, undermining its potential to transform
+teaching and learning.
+
+Proposed Solutions: Benefits and Impact
+Formative assessment benefits both educators and students by creating a classroom culture
+grounded in high expectations and mutual belief in every learner’s potential. When educators
+work collaboratively with students and set ambitious academic goals, they foster an
+environment where belonging and confidence thrive. As Anthony Muhammad emphasizes,
+“Students will learn more and be more successful in an environment where all educators believe
+they can learn at high levels and those educators work together to convince the students that
+they can achieve lofty academic goals teachers set out for them.” 14 At the same time, the
+nature of the feedback matters. When feedback is done well, it instills responsibility and
+ownership to learning and contributes to collaboration and a culture of safety. Ron Berger
+writes that feedback must be descriptive to make an impact. They are distinguished by these
+features:
+•
+•
+•
+•
+•
+
+Individualized and growth-oriented: Feedback should target the improvement of a
+specific piece of work, skill, or disposition for an individual student or small group.
+Private and relational: Exchanges typically occur between teacher and student or
+among peers, not as public commentary for the whole class.
+Grounded in trust: Feedback is most effective within a long-term, constructive
+relationship that prioritizes respect and support.
+Positive and strategic: Students are sensitive to personal feedback; constructive,
+encouraging comments lead to better outcomes than criticism.
+Informed and tailored: Effective feedback draws on deep knowledge of the student,
+their strengths, current stage of growth, and what will spark the next step forward.15
+
+This shared commitment, paired with formative practices and commitment to improving,
+ensures that assessment is not merely a measure of learning but a driver of equity,
+engagement, and growth.
+
+Muhammad, A. (2017). Transforming school culture: How to overcome staff division (2nd ed.). Bloomington, IN:
+Solution Tree Press.
+15
+Berger, R., Rugen, L., & Woodfin, L. (2014). Leaders of their own learning: Transforming schools through
+student-engaged assessment. San Francisco, CA: Jossey-Bass
+14
+
+12
+
+Leaning into the Power of Formative Assessment Practice
+
+Benefits for Students
+Inviting students to engage in self-assessment and peer feedback is one of the most powerful
+ways to position them as true partners in their own learning. These practices empower
+students to examine evidence of their progress, identify where they currently stand, and
+determine the next steps in their learning journey. Through reflection, students build
+ownership of their learning and develop critical metacognitive skills that extend beyond the
+classroom.
+Peer feedback helps students develop a clear understanding of success criteria by analyzing
+peer work in relation to learning goals. When guided by strong protocols and models like the
+example provided through Austin’s Butterfly, students learn how to give and receive feedback
+constructively, using exemplars and structured routines to ensure their insights are meaningful
+and actionable. Self-assessment complements this process by empowering students to use
+evidence from their own learning to decide next steps. It motivates them by fostering agency
+and ownership, while also deepening their understanding of success criteria. Both practices are
+most effective when supported by clear structures that ground reflection in rigorous standards.
+The outcomes of these practices extend far beyond individual assignments. Students gain
+empowered agency, learning to rely on evidence of their own progress to chart future learning.
+They experience inclusivity and belonging, as student-centered approaches honor lived
+experiences and integrate diverse funds of knowledge into the foundation of learning. Most
+importantly, they engage in high-quality learning experiences, becoming active partners in the
+teaching and learning process while tackling content with rigor.
+Together, self-assessment and peer feedback transform classroom routines into intentional
+practices that drive equity, agency, and deeper learning—ensuring students are not only
+participants in education but co-creators of their own success.
+
+Benefits for Teachers
+Formative assessment practices support an asset–based orientation, enabling teachers to
+integrate students’ existing knowledge and culture into the design of learning goals and tasks.
+An asset-based approach helps teachers build on what students already know when setting
+learning goals and success criteria. It also draws on students’ experiences and strengths when
+designing learning tasks, while maintaining high expectations, so students are both challenged
+and supported to succeed.
+At times, asset orientation is misunderstood as lowering rigor to help students feel successful.
+This misconception assumes that drawing on students’ strengths means simplifying the work or
+13
+
+Leaning into the Power of Formative Assessment Practice
+reducing expectations. The opposite is true. When rigor is lowered, students are denied access
+to challenging and meaningful learning experiences. Over time, this creates opportunity gaps,
+particularly for students from historically marginalized communities who too often encounter
+less-demanding tasks.
+When educators connect formative assessment to high-quality instructional materials, they are
+not simply checking for understanding, they are unlocking the rich assets students bring to the
+learning process. Proceeding with care ensures that assessment practices honor these strengths
+while guiding learners toward deeper engagement with rigorous standards.
+•
+
+Clarifying learning goals allows teachers to make expectations transparent, positioning
+students as capable learners who can see the pathway to success. Keeping the rigor of
+the standards in view ensures that every student has equitable access to challenging,
+meaningful learning.
+
+•
+
+Identifying the appropriate Depth of Knowledge (DOK) levels, as outlined by Webb,
+provides a framework for recognizing the diverse ways students demonstrate
+understanding:
+o Level 1: Students showcase recall skills, such as naming characters or labeling
+locations on a map—affirming the foundational knowledge they already possess.
+o Level 2: Learners highlight their ability to summarize narratives or identify
+patterns in events, demonstrating emerging analytical strengths.
+o Level 3: Students apply concepts in new contexts, revealing creativity and
+adaptability as assets in problem-solving.
+o Level 4: Learners synthesize information from multiple sources, showcasing their
+capacity for complex reasoning and innovation. 16
+
+By combining asset-based orientation with rigorous expectations, formative assessment
+becomes both equitable and transformative. It shifts the focus from what students lack to what
+they contribute, ensuring that their voices, experiences, and abilities are valued. Formative
+assessment honors students’ strengths while opening doors to the depth of learning they
+deserve.
+
+Evaluation and Impact Assessment
+Oregon’s commitment to student success is grounded in the belief that every learner deserves
+access to high-quality learning experiences. Students are consistently engaged with grade-level
+content and rigor through research-based instructional practices, including ambitious teaching,
+Webb, N. (2002). Depth-of-Knowledge Levels for Four Content Areas. Madison, WI: Wisconsin Center for
+Educational Research.
+
+16
+
+14
+
+Leaning into the Power of Formative Assessment Practice
+which challenges them to think critically and deeply. Beyond simply receiving instruction,
+students are empowered as active partners in their own learning journey. They play a role in
+shaping what comes next, ensuring that their voices and choices guide the process. This
+approach is supported by clear system coherence, where instruction, curriculum, and
+assessment are aligned to create a seamless and purposeful learning environment.
+Aligned and focused educational systems further strengthen this vision. By intentionally
+connecting grade-level standards with high-quality curriculum and impactful instructional
+practices, educators provide the supports necessary for students to grow at every stage of the
+teaching and learning process. These systems are not static; they evolve through careful
+collection, analysis, and interpretation of multiple forms of data. This evidence-based approach
+allows schools to make informed decisions about system improvements and instructional next
+steps, ensuring that learning remains responsive and effective.
+Equally important is the creation of engaged partnerships and safe, inclusive schools. Studentcentered practices, such as formative assessment, foster a sense of belonging and affirm that
+every learner is valued. Instruction and assessment honor the lived experiences of students,
+embracing their heritage and community cultural practices as essential components of the
+classroom. Students’ funds of knowledge, their unique skills, perspectives, and backgrounds,
+are recognized as foundational when developing success criteria, instructional strategies, and
+learning spaces. In this way, schools become places where diversity is celebrated, equity is
+prioritized, and every student can thrive.
+
+Needed Resources
+Clarify: Determine Learning Goals & Develop Success Criteria
+Clear learning goals and success criteria help everyone know what success
+looks like. Success criteria should be tied directly to the learning goals and
+written in words students can easily understand. Because these goals
+connect to standards, both teachers and students know not only what is being learned but also
+how challenging the work will be. With this clarity, teachers can take practical steps to move
+learning forward.
+It’s important to think about the level of challenge students face. If students only work at Depth of
+Knowledge (DOK) Levels 1 and 2—where they recall facts or show basic understanding—they miss
+chances to grow as thinkers. When students are given opportunities to work at DOK Levels 3 and 4, they
+can:
+•
+
+Level 3: Apply ideas in new situations, showing flexible thinking.
+15
+
+Leaning into the Power of Formative Assessment Practice
+•
+
+Level 4: Analyze and combine information from different sources, building strong critical
+thinking skills.
+
+By aiming for these higher levels, students learn to think more deeply, solve problems in new
+ways, and become more independent learners.
+Elicit: High-Quality Tools (Assessment and HQIM)
+While DOK 1 items serve a purpose, it is strongly encouraged that educators also provide
+opportunities at DOK Levels 3 and 4. These higher-level tasks allow students to demonstrate
+their learning at the full depth and breadth of the standards, engaging in application, analysis,
+and synthesis rather than stopping at recall or basic comprehension.
+Act and Interpret: Clear Success Criteria for Self-Assessment
+Success criteria can be shown as learning continuums that
+guide students in reflecting on how they are growing as
+learners. These continuums highlight skills that matter across
+all subjects and invite students to think more deeply about their work.
+For example, students might reflect on:
+•
+
+How well they connect their ideas to the ideas of others;
+
+•
+
+Whether they ask questions that push thinking further; or
+
+•
+
+How they notice and respond to different perspectives.
+
+When students see clear examples of what these skills look like in practice, they can better
+recognize evidence of their own learning and decide on the next steps to take. This reflection
+goes beyond simply “joining in.” It helps students build on peers’ ideas, make connections
+between concepts, support their thinking with evidence, and consider viewpoints that may
+differ from their own.
+Because skills like collaboration, reasoning, and critical analysis are valuable in Math, Science,
+Language Arts, and Social Studies, success criteria framed in this way help students develop
+habits of mind that transfer across subjects. These habits strengthen learning and empower
+students to use their strengths in new and challenging situations.
+
+Policy and Resource Alignment
+When assessments are tied directly to the content found in approved high-quality instructional
+materials (HQIM), districts are encouraged to align their instruction accordingly. This creates a
+coherent system where teaching, learning, and assessment are all working toward the same
+goals.
+16
+
+Leaning into the Power of Formative Assessment Practice
+•
+
+Connection to Standards and HQIM: Aligning assessments with HQIM ensures that the
+questions and tasks students encounter are rooted in the same standards and content
+they experience during instruction. This reduces the disconnect between classroom
+learning and state testing, making assessments more authentic and instructionally
+relevant.
+
+•
+
+Instructional Coherence: When districts know that assessment practices are aligned to
+HQIM, they are more likely to adopt and implement those materials with fidelity. This
+alignment supports teachers in planning lessons that prepare students for both daily
+learning and larger accountability measures, reinforcing consistent expectations across
+classrooms and grade levels.
+
+•
+
+Equity and Access: Tying assessment practices to HQIM helps ensure that all students,
+regardless of district or school, are assessed on content that reflects rigorous,
+standards-aligned instruction. This reduces opportunity gaps by holding all systems
+accountable to the same high expectations.
+
+•
+
+Continuous Improvement: Assessment alignment also provides districts with actionable
+data that is directly connected to the curriculum. This makes it easier for educators to
+analyze results, identify areas of strength and need, and adjust instruction in ways that
+are immediately relevant to what students are learning.
+
+Alignment ensures that these assessments are not stand-alone events but integral parts of a
+cycle of teaching and learning in the classroom that supports student success and the formative
+assessment process. 17
+
+Key Investments for Scaling Formative
+Assessment
+To make this vision real, Oregon must invest in both people and tools that support formative
+assessment.18 This includes:
+•
+
+Clear frameworks that connect standards, curriculum, and instruction.
+
+•
+
+Practical tools and protocols that make formative assessment consistent and scalable
+across classrooms.
+
+Evans, C. M., Wylie, E. C., Landl, E., & Marion, S. F. (2025). Implementing Balanced Assessment Systems: A
+Practical Guidebook for Districts and Schools. The National Center for the Improvement of Educational Assessment
+& The National Academy of Education. https://doi.org/10.31094/2025/3
+18
+Marion, S. F., Pellegrino, J. W., & Berman, A. I. (Eds.). (2024). Reimagining Balanced Assessment Systems.
+National Academy of Education. 10.31094/2024/1
+17
+
+17
+
+Leaning into the Power of Formative Assessment Practice
+•
+
+Time for collaboration, so teachers can review evidence and plan next steps together.
+
+•
+
+Professional learning communities (PLCs) that build shared expertise across schools and
+districts.
+
+•
+
+Coaches and leaders who model and sustain strong formative assessment practices.
+
+Oregon’s commitment to formative assessment goes beyond aligning to high-quality
+instructional materials (HQIM). The greatest impact occurs when resource investments and
+tools like the Formative Assessment Rubric, Resources, and Observation Protocol (FARROP)
+work in concert to strengthen practice. Clear frameworks that connect standards, curriculum,
+and instruction provide the foundation for coherence. FARROP builds on this by offering
+practical tools and protocols, rubrics and observation guides, that make formative assessment
+consistent and scalable across classrooms. These tools come to life when educators have time
+for collaboration, using FARROP protocols in PLCs to review evidence and plan next steps
+together. Professional learning communities (PLCs) deepen shared expertise, while coaches and
+leaders model and sustain strong formative practices, using FARROP observations to guide
+reflective dialogue. Together, these investments create a system where formative assessment
+is not a compliance task but a high-leverage practice that drives equity, engagement, and
+continuous improvement statewide.
+
+Conclusion
+The Formative Assessment process is more than a classroom strategy. It is a powerful practice
+that helps students and teachers grow together. By using the formative assessment process,
+educators gain daily insights into student learning and can adjust instruction in real time. At the
+same time, students’ voices and ideas are elevated, giving them greater ownership of their
+learning. When the formative assessment process is at the center of teaching, instruction
+becomes responsive, equitable, and aligned with high standards.
+This process empowers students to engage more deeply, think critically, and take charge of
+their progress. For educators, it provides clear evidence to guide decisions and ensure that
+every learner has access to rigorous opportunities.
+Without these supports, formative assessment may be uneven or surface-level. With them, it
+can become a universal practice across the state, a foundation for coherence in teaching and a
+driver of equity and excellence in student learning.
+Oregon has the chance to lead by example. By funding and building the structures needed to
+scale formative assessment, the state can ensure that every student experiences learning that
+
+18
+
+Leaning into the Power of Formative Assessment Practice
+is rigorous, responsive, and empowering. This is not just a small change, it is a transformative
+shift toward a system where assessment is used for learning, not just of learning.
+
+19
+
+
