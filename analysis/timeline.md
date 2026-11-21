@@ -23,3 +23,9 @@
 | 2026-11-18 | November revenue forecast: ~$245M more for 2027-29 | [NEWS:NEWS-20261118-klcc-1] |
 | 2026-11-19 | Rep. Ruiz, after an OSBA panel, posts an initial proposal for one-time Education Stability Fund PERS relief | [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt] |
 | 2026-12-01 | Governor's 2027-29 recommended budget due | [SRC:legislature/ors/ors291.html] [NEWS:NEWS-2026-salemreporter-1] |
+| 2026-12-01 to 12-03 | Legislative committee days (scheduled) | [SRC:legislature/calendar/2026_interim-calendar.pdf] |
+| 2027-01-19 | 2027 session begins (Tuesday after Martin Luther King Jr. Day) | [SRC:legislature/ors/ors171.html] [SRC:reference/2026-09-30_opdc-navigating-2027-session.pdf] |
+| 2027-02-24 | Revenue forecast (tentative date) | [SRC:fiscal/oea/2027_forecast-calendar.pdf] |
+| 2027-05-12 | Revenue forecast (tentative date) | [SRC:fiscal/oea/2027_forecast-calendar.pdf] |
+| 2027-06-27 | Day 160: latest the session can run | [SRC:legislature/constitution/oregon-constitution.html] [SRC:reference/2026-09-30_opdc-navigating-2027-session.pdf] |
+| 2027-07-01 | 2027-29 budget period begins | [SRC:legislature/ors/ors291.html] |

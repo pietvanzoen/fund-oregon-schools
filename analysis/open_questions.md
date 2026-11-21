@@ -9,7 +9,7 @@
   state-sourced rank as 20th [SRC:ode/qec/2026_qem_report.pdf p.117]; find the total-spending figure opponents use).
 - Two OLIS slide decks have almost no extractable text and need OCR: `legislature/olis/2025I1/310555_jpea.pdf`,
   `legislature/olis/2026R1/313099_quality-education-process.pdf`.
-- 2027 session start date and Ways & Means calendar.
+- 2027 Ways & Means hearing calendar and bill deadlines (session start is set: Jan 19, 2027).
 - 2027 committee assignments: House Ways & Means co-chair and the Education Subcommittee's members (Sollman is
   leaving; check Weber, Ruiz and the rest). Ruiz's and Sanchez's Nov 2026 results. Update `people/legislators.csv`.
 - SB 1555 final status: OLIS showed it "In Senate Committee" (Senate Education) with no chapter number when checked

@@ -243,6 +243,8 @@ def from_analysis(page, src, ctx):
     md = cites(md, ctx)
     if page == "index.md":
         md = re.sub(r"^(# .*\n)", lambda m: m.group(1) + INTRO, md, count=1)
+        md, n = re.subn(r"<!-- site: funding chart -->\n(\|.*\n)+", lambda m: funding_chart(ctx) + "\n", md)
+        assert n == 1, "OVERVIEW.md lost its '<!-- site: funding chart -->' marker above the key numbers table"
     return md + footer([f"analysis/{src}"], [f"analysis/{src}"])
 
 
@@ -298,10 +300,9 @@ def bar_chart(bars, title, note_lines=()):
     return "".join(parts)
 
 
-def numbers_page(ctx):
+def funding_chart(ctx):
+    """The 2027-29 funding benchmarks chart, shown on the overview and the numbers page."""
     qem = {r["measure"]: r for r in read_csv("data/qem_gap.csv") if r["biennium"] == "2027-29"}
-    ssf = read_csv("data/ssf_history.csv")
-    res = read_csv("data/reserves.csv")
 
     def val(m):
         return float(qem[m]["amount_billion"])
@@ -309,7 +310,7 @@ def numbers_page(ctx):
     csl, sq, full = val("ssf_csl_in_report"), val("status_quo_state_funding"), val("full_qem_state_funding")
     src = cites(dedupe(qem["status_quo_state_funding"]["source"] + " " + qem["full_qem_state_funding"]["source"]
               + " " + qem["ssf_csl_in_report"]["source"]), ctx)
-    chart1 = bar_chart([
+    return bar_chart([
         ("Current service level", csl, "State School Fund, no new money", "s-base",
          f"State School Fund current service level: ${csl:.2f}B"),
         ("Keep today's services", sq, f"QEM status quo · +${val('status_quo_gap_above_csl'):.2f}B", "s-main",
@@ -318,6 +319,12 @@ def numbers_page(ctx):
          f"Full Quality Education Model: ${full:.2f}B, ${val('full_qem_above_csl'):.2f}B above the CSL"),
     ], "State funding for K-12 in 2027-29, billions of dollars",
         note_lines=[f"All three figures: 2026 Quality Education Model report. {src}"])
+
+
+def numbers_page(ctx):
+    ssf = read_csv("data/ssf_history.csv")
+    res = read_csv("data/reserves.csv")
+    chart1 = funding_chart(ctx)
 
     hist = [r for r in ssf if r["amount_billion"] and r["stage"] in ("legislatively_adopted", "current_service_level")
             and "PPSARCH" not in r["source"]]
