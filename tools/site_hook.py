@@ -263,6 +263,8 @@ def from_analysis(page, src, ctx):
     md = file_refs(md, page, src)
     md = mark_analysis(md)
     md = cites(md, ctx)
+    # after cites: the chart's own citations are already links
+    md = md.replace("<!-- site: funding chart -->", funding_chart(ctx))
     if page == "index.md":
         md = landing(md, ctx)
     return md + footer([f"analysis/{src}"], [f"analysis/{src}"])

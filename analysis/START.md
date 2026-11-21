@@ -23,6 +23,8 @@ cites every claim, so parents, reporters and anyone else can check facts and bui
   compare like with like: `decisions.md#ssf-2027-29` explains.
 - The Education Stability Fund is projected at $1,271M at the end of 2025-27 [SRC:fiscal/oea/2026-12_forecast.pdf p.41].
 
+<!-- site: funding chart -->
+
 More: `data/qem_gap.csv`
 
 ## Latest updates
