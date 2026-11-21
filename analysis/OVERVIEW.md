@@ -1,12 +1,11 @@
 # Oregon K-12 funding: the research archive
 
-Primary documents and cited analysis on how Oregon funds its public schools, focused on the 2027-29 budget.
+A research archive on Oregon public school funding, focused on the 2027-29 budget, that campaigns can use to check
+facts and build their own materials.
 
 - 📄 **Traceable:** every fact in one place, linked to the original document
 - 🗣️ **On the record:** a dated record of what officials have promised and said
 - ✅ **Check before you repeat:** look up a number before you use it
-
-It's a research archive that campaigns can use to check facts and build their own materials.
 
 ## Key numbers for 2027-29
 

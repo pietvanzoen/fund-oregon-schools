@@ -283,10 +283,10 @@ def coming_up(ctx, n=2):
 
 
 def landing(md, ctx):
-    """Overview: the opening paragraph as a lead, what's coming up, the aims as cards, then the reading guide."""
-    md = re.sub(r"^(# .*\n\n)(.+)\n\n", lambda m: f'{m.group(1)}<p class="lead">{m.group(2)}</p>\n\n' + coming_up(ctx),
+    """Overview: the opening paragraph as a lead, the aims as cards, what's coming up, then the reading guide."""
+    md = re.sub(r"^(# .*\n\n)((?:.+\n)+)\n", lambda m: f'{m.group(1)}<p class="lead">{m.group(2).strip()}</p>\n\n',
                 md, count=1)
-    md = re.sub(r"^((?:- .*\n)+)", lambda m: f'<div class="grid cards" markdown>\n\n{m.group(1)}\n</div>\n',
+    md = re.sub(r"^((?:- .*\n)+)", lambda m: f'<div class="grid cards" markdown>\n\n{m.group(1)}\n</div>\n\n' + coming_up(ctx),
                 md, count=1, flags=re.M)
     md = re.sub(r"^## ", lambda m: INTRO + "## ", md, count=1, flags=re.M)
     upd = open(os.path.join(ANALYSIS, "updates.md"), encoding="utf-8").read()
