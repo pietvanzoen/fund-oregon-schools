@@ -134,7 +134,7 @@ out = [
         float(r["ode_separate_extended_admw"]) * float(r["sponsor_gpg_per_ext_admw_2025_26"])
         for r in rows if r["institution_id"] == "4399") / 1e6, 1),
      "USD millions", "est", "General Purpose Grant attributable to Oregon Charter Academy's students, 2025-26",
-     "Oregon Charter Academy's ode_separate_extended_admw x Santiam Canyon GPG per extended ADMw", DATA, est_assume.replace(
+     "Oregon Charter Academy's ode_separate_extended_admw x Santiam Canyon GPG per extended ADMw", DATA, "uses extended ADMw (here the 2024-25 ADMw) at 2025-26 rates; " + est_assume.replace(
          "; covers only the 20 charters in ODE's 2025-26 report", "")),
     ("scio_gpg_per_current_admw", round(SCIO_GPG / SCIO_ADMW_2025_26), "USD per ADMw", "derived",
      "Scio General Purpose Grant divided by current-year ADMw", "27,800,843.40 / 2,356.76", f"{EST} p.118", ""),
