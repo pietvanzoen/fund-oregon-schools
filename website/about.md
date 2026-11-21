@@ -24,7 +24,9 @@ Contact: [hello@fundoregonschools.org](mailto:hello@fundoregonschools.org)
 - **Citation links:** <span class="cite cite-src">📄 p.N</span> opens a state or legislative document at the cited page.
   <span class="cite cite-news">📰 Outlet</span> opens a news story. <span class="cite cite-pps">🏫 PPS archive</span>
   opens the Portland Public Schools research archive.
-- **Analysis** boxes and tags mark interpretation or arithmetic, kept apart from what the documents say.
+- <span class="cite cite-der">🧮 our sum</span> and <span class="cite cite-der">🧮 our estimate</span> mark figures
+  this archive calculated itself; the link shows the method and inputs. They are not official numbers.
+- **Analysis** boxes, tags and sections mark interpretation, kept apart from what the documents say.
 - Quotes are verbatim. Members of the public are described, not named.
 
 ## Ask questions with Claude

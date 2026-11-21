@@ -23,7 +23,7 @@ If commands can't run or github.com is unreachable, use the GitHub connector ins
 
 ## 2. Follow the archive's own instructions
 
-Read `CLAUDE.md` and `.claude/skills/fund-oregon-research/SKILL.md` in the repo and follow them. That repo file shares this skill's name but is the archive's own, more detailed version: it is the authority on where to look, the search tools (`tools/search.py`, `tools/doc.py`, `tools/linkify.py`), citation formats and quote rules. For a broad question or the first question in a chat, also read `analysis/BRIEFING.md`. These files change as the archive is updated, so read them each time rather than relying on what they said before.
+Read `CLAUDE.md` and `.claude/plugins/fund-oregon-schools/skills/fos-research/SKILL.md` in the repo and follow them. That repo file (the `fos-research` skill) is the archive's own, more detailed version of this one: it is the authority on where to look, the search tools (`tools/search.py`, `tools/doc.py`, `tools/linkify.py`), citation formats and quote rules. For a broad question or the first question in a chat, also read `analysis/BRIEFING.md`. These files change as the archive is updated, so read them each time rather than relying on what they said before.
 
 Check the archive's latest commit date (`git log -1 --format=%cd --date=short`, or the latest commit through the connector) and mention it when the question touches recent events; anything newer than that won't be in the archive.
 
@@ -35,6 +35,7 @@ For Portland Public Schools specifics (closures, the PPS budget), the archive po
 - Answer only from the archive. If it doesn't cover something, say so and name the gap.
 - Keep separate what documents state, what people said on the record, and your own reading of it (label it "My read:").
 - Flag figures that are estimates, projections or an advocacy group's numbers rather than official counts.
+- Some figures are the archive's own sums or estimates (tagged `[DER:...]`, shown on the website as "🧮 our sum" or "🧮 our estimate"). Present them as the archive's calculation, never as an official or state number, and mention what an estimate assumes.
 - Quotes are word for word and short. Hearing transcripts are automatic captions, so check who was speaking before attributing a quote, and say when you're not sure.
 - News articles are copyrighted: summarize them, with at most a short quote.
 - When an answer will feed something the user is writing (a call script, an email to the Governor or a legislator, a flyer, testimony), lead with the strongest few facts with sources, and flag any that rest on a projection or uncertain attribution.

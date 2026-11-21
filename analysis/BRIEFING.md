@@ -15,8 +15,8 @@ is tracked as GitHub issues, shown as (#16) and so on.
 2. **The state's own benchmarks.** The 2026 Quality Education Model (QEM) report puts the SSF current service level
    (CSL) at $12.56B, the cost of keeping today's services at $13.78B, and the cost of meeting the state's goals at
    $16.21B [SRC:ode/qec/2026_qem_report.pdf p.103] [SRC:ode/qec/2026_qem_report.pdf p.117].
-   Analysis: an SSF at CSL leaves about $1.2B of the status-quo cost to come from state funds outside the SSF, and is
-   $3.65B below the full QEM.
+   With the SSF at CSL, about $1.2B remains to reach the status-quo total core funding for K-12
+   [SRC:ode/qec/2026_qem_report.pdf p.103], and is $3.65B below the full QEM [SRC:ode/qec/2026_qem_report.pdf p.117].
 3. **Why it's a state decision.** After Measures 5 (1990) and 50 (1997) capped property taxes, the state became the
    main source of school operating money [SRC:reference/oregon-encyclopedia_measure-5.html]. Districts can add a local
    option levy, but only a capped amount of it stays outside the equalization formula
@@ -113,8 +113,9 @@ is tracked as GitHub issues, shown as (#16) and so on.
 - Reserves are currently 9.7% (OEA slides) [SRC:fiscal/oea/2026-12_forecast_slides.pdf p.37]. The projected 2027-29
   balances ($2.9B Rainy Day Fund, $1.6B ESF) would be 10.6% of the General Fund projection
   [SRC:fiscal/oea/2026-12_forecast.pdf p.41].
-- Analysis: watch the baseline. News coverage's "$2.5B more" and "$5B more" compare the QEM with the 2025-27 budget,
-  not with the CSL [NEWS:NEWS-20260812-opb-1]. Figures against the CSL and against 2025-27 aren't comparable.
+- News coverage reports the QEM need as "$2.5B more" and "$5B more" [NEWS:NEWS-20260812-opb-1].
+  - Analysis: watch the baseline. Those increases appear to compare the QEM with the 2025-27 budget, not with the
+    CSL; figures against the CSL and against 2025-27 aren't comparable.
 
 More: `data/qem_gap.csv`, `data/ssf_history.csv`, `data/reserves.csv`.
 
@@ -148,7 +149,7 @@ More: `data/qem_gap.csv`, `data/ssf_history.csv`, `data/reserves.csv`.
 
 **On the amount**
 - PPS Board: fund at least the CSL [PPSARCH:BB:14673756 p.1].
-- Other groups' positions (OEA, OSBA, COSA) are still to archive (#26).
+- Other groups' positions (Oregon Education Association, OSBA, COSA) are still to archive (#26).
 
 **On the model**
 - **Replacing the QEM** with a different cost model [NEWS:NEWS-20260121-katu-1] (#25).
@@ -166,7 +167,7 @@ More: `data/qem_gap.csv`, `data/ssf_history.csv`, `data/reserves.csv`.
 **On reserves (#22)**
 - **The rules.** Withdrawal from the Education Stability Fund takes a three-fifths vote in each chamber plus either an
   economic trigger or a governor's emergency declaration [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1].
-- **PPS:** $500M to buy down PERS rates statewide [NEWS:NEWS-20261102-opb-1]. Its CFO said this would cut the PPS gap
+- **PPS:** $500M to buy down PERS rates statewide [NEWS:NEWS-20261102-opb-1]. Its chief financial officer said this would cut the PPS gap
   to about $42.7M [NEWS:NEWS-20261116-wweek-1].
 - **Rep. Tammy Carpenter** suggested the fund as a bridge [NEWS:NEWS-20261112-katu-2].
 
@@ -174,14 +175,15 @@ More: `data/qem_gap.csv`, `data/ssf_history.csv`, `data/reserves.csv`.
 
 - **Record increases vs real cuts.** 2025-27 was a record SSF [SRC:legislature/press/2025-05-28_record-k12-funding.pdf p.1],
   and the JPEA called the gap closed for 2025-27 [SRC:legislature/olis/2025I1/310695_jpea.pdf p.4]. The 2026 QEM
-  sets a higher bar for 2027-29 [SRC:ode/qec/2026_qem_report.pdf p.103]. Analysis: both can be true; they measure
-  different biennia against different models.
+  sets a higher bar for 2027-29 [SRC:ode/qec/2026_qem_report.pdf p.103].
+  - Analysis: both can be true; they measure different biennia against different models.
 - **Is the QEM the right yardstick?** The JPEA report criticizes its method
   [SRC:legislature/olis/2025I1/310695_jpea.pdf p.5], and some legislators want to replace it
   [NEWS:NEWS-20260121-katu-1].
 - **Per-student spending.** A claim that Oregon spends above the national average per student is unsourced here. The
   QEM report ranks Oregon 20th in state-sourced per-pupil funding (2024 Census), rising to 12th at full QEM
-  [SRC:ode/qec/2026_qem_report.pdf p.117]. Analysis: total vs state-sourced spending are different measures.
+  [SRC:ode/qec/2026_qem_report.pdf p.117].
+  - Analysis: total vs state-sourced spending are different measures.
 - **The forecast.** The November gain is modest, and economists warned it may not last [NEWS:NEWS-20261118-klcc-1].
   The exact figure ($245M per news; DAS's release reportedly says $233M) is still to confirm (`open_questions.md`).
 - **One-time money.** Lieber, Sanchez and Kotek object to using reserves for ongoing costs

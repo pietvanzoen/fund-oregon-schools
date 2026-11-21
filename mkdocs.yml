@@ -14,6 +14,8 @@ theme:
   name: material
   custom_dir: overrides
   language: en
+  font:
+    text: Atkinson Hyperlegible Next
   features:
     - navigation.sections
     - navigation.top
@@ -40,6 +42,7 @@ extra_css: [assets/site.css]
 extra_javascript: [assets/site.js]
 
 markdown_extensions:
+  - abbr
   - admonition
   - attr_list
   - md_in_html
@@ -61,6 +64,7 @@ nav:
       - Rep. Tawna Sanchez: people/sanchez.md
       - Rep. Ricki Ruiz: people/ruiz.md
       - Sen. Janeen Sollman: people/sollman.md
-  - Reserves: reserves.md
+  - Topics: []  # filled by tools/site_hook.py from analysis/topics/*.md
+  - Glossary: glossary.md
   - Sources: sources.md
   - About this site: about.md
