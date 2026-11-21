@@ -9,6 +9,12 @@ This site is a readable view of the [Oregon K-12 Funding Research archive](https
 a collection of primary documents and cited analysis on how Oregon funds K-12 public schools, focused on the 2027-29
 budget.
 
+## Who runs this
+
+A volunteer group of Oregon public school parents maintains this archive.
+
+Contact: [fundoregonschools@gmail.com](mailto:fundoregonschools@gmail.com)
+
 ## How it works
 
 - **Primary documents** (budgets, reports, bills, meeting materials) are saved in the archive with a record of where
@@ -29,4 +35,5 @@ Paste this into a new Claude chat and it will set you up to ask questions of the
 
 ## Spot a mistake or have a source to add?
 
-[Open an issue](https://github.com/pietvanzoen/fund-oregon-schools/issues/new) on GitHub.
+[Open an issue](https://github.com/pietvanzoen/fund-oregon-schools/issues/new) on GitHub, or email
+[fundoregonschools@gmail.com](mailto:fundoregonschools@gmail.com).
