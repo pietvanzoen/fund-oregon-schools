@@ -56,6 +56,7 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
    For transcripts, give speaker attribution with evidence and `confidence: high | medium | low`; don't use low.
    Machine transcripts (Whisper) mishear words and names: listen to the recording at that timestamp and quote
    what was said, never the transcript text unchecked. If you can't listen, don't quote; paraphrase as unverified.
+   OCR text (below a `--- OCR of this page` line in `<file>.pdf.ocr.txt`) misreads too: check the PDF page.
 4. Keep separate what sources state (documents and what people said), what we calculated, and our own inference.
    - Topic files (`analysis/topics/*.md`) have three sections, in this order: `## What the sources say` (only
      statements a cited source makes; every line cited; no inference), `## Derived figures` (a table of our sums,
@@ -132,5 +133,7 @@ Least new code that fully does the job; adapted from the ponytail rules
 - `analysis/topics/<topic>.md` — topic files in the three sections; each is published on the website automatically
 - `analysis/glossary.csv` — abbreviations and terms: full name, hover tooltip, cited definition
 - `analysis/timeline.md`, `analysis/open_questions.md`
+- `sources/**/<file>.pdf.ocr.txt` — the PDF's text plus OCR of its picture-only pages, by `tools/ocr_pdfs.py` in fetch-sources
 - `sources/**/<media file>.txt` — machine transcript of an .mp4/.m4a/.mp3/.wav/.webm, by the `transcribe` Action
-- Tools: `tools/search.py`, `tools/doc.py`, `tools/linkify.py`, `tools/check_citations.py`, `tools/fetch_sources.py`
+- Tools: `tools/search.py`, `tools/doc.py`, `tools/linkify.py`, `tools/check_citations.py`, `tools/fetch_sources.py`,
+  `tools/ocr_pdfs.py`

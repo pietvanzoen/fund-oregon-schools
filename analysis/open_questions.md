@@ -7,8 +7,9 @@
 - Date of the Faubion School press event [NEWS:NEWS-2026-salemreporter-1].
 - Source for the claim that Oregon spends above the national average per student (the QEM report gives Oregon's
   state-sourced rank as 20th [SRC:ode/qec/2026_qem_report.pdf p.117]; find the total-spending figure opponents use).
-- Two OLIS slide decks have almost no extractable text and need OCR: `legislature/olis/2025I1/310555_jpea.pdf`,
-  `legislature/olis/2026R1/313099_quality-education-process.pdf`.
+- `legislature/olis/2025I1/310555_jpea.pdf` is a one-page cover email (its text is extracted) with the Nov 7, 2025
+  "Revision 1" draft of the JPEA report embedded as a PDF attachment, which isn't archived or searchable on its own.
+  Its figures differ from both the Nov 5 (`310553_jpea.pdf`) and Nov 14 (`310695_jpea.pdf`) versions.
 - 2027 Ways & Means hearing calendar and bill deadlines (session start is set: Jan 19, 2027).
 - 2027 committee assignments: House Ways & Means co-chair and the Education Subcommittee's members (Sollman is
   leaving; check Weber, Ruiz and the rest). Ruiz's and Sanchez's Nov 2026 results. Update `people/legislators.csv`.

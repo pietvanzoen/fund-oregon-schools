@@ -9,7 +9,7 @@ Answering questions needs none of this; see `.claude/plugins/fund-oregon-schools
    `CLAUDE.md` (e.g. `fiscal/oea/2026-11_forecast.pdf`, `legislature/olis/2027R1/<docId>_<slug>.pdf`).
    End `notes` with `from: <page URL>` (the page the link was on), so a dead link can be re-found there.
 3. Commit to `main` (or merge a PR). The **fetch-sources** Action runs on any change to the queue: it downloads
-   new rows, writes `<file>.txt`, appends to `sources/_manifest.jsonl`, runs the citation check and commits.
+   new rows, writes `<file>.txt`, OCRs PDF pages with little text (see OCR below), appends to `sources/_manifest.jsonl`, runs the citation check and commits.
    It also runs on pushes to `claude/**` branches and commits the fetched files back to that branch, so an
    agent's PR can queue documents and cite them in one go. `python3 tools/check_sources.py` (also in CI) checks
    queue rows and that every archived file has a manifest line.
@@ -21,7 +21,8 @@ Answering questions needs none of this; see `.claude/plugins/fund-oregon-schools
    rows stay in the queue: re-run the workflow, or fix the URL if the error is a 404.
 
 Why an Action: Claude's cloud sandbox can't reach oregon.gov or olis.oregonlegislature.gov; GitHub's runners can.
-On your own computer `python3 tools/fetch_sources.py` does the same (needs `pdftotext` from poppler for PDF text).
+On your own computer `python3 tools/fetch_sources.py` does the same (needs `pdftotext` from poppler for PDF text;
+`tools/ocr_pdfs.py` also needs `tesseract`).
 
 ## Weekly refresh
 The Action re-fetches everything on Monday mornings. A changed document keeps its old copy in `<dir>/_prior/`
@@ -37,6 +38,15 @@ budget link, then queue the budget PDFs themselves.
 - **Pages behind scripts or logins.** Save from a browser and add a manifest line by hand (url, fetched_at, sha256).
 - **News.** Don't archive articles. Add a record to `sources/news/index.jsonl`: id `NEWS-YYYYMMDD-outlet-N`, date,
   outlet, title, url, a summary in your own words, key facts, and at most short quotes (< 25 words).
+
+## OCR
+After each fetch, `tools/ocr_pdfs.py` looks at every archived PDF without a `<file>.pdf.ocr.txt`. Pages that have an
+image and under 200 characters of extractable text (slides whose tables and charts are pictures, scans) are OCR'd
+with tesseract. It writes `<file>.pdf.ocr.txt`: the `.txt` text with each OCR'd page's OCR text added below a
+`--- OCR of this page ...` line, so page numbers and exact text stay the same. `tools/doc.py`, `tools/search.py` and
+the citation check read it in place of the `.txt`. OCR misreads characters and numbers: check the PDF page before
+quoting or copying a figure from below that line. To redo a file, delete its `.ocr.txt` and rerun fetch-sources.
+A page with more text than that but a chart as a picture isn't OCR'd; look at the PDF page for those.
 
 ## Transcripts
 The **transcribe** Action runs on pushes to `main` and `claude/**` that add audio/video under `sources/`
