@@ -1,11 +1,13 @@
 # Working conventions for this repository (for Claude agents)
 
-Purpose: a research archive (primary sources + cited analysis) on how Oregon funds K-12 public schools, focused on
+Purpose: a research archive (primary sources + cited analysis) on Oregon K-12 funding: how much the state spends,
+how it's shared (the formula) and what it buys (results and accountability), focused on
 the **2027-29 budget: Gov. Tina Kotek's Recommended Budget and the 2027 Legislature**. It's a data warehouse, not a
 campaign site: no talking points or asks; those are made elsewhere from this data. Core topics: the State School Fund (SSF), the
 Quality Education Model (QEM) and its funding gap, the Governor's Recommended Budget (due Dec 1, 2026), revenue
 forecasts and reserves (Education Stability Fund, Rainy Day Fund), what Kotek and key legislators have promised
-or said, and how district budget gaps (PPS and others) connect to state decisions.
+or said, how district budget gaps (PPS and others) connect to state decisions, the funding formula, and what the
+money buys (results, the Student Investment Account, SB 141 accountability).
 
 Structure and rules are modeled on the PPS research archive (github.com/timaelliott/save-our-schools). That repo
 has no license, so nothing here copies its code; the tools in `tools/` were written for this repo.
@@ -133,6 +135,7 @@ Least new code that fully does the job; adapted from the ponytail rules
 - `analysis/topics/<topic>.md` — topic files in the three sections; each is published on the website automatically
 - `analysis/glossary.csv` — abbreviations and terms: full name, hover tooltip, cited definition
 - `analysis/timeline.md`, `analysis/open_questions.md`
+- `analysis/updates.md` — What's new for readers, newest first (the overview shows the latest three); `changelog/` is for maintainers
 - `sources/**/<file>.pdf.ocr.txt` — the PDF's text plus OCR of its picture-only pages, by `tools/ocr_pdfs.py` in fetch-sources
 - `sources/**/<media file>.txt` — machine transcript of an .mp4/.m4a/.mp3/.wav/.webm, by the `transcribe` Action
 - Tools: `tools/search.py`, `tools/doc.py`, `tools/linkify.py`, `tools/check_citations.py`, `tools/fetch_sources.py`,

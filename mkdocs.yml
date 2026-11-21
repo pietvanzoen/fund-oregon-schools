@@ -1,7 +1,7 @@
 # Public website for the research archive, published to GitHub Pages by .github/workflows/pages.yml.
 # Pages are generated from analysis/ and sources/ by tools/site_hook.py; only About lives in website/.
 site_name: Oregon K-12 Funding Research
-site_description: Primary documents and cited analysis on how Oregon funds K-12 public schools, focused on the State School Fund and the 2027-29 budget.
+site_description: "Primary documents and cited analysis on Oregon K-12 funding: how much the state spends, how it's shared and what it buys, focused on the 2027-29 budget."
 site_url: https://fundoregonschools.org/
 copyright: Maintained by Oregon public school parents · <a href="mailto:hello@fundoregonschools.org">hello@fundoregonschools.org</a> · <a href="/about/">About</a>
 repo_url: https://github.com/pietvanzoen/fund-oregon-schools
@@ -57,6 +57,7 @@ nav:
   - What they've said: quotes.md
   - Promises tracker: promises.md
   - Timeline: timeline.md
+  - What's new: updates.md
   - People:
       - Who decides: who-decides.md
       - Gov. Tina Kotek: people/kotek.md

@@ -174,6 +174,9 @@ Then, as the issue needs:
   go in their own sentence, marked "our sum" or "our estimate" with the DER tag.
 - A dated entry in `changelog/<YYYY-MM-DD>.md` (create the file if it's a new day), in the style of the
   existing entries, with the issue number.
+- A line at the top of `analysis/updates.md` (the site's What's new page; the newest three show on the overview)
+  when readers get new research or data: what changed, in plain words for a parent, and a backticked link to the
+  page. The changelog is for maintainers; this is for readers, so skip tooling-only changes.
 
 Stay within what the issue asks. Note related gaps in `open_questions.md` rather than chasing them.
 

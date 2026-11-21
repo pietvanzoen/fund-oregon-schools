@@ -6,8 +6,8 @@ description: How the Oregon K-12 Funding Research site works, from archived prim
 # About this site
 
 This site is a readable view of the [Oregon K-12 Funding Research archive](https://github.com/pietvanzoen/fund-oregon-schools),
-a collection of primary documents and cited analysis on how Oregon funds K-12 public schools, focused on the 2027-29
-budget.
+a collection of primary documents and cited analysis on Oregon K-12 funding: how much the state spends on public
+schools, how that money is shared, and what it buys, focused on the 2027-29 budget.
 
 ## What this archive is for
 

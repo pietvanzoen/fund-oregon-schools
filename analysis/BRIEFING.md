@@ -39,7 +39,7 @@ is tracked as GitHub issues, shown as (#16) and so on.
   other 2027 roles aren't announced. See `people/legislators.csv`.
 - **Also likely on the table in 2027:**
   - changes to the QEM or the funding model [NEWS:NEWS-20260617-occ-1]
-  - formula weights and caps (section f)
+  - formula weights and caps (section g)
   - whether to draw on the Education Stability Fund [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1]
 
 ## (c) How we got here
@@ -162,7 +162,20 @@ More: `data/qem_gap.csv`, `data/ssf_history.csv`, `data/reserves.csv`.
 - **Replacing the QEM** with a different cost model [NEWS:NEWS-20260121-katu-1] (#25). Rep. Ruiz's Nov 2026 post
   describes a new funding system and a cost model with more prototype school models [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt].
 
-**Formula questions still to research** (how the SSF is divided among districts)
+**On reserves (#22)**
+- **The rules.** Withdrawal from the Education Stability Fund takes a three-fifths vote in each chamber plus either an
+  economic trigger or a governor's emergency declaration [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1].
+- **PPS:** $500M to buy down PERS rates statewide [NEWS:NEWS-20261102-opb-1]. Its chief financial officer said this would cut the PPS gap
+  to about $42.7M [NEWS:NEWS-20261116-wweek-1].
+- **Rep. Ricki Ruiz:** an initial proposal for one-time, targeted PERS relief to districts under financial strain,
+  especially those that have already used their own reserves; no amount named [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt].
+- **Rep. Tammy Carpenter** suggested the fund as a bridge [NEWS:NEWS-20261112-katu-2].
+
+## (g) How the money is shared: the formula
+
+The formula in ORS chapter 327 divides the SSF among districts [SRC:legislature/ors/ors327.html]. These parts of it
+are still to research.
+
 - **Special education cap.** The formula adds weight for students on an IEP only up to 11% of a district's enrollment
   without state approval [SRC:legislature/ors/ors327.html]. HB 2953 (2025) as introduced would remove the cap
   [SRC:legislature/bills/2025R1_HB2953_introduced.pdf p.1]; its final status is still to confirm (#17).
@@ -178,16 +191,23 @@ More: `data/qem_gap.csv`, `data/ssf_history.csv`, `data/reserves.csv`.
   [SRC:legislature/ors/ors338.html]; what they keep depends on each contract. See `topics/virtual-charters.md`.
 - **Unfunded mandates**: requirements adopted without new money (section c) (#21).
 
-**On reserves (#22)**
-- **The rules.** Withdrawal from the Education Stability Fund takes a three-fifths vote in each chamber plus either an
-  economic trigger or a governor's emergency declaration [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1].
-- **PPS:** $500M to buy down PERS rates statewide [NEWS:NEWS-20261102-opb-1]. Its chief financial officer said this would cut the PPS gap
-  to about $42.7M [NEWS:NEWS-20261116-wweek-1].
-- **Rep. Ricki Ruiz:** an initial proposal for one-time, targeted PERS relief to districts under financial strain,
-  especially those that have already used their own reserves; no amount named [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt].
-- **Rep. Tammy Carpenter** suggested the fund as a bridge [NEWS:NEWS-20261112-katu-2].
+## (h) What it buys: results and accountability
 
-## (g) Contested claims and open questions
+The archive so far covers mostly how much is spent. What the money buys is the least-researched part.
+
+- **What the state now measures.** SB 141 statewide performance growth targets set goals for 2029-30
+  [SRC:ode/accountability/2026-05_statewide-performance-growth-targets.pdf p.1]. ODE Director Charlene Williams
+  framed meeting them as districts using or redirecting the resources they have; a board member and a board adviser
+  doubted that would be enough [NEWS:NEWS-20260429-oregonian-1] (section c). Under SB 141, state help and oversight
+  step up for districts that show no progress [NEWS:NEWS-20260429-oregonian-1]; the details, and ODE's Dec 2025
+  progress report, are still to work through (#60).
+- **What full funding is meant to buy.** If the full QEM isn't funded, the Quality Education Commission's 2026 report
+  offers more funding for programs aimed at the SB 141 metrics [SRC:ode/qec/2026_qem_report.pdf p.110]. How the
+  commission links its model to practices and outcomes is still to research (#59).
+- **What past increases achieved.** Student Investment Account spending and results (#57), and statewide outcomes over
+  time set against funding (#58), are not yet archived.
+
+## (i) Contested claims and open questions
 
 - **Record increases vs real cuts.** 2025-27 was a record SSF [SRC:legislature/press/2025-05-28_record-k12-funding.pdf p.1],
   and the JPEA called the gap closed for 2025-27 [SRC:legislature/olis/2025I1/310695_jpea.pdf p.4]. The 2026 QEM
@@ -210,7 +230,7 @@ More: `data/qem_gap.csv`, `data/ssf_history.csv`, `data/reserves.csv`.
   [SRC:gov/eo/eo-26-06_faq.pdf p.3], while saying funding may not be sufficient for some districts
   [SRC:gov/eo/eo-26-06_faq.pdf p.2].
 
-## (h) What happens next
+## (j) What happens next
 
 - **Dec 1, 2026:** Governor's Recommended Budget [SRC:legislature/ors/ors291.html]. Archive it and the K-12 pages
   (see `RUNBOOK.md`).
@@ -223,7 +243,7 @@ More: `data/qem_gap.csv`, `data/ssf_history.csv`, `data/reserves.csv`.
 
 Full timeline: `timeline.md`.
 
-## (i) Read first
+## (k) Read first
 
 1. 2026 QEM report, CSL and status quo [SRC:ode/qec/2026_qem_report.pdf p.103]; full QEM [SRC:ode/qec/2026_qem_report.pdf p.117]
 2. November 2026 revenue forecast: budget basis [SRC:fiscal/oea/2026-12_forecast.pdf p.33]; reserves [SRC:fiscal/oea/2026-12_forecast.pdf p.41]
@@ -234,7 +254,7 @@ Full timeline: `timeline.md`.
 7. DOR history of Oregon property taxation [SRC:fiscal/dor/2009-06_brief-history-property-taxation.pdf p.2]
 8. Kotek's Oct 13 letter to PPS [SRC:gov/letters/2026-10-13_kotek-letter-to-pps-school-closures.pdf p.1]
 
-## (j) Known gaps in this archive
+## (l) Known gaps in this archive
 
 | Issue | Gap |
 |---|---|
@@ -249,5 +269,9 @@ Full timeline: `timeline.md`.
 | #24 | Community schools: what the state funds or could fund |
 | #25 | 2027 formula reform; Kotek's Nov 6 remarks verbatim |
 | #26 | What each group and official is proposing for the 2027-29 amount |
+| #57 | Student Investment Account: spending and results |
+| #58 | Statewide outcomes over time, set against funding |
+| #59 | The Quality Education Commission's evidence on practices and outcomes |
+| #60 | SB 141 accountability: progress and consequences |
 
 More in `open_questions.md`.

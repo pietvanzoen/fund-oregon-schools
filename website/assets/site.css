@@ -67,3 +67,14 @@ span.analysis { background: rgba(138, 109, 59, .08); border-radius: 3px; padding
 .md-typeset .promise-card dl { display: grid; grid-template-columns: max-content 1fr; gap: .3em 1em; margin: 0 0 .6em; font-size: .85em; }
 .md-typeset .promise-card dt { font-weight: 600; margin: 0; }
 .md-typeset .promise-card dd { margin: 0; }
+
+/* Overview landing: lead paragraph, what's coming up, aims as cards, collapsible reading guide */
+.md-typeset p.lead { font-size: 1.2em; line-height: 1.5; color: var(--md-default-fg-color--light); margin-top: 0; }
+.md-typeset .coming-up { border-left: 4px solid var(--md-accent-fg-color); background: var(--md-code-bg-color);
+  border-radius: 0 6px 6px 0; padding: .6em 1em; margin: 1.2em 0; }
+.md-typeset .coming-up-title { margin: 0 0 .3em; font-size: .75em; font-weight: 700; text-transform: uppercase;
+  letter-spacing: .05em; color: var(--md-accent-fg-color); }
+.md-typeset .coming-up ul { list-style: none; margin: 0; padding: 0; }
+.md-typeset .coming-up ul li { margin: .2em 0; }
+.md-typeset .coming-up-more { margin: .4em 0 0; font-size: .85em; }
+.md-typeset .grid.cards > ul > li { padding: .8em 1em; }
