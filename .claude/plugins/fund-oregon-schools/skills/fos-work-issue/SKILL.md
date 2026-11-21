@@ -48,7 +48,9 @@ task list:
 1. **Needs a document** — find it, queue it, analyse after the fetch.
 2. **Can be done from what's archived** — check with `tools/search.py` and `tools/doc.py` before assuming
    something is missing.
-3. **Can't be done here** — hearing video timestamps, pages behind scripts or logins, a judgement call for Piet.
+3. **Can't be done here** — quotes from hearing video you can't listen to (the `transcribe` Action's machine
+   transcripts find the moment and timestamp, but a quote needs checking against the audio), pages behind
+   scripts or logins, a judgement call for Piet.
    These stay unticked and go in the PR's "Not done" section.
 
 ## 3. Find and queue documents

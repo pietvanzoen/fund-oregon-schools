@@ -176,6 +176,22 @@ def main():
         assert "[SRC:gov/test_page.html]" in r.stdout, r.stdout + r.stderr
         r = run(root, "doc.py", "test_page", "--grep", "billion")
         assert "13 billion" in r.stdout, r.stdout + r.stderr
+
+        # a hand-saved hearing video with its machine transcript: search cites the line's timestamp, the
+        # header isn't indexed, and a VID tag without the extension resolves
+        os.makedirs(f"{root}/sources/legislature/video")
+        open(f"{root}/sources/legislature/video/h.mp4", "w").write("x")
+        open(f"{root}/sources/legislature/video/h.mp4.txt", "w").write(
+            "# Machine transcript, verify quotes\n0:00:02 Good morning.\n1:02:05 We have to be bold on schools.\n")
+        r = run(root, "search.py", "bold", "--kind", "src")
+        assert "[VID:legislature/video/h@1:02:05]" in r.stdout and "@0:00:02" not in r.stdout, r.stdout
+        assert run(root, "search.py", "verify").stdout.strip() == "no matches"
+        open(f"{root}/analysis/v.md", "w").write("Bold [VID:legislature/video/h@1:02:05], gone [VID:x/nope@0:01]\n")
+        r = run(root, "check_citations.py")
+        assert r.stdout.count("ERROR") == 1 and "unknown video x/nope" in r.stdout, r.stdout
+        os.remove(f"{root}/analysis/v.md")
+        shutil.rmtree(f"{root}/sources/legislature")
+
         r = run(root, "check_sources.py")
         assert r.returncode == 0 and "0 errors" in r.stdout, r.stdout
         q3 = open(f"{root}/sources/_queue.csv").read()

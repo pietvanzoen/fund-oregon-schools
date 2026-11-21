@@ -40,7 +40,9 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
        `fiscal/dor/` Department of Revenue
      - `reference/` reference works (e.g. Oregon Encyclopedia); prefer a primary source when one exists
      - `districts/<district>/` district budget documents; `orgs/<org>/` advocacy and association documents
-   - Hearing or meeting video/audio: `[VID:<path under sources/ without extension>@H:MM:SS]`
+   - Hearing or meeting video/audio: `[VID:<path under sources/ without extension>@H:MM:SS]`. The `transcribe`
+     Action writes a machine transcript next to each media file (`<file>.mp4.txt`, lines `H:MM:SS text`);
+     `tools/search.py` searches it and returns `[VID:...@H:MM:SS]` hits.
    - News: `[NEWS:<id from sources/news/index.jsonl>]`
    - PPS archive: `[PPSARCH:<that repo's own tag>]`, e.g. `[PPSARCH:BB:14673756 p.2]`. Don't copy its files here.
    - Our own calculation: `[DER:<topic>/<id>]`, a row in `analysis/derived/<topic>.csv`. It is not a source: the
@@ -49,6 +51,8 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
      reports it as pending. Replace NEWS citations with SRC citations once the primary document is archived.
 3. Quotes must be verbatim from the source. Keep them short (1–3 sentences). Never invent or "smooth" a quote.
    For transcripts, give speaker attribution with evidence and `confidence: high | medium | low`; don't use low.
+   Machine transcripts (Whisper) mishear words and names: listen to the recording at that timestamp and quote
+   what was said, never the transcript text unchecked. If you can't listen, don't quote; paraphrase as unverified.
 4. Keep separate what sources state (documents and what people said), what we calculated, and our own inference.
    - Topic files (`analysis/topics/*.md`) have three sections, in this order: `## What the sources say` (only
      statements a cited source makes; every line cited; no inference), `## Derived figures` (a table of our sums,
@@ -123,4 +127,5 @@ Least new code that fully does the job; adapted from the ponytail rules
 - `analysis/topics/<topic>.md` — topic files in the three sections; each is published on the website automatically
 - `analysis/glossary.csv` — abbreviations and terms: full name, hover tooltip, cited definition
 - `analysis/timeline.md`, `analysis/open_questions.md`
+- `sources/**/<media file>.txt` — machine transcript of an .mp4/.m4a/.mp3/.wav/.webm, by the `transcribe` Action
 - Tools: `tools/search.py`, `tools/doc.py`, `tools/linkify.py`, `tools/check_citations.py`, `tools/fetch_sources.py`
