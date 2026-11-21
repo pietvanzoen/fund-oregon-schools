@@ -18,13 +18,22 @@
 - `legislature/press/house-dems-members_page.html` archived without the member list (loaded by script); no longer
   cited. Save it from a browser if a House Democrats roles source is needed.
 - Governor's office phone and contact form, verified before sending to parents.
+- Virtual charters (#20): what ORS 338.155's 2021, 2023 and 2025 amendments changed (2025 c.386); whether any 2026
+  bills on virtual charters were introduced; the K-8 / 9-12 split of virtual charter ADMw; what the "Charter Schools
+  Rate (ORS 338.155)" on ODE's district estimate pages measures (it is at or above the General Purpose Grant rate).
+- Virtual charters: the 24 schools on ODE's 2027-29 SIA list include four not in the 2025-26 transparency report
+  (Applegate Valley, Jefferson Classical, Lower Columbia, Stellar Pines); confirm when they opened.
 
 ## Sources to find and queue (no URL yet)
 - Legislative Fiscal Office: 2025-27 budget highlights (K-12 section); 2027-29 CSL documents.
 - Current (2026) Education Stability Fund balance; the queued LRO brief is from Nov 2025.
-- ODE State School Fund formula guide and district payment estimates.
+- ODE State School Fund formula guide (2025-26 district estimates are archived: `ode/ssf/2025-26_ssf-estimates_2026-05-01.pdf`).
 - OSBA State School Fund tracker; COSA and Oregon Education Association budget positions; Oregon Center for Public Policy analyses.
 - Legislative hearing video: Joint Committee on Public Education Appropriation, Ways & Means education subcommittee,
   House and Senate Education (for legislators' on-the-record positions).
 - Budget documents from other large districts (Salem-Keizer, Beaverton, Hillsboro) to show this is statewide.
+- Virtual charter contracts for the largest schools (Baker Web Academy, Fossil Charter School, Oregon Charter
+  Academy): the actual pass-through percentage and what the sponsor keeps (#20).
+- 2017 Secretary of State audit of online schools (Report 2017-30) and the 2019 follow-up, cited by OJP (#20).
+- Any ODE or audit figure for total SSF dollars paid for virtual charter students (#20).
 - National comparisons: National Center for Education Statistics (NCES) / Census school finance per-pupil data; Education Law Center "Making the Grade".

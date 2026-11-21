@@ -15,6 +15,8 @@
 | `derived/<topic>.csv` | Our own calculations (sums, shares, estimates), cited with DER tags; written by `tools/derive_<topic>.py` |
 | `topics/reserves.md` | Whether reserves can close gaps |
 | `glossary.csv` | Abbreviations and terms in plain words (`term, full_name, kind, tooltip, definition, source`); feeds the Glossary page and the site's hover tooltips |
+| `topics/virtual-charters.md` | How State School Fund money follows students to virtual charters; current law and 2025 bills |
+| `data/virtual_charters_2025-26.csv` | 2025-26 enrollment (ADMr/ADMw) by virtual charter and sponsor, with sponsor grant rates and an estimate of grant money |
 | `timeline.md` | Dated events, past and upcoming |
 | `open_questions.md` | Facts to confirm and sources still to find |
 

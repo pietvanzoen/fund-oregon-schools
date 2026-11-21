@@ -158,7 +158,10 @@ More: `data/qem_gap.csv`, `data/ssf_history.csv`, `data/reserves.csv`.
 - **Transportation.** The state reimburses an approved share of district transportation costs
   [SRC:legislature/ors/ors327.html]; how closures change those costs is unresearched (#18).
 - **English learner and poverty weights** (#19).
-- **Online charters**: state money that follows students to virtual charters (#20).
+- **Online charters** (#20). The 20 virtual charters in ODE's 2025-26 report had about 22,100 ADMr (about 4% of the
+  state) [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.1]; their sponsoring districts
+  must pass through at least 80% (K-8) or 95% (9-12) of the grant and keep the rest
+  [SRC:legislature/ors/ors338.html]. See `topics/virtual-charters.md`.
 - **Unfunded mandates**: requirements adopted without new money (section c) (#21).
 
 **On reserves (#22)**
