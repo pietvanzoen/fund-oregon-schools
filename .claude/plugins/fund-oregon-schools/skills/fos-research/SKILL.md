@@ -25,6 +25,7 @@ there. If github.com can't be reached, read the same files through the GitHub co
 python3 tools/search.py "State School Fund" -n 20              # full-text over sources + analysis
 python3 tools/search.py "current service level" --kind src      # kinds: src, news, analysis, quote
 python3 tools/search.py "Kotek" --kind quote
+python3 tools/search.py "school funding" --kind src             # also hearing transcripts: [VID:...@H:MM:SS] hits
 python3 tools/doc.py qec/2026_qem_report 12                     # page 12 of a sources/ PDF by path fragment
 python3 tools/doc.py qec/2026_qem_report --grep "current service level"
 python3 tools/linkify.py analysis/BRIEFING.md                   # print with citation tags turned into links
@@ -51,7 +52,8 @@ python3 tools/linkify.py analysis/BRIEFING.md                   # print with cit
   sum", "the archive estimates"), keep the DER tag or link to its row, and give an `est` figure's assumptions.
   Don't attribute it to the agency whose data went into it.
 - Give citations as links (`tools/linkify.py`), keeping the tag when the text will be reused elsewhere.
-- Quotes verbatim and short; never smooth a quote.
+- Quotes verbatim and short; never smooth a quote. Hearing transcripts (`<file>.mp4.txt`) are machine-made:
+  verify a quote by listening at its timestamp, or don't quote it.
 
 ## Never
 - Invent or smooth a quote, number or source.

@@ -30,12 +30,22 @@ and is logged in `sources/_versions_log.csv`. A document removed or moved upstre
 budget link, then queue the budget PDFs themselves.
 
 ## Things the fetcher can't do
-- **Hearing video.** Legislative video is on the Legislature's own player, not YouTube. Save the audio and a
-  transcript by hand under `sources/legislature/video/<date>_<committee>.*` with a manifest line, and cite
-  `[VID:legislature/video/<date>_<committee>@H:MM:SS]`.
+- **Hearing video.** Legislative video is on the Legislature's own player, not YouTube. Save the audio or video
+  by hand under `sources/legislature/video/<date>_<committee>.<mp4|m4a|mp3|wav|webm>` with a manifest line, and
+  cite `[VID:legislature/video/<date>_<committee>@H:MM:SS]`. Keep files under GitHub's 100 MB limit (audio only,
+  if the video is bigger).
 - **Pages behind scripts or logins.** Save from a browser and add a manifest line by hand (url, fetched_at, sha256).
 - **News.** Don't archive articles. Add a record to `sources/news/index.jsonl`: id `NEWS-YYYYMMDD-outlet-N`, date,
   outlet, title, url, a summary in your own words, key facts, and at most short quotes (< 25 words).
+
+## Transcripts
+The **transcribe** Action runs on pushes to `main` and `claude/**` that add audio/video under `sources/`
+(including files fetch-sources commits). For each media file without one, it writes a machine transcript next
+to it, `<file>.txt` (e.g. `x.mp4.txt`), one `H:MM:SS text` line per segment, and commits it. It never touches
+the media file or an existing transcript; delete the transcript and rerun to redo it. For files added before
+the Action existed, or a push it missed: Actions → transcribe → Run workflow (on the branch that has the files).
+It uses faster-whisper `small.en` on CPU, roughly an hour per 3-hour hearing (estimated). Transcripts are
+machine-made: verify every quote by listening at the timestamp before citing it.
 
 ## After adding sources
 - Update `analysis/` and swap NEWS citations for SRC ones where a primary document now exists.

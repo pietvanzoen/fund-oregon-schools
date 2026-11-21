@@ -12,6 +12,8 @@ MANIFEST = os.path.join(SOURCES, "_manifest.jsonl")
 NEWS_INDEX = os.path.join(SOURCES, "news", "index.jsonl")
 QUOTES = os.path.join(ANALYSIS, "people", "quotes_all.jsonl")
 DERIVED = os.path.join(ANALYSIS, "derived")
+# audio/video the transcribe Action turns into <file>.txt ("H:MM:SS text" lines), cited as [VID:...]
+MEDIA = (".mp4", ".m4a", ".mp3", ".wav", ".webm")
 
 # [SRC:path p.3] [VID:path@1:02:03] [NEWS:id] [PPSARCH:BB:123 p.2] [DER:topic/id] (DER: our own calculation)
 TAG_RE = re.compile(r"\[(SRC|VID|NEWS|PPSARCH|DER):([^\]]+)\]")
