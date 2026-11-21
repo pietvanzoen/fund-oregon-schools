@@ -21,8 +21,8 @@ student outcomes, and what research it cites for that link. The dollar figures a
   school, not actual schools [SRC:ode/qec/2026_qem_report.pdf p.93]. The Full QEM uses the commission's recommended
   ratios; the Status Quo uses actual staffing ratios from schools near the prototypes' size
   [SRC:ode/qec/2026_qem_report.pdf p.93].
-- Elementary: 360 students, average class size 20, all-day kindergarten, a librarian, a nurse, physical education and music
-  specialists and a Family Resource staffer per school [SRC:ode/qec/2026_qem_report.pdf p.93].
+- Elementary: 360 students, average class size 20, all-day kindergarten, a librarian, a nurse, a physical education (PE) and music
+  specialist and a Family Resource staffer per school [SRC:ode/qec/2026_qem_report.pdf p.93].
 - Middle: 500 students, average class size 17.7, 1.5 additional math, English and science teachers, alternative
   programs, one counselor per 250 students, a volunteer coordinator and community outreach worker
   [SRC:ode/qec/2026_qem_report.pdf p.93].
@@ -84,8 +84,10 @@ student outcomes, and what research it cites for that link. The dollar figures a
   [SRC:ode/qec/2026_qem_report.pdf p.95]. Its projected years for 90 percent: four-year graduation 2030-31 on the
   long-run trend, 2028-29 at CSL funding, 2027-28 at the Full QEM; five-year completion 2033-34, 2030-31 and
   2027-28 [SRC:ode/qec/2026_qem_report.pdf p.95].
-- The 2024 report's projected years for four-year graduation were 2030-31, 2027-28 and 2025-26; its Full QEM year
-  is likewise for funding at that level since 2012-13 [SRC:ode/qec/2024_qem_report.pdf p.59]. The Full QEM years in
+- The 2024 report's projected years were 2030-31, 2027-28 and 2025-26 for four-year graduation
+  [SRC:ode/qec/2024_qem_report.pdf p.59], and 2030-31, 2030-31 and 2025-26 for five-year completion
+  [SRC:ode/qec/2024_qem_report.pdf p.60]; its Full QEM years are likewise for funding at that level since 2012-13
+  [SRC:ode/qec/2024_qem_report.pdf p.59] [SRC:ode/qec/2024_qem_report.pdf p.60]. The Full QEM years in
   both reports are counterfactuals (what full funding since 2012-13 would have produced), not projections of funding
   the QEM from now on [SRC:ode/qec/2024_qem_report.pdf p.59] [SRC:ode/qec/2026_qem_report.pdf p.95]. Both sets: `data/qem_outcome_forecasts.csv`.
 
@@ -139,8 +141,9 @@ student outcomes, and what research it cites for that link. The dollar figures a
   among the QEM's best practices, districts' statutory requirements and what districts actually do
   [SRC:legislature/olis/2025I1/310695_jpea.pdf p.5].
 - A JPEA legislative concept would move the cost model from the QEC to the Legislative Policy and Research Office
-  [SRC:legislature/olis/2025I1/311607_jpea-legislative-concepts.pdf p.1]. It became SB 1555 (2026)
-  [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.1] [NEWS:NEWS-20260121-katu-1]; the overhaul effort was unsuccessful [NEWS:NEWS-20260617-occ-1].
+  [SRC:legislature/olis/2025I1/311607_jpea-legislative-concepts.pdf p.1]. The JPEA introduced SB 1555 (2026) to
+  carry out its recommendations [SRC:legislature/olis/2026R1/313103_sb1555-genesis-memo.pdf p.2], including that
+  move [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.1]; the overhaul effort was unsuccessful [NEWS:NEWS-20260617-occ-1].
 
 ### The practices the commission recommends (2026)
 - The 2026 best-practices section is a synthesis of white papers by ODE and Educator Advancement Council experts,
@@ -191,21 +194,21 @@ never statistically tied performance to cost. Its regressions of graduation on s
 2013-14 are a check on the estimate, not a derivation of it; they chart two trends that broadly rose over the same
 years, which is consistent with funding mattering but does not by itself separate funding from other causes.
 
-The strongest evidence the commission cites that money matters is outside research (Jackson's review of
-quasi-experimental studies, Baker's review), which concerns spending in general rather than the QEM's particular
+The strongest evidence the commission cites that money matters is outside research (Jackson's and Baker's reviews), which concerns spending in general rather than the QEM's particular
 practices; research finding smaller or no effects isn't archived yet (#63). What full funding "buys" in the QEM is therefore best read as: the 2022 staffing list (smaller elementary
 classes, counselors, nurses, librarians, summer school), priced at today's costs, plus an expectation that districts
 use it on the recommended practices.
 
 The counterfactual year for 90% graduation under full funding since 2012-13 moved from 2025-26 (2024 report) to 2027-28 (2026 report),
-and under CSL funding from 2027-28 to 2028-29, while the long-run trend year stayed at 2030-31. The 2026 report
+and under CSL funding from 2027-28 to 2028-29, while the long-run trend year stayed at 2030-31. For five-year
+completion the full-funding year moved from 2025-26 to 2027-28 and the long-run year from 2030-31 to 2033-34. The 2026 report
 doesn't explain the shift; a date that slides two years in one report cycle is a reason to treat these dates as
 illustrations rather than predictions.
 
 AIR's $22,210 is aimed at a different and higher target than the QEM's (one standard deviation above the statewide
 average on a combined measure), so the two estimates target different outcomes and the comparison shows direction (both say more is
-needed), not size. AIR and the JPEA make overlapping criticisms (one outcome goal,
-prototypes that ignore variation in need), and the commission accepts the first two in its 2026 report while saying
+needed), not size. AIR criticizes the single outcome goal, and both AIR and the JPEA criticize prototypes that ignore
+variation in need; the commission accepts both points in its 2026 report while saying
 it lacks the staff to act on them. With further QEM changes expected in 2027 (`BRIEFING.md` sections e and f), the
 commission has already moved toward SB 141's terms: its expected outcomes, the extra goals it is exploring and one
 of its two fallback options are all framed in SB 141's metrics (sources above).
