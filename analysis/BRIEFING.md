@@ -10,14 +10,17 @@ is tracked as GitHub issues, shown as (#16) and so on.
 
 1. **What's being decided.** The Governor's Recommended Budget for 2027-29 is due Dec 1
    [SRC:legislature/ors/ors291.html], built on the Nov 18 revenue forecast [SRC:fiscal/oea/2026-12_forecast.pdf p.33].
-   The 2027 Legislature then sets the State School Fund (SSF), and may also change how the formula divides it
+   The 2027 Legislature then sets the State School Fund (SSF), and may also change the QEM or the funding model
    [NEWS:NEWS-20260617-occ-1].
 2. **The state's own benchmarks.** The 2026 Quality Education Model (QEM) report puts the SSF current service level
    (CSL) at $12.56B, the cost of keeping today's services at $13.78B, and the cost of meeting the state's goals at
    $16.21B [SRC:ode/qec/2026_qem_report.pdf p.103] [SRC:ode/qec/2026_qem_report.pdf p.117].
-   Analysis: a CSL budget is about $1.2B short of status quo and $3.65B short of the full QEM.
-3. **Why it's a state decision.** Since Measures 5 (1990) and 50 (1997), most school operating money comes from the
-   state, and districts can raise only a capped local option levy on top (section c).
+   Analysis: an SSF at CSL leaves about $1.2B of the status-quo cost to come from state funds outside the SSF, and is
+   $3.65B below the full QEM.
+3. **Why it's a state decision.** After Measures 5 (1990) and 50 (1997) capped property taxes, the state became the
+   main source of school operating money, and districts can add only a capped local option levy
+   [SRC:reference/oregon-encyclopedia_measure-5.html]
+   [SRC:legislature/olis/2018R1/146437_lro-school-local-option.pdf p.4] (section c).
 4. **No funding commitment yet.** Gov. Kotek has set outcome goals (instructional time, SB 141 targets) and an
    executive order on instructional time, but has not said how she'd pay for her school goals
    [NEWS:NEWS-20260917-opb-1] [NEWS:NEWS-20261106-occ-1]. She has said her budget will prioritize education
@@ -28,8 +31,8 @@ is tracked as GitHub issues, shown as (#16) and so on.
 
 ## (b) What's being decided, and by whom
 
-- **Governor's Recommended Budget (due Dec 1, 2026).** Sets the starting SSF figure [SRC:legislature/ors/ors291.html]
-  [SRC:fiscal/oea/2026-12_forecast.pdf p.33].
+- **Governor's Recommended Budget (due Dec 1, 2026).** Based on the Nov 18 revenue forecast
+  [SRC:legislature/ors/ors291.html] [SRC:fiscal/oea/2026-12_forecast.pdf p.33].
 - **The 2027 Legislature.** The Joint Committee on Ways and Means and its Education Subcommittee write the SSF budget.
   Sen. Kate Lieber returns as Senate co-chair [SRC:legislature/press/2026-11-13_senate-dems-2027-leadership.pdf p.1];
   other 2027 roles aren't announced. See `people/legislators.csv`.
@@ -55,8 +58,9 @@ is tracked as GitHub issues, shown as (#16) and so on.
   - replaced most levies with permanent rates
   [SRC:fiscal/dor/2009-06_brief-history-property-taxation.pdf p.3].
 - **Local option levies** are the only way to raise operating money above the permanent rate. Schools could use them
-  from 2000-01. Outside general elections, they need at least 50% of registered voters to vote
-  [SRC:fiscal/dor/2009-06_brief-history-property-taxation.pdf p.4].
+  from 2000-01. Measure 50 required at least 50% of registered voters to vote in elections other than general
+  elections [SRC:fiscal/dor/2009-06_brief-history-property-taxation.pdf p.4]; Measure 56 (2008) later changed this
+  for some elections (to confirm: #16).
 - **The local option cap.** The amount kept outside the equalization formula is capped at the lesser of 20% of
   formula revenue or an indexed per-student amount ($1,343.92 in 2017-18). 20 districts levied one in 2016-17
   [SRC:legislature/olis/2018R1/146437_lro-school-local-option.pdf p.4]
@@ -70,8 +74,10 @@ is tracked as GitHub issues, shown as (#16) and so on.
 - The Joint Committee on Public Education Appropriation's Nov 2025 report says 2025-27 funding "effectively closes the
   funding gap and allows for the full implementation of the QEM" [SRC:legislature/olis/2025I1/310695_jpea.pdf p.4].
   The same report criticizes how the QEM is built [SRC:legislature/olis/2025I1/310695_jpea.pdf p.5].
-- SB 1555 (2026), led by Rep. Ruiz and Sen. Sollman, would have replaced the QEM with a new cost model; it didn't
-  pass [SRC:legislature/olis/2025I1/311607_jpea-legislative-concepts.pdf p.1] [NEWS:NEWS-20260617-occ-1].
+- A JPEA legislative concept would move the cost model from the Quality Education Commission to the Legislative
+  Policy and Research Office [SRC:legislature/olis/2025I1/311607_jpea-legislative-concepts.pdf p.1]. It became
+  SB 1555 (2026), described by Rep. Ruiz as replacing the QEM [NEWS:NEWS-20260121-katu-1]. The overhaul effort led by
+  Ruiz and Sen. Sollman was unsuccessful [NEWS:NEWS-20260617-occ-1].
 
 **New requirements in 2026**
 - Executive Order 26-06: no cuts to instructional time; districts restore 2024-25 levels by 2027-28
@@ -83,7 +89,7 @@ is tracked as GitHub issues, shown as (#16) and so on.
 
 **The 2026 QEM and district pressure**
 - The 2026 QEM report sets the 2027-29 benchmarks in section (d) [SRC:ode/qec/2026_qem_report.pdf p.103].
-- PPS faces a $65M deficit and is weighing closures. Its Board asks the Legislature to at least fund the CSL, and
+- PPS faces a $65M deficit. Its Board asks the Legislature to at least fund the CSL, and
   says that still leaves a gap [PPSARCH:BB:14673756 p.1].
 - Other districts' cuts are not yet archived (#23).
 
@@ -93,15 +99,17 @@ is tracked as GitHub issues, shown as (#16) and so on.
 |---|---|---|
 | SSF current service level (CSL) | 12.56 | [SRC:ode/qec/2026_qem_report.pdf p.103] |
 | QEM status quo: keep today's services (SSF + other state funds) | 13.78 | [SRC:ode/qec/2026_qem_report.pdf p.103] |
-| Gap between CSL and status quo | ~1.22 | [SRC:ode/qec/2026_qem_report.pdf p.103] |
+| Status quo not covered by SSF at CSL (non-SSF state funds) | ~1.22 | [SRC:ode/qec/2026_qem_report.pdf p.103] |
 | Full QEM: meeting the state's goals | 16.21 | [SRC:ode/qec/2026_qem_report.pdf p.117] |
-| Full QEM above CSL | 3.65 | [SRC:ode/qec/2026_qem_report.pdf p.117] |
+| Full QEM above SSF CSL | 3.65 | [SRC:ode/qec/2026_qem_report.pdf p.117] |
 | November forecast change for 2027-29 | +~0.245 | [NEWS:NEWS-20261118-klcc-1] |
 | Education Stability Fund, end of 2025-27 (projected) | 1.271 | [SRC:fiscal/oea/2026-12_forecast.pdf p.41] |
 
 - The QEM report's exact CSL figure is $12,558,429,348 [SRC:ode/qec/2026_qem_report.pdf p.103]. PPS cites $12.57B
   [PPSARCH:BB:14673756 p.1].
-- Reserves total 9.7% of the General Fund forecast [SRC:fiscal/oea/2026-12_forecast_slides.pdf p.37].
+- Reserves are currently 9.7% (OEA slides) [SRC:fiscal/oea/2026-12_forecast_slides.pdf p.37]. The projected 2027-29
+  balances ($2.9B Rainy Day Fund, $1.6B ESF) would be 10.6% of the General Fund projection
+  [SRC:fiscal/oea/2026-12_forecast.pdf p.41].
 - Analysis: watch the baseline. News coverage's "$2.5B more" and "$5B more" compare the QEM with the 2025-27 budget,
   not with the CSL [NEWS:NEWS-20260812-opb-1]. Families United does the same
   [SRC:orgs/families-united/demands-funding.html]. Figures against the CSL and against 2025-27 aren't comparable.
@@ -125,8 +133,9 @@ More: `data/qem_gap.csv`, `data/ssf_history.csv`, `data/reserves.csv`.
   [NEWS:NEWS-20260510-wweek-1]. See `people/lieber.md`.
 - **Rep. Tawna Sanchez** (Ways & Means co-chair, 2025-26): argued in May the fund should be saved because "the
   hurricane has not hit yet" [NEWS:NEWS-20260510-wweek-1]. See `people/sanchez.md`.
-- **Rep. Ricki Ruiz** (Education Subcommittee and JPEA co-chair, 2025-26): co-chaired the JPEA's sufficiency finding
-  and led the push to replace the QEM [SRC:legislature/olis/2025I1/310695_jpea.pdf p.4] [NEWS:NEWS-20260121-katu-1].
+- **Rep. Ricki Ruiz** (Education Subcommittee and JPEA co-chair, 2025-26): co-chaired the JPEA when it made its
+  sufficiency finding, and led the push to replace the QEM [SRC:legislature/olis/2025I1/310695_jpea.pdf p.3]
+  [SRC:legislature/olis/2025I1/310695_jpea.pdf p.4] [NEWS:NEWS-20260121-katu-1].
   See `people/ruiz.md`.
 - **Sen. Janeen Sollman** (Education Subcommittee co-chair) is leaving after losing her primary
   [NEWS:NEWS-20260521-wweek-1]. See `people/sollman.md`.
@@ -182,7 +191,7 @@ More: `data/qem_gap.csv`, `data/ssf_history.csv`, `data/reserves.csv`.
   QEM report ranks Oregon 20th in state-sourced per-pupil funding (2024 Census), rising to 12th at full QEM
   [SRC:ode/qec/2026_qem_report.pdf p.117]. Analysis: total vs state-sourced spending are different measures.
 - **The forecast.** The November gain is modest, and economists warned it may not last [NEWS:NEWS-20261118-klcc-1].
-  The exact figure ($245M per news vs $233M per DAS) is still to confirm (`open_questions.md`).
+  The exact figure ($245M per news; DAS's release reportedly says $233M) is still to confirm (`open_questions.md`).
 - **One-time money.** Lieber, Sanchez and Kotek object to using reserves for ongoing costs
   [NEWS:NEWS-20260510-wweek-1] [NEWS:NEWS-20261106-occ-1]. Bridge proposals frame it as time-limited
   [SRC:orgs/families-united/demands-esf.html].

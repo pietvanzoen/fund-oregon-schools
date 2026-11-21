@@ -19,7 +19,7 @@ Primary documents and cited analysis on how Oregon funds its public schools, foc
 ## Start here
 
 - `BRIEFING.md`: what's being decided, how we got here, who stands where, open questions
-- `data/qem_gap.csv`: funding benchmarks, gaps and reserves
+- `data/qem_gap.csv`: funding benchmarks and gaps
 - `people/quotes_all.jsonl`: officials' statements, verbatim and dated
 - `promises.csv`: goals and mandates, and whether money came with them
 - `people/legislators.csv`: the budget-writing legislators and their roles

@@ -33,8 +33,8 @@ the session organizes).
 - Same forum: "If you use one-time money to pay for ongoing expenses, then you're still going to have a cliff…"
   [NEWS:NEWS-20260510-wweek-1]
 - Analysis: her stated test is a cut below the current service level (CSL), not whether districts face deficits.
-  That matters because the 2026 QEM puts the cost of today's services about $1.2B above CSL (see BRIEFING): a CSL
-  budget passes her test while districts still cut. Her position matches Kotek's: no one-time money for ongoing costs (see `kotek.md`).
+  The 2026 QEM puts the cost of today's services about $1.2B above the SSF CSL, to come from state funds outside the
+  SSF (see `BRIEFING.md`), so an SSF at CSL passes her test whether or not those other funds keep pace. Her position matches Kotek's: no one-time money for ongoing costs (see `kotek.md`).
 
 ## To add
 - Her remarks on the Nov 2026 revenue forecast and the Governor's Dec 1 budget.
