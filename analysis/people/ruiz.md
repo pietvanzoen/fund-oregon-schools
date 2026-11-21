@@ -19,7 +19,8 @@ spells his name "Ricky".) His 2027 committee roles aren't announced yet (as of N
   practice, revenue sources left out of the gap calculation [SRC:legislature/olis/2025I1/310695_jpea.pdf p.5].
 - With Sen. Sollman, led SB 1555 (2026), which would have replaced the Quality Education Commission and model with a
   cost model developed by the Legislative Policy and Research Office via contract and tied quality goals to SB 141 metrics
-  [SRC:legislature/olis/2025I1/311607_jpea-legislative-concepts.pdf p.1] [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf].
+  [SRC:legislature/olis/2025I1/311607_jpea-legislative-concepts.pdf p.1] [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.1]. Senate Education took it up on Feb 10 and Feb 12, 2026
+  [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.1].
   The overhaul effort was unsuccessful [NEWS:NEWS-20260617-occ-1]. (Confirm SB 1555's final status in its OLIS history.)
 
 ## On school funding
