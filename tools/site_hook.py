@@ -13,6 +13,7 @@ Every analysis/topics/<name>.md is published as <name>.md and listed under Topic
 Preview locally:  pip install "mkdocs>=1.6,<2" "mkdocs-material>=9.7,<10" && mkdocs serve
 """
 import csv
+import datetime
 import html
 import json
 import os
@@ -38,6 +39,7 @@ MD_PAGES = {
     "index.md": "OVERVIEW.md",
     "briefing.md": "BRIEFING.md",
     "timeline.md": "timeline.md",
+    "updates.md": "updates.md",
 }
 PEOPLE = ["kotek", "lieber", "sanchez", "ruiz", "sollman"]
 for _slug in PEOPLE:
@@ -180,7 +182,7 @@ def file_refs(text, from_page, src_file):
 
 
 PAGE_TITLES = {
-    "index.md": "overview", "briefing.md": "the briefing", "timeline.md": "timeline",
+    "index.md": "overview", "briefing.md": "the briefing", "timeline.md": "timeline", "updates.md": "what's new",
     "promises.md": "promises tracker", "quotes.md": "what they've said", "who-decides.md": "who decides",
     "numbers.md": "the numbers", "glossary.md": "glossary", "people/kotek.md": "Kotek", "people/lieber.md": "Lieber",
     "people/sanchez.md": "Sanchez", "people/ruiz.md": "Ruiz", "people/sollman.md": "Sollman",
@@ -242,22 +244,57 @@ def from_analysis(page, src, ctx):
     md = mark_analysis(md)
     md = cites(md, ctx)
     if page == "index.md":
-        md = re.sub(r"^## ", lambda m: INTRO + "## ", md, count=1, flags=re.M)  # box after the intro, so the purpose comes first
+        md = landing(md, ctx)
         md, n = re.subn(r"<!-- site: funding chart -->\n(\|.*\n)+", lambda m: funding_chart(ctx) + "\n", md)
         assert n == 1, "OVERVIEW.md lost its '<!-- site: funding chart -->' marker above the key numbers table"
     return md + footer([f"analysis/{src}"], [f"analysis/{src}"])
 
 
 INTRO = """
-!!! info "How to read this site"
-    Every claim links to where it comes from:
-    <span class="cite cite-src">📄 p.N</span> is a state or legislative document, opened at the cited page;
-    <span class="cite cite-news">📰 Outlet</span> is a news report; <span class="cite cite-pps">🏫 PPS archive</span>
-    is the Portland Public Schools research archive; <span class="cite cite-der">🧮 our sum</span> is a figure this
-    archive calculated itself, linked to its method. Boxes and sections marked **Analysis** are interpretation,
-    kept separate from what the documents say. [How to use this research](about.md#how-to-use-this-research).
+<details class="info" markdown>
+<summary>How to read this site</summary>
+
+Every claim links to where it comes from:
+<span class="cite cite-src">📄 p.N</span> is a state or legislative document, opened at the cited page;
+<span class="cite cite-news">📰 Outlet</span> is a news report; <span class="cite cite-pps">🏫 PPS archive</span>
+is the Portland Public Schools research archive; <span class="cite cite-der">🧮 our sum</span> is a figure this
+archive calculated itself, linked to its method. Boxes and sections marked **Analysis** are interpretation,
+kept separate from what the documents say. [How to use this research](about.md#how-to-use-this-research).
+
+</details>
 
 """
+
+
+def coming_up(ctx, n=2):
+    """The next n dated rows of timeline.md, so the landing page shows what's ahead."""
+    today = datetime.date.today().isoformat()
+    rows = [r for r in re.findall(r"^\| (\d{4}-\d{2}-\d{2})(?: to \d{2}-(\d{2}))? \| ([^|]+) \| ([^|]*) \|$",
+                                  open(os.path.join(ANALYSIS, "timeline.md"), encoding="utf-8").read(), re.M)
+            if r[0] >= today][:n]
+
+    def day(start, end):
+        d = datetime.date.fromisoformat(start)
+        return f"{d:%b} {d.day}" + (f"-{int(end)}" if end else "") + f", {d.year}"
+
+    items = "".join(f"<li><strong>{day(d, end)}:</strong> {esc(e.strip())} {cites(c, ctx)}</li>"
+                    for d, end, e, c in rows)
+    return f'<div class="coming-up"><p class="coming-up-title">Coming up</p><ul>{items}</ul></div>\n\n' if rows else ""
+
+
+def landing(md, ctx):
+    """Overview: the opening paragraph as a lead, what's coming up, the aims as cards, then the reading guide."""
+    md = re.sub(r"^(# .*\n\n)(.+)\n\n", lambda m: f'{m.group(1)}<p class="lead">{m.group(2)}</p>\n\n' + coming_up(ctx),
+                md, count=1)
+    md = re.sub(r"^((?:- .*\n)+)", lambda m: f'<div class="grid cards" markdown>\n\n{m.group(1)}\n</div>\n',
+                md, count=1, flags=re.M)
+    md = re.sub(r"^## ", lambda m: INTRO + "## ", md, count=1, flags=re.M)
+    upd = open(os.path.join(ANALYSIS, "updates.md"), encoding="utf-8").read()
+    latest = "".join(re.findall(r"^- .*\n(?:  .*\n)*", upd, re.M)[:3])
+    md, n = re.subn(r"<!-- site: latest updates -->\n.*\n", lambda m: file_refs(latest, "index.md", "updates.md")
+                    + "\n[All updates](updates.md)\n", md)
+    assert n == 1, "OVERVIEW.md lost its '<!-- site: latest updates -->' marker"
+    return md
 
 
 def read_csv(rel):
@@ -511,6 +548,8 @@ PAGE_META = {
                   "K-12 funding from Gov. Tina Kotek and the Oregon legislators who write the school budget."),
     "promises.md": ("Oregon school goals and mandates tracker", "Gov. Kotek's and the state's K-12 goals and mandates "
                     "(instructional time, SB 141 targets and more), and whether money was attached to each."),
+    "updates.md": ("What's new in the Oregon K-12 funding archive", "New research and data in the Oregon K-12 "
+                   "funding archive, newest first: analysis, documents and figures added, each linked."),
     "timeline.md": ("Oregon K-12 funding timeline", "Dated events in Oregon school funding: budgets, revenue "
                     "forecasts, Quality Education Model reports, executive orders and the 2027-29 budget process."),
     "who-decides.md": ("Who decides Oregon's K-12 budget", "The Oregon legislators who write the school budget: Ways "

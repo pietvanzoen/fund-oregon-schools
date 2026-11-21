@@ -1,10 +1,10 @@
 # Oregon K-12 funding: the research archive
 
-Primary documents and cited analysis on how Oregon funds its public schools, focused on the 2027-29 budget:
+Primary documents and cited analysis on how Oregon funds its public schools, focused on the 2027-29 budget.
 
-- Every fact in one place, traceable to the original document
-- A dated record of what officials have promised and said
-- Easy to check a number before you repeat it
+- 📄 **Traceable:** every fact in one place, linked to the original document
+- 🗣️ **On the record:** a dated record of what officials have promised and said
+- ✅ **Check before you repeat:** look up a number before you use it
 
 It's a research archive that campaigns can use to check facts and build their own materials.
 
@@ -22,6 +22,11 @@ $3.65B more [SRC:ode/qec/2026_qem_report.pdf p.103] [SRC:ode/qec/2026_qem_report
 
 The Education Stability Fund, the state's reserve for education, is projected to hold $1.27B at the end of 2025-27
 [SRC:fiscal/oea/2026-12_forecast.pdf p.41]. See `topics/reserves.md`.
+
+## Latest updates
+
+<!-- site: latest updates -->
+See `updates.md`.
 
 ## Key dates
 

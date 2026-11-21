@@ -7,6 +7,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: "17 9 * * *"  # daily rebuild so the overview's "Coming up" dates stay current
 
 permissions:
   contents: read
