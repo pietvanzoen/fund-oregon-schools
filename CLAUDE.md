@@ -33,12 +33,15 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
      - `legislature/press/` caucus and committee press releases; `legislature/appointments/` committee assignment memos;
        `legislature/social/` legislators' own social media posts, saved by hand (caption text, exact)
      - `legislature/lpro/` Legislative Policy and Research Office reports (e.g. session summaries)
+     - `legislature/ors/` Oregon Revised Statutes chapters; `legislature/constitution/` the Oregon Constitution;
+       `legislature/calendar/` the Legislature's session and interim calendars
      - `ode/` Oregon Department of Education, incl. `ode/qec/` Quality Education Commission reports and minutes,
        `ode/ssf/` State School Fund estimates and transparency reports, `ode/charter/` charter school lists and
        guidance, `ode/legislation/` ODE summaries of enacted legislation
      - `fiscal/oea/` Office of Economic Analysis forecasts; `fiscal/lfo/` Legislative Fiscal Office; `fiscal/lro/` Legislative Revenue Office;
        `fiscal/dor/` Department of Revenue
-     - `reference/` reference works (e.g. Oregon Encyclopedia); prefer a primary source when one exists
+     - `reference/` reference works (e.g. Oregon Encyclopedia) and other agencies' explainers; prefer a primary
+       source when one exists
      - `districts/<district>/` district budget documents; `orgs/<org>/` advocacy and association documents
    - Hearing or meeting video/audio: `[VID:<path under sources/ without extension>@H:MM:SS]`. The `transcribe`
      Action writes a machine transcript next to each media file (`<file>.mp4.txt`, lines `H:MM:SS text`);

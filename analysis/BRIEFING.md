@@ -214,7 +214,11 @@ More: `data/qem_gap.csv`, `data/ssf_history.csv`, `data/reserves.csv`.
 
 - **Dec 1, 2026:** Governor's Recommended Budget [SRC:legislature/ors/ors291.html]. Archive it and the K-12 pages
   (see `RUNBOOK.md`).
-- **2027 session:** start date, committee assignments and the Ways & Means calendar are still to confirm
+- **Jan 19, 2027:** the 2027 session begins, the Tuesday after Martin Luther King Jr. Day
+  [SRC:legislature/ors/ors171.html]. It can run 160 days, to June 27 [SRC:legislature/constitution/oregon-constitution.html]
+  [SRC:reference/2026-09-30_opdc-navigating-2027-session.pdf].
+- **Feb 24 and May 12, 2027:** revenue forecasts (tentative dates) [SRC:fiscal/oea/2027_forecast-calendar.pdf].
+- Committee assignments, the Ways & Means hearing calendar and bill deadlines are still to confirm
   (`open_questions.md`).
 
 Full timeline: `timeline.md`.
