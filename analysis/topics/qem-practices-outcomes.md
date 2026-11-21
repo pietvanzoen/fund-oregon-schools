@@ -96,10 +96,10 @@ and `data/qem_gap.csv`. Decisions this informs: `decisions.md#cost-model-2027`.
   low-income students: a Center for American Progress report, Bruce Baker's review for the Learning Policy Institute,
   and C. Kirabo Jackson's review, which found 12 of 13 multi-state studies show a positive, statistically significant
   link between spending and student performance [SRC:ode/qec/2022_qem_report.pdf p.14].
-- All three are archived: Jackson's review in its public working-paper version, which gives the same 12-of-13 count
-  [SRC:reference/2019-01_jackson_does-school-spending-matter.pdf p.10]; Baker's review
-  [SRC:reference/2017-12_baker_how-money-matters-for-schools.pdf]; and the Center for American Progress report, a
-  policy organization's report, filed under `orgs/` [SRC:orgs/center-for-american-progress/2018-11-13_quality-approach-school-funding.html].
+- Two are archived: Baker's review [SRC:reference/2017-12_baker_how-money-matters-for-schools.pdf] and the Center for
+  American Progress report, a policy organization's report, filed under `orgs/`
+  [SRC:orgs/center-for-american-progress/2018-11-13_quality-approach-school-funding.html]. Jackson's review is cited
+  here through the QEM report: its only public copy is a working paper marked not for quotation or distribution.
   Their own findings, alongside research that finds smaller effects, are for #63.
 - The 2024 report's list of research articles includes Baker, Farrie and Sciarra (2016), "Mind the Gap: 20 Years of
   Progress and Retrenchment in School Funding and Achievement Gaps" (a 2016 research report), alongside studies of class size (Tennessee's Student Teacher
