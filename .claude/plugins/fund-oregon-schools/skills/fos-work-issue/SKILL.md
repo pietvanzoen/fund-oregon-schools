@@ -247,13 +247,26 @@ Then update the issue body so its status is clear at a glance (`gh api -X PATCH 
 - Under each item that isn't fully done, add indented sub-items: what was done (ticked), what's left (unticked)
   with its reason from step 2, and "→ #<issue>" for work handed to Piet.
 - Keep the original wording of each item; add, don't rewrite.
+- Add (or update) a `## Where to find it` section at the end of the body, above the footer, so a reader can go
+  straight to the results once the PR merges:
+  - **On the site**, the pages this PR adds or changes, as fundoregonschools.org links. Each page sits at
+    `https://fundoregonschools.org/<page>/`: `analysis/topics/<name>.md` → `/<name>/`; `BRIEFING.md` →
+    `/briefing/`; `people/<slug>.md` → `/people/<slug>/`; `timeline.md` → `/timeline/`; `promises.csv` →
+    `/promises/`; `people/quotes_all.jsonl` → `/quotes/`; `glossary.csv` → `/glossary/`; the CSVs listed in
+    `FILE_TO_PAGE` in `tools/site_hook.py` → their page there (e.g. `data/qem_gap.csv` → `/numbers/`). Link a
+    BRIEFING section by its heading anchor when one section changed. Note "(live after #<PR> merges)".
+  - **In the repo**, the changed resources that have no page of their own: new or changed `analysis/data/*.csv`
+    and `analysis/derived/*.csv`, the archived sources this PR added (one line per document, by path, linked
+    with `https://github.com/pietvanzoen/fund-oregon-schools/blob/main/<path>`), and any new news records by id.
+  - On a later PR for the same issue, add to the lists rather than replacing them.
 - Label the PR `needs-human` if any finding is disputed or unresolved, any BRIEFING figure changed, or a
   checklist item needs Piet's judgement.
 - Wait for the `check` and `build` checks on the PR. If one fails, fix it and push.
 - If the PR is `Part of #<n>` (the issue stays open after merge), leave `in progress` on until it merges; Piet
   removes it or re-labels the issue `next` or `later` when he merges.
 
-End with a short report: the PR link, one-line summary, the review table's counts, and what's left on the issue.
+End with a short report: the PR link, one-line summary, the review table's counts, the site pages from
+`## Where to find it`, and what's left on the issue.
 
 ## Never
 
