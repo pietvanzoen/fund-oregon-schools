@@ -238,7 +238,7 @@ Full timeline: `timeline.md`.
 | #17 | Special education 11% cap and HB 2953 |
 | #18 | Transportation grant and closures |
 | #19 | English learner and poverty weights |
-| #20 | Online charters: charter contracts and what sponsors keep, an official dollar total, K-8/9-12 split, 2017 audit, 2026 bills |
+| #20 | Online charters: charter contracts and what sponsors keep (#46), an official dollar total (#47) |
 | #21 | Unfunded mandates |
 | #22 | Education Stability Fund: history and bridge proposals |
 | #23 | Statewide inventory of closures and cuts |
