@@ -37,11 +37,12 @@ keep_split = sum(float(r["ode_separate_extended_admw"]) * float(r["sponsor_gpg_p
 est_assume = ("money follows each sponsor's average General Purpose Grant per extended ADMw; mixes state and local "
               "formula revenue; excludes transportation and high-cost disability grants; covers only the 20 charters in "
               "ODE's 2025-26 report")
-keep_assume = ("every contract pays exactly the statutory minimum for a district sponsor; all students K-8 (high end) "
-               "or all 9-12 (low end), because the report has no grade split; ignores the lower special-education "
+keep_common = ("every contract pays exactly the statutory minimum for a district sponsor; ignores the lower special-education "
                "minimums (ORS 338.165(2), which a district and charter may renegotiate case by case under 338.165(4)), which "
                "could let sponsors keep more; the pass-through applies to current-year "
                "ADMw but the estimate uses extended ADMw; " + est_assume)
+keep_assume = ("all students K-8 (high end) or all 9-12 (low end), because the report has no grade split; "
+               + keep_common)
 share_assume = (est_assume + "; the denominator also includes transportation, high-cost disability grants and the "
                 "educator advancement fund, which the numerator leaves out, so the share is understated")
 
@@ -102,7 +103,7 @@ out = [
      "sum over charters of ode_separate_extended_admw x sponsor GPG x (K-8 share x 0.20 + 9-12 share x 0.05)",
      f"{DATA}; {GRADES}; legislature/ors/ors338.html",
      "each school's Oct 1 headcount split by grade stands in for its ADMw split (special education and other weights "
-     "may differ by grade); " + keep_assume),
+     "may differ by grade); " + keep_common),
     ("orca_keep_at_minimum_2025_26", round(next(
         float(r["ode_separate_extended_admw"]) * float(r["sponsor_gpg_per_ext_admw_2025_26"])
         * (k8(r["institution_id"]) * (1 - MIN_PASS_K8) + hs(r["institution_id"]) * (1 - MIN_PASS_HS))
@@ -110,7 +111,7 @@ out = [
      "USD millions", "est", "What Santiam Canyon would keep from Oregon Charter Academy at the statutory minimum",
      "Oregon Charter Academy's ode_separate_extended_admw x Santiam Canyon GPG x (K-8 share x 0.20 + 9-12 share x 0.05)",
      f"{DATA}; {GRADES}; legislature/ors/ors338.html",
-     "Oregon Charter Academy's Oct 1 headcount split by grade stands in for its ADMw split; " + keep_assume),
+     "Oregon Charter Academy's Oct 1 headcount split by grade stands in for its ADMw split; " + keep_common),
     ("scio_gpg_per_current_admw", round(SCIO_GPG / SCIO_ADMW_2025_26), "USD per ADMw", "derived",
      "Scio General Purpose Grant divided by current-year ADMw", "27,800,843.40 / 2,356.76", f"{EST} p.118", ""),
 ]

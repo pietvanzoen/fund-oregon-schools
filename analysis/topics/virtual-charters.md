@@ -1,6 +1,6 @@
 # Online charters: State School Fund money that follows students
 
-Issue #20. Copied values: `data/virtual_charters_2025-26.csv`. Our calculations: `derived/virtual_charters.csv`,
+Issue #20. Copied values: `data/virtual_charters_2025-26.csv` and `data/virtual_charters_grades_2025-26.csv`. Our calculations: `derived/virtual_charters.csv`,
 written by `tools/derive_virtual_charters.py`.
 
 ## What the sources say
@@ -37,8 +37,8 @@ written by `tools/derive_virtual_charters.py`.
 - **No Student Investment Account money.** Virtual charters cannot apply for SIA grants under the Student Success
   Act, and ODE removes their ADMw from their sponsors' SIA allocations; ODE's September 2026 list for 2027-29
   names the virtual charters and their sponsors [SRC:ode/charter/2027-29_sia-virtual-charter-list.pdf p.1].
-- ORS 338.155's history note lists its 1999 enactment and amendments through 2025, the latest being 2021 c.494,
-  2023 c.571 and 2025 c.386 [SRC:legislature/ors/ors338.html].
+- ORS 338.155's history note lists its 1999 enactment and amendments through 2025, the three most recent being
+  2021 c.494, 2023 c.571 and 2025 c.386 [SRC:legislature/ors/ors338.html].
 - **2021 (SB 743, chapter 494).** Added the separate ADMw calculation for a virtual charter when the sponsoring
   district, leaving out the charter, "had a decrease in ADM compared to the previous school year". For the 2021-22
   and 2022-23 school years only, it also set the sponsor's ADMw at the greater of its current or previous year's
@@ -105,10 +105,9 @@ written by `tools/derive_virtual_charters.py`.
 - On Oct 1, 2025 Applegate Valley had 101 students, Jefferson Classical 10 and Stellar Pines 2
   [SRC:ode/enrollment/fallmembershipreport_2025-26.xlsx].
 - ODE's fall membership report gives each school's Oct 1, 2025 enrollment by grade, a headcount, not ADM
-  [SRC:ode/enrollment/fallmembershipreport_2025-26.xlsx]. No archived ODE document splits ADMr or ADMw by grade
-  for virtual charters: the transparency report and the State School Fund estimates give totals only
-  [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.1]
-  [SRC:ode/ssf/2025-26_ssf-estimates_2026-05-01.pdf p.1].
+  [SRC:ode/enrollment/fallmembershipreport_2025-26.xlsx]. The transparency report gives each virtual charter's
+  ADMr and extended ADMw as totals, with no grade breakdown
+  [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.1].
 - Contracts for the three largest, per ODE's list: Baker Web Academy (managed by a non-profit charter management
   organization) began Oct 16, 2024 and runs to June 30, 2032; Oregon Charter Academy June 13, 2024 to June 30,
   2032; Fossil Charter School July 1, 2025 to June 30, 2030 [SRC:ode/charter/2025-26_public-charter-schools.xlsx].
@@ -135,9 +134,15 @@ written by `tools/derive_virtual_charters.py`.
   student present for the week after two check-ins with a teacher, and that this attendance standard is the basis
   for State School Fund payments [SRC:fiscal/sos/2017-30_alternative-and-online-education.pdf p.35].
 - It says the three statewide virtual charters that contracted with for-profit firms were sponsored by small
-  districts that received oversight fees of up to $1 million a year, fees that rise with the schools' enrollment
-  [SRC:fiscal/sos/2017-30_alternative-and-online-education.pdf p.36]
+  districts that received oversight fees of up to $1 million a year, which district officials told the auditors
+  also benefit district students not attending the online schools
+  [SRC:fiscal/sos/2017-30_alternative-and-online-education.pdf p.36]. The fees rise with the schools' enrollment,
+  "providing an incentive for districts to allow the schools to grow"
   [SRC:fiscal/sos/2017-30_alternative-and-online-education.pdf p.37].
+- It found district monitoring varied and was low for two of the three schools; the district with relatively
+  strong oversight had annual outside reviews and used fee revenue to add district staff, in part for oversight
+  [SRC:fiscal/sos/2017-30_alternative-and-online-education.pdf p.37]. ODE generally agreed with the audit's
+  recommendations [SRC:fiscal/sos/2017-30_alternative-and-online-education.pdf p.3].
 - Its recommendations include strengthening "attendance and funding standards for virtual schools" (10) and
   increasing standards for sponsors of statewide and regional virtual charters (15)
   [SRC:fiscal/sos/2017-30_alternative-and-online-education.pdf p.39]
@@ -147,9 +152,6 @@ written by `tools/derive_virtual_charters.py`.
   [SRC:fiscal/sos/2019-12_alternative-and-online-education-follow-up.pdf p.7]. It rated 13 and 15 not
   implemented; ODE said higher sponsor standards "would not be politically viable" in the 2019 session
   [SRC:fiscal/sos/2019-12_alternative-and-online-education-follow-up.pdf p.8].
-- Neither report gives a total of State School Fund dollars paid for virtual charter students
-  [SRC:fiscal/sos/2017-30_alternative-and-online-education.pdf p.36]
-  [SRC:fiscal/sos/2019-12_alternative-and-online-education-follow-up.pdf p.7].
 
 ### What the news reported
 
@@ -278,12 +280,20 @@ sponsor's average rate. It is one year of state plus local formula revenue, not 
   all-high-school bounds, sponsors would keep about $36M at the statutory minimum
   [DER:virtual_charters/sponsor_keep_gradesplit_2025_26], with the same caveats.
 - **Santiam Canyon and Oregon Charter Academy.** At the statutory minimum, with Oregon Charter Academy's grade split, Santiam Canyon would keep about
-  $3.9M a year [DER:virtual_charters/orca_keep_at_minimum_2025_26]. S&P's "about $1.5 million" in recent years is
-  well below that, which suggests the contract pays Oregon Charter Academy more than the minimum. The years differ, and S&P doesn't
+  $3.9M a year [DER:virtual_charters/orca_keep_at_minimum_2025_26]. S&P's "about $1.5 million" in recent years (S&P doesn't
+  say whether that is a yearly or a cumulative figure) is well below that, which suggests the contract pays Oregon Charter Academy more than the minimum. The years differ, and S&P doesn't
   say how it counted, so the contract is still needed to settle it.
-- **Oversight fees.** The 2017 audit's concern was that sponsors' fees grow with enrollment, which gives small
-  districts a reason to let the schools grow. The 2019 follow-up found ODE had not raised sponsor standards. No
-  later status report is archived.
+- **Contract terms.** ODE's list gives Baker Web Academy's contract as Oct 16, 2024 to June 30, 2032, about eight
+  years, while Baker's financial report describes a 10-year agreement renewed annually; a rolling term renewed each
+  year would fit both, but the contract is needed to say. S&P says Santiam Canyon's agreement with Oregon Charter
+  Academy was renewed for seven years starting in 2025, against ODE's start date of June 13, 2024
+  [SRC:districts/santiam-canyon/audit_santiam-canyon-sd-129j.pdf p.1].
+- **Oversight fees.** The 2017 audit tied sponsors' fees to an incentive to let the schools grow, while noting
+  that district officials said the fees also help their other students and that one sponsor used them to pay for
+  oversight. The 2019 follow-up found sponsor standards had not been raised. No later status report is archived.
+- **No official dollar total.** Neither audit gives a total of State School Fund dollars paid for virtual charter
+  students (we read the 2017 report's online-schools section, pp.34–40, and the 2019 follow-up's status table),
+  and no archived ODE document splits virtual charters' ADMr or ADMw by grade.
 - **Nyssa.** If Nyssa's program is not a charter, the ORS 338.155 pass-through minimums would not govern that
   arrangement.
 - **OJP's $11,000.** That is in line with the 2025-26 General Purpose Grant per ADMw ($10,801-$11,397 among virtual
