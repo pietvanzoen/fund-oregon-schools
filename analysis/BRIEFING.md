@@ -163,7 +163,7 @@ More: `data/qem_gap.csv`, `data/ssf_history.csv`, `data/reserves.csv`.
 **On reserves (#22)**
 - **The rules.** Withdrawal from the Education Stability Fund takes a three-fifths vote in each chamber plus either an
   economic trigger or a governor's emergency declaration [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1].
-- **PPS:** $500M to buy down PERS rates statewide [NEWS:NEWS-20261102-opb-1]. Its CFO said this would cut the PPS gap
+- **PPS:** $500M to buy down PERS rates statewide [NEWS:NEWS-20261102-opb-1]. Its chief financial officer said this would cut the PPS gap
   to about $42.7M [NEWS:NEWS-20261116-wweek-1].
 - **Rep. Tammy Carpenter** suggested the fund as a bridge [NEWS:NEWS-20261112-katu-2].
 

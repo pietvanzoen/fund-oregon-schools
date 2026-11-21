@@ -26,4 +26,4 @@
 - Legislative hearing video: Joint Committee on Public Education Appropriation, Ways & Means education subcommittee,
   House and Senate Education (for legislators' on-the-record positions).
 - Budget documents from other large districts (Salem-Keizer, Beaverton, Hillsboro) to show this is statewide.
-- National comparisons: NCES / Census school finance per-pupil data; Education Law Center "Making the Grade".
+- National comparisons: National Center for Education Statistics (NCES) / Census school finance per-pupil data; Education Law Center "Making the Grade".
