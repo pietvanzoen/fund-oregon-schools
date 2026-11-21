@@ -39,11 +39,16 @@ check facts and build their own materials.
 
     > Please set me up using https://raw.githubusercontent.com/pietvanzoen/fund-oregon-schools/main/SETUP.md
 
+- **Have a question the site doesn't answer?** Email it to
+  [hello@fundoregonschools.org](mailto:hello@fundoregonschools.org). Open questions are listed on
+  [What's being decided](decisions.md); we describe who asked, never name them.
 - **Found a gap or a mistake?** [Tell us](#spot-a-mistake-or-have-a-source-to-add).
 
 ## Who runs this
 
-A volunteer group of Oregon public school parents maintains this archive.
+A volunteer group of Oregon public school parents maintains this archive. Our children are in Oregon public schools,
+including Portland Public Schools, so we have a stake in these decisions. That's why every claim links to its source:
+check it rather than take our word for it, and the site records options and positions on all sides of each decision.
 
 Contact: [hello@fundoregonschools.org](mailto:hello@fundoregonschools.org)
 
@@ -51,9 +56,9 @@ Contact: [hello@fundoregonschools.org](mailto:hello@fundoregonschools.org)
 
 - **Primary documents** (budgets, reports, bills, meeting materials) are saved in the archive with a record of where
   and when each was downloaded. See [Sources](sources.md).
-- **The analysis** (briefing, quotes, promises, figures, timeline) cites those documents claim by claim. Every page on
+- **The analysis** (decisions, topics, quotes, promises, figures, timeline) cites those documents claim by claim. Every page on
   this site is built automatically from those files, so it always matches the archive.
-- **Citation links:** <span class="cite cite-src">📄 p.N</span> opens a state or legislative document at the cited page.
+- **Citation links:** <span class="cite cite-src">📄 Title, p.N</span> opens a state or legislative document at the cited page.
   <span class="cite cite-news">📰 Outlet</span> opens a news story. <span class="cite cite-pps">🏫 PPS archive</span>
   opens the Portland Public Schools research archive.
 - <span class="cite cite-der">🧮 our sum</span> and <span class="cite cite-der">🧮 our estimate</span> mark figures

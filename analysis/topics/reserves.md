@@ -22,11 +22,12 @@ None: every figure above is stated in a cited source.
 
 ## Analysis
 
-The reserve route needs both an emergency she has resisted and a supermajority, so it's a weaker
-primary ask than new revenue in her budget. That still holds for a large, general draw. An initial proposal for targeted,
+Any draw needs a three-fifths vote in each chamber and either an economic trigger or an emergency declaration. For a
+2025-27 draw, Kotek said she did not plan at that time to declare an emergency unless the votes were there. Revenue the
+forecast already expects needs neither, though a tax increase also needs three-fifths of each chamber
+[SRC:legislature/constitution/oregon-constitution.html]. That holds for a large, general draw. An initial proposal for targeted,
 one-time PERS relief from a 2025-26 co-chair of the Education Subcommittee (Ruiz, Nov 2026) suggests a narrower draw
 is being discussed, though it rests on one social media post with no amount or bill. It still needs the same vote and
-trigger, and the objection on record from Kotek, Lieber and Sanchez to one-time money for ongoing costs may still apply:
-PERS contributions are an ongoing cost.
-
-To add: whether the 2021 transfer passed as proposed (SB 226's final status), statute text, current and projected balances (LFO), history of past withdrawals with amounts.
+trigger, and the objection on record from Kotek and Lieber to one-time money for ongoing costs may still apply: PERS
+contributions are an ongoing cost. Sanchez's stated objection is mainly timing. Ruiz frames his proposal as relief while longer-term reform is developed
+(`decisions.md#esf-draw-2027-29`).

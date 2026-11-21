@@ -15,18 +15,22 @@ Setup:
 
 ```bash
 cd ~/fund-oregon-schools && git fetch -q origin {{BRANCH}} && git checkout -q FETCH_HEAD
-git diff {{BASE}} -- analysis/ sources/news/ sources/_queue.csv changelog/
+git diff {{BASE}} -- analysis/ sources/news/ sources/_queue.csv
 ```
 
-Read `CLAUDE.md` (the archive's rules) and `analysis/BRIEFING.md` (its main summary) before you start.
+Read `CLAUDE.md` (the archive's rules), `RESEARCH.md` (how research is organized) and `analysis/decisions.md`
+(where each decision stands) before you start.
 
 ## Consistency
 
 For every figure, date, stance and name the diff adds or changes:
 
 1. Search the rest of the archive for the same thing: `python3 tools/search.py "<term>" --kind analysis`,
-   `grep -rn "<figure or key words>" analysis/`. Check `BRIEFING.md`, `OVERVIEW.md`, `analysis/topics/`,
-   `analysis/people/`, `analysis/data/*.csv`, `promises.csv`, `timeline.md`, `open_questions.md`.
+   `grep -rn "<figure or key words>" analysis/`. Check `START.md`, `decisions.md`, the decision CSVs,
+   `analysis/topics/`, `analysis/people/`, `analysis/data/*.csv`, `promises.csv`, `timeline.md`. An answer in
+   `decisions.md` or a stance in `positions.csv` must say what its topic or profile says, citing the same source.
+   Every option in a decision gets the same treatment: the case made for and against it on the record, and no
+   language of asks ("weaker ask", "pushback") for one side only.
 2. Flag any **contradiction**: the same quantity stated differently elsewhere (different amount, year, biennium
    or basis) without saying why they differ.
 3. Flag **superseded figures left behind**: the diff updates a number in one place but an older value is still
@@ -70,7 +74,7 @@ Plain Markdown, in this shape:
 
 | # | Severity | Kind | Where | Finding | Also at |
 |---|---|---|---|---|---|
-| 1 | error | contradiction | analysis/topics/reserves.md:22 | ESF end-of-biennium balance $1.27B | BRIEFING.md:88 says $1.1B (Sept forecast) |
+| 1 | error | contradiction | analysis/topics/reserves.md:22 | ESF end-of-biennium balance $1.27B | decisions.md:30 says $1.1B (Sept forecast) |
 
 Not checked / couldn't check: <list or none>
 ```

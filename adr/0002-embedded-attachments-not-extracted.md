@@ -12,7 +12,7 @@ with three embedded Excel files (likely the data behind its charts).
 
 ## Decision
 Leave embedded files inside their PDFs. The cover email, which lists the Nov 5 → Nov 7 changes, is already
-archived and citable. `analysis/open_questions.md` notes the unarchived draft.
+archived and citable. This record notes the unarchived draft.
 
 ## Options weighed
 - **Leave it** (chosen): no code, no new files. The draft's own pages can't be searched or cited.

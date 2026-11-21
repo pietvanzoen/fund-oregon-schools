@@ -50,7 +50,7 @@ They need a GitHub account. If they don't have one, they can create a free one a
 3. On GitHub's page, sign in if asked and approve access. If GitHub asks which repositories to allow, any choice is fine: the archive is public.
 4. Start a new chat so the connector is picked up, and come back to this setup there (paste the same message again; you'll skip to where they left off).
 
-Check: read `analysis/BRIEFING.md` from pietvanzoen/fund-oregon-schools through the connector and tell them its first heading.
+Check: read `analysis/START.md` from pietvanzoen/fund-oregon-schools through the connector and tell them its first heading.
 
 Guides: https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities and https://support.claude.com/en/articles/10167454-use-the-github-integration
 

@@ -51,8 +51,8 @@ markdown_extensions:
       permalink: true
 
 nav:
-  - Overview: index.md
-  - The briefing: briefing.md
+  - Start here: index.md
+  - What's being decided: decisions.md
   - The numbers: numbers.md
   - What they've said: quotes.md
   - Promises tracker: promises.md
