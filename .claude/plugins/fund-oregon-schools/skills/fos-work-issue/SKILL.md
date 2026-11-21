@@ -137,6 +137,8 @@ Then, as the issue needs:
 - Pledges in `analysis/promises.csv`; dates in `analysis/timeline.md`.
 - Swap NEWS citations for SRC ones wherever the new primary document supports the same claim.
 - Remove answered items from `analysis/open_questions.md`; add new open questions you hit.
+- Add a row to `analysis/glossary.csv` for every abbreviation or term of art you use that isn't there yet
+  (CLAUDE.md rule 11): cited, with a short `tooltip` for acronyms. `check_citations.py` warns on ones it finds.
 - `analysis/BRIEFING.md`: change it only when the new material changes something already there (a figure, a
   date, a stance). Keep the edit minimal and call it out in the PR. Don't add new sections to it. Our own figures
   go in their own sentence, marked "our sum" or "our estimate" with the DER tag.
