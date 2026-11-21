@@ -167,18 +167,18 @@ def page_link(target, from_page):
 
 
 def file_refs(text, from_page, src_file):
-    """`people/kotek.md` -> [Kotek page](people/kotek.md). Resolves relative to the analysis file."""
+    """`people/kotek.md` -> [Kotek page](people/kotek.md); a #section anchor is kept. Resolves relative to the analysis file."""
     base = posixpath.dirname(src_file)
 
     def sub(m):
-        ref = m.group(1)
+        ref, anchor = m.group(1), m.group(2) or ""
         key = posixpath.normpath(posixpath.join(base, ref))
         target = FILE_TO_PAGE.get(key) or FILE_TO_PAGE.get(ref)
         if not target:
             return m.group(0)
-        return f"[{PAGE_TITLES.get(target, ref)}]({page_link(target, from_page)})"
+        return f"[{PAGE_TITLES.get(target, ref)}]({page_link(target, from_page)}{anchor})"
 
-    return re.sub(r"`([\w./-]+\.(?:md|csv|jsonl))`", sub, text)
+    return re.sub(r"`([\w./-]+\.(?:md|csv|jsonl))(#[\w-]+)?`", sub, text)
 
 
 PAGE_TITLES = {
@@ -245,8 +245,6 @@ def from_analysis(page, src, ctx):
     md = cites(md, ctx)
     if page == "index.md":
         md = landing(md, ctx)
-        md, n = re.subn(r"<!-- site: funding chart -->\n(\|.*\n)+", lambda m: funding_chart(ctx) + "\n", md)
-        assert n == 1, "OVERVIEW.md lost its '<!-- site: funding chart -->' marker above the key numbers table"
     return md + footer([f"analysis/{src}"], [f"analysis/{src}"])
 
 
@@ -337,7 +335,7 @@ def bar_chart(bars, title, note_lines=()):
 
 
 def funding_chart(ctx):
-    """The 2027-29 funding benchmarks chart, shown on the overview and the numbers page."""
+    """The 2027-29 funding benchmarks chart on the numbers page."""
     qem = {r["measure"]: r for r in read_csv("data/qem_gap.csv") if r["biennium"] == "2027-29"}
 
     def val(m):
@@ -538,8 +536,8 @@ def abbr_defs():
 # Per-page <title> and meta description (SEO); written as front matter on each generated page.
 # The home page's <title> is the site name, so it only needs a description.
 PAGE_META = {
-    "index.md": (None, "Primary documents and cited analysis on how Oregon funds K-12 public schools: the State "
-                 "School Fund, the Quality Education Model gap and the 2027-29 budget."),
+    "index.md": (None, "Primary documents and cited analysis on Oregon K-12 funding: how much the state spends, "
+                 "how it's shared through the formula, and what it buys, focused on the 2027-29 budget."),
     "briefing.md": ("Oregon 2027-29 K-12 budget briefing", "What the Governor and the 2027 Legislature decide on "
                     "Oregon school funding, how Measures 5 and 50 shaped it, the QEM gap, who stands where, open questions."),
     "numbers.md": ("Oregon school funding numbers, 2027-29", "State School Fund history, Quality Education Model "

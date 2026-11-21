@@ -1,26 +1,12 @@
 # Oregon K-12 funding: the research archive
 
-A research archive on Oregon public school funding, focused on the 2027-29 budget, that campaigns can use to check
-facts and build their own materials.
+A research archive on Oregon K-12 funding that campaigns can use to check facts and build their own materials. It
+covers how much the state spends on public schools, how that money is shared, and what it buys, focused on the
+2027-29 budget.
 
-- 📄 **Traceable:** every fact in one place, linked to the original document
-- 🗣️ **On the record:** a dated record of what officials have promised and said
-- ✅ **Check before you repeat:** look up a number before you use it
-
-## Key numbers for 2027-29
-
-<!-- site: funding chart -->
-| | $B | Source |
-|---|---|---|
-| State School Fund at current service level | 12.56 | [SRC:ode/qec/2026_qem_report.pdf p.103] |
-| Cost of keeping today's services (QEM status quo) | 13.78 | [SRC:ode/qec/2026_qem_report.pdf p.103] |
-| Cost of meeting the state's goals (full QEM) | 16.21 | [SRC:ode/qec/2026_qem_report.pdf p.117] |
-
-Keeping today's services takes $1.22B more than the current service level, and meeting the state's goals takes
-$3.65B more [SRC:ode/qec/2026_qem_report.pdf p.103] [SRC:ode/qec/2026_qem_report.pdf p.117].
-
-The Education Stability Fund, the state's reserve for education, is projected to hold $1.27B at the end of 2025-27
-[SRC:fiscal/oea/2026-12_forecast.pdf p.41]. See `topics/reserves.md`.
+- 💰 **How much:** the State School Fund, the gap to the Quality Education Model, and reserves → `data/qem_gap.csv`
+- ⚖️ **How it's shared:** the funding formula: weights, caps and money that follows students → `BRIEFING.md#g-how-the-money-is-shared-the-formula`
+- 🎯 **What it buys:** results and accountability: outcome targets, and what past increases achieved → `BRIEFING.md#h-what-it-buys-results-and-accountability`
 
 ## Latest updates
 

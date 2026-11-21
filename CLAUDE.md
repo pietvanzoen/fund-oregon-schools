@@ -1,6 +1,7 @@
 # Working conventions for this repository (for Claude agents)
 
-Purpose: a research archive (primary sources + cited analysis) on how Oregon funds K-12 public schools, focused on
+Purpose: a research archive (primary sources + cited analysis) on Oregon K-12 funding: how much the state spends,
+how it's shared (the formula) and what it buys (results and accountability), focused on
 the **2027-29 budget: Gov. Tina Kotek's Recommended Budget and the 2027 Legislature**. It's a data warehouse, not a
 campaign site: no talking points or asks; those are made elsewhere from this data. Core topics: the State School Fund (SSF), the
 Quality Education Model (QEM) and its funding gap, the Governor's Recommended Budget (due Dec 1, 2026), revenue

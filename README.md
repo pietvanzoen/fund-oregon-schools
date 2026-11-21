@@ -1,6 +1,6 @@
 # Oregon K-12 Funding Research
 
-A research archive on how Oregon funds K-12 public schools, focused on the **2027-29 budget** (Gov. Tina Kotek's
+A research archive on Oregon K-12 funding (how much the state spends, how it's shared and what it buys), focused on the **2027-29 budget** (Gov. Tina Kotek's
 Recommended Budget and the 2027 Legislature): primary sources, and analysis that cites them claim by claim.
 
 **Browse it:** <https://fundoregonschools.org>, a readable website built from this repo.
