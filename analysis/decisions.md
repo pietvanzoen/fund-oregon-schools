@@ -5,6 +5,37 @@ stands where and when, and what this archive can answer so far. The tables are b
 files; the text is cited like any analysis. A due date for a decision by the Legislature is the latest the 2027
 session can run. Background: `topics/measures-5-and-50.md` explains why these are state decisions.
 
+**How to read the tables.** Every decision has a baseline; some also have benchmarks or proposals. These labels
+are this site's own.
+
+- **Baseline:** the point of comparison if nobody changes course. For the State School Fund it's the current service
+  level, $12.56B, which covers the State School Fund only, not the state's other money for schools
+  [SRC:ode/qec/2026_qem_report.pdf p.100] [SRC:ode/qec/2026_qem_report.pdf p.103]. For the reserve fund, it's leaving
+  the money in reserve.
+- **Benchmark:** another figure to compare against, such as the 2025-27 amount or the Quality Education Commission's
+  estimates of need.
+- **Proposal:** what someone has proposed, who proposed it, when, and how formal it is.
+
+<details class="info" markdown>
+<summary>More on baselines, benchmarks and proposals</summary>
+
+- The current service level is the starting point budget writers use: the Department of Administrative Services'
+  estimate for 2027-29, made by adjusting the last budget's State School Fund spending for inflation and enrollment
+  [SRC:ode/qec/2026_qem_report.pdf p.100].
+- The Quality Education Commission's report uses "baseline" differently, for its full model
+  [SRC:ode/qec/2026_qem_report.pdf p.117].
+- For the cost model and the formula, the baseline is keeping them as they are.
+- The Commission's estimates for 2027-29 are $13.78B to keep 2025-27 service levels and $16.21B to meet the state's
+  goals [SRC:ode/qec/2026_qem_report.pdf p.117]. Both count state money beyond the State School Fund, so compare them
+  with each other, not with the current service level.
+- A proposal's formality is one of: a law, a bill, a request, a platform, a statement or a social post.
+
+</details>
+
+Analysis: the choice of baseline matters. Whether the current service level keeps all of today's services is an open
+question (`questions.csv`, "csl-meaning"); the Commission counts about $1.2B of other state money on top of it for
+its status quo estimate [SRC:ode/qec/2026_qem_report.pdf p.103].
+
 ## The Governor's recommended budget for 2027-29 {#grb-2027-29}
 
 - State law sets Dec 1 of even-numbered years for a governor continuing in office to submit a budget

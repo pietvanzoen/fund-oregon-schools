@@ -16,3 +16,4 @@ date,text,page,pr
 2026-11-21,"A new Questions page lists what readers have asked, what's answered so far and what's still open, and the menu now groups the reference pages.",questions.csv,84
 2026-11-21,"Each open question on the Questions page now links to the issue where the research is happening.",questions.csv,88
 2026-11-21,"What full funding is meant to buy: the Quality Education Commission's model schools and staffing, its assumption that full funding would bring graduation to 90%, the evidence and research it cites, outside critiques, and its fallback options if the full amount isn't funded.",topics/qem-practices-outcomes.md,80
+2026-11-21,"The What's being decided page now explains, in plain words, what a baseline, a benchmark and a proposal are.",decisions.md,89
