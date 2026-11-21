@@ -62,6 +62,28 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
     reported as "verify after fetch", not guessed. The session verifies each finding against the source before fixing
     it, and the PR description says what the fact-check found and what changed.
 
+## Writing code (tools/, workflows, site build)
+Least new code that fully does the job; adapted from the ponytail rules
+(github.com/DietrichGebert/ponytail). Lazy about the solution, never about the scope.
+
+- **Before writing:** read the affected code and list everywhere the change must reach: callers, tests, the
+  workflows, `site_hook.py` and `mkdocs.yml`, both skills and the reviewer prompts, CLAUDE.md, README, RUNBOOK.
+- **Pick the first option that fully works, in this order:** skip it (say so in one line); reuse what's in
+  `tools/` (`common.py`, `check_citations.py`, the existing patterns); the Python standard library; a one-liner a
+  reader gets at a glance; otherwise the minimum code. Tools stay stdlib-only: no new dependencies, and no
+  framework for tests.
+- **No unrequested extras:** no abstractions, wrappers, options, config or "for later" code. Deleting beats adding.
+  Prefer extending an existing script over a new one.
+- **Comments** say only the why the code can't show, in one line.
+- **Bugs:** grep all callers first, then fix the cause in shared code.
+- **Keep** validation and error handling when moving or merging code.
+- **Tests:** anything with branches, loops, parsing, money figures or a new script gets an assert-based case in
+  `tools/test_tools.py` (plain `assert`, run by CI). Trivial changes don't.
+- **Known limits** go in a comment: `shortcut: <the limit>, <when to upgrade>`.
+- **Never cut:** the rules above about `sources/` (keep originals, provenance), citation and quote checks,
+  secrets and access handling, accessibility of the site, or anything Piet asked for.
+- **PR description ends with** one or two lines: what was skipped or left unchecked, and any risk to know about.
+
 ## Key files
 - `sources/_queue.csv` — what to fetch (url, path, title, date, kind, notes)
 - `sources/_manifest.jsonl` — what was fetched (path, url, final_url, fetched_at, sha256, bytes, content_type)
