@@ -28,7 +28,8 @@ Budget for 2027-29 in December [NEWS:NEWS-2026-salemreporter-1].
 ## On online schools
 - In a statement to the Oregon Journalism Project, published Nov 3, 2026, Kotek said she "is actively reviewing the
   state's current approach to virtual education" and "is concerned about how public dollars are distributed and what
-  accountability measures are in place" [NEWS:NEWS-20261103-wweek-1]. As of Nov 20, 2026, no proposal from
+  accountability measures are in place" [NEWS:NEWS-20261103-wweek-1].
+- Analysis: as of Nov 20, 2026, no proposal from
   her on virtual schools is in the archive; see `topics/virtual-charters.md`.
 
 ## On the Education Stability Fund

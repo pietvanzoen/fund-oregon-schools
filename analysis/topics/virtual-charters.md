@@ -18,8 +18,9 @@ written by `tools/derive_virtual_charters.py`.
   agree on more [SRC:legislature/ors/ors338.html] (ORS 338.155(2), (7)). For charters sponsored by the State Board the
   minimum is 90% (K-8) and 95% (9-12), and the district must send half of the unpaid portion to ODE
   [SRC:legislature/ors/ors338.html] (ORS 338.155(3), (5)). For students eligible for special education, the payment
-  per ADMw attributable to the student must be at least 40% (K-8) or 47.5% (9-12) of the grant
-  [SRC:legislature/ors/ors338.html] (ORS 338.165(2)).
+  per ADMw attributable to the student must be at least 40% (K-8) or 47.5% (9-12) of the grant, unless the district
+  and the charter negotiate an alternative distribution case by case; the district in which the charter is located
+  identifies, evaluates and serves those students [SRC:legislature/ors/ors338.html] (ORS 338.165(1), (2), (4)).
 - **Poverty weight is borrowed from the sponsor.** A charter's ADMw assumes the same share of children in poverty
   as the district where it is located [SRC:legislature/ors/ors338.html] (ORS 338.157).
 - **Separate calculation for shrinking sponsors.** If a sponsoring district's own enrollment (leaving out the
@@ -102,7 +103,7 @@ written by `tools/derive_virtual_charters.py`.
   [SRC:legislature/bills/2025R1_HB2144_overview.html] [SRC:legislature/bills/2025R1_SB562_overview.html]
   [SRC:legislature/bills/2025R1_SB633_overview.html] [SRC:legislature/bills/2025R1_SB647_overview.html].
 
-- **HB 3444** (sponsored by Rep. Wright; Boomer Wright in `people/legislators.csv`): As introduced: raise the minimum pass-through to 95% for non-virtual charters only (virtual charters stay at 80% K-8 / 95% 9-12), loosen SIA eligibility for non-virtual charters only, let sponsors keep unpaid amounts but require them to be spent on charter administration, and entitle charters to local, state and federal moneys and transportation grants on the same basis as district schools. The -1 and -2 amendments would have set 95% for all charters, virtual included, and opened SIA grants to virtual charters. The staff summary lists a House Education meeting on Mar 12, 2025. [SRC:legislature/bills/2025R1_HB3444_introduced.pdf p.1] [SRC:legislature/olis/2025R1/294106_hb3444-staff-measure-summary.pdf p.1] [SRC:legislature/bills/2025R1_HB3444_overview.html]
+- **HB 3444** (sponsored by Rep. Wright): As introduced: raise the minimum pass-through to 95% for non-virtual charters only (virtual charters stay at 80% K-8 / 95% 9-12), loosen SIA eligibility for non-virtual charters only, let sponsors keep unpaid amounts but require them to be spent on charter administration, and entitle charters to local, state and federal moneys and transportation grants on the same basis as district schools, except that virtual charters get no share of local revenues. The -1 and -2 amendments would have set 95% for all charters, virtual included, and opened SIA grants to virtual charters. The staff summary lists a House Education meeting on Mar 12, 2025. [SRC:legislature/bills/2025R1_HB3444_introduced.pdf p.1] [SRC:legislature/olis/2025R1/294106_hb3444-staff-measure-summary.pdf p.1] [SRC:legislature/bills/2025R1_HB3444_overview.html]
 - **HB 2583** (sponsored by Rep. McIntire): Make virtual charters without a for-profit operator eligible for SIA grants; the -1 amendment would have opened SIA to all virtual charters that meet the demographic tests. The staff summary lists House Education meetings on Apr 2 and Apr 7, 2025. [SRC:legislature/bills/2025R1_HB2583_introduced.pdf p.1] [SRC:legislature/olis/2025R1/297340_hb2583-staff-measure-summary.pdf p.1] [SRC:legislature/bills/2025R1_HB2583_overview.html]
 - **HB 2144** (sponsored by Rep. McIntire): Change timelines for the 3% rule; have ODE collect virtual charter enrollment data for districts' calculations. [SRC:legislature/bills/2025R1_HB2144_introduced.pdf p.1] [SRC:legislature/bills/2025R1_HB2144_overview.html]
 - **SB 562** (sponsored by Sen. Anderson): Remove the 3% approval rule. [SRC:legislature/bills/2025R1_SB562_introduced.pdf p.1] [SRC:legislature/bills/2025R1_SB562_overview.html]
@@ -112,8 +113,12 @@ written by `tools/derive_virtual_charters.py`.
 - The Legislature's 2025 education session summary marks HB 3444 and HB 2583 as not enacted
   [SRC:legislature/lpro/2025_education-legislative-summary.pdf p.12]
   [SRC:legislature/lpro/2025_education-legislative-summary.pdf p.1].
-- 2026 session: ODE's summary of enacted 2026 education legislation mentions no charter or virtual school bill
-  [SRC:ode/legislation/2026_summary-enacted-education-legislation.pdf p.1].
+- 2026 session: ODE's summary of enacted 2026 education legislation, searched across all 11 pages for "charter",
+  "virtual" and "online", mentions no charter or virtual school bill
+  [SRC:ode/legislation/2026_summary-enacted-education-legislation.pdf p.1] (cover page cited; the claim covers the
+  whole document).
+- The same LPRO page lists HB 3953 as enacted under "K-12: Charter Schools": federally recognized Tribes may apply to
+  the State Board to sponsor a charter school [SRC:legislature/lpro/2025_education-legislative-summary.pdf p.12].
 
 ## Derived figures
 
@@ -183,7 +188,9 @@ sponsor's average rate. It is one year of state plus local formula revenue, not 
   roughly $13M [DER:virtual_charters/sponsor_keep_min_2025_26] to $51M
   [DER:virtual_charters/sponsor_keep_max_2025_26]. Contracts may pay more than the minimum, which would lower
   that; the pass-through applies to current-year ADMw while the estimate uses extended ADMw, which could raise it a
-  little; and the lower special-education minimums (ORS 338.165) mean sponsors could keep more than the high end.
+  little; and the lower special-education minimums (ORS 338.165) mean sponsors could keep more than the high end, though
+  that part comes with the sponsor's duty to identify and serve those students, and the two sides may negotiate a
+  different split.
 - **Nyssa.** If Nyssa's program is not a charter, the ORS 338.155 pass-through minimums would not govern that
   arrangement.
 - **OJP's $11,000.** That is in line with the 2025-26 General Purpose Grant per ADMw ($10,801-$11,397 among virtual
@@ -191,6 +198,9 @@ sponsor's average rate. It is one year of state plus local formula revenue, not 
   see (a)-(d) below.
 - **Kotek.** As of Nov 20, 2026, no proposal from her on virtual schools is in the archive; her 2027-29 budget is
   due Dec 1 (see `BRIEFING.md`).
+- **HB 3953** is about who may sponsor a charter, not about virtual charters or their funding, so it is left out
+  of the bill list above. HB 3444's sponsor is presumably Rep. Boomer Wright in `people/legislators.csv`; the
+  bill gives only "Representative WRIGHT".
 - **The bills.** Counting HB 3444's amendments, five of the six 2025 bills would have widened access to or funding for virtual charters; HB 2144
   would have changed how the 3% rule is administered and had ODE collect the enrollment data. Three would have
   loosened the 3% rule. HB 2583 would have opened Student Investment Account grants to some or all virtual

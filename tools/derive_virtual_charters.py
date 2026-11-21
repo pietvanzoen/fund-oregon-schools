@@ -29,7 +29,8 @@ est_assume = ("money follows each sponsor's average General Purpose Grant per ex
               "ODE's 2025-26 report")
 keep_assume = ("every contract pays exactly the statutory minimum for a district sponsor; all students K-8 (high end) "
                "or all 9-12 (low end), because the report has no grade split; ignores the lower special-education "
-               "minimums (ORS 338.165), which could let sponsors keep more; the pass-through applies to current-year "
+               "minimums (ORS 338.165(2), which a district and charter may renegotiate case by case under 338.165(4)), which "
+               "could let sponsors keep more; the pass-through applies to current-year "
                "ADMw but the estimate uses extended ADMw; " + est_assume)
 share_assume = (est_assume + "; the denominator also includes transportation, high-cost disability grants and the "
                 "educator advancement fund, which the numerator leaves out, so the share is understated")
