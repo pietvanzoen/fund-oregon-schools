@@ -152,7 +152,7 @@ More: `data/qem_gap.csv`, `data/ssf_history.csv`, `data/reserves.csv`.
 - **Sen. Lew Frederick** expects significant QEM changes in 2027 [NEWS:NEWS-20260617-occ-1].
 - 2027 committee assignments are still to come; see `open_questions.md`.
 
-## (f) Proposals and asks on the table
+## (f) Proposals and requests on the table
 
 **On the amount**
 - PPS Board: fund at least the CSL [PPSARCH:BB:14673756 p.1].
