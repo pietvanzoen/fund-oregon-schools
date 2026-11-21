@@ -36,11 +36,11 @@ spells his name "Ricky".) His 2027 committee roles aren't announced yet (as of N
   [NEWS:NEWS-20260510-wweek-1].
 
 ## Analysis
-- The JPEA finding is a weak point for the campaign: the Legislature's own sufficiency report, under his
-  co-chairmanship, says 2025-27 met the QEM. Expect it as an answer to "fully fund schools." The 2026 QEM report
-  (status quo $13.78B for 2027-29) is the counter: the 2025-27 match doesn't carry into 2027-29 (see BRIEFING).
-- He wants a different yardstick for "adequate," not necessarily less money. Talking points should ask what number
-  he'd fund to in 2027-29 while the QEM is replaced.
+- The JPEA's sufficiency report, under his co-chairmanship, says 2025-27 met the QEM. It compares 2025-27 funding with
+  the 2024 QEM; the 2026 QEM (status quo $13.78B for 2027-29) sets a new bar, so the 2025-27 finding doesn't carry
+  into 2027-29 (see `BRIEFING.md`).
+- He wants a different yardstick for "adequate," not necessarily less money. Open question: what level he'd fund to
+  in 2027-29 while the QEM is under review.
 
 ## To add
 - Subcommittee hearing video on SB 5516 (2025) and SB 1555 testimony (2026).

@@ -1,7 +1,8 @@
 # Working conventions for this repository (for Claude agents)
 
-Purpose: source archive + cited analysis for a parent campaign asking **Gov. Tina Kotek and the 2027 Oregon
-Legislature to fund K-12 public schools in the 2027-29 budget**. Core topics: the State School Fund (SSF), the
+Purpose: a research archive (primary sources + cited analysis) on how Oregon funds K-12 public schools, focused on
+the **2027-29 budget: Gov. Tina Kotek's Recommended Budget and the 2027 Legislature**. It's a data warehouse, not a
+campaign site: no talking points or asks; those are made elsewhere from this data. Core topics: the State School Fund (SSF), the
 Quality Education Model (QEM) and its funding gap, the Governor's Recommended Budget (due Dec 1, 2026), revenue
 forecasts and reserves (Education Stability Fund, Rainy Day Fund), what Kotek and key legislators have promised
 or said, and how district budget gaps (PPS and others) connect to state decisions.
@@ -13,7 +14,8 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
 - **Answering questions:** follow `.claude/skills/fund-oregon-research/SKILL.md`. Answer from what's in the repo.
 - **Adding sources:** follow `RUNBOOK.md`. In short: add a row to `sources/_queue.csv`; the `fetch-sources`
   GitHub Action downloads it (cloud sandboxes usually can't reach oregon.gov or the Legislature's site).
-- **The campaign position:** `analysis/BRIEFING.md`.
+- **Overview of the decision:** `analysis/BRIEFING.md` (decision briefing). `analysis/OVERVIEW.md` is the website's
+  short home page.
 
 ## Rules
 1. `sources/` is primary material. Never edit or paraphrase into it. Add files only through
