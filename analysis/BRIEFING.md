@@ -152,8 +152,8 @@ More: `data/qem_gap.csv`, `data/ssf_history.csv`, `data/reserves.csv`.
 
 **Formula questions still to research** (how the SSF is divided among districts)
 - **Special education cap.** The formula adds weight for students on an IEP only up to 11% of a district's enrollment
-  without state approval [SRC:legislature/ors/ors327.html]. HB 2953 (2025) dealt with the cap; its content and
-  status are still to confirm [SRC:legislature/bills/2025R1_HB2953_introduced.pdf] (#17).
+  without state approval [SRC:legislature/ors/ors327.html]. HB 2953 (2025) as introduced would remove the cap
+  [SRC:legislature/bills/2025R1_HB2953_introduced.pdf p.1]; its final status is still to confirm (#17).
 - **Transportation.** The state reimburses an approved share of district transportation costs
   [SRC:legislature/ors/ors327.html]; how closures change those costs is unresearched (#18).
 - **English learner and poverty weights** (#19).
