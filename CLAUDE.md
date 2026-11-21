@@ -18,6 +18,8 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
   GitHub Action downloads it (cloud sandboxes usually can't reach oregon.gov or the Legislature's site).
 - **Working a research issue end to end:** follow `.claude/plugins/fund-oregon-schools/skills/fos-work-issue/SKILL.md` (queue → fetch on the
   issue branch → analysis → two independent reviewers → PR; Piet merges).
+- **What to work on next:** `RESEARCH.md`: the core questions, the checks an issue passes before it's labelled
+  `next`, and how to write so the analysis gets used.
 - **Why things are the way they are:** `decisions/` (one record per choice, including choices not to do
   something). Read the relevant ones before changing `tools/`, workflows or how `sources/` is stored; add one when
   you weigh options and pick one (template in `decisions/README.md`).

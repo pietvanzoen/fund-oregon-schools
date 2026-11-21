@@ -69,7 +69,8 @@ git checkout main && git pull -q
 git checkout -b claude/issue-<n>-<short-slug>
 ```
 
-Read the issue and its comments, then `analysis/BRIEFING.md`, `analysis/open_questions.md` and any topic,
+Read the issue and its comments, then `RESEARCH.md` (note which core question the issue serves; if none, say so
+in the PR), `analysis/BRIEFING.md`, `analysis/open_questions.md` and any topic,
 people or data files the issue names. Sort the issue's checklist into three groups and keep the list in your
 task list:
 
@@ -275,7 +276,8 @@ gh api repos/pietvanzoen/fund-oregon-schools/pulls -f title="<plain title> (#<n>
 
 PR body, in this order:
 
-1. **Summary**: two or three plain sentences on what the archive now knows that it didn't.
+1. **Summary**: two or three plain sentences on what the archive now knows that it didn't, and which core
+   question in `RESEARCH.md` it moves (by number).
 2. **Issue**: `Closes #<n>` (and `Closes #<parent>` if this is the parent's last open sub-issue). Never
    `Part of #<n>`: anything unfinished has moved to its own issue (step 2).
 3. **Sources added**: each document, its path, and whether it fetched cleanly.

@@ -38,3 +38,5 @@ The concrete signal that should reopen this.
 | [0004](0004-fetch-bot-pushes-with-deploy-key.md) | The fetch-sources bot pushes with a deploy key |
 | [0005](0005-no-test-framework-for-now.md) | Tests are plain asserts in one script, no framework, for now |
 | [0006](0006-whats-new-from-a-csv.md) | What's new is a CSV with a PR column, checked in CI, not built from commits |
+| [0007](0007-research-driven-by-core-questions.md) | Research is chosen by a short list of core questions tied to decision dates |
+| [0008](0008-topic-files-open-with-short-answer.md) | Topic files open with the question they answer and a short answer (proposed) |
