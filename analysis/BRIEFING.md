@@ -86,10 +86,11 @@ is tracked as GitHub issues, shown as (#16) and so on.
 - SB 141 statewide performance growth targets for the common metrics, adopted by the State Board on Apr 28, 2026,
   for 2029-30, e.g. 8th-grade math from 28.9% to 52.0%
   [SRC:ode/accountability/2026-05_statewide-performance-growth-targets.pdf p.1]. Fielding questions about funding, ODE
-  Director Charlene Williams said meeting the targets "does not require new dollars"; a board member and a board
-  adviser voiced doubts about meeting them without more money [NEWS:NEWS-20260429-oregonian-1]. The Quality Education Commission's 2026 report offers, as an
-  alternative if the full QEM isn't funded, more funding for programs aimed at the SB 141 metrics
-  [SRC:ode/qec/2026_qem_report.pdf p.110].
+  Director Charlene Williams said meeting the targets "does not require new dollars", framing the work as districts
+  using or redirecting the resources they have; a board member and a board adviser voiced doubts about meeting them
+  without more money, and the board then voted unanimously [NEWS:NEWS-20260429-oregonian-1]. The Quality Education
+  Commission's 2026 report offers, as an alternative if the full QEM isn't funded, more funding for programs aimed at
+  the SB 141 metrics [SRC:ode/qec/2026_qem_report.pdf p.110].
 
 **The 2026 QEM and district pressure**
 - The 2026 QEM report sets the 2027-29 benchmarks in section (d) [SRC:ode/qec/2026_qem_report.pdf p.103].
