@@ -66,6 +66,8 @@ its status quo estimate [SRC:ode/qec/2026_qem_report.pdf p.103].
   other state money too, so the like-for-like gap between the two model scenarios is the status quo to the full
   model. See `topics/quality-education-model.md`.
 
+<!-- site: funding chart -->
+
 <!-- site: decision ssf-2027-29 -->
 
 ## Drawing on the Education Stability Fund in 2027-29 {#esf-draw-2027-29}
