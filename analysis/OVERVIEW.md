@@ -6,7 +6,7 @@ covers how much the state spends on public schools, how that money is shared, an
 
 - 💰 **How much:** the State School Fund, the gap to the Quality Education Model, and reserves → `data/qem_gap.csv`
 - ⚖️ **How it's shared:** the funding formula: weights, caps and money that follows students → `BRIEFING.md#g-how-the-money-is-shared-the-formula`
-- 🎯 **What it buys:** results and accountability: outcome targets, and what past increases achieved → `BRIEFING.md#h-what-it-buys-results-and-accountability`
+- 🎯 **What it buys:** results and accountability: outcome targets, and what past increases achieved (research starting) → `BRIEFING.md#h-what-it-buys-results-and-accountability`
 
 ## Latest updates
 

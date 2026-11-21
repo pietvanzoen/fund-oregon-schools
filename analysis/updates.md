@@ -4,7 +4,7 @@ New research and data in this archive, newest first. Each entry says what change
 
 - **Nov 21, 2026:** The archive's scope now names three questions: how much the state spends, how it's shared
   (the funding formula) and what it buys (results and accountability). The briefing has new sections on the formula
-  and on results, and four new research issues cover what past funding achieved. → `BRIEFING.md`
+  and on results, and four new research issues cover results and accountability. → `BRIEFING.md`
 - **Nov 21, 2026:** Upcoming dates for the 2027 session: committee days, the session's start and end, revenue
   forecasts and the start of the 2027-29 budget period. → `timeline.md`
 - **Nov 21, 2026:** Rep. Ricki Ruiz's November 2026 proposals on reserves and a new school cost model. → `people/ruiz.md`

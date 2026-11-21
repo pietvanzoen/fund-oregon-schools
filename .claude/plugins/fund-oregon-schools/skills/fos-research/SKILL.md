@@ -1,6 +1,6 @@
 ---
 name: fos-research
-description: Answer questions about Oregon K-12 school funding for the 2027-29 budget (State School Fund, Quality Education Model gap, Gov. Kotek's promises and budget, revenue forecasts, Education Stability Fund, legislators' positions) from this repository's archived sources, citing every claim. Use whenever working in the fund-oregon-schools repo or asked about Oregon state school funding or Kotek's education record.
+description: Answer questions about Oregon K-12 school funding for the 2027-29 budget (State School Fund, Quality Education Model gap, Gov. Kotek's promises and budget, revenue forecasts, Education Stability Fund, legislators' positions, the funding formula, and results and accountability) from this repository's archived sources, citing every claim. Use whenever working in the fund-oregon-schools repo or asked about Oregon state school funding or Kotek's education record.
 ---
 
 # Oregon school funding archive: answering questions

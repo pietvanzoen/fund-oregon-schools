@@ -196,9 +196,11 @@ are still to research.
 The archive so far covers mostly how much is spent. What the money buys is the least-researched part.
 
 - **What the state now measures.** SB 141 statewide performance growth targets set goals for 2029-30
-  [SRC:ode/accountability/2026-05_statewide-performance-growth-targets.pdf p.1]; ODE's director said meeting them
-  "does not require new dollars" [NEWS:NEWS-20260429-oregonian-1]. More in section (c); what happens when targets
-  are missed is still to research (#60).
+  [SRC:ode/accountability/2026-05_statewide-performance-growth-targets.pdf p.1]. ODE Director Charlene Williams
+  framed meeting them as districts using or redirecting the resources they have; a board member and a board adviser
+  doubted that would be enough [NEWS:NEWS-20260429-oregonian-1] (section c). Under SB 141, state help and oversight
+  step up for districts that show no progress [NEWS:NEWS-20260429-oregonian-1]; the details, and ODE's Dec 2025
+  progress report, are still to work through (#60).
 - **What full funding is meant to buy.** If the full QEM isn't funded, the Quality Education Commission's 2026 report
   offers more funding for programs aimed at the SB 141 metrics [SRC:ode/qec/2026_qem_report.pdf p.110]. How the
   commission links its model to practices and outcomes is still to research (#59).

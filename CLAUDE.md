@@ -6,7 +6,8 @@ the **2027-29 budget: Gov. Tina Kotek's Recommended Budget and the 2027 Legislat
 campaign site: no talking points or asks; those are made elsewhere from this data. Core topics: the State School Fund (SSF), the
 Quality Education Model (QEM) and its funding gap, the Governor's Recommended Budget (due Dec 1, 2026), revenue
 forecasts and reserves (Education Stability Fund, Rainy Day Fund), what Kotek and key legislators have promised
-or said, and how district budget gaps (PPS and others) connect to state decisions.
+or said, how district budget gaps (PPS and others) connect to state decisions, the funding formula, and what the
+money buys (results, the Student Investment Account, SB 141 accountability).
 
 Structure and rules are modeled on the PPS research archive (github.com/timaelliott/save-our-schools). That repo
 has no license, so nothing here copies its code; the tools in `tools/` were written for this repo.
