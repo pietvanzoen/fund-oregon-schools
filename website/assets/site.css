@@ -1,3 +1,10 @@
+/* Headings in Source Serif 4; body text is Atkinson Hyperlegible Next via theme.font.text in mkdocs.yml */
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=fallback");
+
+.md-typeset h1, .md-typeset h2, .md-typeset h3 { font-family: "Source Serif 4", Georgia, serif; }
+.md-typeset h1 { font-weight: 700; color: var(--md-default-fg-color); }
+.md-typeset h2, .md-typeset h3 { font-weight: 600; }
+
 /* Citation chips */
 .cite { display: inline-block; font-size: .72em; line-height: 1.5; padding: 0 .45em; margin: 0 .1em;
   border-radius: 999px; border: 1px solid var(--md-default-fg-color--lightest);
