@@ -1,0 +1,321 @@
+Virtual Public Charter School Enrollment
+School District Guidance
+
+Updated August 2026
+Kate Pattison, Director School Choice, Options, and Recovery Education
+ODE.charterschools@ode.oregon.gov
+
+Virtual Public Charter School Enrollment
+School District Guidance
+Contents
+Introduction .................................................................................................................................................. 3
+Legal References and Definition of “Parent” ................................................................................................ 3
+Requirements for Written Notice of Student’s Intent to Enroll ................................................................... 3
+Students Exempt from District Approval: ................................................................................................. 4
+Requirements when Denying a Student’s Intent to Enroll ........................................................................... 4
+District Policy: ........................................................................................................................................... 4
+Reporting 3% Calculations to ODE ............................................................................................................ 5
+Reasonably available data..................................................................................................................... 5
+Notice of Denial ........................................................................................................................................ 6
+Online Options .......................................................................................................................................... 6
+Examples of acceptable “options” ........................................................................................................ 6
+Examples of what does not qualify as two or more online options ..................................................... 6
+Appeals.......................................................................................................................................................... 7
+Responding to Appeals ............................................................................................................................. 7
+Computation of the 10-day Deadlines ...................................................................................................... 7
+Final Order ................................................................................................................................................ 8
+Conditions that will result in ODE overturning the denial .................................................................... 8
+Conditions that may result in ODE overturning the denial ................................................................... 8
+Reconsideration and Judicial Review ........................................................................................................ 8
+Reconsideration .................................................................................................................................... 8
+Judicial Review ...................................................................................................................................... 8
+
+Oregon Department of Education
+
+2
+
+Introduction
+In 2011, House Bill 2301 gave school districts the option to deny a student’s enrollment in a virtual
+public charter school if more than 3% of the district’s student population was currently enrolled in
+virtual public charter schools located in other districts. When a parent gives the school district notice of
+intent to enroll a student in a virtual public charter school and receives a notice of denial, a parent may
+appeal the decision of a school district to deny a student’s enrollment at a virtual public charter school
+to the Oregon Department of Education (ODE). In 2023, House Bill 3204 adjusted some of the timelines
+and requirements for the process. This guidance has been updated to align with new requirements.
+The purpose of this guidance is to provide support to school district officials responsible for processing
+student enrollment information. Included in the guidance are tools and information that offer clarity
+regarding the requirements and timelines for districts that decide to deny a student’s enrollment in a
+virtual public charter school.
+
+Legal References and Definition of “Parent”
+This guidance is based on the process and requirements from statute and administrative rules. It is
+important for district staff responsible for enrollment procedures to be familiar with these laws.
+•
+•
+•
+
+ORS 338.125
+OAR 581-026-0305
+OAR 581-026-0310
+
+Throughout this guidance, the term “parent” means a parent, legal guardian, or person in parental
+relationship as defined in ORS 339.133.
+
+Requirements for Written Notice of Student’s Intent to Enroll
+A parent must provide notice to the school district in which the parent resides that the parent intends to
+enroll a student in a virtual public charter school. OAR 581-026-0305(1)(a) defines “Notice” as a written
+notice that is mailed, faxed, e-mailed, or personally delivered by the party required to provide the
+notice.
+If a student is attending school in another district through an interdistrict transfer agreement, the
+parent or guardian must still provide notice of intent to enroll in a virtual public charter school to the
+school district where the student physically resides. If the district where the student physically resides
+has reached the 3% virtual charter enrollment limit, that district must approve or deny the enrollment
+request. (ORS 338.125(5)(a-c)).
+Upon receipt of the notice, a district may do nothing further until receiving notice the student is
+enrolled in the virtual public charter school. If the District has more than 3% of resident students
+enrolled in a virtual public charter school not sponsored by the district, the district must provide notice
+to the parent that the district:
+•
+•
+
+Approves the student’s enrollment in the virtual public charter school; or
+Denies the student’s enrollment in the virtual public charter school.
+
+Oregon Department of Education
+
+3
+
+Districts have 10 days to approve or deny enrollment in the virtual public charter school. Districts are
+encouraged to respond to all notices of intent to enroll promptly, to reduce the time a student may be
+between schools.
+
+Date stamp all notices received by mail or personally delivered.
+
+Students Exempt from District Approval:
+When a student moves to a new school district and was previously enrolled in a virtual public charter
+school, the student does not need approval from the new school district to continue enrollment in the
+virtual public charter school. This only applies to students enrolled in a virtual public charter school who
+maintained continuous enrollment in the same school. For students who meet this description, the
+parent does not need to provide notice to the school district when the student moves to the new school
+district since the student’s enrollment status did not change.
+
+Requirements when Denying a Student’s Intent to Enroll
+District Policy:
+If a school district chooses to deny a student for enrollment in a virtual public charter school, the district
+must have a policy that, at a minimum, includes the following:
+(a) The semiannual dates that the school district used to calculate whether or not three percent
+or more of the students who reside within the district are enrolled in a virtual public charter
+school not sponsored by the district.
+(b) The description of the data used by the school district to calculate the number of students
+who reside in the district and the number of students who are enrolled in virtual public charter
+schools not sponsored by the district. A school district is only required to use data that is
+reasonably available to the district including but not limited to:
+(A) The number of students enrolled in the schools of the school district
+(B) The number of students enrolled in public charter schools located in the school
+district (virtual and non-virtual)
+(C) The number of resident students enrolled in virtual public charter schools not
+sponsored by the district
+(D) The number of homeschooled students who reside within the district and who have
+registered with an education service district; and
+(E) The number of students enrolled in private schools located within the school district.
+
+Oregon Department of Education
+
+4
+
+OSBA offers policy services to school districts with a policy aligned with the requirements.
+
+Reporting 3% Calculations to ODE
+The district needs to conduct the 3% calculation at least twice annually and according to the district
+policy. The calculation should be based on data reasonably available to the district and calculated before
+the district denies any enrollments.
+ODE provides a 3% calculation tool using an Excel template, which is required for districts to complete
+and submit to ODE if an appeal has been filed with the Department. The completed template must
+include:
+•
+•
+•
+
+The date on which the district did the calculation;
+A link to the district policy allowing the district to deny enrollment;
+The name and email of the primary person who will be managing the process at the district.
+
+Districts that have notified ODE that the district is at 3% are included on a public list for virtual public
+charter schools to reference. This list includes the district name, a link to the required policy, a summary
+of the data used, and the district’s contact person. Districts that are denying student enrollment in
+virtual public charter schools should update their information with ODE at least twice annually or
+according to the schedule required by district policy. Districts are required to provide this information to
+ODE when an appeal is submitted. The formula for conducting the calculation
+Numerator = C
+Denominator = A + B + C + D + E
+(A) The number of students enrolled in the schools of the school district
+(B) The number of students enrolled in public charter schools located in the school district
+(virtual and non-virtual)
+(C) The number of resident students enrolled in virtual public charter schools not sponsored by
+the school district
+(D) The number of homeschooled students who reside within the district and who have
+registered with an education service district; and
+(E) The number of students enrolled in private schools located within the school district.
+
+Reasonably available data
+A school district must make effort to use accurate data to calculate the percentage of students enrolled
+in virtual public charter schools not sponsored by the district. However, the district is only required to
+use data that is reasonably available. Districts may request information from their education service
+district regarding the number of students who are registered to homeschool. To understand how many
+district students are attending local private schools, the district may request the information directly
+from the private schools, search online, or review school publications. Virtual public charter schools are
+Oregon Department of Education
+
+5
+
+required to send a list of students to each school district in which the student who is enrolled in the
+school resides. The list must be sent monthly when the virtual public charter school is in session. (OAR
+581-026-0305(6)). Districts that are not receiving these lists should contact the virtual public charter
+school directly and request the information.
+
+Notice of Denial
+If the district denies enrollment, the district must notify the parent and the parent must receive the
+notice of the denial within 10 calendar days. The notice of denial must include all of the following:
+1. The most recent percentage of students in the resident district that attend virtual public charter
+schools that are not sponsored by the school district used to determine whether the district
+could deny the student enrollment;
+2. A copy of the full text of OAR 581-026-0305 and OAR 581-026-0310;
+3. A copy of ODE’s Virtual Charter School Enrollment Appeal Process and the Virtual Charter School
+Enrollment Appeal Form;
+4. A list of two or more other online options available to the student.
+
+It is highly recommended that districts send all correspondence via email to ensure there are
+clear date and timestamps. If you do use regular mail, please make sure you mail it by the 7th
+day to ensure the parent has a reasonable opportunity to receive it within 10 days.
+
+Online Options
+OAR 581-026-0305(2)(b) requires a district that denies enrollment to provide the family with a list of two
+or more other online options available to the student. The options must be public and tuition free.
+
+Examples of acceptable “options”
+•
+
+•
+
+A district offers two options within its district online program(s).
+o The student accesses most of the same curriculum but can work with local teachers or
+other teachers; or
+o The student can access a hybrid in-class and online option or a completely virtual
+option.
+A district offers one program that provides a menu of options within the program that can be
+customized for the student:
+o Two different curriculum options; or
+o Ability to learn at their own pace (asynchronous) or in real-time with teachers and other
+classmates (synchronous).
+
+Examples of what does not qualify as two or more online options
+•
+•
+•
+
+A district offers one option for one grade group (e.g. K-5) and another option for other grade
+groups (6-8 or 9-12) with no options for customizing to the student’s academic needs;
+A district offers one option that does not offer two or more curriculum options, or
+A private, tuition-based school or program.
+
+Oregon Department of Education
+
+6
+
+The online options offered by the district do not have to be district-operated schools or
+programs. A district can point to a different charter school, another district program available
+through interdistrict transfer agreement, contract, or any other public option.
+
+Appeals
+A parent may appeal a decision of a school district to deny enrollment of a student in a virtual public
+charter school. All appeals must be filed according to the Process to Appeal a School District Decision to
+Deny Student Enrollment in a Virtual Charter School and using the Appeal Form within 10 days of the
+date the parent received the district denial. The parent must provide a copy of the notice of intent, and
+the district denial with the appeal. Other supporting documents may also be included with the appeal.
+The parent is required to provide a copy of the notice of appeal, and all associated documents, to the
+resident school district within 24 hours of when the parent sent or delivered the appeal to ODE.
+ODE’s electronic appeal system automatically emails the district a copy of the appeal. The copy includes
+the relevant information and includes the “reason for appeal.” Unfortunately, the system is not capable
+of automatically including any supplemental documents. If a parent does not provide copies of all the
+supporting materials to the district, the district may request copies from ODE.
+
+Responding to Appeals
+If a family appeals a district’s denial, the district may file a response with ODE. To be considered by ODE,
+responses must be received within 10 days of the date the district received a copy of the appeal. The
+district is notified and provided an opportunity to respond within 10 days. Responses may be sent via
+email to ode.charterschools@ode.oregon.gov.
+Districts should respond to the specifics of the reason for the appeal because the burden lies with the
+district. If the family is making claims about how the district cannot meet the needs of the student or
+has failed to support the student, the district should provide some narrative or evidence of how the
+district has been responsive and supported the needs of the family. If the issues have never been
+brought to the district’s attention, name that. All of these things will be considered.
+The school district must provide a copy of the district response and any supporting documents to the
+parent, or person in parental relationship.
+
+Computation of the 10-day Deadlines
+ODE relies on ORS 174.120 for the computation of time. Thus, ODE computes all timelines in the rules
+and procedures as calendar days, not business days.
+
+It is highly recommended that districts send all correspondence via email to ensure there are
+clear date and timestamps. If you do use regular mail, please make sure you mail it by the 7th
+day to ensure the parent has a reasonable opportunity to receive it within 10 days.
+
+Oregon Department of Education
+
+7
+
+Final Order
+ODE will issue a final order within 14 days of receiving the notice of appeal from the parent. All final
+orders will be sent via electronic mail to the parent, the school district, and the public charter school.
+
+Conditions that will result in ODE overturning the denial
+•
+•
+•
+•
+
+The school in which the student intends to enroll is not a virtual public charter school.
+The resident school district does not have more than three percent of the resident students of
+the district enrolled in virtual public charter schools not sponsored by the district.
+The district did not provide two or more online options to the student.
+The parent did not receive the notice of disapproval from the district within 10 days of when the
+parent sent the district the notice of intent to enroll.
+
+Conditions that may result in ODE overturning the denial
+ODE may consider the following in deciding whether to uphold or overturn a decision of the school
+district to not approve the enrollment of a student:
+• The health and safety of the student.
+• The student’s educational needs and interests.
+• The availability of other online options to the student.
+• Any other information that ODE deems relevant to the decision.
+
+Reconsideration and Judicial Review
+Either party to the final order may pursue additional appeal rights upon receipt of a virtual public
+charter school enrollment appeal final order.
+
+Reconsideration
+A party to the final order, a district or parent, may request that ODE reconsider the decision in the final
+order. This must be requested within 60 days of the date of the final order and submitted in writing to
+the Director of the Department via email or mail. The most efficient way to request a reconsideration is
+by emailing the formal request to ode.charterschools@ode.oregon.gov. Reconsiderations are processed
+by ODE based on the information provided during the original appeal and any new information
+submitted during the reconsideration. Reconsiderations are typically requested when a party to the
+order thinks there are factual errors or other information that should be considered in making the
+decision that was not included in the finding of facts for the original order.
+When a party requests an order to be reconsidered, the request and any additional information are
+presented to the other party for review and response. Reconsideration orders are typically processed
+within 30 days. Processing time depends on the details of the case and staff availability.
+
+Judicial Review
+A party to the final order, a district or parent, may seek judicial review of the decision in the final order
+under ORS 183.484. This can be initiated by filing a petition for review with the Circuit Court of Marion
+County or the circuit court of the county in which the petitioner resides or has a principal place of
+business. It must be filed within 60 days from the date of service of the final order or an order denying
+your request for reconsideration. Unless a party is representing themselves, it is recommended that you
+work with legal counsel.
+
+Oregon Department of Education
+
+8
+
+

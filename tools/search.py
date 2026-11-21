@@ -6,16 +6,18 @@
     python3 tools/search.py "budget" --kind quote --person Kotek
     python3 tools/search.py '"Education Stability Fund" AND emergency' --json
 
+Machine transcripts of audio/video (<file>.txt) come back one line per hit, as [VID:<path>@H:MM:SS].
 The index lives in .cache/search.sqlite and rebuilds itself when any file is newer than it.
 """
 import argparse
 import json
 import os
+import re
 import sqlite3
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import ANALYSIS, NEWS_INDEX, QUOTES, ROOT, SOURCES, read_jsonl  # noqa: E402
+from common import ANALYSIS, MEDIA, NEWS_INDEX, QUOTES, ROOT, SOURCES, read_jsonl  # noqa: E402
 
 DB = os.path.join(ROOT, ".cache", "search.sqlite")
 
@@ -55,7 +57,14 @@ def build():
             if full.endswith(".txt") and os.path.exists(orig + ".ocr.txt") and not full.endswith(".ocr.txt"):
                 continue  # prefer OCR text when present
             rel = os.path.relpath(orig, SOURCES)
-            pages = open(full, encoding="utf-8", errors="replace").read().split("\f")
+            if rel.lower().endswith(MEDIA):  # transcript: one row per "H:MM:SS text" line, cited as VID
+                # shortcut: a phrase split across two transcript lines isn't found; index runs of lines if that bites
+                for line in open(full, encoding="utf-8", errors="replace"):
+                    ts, _, said = line.strip().partition(" ")
+                    if re.fullmatch(r"\d+:\d\d:\d\d", ts):
+                        rows.append(("src", f"[VID:{os.path.splitext(rel)[0]}@{ts}]", "", "", said))
+                continue
+            pages =open(full, encoding="utf-8", errors="replace").read().split("\f")
             is_pdf = rel.lower().endswith(".pdf")
             for n, pg in enumerate(pages, 1):
                 if pg.strip():

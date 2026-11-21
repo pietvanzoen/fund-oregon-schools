@@ -14,6 +14,7 @@ Warnings also flag a number under "What the sources say" that isn't in the text 
 """
 import argparse
 import csv
+import glob
 import os
 import re
 import sys
@@ -132,7 +133,9 @@ def main():
             errors.append(f"{where}: unknown NEWS id {body.strip()}")
         elif kind == "VID":
             path = body.partition("@")[0].strip()
-            if not any(p.startswith(path) for p in qpaths) and not os.path.exists(os.path.join(SOURCES, path)):
+            # the tag has no extension, so look for the file with any extension (hand-saved, not queued)
+            archived = glob.glob(glob.escape(os.path.join(SOURCES, path)) + ".*")
+            if not any(p.startswith(path) for p in qpaths) and not archived:
                 errors.append(f"{where}: unknown video {path}")
 
     glossary_path = os.path.join(ANALYSIS, "glossary.csv")

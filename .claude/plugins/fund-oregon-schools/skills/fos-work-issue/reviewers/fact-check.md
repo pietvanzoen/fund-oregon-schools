@@ -27,7 +27,9 @@ For each factual sentence, figure, date and quote, open the cited source **at th
 scrambled, render the page (`pdftoppm -f <p> -l <p> -png -r 110 sources/<path> /tmp/p`) and read the image.
 
 1. **Quotes**: word for word, on the cited page, attributed to the right person. For hearing captions, check who
-   was speaking just before. Any changed word is an error.
+   was speaking just before. Any changed word is an error. A quote cited `[VID:...]` rests on a machine
+   transcript (`<file>.mp4.txt`): check the transcript line, and report it as "verify against audio" unless you
+   listened to the recording.
 2. **Figures**: the number, its unit, its year or biennium, and whether it's an actual, an estimate or a
    projection all match the source.
 3. **Claims**: the citation supports the sentence as written, without overstatement ("plans to" vs "has
