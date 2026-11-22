@@ -140,7 +140,16 @@ def main():
 
         # decision files (RESEARCH.md): ids agree across files, a baseline per decision, known statuses
         os.makedirs(f"{root}/analysis/people", exist_ok=True)
-        open(f"{root}/analysis/people/people.csv", "w").write("id,name,source\nkotek,Tina Kotek,[NEWS:NEWS-1]\n")
+        # people.csv area must be on the member page it cites (zero-width spaces ignored); no page, no check
+        os.makedirs(f"{root}/sources/legislature/members")
+        for m in ("doe", "roe"):
+            open(f"{root}/sources/legislature/members/{m}.html", "w").write("x")
+            open(f"{root}/sources/legislature/members/{m}.html.txt", "w").write(
+                "Democrat - District 22 - N/NE\u200b Portland\n")
+        open(f"{root}/analysis/people/people.csv", "w").write(
+            "id,name,area,source\nkotek,Tina Kotek,Statewide,[NEWS:NEWS-1]\n"
+            "doe,Jane Doe,N/NE Portland,[SRC:legislature/members/doe.html]\n"
+            "roe,Ray Roe,North and Northeast Portland,[SRC:legislature/members/roe.html]\n")
         open(f"{root}/analysis/decisions.csv", "w").write(
             "id,decision,decided_by,due,status,related,outcome,outcome_source,source\n"
             "d1,D,Gov,2026-12-01,open,,,,[NEWS:NEWS-1]\nd2,D,Gov,Dec 1,done,zz,,,[NEWS:NEWS-1]\n")
@@ -160,15 +169,18 @@ def main():
                     "decision d2 has no baseline", "options.csv:3: decision nope", "options.csv:3: kind must be",
                     "positions.csv:3: option o9", "actor lieber isn't an id", "positions.csv:3: date must be",
                     "unknown NEWS id NEWS-404", "questions.csv:3: an answered question needs an answer",
-                    "a done decision needs an outcome", "positions.csv:6: replaces must be"):
+                    "a done decision needs an outcome", "positions.csv:6: replaces must be",
+                    "people.csv:4: area 'North and Northeast Portland' isn't on legislature/members/roe.html"):
             assert msg in out, (msg, out)
         assert "Portland Public Schools" not in out and "questions.csv: no 'source'" not in out, out
+        assert "people.csv:2" not in out and "people.csv:3" not in out, out
         r = run(root, "check_citations.py", "--measures")
         assert "1 open, 1 answered" in r.stdout and "d1 (due 2026-12-01): baseline yes" in r.stdout, r.stdout
         assert "proposals none, 4 stances" in r.stdout, r.stdout  # line 2 is replaced by line 5
         for f in ("decisions", "options", "positions", "questions"):
             os.remove(f"{root}/analysis/{f}.csv")
         shutil.rmtree(f"{root}/analysis/people")
+        shutil.rmtree(f"{root}/sources/legislature")
 
         # glossary warning (rule 11): unknown abbreviations warn; glossary terms, "(XYZ)" and tags don't
         open(f"{root}/analysis/glossary.csv", "w").write(

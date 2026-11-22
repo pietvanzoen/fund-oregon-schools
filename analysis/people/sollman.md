@@ -2,7 +2,7 @@
 
 Official page: <https://www.oregonlegislature.gov/sollman>
 
-Democrat, Senate District 15 (Forest Grove, Cornelius, Hillsboro and Rock Creek)
+Democrat, Senate District 15 (Forest Grove, Cornelius, Hillsboro, Rock Creek)
 [SRC:legislature/members/sollman.html]. Senate co-chair of the Ways and Means Subcommittee on Education
 [SRC:legislature/appointments/2026_senate-committee-assignments.pdf p.7] and co-chair of the Joint Committee on Public
 Education Appropriation [SRC:legislature/olis/2025I1/310695_jpea.pdf p.3].

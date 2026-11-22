@@ -14,7 +14,8 @@ Warnings also flag a number under "What the sources say" that isn't in the text 
 analysis/updates.csv (What's new) has its own columns instead of a source: date, text, page, pr.
 The decision files (RESEARCH.md) must agree: every option, position and question names a decision in decisions.csv,
 every decision has a baseline option, statuses and kinds are known values, and a position's actor is a people.csv id
-or an organization's name. questions.csv has no source column; tags in any *source column are checked.
+or an organization's name. A people.csv area must appear on the legislature/members/ page its row cites.
+questions.csv has no source column; tags in any *source column are checked.
 
     python3 tools/check_citations.py --measures  # RESEARCH.md's review measures: questions and decisions
 
@@ -44,6 +45,7 @@ DATE_RE = re.compile(r"\d{4}(-\d{2}(-\d{2})?)?")
 KINDS = {"baseline", "benchmark", "proposal"}
 DECISION_STATUS = {"open", "decided", "implemented"}
 QUESTION_STATUS = {"open", "answered", "not planned"}
+ZERO_WIDTH = re.compile("[\u200b-\u200d\ufeff]")
 NUM_RE = re.compile(r"\d[\d,]*(?:\.\d+)?")
 BLOCK_START = re.compile(r"^\s*(?:[-*] |\d+\. |\||#+ )")
 # shortcut: an abbreviation like "Gov. " also ends a sentence; reword the sentence if it splits a DER figure off
@@ -234,6 +236,12 @@ def check_model(errors):
     options = model_csv("options.csv")
     opt_ids = {o["id"] for o in options}
     people = {r["id"] for r in model_csv("people/people.csv")}
+    for n, r in enumerate(model_csv("people/people.csv"), 2):
+        # area is the member page's district label, copied exactly (STYLE.md, Names); catches drift on refresh
+        m = re.search(r"\[SRC:(legislature/members/[^\]\s]+\.html)\]", r.get("source") or "")
+        tp = m and r.get("area") and text_path(m.group(1))
+        if tp and r["area"] not in ZERO_WIDTH.sub("", open(tp, encoding="utf-8").read()):
+            errors.append(f"analysis/people/people.csv:{n}: area {r['area']!r} isn't on {m.group(1)}")
     for n, d in enumerate(decisions, 2):
         where = f"analysis/decisions.csv:{n}"
         if d["status"] not in DECISION_STATUS:

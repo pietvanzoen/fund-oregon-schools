@@ -45,7 +45,9 @@ the added or changed sentences in those files, in our own words: skip quotes, ci
    terms of art are spelled out or described as `STYLE.md` says, and defined in the text on first use on the page.
 7. **House style.** Names, money, numbers and dates as in `STYLE.md`. These are `style` unless they change meaning.
    For a legislator's party, district and the district's area, look them up in `analysis/people/people.csv`
-   (`party`, `district`, `area`). Each page should say where a legislator's district is at least once. If the
+   (`party`, `district`, `area`). Each page should say where a legislator's district is at least once, and the
+   area in the text should match `area` (the official label from the member page; compass abbreviations like N/NE
+   are fine, and "&" may be "and"). Don't flag a short label as understating the district: it's the official one. If the
    person's columns are empty or the person isn't in the file, note it as `style` with "needs: party, district and
    area in people.csv", never `must` or `should`.
 
