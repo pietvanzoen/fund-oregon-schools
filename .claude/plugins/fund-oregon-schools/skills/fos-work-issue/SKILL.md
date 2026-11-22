@@ -23,9 +23,14 @@ read the issue before going further; if neither works, stop and say so.
 ## 1. Pick the issue
 
 - If you were given a number, use it.
-- Otherwise take the oldest open issue labelled `auto` that has none of `needs-human`, `needs-judgement`, `manual`,
-  `in progress`, and no open PR or `claude/issue-<n>-*` branch already. Look among those labelled `next` first;
-  only if none qualifies, take one with no priority label, then one labelled `later`.
+- Otherwise take the next one from the **Research queue**: the open issue labelled `queue` (`gh api
+  "repos/pietvanzoen/fund-oregon-schools/issues?state=open&labels=queue" --jq '.[0].body'`). Its numbered list is
+  Piet's order. Go down it and take the first issue that is open, labelled `auto`, has none of `needs-human`,
+  `needs-judgement`, `manual`, `in progress`, and has no open PR or `claude/issue-<n>-*` branch. If that issue has
+  sub-issues (`gh api repos/pietvanzoen/fund-oregon-schools/issues/<n>/sub_issues`), take its first open sub-issue
+  that passes the same test instead.
+- If nothing in the queue qualifies, stop: say so in one line and pick nothing. Never fall back to issues that
+  aren't in the queue, and never edit the queue's order (only Piet does).
 - Mark it as yours before starting: add the `in progress` label
   (`gh api repos/pietvanzoen/fund-oregon-schools/issues/<n>/labels -f "labels[]=in progress"`). It stays on while
   the PR is open; the issue closes on merge through `Closes #<n>`.
