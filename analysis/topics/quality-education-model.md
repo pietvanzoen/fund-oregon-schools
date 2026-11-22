@@ -79,7 +79,7 @@ Decisions this informs: `decisions.md#ssf-2027-29`, `decisions.md#cost-model-202
   would not have to contract for a model if the Legislature doesn't fund the contract
   [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.3].
 - **Timing.** The first model was to be finished by Feb 1, 2028 and first used for the report published after
-  Nov 1, 2029. For the report published after Nov 1, 2027 (the one on 2027-29 funding), DAS would adjust the costs in the report adopted Nov 19,
+  Nov 1, 2029. For the report published after Nov 1, 2027, DAS would adjust the costs in the report adopted Nov 19,
   2025 for inflation and other costs [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.4].
 - **Amendments.** LPRO staff summarized three proposed amendments (-1, -2, -5). All three replace the
   standard-school-district goal with complying with applicable state and federal laws; the -2 and -5 add a public
@@ -125,7 +125,9 @@ QEM and the status quo are QEM scenarios and would lose their standing as the st
 replaced; the CSL (a DAS calculation), the adopted 2025-27 amount and, once released, the Governor's 2027-29 budget
 do not depend on it. If
 the 2027 Legislature passed a bill shaped like SB 1555 as introduced, the yardstick for 2027-29 would not be the
-2026 QEM: DAS would adjust the costs in the Nov 19, 2025 report for inflation and other costs, and a new model would come later (the 2026 bill's
+2026 QEM: the report published after Nov 1, 2027 is, by the bill's own timetable (within 180 days of the 2027
+session), the one on 2027-29 funding, and for it DAS would adjust the costs in the Nov 19, 2025 report for inflation
+and other costs (the report that found 2025-27 funding closes the gap), and a new model would come later (the 2026 bill's
 dates put the first one in 2028, for the report after Nov 1, 2029). A 2027 bill could set other dates. The goals
 would change too, from today's goals to standard-district compliance, licensed and qualified teachers, and the
 SB 141 targets, so a dollar figure from a new model would price a different target than the QEM's and would not be

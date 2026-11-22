@@ -6,7 +6,7 @@
 | 2025-01 | American Institutes for Research submits its evaluation of the QEM and its cost-of-adequacy study to the Legislative Policy and Research Office | [SRC:legislature/lpro/2025-01_air_qem-evaluation.pdf p.1] [SRC:legislature/lpro/2025-01_air_cost-of-adequacy.pdf p.1] |
 | 2025-05-28 | Ways & Means Education Subcommittee advances the $11.4B 2025-27 SSF (SB 5516) | [SRC:legislature/press/2025-05-28_record-k12-funding.pdf p.1] |
 | 2025-11-19 | JPEA sufficiency report: 2025-27 funding "effectively closes the funding gap" | [SRC:legislature/olis/2025I1/310695_jpea.pdf p.4] |
-| 2026-02-10 | Senate Education meets on SB 1555, the JPEA's bill to replace the Quality Education Commission and model (it met on the bill again Feb 12; the bill did not pass) | [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.1] [SRC:ode/qec/minutes/2026-10-21.pdf p.78] |
+| 2026-02-10 | Senate Education meets on SB 1555, the JPEA's bill to replace the Quality Education Commission and model (it met on the bill again Feb 12; the bill did not pass) | [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.1] [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.1] [SRC:ode/qec/minutes/2026-10-21.pdf p.78] |
 | 2026-03-01 | Ways & Means co-chairs release the 2025-27 budget rebalance | [SRC:legislature/press/2026-03-01_jwm-rebalance.pdf p.1] |
 | 2026-04-16 | Executive Order 26-06 on instructional time | [SRC:gov/press/2026-04-16_eo-26-06-instructional-time.html] [NEWS:NEWS-20260416-wweek-1] |
 | 2026-04-28 | State Board of Education adopts SB 141 statewide performance growth targets for the common metrics | [SRC:ode/accountability/2026-05_statewide-performance-growth-targets.pdf p.1] |

@@ -106,11 +106,13 @@ its status quo estimate [SRC:ode/qec/2026_qem_report.pdf p.103].
   the SB 141 targets), had a contractor of the Legislative Policy and Research Office build a new model at least
   every eight years, and had the Joint Interim Committee on Ways and Means judge sufficiency
   [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.1] [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.2]
-  [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.3] [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.1]. For the report due after Nov 1, 2027 (on 2027-29
-  funding), the Department of Administrative Services would have adjusted the costs in the report adopted Nov 19, 2025
-  (the JPEA's adequacy report [SRC:legislature/olis/2025I1/310959_jpea-adequacy-report.pdf p.1]) for inflation and other costs,
+  [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.3] [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.1]. For the report published after Nov 1, 2027, the Department of Administrative Services would have adjusted the costs in the report adopted Nov 19, 2025
+  for inflation and other costs,
   rather than use a new model, which was due by Feb 1, 2028 [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.4].
-- Analysis: a new cost model would also change the benchmarks the other decisions are measured against: the full
+- On record from the commission, in response to the outside evaluation: it is exploring
+  more adequacy goals and agrees more prototype schools should be added, but has lacked the staff to do so
+  [SRC:ode/qec/2026_qem_report.pdf p.99]. Hearing testimony on SB 1555 isn't archived.
+- Analysis: by the bill's timetable, the report published after Nov 1, 2027 is the one on 2027-29 funding. A new cost model would also change the benchmarks the other decisions are measured against: the full
   QEM and status quo figures are QEM scenarios, while the CSL and adopted amounts are not. A replacement built on
   SB 1555's goals would price a different target, so its figure would not be directly comparable with the QEM's. See
   `topics/quality-education-model.md` (SB 1555 section), and `topics/qem-practices-outcomes.md` for what the model assumes full
