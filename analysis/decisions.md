@@ -124,7 +124,7 @@ its status quo estimate [SRC:ode/qec/2026_qem_report.pdf p.103].
   costs, rather than use a new model, which was due by Feb. 1, 2028
   [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.4]. That is the JPEA's adequacy report
   [SRC:legislature/olis/2025I1/310959_jpea-adequacy-report.pdf p.1], which found 2025-27 funding "effectively closes
-  the funding gap" [SRC:legislature/olis/2025I1/310695_jpea.pdf p.4].
+  the funding gap" [SRC:legislature/olis/2025I1/310959_jpea-adequacy-report.pdf p.4].
 - On record from the commission, in response to the outside evaluation: it is exploring more adequacy goals and
   agrees more prototype schools should be added, but has lacked the staff to do so
   [SRC:ode/qec/2026_qem_report.pdf p.99]. Hearing testimony on SB 1555 isn't archived.

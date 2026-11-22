@@ -70,7 +70,8 @@ Decisions this informs: `decisions.md#ssf-2027-29`, `decisions.md#cost-model-202
   cost, using research, evidence and the professional judgment of currently practicing Oregon educators
   [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.2]. The prototypes would have been of schools and school
   districts, taking into account differences in size and location, the student groups that get extra weight in the
-  formula (ORS 327.013 (1)(c)) and fixed costs [SRC:legislature/ors/ors327.html]; the model would also have
+  formula (ORS 327.013 (1)(c)) and fixed costs [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.2]
+  [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.3] [SRC:legislature/ors/ors327.html]; the model would also have
   prioritized resources in case of limited funding [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.2]
   [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.3]. The resource specifications for each prototype would
   have gone to the Department of Education to share with districts and post on its website
@@ -90,7 +91,7 @@ Decisions this informs: `decisions.md#ssf-2027-29`, `decisions.md#cost-model-202
 - **Timing.** The first model was to be finished by Feb. 1, 2028, and first used for the report published after
   Nov. 1, 2029; the new sections, including the 180-day deadline [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.2],
   would have applied only from then. For the report
-  published after Nov. 1, 2027 (the next one, after the 2027 session), the department would have adjusted the
+  published after Nov. 1, 2027 (the next one, after the 2027 session), the Department of Administrative Services would have adjusted the
   costs in the report adopted Nov. 19, 2025 for inflation and other costs
   [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.3] [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.4].
   That is the JPEA's adequacy report [SRC:legislature/olis/2025I1/310959_jpea-adequacy-report.pdf p.1].
@@ -142,7 +143,7 @@ amount and, once released, the governor's 2027-29 budget do not depend on it.
 
 If the 2027 Legislature passed a bill shaped like SB 1555 as introduced, the yardstick for 2027-29 would not be the
 2026 QEM. The report published after Nov. 1, 2027 would follow the 2027 session, so it would be the one on 2027-29
-funding. For it, the department would adjust the costs in the JPEA's Nov. 19, 2025 report (the one that found
+funding. For it, the Department of Administrative Services would adjust the costs in the JPEA's Nov. 19, 2025 report (the one that found
 2025-27 funding closes the gap) for inflation and other costs. A new model would come later: the 2026 bill's dates
 put the first one in 2028, for the report after Nov. 1, 2029. A 2027 bill could set other dates.
 
