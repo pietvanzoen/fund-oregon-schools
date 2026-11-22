@@ -106,7 +106,7 @@ its status quo estimate [SRC:ode/qec/2026_qem_report.pdf p.103].
   the SB 141 targets), had a contractor of the Legislative Policy and Research Office build a new model at least
   every eight years, and had the Joint Interim Committee on Ways and Means judge sufficiency
   [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.1] [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.2]
-  [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.3] [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.1]. For the report published after Nov 1, 2027, the Department of Administrative Services would have adjusted the costs in the report adopted Nov 19, 2025
+  [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.3] [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.1]. For the report published after Nov 1, 2027 (the next one, after the 2027 session), the Department of Administrative Services would have adjusted the costs in the report adopted Nov 19, 2025
   for inflation and other costs,
   rather than use a new model, which was due by Feb 1, 2028 [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.4].
 - On record from the commission, in response to the outside evaluation: it is exploring

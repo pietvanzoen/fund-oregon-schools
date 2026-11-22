@@ -79,8 +79,8 @@ Decisions this informs: `decisions.md#ssf-2027-29`, `decisions.md#cost-model-202
   would not have to contract for a model if the Legislature doesn't fund the contract
   [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.3].
 - **Timing.** The first model was to be finished by Feb 1, 2028 and first used for the report published after
-  Nov 1, 2029. For the report published after Nov 1, 2027, DAS would adjust the costs in the report adopted Nov 19,
-  2025 for inflation and other costs [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.4].
+  Nov 1, 2029. For the report published after Nov 1, 2027 (the next one, after the 2027 session), DAS would have
+  adjusted the costs in the report adopted Nov 19, 2025 for inflation and other costs [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.4].
 - **Amendments.** LPRO staff summarized three proposed amendments (-1, -2, -5). All three replace the
   standard-school-district goal with complying with applicable state and federal laws; the -2 and -5 add a public
   hearing before the model is adopted, professional judgment panels of currently practicing Oregon educators, a
