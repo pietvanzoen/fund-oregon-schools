@@ -89,7 +89,8 @@ cites the same source.
 
 `decision, option, actor, date, stance, source`
 
-One row per stance, appended, never edited. `option` is empty for a stance on the decision as a whole. `actor` is a
+One row per stance, appended. A changed stance gets a new row; an existing row is edited only to correct an error
+(a wrong date, a misread source), and the PR says what was corrected. `option` is empty for a stance on the decision as a whole. `actor` is a
 `people.csv` id or an organization's name. `date` is when the stance was stated or reported. `stance` can be
 `none stated` when someone was asked and declined. Only stances on the record.
 

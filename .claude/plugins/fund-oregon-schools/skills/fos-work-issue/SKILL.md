@@ -200,7 +200,7 @@ Then, as the issue needs:
 - Pledges in `analysis/promises.csv` (rate on outcomes, not intentions: `rating` and `rated_on`); dates in
   `analysis/timeline.md`.
 - Decision files (`RESEARCH.md`, "The model"): new options in `options.csv` with their formality; each stance stated
-  on the record as a new row in `positions.csv` (append, never edit a row); an answered question's `status` and
+  on the record as a new row in `positions.csv` (append; edit an existing row only to correct an error, and say so in the PR); an answered question's `status` and
   `answer` in `questions.csv`, and its short cited answer in that decision's section of `analysis/decisions.md`.
   Facts land in a topic, profile or data table first; the decision files cite the same source. For #25 and
   #57 (split before runs stopped splitting), only the last open sub-issue writes the question's answer.
