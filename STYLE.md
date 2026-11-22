@@ -45,9 +45,22 @@ covers something this file doesn't, follow AP. Why these choices: `adr/20261122-
 
 ## Names
 
-- **First mention on a page:** AP title, full name, and for legislators party and hometown: "Gov. Tina Kotek",
-  "Rep. Jane Doe, D-Salem". Add the role when it helps a reader place them: "Sen. Jane Doe, D-Salem, who chairs the
-  Senate Education Committee". After that, last name only.
+- **First mention in running text:** AP title and full name. For legislators, add party and district, and say
+  where the district is at least once per page (most readers don't know district numbers): "Sen. Jane Doe,
+  D-District 14 (Beaverton & Southwest Portland)" (or "and"). After that, "Doe" or "Sen. Doe, D-District 14" is
+  enough. Add the role when it helps a reader place them: "…, who chairs the Senate Education Committee". Governors and other
+  statewide officials need no district: "Gov. Tina Kotek".
+- **A legislator's own page** in `analysis/people/` gives party, chamber, district number and the district's area,
+  cited.
+- **Where these come from:** the `party`, `district` and `area` columns of `analysis/people/people.csv`, cited to the
+  member's official page on the Legislature's site. `area` is the place label on that page's district line, copied
+  exactly, so it stays in sync with the Legislature: "Democrat - District 22 - N/NE Portland" gives `N/NE Portland`
+  (a role after the places, like "- Whip", isn't part of it). `tools/check_citations.py` errors if the archived page
+  no longer contains it. In running text, write the label as it reads: compass abbreviations (N, NE, SW, N/NE) are
+  fine in a district label, and "&" may be written "and"; add nothing else. The label names the places the
+  Legislature lists, not the district's full extent, so write "(Beaverton & Southwest Portland)" or "(Beaverton and
+  Southwest Portland)", not "which covers …". We don't use hometowns: most member pages don't state where the
+  legislator lives. If a person's columns are empty, use the title and full name, and don't guess.
 - **Agencies and groups:** full name, then a plain short form: "the Department of Administrative Services … the
   department", "the Quality Education Commission … the commission".
 

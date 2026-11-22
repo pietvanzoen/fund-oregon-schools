@@ -138,7 +138,9 @@ description:
   the conventions in `CLAUDE.md`. Put why it matters in `notes`, and end `notes` with `from: <URL of the page the
   link was on>`, so a later fix for a dead link starts from that page.
 - News: never queue an article. Add a record to `sources/news/index.jsonl` per `RUNBOOK.md` (summary in your own
-  words, quotes under 25 words).
+  words, quotes under 25 words). Before writing each fact into a record's summary or key facts, re-read the article
+  for it: a record states nothing the article doesn't. The fact-check checks claims against the record, so an error
+  in the record passes it (#114: a record said a platform included something the article never mentions).
 - Run `python3 tools/check_sources.py` and `python3 tools/check_citations.py`. Fix every error; for each warning
   either fix it or be ready to explain it in the PR.
 
@@ -200,7 +202,8 @@ Then, as the issue needs:
 - Pledges in `analysis/promises.csv` (rate on outcomes, not intentions: `rating` and `rated_on`); dates in
   `analysis/timeline.md`.
 - Decision files (`RESEARCH.md`, "The model"): new options in `options.csv` with their formality; each stance stated
-  on the record as a new row in `positions.csv` (append; edit an existing row only to correct an error, and say so in the PR); an answered question's `status` and
+  on the record as a new row in `positions.csv` (append, never edit a row; to correct one, append the corrected row
+  with `replaces` set to the wrong row's line number, as `CLAUDE.md` rule 8 says); an answered question's `status` and
   `answer` in `questions.csv`, and its short cited answer in that decision's section of `analysis/decisions.md`.
   Facts land in a topic, profile or data table first; the decision files cite the same source. For #25 and
   #57 (split before runs stopped splitting), only the last open sub-issue writes the question's answer.

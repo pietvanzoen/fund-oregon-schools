@@ -2,7 +2,7 @@
 
 Official page: <https://www.oregonlegislature.gov/sanchez>
 
-Democrat, House District 43 (North and Northeast Portland). House co-chair of the Joint Committee on Ways and Means
+Democrat, House District 43 (North and Northeast Portland) [SRC:legislature/members/sanchez.html]. House co-chair of the Joint Committee on Ways and Means
 [SRC:legislature/appointments/2026-01-23_house-committee-assignments.pdf p.3].
 Her 2027 role isn't confirmed yet: House Democrats haven't announced 2027 committee leadership (as of Nov 19, 2026).
 Part of the Portland delegation.

@@ -41,7 +41,8 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
      - `legislature/olis/<session>/<docId>_<slug>.pdf` committee meeting documents from OLIS
      - `legislature/bills/` measure text and staff measure summaries
      - `legislature/press/` caucus and committee press releases; `legislature/appointments/` committee assignment memos;
-       `legislature/social/` legislators' own social media posts, saved by hand (caption text, exact)
+       `legislature/social/` legislators' own social media posts, saved by hand (caption text, exact);
+       `legislature/members/` legislators' official member pages and the member listings that link to them
      - `legislature/lpro/` Legislative Policy and Research Office reports (e.g. session summaries)
      - `legislature/laws/` Oregon Laws (session laws) chapters, as `<year>orlaw<NNNN>.pdf`
      - `legislature/ors/` Oregon Revised Statutes chapters; `legislature/constitution/` the Oregon Constitution;
@@ -90,7 +91,10 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
 7. Describe members of the public, don't name them. Officials, legislators, staff and organizations can be named.
 8. Prefer structured outputs (CSV/JSONL) alongside readable Markdown. Every CSV row has a `source` column, except
    `analysis/derived/*.csv`, whose rows name their `inputs`, `analysis/updates.csv`, whose rows name their PR, and
-   `analysis/questions.csv`, whose rows are questions, not facts.
+   `analysis/questions.csv`, whose rows are questions, not facts. `analysis/positions.csv` is append-only: never
+   edit or delete a row. To correct one, append the corrected row with its `replaces` column set to the line number
+   of the row it replaces (as `check_citations.py` reports it, header = line 1); the site shows only the newest
+   version. Why: `adr/20261122-1718-correcting-append-only-rows.md`.
 9. Run `python3 tools/check_citations.py` before committing analysis changes, and after changing data or a derive
    script, run every `tools/derive_*.py` and commit `analysis/derived/`. CI runs the check, reruns the scripts and
    fails if `analysis/derived/` changes.

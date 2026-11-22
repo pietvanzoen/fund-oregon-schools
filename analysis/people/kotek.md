@@ -69,5 +69,5 @@ Budget for 2027-29 in December [NEWS:NEWS-2026-salemreporter-1].
   - Analysis: the letter is about process. It asks PPS to slow down for engagement but does not ask it to withdraw its
     plans, sets no timeline, and says nothing about state funding, the State School Fund or reserves [SRC:gov/letters/2026-10-13_kotek-letter-to-pps-school-closures.pdf p.1]. OPB's account
     [NEWS:NEWS-20261014-opb-1] is consistent with the text.
-- "Portland needs to do everything it possibly can to cut administrative costs and other things before it talks
-  about closing schools." [NEWS:NEWS-2026-katu-kotek-pps-1]
+- "Portland needs to do everything it possibly can to cut administrative costs and other things" before it
+  talks about closing schools (the end of the sentence is KATU's paraphrase) [NEWS:NEWS-2026-katu-kotek-pps-1]

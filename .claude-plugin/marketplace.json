@@ -7,7 +7,7 @@
     {
       "name": "fund-oregon-schools",
       "source": "./.claude/plugins/fund-oregon-schools",
-      "version": "0.3.4",
+      "version": "0.3.5",
       "description": "Research skills for the Fund Oregon Schools archive (pietvanzoen/fund-oregon-schools): answer cited questions about Oregon K-12 school funding, and work research issues end to end with independent reviewers."
     }
   ]

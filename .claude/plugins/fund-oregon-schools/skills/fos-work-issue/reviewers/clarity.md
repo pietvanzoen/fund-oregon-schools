@@ -35,12 +35,21 @@ the added or changed sentences in those files, in our own words: skip quotes, ci
    with a citation.
 3. **Scale and baseline.** Every number says compared with what, for what period and as of when. Percentage
    changes give the starting value. A large figure with no sense of scale gets a note suggesting a share or
-   per-student `[DER:…]` row. Don't do the arithmetic yourself in a suggested rewrite.
+   per-student `[DER:…]` row. Don't do the arithmetic yourself in a suggested rewrite. Compare only figures on a
+   matching basis (the same period, unit and scope). If the archive has none (the fund is budgeted by two-year
+   period but the figure is by school year), write "needs: <figure on a matching basis>" instead of suggesting a
+   mismatched comparison.
 4. **Assumptions.** An estimate or forecast carries its main assumption in the same sentence or the next.
 5. **Answer first.** The first sentence of each new or changed section says where things stand.
 6. **References and terms.** Every "it", "this", "they" and "the fund" has one clear referent. Abbreviations and
    terms of art are spelled out or described as `STYLE.md` says, and defined in the text on first use on the page.
 7. **House style.** Names, money, numbers and dates as in `STYLE.md`. These are `style` unless they change meaning.
+   For a legislator's party, district and the district's area, look them up in `analysis/people/people.csv`
+   (`party`, `district`, `area`). Each page should say where a legislator's district is at least once, and the
+   area in the text should match `area` (the official label from the member page; compass abbreviations like N/NE
+   are fine, and "&" may be "and"). Don't flag a short label as understating the district: it's the official one. If the
+   person's columns are empty or the person isn't in the file, note it as `style` with "needs: party, district and
+   area in people.csv", never `must` or `should`.
 
 ## Rewrites
 
