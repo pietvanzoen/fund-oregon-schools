@@ -1,4 +1,4 @@
-# 0009. Runs don't split issues; scope is set when an issue is labelled `next`
+# Runs don't split issues; scope is set when an issue is labelled `next`
 
 Status: accepted (2026-11-22, PR #112)
 

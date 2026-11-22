@@ -1,4 +1,4 @@
-# 0003. Calculated values live in their own files, one plain derive script per topic
+# Calculated values live in their own files, one plain derive script per topic
 
 Status: accepted (2026-11-21, issue #34, PR #36 for the code rules)
 

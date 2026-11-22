@@ -1,4 +1,4 @@
-# 0005. Tests are plain asserts in one script, no framework, for now
+# Tests are plain asserts in one script, no framework, for now
 
 Status: accepted, provisional (2026-11-21, PR #36 for the code rules)
 

@@ -1,4 +1,4 @@
-# 0002. Files embedded in archived PDFs aren't extracted
+# Files embedded in archived PDFs aren't extracted
 
 Status: accepted (2026-11-21, issue #4)
 

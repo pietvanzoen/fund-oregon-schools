@@ -1,4 +1,4 @@
-# 0006. What's new is a CSV with a PR column, checked in CI, not built from commit messages
+# What's new is a CSV with a PR column, checked in CI, not built from commit messages
 
 Status: accepted (2026-11-21)
 
