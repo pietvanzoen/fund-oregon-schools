@@ -1,4 +1,4 @@
-# 0004. The fetch-sources bot pushes with a deploy key
+# The fetch-sources bot pushes with a deploy key
 
 Status: accepted (2026-11-20, PR #29)
 

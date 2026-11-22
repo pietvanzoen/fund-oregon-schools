@@ -154,7 +154,8 @@ Least new code that fully does the job; adapted from the ponytail rules
 - `analysis/updates.csv` — What's new for readers (`date, text, page, pr`; the site shows it newest first, the
   overview the latest three). A PR that changes reader-facing files must add a row with its number (CI checks;
   label `no-update` to waive). The maintainers' record is the PR description
-- `adr/NNNN-<slug>.md` — architecture decision records: context, decision, options weighed, when to revisit
+- `adr/YYYYMMDD-HHMM-<slug>.md` — architecture decision records, named by the UTC time they're created: context,
+  decision, options weighed, when to revisit
 - `sources/**/<file>.pdf.ocr.txt` — the PDF's text plus OCR of its picture-only pages, by `tools/ocr_pdfs.py` in fetch-sources
 - `sources/**/<media file>.txt` — machine transcript of an .mp4/.m4a/.mp3/.wav/.webm, by the `transcribe` Action
 - Tools: `tools/search.py`, `tools/doc.py`, `tools/linkify.py`, `tools/check_citations.py` (`--measures` for the
