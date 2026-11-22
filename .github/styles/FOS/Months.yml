@@ -1,6 +1,0 @@
-extends: existence
-message: "AP dates: abbreviate a month with a day (Jan., Feb., Aug., Sept., Oct., Nov., Dec.): '%s' (STYLE.md)."
-level: suggestion
-tokens:
-  - '(?:January|February|August|September|October|November|December) \d{1,2}'
-  - 'Sep\. \d{1,2}'

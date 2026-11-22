@@ -1,7 +1,0 @@
-extends: existence
-message: "Say 'the 2027-29 budget' (two years) rather than '%s' outside quotes (STYLE.md)."
-level: suggestion
-ignorecase: true
-tokens:
-  - biennium
-  - biennial

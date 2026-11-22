@@ -5,9 +5,6 @@ How the archive's reader-facing text sounds and looks: `analysis/START.md`, `ana
 verbatim. The rules on citations, sections and quotes are in `CLAUDE.md`; this file covers wording. Where AP style
 covers something this file doesn't, follow AP. Why these choices: `adr/0008-house-style.md`.
 
-The mechanical rules are checked by Vale on pull requests (`.github/styles/FOS/`, added lines only, never
-blocking); the clarity reviewer checks the rest.
-
 ## Voice
 
 - **Explainer.** Neutral, and say why a fact matters: what the number is compared with, what it decides, what

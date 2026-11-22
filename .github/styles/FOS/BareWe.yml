@@ -1,8 +1,0 @@
-extends: existence
-message: "No bare '%s': say 'our analysis', 'our estimate' or 'the archive' (STYLE.md)."
-level: warning
-ignorecase: false
-tokens:
-  - we
-  - We
-  - us
