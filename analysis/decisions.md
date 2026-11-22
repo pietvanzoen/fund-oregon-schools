@@ -119,7 +119,7 @@ for its status quo estimate [SRC:ode/qec/2026_qem_report.pdf p.103].
   still lists it in that committee, with no chapter number
   [SRC:legislature/bills/2026R1_SB1555_overview.html]. A 2026 overhaul effort led by Ruiz and Sen. Janeen Sollman,
   D-District 15 (Forest Grove, Cornelius, Hillsboro, Rock Creek) [SRC:legislature/members/sollman.html], then a
-  co-chair of the joint committee [SRC:legislature/olis/2025I1/310695_jpea.pdf p.2], was unsuccessful
+  co-chair of the Joint Committee on Public Education Appropriation [SRC:legislature/olis/2025I1/310695_jpea.pdf p.3], was unsuccessful
   [NEWS:NEWS-20260617-occ-1].
 - A legislative concept to move the cost model to the Legislative Policy and Research Office
   [SRC:legislature/olis/2025I1/311607_jpea-legislative-concepts.pdf p.1] became SB 1555 (2026), which would also
