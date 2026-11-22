@@ -17,10 +17,12 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
 - **Adding sources:** follow `RUNBOOK.md`. In short: add a row to `sources/_queue.csv`; the `fetch-sources`
   GitHub Action downloads it (cloud sandboxes usually can't reach oregon.gov or the Legislature's site).
 - **Working a research issue end to end:** follow `.claude/plugins/fund-oregon-schools/skills/fos-work-issue/SKILL.md` (queue → fetch on the
-  issue branch → analysis → two independent reviewers → PR; Piet merges).
+  issue branch → analysis → three independent reviewers → PR; Piet merges).
 - **What to research and how it's organized:** `RESEARCH.md`: decisions, their baselines and options, dated
   positions and questions; the checks an issue passes before it's labelled `next`; staying neutral; how to write
   so the analysis gets used.
+- **How the text reads:** `STYLE.md` (house style: voice, weight, numbers, names, dates). It covers our own
+  sentences in reader-facing files; quotes stay verbatim.
 - **Why the repo is built this way:** `adr/` (architecture decision records, one per choice, including choices not
   to do something). Read the relevant ones before changing `tools/`, workflows or how `sources/` is stored; add one
   when you weigh options and pick one (template in `adr/README.md`).
@@ -72,7 +74,7 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
      statements a cited source makes; every line cited; no inference), `## Derived figures` (a table of our sums,
      shares and estimates, each with its `[DER:...]` tag) and `## Analysis` (our interpretation; no "Analysis:"
      label needed). A total the document prints itself is a source fact; it's derived only when we do the adding.
-     Plain unit rescaling ($1,271M as $1.271B) is allowed under sources.
+     Plain unit rescaling ($1,271M as $1.271 billion) is allowed under sources.
    - Every calculated value lives in `analysis/derived/<topic>.csv`, written only by `tools/derive_<topic>.py`
      (one plain script per topic, no shared library). Columns: `id, value, unit, kind, label, method, inputs,
      assumptions`; `kind` is `derived` (plain arithmetic) or `est` (rests on assumptions, listed). A constant the
@@ -95,7 +97,8 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
     `analysis/`, new news records, new quotes), it starts a separate fact-checker agent before asking for a merge.
     The fact-checker starts fresh: it gets the branch, this file and a neutral checklist, not the session's reasoning
     or notes on what's uncertain. It reports only (no edits, pushes or GitHub comments). A second fresh reviewer checks consistency with the rest of the archive and
-    fairness of framing (`.claude/plugins/fund-oregon-schools/skills/fos-work-issue/reviewers/`). Checklist: every quote verbatim,
+    fairness of framing, and a third checks clarity against `STYLE.md`
+    (`.claude/plugins/fund-oregon-schools/skills/fos-work-issue/reviewers/`). Checklist: every quote verbatim,
     correctly attributed and on the cited page; every factual sentence supported by its citation without
     overstatement; news summaries in own words, quotes under 25 words; nothing in the wrong section (an inference
     among source facts, or a calculation shown as a source figure instead of a DER row), "Analysis:" kept apart from

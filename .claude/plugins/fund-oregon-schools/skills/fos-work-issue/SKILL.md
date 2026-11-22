@@ -1,6 +1,6 @@
 ---
 name: fos-work-issue
-description: Work a research issue in the fund-oregon-schools repo end to end — find and queue the documents, get them fetched on the issue branch, write the cited analysis, run the independent reviewers, and open a PR for Piet to merge. Use when asked to "work on issue #N", "tackle the next issue", or by the scheduled run that picks up issues labelled `auto`.
+description: Work a research issue in the fund-oregon-schools repo end to end — find and queue the documents, get them fetched on the issue branch, write the cited analysis, run the three independent reviewers, and open a PR for Piet to merge. Use when asked to "work on issue #N", "tackle the next issue", or by the scheduled run that picks up issues labelled `auto`.
 ---
 
 # Work a research issue
@@ -245,7 +245,7 @@ Commit and push.
 
 ## 6. Independent review
 
-Start **both** reviewers at the same time as fresh agents (not forks: they mustn't see your reasoning). Give each
+Start **all three** reviewers at the same time as fresh agents (not forks: they mustn't see your reasoning). Give each
 one only:
 
 - the prompt in `.claude/plugins/fund-oregon-schools/skills/fos-work-issue/reviewers/<name>.md`, filled in with the branch name, the issue
@@ -258,16 +258,21 @@ Reviewers:
 - `consistency-fairness.md` — conflicts with the rest of the archive, superseded figures left behind, framing,
   labelling of estimates and advocacy numbers, wrong-section findings, fairness to named officials, copyright,
   privacy
+- `clarity.md` — how the changed reader-facing text reads: paraphrase test against the source, weight and tense,
+  scale and baseline for numbers, answer first, clear references, house style (`STYLE.md`)
 
 If you can't start fresh agents (for example, you are yourself a subagent without that tool), don't skip the
 review and don't review your own work in their place: say "reviewers not run" at the top of the PR's Review
-section and add `needs-human`. The PR doesn't merge until both reviews have run.
+section and add `needs-human`. The PR doesn't merge until all three reviews have run.
 
 They report only. For each finding:
 
 1. Check it against the source yourself. Reviewers can be wrong.
 2. If it's right, fix it. If it's wrong, record why in one line.
 3. After substantive fixes, run the reviewer that raised them once more on the new head. Not more than once.
+4. A sentence reworded for clarity can change what it claims. If clarity fixes reword any sentence that states a
+   fact, run `fact-check.md` once more on the new head, limited to those sentences (list their file:line in the
+   prompt). This counts as its one rerun.
 
 ## 7. Open the PR
 
