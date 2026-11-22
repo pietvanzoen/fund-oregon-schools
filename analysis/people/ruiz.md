@@ -4,8 +4,8 @@ Official page: <https://www.oregonlegislature.gov/ruiz>
 
 Rep. Ricki Ruiz is a Democrat representing House District 50 (Gresham) [SRC:legislature/members/ruiz.html]. He is
 House co-chair of the Ways and Means Subcommittee on Education, which writes the State School Fund and Department of
-Education budgets [SRC:legislature/appointments/2026-01-23_house-committee-assignments.pdf p.3], and co-chair of the
-Joint Committee on Public Education Appropriation, which reports on whether school funding is sufficient
+Education budgets [SRC:legislature/appointments/2026-01-23_house-committee-assignments.pdf p.3]. He is also co-chair
+of the Joint Committee on Public Education Appropriation, which reports on whether school funding is sufficient
 [SRC:legislature/olis/2025I1/310695_jpea.pdf p.2] [SRC:legislature/olis/2025I1/310695_jpea.pdf p.3]. (The joint
 committee's report spells his name "Ricky".) His 2027 committee roles aren't announced yet (as of Nov. 19, 2026).
 

@@ -145,8 +145,8 @@ gap against one benchmark.
 
 **If the model is changed or replaced.** SB 1555 did not pass, so the Quality Education Commission and the model remain
 in law, and the 2026 model is the commission's estimate on record for 2027-29. Of the comparison figures above, the
-full model and the status quo are the model's scenarios and would lose their standing as the state's benchmark if the model were
-replaced; the current service level (a Department of Administrative Services calculation), the adopted 2025-27
+full model and the status quo are the model's scenarios; they would lose their standing as the state's benchmark if
+the model were replaced. The current service level (a Department of Administrative Services calculation), the adopted 2025-27
 amount and, once released, the governor's 2027-29 budget do not depend on it.
 
 If the 2027 Legislature passed a bill shaped like SB 1555 as introduced, the yardstick for 2027-29 would not be the
@@ -155,9 +155,9 @@ funding. For it, the Department of Administrative Services would adjust the cost
 2025-27 funding closes the gap) for inflation and other costs. A new model would come later: the 2026 bill's dates
 put the first one in 2028, for the report after Nov. 1, 2029. A 2027 bill could set other dates.
 
-The goals would change too, from today's goals to standard-district compliance, licensed and qualified teachers, and
-the SB 141 targets, so a dollar figure from a new model would price a different target than the current model's and would not
-be directly comparable with it. Then "the gap" would depend on which estimate a reader uses, and on who built it: a
+The goals would change too: from today's goals to standard-district compliance, licensed and qualified teachers, and
+the SB 141 targets. A dollar figure from a new model would then price a different target than the current model's and
+would not be directly comparable with it. Then "the gap" would depend on which estimate a reader uses, and on who built it: a
 governor-appointed commission (today) or a contractor hired by the Legislature's research office, with a
 legislative committee judging sufficiency in both cases.
 

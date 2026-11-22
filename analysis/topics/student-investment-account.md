@@ -163,7 +163,7 @@ included, and the 2021-22 and 2022-23 figures were extracted before every grante
 
 ## Analysis
 
-The spending picture is clear and consistent: grantees (districts, eligible charter schools, and youth corrections
+The spending picture is clear and consistent. Grantees (districts, eligible charter schools, and youth corrections
 and juvenile detention programs) reported spending almost all of each year's allocation, mostly on staff (from
 2021-22, when staff figures begin), in the same three categories every year. Health and safety leads every year. By the law's list, that category covers
 student mental and behavioral health and school health professionals, among other health and safety uses, which

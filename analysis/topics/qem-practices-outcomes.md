@@ -205,8 +205,9 @@ never statistically tied performance to cost. Its regressions of graduation on s
 2013-14 are a check on the estimate, not a derivation of it; they chart two trends that broadly rose over the same
 years, which is consistent with funding mattering but does not by itself separate funding from other causes.
 
-The strongest evidence the commission cites that money matters is outside research (Jackson's and Baker's reviews), which concerns spending in general rather than the model's
-particular practices; research finding smaller or no effects isn't archived yet (#63). What full funding "buys" in the
+The strongest evidence the commission cites that money matters is outside research (Jackson's and Baker's reviews).
+That research concerns spending in general rather than the model's particular practices, and research finding smaller
+or no effects isn't archived yet (#63). What full funding "buys" in the
 model is therefore best read as: the 2022 staffing list (smaller elementary
 classes, counselors, nurses, librarians, summer school), priced at today's costs, plus an expectation that districts
 use it on the recommended practices.
@@ -220,7 +221,7 @@ that moves two years in one report cycle supports reading them as illustrations 
 The evaluators' $22,210 is aimed at a different, broader target than the model's (one standard deviation above the
 statewide average on a combined measure), so the comparison shows direction (both say more is needed), not size. The
 evaluators criticize the single outcome goal, and both they and the joint committee criticize prototypes that ignore
-variation in need; in its 2026 report the commission agrees on the prototypes and is exploring broader outcome goals,
+variation in need. In its 2026 report the commission agrees on the prototypes and is exploring broader outcome goals,
 while saying it lacks the staff to act. With further changes to the model expected in 2027 (`decisions.md#cost-model-2027`), the
 commission's direction overlaps with SB 141's terms: the extra goals it is exploring resemble the metrics its SB 141
 fallback option names (reading proficiency, regular attenders, ninth grade on-track), and that option is framed around
