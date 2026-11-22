@@ -6,7 +6,7 @@ Standing research: what state funding buys, and the outcome goals and mandates a
 ## What the sources say
 
 - **Senate Bill 141 targets.** The State Board of Education adopted statewide performance growth targets for the
-  common metrics on April 28, 2026, for 2029-30, for example 8th-grade math from 28.9% to 52.0%
+  common metrics on April 28, 2026, for 2029-30, for example eighth-grade math from 28.9% to 52.0%
   [SRC:ode/accountability/2026-05_statewide-performance-growth-targets.pdf p.1].
 - Oregon Department of Education Director Charlene Williams said meeting the targets "does not require new dollars", framing the work as districts
   using or redirecting the resources they have; a board member and a board adviser voiced doubts about meeting them

@@ -129,8 +129,8 @@ and `data/qem_gap.csv`. Decisions this informs: `decisions.md#cost-model-2027`.
   [SRC:ode/qec/2026_qem_report.pdf p.100].
 - AIR says direct comparison is complicated because the two models include different funding and use different
   outcome goals [SRC:legislature/lpro/2025-01_air_cost-of-adequacy.pdf p.43].
-- In response to AIR, the commission says it is exploring more adequacy goals (3rd grade English language arts
-  proficiency, 9th grade on-track status, regular attendance) and agrees more prototype schools should be added but has
+- In response to AIR, the commission says it is exploring more adequacy goals (third grade English language arts
+  proficiency, ninth grade on-track status, regular attendance) and agrees more prototype schools should be added but has
   lacked the staff to do so [SRC:ode/qec/2026_qem_report.pdf p.99]. It asks for 2.0 FTE at ODE in the upcoming biennium to start, out of an estimated
   12.0-19.0 FTE build-out over two to three biennia [SRC:ode/qec/2026_qem_report.pdf p.116].
 
@@ -180,7 +180,7 @@ and `data/qem_gap.csv`. Decisions this informs: `decisions.md#cost-model-2027`.
     education), expected to improve school climate, regular attendance, student mental health and staff well-being
     [SRC:ode/qec/2026_qem_report.pdf p.109] [SRC:ode/qec/2026_qem_report.pdf p.110].
   - **Funding aimed at the SB 141 (Education Accountability Act) metrics**: e.g. more for the Early Literacy Success
-    Initiative (3rd grade reading), math support (8th grade math, 9th grade on-track), early warning systems
+    Initiative (third grade reading), math support (eighth grade math, ninth grade on-track), early warning systems
     (attendance), early science, the English Learner Outcomes Program, and Secondary Career Pathway funding
     (graduation, career readiness), prioritizing the districts with greatest need [SRC:ode/qec/2026_qem_report.pdf p.110].
 - Its nine 2026 recommendations also include avoiding isolated pilots, sustaining Student Success Act investments,
@@ -217,6 +217,6 @@ needed), not size. AIR criticizes the single outcome goal, and both AIR and the 
 variation in need; in its 2026 report the commission agrees on the prototypes and is exploring broader outcome goals,
 while saying it lacks the staff to act. With further QEM changes expected in 2027 (`decisions.md#cost-model-2027`), the
 commission's direction overlaps with SB 141's terms: the extra goals it is exploring resemble the metrics its SB 141
-fallback option names (reading proficiency, regular attenders, 9th grade on-track), and that option is framed around
+fallback option names (reading proficiency, regular attenders, ninth grade on-track), and that option is framed around
 SB 141 (sources above). ODE's director has said the SB 141 targets don't require new money, a view some State Board
 members doubted (`topics/results.md`).

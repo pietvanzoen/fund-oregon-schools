@@ -1,7 +1,7 @@
-# The Student Investment Account: what the money funds and what ODE reports it did
+# The Student Investment Account: what the money funds and what the Oregon Department of Education reports it did
 
-Grantees have reported spending 98.1% to 99.4% of each year's Student Investment Account money, mostly on staff in the years with staff figures (2021-22 on).
-The Oregon Department of Education's outcome reports cover two years of targets, and they don't show whether the
+Grantees have reported spending 98.1% to 99.4% of each year's Student Investment Account money, mostly on staff in the
+years with staff figures (2021-22 on). The Oregon Department of Education's outcome reports cover two years of targets, and they don't show whether the
 money changed outcomes (sources and figures below).
 
 Decisions this informs: standing research (what the money buys). Figures copied from sources: `data/sia_spending.csv`.
@@ -13,7 +13,7 @@ Our sums: `derived/sia.csv`. Audits and outside reviews are still to come (#57).
 
 - The Student Investment Account was created by the Student Success Act in 2019. It gives school districts, eligible
   charter schools and youth corrections and juvenile detention education programs non-competitive grants once they
-  meet the application requirements. The Oregon Department of Education (ODE) describes it as receiving at least
+  meet the application requirements. The Oregon Department of Education describes it as receiving at least
   50% of the money deposited in the Fund for Student Success [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.3];
   by statute the 50% is of what's left after the fund's transfer to the State School Fund and a reserve
   [SRC:legislature/ors/ors327.html].
@@ -43,7 +43,7 @@ Our sums: `derived/sia.csv`. Audits and outside reviews are still to come (#57).
   audits [SRC:legislature/ors/ors327.html].
 - Grantees with at least 80 students must set Longitudinal Performance Growth Targets for each of five common
   metrics that has at least 10 students:
-  four-year graduation, five-year completion, 9th grade on-track, regular attendance and 3rd grade English language
+  four-year graduation, five-year completion, ninth grade on-track, regular attendance and third grade English language
   arts proficiency. The targets are co-developed with the department. "Baseline" and "stretch" targets cover all
   students; "gap-closing" targets cover a combined group of focal students
   [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.26] [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.27]. The
@@ -53,7 +53,7 @@ Our sums: `derived/sia.csv`. Audits and outside reviews are still to come (#57).
 - In 2025 the department paused adding more years of targets in anticipation of changes from the Education
   Accountability Act, Senate Bill 141, passed in 2025 [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.27]
   [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.3]. The department's January 2026 report said grantees would
-  co-develop new Performance Growth Targets with it in spring 2026, adding K-2 regular attenders and 8th grade math
+  co-develop new Performance Growth Targets with it in spring 2026, adding K-2 regular attenders and eighth grade math
   [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.27].
 - Separately, the department's 2026 guidance on local Performance Growth Targets under SB 141, which doesn't mention
   the Student Investment Account, set Aug. 31, 2026 for all targets to be submitted, covering the four years
@@ -115,19 +115,19 @@ Our sums: `derived/sia.csv`. Audits and outside reviews are still to come (#57).
 - The 2024-25 report prints the total spent as $551,495,257 in two places and as $551,495,297 once
   [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.23].
 
-### What ODE reports about results
+### What the department reports about results
 
 - The department describes the share of grantees meeting their targets as mixed by metric and student group
   [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.41].
 - **2024-25 targets (second year).** Of grantees required to set each target, these met their baseline (all
-  students) target: 9th grade on-track 124 of 167 (74.3%); regular attendance 93 of 187 (49.7%); 3rd grade English
+  students) target: ninth grade on-track 124 of 167 (74.3%); regular attendance 93 of 187 (49.7%); third grade English
   language arts 66 of 171 (38.6%) [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.39]
   [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.40].
-- For gap-closing targets: 9th grade on-track 85 of 137 (62.0%), regular attendance 122 of 182 (67.0%), 3rd grade
+- For gap-closing targets: ninth grade on-track 85 of 137 (62.0%), regular attendance 122 of 182 (67.0%), third grade
   English language arts 55 of 131 (42.0%) [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.39]
   [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.40].
 - The department reports the median grantee's change from 2023-24 to 2024-25, for all students, as 2.21% in 9th
-  grade on-track, 1.78% in 3rd grade English language arts and 0.01% in regular attendance
+  grade on-track, 1.78% in third grade English language arts and 0.01% in regular attendance
   [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.39] [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.40].
   Neither this report nor the department's 2023-24 report on targets and results, which prints median changes the
   same way, says whether such changes are percentage points
@@ -136,7 +136,7 @@ Our sums: `derived/sia.csv`. Audits and outside reviews are still to come (#57).
   their five-year completion baseline target and 46.5% the gap-closing one; graduation and completion data for
   2024-25 come out later [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.28]
   [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.39].
-- The department calls the 9th grade on-track change "substantial" and says the larger median gains for focal
+- The department calls the ninth grade on-track change "substantial" and says the larger median gains for focal
   students in attendance and on-track indicate "progress is being made to close the gaps"
   [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.41].
 - The department says targets vary a great deal among grantees, and that small grantees can see large jumps or
@@ -164,20 +164,20 @@ included, and the 2021-22 and 2022-23 figures were extracted before every grante
 ## Analysis
 
 The spending picture is clear and consistent: grantees (districts, eligible charter schools, and youth corrections
-and juvenile detention programs) reported spending almost all of each year's allocation, mostly on staff (from 2021-22, when staff figures begin), in the
-same three categories every year. Health and safety leads every year. By the law's list, that category covers
+and juvenile detention programs) reported spending almost all of each year's allocation, mostly on staff (from
+2021-22, when staff figures begin), in the same three categories every year. Health and safety leads every year. By the law's list, that category covers
 student mental and behavioral health and school health professionals, among other health and safety uses, which
 fits the first of the law's two purposes. The reports don't break the category down further, but in 2021-22, 19.3%
 of the licensed positions the account funded were mental health professionals or school counselors (source above).
 
-The results picture is much weaker, for three reasons. First, the department compares each grantee with targets
+The results picture says less, for three reasons. First, the department compares each grantee with targets
 the grantee set with the department, not with what would have happened without the money, so a met target doesn't
 show the account caused the change; that's our reasoning, not the department's. Second, from the department's
 reports: there are only two years of target data (2023-24 and 2024-25), and the department paused adding years to
 the targets in 2025 in anticipation of SB 141, planning new ones for spring 2026. The statewide SB 141 targets are
 in `topics/results.md`. Third, also from its reports: the progress markers are self-ratings that grantees are not
-expected to meet in full. On the department's figures, about three in four grantees met their baseline 9th grade
-on-track target in 2024-25, about half met their attendance target, and fewer than two in five met their 3rd grade
+expected to meet in full. On the department's figures, about three in four grantees met their baseline ninth grade
+on-track target in 2024-25, about half met their attendance target, and fewer than two in five met their third grade
 English language arts target. Whether that is good depends on how ambitious the targets were, which the department
 says varied a great deal. The department's median changes (2.21%, 1.78%, 0.01%) are most likely percentage points:
 its overview of how the targets were set uses "%" for a percentage-point difference ("nearly two percentage points
