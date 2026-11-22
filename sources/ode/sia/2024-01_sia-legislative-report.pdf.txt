@@ -1,0 +1,1505 @@
+The Student Investment
+Account
+2024 Legislative Report
+January 2024
+
+The Student Investment Account
+
+Table of Contents
+EXECUTIVE SUMMARY………………………………………………………………………………………………………………………………….…2
+ALIGNMENT OF SIX PROGRAMS………………………………………………………………………………………………………………………3
+SPECTRUM OF SUPPORTS……………………………………………………………………………………………………………………………..13
+2022-23 SIA IMPLEMENTATION AND ANALYSIS…..……………………………………………………………………………………..…20
+CONTINUING TO OPERATIONALIZE THE SIA THROUGH THE INTEGRATION OF PROGRAMS…………………………..33
+ON THE HORIZON………………………………………………………………………….………………………………………………………………37
+
+1
+
+The Student Investment Account
+
+EXECUTIVE SUMMARY
+The Student Investment Account
+The Student Investment Account (SIA) was established with the passage of the Student Success Act (SSA)
+ORS 327.175 in May 2019. The SIA provides all Oregon school districts, eligible charter schools, Youth
+Corrections Education Programs (YCEP), and Juvenile Detention Education Programs (JDEP) with access
+to non-competitive grant funds from the SIA when they have complied with application requirements
+set forth by the legislature and administered by the Oregon Department of Education (ODE). The SIA
+receives at least 50% of the funds collected and deposited in the Fund for Student Success.
+SIA grants are established for two purposes: (1) meeting students’ mental or behavioral health needs
+and (2) improving academic outcomes and reducing academic disparities for students of color, students
+with disabilities, emerging bilingual students, and students navigating poverty, homelessness, and foster
+care and any other student groups that have historically experienced academic disparity as determined
+by the State Board of Education (SBE) by rule. The student groups set out in the SIA are referred to in
+ODE communications and guidance as ‘’focal student groups’’ which will be used throughout this
+Update.
+This annual report provides an update on program implementation, investment of resources, and
+continued analysis of impact of investments. The update begins by detailing ongoing work to support
+alignment of programs, including the SIA, under the Integrated Guidance. At the time of writing,
+grantees are actively implementing their first approved Integrated Plan submitted in spring 2023.
+Following the first section, the report details the spectrum of supports, from technical assistance to
+coaching, that have been developed to support grantees. The report then turns to a deep dive on
+analysis of implementation of the SIA during the 2022-23 school year, with information on investment
+and impact. The report concludes with a summary of behind the scenes work to operationalize the SIA
+and begin to integrate the Early Literacy Success School District Grants.
+
+2
+
+The Student Investment Account
+
+ALIGNMENT OF SIX PROGRAMS
+Aligning for Student Success: Integration Guidance for Six ODE Programs
+In the 2023 SIA Legislative Update, ODE shared the initial steps to align six ODE programs, an effort to
+respond to the Student Success Act Budget Bill (House Bill 5047). The budget note directed “The Oregon
+Department of Education to explore the potential for combining grant applications, grant agreements,
+grant monitoring, and reporting for the School District Investment grants established in House Bill 3427
+with other programs or grants administered by the agency including grants made from the High School
+Graduation and College and Career Readiness Fund (Ballot Measure 98), Title I grants where
+appropriate, and other grant programs identified by the agency.”
+In response to this budget note, ODE released the Aligning for Student Success: Integrated Guidance for
+Six ODE Initiatives in February 2022. To support the implementation of Integrated Guidance, ODE
+released a number of supplemental resources and tools, all of which are posted on the OEII Innovation
+and Improvement webpage. Under this guidance, the following programs were operationally1 brought
+together without changes to statute or legislation:
+1. High School Success (HSS)
+2. Student Investment Account (SIA)
+3. Continuous Improvement Planning (CIP)2
+4. Career and Technical Education - Perkins V (CTE)
+5. Every Day Matters (EDM)
+6. Early Indicator and Intervention Systems (EIIS)
+Working within existing state statutes and administrative rules, ODE developed a framework for success
+that meets and retains the core purposes of each program while trying to create a stronger framework
+from which we can mark progress, look for long-term impacts, and develop the learning approach to
+monitoring and evaluation that is a hallmark of high-performing educational systems3. Rather than
+focusing on working on multiple, separate plans for each program, schools and districts are now able to
+meaningfully plan for what they are trying to cause for their students, schools, and communities, and
+then think about which funding stream(s) to use to fund specific activities.
+In fall 2022, applicants began to engage focal student groups, families, Tribes, educators, and broader
+community and identify patterns in feedback, while also reviewing data and completing a
+comprehensive needs assessment. Throughout the fall and into last winter, applicants continued to:
+• Review community engagement input
+• Apply an equity lens
+• Consult the best practice recommendations from the Quality Education Model (QEM) reports
+and SSA Student Success Advisory Plans,
+
+1
+
+This effort reflects where operational alignment could be reached amidst programs with shared aims, statutory
+language, and program designs without requiring changes in statute.
+2
+In order to implement this note, ODE shifted the timeline for Continuous Improvement Planning (CIP) submission
+to the spring of 2023. This adjustment supports the alignment of engagement and planning processes with other
+initiatives.
+3
+Schleicher, A (2018), World Class: How to build a 21st-century school system, Strong Performers and Successful
+Reformers in Education, OECD Publishing, Paris. https://www.oecd-ilibrary.org/education/worldclass_9789264300002-en
+
+3
+
+The Student Investment Account
+•
+•
+•
+•
+•
+
+Consider Elementary and Secondary School Emergency Relief fund (ESSER III) engagement
+feedback
+Review regional labor market information and regional CTE priorities
+Create an integrated plan and budget, with consideration of a tiered plan
+Use the continuous improvement tools to workshop and develop plans, budget, and application,
+including outcomes, strategies, activities, and Longitudinal Performance Growth Targets (LPGTs)
+Post Integrated Application to the community for comment, present at an open meeting, and
+have the board approve prior to submission
+
+Integrated Application Submission & Review Process
+In December 2022, the Department asked applicants to submit an Intent to Apply form by January 15,
+2023 via Smartsheet for the Integrated Application. The purpose of the Intent to Apply form was to
+share with ODE if the applicant planned to apply independently, with charter schools, or in consortium
+with other applicants prior to the full application opening in March 2023. Based on the information
+provided in the Intent to Apply form, the Department pre-built Integrated Application dashboards for
+each applicant, which ensured that they received the correct Integrated Application version based on
+how they were applying and the programs they were eligible to receive funds from. A total of six
+variations of the application existed based on the applicants replies in the Intent to Apply form.
+• District/Independent Charter with CTE Program - The most common version of the application,
+this included all questions for all programs.
+• District/Independent Charter without CTE Program - This version of the application omitted the
+CTE related questions for districts and eligible independent charter schools without CTE
+programs.
+• K/6-K/8 - This version of the application was for applicants that did not serve students in high
+school, omitting questions that are specific to high school level students.
+• CIP Only - This application was for districts that were declining funds from programs under the
+Integrated Application and were just answering the Continuous Improvement Plan questions.
+•
+Virtual Charter with CTE - This version of the application was for virtual charter schools that
+weren’t eligible for SIA funding, omitting non-applicable questions to virtual charter schools.
+• Virtual Charter without CTE - In addition to omitting questions that did not apply to virtual
+charter schools ineligible for SIA funding, this version also omitted questions related to CTE
+programs.
+During March 2023, applicants submitted their first Integrated Applications for the six programs, with
+ODE receiving a total of 225 applications during the submission period. The intake process was the first
+step in the review process to ensure the completeness of an application, including all of the required
+documentation and artifacts had been submitted via Smartsheet. If something was missing from the
+application, ODE would reach out to the applicant to submit any additional information prior to the
+application being moved into the review process. Once complete, the application was reviewed by a
+primary reviewer, secondary reviewer, budgetary reviewer, and as applicable, a CTE reviewer - all of
+whom had engaged in robust reviewer training prior to applications being received. These reviewers
+went through the application in its entirety to review responses to narrative questions, artifacts, and the
+planning and budgeting document based on the application evaluation criteria. Once the reviewers had
+completed their independent review, they met to determine if the application:
+1. Met requirements,
+2. Met with small changes, or
+3. Needed significant changes to meet requirements.
+4
+
+The Student Investment Account
+
+Quality Assurance and Learning Panels
+In alignment with ODE’s commitment to develop shared responsibility and confidence in our public
+schools and to facilitate learning within and across schools, districts, and communities, the final step of
+the application review process was the Quality Assurance & Learning Panel (QALP) review.
+The purpose of the Quality Assurance and Learning Panel was to:
+1. Support public understanding and grow confidence in the implementation of the various
+initiatives,
+2. Create conditions conducive for learning across districts and communities, and
+3. Support ODE’s review efforts with a quality check ODE has identified four principles that will
+guide our approach to reviewing applications and co-development of the Longitudinal
+Performance Growth Targets for each eligible applicant.
+The basic concept was to bring together, virtually, panels of people across the state to review and
+affirm/challenge the determination made by ODE staff while also increasing learning about the work
+being done in districts, charter schools, YCEPs, JDEPs, regions, and communities across the state of
+Oregon. Over three months, ODE engaged with 200+ panelists during QALP sessions, who represented
+26 counties across Oregon, with various backgrounds, lived experiences, and roles including advocates,
+community, business, and philanthropic partners, parents and families, practicing and retired educators
+and leaders, local school board members, ESDs, and CTE partners.
+The panel review did not determine whether or not an application met the requirements. Rather, the
+panel review either affirmed or challenged the assessment made by ODE staff and spurred additional
+review processes for that given application, if not affirmed.
+If ODE’s assessment of small or significant changes was affirmed, the Department would reach out to
+the applicant and request additional materials or narrative responses. Additional information submitted
+would be reviewed by reviewers as it was submitted by applicants. As of January 2024, all Integrated
+Applications have been reviewed, along with any additional information submitted, and all but one
+applicant now meets application requirements and moved into the co-development of performance
+targets detailed further below. ODE is continuing to support the final applicant in meeting application
+requirements.
+Longitudinal Performance Growth Targets & Local Optional Metrics (LOMs)
+With the passage of the Student Success Act, grantees and ODE were required to collaborate in the
+development of LPGTs for five common metrics of students’ educational achievement, which include:
+• Four-year graduation,
+• Five-year completion,
+• Third-grade reading,
+• Ninth grade on-track, and
+• Regular attendance.
+Although specified in statute for the Student Investment Account, these metrics also correspond closely
+to key improvement measures outlined for High School Success, Every Day Matters, Comprehensive
+Support and Intervention (CSI)/Targeted Support and Improvement (TSI), and Career and Technical
+Education. In addition to these metrics, the statute states that targets must be based on data available
+5
+
+The Student Investment Account
+
+for longitudinal analysis, include targets for all students combined as well as for disaggregated data, and
+allow for the development of LOMs.
+For disaggregated data, the following student focal groups were identified as having historically
+experienced academic disparities, and data for each group was examined separately:
+• Students navigating poverty4, homelessness, and foster care
+• Students with disabilities
+• Emerging Bilingual students
+• American Indian/Alaskan Natives
+• Black/African Americans
+• Hispanic/Latinos
+• Native Hawaiian/Pacific Islanders
+• Additional student groups that have experienced academic disparities
+For both LPGTs and LOMs, grantees were required to co-develop targets with ODE. Targets were set for
+each year over a five-year period beginning with the 2023-24 school year and ending with the 2027-28
+school year. Targets were set for all students within the institution (i.e., “baseline” targets) and for the
+combined population of student focal groups (i.e., “gap-closing” targets). Following co-development and
+calibration (see below), these targets then became part of the formal SIA grant agreement. In addition,
+ambitious targets for all students within the institution (i.e., “stretch” targets) were also set for a fiveyear period, though they did not become part of the formal grant agreement.
+Local optional metrics are an opportunity for SIA grantees, in collaboration with ODE, to name and
+create their own monitoring measures and to set targets for those measures over time. Local optional
+metrics are included in review by ODE. SIA grantees were encouraged to put forward optional local
+metrics that may more accurately align to the particular strategies, activities, and investments outlined
+in their Integrated Application. In addition, the Oregon Administrative Rules provides definitions (OAR
+581-014-0022) and the purpose (OAR 581-014-0025) of LOMs specifically for mental and behavioral
+health.
+Eligibility Criteria for Development of LPGTs/LOMs
+Grantees with less than 80 ADMr (Average Daily Membership) were released from setting LPGTs on the
+five common metrics and were instead encouraged to set LOMs. If a grantee had over 80 ADMr, but the
+cohort for one of the five required metrics was less than ten students in the most recent year of
+finalized data (2021-22 at the time of application), then the grant recipient was released from setting
+targets for that particular metric. This applied to baseline and gap-closing targets individually.
+Those who applied in a consortia used an ODE supplied aggregation of each members’ combined
+students for this calculation, and created one set of targets for all applicants in the consortia. Grantees
+in consortia with virtual charter schools ineligible for SIA grants were aggregated without the students
+from those programs.
+
+4
+
+Students Navigating Poverty group uses the new definition of the group that the State Board of Education
+adopted in December 2022 in OAR 581-014-0001, which was not yet available to grantees in their ADI
+(Achievement Data Insight).
+
+6
+
+The Student Investment Account
+
+Training Materials and Events
+In support of grantees’ development of LPGTs and LOMs, a number of resources were specifically
+produced and made available in various formats.
+•
+
+Data Visualizations: ODE released PDF files of suppressed data visualizations and Excel
+spreadsheets of unsuppressed data to each school and district in fall 2023 with an update in the
+early spring to coincide with newly updated data. Data visualizations and spreadsheets included
+data for the five common metrics to support districts in beginning to draft their LPGTs.
+1. Data Literacy Recording: In follow-up to ODE releasing data and visualizations, ODE
+created this recording to support applicants’ understanding of their data and
+visualizations in order to facilitate their review ahead of beginning to draft LPGTs.
+
+•
+
+Webinar Series: A four part webinar series provided background information on how to
+approach metric data, go over the specifics of setting LPGTs and LOMs and included a panel
+discussion later used to develop a target setting section in an FAQ document.
+
+•
+
+In-person Presentations: Additionally, a presentation at the January COSA Winter Conference
+focused on Setting Growth Targets, Progress Markers, and Considering Local Optional Metrics.
+When possible webinar and meeting presentation artifacts were made available for reference.
+
+•
+
+Guidance: All technical aspects of submitting LPGTs and LOMs are covered in detail in the
+Integrated Programs Reporting and Application Dashboard Technical Guidance and it also
+includes details on eligibility criteria and timelines. To complement this documentation, a video
+tutorial for entering LPGTs and LOMs was also produced.
+
+Internal Co-development Supports
+In preparation for working with grantees, a series of internal training sessions were developed for staff
+serving as co-development partners. The training contained similar content to that provided to
+applicants, while also providing additional details on the various ways to manage data provided in
+drafted targets, the submission process as well as potential areas where grantees might have questions
+or need additional support. Presentation artifacts and documentation were also provided to
+complement these training sessions. Further, to supplement the original training events and to make
+use of knowledge gained as teams moved through the process, regularly scheduled office hours were
+held to answer questions, provide updates, and discuss challenges.
+Co-development Structure and Timeline
+Grantees were encouraged, but not required to submit drafted targets with their grant application
+before the March 2023 application deadline. An example of what LPGT submission looks like is visible in
+this sample in Smartsheet. After the grant application met requirements the co-development process
+began with grantee and ODE staff meeting to discuss their five-year historical data and review planned
+strategies to develop realistic and attainable targets unique to the recipient's needs, goals, and funding
+strategies. Once the targets had been finalized, they were then calibrated, a process discussed in the
+next section, before being added into SIA grant agreements for board approval. As described in the
+Integrated Guidance (appendix I) document, no single formula was used to create these targets, but
+ODE prepared information on the 10% of highest performing school districts to use, updating
+information previously shared in the integrated guidance discussion for what might be considered overly
+ambitious targets. Below is a table of the original average yearly growth attained by the highest
+7
+
+The Student Investment Account
+
+achieving 10% of school districts in the second column as well as the updated average yearly growth
+attained in 2016-2021, once more data was available.
+
+Indicator
+
+Regular Attenders
+
+Original: Yearly Growth Achieved by
+10%
+of Districts, 2013-2018
+1.2
+
+Updated: Yearly Growth Achieved by
+10%
+of Districts, 2016-2021
+-1.1
+
+3rd Grade ELA
+
+3.4
+
+1.3
+
+9th Grade On
+Track
+
+5.4
+
+3.2
+
+4-year Graduation
+
+4.2
+
+3.4
+
+5-year Completion
+
+2.6
+
+2.4
+
+Internal Calibration Process
+Once all LPGTs and LOMs for a grantee went through co-development process (i.e., targets were agreed
+to by both the applicant and the ODE co-developers), the targets were assigned to a member of the
+LPGT calibration team for a final review. The purpose of calibration was to ensure consistent
+development of targets across all grantees and that the targets followed internal guidelines.
+The calibration process checked for:
+• Completeness, meaning targets were set for all metrics and groups for which they were required
+• Suppression, meaning no specific values above 95% or below 5% were reported; no targets for
+groups with fewer than ten students
+• Consistency, meaning gap-closing targets were in fact closing gaps; baseline targets aimed to be
+at or above minimum values; and stretch targets consistently surpass baseline targets
+If the member of the calibration team had questions and/or concerns about the targets, issues were
+discussed at a calibration team meeting. Calibrators could also ask for clarification from co-developers if
+targets seemed unusual or followed unusual patterns to guard against data entry errors and ensure
+equitable target setting.
+SIA Grant Agreements & Board Approval Process
+Following co-development and calibration of the LPGTs and any LOMs, the baseline targets, gap-closing
+targets, and any LOMs were included in the SIA grant agreements along with Progress Markers named
+below. Grant recipients were then required to provide their SIA grant agreement to their institution’s
+main office, post the agreement to their website, orally present their grant agreement to their
+governing body, and provide an opportunity for public comment on the agreement and co-development
+targets at an open meeting. Grant agreements became valid once the preceding steps occurred and the
+agreement was approved by the governing body of the grant recipient.
+Refresh of Progress Markers Framework
+In addition to LPGTs and LOMs, Progress Markers are a part of the overall monitoring and evaluation
+framework for grantees. Progress Markers are intended to support applicants and SIA grantees to learn
+and attend to their changemaking efforts and to support understanding of how specific
+activities/strategies are contributing to desired outcomes and targets. Progress Markers illuminate the
+8
+
+The Student Investment Account
+
+depth and complexity of changes that advance over time. Moving from early signs of progress, towards
+likely changes; and extending all the way toward profound changes desired based on the efforts of grant
+recipients.
+Starting in fall 2022 and continuing into spring 2023, ODE worked with external partners and community
+members to refresh the Progress Markers Framework originally published in the Integrated Guidance.
+The aim of Progress Markers is to help set clear indicators of the kinds of changes that might occur
+ahead of changes in traditional education metrics. Refreshing the framework was to support alignment
+across integrated programs and to provide a more useful tool for participating grantees. The field had
+shared points of initial confusion on elements of the initial Progress Markers language and structure,
+and these key components were addressed in the refresh.
+Three live engagement sessions occurred during the fall of 2022, with invites to ODE colleagues,
+community partners, district staff, and Education Service District (ESD) staff. Rounds of feedback were
+utilized to fine tune the structure, language, and format of the progress marker framework. Coding was
+also added to help grantees track the four main goals from the Integrated Guidance and progress on
+Longitudinal Performance Growth Targets. An initial draft of the refresh was taken to an in-person
+engagement session at the 2023 Winter COSA Conference for additional refinement.
+The finalized version of the refreshed Progress Markers was shared with the educational community in
+March 2023. In addition, a crosswalk between Cognia accreditation metrics was also developed by
+agency staff to support schools finding throughlines to the markers. With the newly updated Progress
+Markers published, the Office of Education Innovation and Improvement (OEII) team shifted to teaching
+into the new markers. Training for OEII colleagues took place in August 2023. Similar training was also
+provided to ESD Liaisons in early September 2023. Regional Support staff from OEII incorporated
+Progress Markers training and resources into their visits occurring throughout the fall of 2023.
+Refreshed Progress Markers are now included in the SIA grant agreements for the 2023-25 biennium
+and starting in fall 2023, are required to be reported on quarterly by grantees. This is a shift from
+previous bienniums where SIA grantees optionally reported on Progress Markers. SIA grantees are not
+expected or required to meet all progress markers, only to track and report quarterly, when the
+investments create or contribute to the changes outlined as determined by the recipient.
+Survey of the Integrated Grant Application Process
+Following the completion of the Integrated Application submission, review process, and LPGT codevelopment process, ODE designed a survey to elicit quantitative and qualitative feedback from
+participants regarding their experience. Surveys were sent to individuals involved in the grant
+application process, including school district and charter staff, ESD Liaisons, CTE Regional Coordinators,
+and ODE staff. The survey was released on June 28, 2023 and closed on August 21, 2023. A total of 123
+individuals completed the survey. What follows is a high-level overview of the survey and its results.
+Effectiveness of Application Processes
+Survey respondents rated six application processes:
+1. Application preparation, guidance, and webinars;
+2. Intent to apply;
+3. Application submission;
+4. Application review/update;
+5. Quality Assurance and Learning Panels; and
+9
+
+The Student Investment Account
+
+6. Longitudinal Performance Growth Targets and Local Optional Metrics.
+The effectiveness of the six application processes were rated using the following options:
+• Very effective
+• Mostly effective
+• Neutral
+• Not effective
+• Not applicable
+The majority of all respondents indicated that four of the six parts of the application process were
+effective. The application preparation, guidance, and webinars was most likely to be considered
+effective (63%), followed by the application submission (57%), the intent to apply (56%) and the
+application review/update (50%). Only the QALP and the LPGTs/LOMs had effective ratings under 50%,
+with 46% of respondents indicating the LPGTs/LOMs were effective, and 36% rating QALP as effective.
+Survey results also indicated that staff from large school districts tended to rate the six application
+processes as more effective than staff from medium or small districts. For large districts, the majority
+of respondents rated each part of the process as effective, ranging from 88% effective for the application
+preparation, guidance, and webinars and the application submission, to 50% effective for the application
+review/update. Ratings of effectiveness from medium and small districts were lower with about half of
+respondents saying four of the six parts were effective (range: 46% - 56%), with a smaller percentage
+indicating QALP and LPGTs/LOMs were effective (range 25% - 35%).
+Impact/Disruption of Application Processes
+The six parts of the application process (see previous section) were also rated in terms of their impact or
+disruption. The response options were:
+• Went as smoothly as possible
+• Went somewhat smoothly - a few frustrations
+• Challenging/confusing
+• Extremely difficult/frustrating
+• Not applicable
+Across all respondents, the majority (range; 53% - 68%) said each of the six parts of the application
+process went smoothly. The Intent to Apply was rated overall as the part of the process that went most
+smoothly (68%), while application preparation, guidance, and webinars was rated most challenging
+(challenging to extremely difficult = 38%), followed by LPGTs/LOMs (challenging to extremely difficult =
+32%).
+As for the size of the district, large, medium and small districts rated three parts of the process similarly:
+for the application preparation, guidance, and webinars, the range for the percentage indicating the
+process went smoothly across the three sizes of districts was 49% - 60%, for Intent to Apply the range
+was 63% - 76%, and for the application review/update the range was 59% - 68%. On the other hand,
+ratings differed for the application submission, with 88% of respondents from large districts indicating it
+went smoothly, compared to 68% from medium districts and 54% for small districts. And for
+LPGTs/LOMs, over three-quarters (76%) from large districts said it went smoothly, compared to 48% and
+44% for medium and small districts, respectively.
+
+10
+
+The Student Investment Account
+
+Helpfulness of Communication Processes
+Five aspects of Integrated Grant Application communication processes were also rated in terms of their
+helpfulness:
+1. Aligned program communications - listserv;
+2. Smartsheet application portal;
+3. Smartsheet automated notifications;
+4. Integrated Planning and Budget Template; and
+5. Tiered planning within the budget template.
+Respondents rated these processes on the following scale:
+• Very helpful and clear
+• Somewhat helpful and clear
+• Neutral
+• Confusing and/or unclear
+• Not applicable
+Of the five processes, Aligned Program Communications - Listserv was considered to be the most
+helpful, with over half (53%) reporting it was somewhat or very helpful, and only 6% saying it was
+confusing and/or unclear. On the other hand, tiered planning within the budget template had the
+lowest ratings, with 45% reporting it was somewhat or very helpful and 15% reporting it was confusing
+and/or unclear. The small range between the highest and lowest ratings indicates all five processes were
+rated fairly similarly.
+With respect to the size of the district, respondents from large districts were more likely to indicate the
+processes were helpful in comparison to those from medium-sized districts, who in turn rated the
+processes more favorably than those from small districts. Differences were most pronounced for the
+Aligned Program Communications - Listserv, with 88% of respondents from large districts indicating it
+was somewhat or very helpful, compared to just 44% from small districts. The discrepancy between
+large and small districts was considerably less for the other communication processes, ranging from 8 to
+28 percentage points.
+Accomplished Goals
+Three additional questions on the survey were designed to determine the degree to which OEII
+accomplished three of its broad goals:
+1. Clear and comprehensive Integrated Guidance to assist districts with their application;
+2. Encouraging more effective, strategic, and equitable planning; and
+3. Whether the process “made the right work easier.”
+One question asked, “Did the Integrated Guidance and online materials/resources prepare you for the
+process?” Two-thirds (66%) of respondents indicated that the materials and resources prepared them
+“as much as possible” (26%) or “more often than not” (40%). Another 30% said they partially prepared
+them, “but with key gaps,” and just 3% said “Not much/not at all.”
+The next question asked respondents how much they agreed or disagreed with the following statement:
+“The IG application process resulted in more effective, strategic, and/or equitable planning.” Overall,
+nearly half (49%) either agreed (42%) or strongly agreed (7%) with the statement. In comparison, 22%
+
+11
+
+The Student Investment Account
+
+either disagreed (18%) or strongly disagreed (4%) that the application process resulted in more
+effective, strategic, and/or equitable planning. An additional 29% of respondents were neutral.
+The third question asked respondents their level of agreement with the statement: “The process ‘made
+the right work easier’ even if the process required significant time and energy.” Overall, 42% of
+respondents were in agreement with the statement (agree = 34%, strongly agree = 8%), and 42% were
+in disagreement (disagree = 33%, strongly disagree = 9%). Another 16% were neutral.
+Qualitative Analysis of Open-ended Questions
+Overall, the qualitative analyses supported the results of the quantitative analyses: the majority (or
+occasionally, the plurality) of respondents found the process was effective, went smoothly, and was
+helpful. In addition, most of the quantitative analyses and the qualitative analyses indicated that small
+districts, very small districts, and charter schools had the greatest challenges and difficulties with the
+Integrated Grant Application process. Some key takeaways from the Qualitative Analysis of Open-Ended
+Questions included:
+• Across all district sizes, respondents described the large amount of time and effort put into the
+application. Small and very small districts, and charter schools most often described the process
+as overwhelming.
+• Small and very small districts, charter schools, and medium districts noted that the application
+process took away time from other important work.
+• Across all respondents, many noted that the application questions seemed redundant or that
+the process did not save time compared to previous application processes.
+• Small and very small districts, and charter schools said they believed their smaller size made
+completing the application process more difficult, many citing that the workload fell onto very
+few people or just one person, many of whom already carried multiple responsibilities at their
+district.
+• Across all sizes and roles, respondents wanted future applications to be simpler and more
+streamlined, while also being consistent so that future years wouldn’t require learning a whole
+new process.
+
+12
+
+The Student Investment Account
+
+SPECTRUM OF SUPPORTS
+All SIA grantees have access to technical assistance (TA), which is provided by ODE staff through a
+regional model as well as from all 19 Education Service Districts.
+A spectrum of supports for SIA implementation were designed into the law through the establishment
+of a coaching program, which are outlined in Section 7: Getting Better of the Integrated Guidance. ODE
+is designing a range of supports including TA, professional learning, onsite coaching, the Intensive
+Program, and the authority to take corrective action over time based on the performance framework set
+into the program, but suspended in implementation as part of the Legislature’s pandemic response. The
+supports that ODE is responsible for developing and deploying have made great strides since the
+February 2023 Legislative Report.
+OEII Regional Support Model
+Prior to the launch of the Integrated Guidance, staff were organized by distinct programs. This meant
+staff worked on one program and connected with school and district staff on that particular program,
+rather than on multiple programs. To the field, this meant that a district might connect with up to six
+different staff members from the office at any given time. With the rollout of the Integrated Guidance,
+the office went through a process to de-silo and better coordinate across programs.
+After staff initially learned about each of the six programs housed within OEII, the office instituted a
+regional support model, where two staff members were assigned to regions (in alignment with the 19
+ESD regions) to better support grantees on all of the programs under the Integrated Guidance and in
+better coordination with ESD teams.
+Since implementing this model, relationships between Region teams, ESD staff, and grantees have
+grown tremendously. Region teams have learned more about the context of their districts, schools, and
+programs - and often engage in visits to share information in regional meetings and/or see programs in
+action. In addition to site visits, Region teams engage in calls with their ESD regions on a biweekly to
+monthly basis, sharing overarching updates while also checking in on specific grantees and/or working
+to resolve challenges. Grantees also know that they have a dedicated support team they will receive
+information from and also can go to with questions and/or needs. As the Early Literacy Success Initiative
+is incorporated into the renewed Integrated Guidance for the next biennium5, Region teams are growing
+their own knowledge base in order to be able to support their districts, schools, and programs with this
+program as well.
+ESD Technical Assistance
+ORS 327.254 requires that all 19 ESD regions receive funding from the Statewide Education Initiatives
+Account (SEIA), another account within the Fund for Student Success, based on the prescribed formula.
+The passage of Senate Bill 225 adjusted the formula to establish floor funding for the smallest ESDs.
+In the 2021-23 biennium, $41.1M was allocated from the SEIA to ESDs to provide technical assistance to
+districts, eligible charter schools, and YCEPs/JDEPs in their region. The passage of Senate Bill 215 in 2023
+adjusted who the ESD had to provide services to within their region - shifting from just school districts to
+include eligible charter schools and YCEPs and JDEPs as well, given they are eligible applicants for SIA
+5
+
+More information about the renewed Integrated Guidance is shared in the “On the Horizon” section further in
+this report.
+
+13
+
+The Student Investment Account
+
+funding. TA provided by the ESD can include a range of activities including, but not limited to capacity
+building in the region, coordinating between grantees and ODE, providing professional learning, and
+supporting application development and reporting. With the TA funding, each ESD is required to hire at
+least a 1.0 FTE for the biennium, who is the primary point of contact for collaboration with ODE. This 1.0
+FTE could be fulfilled with one person or the combination of time across multiple people based on the
+content and design of each ESD.
+Building off the existing ESD structures established with SIA implementation, ODE furthered this
+partnership by providing additional funds to ESDs to support implementation of the Integrated
+Guidance. ODE worked closely with each ESD to execute grant amendments for the 2021-23 biennium
+that brought in additional funding, including:
+• Every Day Matters funding, focused on strategies to address the root causes of chronic
+absenteeism
+• High School Success funding, focused on strategies to support 8th-12th grade students
+• Every Student Succeeds Act federal funding, focused on supporting TSI and CSI schools
+• Governor’s Emergency Education Relief (GEER) funding6, which ends September 30, 2024,
+focused on reducing administrative burden for small and rural districts
+With the increase in funding, rather than singular ESD Liaison roles - small teams of different sizes within
+each ESD have formed with clear coordination and joint meetings across the programs. As part of the
+ESD grant agreement, for the 2021-23 biennium, ESDs were required to submit the following
+deliverables on an annual basis:
+• Draft Comprehensive Support Plan, which details the support and technical assistance that each
+ESD will provide to districts, schools, and programs in their region to support the development,
+implementation, and review of draft plans
+• Documentation that the Comprehensive Support Plan has been adopted and incorporated into
+the ESD Local Service Plan (LSP)
+• Annual financial report of expenditures, which details how ESDs spent each funding stream each
+year
+ESDs continue to receive funding in the 2023-25 biennium, with a slight increase in overall funding. ESDs
+will continue to meet with ODE on a regular basis through calls and regional visits, and will submit the
+same three deliverables in the new biennium.
+Small and Rural District Support
+ODE committed $4,450,000 in Federal GEER funding through September 30, 2024 to support small and
+rural school districts in Oregon through allocating:
+• $4,227,735 to 19 ESD regions
+• $222,265 for a full-time ODE staff
+• $42,275 for part-time coordination among ESDs through the Oregon Association of Education
+Service Districts (OAESD)
+The focus of these GEER funds is to provide responsive and intensive support from the ESDs to small
+districts that are 1650 ADMw or under within their regions and may provide these supports to districts
+that have up to 2000 ADMw. Often smaller districts have limited personnel capacity to move through all
+6
+
+While the GEER funding ends on September 30, 2024, the Legislature sustained the dedicated funding to support
+small and rural districts with state funding in the 2023 Legislative session through package 104 in House Bill 5014.
+
+14
+
+The Student Investment Account
+
+of the administrative and reporting requirements for various programs and initiatives the districts are
+receiving. ESDs are using the funds in accordance with the allowable uses to provide support,
+coordination, and alignment of any of the 145 state or federal programs for the small districts in their
+region.
+Given the GEER funds ESDs receive must be spent by September 30, 2024, ODE submitted a Policy
+Option Package (POP) request to sustain the small and rural support funding in the long session, shifting
+from federal to state funding. This POP was supported by the Department and approved by the
+Legislature in 2023. This means that starting in the 2023-25 biennium, each ESD will receive state
+funding from the SEIA to support continued emphasis on small and rural district support to relieve
+administrative burden for the 145 state and federal programs across ODE. This also shifts the ODE staff
+position focused on this work from limited duration to permanent and continues to provide funding to
+support a part-time OAESD staff coordination role.
+Professional Learning Series
+In response to the requirement for a coaching program to support the SIA, ODE moved forward with a
+Request for Proposal (RFP) process in spring 2021, which resulted in two contracts awarded for the
+development of two professional learning series. These professional learning opportunities are
+universally available to all schools and districts across the state of Oregon. The content developed is
+open access, available at no cost to grantees, and can be accessed asynchronously, with encouragement
+for grantees to engage in learning cohorts or Professional Learning Communities (PLCs).
+The first series of professional learning, “Engaging Equity: Equitable Systems, Mindsets, and Practices,”
+launched last February. The deep aim for the Engaging Equity modules was to support a quality baseline
+for advancing culturally specific and sustaining education practices in alignment with outcomes set forth
+in legislation with specific attention to focal students. The Engaging Equity professional learning series is
+made up of four clusters with a total of 18 individual modules. The first two clusters of modules - Racial
+Equity Foundations and Culturally Responsive and Sustaining Practice - have been released with the final
+two clusters of modules - Apply Equity Skills to Educating a Diverse Population and Building Equitable
+Educational Systems - to be released in spring 20247.
+A second series, the “Community Engagement Systems and Practices” modules launched in spring 2023.
+The four part series is designed to provide another avenue for Oregon educators to dive more deeply
+into the ODE Community Engagement Toolkit - and offers videos, examples, planning resources, and
+oration of key elements throughout.
+ODE also developed two series of professional learning to support the Early Indicator and Intervention
+System (EIIS) program - EIIS Foundations for Student Success and EIIS at Middle and High School. An EIIS
+is a collaborative approach between educators, administrators, parents, and communities to use data
+effectively to identify opportunities to support all students to be on the pathway to graduation
+throughout their educational experience. These learning series provide educators and leaders with
+resources and skills to expand and deepen EIIS best practices, with both synchronous and asynchronous
+sessions.
+Intervention and Strengthening Program
+
+7
+
+Engaging Equity full scope and sequence of clusters and modules.
+
+15
+
+The Student Investment Account
+
+Section 17 of the Student Success Act established a coaching program intended to provide capacity
+building, system improvement supports, and accountability structures to support SIA implementation.
+ODE established the Intervention and Strengthening Program (ISP) as the general coaching program
+funded through the SIA for grant recipients who do not meet LPGTs. Each biennium, ODE is expected to
+monitor and determine if a grant recipient does not meet the LPGTs identified in the grant agreement. If
+a grant recipient does not meet the LPGTs, the grant recipient may submit an explanation for the
+reasons why the targets were not met. After taking into consideration the explanation submitted by the
+grant recipient, ODE may require the grant recipient to enter into the ISP. If required, participation in
+the coaching program must be for at least one year, unless the department allows for a shorter period
+of time.
+As named above, ODE has been pursuing a universal and targeted approach to deploy technical
+assistance, coaching, and high-quality professional development that supports the implementation of
+the SIA, the 28 programs in the Student Success Act, and the programs aligned in the Integrated
+Guidance. The legislature allocated about $9M per biennium to develop these efforts. In addition to the
+professional learning series named above, ODE launched a second RFP process using a price agreement
+model to secure pre-approved vendors to provide onsite coaching in the following focal areas:
+• Equitable mindsets and systems
+• Community engagement
+• Fiscal stewardship
+• Early literacy
+• Middle school literacy
+ODE ran the RFP twice during the 2022-23 school year and determined five vendors met the
+requirements to be a pre-approved vendor for these focal areas. ODE has worked closely with DAS
+Procurement to establish master service agreements with each vendor and has hosted introductory
+kickoff meetings with each vendor. ODE is in the process of finalizing the Statement of Work process
+under the price agreement structure to begin matching district interest with vendors. ODE anticipates
+vendors will begin working with grantees in spring 2024.
+Intensive Program Background
+Section 18 of the Student Success Act established an Intensive Program (IP) for school districts with the
+highest need for support and intervention. The Intensive Program is invitational, and only public school
+districts are eligible to receive an invitation to participate. School districts that accept the invitation
+agree to participate for at least four years and as such are eligible for additional funding from the
+Statewide Education Initiatives Account. For the 2021-23 biennium, a total of $25 million was included in
+the grant-in-aid section of the SEIA for the additional funding for participating districts, which reflects
+unspent monies distributed to participating districts from the previous biennium. The AY23 Legislatively
+Adopted Budget (LAB) had $3,413,134 in total operations funding, which includes $750,013 for three
+staff positions and services/supplies.
+As outlined by statute, the Intensive Program creates Student Success Teams (SST). Administrative rules
+passed by the State Board of Education with input from ODE’s Rules Advisory Committee (RAC)
+established that each SST for a participating district would include two bodies: a broad Advisory Body
+with members from across the school district and larger community and a smaller Stewarding Body with
+seven members. The Stewarding Body includes individuals internal and external to the district - the
+superintendent, a board member, a teacher, an ODE point person, and three ODE-contracted stewards 16
+
+The Student Investment Account
+
+who support the district in leadership, teaching and learning, and community engagement. With the
+guidance of the Advisory Body, the Stewarding Body makes recommendations on how to work
+collaboratively with staff, families, and community partners to improve performance outcomes and
+meet Longitudinal Performance Growth Targets. The participating school district must follow these
+recommendations when they pertain to programmatic decisions and funding for the SIA and the
+Intensive Program; for other areas of district operations, the district may choose to follow the
+recommendations.
+The program currently has two active cohorts of districts participating. Cohort 1 invitations were
+extended in 2021, with one district participating during the initial year of implementation. Cohort 2
+invitations were extended in 2022 to four districts, with two additional districts selected into the
+program for the 2023-24 school year. Cohort 3 invites took place in fall 2023, with the aim of adding an
+additional two districts for the 2023-25 biennium.
+Intensive Program Implementation Challenges
+As the program continues to partner and work with Cohort 1 and 2 districts, multiple challenges
+continue to impact implementation of the Intensive Program. Three primary challenges have surfaced,
+or continue to surface: procurement execution time, mindsets around equity in leadership and funding,
+and trepidation around participation from invited districts.
+With procurement services, the structure of the Intensive Program has offered unique challenges in
+drafting grant agreements that meet legal sufficiency requirements for the program. The Intensive
+Program offers additional grant-in-aid for recipients, but unlike other grant-in-aid programs, the funds
+are only usable through recommendations from the Student Success Teams. This impedes the ability to
+develop allowable uses and budgetary considerations common in other grant-in-aid programs. While
+the procurement and Intensive Program teams have moved toward a drafted standing grant-in-aid
+agreement for districts, it has taken significant time to execute these grants leaving Cohort 2 districts
+with a grant timeline beginning January 1, which misaligns with district calendars.
+The most significant challenge facing the program currently is the procurement of external contractors
+to serve as stewards. In 2022, the Intensive Program team pursued making a special procurement
+process permanent practice for contracting additional stewards. This move came after two failed RFPs in
+2021 and discussion with OEII, procurement, and DAS leadership for potential next steps. However,
+during 2023 movement on this special procurement approach has been delayed due to procurement
+staffing changes. While the team was able to add four additional stewards under the previous contract,
+only single-year amendments to extend currently serving stewards and the new additions were
+completed at the end of 2023. This has been especially difficult considering larger contracts and
+spending limitations. For continued program viability, being able to procure additional stewards through
+a consistent special procurement process is needed to ensure enough stewards can be obtained that
+have the specific skills and knowledge to support the diverse range of districts the program aims to
+serve.
+Another challenge that has become apparent is district perspectives around grant-in-aid programming.
+As mentioned in regard to grant agreements, the Intensive Program’s unique approach to
+recommendations being approved through the Student Success Team is different from any other grant
+programs in which districts participate. Generally, the program has identified the need to onboard and
+train districts in recommendations to shift district planning to a holistic, collaborative approach. As of
+2023, the majority of recommendations have all been initiated by district leadership on the Student
+17
+
+The Student Investment Account
+
+Success Team, whereas the aim would be to see recommendations come from more group discussion or
+from the vast array of voices that make up the Student Success Team participants. Districts are still
+planning around how they would like to use the funds, opposed to working with the Student Success
+Team to collectively determine recommendations that will foster improvement.
+Each biennium the program invites between three to ten districts as per OAR 581-017-0738.
+Programmatically, the aim is to have invites out by April of the initial year of the biennium to allow for
+execution of grant agreements by July 1. However, in 2023 invites were delayed and did not take place
+until September.
+Implementation Progress
+The 2023 year saw continued partnership with participating districts, two additional invites for Cohort 3
+going out to school districts, a growth in the Intensive Program staffing, as well as navigating large shifts
+in both programmatic elements and district changes.
+Much of the focus during implementation in winter and spring 2023 was in partnership and support of
+the three participating districts in Cohort 1 and 2 around the integrated application. Work with the
+Cohort 1 district included providing feedback on application and process through the Student Success
+Team model. Cohort 2 districts were still in the planning phase of the program, so Intensive Program
+staff worked alongside district staff in their application process while learning into the district prior to
+Student Success Team work commencing.
+Winter 2023 saw a change in superintendent for the Cohort 1 district. This transition coincided with the
+first memo production by steward contractors serving the program, and allowed an opportunity for the
+stewarding body to connect early and often with the new leadership. Continued biweekly meetings with
+Intensive Program staff and new leadership has supported a smooth transition from a programmatic
+lens and continuation of the Student Success Team model has progressed with no pauses.
+The largest programmatic shift was in the passing of Senate Bill 215, which exempts Student Success
+Teams from public meeting law requirements. This technical fix was sought after invited districts naming
+this element as a structural barrier for them in participation. Minutes continue to be posted for all
+Student Success Team meetings for all participating districts to support transparency.
+Within the agency, ODE program staff for the Intensive Program have invested and refined internal
+alignment work to better support participating districts across ODE programs and initiatives. ODE staff
+who directly support programs being implemented in participating school districts meet monthly to
+share updates, align strategies, and integrate process requirements. Feedback from participating staff
+has been positive in providing a space to learn more about common elements of programs and work
+toward reducing administrative burden for districts.
+Next Steps for the Intensive Program
+To fulfill statutory requirements and provide the greatest level of support to participating districts as the
+program grows, the Intensive Program team expanded this fall by adding two limited duration District
+Support Specialists (Education Specialist 2) and a limited duration Office Specialist 2. The team will be
+pursuing funding and position authority, through a Policy Option Package, to make these limited
+duration positions permanent and add an additional District Support Specialist and an Administrative
+Support Specialist ahead of Cohort 4 invites. Permanently funded positions will allow the Intensive
+18
+
+The Student Investment Account
+
+Program to grow its capacity to fully support high-needs districts and live into the intention and purpose
+of the Intensive Program.
+Another key component of the program staff aim to solidify in 2024 is technical assistance contract to
+support the growth and development of the Stewards as well as ODE and participating district staff
+through Technical Assistance. Funds for the technical assistance contract are earmarked in the
+operations budget for the program. At the time of this report, staff submitted necessary documentation
+to begin working on this process with procurement.
+Despite the challenges in developing and implementing a new approach to supporting school districts,
+the program shows tremendous promise. While other states’ models of supporting districts with similar
+needs are punitive and often result in a contentious dynamic, the Intensive Program aims to
+collaboratively work with districts – alongside their community in the spirit of the Student Investment
+Account – to provide deeper support and funding to build capacity in the districts that need it most.
+Also, while other states’ models often rely on a single coach, the Intensive Program builds a broad base
+of support for participating districts – from stewards safeguarding a key perspective in the district’s
+decision making process to their Advisory Body that draws from the community to the designated ODE
+Point Person to build internal alignment at ODE to support the district’s work.
+One significant area of promise for the program’s effectiveness has been a level of trust developed
+between the participating school districts and agency staff. District personnel have been more willing to
+proactively name areas of need that have historically been areas of tension. Another area of promise
+has been the ability to authentically center equity in Student Success Team meetings and bringing in
+voices who have often been absent or ignored from conversations around improving experiences and
+outcomes for students.
+Continued Groundwork for Corrective Action
+Based on learnings from the High School Success program and the recent SOS audit, ODE has developed
+a plan for corrective action for the SIA and in coordination with the six programs under the Integrated
+Guidance. ODE is prepared to intervene to ensure that compliance is achieved when a grant recipient
+does not meet specific requirements or outcomes, including, but not limited to:
+• Longitudinal Performance Growth Targets;
+• At least 90% of the Perkins performance targets at the consortia or direct grant recipient level;
+• Eligibility requirements;
+• Application alignment with available performance and demographic data;
+• Misuse of or inadequate reporting of finances;
+• Community engagement priorities; and/or
+• Observing all civil rights laws.
+Corrective Action Plans (CAPs) are improvement plans that outline specific actions that must be taken
+and outcomes that must be met. Plans will be developed to address areas that need improvement and
+will draw upon the spectrum of supports designed to support SIA grantees. CAP supports may include:
+• A written plan identifying specific actions that must be taken and outcomes that must be met
+• Requirement to enter into a coaching program
+• A compliance review and/or investigation of unlawful actions
+• Direct investments of grant funds
+• Withhold grant funds
+
+19
+
+The Student Investment Account
+
+2022-23 SIA IMPLEMENTATION AND ANALYSIS
+Background
+Timelines of Implementation
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+May 2019: Passage of the Student Success Act, inclusive of the SIA
+March-April 2020: Districts and schools submit first SIA application, plan, and budget coinciding
+with the start of COVID-19
+August 2020: Special legislative session results in reduction of SIA funding to $150M, release of
+LPGTs, and encouragement to invest funds in support mental and behavioral health
+Fall 2020: Opportunity for districts and schools to make adjustments to the SIA plan due to
+reduction in funding
+Fall 2020-June 2021: First year of SIA implementation
+May-June 2021: SIA plan updates due to ODE, pivoting from original plan to complete a full
+application cycle
+July 2021-June 2022: Second year of SIA implementation
+February 2022: Release of Integrated Guidance, inclusive of SIA
+July 2022-June 2023: Third year of SIA implementation, final year of implementation with
+program specific guidance
+March 2023: Districts and schools submit first Integrated application, plan, and budget
+
+On Allowable Use
+SIA funding offers wide latitude to applicants in determining, through required community engagement
+processes, how best to use the allocated funds to improve outcomes for students as long as the use falls
+within one of the described allowable use categories. Those categories are8:
+1. Increased Instructional Time - Applicants may increase hours or days of instruction time or add
+summer programs and/or before and after school programs.
+2. Improving Student Health and Safety - Applicants may focus investments on social-emotional
+learning and development, student mental and behavioral health, improvements to teaching
+and learning practices or organizational structures that lead to better interpersonal relationships
+at school, student health and wellness, trauma-informed practices, school health professionals,
+or facility improvements that improve student health or safety.
+3. Reducing Class Size - Applicants may increase the use of instructional assistants, educators, and
+counselors, using evidence-based criteria to ensure appropriate student-teacher ratios or staff
+caseloads.
+4. Well Rounded Education - Applicants may include developmentally appropriate and culturally
+responsive programs for literacy in pre-k through third grade, culturally responsive practices and
+programs in grades six through eight that includes counseling and student support connected to
+colleges and careers, broadened curricular options at all grade levels (including access to art,
+music, PE, science, etc...), and access to educators with a library media endorsement.
+5. Ongoing Community Engagement - Applicants may use a portion of funds to improve ongoing
+community engagement practices.
+6. Administrative Costs - Applicants may utilize up to five percent or $500,000 of the total amount
+spent, whichever is lower, each year for administrative costs.
+8
+
+It is worth noting that within each category the statute ends with the clause “which may include,’’ which creates
+both flexibility and challenges in determining allowable use in administration.
+
+20
+
+The Student Investment Account
+
+2022-23 SIA Implementation
+As shared last year, for the 2021-23 biennium, SIA grantees were required to submit a SIA Plan Update,
+detailing whether they would make an adjustment (minor changes) or amendment (major changes) to
+their initial three-year plan submitted in the original application. This process required previous SIA
+grant recipients to submit a new budget for the 2021-23 biennium, narrative information on the use of
+an equity lens, and information on continued community engagement to inform plan changes. This was
+a pivot from the original guidance that named districts and schools would complete a full application
+cycle in spring of 2021 given the impacts of COVID-19.
+Grant recipients were required to submit SIA Plan Updates during the window of May 1 - June 30, 2021.
+ODE received 203 SIA Plan Updates from previous SIA grantees. One previous SIA grantee opted not to
+submit a SIA Plan Update given capacity to implement and monitor the work. The two districts that did
+not apply in 2020-21 opted to apply for funding in the 2021-23 biennium due in large part to the
+overlapping requirements between SIA and ESSER III district plans. Two newly eligible independent
+charter schools also applied for SIA funds; previously both had received SIA funding by applying with
+their sponsoring district.
+The review process of SIA Plan Updates was completed by 8 staff members within OEII. SIA Plan Updates
+were deemed to fall into one of three categories:
+1. Meet Requirements: The SIA Plan Update was determined to meet all requirements and was
+ready to move forward to the grant amendment process.
+2. Generally Meets Requirements: The SIA Plan Update generally met requirements, but needed
+additional information or materials to fully meet requirements. Examples of small changes
+included re-submitting the budget using the required budget template or minimal addition of
+narrative to support the application. Once the additional information was submitted, reviewed,
+and approved, the district or school then moved into the grant amendment process.
+3. Does Not Meet Requirements: The SIA Plan Update did not meet the requirements and
+required substantial changes to be made prior to moving forward in the process. Districts and
+schools falling into this category were invited to have a call with ODE to discuss the changes and
+additional information that would need to be submitted in order to meet requirements.
+Examples of major changes included submitting missing documents such as community
+engagement artifacts or substantial additions to narrative portions of the application. Once the
+additional information was submitted and approved, the district or school then moved into the
+grant amendment process. SIA Plan Updates that were deemed to meet with small changes and
+did not meet the requirements initially were remedied prior to grant amendments and funds
+being disbursed to SIA grantees.
+SIA District and Charter Expenditures: 2022-23
+Regarding SIA grantees’ 2022-23 expenditures, data for the following analyses were extracted on
+January 16, 2024. For the 2022-23 academic year, SIA grantees budgeted $455,194,074 of the
+$455,404,000 allocated by the state Legislature for the second year of the 2021-23 biennium. Grantees
+reported spending a combined $452,796,619, or 99.4% of the total allocation. Of the 268 SIA grantees,
+227 (84.7%) reported expenditures within $1,000 of their allocation. Of the remaining 41 grantees, 11
+overspent their allocation and were being resolved at the time of publication, and 30 grantees either did
+not use all their available funds or had not yet reported all expenditures.
+
+21
+
+The Student Investment Account
+
+Chart 1, below, shows the 2022-23 SIA expenditures by grantees for the six allowable use categories. Of
+the $452,796,619 spent during the year, the largest share, accounting for over one-third of the total
+funds spent, went toward activities related to Health and Safety ($166,287,411, or 36.7%). This was
+followed by $131,559,765 spent for Well Rounded Education (29.1%), and $103,133,974 for Reduced
+Class Size (22.8%). Spending in the three other allowable use categories was substantially less, with
+$21,103,598 (4.7%) for Increased Instructional Time (e.g., summer school, before/after school, tutoring),
+$20,350,344 (4.5%) to support Ongoing Community Engagement, and $10,361,529 (2.3%) spent toward
+Administration (allowed indirect costs and grant administration).
+Chart 1. SIA 2022-23 expenditures by allowable use category.
+
+When examining SIA 2022-23 expenditures by the type of expense rather than allowable use categories
+(see Chart 2, below), Salaries and Benefits accounted for $369,764,703, or 81.7% of all funds spent
+during the academic year. Of these salaries, over half the amount (55.1%), or $203,816,009, was for
+Licensed Salaries, $35,936,661 (9.7%) went toward Classified Salaries, and $19,388,433 (5.2%) was for
+Administration Salaries. An additional $9,529,131 (2.6%) was spent on Additional Salaries (e.g., extra
+duty stipends) and $463,745 (0.1%) was expended for Substitutes. The remaining 27.2% ($100,630,725)
+was specified as going toward Benefits across all staff positions, though this amount is an underestimate
+of benefits as they could have been combined with, and designated as, salaries.
+
+22
+
+The Student Investment Account
+
+Chart 2. SIA 2022-23 Expenditures for salaries and benefits.
+
+Considerably less money went towards other types of expenses (see Chart 3, below). For Instructional,
+Professional, and Technical Services, the second largest type of expense, $30,836,040 (6.8%) was
+expended, mostly for professional development and contracted services for mental health. Spending on
+Supplies and Materials, such as technology, training materials, and textbooks, totaled an additional
+$27,672,862 (6.1%). Another $10,361,529 (2.3%) went towards Administration expenses (allowed
+indirect costs) and SIA grant administration. Capital outlays9 accounted for an additional $7,299,772, or
+1.6% of the total expenditures through SIA during 2022-23. Examples of common capital outlays
+included projects to become compliant with the Americans with Disabilities Act, safety and security
+projects, restrooms, gym renovations, and HVAC updates. For the remaining SIA expenditures, under 1%
+each went towards Travel ($2,858,085; 0.6%), Miscellaneous/Other expenses ($2,548,538; 0.6%), Dues
+and Fees ($1,226,383; 0.3%), and Communications ($228,708; 0.1%).
+Chart 3. SIA 2022-23 Expenditures by type of expense.
+
+9
+
+Capital outlays that are directly related to improving student health or safety are allowable with SIA
+funds. All other capital outlays are required to show evidence of the following before being approved as
+allowable with SIA funds: 1) identify how capital outlay meets the intent of the SIA and is within the
+allowable use areas, 2) describe community engagement and input that elevated the need for the
+capital outlay, and 3) articulate how an equity lens was applied in choosing the capital outlay as a
+priority to address equity-based disparities of students.
+23
+
+The Student Investment Account
+
+As mentioned above, SIA 2022-23 expenditures for Salaries and Benefits totaled $369,764,703. Further
+analysis indicated that this amount funded a total of 2,551 full time equivalent (FTE) Licensed staff
+positions, 1,029 FTE Classified staff, and 170 FTE Administration staff.
+The 2,551 FTE licensed staff positions were then categorized into one of 24 staff categories (see Chart 4,
+below). The most common SIA funded licensed position was General Education Teacher, which
+accounted for just over one-quarter of the funded licensed staff positions (687 FTEs, or 26.9%). Mental
+Health Professionals (i.e., Qualified Mental Health Professionals, Psychologists, and Licensed Clinical
+Social Workers) accounted for 264.5 FTE or 10.4% of licensed staff, Guidance/School Counselors
+accounted for an additional 200.6 FTE, or 7.9% of funded licensed staff, and staff providing SEL
+accounted for 182.6 FTE (7.1%).
+SIA funds also supported 174.2 FTE (6.8%) licensed staff designated for Student Supports, 147.3 for
+Special Education staff (5.8%), 115.9 FTE (4.5%) for the Fine & Performing Arts, 112.3 FTE (4.4%)
+positions designated for English Language Arts, and 110.2 FTE for Health/Physical Education/Sports &
+Recreation. The remaining types of funded licensed staff accounted for 21.8% of staff, with no single
+position type exceeding 4% of funded licensed staff (see Chart 4, below).
+Chart 4. SIA 2022-23 Funded licensed staff positions.
+
+24
+
+The Student Investment Account
+
+Regarding SIA 2022-23 funded classified positions, the 1,029 FTE were categorized into one of seven
+categories (see Chart 5, below). The most frequent type of funded classified position was Instructional
+Assistant staff, with 480.5 FTE accounting for 46.7% of all funded classified staff. Classified staff assisting
+in Physical, Social-Emotional, and/or Behavioral issues totaled 249.5 FTE (24.2%), while those involved
+with family and community Engagement & Outreach totaled 121.2 FTEs (11.8%). And 106.2 FTE (10.3%)
+classified staff were designated for Special Education.
+For the remaining three categories, Other staff (e.g., kitchen, janitorial, maintenance staff) accounted
+for 30.2 FTEs (2.9%), 25.6 FTE classified staff (2.5%) were for a variety of Office positions, and 15.8 FTE
+(1.5%) were for Safety (e.g., building, playground, campus, bus monitors).
+Chart 5. SIA 2022-23 Funded classified staff positions.
+
+SIA Grantees Reported Impact: 2022-23
+The following themes reflect the changes that SIA grantees have described occurring over the course of
+the 2022-23 school year. This data has been pulled from the narrative sections of SIA grantees’ quarterly
+reporting submissions and analyzed into large themes. Direct quotes from SIA grantees are included
+throughout to provide more context and background to each theme and also to highlight some of the
+more personal impact that the SIA is making in and with our school communities. These narratives and
+quotes are included as part of a theory of systems change, where we monitor changes and shifts in
+behavior as an indicator of change occurring. It is important to note that the quotes from SIA grantees
+shared in this report are representative of the leading themes, but no single quote represents the views
+of all.
+Increased capacity: Of 283 districts and charter schools, 151 reported observing and experiencing
+increased capacity to better serve their students due to investments in classified and certified
+personnel, professional development, and curriculum and technology. This increased capacity was
+specifically named as contributing to the following: academic improvements, more instructional time
+and individualized support for students, increased knowledge/training for staff, reduced class sizes and
+25
+
+The Student Investment Account
+
+students being more appropriately placed at their grade level, less teacher burnout, and increased
+teacher efficacy and motivation. The following outlines some of those themes in more detail:
+“Our two Literacy EAs [Educational Assistants] have shown a greater confidence in
+understanding how students learn to read and write, which has translated into building more
+smaller-groups getting more targeted activities and interventions with a specific need being
+identified. They are confident in their own skills, which has allowed them to be more independent
+in their lesson planning, assessments, and data for the classroom teachers.”
+Academic Improvements: Around 15% (a 5 % increase from last year) of SIA grantees mentioned an
+impact towards academic improvements occurring due to SIA implementation, with substantial
+mentions of literacy (28%) and math (14%) specifically. For example:
+“I watched two first grade students lead the class through the warm-up of sounds, and the
+drilling of sounds. The whole class followed their lead and through choral response practiced the
+sounds, without any teacher intervention. This freed the teacher up to move about the room and
+listen closely to the students as they repeated the sounds of the letters being pointed to by the
+student leaders. Then the class moved onto Word Fluency, and a different student got up, went
+to the front of the room and stood at the document camera. This student took a stack of cards
+with words, and methodically put one under the document camera at a time allowing the class
+to provide a choral response pronouncing each of the words. At one point the student leader,
+with a keen ear stopped because the word had a "sh" and they heard some pronouncing what
+sounded like "ch." They signaled to the teacher, "I think I heard some "ch"es out there, what do
+you think?" The teacher confirmed what they had heard and the student backed up and the class
+redid that particular word, and then continued on! These warm-up jobs rotate everyday to new
+students, giving all students the opportunity to lead the warm-up sounds and words of the day. It
+became incredibly clear to me that they clearly understood the routines, the sounds, and the
+words being learned and practiced whole-group. It was so exciting to see the empowerment and
+ownership the students had over their own literacy learning!”
+Mental & Behavioral Health: 41% reported increases in mental health supports due to SIA funds. Due to
+said investments in mental health supports, around 20% of SIA grantees reported a decrease in
+behavioral challenges, disruptions, or disciplinary referrals. Additionally, (and similar to last year) around
+ten percent specifically described improvements to mental health outcomes amongst their students as
+well as improvements to school climate. These are a result of both direct investments in mental health
+professionals as well as providing staff with the tools, training, and/or capacity to better serve students
+and support staff mental health.
+“Our mental health counselor has been a boom to our community here... Students have become
+more comfortable with her presence and, as a result, more feel comfortable using her counseling
+services. In addition, she has been a helpful guidepost to teachers and staff when negotiating
+difficult social-emotional situations.”
+“We contract with our local mental health provider to place a full time Skills Trainer in each
+elementary and middle school. A total of 10 skills trainers have and are working with
+approximately 258 students. These students would not have the targeted, individualized and
+small group support they are receiving without the addition of these Skills Trainers in our
+schools.”
+26
+
+The Student Investment Account
+
+“Student feedback at the secondary level about the changes at the school this year have been
+nothing short of remarkable. With the new administrator, a new counselor, intervention groups,
+and the implementation of the SEL [social emotional learning] program, students are feeling
+safer, and more supported than they have in some time. All staff have worked hard to create a
+safe learning environment in the school. The opportunities the SIA grant have provided us at the
+elementary level have also provided us with great success both academically and with student
+behaviors. We have some examples where some of our elementary students who have had years
+of little growth are now showing expected, or advanced growth due to changes in instructional
+practices, and the implementation of our intervention groups and the SEL program. Staff are
+able to spend more time instructing and less time dealing with discipline issues.”
+“Our behavior profile, since implementing our SEL program, has been amazing at both levels –
+there has been a marked decrease in assaultive and aggressive behaviors, and students are
+feeling safer and more engaged in the classroom setting according to behavior referral data and
+student surveys.”
+Strengthened Systems of Support (SSS): Around 35% of SIA grantees identified changes that we have
+classified as SSS. Some SSS include enhanced systems being in place, such as data and communication,
+resulting in more efficient and comprehensive processes that better support students and meet their
+needs. When it comes to attendance, it was revealed that strengthening systems led to an enhanced
+understanding of some of the barriers to student attendance and engagement to inform better
+processes for how to systematically address them. For more than 10% of SIA grantees (double from the
+previous year), such investments resulted in improvements in attendance. And for a fourth of grantees,
+that led to improved data systems.
+“The attendance rate at [our school] has been considerably higher in the past couple of years.
+This could be for many reasons. The increased communication system with faculty and families
+could be playing a huge role in the attendance spike. Also, students are coming to campus
+feeling much safer with all the SIA allocation upgrades. This has been a domino effect. With the
+increase in attendance there has also been improved grades overall.”
+“The best piece of evidence that supports this work right now is our attendance rates. Nearly all
+students attended 80-90% of the time during the first trimester. Because our students show up
+nearly every day we are able to provide necessary academic, social, and mental health support
+that, in turn, encourages and supports their continued regular attendance.”
+“Our Dean of Students and transition specialist continue to add to the improvement of our
+educational processes. We have been able to make sure that both are well versed in our
+Improvement planning process and conveying this information to staff at both buildings. They
+are both also helping to address the poor attendance issues at the elementary level. We have
+had attendance protocols for a number of years, however, we have never had the people to
+actually follow through in a proactive manner. We have used these two individuals to make
+contact with parents to help with this issue.”
+Well-Rounded Education (WRE), including Increased Engagement & Enrollment in Extra-curriculars:
+Nearly one-third of SIA grantees reported changes and improvements related to Well-Rounded
+Education. These were identified through increases in offerings of and enrollment in extracurricular
+activities. There was also frequent mention of increased participation of focal group students who may
+have previously experienced barriers to participation in those extracurriculars. Further, as investments
+27
+
+The Student Investment Account
+
+in WRE center whole-child learning they were also attributed for engendering improvements in both
+student engagement and social emotional learning.
+“Parents in the … community have been waiting decades for a high school soccer program. This
+desire was strongly expressed by parents who speak languages other than English during last
+year’s strategic planning sessions. A soccer program was established and student response was
+strong. We had a robust and full team for a first-year program. It was both meaningful and
+powerful to see Latino parents at sporting events, cheering on their children, many attending
+and fully participating for the first time.”
+“Students are enthusiastic about PE and the mindfulness and movement lessons. Students love
+to participate in the activities offered by the instructors. The district administrator has observed
+students showing excitement each day during snack time as they eagerly anticipate what is
+planned for PE that day. The PE adjunct instructor attended …. as a student and has developed
+strong relationships with students. There is an instructional focus in PE on teamwork and positive
+encouragement toward one another. Students take turns modeling these behaviors formally and
+the impact of this practice can be observed throughout the day.”
+“By eliminating pay to play fees, extracurricular participation has increased significantly,
+especially at the junior high school level. Turnout for girls and boys basketball is at an all-time
+high. We have had to add teams and coaches.”
+“One student voiced to the administrator, ‘I love the mindfulness and movement class. It is
+relaxing and calming when you are stressed.’”
+Improved Ongoing Community Engagement: Around 28% (8% increase from last year) of SIA grantees
+noted that throughout the 2022-23 school year they have experienced increased and improved ongoing
+community engagement. This includes, but is not limited to: enhanced community partnerships,
+improved systems for regular communication and feedback loops with families, and individualized
+mechanisms for receiving student input and feedback. The following are examples of results from these
+investments in ongoing community engagement:
+“The impact on the implementation of these activities has brought our community together. We
+have had more community engagement and have had many families appreciate the knowing of
+what is going on in our school. I have had many families ask a lot more questions about
+upcoming events, curriculum and policies. The ability to improve our facilities has had a huge
+impact on our community engagement as well! Being able to offer new classrooms for new
+students and programs is exciting. The community here in … supports our school so much and it
+is nice to see their interest and support on the direction we are going.”
+“Lastly, the SIA funded family/community advocate position has been vital in the recovery efforts
+following the [wildfire]. This person serves on four different nonprofit organization boards … This
+position serves as a liaison between the school and the community, often bringing the needs of
+the community to the school and vice versa.”
+Equity Advanced & Focal Group Improvements: 16% of SIA grantees (a 4% increase from last year)
+reported focal group improvements throughout all of the aforementioned categories and/or
+improvements made towards advancing equity. The following are quotes describing some of the
+changes that are being observed.
+28
+
+The Student Investment Account
+
+“One creative way the district was able to elicit student responses in underrepresented groups
+was by using trusted adults such as club leaders or special education teachers to facilitate
+surveys specific to their needs. By using these trusted adults, the results of deep discussions of
+barriers and supports were able to be shared with the SIA team.”
+“By targeting our most at-risk students for after school support in areas of math, ELA, and SEL,
+we have seen significant improvement in grades, attendance, and overall connection.”
+“An increase in proactive communication has been evidenced between special educators and
+families regarding student growth, areas suggested for improvement as well as individualized
+supports necessary for students with disabilities.”
+Increased Student Engagement, Voice, and Belonging: 14% of SIA grantees mentioned an increase in
+student engagement, voice and belonging due to investments made with SIA dollars.
+“We have initiated listening sessions and phone calls to directly ask our families how we are
+doing, how they are doing and what they need. Students and families report that overall they
+feel supported by the school. We know that many situations are far less than ideal, but we have
+plans in place to help support students to grow academically and socially/emotionally despite
+the barriers. We see this growth as we watch students be engaged in place-based activities,
+improve social problem solving skills, become peer coaches, graduate from reading intervention,
+and feel represented in our curriculum offerings.”
+Improved Physical Health and Safety: 11% of SIA grantees (double the 2021-22 school year) mentioned
+that improvements to physical health and safety have been a positive impact of SIA funds. Some
+examples include: addition of school nurses, fences, school security equipment, increased food security,
+and more time for physical education courses and activities.
+“Adding additional nursing supports has helped our students who experience life-threatening
+medical conditions be able to be better supported at school through additional training of school
+staff. The nurse’s role has been expanded to include contacting local and regional physicians to
+increase services to students as needed. Having this support has helped students to obtain
+needed medical devices for school so that they do not need to miss school.”
+Graduation and Post-Graduation Support: Around 10% of SIA grantees reported improvements or
+advancements being made in regards to getting students on track to graduate. This includes, but is not
+limited to 9th grade on-track, credit recovery, enhanced data, and systems and supports following
+graduation.
+“The increasing popularity of our high school technical education classes has doubled the
+number of courses made available from 3 to 6 classes in the past two years. We continue to
+promote learning outside of four-year institutions to meet the needs of our students and that is
+evident in the increasing number of students we have in our work-based learning program;
+currently, we have 11 of our 64 seniors enrolled in this program and that is an increase from last
+year.”
+“Several student groups also made significant strides in their graduation rate, including students
+with disabilities at 78 percent (up 6.4 percent), students in homeless situations at 71.4 (up 8.4
+29
+
+The Student Investment Account
+
+percent), and students who were English Language Learners at any time in high school at 86.2
+(up 12.9 percent).”
+Challenges Impacting Implementation
+In order to provide context on the educational and social landscape in which SIA grantees are
+implementing their SIA plans, SIA grantees had the opportunity to share any challenges they have faced
+over the course of the school year through their quarterly reports. The following is a list of challenges
+named in order of frequency:
+1. General Staffing Challenges,
+2. Systematic Change Takes Time,
+3. Small District Challenges,
+4. Reporting,
+5. Budgeting,
+6. New Needs Arising,
+7. Completing Professional Development,
+8. COVID,
+9. Staff Turnover,
+10. Mental Health Needs and Behavioral Challenges, and
+11. Hiring Mental Health Professionals.
+Compared to the 2021-22 school year, the challenges pertaining to effects of COVID and Mental Health
+have dropped considerably, while staffing continues to remain a top priority challenge. Further, small
+district needs and reporting requirements continue to impact implementation of the SIA.
+Review of Progress Markers Optionally Reported in 2022-23
+SIA grantees10 were asked to complete an optional review of their progress on Progress Markers in
+2022-23. 271 grantee records were produced. Of those, 185 reported “No Observable Change” (NOC)
+across all prompts for Expect, Like, and Love to See and one was blank for a total of 186 grantee records
+out of 271. Given the default entry was “No Observable Change,” ODE suspects that the majority of the
+185 responses of NOC across all prompts are indicative of no response and were treated as such. That
+left 85 confirmed grantee responses and those are reported in the charts below. The following charts
+detail the levels of progress that these 85 SIA grantees are seeing towards the original Progress Markers
+(before the refresh named above) in the first eighteen months to four years.
+
+10
+
+District-sponsored charter schools are not required to complete a separate Annual Report. Rather, the district is
+responsible for including the charter school(s) data into their responses.
+
+30
+
+The Student Investment Account
+
+Progress Marker Graphs for 2022-23:
+
+31
+
+The Student Investment Account
+
+32
+
+The Student Investment Account
+
+CONTINUING TO OPERATIONALIZE THE SIA THROUGH THE INTEGRATION OF
+PROGRAMS
+This section provides a brief implementation tour of the backend efforts of staff to implement the SIA
+and create administrative rules to operationalize the SIA, including specific updates about bridging in the
+Early Literacy Success Initiative passed in 2023.
+ODE Staff Hired
+To implement the Student Investment Account, 29 new positions were originally budgeted with the
+Corporate Activity Tax (CAT). During the August 2020 special session, the number of SIA positions was
+both temporarily reduced to 21 new positions and several positions were frozen, meaning that
+recruitment and hiring was paused. During the 2021 Legislative session, the number of SIA positions was
+reinstated to 29 and the office began working to fill both unfilled and reinstated positions. As of January
+31, 2024, all positions have been filled, with a note that one position will need to be refilled given a
+recent vacancy.
+Additionally, the limited duration Small District Support Program Manager position11, focused on
+providing rural and small school support to districts and ESDs, was sustained and made permanent with
+state funding12 given the Governor’s Emergency Education Relief funds sunset in September 2024.
+To support coordination and implementation of the Early Literacy Success Initiative, hiring of new staff
+has taken place across multiple offices. Specifically in OEII, two Program Analysts have been hired to
+support the reporting and grant management specific to school district grants. These roles will also
+support the full integration of the initiative into the Integrated Application and Plan in future biennium.
+Development of Oregon Administrative Rules (OARs) for the Student Investment Account
+As of January 31, 2024, the State Board of Education has adopted the following permanent rules for the
+Student Investment Account13:
+• Definitions for Student Investment Account (581-014-0001) updated 6/23/22, anticipate a technical
+fix to be adopted in April 2024
+• Fund Administration for Student Investment Account (581-014-0004) updated 1/19/23, anticipate a
+technical fix to be adopted in April 2024
+• Charter School Eligibility for Student Investment Account (581-014-0007) adopted 03/20/20
+• Reduction of Distribution Appeal Process (581-014-0010) adopted 6/22/21
+• Performance Review Standards (581-014-0013) adopted 6/22/21
+• Just Cause and Random Audit Process (581-014-0016) adopted 6/22/21
+• Community Engagement (581-014-0019) adopted 6/23/22
+• Definitions of Optional Targets for Mental and Behavioral Health for the Student Investment
+Account (581-014-0022) adopted 12/19/22
+
+11
+
+This position previously was under the SIA team. Starting on January 1, 2024, this position moved to the
+Director’s Office given the role was designed to support coordination of all 145 state and federal programs across
+ODE - and the coordination of all programs is held in the Director’s Office.
+12
+While the GEER funding ends on September 30, 2024, the Legislature sustained the dedicated funding to support
+this position with state funding in the 2023 Legislative session through package 104 in House Bill 5014.
+13
+Rules in bold font are in the process of being updated since the 2023 SIA Legislative Update.
+
+33
+
+The Student Investment Account
+
+•
+•
+•
+•
+
+Purpose of Optional Targets for Mental and Behavioral Health for the Student Investment Account
+(581-014-0025) adopted 12/19/22
+Optional Targets Criteria for Mental and Behavioral Health for the Student Investment Account
+(581-014-0028) adopted 12/19/22
+Optional Targets Administration & Report for Mental and Behavioral Health for the Student
+Investment Account (581-014-0031) adopted 12/19/22
+Definitions for Student Investment Account: Third Grade Reading Proficiency (581-014-9999)
+adopted 12/16/19
+
+Definitions for Student Investment Account
+ODE is actively pursuing some minor changes to the Definitions for Student Investment Account. The
+proposed rule changes that will go before the State Board of Education in spring 2024 are aimed at
+better aligning the SIA definitions with the various SSA Statewide Student Success Plans. Additionally,
+the Department is proposing to add one additional focal student group to continue to live into the intent
+of the law and ensure that applicants are engaging with students who have historically experienced
+academic disparities. The proposed rule change has been presented to the ODE Rules Advisory
+Committee (RAC) in November 2023 and January 2024. ODE will be gathering feedback on this proposed
+change again in March 2024. To date, feedback has been positive as the proposed changes continue to
+support better alignment across initiatives.
+Fund Administration for Student Investment Account
+ODE is also in the process of a technical fix to the Fund Administration for Student Investment Account
+rules. Similar to the Definitions, this proposed rule change will go before the State Board of Education in
+spring 2024. The proposed rule change adds in clarity on how the Department will handle the
+reallocation of SIA funding in the event an eligible charter school closes mid-year. This proposed rule
+change has also been presented to the RAC in November 2023 and January 2024. ODE will hear
+additional feedback on this proposed rule change at the March 2024 meeting. Feedback on this
+technical fix has also been positive from the RAC to date.
+Development of Oregon Administrative Rules (OARs) for the Intensive Program
+As of January 31, 2024, the State Board of Education has adopted the following permanent rules for the
+Intensive program within the SIA.
+• Intensive Program & Student Success Teams: Definitions (581-017-0729) updated 6/23/22
+• Intensive Program & Student Success Teams: Purpose (581-017-0732) adopted 1/28/21
+• Intensive Program & Student Success Teams: Eligibility (581-017-0735) adopted 1/28/21
+• Intensive Program & Student Success Teams: Criteria, Agreement, and Establishing Improvement
+(581-017-0738) updated 3/25/22
+• Intensive Program & Student Success Teams: Funding (581-017-0741) updated 6/23/22
+• Intensive Program & Student Success Teams: Reporting (581-017-0744) adopted 1/28/21
+
+34
+
+The Student Investment Account
+
+Connections to the Early Literacy Success School District Grants
+With the passage of the Early Literacy Success Initiative in 2023, cross-agency teams have collaborated
+in short-term planning to ensure funds are accessible to school districts for the 2023-25 “Jumpstart
+Biennium14,” while simultaneously engaging in long-term efforts for implementation of Community,
+Tribal, and School District grants for future biennium. Section 4 of the legislation specifically states that
+rules should, to the greatest extent possible, assist in the operational alignment of the SIA and district
+continuous improvement plans. Much of the ongoing work since this fall has been related to rulemaking as well as supporting the development and implementation of the jumpstart biennium.
+Temporary and Permanent Rule-Making
+An internal coordination team with representation from the Office of the Director, Office of Equity,
+Diversity, and Inclusion (OEDI), Office of Indian Education (OIE), Office of Teaching, Learning, and
+Assessment (OTLA), and OEII began meeting in August 2023 to shepherd the literacy initiative rule
+making process. A narrowly focused set of temporary Fund Administration rules for Early Literacy School
+District Grants only were the early work of the team. The temporary rules were modeled after the
+Student Investment Account and High School Success rules, which supports efforts to support alignment
+across programs. The State Board of Education adopted the temporary Fund Administration rules, OAR
+581-017-0800 and OAR 581-017-0810, in September 2023 that will expire in March 2024.
+For permanent rule-making, the internal coordination team facilitated engagement sessions for a
+technical advisory. The Early Literacy Advisory was established in fall 2023 and includes over 45
+representatives from community based organizations, associations, practitioners, organizations focused
+on literacy, and education leaders from 19 counties in Oregon. The Early Literacy Advisory has met five
+times throughout the fall and winter, providing ideas of what should be included in the rules prior to
+pen hitting paper, as well as providing feedback on subsequent draft rules for Tribal, Community, and
+School District grants. The drafted rules spurred from these engagement sessions were taken to the RAC
+on January 4, 2024 for the first time and the next iteration of draft rules will go back to the RAC in
+February 2024. The permanent rules-making process is on track to be completed in March with the
+State Board of Education hearing a first read in February 2024 and a second read and adoption in March
+2024.
+Jumpstart Biennium Application and Reporting
+While the application process for Early Literacy Success School District Grants in the jumpstart biennium
+fell outside of the Integrated Application for the 2023-25 biennium, ODE has worked across offices to
+develop and launch guidance and a grant application process for the jumpstart biennium. The
+application utilized a similar application process to the 2023-25 Integrated Application where applicants
+submitted their application and supporting materials via Smartsheet by January 8, 2024. Once
+applications are complete, they go through a robust review process to determine whether they meet
+requirements or additional information is needed. By building a similar process with the application for
+the jumpstart biennium in Smartsheet, it sets up the ability to have the application seamlessly included
+within the Integrated Application for 2025-27. While the application for Early Literacy Success School
+District Grants is separate from the Integrated Application for the 2023-25 biennium, ODE has been able
+
+14
+
+The Early Literacy Success Initiative passed at the end of the 2023 session and went into effect immediately
+when Governor Kotek signed it on August 2, 2023. Given the timeline for districts to build a plan and apply for
+funds has been fast, the first biennium of implementation – and especially the first year – serves as a jumpstart for
+districts or a “Jumpstart Biennium.”
+
+35
+
+The Student Investment Account
+
+to incorporate the early literacy reporting into the Integrated Plan reporting for the 2023-25 biennium
+that grantees will submit on a quarterly basis through Smartsheet.
+
+36
+
+The Student Investment Account
+
+ON THE HORIZON
+The Department anticipates the release of the renewed Integrated Guidance in late February 2024, over
+a year before applicants will submit their 2025-27 Integrated Application. As part of the refreshed
+guidance, the Department has reviewed all of the input from the survey named above and is actively
+reviewing all application questions with the aim to continue to streamline the application process and
+reduce burden on applicants in completing the application.
+Additionally, the Department is working to incorporate the Early Literacy Success Initiative School
+District Grant processes into the renewed Integrated Guidance. This effort is in response to Section 4 of
+House Bill 3198, which names: “To the greatest extent practicable, a school district or public charter
+school shall align an early literacy success plan developed under this section with the plan developed for
+distributions from the Student Investment Account as provided by ORS 327.185 (7).” Given this is named
+in statute, OEII has been coordinating closely with OTLA, where the Early Literacy Initiative Success
+School District Grants are formerly held. Part of the work being done now is to make sure the
+requirements for the Early Literacy School District Grants are incorporated into the requirements for the
+Integrated Applications for the 2025-27 biennium. Continued collaboration between offices will also
+support the development of additional guidance for implementation of the Early Literacy School District
+Grants, as well as coordination of literacy coaching supports across OEII and OTLA.
+In spring 2024, ODE will begin to teach into the guidance, particularly where guidance has changed from
+the original version released in February 2022. ODE anticipates offering webinars as well as in-person
+meetings across the state in collaboration with ESD partners to bring district and school leaders together
+as they learn into the updated version of the guidance. ODE will also release updated supplemental
+resources and templates through spring 2024, ahead of when districts and schools will submit their next
+Integrated Application.
+In an effort to reduce burden on applicants, the 2025-27 Integrated Application will be pre-populated
+with some responses from the 2023-25 Integrated Application that applicants can adjust as needed.
+Applicants will submit their 2025-27 Integrated Application between March-April 2025. Applications will
+then go through an intake process to ensure the application is complete and includes all supporting
+materials before being moved into a robust review process.
+In the next SIA annual report, ODE anticipate releasing information about the following:
+• Detailed analysis of 2023-24 SIA spending by grantees in their fourth year of SIA implementation
+• Early analysis of progress on LPGTs after the first year of implementation as well as required
+Progress Markers under the Integrated Plan reporting
+• Information on coaching services deployed across the state
+• An update and learnings from the first required SIA Performance Review
+• An update and learnings from the first Random and Just Cause Performance Audit
+
+37
+
+
