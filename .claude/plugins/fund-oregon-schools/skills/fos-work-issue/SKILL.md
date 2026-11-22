@@ -12,6 +12,12 @@ the reviewers' results.
 Follow `CLAUDE.md` throughout (citation formats, quote rules, news rules, rule 10). This skill adds the order of
 work and the review gate; where the two differ, `CLAUDE.md` wins.
 
+**Check before touching an issue.** Before changing any issue (labels, a comment, its body, closing it), look for
+an open PR that closes it (`gh api "repos/pietvanzoen/fund-oregon-schools/pulls?state=open"`, bodies containing
+`Closes #<n>`) and for a `claude/issue-<n>-*` branch (`git ls-remote --heads origin "claude/issue-<n>-*"`) other
+than your own. If either exists, another session owns the issue: leave it alone and say so in your report (a run
+once labelled #97 `needs-human` while another run's PR #108 for it was open).
+
 ## 0. Get access first
 
 Before any `git` or `gh` command, attach the repo with write access: call `add_repo` with owner `pietvanzoen`,
@@ -261,6 +267,9 @@ They report only. For each finding:
 
 1. Check it against the source yourself. Reviewers can be wrong.
 2. If it's right, fix it. If it's wrong, record why in one line.
+   If two findings pull in opposite directions (one calls a sentence inference, another says it's unclear
+   without it), settle it with the source, e.g. cite the page that states it, rather than dropping the claim (a
+   November 2025 report named as a committee's was flagged as inference; the fix was a citation to its cover page).
 3. After substantive fixes, run the reviewer that raised them once more on the new head. Not more than once.
 4. A sentence reworded for clarity can change what it claims. If clarity fixes reword any sentence that states a
    fact, run `fact-check.md` once more on the new head, limited to those sentences (list their file:line in the
