@@ -26,7 +26,7 @@ written by `tools/derive_virtual_charters.py`.
   student count. In several sponsors the virtual charter is most of the district: Fossil, Baker and Prairie City,
   whose two charters total a weighted count of 1,410 [DER:virtual_charters/prairie_city_virtual_admw_2025_26].
 - The department lists 23 virtual charters for 2025-26 [DER:virtual_charters/virtual_charters_listed_2025_26]. The
-  three that opened in September 2025 are not in the 2025-26 transparency report, so the totals above leave them out;
+  three that opened in September 2025 are not in the 2025-26 transparency report, so the totals below leave them out;
   they had 113 students on Oct. 1, 2025 [DER:virtual_charters/new_charters_fall_2025_students], a small undercount.
   Lower Columbia opened in 2026-27.
 - **Other counts.** The Quality Education Model report doesn't say how it defines a virtual school or how it counts

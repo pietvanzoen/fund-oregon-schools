@@ -34,4 +34,4 @@ increases go (#61), research on whether funding changes outcomes (#63), and unfu
 
 ## Derived figures
 
-None: every figure above is stated in a cited source.
+None: every figure under "What the sources say" is stated in a cited source.

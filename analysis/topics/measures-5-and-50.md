@@ -36,4 +36,4 @@ elections, and the kicker, the law that returns income tax surpluses to taxpayer
 
 ## Derived figures
 
-None: every figure above is stated in a cited source.
+None: every figure under "What the sources say" is stated in a cited source.

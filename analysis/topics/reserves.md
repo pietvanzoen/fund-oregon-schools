@@ -37,4 +37,4 @@ while longer-term reform is developed (`decisions.md#esf-draw-2027-29`).
 
 ## Derived figures
 
-None: every figure above is stated in a cited source.
+None: every figure under "What the sources say" is stated in a cited source.

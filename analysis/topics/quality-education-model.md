@@ -14,7 +14,7 @@ Funding for 2025-27 that the Senate President's and House Speaker's offices call
 [SRC:legislature/press/2025-05-28_record-k12-funding.pdf p.1] and a gap in 2027-29 can both be true: they measure
 different two-year budgets against different estimates. Our reading is that the news figures of "$2.5B more" and "$5B more"
 compare the model with the 2025-27 budget, not with the current service level, so they aren't comparable with the
-figures above.
+figures here and below.
 
 The Quality Education Model is the state's own estimate, but it is contested: the joint committee found 2025-27 funding sufficient
 by it while criticizing its method, and the 2027 Legislature may replace it. A gap measured against the model is a
@@ -162,4 +162,4 @@ model report's ranking is of state-sourced funding, which is a different measure
 
 ## Derived figures
 
-None: every figure above is stated in a cited source.
+None: every figure under "What the sources say" is stated in a cited source.
