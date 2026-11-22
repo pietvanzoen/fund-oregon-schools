@@ -52,13 +52,15 @@ Our sums: `derived/sia.csv`. Audits and outside reviews are still to come (#57).
   [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.39].
 - In 2025 the department paused adding more years of targets in anticipation of changes from the Education
   Accountability Act, Senate Bill 141, passed in 2025 [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.27]
-  [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.3]. Its
-  January 2026 report said grantees would co-develop new Performance Growth Targets with the department in spring
-  2026, adding K-2 regular attenders and 8th grade math [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.27]. The
-  department's 2026 guidance on SB 141's local Performance Growth Targets set Aug. 31, 2026 for districts and
-  charter schools to submit them and Sept. 15, 2026 for the department to review and approve them; once approved,
-  they can't be changed [SRC:ode/accountability/pgt-co-development-guidance.pdf p.4]. The archive has no record yet
-  that the targets were approved on that schedule.
+  [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.3]. The department's January 2026 report said grantees would
+  co-develop new Performance Growth Targets with it in spring 2026, adding K-2 regular attenders and 8th grade math
+  [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.27].
+- Separately, the department's 2026 guidance on local Performance Growth Targets under SB 141, which doesn't mention
+  the Student Investment Account, set Aug. 31, 2026 for all targets to be submitted, covering the four years
+  beginning in 2026-27, and Sept. 15, 2026 for the department to review and approve them; once approved, they can't
+  be changed [SRC:ode/accountability/pgt-co-development-guidance.pdf p.3]
+  [SRC:ode/accountability/pgt-co-development-guidance.pdf p.4]. As of Nov. 22, 2026, the archive has no
+  record of whether the department approved the local targets by Sept. 15.
 - Grantees also rate themselves on 15 "progress markers" (a 0-4 scale) and file a yearly narrative report
   [SRC:ode/sia/2025-09_progress-markers-annual-reporting-2023-24.pdf p.4]. The department groups the markers by when
   it expects them: early signs (three to six months), intermediate changes (six to 18 months) and substantial
@@ -124,13 +126,12 @@ Our sums: `derived/sia.csv`. Audits and outside reviews are still to come (#57).
 - For gap-closing targets: 9th grade on-track 85 of 137 (62.0%), regular attendance 122 of 182 (67.0%), 3rd grade
   English language arts 55 of 131 (42.0%) [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.39]
   [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.40].
-- The department reports the median grantee's change from 2023-24 to 2024-25 for all students as 2.21% in 9th grade
-  on-track, 1.78% in 3rd grade English language arts and 0.01% in regular attendance; it doesn't say whether these
-  are percentage points [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.39]
-  [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.40], and neither does its 2023-24 report on targets and
-  results, which prints median changes the same way [SRC:ode/sia/2024-12_lpgts-and-actuals-2023-24.pdf p.1]. Its
-  overview of how the targets were set gives target increases in percentage points
-  [SRC:ode/sia/2023-2028_lpgt-overview-of-targets.pdf p.2].
+- The department reports the median grantee's change from 2023-24 to 2024-25, for all students, as 2.21% in 9th
+  grade on-track, 1.78% in 3rd grade English language arts and 0.01% in regular attendance
+  [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.39] [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.40].
+  Neither this report nor the department's 2023-24 report on targets and results, which prints median changes the
+  same way, says whether such changes are percentage points
+  [SRC:ode/sia/2024-12_lpgts-and-actuals-2023-24.pdf p.1].
 - For 2023-24, more than half of grantees met their four-year graduation baseline and gap-closing targets; half met
   their five-year completion baseline target and 46.5% the gap-closing one; graduation and completion data for
   2024-25 come out later [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.28]
@@ -178,7 +179,10 @@ in `topics/results.md`. Third, also from its reports: the progress markers are s
 expected to meet in full. On the department's figures, about three in four grantees met their baseline 9th grade
 on-track target in 2024-25, about half met their attendance target, and fewer than two in five met their 3rd grade
 English language arts target. Whether that is good depends on how ambitious the targets were, which the department
-says varied a great deal.
+says varied a great deal. The department's median changes (2.21%, 1.78%, 0.01%) are most likely percentage points:
+its overview of how the targets were set uses "%" for a percentage-point difference ("nearly two percentage points
+higher (1.9%)") [SRC:ode/sia/2023-2028_lpgt-overview-of-targets.pdf p.2]. That's our reading; the department has
+been asked (#116).
 
 So the archive can say what the account's money paid for, and how grantees did against their own targets in two
 recent years. It can't yet say whether the account changed outcomes statewide. The Quality Education Commission
