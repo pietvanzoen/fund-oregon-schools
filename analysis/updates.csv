@@ -19,5 +19,6 @@ date,text,page,pr
 2026-11-21,"The What's being decided page now explains, in plain words, what a baseline, a benchmark and a proposal are.",decisions.md,89
 2026-11-21,"The funding chart now appears on the Start here page and next to the State School Fund decision, not only on The numbers.",decisions.md#ssf-2027-29,90
 2026-11-21,"Three new open questions: whether the Quality Education Model's estimate of need is right, whether corporate kicker money adds to school funding, and whether state mandates on schools are funded.",questions.csv,95
+2026-11-21,"SB 1555, the 2026 bill to replace the Quality Education Model, did not pass. The QEM page now explains what it would have done and what a replacement would mean for the funding gap figures.",topics/quality-education-model.md,101
 2026-11-21,"Confirmed what the November revenue forecast adds for 2027-29: $233.5M more in projected net General Fund revenue, and $244.6M more in available resources counting a larger starting balance. That second figure is the ~$245M in the news.",decisions.md#grb-2027-29,105
 2026-11-22,"Who decides now shows each listed legislator's party and district, and the places the Legislature's member page lists for that district. Gov. Tina Kotek's stance against tapping one-time state reserves for PPS, as reported by KATU, is now dated Nov. 6, 2026, not October.",people/people.csv,115
