@@ -148,8 +148,9 @@ def main():
             "id,decision,kind,option,proposed_by,proposed_on,amount,formality,source\n"
             "o1,d1,baseline,B,,,,law,[NEWS:NEWS-1]\no2,nope,idea,X,,,,bill,[NEWS:NEWS-1]\n")
         open(f"{root}/analysis/positions.csv", "w").write(
-            "decision,option,actor,date,stance,source\nd1,,kotek,2026-11,s,[NEWS:NEWS-1]\n"
-            "d1,o9,lieber,soon,s,[NEWS:NEWS-404]\nd1,,Portland Public Schools,2026,s,[NEWS:NEWS-1]\n")
+            "decision,option,actor,date,stance,source,replaces\nd1,,kotek,2026-11,s,[NEWS:NEWS-1],\n"
+            "d1,o9,lieber,soon,s,[NEWS:NEWS-404],\nd1,,Portland Public Schools,2026,s,[NEWS:NEWS-1],\n"
+            "d1,,kotek,2026-11-06,s,[NEWS:NEWS-1],2\nd1,,kotek,2026-11-06,s,[NEWS:NEWS-1],9\n")
         open(f"{root}/analysis/questions.csv", "w").write(
             "id,question,decision,criterion,asked_by,needed_by,status,answer,issue\n"
             "q1,Q?,d1,c,a parent,2027-01-19,open,,\nq2,Q?,,c,a parent,,answered,,\n")
@@ -159,11 +160,12 @@ def main():
                     "decision d2 has no baseline", "options.csv:3: decision nope", "options.csv:3: kind must be",
                     "positions.csv:3: option o9", "actor lieber isn't an id", "positions.csv:3: date must be",
                     "unknown NEWS id NEWS-404", "questions.csv:3: an answered question needs an answer",
-                    "a done decision needs an outcome"):
+                    "a done decision needs an outcome", "positions.csv:6: replaces must be"):
             assert msg in out, (msg, out)
         assert "Portland Public Schools" not in out and "questions.csv: no 'source'" not in out, out
         r = run(root, "check_citations.py", "--measures")
         assert "1 open, 1 answered" in r.stdout and "d1 (due 2026-12-01): baseline yes" in r.stdout, r.stdout
+        assert "proposals none, 4 stances" in r.stdout, r.stdout  # line 2 is replaced by line 5
         for f in ("decisions", "options", "positions", "questions"):
             os.remove(f"{root}/analysis/{f}.csv")
         shutil.rmtree(f"{root}/analysis/people")

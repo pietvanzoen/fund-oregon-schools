@@ -255,6 +255,8 @@ def check_model(errors):
             errors.append(f"{where}: kind must be one of {', '.join(sorted(KINDS))}")
     for n, p in enumerate(model_csv("positions.csv"), 2):
         where = f"analysis/positions.csv:{n}"
+        if p.get("replaces") and not (p["replaces"].isdigit() and 2 <= int(p["replaces"]) < n):
+            errors.append(f"{where}: replaces must be the line number of an earlier row")
         if p["decision"] not in ids:
             errors.append(f"{where}: decision {p['decision']} isn't in decisions.csv")
         if p["option"] and p["option"] not in opt_ids:
@@ -284,7 +286,9 @@ def measures():
         if d["status"] != "open":
             continue
         kinds = {o["kind"] for o in model_csv("options.csv") if o["decision"] == d["id"]}
-        stances = sum(p["decision"] == d["id"] for p in model_csv("positions.csv"))
+        ps = model_csv("positions.csv")
+        replaced = {p["replaces"] for p in ps if p.get("replaces")}
+        stances = sum(p["decision"] == d["id"] and str(n) not in replaced for n, p in enumerate(ps, 2))
         print(f"{d['id']} (due {d['due']}): baseline {'yes' if 'baseline' in kinds else 'NO'}, "
               f"proposals {'yes' if 'proposal' in kinds else 'none'}, {stances} stances")
     return 0

@@ -87,11 +87,13 @@ cites the same source.
 
 ### `positions.csv`
 
-`decision, option, actor, date, stance, source`
+`decision, option, actor, date, stance, source, replaces`
 
-One row per stance, appended, never edited. `option` is empty for a stance on the decision as a whole. `actor` is a
-`people.csv` id or an organization's name. `date` is when the stance was stated or reported. `stance` can be
-`none stated` when someone was asked and declined. Only stances on the record.
+One row per stance, appended, never edited. To correct a wrong row, append the corrected row with `replaces` set to
+the line number of the row it replaces (header = line 1); the site shows only the newest version
+(`adr/20261122-1718-correcting-append-only-rows.md`). `option` is empty for a stance on the decision as a whole.
+`actor` is a `people.csv` id or an organization's name. `date` is when the stance was stated or reported. `stance`
+can be `none stated` when someone was asked and declined. Only stances on the record.
 
 ### `questions.csv`
 
