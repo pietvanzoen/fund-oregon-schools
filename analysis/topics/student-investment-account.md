@@ -55,7 +55,10 @@ Our sums: `derived/sia.csv`. Audits and outside reviews are still to come (#57).
   [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.3]. Its
   January 2026 report said grantees would co-develop new Performance Growth Targets with the department in spring
   2026, adding K-2 regular attenders and 8th grade math [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.27]. The
-  archive has no record yet of whether those targets were set.
+  department's 2026 guidance on SB 141's local Performance Growth Targets set Aug. 31, 2026 for districts and
+  charter schools to submit them and Sept. 15, 2026 for the department to review and approve them; once approved,
+  they can't be changed [SRC:ode/accountability/pgt-co-development-guidance.pdf p.4]. The archive has no record yet
+  that the targets were approved on that schedule.
 - Grantees also rate themselves on 15 "progress markers" (a 0-4 scale) and file a yearly narrative report
   [SRC:ode/sia/2025-09_progress-markers-annual-reporting-2023-24.pdf p.4]. The department groups the markers by when
   it expects them: early signs (three to six months), intermediate changes (six to 18 months) and substantial
@@ -124,7 +127,10 @@ Our sums: `derived/sia.csv`. Audits and outside reviews are still to come (#57).
 - The department reports the median grantee's change from 2023-24 to 2024-25 for all students as 2.21% in 9th grade
   on-track, 1.78% in 3rd grade English language arts and 0.01% in regular attendance; it doesn't say whether these
   are percentage points [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.39]
-  [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.40].
+  [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.40], and neither does its 2023-24 report on targets and
+  results, which prints median changes the same way [SRC:ode/sia/2024-12_lpgts-and-actuals-2023-24.pdf p.1]. Its
+  overview of how the targets were set gives target increases in percentage points
+  [SRC:ode/sia/2023-2028_lpgt-overview-of-targets.pdf p.2].
 - For 2023-24, more than half of grantees met their four-year graduation baseline and gap-closing targets; half met
   their five-year completion baseline target and 46.5% the gap-closing one; graduation and completion data for
   2024-25 come out later [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.28]
