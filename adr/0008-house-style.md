@@ -1,6 +1,6 @@
 # 0008. Reader-facing text follows a short house style, checked by a clarity reviewer
 
-Status: accepted (2026-11-22, PR #PR)
+Status: accepted (2026-11-22, PR #109)
 
 ## Context
 The analysis text was all written by Claude sessions, with no stated style. A review of PR #101 found "the
