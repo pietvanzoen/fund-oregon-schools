@@ -126,7 +126,7 @@ Our sums: `derived/sia.csv`. Audits and outside reviews are still to come (#57).
 - For gap-closing targets: ninth grade on-track 85 of 137 (62.0%), regular attendance 122 of 182 (67.0%), third grade
   English language arts 55 of 131 (42.0%) [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.39]
   [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.40].
-- The department reports the median grantee's change from 2023-24 to 2024-25, for all students, as 2.21% in 9th
+- The department reports the median grantee's change from 2023-24 to 2024-25, for all students, as 2.21% in ninth
   grade on-track, 1.78% in third grade English language arts and 0.01% in regular attendance
   [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.39] [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.40].
   Neither this report nor the department's 2023-24 report on targets and results, which prints median changes the
@@ -144,7 +144,7 @@ Our sums: `derived/sia.csv`. Audits and outside reviews are still to come (#57).
 - From grantees' 2023-24 self-ratings, the department found most had made "lower order systemic changes" and were
   making steady progress toward higher-order changes. In its summary of the ratings and narrative reports
   together, it names academics (including career connected learning), data systems and community engagement as
-  areas of great success; hiring, especially of mental and behavioral health professionals in rural areas, and 9th
+  areas of great success; hiring, especially of mental and behavioral health professionals in rural areas, and ninth
   grade on-track and course scheduling are areas of ongoing work
   [SRC:ode/sia/2025-09_progress-markers-annual-reporting-2023-24.pdf p.4].
 

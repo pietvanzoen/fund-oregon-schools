@@ -1,9 +1,12 @@
 # Online charters: State School Fund money that follows students
 
-Online (virtual) charter schools are paid through the district that sponsors them, which must pass on at least 80%
-(K-8) or 95% (grades 9-12) of its General Purpose Grant per weighted student [SRC:legislature/ors/ors338.html]. Our
-estimate puts the formula revenue attributable to them at about $257 million in 2025-26
-[DER:virtual_charters/gpg_attributable_2025_26]; no archived state document gives an official total.
+State School Fund money for students of online (virtual) charter schools is paid first to the district where the
+charter is located; a district that sponsors a charter must pass on at least 80% (K-8) or 95% (grades 9-12) of its
+General Purpose Grant per weighted student [SRC:legislature/ors/ors338.html]. Our estimate puts the formula revenue
+attributable to virtual charters at about $257 million in 2025-26 [DER:virtual_charters/gpg_attributable_2025_26],
+roughly 3.3% of the school district share [DER:virtual_charters/gpg_attributable_share_2025_26]. It multiplies each
+charter's extended weighted count by its sponsor's average grant rate and mixes state and local money; no archived state
+document gives an official total.
 
 Issue #20. Copied values: `data/virtual_charters_2025-26.csv`, `data/virtual_charters_grades_2025-26.csv` and
 `data/virtual_charters_hs_admw_2024-25.csv`. Our calculations: `derived/virtual_charters.csv`,
@@ -34,7 +37,9 @@ written by `tools/derive_virtual_charters.py`.
 - **Separate calculation for shrinking sponsors.** If a sponsoring district's own enrollment (leaving out the
   virtual charter) fell from the year before, the department calculates the virtual charter's weighted count
   separately from the district's when working out the district's extended weighted count
-  [SRC:legislature/ors/ors338.html] (ORS 338.155(1)(c)(C)). The department publishes this calculation in a "Virtual
+  [SRC:legislature/ors/ors338.html] (ORS 338.155(1)(c)(C)). The extended count is the higher of the current or prior
+  year's weighted enrollment, a hold-harmless for districts whose enrollment is falling
+  [SRC:ode/qec/2026_qem_report.pdf p.114]. The department publishes this calculation in a "Virtual
   Charter School Ext ADMw Transparency Report"
   [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.1].
 - **The 3% rule.** A student does not need the resident district's approval to enroll in a virtual charter, only to
@@ -319,8 +324,9 @@ appropriation.
   [DER:virtual_charters/sponsor_keep_gradesplit_2025_26], with the same caveats. The department's High School Success
   figures are a check on the headcount stand-in: for the 18 charters with a row, high school is 48.0% of the 2024-25
   weighted count [DER:virtual_charters/hs_admw_share_2024_25] against 45.8% of fall 2025 headcount
-  [DER:virtual_charters/hs_headcount_share_hss_charters_fall_2025]. The years differ, but the two splits are close; the
-  headcount split is slightly lower for high school, which would put the true figure a little below $36 million.
+  [DER:virtual_charters/hs_headcount_share_hss_charters_fall_2025]. The years differ, but the two splits are close. If the
+  2024-25 split holds, the headcount split slightly understates high school, which would put the true figure a little
+  below $36 million.
 - **Santiam Canyon and Oregon Charter Academy.** At the statutory minimum, with Oregon Charter Academy's grade
   split, Santiam Canyon would keep about $3.9 million a year [DER:virtual_charters/orca_keep_at_minimum_2025_26].
   S&P's "about $1.5 million" in recent years (S&P doesn't say whether that is a yearly or a cumulative figure) is
@@ -352,8 +358,9 @@ appropriation.
 - **Kotek.** As of Nov. 20, 2026, no proposal from her on virtual schools is in the archive; her 2027-29 budget is
   due Dec. 1 (see `decisions.md#grb-2027-29`).
 - **House Bill 3953** is about who may sponsor a charter, not about virtual charters or their funding, so it is left
-  out of the bill list above. HB 3444 gives its sponsor only as Rep. Wright; the only Rep. Wright in
-  `people/people.csv` is Rep. Boomer Wright, R-District 9 (Coos Bay) [SRC:legislature/members/wright.html].
+  out of the bill list above. HB 3444 gives its sponsor only as Rep. Wright. The Legislature's member
+  listing has one, Rep. Boomer Wright, R-District 9 (Coos Bay), so our analysis takes the sponsor to be him
+  [SRC:legislature/members/representatives-all.html] [SRC:legislature/members/wright.html].
 - **The bills.** Counting HB 3444's amendments, five of the six 2025 bills would have widened access to or funding
   for virtual charters; HB 2144 would have changed how the 3% rule is administered and had the department collect the
   enrollment data. Three would have loosened the 3% rule. HB 2583 would have opened Student Investment Account grants

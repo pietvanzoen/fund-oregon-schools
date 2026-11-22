@@ -14,9 +14,9 @@ cites every claim, so parents, reporters and anyone else can check facts and bui
 - The State School Fund is the primary source of state funding for K-12 public education
   [SRC:gov/press/2024_ssf-csl-proposal.html]. The Legislature adopted $11.36 billion for it for 2025-27
   [SRC:fiscal/lfo/2025-07_lab-summary-2025-27.pdf p.1].
-- Its current service level for 2027-29 is $12.56 billion, a Department of Administrative Services estimate
+- The State School Fund's current service level for 2027-29 is $12.56 billion, a Department of Administrative Services estimate
   [SRC:ode/qec/2026_qem_report.pdf p.103]. The current service level is the amount needed in the next two-year
-  budget to continue existing programs [SRC:gov/press/2024_ssf-csl-proposal.html].
+  budget to continue existing authorized programs [SRC:gov/press/2024_ssf-csl-proposal.html].
 - The Quality Education Commission's 2026 report estimates core state funding, counting state money beyond the State
   School Fund, of $13.78 billion to keep 2025-27 service levels and $16.21 billion to meet the state's education goals
   [SRC:ode/qec/2026_qem_report.pdf p.117].

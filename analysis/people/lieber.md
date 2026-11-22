@@ -15,7 +15,7 @@ the session organizes).
   oversight and accountability measures were adopted [SRC:fiscal/lfo/2025-03_co-chair-budget-framework.pdf p.2]
   [SRC:legislature/press/2025-03-19_jwm-framework.pdf p.1].
 - On the full Ways and Means Committee she voted yes on Senate Bill 141's budget [SRC:legislature/bills/2025R1_SB141_budget-report.pdf p.1].
-- Co-led the 2026 rebalance after federal cuts; the co-chairs say it maintains critical state services
+- Co-led the 2026 rebalance after what the co-chairs call federal budget cuts; the co-chairs say it maintains critical state services
   [SRC:legislature/press/2026-03-01_jwm-rebalance.pdf p.1].
 
 ## On revenue and the budget
@@ -33,8 +33,8 @@ the session organizes).
   wasn't, so it didn't [NEWS:NEWS-20260510-wweek-1].
 - Same forum: "If you use one-time money to pay for ongoing expenses, then you're still going to have a cliff…"
   [NEWS:NEWS-20260510-wweek-1]
-- Analysis: her stated test is school funding below the current service level (the amount needed to continue
-  existing programs), not whether districts face deficits. The 2026 Quality Education Model puts the cost of today's
+- Analysis: her stated test is whether school funding would be cut below the current service level (the amount
+  needed to continue existing authorized programs), not whether districts face deficits. The 2026 Quality Education Model puts the cost of today's
   services about $1.2 billion above the State School Fund's current service level, to come from state funds outside
   the fund (see `topics/quality-education-model.md`), so a State School Fund at the current service level passes her
   test whether or not those other funds keep pace. Her position matches that of Gov. Tina Kotek: no one-time money for

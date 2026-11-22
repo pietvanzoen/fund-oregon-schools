@@ -1,6 +1,6 @@
 # What's being decided
 
-Five choices on Oregon K-12 funding will be made by a set date: the Governor's budget, the State School Fund amount,
+These choices on Oregon K-12 funding will be made by a set date: the Governor's budget, the State School Fund amount,
 a draw on the Education Stability Fund, the cost model and the funding formula. Each section gives the baseline and
 options on the table, who stands where and when, and what the archive can answer so far. The tables are built from the archive's decision
 files; the text is cited like any analysis. A due date for a decision by the Legislature is the latest the 2027
@@ -60,7 +60,7 @@ for its status quo estimate [SRC:ode/qec/2026_qem_report.pdf p.103].
 
 ## The State School Fund amount for 2027-29 {#ssf-2027-29}
 
-- The Joint Committee on Ways and Means, the Legislature's joint budget committee, writes the budget; Sen. Kate
+- The Joint Committee on Ways and Means writes the budget; Sen. Kate
   Lieber, D-District 14 (Beaverton & Southwest Portland), returns as Senate co-chair
   [SRC:legislature/press/2026-11-13_senate-dems-2027-leadership.pdf p.1] [SRC:legislature/members/lieber.html].
   Other 2027 roles aren't announced yet.
@@ -98,10 +98,11 @@ for its status quo estimate [SRC:ode/qec/2026_qem_report.pdf p.103].
   immediate relief while longer-term reform is developed
   [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt] [SRC:legislature/members/ruiz.html].
 - Analysis: every option here needs the same vote and trigger. Kotek and Lieber object on the record to one-time money
-  for ongoing costs. PERS contributions are an ongoing cost, so the objection could apply to both PERS proposals, while
+  for ongoing costs. PERS contributions are an ongoing cost, so the objection could apply both to Ruiz's proposal and to Portland Public Schools' request for $500 million to
+  buy down PERS rates [NEWS:NEWS-20261102-opb-1], while
   supporters describe a one-time draw as a bridge until lasting reform. The objection stated by Rep. Tawna
-  Sanchez, D-District 43 (North and Northeast Portland), is mainly timing: saving the fund for worse years
-  [SRC:legislature/members/sanchez.html]. The stances recorded so far were about a draw in 2025-27, not 2027-29. See
+  Sanchez, D-District 43 (North and Northeast Portland) [SRC:legislature/members/sanchez.html], is mainly timing:
+  saving the fund for worse years. The stances recorded so far were about a draw in 2025-27, not 2027-29. See
   `topics/reserves.md`.
 
 <!-- site: decision esf-draw-2027-29 -->

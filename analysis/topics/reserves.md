@@ -33,7 +33,7 @@ forecast already expects needs neither, though a tax increase also needs three-f
 one-time PERS relief from a 2025-26 co-chair of the Education Subcommittee (Ruiz, November 2026) suggests a narrower
 draw is being discussed, though it rests on one social media post with no amount or bill. It still needs the same
 vote and trigger. The objection on record from Kotek and Sen. Kate Lieber, D-District 14 (Beaverton & Southwest
-Portland), to one-time money for ongoing costs could still apply: PERS contributions are an ongoing cost. The
-objection stated by Rep. Tawna Sanchez, D-District 43 (North and Northeast Portland), is mainly timing
-[SRC:legislature/members/lieber.html] [SRC:legislature/members/sanchez.html]. Ruiz describes his proposal as relief
+Portland), to one-time money for ongoing costs could still apply: PERS contributions are an ongoing cost. [SRC:legislature/members/lieber.html]
+The objection stated by Rep. Tawna Sanchez, D-District 43 (North and Northeast Portland)
+[SRC:legislature/members/sanchez.html], is mainly timing. Ruiz describes his proposal as relief
 while longer-term reform is developed (`decisions.md#esf-draw-2027-29`).

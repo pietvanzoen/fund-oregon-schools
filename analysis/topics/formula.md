@@ -7,7 +7,7 @@ Decisions this informs: `decisions.md#formula-2027`. Open research: #17, #18, #1
 - The formula in chapter 327 of the Oregon Revised Statutes divides the State School Fund among districts [SRC:legislature/ors/ors327.html].
 - **Special education cap.** The formula adds weight for students eligible for special education only up to 11% of
   a district's enrollment without review and approval by the Department of Education [SRC:legislature/ors/ors327.html].
-- House Bill 2953 (2025) as introduced would have removed the cap [SRC:legislature/bills/2025R1_HB2953_introduced.pdf p.1].
+- House Bill 2953 (2025) as introduced would remove the cap [SRC:legislature/bills/2025R1_HB2953_introduced.pdf p.1].
 - **Transportation.** The state reimburses an approved share of district transportation costs
   [SRC:legislature/ors/ors327.html].
 - **Charters.** A sponsoring district must pass through at least 80% (K-8) or 95% (9-12) of its General Purpose

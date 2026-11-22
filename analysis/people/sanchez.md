@@ -3,8 +3,8 @@
 Official page: <https://www.oregonlegislature.gov/sanchez>
 
 Rep. Tawna Sanchez is a Democrat representing House District 43 (North and Northeast Portland)
-[SRC:legislature/members/sanchez.html]. She is House co-chair of the Joint Committee on Ways and Means, the
-Legislature's joint budget committee [SRC:legislature/appointments/2026-01-23_house-committee-assignments.pdf p.3].
+[SRC:legislature/members/sanchez.html]. She is House co-chair of the Joint Committee on Ways and Means
+[SRC:legislature/appointments/2026-01-23_house-committee-assignments.pdf p.3].
 Her 2027 role isn't confirmed yet: House Democrats haven't announced 2027 committee leadership (as of Nov. 19, 2026).
 Part of the Portland delegation.
 

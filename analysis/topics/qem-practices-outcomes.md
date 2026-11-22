@@ -12,8 +12,8 @@ and `data/qem_gap.csv`. Decisions this informs: `decisions.md#cost-model-2027`.
   resources using professional judgment, research, statistical analysis of Oregon spending data, and a survey of
   public values [SRC:ode/qec/2026_qem_report.pdf p.94]. The model has nearly 500 inputs
   [SRC:ode/qec/2026_qem_report.pdf p.94].
-- It gives two estimates: the "Status Quo" (the cost of continuing the prior two-year budget's services) and the "Full
-  QEM" (the status quo plus the resources to implement the commission's recommended best practices and improve outcomes)
+- It gives two estimates: the status quo (the cost of continuing the prior two-year budget's services) and the full
+  model (the status quo plus the resources to implement the commission's recommended best practices and improve outcomes)
   [SRC:ode/qec/2026_qem_report.pdf p.92].
 
 ### The prototype schools
@@ -117,7 +117,7 @@ and `data/qem_gap.csv`. Decisions this informs: `decisions.md#cost-model-2027`.
   costs vary with student need or locale [SRC:legislature/lpro/2025-01_air_qem-evaluation.pdf p.28]. It recommended
   more outcome goals and many more prototypes built from current Oregon data, noting the prototype sizes rest on
   research more than 25 years old [SRC:legislature/lpro/2025-01_air_qem-evaluation.pdf p.34].
-- The evaluators wrote that their findings "do not invalidate the current QEM estimates": it found no omitted resources or
+- The evaluators wrote that their findings "do not invalidate the current QEM estimates": they found no omitted resources or
   inaccurate pricing [SRC:legislature/lpro/2025-01_air_qem-evaluation.pdf p.33].
 - The evaluators' own cost model estimated adequate spending of $22,210 per pupil in 2022-23 against $17,136 actually spent
   from state and local sources, a 30% gap [SRC:legislature/lpro/2025-01_air_cost-of-adequacy.pdf p.40]
@@ -135,7 +135,7 @@ and `data/qem_gap.csv`. Decisions this informs: `decisions.md#cost-model-2027`.
 - In response to the evaluation, the commission says it is exploring more adequacy goals (third grade English language arts
   proficiency, ninth grade on-track status, regular attendance) and agrees more prototype schools should be added but has
   lacked the staff to do so [SRC:ode/qec/2026_qem_report.pdf p.99]. It asks for 2.0 full-time-equivalent positions at the department in
-  the next two-year budget to start, out of an estimated 12.0-19.0 positions built up over two to three budget periods [SRC:ode/qec/2026_qem_report.pdf p.116].
+  the next two-year budget to start, out of an estimated 12.0-19.0 full-time equivalents built up over two to three budget periods [SRC:ode/qec/2026_qem_report.pdf p.116].
 
 ### A legislative committee's critique (November 2025)
 - The Joint Committee on Public Education Appropriation's November 2025 report found that 2025-27 funding "effectively closes the funding gap and allows for the full

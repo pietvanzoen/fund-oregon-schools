@@ -4,9 +4,10 @@ Tina Kotek is governor of Oregon; she was reelected in November 2026 [NEWS:NEWS-
 Governor's Recommended Budget for 2027-29 in December [NEWS:NEWS-2026-salemreporter-1].
 
 ## On school funding
-- Proposed $11.36 billion for the State School Fund for 2025-27, an 11% increase [NEWS:NEWS-20241203-osba-1].
-- Proposed raising the 2025-27 current service level for the fund, the amount needed to continue existing programs,
-  by about $515 million over the original calculation [SRC:gov/press/2024_ssf-csl-proposal.html].
+- Proposed $11.36 billion for the State School Fund for 2025-27, an 11% increase over the $10.2 billion for 2023-25
+  [NEWS:NEWS-20241203-osba-1].
+- Proposed raising the fund's 2025-27 current service level (the amount needed to continue existing authorized
+  programs) by about $515 million over the original calculation [SRC:gov/press/2024_ssf-csl-proposal.html].
 - Said in April 2026 she didn't expect extra school money beyond the current budget [NEWS:NEWS-20260430-wweek-1].
 - After reelection, declined to commit to how she'd pay for her school goals and repeated her opposition to using
   one-time reserves for ongoing costs [NEWS:NEWS-20261106-occ-1].

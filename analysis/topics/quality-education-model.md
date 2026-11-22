@@ -10,7 +10,7 @@ Decisions this informs: `decisions.md#ssf-2027-29`, `decisions.md#cost-model-202
 - The 2026 Quality Education Model report puts the State School Fund's current service level at $12,558,429,348, the
   Department of Administrative Services' estimate including the Student Success Act transfer
   [SRC:ode/qec/2026_qem_report.pdf p.103]. The current service level is the amount needed in the next two-year budget
-  to continue existing programs [SRC:gov/press/2024_ssf-csl-proposal.html].
+  to continue existing authorized programs [SRC:gov/press/2024_ssf-csl-proposal.html].
 - The report puts the core state funding needed to keep 2025-27 service levels (the "status quo") at $13.78 billion,
   and the core state funding needed to meet the state's goals (the "full QEM") at $16.21 billion
   [SRC:ode/qec/2026_qem_report.pdf p.117].
@@ -83,8 +83,8 @@ Decisions this informs: `decisions.md#ssf-2027-29`, `decisions.md#cost-model-202
   [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.3].
 - **Who would have judged sufficiency.** The Joint Interim Committee on Ways and Means would have prepared the
   sufficiency report, using the cost model, within 180 days after an odd-year session adjourns
-  [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.2]. The bill would have abolished the joint committee and the
-  Quality Education Commission [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.1] by repealing sections 171.857
+  [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.2]. The bill would have abolished the Joint Committee on Public
+  Education Appropriation and the Quality Education Commission [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.1] by repealing sections 171.857
   and 327.500 of the Oregon Revised Statutes, among others, on Jan. 1, 2027 [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.19]; those are
   the statutes for the Committee on Public Education Appropriation and the Quality Education Commission
   [SRC:legislature/ors/ors171.html] [SRC:legislature/ors/ors327.html]. Because it did not pass, both remain in law.
@@ -135,11 +135,11 @@ scenarios.
 
 Funding for 2025-27 that the Senate President's and House Speaker's offices called "Record Funding"
 [SRC:legislature/press/2025-05-28_record-k12-funding.pdf p.1] and a gap in 2027-29 can both be true: they measure
-different two-year budgets against different estimates. The news figures of "$2.5B more" and "$5B more" are close to
-the model's two scenarios less the 2025-27 budget, not the current service level, so they aren't comparable with the
+different two-year budgets against different estimates. Our reading is that the news figures of "$2.5B more" and "$5B more"
+compare the model with the 2025-27 budget, not with the current service level, so they aren't comparable with the
 figures above.
 
-The Quality Education Model is the state's own estimate, but it is contested: the Legislature's committee found 2025-27 funding sufficient
+The Quality Education Model is the state's own estimate, but it is contested: the joint committee found 2025-27 funding sufficient
 by it while criticizing its method, and the 2027 Legislature may replace it. A gap measured against the model is a
 gap against one benchmark.
 
