@@ -32,5 +32,6 @@ None: every figure above is stated in a cited source.
 ## Analysis
 
 The archive so far covers mostly how much is spent; what the money buys is the least-researched part. Still to
-research: Student Investment Account spending and results (#57), outcomes over time set against funding (#58), SB 141 progress and consequences (#60, #71), where
+research: Student Investment Account audits and reviews (#103; spending and ODE's outcome reports are in
+`topics/student-investment-account.md`), outcomes over time set against funding (#58), SB 141 progress and consequences (#60, #71), where
 increases go (#61), research on whether funding changes outcomes (#63), and unfunded mandates (#72).
