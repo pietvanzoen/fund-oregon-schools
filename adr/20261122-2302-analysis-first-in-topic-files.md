@@ -1,6 +1,6 @@
 # Topic files put the Analysis section first
 
-Status: accepted (2026-11-22, PR #TBD)
+Status: accepted (2026-11-22, PR #122)
 
 ## Context
 Topic files opened with "What the sources say" and "Derived figures", which can run to hundreds of lines
