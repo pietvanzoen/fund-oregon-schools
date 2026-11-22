@@ -7,6 +7,34 @@ money changed outcomes (sources and figures below).
 Decisions this informs: standing research (what the money buys). Figures copied from sources: `data/sia_spending.csv`.
 Our sums: `derived/sia.csv`. Audits and outside reviews are still to come (#57).
 
+## Analysis
+
+The spending picture is clear and consistent. Grantees (districts, eligible charter schools, and youth corrections
+and juvenile detention programs) reported spending almost all of each year's allocation, mostly on staff (from
+2021-22, when staff figures begin), in the same three categories every year. Health and safety leads every year. By the law's list, that category covers
+student mental and behavioral health and school health professionals, among other health and safety uses, which
+fits the first of the law's two purposes. The reports don't break the category down further, but in 2021-22, 19.3%
+of the licensed positions the account funded were mental health professionals or school counselors (source below).
+
+The results picture says less, for three reasons. First, the department compares each grantee with targets
+the grantee set with the department, not with what would have happened without the money, so a met target doesn't
+show the account caused the change; that's our reasoning, not the department's. Second, from the department's
+reports: there are only two years of target data (2023-24 and 2024-25), and the department paused adding years to
+the targets in 2025 in anticipation of SB 141, planning new ones for spring 2026. The statewide SB 141 targets are
+in `topics/results.md`. Third, also from its reports: the progress markers are self-ratings that grantees are not
+expected to meet in full. On the department's figures, about three in four grantees met their baseline ninth grade
+on-track target in 2024-25, about half met their attendance target, and fewer than two in five met their third grade
+English language arts target. Whether that is good depends on how ambitious the targets were, which the department
+says varied a great deal. The department's median changes (2.21%, 1.78%, 0.01%) are most likely percentage points:
+its overview of how the targets were set uses "%" for a percentage-point difference ("nearly two percentage points
+higher (1.9%)") [SRC:ode/sia/2023-2028_lpgt-overview-of-targets.pdf p.2]. That's our reading; the department has
+been asked (#116).
+
+So the archive can say what the account's money paid for, and how grantees did against their own targets in two
+recent years. It can't yet say whether the account changed outcomes statewide. The Quality Education Commission
+recommends sustaining Student Success Act investments (`topics/qem-practices-outcomes.md`). Outside audits and
+reviews (#57), outcomes over time (#58) and the research on whether funding changes outcomes (#63) bear on that.
+
 ## What the sources say
 
 ### What it is and what it can pay for
@@ -160,31 +188,3 @@ Our sums: `derived/sia.csv`. Audits and outside reviews are still to come (#57).
 Each year's spending is as the department extracted it for that year's report; later corrections are not
 included, and the 2021-22 and 2022-23 figures were extracted before every grantee's spending was final
 [SRC:ode/sia/2023-01_sia-legislative-report.pdf p.16] [SRC:ode/sia/2024-01_sia-legislative-report.pdf p.22].
-
-## Analysis
-
-The spending picture is clear and consistent. Grantees (districts, eligible charter schools, and youth corrections
-and juvenile detention programs) reported spending almost all of each year's allocation, mostly on staff (from
-2021-22, when staff figures begin), in the same three categories every year. Health and safety leads every year. By the law's list, that category covers
-student mental and behavioral health and school health professionals, among other health and safety uses, which
-fits the first of the law's two purposes. The reports don't break the category down further, but in 2021-22, 19.3%
-of the licensed positions the account funded were mental health professionals or school counselors (source above).
-
-The results picture says less, for three reasons. First, the department compares each grantee with targets
-the grantee set with the department, not with what would have happened without the money, so a met target doesn't
-show the account caused the change; that's our reasoning, not the department's. Second, from the department's
-reports: there are only two years of target data (2023-24 and 2024-25), and the department paused adding years to
-the targets in 2025 in anticipation of SB 141, planning new ones for spring 2026. The statewide SB 141 targets are
-in `topics/results.md`. Third, also from its reports: the progress markers are self-ratings that grantees are not
-expected to meet in full. On the department's figures, about three in four grantees met their baseline ninth grade
-on-track target in 2024-25, about half met their attendance target, and fewer than two in five met their third grade
-English language arts target. Whether that is good depends on how ambitious the targets were, which the department
-says varied a great deal. The department's median changes (2.21%, 1.78%, 0.01%) are most likely percentage points:
-its overview of how the targets were set uses "%" for a percentage-point difference ("nearly two percentage points
-higher (1.9%)") [SRC:ode/sia/2023-2028_lpgt-overview-of-targets.pdf p.2]. That's our reading; the department has
-been asked (#116).
-
-So the archive can say what the account's money paid for, and how grantees did against their own targets in two
-recent years. It can't yet say whether the account changed outcomes statewide. The Quality Education Commission
-recommends sustaining Student Success Act investments (`topics/qem-practices-outcomes.md`). Outside audits and
-reviews (#57), outcomes over time (#58) and the research on whether funding changes outcomes (#63) bear on that.

@@ -3,6 +3,13 @@
 Standing research: what state funding buys, and the outcome goals and mandates attached to it. Open research: #57 (see `topics/student-investment-account.md`; audits still to do),
 #58, #60, #61, #63, #71, #72.
 
+## Analysis
+
+The archive so far covers mostly how much is spent; what the money buys is the least-researched part. Still to
+research: Student Investment Account audits and reviews (#57; spending and the department's outcome reports are in
+`topics/student-investment-account.md`), outcomes over time set against funding (#58), Senate Bill 141 progress and consequences (#60, #71), where
+increases go (#61), research on whether funding changes outcomes (#63), and unfunded mandates (#72).
+
 ## What the sources say
 
 - **Senate Bill 141 targets.** The State Board of Education adopted statewide performance growth targets for the
@@ -28,10 +35,3 @@ Standing research: what state funding buys, and the outcome goals and mandates a
 ## Derived figures
 
 None: every figure above is stated in a cited source.
-
-## Analysis
-
-The archive so far covers mostly how much is spent; what the money buys is the least-researched part. Still to
-research: Student Investment Account audits and reviews (#57; spending and the department's outcome reports are in
-`topics/student-investment-account.md`), outcomes over time set against funding (#58), Senate Bill 141 progress and consequences (#60, #71), where
-increases go (#61), research on whether funding changes outcomes (#63), and unfunded mandates (#72).

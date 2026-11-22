@@ -8,7 +8,7 @@ Errors: unknown SRC path (not archived and not queued), page beyond the document
 CSV row with no source, malformed JSONL, duplicate queue paths or news ids;
 malformed analysis/derived/<topic>.csv, unknown [DER:topic/id], a DER value not shown in its sentence or table row,
 a DER figure outside topics/ without "our sum"/"our estimate" in its sentence;
-a topic file without the three sections, or a line under "What the sources say" with no source citation or with
+a topic file without the three sections in order (Analysis first), or a line under "What the sources say" with no source citation or with
 "Analysis:".
 Warnings also flag a number under "What the sources say" that isn't in the text of a source the line cites.
 analysis/updates.csv (What's new) has its own columns instead of a source: date, text, page, pr.
@@ -35,7 +35,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import (ANALYSIS, DERIVED, NEWS_INDEX, QUOTES, ROOT, SOURCES, TAG_RE, parse_src,  # noqa: E402
                     read_jsonl, read_queue, text_path)
 
-SECTIONS = ["What the sources say", "Derived figures", "Analysis"]
+SECTIONS = ["Analysis", "What the sources say", "Derived figures"]
 DER_COLS = ["id", "value", "unit", "kind", "label", "method", "inputs", "assumptions"]
 UPDATE_COLS = ["date", "text", "page", "pr"]
 UPDATES = os.path.join(ANALYSIS, "updates.csv")
@@ -377,12 +377,12 @@ def check_glossary(rel, lines, glossary, warnings):
 
 
 def check_sections(rel, lines, news_text, errors, warnings):
-    """Topic files: the three sections in order; every line under the first cites a source and carries no inference."""
+    """Topic files: the three sections in order; every line under "What the sources say" cites a source and carries no inference."""
     heads = [(i, line[3:].strip()) for i, (_, line) in enumerate(lines) if line.startswith("## ")]
     if [h for _, h in heads] != SECTIONS:
         errors.append(f"{rel}: needs exactly these sections, in order: " + ", ".join("## " + s for s in SECTIONS))
         return
-    rows = blocks(lines[heads[0][0] + 1:heads[1][0]])
+    rows = blocks(lines[heads[1][0] + 1:heads[2][0]])
     for i, (n, text) in enumerate(rows):
         # headings, and a table's header and separator rows, carry no facts to cite
         if text.startswith("#") or TABLE_SEP.match(text) or (i + 1 < len(rows) and TABLE_SEP.match(rows[i + 1][1])):

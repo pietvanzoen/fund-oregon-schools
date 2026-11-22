@@ -203,10 +203,10 @@ def main():
             "share,3.97,percent,derived,Share,n / state total,data/x.csv,\n"
             "est,256.6,USD millions,est,Money,sum of x * y,data/x.csv,y is an average\n")
         open(f"{root}/analysis/topics/ok.md", "w").write(
-            "# OK topic\n\nIntro.\n\n## What the sources say\n\n- The fund is $13 billion\n  [SRC:gov/test_page.html].\n\n"
+            "# OK topic\n\nIntro.\n\n## Analysis\n\nAbout 22,100 students, about 4% (our sum [DER:t/n] [DER:t/share]).\n\n"
+            "## What the sources say\n\n- The fund is $13 billion\n  [SRC:gov/test_page.html].\n\n"
             "| Bill | Fund |\n|---|---|\n| State | $13 billion [SRC:gov/test_page.html] |\n\n"
-            "## Derived figures\n\n| Figure | Value |\n|---|---|\n| Money | about $257M [DER:t/est] |\n\n"
-            "## Analysis\n\nAbout 22,100 students, about 4% (our sum [DER:t/n] [DER:t/share]).\n")
+            "## Derived figures\n\n| Figure | Value |\n|---|---|\n| Money | about $257M [DER:t/est] |\n")
         open(f"{root}/analysis/notes.md", "w").write(
             "Enrolled about 22,100 students (our sum [DER:t/n]).\n| Money | ~257 | our estimate [DER:t/est] |\n")
         r = run(root, "check_citations.py")
@@ -219,9 +219,12 @@ def main():
             "Enrolled about 22,200 students (our sum [DER:t/n]). About $257M of it [DER:t/est].\n"
             "Unknown [DER:t/nope] and [DER:zz/n].\n")
         open(f"{root}/analysis/topics/bad.md", "w").write(
-            "# Bad\n\n## What the sources say\n\n- No citation here.\n- Analysis: inference [SRC:gov/test_page.html].\n"
-            "- It is $14 billion [SRC:gov/test_page.html].\n\n## Derived figures\n\n## Analysis\n")
-        open(f"{root}/analysis/topics/order.md", "w").write("# O\n\n## Analysis\n\n## Derived figures\n")
+            "# Bad\n\n## Analysis\n\nNo citation needed here.\n\n## What the sources say\n\n- No citation here.\n"
+            "- Analysis: inference [SRC:gov/test_page.html].\n- It is $14 billion [SRC:gov/test_page.html].\n\n"
+            "## Derived figures\n")
+        # the old order (sources first) is now an error
+        open(f"{root}/analysis/topics/order.md", "w").write(
+            "# O\n\n## What the sources say\n\n## Derived figures\n\n## Analysis\n")
         open(f"{root}/analysis/derived/u.csv", "w").write(
             "id,value,unit,kind,label,method,inputs,assumptions\nx,abc,USD,guess,X,m,i,\n")
         open(f"{root}/analysis/derived/v.csv", "w").write("id,value\nx,1\n")
@@ -231,11 +234,11 @@ def main():
         assert "notes.md:1: [DER:t/n] is 22110 students; no number" in out, out  # 22,200 is not 22110 rounded
         assert "notes.md:1: [DER:t/est] needs \"our sum\" or \"our estimate\"" in out, out
         assert "unknown derived figure t/nope" in out and "unknown derived figure zz/n" in out, out
-        assert "bad.md:5: line under \"What the sources say\" has no source citation" in out, out
-        assert "bad.md:6: \"Analysis:\" under" in out and "order.md: needs exactly these sections" in out, out
+        assert "bad.md:9: line under \"What the sources say\" has no source citation" in out, out
+        assert "bad.md:10: \"Analysis:\" under" in out and "order.md: needs exactly these sections" in out, out
         assert "u.csv:2: kind must be derived or est" in out and "u.csv:2: value 'abc' is not a number" in out, out
         assert "v.csv: columns must be" in out, out
-        assert "warn  analysis/topics/bad.md:7: 14 is not in the text" in out, out
+        assert "warn  analysis/topics/bad.md:11: 14 is not in the text" in out, out
         shutil.rmtree(f"{root}/analysis/derived")
         shutil.rmtree(f"{root}/analysis/topics")
         os.remove(f"{root}/analysis/notes.md")

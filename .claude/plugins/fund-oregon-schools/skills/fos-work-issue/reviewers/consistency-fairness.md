@@ -48,7 +48,7 @@ dismiss it over.
    union, association or district press material is attributed to that group as its claim or estimate, not stated
    as fact.
 6. **Separation**: what sources state, what we calculated, and the author's own inference are kept apart (in topic
-   files: "What the sources say", "Derived figures", "Analysis"; elsewhere "our sum"/"our estimate" and
+   files: "Analysis" (first), "What the sources say", "Derived figures"; elsewhere "our sum"/"our estimate" and
    "Analysis:"). Flag inference written as fact, and any **wrong section**: an inference among source facts, or a
    calculation shown as a source figure instead of a `[DER:...]` figure.
 7. **Fairness to named officials**: positions are described from what they said or did on the record, with dates.

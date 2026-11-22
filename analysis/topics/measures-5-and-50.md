@@ -2,6 +2,15 @@
 
 Decisions this informs: `decisions.md` (all). Open research: #16, #65, #66, #67.
 
+## Analysis
+
+School operating budgets now depend mainly on the state General Fund and on decisions in Salem; a district can add
+only a capped levy. That is why the decisions in `decisions.md` are made by the Governor and the Legislature.
+
+Still to research: today's levy cap, compression losses, whether Measure 56 (2008) changed the turnout rule for some
+elections, and the kicker, the law that returns income tax surpluses to taxpayers
+[SRC:fiscal/lfo/2020-09_budget-reserve-funds.pdf p.1] (#66, #67).
+
 ## What the sources say
 
 - **Measure 5 (1990)** capped school property taxes, phasing the limit down to $5 per $1,000 of real market value by
@@ -28,12 +37,3 @@ Decisions this informs: `decisions.md` (all). Open research: #16, #65, #66, #67.
 ## Derived figures
 
 None: every figure above is stated in a cited source.
-
-## Analysis
-
-School operating budgets now depend mainly on the state General Fund and on decisions in Salem; a district can add
-only a capped levy. That is why the decisions in `decisions.md` are made by the Governor and the Legislature.
-
-Still to research: today's levy cap, compression losses, whether Measure 56 (2008) changed the turnout rule for some
-elections, and the kicker, the law that returns income tax surpluses to taxpayers
-[SRC:fiscal/lfo/2020-09_budget-reserve-funds.pdf p.1] (#66, #67).
