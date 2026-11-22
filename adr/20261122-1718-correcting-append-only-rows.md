@@ -1,6 +1,6 @@
 # A wrong append-only row is corrected by a new row that names the line it replaces
 
-Status: accepted (2026-11-22, PR #TBD)
+Status: accepted (2026-11-22, PR #115)
 
 ## Context
 `analysis/positions.csv` is append-only (RESEARCH.md): a stance is recorded once and never edited, so the file is
