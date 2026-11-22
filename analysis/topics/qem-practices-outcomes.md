@@ -135,7 +135,7 @@ and `data/qem_gap.csv`. Decisions this informs: `decisions.md#cost-model-2027`.
 - In response to the evaluation, the commission says it is exploring more adequacy goals (third grade English language arts
   proficiency, ninth grade on-track status, regular attendance) and agrees more prototype schools should be added but has
   lacked the staff to do so [SRC:ode/qec/2026_qem_report.pdf p.99]. It asks for 2.0 full-time-equivalent positions at the department in
-  the next two-year budget to start, out of an estimated 12.0-19.0 full-time equivalents built up over two to three budget periods [SRC:ode/qec/2026_qem_report.pdf p.116].
+  the next two-year budget to start, out of an estimated temporary build-up of 12.0-19.0 full-time equivalents over two to three budget periods [SRC:ode/qec/2026_qem_report.pdf p.116].
 
 ### A legislative committee's critique (November 2025)
 - The Joint Committee on Public Education Appropriation's November 2025 report found that 2025-27 funding "effectively closes the funding gap and allows for the full

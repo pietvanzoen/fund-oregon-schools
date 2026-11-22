@@ -1,7 +1,7 @@
 # What's being decided
 
 These choices on Oregon K-12 funding will be made by a set date: the Governor's budget, the State School Fund amount,
-a draw on the Education Stability Fund, the cost model and the funding formula. Each section gives the baseline and
+whether to draw on the Education Stability Fund, the cost model and the funding formula. Each section gives the baseline and
 options on the table, who stands where and when, and what the archive can answer so far. The tables are built from the archive's decision
 files; the text is cited like any analysis. A due date for a decision by the Legislature is the latest the 2027
 session can run. Background: `topics/measures-5-and-50.md` explains why these are state decisions.
