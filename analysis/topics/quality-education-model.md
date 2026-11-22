@@ -49,13 +49,13 @@ Decisions this informs: `decisions.md#ssf-2027-29`, `decisions.md#cost-model-202
   QEM was not aligned with professional best practices [SRC:legislature/olis/2026R1/313103_sb1555-genesis-memo.pdf p.1].
   The JPEA introduced SB 1555 to carry out the evaluation's recommendations and the nine opportunities for
   improvement in its Nov 2025 report [SRC:legislature/olis/2026R1/313103_sb1555-genesis-memo.pdf p.2]. It was the
-  JPEA's legislative concept LC 43, listed for introduction on Jan 15, 2026
+  JPEA's legislative concept LC 43, in the committee's Jan 15, 2026 memo of legislative concepts for introduction
   [SRC:legislature/olis/2025I1/311607_jpea-legislative-concepts.pdf p.1], and was introduced at the JPEA's request
   [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.1].
 - **New quality goals.** As introduced, the goals the cost model would price are: every district meeting the
   requirements of a standard school district; every teacher licensed or registered and qualified for the subject or
-  grade taught; and meeting the statewide targets for the SB 141 (2025) metrics in ORS 327.165
-  [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.1]. It repeals the existing goals language
+  grade taught; and meeting the statewide targets for the metrics in ORS 327.165
+  [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.1], the metrics identified in SB 141 (2025) [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.1]. It repeals the existing goals language
   [SRC:legislature/olis/2025I1/311607_jpea-legislative-concepts.pdf p.1].
 - **Who would build the model.** The Legislative Policy and Research Director would contract with a public or private
   entity to build a cost model that identifies the resources needed to meet those goals and their cost, using
@@ -69,15 +69,17 @@ Decisions this informs: `decisions.md#ssf-2027-29`, `decisions.md#cost-model-202
 - **Who would judge sufficiency.** The Joint Interim Committee on Ways and Means would prepare the sufficiency report,
   using the cost model, within 180 days after the odd-year session adjourns
   [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.2]. The bill abolishes the JPEA and the Quality Education
-  Commission [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.1], repealing their statutes on Jan 1, 2027
-  [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.19].
+  Commission [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.1], repealing ORS 171.857 and ORS 327.500, among
+  others, on Jan 1, 2027 [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.19]; those are the statutes for the
+  Committee on Public Education Appropriation and the Quality Education Commission
+  [SRC:legislature/ors/ors171.html] [SRC:legislature/ors/ors327.html].
 - **How often.** A new cost model at least once every eight years; in the biennia between, the Department of
   Administrative Services (DAS) would update its cost estimates for inflation and other costs, consistent with how
   the Governor's budget is prepared [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.3]. The research office
   would not have to contract for a model if the Legislature doesn't fund the contract
   [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.3].
 - **Timing.** The first model was to be finished by Feb 1, 2028 and first used for the report published after
-  Nov 1, 2029. For the report published after Nov 1, 2027, DAS would adjust the costs in the report adopted Nov 19,
+  Nov 1, 2029. For the report published after Nov 1, 2027 (the one on 2027-29 funding), DAS would adjust the costs in the report adopted Nov 19,
   2025 for inflation and other costs [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.4].
 - **Amendments.** LPRO staff summarized three proposed amendments (-1, -2, -5). All three replace the
   standard-school-district goal with complying with applicable state and federal laws; the -2 and -5 add a public
@@ -85,14 +87,19 @@ Decisions this informs: `decisions.md#ssf-2027-29`, `decisions.md#cost-model-202
   statewide panel of them to make final decisions (-2) or final recommendations (-5) on the resources in the model,
   and a preliminary report; the -5 also changes the interval for a new model to six years
   [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.2]. The amendment texts aren't archived.
+- **The commission's side.** Responding to the AIR evaluation in its latest QEM report, the commission says it is exploring more
+  adequacy goals and agrees more prototype schools should be added but has lacked the staff to do so
+  [SRC:ode/qec/2026_qem_report.pdf p.99]; see `topics/qem-practices-outcomes.md` for its response in full.
 - **Hearings and issues raised.** The Senate Committee on Education met on it Feb 10 and Feb 12, 2026; issues
   discussed included the credibility of the current and proposed systems, the interval between cost model studies,
-  and current sufficiency and district deficits [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.1].
+  current sufficiency and district deficits, and the dedication of those who have served as Quality Education
+  Commissioners [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.1]. Hearing testimony and recordings aren't archived.
 - **What happened.** The 2026 session's final business concluded on March 6
   [SRC:ode/legislation/2026_summary-enacted-education-legislation.pdf p.4]. The bill's OLIS overview page, as archived
   on Nov 21, 2026, lists its current location as the Senate Committee on Education, with no chapter number
   [SRC:legislature/bills/2026R1_SB1555_overview.html]. ODE's summary of enacted 2026 education legislation does not
-  list it [SRC:ode/legislation/2026_summary-enacted-education-legislation.pdf].
+  list it [SRC:ode/legislation/2026_summary-enacted-education-legislation.pdf], and the commission's Oct 2026 meeting
+  materials list "2026 Senate Bill 1555 (Did not pass)" [SRC:ode/qec/minutes/2026-10-21.pdf p.78].
 
 ## Derived figures
 
@@ -115,9 +122,10 @@ read as a gap against one benchmark.
 **If the QEM is changed or replaced.** SB 1555 did not pass, so the Quality Education Commission and the QEM remain in
 law, and the 2026 QEM is the commission's estimate on record for 2027-29. Of the comparison figures above, the full
 QEM and the status quo are QEM scenarios and would lose their standing as the state's benchmark if the model were
-replaced; the CSL (a DAS calculation), the adopted 2025-27 amount and the Governor's budget do not depend on it. If
+replaced; the CSL (a DAS calculation), the adopted 2025-27 amount and, once released, the Governor's 2027-29 budget
+do not depend on it. If
 the 2027 Legislature passed a bill shaped like SB 1555 as introduced, the yardstick for 2027-29 would not be the
-2026 QEM: DAS would inflate the costs in the Nov 19, 2025 report, and a new model would come later (the 2026 bill's
+2026 QEM: DAS would adjust the costs in the Nov 19, 2025 report for inflation and other costs, and a new model would come later (the 2026 bill's
 dates put the first one in 2028, for the report after Nov 1, 2029). A 2027 bill could set other dates. The goals
 would change too, from today's goals to standard-district compliance, licensed and qualified teachers, and the
 SB 141 targets, so a dollar figure from a new model would price a different target than the QEM's and would not be

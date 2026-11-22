@@ -99,15 +99,17 @@ its status quo estimate [SRC:ode/qec/2026_qem_report.pdf p.103].
 - A 2026 overhaul effort led by Ruiz and Sen. Sollman was unsuccessful [NEWS:NEWS-20260617-occ-1]. SB 1555 had
   hearings in the Senate Committee on Education on Feb 10 and Feb 12, 2026
   [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.1], and OLIS still lists it there, with no
-  chapter number [SRC:legislature/bills/2026R1_SB1555_overview.html]; the session's final business concluded March 6
+  chapter number [SRC:legislature/bills/2026R1_SB1555_overview.html], and the commission's Oct 2026 materials list it
+  as "Did not pass" [SRC:ode/qec/minutes/2026-10-21.pdf p.78]; the session's final business concluded March 6
   [SRC:ode/legislation/2026_summary-enacted-education-legislation.pdf p.4].
 - As introduced, SB 1555 would have priced new goals (standard-district compliance, licensed and qualified teachers,
   the SB 141 targets), had a contractor of the Legislative Policy and Research Office build a new model at least
   every eight years, and had the Joint Interim Committee on Ways and Means judge sufficiency
   [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.1] [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.2]
-  [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.3]. For the report on 2027-29 funding, the Department of
-  Administrative Services would have inflated the costs in the JPEA's Nov 19, 2025 report rather than use a new model,
-  which was due by Feb 1, 2028 [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.4].
+  [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.3] [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.1]. For the report due after Nov 1, 2027 (on 2027-29
+  funding), the Department of Administrative Services would have adjusted the costs in the report adopted Nov 19, 2025
+  (the JPEA's adequacy report [SRC:legislature/olis/2025I1/310959_jpea-adequacy-report.pdf p.1]) for inflation and other costs,
+  rather than use a new model, which was due by Feb 1, 2028 [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.4].
 - Analysis: a new cost model would also change the benchmarks the other decisions are measured against: the full
   QEM and status quo figures are QEM scenarios, while the CSL and adopted amounts are not. A replacement built on
   SB 1555's goals would price a different target, so its figure would not be directly comparable with the QEM's. See
