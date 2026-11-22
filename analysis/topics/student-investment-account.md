@@ -9,8 +9,9 @@ Our sums: `derived/sia.csv`. Audits and outside reviews are still to come (#103)
 
 - The Student Investment Account (SIA) was created by the Student Success Act in 2019. It gives school districts,
   eligible charter schools and youth corrections and juvenile detention education programs non-competitive grants
-  once they meet the application requirements, and it receives at least 50% of the money deposited in the Fund for
-  Student Success [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.3].
+  once they meet the application requirements. ODE describes it as receiving at least 50% of the money deposited in
+  the Fund for Student Success [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.3]; by statute the 50% is of what's
+  left after the fund's transfer to the State School Fund and a reserve [SRC:legislature/ors/ors327.html].
 - The grants are paid in addition to the State School Fund. Their purposes in law are to meet students' mental or
   behavioral health needs, and to increase academic achievement, including reducing academic disparities for the
   student groups the law names [SRC:legislature/ors/ors327.html]. ODE calls those groups "focal student groups":
@@ -42,8 +43,8 @@ Our sums: `derived/sia.csv`. Audits and outside reviews are still to come (#103)
   2023-24 through 2027-28 and written into grant agreements approved by each grantee's board
   [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.27] [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.39].
 - In 2025 ODE paused adding more years of targets in anticipation of changes from the Education Accountability Act
-  (SB 141); grantees are
-  to set new Performance Growth Targets with ODE in spring 2026, adding K-2 regular attenders and 8th grade math
+  (SB 141); the January 2026 report said grantees would
+  co-develop new Performance Growth Targets with ODE in spring 2026, adding K-2 regular attenders and 8th grade math
   [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.27].
 - Grantees also rate themselves on 15 "progress markers" (a 0-4 scale) and file a yearly narrative report
   [SRC:ode/sia/2025-09_progress-markers-annual-reporting-2023-24.pdf p.4]. In 2023-24 the ratings were quarterly;
@@ -51,7 +52,7 @@ Our sums: `derived/sia.csv`. Audits and outside reviews are still to come (#103)
   expected to meet all progress markers; ODE uses them to target technical assistance and coaching
   [SRC:ode/sia/2025-09_progress-markers-annual-reporting-2023-24.pdf p.5].
 - The SIA is now part of ODE's Integrated Programs, which combine several grant programs in one application.
-  Grantees first applied in spring 2023 and again in spring 2025, for 2025-29
+  Grantees first applied through Integrated Programs in spring 2023, and again in spring 2025 for 2025-29
   [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.3] [SRC:ode/sia/2025-09_progress-markers-annual-reporting-2023-24.pdf p.4].
 
 ### How much was spent, by year
@@ -82,7 +83,10 @@ grant administration) [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.23]. The
 - **Most of it pays for people.** Salaries and benefits were 75.7% of spending in 2021-22, 81.7% in 2022-23 and in
   2023-24, and 85.8% ($473.3M) in 2024-25 [SRC:ode/sia/2023-01_sia-legislative-report.pdf p.17]
   [SRC:ode/sia/2024-01_sia-legislative-report.pdf p.23] [SRC:ode/sia/2025-01_sia-legislative-report.pdf p.19]
-  [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.24]. In 2024-25, $282.7M went to licensed salaries; ODE notes its
+  [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.24]. In 2021-22, salary spending funded 2,459.0 FTE licensed
+  staff; the largest groups were general education teachers (624.5 FTE), mental health professionals, psychologists
+  and licensed clinical social workers (273.4) and school counselors (202.1)
+  [SRC:ode/sia/2023-01_sia-legislative-report.pdf p.19]. In 2024-25, $282.7M went to licensed salaries; ODE notes its
   benefits figure is an underestimate, because some benefits were reported as salaries
   [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.24].
 - The 2024-25 report prints the total spent as $551,495,257 in two places and as $551,495,297 once
@@ -109,8 +113,10 @@ grant administration) [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.23]. The
 - ODE says targets vary a great deal among grantees, and that small grantees can see large jumps or drops when one
   student changes a metric by several points [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.27].
 - From grantees' 2023-24 self-ratings, ODE found most had made "lower order systemic changes" and were making steady
-  progress toward higher-order changes. From the ratings and narrative reports together, hiring, especially of mental and behavioral health professionals in rural
-  areas, and 9th grade on-track and course scheduling were areas of ongoing work
+  progress toward higher-order changes. In its summary of the ratings and narrative reports together, ODE names
+  academics (including career connected learning), data systems and community engagement as areas of great success;
+  hiring, especially of mental and behavioral health professionals in rural
+  areas, and 9th grade on-track and course scheduling are areas of ongoing work
   [SRC:ode/sia/2025-09_progress-markers-annual-reporting-2023-24.pdf p.4].
 
 ## Derived figures
@@ -123,23 +129,27 @@ grant administration) [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.23]. The
 | Share of 2024-25 spending on health and safety, well-rounded education and smaller classes | 88.4% | [DER:sia/big3_share_2024_25] |
 
 Each year's spending is as ODE extracted it for that year's report; later corrections are not included, and the
-2021-22 figure was extracted before all grantees had reported.
+2021-22 and 2022-23 figures were extracted before every grantee's spending was final
+[SRC:ode/sia/2024-01_sia-legislative-report.pdf p.22].
 
 ## Analysis
 
 The spending picture is clear and consistent: districts spend almost all of their SIA money, mostly on staff, in
 the same three categories every year. Health and safety leads every year. By the law's list, that category covers student mental and
 behavioral health and school health professionals, among other health and safety uses, which fits the first of the
-law's two purposes; the reports don't break the category down further.
+law's two purposes; the category isn't broken down further, though the 2021-22 staff
+breakdown shows about a fifth of SIA-funded licensed staff were mental health professionals and counselors.
 
 The results picture is much weaker, for three reasons; the second and third come from ODE's own reports. First, the targets measure grantees
 against their own co-developed targets, not against what would have happened without the money, so meeting a
 target doesn't show the SIA caused the change. Second, there are only two years of target data (2023-24 and
-2024-25), and ODE paused the targets ahead of new ones set in 2026 with SB 141 in view. Third, the progress markers are self-ratings that
+2024-25), and ODE stopped adding years to them in 2025, planning new targets with SB 141 in view. The statewide
+SB 141 targets are in `topics/results.md`. Third, the progress markers are self-ratings that
 grantees are not expected to meet in full. On ODE's figures, about three in four grantees met their 9th grade on-track
 target in 2024-25, about half met their attendance target, and fewer than two in five met their 3rd grade reading
 target. Whether that is good depends on how ambitious the targets were, which ODE says varied a great deal.
 
 So the archive can say what SIA money paid for, and how grantees did against their own targets in two recent years.
-It can't yet say whether the SIA changed outcomes statewide. Outside audits and reviews (#103), outcomes over time
+It can't yet say whether the SIA changed outcomes statewide. The Quality Education Commission recommends sustaining Student Success
+Act investments (`topics/qem-practices-outcomes.md`). Outside audits and reviews (#103), outcomes over time
 (#58) and the research on whether funding changes outcomes (#63) bear on that.

@@ -16,7 +16,8 @@ big3 = lambda y: val(y, "health_safety") + val(y, "well_rounded") + val(y, "redu
 
 out = [
     ("spent_total_2020_25", round(spent / 1e9, 3), "$B", "derived",
-     f"SIA spending reported by grantees, {years[0]} to {years[-1]}", "sum of spent", DATA, ""),
+     f"SIA spending reported by grantees, {years[0]} to {years[-1]}", "sum of spent", DATA,
+     "each year as ODE extracted it for that year's report; 2021-22 and 2022-23 were extracted before every grantee's spending was final"),
     ("allocated_total_2020_25", round(alloc / 1e9, 3), "$B", "derived",
      f"SIA allocations, {years[0]} to {years[-1]}", "sum of allocated", DATA, ""),
     ("spent_growth_2021_22_to_2024_25", round(100 * (val("2024-25", "spent") / val("2021-22", "spent") - 1), 1), "%", "derived",
