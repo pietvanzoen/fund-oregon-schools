@@ -4,7 +4,7 @@ Status: accepted (2026-11-22, PR #109)
 
 ## Context
 CLAUDE.md said "tools stay stdlib-only", but the workflows already install poppler, tesseract, faster-whisper
-and MkDocs. The house style (`STYLE.md`, ADR 0008) has mechanical rules that a prose linter handles better than
+and MkDocs. The house style (`STYLE.md`, `adr/20261122-1607-house-style.md`) has mechanical rules that a prose linter handles better than
 regexes in `check_citations.py`.
 
 ## Decision

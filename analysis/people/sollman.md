@@ -2,7 +2,8 @@
 
 Official page: <https://www.oregonlegislature.gov/sollman>
 
-Democrat, Senate District 15 (Hillsboro area). Senate co-chair of the Ways and Means Subcommittee on Education
+Democrat, Senate District 15 (Forest Grove, Cornelius, Hillsboro, Rock Creek)
+[SRC:legislature/members/sollman.html]. Senate co-chair of the Ways and Means Subcommittee on Education
 [SRC:legislature/appointments/2026_senate-committee-assignments.pdf p.7] and co-chair of the Joint Committee on Public
 Education Appropriation [SRC:legislature/olis/2025I1/310695_jpea.pdf p.3].
 **Not in the 2027 Legislature:** she lost the May 19, 2026 Democratic primary to Myrna Muñoz

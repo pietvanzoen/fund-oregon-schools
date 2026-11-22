@@ -2,7 +2,7 @@
 
 Official page: <https://www.oregonlegislature.gov/ruiz>
 
-Democrat, House District 50 (Gresham). House co-chair of the Ways and Means Subcommittee on Education, which
+Democrat, House District 50 (Gresham) [SRC:legislature/members/ruiz.html]. House co-chair of the Ways and Means Subcommittee on Education, which
 writes the State School Fund and Department of Education budgets
 [SRC:legislature/appointments/2026-01-23_house-committee-assignments.pdf p.3], and co-chair of the Joint Committee on
 Public Education Appropriation (JPEA), which reports on whether school funding is sufficient
@@ -21,7 +21,10 @@ spells his name "Ricky".) His 2027 committee roles aren't announced yet (as of N
   cost model developed by the Legislative Policy and Research Office via contract and tied quality goals to SB 141 metrics
   [SRC:legislature/olis/2025I1/311607_jpea-legislative-concepts.pdf p.1] [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.1]. Senate Education took it up on Feb 10 and Feb 12, 2026
   [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.1].
-  The overhaul effort was unsuccessful [NEWS:NEWS-20260617-occ-1]. (Confirm SB 1555's final status in its OLIS history.)
+  The overhaul effort was unsuccessful [NEWS:NEWS-20260617-occ-1]: the Legislature's bill-tracking site lists SB 1555 as
+  still in the Senate Committee on Education, with no chapter number [SRC:legislature/bills/2026R1_SB1555_overview.html], and the
+  commission's October 2026 materials list it as "Did not pass" [SRC:ode/qec/minutes/2026-10-21.pdf p.78]. See
+  `topics/quality-education-model.md` for what the bill would have done.
 
 ## On school funding
 - On the 2025-27 SSF, in a joint release from the Senate President and House Speaker: "The end of Covid-era relief

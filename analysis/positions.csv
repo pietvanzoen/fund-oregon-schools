@@ -1,10 +1,12 @@
-decision,option,actor,date,stance,source
+decision,option,actor,date,stance,source,replaces
 esf-draw-2027-29,,kotek,2026-04,"On a 2025-27 draw: open to discussing all options to support districts, but at this time no emergency declaration and special session for the fund unless the presiding officers indicate three-fifths of members would approve",[SRC:gov/eo/eo-26-06_faq.pdf p.2] [SRC:gov/eo/eo-26-06_faq.pdf p.3]
 esf-draw-2027-29,,lieber,2026-05-07,"On a 2026 draw: saw no reason to tap the fund this year; the Legislature might have used it had it been forced to cut school funding below the current service level; warned that one-time money for ongoing costs leaves ""a cliff""",[NEWS:NEWS-20260510-wweek-1]
 esf-draw-2027-29,,sanchez,2026-05-07,"On a 2026 draw: saw no reason to tap the fund this year; ""the hurricane has not hit yet""; cautioned against relying on one-time dollars",[NEWS:NEWS-20260510-wweek-1]
-esf-draw-2027-29,,kotek,2026-10,On reserves for PPS: rejected tapping one-time state reserves (as reported by KATU),[NEWS:NEWS-2026-katu-kotek-pps-1]
+esf-draw-2027-29,,kotek,2026-11-06,On reserves for PPS: rejected tapping one-time state reserves (as reported by KATU),[NEWS:NEWS-2026-katu-kotek-pps-1]
 esf-draw-2027-29,,kotek,2026-11-06,Opposes using one-time reserves for ongoing costs,[NEWS:NEWS-20261106-occ-1]
 ssf-2027-29,,kotek,2026-11-06,Declined to commit to how she would pay for her school goals,[NEWS:NEWS-20261106-occ-1]
 grb-2027-29,,kotek,2026,"Said her budget will prioritize education, particularly summer learning",[NEWS:NEWS-2026-salemreporter-1]
 cost-model-2027,cost-lpro,ruiz,2026-01-21,Described the proposal as replacing the Quality Education Model with an approach tied to student outcomes and accountability,[NEWS:NEWS-20260121-katu-1]
 cost-model-2027,,frederick,2026-06-17,Expects significant changes to the Quality Education Model in 2027,[NEWS:NEWS-20260617-occ-1]
+formula-2027,formula-enrollment,kotek,2026-11-06,"Said enrollment may be the wrong marker for state school funding and it may have to be student need, but called it a longer conversation than districts' current decisions (as quoted by KATU)",[NEWS:NEWS-2026-katu-kotek-pps-1]
+esf-draw-2027-29,,kotek,2026-11-06,On reserves for PPS: does not support using the state's one-time reserve funds for the district's budget problems (as reported by KATU),[NEWS:NEWS-2026-katu-kotek-pps-1],5

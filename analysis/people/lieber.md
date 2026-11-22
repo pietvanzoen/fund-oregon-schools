@@ -2,7 +2,7 @@
 
 Official page: <https://www.oregonlegislature.gov/lieber>
 
-Democrat, Senate District 14 (Beaverton & SW Portland). Senate co-chair of the Joint Committee on Ways and Means,
+Democrat, Senate District 14 (Beaverton and Southwest Portland) [SRC:legislature/members/lieber.html]. Senate co-chair of the Joint Committee on Ways and Means,
 the committee that writes the state budget, including the State School Fund
 [SRC:legislature/appointments/2026_senate-committee-assignments.pdf p.7]. Senate Democrats chose her again as Ways and
 Means co-chair for the 2027 session on Nov 13, 2026 [SRC:legislature/press/2026-11-13_senate-dems-2027-leadership.pdf p.1].

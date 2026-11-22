@@ -87,11 +87,13 @@ cites the same source.
 
 ### `positions.csv`
 
-`decision, option, actor, date, stance, source`
+`decision, option, actor, date, stance, source, replaces`
 
-One row per stance, appended, never edited. `option` is empty for a stance on the decision as a whole. `actor` is a
-`people.csv` id or an organization's name. `date` is when the stance was stated or reported. `stance` can be
-`none stated` when someone was asked and declined. Only stances on the record.
+One row per stance, appended, never edited. To correct a wrong row, append the corrected row with `replaces` set to
+the line number of the row it replaces (header = line 1); the site shows only the newest version
+(`adr/20261122-1718-correcting-append-only-rows.md`). `option` is empty for a stance on the decision as a whole.
+`actor` is a `people.csv` id or an organization's name. `date` is when the stance was stated or reported. `stance`
+can be `none stated` when someone was asked and declined. Only stances on the record.
 
 ### `questions.csv`
 
@@ -116,6 +118,9 @@ There are two tracks.
 3. Its answer isn't settled already. Before `next`, the issue says what range of answers we expect and what would
    differ across that range. If every answer reads the same, it's background, not research.
 4. Nobody official already answers it plainly. If an agency does, archive that document and link to it.
+5. It's targeted: it answers one decision's question, or a few closely related ones, in one PR a reviewer can check
+   in one pass. Scope is set here, by Piet, not by runs: a run that finds an issue too broad proposes a narrower
+   scope on the issue and moves on; it doesn't split it.
 
 **Standing research** has no due date: what the money bought (results, the Student Investment Account, SB 141
 accountability), how the formula works, and history such as Measures 5 and 50. It's labelled `standing` and

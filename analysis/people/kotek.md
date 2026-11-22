@@ -14,8 +14,9 @@ Budget for 2027-29 in December [NEWS:NEWS-2026-salemreporter-1].
   [NEWS:NEWS-2026-salemreporter-1].
 
 ## On school outcomes (2026 platform and actions)
-- Instructional time at the national average by the end of a second term; cut chronic absenteeism; tougher
-  diploma requirements; literacy; universal preschool; revisit enrollment-based funding [NEWS:NEWS-20260917-opb-1].
+- Her September 2026 platform: instructional time at the national average by the end of a second term; fewer student
+  absences; tougher diploma requirements; less access to social media on school-issued devices; and, under
+  affordability, universal preschool [NEWS:NEWS-20260917-opb-1].
 - Executive Order 26-06 (Apr 16, 2026) barring cuts to instructional time and requiring districts to restore
   2024-25 levels no later than the start of 2027-28 [SRC:gov/eo/eo-26-06_preserving-instructional-time.pdf p.2].
 - The EO's FAQ asks "Is this just another 'unfunded mandate' for districts?" and answers only "No."
@@ -24,6 +25,16 @@ Budget for 2027-29 in December [NEWS:NEWS-2026-salemreporter-1].
 - The same FAQ: "the Governor's Office recognizes these dollars may not be sufficient for some school districts to
   cover increasing costs" [SRC:gov/eo/eo-26-06_faq.pdf p.2].
 - Introduced SB 141, the 2025 Education Accountability Act [SRC:ode/accountability/2025-12_sb141-progress-report.pdf p.5].
+
+## On the funding formula
+- Analysis: Kotek has spoken about the formula, but as of Nov. 22, 2026, the archive has no bill, budget item or
+  formula design from her that replaces or changes enrollment as its basis. Her Nov. 6 remarks float "student need"
+  as a possible basis; they are not a proposal.
+- At her Nov. 6, 2026, press conference, as quoted by KATU: "Maybe enrollment is the wrong marker. That was
+  established almost 30 years ago. Maybe it has to be student need" [NEWS:NEWS-2026-katu-kotek-pps-1]. She added
+  that rethinking it "is a longer conversation than what is happening in districts right now"
+  [NEWS:NEWS-2026-katu-kotek-pps-1].
+- The press conference video has not been archived or checked yet (#106).
 
 ## On online schools
 - In a statement to the Oregon Journalism Project, published Nov 3, 2026, Kotek said she "is actively reviewing the
@@ -40,9 +51,10 @@ Budget for 2027-29 in December [NEWS:NEWS-2026-salemreporter-1].
   to declare an emergency and call a special session for the fund unless legislative leaders indicate a three-fifths
   majority would approve it [SRC:gov/eo/eo-26-06_faq.pdf p.2] [SRC:gov/eo/eo-26-06_faq.pdf p.3]. (KTVZ described
   this as openness to tapping the fund [NEWS:NEWS-20260416-ktvz-1]; the FAQ itself is more guarded.)
-- October 2026: KATU reports she rejected tapping one-time state reserves for PPS [NEWS:NEWS-2026-katu-kotek-pps-1].
+- Nov. 6, 2026, press conference: KATU reports she does not support using one-time state reserves for Portland Public
+  Schools' budget problems [NEWS:NEWS-2026-katu-kotek-pps-1].
 - Analysis: the April FAQ is conditional (no special session for the fund at that time unless a supermajority is
-  lined up); the October and November statements reject one-time reserves for PPS and for ongoing costs outright.
+  lined up); the November statements, as reported, set her against one-time reserves for PPS and for ongoing costs.
 
 ## On PPS closures
 - Oct 13, 2026 letter to Superintendent Armstrong and Board Chair Wang [SRC:gov/letters/2026-10-13_kotek-letter-to-pps-school-closures.pdf p.1]:
@@ -57,5 +69,5 @@ Budget for 2027-29 in December [NEWS:NEWS-2026-salemreporter-1].
   - Analysis: the letter is about process. It asks PPS to slow down for engagement but does not ask it to withdraw its
     plans, sets no timeline, and says nothing about state funding, the State School Fund or reserves [SRC:gov/letters/2026-10-13_kotek-letter-to-pps-school-closures.pdf p.1]. OPB's account
     [NEWS:NEWS-20261014-opb-1] is consistent with the text.
-- "Portland needs to do everything it possibly can to cut administrative costs and other things before it talks
-  about closing schools." [NEWS:NEWS-2026-katu-kotek-pps-1]
+- "Portland needs to do everything it possibly can to cut administrative costs and other things" before it
+  talks about closing schools (the end of the sentence is KATU's paraphrase) [NEWS:NEWS-2026-katu-kotek-pps-1]

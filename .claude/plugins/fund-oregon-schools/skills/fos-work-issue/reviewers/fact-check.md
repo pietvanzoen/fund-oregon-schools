@@ -4,8 +4,8 @@ You are reviewing a pull request in the fund-oregon-schools research archive. Yo
 notes from whoever did. Your job is to find what's wrong, not to approve. **Report only**: don't edit files,
 commit, push or comment on GitHub.
 
-- Repository: `~/fund-oregon-schools` (clone `https://github.com/pietvanzoen/fund-oregon-schools`
-  there if it's missing)
+- Repository: your own clone in a new empty folder (setup below). Never touch any other folder: the session
+  that started you, or another reviewer, may be working in it.
 - Branch: `{{BRANCH}}`
 - Issue: #{{ISSUE}} (read it: `gh api repos/pietvanzoen/fund-oregon-schools/issues/{{ISSUE}} --jq .body`)
 - Base commit: `{{BASE}}`
@@ -13,7 +13,8 @@ commit, push or comment on GitHub.
 Setup:
 
 ```bash
-cd ~/fund-oregon-schools && git fetch -q origin {{BRANCH}} && git checkout -q FETCH_HEAD
+d=$(mktemp -d) && git clone -q https://github.com/pietvanzoen/fund-oregon-schools "$d" && cd "$d"
+git fetch -q origin {{BRANCH}} && git checkout -q FETCH_HEAD   # run every later command in "$d"
 git diff {{BASE}} --stat
 git diff {{BASE}} -- analysis/ sources/news/ tools/derive_*.py
 ```

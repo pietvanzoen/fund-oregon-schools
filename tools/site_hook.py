@@ -364,6 +364,9 @@ def decision_tables(md):
     """Replace each '<!-- site: decision <id> -->' in decisions.md with that decision's tables from the CSVs."""
     decisions = {d["id"]: d for d in read_csv("decisions.csv")}
     options, positions, questions = read_csv("options.csv"), read_csv("positions.csv"), read_csv("questions.csv")
+    # A corrected row names the line it replaces (RESEARCH.md, positions.csv); show only the newest version
+    replaced = {p["replaces"] for p in positions if p.get("replaces")}
+    positions = [p for n, p in enumerate(positions, 2) if str(n) not in replaced]
     opt_text = {o["id"]: o["option"] for o in options}
 
     def block(m):
@@ -614,7 +617,7 @@ Pledges and mandates on school outcomes and funding, and whether money came with
 def who_page(ctx):
     rows = []
     for r in read_csv("people/people.csv"):
-        seat = " ".join(x for x in (r["office"], r["district"], f"({r['party']})" if r["party"] else "") if x)
+        seat = " ".join(x for x in (r["office"], f"District {r['district']}" if r["district"] else "", f"({r['party']})" if r["party"] else "") if x)
         contact = f"[official page]({r['official_page']})" if r["official_page"] else "—"
         rows.append([actor(r["id"]), seat, r["area"], r["role_2025_26"], r["role_2027"], contact,
                      cites(r["source"], ctx)])
