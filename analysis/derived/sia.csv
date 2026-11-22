@@ -1,0 +1,5 @@
+id,value,unit,kind,label,method,inputs,assumptions
+spent_total_2020_25,2.105,$B,derived,"SIA spending reported by grantees, 2020-21 to 2024-25",sum of spent,data/sia_spending.csv,each year as ODE extracted it for that year's report; 2021-22 and 2022-23 were extracted before every grantee's spending was final
+allocated_total_2020_25,2.135,$B,derived,"SIA allocations, 2020-21 to 2024-25",sum of allocated,data/sia_spending.csv,
+spent_growth_2021_22_to_2024_25,28.2,%,derived,"Change in yearly SIA spending, 2021-22 to 2024-25 (not adjusted for inflation)",spent 2024-25 / spent 2021-22 - 1,data/sia_spending.csv,
+big3_share_2024_25,88.4,%,derived,"Share of 2024-25 SIA spending on health and safety, well-rounded education and smaller classes","(health_safety + well_rounded + reduced_class_size) / spent, 2024-25",data/sia_spending.csv,

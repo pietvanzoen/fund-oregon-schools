@@ -49,7 +49,8 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
      - `ode/` Oregon Department of Education, incl. `ode/qec/` Quality Education Commission reports and minutes,
        `ode/ssf/` State School Fund estimates and transparency reports, `ode/charter/` charter school lists and
        guidance, `ode/legislation/` ODE summaries of enacted legislation, `ode/enrollment/` enrollment reports,
-       `ode/grants/` ODE grant allocation reports (for example High School Success)
+       `ode/grants/` ODE grant allocation reports (for example High School Success), `ode/sia/` Student Investment
+       Account legislative reports and progress-marker reports
      - `fiscal/oea/` Office of Economic Analysis forecasts; `fiscal/lfo/` Legislative Fiscal Office; `fiscal/lro/` Legislative Revenue Office;
        `fiscal/dor/` Department of Revenue; `fiscal/sos/` Secretary of State Audits Division reports
      - `reference/` reference works (e.g. Oregon Encyclopedia) and other agencies' explainers; prefer a primary
