@@ -14,8 +14,9 @@ Budget for 2027-29 in December [NEWS:NEWS-2026-salemreporter-1].
   [NEWS:NEWS-2026-salemreporter-1].
 
 ## On school outcomes (2026 platform and actions)
-- Instructional time at the national average by the end of a second term; cut chronic absenteeism; tougher
-  diploma requirements; literacy; universal preschool; revisit enrollment-based funding [NEWS:NEWS-20260917-opb-1].
+- Her September 2026 platform: instructional time at the national average by the end of a second term; fewer student
+  absences; tougher diploma requirements; less access to social media on school-issued devices; and, under
+  affordability, universal preschool [NEWS:NEWS-20260917-opb-1].
 - Executive Order 26-06 (Apr 16, 2026) barring cuts to instructional time and requiring districts to restore
   2024-25 levels no later than the start of 2027-28 [SRC:gov/eo/eo-26-06_preserving-instructional-time.pdf p.2].
 - The EO's FAQ asks "Is this just another 'unfunded mandate' for districts?" and answers only "No."
