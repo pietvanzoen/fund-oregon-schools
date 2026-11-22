@@ -33,7 +33,7 @@ the session organizes).
   wasn't, so it didn't [NEWS:NEWS-20260510-wweek-1].
 - Same forum: "If you use one-time money to pay for ongoing expenses, then you're still going to have a cliff…"
   [NEWS:NEWS-20260510-wweek-1]
-- Analysis: her stated test is whether school funding would be cut below the current service level (the amount
+- Analysis: her stated test, as Willamette Week reported it, is whether school funding would be cut below the current service level (the amount
   needed to continue existing authorized programs), not whether districts face deficits. The 2026 Quality Education Model puts the cost of today's
   services about $1.2 billion above the State School Fund's current service level, to come from state funds outside
   the fund (see `topics/quality-education-model.md`), so a State School Fund at the current service level passes her

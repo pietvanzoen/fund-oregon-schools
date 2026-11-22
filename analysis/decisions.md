@@ -94,7 +94,7 @@ for its status quo estimate [SRC:ode/qec/2026_qem_report.pdf p.103].
 - In 2021, a school funding plan from House and Senate Democrats relied on $200 million from the fund
   [SRC:legislature/press/2021-05-11_democrats-9.3b-school-funding-plan.pdf p.1]. The archive doesn't yet show whether
   it passed as proposed.
-- Rep. Ricki Ruiz, D-District 50 (Gresham), describes his proposal, one-time fund money for targeted PERS relief, as
+- Rep. Ricki Ruiz, D-District 50 (Gresham), describes his proposal, one-time fund money for targeted relief on Public Employees Retirement System (PERS) costs, as
   immediate relief while longer-term reform is developed
   [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt] [SRC:legislature/members/ruiz.html].
 - Analysis: every option here needs the same vote and trigger. Kotek and Lieber object on the record to one-time money
@@ -118,8 +118,9 @@ for its status quo estimate [SRC:ode/qec/2026_qem_report.pdf p.103].
   [SRC:ode/legislation/2026_summary-enacted-education-legislation.pdf p.4]. The Legislature's bill-tracking site
   still lists it in that committee, with no chapter number
   [SRC:legislature/bills/2026R1_SB1555_overview.html]. A 2026 overhaul effort led by Ruiz and Sen. Janeen Sollman,
-  D-District 15 (Forest Grove, Cornelius, Hillsboro, Rock Creek), was unsuccessful [NEWS:NEWS-20260617-occ-1]
-  [SRC:legislature/members/sollman.html].
+  D-District 15 (Forest Grove, Cornelius, Hillsboro, Rock Creek) [SRC:legislature/members/sollman.html], then a
+  co-chair of the joint committee [SRC:legislature/olis/2025I1/310695_jpea.pdf p.2], was unsuccessful
+  [NEWS:NEWS-20260617-occ-1].
 - A legislative concept to move the cost model to the Legislative Policy and Research Office
   [SRC:legislature/olis/2025I1/311607_jpea-legislative-concepts.pdf p.1] became SB 1555 (2026), which would also
   have abolished the Quality Education Commission [SRC:legislature/bills/2026R1_SB1555_overview.html].

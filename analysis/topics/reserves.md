@@ -6,7 +6,7 @@
   the end of 2025-27 [SRC:fiscal/oea/2026-12_forecast.pdf p.41]. Withdrawal takes a
   three-fifths vote in each chamber plus either an economic trigger or a governor's emergency declaration
   [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1] (news coverage: [NEWS:NEWS-20261102-opb-1]).
-- Portland Public Schools asked for $500 million to buy down PERS rates statewide [NEWS:NEWS-20261102-opb-1]. The
+- Portland Public Schools asked for $500 million to buy down Public Employees Retirement System (PERS) rates statewide [NEWS:NEWS-20261102-opb-1]. The
   district's chief financial officer said it would shrink its gap from $65 million to about $42.7 million
   [NEWS:NEWS-20261116-wweek-1].
 - Rep. Ricki Ruiz, D-District 50 (Gresham) [SRC:legislature/members/ruiz.html], co-chair of the Ways and Means

@@ -23,7 +23,7 @@ written by `tools/derive_virtual_charters.py`.
   are treated as residents of the district in which the charter is located, and the State School Fund money for them
   is paid first to that district [SRC:legislature/ors/ors338.html] (ORS 338.155(1)(a)-(b)).
 - **Sponsor's minimum pass-through.** A sponsoring district must contract to pay its charter at least 80% of the
-  district's General Purpose Grant per weighted student (weighted average daily membership, the student count with
+  district's General Purpose Grant per weighted student (weighted average daily membership, ADMw: the student count with
   extra weight for students who cost more to serve) for students in K-8 and at least 95% for grades 9-12; the two
   sides may agree on more [SRC:legislature/ors/ors338.html] (ORS 338.155(2), (7)). For charters sponsored by the State
   Board the minimum is 90% (K-8) and 95% (9-12), and the district must send half of the unpaid portion to the Oregon
@@ -74,7 +74,7 @@ written by `tools/derive_virtual_charters.py`.
 ### Enrollment and money (2025-26)
 
 - The department's 2025-26 transparency report (second-period student count, dated April 27, 2026) lists each
-  virtual charter, its sponsoring district, and its student count (ADMr) and weighted count (ADMw) for 2024-25 and
+  virtual charter, its sponsoring district, and its student count (ADMr, resident average daily membership) and weighted count (ADMw) for 2024-25 and
   2025-26 [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.1]
   [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.2]. The values are copied into
   `data/virtual_charters_2025-26.csv`.

@@ -59,7 +59,8 @@ committee's report spells his name "Ricky".) His 2027 committee roles aren't ann
   a new bar, so the 2025-27 finding doesn't carry
   into 2027-29 (see `decisions.md#ssf-2027-29`).
 - His November 2026 reserve proposal goes further than his February 2026 stance (per KATU's paraphrase, keep
-  monitoring). It is narrower than Portland Public Schools' request for a $500 million statewide PERS buy-down [NEWS:NEWS-20261102-opb-1]: targeted at districts under strain, especially those that have already
+  monitoring). It is narrower than Portland Public Schools' request for a $500 million statewide buy-down of Public Employees Retirement System
+  (PERS) rates [NEWS:NEWS-20261102-opb-1]: targeted at districts under strain, especially those that have already
   used their own reserves. He presents it as one-time money while a new funding system is built, which speaks to
   the objection that reserves shouldn't pay ongoing costs, though PERS payments are themselves an ongoing cost.
 - He wants a different yardstick for "adequate," not necessarily less money. Open question: what level he'd fund to

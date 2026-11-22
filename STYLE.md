@@ -70,7 +70,8 @@ blocking); the clarity reviewer checks the rest.
 ## Abbreviations and terms
 
 - **Spell out; rarely abbreviate.** Use an abbreviation in text only if a general reader knows it without help
-  (PERS, K-12). "The State School Fund … the fund", not "SSF".
+  (K-12). "The State School Fund … the fund", not "SSF". Spell out the rest on first mention per page, even
+  familiar ones: "the Public Employees Retirement System (PERS)", then "PERS".
 - **Technical terms** (ADMw, CSL, extended ADM) belong in tables, methods and glossary rows. In text, describe
   them: "weighted enrollment", "the current service level".
 - **Define a term in the text** the first time it appears on a page; tooltips don't work on phones.

@@ -24,7 +24,7 @@
 | 2026-11-13 | Senate Democrats name Lieber as Ways and Means co-chair for 2027 | [SRC:legislature/press/2026-11-13_senate-dems-2027-leadership.pdf p.1] |
 | 2026-11-17 | The Portland Public Schools board's 2027 legislative agenda cites a $12.57 billion current service level | [PPSARCH:BB:14673756 p.1] |
 | 2026-11-18 | November revenue forecast: net General Fund revenue for 2027-29 up $233.5 million; available resources up $244.6 million | [SRC:fiscal/oea/2026-12_forecast.pdf p.1] [SRC:fiscal/oea/2026-12_forecast.pdf p.63] |
-| 2026-11-19 | Rep. Ricki Ruiz, D-District 50 (Gresham), after an Oregon School Boards Association panel, posts an initial proposal for one-time Education Stability Fund PERS relief | [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt] [SRC:legislature/members/ruiz.html] |
+| 2026-11-19 | Rep. Ricki Ruiz, D-District 50 (Gresham), after an Oregon School Boards Association panel, posts an initial proposal for one-time Education Stability Fund relief on Public Employees Retirement System (PERS) costs | [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt] [SRC:legislature/members/ruiz.html] |
 | 2026-11-20 | House Democrats nominate Rep. Ben Bowman for speaker over Speaker Julie Fahey; the full House votes in January | [NEWS:NEWS-20261120-opb-1] [NEWS:NEWS-20261120-occ-1] |
 | 2026-12-01 | Governor's 2027-29 recommended budget due | [SRC:legislature/ors/ors291.html] [NEWS:NEWS-2026-salemreporter-1] |
 | 2026-12-01 to 12-03 | Legislative committee days (scheduled) | [SRC:legislature/calendar/2026_interim-calendar.pdf] |
