@@ -41,7 +41,8 @@ Our sums: `derived/sia.csv`. Audits and outside reviews are still to come (#57).
   future grant amounts to specific investments, or deduct amounts from future grants (which the recipient may
   appeal to the State Board). It may also deduct money a recipient doesn't commit to spending, and require targeted
   audits [SRC:legislature/ors/ors327.html].
-- Grantees with at least 80 students must set Longitudinal Performance Growth Targets for five common metrics:
+- Grantees with at least 80 students must set Longitudinal Performance Growth Targets for each of five common
+  metrics that has at least 10 students:
   four-year graduation, five-year completion, 9th grade on-track, regular attendance and 3rd grade English language
   arts proficiency. The targets are co-developed with the department. "Baseline" and "stretch" targets cover all
   students; "gap-closing" targets cover a combined group of focal students
@@ -70,7 +71,8 @@ Our sums: `derived/sia.csv`. Audits and outside reviews are still to come (#57).
 
 ### How much was spent, by year
 
-- Grantees reported spending 98.1% to 99.4% of each year's allocation, from $147,632,073 in 2020-21 to $551,495,257
+- Grantees reported spending 98.1% to 99.4% of each year's money (of the allocation, or for 2024-25 of the amount
+  claimed), from $147,632,073 in 2020-21 to $551,495,257
   in 2024-25 [SRC:ode/sia/2022-01_sia-legislative-report.pdf p.13] [SRC:ode/sia/2023-01_sia-legislative-report.pdf p.16]
   [SRC:ode/sia/2024-01_sia-legislative-report.pdf p.22] [SRC:ode/sia/2025-01_sia-legislative-report.pdf p.19]
   [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.23]. The department reports spending in six categories: the law's four uses plus ongoing
@@ -98,7 +100,7 @@ Our sums: `derived/sia.csv`. Audits and outside reviews are still to come (#57).
 - **Most of it pays for people.** Salaries and benefits were 75.7% of spending in 2021-22, 81.7% in 2022-23 and in
   2023-24, and 85.8% ($473.3 million) in 2024-25 [SRC:ode/sia/2023-01_sia-legislative-report.pdf p.17]
   [SRC:ode/sia/2024-01_sia-legislative-report.pdf p.23] [SRC:ode/sia/2025-01_sia-legislative-report.pdf p.19]
-  [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.24]. In 2021-22, salary spending funded 2,459.0
+  [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.24]. In 2021-22, salary and benefit spending funded 2,459.0
   full-time-equivalent licensed positions; the largest groups were general education teachers (624.5), mental
   health professionals, psychologists and licensed clinical social workers (273.4) and school counselors (202.1).
   Those two counselor groups were 19.3% of the licensed positions
@@ -150,12 +152,12 @@ Our sums: `derived/sia.csv`. Audits and outside reviews are still to come (#57).
 
 Each year's spending is as the department extracted it for that year's report; later corrections are not
 included, and the 2021-22 and 2022-23 figures were extracted before every grantee's spending was final
-[SRC:ode/sia/2024-01_sia-legislative-report.pdf p.22].
+[SRC:ode/sia/2023-01_sia-legislative-report.pdf p.16] [SRC:ode/sia/2024-01_sia-legislative-report.pdf p.22].
 
 ## Analysis
 
 The spending picture is clear and consistent: grantees (districts, eligible charter schools, and youth corrections
-and juvenile detention programs) reported spending almost all of each year's allocation, mostly on staff, in the
+and juvenile detention programs) reported spending almost all of each year's allocation, mostly on staff (from 2021-22, when staff figures begin), in the
 same three categories every year. Health and safety leads every year. By the law's list, that category covers
 student mental and behavioral health and school health professionals, among other health and safety uses, which
 fits the first of the law's two purposes. The reports don't break the category down further, but in 2021-22, 19.3%
