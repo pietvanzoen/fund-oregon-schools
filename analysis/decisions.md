@@ -115,6 +115,12 @@ its status quo estimate [SRC:ode/qec/2026_qem_report.pdf p.103].
 
 - The formula's weights and caps are set in ORS chapter 327 [SRC:legislature/ors/ors327.html]. See
   `topics/formula.md`.
+- Gov. Kotek, Nov 6, 2026, as quoted by KATU: "Maybe enrollment is the wrong marker. That was established almost 30 years ago. Maybe it has
+  to be student need," which she called "a longer conversation than what is happening in districts right now"
+  [NEWS:NEWS-2026-katu-kotek-pps-1]. No formula proposal from her is in the archive yet.
+- Who will hear formula bills in 2027 isn't settled: House Democrats nominated Rep. Ben Bowman for speaker on Nov 20
+  [NEWS:NEWS-20261120-opb-1], the speaker appoints House committee chairs [NEWS:NEWS-20261120-occ-1], and 2027
+  committee assignments had not been published as of Nov 22, 2026. The 2026 chairs are in `topics/formula.md`.
 
 <!-- site: decision formula-2027 -->
 

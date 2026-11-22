@@ -25,6 +25,16 @@ Budget for 2027-29 in December [NEWS:NEWS-2026-salemreporter-1].
   cover increasing costs" [SRC:gov/eo/eo-26-06_faq.pdf p.2].
 - Introduced SB 141, the 2025 Education Accountability Act [SRC:ode/accountability/2025-12_sb141-progress-report.pdf p.5].
 
+## On the funding formula
+- Her 2026 platform includes revisiting enrollment-based funding [NEWS:NEWS-20260917-opb-1].
+- At her Nov 6, 2026 press conference, as quoted by KATU: "Maybe enrollment is the wrong marker. That was
+  established almost 30 years ago. Maybe it has to be student need" [NEWS:NEWS-2026-katu-kotek-pps-1]. She added
+  that this "is a longer conversation than what is happening in districts right now"
+  [NEWS:NEWS-2026-katu-kotek-pps-1].
+- The press conference video has not been archived or checked yet (#106).
+- Analysis: both statements are openings for discussion, not proposals. As of Nov 22, 2026 the archive has no bill,
+  budget item or formula design from her that replaces or changes enrollment as the basis.
+
 ## On online schools
 - In a statement to the Oregon Journalism Project, published Nov 3, 2026, Kotek said she "is actively reviewing the
   state's current approach to virtual education" and "is concerned about how public dollars are distributed and what
@@ -40,9 +50,10 @@ Budget for 2027-29 in December [NEWS:NEWS-2026-salemreporter-1].
   to declare an emergency and call a special session for the fund unless legislative leaders indicate a three-fifths
   majority would approve it [SRC:gov/eo/eo-26-06_faq.pdf p.2] [SRC:gov/eo/eo-26-06_faq.pdf p.3]. (KTVZ described
   this as openness to tapping the fund [NEWS:NEWS-20260416-ktvz-1]; the FAQ itself is more guarded.)
-- October 2026: KATU reports she rejected tapping one-time state reserves for PPS [NEWS:NEWS-2026-katu-kotek-pps-1].
+- Nov 6, 2026 press conference: KATU reports she does not support using one-time state reserves for PPS's budget
+  problems [NEWS:NEWS-2026-katu-kotek-pps-1].
 - Analysis: the April FAQ is conditional (no special session for the fund at that time unless a supermajority is
-  lined up); the October and November statements reject one-time reserves for PPS and for ongoing costs outright.
+  lined up); the November statements reject one-time reserves for PPS and for ongoing costs outright.
 
 ## On PPS closures
 - Oct 13, 2026 letter to Superintendent Armstrong and Board Chair Wang [SRC:gov/letters/2026-10-13_kotek-letter-to-pps-school-closures.pdf p.1]:
