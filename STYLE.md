@@ -5,6 +5,9 @@ How the archive's reader-facing text sounds and looks: `analysis/START.md`, `ana
 verbatim. The rules on citations, sections and quotes are in `CLAUDE.md`; this file covers wording. Where AP style
 covers something this file doesn't, follow AP. Why these choices: `adr/20261122-1607-house-style.md`.
 
+The mechanical rules are checked by Vale on pull requests (`.github/styles/FOS/`, added lines only, never
+blocking); the clarity reviewer checks the rest.
+
 ## Voice
 
 - **Explainer.** Neutral, and say why a fact matters: what the number is compared with, what it decides, what
@@ -67,7 +70,8 @@ covers something this file doesn't, follow AP. Why these choices: `adr/20261122-
 ## Abbreviations and terms
 
 - **Spell out; rarely abbreviate.** Use an abbreviation in text only if a general reader knows it without help
-  (PERS, K-12). "The State School Fund … the fund", not "SSF".
+  (K-12). "The State School Fund … the fund", not "SSF". Spell out the rest on first mention per page, even
+  familiar ones: "the Public Employees Retirement System (PERS)", then "PERS".
 - **Technical terms** (ADMw, CSL, extended ADM) belong in tables, methods and glossary rows. In text, describe
   them: "weighted enrollment", "the current service level".
 - **Define a term in the text** the first time it appears on a page; tooltips don't work on phones.

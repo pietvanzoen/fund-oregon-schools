@@ -292,6 +292,12 @@ gh api repos/pietvanzoen/fund-oregon-schools/pulls -f title="<plain title> (#<n>
   -f head="$(git branch --show-current)" -f base=main -f body="$(cat /tmp/pr_body.md)"
 ```
 
+After opening it, wait for the `style` check (Vale; it runs only on PRs that change reader-facing pages) and read
+its findings: `gh api repos/pietvanzoen/fund-oregon-schools/commits/$(git rev-parse HEAD)/check-runs --jq
+'.check_runs[] | select(.name | test("vale"; "i")) | .output.annotations_url'`, then `gh api` that URL. Fix
+`warning` findings or say in **Anything odd** why not (an attributed "cut" is fine); `suggestion` findings are
+your call. Any rewording of a factual sentence gets the targeted fact-check rerun from step 6.
+
 PR body, in this order:
 
 1. **Summary**: two or three plain sentences on what the archive now knows that it didn't, and which core

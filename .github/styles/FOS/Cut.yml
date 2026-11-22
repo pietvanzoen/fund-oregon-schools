@@ -1,0 +1,7 @@
+extends: existence
+message: "'%s': fine for a fact (Measure 5 cut tax rates); for a budget compared with a baseline, say 'less than' or attribute it (STYLE.md)."
+level: suggestion
+ignorecase: true
+tokens:
+  - cut
+  - cuts

@@ -5,10 +5,10 @@ Standing research: what state funding buys, and the outcome goals and mandates a
 
 ## What the sources say
 
-- **SB 141 targets.** The State Board of Education adopted statewide performance growth targets for the common
-  metrics on Apr 28, 2026, for 2029-30, for example 8th-grade math from 28.9% to 52.0%
+- **Senate Bill 141 targets.** The State Board of Education adopted statewide performance growth targets for the
+  common metrics on April 28, 2026, for 2029-30, for example eighth-grade math from 28.9% to 52.0%
   [SRC:ode/accountability/2026-05_statewide-performance-growth-targets.pdf p.1].
-- ODE Director Charlene Williams said meeting the targets "does not require new dollars", framing the work as districts
+- Oregon Department of Education Director Charlene Williams said meeting the targets "does not require new dollars", framing the work as districts
   using or redirecting the resources they have; a board member and a board adviser voiced doubts about meeting them
   without more money, and the board then voted unanimously [NEWS:NEWS-20260429-oregonian-1].
 - Under SB 141, state help and oversight step up for districts that show no progress [NEWS:NEWS-20260429-oregonian-1].
@@ -18,10 +18,10 @@ Standing research: what state funding buys, and the outcome goals and mandates a
 - The FAQ answers "No." to whether the order is an unfunded mandate [SRC:gov/eo/eo-26-06_faq.pdf p.3], while saying
   current funding "may not be sufficient for some school districts to cover increasing costs"
   [SRC:gov/eo/eo-26-06_faq.pdf p.2].
-- If the full QEM isn't funded, the Quality Education Commission's 2026 report offers more funding for programs aimed
+- If the full Quality Education Model isn't funded, the Quality Education Commission's 2026 report offers more funding for programs aimed
   at the SB 141 metrics as an alternative [SRC:ode/qec/2026_qem_report.pdf p.110].
 - The model assumes that sustained full funding, with districts using the recommended practices, would bring the
-  four-year graduation rate to 90 percent [SRC:ode/qec/2026_qem_report.pdf p.92]; outcomes inform the commission's
+  four-year graduation rate to 90% [SRC:ode/qec/2026_qem_report.pdf p.92]; outcomes inform the commission's
   judgment but are not inputs to the model [SRC:ode/qec/2026_qem_report.pdf p.95]. See
   `topics/qem-practices-outcomes.md`.
 
@@ -32,6 +32,6 @@ None: every figure above is stated in a cited source.
 ## Analysis
 
 The archive so far covers mostly how much is spent; what the money buys is the least-researched part. Still to
-research: Student Investment Account audits and reviews (#57; spending and ODE's outcome reports are in
-`topics/student-investment-account.md`), outcomes over time set against funding (#58), SB 141 progress and consequences (#60, #71), where
+research: Student Investment Account audits and reviews (#57; spending and the department's outcome reports are in
+`topics/student-investment-account.md`), outcomes over time set against funding (#58), Senate Bill 141 progress and consequences (#60, #71), where
 increases go (#61), research on whether funding changes outcomes (#63), and unfunded mandates (#72).

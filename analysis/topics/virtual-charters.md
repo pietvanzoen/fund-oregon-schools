@@ -1,137 +1,157 @@
 # Online charters: State School Fund money that follows students
 
+State School Fund money for students of online (virtual) charter schools is paid first to the district where the
+charter is located. A district that sponsors a charter must pass on at least 80% (K-8) or 95% (grades 9-12) of its
+General Purpose Grant per weighted student [SRC:legislature/ors/ors338.html]. Our estimate puts the formula revenue
+attributable to virtual charters at about $257 million in 2025-26 [DER:virtual_charters/gpg_attributable_2025_26],
+roughly 3.3% of the school district share [DER:virtual_charters/gpg_attributable_share_2025_26]. It multiplies each
+charter's extended weighted count by its sponsor's average grant rate and mixes state and local money; no archived state
+document gives an official total.
+
 Issue #20. Copied values: `data/virtual_charters_2025-26.csv`, `data/virtual_charters_grades_2025-26.csv` and
 `data/virtual_charters_hs_admw_2024-25.csv`. Our calculations: `derived/virtual_charters.csv`,
 written by `tools/derive_virtual_charters.py`.
 
 ## What the sources say
 
-### The law (ORS chapter 338)
+### The law (chapter 338 of the Oregon Revised Statutes)
 
 - A "virtual public charter school" is a public charter school that provides online courses; it does not include a
   charter school that primarily serves students in a physical location [SRC:legislature/ors/ors338.html]
   (ORS 338.005(5)).
 - **Students count where the charter is, not where they live.** For State School Fund purposes, charter students
-  are treated as residents of the district in which the charter is located, and the SSF money for them is paid
-  first to that district [SRC:legislature/ors/ors338.html] (ORS 338.155(1)(a)-(b)).
+  are treated as residents of the district in which the charter is located, and the State School Fund money for them
+  is paid first to that district [SRC:legislature/ors/ors338.html] (ORS 338.155(1)(a)-(b)).
 - **Sponsor's minimum pass-through.** A sponsoring district must contract to pay its charter at least 80% of the
-  district's General Purpose Grant per ADMw for students in K-8 and at least 95% for grades 9-12; the two sides may
-  agree on more [SRC:legislature/ors/ors338.html] (ORS 338.155(2), (7)). For charters sponsored by the State Board the
-  minimum is 90% (K-8) and 95% (9-12), and the district must send half of the unpaid portion to ODE
-  [SRC:legislature/ors/ors338.html] (ORS 338.155(3), (5)). For students eligible for special education, the payment
-  per ADMw attributable to the student must be at least 40% (K-8) or 47.5% (9-12) of the grant, unless the district
-  and the charter negotiate an alternative distribution case by case; the district in which the charter is located
-  identifies, evaluates and serves those students [SRC:legislature/ors/ors338.html] (ORS 338.165(1), (2), (4)).
-- **Poverty weight is borrowed from the sponsor.** A charter's ADMw assumes the same share of children in poverty
-  as the district where it is located [SRC:legislature/ors/ors338.html] (ORS 338.157).
+  district's General Purpose Grant per weighted student (weighted average daily membership, ADMw: the student count with
+  extra weight for students who cost more to serve) for students in K-8 and at least 95% for grades 9-12; the two
+  sides may agree on more [SRC:legislature/ors/ors338.html] (ORS 338.155(2), (7)). For charters sponsored by the State
+  Board the minimum is 90% (K-8) and 95% (9-12), and the district must send half of the unpaid portion to the Oregon
+  Department of Education [SRC:legislature/ors/ors338.html] (ORS 338.155(3), (5)). For students eligible for special
+  education, the payment per weighted student attributable to the student must be at least 40% (K-8) or 47.5% (9-12)
+  of the grant, unless the district and the charter negotiate an alternative distribution case by case; the district
+  in which the charter is located identifies, evaluates and serves those students [SRC:legislature/ors/ors338.html]
+  (ORS 338.165(1), (2), (4)).
+- **Poverty weight is borrowed from the sponsor.** A charter's weighted count assumes the same share of children in
+  poverty as the district where it is located [SRC:legislature/ors/ors338.html] (ORS 338.157).
 - **Separate calculation for shrinking sponsors.** If a sponsoring district's own enrollment (leaving out the
-  virtual charter) fell from the year before, ODE calculates the virtual charter's ADMw separately from the
-  district's when working out the district's extended ADMw [SRC:legislature/ors/ors338.html] (ORS
-  338.155(1)(c)(C)). ODE publishes this calculation in a "Virtual Charter School Ext ADMw Transparency Report"
+  virtual charter) fell from the year before, the department calculates the virtual charter's weighted count
+  separately from the district's when working out the district's extended weighted count
+  [SRC:legislature/ors/ors338.html] (ORS 338.155(1)(c)(C)). The extended count is the higher of the current or prior
+  year's weighted enrollment, a hold-harmless for districts whose enrollment is falling
+  [SRC:ode/qec/2026_qem_report.pdf p.114]. The department publishes this calculation in a "Virtual
+  Charter School Ext ADMw Transparency Report"
   [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.1].
 - **The 3% rule.** A student does not need the resident district's approval to enroll in a virtual charter, only to
   give notice of intent and of enrollment. But if more than 3% of a district's resident students already attend
   virtual charters the district does not sponsor, the district may refuse approval; it must then tell the family
   the current percentage, the right to appeal to the State Board, and other online options
-  [SRC:legislature/ors/ors338.html] (ORS 338.125(4)-(5)). ODE's guidance dates the option to deny to HB 2301 (2011),
-  with timelines adjusted by HB 3204 (2023) [SRC:ode/charter/2026-08_virtual-charter-enrollment-guidance.pdf p.3].
-- **No Student Investment Account money.** Virtual charters cannot apply for SIA grants under the Student Success
-  Act, and ODE removes their ADMw from their sponsors' SIA allocations; ODE's September 2026 list for 2027-29
-  names the virtual charters and their sponsors [SRC:ode/charter/2027-29_sia-virtual-charter-list.pdf p.1].
-- ORS 338.155's history note lists its 1999 enactment and amendments through 2025, the three most recent being
+  [SRC:legislature/ors/ors338.html] (ORS 338.125(4)-(5)). The department's guidance dates the option to deny to House
+  Bill 2301 (2011), with timelines adjusted by House Bill 3204 (2023)
+  [SRC:ode/charter/2026-08_virtual-charter-enrollment-guidance.pdf p.3].
+- **No Student Investment Account money.** Virtual charters cannot apply for Student Investment Account grants under
+  the Student Success Act, and the department removes their weighted counts from their sponsors' allocations; its
+  September 2026 list for 2027-29 names the virtual charters and their sponsors
+  [SRC:ode/charter/2027-29_sia-virtual-charter-list.pdf p.1].
+- The history note for ORS 338.155 lists its 1999 enactment and amendments through 2025, the three most recent being
   2021 c.494, 2023 c.571 and 2025 c.386 [SRC:legislature/ors/ors338.html].
-- **2021 (SB 743, chapter 494).** Added the separate ADMw calculation for a virtual charter when the sponsoring
-  district, leaving out the charter, "had a decrease in ADM compared to the previous school year". For the 2021-22
-  and 2022-23 school years only, for a sponsor of a virtual charter "that had a decrease in ADM for the current
-  school year compared to the previous school year", it also set the sponsor's ADMw at the greater of its current
-  or previous year's ADMw (leaving out the charter) and the charter's at its current ADMw plus 10% of the
-  difference between the two years. It applied from 2021-22 distributions [SRC:legislature/laws/2021orlaw0494.pdf p.1]
-  [SRC:legislature/laws/2021orlaw0494.pdf p.2].
-- **2023 (SB 278, chapter 571).** Made the trigger a decrease in ADM "or ADMw", applying from 2022-23
+- **2021 (Senate Bill 743, chapter 494).** Added the separate weighted-count calculation for a virtual charter when
+  the sponsoring district, leaving out the charter, "had a decrease in ADM compared to the previous school year". For
+  the 2021-22 and 2022-23 school years only, for a sponsor of a virtual charter "that had a decrease in ADM for the
+  current school year compared to the previous school year", it also set the sponsor's weighted count at the greater
+  of its current or previous year's count (leaving out the charter) and the charter's at its current weighted count
+  plus 10% of the difference between the two years. It applied from 2021-22 distributions
+  [SRC:legislature/laws/2021orlaw0494.pdf p.1] [SRC:legislature/laws/2021orlaw0494.pdf p.2].
+- **2023 (Senate Bill 278, chapter 571).** Made the trigger "a decrease in ADM or ADMw" (the student count or the weighted count), applying from 2022-23
   distributions [SRC:legislature/laws/2023orlaw0571.pdf p.1].
-- **2025 (HB 3038, chapter 386).** Added ORS 338.155(1)(d): students of a charter that is an approved recovery
-  school are not counted as residents of its district for State School Fund purposes and are funded under ORS
-  336.680. It made the same exception in ORS 338.165, first applying to 2024-25
-  [SRC:legislature/laws/2025orlaw0386.pdf p.3] [SRC:legislature/laws/2025orlaw0386.pdf p.4]. LPRO's 2025 summary
-  describes the same change [SRC:legislature/lpro/2025_education-legislative-summary.pdf p.19].
+- **2025 (House Bill 3038, chapter 386).** Added ORS 338.155(1)(d): students of a charter that is an approved
+  recovery school are not counted as residents of its district for State School Fund purposes and are funded under
+  ORS 336.680. It made the same exception in ORS 338.165, first applying to 2024-25
+  [SRC:legislature/laws/2025orlaw0386.pdf p.3] [SRC:legislature/laws/2025orlaw0386.pdf p.4]. The Legislative Policy
+  and Research Office's 2025 summary describes the same change
+  [SRC:legislature/lpro/2025_education-legislative-summary.pdf p.19].
 
 ### Enrollment and money (2025-26)
 
-- ODE's 2025-26 transparency report (second-period ADM, dated Apr 27, 2026) lists each virtual charter, its
-  sponsoring district, and its ADMr and ADMw for 2024-25 and 2025-26
-  [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.1]
+- The department's 2025-26 transparency report (second-period student count, dated April 27, 2026) lists each
+  virtual charter, its sponsoring district, and its student count (ADMr, resident average daily membership) and weighted count (ADMw) for 2024-25 and
+  2025-26 [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.1]
   [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.2]. The values are copied into
   `data/virtual_charters_2025-26.csv`.
-- Baker Web Academy has 3,839.73 ADMr in 2025-26, Fossil Charter School 3,294.85 and Oregon Charter Academy
-  2,601.34 [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.1]
+- Baker Web Academy has a student count of 3,839.73 in 2025-26, Fossil Charter School 3,294.85 and Oregon Charter
+  Academy 2,601.34 [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.1]
   [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.2].
-- ODE's May 2026 estimate puts statewide ADMr at 531,425 and ADMw at 668,444 for 2025-26
-  [SRC:ode/ssf/2025-26_ssf-estimates_2026-05-01.pdf p.1].
-- The 2026 QEM report counts 52 virtual schools with 27,978 students (5.2%) in 2024-25
+- The department's May 2026 estimate puts the statewide student count at 531,425 and the weighted count at 668,444
+  for 2025-26 [SRC:ode/ssf/2025-26_ssf-estimates_2026-05-01.pdf p.1].
+- The 2026 Quality Education Model report counts 52 virtual schools with 27,978 students (5.2%) in 2024-25
   [SRC:ode/qec/2026_qem_report.pdf p.16].
-- The report marks "No" for a separate calculation in Prairie City, Paisley, Fossil and Mitchell and "Yes" in the
-  other sponsoring districts [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.1]
-  [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.2].
-- Fossil SD's charter has 3,347.06 ADMw in 2025-26 against 193.00 for the district itself; Prairie City's two
-  virtual charters have 1,290.40 and 120.09 against 542.36; Baker SD's has 3,915.32 against 2,241.97
+- The transparency report marks "No" for a separate calculation in Prairie City, Paisley, Fossil and Mitchell and
+  "Yes" in the other sponsoring districts
   [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.1]
   [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.2].
-- ODE's estimates give each sponsor's General Purpose Grant per extended ADMw: $10,801 for Mitchell SD
-  [SRC:ode/ssf/2025-26_ssf-estimates_2026-05-01.pdf p.191] and $11,397 for Paisley SD
-  [SRC:ode/ssf/2025-26_ssf-estimates_2026-05-01.pdf p.93] in 2025-26. Each district page also shows a "Charter
-  Schools Rate (ORS 338.155)", which ODE does not define on the page; for North Bend it is $11,514 against a General
-  Purpose Grant per extended ADMw of $11,129 [SRC:ode/ssf/2025-26_ssf-estimates_2026-05-01.pdf p.32].
-- North Bend's 2025-26 General Purpose Grant is $36,777,648.12, its 2025-26 ADMw 3,194.12 and its extended ADMw
-  3,304.67 [SRC:ode/ssf/2025-26_ssf-estimates_2026-05-01.pdf p.32].
-- Scio's 2025-26 General Purpose Grant is $27,800,843.40, its 2025-26 ADMw 2,356.76, and its Charter Schools Rate
-  $11,796 [SRC:ode/ssf/2025-26_ssf-estimates_2026-05-01.pdf p.118].
-- ODE's 2025-26 total revenue for formula is $8,248,519,310: state revenue for formula of $5,504,883,786 (the
-  $5,566,106,000 State School Fund appropriation less transfers and deductions) plus local revenue. The school district share is $7,877,335,941, from which high-cost disability
-  grants ($55,000,000) and the district share of the educator advancement fund ($6,003,307) are taken before
-  distribution [SRC:ode/ssf/2025-26_ssf-estimates_2026-05-01.pdf p.1].
+- The Fossil School District's charter has a weighted count of 3,347.06 in 2025-26 against 193.00 for the district
+  itself; Prairie City's two virtual charters have 1,290.40 and 120.09 against 542.36; the Baker School District's has
+  3,915.32 against 2,241.97 [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.1]
+  [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.2].
+- The department's estimates give each sponsor's General Purpose Grant per extended weighted student: $10,801 for the
+  Mitchell School District [SRC:ode/ssf/2025-26_ssf-estimates_2026-05-01.pdf p.191] and $11,397 for the Paisley
+  School District [SRC:ode/ssf/2025-26_ssf-estimates_2026-05-01.pdf p.93] in 2025-26. Each district page also shows
+  a "Charter Schools Rate (ORS 338.155)", which the department does not define on the page; for North Bend it is
+  $11,514 against a General Purpose Grant per extended weighted student of $11,129
+  [SRC:ode/ssf/2025-26_ssf-estimates_2026-05-01.pdf p.32].
+- North Bend's 2025-26 General Purpose Grant is $36,777,648.12, its 2025-26 weighted count 3,194.12 and its extended
+  weighted count 3,304.67 [SRC:ode/ssf/2025-26_ssf-estimates_2026-05-01.pdf p.32].
+- Scio's 2025-26 General Purpose Grant is $27,800,843.40, its 2025-26 weighted count 2,356.76, and its Charter
+  Schools Rate $11,796 [SRC:ode/ssf/2025-26_ssf-estimates_2026-05-01.pdf p.118].
+- The department's 2025-26 total revenue for formula is $8,248,519,310: state revenue for formula of $5,504,883,786
+  (the $5,566,106,000 State School Fund appropriation less transfers and deductions) plus local revenue. The school
+  district share is $7,877,335,941, from which high-cost disability grants ($55,000,000) and the district share of the
+  educator advancement fund ($6,003,307) are taken before distribution
+  [SRC:ode/ssf/2025-26_ssf-estimates_2026-05-01.pdf p.1].
 - The transparency report does not split virtual charter students between K-8 and 9-12
   [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.1]
   [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.2].
 
-### ODE's charter lists and enrollment by grade
+### The department's charter lists and enrollment by grade
 
-- ODE's 2025-26 charter school list (updated Jan 21, 2026) has a sheet of virtual charters giving each one's
-  opening date, contract dates, type of management organization, sponsor and grades served
+- The department's 2025-26 charter school list (updated Jan. 21, 2026) has a sheet of virtual charters giving each
+  one's opening date, contract dates, type of management organization, sponsor and grades served
   [SRC:ode/charter/2025-26_public-charter-schools.xlsx]. Values are copied into
   `data/virtual_charters_grades_2025-26.csv`.
-- Applegate Valley Virtual Academy (Three Rivers SD) opened Sept 1, 2025; Jefferson Classical Academy of Oregon
-  (Spray SD) and Stellar Pines Virtual Academy (Colton SD) opened Sept 2, 2025; all three contract with a
-  for-profit education management organization [SRC:ode/charter/2025-26_public-charter-schools.xlsx]. ODE's
-  2026-27 list adds Lower Columbia Virtual Charter Academy (Astoria SD 1C), opened Sept 1, 2026
-  [SRC:ode/charter/2026-27_public-charter-schools.xlsx].
-- On Oct 1, 2025 Applegate Valley had 101 students, Jefferson Classical 10 and Stellar Pines 2
+- Applegate Valley Virtual Academy (Three Rivers School District) opened Sept. 1, 2025; Jefferson Classical Academy of
+  Oregon (Spray School District) and Stellar Pines Virtual Academy (Colton School District) opened Sept. 2, 2025; all
+  three contract with a for-profit education management organization
+  [SRC:ode/charter/2025-26_public-charter-schools.xlsx]. The department's 2026-27 list adds Lower Columbia Virtual
+  Charter Academy (Astoria School District 1C), opened Sept. 1, 2026 [SRC:ode/charter/2026-27_public-charter-schools.xlsx].
+- On Oct. 1, 2025, Applegate Valley had 101 students, Jefferson Classical 10 and Stellar Pines two
   [SRC:ode/enrollment/fallmembershipreport_2025-26.xlsx].
-- ODE's fall membership report gives each school's Oct 1, 2025 enrollment by grade, a headcount, not ADM
-  [SRC:ode/enrollment/fallmembershipreport_2025-26.xlsx]. The transparency report gives each virtual charter's
-  ADMr and extended ADMw as totals, with no grade breakdown
+- The department's fall membership report gives each school's Oct. 1, 2025, enrollment by grade, a headcount, not
+  average daily membership [SRC:ode/enrollment/fallmembershipreport_2025-26.xlsx]. The transparency report gives each
+  virtual charter's student count and extended weighted count as totals, with no grade breakdown
   [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.1].
-- ODE's 2025-27 High School Success allocations, made "with 2024-25 State School Fund Data", print a 9-12 ADMw
-  for each district and most charter schools [SRC:ode/grants/2025-27_hss-allocations_2025-09-16.pdf p.1]. Eighteen of
-  the 20 report charters have their own row; Fossil Charter School and Paisley School do not, and only their
-  sponsor districts' rows are printed [SRC:ode/grants/2025-27_hss-allocations_2025-09-16.pdf p.3]
+- The department's 2025-27 High School Success allocations, made "with 2024-25 State School Fund Data", print a 9-12
+  weighted count for each district and most charter schools [SRC:ode/grants/2025-27_hss-allocations_2025-09-16.pdf p.1].
+  Eighteen of the 20 report charters have their own row; Fossil Charter School and Paisley School do not, and only
+  their sponsor districts' rows are printed [SRC:ode/grants/2025-27_hss-allocations_2025-09-16.pdf p.3]
   [SRC:ode/grants/2025-27_hss-allocations_2025-09-16.pdf p.7]. Oregon Charter Academy's row shows 1,383.64
   [SRC:ode/grants/2025-27_hss-allocations_2025-09-16.pdf p.8].
-- Contracts for the three largest, per ODE's list: Baker Web Academy (managed by a non-profit charter management
-  organization) began Oct 16, 2024 and runs to June 30, 2032; Oregon Charter Academy June 13, 2024 to June 30,
-  2032; Fossil Charter School July 1, 2025 to June 30, 2030 [SRC:ode/charter/2025-26_public-charter-schools.xlsx].
+- Contracts for the three largest, per the department's list: Baker Web Academy (managed by a nonprofit charter
+  management organization) began Oct. 16, 2024, and runs to June 30, 2032; Oregon Charter Academy June 13, 2024, to
+  June 30, 2032; Fossil Charter School July 1, 2025, to June 30, 2030 [SRC:ode/charter/2025-26_public-charter-schools.xlsx].
 
 ### Sponsors' records
 
-- Baker SD 5J's 2024-25 financial report says the district receives revenue on behalf of Baker Web Academy and
-  Baker Early College and passes it on to them, accounted for in its General Fund
-  [SRC:districts/baker-5j/fy2024-25_annual-financial-report.pdf p.34]. Describing "Baker Charter School (Charter)", it refers to
-  "the 10-year sponsorship agreement that is renewed annually" [SRC:districts/baker-5j/fy2024-25_annual-financial-report.pdf p.17]. The
-  report gives no amount passed through or kept.
-- S&P Global Ratings' Apr 7, 2026 rating update on Santiam Canyon SD 129J says the district retains "a percentage
-  based on a multiyear contract" with Oregon Charter Academy and "has received about $1.5 million for sponsoring the
-  virtual charter school" in recent years [SRC:districts/santiam-canyon/audit_santiam-canyon-sd-129j.pdf p.1]. It
-  puts charter school payments at 72% of the district's fiscal 2026 budget
-  [SRC:districts/santiam-canyon/audit_santiam-canyon-sd-129j.pdf p.2].
+- The Baker School District 5J's 2024-25 financial report says the district receives revenue on behalf of Baker Web
+  Academy and Baker Early College and passes it on to them, accounted for in its General Fund
+  [SRC:districts/baker-5j/fy2024-25_annual-financial-report.pdf p.34]. Describing "Baker Charter School (Charter)", it
+  refers to "the 10-year sponsorship agreement that is renewed annually"
+  [SRC:districts/baker-5j/fy2024-25_annual-financial-report.pdf p.17]. The report gives no amount passed through or
+  kept.
+- S&P Global Ratings' April 7, 2026, rating update on the Santiam Canyon School District 129J says the district
+  retains "a percentage based on a multiyear contract" with Oregon Charter Academy and "has received about $1.5
+  million for sponsoring the virtual charter school" in recent years
+  [SRC:districts/santiam-canyon/audit_santiam-canyon-sd-129j.pdf p.1]. It puts charter school payments at 72% of the
+  district's fiscal 2026 budget [SRC:districts/santiam-canyon/audit_santiam-canyon-sd-129j.pdf p.2].
 - Oregon Charter Academy's financial report for the year ended June 30, 2025 (a scan; read from the page image)
   shows State School Fund revenue of $32,090,872, up from $28,528,569 the year before, out of total revenue of
   $35,057,972 [SRC:districts/santiam-canyon/2025_oregon-charter-academy-financial-report.pdf p.20]. It lists
@@ -143,9 +163,10 @@ written by `tools/derive_virtual_charters.py`.
 
 - The Secretary of State's December 2017 audit of alternative and online education (Report 2017-30) says online
   charters receive "a share of per-student payments from the State School Fund" from their sponsors
-  [SRC:fiscal/sos/2017-30_alternative-and-online-education.pdf p.34]. It found that ODE counts a full-time online
-  student present for the week after two check-ins with a teacher, and that this attendance standard is the basis
-  for State School Fund payments [SRC:fiscal/sos/2017-30_alternative-and-online-education.pdf p.35].
+  [SRC:fiscal/sos/2017-30_alternative-and-online-education.pdf p.34]. It found that the department counts a
+  full-time online student present for the week after two check-ins with a teacher, and that this attendance
+  standard is the basis for State School Fund payments
+  [SRC:fiscal/sos/2017-30_alternative-and-online-education.pdf p.35].
 - It says the three statewide virtual charters that contracted with for-profit firms were sponsored by relatively
   small districts that received oversight fees of up to $1 million a year, which district officials told the auditors
   also benefit district students not attending the online schools
@@ -154,68 +175,70 @@ written by `tools/derive_virtual_charters.py`.
   [SRC:fiscal/sos/2017-30_alternative-and-online-education.pdf p.37].
 - It found district monitoring varied and was low for two of the three schools; the district with relatively
   strong oversight had annual outside reviews and used fee revenue to add district staff, in part for oversight
-  [SRC:fiscal/sos/2017-30_alternative-and-online-education.pdf p.37]. ODE generally agreed with the audit's
-  recommendations [SRC:fiscal/sos/2017-30_alternative-and-online-education.pdf p.3].
+  [SRC:fiscal/sos/2017-30_alternative-and-online-education.pdf p.37]. The department generally agreed with the
+  audit's recommendations [SRC:fiscal/sos/2017-30_alternative-and-online-education.pdf p.3].
 - Its recommendations include strengthening "attendance and funding standards for virtual schools" (10) and
   increasing standards for sponsors of statewide and regional virtual charters (15)
   [SRC:fiscal/sos/2017-30_alternative-and-online-education.pdf p.39]
   [SRC:fiscal/sos/2017-30_alternative-and-online-education.pdf p.40].
-- The March 2019 follow-up (Report 2019-12) rated recommendation 10 partially implemented: ODE held work sessions in
-  early 2018 but none of four proposals satisfied agency and stakeholder concerns
+- The March 2019 follow-up (Report 2019-12) rated recommendation 10 partially implemented: the department held work
+  sessions in early 2018 but none of four proposals satisfied agency and stakeholder concerns
   [SRC:fiscal/sos/2019-12_alternative-and-online-education-follow-up.pdf p.7]. It rated 13 and 15 not
-  implemented; ODE said higher sponsor standards "would not be politically viable" in the 2019 session
+  implemented; the department said higher sponsor standards "would not be politically viable" in the 2019 session
   [SRC:fiscal/sos/2019-12_alternative-and-online-education-follow-up.pdf p.8].
 
 ### What the news reported
 
-- The Oregon Journalism Project's investigation (published Nov 3, 2026 in Willamette Week) says about 31,000
+- The Oregon Journalism Project's investigation (published Nov. 3, 2026, in Willamette Week) says about 31,000
   students, roughly 6% of K-12, are in the state's online programs, that Oregon has 76 virtual schools, and that
   state money follows each student [NEWS:NEWS-20261103-wweek-1].
 - Its main example, Nyssa's online program, is set up by the district with a for-profit company; under its
   contract Nyssa kept 40% of the per-student money and the company got 60% [NEWS:NEWS-20261103-wweek-1]. Nyssa
-  does not appear in ODE's virtual charter report
+  does not appear in the department's virtual charter report
   [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.1]
   [SRC:ode/ssf/2025-26_virtual-charter-ext-admw-transparency_2026-04-27.pdf p.2].
 - The article says each student who leaves a brick-and-mortar school for a virtual one costs that school more than
   $11,000 [NEWS:NEWS-20261103-wweek-1].
 - The article also reports families who say online school works for them [NEWS:NEWS-20261103-wweek-1].
-- Kotek's statement to OJP said she "is actively reviewing the state's current approach to virtual education"
-  [NEWS:NEWS-20261103-wweek-1].
+- Gov. Tina Kotek's statement to the Oregon Journalism Project said she "is actively reviewing the state's current
+  approach to virtual education" [NEWS:NEWS-20261103-wweek-1].
 
 ### Bills (2025 and 2026 sessions)
 
-- OLIS lists each of the six 2025 bills below as still "In House Committee" or "In Senate Committee" with no
-  chapter number [SRC:legislature/bills/2025R1_HB3444_overview.html] [SRC:legislature/bills/2025R1_HB2583_overview.html]
+- The Legislature's bill-tracking site lists each of the six 2025 bills below as still "In House Committee" or "In
+  Senate Committee" with no chapter number [SRC:legislature/bills/2025R1_HB3444_overview.html] [SRC:legislature/bills/2025R1_HB2583_overview.html]
   [SRC:legislature/bills/2025R1_HB2144_overview.html] [SRC:legislature/bills/2025R1_SB562_overview.html]
   [SRC:legislature/bills/2025R1_SB633_overview.html] [SRC:legislature/bills/2025R1_SB647_overview.html].
 
-- **HB 3444** (sponsored by Rep. Wright): As introduced: raise the minimum pass-through to 95% for non-virtual charters only (virtual charters stay at 80% K-8 / 95% 9-12), loosen SIA eligibility for non-virtual charters only, let sponsors keep unpaid amounts but require them to be spent on charter administration, and entitle charters to local, state and federal moneys and transportation grants on the same basis as district schools, except that virtual charters get no share of local revenues. The -1 and -2 amendments would have set 95% for all charters, virtual included, and opened SIA grants to virtual charters. The staff summary lists a House Education meeting on Mar 12, 2025. [SRC:legislature/bills/2025R1_HB3444_introduced.pdf p.1] [SRC:legislature/olis/2025R1/294106_hb3444-staff-measure-summary.pdf p.1] [SRC:legislature/bills/2025R1_HB3444_overview.html]
-- **HB 2583** (sponsored by Rep. McIntire): Make virtual charters without a for-profit operator eligible for SIA grants; the -1 amendment would have opened SIA to all virtual charters that meet the demographic tests. The staff summary lists House Education meetings on Apr 2 and Apr 7, 2025. [SRC:legislature/bills/2025R1_HB2583_introduced.pdf p.1] [SRC:legislature/olis/2025R1/297340_hb2583-staff-measure-summary.pdf p.1] [SRC:legislature/bills/2025R1_HB2583_overview.html]
-- **HB 2144** (sponsored by Rep. McIntire): Change timelines for the 3% rule; have ODE collect virtual charter enrollment data for districts' calculations. [SRC:legislature/bills/2025R1_HB2144_introduced.pdf p.1] [SRC:legislature/bills/2025R1_HB2144_overview.html]
-- **SB 562** (sponsored by Sen. Anderson): Remove the 3% approval rule. [SRC:legislature/bills/2025R1_SB562_introduced.pdf p.1] [SRC:legislature/bills/2025R1_SB562_overview.html]
-- **SB 633** (sponsored by Sen. Bonham): Remove the 3% approval rule (same summary as SB 562). [SRC:legislature/bills/2025R1_SB633_introduced.pdf p.1] [SRC:legislature/bills/2025R1_SB633_overview.html] [SRC:legislature/bills/2025R1_SB562_introduced.pdf p.1]
-- **SB 647** (sponsored by Sen. Bonham, at the request of former Sen. Linthicum): Raise the 3% threshold to 5%. [SRC:legislature/bills/2025R1_SB647_introduced.pdf p.1] [SRC:legislature/bills/2025R1_SB647_overview.html]
+- **House Bill 3444** (sponsored by Rep. Wright): As introduced, it would have raised the minimum pass-through to 95% for non-virtual charters only (virtual charters stay at 80% K-8 / 95% 9-12), loosened Student Investment Account eligibility for non-virtual charters only, let sponsors keep unpaid amounts but required them to be spent on charter administration, and entitled charters to local, state and federal moneys and transportation grants on the same basis as district schools, except that virtual charters would get no share of local revenues. The -1 and -2 amendments would have set 95% for all charters, virtual included, and opened Student Investment Account grants to virtual charters. The staff summary lists a House Education Committee meeting on March 12, 2025. [SRC:legislature/bills/2025R1_HB3444_introduced.pdf p.1] [SRC:legislature/olis/2025R1/294106_hb3444-staff-measure-summary.pdf p.1] [SRC:legislature/bills/2025R1_HB3444_overview.html]
+- **House Bill 2583** (sponsored by Rep. McIntire): It would have made virtual charters without a for-profit operator eligible for Student Investment Account grants; the -1 amendment would have opened the grants to all virtual charters that meet the demographic tests. The staff summary lists House Education Committee meetings on April 2 and April 7, 2025. [SRC:legislature/bills/2025R1_HB2583_introduced.pdf p.1] [SRC:legislature/olis/2025R1/297340_hb2583-staff-measure-summary.pdf p.1] [SRC:legislature/bills/2025R1_HB2583_overview.html]
+- **House Bill 2144** (sponsored by Rep. McIntire): It would have changed timelines for the 3% rule and had the department collect virtual charter enrollment data for districts' calculations. [SRC:legislature/bills/2025R1_HB2144_introduced.pdf p.1] [SRC:legislature/bills/2025R1_HB2144_overview.html]
+- **Senate Bill 562** (sponsored by Sen. Anderson): It would have removed the 3% approval rule. [SRC:legislature/bills/2025R1_SB562_introduced.pdf p.1] [SRC:legislature/bills/2025R1_SB562_overview.html]
+- **Senate Bill 633** (sponsored by Sen. Bonham): It would have removed the 3% approval rule (same summary as SB 562). [SRC:legislature/bills/2025R1_SB633_introduced.pdf p.1] [SRC:legislature/bills/2025R1_SB633_overview.html] [SRC:legislature/bills/2025R1_SB562_introduced.pdf p.1]
+- **Senate Bill 647** (sponsored by Sen. Bonham, at the request of former Sen. Linthicum): It would have raised the 3% threshold to 5%. [SRC:legislature/bills/2025R1_SB647_introduced.pdf p.1] [SRC:legislature/bills/2025R1_SB647_overview.html]
 
 - The Legislature's 2025 education session summary marks HB 3444 and HB 2583 as not enacted
   [SRC:legislature/lpro/2025_education-legislative-summary.pdf p.12]
   [SRC:legislature/lpro/2025_education-legislative-summary.pdf p.1].
 - 2026 session: none of the bill summaries on the Legislature's 2026 session bill list mentions charter, virtual or
-  online schools [SRC:legislature/bills/2026R1_session-bills-list.html]. ODE's summary of enacted 2026 education
-  legislation, searched across all 11 pages for "charter", "virtual" and "online", mentions no charter or virtual
-  school bill
+  online schools [SRC:legislature/bills/2026R1_session-bills-list.html]. The department's summary of enacted 2026
+  education legislation, searched across all 11 pages for "charter", "virtual" and "online", mentions no charter or
+  virtual school bill
   [SRC:ode/legislation/2026_summary-enacted-education-legislation.pdf p.1] (cover page cited; the claim covers the
   whole document).
-- The same LPRO page lists HB 3953 as enacted under "K-12: Charter Schools": federally recognized Tribes may apply to
-  the State Board to sponsor a charter school [SRC:legislature/lpro/2025_education-legislative-summary.pdf p.12].
+- The same page of the Legislative Policy and Research Office summary lists House Bill 3953 as enacted under "K-12:
+  Charter Schools": federally recognized Tribes may apply to the State Board to sponsor a charter school
+  [SRC:legislature/lpro/2025_education-legislative-summary.pdf p.12].
 
 ## Derived figures
 
 Our own sums, shares and estimates; methods, inputs and assumptions are in `derived/virtual_charters.csv`.
-Estimates ("est") rest on the assumptions listed there.
+Estimates ("est") rest on the assumptions listed there. In the table, ADMr is the student count (average daily
+membership) and ADMw the weighted count.
 
 | Figure | Value | Kind | Tag |
 |---|---|---|---|
-| Virtual charters in ODE's 2025-26 report | 20 | derived | [DER:virtual_charters/charter_count_2025_26] |
+| Virtual charters in the department's 2025-26 report | 20 | derived | [DER:virtual_charters/charter_count_2025_26] |
 | Sponsoring districts | 17 | derived | [DER:virtual_charters/sponsor_count_2025_26] |
 | Sponsors with a separate ADMw calculation ("Yes") | 13 | derived | [DER:virtual_charters/sponsors_separated_2025_26] |
 | Sponsors without one ("No") | 4 | derived | [DER:virtual_charters/sponsors_not_separated_2025_26] |
@@ -226,132 +249,138 @@ Estimates ("est") rest on the assumptions listed there.
 | Share of statewide ADMr, 2025-26 | 4.2% | derived | [DER:virtual_charters/admr_share_2025_26] |
 | Share of statewide ADMw, 2025-26 | 3.4% | derived | [DER:virtual_charters/admw_share_2025_26] |
 | Prairie City's two virtual charters, ADMw 2025-26 | 1,410 | derived | [DER:virtual_charters/prairie_city_virtual_admw_2025_26] |
-| Formula revenue attributable to virtual charters, 2025-26 | about $257M | est | [DER:virtual_charters/gpg_attributable_2025_26] |
+| Formula revenue attributable to virtual charters, 2025-26 | about $257 million | est | [DER:virtual_charters/gpg_attributable_2025_26] |
 | That estimate as a share of the school district share of formula revenue | 3.3% | est | [DER:virtual_charters/gpg_attributable_share_2025_26] |
-| What sponsors would keep if contracts paid exactly the minimum, low end (all 9-12) | about $13M | est | [DER:virtual_charters/sponsor_keep_min_2025_26] |
-| Same, high end (all K-8) | about $51M | est | [DER:virtual_charters/sponsor_keep_max_2025_26] |
+| What sponsors would keep if contracts paid exactly the minimum, low end (all 9-12) | about $13 million | est | [DER:virtual_charters/sponsor_keep_min_2025_26] |
+| Same, high end (all K-8) | about $51 million | est | [DER:virtual_charters/sponsor_keep_max_2025_26] |
 | North Bend General Purpose Grant per current-year ADMw | $11,514 | derived | [DER:virtual_charters/north_bend_gpg_per_current_admw] |
 | Scio General Purpose Grant per current-year ADMw | $11,796 | derived | [DER:virtual_charters/scio_gpg_per_current_admw] |
-| Virtual charters on ODE's 2025-26 charter list | 23 | derived | [DER:virtual_charters/virtual_charters_listed_2025_26] |
-| Oct 1, 2025 enrollment of the three listed charters missing from the report | 113 | derived | [DER:virtual_charters/new_charters_fall_2025_students] |
-| K-8 enrollment, Oct 1, 2025 (20 report charters) | 13,385 | derived | [DER:virtual_charters/k8_headcount_fall_2025] |
-| Grades 9-12 enrollment, Oct 1, 2025 (20 report charters) | 8,357 | derived | [DER:virtual_charters/hs_headcount_fall_2025] |
+| Virtual charters on the department's 2025-26 charter list | 23 | derived | [DER:virtual_charters/virtual_charters_listed_2025_26] |
+| Oct. 1, 2025, enrollment of the three listed charters missing from the report | 113 | derived | [DER:virtual_charters/new_charters_fall_2025_students] |
+| K-8 enrollment, Oct. 1, 2025 (20 report charters) | 13,385 | derived | [DER:virtual_charters/k8_headcount_fall_2025] |
+| Grades 9-12 enrollment, Oct. 1, 2025 (20 report charters) | 8,357 | derived | [DER:virtual_charters/hs_headcount_fall_2025] |
 | K-8 share of that enrollment | 61.6% | derived | [DER:virtual_charters/k8_share_fall_2025] |
-| What sponsors would keep at the statutory minimum, using each school's grade split | about $36M | est | [DER:virtual_charters/sponsor_keep_gradesplit_2025_26] |
-| What Santiam Canyon would keep from Oregon Charter Academy at the statutory minimum | about $3.9M | est | [DER:virtual_charters/orca_keep_at_minimum_2025_26] |
-| General Purpose Grant attributable to Oregon Charter Academy's students, 2025-26 | about $31.1M | est | [DER:virtual_charters/orca_formula_revenue_2025_26] |
+| What sponsors would keep at the statutory minimum, using each school's grade split | about $36 million | est | [DER:virtual_charters/sponsor_keep_gradesplit_2025_26] |
+| What Santiam Canyon would keep from Oregon Charter Academy at the statutory minimum | about $3.9 million | est | [DER:virtual_charters/orca_keep_at_minimum_2025_26] |
+| General Purpose Grant attributable to Oregon Charter Academy's students, 2025-26 | about $31.1 million | est | [DER:virtual_charters/orca_formula_revenue_2025_26] |
 | Report charters with their own High School Success row | 18 | derived | [DER:virtual_charters/hss_listed_charters] |
 | 9-12 share of those charters' 2024-25 ADMw | 48.0% | est | [DER:virtual_charters/hs_admw_share_2024_25] |
-| 9-12 share of the same charters' Oct 1, 2025 headcount | 45.8% | derived | [DER:virtual_charters/hs_headcount_share_hss_charters_fall_2025] |
+| 9-12 share of the same charters' Oct. 1, 2025, headcount | 45.8% | derived | [DER:virtual_charters/hs_headcount_share_hss_charters_fall_2025] |
 
-The $257M estimate multiplies each virtual charter's extended ADMw in the transparency report by its sponsor's
-General Purpose Grant per extended ADMw. It mixes state and local money (the grant is calculated before local
-revenue is subtracted), leaves out the transportation grant and high-cost disability grants, and uses each
-sponsor's average rate. It is one year of state plus local formula revenue, not State School Fund appropriation.
+The $257 million estimate multiplies each virtual charter's extended weighted count in the transparency report by
+its sponsor's General Purpose Grant per extended weighted student. It mixes state and local money (the grant is
+calculated before local revenue is subtracted), leaves out the transportation grant and high-cost disability grants,
+and uses each sponsor's average rate. It is one year of state plus local formula revenue, not State School Fund
+appropriation.
 
 ## Analysis
 
 - **Same rates for online charters.** The law sets no separate rate for virtual charters: online and
   brick-and-mortar charters with the same kind of sponsor have the same minimum payment rates, including the lower
-  special-education minimums (the separate ADMw calculation applies only to virtual charters).
-- **Size.** Virtual charters are about 4.2% of statewide ADMr [DER:virtual_charters/admr_share_2025_26] and 3.4% of
-  ADMw [DER:virtual_charters/admw_share_2025_26]. Their weighted count is close to their raw count. That says little
-  about the students themselves: a charter's poverty weight is copied from its sponsor (ORS 338.157, above), and ODE's page doesn't
-  say whether the statewide ADMw is current or extended, so the two may not be on the same basis.
+  special-education minimums (the separate weighted-count calculation applies only to virtual charters).
+- **Size.** Virtual charters are about 4.2% of the statewide student count [DER:virtual_charters/admr_share_2025_26]
+  and 3.4% of the weighted count [DER:virtual_charters/admw_share_2025_26]. Their weighted count is close to their raw
+  count. That says little about the students themselves: a charter's poverty weight is copied from its sponsor (ORS
+  338.157, above), and the department's page doesn't say whether the statewide weighted count is current or
+  extended, so the two may not be on the same basis.
 - Baker Web Academy, Fossil Charter School and Oregon Charter Academy are the three largest virtual charters by
-  ADMr. In several sponsors the virtual charter is most of the district: Fossil, Baker and Prairie City, whose two
-  charters total 1,410 ADMw [DER:virtual_charters/prairie_city_virtual_admw_2025_26].
-- ODE lists 23 virtual charters for 2025-26 [DER:virtual_charters/virtual_charters_listed_2025_26]. The three
-  that opened in September 2025 are not in the 2025-26 transparency report, so the totals above leave them out;
-  they had 113 students on Oct 1, 2025 [DER:virtual_charters/new_charters_fall_2025_students], a small undercount.
+  student count. In several sponsors the virtual charter is most of the district: Fossil, Baker and Prairie City,
+  whose two charters total a weighted count of 1,410 [DER:virtual_charters/prairie_city_virtual_admw_2025_26].
+- The department lists 23 virtual charters for 2025-26 [DER:virtual_charters/virtual_charters_listed_2025_26]. The
+  three that opened in September 2025 are not in the 2025-26 transparency report, so the totals above leave them out;
+  they had 113 students on Oct. 1, 2025 [DER:virtual_charters/new_charters_fall_2025_students], a small undercount.
   Lower Columbia opened in 2026-27.
-- **Other counts.** The QEM report doesn't say how it defines a virtual school or how it counts students; with 52
-  schools against 20 virtual charters [DER:virtual_charters/charter_count_2025_26] it likely includes non-charter
-  online schools, so it should not be compared one-for-one with charter ADMr. OJP's figures (about 31,000 students
-  in "online programs", 76 virtual schools) are as of the article (Nov 2026) and use its own definitions. The three
-  sets of numbers measure different things and are not in conflict.
-- **The grant rate.** Across the sponsors the General Purpose Grant per extended ADMw runs from Mitchell's $10,801
-  to Paisley's $11,397. The "Charter Schools Rate" equals or exceeds the grant rate on each sponsor's page. For
-  North Bend it equals the General Purpose Grant divided by current-year ADMw, $11,514
-  [DER:virtual_charters/north_bend_gpg_per_current_admw], rather than extended ADMw; the same holds for Scio, $11,796
-  [DER:virtual_charters/scio_gpg_per_current_admw]. That would explain why it is never below the grant rate; not
-  confirmed by ODE.
-- **No ODE dollar total.** None of the archived ODE documents gives the SSF dollars attributable to virtual
-  charters.
-- **The money.** Our estimate is about $257M of formula revenue in 2025-26
+- **Other counts.** The Quality Education Model report doesn't say how it defines a virtual school or how it counts
+  students; with 52 schools against 20 virtual charters [DER:virtual_charters/charter_count_2025_26] it likely
+  includes non-charter online schools, so it is not comparable one-for-one with the charter student count. The
+  Oregon Journalism Project's figures (about 31,000 students in "online programs", 76 virtual schools) are as of the
+  article (November 2026) and use its own definitions. The three sets of numbers measure different things and are
+  not in conflict.
+- **The grant rate.** Across the sponsors the General Purpose Grant per extended weighted student runs from
+  Mitchell's $10,801 to Paisley's $11,397. The "Charter Schools Rate" equals or exceeds the grant rate on each
+  sponsor's page. For North Bend it equals the General Purpose Grant divided by the current-year weighted count,
+  $11,514 [DER:virtual_charters/north_bend_gpg_per_current_admw], rather than the extended count; the same holds for
+  Scio, $11,796 [DER:virtual_charters/scio_gpg_per_current_admw]. That would explain why it is never below the grant
+  rate; the department hasn't confirmed it.
+- **No dollar total from the department.** None of the department's archived documents gives the State School Fund
+  dollars attributable to virtual charters.
+- **The money.** Our estimate is about $257 million of formula revenue in 2025-26
   [DER:virtual_charters/gpg_attributable_2025_26], roughly 3.3% of the school district share
-  [DER:virtual_charters/gpg_attributable_share_2025_26]. The denominator is wider than the estimate: the district share
-  also pays transportation, high-cost disability grants and the educator advancement fund, which the estimate leaves
-  out, so on a like-for-like basis the share would be a little higher.
+  [DER:virtual_charters/gpg_attributable_share_2025_26]. The denominator is wider than the estimate: the district
+  share also pays transportation, high-cost disability grants and the educator advancement fund, which the estimate
+  leaves out, so on a like-for-like basis the share would be a little higher.
 - **The sponsors' share.** How much a sponsor keeps depends on each charter contract, which isn't archived, and the
-  transparency report has no grade split. A district sponsor keeps whatever it does not pass through. If every contract paid
-  exactly the statutory minimum, sponsors would keep between 5% (all high school) and 20% (all K-8) of the grant,
-  roughly $13M [DER:virtual_charters/sponsor_keep_min_2025_26] to $51M
+  transparency report has no grade split. A district sponsor keeps whatever it does not pass through. If every
+  contract paid exactly the statutory minimum, sponsors would keep between 5% (all high school) and 20% (all K-8) of
+  the grant, roughly $13 million [DER:virtual_charters/sponsor_keep_min_2025_26] to $51 million
   [DER:virtual_charters/sponsor_keep_max_2025_26]. Contracts may pay more than the minimum, which would lower
-  that; the pass-through applies to current-year ADMw while the estimate uses extended ADMw, which could raise it a
-  little; and the lower special-education minimums (ORS 338.165) mean sponsors could keep more than the high end, though
-  that part comes with the sponsor's duty to identify and serve those students, and the two sides may negotiate a
-  different split.
+  that; the pass-through applies to the current-year weighted count while the estimate uses the extended count, which
+  could raise it a little; and the lower special-education minimums (ORS 338.165) mean sponsors could keep more than
+  the high end, though that part comes with the sponsor's duty to identify and serve those students, and the two sides
+  may negotiate a different split.
 - **With the grade split.** In fall 2025, 61.6% of the 20 report charters' students were in K-8
   [DER:virtual_charters/k8_share_fall_2025]. Using each school's own split in place of the all-K-8 and
-  all-high-school bounds, sponsors would keep about $36M at the statutory minimum
-  [DER:virtual_charters/sponsor_keep_gradesplit_2025_26], with the same caveats. ODE's High School Success
-  figures are a check on the headcount stand-in: for the 18 charters with a row, high school is 48.0% of 2024-25
-  ADMw [DER:virtual_charters/hs_admw_share_2024_25] against 45.8% of fall 2025 headcount
-  [DER:virtual_charters/hs_headcount_share_hss_charters_fall_2025]. The years differ, but the headcount split
-  looks close; if anything it slightly understates high school, which would put the true figure a little below
-  $36M.
-- **Santiam Canyon and Oregon Charter Academy.** At the statutory minimum, with Oregon Charter Academy's grade split, Santiam Canyon would keep about
-  $3.9M a year [DER:virtual_charters/orca_keep_at_minimum_2025_26]. S&P's "about $1.5 million" in recent years (S&P doesn't
-  say whether that is a yearly or a cumulative figure) is well below that. Oregon Charter Academy's own report
-  doesn't settle it either: it took in $32.1M of State School Fund money in 2024-25, more than our $31.1M estimate
-  of the whole General Purpose Grant for its students [DER:virtual_charters/orca_formula_revenue_2025_26]. That
-  mismatch mostly shows the two figures aren't like for like: the years differ, our estimate uses 2024-25 ADMw at
-  2025-26 rates, and the academy's "State School Fund" line may include money our estimate leaves out
-  (transportation, high-cost disability). S&P doesn't say how it counted either, so the contract is still needed
-  to settle it.
-- **Contract terms.** ODE's list gives Baker Web Academy's contract as Oct 16, 2024 to June 30, 2032, about eight
-  years, while Baker's financial report describes a 10-year agreement renewed annually for "Baker Charter School",
-  which we take to be Baker Web Academy or both of its charters; a rolling term renewed each
+  all-high-school bounds, sponsors would keep about $36 million at the statutory minimum
+  [DER:virtual_charters/sponsor_keep_gradesplit_2025_26], with the same caveats. The department's High School Success
+  figures are a check on the headcount stand-in: for the 18 charters with a row, high school is 48.0% of the 2024-25
+  weighted count [DER:virtual_charters/hs_admw_share_2024_25] against 45.8% of fall 2025 headcount
+  [DER:virtual_charters/hs_headcount_share_hss_charters_fall_2025]. The years differ, but the two splits are close. If the
+  2024-25 split holds, the headcount split slightly understates high school, which would put the true figure a little
+  below $36 million.
+- **Santiam Canyon and Oregon Charter Academy.** At the statutory minimum, with Oregon Charter Academy's grade
+  split, Santiam Canyon would keep about $3.9 million a year [DER:virtual_charters/orca_keep_at_minimum_2025_26].
+  S&P's "about $1.5 million" in recent years (S&P doesn't say whether that is a yearly or a cumulative figure) is
+  well below that. Oregon Charter Academy's own report doesn't settle it either: it took in $32.1 million of State
+  School Fund money in 2024-25, more than our $31.1 million estimate of the whole General Purpose Grant for its
+  students [DER:virtual_charters/orca_formula_revenue_2025_26]. That mismatch mostly shows the two figures aren't like
+  for like: the years differ, our estimate uses the 2024-25 weighted count at 2025-26 rates, and the academy's "State
+  School Fund" line may include money our estimate leaves out (transportation, high-cost disability). S&P doesn't
+  say how it counted either, so the contract is still needed to settle it.
+- **Contract terms.** The department's list gives Baker Web Academy's contract as Oct. 16, 2024, to June 30, 2032,
+  about eight years, while Baker's financial report describes a 10-year agreement renewed annually for "Baker Charter
+  School", which our analysis takes to be Baker Web Academy or both of its charters; a rolling term renewed each
   year would fit both, but the contract is needed to say. S&P says Santiam Canyon's agreement with Oregon Charter
   Academy was renewed for seven years starting in 2025 [SRC:districts/santiam-canyon/audit_santiam-canyon-sd-129j.pdf p.1];
-  ODE gives a start of June 13, 2024 but an end of June 30, 2032, which fits a seven-year term from 2025.
+  the department gives a start of June 13, 2024, but an end of June 30, 2032, which fits a seven-year term from 2025.
 - **Oversight fees.** The 2017 audit tied sponsors' fees to an incentive to let the schools grow, while noting
   that district officials said the fees also help their other students and that one sponsor used them to pay for
-  oversight. The 2019 follow-up found sponsor standards had not been raised (see "Secretary of State audits" above). No later status report is archived.
+  oversight. The 2019 follow-up found sponsor standards had not been raised (see "Secretary of State audits" above).
+  No later status report is archived.
 - **No official dollar total.** Neither audit gives a total of State School Fund dollars paid for virtual charter
-  students (we read the 2017 report's online-schools section, pp.34–40, and the 2019 follow-up's status table),
-  and apart from the High School Success 9-12 ADMw (18 of 20 charters, 2024-25 data) no archived ODE document
-  splits virtual charters' ADMr or ADMw by grade.
+  students (our review covered the 2017 report's online-schools section, pp. 34-40, and the 2019 follow-up's status
+  table), and apart from the High School Success 9-12 weighted count (18 of 20 charters, 2024-25 data) no archived
+  department document splits virtual charters' student or weighted counts by grade.
 - **Nyssa.** If Nyssa's program is not a charter, the ORS 338.155 pass-through minimums would not govern that
   arrangement.
-- **OJP's $11,000.** That is in line with the 2025-26 General Purpose Grant per ADMw ($10,801-$11,397 among virtual
-  charter sponsors, above). It is mostly revenue that moves with the student between districts rather than a net cost to the system, though
-  see (a)-(d) below.
-- **Kotek.** As of Nov 20, 2026, no proposal from her on virtual schools is in the archive; her 2027-29 budget is
-  due Dec 1 (see `decisions.md#grb-2027-29`).
-- **HB 3953** is about who may sponsor a charter, not about virtual charters or their funding, so it is left out
-  of the bill list above. HB 3444's sponsor is presumably Rep. Boomer Wright in `people/people.csv`; the
-  bill gives only his surname.
-- **The bills.** Counting HB 3444's amendments, five of the six 2025 bills would have widened access to or funding for virtual charters; HB 2144
-  would have changed how the 3% rule is administered and had ODE collect the enrollment data. Three would have
-  loosened the 3% rule. HB 2583 would have opened Student Investment Account grants to some or all virtual
-  charters. HB 3444 as introduced was about brick-and-mortar charters; its -1 and -2 amendments would have raised
-  the virtual charter minimum to 95% and opened SIA to virtual charters. None left committee.
+- **The Oregon Journalism Project's $11,000.** That is in line with the 2025-26 General Purpose Grant per weighted
+  student ($10,801-$11,397 among virtual charter sponsors, above). It is mostly revenue that moves with the student
+  between districts rather than a net cost to the system, though see (a)-(d) below.
+- **Kotek.** As of Nov. 20, 2026, no proposal from her on virtual schools is in the archive; her 2027-29 budget is
+  due Dec. 1 (see `decisions.md#grb-2027-29`).
+- **House Bill 3953** is about who may sponsor a charter, not about virtual charters or their funding, so it is left
+  out of the bill list above. HB 3444 gives its sponsor only as Rep. Wright. The Legislature's member
+  listing has one, Rep. Boomer Wright, R-District 9 (Coos Bay), so our analysis takes the sponsor to be him
+  [SRC:legislature/members/representatives-all.html] [SRC:legislature/members/wright.html].
+- **The bills.** Counting HB 3444's amendments, five of the six 2025 bills would have widened access to or funding
+  for virtual charters; HB 2144 would have changed how the 3% rule is administered and had the department collect the
+  enrollment data. Three would have loosened the 3% rule. HB 2583 would have opened Student Investment Account grants
+  to some or all virtual charters. HB 3444 as introduced was about brick-and-mortar charters; its -1 and -2
+  amendments would have raised the virtual charter minimum to 95% and opened the account's grants to virtual
+  charters. None left committee.
 - **The statute's history.** The separate calculation for virtual charters dates from 2021 and was widened in
-  2023 to cover a fall in either ADM or ADMw. The 2021 act also had a two-year transition (2021-22 and 2022-23):
-  where a virtual charter's ADM fell, the sponsor kept the greater of its two years' ADMw and the charter got its
-  current ADMw plus 10% of the year-over-year difference. The 2025
+  2023 to cover a fall in either the student count or the weighted count. The 2021 act also had a two-year transition
+  (2021-22 and 2022-23): where a virtual charter's student count fell, the sponsor kept the greater of its two years'
+  weighted counts and the charter got its current weighted count plus 10% of the year-over-year difference. The 2025
   change (HB 3038) is about recovery schools, not virtual charters. None of the three changed the pass-through
   minimums.
-- **What this means for other districts' SSF share.** A student who moves from a district school to a virtual
-  charter mostly moves their weight from one district's count to the sponsor's rather than adding to the statewide
-  total. Where other districts' shares can change: (a) students who were not in public school before (homeschooled
-  or private) add new ADMw and spread the fixed state pool more thinly; (b) the extended-ADMw hold-harmless can
-  count the student in the resident district's prior-year figure while the sponsor counts them this year; (c) the
-  charter borrows the sponsor's poverty share (ORS 338.157), so a sponsor with a higher poverty share than the
-  students' home districts adds weight statewide, and a lower one subtracts it; (d) the same hold-harmless on the
-  sponsor's side, which the separate calculation in ORS 338.155(1)(c)(C) limits. None of these can be sized from
+- **What this means for other districts' State School Fund share.** A student who moves from a district school to a
+  virtual charter mostly moves their weight from one district's count to the sponsor's rather than adding to the
+  statewide total. Where other districts' shares can change: (a) students who were not in public school before
+  (homeschooled or private) add new weight and spread the fixed state pool more thinly; (b) the extended-count
+  hold-harmless can count the student in the resident district's prior-year figure while the sponsor counts them this
+  year; (c) the charter borrows the sponsor's poverty share (ORS 338.157), so a sponsor with a higher poverty share
+  than the students' home districts adds weight statewide, and a lower one subtracts it; (d) the same hold-harmless on
+  the sponsor's side, which the separate calculation in ORS 338.155(1)(c)(C) limits. None of these can be sized from
   the archived documents.
 - The larger questions are what the money buys: the share sponsors keep (above), what the charters' operators
   spend it on, and outcomes. Those are outside this issue; see open questions.
@@ -359,11 +388,12 @@ sponsor's average rate. It is one year of state plus local formula revenue, not 
 ### Still to find
 
 - Charter contracts for the largest virtual charters: the actual pass-through percentages. Not found in Santiam
-  Canyon's BoardBook (searched "charter contract" and "Oregon Charter Academy"), on Oregon Charter Academy's charter board and
-  reporting pages, or on Baker SD 5J's board and business office pages; Fossil SD 21J's were not found by web
-  search, and the district's site (fossil.k12.or.us) and the school's (fossilschools.com) blocked our browser with
-  a bot check. A records request is #46.
-- An official dollar total for State School Fund money paid for virtual charter students: none in ODE's archived
-  documents or the 2017 and 2019 Secretary of State reports. Asking ODE is #47.
-- A 9-12 ADMw for Fossil Charter School and Paisley School: the High School Success allocations print only their
-  sponsor districts' rows (Fossil SD 21J 25.53, Paisley SD 11 43.12), so this would have to come from ODE (#47).
+  Canyon's BoardBook (searched "charter contract" and "Oregon Charter Academy"), on Oregon Charter Academy's charter
+  board and reporting pages, or on the Baker School District 5J's board and business office pages; the Fossil School
+  District 21J's were not found by web search, and the district's site (`fossil.k12.or.us`) and the school's
+  (`fossilschools.com`) blocked our browser with a bot check. A records request is #46.
+- An official dollar total for State School Fund money paid for virtual charter students: none in the department's
+  archived documents or the 2017 and 2019 Secretary of State reports. Asking the department is #47.
+- A 9-12 weighted count for Fossil Charter School and Paisley School: the High School Success allocations print only
+  their sponsor districts' rows (Fossil School District 21J 25.53, Paisley School District 11 43.12), so this would
+  have to come from the department (#47).

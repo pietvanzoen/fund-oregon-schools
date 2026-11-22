@@ -42,6 +42,7 @@ The concrete signal that should reopen this.
 | [2026-11-21](20261121-1526-no-test-framework-for-now.md) | Tests are plain asserts in one script, no framework, for now |
 | [2026-11-21](20261121-1646-whats-new-from-a-csv.md) | What's new is a CSV with a PR column, checked in CI, not built from commits |
 | [2026-11-21](20261121-2205-research-organized-around-decisions.md) | Research is organized around decisions, with questions in a CSV |
+| [2026-11-22](20261122-1551-vale-in-ci-stdlib-in-tools.md) | Python tools stay stdlib-only; heavier checks run in GitHub Actions |
 | [2026-11-22](20261122-1607-house-style.md) | Reader-facing text follows a short house style, checked by a clarity reviewer |
 | [2026-11-22](20261122-1635-runs-do-not-split-issues.md) | Runs don't split issues; scope is set when an issue is labelled `next` |
 | [2026-11-22](20261122-1718-correcting-append-only-rows.md) | A wrong append-only row is corrected by a new row that names the line it replaces |

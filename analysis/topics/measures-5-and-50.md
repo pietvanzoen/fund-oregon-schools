@@ -22,7 +22,7 @@ Decisions this informs: `decisions.md` (all). Open research: #16, #65, #66, #67.
   elections [SRC:fiscal/dor/2009-06_brief-history-property-taxation.pdf p.4].
 - **The local option cap.** The amount kept outside the equalization formula is capped at the lesser of 20% of
   formula revenue or an indexed per-student amount ($1,343.92 in 2017-18)
-  [SRC:legislature/olis/2018R1/146437_lro-school-local-option.pdf p.4]. 20 districts levied one in 2016-17
+  [SRC:legislature/olis/2018R1/146437_lro-school-local-option.pdf p.4]. Twenty districts levied one in 2016-17
   [SRC:legislature/olis/2018R1/146437_lro-school-local-option.pdf p.5].
 
 ## Derived figures
@@ -35,4 +35,5 @@ School operating budgets now depend mainly on the state General Fund and on deci
 only a capped levy. That is why the decisions in `decisions.md` are made by the Governor and the Legislature.
 
 Still to research: today's levy cap, compression losses, whether Measure 56 (2008) changed the turnout rule for some
-elections, and the kicker (#66, #67).
+elections, and the kicker, the law that returns income tax surpluses to taxpayers
+[SRC:fiscal/lfo/2020-09_budget-reserve-funds.pdf p.1] (#66, #67).

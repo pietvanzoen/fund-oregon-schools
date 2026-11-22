@@ -1,0 +1,29 @@
+extends: existence
+message: "Spell out '%s' in running text, or describe it; keep it to tables and methods (STYLE.md)."
+level: suggestion
+ignorecase: false
+scope: ~table.cell
+tokens:
+  - SSF
+  - CSL
+  - QEM
+  - QEC
+  - DAS
+  - ESF
+  - ADM
+  - ADMw
+  - ADMr
+  - ODE
+  - LFO
+  - LRO
+  - OEA
+  - SIA
+  - GRB
+  - JPEA
+  - PPS
+  - OJP
+  - LPRO
+  - OLIS
+  - AIR
+  - FTE
+  - ELA
