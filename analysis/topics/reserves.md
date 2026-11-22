@@ -2,12 +2,13 @@
 
 ## Analysis
 
-Any draw from the fund needs a three-fifths vote in each chamber and either an economic trigger or an emergency
+Any draw from the Education Stability Fund needs a three-fifths vote in each chamber and either an economic trigger or an emergency
 declaration. For a
-2025-27 draw, Kotek said she did not plan at that time to declare an emergency unless the votes were there. Revenue the
+2025-27 draw, Gov. Tina Kotek said she did not plan at that time to declare an emergency unless the votes were there. Revenue the
 forecast already expects needs neither, though a tax increase also needs three-fifths of each chamber
 [SRC:legislature/constitution/oregon-constitution.html]. That holds for a large, general draw. An initial proposal for targeted,
-one-time PERS relief from a 2025-26 co-chair of the Education Subcommittee (Ruiz, November 2026) suggests a narrower
+one-time Public Employees Retirement System (PERS) relief from Rep. Ricki Ruiz, D-District 50 (Gresham), a 2025-26
+co-chair of the Ways and Means Education Subcommittee (November 2026), suggests a narrower
 draw is being discussed, though it rests on one social media post with no amount or bill. It still needs the same
 vote and trigger. The objection on record from Kotek and Sen. Kate Lieber, D-District 14 (Beaverton & Southwest
 Portland) [SRC:legislature/members/lieber.html], to one-time money for ongoing costs could still apply: PERS

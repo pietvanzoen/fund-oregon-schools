@@ -5,10 +5,11 @@ Decisions this informs: `decisions.md` (all). Open research: #16, #65, #66, #67.
 ## Analysis
 
 School operating budgets now depend mainly on the state General Fund and on decisions in Salem; a district can add
-only a capped levy. That is why the decisions in `decisions.md` are made by the Governor and the Legislature.
+only a capped levy. That is why the decisions in `decisions.md` are made by the governor and the Legislature.
 
-Still to research: today's levy cap, compression losses, whether Measure 56 (2008) changed the turnout rule for some
-elections, and the kicker, the law that returns income tax surpluses to taxpayers
+Still to research: today's levy cap, how much levy money the Measure 5 limits cut off ("compression losses"),
+whether Measure 56 (2008) changed Measure 50's turnout rule (at least half of registered voters must vote, outside
+general elections) for some elections, and the kicker, the law that returns income tax surpluses to taxpayers
 [SRC:fiscal/lfo/2020-09_budget-reserve-funds.pdf p.1] (#66, #67).
 
 ## What the sources say
