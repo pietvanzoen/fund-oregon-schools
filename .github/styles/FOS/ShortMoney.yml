@@ -1,0 +1,6 @@
+extends: existence
+message: "Write money AP style: '$12.56 billion', '$36 million', not '%s' (STYLE.md)."
+level: warning
+nonword: true
+tokens:
+  - '\$\d[\d.,]*[BMK]\b'

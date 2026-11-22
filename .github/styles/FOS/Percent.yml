@@ -1,0 +1,5 @@
+extends: existence
+message: "Use the % sign: '%s' (STYLE.md)."
+level: suggestion
+tokens:
+  - '\d+(?:\.\d+)? percent'

@@ -40,3 +40,4 @@ The concrete signal that should reopen this.
 | [0006](0006-whats-new-from-a-csv.md) | What's new is a CSV with a PR column, checked in CI, not built from commits |
 | [0007](0007-research-organized-around-decisions.md) | Research is organized around decisions, with questions in a CSV |
 | [0008](0008-house-style.md) | Reader-facing text follows a short house style, checked by a clarity reviewer |
+| [0009](0009-vale-in-ci-stdlib-in-tools.md) | Python tools stay stdlib-only; heavier checks run in GitHub Actions |

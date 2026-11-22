@@ -1,0 +1,18 @@
+extends: existence
+message: "'%s' takes a side. Use a comparison (less than, more than) or attribute it to whoever said it (STYLE.md)."
+level: warning
+ignorecase: true
+tokens:
+  - cut
+  - cuts
+  - shortfall
+  - record high
+  - record-high
+  - record investment
+  - record funding
+  - historic
+  - underfunded
+  - underfunding
+  - windfall
+  - slashed
+  - gutted
