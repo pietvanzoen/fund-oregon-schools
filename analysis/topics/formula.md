@@ -15,8 +15,8 @@ once they are posted. Sen. Janeen Sollman, D-District 15 (Forest Grove, Corneliu
 May 2026 primary [NEWS:NEWS-20260521-wweek-1]), so that seat will change. Neither chamber's 2027 subcommittee
 co-chairs are in the archive's sources yet.
 
-Still to research: the final status of House Bill 2953 (2025), which as introduced would remove the special
-education cap (#17), how closures change transportation costs (#18), the English learner
+Still to research: the final status of House Bill 2953 (2025), which as introduced would remove the cap on special
+education weight (extra weight only up to 11% of a district's enrollment without state approval) (#17), how closures change transportation costs (#18), the English learner
 and poverty weights (#19), and the 2027 reform proposals (#25).
 
 ## What the sources say

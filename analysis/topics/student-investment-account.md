@@ -11,8 +11,8 @@ Our sums: `derived/sia.csv`. Audits and outside reviews are still to come (#57).
 
 The spending picture is clear and consistent. Grantees (districts, eligible charter schools, and youth corrections
 and juvenile detention programs) reported spending almost all of each year's allocation, mostly on staff (from
-2021-22, when staff figures begin), in the same three of the law's four allowed uses every year: health and safety, well-rounded education and smaller
-classes. Health and safety leads every year. By the law's list, that category covers
+2021-22, when staff figures begin). The same three of the law's four allowed uses lead every year: health and safety
+first, then well-rounded education and smaller classes. By the law's list, that category covers
 student mental and behavioral health and school health professionals, among other health and safety uses, which
 fits the first of the law's two purposes (meeting students' mental or behavioral health needs; the second is raising
 academic achievement). The reports don't break the category down further, but in 2021-22, 19.3%

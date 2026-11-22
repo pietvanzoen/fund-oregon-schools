@@ -6,8 +6,8 @@ Decisions this informs: `decisions.md#ssf-2027-29`, `decisions.md#cost-model-202
 ## Analysis
 
 The 2026 Quality Education Model report gives three 2027-29 figures, and they answer different questions: the State
-School Fund's current service level (the amount needed to continue existing programs, a Department of Administrative
-Services estimate), the status quo ($13.78 billion of state funding to keep 2025-27 service levels) and the full model
+School Fund's current service level ($12.56 billion, the amount needed to continue existing programs, a Department
+of Administrative Services estimate) [SRC:ode/qec/2026_qem_report.pdf p.103], the status quo ($13.78 billion of state funding to keep 2025-27 service levels) and the full model
 ($16.21 billion to meet the state's goals) [SRC:ode/qec/2026_qem_report.pdf p.117]
 [SRC:gov/press/2024_ssf-csl-proposal.html]. The current service level is the State School Fund alone; the
 status quo and the full model count other state money too. So the full model's $3.65 billion above the current service
@@ -26,7 +26,7 @@ gap against one benchmark.
 
 **If the model is changed or replaced.** Senate Bill 1555 (2026), the joint committee's bill to move the cost model to
 the Legislature's research office, did not pass, so the Quality Education Commission and the model remain
-in law, and the 2026 model is the commission's estimate on record for 2027-29. Of the comparison figures below, the
+in law, and the 2026 model is the commission's estimate on record for 2027-29. Of the comparison figures on this page, the
 full model and the status quo are the model's scenarios; they would lose their standing as the state's benchmark if
 the model were replaced. The current service level, the adopted 2025-27
 amount and, once released, the governor's 2027-29 budget do not depend on it.
@@ -37,8 +37,8 @@ funding. For it, the Department of Administrative Services would adjust the cost
 2025-27 funding closes the gap) for inflation and other costs. A new model would come later: the 2026 bill's dates
 put the first one in 2028, for the report after Nov. 1, 2029. A 2027 bill could set other dates.
 
-The goals would change too: from today's goals to every district counting as a "standard" district (redefined as one
-that complies with state and federal law), licensed and qualified teachers, and the statewide targets for the metrics
+The goals would change too: from today's goals to every district counting as a "standard" district (which SB 1555 would have
+redefined as one that complies with state and federal law), licensed and qualified teachers, and the statewide targets for the metrics
 in Senate Bill 141 (2025) (sources below). A dollar figure from a new model would then price a different target than the current model's and
 would not be directly comparable with it. Then "the gap" would depend on which estimate a reader uses, and on who built it: a
 governor-appointed commission (today) or a contractor hired by the Legislature's research office, with a

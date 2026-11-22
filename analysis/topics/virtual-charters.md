@@ -24,12 +24,12 @@ written by `tools/derive_virtual_charters.py`.
   338.157, below), and the Oregon Department of Education's page doesn't say whether the statewide weighted count is
   current or extended, so the two may not be on the same basis.
 - Baker Web Academy, Fossil Charter School and Oregon Charter Academy are the three largest virtual charters by
-  student count. In several sponsors the virtual charter's weighted count is larger than the district's own: Fossil
+  student count. In several sponsoring districts the virtual charter's 2025-26 weighted count is larger than the district's own: Fossil
   (3,347.06 against 193.00), Baker (3,915.32 against 2,241.97) and Prairie City, whose two charters total 1,410
   [DER:virtual_charters/prairie_city_virtual_admw_2025_26] against 542.36 (sources below).
 - The department lists 23 virtual charters for 2025-26 [DER:virtual_charters/virtual_charters_listed_2025_26]. The
   three that opened in September 2025 are not in the department's 2025-26 transparency report (its count of
-  virtual charter students and weighted enrollment, dated April 27, 2026), so the totals below leave them out;
+  virtual charter students and weighted enrollment, dated April 27, 2026), so the totals on this page leave them out;
   they had 113 students on Oct. 1, 2025 [DER:virtual_charters/new_charters_fall_2025_students], a small undercount.
   Lower Columbia opened in 2026-27.
 - **Other counts.** The Quality Education Model report doesn't say how it defines a virtual school or how it counts
@@ -71,8 +71,9 @@ written by `tools/derive_virtual_charters.py`.
   below $36 million.
 - **Santiam Canyon and Oregon Charter Academy.** At the statutory minimum, with Oregon Charter Academy's grade
   split, Santiam Canyon would keep about $3.9 million a year [DER:virtual_charters/orca_keep_at_minimum_2025_26].
-  S&P Global Ratings' "about $1.5 million" in recent years, in its April 2026 rating update on the district (S&P doesn't say whether that is a yearly or a cumulative figure) is
-  well below that. Oregon Charter Academy's own report doesn't settle it either: it took in $32.1 million of State
+  S&P Global Ratings' April 2026 rating update on the district says it has received "about $1.5 million for
+  sponsoring the virtual charter school" in recent years, well below that; S&P doesn't say whether that is a yearly
+  or a cumulative figure. Oregon Charter Academy's own report doesn't settle it either: it took in $32.1 million of State
   School Fund money in 2024-25, more than our $31.1 million estimate of the whole General Purpose Grant for its
   students [DER:virtual_charters/orca_formula_revenue_2025_26]. That mismatch mostly shows the two figures aren't like
   for like: the years differ, our estimate uses the 2024-25 weighted count at 2025-26 rates, and the academy's "State
@@ -106,10 +107,9 @@ written by `tools/derive_virtual_charters.py`.
   listing has one, Rep. Boomer Wright, R-District 9 (Coos Bay), so our analysis takes the sponsor to be him
   [SRC:legislature/members/representatives-all.html] [SRC:legislature/members/wright.html].
 - **The bills.** Counting HB 3444's amendments, five of the six 2025 bills would have widened access to or funding
-  for virtual charters; HB 2144 would have changed how the 3% rule (a district may refuse a
-  student's move to a virtual charter it doesn't sponsor once more than 3% of its resident students attend one) is
-  administered and had the department collect the
-  enrollment data. Three would have loosened the 3% rule. HB 2583 would have opened Student Investment Account grants
+  for virtual charters. Under the 3% rule, a district may refuse a student's move to a virtual charter it doesn't
+  sponsor once more than 3% of its resident students attend one; HB 2144 would have changed how the rule is
+  administered and had the department collect the enrollment data. Three would have loosened the 3% rule. HB 2583 would have opened Student Investment Account grants
   to some or all virtual charters. HB 3444 as introduced was about brick-and-mortar charters; its -1 and -2
   amendments would have raised the virtual charter minimum to 95% and opened the account's grants to virtual
   charters. None left committee.

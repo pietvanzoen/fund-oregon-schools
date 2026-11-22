@@ -19,13 +19,14 @@ model is therefore best read as: the 2022 staffing list (smaller elementary
 classes, counselors, nurses, librarians, summer school), priced at today's costs, plus an expectation that districts
 use it on the recommended practices.
 
-The year the commission says the state would have reached 90% graduation had it fully funded the model since 2012-13 moved from 2025-26 (2024 report) to
-2027-28 (2026 report), and under current-service-level funding from 2027-28 to 2028-29, while the long-run trend year stayed at 2030-31. For five-year
+The year by which the commission says the state would be positioned to reach 90% graduation had it fully funded the
+model since 2012-13 moved from 2025-26 (2024 report) to 2027-28 (2026 report). Under funding at the current service
+level (the amount needed to continue existing programs) the year moved from 2027-28 to 2028-29, while the long-run trend year stayed at 2030-31. For five-year
 completion the full-funding year moved from 2025-26 to 2027-28 and the long-run year from 2030-31 to 2033-34. The
 2026 report doesn't explain the shift. The commission itself presents these paths as illustrating long-term impact, and a date
 that moves two years in one report cycle supports reading them as illustrations rather than predictions.
 
-The American Institutes for Research's 2025 evaluation estimated adequate spending at $22,210 per student in 2022-23,
+The American Institutes for Research's 2025 cost study estimated adequate spending at $22,210 per student in 2022-23,
 against the model's $18,829 for that year [SRC:ode/qec/2026_qem_report.pdf p.100], but it is aimed at a different,
 broader target than the model's (one standard deviation above the statewide average on a combined measure), so the
 comparison shows direction (both say more is needed), not size. The evaluators criticize the single outcome goal, and
@@ -33,9 +34,9 @@ both they and the Legislature's Joint Committee on Public Education Appropriatio
 (its three sample schools) for ignoring variation in need. In its 2026 report the commission agrees on the prototypes
 and is exploring broader outcome goals, while saying it lacks the staff to act. With further changes to the model
 expected in 2027 (`decisions.md#cost-model-2027`), the commission's direction overlaps with the terms of Senate Bill
-141 (2025), the Education Accountability Act: the extra goals it is exploring resemble the metrics named in its
-fallback option if full funding isn't possible, money aimed at the SB 141 metrics (reading proficiency, regular
-attenders, ninth grade on-track) (sources below). The Oregon Department of Education's director has said the SB 141
+141 (2025), the Education Accountability Act. The extra goals the commission is exploring resemble the metrics named
+in the commission's own fallback option if full funding isn't possible: money aimed at the SB 141 metrics (reading
+proficiency, regular attenders, ninth grade on-track) (sources below). The Oregon Department of Education's director has said the SB 141
 targets don't require new money, a view some State Board members doubted (`topics/results.md`).
 
 ## What the sources say

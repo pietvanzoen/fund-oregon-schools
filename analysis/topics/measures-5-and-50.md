@@ -4,8 +4,9 @@ Decisions this informs: `decisions.md` (all). Open research: #16, #65, #66, #67.
 
 ## Analysis
 
-School operating budgets now depend mainly on the state General Fund and on decisions in Salem; a district can add
-only a capped levy. That is why the decisions in `decisions.md` are made by the governor and the Legislature.
+Measure 5 (1990) capped school property tax rates and Measure 50 (1997) capped growth in assessed value (sources
+below), so school operating budgets now depend mainly on the state General Fund and on decisions in Salem; a district can add
+only a capped local option levy. That is why the decisions in `decisions.md` are made by the governor and the Legislature.
 
 Still to research: today's levy cap, how much levy money the Measure 5 limits cut off ("compression losses"),
 whether Measure 56 (2008) changed Measure 50's turnout rule (at least half of registered voters must vote, outside
