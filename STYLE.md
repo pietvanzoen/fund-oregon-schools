@@ -45,9 +45,15 @@ covers something this file doesn't, follow AP. Why these choices: `adr/20261122-
 
 ## Names
 
-- **First mention on a page:** AP title, full name, and for legislators party and hometown: "Gov. Tina Kotek",
-  "Rep. Jane Doe, D-Salem". Add the role when it helps a reader place them: "Sen. Jane Doe, D-Salem, who chairs the
-  Senate Education Committee". After that, last name only.
+- **First mention in running text:** AP style: title, full name, and for legislators party and hometown (the city
+  they live in, as their member page or biography on the Legislature's site states it): "Gov. Tina Kotek",
+  "Rep. Jane Doe, D-Salem". Add the role when it helps a reader place them: "Sen. Jane Doe, D-Salem, who chairs
+  the Senate Education Committee". After that, last name only.
+- **A legislator's own page** in `analysis/people/` gives party, chamber, district number and hometown, cited.
+- **Where these come from:** the `party`, `district` and `hometown` columns of `analysis/people/people.csv`, cited
+  to the member's official pages (the home page's district line names the district's area, not a hometown). The
+  rule applies when the archive has it: if a person's columns are empty, use the title and full name, and don't
+  guess.
 - **Agencies and groups:** full name, then a plain short form: "the Department of Administrative Services … the
   department", "the Quality Education Commission … the commission".
 

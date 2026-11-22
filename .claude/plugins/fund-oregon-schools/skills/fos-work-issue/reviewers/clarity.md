@@ -44,6 +44,9 @@ the added or changed sentences in those files, in our own words: skip quotes, ci
 6. **References and terms.** Every "it", "this", "they" and "the fund" has one clear referent. Abbreviations and
    terms of art are spelled out or described as `STYLE.md` says, and defined in the text on first use on the page.
 7. **House style.** Names, money, numbers and dates as in `STYLE.md`. These are `style` unless they change meaning.
+   For a legislator's party and hometown, look them up in `analysis/people/people.csv` (`party`, `hometown`). The
+   rule applies when the archive has them: if the person's columns are empty or the person isn't in the file,
+   don't flag the missing hometown as `must` or `should`; note it as `style` with "needs: hometown in people.csv".
 
 ## Rewrites
 

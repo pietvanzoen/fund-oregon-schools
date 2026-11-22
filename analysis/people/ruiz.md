@@ -2,7 +2,7 @@
 
 Official page: <https://www.oregonlegislature.gov/ruiz>
 
-Democrat, House District 50 (Gresham). House co-chair of the Ways and Means Subcommittee on Education, which
+Democrat, House District 50 (Gresham) [SRC:legislature/members/ruiz.html]. House co-chair of the Ways and Means Subcommittee on Education, which
 writes the State School Fund and Department of Education budgets
 [SRC:legislature/appointments/2026-01-23_house-committee-assignments.pdf p.3], and co-chair of the Joint Committee on
 Public Education Appropriation (JPEA), which reports on whether school funding is sufficient

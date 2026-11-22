@@ -617,7 +617,8 @@ Pledges and mandates on school outcomes and funding, and whether money came with
 def who_page(ctx):
     rows = []
     for r in read_csv("people/people.csv"):
-        seat = " ".join(x for x in (r["office"], r["district"], f"({r['party']})" if r["party"] else "") if x)
+        party = "-".join(x for x in (r["party"], r["hometown"]) if x)
+        seat = " ".join(x for x in (r["office"], r["district"], f"({party})" if party else "") if x)
         contact = f"[official page]({r['official_page']})" if r["official_page"] else "—"
         rows.append([actor(r["id"]), seat, r["area"], r["role_2025_26"], r["role_2027"], contact,
                      cites(r["source"], ctx)])
