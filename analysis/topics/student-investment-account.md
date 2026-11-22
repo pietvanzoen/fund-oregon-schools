@@ -1,7 +1,7 @@
 # The Student Investment Account: what the money funds and what ODE reports it did
 
 Decisions this informs: standing research (what the money buys). Figures copied from sources: `data/sia_spending.csv`.
-Our sums: `derived/sia.csv`. Audits and outside reviews are still to come (#103).
+Our sums: `derived/sia.csv`. Audits and outside reviews are still to come (#57).
 
 ## What the sources say
 
@@ -151,5 +151,5 @@ target. Whether that is good depends on how ambitious the targets were, which OD
 
 So the archive can say what SIA money paid for, and how grantees did against their own targets in two recent years.
 It can't yet say whether the SIA changed outcomes statewide. The Quality Education Commission recommends sustaining Student Success
-Act investments (`topics/qem-practices-outcomes.md`). Outside audits and reviews (#103), outcomes over time
+Act investments (`topics/qem-practices-outcomes.md`). Outside audits and reviews (#57), outcomes over time
 (#58) and the research on whether funding changes outcomes (#63) bear on that.
