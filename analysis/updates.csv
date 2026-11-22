@@ -19,3 +19,4 @@ date,text,page,pr
 2026-11-21,"The What's being decided page now explains, in plain words, what a baseline, a benchmark and a proposal are.",decisions.md,89
 2026-11-21,"The funding chart now appears on the Start here page and next to the State School Fund decision, not only on The numbers.",decisions.md#ssf-2027-29,90
 2026-11-21,"Three new open questions: whether the Quality Education Model's estimate of need is right, whether corporate kicker money adds to school funding, and whether state mandates on schools are funded.",questions.csv,95
+2026-11-21,"New page on the Student Investment Account: what the grants may pay for, how much districts spent each year since 2020-21 (mostly on staff, with health and safety the largest category), and how grantees did against their own targets.",topics/student-investment-account.md,104
