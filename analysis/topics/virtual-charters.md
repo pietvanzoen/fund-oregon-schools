@@ -57,7 +57,7 @@ written by `tools/derive_virtual_charters.py`.
   of its current or previous year's count (leaving out the charter) and the charter's at its current weighted count
   plus 10% of the difference between the two years. It applied from 2021-22 distributions
   [SRC:legislature/laws/2021orlaw0494.pdf p.1] [SRC:legislature/laws/2021orlaw0494.pdf p.2].
-- **2023 (Senate Bill 278, chapter 571).** Made the trigger a decrease in ADM "or ADMw", applying from 2022-23
+- **2023 (Senate Bill 278, chapter 571).** Made the trigger "a decrease in ADM or ADMw" (the student count or the weighted count), applying from 2022-23
   distributions [SRC:legislature/laws/2023orlaw0571.pdf p.1].
 - **2025 (House Bill 3038, chapter 386).** Added ORS 338.155(1)(d): students of a charter that is an approved
   recovery school are not counted as residents of its district for State School Fund purposes and are funded under
@@ -383,8 +383,8 @@ appropriation.
 - Charter contracts for the largest virtual charters: the actual pass-through percentages. Not found in Santiam
   Canyon's BoardBook (searched "charter contract" and "Oregon Charter Academy"), on Oregon Charter Academy's charter
   board and reporting pages, or on the Baker School District 5J's board and business office pages; the Fossil School
-  District 21J's were not found by web search, and the district's site (fossil.k12.or.us) and the school's
-  (fossilschools.com) blocked our browser with a bot check. A records request is #46.
+  District 21J's were not found by web search, and the district's site (`fossil.k12.or.us`) and the school's
+  (`fossilschools.com`) blocked our browser with a bot check. A records request is #46.
 - An official dollar total for State School Fund money paid for virtual charter students: none in the department's
   archived documents or the 2017 and 2019 Secretary of State reports. Asking the department is #47.
 - A 9-12 weighted count for Fossil Charter School and Paisley School: the High School Success allocations print only
