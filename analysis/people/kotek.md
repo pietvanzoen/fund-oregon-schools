@@ -26,14 +26,16 @@ Budget for 2027-29 in December [NEWS:NEWS-2026-salemreporter-1].
 - Introduced SB 141, the 2025 Education Accountability Act [SRC:ode/accountability/2025-12_sb141-progress-report.pdf p.5].
 
 ## On the funding formula
+- Analysis: Kotek has spoken about the formula, but as of Nov. 22, 2026, the archive has no bill, budget item or
+  formula design from her that replaces or changes enrollment as its basis. Neither statement below is a proposal:
+  the platform lists revisiting enrollment-based funding as a goal, and the Nov. 6 remarks float "student need" as a
+  possible basis.
 - Her 2026 platform includes revisiting enrollment-based funding [NEWS:NEWS-20260917-opb-1].
-- At her Nov 6, 2026 press conference, as quoted by KATU: "Maybe enrollment is the wrong marker. That was
+- At her Nov. 6, 2026, press conference, as quoted by KATU: "Maybe enrollment is the wrong marker. That was
   established almost 30 years ago. Maybe it has to be student need" [NEWS:NEWS-2026-katu-kotek-pps-1]. She added
-  that this "is a longer conversation than what is happening in districts right now"
+  that rethinking it "is a longer conversation than what is happening in districts right now"
   [NEWS:NEWS-2026-katu-kotek-pps-1].
 - The press conference video has not been archived or checked yet (#106).
-- Analysis: both statements are openings for discussion, not proposals. As of Nov 22, 2026 the archive has no bill,
-  budget item or formula design from her that replaces or changes enrollment as the basis.
 
 ## On online schools
 - In a statement to the Oregon Journalism Project, published Nov 3, 2026, Kotek said she "is actively reviewing the
@@ -50,8 +52,8 @@ Budget for 2027-29 in December [NEWS:NEWS-2026-salemreporter-1].
   to declare an emergency and call a special session for the fund unless legislative leaders indicate a three-fifths
   majority would approve it [SRC:gov/eo/eo-26-06_faq.pdf p.2] [SRC:gov/eo/eo-26-06_faq.pdf p.3]. (KTVZ described
   this as openness to tapping the fund [NEWS:NEWS-20260416-ktvz-1]; the FAQ itself is more guarded.)
-- Nov 6, 2026 press conference: KATU reports she does not support using one-time state reserves for PPS's budget
-  problems [NEWS:NEWS-2026-katu-kotek-pps-1].
+- Nov. 6, 2026, press conference: KATU reports she does not support using one-time state reserves for Portland Public
+  Schools' budget problems [NEWS:NEWS-2026-katu-kotek-pps-1].
 - Analysis: the April FAQ is conditional (no special session for the fund at that time unless a supermajority is
   lined up); the November statements, as reported, set her against one-time reserves for PPS and for ongoing costs.
 

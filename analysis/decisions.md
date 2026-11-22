@@ -113,15 +113,16 @@ its status quo estimate [SRC:ode/qec/2026_qem_report.pdf p.103].
 
 ## Changes to the funding formula {#formula-2027}
 
+- Analysis: as of Nov. 22, 2026, the archive has no formula proposal from Gov. Tina Kotek, and a web search found no
+  2027 committee assignment memos, so who will hear formula bills in 2027 isn't settled (#107).
 - The formula's weights and caps are set in ORS chapter 327 [SRC:legislature/ors/ors327.html]. See
   `topics/formula.md`.
-- Gov. Kotek, Nov 6, 2026, as quoted by KATU: "Maybe enrollment is the wrong marker. That was established almost 30 years ago. Maybe it has
-  to be student need," which she called "a longer conversation than what is happening in districts right now"
-  [NEWS:NEWS-2026-katu-kotek-pps-1].
-- House Democrats nominated Rep. Ben Bowman for speaker on Nov 20 [NEWS:NEWS-20261120-opb-1]; the speaker appoints
-  House committee chairs [NEWS:NEWS-20261120-occ-1]. The 2026 chairs are in `topics/formula.md`.
-- Analysis: as of Nov 22, 2026 the archive has no formula proposal from Kotek, and a web search found no 2027
-  committee assignment memos yet, so who will hear formula bills in 2027 isn't settled (#107).
+- Kotek, Nov. 6, 2026, as quoted by KATU: "Maybe enrollment is the wrong marker. That was established almost 30 years
+  ago. Maybe it has to be student need." She called rethinking it "a longer conversation than what is happening in
+  districts right now" [NEWS:NEWS-2026-katu-kotek-pps-1].
+- House Democrats chose Rep. Ben Bowman, D-Tigard, as their nominee for speaker on Nov. 20, 2026; the full House
+  votes in January [NEWS:NEWS-20261120-opb-1] [NEWS:NEWS-20261120-occ-1]. The speaker appoints House committee chairs
+  [NEWS:NEWS-20261120-occ-1]. The 2026 chairs are in `topics/formula.md`.
 
 <!-- site: decision formula-2027 -->
 
