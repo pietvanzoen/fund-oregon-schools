@@ -1,6 +1,6 @@
 # 0009. Runs don't split issues; scope is set when an issue is labelled `next`
 
-Status: accepted (2026-11-22, PR #PRNUM)
+Status: accepted (2026-11-22, PR #112)
 
 ## Context
 The work-issue skill told runs to split an issue that looked too big for one PR into sub-issues. Nightly runs split
