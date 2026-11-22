@@ -1,6 +1,6 @@
 # The Student Investment Account: what the money funds and what ODE reports it did
 
-Grantees have reported spending 98.1% to 99.4% of each year's Student Investment Account money, mostly on staff.
+Grantees have reported spending 98.1% to 99.4% of each year's Student Investment Account money, mostly on staff in the years with staff figures (2021-22 on).
 The Oregon Department of Education's outcome reports cover two years of targets, and they don't show whether the
 money changed outcomes (sources and figures below).
 
