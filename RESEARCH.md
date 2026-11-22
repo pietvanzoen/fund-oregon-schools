@@ -149,6 +149,8 @@ issues to it in the order they should run, and agents take the first free one.
 
 ## Writing so it gets used
 
+Wording rules (voice, verdict words, numbers, names, dates) are in `STYLE.md`; the clarity reviewer checks them.
+
 - **Answer first.** Lead with the answer, then the support (Pyramid Principle, bottom line up front).
 - **Always state the baseline**, and which benchmark a gap is measured against. A gap means nothing without its
   reference point.

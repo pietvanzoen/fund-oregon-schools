@@ -51,7 +51,7 @@ dismiss it over.
    "Analysis:"). Flag inference written as fact, and any **wrong section**: an inference among source facts, or a
    calculation shown as a source figure instead of a `[DER:...]` figure.
 7. **Fairness to named officials**: positions are described from what they said or did on the record, with dates.
-   No loaded words, no motives imputed, no "refused" or "ignored" unless the source says so. The same care
+   No loaded words (`STYLE.md`, verdict words), no motives imputed, no "refused" or "ignored" unless the source says so. The same care
    applies whichever party or side the official is on.
 8. **Counter-arguments**: where the change sets out a proposal or argument (e.g. using the Education Stability
    Fund), the main objection on the record is stated fairly too, if the archive has it.
