@@ -40,9 +40,9 @@ Budget for 2027-29 in December [NEWS:NEWS-2026-salemreporter-1].
   to declare an emergency and call a special session for the fund unless legislative leaders indicate a three-fifths
   majority would approve it [SRC:gov/eo/eo-26-06_faq.pdf p.2] [SRC:gov/eo/eo-26-06_faq.pdf p.3]. (KTVZ described
   this as openness to tapping the fund [NEWS:NEWS-20260416-ktvz-1]; the FAQ itself is more guarded.)
-- Nov. 6, 2026: KATU reports she rejected tapping one-time state reserves for PPS [NEWS:NEWS-2026-katu-kotek-pps-1].
+- Nov. 6, 2026: KATU reports she does not support using the state's one-time reserve funds for PPS's budget problems [NEWS:NEWS-2026-katu-kotek-pps-1].
 - Analysis: the April FAQ is conditional (no special session for the fund at that time unless a supermajority is
-  lined up); the November statements reject one-time reserves for PPS and for ongoing costs outright.
+  lined up); the November statements reject one-time reserves for PPS and for ongoing costs.
 
 ## On PPS closures
 - Oct 13, 2026 letter to Superintendent Armstrong and Board Chair Wang [SRC:gov/letters/2026-10-13_kotek-letter-to-pps-school-closures.pdf p.1]:
@@ -57,5 +57,5 @@ Budget for 2027-29 in December [NEWS:NEWS-2026-salemreporter-1].
   - Analysis: the letter is about process. It asks PPS to slow down for engagement but does not ask it to withdraw its
     plans, sets no timeline, and says nothing about state funding, the State School Fund or reserves [SRC:gov/letters/2026-10-13_kotek-letter-to-pps-school-closures.pdf p.1]. OPB's account
     [NEWS:NEWS-20261014-opb-1] is consistent with the text.
-- "Portland needs to do everything it possibly can to cut administrative costs and other things before it talks
-  about closing schools." [NEWS:NEWS-2026-katu-kotek-pps-1]
+- "Portland needs to do everything it possibly can to cut administrative costs and other things" before it
+  talks about closing schools (the end of the sentence is KATU's paraphrase) [NEWS:NEWS-2026-katu-kotek-pps-1]

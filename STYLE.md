@@ -53,8 +53,9 @@ covers something this file doesn't, follow AP. Why these choices: `adr/20261122-
 - **A legislator's own page** in `analysis/people/` gives party, chamber, district number and the district's area,
   cited.
 - **Where these come from:** the `party`, `district` and `area` columns of `analysis/people/people.csv`, cited to the
-  member's official page on the Legislature's site (its district line, e.g. "Democrat - District 14 - Beaverton &
-  Southwest Portland"). We don't use hometowns: most member pages don't state where the legislator lives. If a
+  member's official page on the Legislature's site: `area` is the places its district line lists (e.g. "Democrat -
+  District 14 - Beaverton & Southwest Portland"), in plain words. Those are the places the Legislature names, not
+  the district's full extent, so write "(Beaverton and Southwest Portland)", not "which covers …". We don't use hometowns: most member pages don't state where the legislator lives. If a
   person's columns are empty, use the title and full name, and don't guess.
 - **Agencies and groups:** full name, then a plain short form: "the Department of Administrative Services … the
   department", "the Quality Education Commission … the commission".
