@@ -101,30 +101,40 @@ its status quo estimate [SRC:ode/qec/2026_qem_report.pdf p.103].
 
 ## Changing or replacing the Quality Education Model {#cost-model-2027}
 
+- Senate Bill 1555 (2026), the main proposal to replace the Quality Education Model, did not pass: the commission's
+  October 2026 materials list it as "Did not pass" [SRC:ode/qec/minutes/2026-10-21.pdf p.78]. The Senate Committee
+  on Education met on it Feb. 10 and Feb. 12, 2026
+  [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.1], and it was still there when the 2026
+  session's final business concluded March 6
+  [SRC:ode/legislation/2026_summary-enacted-education-legislation.pdf p.4]. The Legislature's bill-tracking site
+  still lists it in that committee, with no chapter number
+  [SRC:legislature/bills/2026R1_SB1555_overview.html]. A 2026 overhaul effort led by Ruiz and Sen. Sollman was
+  unsuccessful [NEWS:NEWS-20260617-occ-1].
 - A legislative concept to move the cost model to the Legislative Policy and Research Office
   [SRC:legislature/olis/2025I1/311607_jpea-legislative-concepts.pdf p.1] became SB 1555 (2026), which would also
-  abolish the Quality Education Commission [SRC:legislature/bills/2026R1_SB1555_overview.html].
-- A 2026 overhaul effort led by Ruiz and Sen. Sollman was unsuccessful [NEWS:NEWS-20260617-occ-1]. SB 1555 had
-  hearings in the Senate Committee on Education on Feb 10 and Feb 12, 2026
-  [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.1], and OLIS still lists it there, with no
-  chapter number [SRC:legislature/bills/2026R1_SB1555_overview.html], and the commission's Oct 2026 materials list it
-  as "Did not pass" [SRC:ode/qec/minutes/2026-10-21.pdf p.78]; the session's final business concluded March 6
-  [SRC:ode/legislation/2026_summary-enacted-education-legislation.pdf p.4].
-- As introduced, SB 1555 would have priced new goals (standard-district compliance, licensed and qualified teachers,
-  the SB 141 targets), had a contractor of the Legislative Policy and Research Office build a new model at least
-  every eight years, and had the Joint Interim Committee on Ways and Means judge sufficiency
-  [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.1] [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.2]
-  [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.3] [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.1]. For the report published after Nov 1, 2027 (the next one, after the 2027 session), the Department of Administrative Services would have adjusted the costs in the report adopted Nov 19, 2025
-  for inflation and other costs,
-  rather than use a new model, which was due by Feb 1, 2028 [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.4].
-- On record from the commission, in response to the outside evaluation: it is exploring
-  more adequacy goals and agrees more prototype schools should be added, but has lacked the staff to do so
+  have abolished the Quality Education Commission [SRC:legislature/bills/2026R1_SB1555_overview.html].
+- As introduced, SB 1555 would have priced new goals (every district meeting the requirements of a "standard"
+  school district, licensed and qualified teachers, the SB 141 targets), had a contractor of the Legislative Policy
+  and Research Office build a new model at least every eight years, and had the Joint Interim Committee on Ways and
+  Means judge sufficiency [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.1]
+  [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.2] [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.3]
+  [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.1].
+- For the report published after Nov. 1, 2027 (the next one, after the 2027 session), the Department of
+  Administrative Services would have adjusted the costs in the report adopted Nov. 19, 2025 for inflation and other
+  costs, rather than use a new model, which was due by Feb. 1, 2028
+  [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.4]. That is the JPEA's adequacy report
+  [SRC:legislature/olis/2025I1/310959_jpea-adequacy-report.pdf p.1], which found 2025-27 funding "effectively closes
+  the funding gap" [SRC:legislature/olis/2025I1/310695_jpea.pdf p.4].
+- On record from the commission, in response to the outside evaluation: it is exploring more adequacy goals and
+  agrees more prototype schools should be added, but has lacked the staff to do so
   [SRC:ode/qec/2026_qem_report.pdf p.99]. Hearing testimony on SB 1555 isn't archived.
-- Analysis: by the bill's timetable, the report published after Nov 1, 2027 is the one on 2027-29 funding. A new cost model would also change the benchmarks the other decisions are measured against: the full
-  QEM and status quo figures are QEM scenarios, while the CSL and adopted amounts are not. A replacement built on
-  SB 1555's goals would price a different target, so its figure would not be directly comparable with the QEM's. See
-  `topics/quality-education-model.md` (SB 1555 section), and `topics/qem-practices-outcomes.md` for what the model assumes full
-  funding buys and the 2025 outside evaluation of it.
+- Analysis: the report published after Nov. 1, 2027 would follow the 2027 session, so it would be the one on 2027-29
+  funding. A new cost model would also change the benchmarks the other decisions are measured against: the full QEM
+  and status quo figures are QEM scenarios, while the current service level and adopted amounts are not. A
+  replacement built on SB 1555's goals would price a different target, so its figure would not be directly
+  comparable with the QEM's. See `topics/quality-education-model.md` (SB 1555 section), and
+  `topics/qem-practices-outcomes.md` for what the model assumes full funding buys and the 2025 outside evaluation of
+  it.
 
 <!-- site: decision cost-model-2027 -->
 
