@@ -45,15 +45,17 @@ covers something this file doesn't, follow AP. Why these choices: `adr/20261122-
 
 ## Names
 
-- **First mention in running text:** AP style: title, full name, and for legislators party and hometown (the city
-  they live in, as their member page or biography on the Legislature's site states it): "Gov. Tina Kotek",
-  "Rep. Jane Doe, D-Salem". Add the role when it helps a reader place them: "Sen. Jane Doe, D-Salem, who chairs
-  the Senate Education Committee". After that, last name only.
-- **A legislator's own page** in `analysis/people/` gives party, chamber, district number and hometown, cited.
-- **Where these come from:** the `party`, `district` and `hometown` columns of `analysis/people/people.csv`, cited
-  to the member's official pages (the home page's district line names the district's area, not a hometown). The
-  rule applies when the archive has it: if a person's columns are empty, use the title and full name, and don't
-  guess.
+- **First mention in running text:** AP title and full name. For legislators, add party and district, and say
+  where the district is at least once per page (most readers don't know district numbers): "Sen. Jane Doe,
+  D-District 14 (Beaverton and Southwest Portland)". After that, "Doe" or "Sen. Doe, D-District 14" is enough. Add
+  the role when it helps a reader place them: "…, who chairs the Senate Education Committee". Governors and other
+  statewide officials need no district: "Gov. Tina Kotek".
+- **A legislator's own page** in `analysis/people/` gives party, chamber, district number and the district's area,
+  cited.
+- **Where these come from:** the `party`, `district` and `area` columns of `analysis/people/people.csv`, cited to the
+  member's official page on the Legislature's site (its district line, e.g. "Democrat - District 14 - Beaverton &
+  Southwest Portland"). We don't use hometowns: most member pages don't state where the legislator lives. If a
+  person's columns are empty, use the title and full name, and don't guess.
 - **Agencies and groups:** full name, then a plain short form: "the Department of Administrative Services … the
   department", "the Quality Education Commission … the commission".
 
