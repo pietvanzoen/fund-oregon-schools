@@ -1,7 +1,7 @@
 # Online charters: State School Fund money that follows students
 
 State School Fund money for students of online (virtual) charter schools is paid first to the district where the
-charter is located; a district that sponsors a charter must pass on at least 80% (K-8) or 95% (grades 9-12) of its
+charter is located. A district that sponsors a charter must pass on at least 80% (K-8) or 95% (grades 9-12) of its
 General Purpose Grant per weighted student [SRC:legislature/ors/ors338.html]. Our estimate puts the formula revenue
 attributable to virtual charters at about $257 million in 2025-26 [DER:virtual_charters/gpg_attributable_2025_26],
 roughly 3.3% of the school district share [DER:virtual_charters/gpg_attributable_share_2025_26]. It multiplies each
