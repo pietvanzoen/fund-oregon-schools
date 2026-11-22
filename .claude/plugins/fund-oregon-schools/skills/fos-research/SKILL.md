@@ -54,6 +54,10 @@ python3 tools/linkify.py analysis/decisions.md                  # print with cit
 - A `[DER:...]` figure is this archive's own calculation, never an official number. Say so ("by the archive's own
   sum", "the archive estimates"), keep the DER tag or link to its row, and give an `est` figure's assumptions.
   Don't attribute it to the agency whose data went into it.
+- Before stating what a source says (a date, a deadline, a figure, who did what), read the cited page itself, as
+  the fact-checker would: not a summary, a news record or an earlier reading. (An answer once gave a 2027 report
+  as due within 180 days of the session, from a bill's general rule, missing the section that applies that rule
+  only from 2029.)
 - Give citations as links (`tools/linkify.py`), keeping the tag when the text will be reused elsewhere.
 - Quotes verbatim and short; never smooth a quote. Hearing transcripts (`<file>.mp4.txt`) are machine-made:
   verify a quote by listening at its timestamp, or don't quote it. Text below a `--- OCR of this page` line
