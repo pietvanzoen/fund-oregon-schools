@@ -3,8 +3,6 @@ message: "'%s' takes a side. Use a comparison (less than, more than) or attribut
 level: warning
 ignorecase: true
 tokens:
-  - cut
-  - cuts
   - shortfall
   - record high
   - record-high
