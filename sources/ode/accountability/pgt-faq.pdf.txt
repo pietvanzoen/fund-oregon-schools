@@ -1,0 +1,226 @@
+Performance Growth Targets (PGTs) FAQs
+
+Are Performance Growth Targets required to be based on historical data?
+Yes, statutorily (SB 141), PGTs are required to be based on historical data. In order to support
+this, ODE provided data sheets and a Data Visualization Dashboard to each school district and
+charter school with their localized data.
+
+What does a Minimum N-Size of 10 students in each of the past 4 years mean?
+A minimum N-Size (denominator) of 10 students means that a metric will only be required
+when there are at least 10 students included in the total student population for that specific
+metric for each of the last four years of data. In this context, the denominator refers to the full
+group of students who are eligible to be included in the metric calculation, not just the students
+who met the outcome or performance measure (numerator). If there are fewer than 10 total
+students in the population (included in the denominator for a metric), school districts and
+charter schools are not required to set a PGT for that metric. If there are less than four years of
+available data, the minimum N-Size will apply to each year of available data.
+
+Does each district or charter school need to set a baseline and gap closing target
+for each metric?
+Generally yes; however, some entities may have metrics below the N-size requirement and
+won't set targets for those metrics.
+
+Who is in the Combined Focal Student Group for gap-closing targets?
+Per OAR 581-003-0001 the focal student group is comprised of the following students:
+○ Students experiencing poverty
+○ Students in foster care
+○ Students who are homeless
+○ Students with disabilities
+○ Emerging bilingual students
+○ Migrant or recently arrived students
+○ Justice involved youth
+
+Oregon Department of Education
+
+○ Pregnant/Parenting students, or students experiencing a pregnancy or
+parenting-related condition
+○ American Indian/Alaska Native students
+○ Asian students
+○ Black/African American students
+○ Hispanic or Latino/a/e students
+○ Native Hawaiian/Pacific Islander students
+○ Multiracial students
+
+Who can submit targets for a school district or charter school?
+School Districts and charter schools must submit their own targets. Neither ODE nor an ESD can
+submit Performance Growth Targets on behalf of a school district or charter school.
+
+What is the expected role of school boards throughout the PGT co-development
+process?
+PGTs do not require adoption or approval by the school board. School Districts and charter
+schools should present their targets to the board and are required to report to their board
+annually on progress towards meeting their targets.
+
+What data will ODE provide, and in what formats will it be available for districts and
+charters schools as well as partners to analyze and use.
+ODE will provide suppressed and unsuppressed data sheets, as well as a data dashboard to
+show historic data. This information will be provided directly to school districts and charter
+schools. As a reminder, it is OK for suppressed data to be shared publicly but unsuppressed
+data must be treated as confidential and only shared using data security protocols.
+
+How will entities submit performance growth targets?
+Performance Growth Targets will be submitted to ODE via the Smartsheet WorkApp.
+
+Oregon Department of Education
+
+What is the timeline to submit performance growth targets to ODE?
+
+What if the Combined Focal Student Group gap is really small? Does it still have
+to close?
+Very small gaps of a few percentage points may not close in four years, depending on n-size,
+metric fluctuations or other statistical factors. This will be reviewed in conversation with school
+district and charter school leaders as part of the annual performance review.
+
+Will ODE provide data for additional and optional metrics? Are school districts
+and charter schools required to set gap-closing targets for any additional and
+optional metrics?
+ODE will not be providing data for additional and optional metrics that school districts or
+charter schools opt to include in addition to the seven common metrics and their selected local
+metric. Any additional and optional metrics chosen by the school district or charter school will
+be expected to include both baseline and gap-closing targets.
+
+Do baseline targets have to reach their similar district target?
+No. School districts and charter schools must show progress toward the Similar District
+Performance Growth Targets for their Similar District Cluster. Targets that do not meet the
+Similar District Performance Growth Targets will be reviewed in conversation with school
+district and charter school leaders as part of the annual performance review.
+
+What are the Similar District Clusters?
+ODE utilized a clustering method to calculate the statistical “nearest neighbor” of districts
+based on student demographic and community attributes. Similar District Clusters were
+determined through an intentional and research-based methodology.
+
+Oregon Department of Education
+
+The Similar District Clusters are available to download on the ODE Accountability page.
+
+What are the Similar District Performance Growth Targets
+Similar District Performance Growth Targets are available to download on the ODE PGT
+Resources page.
+
+What does Performance Growth Targets offer that existing information doesn’t
+provide?
+Performance Growth Targets create a more coherent and improvement-focused accountability
+structure across Oregon. Existing accountability systems often emphasize compliance, isolated
+metrics, or point-in-time performance. This approach is designed to:
+➔ Connect accountability to long-term improvement planning
+➔ Align local strategy with statewide outcomes
+➔ Focus attention on both overall performance and disparities
+➔ Encourage districts to intentionally connect investments and outcomes
+➔ Establish shared responsibility for statewide progress
+
+How will Performance Growth Targets improve student outcomes?
+PGTs can improve outcomes when districts and charters use the targets as part of ongoing
+strategic planning and continuous improvement. The intent is for districts to:
+➔ Align funding and staffing decisions to target areas
+➔ Monitor implementation and outcomes over time
+➔ Use data to adjust strategies
+➔ Focus on long-term improvement rather than annual compliance activities
+The targets themselves do not improve outcomes. The improvement comes from the quality of
+the strategies, implementation, and monitoring connected to the targets.
+
+How should districts and charters align Performance Growth Targets with
+existing improvement plans and strategic priorities?
+PGTs should not be treated as a separate initiative. Instead, they should be used to help bring
+alignment to:
+
+Oregon Department of Education
+
+➔ Strategic plans
+➔ School improvement efforts
+➔ Federal program planning
+➔ Budget priorities
+➔ Continuous improvement systems
+A strong implementation integrates these efforts into one coherent strategy.
+
+How will ODE distinguish between ambitious targets and unrealistic targets?
+ODE will consider:
+➔ Historical trends
+➔ Similar District Performance Growth Targets
+➔ Local conditions and starting points
+➔ Planned investments and implementation capacity
+➔ Expected timing of improvement efforts
+Targets should demonstrate meaningful progress while remaining grounded in evidence and
+realistic implementation assumptions.
+
+How should districts and charters account for initiatives whose impact may not
+appear immediately in lagging indicators?
+Districts should recognize that many meaningful improvement efforts require time before
+measurable outcomes are achieved. For example:
+➔ Early literacy investments make take years before statewide improvements become
+visible
+➔ Attendance interventions may improve engagement before academic outcomes shift
+➔ Professional learning may strengthen instructional practice before student performance
+changes.
+Because many of the required metrics are lagging indicators, districts and charters should
+consider:
+➔ Realistic timelines
+➔ Communication of expected implementation phases, and
+➔ Monitoring leading indicators alongside accountability metrics
+Oregon Department of Education
+
+➔ Staying the course with strong strategies to improve outcomes, when outcomes
+changes are not immediately visible.
+
+How should districts and charters use leading indicators when the required
+metrics are primarily lagging indicators?
+Leading indicators are critical for successful implementation. Lagging indicators show whether
+outcomes improved after the fact. Leading indicators help districts determine whether
+implementation is moving in the right direction before final results are available.
+Examples of leading indicators may include:
+➔ Interim assessment growth,
+➔ Student engagement measures,
+➔ Attendance intervention participation,
+➔ Early warning system data,
+➔ Course completion trends,
+➔ Professional learning participation,
+➔ Instructional implementation evidence,
+➔ Family engagement participation, or
+➔ School climate indicators.
+Strong implementation requires districts to monitor both: outcomes and the conditions and
+practices that influence those outcomes.
+
+How should districts and charters balance overall improvement with gap-closing
+expectations?
+School districts and charter schools should pursue strategies that improve outcomes for all
+students while intentionally supporting historically underserved groups. Effective approaches
+expand access to high-quality instruction, strengthen support systems, and address barriers to
+success, so progress is shared broadly. The goal is to advance both overall outcomes and equity
+together, ensuring all students experience meaningful growth.
+
+What does successful statewide implementation look like after four years?
+After four years, success would include stronger student outcomes, reduced disparities, better
+alignment between investments and results, and more effective use of data across Oregon. It
+
+Oregon Department of Education
+
+would also reflect a more coherent improvement system and greater public
+understanding of progress.
+At the district level, success means PGTs are fully integrated into ongoing work, informing
+strategic planning, guiding decisions, and aligning improvement efforts. Over time,
+accountability shifts from a compliance exercise to a tool for continuous learning,
+implementation and results.
+
+How will we set targets for Academic Growth if we select that as our local
+metric?
+2026–27 will serve as the baseline year for academic growth, and prior-year data will not yet be
+available to establish targets. If your district or charter school selects Academic Growth as a
+local metric for 2026–27 you should enter “N/A” or an asterisk (*) for each of the four years of
+Performance Growth Targets. Ahead of the 2027–28 school year, once one year of baseline
+data is available, districts and charter schools who have selected Academic Growth as their
+local metric will be required to set targets for the remaining three years of the PGT period. At
+that point, you will not be able to change your selected Local Metric. Districts selecting
+Academic Growth are committing to this metric for the duration of the PGT cycle.
+
+Are districts or charter schools required to present PGTs to their governing
+board?
+No, Districts and charter schools are not required to present their PGTs to their governing
+board as part of the PGT Co-Development Process. Districts and charter schools are welcome to
+share their PGT work with their governing board as part of their process in setting targets, but
+this is not a requirement and board approval is not needed. Districts and charter schools are
+required to present an annual report on progress towards meeting their PGTs to their board in
+an open meeting and provide an opportunity for public comment.
+
+Oregon Department of Education
+
+
