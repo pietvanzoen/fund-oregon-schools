@@ -121,7 +121,7 @@ Least new code that fully does the job; adapted from the ponytail rules
 - **Pick the first option that fully works, in this order:** skip it (say so in one line); reuse what's in
   `tools/` (`common.py`, `check_citations.py`, the existing patterns); the Python standard library; a one-liner a
   reader gets at a glance; otherwise the minimum code. Tools in `tools/` stay stdlib-only (heavier jobs run only in GitHub Actions with pinned versions, like OCR,
-  transcripts, the site build and the Vale style check; `adr/0009`): no new dependencies, and no
+  transcripts, the site build and the Vale style check; `adr/20261122-1551-vale-in-ci-stdlib-in-tools.md`): no new dependencies, and no
   framework for tests.
 - **No unrequested extras:** no abstractions, wrappers, options, config or "for later" code. Deleting beats adding.
   Prefer extending an existing script over a new one.

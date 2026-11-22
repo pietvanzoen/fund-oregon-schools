@@ -1,4 +1,4 @@
-# 0009. Python tools stay stdlib-only; heavier checks run in GitHub Actions
+# Python tools stay stdlib-only; heavier checks run in GitHub Actions
 
 Status: accepted (2026-11-22, PR #109)
 

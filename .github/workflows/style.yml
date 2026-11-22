@@ -1,4 +1,4 @@
-# Vale style check on reader-facing pages. Comments on added lines only; never blocks a merge. ADR 0009.
+# Vale style check on reader-facing pages. Comments on added lines only; never blocks a merge. adr/20261122-1551-vale-in-ci-stdlib-in-tools.md.
 name: style
 on:
   pull_request:
