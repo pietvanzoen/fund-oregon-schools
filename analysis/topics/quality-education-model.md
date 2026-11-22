@@ -39,6 +39,84 @@ Decisions this informs: `decisions.md#ssf-2027-29`, `decisions.md#cost-model-202
 - In Nov 2026, Ruiz described a long-term vision of a new funding system with an adequate resource needs cost model
   that increases the number of prototype school models [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt].
 
+### Senate Bill 1555 (2026): what the JPEA proposed in the QEM's place
+
+- **Status.** Senate Bill 1555 did not pass. It was still in the Senate Committee on Education when the 2026
+  session's final business concluded March 6 [SRC:ode/legislation/2026_summary-enacted-education-legislation.pdf p.4]
+  [SRC:legislature/bills/2026R1_SB1555_overview.html], and the commission's October 2026 meeting materials list
+  "2026 Senate Bill 1555 (Did not pass)" [SRC:ode/qec/minutes/2026-10-21.pdf p.78]. The bullets below say what it
+  would have done as introduced.
+- **Who does the work today.** The Quality Education Commission is appointed by the governor and decides what goes
+  into the QEM; the Oregon Department of Education runs the model; in odd-numbered years the JPEA considers the QEM
+  report and issues its own sufficiency determination [SRC:legislature/olis/2026R1/313103_sb1555-genesis-memo.pdf p.1].
+- **Where the bill came from.** In 2024 some commissioners asked for money to "modernize" the QEM; SB 1552 (2024)
+  required an outside evaluation first, and the American Institutes for Research (AIR) found that in many ways the
+  QEM was not aligned with professional best practices [SRC:legislature/olis/2026R1/313103_sb1555-genesis-memo.pdf p.1].
+  The JPEA introduced SB 1555 to carry out the evaluation's recommendations and the nine opportunities for
+  improvement in its November 2025 report [SRC:legislature/olis/2026R1/313103_sb1555-genesis-memo.pdf p.2]. It was
+  the JPEA's legislative concept LC 43, in the committee's Jan. 15, 2026 memo of legislative concepts for
+  introduction [SRC:legislature/olis/2025I1/311607_jpea-legislative-concepts.pdf p.1], and was introduced at the
+  JPEA's request [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.1].
+- **New quality goals.** The goals the cost model would have priced were: every district meeting the requirements
+  to count as a "standard" school district; every teacher licensed or registered and qualified for the subject or
+  grade taught; and meeting the statewide targets for the metrics in ORS 327.165
+  [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.1], the metrics identified in SB 141 (2025)
+  [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.1]. Under current law a district is
+  presumed standard until the state finds it deficient; the bill would have redefined it as complying with state and
+  federal law [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.4]. It would also have repealed the existing
+  goals language [SRC:legislature/olis/2025I1/311607_jpea-legislative-concepts.pdf p.1].
+- **Who would have built the model.** The Legislative Policy and Research Director would have contracted with a
+  public or private entity to build a cost model identifying the resources needed to meet those goals and their
+  cost, using research, evidence and the professional judgment of currently practicing Oregon educators
+  [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.2]. The prototypes would have been of schools and school
+  districts, taking into account differences in size and location, the student groups that get extra weight in the
+  formula (ORS 327.013 (1)(c)) and fixed costs [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.2]
+  [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.3] [SRC:legislature/ors/ors327.html]; the model would also have
+  prioritized resources in case of limited funding [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.2]
+  [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.3]. The resource specifications for each prototype would
+  have gone to the Department of Education to share with districts and post on its website
+  [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.3].
+- **Who would have judged sufficiency.** The Joint Interim Committee on Ways and Means would have prepared the
+  sufficiency report, using the cost model, within 180 days after an odd-year session adjourns
+  [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.2]. The bill would have abolished the JPEA and the Quality
+  Education Commission [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.1] by repealing ORS 171.857 and
+  ORS 327.500, among others, on Jan. 1, 2027 [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.19]; those are
+  the statutes for the Committee on Public Education Appropriation and the Quality Education Commission
+  [SRC:legislature/ors/ors171.html] [SRC:legislature/ors/ors327.html]. Because it did not pass, both remain in law.
+- **How often.** A new cost model at least once every eight years; in the two-year budget periods between, the
+  Department of Administrative Services would have updated the model's cost estimates for inflation and other costs,
+  consistent with how the governor's budget is prepared [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.3].
+  The research office would not have had to contract for a model if the Legislature didn't fund the contract
+  [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.3].
+- **Timing.** The first model was to be finished by Feb. 1, 2028, and first used for the report published after
+  Nov. 1, 2029; the new sections, including the 180-day deadline [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.2],
+  would have applied only from then. For the report
+  published after Nov. 1, 2027 (the next one, after the 2027 session), the Department of Administrative Services would have adjusted the
+  costs in the report adopted Nov. 19, 2025 for inflation and other costs
+  [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.3] [SRC:legislature/bills/2026R1_SB1555_introduced.pdf p.4].
+  That is the JPEA's adequacy report [SRC:legislature/olis/2025I1/310959_jpea-adequacy-report.pdf p.1].
+- **Amendments.** Legislative Policy and Research Office staff summarized three proposed amendments (-1, -2, -5).
+  All three would have replaced the standard-school-district goal with complying with applicable state and federal
+  laws; the -2 and -5 would have added a public hearing before the model is adopted, professional judgment panels of
+  currently practicing Oregon educators, a statewide panel of them to make final decisions (-2) or final
+  recommendations (-5) on the resources in the model, and a preliminary report; the -5 would also have changed the
+  interval for a new model to six years [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.2].
+  The summary says it was not adopted or endorsed by the committee; the amendment texts and any committee votes on
+  them aren't archived [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.1].
+- **The commission's side.** Responding to the AIR evaluation in its latest QEM report, the commission says it is
+  exploring more adequacy goals and agrees more prototype schools should be added but has lacked the staff to do so
+  [SRC:ode/qec/2026_qem_report.pdf p.99]; see `topics/qem-practices-outcomes.md` for its response in full.
+- **Hearings and issues raised.** The Senate Committee on Education met on it Feb. 10 and Feb. 12, 2026; issues
+  discussed included the credibility of the current and proposed systems, the interval between cost model studies,
+  current sufficiency and district deficits, and the dedication of those who have served as Quality Education
+  Commissioners [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.1]. Hearing testimony and
+  recordings aren't archived.
+- **Where the record shows it stopped.** The Legislature's bill-tracking site (OLIS), as archived on Nov. 21, 2026,
+  lists the bill's current location as the Senate Committee on Education, with no chapter number (an enacted bill
+  gets one) [SRC:legislature/bills/2026R1_SB1555_overview.html]. The Oregon Department of Education's summary of
+  enacted 2026 education legislation does not list it
+  [SRC:ode/legislation/2026_summary-enacted-education-legislation.pdf].
+
 ## Derived figures
 
 None: every figure above is stated in a cited source.
@@ -56,6 +134,24 @@ not with the CSL, so they aren't comparable with the figures above.
 The QEM is the state's own estimate, but it is contested: the Legislature's committee found 2025-27 funding sufficient
 by it while criticizing its method, and the 2027 Legislature may replace it. A gap measured against the QEM should be
 read as a gap against one benchmark.
+
+**If the QEM is changed or replaced.** SB 1555 did not pass, so the Quality Education Commission and the QEM remain in
+law, and the 2026 QEM is the commission's estimate on record for 2027-29. Of the comparison figures above, the full
+QEM and the status quo are QEM scenarios and would lose their standing as the state's benchmark if the model were
+replaced; the current service level (a Department of Administrative Services calculation), the adopted 2025-27
+amount and, once released, the governor's 2027-29 budget do not depend on it.
+
+If the 2027 Legislature passed a bill shaped like SB 1555 as introduced, the yardstick for 2027-29 would not be the
+2026 QEM. The report published after Nov. 1, 2027 would follow the 2027 session, so it would be the one on 2027-29
+funding. For it, the Department of Administrative Services would adjust the costs in the JPEA's Nov. 19, 2025 report (the one that found
+2025-27 funding closes the gap) for inflation and other costs. A new model would come later: the 2026 bill's dates
+put the first one in 2028, for the report after Nov. 1, 2029. A 2027 bill could set other dates.
+
+The goals would change too, from today's goals to standard-district compliance, licensed and qualified teachers, and
+the SB 141 targets, so a dollar figure from a new model would price a different target than the QEM's and would not
+be directly comparable with it. Then "the gap" would depend on which estimate a reader uses, and on who built it: a
+governor-appointed commission (today) or a contractor hired by the Legislature's research office, with a
+legislative committee judging sufficiency in both cases.
 
 Per-student spending: a claim that Oregon spends above the national average per student is not yet sourced here. The
 QEM report's ranking is of state-sourced funding, which is a different measure from total spending.

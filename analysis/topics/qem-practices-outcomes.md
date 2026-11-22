@@ -149,7 +149,7 @@ and `data/qem_gap.csv`. Decisions this informs: `decisions.md#cost-model-2027`.
   [SRC:legislature/olis/2025I1/311607_jpea-legislative-concepts.pdf p.1]. The JPEA introduced SB 1555 (2026) to
   carry out its recommendations [SRC:legislature/olis/2026R1/313103_sb1555-genesis-memo.pdf p.2], including that
   move [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.1]. A 2026 overhaul effort led by Ruiz and Sen.
-  Sollman was unsuccessful [NEWS:NEWS-20260617-occ-1].
+  Sollman was unsuccessful [NEWS:NEWS-20260617-occ-1]; SB 1555 did not pass [SRC:ode/qec/minutes/2026-10-21.pdf p.78].
 
 ### The practices the commission recommends (2026)
 - The 2026 best-practices section is a synthesis of white papers by ODE and Educator Advancement Council experts,
