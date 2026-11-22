@@ -13,8 +13,8 @@ Decisions this informs: `decisions.md#formula-2027`. Open research: #17, #18, #1
 - **Charters.** A sponsoring district must pass through at least 80% (K-8) or 95% (9-12) of its General Purpose
   Grant per ADMw to a public charter school it sponsors, virtual ones included [SRC:legislature/ors/ors338.html]; see
   `topics/virtual-charters.md`.
-- Gov. Tina Kotek's second-term platform includes revisiting enrollment-based funding [NEWS:NEWS-20260917-opb-1].
-- At a Nov. 6, 2026, press conference she said, as quoted by KATU: "Maybe enrollment is the wrong
+- Gov. Kotek's second-term platform includes revisiting enrollment-based funding [NEWS:NEWS-20260917-opb-1].
+- At a Nov. 6, 2026, press conference Gov. Tina Kotek said, as quoted by KATU: "Maybe enrollment is the wrong
   marker. That was established almost 30 years ago. Maybe it has to be student need." She called rethinking it "a
   longer conversation than what is happening in districts right now" [NEWS:NEWS-2026-katu-kotek-pps-1].
 - **Enrollment as the basis.** The formula counts students by weighted average daily membership: the district's
@@ -32,6 +32,7 @@ Decisions this informs: `decisions.md#formula-2027`. Open research: #17, #18, #1
   appoints House committee chairs and members [NEWS:NEWS-20261120-occ-1]. In the Senate, the 2026 assignments were
   made by Wagner as Senate President [SRC:legislature/appointments/2026_senate-committee-assignments.pdf p.1].
 - In 2026, Rep. Zach Hudson chaired the House Education Committee
+  [SRC:legislature/appointments/2026-01-23_house-committee-assignments.pdf p.1]
   [SRC:legislature/appointments/2026-01-23_house-committee-assignments.pdf p.2], and Sen. Lew Frederick chaired the
   Senate Committee on Education [SRC:legislature/appointments/2026_senate-committee-assignments.pdf p.2].
 - In 2026, the co-chairs of the Ways and Means Education Subcommittee, which takes up the State School Fund budget
@@ -50,8 +51,7 @@ None here; online charter figures are in `topics/virtual-charters.md`.
 Still to research: HB 2953's final status (#17), how closures change transportation costs (#18), the English learner
 and poverty weights (#19), and the 2027 reform proposals (#25).
 
-As of Nov. 22, 2026, the archive has no formula proposal from Kotek. It has two statements from her on
-enrollment-based funding: her platform and the Nov. 6 press conference. The Nov. 6 remarks float "student need" as a
+As of Nov. 22, 2026, the archive has no formula proposal from Kotek. Her Nov. 6 remarks float "student need" as a
 possible basis, with no design, cost or timeline, and she framed it as a longer conversation.
 
 If a formula change is proposed in 2027, it would go to the House Education Committee and the Senate Committee on

@@ -24,7 +24,7 @@
 | 2026-11-17 | PPS Board's 2027 legislative agenda cites a $12.57B CSL | [PPSARCH:BB:14673756 p.1] |
 | 2026-11-18 | November revenue forecast: net General Fund revenue for 2027-29 up $233.5M; available resources up $244.6M | [SRC:fiscal/oea/2026-12_forecast.pdf p.1] [SRC:fiscal/oea/2026-12_forecast.pdf p.63] |
 | 2026-11-19 | Rep. Ruiz, after an OSBA panel, posts an initial proposal for one-time Education Stability Fund PERS relief | [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt] |
-| 2026-11-20 | House Democrats nominate Rep. Ben Bowman, D-Tigard, for speaker over Speaker Julie Fahey; the full House votes in January | [NEWS:NEWS-20261120-opb-1] |
+| 2026-11-20 | House Democrats nominate Rep. Ben Bowman, D-Tigard, for speaker over Speaker Julie Fahey; the full House votes in January | [NEWS:NEWS-20261120-opb-1] [NEWS:NEWS-20261120-occ-1] |
 | 2026-12-01 | Governor's 2027-29 recommended budget due | [SRC:legislature/ors/ors291.html] [NEWS:NEWS-2026-salemreporter-1] |
 | 2026-12-01 to 12-03 | Legislative committee days (scheduled) | [SRC:legislature/calendar/2026_interim-calendar.pdf] |
 | 2027-01-19 | 2027 session begins (Tuesday after Martin Luther King Jr. Day) | [SRC:legislature/ors/ors171.html] [SRC:reference/2026-09-30_opdc-navigating-2027-session.pdf] |

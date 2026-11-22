@@ -27,10 +27,8 @@ Budget for 2027-29 in December [NEWS:NEWS-2026-salemreporter-1].
 
 ## On the funding formula
 - Analysis: Kotek has spoken about the formula, but as of Nov. 22, 2026, the archive has no bill, budget item or
-  formula design from her that replaces or changes enrollment as its basis. Neither statement below is a proposal:
-  the platform lists revisiting enrollment-based funding as a goal, and the Nov. 6 remarks float "student need" as a
-  possible basis.
-- Her 2026 platform includes revisiting enrollment-based funding [NEWS:NEWS-20260917-opb-1].
+  formula design from her that replaces or changes enrollment as its basis. Her Nov. 6 remarks float "student need"
+  as a possible basis; they are not a proposal.
 - At her Nov. 6, 2026, press conference, as quoted by KATU: "Maybe enrollment is the wrong marker. That was
   established almost 30 years ago. Maybe it has to be student need" [NEWS:NEWS-2026-katu-kotek-pps-1]. She added
   that rethinking it "is a longer conversation than what is happening in districts right now"
