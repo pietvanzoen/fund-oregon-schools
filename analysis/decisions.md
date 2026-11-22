@@ -101,7 +101,7 @@ its status quo estimate [SRC:ode/qec/2026_qem_report.pdf p.103].
 
 ## Changing or replacing the Quality Education Model {#cost-model-2027}
 
-- Senate Bill 1555 (2026), the main proposal to replace the Quality Education Model, did not pass: the commission's
+- Senate Bill 1555 (2026), the JPEA's bill to replace the Quality Education Model, did not pass: the commission's
   October 2026 materials list it as "Did not pass" [SRC:ode/qec/minutes/2026-10-21.pdf p.78]. The Senate Committee
   on Education met on it Feb. 10 and Feb. 12, 2026
   [SRC:legislature/olis/2026R1/313691_sb1555-staff-measure-summary.pdf p.1], and it was still there when the 2026
