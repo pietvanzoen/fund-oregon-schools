@@ -34,8 +34,10 @@ python3 tools/check_citations.py
 ```
 
 ## What's in progress and what's next
-Open issues carry one status label: `in progress` (being worked; agents add it when they start), `next` (up next,
-picked first by the scheduled run) or `later` (backlog). Bookmark these:
+Open issues carry one status label: `in progress` (being worked; agents add it when they start), `next` (vetted and
+ready) or `later` (backlog). The order work happens in is the pinned [Research queue](https://github.com/pietvanzoen/fund-oregon-schools/issues?q=is%3Aopen+label%3Aqueue)
+issue: the nightly run, and any session not given an issue number, takes the first free issue in its list, and does
+nothing if none is free. Piet reorders it by editing the list. Bookmark these:
 - [In progress](https://github.com/pietvanzoen/fund-oregon-schools/issues?q=is%3Aopen+label%3A%22in+progress%22)
 - [Next](https://github.com/pietvanzoen/fund-oregon-schools/issues?q=is%3Aopen+label%3Anext+-label%3A%22in+progress%22)
 - [Later](https://github.com/pietvanzoen/fund-oregon-schools/issues?q=is%3Aopen+label%3Alater+-label%3A%22in+progress%22)

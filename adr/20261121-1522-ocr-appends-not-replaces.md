@@ -1,4 +1,4 @@
-# 0001. OCR text is added below the page text, not swapped in
+# OCR text is added below the page text, not swapped in
 
 Status: accepted (2026-11-21, PR #50, issue #4)
 

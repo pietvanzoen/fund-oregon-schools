@@ -40,8 +40,16 @@ its status quo estimate [SRC:ode/qec/2026_qem_report.pdf p.103].
 
 - State law sets Dec 1 of even-numbered years for a governor continuing in office to submit a budget
   [SRC:legislature/ors/ors291.html]; Kotek was reelected in November [NEWS:NEWS-20261106-occ-1].
-- It's built on the Nov 18 revenue forecast [SRC:fiscal/oea/2026-12_forecast.pdf p.33]. News reported the forecast
-  added about $245M for 2027-29 [NEWS:NEWS-20261118-klcc-1]; the exact figure is still to confirm (#5).
+- It's built on the Nov 18 revenue forecast [SRC:fiscal/oea/2026-12_forecast.pdf p.33]. It raised its projection of net
+  General Fund revenue for 2027-29 by $233.5M over the previous forecast; with an $11.2M larger beginning balance,
+  projected available resources for 2027-29 rose $244.6M [SRC:fiscal/oea/2026-12_forecast.pdf p.63]. That
+  beginning balance is the current budget's projected ending balance on June 30, 2027, now $411M
+  [SRC:fiscal/oea/2026-12_forecast.pdf p.30].
+- News reported about $245M more for the upcoming budget cycle, about $233M more for 2027-29 and about $11M more for
+  the current budget [NEWS:NEWS-20261118-klcc-1].
+- Analysis: the reported $245M matches the forecast's $244.6M rise in available resources for 2027-29; the $11M for
+  the current budget reaches 2027-29 as the larger beginning balance, so it isn't new money on top of the $245M [SRC:fiscal/oea/2026-12_forecast.pdf p.62]
+  [SRC:fiscal/oea/2026-12_forecast.pdf p.63].
 - Kotek has said her budget will prioritize education and summer learning [NEWS:NEWS-2026-salemreporter-1], and
   after the election declined to commit to how she would pay for her school goals [NEWS:NEWS-20261106-occ-1].
 - Analysis: when the budget is released, compare its State School Fund amount with each figure in the comparison set
