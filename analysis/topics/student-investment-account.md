@@ -16,10 +16,11 @@ Our sums: `derived/sia.csv`. Audits and outside reviews are still to come (#103)
   student groups the law names [SRC:legislature/ors/ors327.html]. ODE calls those groups "focal student groups":
   students of color, students with disabilities, emerging bilingual students, and students navigating poverty,
   homelessness and foster care, among others [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.3].
-- The money may be used only for four kinds of things: more instructional time (longer days or years, summer and
-  before- or after-school programs); students' health or safety (social-emotional learning, mental and behavioral
+- The money may be used only for four kinds of things, each with a list of examples in law: more instructional time
+  (for example longer days or years, summer and before- or after-school programs); students' health or safety (for
+  example social-emotional learning, mental and behavioral
   health, school health professionals, trauma-informed practices, facility improvements directly related to health
-  or safety); smaller classes or caseloads; and well-rounded learning (early literacy, middle school supports, art,
+  or safety); smaller classes or caseloads; and well-rounded learning (for example early literacy, middle school supports, art,
   music, physical education, science, technology, engineering and math, career and technical education, electives, college credit, dropout prevention,
   talented and gifted programs, library media educators) [SRC:legislature/ors/ors327.html].
 - Each grant is a recipient's share of the money available, by its weighted enrollment (ADMw), with the poverty
@@ -29,18 +30,24 @@ Our sums: `derived/sia.csv`. Audits and outside reviews are still to come (#103)
 
 - Each grant recipient must run a yearly financial audit of the grant money, post it and present it at a public
   meeting, and send it to ODE. ODE then decides each year whether the money was used as the grant agreement says;
-  if not, it works with the recipient on interventions and technical assistance [SRC:legislature/ors/ors327.html].
+  if not, it must work with the recipient on interventions, give technical assistance, direct future grant amounts
+  to specific investments, or deduct amounts from future grants (which the recipient may appeal to the State Board).
+  ODE may also deduct money a recipient doesn't commit to spending, and require targeted audits
+  [SRC:legislature/ors/ors327.html].
 - Grantees with at least 80 students must set Longitudinal Performance Growth Targets (LPGTs) for five common
   metrics: four-year graduation, five-year completion, 9th grade on-track, regular attendance and 3rd grade English
   language arts proficiency. The targets are co-developed with ODE, and "gap-closing" targets are set for a combined
-  group of focal students [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.26]. The first set was agreed in 2023 for
+  group of focal students [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.26]
+  [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.27]. The first set was agreed in 2023 for
   2023-24 through 2027-28 and written into grant agreements approved by each grantee's board
   [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.27] [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.39].
-- In 2025 ODE paused adding more years of targets because of the Education Accountability Act (SB 141); grantees are
+- In 2025 ODE paused adding more years of targets in anticipation of changes from the Education Accountability Act
+  (SB 141); grantees are
   to set new Performance Growth Targets with ODE in spring 2026, adding K-2 regular attenders and 8th grade math
   [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.27].
-- Grantees also rate themselves each quarter on 15 "progress markers" (a 0-4 scale) and file a yearly narrative
-  report [SRC:ode/sia/2025-09_progress-markers-annual-reporting-2023-24.pdf p.4]. Grantees are not required or
+- Grantees also rate themselves on 15 "progress markers" (a 0-4 scale) and file a yearly narrative report
+  [SRC:ode/sia/2025-09_progress-markers-annual-reporting-2023-24.pdf p.4]. In 2023-24 the ratings were quarterly;
+  for 2025-27 they are to cover quarters 2 and 4 [SRC:ode/sia/2025-09_progress-markers-annual-reporting-2023-24.pdf p.5]. Grantees are not required or
   expected to meet all progress markers; ODE uses them to target technical assistance and coaching
   [SRC:ode/sia/2025-09_progress-markers-annual-reporting-2023-24.pdf p.5].
 - The SIA is now part of ODE's Integrated Programs, which combine several grant programs in one application.
@@ -49,8 +56,11 @@ Our sums: `derived/sia.csv`. Audits and outside reviews are still to come (#103)
 
 ### How much was spent, by year
 
-ODE's yearly legislative reports give each year's allocation and what grantees reported spending (copied into
-`data/sia_spending.csv`) [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.23]:
+ODE's yearly legislative reports give each year's allocation and what grantees reported spending, in six
+categories: the law's four uses plus ongoing community engagement and administration (allowed indirect costs and
+grant administration) [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.23]. The figures are copied into
+`data/sia_spending.csv`; the 2021-22 figures were extracted when 249 of 262 grantees had reported
+[SRC:ode/sia/2023-01_sia-legislative-report.pdf p.16]:
 
 | School year | Allocated | Reported spent | Source |
 |---|---|---|---|
@@ -58,12 +68,13 @@ ODE's yearly legislative reports give each year's allocation and what grantees r
 | 2021-22 | $437,080,000 | $430,076,715 (98.4%) | [SRC:ode/sia/2023-01_sia-legislative-report.pdf p.16] |
 | 2022-23 | $455,404,000 | $452,796,619 (99.4%) | [SRC:ode/sia/2024-01_sia-legislative-report.pdf p.22] |
 | 2023-24 | $532,558,921 | $522,627,700 (98.1%) | [SRC:ode/sia/2025-01_sia-legislative-report.pdf p.19] |
-| 2024-25 | $559,688,049 | $551,495,257 (98.6% of the 559,508,530 claimed) | [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.23] |
+| 2024-25 | $559,688,049 | $551,495,257 (98.6% of the $559,508,530 claimed) | [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.23] |
 
 - About $472 million had been projected for the first year; the Legislature cut it to $150 million in an August 2020
   special session because of COVID-19's effect on the Corporate Activity Tax
   [SRC:ode/sia/2022-01_sia-legislative-report.pdf p.13].
-- **Health and safety has been the largest category every year:** 41.7% in 2020-21, 33.9% in 2021-22, 36.7% in
+- **Health and safety has been the largest category every year:** 41.7% of the allocation in 2020-21, and of
+  spending 33.9% in 2021-22, 36.7% in
   2022-23, 35.7% in 2023-24 and 33.5% ($184.9M) in 2024-25. Well-rounded education and smaller classes come next
   [SRC:ode/sia/2022-01_sia-legislative-report.pdf p.13] [SRC:ode/sia/2023-01_sia-legislative-report.pdf p.17]
   [SRC:ode/sia/2024-01_sia-legislative-report.pdf p.23] [SRC:ode/sia/2025-01_sia-legislative-report.pdf p.19]
@@ -85,8 +96,8 @@ ODE's yearly legislative reports give each year's allocation and what grantees r
 - For gap-closing targets: 9th grade on-track 85 of 137 (62.0%), regular attendance 122 of 182 (67.0%), 3rd grade
   English language arts 55 of 131 (42.0%) [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.39]
   [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.40].
-- The median grantee's change from 2023-24 to 2024-25 for all students was 2.21 points in 9th grade on-track, 1.78
-  in 3rd grade English language arts and 0.01 in regular attendance
+- The median grantee's change from 2023-24 to 2024-25 for all students was 2.21% in 9th grade on-track, 1.78%
+  in 3rd grade English language arts and 0.01% in regular attendance (as ODE prints them)
   [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.39] [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.40].
 - For 2023-24, more than half of grantees met their four-year graduation baseline and gap-closing targets; half met
   their five-year completion baseline target and 46.5% the gap-closing one; graduation and completion data for
@@ -97,8 +108,8 @@ ODE's yearly legislative reports give each year's allocation and what grantees r
   [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.41].
 - ODE says targets vary a great deal among grantees, and that small grantees can see large jumps or drops when one
   student changes a metric by several points [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.27].
-- In grantees' 2023-24 self-ratings, ODE found most had made "lower order systemic changes" and were making steady
-  progress toward higher-order changes; hiring, especially of mental and behavioral health professionals in rural
+- From grantees' 2023-24 self-ratings, ODE found most had made "lower order systemic changes" and were making steady
+  progress toward higher-order changes. From the ratings and narrative reports together, hiring, especially of mental and behavioral health professionals in rural
   areas, and 9th grade on-track and course scheduling were areas of ongoing work
   [SRC:ode/sia/2025-09_progress-markers-annual-reporting-2023-24.pdf p.4].
 
@@ -111,18 +122,20 @@ ODE's yearly legislative reports give each year's allocation and what grantees r
 | Change in yearly spending, 2021-22 to 2024-25, not adjusted for inflation | 28.2% | [DER:sia/spent_growth_2021_22_to_2024_25] |
 | Share of 2024-25 spending on health and safety, well-rounded education and smaller classes | 88.4% | [DER:sia/big3_share_2024_25] |
 
-Each year's spending is as ODE extracted it for that year's report; later corrections are not included.
+Each year's spending is as ODE extracted it for that year's report; later corrections are not included, and the
+2021-22 figure was extracted before all grantees had reported.
 
 ## Analysis
 
 The spending picture is clear and consistent: districts spend almost all of their SIA money, mostly on staff, in
 the same three categories every year. Health and safety leads every year. By the law's list, that category covers student mental and
-behavioral health and school health professionals, which fits the first of the law's two purposes.
+behavioral health and school health professionals, among other health and safety uses, which fits the first of the
+law's two purposes; the reports don't break the category down further.
 
-The results picture is much weaker, for three reasons in ODE's own reports. First, the targets measure grantees
+The results picture is much weaker, for three reasons; the second and third come from ODE's own reports. First, the targets measure grantees
 against their own co-developed targets, not against what would have happened without the money, so meeting a
 target doesn't show the SIA caused the change. Second, there are only two years of target data (2023-24 and
-2024-25), and the target system is being replaced under SB 141. Third, the progress markers are self-ratings that
+2024-25), and ODE paused the targets ahead of new ones set in 2026 with SB 141 in view. Third, the progress markers are self-ratings that
 grantees are not expected to meet in full. On ODE's figures, about three in four grantees met their 9th grade on-track
 target in 2024-25, about half met their attendance target, and fewer than two in five met their 3rd grade reading
 target. Whether that is good depends on how ambitious the targets were, which ODE says varied a great deal.

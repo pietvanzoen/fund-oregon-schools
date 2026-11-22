@@ -1,6 +1,6 @@
 # Results and accountability: what the money buys
 
-Standing research: what state funding buys, and the outcome goals and mandates attached to it. Open research: #57,
+Standing research: what state funding buys, and the outcome goals and mandates attached to it. Open research: #57 (see `topics/student-investment-account.md`; audits in #103),
 #58, #60, #61, #63, #71, #72.
 
 ## What the sources say
