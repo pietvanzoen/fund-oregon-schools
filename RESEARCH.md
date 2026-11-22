@@ -124,6 +124,9 @@ that are `decided` or `implemented`: what happened afterwards is what the promis
 
 Housekeeping and tooling issues need neither, but shouldn't crowd out research near a due date.
 
+`next` means an issue is ready; the **Research queue** issue (label `queue`) sets the order. Piet adds `next`
+issues to it in the order they should run, and agents take the first free one.
+
 **Where questions come from**, in order of weight:
 
 1. **Readers.** "What would you most want to know before talking to a legislator or your school board?"
