@@ -1,4 +1,4 @@
-# 0007. Research is organized around decisions, with questions in a CSV
+# Research is organized around decisions, with questions in a CSV
 
 Status: accepted (2026-11-21)
 

@@ -1,12 +1,12 @@
 ---
 name: fos-work-issue
-description: Work a research issue in the fund-oregon-schools repo end to end — find and queue the documents, get them fetched on the issue branch, write the cited analysis, run the independent reviewers, and open a PR for Piet to merge. Use when asked to "work on issue #N", "tackle the next issue", or by the scheduled run that picks up issues labelled `auto`.
+description: Work a research issue in the fund-oregon-schools repo end to end — find and queue the documents, get them fetched on the issue branch, write the cited analysis, run the three independent reviewers, and open a PR for Piet to merge. Use when asked to "work on issue #N", "tackle the next issue", or by the scheduled run that picks up issues labelled `auto`.
 ---
 
 # Work a research issue
 
-One issue, one branch, one PR, and that PR closes the issue. If an issue is too big for one PR, split it first
-(step 1). You do the research and open the PR; **you never merge**. Piet merges after reading
+One issue, one branch, one PR, and that PR closes the issue. Runs never split an issue: Piet sets its scope when
+he labels it `next` (`RESEARCH.md`). If it's too broad for one PR, say so on the issue and take another (step 1). You do the research and open the PR; **you never merge**. Piet merges after reading
 the reviewers' results.
 
 Follow `CLAUDE.md` throughout (citation formats, quote rules, news rules, rule 10). This skill adds the order of
@@ -26,9 +26,10 @@ read the issue before going further; if neither works, stop and say so.
 - Otherwise take the next one from the **Research queue**: the open issue labelled `queue` (`gh api
   "repos/pietvanzoen/fund-oregon-schools/issues?state=open&labels=queue" --jq '.[0].body'`). Its numbered list is
   Piet's order. Go down it and take the first issue that is open, labelled `auto`, has none of `needs-human`,
-  `needs-judgement`, `manual`, `in progress`, and has no open PR or `claude/issue-<n>-*` branch. If that issue has
-  sub-issues (`gh api repos/pietvanzoen/fund-oregon-schools/issues/<n>/sub_issues`), take its first open sub-issue
-  that passes the same test instead.
+  `needs-judgement`, `manual`, `in progress`, and has no open PR or `claude/issue-<n>-*` branch. Only for the
+  issues split before runs stopped splitting (#25 and #57; drop this rule once both close): if the issue has sub-issues
+  (`gh api repos/pietvanzoen/fund-oregon-schools/issues/<n>/sub_issues`), take its first open sub-issue that passes
+  the same test instead.
 - If nothing in the queue qualifies, stop: say so in one line and pick nothing. Never fall back to issues that
   aren't in the queue, and never edit the queue's order (only Piet does).
 - Mark it as yours before starting: add the `in progress` label
@@ -40,27 +41,15 @@ read the issue before going further; if neither works, stop and say so.
   (`gh api -X DELETE "repos/pietvanzoen/fund-oregon-schools/issues/<n>/labels/in%20progress"`) and pick nothing
   else in that run.
 
-**Size it before starting.** Every issue must be finishable in one PR that a reviewer can check in one pass.
-Split it if any of these holds:
-- it would add or substantially rewrite more than one topic file, or more than one decision's section in
-  `analysis/decisions.md`;
-- its checklist has independent parts that need separate batches of sources (e.g. one agency's reports and another
-  agency's data, or several districts each with its own budget documents);
-- it has more than about six checklist items that each need research.
+**Check the scope before starting.** The issue must be finishable in one targeted PR: one decision's question, or a
+few closely related ones, that a reviewer can check in one pass. Scope is Piet's call, so if it's broader than
+that, don't guess at a narrower version and don't split it. Instead:
+- comment on the issue with a proposed narrower scope: what you would do, and what you would leave out;
+- add `needs-judgement` and remove `in progress` if you added it;
+- take the next free item in the Research queue instead (same test as above); if you were given the number, stop.
 
-To split: create one sub-issue per coherent part, each with its own **Why**, a checklist that one PR can finish,
-and the same labels as the parent (`auto`, its priority, its type), then attach it to the parent:
-
-```bash
-id=$(gh api repos/pietvanzoen/fund-oregon-schools/issues -f title="<parent topic>: <part>" -f body="$(cat /tmp/sub.md)" \
-  -f "labels[]=auto" -f "labels[]=next" --jq .id)
-gh api repos/pietvanzoen/fund-oregon-schools/issues/<n>/sub_issues -F sub_issue_id=$id
-```
-
-Then rewrite the parent's body as a short tracking list ("Split into #a, #b, #c; this issue closes with the last
-one"), keep the parent's original **Why**, remove `auto` from the parent so the scheduled run doesn't pick it,
-and work the first sub-issue in this run. The PR for the last open sub-issue also says `Closes #<parent>`.
-Issues you create yourself (follow-ups, work for Piet) follow the same size rule.
+Moving items that need Piet or can't be done here into their own issues (step 2) isn't splitting: it's how the PR
+closes the issue. Follow-up issues you create follow the same one-PR scope.
 
 GitHub access: GraphQL isn't available from these sessions. Use `gh api` with REST routes
 (`repos/pietvanzoen/fund-oregon-schools/...`) or the GitHub connector tools.
@@ -95,9 +84,9 @@ task list:
 
 **Definition of done.** Before opening the PR, every checklist item is either done or can't be done for one of
 those reasons. "Not researched yet", "out of scope for this run" or "ran out of time" don't count: if an item can
-be done, do it. A broad item can be split into sub-items in the issue body (step 7), but each sub-item meets the
-same bar. If the work turns out bigger than step 1's size rule allows, stop, split the issue as step 1 describes,
-and finish only your part.
+be done, do it. A broad item can get sub-items in the issue body (step 7), but each sub-item meets the
+same bar. If the work turns out broader than one targeted PR (step 1), stop and handle it as step 1 says (comment with
+a proposed narrower scope, `needs-judgement`, remove `in progress`); say in the comment what's already on the branch.
 
 **So the PR always closes the issue**, every item that can't be done here moves out of it before the PR opens:
 - needs a person → its own issue for Piet (below);
@@ -213,8 +202,8 @@ Then, as the issue needs:
 - Decision files (`RESEARCH.md`, "The model"): new options in `options.csv` with their formality; each stance stated
   on the record as a new row in `positions.csv` (append, never edit a row); an answered question's `status` and
   `answer` in `questions.csv`, and its short cited answer in that decision's section of `analysis/decisions.md`.
-  Facts land in a topic, profile or data table first; the decision files cite the same source. Only the last
-  sub-issue of a split question writes its answer, and sub-issues don't get the `question` label.
+  Facts land in a topic, profile or data table first; the decision files cite the same source. For #25 and
+  #57 (split before runs stopped splitting), only the last open sub-issue writes the question's answer.
 - Swap NEWS citations for SRC ones wherever the new primary document supports the same claim.
 - New questions you hit go in `analysis/questions.csv` as `open` rows (describe the asker; never name a member of
   the public), not as research you chase in this PR.
@@ -245,7 +234,7 @@ Commit and push.
 
 ## 6. Independent review
 
-Start **both** reviewers at the same time as fresh agents (not forks: they mustn't see your reasoning). Give each
+Start **all three** reviewers at the same time as fresh agents (not forks: they mustn't see your reasoning). Give each
 one only:
 
 - the prompt in `.claude/plugins/fund-oregon-schools/skills/fos-work-issue/reviewers/<name>.md`, filled in with the branch name, the issue
@@ -258,16 +247,21 @@ Reviewers:
 - `consistency-fairness.md` — conflicts with the rest of the archive, superseded figures left behind, framing,
   labelling of estimates and advocacy numbers, wrong-section findings, fairness to named officials, copyright,
   privacy
+- `clarity.md` — how the changed reader-facing text reads: paraphrase test against the source, weight and tense,
+  scale and baseline for numbers, answer first, clear references, house style (`STYLE.md`)
 
 If you can't start fresh agents (for example, you are yourself a subagent without that tool), don't skip the
 review and don't review your own work in their place: say "reviewers not run" at the top of the PR's Review
-section and add `needs-human`. The PR doesn't merge until both reviews have run.
+section and add `needs-human`. The PR doesn't merge until all three reviews have run.
 
 They report only. For each finding:
 
 1. Check it against the source yourself. Reviewers can be wrong.
 2. If it's right, fix it. If it's wrong, record why in one line.
 3. After substantive fixes, run the reviewer that raised them once more on the new head. Not more than once.
+4. A sentence reworded for clarity can change what it claims. If clarity fixes reword any sentence that states a
+   fact, run `fact-check.md` once more on the new head, limited to those sentences (list their file:line in the
+   prompt). This counts as its one rerun.
 
 ## 7. Open the PR
 
@@ -290,7 +284,7 @@ PR body, in this order:
 
 1. **Summary**: two or three plain sentences on what the archive now knows that it didn't, and which core
    question in `RESEARCH.md` it moves (by number).
-2. **Issue**: `Closes #<n>` (and `Closes #<parent>` if this is the parent's last open sub-issue). Never
+2. **Issue**: `Closes #<n>` (for a sub-issue of #25 or #57 that's the last open one, also `Closes #25` or `Closes #57`). Never
    `Part of #<n>`: anything unfinished has moved to its own issue (step 2).
 3. **Sources added**: each document, its path, and whether it fetched cleanly.
 4. **Analysis changed**: files touched; call out any change to `START.md` or `decisions.md` explicitly, and name

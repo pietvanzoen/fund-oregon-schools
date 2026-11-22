@@ -116,6 +116,9 @@ There are two tracks.
 3. Its answer isn't settled already. Before `next`, the issue says what range of answers we expect and what would
    differ across that range. If every answer reads the same, it's background, not research.
 4. Nobody official already answers it plainly. If an agency does, archive that document and link to it.
+5. It's targeted: it answers one decision's question, or a few closely related ones, in one PR a reviewer can check
+   in one pass. Scope is set here, by Piet, not by runs: a run that finds an issue too broad proposes a narrower
+   scope on the issue and moves on; it doesn't split it.
 
 **Standing research** has no due date: what the money bought (results, the Student Investment Account, SB 141
 accountability), how the formula works, and history such as Measures 5 and 50. It's labelled `standing` and
@@ -148,6 +151,8 @@ issues to it in the order they should run, and agents take the first free one.
 "where it stands" and the answers to questions, cited like any analysis. The tables come from the CSVs.
 
 ## Writing so it gets used
+
+Wording rules (voice, verdict words, numbers, names, dates) are in `STYLE.md`; the clarity reviewer checks them.
 
 - **Answer first.** Lead with the answer, then the support (Pyramid Principle, bottom line up front).
 - **Always state the baseline**, and which benchmark a gap is measured against. A gap means nothing without its
