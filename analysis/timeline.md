@@ -21,7 +21,7 @@
 | 2026-11-12 | Reps. Carpenter and Hudson discuss revenue and reserves at a Portland forum | [NEWS:NEWS-20261112-katu-2] |
 | 2026-11-13 | Senate Democrats name Lieber as Ways & Means co-chair for 2027 | [SRC:legislature/press/2026-11-13_senate-dems-2027-leadership.pdf p.1] |
 | 2026-11-17 | PPS Board's 2027 legislative agenda cites a $12.57B CSL | [PPSARCH:BB:14673756 p.1] |
-| 2026-11-18 | November revenue forecast: ~$245M more for 2027-29 | [NEWS:NEWS-20261118-klcc-1] |
+| 2026-11-18 | November revenue forecast: net General Fund revenue for 2027-29 up $233.5M; available resources up $244.6M | [SRC:fiscal/oea/2026-12_forecast.pdf p.1] [SRC:fiscal/oea/2026-12_forecast.pdf p.63] |
 | 2026-11-19 | Rep. Ruiz, after an OSBA panel, posts an initial proposal for one-time Education Stability Fund PERS relief | [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt] |
 | 2026-12-01 | Governor's 2027-29 recommended budget due | [SRC:legislature/ors/ors291.html] [NEWS:NEWS-2026-salemreporter-1] |
 | 2026-12-01 to 12-03 | Legislative committee days (scheduled) | [SRC:legislature/calendar/2026_interim-calendar.pdf] |
