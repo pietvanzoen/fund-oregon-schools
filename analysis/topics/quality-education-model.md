@@ -3,6 +3,50 @@
 Decisions this informs: `decisions.md#ssf-2027-29`, `decisions.md#cost-model-2027`. Figures copied from sources:
 `data/qem_gap.csv`, `data/ssf_history.csv`.
 
+## Analysis
+
+The 2026 Quality Education Model report gives three 2027-29 figures, and they answer different questions: the State
+School Fund's current service level ($12.56 billion, the amount needed to continue existing programs, a Department
+of Administrative Services estimate) [SRC:ode/qec/2026_qem_report.pdf p.103], the status quo ($13.78 billion of state funding to keep 2025-27 service levels) and the full model
+($16.21 billion to meet the state's goals) [SRC:ode/qec/2026_qem_report.pdf p.117]
+[SRC:gov/press/2024_ssf-csl-proposal.html]. The current service level is the State School Fund alone; the
+status quo and the full model count other state money too. So the full model's $3.65 billion above the current service
+level compares a fund with a broader total, and its $2.42 billion above the status quo is the like-for-like gap between
+the model's two scenarios (sources below).
+
+Funding for 2025-27 that the Senate President's and House Speaker's offices called "Record Funding"
+[SRC:legislature/press/2025-05-28_record-k12-funding.pdf p.1] and a gap in 2027-29 can both be true: they measure
+different two-year budgets against different estimates. Our reading is that the news figures of "$2.5B more" and "$5B more"
+compare the model with the 2025-27 budget, not with the current service level, so they aren't comparable with the
+figures here and below.
+
+The Quality Education Model is the state's own estimate, but it is contested: the Legislature's Joint Committee on Public
+Education Appropriation found 2025-27 funding sufficient by it while criticizing its method, and the 2027 Legislature may replace it. A gap measured against the model is a
+gap against one benchmark.
+
+**If the model is changed or replaced.** Senate Bill 1555 (2026), the joint committee's bill to move the cost model to
+the Legislature's research office, did not pass, so the Quality Education Commission and the model remain
+in law, and the 2026 model is the commission's estimate on record for 2027-29. Of the comparison figures on this page, the
+full model and the status quo are the model's scenarios; they would lose their standing as the state's benchmark if
+the model were replaced. The current service level, the adopted 2025-27
+amount and, once released, the governor's 2027-29 budget do not depend on it.
+
+If the 2027 Legislature passed a bill shaped like SB 1555 as introduced, the yardstick for 2027-29 would not be the
+2026 model. The report published after Nov. 1, 2027, would follow the 2027 session, so it would be the one on 2027-29
+funding. For it, the Department of Administrative Services would adjust the costs in the joint committee's Nov. 19, 2025, report (the one that found
+2025-27 funding closes the gap) for inflation and other costs. A new model would come later: the 2026 bill's dates
+put the first one in 2028, for the report after Nov. 1, 2029. A 2027 bill could set other dates.
+
+The goals would change too: from today's goals to every district counting as a "standard" district (which SB 1555 would have
+redefined as one that complies with state and federal law), licensed and qualified teachers, and the statewide targets for the metrics
+in Senate Bill 141 (2025) (sources below). A dollar figure from a new model would then price a different target than the current model's and
+would not be directly comparable with it. Then "the gap" would depend on which estimate a reader uses, and on who built it: a
+governor-appointed commission (today) or a contractor hired by the Legislature's research office, with a
+legislative committee judging sufficiency in both cases.
+
+Per-student spending: a claim that Oregon spends above the national average per student is not yet sourced here. The
+model report's ranking is of state-sourced funding, which is a different measure from total spending.
+
 ## What the sources say
 
 ### The 2027-29 figures
@@ -124,42 +168,4 @@ Decisions this informs: `decisions.md#ssf-2027-29`, `decisions.md#cost-model-202
 
 ## Derived figures
 
-None: every figure above is stated in a cited source.
-
-## Analysis
-
-The three 2027-29 figures answer different questions. The current service level is the State School Fund alone; the
-status quo and the full model count other state money too. So $3.65 billion above the current service level compares
-a fund with a broader total, and $2.42 billion above the status quo is the like-for-like gap between the model's two
-scenarios.
-
-Funding for 2025-27 that the Senate President's and House Speaker's offices called "Record Funding"
-[SRC:legislature/press/2025-05-28_record-k12-funding.pdf p.1] and a gap in 2027-29 can both be true: they measure
-different two-year budgets against different estimates. Our reading is that the news figures of "$2.5B more" and "$5B more"
-compare the model with the 2025-27 budget, not with the current service level, so they aren't comparable with the
-figures above.
-
-The Quality Education Model is the state's own estimate, but it is contested: the joint committee found 2025-27 funding sufficient
-by it while criticizing its method, and the 2027 Legislature may replace it. A gap measured against the model is a
-gap against one benchmark.
-
-**If the model is changed or replaced.** SB 1555 did not pass, so the Quality Education Commission and the model remain
-in law, and the 2026 model is the commission's estimate on record for 2027-29. Of the comparison figures above, the
-full model and the status quo are the model's scenarios; they would lose their standing as the state's benchmark if
-the model were replaced. The current service level (a Department of Administrative Services calculation), the adopted 2025-27
-amount and, once released, the governor's 2027-29 budget do not depend on it.
-
-If the 2027 Legislature passed a bill shaped like SB 1555 as introduced, the yardstick for 2027-29 would not be the
-2026 model. The report published after Nov. 1, 2027, would follow the 2027 session, so it would be the one on 2027-29
-funding. For it, the Department of Administrative Services would adjust the costs in the joint committee's Nov. 19, 2025, report (the one that found
-2025-27 funding closes the gap) for inflation and other costs. A new model would come later: the 2026 bill's dates
-put the first one in 2028, for the report after Nov. 1, 2029. A 2027 bill could set other dates.
-
-The goals would change too: from today's goals to standard-district compliance, licensed and qualified teachers, and
-the SB 141 targets. A dollar figure from a new model would then price a different target than the current model's and
-would not be directly comparable with it. Then "the gap" would depend on which estimate a reader uses, and on who built it: a
-governor-appointed commission (today) or a contractor hired by the Legislature's research office, with a
-legislative committee judging sufficiency in both cases.
-
-Per-student spending: a claim that Oregon spends above the national average per student is not yet sourced here. The
-model report's ranking is of state-sourced funding, which is a different measure from total spending.
+None: every figure under "What the sources say" is stated in a cited source.

@@ -2,6 +2,23 @@
 
 Decisions this informs: `decisions.md#formula-2027`. Open research: #17, #18, #19, #25.
 
+## Analysis
+
+As of Nov. 22, 2026, the archive has no formula proposal from Gov. Tina Kotek. Her Nov. 6 remarks float "student need" as a
+possible basis, with no design, cost or timeline, and she framed it as a longer conversation.
+
+If a formula change is proposed in 2027, it would go to the House Education Committee and the Senate Committee on
+Education, and its money to the Ways and Means Education Subcommittee, so their 2027 chairs matter. On Nov. 22, 2026,
+a web search of oregonlegislature.gov found no 2027 committee assignment memos, only 2026 ones; #107 picks them up
+once they are posted. Sen. Janeen Sollman, D-District 15 (Forest Grove, Cornelius, Hillsboro, Rock Creek), the
+2026 Senate co-chair of the Education Subcommittee, will not return (she lost her
+May 2026 primary [NEWS:NEWS-20260521-wweek-1]), so that seat will change. Neither chamber's 2027 subcommittee
+co-chairs are in the archive's sources yet.
+
+Still to research: the final status of House Bill 2953 (2025), which as introduced would remove the cap on special
+education weight (extra weight only up to 11% of a district's enrollment without state approval) (#17), how closures change transportation costs (#18), the English learner
+and poverty weights (#19), and the 2027 reform proposals (#25).
+
 ## What the sources say
 
 - The formula in chapter 327 of the Oregon Revised Statutes divides the State School Fund among districts [SRC:legislature/ors/ors327.html].
@@ -47,18 +64,3 @@ Decisions this informs: `decisions.md#formula-2027`. Open research: #17, #18, #1
 ## Derived figures
 
 None here; online charter figures are in `topics/virtual-charters.md`.
-
-## Analysis
-
-As of Nov. 22, 2026, the archive has no formula proposal from Kotek. Her Nov. 6 remarks float "student need" as a
-possible basis, with no design, cost or timeline, and she framed it as a longer conversation.
-
-If a formula change is proposed in 2027, it would go to the House Education Committee and the Senate Committee on
-Education, and its money to the Ways and Means Education Subcommittee, so their 2027 chairs matter. On Nov. 22, 2026,
-a web search of oregonlegislature.gov found no 2027 committee assignment memos, only 2026 ones; #107 picks them up
-once they are posted. Sollman, the 2026 Senate co-chair of the Education Subcommittee, will not return (she lost her
-May 2026 primary [NEWS:NEWS-20260521-wweek-1]), so that seat will change. Neither chamber's 2027 subcommittee
-co-chairs are in the archive's sources yet.
-
-Still to research: HB 2953's final status (#17), how closures change transportation costs (#18), the English learner
-and poverty weights (#19), and the 2027 reform proposals (#25).

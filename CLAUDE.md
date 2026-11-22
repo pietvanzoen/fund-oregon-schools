@@ -72,10 +72,11 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
    what was said, never the transcript text unchecked. If you can't listen, don't quote; paraphrase as unverified.
    OCR text (below a `--- OCR of this page` line in `<file>.pdf.ocr.txt`) misreads too: check the PDF page.
 4. Keep separate what sources state (documents and what people said), what we calculated, and our own inference.
-   - Topic files (`analysis/topics/*.md`) have three sections, in this order: `## What the sources say` (only
-     statements a cited source makes; every line cited; no inference), `## Derived figures` (a table of our sums,
-     shares and estimates, each with its `[DER:...]` tag) and `## Analysis` (our interpretation; no "Analysis:"
-     label needed). A total the document prints itself is a source fact; it's derived only when we do the adding.
+   - Topic files (`analysis/topics/*.md`) have three sections, in this order: `## Analysis` (our interpretation;
+     no "Analysis:" label needed; first, so the page leads with it, and it reads on its own: point to the evidence as
+     "below"), `## What the sources say` (only statements a cited source makes; every line cited; no inference) and
+     `## Derived figures` (a table of our sums, shares and estimates, each with its `[DER:...]` tag). Why:
+     `adr/20261122-2302-analysis-first-in-topic-files.md`. A total the document prints itself is a source fact; it's derived only when we do the adding.
      Plain unit rescaling ($1,271M as $1.271 billion) is allowed under sources.
    - Every calculated value lives in `analysis/derived/<topic>.csv`, written only by `tools/derive_<topic>.py`
      (one plain script per topic, no shared library). Columns: `id, value, unit, kind, label, method, inputs,

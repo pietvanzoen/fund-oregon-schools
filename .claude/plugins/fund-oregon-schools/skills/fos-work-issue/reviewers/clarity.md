@@ -42,6 +42,8 @@ the added or changed sentences in those files, in our own words: skip quotes, ci
    mismatched comparison.
 4. **Assumptions.** An estimate or forecast carries its main assumption in the same sentence or the next.
 5. **Answer first.** The first sentence of each new or changed section says where things stand.
+   A topic file's `## Analysis` comes first on the page, so it reads on its own: it points to the evidence as
+   "below", never "above", and doesn't lean on a figure or term that only the sections under it introduce.
 6. **References and terms.** Every "it", "this", "they" and "the fund" has one clear referent. Abbreviations and
    terms of art are spelled out or described as `STYLE.md` says, and defined in the text on first use on the page.
 7. **House style.** Names, money, numbers and dates as in `STYLE.md`. These are `style` unless they change meaning.

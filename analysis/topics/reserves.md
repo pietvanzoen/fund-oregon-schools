@@ -1,5 +1,22 @@
 # Reserves: Education Stability Fund
 
+## Analysis
+
+Any draw from the Education Stability Fund needs a three-fifths vote in each chamber and either an economic trigger or an emergency
+declaration. For a
+2025-27 draw, Gov. Tina Kotek said she did not plan at that time to declare an emergency unless the votes were there. Revenue the
+forecast already expects needs neither, though a tax increase also needs three-fifths of each chamber
+[SRC:legislature/constitution/oregon-constitution.html]. That holds for a large, general draw. An initial proposal (November 2026) for
+targeted, one-time Public Employees Retirement System (PERS) relief from Rep. Ricki Ruiz, D-District 50 (Gresham), a
+co-chair of the Ways and Means Education Subcommittee in 2026, suggests a narrower
+draw is being discussed, though it rests on one social media post with no amount or bill. It still needs the same
+vote and trigger. The objection on record from Kotek and Sen. Kate Lieber, D-District 14 (Beaverton & Southwest
+Portland) [SRC:legislature/members/lieber.html], to one-time money for ongoing costs could still apply: PERS
+contributions are an ongoing cost.
+The objection stated by Rep. Tawna Sanchez, D-District 43 (North and Northeast Portland)
+[SRC:legislature/members/sanchez.html], is mainly timing. Ruiz describes his proposal as relief
+while longer-term reform is developed (`decisions.md#esf-draw-2027-29`).
+
 ## What the sources say
 
 - The Education Stability Fund, one of the state's two general reserve accounts, is projected at $1.271 billion at
@@ -21,20 +38,4 @@
 
 ## Derived figures
 
-None: every figure above is stated in a cited source.
-
-## Analysis
-
-Any draw from the fund needs a three-fifths vote in each chamber and either an economic trigger or an emergency
-declaration. For a
-2025-27 draw, Kotek said she did not plan at that time to declare an emergency unless the votes were there. Revenue the
-forecast already expects needs neither, though a tax increase also needs three-fifths of each chamber
-[SRC:legislature/constitution/oregon-constitution.html]. That holds for a large, general draw. An initial proposal for targeted,
-one-time PERS relief from a 2025-26 co-chair of the Education Subcommittee (Ruiz, November 2026) suggests a narrower
-draw is being discussed, though it rests on one social media post with no amount or bill. It still needs the same
-vote and trigger. The objection on record from Kotek and Sen. Kate Lieber, D-District 14 (Beaverton & Southwest
-Portland) [SRC:legislature/members/lieber.html], to one-time money for ongoing costs could still apply: PERS
-contributions are an ongoing cost.
-The objection stated by Rep. Tawna Sanchez, D-District 43 (North and Northeast Portland)
-[SRC:legislature/members/sanchez.html], is mainly timing. Ruiz describes his proposal as relief
-while longer-term reform is developed (`decisions.md#esf-draw-2027-29`).
+None: every figure under "What the sources say" is stated in a cited source.
