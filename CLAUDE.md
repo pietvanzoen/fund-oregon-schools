@@ -42,7 +42,8 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
      - `legislature/bills/` measure text and staff measure summaries
      - `legislature/press/` caucus and committee press releases; `legislature/appointments/` committee assignment memos;
        `legislature/social/` legislators' own social media posts, saved by hand (caption text, exact);
-       `legislature/members/` legislators' official member pages and the member listings that link to them
+       `legislature/members/` legislators' official member pages and the member listings that link to them, and
+       Secretary of State election results for legislative seats (`<election date>_general-election-results_<office>.html`)
      - `legislature/lpro/` Legislative Policy and Research Office reports (e.g. session summaries)
      - `legislature/laws/` Oregon Laws (session laws) chapters, as `<year>orlaw<NNNN>.pdf`
      - `legislature/ors/` Oregon Revised Statutes chapters; `legislature/constitution/` the Oregon Constitution;
@@ -88,7 +89,9 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
 5. Advocacy documents (`orgs/`, district press materials) are labeled as that group's claims or estimates.
 6. News is copyrighted: store metadata, a summary in your own words, and at most short quotes (< 25 words each)
    with attribution. Never full article text. (States Newsroom / Oregon Capital Chronicle allows republishing,
-   but follow the same rule anyway for consistency.)
+   but follow the same rule anyway for consistency.) A news record is our own summary, so it may be corrected:
+   recheck it against the article (never from memory or another outlet), fix the summary or key facts, add a dated
+   `note` saying what changed, and say so in the PR. Why: `adr/20261123-0249-correcting-news-records.md`.
 7. Describe members of the public, don't name them. Officials, legislators, staff and organizations can be named.
 8. Prefer structured outputs (CSV/JSONL) alongside readable Markdown. Every CSV row has a `source` column, except
    `analysis/derived/*.csv`, whose rows name their `inputs`, `analysis/updates.csv`, whose rows name their PR, and

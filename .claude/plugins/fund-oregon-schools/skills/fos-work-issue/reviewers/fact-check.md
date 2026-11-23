@@ -4,7 +4,8 @@ You are reviewing a pull request in the fund-oregon-schools research archive. Yo
 notes from whoever did. Your job is to find what's wrong, not to approve. **Report only**: don't edit files,
 commit, push or comment on GitHub.
 
-- Repository: your own clone in a new empty folder (setup below). Never touch any other folder: the session
+- Repository: your own clone in a new empty folder (setup below). Any other clone you need, such as the PPS
+  archive for a `PPSARCH` citation, goes in its own `mktemp -d` folder too, never inside another clone. Never touch any other folder: the session
   that started you, or another reviewer, may be working in it.
 - Branch: `{{BRANCH}}`
 - Issue: #{{ISSUE}} (read it: `gh api repos/pietvanzoen/fund-oregon-schools/issues/{{ISSUE}} --jq .body`)
