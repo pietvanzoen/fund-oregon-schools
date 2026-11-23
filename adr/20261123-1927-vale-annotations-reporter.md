@@ -1,6 +1,6 @@
 # Vale findings are annotations on the style job, not a separate check run
 
-Status: accepted (2026-11-23, PR #N)
+Status: accepted (2026-11-23, PR #141)
 
 ## Context
 The `style` workflow used reviewdog's `github-pr-check` reporter, which creates its own check run (also named
