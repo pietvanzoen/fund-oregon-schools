@@ -158,8 +158,8 @@ for its status quo estimate [SRC:ode/qec/2026_qem_report.pdf p.103].
 - Kotek, Nov. 6, 2026, as quoted by KATU: "Maybe enrollment is the wrong marker. That was established almost 30 years
   ago. Maybe it has to be student need." She called rethinking it "a longer conversation than what is happening in
   districts right now" [NEWS:NEWS-2026-katu-kotek-pps-1].
-- House Democrats chose Rep. Ben Bowman as their nominee for speaker on Nov. 20, 2026; the full House
-  votes in January [NEWS:NEWS-20261120-opb-1] [NEWS:NEWS-20261120-occ-1]. The speaker appoints House committee chairs
+- House Democrats chose Rep. Ben Bowman, D-District 25, as their nominee for speaker on Nov. 20, 2026; the full House
+  votes in January [NEWS:NEWS-20261120-opb-1] [NEWS:NEWS-20261120-occ-1] [SRC:legislature/members/bowman.html]. The speaker appoints House committee chairs
   [NEWS:NEWS-20261120-occ-1]. The 2026 chairs are in `topics/formula.md`.
 
 <!-- site: decision formula-2027 -->
