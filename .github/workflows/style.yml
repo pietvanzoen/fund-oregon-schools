@@ -10,8 +10,7 @@ on:
       - ".github/workflows/style.yml"
 permissions:
   contents: read
-  checks: write
-  pull-requests: read
+  pull-requests: write
 jobs:
   vale:
     runs-on: ubuntu-latest
@@ -25,7 +24,6 @@ jobs:
           sync: false
           files: '["analysis/START.md", "analysis/decisions.md", "analysis/timeline.md", "analysis/topics", "analysis/people"]'
           filter_mode: added
-          # Annotations on this job, not a separate check run reviewdog must PATCH (404s there: #140). adr/20261123-1927-vale-annotations-reporter.md.
-          # shortcut: GitHub shows at most 10 annotations per level per step; print Vale's full output to the log if that starts hiding warnings.
-          reporter: github-pr-annotations
+          # Review comments, not a check run reviewdog must update (404s there: #140). adr/20261123-1927-vale-review-comments.md.
+          reporter: github-pr-review
           fail_level: none
