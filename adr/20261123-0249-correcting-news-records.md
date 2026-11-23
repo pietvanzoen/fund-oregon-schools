@@ -1,6 +1,6 @@
 # A wrong news record is corrected in place, with a dated note
 
-Status: accepted (2026-11-22, PR #TBD)
+Status: accepted (2026-11-22, PR #127)
 
 ## Context
 `sources/` is primary material and is never edited, but `sources/news/index.jsonl` holds our own summaries of
