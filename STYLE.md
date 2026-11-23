@@ -97,7 +97,8 @@ blocking); the clarity reviewer checks the rest.
   Dec.; March through July are never abbreviated). Days of the week aren't abbreviated.
 - **Reports and forecasts:** one name per document, the one it uses for itself (its headings and table titles), and
   the release date once per page, on first mention: "the December 2026 revenue forecast, released Nov. 18, 2026"
-  (its executive summary and tables are headed December 2026; its cover gives only the date). After that, "the December 2026
+  (its executive summary and most of its tables are headed December 2026; its cover gives the release date, not a
+  month name). After that, "the December 2026
   forecast". Never two names for the same document, on one page or across the site.
 - **Budget periods:** 2027-29, "the 2027-29 budget" (two years). Avoid "biennium" in text except in quotes.
 - **Bills:** "Senate Bill 1555" on first mention, then "SB 1555".
