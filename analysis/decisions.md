@@ -34,7 +34,7 @@ are this site's own.
 </details>
 
 Analysis: the choice of baseline matters. The commission counts about $1.2 billion of other state money on top of
-the current service level for its status quo estimate [SRC:ode/qec/2026_qem_report.pdf p.103]; what that money is,
+the current service level for its status quo estimate [SRC:ode/qec/2026_qem_report.pdf p.103]. What that money is,
 and whether the current service level keeps today's services, is answered under the State School Fund decision below.
 
 ## The Governor's recommended budget for 2027-29 {#grb-2027-29}
