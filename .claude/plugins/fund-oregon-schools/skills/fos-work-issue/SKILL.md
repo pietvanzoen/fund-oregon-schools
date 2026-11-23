@@ -309,6 +309,20 @@ repos/pietvanzoen/fund-oregon-schools/pulls/<PR>/reviews --jq '.[] | select(.use
 | .body'`. Fix `warning` findings or say in **Anything odd** why not (an attributed "cut" is fine); `suggestion`
 findings are your call. Any rewording of a factual sentence gets the targeted fact-check rerun from step 6.
 
+Every review thread must be resolved before `main` accepts the merge. A fixed finding needs nothing: on its next
+run reviewdog deletes its comment. For each finding you keep, reply on its thread with the reason in one line
+(e.g. "Kept: attributed paraphrase of the Commission, p.103; STYLE.md allows it."), then resolve the thread, so a
+reviewer sees why on the PR:
+
+```bash
+gh api repos/pietvanzoen/fund-oregon-schools/pulls/<PR>/comments/<comment_id>/replies -f body="Kept: <reason>"
+gh api -X POST repos/pietvanzoen/fund-oregon-schools/pulls/<PR>/ccr/comments/<comment_id>/resolve
+```
+
+`gh api repos/pietvanzoen/fund-oregon-schools/pulls/<PR>/ccr/review_threads` lists the threads with their
+`comment_ids` and `resolved` state. Findings past 30 have no thread until the next push posts them: give their
+reasons in **Anything odd**.
+
 PR body, in this order:
 
 1. **Summary**: two or three plain sentences on what the archive now knows that it didn't, and which core
