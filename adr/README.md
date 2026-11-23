@@ -48,3 +48,4 @@ The concrete signal that should reopen this.
 | [2026-11-22](20261122-1718-correcting-append-only-rows.md) | A wrong append-only row is corrected by a new row that names the line it replaces |
 | [2026-11-22](20261122-2302-analysis-first-in-topic-files.md) | Topic files put the Analysis section first |
 | [2026-11-22](20261123-0249-correcting-news-records.md) | A wrong news record is corrected in place, with a dated note |
+| [2026-11-23](20261123-0557-questions-listed-once.md) | Questions are listed in full once, on the Questions page; the Decisions page links to them |

@@ -34,7 +34,7 @@ are this site's own.
 </details>
 
 Analysis: the choice of baseline matters. Whether the current service level keeps all of today's services is an open
-question (`questions.csv`, "csl-meaning"); the commission counts about $1.2 billion of other state money on top of it
+question (see `questions.csv#csl-meaning`); the commission counts about $1.2 billion of other state money on top of it
 for its status quo estimate [SRC:ode/qec/2026_qem_report.pdf p.103].
 
 ## The Governor's recommended budget for 2027-29 {#grb-2027-29}
