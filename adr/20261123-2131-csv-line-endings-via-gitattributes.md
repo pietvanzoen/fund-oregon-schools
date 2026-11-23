@@ -1,6 +1,6 @@
 # Our CSVs are stored with LF endings through `.gitattributes`, not a linter
 
-Status: accepted (2026-11-23, PR #N)
+Status: accepted (2026-11-23, PR #145)
 
 ## Context
 On #137 a Python read-modify-write turned `analysis/questions.csv` rows into LF, so three untouched rows showed as

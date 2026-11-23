@@ -1,6 +1,6 @@
 # Research waiting for a future document is labelled `blocked`, not started
 
-Status: accepted (2026-11-23, PR #N)
+Status: accepted (2026-11-23, PR #145)
 
 ## Context
 On #85 a comment added an item that needs the Governor's budget (due Dec. 1, 2026). The run couldn't do it and
