@@ -41,7 +41,7 @@ for its status quo estimate [SRC:ode/qec/2026_qem_report.pdf p.103].
 
 - State law sets Dec. 1 of even-numbered years for a governor continuing in office to submit a budget
   [SRC:legislature/ors/ors291.html]; Gov. Tina Kotek was reelected in November [NEWS:NEWS-20261106-occ-1].
-- The budget is built on the November 2026 revenue forecast, released Nov. 18, 2026
+- The budget will be based on the December 2026 revenue forecast, released Nov. 18, 2026
   [SRC:fiscal/oea/2026-12_forecast.pdf p.1] [SRC:fiscal/oea/2026-12_forecast.pdf p.33]. That forecast
   raised its projection of net General Fund revenue for 2027-29 by $233.5 million over the previous forecast; with an
   $11.2 million larger beginning balance, projected available resources for 2027-29 rose $244.6 million

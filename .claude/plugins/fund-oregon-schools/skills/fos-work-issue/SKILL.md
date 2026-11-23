@@ -214,7 +214,7 @@ includes, what the formula weights), grep the whole document for it, appendices 
 (`python3 tools/doc.py <file> --grep "<term>"` searches every page), and the previous edition of the same report if
 it's archived. Put what the method section says in "What the sources say" before the Analysis relies on it. On #85
 the main chapters of the 2026 QEM report (pp.100-114) seemed to settle it, but the method appendix says Student
-Investment Account and High School Success revenue is netted out of several revenue lines
+Investment Account and High School Success revenue is netted out of the funding required in several areas
 [SRC:ode/qec/2026_qem_report.pdf p.129], and a confident answer had to become a conditional one in review.
 
 Then, as the issue needs:

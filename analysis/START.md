@@ -40,7 +40,7 @@ See `updates.csv`.
 
 1. The Quality Education Commission's 2026 Quality Education Model report: current service level and status quo
    [SRC:ode/qec/2026_qem_report.pdf p.103]; the full model's estimate [SRC:ode/qec/2026_qem_report.pdf p.117]
-2. November 2026 revenue forecast: budget basis [SRC:fiscal/oea/2026-12_forecast.pdf p.33]; reserves [SRC:fiscal/oea/2026-12_forecast.pdf p.41]
+2. December 2026 revenue forecast (released Nov. 18, 2026): budget basis [SRC:fiscal/oea/2026-12_forecast.pdf p.33]; reserves [SRC:fiscal/oea/2026-12_forecast.pdf p.41]
 3. The Joint Committee on Public Education Appropriation's sufficiency report, November 2025 [SRC:legislature/olis/2025I1/310695_jpea.pdf p.4]
 4. Executive Order 26-06 and its FAQ [SRC:gov/eo/eo-26-06_preserving-instructional-time.pdf p.2] [SRC:gov/eo/eo-26-06_faq.pdf p.2]
 5. Senate Bill 141 performance growth targets [SRC:ode/accountability/2026-05_statewide-performance-growth-targets.pdf p.1]
