@@ -18,10 +18,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: vale-cli/vale-action@v3
+        # A failure to post findings must not turn the check red: Vale never blocks a merge.
+        continue-on-error: true
         with:
           version: 3.13.0
           sync: false
           files: '["analysis/START.md", "analysis/decisions.md", "analysis/timeline.md", "analysis/topics", "analysis/people"]'
           filter_mode: added
-          reporter: github-pr-check
-          fail_on_error: false
+          # Annotations on this job, not a separate check run reviewdog must PATCH (404s there: #140). adr/20261123-1927-vale-annotations-reporter.md.
+          # shortcut: GitHub shows at most 10 annotations per level per step; print Vale's full output to the log if that starts hiding warnings.
+          reporter: github-pr-annotations
+          fail_level: none
