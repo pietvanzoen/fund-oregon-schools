@@ -14,35 +14,41 @@ status quo and the full model count other state money too. So the full model's $
 level compares a fund with a broader total, and its $2.42 billion above the status quo is the like-for-like gap between
 the model's two scenarios (sources below).
 
-**What a State School Fund at the current service level would mean.** The model's $1.2 billion is not money missing
-from the current service level. It is the part of the model's status quo that the model leaves to state money outside
-the State School Fund, and the model subtracts no state grant program when it works out what the state must pay
-(below). Those grants exist and are larger than $1.2 billion. The Legislature's Joint Committee on Public Education
-Appropriation counted $2.2 billion of state grants for core K-12 programs in 2025-27, and slides in the commission's
-October 2026 meeting materials cite that figure. For 2027-29, the December 2026 revenue forecast puts the Corporate Activity Tax money for the
-Student Investment Account and the Statewide Education Initiatives Account at $2.00 billion
-[DER:csl/sia_seia_2027_29]. That is $0.78 billion more than the model's remainder [DER:csl/sia_seia_minus_non_ssf],
-though it is a revenue forecast, not a budget, and part of the second account pays for programs the state runs.
+**What a State School Fund at the current service level would mean.** The model's status quo is about $1.2 billion
+more than the current service level. That $1.2 billion is not part of the current service level: it is the share of
+the status quo the model leaves to state money outside the State School Fund or, the report says, to reduced services
+if that money isn't there. The model subtracts no state grant program when it works out what the state must pay
+(below). The state does pay for grant programs outside the fund: the Legislature's Joint Committee on Public
+Education Appropriation counted $2.2 billion of them as core K-12 funding in 2025-27, more than the model's $1.2
+billion for 2027-29, and slides in the commission's October 2026 meeting materials cite the same figure. Most of
+those grants are paid from the Corporate Activity Tax, a state business tax. For 2027-29, the December 2026 revenue
+forecast (released Nov. 18, 2026) puts the tax money for two of its grant accounts, the Student Investment Account
+and the Statewide Education Initiatives Account, at $2.00 billion [DER:csl/sia_seia_2027_29], $0.78 billion more than
+the model's $1.2 billion [DER:csl/sia_seia_minus_non_ssf]. That is a revenue forecast, not a budget, and part of the
+second account pays for programs the state runs.
 
 Our estimate: if the 2027-29 budget funds the State School Fund at the current service level and keeps the core grant
 programs at their 2025-27 dollar amounts, state funding for core K-12 would total about $14.76 billion
 [DER:csl/csl_plus_core_grants]. That is $0.98 billion more than the model's status quo
-[DER:csl/csl_plus_core_grants_minus_status_quo]. The estimate assumes the grants continue unchanged and that the status
-quo includes what they pay for, which the report says it does: it prices current activities "regardless of the
-historical funding source" (below). On this reading, a State School Fund at the current service level keeps the model's status
-quo once the other state programs are funded at their current amounts. If the grant programs
-were reduced by more than that margin, or if the State School Fund lands below its current service level, the total
-would fall below the model's status quo.
+[DER:csl/csl_plus_core_grants_minus_status_quo]. The estimate rests on an open assumption: that the status quo already
+prices what those grants pay for. The report says the status quo covers all current activities "regardless of the
+historical funding source", but it doesn't say which grant-funded activities its prototype schools include, and the
+commission's October 2026 slides call fitting the grants into the model an unresolved challenge (below). If the
+assumption holds, a State School Fund at the current service level keeps the model's statewide status quo once the
+grant programs continue at their 2025-27 amounts. If the grants were reduced by more than $0.98 billion, or the
+State School Fund lands below its current service level, the total would be less than the status quo. Neither total
+reaches the full model's $16.21 billion.
 
 The model's status quo is a statewide measure, not a forecast of any district's budget. The current service level is
-a mechanical update of the last budget for pay, benefits, pension rates, inflation and enrollment; it leaves out
-declining federal money and falling earnings on districts' pension side accounts, which the model's status quo
-includes (below). So a district can have less to spend than its current services cost in a year when statewide funding
-matches the model's status quo, for example where federal pandemic money paid for staff. The archive has no district-level estimate of what a budget at
-the current service level would mean for services. The commission says it can't predict where reductions from lost federal
-money would land. Whether a budget at the current service level is less than schools need therefore depends on the
-yardstick: by the model's statewide status quo it is not, if the grants continue; by a given district's costs it may
-be.
+a mechanical update of the last budget for pay, benefits, pension rates, inflation and enrollment. It leaves out
+declining federal money and falling earnings on the pension side accounts districts hold with the Public Employees
+Retirement System (PERS), accounts whose earnings offset part of their pension costs; the model's status quo includes
+both (below). So a district can have less to spend than its current services cost in a year when statewide funding
+matches the model's status quo, for example where federal pandemic money paid for services. The archive has no
+district-level estimate of what a budget at the current service level would mean for services, and the commission
+says it can't predict where reductions from lost federal money would land. Whether a budget at the current service
+level keeps today's services therefore depends on the yardstick: by the model's statewide status quo it does, if the
+assumption above holds and the grants continue; by a given district's costs it may not.
 
 Funding for 2025-27 that the Senate President's and House Speaker's offices called "Record Funding"
 [SRC:legislature/press/2025-05-28_record-k12-funding.pdf p.1] and a gap in 2027-29 can both be true: they measure
@@ -107,8 +113,8 @@ model report's ranking is of state-sourced funding, which is a different measure
 
 - The report's 2027-29 status quo is $24,754,756,554 of total costs for districts and education service districts,
   less $10,978,865,990 of other revenue: local revenue in and outside the formula, federal revenue and food service
-  revenue, offset by Public Employees Retirement System (PERS) side account earnings net of debt service. That leaves
-  $13,775,890,564 for the state. Taking away the State School Fund's current service level of $12,558,429,348 leaves
+  revenue, with $245,220,477 added back for Public Employees Retirement System (PERS) side account earnings net of debt service obligations.
+  That leaves $13,775,890,564 for the state [SRC:ode/qec/2026_qem_report.pdf p.100]. Taking away the State School Fund's current service level of $12,558,429,348 leaves
   $1,217,461,216 of "Remaining Non-SSF State Funds for Status Quo Core K-12 Education Funding"
   [SRC:ode/qec/2026_qem_report.pdf p.103]. The revenues subtracted in that table are all non-state; no state grant
   program is listed [SRC:ode/qec/2026_qem_report.pdf p.103].
@@ -117,8 +123,8 @@ model report's ranking is of state-sourced funding, which is a different measure
   [SRC:ode/qec/2026_qem_report.pdf p.13].
 - The status quo prices all current K-12 activities at the prior budget's level "regardless of the historical funding
   source of those activities", net of non-state revenue. If federal or local funding falls, it includes the state cost
-  of replacing it [SRC:ode/qec/2026_qem_report.pdf p.101]. It uses the staffing ratios districts actually had in the
-  base year [SRC:ode/qec/2026_qem_report.pdf p.93].
+  of replacing it [SRC:ode/qec/2026_qem_report.pdf p.101]. It uses the actual base-year staffing ratios for schools
+  of about the prototype schools' size [SRC:ode/qec/2026_qem_report.pdf p.93].
 - The report says the current service level covers the State School Fund only. It excludes activities paid for from
   outside the fund, "such as grants and funds for the Student Success Act other than the SSA transfer to the SSF";
   changes in non-state funding, such as declining federal funds; and cost increases outside the fund, such as
@@ -127,7 +133,7 @@ model report's ranking is of state-sourced funding, which is a different measure
   additional money from it is distributed to school districts as grants for specific purposes, the Legislative Policy
   and Research Office explains
   [SRC:legislature/lpro/2025-08_k12-education-funding-background.pdf p.4].
-- The Joint Committee on Public Education Appropriation's report adopted Nov. 19, 2025, says the model's revenue
+- The Joint Committee on Public Education Appropriation's report adopted Nov. 19, 2025, says the 2024 model's revenue
   calculations "do not account for state grant-in-aid received by school districts, including the grants funded
   through the Fund for Student Success" [SRC:legislature/olis/2025I1/310959_jpea-adequacy-report.pdf p.24].
 - That report lists $2,202,344,784 of state grants as core K-12 funding for 2025-27: Student Investment Account grants
@@ -139,6 +145,8 @@ model report's ranking is of state-sourced funding, which is a different measure
 - Slides in the materials for the commission's Oct. 21, 2026, meeting cite the same $2.2 billion of state K-12
   support outside the fund and say "Adequacy evaluation can no longer look at the State School Fund in isolation; it
   must account for total state K–12 investments" [SRC:ode/qec/minutes/2026-10-21.pdf p.1]
+  [SRC:ode/qec/minutes/2026-10-21.pdf p.63]. The same slide lists an "Integration Challenge: Incorporating targeted
+  categorical grants into a model historically structured around formula-driven core prototype resources"
   [SRC:ode/qec/minutes/2026-10-21.pdf p.63].
 - The December 2026 forecast puts Corporate Activity Tax money for 2027-29 at $3.41 billion
   [SRC:fiscal/oea/2026-12_forecast.pdf p.34]: $910.903 million to the State School Fund, $1,250.421 million to the
@@ -151,8 +159,8 @@ model report's ranking is of state-sourced funding, which is a different measure
   cost to continue legislatively approved programs into the 2027-29 biennium" and is required by law
   [SRC:fiscal/das/2026-03_budget-instructions-2027-29.pdf p.30]. It starts from the 2025-27 approved budget, adjusted
   for the 2026 session, and adds "essential packages" such as inflation and phase-ins of approved program changes
-  [SRC:fiscal/das/2026-03_budget-instructions-2027-29.pdf p.6]. The standard inflation factors for 2027-29 are 4.9%
-  for general inflation, 9.3% for non-state employee personnel costs and 6.5% for medical services
+  [SRC:fiscal/das/2026-03_budget-instructions-2027-29.pdf p.6]. The standard inflation factors state agencies use for the two years of 2027-29
+  are 4.9% for general inflation, 9.3% for non-state employee personnel costs and 6.5% for medical services
   [SRC:fiscal/das/2026-03_budget-instructions-2027-29.pdf p.6].
 - The executive branch calculates it. The Joint Committee on Ways and Means considers it, but "the calculated CSL
   amount does not limit the committee's ability to set any amount it chooses". House Bill 2140 (2025) put the 49/51
@@ -161,8 +169,8 @@ model report's ranking is of state-sourced funding, which is a different measure
 - For the State School Fund, the commission's report describes these steps: start from the prior approved budget;
   remove one-time money; phase programs in or out; take out the set-asides the law carves out of the fund; and use the
   Legislative Revenue Office's estimate of local revenue. Personnel, 85% of the formula base, is projected with the
-  Department of Education's educator compensation model, with health benefits held to the 3.4% annual cap set by
-  Senate Bill 1067 (2017). The other 15%, services and supplies, gets the Department of Administrative Services' standard inflation rate. Then
+  Department of Education's educator compensation model, with health benefits assumed to grow at the 3.4% annual
+  cap set by Senate Bill 1067 (2017) even when premiums rise less. The other 15%, services and supplies, gets the Department of Administrative Services' standard inflation rate. Then
   the total is adjusted for projected enrollment [SRC:ode/qec/2026_qem_report.pdf p.111].
 - Enrollment in that step is unweighted resident enrollment, which the report puts at 537,748 students in 2024-25 and
   530,225 in 2026-27. Districts are paid on weighted enrollment, the higher of the current or prior year, which
@@ -174,8 +182,8 @@ model report's ranking is of state-sourced funding, which is a different measure
 - **PERS.** The 2025-27 current service level assumed employer contributions to PERS of 20.45% in both years
   [SRC:legislature/olis/2025R1/293759_ssf-budget-review.pdf p.3], and includes standard adjustments for changes in
   PERS rates [SRC:legislature/olis/2025R1/307212_sb5516-ssf-work-session.pdf p.2]. The commission calls the way the
-  current service level handles PERS "a primary area of divergence". Its table shows the blended PERS rate rising from 15.16% in 2024-25 to 24.38% in 2027-28, as side account earnings fall from 11.87% to
-  1.85% [SRC:ode/qec/2026_qem_report.pdf p.113]. Districts' pension bond debt service peaks at over $465.6 million in
+  current service level handles PERS "a primary area of divergence". Its table projects the blended PERS rate rising from 15.16% in 2024-25 to 24.38% in 2027-28, as side account earnings fall from 11.87% to
+  1.85% [SRC:ode/qec/2026_qem_report.pdf p.113]. Districts' pension bond debt service is projected to peak at over $465.6 million in
   2026-27 [SRC:ode/qec/2026_qem_report.pdf p.114].
 - The commission's view is that the current service level "reflects and perpetuates historical budgetary choices":
   a budget below need lowers the base for every later calculation [SRC:ode/qec/2026_qem_report.pdf p.104].
