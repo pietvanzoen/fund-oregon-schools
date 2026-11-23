@@ -18,10 +18,18 @@ SEIA_2027_29 = 750.253e6  # CAT distribution to the Statewide Education Initiati
 # Fund for Student Success (CAT) column of the same table: SIA, High School Success, Early Literacy, Hunger Free
 # Schools, specialized student services [SRC:legislature/olis/2025I1/310959_jpea-adequacy-report.pdf p.29]
 CORE_GRANTS_CAT = [1109828482, 199151203, 93780000, 127345728, 124214759]
+CORE_GRANTS_2025_27 = 2202344784  # JPEA's subtotal of state grant-in-aid for core K-12, 2025-27 [SRC:legislature/olis/2025I1/310959_jpea-adequacy-report.pdf p.29]
 
 assert STATUS_QUO - SSF_CSL == NON_SSF  # the report's three figures add up
 B = lambda x: round(x / 1e9, 2)
 sia_seia = SIA_2027_29 + SEIA_2027_29
+with_grants = SSF_CSL + CORE_GRANTS_2025_27
+grants_assume = ("the grant programs the joint committee counted as core K-12 funding in 2025-27 continue at the same "
+                 "dollar amounts in 2027-29 (no inflation, no cuts); the Quality Education Model's status quo costs "
+                 "include the activities those grants pay for (unconfirmed; asked of ODE in issue #146) and do not "
+                 "already subtract their revenue (the cost workbook's revenue sheet lists no state grant revenue, though "
+                 "the report's appendix says Student Investment Account and High School Success revenue is netted out "
+                 "in some revenue lines); the subtotal includes $17.3 million for the Oregon School for the Deaf; mixes a 2025-27 budget figure with 2027-29 estimates")
 
 out = [
     ("sia_seia_2027_29", B(sia_seia), "$B", "derived",
@@ -35,6 +43,12 @@ out = [
     ("core_grants_cat", B(sum(CORE_GRANTS_CAT)), "$B", "derived",
      "Corporate Activity Tax (Fund for Student Success) share of the 2025-27 core K-12 grants the joint committee listed",
      "sum of the FSS (CAT) column", JPEA, ""),
+    ("csl_plus_core_grants", B(with_grants), "$B", "est",
+     "State School Fund current service level plus the 2025-27 core K-12 grants at the same amounts",
+     "SSF CSL 2027-29 + core grant subtotal 2025-27", f"{QEM}; {JPEA}", grants_assume),
+    ("csl_plus_core_grants_minus_status_quo", B(with_grants - STATUS_QUO), "$B", "est",
+     "That total above the model's 2027-29 status quo", "(SSF CSL + core grants) - status quo",
+     f"{QEM}; {JPEA}", grants_assume),
 ]
 with open(OUT, "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f)
