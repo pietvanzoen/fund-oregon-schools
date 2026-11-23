@@ -20,6 +20,8 @@ blocking); the clarity reviewer checks the rest.
   are in the third person.
 - **Self-reference.** "Our analysis", "our estimate", "our sum" for our own work. "The archive" for what has been
   collected ("The archive has no statement from Kotek on the formula"). Never a bare "we".
+- **The About page** (`website/about.md`, hand-written, outside the files above) speaks as the group that runs the
+  site: "we" and "us" are fine there. Its other wording follows this file.
 
 ## Structure
 
