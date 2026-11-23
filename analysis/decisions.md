@@ -88,13 +88,14 @@ document from the Governor with the $12.57 billion figure.
   model. See `topics/quality-education-model.md`.
 - Analysis: by the Quality Education Model's statewide measure, a State School Fund at the current service level keeps
   the status quo (today's services) if the state's grant programs outside the fund continue at their 2025-27 amounts
-  and the model's status quo already prices what they pay for, an assumption the model's report leaves open. Our
+  and the model's status quo already prices what they pay for without subtracting their money, an assumption the
+  archive can't settle. If it fails, the $1.2 billion is left to other state money or to reduced services. Our
   estimate puts the margin at $0.98 billion [DER:csl/csl_plus_core_grants_minus_status_quo]: the current service
   level plus those grants would total about $14.76 billion [DER:csl/csl_plus_core_grants]. The archive has no
   district-level estimate, and districts losing federal money can still have less to spend. See
   `topics/quality-education-model.md`.
 - The model's status quo ($13.78 billion) is the current service level plus $1.22 billion of state money from outside
-  the State School Fund; the table that derives it subtracts no state grant program
+  the State School Fund; the table that derives it lists no state grant program among the revenue it subtracts
   [SRC:ode/qec/2026_qem_report.pdf p.103]. The Joint Committee on Public Education Appropriation counted $2.2 billion
   of state grants for core K-12 programs in 2025-27, led by $1.1 billion of Student Investment Account grants
   [SRC:legislature/olis/2025I1/310959_jpea-adequacy-report.pdf p.29].
