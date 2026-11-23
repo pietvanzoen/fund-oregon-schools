@@ -32,7 +32,7 @@ read the issue before going further; if neither works, stop and say so.
 - Otherwise take the next one from the **Research queue**: the open issue labelled `queue` (`gh api
   "repos/pietvanzoen/fund-oregon-schools/issues?state=open&labels=queue" --jq '.[0].body'`). Its numbered list is
   Piet's order. Go down it and take the first issue that is open, labelled `auto`, has none of `needs-human`,
-  `needs-judgement`, `manual`, `in progress`, and has no open PR or `claude/issue-<n>-*` branch. Only for the
+  `needs-judgement`, `manual`, `in progress`, `blocked`, and has no open PR or `claude/issue-<n>-*` branch. Only for the
   issues split before runs stopped splitting (#25 and #57; drop this rule once both close): if the issue has sub-issues
   (`gh api repos/pietvanzoen/fund-oregon-schools/issues/<n>/sub_issues`), take its first open sub-issue that passes
   the same test instead.
@@ -41,6 +41,10 @@ read the issue before going further; if neither works, stop and say so.
 - Mark it as yours before starting: add the `in progress` label
   (`gh api repos/pietvanzoen/fund-oregon-schools/issues/<n>/labels -f "labels[]=in progress"`). It stays on while
   the PR is open; the issue closes on merge through `Closes #<n>`.
+- If most of its checklist needs a document that doesn't exist yet (the Governor's budget before Dec. 1, the next
+  forecast, a session's adopted budget), don't start it: comment with the document and when it's expected, add a
+  `Waits for: <document>, expected <date>` line to the body, add `blocked`, remove `auto` and `in progress`, and
+  take the next free item (if you were given the number, stop). Only Piet removes `blocked`, once it's archived.
 - Stop and say why (on the issue, as a short comment) if it turns out to need Piet's judgement, needs hearing video or a
   page behind a login for most of its checklist, or asks for a code change rather than research. Add
   `needs-human`, remove `in progress`
@@ -73,8 +77,14 @@ git checkout -b claude/issue-<n>-<short-slug>
 Read the issue and its comments, then `RESEARCH.md`, `analysis/decisions.md` and the decision files
 (`decisions.csv`, `options.csv`, `positions.csv`, `questions.csv`). Note the decision the issue serves (its
 `Serves: <id>` line) or that it's `standing` research; if neither is clear, say so in the PR. Then read any topic,
-people or data files the issue names. Sort the issue's checklist into three groups and keep the list in your
-task list:
+people or data files the issue names.
+
+**Check for overlapping issues.** List the open issues on the same decision or question: search open issue bodies
+for the issue's `Serves:` ids and `Answers question:` ids, and titles for its key terms. Stay out of their scope
+rather than half-answering it, and say in the PR which parts belong to them (#85's scope grew in a comment into
+how Student Success Act money is counted, which #91 covers, so the two now overlap).
+
+Sort the issue's checklist into three groups and keep the list in your task list:
 
 1. **Needs a document** — find it, queue it, analyse after the fetch.
 2. **Can be done from what's archived** — check with `tools/search.py` and `tools/doc.py` before assuming
@@ -83,6 +93,10 @@ task list:
    - **needs a person**: an email, a call, a public records request, or a judgement call for Piet (see
      "Work for Piet" below);
    - **the source doesn't exist**: you looked and can say where (agency pages, search terms);
+   - **the source isn't out yet**: a document with a known or expected date, such as the Governor's budget (due
+     Dec. 1 of even-numbered years), the next revenue forecast or a session's adopted budget. This includes items
+     added in comments after the issue got `next` (on #85, a comment added the statewide General Fund gap, which
+     needs the Governor's budget; it moved to #136);
    - **needs audio you can't check**: quotes from hearing video (the `transcribe` Action's machine transcripts find
      the moment and timestamp, but a quote needs checking against the audio);
    - **behind a login or script** that neither web fetch nor the browser can get past;
@@ -98,7 +112,9 @@ a proposed narrower scope, `needs-judgement`, remove `in progress`); say in the 
 - needs a person → its own issue for Piet (below);
 - the fetch failed twice, or needs a browser → a follow-up issue labelled `auto` with the URLs and what to retry;
 - needs audio you can't check → a follow-up issue labelled `needs-human` with the timestamps;
-- the source doesn't exist → no issue: tick the item with a note saying where you looked.
+- the source doesn't exist → no issue: tick the item with a note saying where you looked;
+- the source isn't out yet → a follow-up issue labelled `blocked` (not `auto`), with a `Waits for: <document>,
+  expected <date>` line and what to do once it's archived. Piet removes `blocked` when it is.
 In the original issue, tick the moved item and add "→ #<new issue>".
 
 **Work for Piet.** Each item that needs a person becomes its own issue, so it doesn't get lost in a PR
@@ -192,6 +208,15 @@ whose extracted text is scrambled, or a fact found in text below a `--- OCR of t
 a picture), render the page and look at it
 (`pdftoppm -f <p> -l <p> -png -r 110 sources/<path> /tmp/page`, then Read the image).
 
+**Read a model's method in full before concluding how it treats something.** Before writing a conclusion that
+depends on how a model, formula or method counts something (what the Quality Education Model's status quo
+includes, what the formula weights), grep the whole document for it, appendices and method notes included
+(`python3 tools/doc.py <file> --grep "<term>"` searches every page), and the previous edition of the same report if
+it's archived. Put what the method section says in "What the sources say" before the Analysis relies on it. On #85
+the main chapters of the 2026 QEM report (pp.100-114) seemed to settle it, but the method appendix says Student
+Investment Account and High School Success revenue is netted out of several revenue lines
+[SRC:ode/qec/2026_qem_report.pdf p.129], and a confident answer had to become a conditional one in review.
+
 Then, as the issue needs:
 
 - Topic file `analysis/topics/<topic>.md` in three sections, in order: `## Analysis` (our interpretation, first so
@@ -224,7 +249,9 @@ Then, as the issue needs:
   sentence, marked "our sum" or "our estimate" with the DER tag, anywhere outside `topics/`.
 - A row in `analysis/updates.csv` (the site's What's new page; the newest three show on the overview), added
   right after you open the PR (step 7), because it needs the PR's number: `date` (today), `text` (what changed,
-  in plain words for a parent, one or two sentences), `page` (the analysis file readers should open, e.g.
+  in plain words for a parent, one or two sentences; name pages by the title the site shows, their H1, e.g.
+  "What's being decided", not by what they're about: #137's first row named "the current service level page",
+  which doesn't exist), `page` (the analysis file readers should open, e.g.
   `topics/reserves.md`, or `decisions.md#esf-draw-2027-29`), `pr`. Append it at the end; the site sorts. CI fails
   a PR that changes reader-facing files (anything in `analysis/` except `updates.csv`, or the news index) without a
   row for its number. The PR description is the maintainers' record; this is for readers. For a PR readers don't need to hear about (a typo, a citation page fix), Piet labels it
@@ -279,6 +306,10 @@ They report only. For each finding:
    without it), settle it with the source, e.g. cite the page that states it, rather than dropping the claim (a
    November 2025 report named as a committee's was flagged as inference; the fix was a citation to its cover page).
 3. After substantive fixes, run the reviewer that raised them once more on the new head. Not more than once.
+   Fixes made after that rerun are checked by you alone. If any of them changes a conclusion, changes a figure on
+   `START.md` or `decisions.md`, or adds a derived row, label the PR `needs-human` and list those fixes under
+   **Needs you** as "checked by the session only" (on #137 the rerun found the QEM appendix point, and the new
+   source line, derived row and reworded Analysis it led to went unreviewed).
 4. A sentence reworded for clarity can change what it claims. If clarity fixes reword any sentence that states a
    fact, run `fact-check.md` once more on the new head, limited to those sentences (list their file:line in the
    prompt). This counts as its one rerun.
@@ -344,8 +375,9 @@ Then update the issue body so its status is clear at a glance (`gh api -X PATCH 
     and `analysis/derived/*.csv`, the archived sources this PR added (one line per document, by path, linked
     with `https://github.com/pietvanzoen/fund-oregon-schools/blob/main/<path>`), and any new news records by id.
   - On a later PR for the same issue, add to the lists rather than replacing them.
-- Label the PR `needs-human` if any finding is disputed or unresolved, any figure on `START.md` or `decisions.md` changed, or a
-  checklist item needs Piet's judgement. Say which of these applies, and what Piet has to decide, in a
+- Label the PR `needs-human` if any finding is disputed or unresolved, any figure on `START.md` or `decisions.md` changed,
+  a checklist item needs Piet's judgement, or fixes after a reviewer's one rerun changed a conclusion or added a
+  derived row (step 6). Say which of these applies, and what Piet has to decide, in a
   **Needs you** line at the top of the PR body.
 - Wait for the `check` and `build` checks on the PR. If one fails, fix it and push. If the PR shows a merge
   conflict later (another PR merged first), merge `origin/main` in again as above.

@@ -95,5 +95,9 @@ blocking); the clarity reviewer checks the rest.
 - **Percent:** 4.2%. Percentage points: "3 percentage points", not "3%".
 - **Dates:** Dec. 1, 2026; March 2026 (months with a day are abbreviated: Jan., Feb., Aug., Sept., Oct., Nov.,
   Dec.; March through July are never abbreviated). Days of the week aren't abbreviated.
+- **Reports and forecasts:** one name per document, taken from its cover, not from its file name or URL. Give the
+  release date once per page, on first mention: "the November 2026 revenue forecast, released Nov. 18, 2026"
+  (the cover reads Nov. 18, 2026, though the file is `2026-12_forecast.pdf`); after that, "the November 2026
+  forecast". Never two names for the same document on one page.
 - **Budget periods:** 2027-29, "the 2027-29 budget" (two years). Avoid "biennium" in text except in quotes.
 - **Bills:** "Senate Bill 1555" on first mention, then "SB 1555".

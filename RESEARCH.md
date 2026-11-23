@@ -121,6 +121,10 @@ There are two tracks.
 5. It's targeted: it answers one decision's question, or a few closely related ones, in one PR a reviewer can check
    in one pass. Scope is set here, by Piet, not by runs: a run that finds an issue too broad proposes a narrower
    scope on the issue and moves on; it doesn't split it.
+6. Every checklist item has a source that exists today. An item that waits for a future document (the Governor's
+   budget, the next forecast, a session's adopted budget) goes in its own issue labelled `blocked`, with a
+   `Waits for: <document>, expected <date>` line; it gets `next` once the document is archived. The same check
+   applies to items added in comments after an issue is labelled `next`, and runs move such items out (skill step 2).
 
 **Standing research** has no due date: what the money bought (results, the Student Investment Account, SB 141
 accountability), how the formula works, and history such as Measures 5 and 50. It's labelled `standing` and
