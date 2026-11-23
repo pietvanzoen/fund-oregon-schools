@@ -61,7 +61,7 @@ for its status quo estimate [SRC:ode/qec/2026_qem_report.pdf p.103].
 ## The State School Fund amount for 2027-29 {#ssf-2027-29}
 
 As of Nov. 22, 2026, the only 2027-29 State School Fund proposal in the archive is the Portland Public Schools board's
-request: its 2027 legislative agenda asks the Legislature to fund at least the current service level
+request. Its 2027 legislative agenda asks the Legislature to fund at least the current service level
 [PPSARCH:BB:14673756 p.1], the $12.56 billion baseline [SRC:ode/qec/2026_qem_report.pdf p.103]. The Governor's
 recommended budget is due Dec. 1 [SRC:legislature/ors/ors291.html]; the archive has no amount yet from legislative
 leaders or statewide groups.
