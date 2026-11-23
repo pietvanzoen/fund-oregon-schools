@@ -41,9 +41,9 @@ continue at about their 2025-27 amounts. If it doesn't, the grants can't be set 
 report's own wording applies: that share is left to other state money or to reduced services. The difference between
 the two readings is large, roughly the size of the grants themselves.
 
-Our estimate, on the first reading: if the 2027-29 budget funds the State School Fund at the current service level and
-keeps the core grant programs at their 2025-27 dollar amounts, state funding for core K-12 would total about $14.76
-billion [DER:csl/csl_plus_core_grants]. That is $0.98 billion more than the model's status quo
+Our estimate, on the first reading, assumes the 2027-29 budget funds the State School Fund at the current service level
+and keeps the core grant programs at their 2025-27 dollar amounts. State funding for core K-12 would then total about
+$14.76 billion [DER:csl/csl_plus_core_grants]. That is $0.98 billion more than the model's status quo
 [DER:csl/csl_plus_core_grants_minus_status_quo]. On the second reading, the grants don't count toward the status quo,
 and the current service level is about $1.22 billion less than it (below). The estimate assumes the grants continue
 unchanged and that the status quo prices what they pay for, which is not yet confirmed. Until it is, treat it as one
