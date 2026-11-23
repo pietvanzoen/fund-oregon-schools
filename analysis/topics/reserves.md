@@ -32,9 +32,9 @@ while longer-term reform is developed (`decisions.md#esf-draw-2027-29`).
   No amount or bill is named [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt].
 - In 2021, House and Senate Democrats' school funding plan "hinges on the utilization of $200 million in funding from
   the Education Stability Fund" [SRC:legislature/press/2021-05-11_democrats-9.3b-school-funding-plan.pdf p.1]; Senate Bill 226 carried the transfer [SRC:legislature/press/2021-05-11_democrats-9.3b-school-funding-plan.pdf p.2].
-- Tammy Carpenter, D-District 27, who leads in the unofficial results of the Nov. 3, 2026, election for House District 27 (as of Nov. 22, 2026), suggested the fund as a bridge;
+- Tammy Carpenter, D-District 27 (Beaverton and Cedar Hills), who won the seat in the Nov. 3, 2026, election (unofficial results), suggested the fund as a bridge;
   Rep. Zach Hudson, D-District 49 (Troutdale, Fairview, Wood Village, Gresham, Portland), expects 2027 revenue bills
-  [NEWS:NEWS-20261112-katu-2] [SRC:legislature/members/hudson.html] [SRC:legislature/members/2026-11-03_general-election-results_state-representative.html].
+  [NEWS:NEWS-20261112-katu-2] [SRC:legislature/members/hudson.html] [SRC:legislature/members/2026-11-03_general-election-results_state-representative.html] [SRC:legislature/members/helm.html].
 - Gov. Tina Kotek opposes using one-time reserves for ongoing costs [NEWS:NEWS-20261106-occ-1].
 
 ## Derived figures
