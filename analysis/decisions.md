@@ -60,11 +60,12 @@ for its status quo estimate [SRC:ode/qec/2026_qem_report.pdf p.103].
 
 ## The State School Fund amount for 2027-29 {#ssf-2027-29}
 
-As of Nov. 22, 2026, the only 2027-29 State School Fund proposal in the archive is the Portland Public Schools board's
-request. Its 2027 legislative agenda asks the Legislature to fund at least the current service level
-[PPSARCH:BB:14673756 p.1], the $12.56 billion baseline [SRC:ode/qec/2026_qem_report.pdf p.103]. The Governor's
-recommended budget is due Dec. 1 [SRC:legislature/ors/ors291.html]; the archive has no amount yet from legislative
-leaders or statewide groups.
+As of Nov. 22, 2026, the archive has no 2027-29 State School Fund amount from the Governor, legislative leaders or
+the statewide education groups listed below. The Governor's recommended budget is due Dec. 1
+[SRC:legislature/ors/ors291.html]. The only proposal in the archive is from the Portland Public Schools Board of
+Education. Its 2027 legislative agenda, presented at a Nov. 17 work session, asks the Legislature to fund at least the
+current service level, which the agenda puts at $12.57 billion [PPSARCH:BB:14673756 p.1]. The baseline on this page,
+from the Quality Education Commission's report, is $12.56 billion [SRC:ode/qec/2026_qem_report.pdf p.103].
 
 - The Joint Committee on Ways and Means writes the budget; Sen. Kate
   Lieber, D-District 14 (Beaverton & Southwest Portland), returns as Senate co-chair
