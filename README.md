@@ -37,7 +37,8 @@ python3 tools/check_citations.py
 Open issues carry one status label: `in progress` (being worked; agents add it when they start), `next` (vetted and
 ready) or `later` (backlog). The order work happens in is the pinned [Research queue](https://github.com/pietvanzoen/fund-oregon-schools/issues?q=is%3Aopen+label%3Aqueue)
 issue: the nightly run, and any session not given an issue number, takes the first free issue in its list, and does
-nothing if none is free. Piet reorders it by editing the list. Bookmark these:
+nothing if none is free. Piet reorders it by editing the list. Runs merge their own PRs only when the merge gate in `fos-work-issue` passes and the queue
+issue carries the `auto-merge` label, which only Piet adds; without it, each PR records what the gate would have done. Bookmark these:
 - [In progress](https://github.com/pietvanzoen/fund-oregon-schools/issues?q=is%3Aopen+label%3A%22in+progress%22)
 - [Next](https://github.com/pietvanzoen/fund-oregon-schools/issues?q=is%3Aopen+label%3Anext+-label%3A%22in+progress%22)
 - [Later](https://github.com/pietvanzoen/fund-oregon-schools/issues?q=is%3Aopen+label%3Alater+-label%3A%22in+progress%22)
