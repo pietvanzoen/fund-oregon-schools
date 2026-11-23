@@ -64,7 +64,7 @@ As of Nov. 22, 2026, the archive has no 2027-29 State School Fund amount from th
 the statewide education groups listed below. The Governor's recommended budget is due Dec. 1
 [SRC:legislature/ors/ors291.html]. The only proposal in the archive is from the Portland Public Schools Board of
 Education. Its 2027 legislative agenda, presented at a Nov. 17 work session, asks the Legislature to fund at least the
-current service level, which the agenda credits to Gov. Tina Kotek and puts at $12.57 billion
+current service level statewide, which the agenda credits to Gov. Tina Kotek and puts at $12.57 billion
 [PPSARCH:BB:14673756 p.1]. The baseline on this page is the Department of Administrative Services' estimate in the
 Quality Education Commission's report, $12.56 billion [SRC:ode/qec/2026_qem_report.pdf p.103]; the archive has no
 document from the Governor with the $12.57 billion figure.
