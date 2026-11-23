@@ -40,3 +40,34 @@ while longer-term reform is developed (`decisions.md#esf-draw-2027-29`).
 ## Derived figures
 
 None: every figure under "What the sources say" is stated in a cited source.
+
+<!-- FAKE TEST CONTENT FOR #140, DO NOT MERGE -->
+Test sentence 0 says the budget cuts would cut services and that the state could perhaps maybe reduce funding across many districts and programs over the biennium in ways that are long enough to exceed the forty word limit set in the style guide for this repository today.
+
+Test sentence 1 says the budget cuts would cut services and that the state could perhaps maybe reduce funding across many districts and programs over the biennium in ways that are long enough to exceed the forty word limit set in the style guide for this repository today.
+
+Test sentence 2 says the budget cuts would cut services and that the state could perhaps maybe reduce funding across many districts and programs over the biennium in ways that are long enough to exceed the forty word limit set in the style guide for this repository today.
+
+Test sentence 3 says the budget cuts would cut services and that the state could perhaps maybe reduce funding across many districts and programs over the biennium in ways that are long enough to exceed the forty word limit set in the style guide for this repository today.
+
+Test sentence 4 says the budget cuts would cut services and that the state could perhaps maybe reduce funding across many districts and programs over the biennium in ways that are long enough to exceed the forty word limit set in the style guide for this repository today.
+
+Test sentence 5 says the budget cuts would cut services and that the state could perhaps maybe reduce funding across many districts and programs over the biennium in ways that are long enough to exceed the forty word limit set in the style guide for this repository today.
+
+Test sentence 6 says the budget cuts would cut services and that the state could perhaps maybe reduce funding across many districts and programs over the biennium in ways that are long enough to exceed the forty word limit set in the style guide for this repository today.
+
+Test sentence 7 says the budget cuts would cut services and that the state could perhaps maybe reduce funding across many districts and programs over the biennium in ways that are long enough to exceed the forty word limit set in the style guide for this repository today.
+
+Test sentence 8 says the budget cuts would cut services and that the state could perhaps maybe reduce funding across many districts and programs over the biennium in ways that are long enough to exceed the forty word limit set in the style guide for this repository today.
+
+Test sentence 9 says the budget cuts would cut services and that the state could perhaps maybe reduce funding across many districts and programs over the biennium in ways that are long enough to exceed the forty word limit set in the style guide for this repository today.
+
+Test sentence 10 says the budget cuts would cut services and that the state could perhaps maybe reduce funding across many districts and programs over the biennium in ways that are long enough to exceed the forty word limit set in the style guide for this repository today.
+
+Test sentence 11 says the budget cuts would cut services and that the state could perhaps maybe reduce funding across many districts and programs over the biennium in ways that are long enough to exceed the forty word limit set in the style guide for this repository today.
+
+Test sentence 12 says the budget cuts would cut services and that the state could perhaps maybe reduce funding across many districts and programs over the biennium in ways that are long enough to exceed the forty word limit set in the style guide for this repository today.
+
+Test sentence 13 says the budget cuts would cut services and that the state could perhaps maybe reduce funding across many districts and programs over the biennium in ways that are long enough to exceed the forty word limit set in the style guide for this repository today.
+
+Test sentence 14 says the budget cuts would cut services and that the state could perhaps maybe reduce funding across many districts and programs over the biennium in ways that are long enough to exceed the forty word limit set in the style guide for this repository today.
