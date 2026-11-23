@@ -1,0 +1,540 @@
+K-12 EDUCATION
+FUNDING
+
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+Page |0
+
+
+--- OCR of this page (tesseract), not checked by a person: check the PDF before quoting or copying a figure ---
+K-12 EDUCATION
+
+FUNDING
+
+About This Report
+This report provides an explanation of K-12 school funding in Oregon. It covers both the
+sources of revenue that are used and the means of distributing those funds to local
+school districts.
+
+Correction: The percentage of the General Fund and lottery funds allocated to the State
+School Fund was corrected from 37.7 percent to 27 percent. This was corrected on
+page 2 on October 15, 2026.
+Staff
+Lisa Gezelter, Legislative Analyst, Legislative Policy and Research Office
+Legislative Policy and Research Office
+Budget information provided by the Legislative Fiscal Office
+Student Weight Calculations provided by the Legislative Revenue Office
+Oregon State Capitol | (503) 986-1813 | www.oregonlegislature.gov/lpro
+The Legislative Policy and Research Office (LPRO) provides centralized, nonpartisan research and issue analysis for
+Oregon’s legislative branch. LPRO does not provide legal advice. LPRO publications contain general information that is
+current as of the date of publication. Subsequent action by the legislative, executive, or judicial branches may affect accuracy.
+
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+Page |i
+
+Report:
+K-12 Education Funding
+DATE: August 31, 2025
+
+Table of Contents
+About This Report .......................................................................................................................................... i
+School Funding Revenue Sources ............................................................................................................... 1
+Setting the State Appropriation ..................................................................................................................... 2
+School Funding Distribution Formula Background ....................................................................................... 2
+School Funding Distribution Formula ............................................................................................................ 3
+Education Service District Funding ............................................................................................................... 6
+Grant-in-Aid ................................................................................................................................................... 6
+
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+P a g e | ii
+
+Report | K-12 Education Funding
+Oregon’s school finance system combines state, local, and federal revenue to support
+197 school districts and 19 education service districts (ESDs). Funds are primarily
+distributed to school districts and ESDs in two ways. The largest source of school
+funding is the school funding formula which allocates state resources appropriated to
+the State School Fund and local revenues (e.g., property taxes) through a statutory
+equalization formula. The second major source of funding for schools is various grantin-aid programs funded with state and federal resources for specific purposes such as
+nutrition, special education, and professional development.
+Two questions figure prominently in discussions of school funding:
+• How much money should the legislature allocate to the State School Fund for K12 schools?
+• How should the state distribute those dollars to ensure equitable opportunities for
+all students?
+
+School Funding Revenue Sources
+The legislature provides state funding for K-12 education from three main sources: (1)
+the General Fund, primarily income taxes; (2) lottery receipts; and (3) the Fund for
+Student Success, with revenue from the Corporate Activities Tax. Money from these
+three sources goes into the State School Fund (SSF), while additional money from the
+Corporate Activities Tax is distributed in the form of grants to school districts for
+specific purposes.
+Each biennium, the legislature sets the amount of state dollars that schools will receive
+for the two-year funding cycle. The SSF allocation is $11.4 billion for the 2025-2027
+biennium and constitutes about 66.9 percent of the total money—from both state and
+local sources—distributed through the formula.
+Local revenue constitutes an important source of school funding. An estimated $5.6
+billion for 2025-2027 comprises 33 percent of the total money—from both state and
+local sources—distributed through the formula. Local revenue is primarily school district
+property taxes raised from a permanent property tax rate. Additionally, the County
+School Fund, the Common School Fund, state-managed county timber trust land, and
+other minor sources are included in the formula. For the 2025-2027 biennium, the
+County School Fund is estimated to be $28.3 million; State Timber and miscellaneous
+local revenues $50.4 million; and the Common School Fund about $161.6 million.
+In 1999, the Legislative Assembly granted school districts the ability to ask local voters
+to levy an additional tax on themselves, referred to as the “local option.” The tax may
+be a fixed dollar amount or a rate-based levy. However, the maximum amount of tax
+raised is limited in order to maintain a degree of funding equalization among districts.
+ORS 327.011 limits the tax raised to:
+• 25 percent of state and local school distribution formula revenue;
+• $2,000 per weighted student, increasing by three percent per year; or
+• the gap between Ballot Measure 50 (1997) limits and Ballot Measure 5 (1990) limits.
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+Page |1
+
+Report | K-12 Education Funding
+
+Should a district collect more than this, the amount over the cap may become part of the
+local revenue used by the school formula, and the district may lose the same amount in
+SSF dollars. The state provides a limited amount of additional assistance to districts
+levying this optional tax through the Local Option Equalization Grant, which is funded at
+$4 million for 2025-2027.
+In addition to state and local revenues, the Oregon Department of Education and
+Oregon’s school districts receive certain grants-in-aid from the federal government to
+maintain specific programs, such as Title I funding for schools with high poverty rates.
+
+Setting the State Appropriation
+The legislature sets the total amount for the SSF, weighing it against other state
+services that also require funding. Resources for the SSF command a large percentage
+of the total state budget for General Fund and Lottery Funds—around 27 percent for
+2025–2027.
+Each biennium, the executive branch calculates current service level (CSL), the
+projected amount required for the continuation of existing programs and services. From
+1999 until 2014, Executive Order 99-15 governed a process for determining CSL that
+included input from local stakeholders. In 2014, Executive Order 14-14 changed that
+process. In 2017, passage of Senate Bill 1067 enacted a cap on the rate of increase of
+health care costs that could be incorporated into the CSL calculation. While the Joint
+Committee on Ways and Means considers CSL in determining an amount for the SSF
+appropriation, the calculated CSL amount does not limit the committee’s ability to set
+any amount it chooses. In 2025, the Legislative Assembly enacted House Bill 2140,
+which changed the way Oregon estimates the projected costs of programs funded by
+the State School Fund and enacted into law the practice of dividing school districts’
+State School Fund distributions into two portions: 49 percent in the first year of each
+biennium and 51 percent in the second year of each biennium. In future biennia, the
+calculation of CSL will be based on the second year of each biennium’s higher
+distribution figure.
+
+School Funding Distribution Formula Background
+The current school funding formula system is the result of legislation, as well as two
+constitutional property tax measures, Ballot Measure 5 (1990) and Ballot Measure 50
+(1997). Previously, the state had provided basic support to districts on a per-pupil basis,
+while some districts supported their schools more generously with a higher property tax
+rate, higher-value tax base, or both. These two ballot measures capped local property
+taxes and placed the responsibility on the state to replace the lost revenue. The
+legislature enacted the equalization formula in 1991 with the passage of Senate Bill
+814. The new formula accounted for the needs of each district’s student population by
+assigning weights to students based on need, and then distributing funding based on
+each district’s weighted population.
+
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+Page |2
+
+Report | K-12 Education Funding
+
+Accordingly, the state share in school funding has increased from approximately 50
+percent in the 1993-1995 biennium to about 66.9 percent in 2023-2025. To equalize
+revenue per student, the 1991 Legislative Assembly adopted and phased in the school
+distribution formula. Table 1 illustrates the trend in state and local funds from 1993 to
+the present.
+Table 1: Trend in State vs. Local Funding of Schools, in Billions
+Biennium
+1993-1995
+
+State School Local Formula
+Fund
+Funds
+$2.5
+$2.5
+
+Total
+$5.1
+
+State
+Share
+50%
+
+1995-1997
+
+$3.5
+
+$1.9
+
+$5.4
+
+65%
+
+1997-1999
+
+$4.2
+
+$1.8
+
+$6.0
+
+70%
+
+1999-2001
+
+$4.6
+
+$2.0
+
+$6.6
+
+70%
+
+2001-2003
+
+$4.6
+
+$2.2
+
+$6.8
+
+68%
+
+2003-2005
+
+1
+
+$4.9
+
+2
+
+$2.4
+
+$7.3
+
+67%
+
+2005-2007
+
+$5.3
+
+$2.6
+
+$7.9
+
+67%
+
+2007-2009
+
+3
+
+$5.8
+
+$2.9
+
+$8.7
+
+67%
+
+2009-2011
+
+$5.7
+
+$3.0
+
+$8.7
+
+66%
+
+2011-2013
+
+$5.78
+
+$3.1
+
+$8.8
+
+67%
+
+2013-2015
+
+$6.6
+
+$3.3
+
+$9.9
+
+67%
+
+2015-2017
+
+$7.3
+
+$3.7
+
+$11.1
+
+67%
+
+2017-2019
+
+$8.2
+
+$3.98
+
+$12.2
+
+67%
+
+2019-2021
+
+$9.0
+
+$4.3
+
+$13.3
+
+68%
+
+2021-2023
+
+$9.3
+
+$4.6
+
+$13.9
+
+67%
+
+2023-2025
+
+$10.2
+
+$5.1
+
+$15.3
+
+67%
+
+2025-2027
+
+$11.4
+
+$5.6
+
+$17.0
+
+67%
+
+Source: Legislative Policy and Research Office
+Data: Legislative Fiscal Office
+1 Total reflects failure of Ballot Measure 30 in February 2004.
+
+2 Reflects increase of $26.4 million in Common School Fund distributions over 2003 close-of-session estimates.
+3 Does not include $251 million of School Improvement Fund dollars.
+
+School Funding Distribution Formula
+The SSF appropriation, along with formula local revenue, is split between school
+districts and ESDs, with school districts receiving 95.5 percent and ESDs receiving the
+remaining 4.5 percent. The Oregon Department of Education (ODE) then allocates
+money to each school district using the school funding equalization formula. To achieve
+equitable per-student funding, the current formula adjusts state aid based on local funding.
+
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+Page |3
+
+Report | K-12 Education Funding
+The formula uses three methods to adjust for cost differences among school districts:
+• teacher experience adjustment;
+• transportation grant; and
+• weighted student count.
+
+Teacher Experience Adjustment
+School districts’ pay schedules are based in part on teacher experience. As teacher
+experience increases, so do salaries. Incorporating this factor into a student weight was
+problematic, so an adjustment factor was added to the base per-student funding. This
+factor increases or decreases each district’s base funding per student.
+
+Transportation Grant
+
+The transportation grant is a 70 to 90 percent reimbursement of approved student
+transportation costs, primarily consisting of school bus costs for transport between
+home and school, as well as class field trips. Districts are ranked by cost per student.
+Districts ranked in the top 10 percent receive grants for 90 percent reimbursement of
+transportation costs. Districts ranked in the next lower 10 percent receive 80 percent
+grants, and the remaining 80 percent of districts receive 70 percent grants. To
+encourage efficiency, districts must fund remaining transportation costs from their
+general purpose grants.
+The grant is estimated to pay approximately $350 million in the 2025-2026 school year,
+and just over $360 million in the 2026-2027 school year when accounting for
+inflationary adjustments.
+
+Weighted Student Count
+The distribution formula allocates funds to districts on a per-student basis. However, the
+formula recognizes that not all students cost the same to educate. Districts receive
+additional funding based on the educational needs of their student populations as
+defined in ORS 327.013 (2021) and outlined in Table 2.
+The weighted Average Daily Membership, or ADM, measures the differences in
+students’ educational needs. Where a student who is not in any of the additional-weight
+categories would be worth 1 weight, a student in poverty who is also an English
+language learner would be worth 1.75 weights. However, districts may claim only 11
+percent of their students under the Special Education weight, although most districts
+typically have a higher percentage of students identified and receiving special education
+services as required under federal and state law. Special education is the only weight
+that is capped in this way.
+
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+Page |4
+
+Report | K-12 Education Funding
+Table 2: Student Weight Calculations
+Type of Weight
+
+Weight
+
+Standard student/standard school
+
+1.00
+
+Additional Weights
+Special Education
+
+1.00
+
+English language learner
+
+.50
+
+Pregnant and parenting
+
+1.00
+
+Students in poverty
+
+.25
+
+Neglected and delinquent
+
+.25
+
+Students in foster care
+
+.25
+
+Non-full-day Kindergarten student
+
+-.50
+
+Elementary district students
+
+-.10
+
+Union High district students
+
+.20
+
+Remote and small schools
+
+Varies
+
+Source: Legislative Revenue Office
+
+Small High Schools
+Small high schools may not be adequately funded based on weighted student
+population, so a Small School District Supplement Fund was created with $5 million
+from the SSF. Small school districts are districts under 8,500 weighted students, with
+high schools having less than 350 students for four grades and 267 for three grades.
+
+Other Educational Settings
+
+ODE provides schooling for certain students (e.g., those in hospitals or long-term care
+facilities) and manages the state School for the Deaf. ODE can bill the SSF for each of
+the students in these settings based on average costs for students statewide. Some of
+these programs receive additional funding through grants-in-aid.
+
+School Facility Improvements
+Funding for new school buildings remains, primarily, the responsibility of local school
+districts and is usually financed through local bond sales. The 2025-2027 budget
+includes $70.8 million in Lottery Funds and $50 million in new Article XI-P general
+obligation bonds to fund Oregon Schools Capital Improvement Matching (OSCIM)
+program grants to school districts. The state grants match the proceeds of locally issued
+bonds for the construction and improvement of school district buildings and property.
+The general obligation bonds are authorized under Article XI-P of the Oregon
+Constitution and ORS 286A.796 et seq. The addition of Lottery Funds into this program
+for the 2025-2027 biennium is the direct result of the Education Stability Fund (ESF)
+
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+Page |5
+
+Report | K-12 Education Funding
+reaching the constitutional funding cap, set at 5% of General Fund revenues from the
+previous two-year period. The ESF is funded with 18% of the state's net lottery
+proceeds; once the fund reaches the cap, 15% of the lottery proceeds are redirected to
+the OSCIM program.
+Prior to 2023, the State School Fund included facility grants for non-bondable items
+such as furniture. The passage of Senate Bill 1002 (2023) repealed the grant program
+and created the School Safety and Emergency Management Program (SSEM) to
+provide grants for the improvement of school districts’ proficiency in emergency
+management fundamentals. The 2025-2027 budget includes $3.1 million to support the
+SSEM program.
+
+High-Cost Disability Grant
+Some students with disabilities require costly services, far exceeding their double
+weighting in the funding formula. Districts may apply for reimbursement for annual
+service costs greater than $30,000 per student. The fund is capped at $55 million for
+each year of the 2025-2027 biennium.
+
+Education Service District Funding
+An ESD supports its component school districts by providing services school districts
+may be too small to administer efficiently, such as special education. Services
+provided by ESDs vary significantly across the state according to the needs of local
+school districts.
+ESDs statewide are allocated 4.5 percent of both school and ESD state and local
+formula revenue. The state calculates each ESD’s formula revenue as about 4.7
+percent of its component school district formula revenue with a minimum of $1.522
+million per ESD. Consequently, ESD revenue is based on the same equalization
+concepts in the school distribution calculation. The SSF amount consists of the ESD
+formula allocation minus local ESD revenue, which comes almost entirely from
+property taxes.
+ESDs began receiving SSF dollars only after the passage of Ballot Measure 5 to help
+compensate for property tax cuts. From 1991 to 2001, the legislature provided SSF
+dollars to ESDs only for the next biennium, based on a percentage of property tax
+losses due to Ballot Measures 5 and 50. However, the issue of an imbalance in state
+and local revenue per student among ESDs was addressed in 2001 with a phased-in
+approach. ESDs first received a fixed share (initially 5 percent) of state and local
+formula revenue beginning in 2005-2006.
+
+Grant-in-Aid
+The second major funding source for K-12 education is grants made for specific
+purposes or directed at specific populations. These are referred to as grant-in-aid.
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+Page |6
+
+Report | K-12 Education Funding
+These grants are primarily funded with both state and federal resources and are
+distributed to school districts, ESDs, and other entities providing educational services.
+Beginning in 2019-2021, Grant-in-Aid included many new or expanded programs
+funded through the Student Success Act with revenues from the Corporate Activities
+Tax. The 2025-2027 budget includes distributions of this revenue to districts via the
+Student Investment Account ($1.1 billion) and the Statewide Education Initiatives
+Account ($618.3 million). Grant-in-Aid also includes other large programs such as the
+school meal and nutrition programs ($685.8 million) and special education funding
+through the Individuals with Disabilities Education Act ($379.9 million).
+In total, over $3.7 billion in Grant-in-Aid is anticipated to be distributed to school
+districts, ESDs, and other entities providing educational services during the 20252027 biennium.
+
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+Page |7
+
+
