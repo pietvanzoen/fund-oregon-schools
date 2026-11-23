@@ -301,10 +301,13 @@ gh api repos/pietvanzoen/fund-oregon-schools/pulls -f title="<plain title> (#<n>
 ```
 
 After opening it, wait for the `style` check (Vale; it runs only on PRs that change reader-facing pages) and read
-its findings: `gh api repos/pietvanzoen/fund-oregon-schools/commits/$(git rev-parse HEAD)/check-runs --jq
-'.check_runs[] | select(.name | test("vale"; "i")) | .output.annotations_url'`, then `gh api` that URL. Fix
-`warning` findings or say in **Anything odd** why not (an attributed "cut" is fine); `suggestion` findings are
-your call. Any rewording of a factual sentence gets the targeted fact-check rerun from step 6.
+its findings. They're review comments from `github-actions[bot]`: `gh api
+"repos/pietvanzoen/fund-oregon-schools/pulls/<PR>/comments?per_page=100" --jq '.[] | select(.user.login ==
+"github-actions[bot]") | "\(.path):\(.line) \(.body | sub("<sub>.*</sub><br>"; "") | split("\n")[0])"'`. ⚠️ marks a `warning` and 📝 a
+`suggestion`. Past 30 findings, the rest are listed in the review's own text: `gh api
+repos/pietvanzoen/fund-oregon-schools/pulls/<PR>/reviews --jq '.[] | select(.user.login == "github-actions[bot]")
+| .body'`. Fix `warning` findings or say in **Anything odd** why not (an attributed "cut" is fine); `suggestion`
+findings are your call. Any rewording of a factual sentence gets the targeted fact-check rerun from step 6.
 
 PR body, in this order:
 
