@@ -29,8 +29,8 @@ budget, and the second account also pays for statewide initiatives and educator 
 districts.
 
 Whether those grants cover the $1.2 billion depends on a point the archive can't settle yet: whether the status quo
-prices what the grants pay for and doesn't already subtract their money (Department of Education staff have been
-asked; see #146). The sources point both ways (below). The report says the status quo covers all current activities
+prices what the grants pay for and doesn't already subtract their money. Department of Education staff have been
+asked (#146). The sources point both ways (below). The report says the status quo covers all current activities
 "regardless of the historical funding source", and the Legislature's committee says the 2024 model's revenue
 calculations didn't count state grants. The model's cost workbook subtracts only local and federal revenue. But the
 report's appendix says revenue in the Student Investment Account and High School Success funds is "netted out" within
