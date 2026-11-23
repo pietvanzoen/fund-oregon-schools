@@ -278,10 +278,14 @@ They report only. For each finding:
    If two findings pull in opposite directions (one calls a sentence inference, another says it's unclear
    without it), settle it with the source, e.g. cite the page that states it, rather than dropping the claim (a
    November 2025 report named as a committee's was flagged as inference; the fix was a citation to its cover page).
-3. After substantive fixes, run the reviewer that raised them once more on the new head. Not more than once.
+3. After substantive fixes (a changed claim, figure, citation or framing; not typo-level), run the reviewer that
+   raised them once more on the new head. If that rerun's findings lead to more substantive fixes, run it a second
+   and last time, limited to the lines changed since its last review (list their file:line in the prompt), so no
+   substantive fix goes out checked only by you. If the second rerun still finds substantive problems, fix what
+   you can, list the rest in the PR's Review section and add `needs-human`; don't start a third round.
 4. A sentence reworded for clarity can change what it claims. If clarity fixes reword any sentence that states a
    fact, run `fact-check.md` once more on the new head, limited to those sentences (list their file:line in the
-   prompt). This counts as its one rerun.
+   prompt). This counts as one of its two reruns.
 
 ## 7. Open the PR
 
