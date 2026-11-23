@@ -37,7 +37,8 @@ budget link, then queue the budget PDFs themselves.
   if the video is bigger).
 - **Pages behind scripts or logins.** Save from a browser and add a manifest line by hand (url, fetched_at, sha256).
 - **News.** Don't archive articles. Add a record to `sources/news/index.jsonl`: id `NEWS-YYYYMMDD-outlet-N`, date,
-  outlet, title, url, a summary in your own words, key facts, and at most short quotes (< 25 words).
+  outlet, title, url, a summary in your own words, key facts, and at most short quotes (< 25 words). To correct
+  a record, recheck it against the article and add a dated `note` saying what changed (`CLAUDE.md` rule 6).
 
 ## OCR
 After each fetch, `tools/ocr_pdfs.py` looks at every archived PDF without a `<file>.pdf.ocr.txt`. Pages that have an

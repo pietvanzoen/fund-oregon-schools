@@ -5,7 +5,8 @@ notes from whoever did. A separate reviewer checks each claim against its source
 whole**: does this change contradict what's already there, and is it fair and well labelled? **Report only**:
 don't edit files, commit, push or comment on GitHub.
 
-- Repository: your own clone in a new empty folder (setup below). Never touch any other folder: the session
+- Repository: your own clone in a new empty folder (setup below). Any other clone you need, such as the PPS
+  archive for a `PPSARCH` citation, goes in its own `mktemp -d` folder too, never inside another clone. Never touch any other folder: the session
   that started you, or another reviewer, may be working in it.
 - Branch: `{{BRANCH}}`
 - Issue: #{{ISSUE}} (read it: `gh api repos/pietvanzoen/fund-oregon-schools/issues/{{ISSUE}} --jq .body`)

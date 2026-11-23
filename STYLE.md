@@ -64,6 +64,15 @@ blocking); the clarity reviewer checks the rest.
   Legislature lists, not the district's full extent, so write "(Beaverton & Southwest Portland)" or "(Beaverton and
   Southwest Portland)", not "which covers …". We don't use hometowns: most member pages don't state where the
   legislator lives. If a person's columns are empty, use the title and full name, and don't guess.
+- **Title at the time:** name someone by the office they held when they did what the sentence says, then say what
+  changed: "sponsored by Sen. Daniel Bonham, R-District 26, who resigned from the Senate in 2025", not "former Sen.
+  Bonham". Use "former" only for someone already out of office at the time ("at the request of former Sen. …").
+- **Elected, not yet seated:** no title. "Tammy Carpenter, D-District 27 (Beaverton and Cedar Hills), who won the
+  seat in the Nov. 3, 2026, election (unofficial results)", until the results are certified; then "Rep.-elect".
+  "Won" needs a source that calls the race (an outlet or the certified results), not only an unofficial count.
+  Until they have a member page, the area comes from the current seat holder's member page.
+- **Old rosters:** when a district number comes only from an older roster (a departed member's page is gone), say
+  which years it covers: "R-District 28 in 2021-22".
 - **Agencies and groups:** full name, then a plain short form: "the Department of Administrative Services … the
   department", "the Quality Education Commission … the commission".
 
