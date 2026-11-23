@@ -39,13 +39,15 @@ and poverty weights (#19), and the 2027 reform proposals (#25).
 
 ### Who handles formula bills
 
-- Senate Democrats chose Sen. Rob Wagner to run again for Senate President, and named Sen. Kate Lieber, D-District 14
+- Senate Democrats chose Sen. Rob Wagner, D-District 19 (Lake Oswego, Tualatin, West Linn, S/SW Portland), to run again
+  for Senate President, and named Sen. Kate Lieber, D-District 14
   (Beaverton & Southwest Portland), co-chair of the full Joint Committee on Ways and Means, the Legislature's budget
   committee [SRC:legislature/press/2026-11-13_senate-dems-2027-leadership.pdf p.1] [SRC:legislature/olis/2025R1/307212_sb5516-ssf-work-session.pdf p.1]
-  [SRC:legislature/members/lieber.html].
+  [SRC:legislature/members/lieber.html] [SRC:legislature/members/wagner.html].
   The Senate convenes on Jan. 11, 2027, to organize [SRC:legislature/press/2026-11-13_senate-dems-2027-leadership.pdf p.1].
-- On Nov. 20, 2026, House Democrats chose Rep. Ben Bowman over Speaker Julie Fahey as their nominee
-  for speaker; the full House votes in January [NEWS:NEWS-20261120-opb-1] [NEWS:NEWS-20261120-occ-1]. The speaker
+- On Nov. 20, 2026, House Democrats chose Rep. Ben Bowman, D-District 25, over Speaker Julie Fahey, D-District 14
+  (West Eugene & Veneta), as their nominee for speaker; the full House votes in January [NEWS:NEWS-20261120-opb-1]
+  [NEWS:NEWS-20261120-occ-1] [SRC:legislature/members/bowman.html] [SRC:legislature/members/fahey.html]. The speaker
   appoints House committee chairs and members [NEWS:NEWS-20261120-occ-1]. In the Senate, the 2026 assignments were
   made by Wagner as Senate President [SRC:legislature/appointments/2026_senate-committee-assignments.pdf p.1].
 - In 2026, Rep. Zach Hudson, D-District 49 (Troutdale, Fairview, Wood Village, Gresham, Portland), chaired the House
