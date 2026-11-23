@@ -127,7 +127,9 @@ accountability), how the formula works, and history such as Measures 5 and 50. I
 competes for `next` on how much it would change a reader's understanding, not on a date. It also covers decisions
 that are `decided` or `implemented`: what happened afterwards is what the promise ratings rest on.
 
-Housekeeping and tooling issues need neither, but shouldn't crowd out research near a due date.
+Housekeeping and tooling issues need neither, but shouldn't crowd out research near a due date. They're labelled
+`enhancement` (research issues are labelled `research`) and ordered in their own Enhancements queue (label
+`enhancement-queue`), which the nightly run doesn't work.
 
 `next` means an issue is ready; the **Research queue** issue (label `queue`) sets the order. Piet adds `next`
 issues to it in the order they should run, and agents take the first free one.
