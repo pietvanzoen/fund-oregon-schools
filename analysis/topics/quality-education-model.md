@@ -29,10 +29,11 @@ budget, and the second account also pays for statewide initiatives and educator 
 districts.
 
 Whether those grants cover the $1.2 billion depends on a point the archive can't settle yet: whether the status quo
-prices what the grants pay for and doesn't already subtract their money. Department of Education staff have been
-asked (#146). The sources point both ways (below). The report says the status quo covers all current activities
+prices what the grants pay for and doesn't already subtract their money. A question to Department of Education staff
+is drafted (#146). The sources point both ways (below). The report says the status quo covers all current activities
 "regardless of the historical funding source", and the Legislature's committee says the 2024 model's revenue
-calculations didn't count state grants. The model's cost workbook subtracts only local and federal revenue. But the
+calculations didn't count state grants. The model's cost workbook subtracts only local, federal and food service revenue, plus a PERS side account line, with
+no line for state grant revenue. But the
 report's appendix says revenue in the Student Investment Account and High School Success funds is "netted out" within
 its local, federal and food service revenue lines, without saying how much. The commission's October 2026 slides also
 list fitting the grants into the model as a challenge. If the status quo does price what the grants pay for, a State
@@ -142,16 +143,19 @@ model report's ranking is of state-sourced funding, which is a different measure
   order to include only funds that are distributed through the State School Fund (SSF) in the model". It lists the
   accounting codes used for each line [SRC:ode/qec/2026_qem_report.pdf p.129].
 - The model's cost workbook (Appendix C) has a revenue sheet that lists local revenue outside and in the formula, food
-  service enterprise revenue and federal revenue by source code (4100 to 4900); it lists no state grant revenue
+  service enterprise revenue and federal revenue (the federal lines by source code, 4100 to 4900); it lists no state
+  grant revenue. Its output table subtracts these, with the local line labelled "Less: Local Revenue not in Formula
+  (local option taxes, fees, grants, donations, etc.)", and adjusts for PERS side account earnings
   [SRC:ode/qec/2026_qem_appendix-c_cost-model.xlsx].
 - The Corporate Activity Tax pays into both the fund and the grants. Part of it goes into the State School Fund, and
   additional money from it is distributed to school districts as grants for specific purposes, the Legislative Policy
   and Research Office explains
   [SRC:legislature/lpro/2025-08_k12-education-funding-background.pdf p.4].
-- The Statewide Education Initiatives Account, one of the three accounts the Corporate Activity Tax money goes into,
+- The Statewide Education Initiatives Account, one of the three accounts the Fund for Student Success
+  splits its remaining revenue into after its transfers to the State School Fund,
   supports "investments in statewide initiatives and educator professional development", for example the High School
   Success, Hunger Free Schools, Early Literacy Success and recovery schools programs
-  [SRC:legislature/olis/2025I1/310959_jpea-adequacy-report.pdf p.16].
+  [SRC:legislature/olis/2025I1/310959_jpea-adequacy-report.pdf p.15] [SRC:legislature/olis/2025I1/310959_jpea-adequacy-report.pdf p.16].
 - The Joint Committee on Public Education Appropriation's report adopted Nov. 19, 2025, says the 2024 model's revenue
   calculations "do not account for state grant-in-aid received by school districts, including the grants funded
   through the Fund for Student Success" [SRC:legislature/olis/2025I1/310959_jpea-adequacy-report.pdf p.24].

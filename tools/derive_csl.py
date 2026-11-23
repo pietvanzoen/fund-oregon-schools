@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Write analysis/derived/csl.csv: our sums and estimates for the current-service-level section of
+"""Write analysis/derived/csl.csv: our sums for the current-service-level section of
 topics/quality-education-model.md (what the Quality Education Model's ~$1.2B of non-SSF state money is)."""
 import csv
 import os
