@@ -19,6 +19,10 @@ The realistic readers are Oregon public school parents and the volunteers who co
 standard anyway: every figure has a source, a baseline and a date, and the framing would survive a skeptical
 reader who disagrees with us. The maintainers are public school parents, and the About page says so.
 
+The maintainers also use the archive to build arguments: talking points, asks and campaign content. Those live
+outside the archive. They cite into it, and it never cites them back. That separation is what lets a reader who
+disagrees with us trust the numbers.
+
 What a reader needs is a **cited answer they can lift**: a sentence with the number, its baseline, its main caveat
 and its source, and a link to the depth behind it.
 
@@ -39,6 +43,12 @@ advocacy, because options come from people who want something. So:
   legislators want to replace it. Figures are shown as a comparison set (current service level, the adopted
   2025-27 amount, the Governor's budget, the status quo and full Quality Education Model), each with who calculated
   it and when.
+- **Neutral in method, not in which questions get asked.** Questions can come from the maintainers' goals. What
+  stays neutral is the answer: the same sourcing, baseline and counterevidence whatever it shows. When the evidence
+  cuts against what we hoped, it goes in, and it goes in first.
+- **The strongest opposing claims become questions.** When someone argues against an option ("spending rose,
+  results fell"), we check the claim against primary data (which years, adjusted for inflation or not, how much
+  went to PERS) and record our own figure. A claim that holds up is recorded as holding up.
 - **Promises are rated on outcomes** (what was funded, enacted or voted), with interim and final ratings. Positions
   are recorded, not rated.
 
