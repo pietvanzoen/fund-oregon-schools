@@ -34,8 +34,9 @@ are this site's own.
 </details>
 
 Analysis: the choice of baseline matters. The commission counts about $1.2 billion of other state money on top of
-the current service level for its status quo estimate [SRC:ode/qec/2026_qem_report.pdf p.103]. What that money is,
-and whether the current service level keeps today's services, is answered under the State School Fund decision below.
+the current service level for its status quo estimate [SRC:ode/qec/2026_qem_report.pdf p.103]. What that money is
+is covered under the State School Fund decision below; whether the current service level keeps today's services is
+still open (`questions.csv`, "csl-meaning").
 
 ## The Governor's recommended budget for 2027-29 {#grb-2027-29}
 
@@ -87,12 +88,11 @@ document from the Governor with the $12.57 billion figure.
   other state money too, so the like-for-like gap between the two model scenarios is the status quo to the full
   model. See `topics/quality-education-model.md`.
 - Analysis: by the Quality Education Model's statewide measure, a State School Fund at the current service level keeps
-  the status quo (today's services) if the state's grant programs outside the fund continue at their 2025-27 amounts
-  and the model's status quo already prices what they pay for without subtracting their money, an assumption the
-  archive can't settle. If it fails, the $1.2 billion is left to other state money or to reduced services. Our
-  estimate puts the margin at $0.98 billion [DER:csl/csl_plus_core_grants_minus_status_quo]: the current service
-  level plus those grants would total about $14.76 billion [DER:csl/csl_plus_core_grants]. The archive has no
-  district-level estimate, and districts losing federal money can still have less to spend. See
+  the status quo (today's services) only if the state's grant programs outside the fund continue at about their
+  2025-27 amounts and the model's status quo already prices what they pay for. The archive can't settle that second
+  point yet; Department of Education staff have been asked (#146). If it fails, the $1.2 billion is left to other
+  state money or to reduced services, and the difference between the two readings is roughly the size of the grants.
+  The archive has no district-level estimate, and districts losing federal money can still have less to spend. See
   `topics/quality-education-model.md`.
 - The model's status quo ($13.78 billion) is the current service level plus $1.22 billion of state money from outside
   the State School Fund; the table that derives it lists no state grant program among the revenue it subtracts
