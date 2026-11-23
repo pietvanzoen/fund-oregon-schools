@@ -330,7 +330,7 @@ model report's ranking is of state-sourced funding, which is a different measure
 | Our estimate: that total above the model's 2027-29 status quo | $0.98 billion | [DER:csl/csl_plus_core_grants_minus_status_quo] |
 
 The forecast is of revenue, not a budget. The two estimates assume the grant programs the joint committee counted as
-core K-12 funding in 2025-27 continue at the same dollar amounts in 2027-29 and that the model's status quo prices what
-they pay for, which Department of Education staff have been asked to confirm (#146). They mix a 2025-27 budget figure
+core K-12 funding in 2025-27 continue at the same dollar amounts in 2027-29. They also assume the model's status quo
+prices what the grants pay for, which Department of Education staff have been asked to confirm (#146). They mix a 2025-27 budget figure
 with 2027-29 estimates. If the status quo doesn't price what the grants pay for, the current service level is $1.22
 billion less than the status quo, the report's own remainder [SRC:ode/qec/2026_qem_report.pdf p.103].
