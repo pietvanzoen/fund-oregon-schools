@@ -1,0 +1,4 @@
+id,value,unit,kind,label,method,inputs,assumptions
+sia_seia_2027_29,2.0,$B,derived,"Corporate Activity Tax money forecast for the Student Investment Account and the Statewide Education Initiatives Account, 2027-29",SIA + SEIA distributions,fiscal/oea/2026-12_forecast.pdf p.75,"a revenue forecast, not an appropriation; the Statewide Education Initiatives Account also pays for statewide initiatives and educator professional development, not only grants to districts"
+sia_seia_minus_non_ssf,0.78,$B,derived,"Forecast SIA + SEIA money above the model's non-SSF remainder, 2027-29",(SIA + SEIA) - non-SSF remainder,fiscal/oea/2026-12_forecast.pdf p.75; ode/qec/2026_qem_report.pdf p.103,same as sia_seia_2027_29
+core_grants_cat,1.65,$B,derived,Corporate Activity Tax (Fund for Student Success) share of the 2025-27 core K-12 grants the joint committee listed,sum of the FSS (CAT) column,legislature/olis/2025I1/310959_jpea-adequacy-report.pdf p.29,
