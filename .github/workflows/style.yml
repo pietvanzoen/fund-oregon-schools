@@ -10,18 +10,20 @@ on:
       - ".github/workflows/style.yml"
 permissions:
   contents: read
-  checks: write
-  pull-requests: read
+  pull-requests: write
 jobs:
   vale:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: vale-cli/vale-action@v3
+        # A failure to post findings must not turn the check red: Vale never blocks a merge.
+        continue-on-error: true
         with:
           version: 3.13.0
           sync: false
           files: '["analysis/START.md", "analysis/decisions.md", "analysis/timeline.md", "analysis/topics", "analysis/people"]'
           filter_mode: added
-          reporter: github-pr-check
-          fail_on_error: false
+          # Review comments, not a check run reviewdog must update (404s there: #140). adr/20261123-1927-vale-review-comments.md.
+          reporter: github-pr-review
+          fail_level: none
