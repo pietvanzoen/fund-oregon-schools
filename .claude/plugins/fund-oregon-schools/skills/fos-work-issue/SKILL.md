@@ -278,10 +278,14 @@ They report only. For each finding:
    If two findings pull in opposite directions (one calls a sentence inference, another says it's unclear
    without it), settle it with the source, e.g. cite the page that states it, rather than dropping the claim (a
    November 2025 report named as a committee's was flagged as inference; the fix was a citation to its cover page).
-3. After substantive fixes, run the reviewer that raised them once more on the new head. Not more than once.
+3. After substantive fixes (a changed claim, figure, citation or framing; not typo-level), run the reviewer that
+   raised them once more on the new head. If that rerun's findings lead to more substantive fixes, run it a second
+   and last time, limited to the lines changed since its last review (list their file:line in the prompt), so no
+   substantive fix goes out checked only by you. If the second rerun still finds substantive problems, fix what
+   you can, list the rest in the PR's Review section and add `needs-human`; don't start a third round.
 4. A sentence reworded for clarity can change what it claims. If clarity fixes reword any sentence that states a
    fact, run `fact-check.md` once more on the new head, limited to those sentences (list their file:line in the
-   prompt). This counts as its one rerun.
+   prompt). This counts as one of its two reruns.
 
 ## 7. Open the PR
 
@@ -308,6 +312,20 @@ its findings. They're review comments from `github-actions[bot]`: `gh api
 repos/pietvanzoen/fund-oregon-schools/pulls/<PR>/reviews --jq '.[] | select(.user.login == "github-actions[bot]")
 | .body'`. Fix `warning` findings or say in **Anything odd** why not (an attributed "cut" is fine); `suggestion`
 findings are your call. Any rewording of a factual sentence gets the targeted fact-check rerun from step 6.
+
+Every review thread must be resolved before `main` accepts the merge. A fixed finding needs nothing: on its next
+run reviewdog deletes its comment. For each finding you keep, reply on its thread with the reason in one line
+(e.g. "Kept: attributed paraphrase of the Commission, p.103; STYLE.md allows it."), then resolve the thread, so a
+reviewer sees why on the PR:
+
+```bash
+gh api repos/pietvanzoen/fund-oregon-schools/pulls/<PR>/comments/<comment_id>/replies -f body="Kept: <reason>"
+gh api -X POST repos/pietvanzoen/fund-oregon-schools/pulls/<PR>/ccr/comments/<comment_id>/resolve
+```
+
+`gh api repos/pietvanzoen/fund-oregon-schools/pulls/<PR>/ccr/review_threads` lists the threads with their
+`comment_ids` and `resolved` state. Findings past 30 have no thread until the next push posts them: give their
+reasons in **Anything odd**.
 
 PR body, in this order:
 
