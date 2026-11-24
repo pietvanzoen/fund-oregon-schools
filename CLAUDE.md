@@ -17,7 +17,8 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
 - **Adding sources:** follow `RUNBOOK.md`. In short: add a row to `sources/_queue.csv`; the `fetch-sources`
   GitHub Action downloads it (cloud sandboxes usually can't reach oregon.gov or the Legislature's site).
 - **Working a research issue end to end:** follow `.claude/plugins/fund-oregon-schools/skills/fos-work-issue/SKILL.md` (queue → fetch on the
-  issue branch → analysis → three independent reviewers → PR; Piet merges).
+  issue branch → analysis → three independent reviewers → PR; Piet merges, or the run does if its merge gate
+  passes and auto-merge is on).
 - **What to research and how it's organized:** `RESEARCH.md`: decisions, their baselines and options, dated
   positions and questions; the checks an issue passes before it's labelled `next`; staying neutral; how to write
   so the analysis gets used.
