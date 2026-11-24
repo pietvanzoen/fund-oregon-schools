@@ -18,18 +18,18 @@ Run by Oregon public school parents. [About this site](about.md)
 - **State School Fund, adopted for 2025-27:** $11.36 billion [SRC:fiscal/lfo/2025-07_lab-summary-2025-27.pdf p.1].
   The State School Fund is the primary source of state funding for K-12 public education
   [SRC:gov/press/2024_ssf-csl-proposal.html].
-- **State School Fund current service level, 2027-29:** $12.56 billion, a Department of Administrative Services
-  estimate [SRC:ode/qec/2026_qem_report.pdf p.103]. The current service level is the amount needed in the next two-year
-  budget to continue existing authorized programs [SRC:gov/press/2024_ssf-csl-proposal.html].
-- **Quality Education Commission, to keep 2025-27 service levels:** $13.78 billion
-  [SRC:ode/qec/2026_qem_report.pdf p.117]. The commission's 2026 report counts core state funding, including state
-  money beyond the State School Fund [SRC:ode/qec/2026_qem_report.pdf p.117].
-- **Quality Education Commission, to meet the state's education goals:** $16.21 billion
+- **State School Fund current service level, 2027-29:** $12.56 billion, the Department of Administrative Services'
+  estimate of the amount needed in the next two-year budget to continue existing authorized programs
+  [SRC:ode/qec/2026_qem_report.pdf p.103] [SRC:gov/press/2024_ssf-csl-proposal.html].
+- **Quality Education Commission estimate for 2027-29, to keep 2025-27 service levels:** $13.78 billion in core
+  state funding, which counts state money beyond the State School Fund [SRC:ode/qec/2026_qem_report.pdf p.103]
   [SRC:ode/qec/2026_qem_report.pdf p.117].
+- **Quality Education Commission estimate for 2027-29, to meet the state's education goals:** $16.21 billion in
+  core state funding [SRC:ode/qec/2026_qem_report.pdf p.117].
 - The commission leaves what counts as adequate, and which funding counts toward it, to the Legislature
   [SRC:ode/qec/2026_qem_report.pdf p.117].
-- Analysis: the first figures are the State School Fund alone, and the commission's include other state money, so
-  compare like with like: `decisions.md#ssf-2027-29` explains.
+- Analysis: the two State School Fund figures cover the fund alone, and the commission's two estimates include other
+  state money, so compare like with like: `decisions.md#ssf-2027-29` explains.
 - The Education Stability Fund, one of the state's two general reserve accounts, is projected at $1.271 billion at
   the end of 2025-27 [SRC:fiscal/oea/2026-12_forecast.pdf p.41].
 
