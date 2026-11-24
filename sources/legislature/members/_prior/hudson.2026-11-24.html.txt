@@ -1,0 +1,620 @@
+Representative Zach Hudson
+
+Home Page
+
+Sign In
+
+Skip to main content
+
+Oregon State Legislature
+
+Home Page
+
+Navigation
+
+Search
+
+Senate
+
+Senate Information
+
+All Senators
+
+Senators by District
+
+Senators - Democrats
+
+Senators - Republicans
+
+Find Your Senator
+
+Find Your Senator and District
+
+Senate Leadership
+
+President Rob Wagner
+
+President Pro Tempore James I. Manning Jr.
+
+Democratic Leader Anthony Broadman
+
+Republican Leader Bruce Starr
+
+More
+
+Senate Offices
+
+Senate President
+
+Democratic Caucus
+
+Republican Caucus
+
+Secretary of the Senate
+
+More
+
+House
+
+House Information
+
+All Representatives
+
+Representatives by District
+
+Representatives - Democrats
+
+Representatives - Republicans
+
+Find Your Representative
+
+Find Your Representative and District
+
+House Leadership
+
+Speaker Julie Fahey
+
+Speaker Pro Tempore David Gomberg
+
+Democratic Leader Ben Bowman
+
+Republican Leader Lucetta Elmer
+
+More
+
+House Offices
+
+House Speaker
+
+Democratic Caucus
+
+Republican Caucus
+
+Chief Clerk of the House
+
+More
+
+Bills and Laws
+
+Bills
+
+Find Bills or Votes
+
+2026 Regular Session
+
+2025 Regular Session
+
+2025 Special Session
+
+Previous Sessions
+
+Governor Signed Bills
+
+Open Data
+
+Session Information
+
+Current Session Details
+
+Previous Session Details
+
+Session Publications
+
+Oregon Laws
+
+1999-2026 Sessions
+
+Oregon Revised Statutes
+
+2025 Oregon Revised Statutes
+
+ORS Annotations
+
+ORS Archives
+
+Oregon Rules of Civil Procedure
+
+Oregon Admin. Rules (OARs)
+
+Oregon Constitution
+
+Purchase Publications
+
+Committees
+
+Committee Meetings
+
+Today's Meetings
+
+Agendas Online
+
+Committee Participation
+
+How to Testify
+
+How to Submit Testimony
+
+How to Register or Submit Testimony
+
+e-Subscribe to Agendas
+
+Committee Assignments
+
+Senate Committees
+
+House Committees
+
+Joint Committees
+
+Listed by Senator
+
+Listed by Representative
+
+Listed by Committee
+
+Publications and Reports
+
+Background Briefs
+
+Required by Statute
+
+Summary of Legislation
+
+More
+
+Get Involved
+
+Engage
+
+Visitor Information
+
+How to Testify
+
+How to Register or Submit Testimony
+
+Find Bills or Votes
+
+e-Subscribe to Alerts
+
+Floor Plans
+
+Language Access Services
+
+Find Your Legislators
+
+Find Your Legislators and District
+
+Learn
+
+How Ideas Become Law
+
+The Legislative Body
+
+Legislative Process
+
+Legislative Glossary
+
+Types of Measures
+
+Legislators through Time
+
+More
+
+Audio and Video
+
+Legislative Meetings
+
+News Conferences
+
+Informational Videos
+
+Publications and Reports
+
+Press Releases
+
+Redistricting Information
+
+More
+
+Capitol Offices
+
+Legislative Agencies
+
+Legislative Administration
+
+Legislative Comm. on Indian Srvs.
+
+Legislative Counsel
+
+Legislative Equity
+
+Legislative Fiscal
+
+Legislative Policy and Research
+
+Legislative Revenue
+
+Organizations
+
+Capitol Access., Maint. & Safety (CAMS)
+
+Capitol Master Plan
+
+Visitor Information
+
+Find Your Legislators
+
+Find Your Legislators and District
+
+Executive Branch
+
+Governor's Office
+
+Secretary of State
+
+State Treasurer
+
+List of State Agencies
+
+Home PageCurrently selected
+
+Biography
+
+News and Information
+
+District Map
+
+Bills
+
+Committees
+
+Content
+
+Edit
+
+Representative Zach Hudson
+
+Democrat​ - District 49 - Troutdale, Fairview, Wood Village, Gresham, Portland
+
+Capitol Phone: 503-986-1449
+
+Capitol Address: 900 Court St. NE, H-284, Salem, Oregon 97301
+
+Email: Rep.ZachHudson@oregonlegislature.gov
+Website: https://www.oregonlegislature.gov/hudson​
+
+Follow
+
+javascript: SP.SOD.executeFunc('followingcommon.js', 'FollowDoc', function() { FollowDoc('{ListId}', {ItemId}); });
+
+0x0
+
+0x0
+
+ContentType
+
+0x01
+
+1100
+
+Compliance Details
+
+javascript:if (typeof CalloutManager !== 'undefined' && Boolean(CalloutManager) && Boolean(CalloutManager.closeAll)) CalloutManager.closeAll(); commonShowModalDialog('{SiteUrl}'+
+'/_layouts/15/itemexpiration.aspx'
++'?ID={ItemId}&List={ListId}', 'center:1;dialogHeight:500px;dialogWidth:500px;resizable:yes;status:no;location:no;menubar:no;help:no', function GotoPageAfterClose(pageid){if(pageid == 'hold') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/hold.aspx'
++'?ID={ItemId}&List={ListId}'); return false;} if(pageid == 'audit') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/Reporting.aspx'
++'?Category=Auditing&backtype=item&ID={ItemId}&List={ListId}'); return false;} if(pageid == 'config') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/expirationconfig.aspx'
++'?ID={ItemId}&List={ListId}'); return false;} if(pageid == 'tag') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/Hold.aspx'
++'?Tag=true&ID={ItemId}&List={ListId}'); return false;}}, null);
+
+0x0
+
+0x1
+
+ContentType
+
+0x01
+
+898
+
+Document Set Version History
+
+/_layouts/15/images/versions.gif?rev=44
+
+javascript:SP.UI.ModalDialog.ShowPopupDialog('{SiteUrl}'+
+'/_layouts/15/DocSetVersions.aspx'
++ '?List={ListId}&ID={ItemId}')
+
+0x0
+
+0x0
+
+ContentType
+
+0x0120D520
+
+330
+
+Send To other location
+
+/_layouts/15/images/sendOtherLoc.gif?rev=44
+
+javascript:GoToPage('{SiteUrl}' +
+'/_layouts/15/docsetsend.aspx'
++ '?List={ListId}&ID={ItemId}')
+
+0x0
+
+0x0
+
+ContentType
+
+0x0120D520
+
+350
+
+Greeting
+
+Edit
+
+​
+
+Welcome!
+
+I'm at your service as the State Representative for House District 49, which includes Troutdale, Fairview, Wood Village, Northern Gresham, and part of East Portland. I am the Chair of the House Committee on Higher Education & Workforce Development and I also serve on the House Education Committee, the House Revenue Committee and the Joint Tax Expenditures Committee.
+
+You can stay informed by signing up for my newsletters clic​king
+e-Subscribe on this page.
+
+This session, I'm leading the effort for funding to replace the 59-year-old Fire Station 74 on 192nd and Halsey. This crumbling station exposes firefighters to asbestos, diesel exhaust, and sewage, and we owe our first responders a safe, dignified place to work and train. Moreover, East County is growing and our firefighters need updated infrastructure that meets their needs as the department expands. I am also continuing my efforts to keep Legacy Mt. Hood Hospital–including its family birth center–fully open by sponsoring legislation to prevent or slow hospital closures. Additionally, I'm sponsoring legislation to strengthen the levee and pump infrastructure needed to prevent catastrophic flooding in East Multnomah County and along the Columbia River. If you are interested in the other bills I am sponsoring, please take a
+
+look here.
+
+In previous legislative sessions, I joined my colleagues in passing bills to improve public safety, fight homelessness, and make Oregon a safer and fairer place to work. We secured $3.15 million to expand the East Metro Outreach and Prevention Initiative (EMOPI). This program brings young people, community groups, and law enforcement together to address the root causes of violence in East Multnomah County through mentorship, recreation, life-skills training, and crisis intervention. I also secured $500,000 to improve fire and emergency training in East Multnomah County and throughout the region.
+
+As always, I want to hear from you. If you need help with a state agency or unemployment claim, have a question or comment ab out legislation, or have an idea about how we can make life better for people in East Multnomah County and the State of Oregon, please let me know. Whether we agree or disagree, I'm all ears.
+
+I'll be working from East County on Fridays during the current legislative session. If you'd like to meet up while I'm working in-district, I encourage you to email me at
+
+Rep.ZachHudson@OregonLegislature.gov to schedule a time. Working locally during the session allows me to stay connected with constituents and my district in East Multnomah County. Of course, the Capitol is the People's House, and you're always welcome to stop by if you happen to be in Salem. My office is H-284, on the Second Floor.
+
+Otherwise, the best way to get in touch is to email me at
+
+Rep.ZachHudson@OregonLegislature.gov
+. You can also reach my office phone at (503) 986-1449. When contacting me, please remember to include your
+name, home address, email, and phone number
+in your voicemail or the body of your email message.
+
+Thank you for taking the time to engage with Oregon's democracy. It's an honor to serve you.
+
+Sincerely,
+
+Representative Zach Hudson
+
+​​
+
+¡Bienvenidos!
+
+Estoy a sus órdenes como el Representante Estatal del Distrito 49, que incluye Troutdale, Fairview, Wood Village, el norte de Gresham y parte del este de Portland. Soy el Presidente del Comité de Educación Superior y Desarrollo de la Fuerza Laboral de la Cámara, y también formo parte del Comité de Educación, el Comité de Ingresos y el Comité Conjunto de Gastos Fiscales.
+
+Puede mantenerse informado inscribiéndose a mis boletines electrónicos. Solo haga clic en e-Subscribe en esta página.
+
+En esta sesión legislativa, estoy liderando el esfuerzo para obtener fondos para reemplazar la Estación de Bomberos 74, que tiene 59 años y está ubicada en la 192 y Halsey. Esta estación deteriorada expone a los bomberos a asbestos, gases de diésel y aguas residuales. Les debemos a nuestros primeros respondedores un lugar seguro y digno para trabajar y entrenar. Además, el Este del Condado está creciendo y nuestros bomberos necesitan infraestructura actualizada que se ajuste a sus necesidades a medida que el departamento se expande. También estoy trabajando para mantener el Legacy Mt. Hood Hospital, incluyendo su centro de maternidad, completamente abierto, patrocinando una ley para prevenir o ralentizar los cierres de hospitales. Además, estoy promoviendo una legislación para fortalecer los diques y la infraestructura de bombas necesarios para prevenir inundaciones catastróficas en el este del Condado de Multnomah y a lo largo del río Columbia. Si le interesa conocer otros proyectos de ley que estoy patrocinando, haga
+clic aquí.
+
+En sesiones legislativas anteriores, trabajé con mis colegas para aprobar leyes que mejoran la seguridad pública, combaten la falta de vivienda y hacen de Oregón un lugar más seguro y justo para trabajar. Aseguramos $3.15 millones para expandir la Iniciativa de Prevención y Alcance del Este del Condado (EMOPI, por sus siglas en inglés). Este programa reúne a jóvenes, grupos comunitarios y fuerzas del orden para abordar las causas principales de la violencia en el este del Condado de Multnomah a través de mentorías, actividades recreativas, capacitación en habilidades para la vida e intervención en crisis. También aseguré $500,000 para mejorar la capacitación en emergencias y contra incendios en el este del Condado de Multnomah y la región.
+
+Como siempre, quiero escuchar de usted. Si necesita ayuda con una agencia estatal o una solicitud de desempleo, tiene una pregunta o comentario sobre legislación, o tiene una idea para mejorar la vida de las personas en el este del Condado de Multnomah y en todo el estado de Oregón, por favor hágamelo saber. Ya sea que estemos de acuerdo o no, estoy aquí para escuchar.
+
+Estaré trabajando desde el este del Condado los viernes durante la actual sesión legislativa. Si quiere reunirse conmigo mientras estoy trabajando en el distrito, le animo a enviarme un correo electrónico a
+Rep.ZachHudson@OregonLegislature.gov para programar una cita. Trabajar localmente durante la sesión me permite mantenerme conectado con los habitantes de mi distrito en el este del Condado de Multnomah. Por supuesto, el Capitolio es la Casa del Pueblo, y siempre es bienvenido si pasa por Salem. Mi oficina es H-284, en el segundo piso.
+
+De lo contrario, la mejor manera de ponerse en contacto conmigo es enviarme un correo electrónico a
+Rep.ZachHudson@OregonLegislature.gov. También puede comunicarse con mi oficina al (503) 986-1449. Al contactarme, por favor incluya su nombre, dirección, correo electrónico y número de teléfono en su mensaje de voz o en el cuerpo de su correo electrónico.
+
+Gracias por tomarse el tiempo de participar en la democracia de Oregón. Es un honor servirle.
+
+Atentamente,
+
+Representante Zach Hudson
+
+​
+
+Follow
+
+javascript: SP.SOD.executeFunc('followingcommon.js', 'FollowDoc', function() { FollowDoc('{ListId}', {ItemId}); });
+
+0x0
+
+0x0
+
+ContentType
+
+0x01
+
+1100
+
+Compliance Details
+
+javascript:if (typeof CalloutManager !== 'undefined' && Boolean(CalloutManager) && Boolean(CalloutManager.closeAll)) CalloutManager.closeAll(); commonShowModalDialog('{SiteUrl}'+
+'/_layouts/15/itemexpiration.aspx'
++'?ID={ItemId}&List={ListId}', 'center:1;dialogHeight:500px;dialogWidth:500px;resizable:yes;status:no;location:no;menubar:no;help:no', function GotoPageAfterClose(pageid){if(pageid == 'hold') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/hold.aspx'
++'?ID={ItemId}&List={ListId}'); return false;} if(pageid == 'audit') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/Reporting.aspx'
++'?Category=Auditing&backtype=item&ID={ItemId}&List={ListId}'); return false;} if(pageid == 'config') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/expirationconfig.aspx'
++'?ID={ItemId}&List={ListId}'); return false;} if(pageid == 'tag') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/Hold.aspx'
++'?Tag=true&ID={ItemId}&List={ListId}'); return false;}}, null);
+
+0x0
+
+0x1
+
+ContentType
+
+0x01
+
+898
+
+Document Set Version History
+
+/_layouts/15/images/versions.gif?rev=44
+
+javascript:SP.UI.ModalDialog.ShowPopupDialog('{SiteUrl}'+
+'/_layouts/15/DocSetVersions.aspx'
++ '?List={ListId}&ID={ItemId}')
+
+0x0
+
+0x0
+
+ContentType
+
+0x0120D520
+
+330
+
+Send To other location
+
+/_layouts/15/images/sendOtherLoc.gif?rev=44
+
+javascript:GoToPage('{SiteUrl}' +
+'/_layouts/15/docsetsend.aspx'
++ '?List={ListId}&ID={ItemId}')
+
+0x0
+
+0x0
+
+ContentType
+
+0x0120D520
+
+350
+
+<div class="UserGeneric">The current browser does not support Web pages that contain the IFRAME element. To use this Web Part, you must use a browser that supports this element, such as Internet Explorer 7.0 or later.</div>
+
+Social
+
+Edit
+
+Follow us on Facebook
+
+Follow us on X
+
+Follow
+
+javascript: SP.SOD.executeFunc('followingcommon.js', 'FollowDoc', function() { FollowDoc('{ListId}', {ItemId}); });
+
+0x0
+
+0x0
+
+ContentType
+
+0x01
+
+1100
+
+Compliance Details
+
+javascript:if (typeof CalloutManager !== 'undefined' && Boolean(CalloutManager) && Boolean(CalloutManager.closeAll)) CalloutManager.closeAll(); commonShowModalDialog('{SiteUrl}'+
+'/_layouts/15/itemexpiration.aspx'
++'?ID={ItemId}&List={ListId}', 'center:1;dialogHeight:500px;dialogWidth:500px;resizable:yes;status:no;location:no;menubar:no;help:no', function GotoPageAfterClose(pageid){if(pageid == 'hold') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/hold.aspx'
++'?ID={ItemId}&List={ListId}'); return false;} if(pageid == 'audit') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/Reporting.aspx'
++'?Category=Auditing&backtype=item&ID={ItemId}&List={ListId}'); return false;} if(pageid == 'config') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/expirationconfig.aspx'
++'?ID={ItemId}&List={ListId}'); return false;} if(pageid == 'tag') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/Hold.aspx'
++'?Tag=true&ID={ItemId}&List={ListId}'); return false;}}, null);
+
+0x0
+
+0x1
+
+ContentType
+
+0x01
+
+898
+
+Document Set Version History
+
+/_layouts/15/images/versions.gif?rev=44
+
+javascript:SP.UI.ModalDialog.ShowPopupDialog('{SiteUrl}'+
+'/_layouts/15/DocSetVersions.aspx'
++ '?List={ListId}&ID={ItemId}')
+
+0x0
+
+0x0
+
+ContentType
+
+0x0120D520
+
+330
+
+Send To other location
+
+/_layouts/15/images/sendOtherLoc.gif?rev=44
+
+javascript:GoToPage('{SiteUrl}' +
+'/_layouts/15/docsetsend.aspx'
++ '?List={ListId}&ID={ItemId}')
+
+0x0
+
+0x0
+
+ContentType
+
+0x0120D520
+
+350
+
+x
+
+Oregon State Legislature
+
+You are now leaving the Oregon State Legislative Website.
+
+The Oregon State Legislature is not responsible for content, nor necessarily supports the site you are about to access.
+
+Thank you for visiting
+
+OregonLegislature.gov
+
+Cancel
+Continue
+
+<%@ Register Tagprefix="SharePoint" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>

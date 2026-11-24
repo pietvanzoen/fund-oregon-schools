@@ -1,0 +1,374 @@
+Senate
+
+All Senators
+
+Sign In
+
+Skip to main content
+
+Oregon State Legislature
+
+All Senators
+
+Navigation
+
+Search
+
+SenateCurrently selected
+
+Senate Information
+
+All Senators
+
+Senators by District
+
+Senators - Democrats
+
+Senators - Republicans
+
+Find Your Senator
+
+Find Your Senator and District
+
+Senate Leadership
+
+President Rob Wagner
+
+President Pro Tempore James I. Manning Jr.
+
+Democratic Leader Anthony Broadman
+
+Republican Leader Bruce Starr
+
+More
+
+Senate Offices
+
+Senate President
+
+Democratic Caucus
+
+Republican Caucus
+
+Secretary of the Senate
+
+More
+
+House
+
+House Information
+
+All Representatives
+
+Representatives by District
+
+Representatives - Democrats
+
+Representatives - Republicans
+
+Find Your Representative
+
+Find Your Representative and District
+
+House Leadership
+
+Speaker Julie Fahey
+
+Speaker Pro Tempore David Gomberg
+
+Democratic Leader Ben Bowman
+
+Republican Leader Lucetta Elmer
+
+More
+
+House Offices
+
+House Speaker
+
+Democratic Caucus
+
+Republican Caucus
+
+Chief Clerk of the House
+
+More
+
+Bills and Laws
+
+Bills
+
+Find Bills or Votes
+
+2026 Regular Session
+
+2025 Regular Session
+
+2025 Special Session
+
+Previous Sessions
+
+Governor Signed Bills
+
+Open Data
+
+Session Information
+
+Current Session Details
+
+Previous Session Details
+
+Session Publications
+
+Oregon Laws
+
+1999-2026 Sessions
+
+Oregon Revised Statutes
+
+2025 Oregon Revised Statutes
+
+ORS Annotations
+
+ORS Archives
+
+Oregon Rules of Civil Procedure
+
+Oregon Admin. Rules (OARs)
+
+Oregon Constitution
+
+Purchase Publications
+
+Committees
+
+Committee Meetings
+
+Today's Meetings
+
+Agendas Online
+
+Committee Participation
+
+How to Testify
+
+How to Submit Testimony
+
+How to Register or Submit Testimony
+
+e-Subscribe to Agendas
+
+Committee Assignments
+
+Senate Committees
+
+House Committees
+
+Joint Committees
+
+Listed by Senator
+
+Listed by Representative
+
+Listed by Committee
+
+Publications and Reports
+
+Background Briefs
+
+Required by Statute
+
+Summary of Legislation
+
+More
+
+Get Involved
+
+Engage
+
+Visitor Information
+
+How to Testify
+
+How to Register or Submit Testimony
+
+Find Bills or Votes
+
+e-Subscribe to Alerts
+
+Floor Plans
+
+Language Access Services
+
+Find Your Legislators
+
+Find Your Legislators and District
+
+Learn
+
+How Ideas Become Law
+
+The Legislative Body
+
+Legislative Process
+
+Legislative Glossary
+
+Types of Measures
+
+Legislators through Time
+
+More
+
+Audio and Video
+
+Legislative Meetings
+
+News Conferences
+
+Informational Videos
+
+Publications and Reports
+
+Press Releases
+
+Redistricting Information
+
+More
+
+Capitol Offices
+
+Legislative Agencies
+
+Legislative Administration
+
+Legislative Comm. on Indian Srvs.
+
+Legislative Counsel
+
+Legislative Equity
+
+Legislative Fiscal
+
+Legislative Policy and Research
+
+Legislative Revenue
+
+Organizations
+
+Capitol Access., Maint. & Safety (CAMS)
+
+Capitol Master Plan
+
+Visitor Information
+
+Find Your Legislators
+
+Find Your Legislators and District
+
+Executive Branch
+
+Governor's Office
+
+Secretary of State
+
+State Treasurer
+
+List of State Agencies
+
+Members of the Senate
+
+All SenatorsCurrently selected
+
+By District
+
+By Democrats
+
+By Republicans
+
+Printable List
+
+Senate Leadership
+
+President Wagner
+
+Pro Tem. Manning
+
+Dem. Leader Broadman
+
+Rep. Leader Starr
+
+Senate Offices
+
+Senate President
+
+Democratic Caucus
+
+Republican Caucus
+
+Secretary of the Senate
+
+​Oregon State Sen​ate
+
+Below is a list of all current Oregon State Senators, along with their Capitol phone numbers, email​ addresses, office locations, and website addresses.​​​​​​​​​
+
+All Oregon State Senators
+
+Side Buttons
+
+Find Your Legislator
+
+Identify your State and Congressional Legislators
+
+Video & Audio
+
+Live and Archived Video and Audio
+
+e-Subscribe
+
+Email News Alerts
+
+Committees
+
+Senate Committees
+
+By Member
+
+Contact Data
+
+Printable Member List
+
+Contact Data in CSV
+
+Documents
+
+Executive Appts., Rules & More
+
+Capitol Maps
+
+Rooms & Offices
+
+1841 to Present
+
+Chronological List of Legislators
+
+District Fast Facts
+
+Informative Overview of Legislative Districts
+
+x
+
+Oregon State Legislature
+
+You are now leaving the Oregon State Legislative Website.
+
+The Oregon State Legislature is not responsible for content, nor necessarily supports the site you are about to access.
+
+Thank you for visiting
+
+OregonLegislature.gov
+
+Cancel
+Continue
+
+<%@ Register Tagprefix="SharePoint" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>

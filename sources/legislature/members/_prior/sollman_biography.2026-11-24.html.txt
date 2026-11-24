@@ -1,0 +1,532 @@
+Senator Janeen Sollman
+
+Biography
+
+Sign In
+
+Skip to main content
+
+Oregon State Legislature
+
+Biography
+
+Navigation
+
+Search
+
+Senate
+
+Senate Information
+
+All Senators
+
+Senators by District
+
+Senators - Democrats
+
+Senators - Republicans
+
+Find Your Senator
+
+Find Your Senator and District
+
+Senate Leadership
+
+President Rob Wagner
+
+President Pro Tempore James I. Manning Jr.
+
+Democratic Leader Anthony Broadman
+
+Republican Leader Bruce Starr
+
+More
+
+Senate Offices
+
+Senate President
+
+Democratic Caucus
+
+Republican Caucus
+
+Secretary of the Senate
+
+More
+
+House
+
+House Information
+
+All Representatives
+
+Representatives by District
+
+Representatives - Democrats
+
+Representatives - Republicans
+
+Find Your Representative
+
+Find Your Representative and District
+
+House Leadership
+
+Speaker Julie Fahey
+
+Speaker Pro Tempore David Gomberg
+
+Democratic Leader Ben Bowman
+
+Republican Leader Lucetta Elmer
+
+More
+
+House Offices
+
+House Speaker
+
+Democratic Caucus
+
+Republican Caucus
+
+Chief Clerk of the House
+
+More
+
+Bills and Laws
+
+Bills
+
+Find Bills or Votes
+
+2026 Regular Session
+
+2025 Regular Session
+
+2025 Special Session
+
+Previous Sessions
+
+Governor Signed Bills
+
+Open Data
+
+Session Information
+
+Current Session Details
+
+Previous Session Details
+
+Session Publications
+
+Oregon Laws
+
+1999-2026 Sessions
+
+Oregon Revised Statutes
+
+2025 Oregon Revised Statutes
+
+ORS Annotations
+
+ORS Archives
+
+Oregon Rules of Civil Procedure
+
+Oregon Admin. Rules (OARs)
+
+Oregon Constitution
+
+Purchase Publications
+
+Committees
+
+Committee Meetings
+
+Today's Meetings
+
+Agendas Online
+
+Committee Participation
+
+How to Testify
+
+How to Submit Testimony
+
+How to Register or Submit Testimony
+
+e-Subscribe to Agendas
+
+Committee Assignments
+
+Senate Committees
+
+House Committees
+
+Joint Committees
+
+Listed by Senator
+
+Listed by Representative
+
+Listed by Committee
+
+Publications and Reports
+
+Background Briefs
+
+Required by Statute
+
+Summary of Legislation
+
+More
+
+Get Involved
+
+Engage
+
+Visitor Information
+
+How to Testify
+
+How to Register or Submit Testimony
+
+Find Bills or Votes
+
+e-Subscribe to Alerts
+
+Floor Plans
+
+Language Access Services
+
+Find Your Legislators
+
+Find Your Legislators and District
+
+Learn
+
+How Ideas Become Law
+
+The Legislative Body
+
+Legislative Process
+
+Legislative Glossary
+
+Types of Measures
+
+Legislators through Time
+
+More
+
+Audio and Video
+
+Legislative Meetings
+
+News Conferences
+
+Informational Videos
+
+Publications and Reports
+
+Press Releases
+
+Redistricting Information
+
+More
+
+Capitol Offices
+
+Legislative Agencies
+
+Legislative Administration
+
+Legislative Comm. on Indian Srvs.
+
+Legislative Counsel
+
+Legislative Equity
+
+Legislative Fiscal
+
+Legislative Policy and Research
+
+Legislative Revenue
+
+Organizations
+
+Capitol Access., Maint. & Safety (CAMS)
+
+Capitol Master Plan
+
+Visitor Information
+
+Find Your Legislators
+
+Find Your Legislators and District
+
+Executive Branch
+
+Governor's Office
+
+Secretary of State
+
+State Treasurer
+
+List of State Agencies
+
+Home Page
+
+BiographyCurrently selected
+
+News/Press Releases/Newsletters
+
+District Map
+
+Legislation
+
+Bills
+
+Committees
+
+Event Calendar
+
+Student Engagement
+
+Legislative Staff
+
+Emergency Response
+
+Legislative Survey:
+
+English
+
+Espanol
+
+Content
+
+Edit
+
+Senator Janeen Sollman
+
+Democrat - District 15 - Forest Grove, Cornelius, Hillsboro, Rock Creek​
+
+Capitol Phone: 503-986-1715
+Capitol Address: 900 Court St. NE, S-207, Salem, Oregon 97301
+Email: Sen.JaneenSollman@oregonlegislature.gov
+Website: https://www.oregonlegislature.gov/sollman
+
+​
+
+Follow
+
+javascript: SP.SOD.executeFunc('followingcommon.js', 'FollowDoc', function() { FollowDoc('{ListId}', {ItemId}); });
+
+0x0
+
+0x0
+
+ContentType
+
+0x01
+
+1100
+
+Compliance Details
+
+javascript:if (typeof CalloutManager !== 'undefined' && Boolean(CalloutManager) && Boolean(CalloutManager.closeAll)) CalloutManager.closeAll(); commonShowModalDialog('{SiteUrl}'+
+'/_layouts/15/itemexpiration.aspx'
++'?ID={ItemId}&List={ListId}', 'center:1;dialogHeight:500px;dialogWidth:500px;resizable:yes;status:no;location:no;menubar:no;help:no', function GotoPageAfterClose(pageid){if(pageid == 'hold') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/hold.aspx'
++'?ID={ItemId}&List={ListId}'); return false;} if(pageid == 'audit') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/Reporting.aspx'
++'?Category=Auditing&backtype=item&ID={ItemId}&List={ListId}'); return false;} if(pageid == 'config') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/expirationconfig.aspx'
++'?ID={ItemId}&List={ListId}'); return false;} if(pageid == 'tag') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/Hold.aspx'
++'?Tag=true&ID={ItemId}&List={ListId}'); return false;}}, null);
+
+0x0
+
+0x1
+
+ContentType
+
+0x01
+
+898
+
+Document Set Version History
+
+/_layouts/15/images/versions.gif?rev=44
+
+javascript:SP.UI.ModalDialog.ShowPopupDialog('{SiteUrl}'+
+'/_layouts/15/DocSetVersions.aspx'
++ '?List={ListId}&ID={ItemId}')
+
+0x0
+
+0x0
+
+ContentType
+
+0x0120D520
+
+330
+
+Send To other location
+
+/_layouts/15/images/sendOtherLoc.gif?rev=44
+
+javascript:GoToPage('{SiteUrl}' +
+'/_layouts/15/docsetsend.aspx'
++ '?List={ListId}&ID={ItemId}')
+
+0x0
+
+0x0
+
+ContentType
+
+0x0120D520
+
+350
+
+Biography
+
+Edit
+
+P​erson​al
+
+I've called Senate District 15 my home for over 30 years and raised my family here. My husband Tony and I have been married 33 years and have two grown sons, Jordan, and Matthew, and two grandchildren. As our family grew, I knew the importance of staying in a community that promotes engagement, respect, and inclusion. My two boys took different pathways through their education, and that is why I am such a proponent for career exposure at a young age. One went through the university system to become a special education teacher, and the other went the trade pathway and now has a very strong career, with room to grow, as a Utility Tree Trimmer. Both occupations are great careers, and we must continue to do everything we can as a state to promote students finding their path and encouraging them to pursue it. This is vitally important for Oregon's economy and future workforce.
+
+Occupation
+
+I have worked for over 26 years for Vernier Science Education, an educational scientific technology company based in Washington County. They provide opportunities for STEM education locally, nationally, and internationally. I feel fortunate to work for a company that allows me the flexibility in my work schedule to serve my community as a legislator.
+
+Civic Engagement
+
+Prior to my time as a legislator, I served on the Hillsboro School Board from 2009-2017, and continue to serve on the Career and College Pathways Steering Committee. These experiences have allowed me to be heavily involved in what I call a model for the state; showing how a school district can work with local business and industry to help students find their career path at an early age and explore it through their schooling. When I volunteer in the community, I get a unique perspective to the challenges and successes our organizations face in Senate District 15. These experiences have given me a purpose for civic engagement and in finding solutions to better the place I call home. I am so honored to be your Senator in Senate District 15. I pride myself on being accessible and hope that you will reach out and get involved in the legislative process. ​
+
+Events
+
+Watch my newsletter for upcoming events.
+​
+
+Legislative Accomplishments:
+
+SB 1596:​ Requires an original equipment manufacturer to make available to an owner of consumer electronic equipment or an independent repair provider on fair and reasonable terms any documentation, tool, part or other device or implement that the original equipment manufacturer makes available to an authorized service provider for the purpose of diagnosing, maintaining or repairing consumer electronic equipment. ​​​(2024)
+
+SB 4:​​​​ Directs Oregon Business Development Department to develop grant and loan program to support businesses applying for financial assistance under Creating Helpful Incentives to Produce Semiconductors for America Act of 2022. (2023)
+
+HCR 17:​ In memoriam: Alter Wiener, 1926-2018. (2019)
+
+SB 664:​ Requires school districts to provide instruction about Holocaust and genocide beginning with 2020-2021 school year.​ (2019)
+
+HB 2509:​ Sustainable Shopping Initiative: Prohibits retail establishments from providing single-use checkout bags to customers, except in certain cases. (2019)
+
+HB 3408: Woodstove Exchange Program: Appropriates moneys from General Fund to Department of Environmental Quality for deposit in Residential Solid Fuel Heating Air Quality Improvement Fund to fund community efforts to promote economic development and improve public health by reducing emissions from solid fuel burning devices that burn wood. (2019)
+
+HB 4145: Closed the domestic partner loophole, no longer allowing those who were convicted of domestic violence to be able to own a firearm. (2018)
+
+HB 4053: Requires the Chief Education Office to prepare a report on accelerated, and dual credit programs in high school, with the hopes that we will be able to address the growing student debt by encouraging students to take these classes in high school for college credit at a much lower cost. (2018)
+
+HB 4074: Escheats saving bonds into unclaimed property for an easier method to claim, as well as, allows the state to collect interest on these bonds that help fund our schools through the common school fund. (2018)
+
+HB 2246: Allocated $170 million to the High School Graduation and College and Career Readiness Fund. Formally known as Measure 98, these funds have allowed school districts to invest in Career & Technical Education programs. (2017)
+
+HB 2661: Establishes stronger regulations of long-term care referral companies that will help protect our most vulnerable seniors. (2017)
+
+Follow
+
+javascript: SP.SOD.executeFunc('followingcommon.js', 'FollowDoc', function() { FollowDoc('{ListId}', {ItemId}); });
+
+0x0
+
+0x0
+
+ContentType
+
+0x01
+
+1100
+
+Compliance Details
+
+javascript:if (typeof CalloutManager !== 'undefined' && Boolean(CalloutManager) && Boolean(CalloutManager.closeAll)) CalloutManager.closeAll(); commonShowModalDialog('{SiteUrl}'+
+'/_layouts/15/itemexpiration.aspx'
++'?ID={ItemId}&List={ListId}', 'center:1;dialogHeight:500px;dialogWidth:500px;resizable:yes;status:no;location:no;menubar:no;help:no', function GotoPageAfterClose(pageid){if(pageid == 'hold') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/hold.aspx'
++'?ID={ItemId}&List={ListId}'); return false;} if(pageid == 'audit') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/Reporting.aspx'
++'?Category=Auditing&backtype=item&ID={ItemId}&List={ListId}'); return false;} if(pageid == 'config') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/expirationconfig.aspx'
++'?ID={ItemId}&List={ListId}'); return false;} if(pageid == 'tag') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/Hold.aspx'
++'?Tag=true&ID={ItemId}&List={ListId}'); return false;}}, null);
+
+0x0
+
+0x1
+
+ContentType
+
+0x01
+
+898
+
+Document Set Version History
+
+/_layouts/15/images/versions.gif?rev=44
+
+javascript:SP.UI.ModalDialog.ShowPopupDialog('{SiteUrl}'+
+'/_layouts/15/DocSetVersions.aspx'
++ '?List={ListId}&ID={ItemId}')
+
+0x0
+
+0x0
+
+ContentType
+
+0x0120D520
+
+330
+
+Send To other location
+
+/_layouts/15/images/sendOtherLoc.gif?rev=44
+
+javascript:GoToPage('{SiteUrl}' +
+'/_layouts/15/docsetsend.aspx'
++ '?List={ListId}&ID={ItemId}')
+
+0x0
+
+0x0
+
+ContentType
+
+0x0120D520
+
+350
+
+<div class="UserGeneric">The current browser does not support Web pages that contain the IFRAME element. To use this Web Part, you must use a browser that supports this element, such as Internet Explorer 7.0 or later.</div>
+
+x
+
+Oregon State Legislature
+
+You are now leaving the Oregon State Legislative Website.
+
+The Oregon State Legislature is not responsible for content, nor necessarily supports the site you are about to access.
+
+Thank you for visiting
+
+OregonLegislature.gov
+
+Cancel
+Continue
+
+<%@ Register Tagprefix="SharePoint" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>

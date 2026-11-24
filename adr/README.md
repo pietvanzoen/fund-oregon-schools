@@ -51,3 +51,4 @@ The concrete signal that should reopen this.
 | [2026-11-23](20261123-1927-vale-review-comments.md) | Vale findings are review comments on the PR, not a separate check run |
 | [2026-11-23](20261123-2131-csv-line-endings-via-gitattributes.md) | Our CSVs are stored with LF endings through `.gitattributes`, not a linter |
 | [2026-11-23](20261123-2132-blocked-label-for-future-documents.md) | Research waiting for a future document is labelled `blocked`, not started |
+| [2026-11-24](20261124-0038-licenses.md) | Analysis is CC BY 4.0, code is MIT, archived sources are excluded |
