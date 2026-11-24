@@ -257,7 +257,9 @@ Then, as the issue needs:
   in plain words for a parent, one or two sentences; name pages by the title the site shows, their H1, e.g.
   "What's being decided", not by what they're about: #137's first row named "the current service level page",
   which doesn't exist), `page` (the analysis file readers should open, e.g.
-  `topics/reserves.md`, or `decisions.md#esf-draw-2027-29`), `pr`. Append it at the end; the site sorts. CI fails
+  `topics/reserves.md`, or `decisions.md#esf-draw-2027-29`), `pr`, `kind` (`correction` if it corrects anything the
+  archive said before, else `research` for new findings, documents or figures, else `site` for how pages look, read
+  or are found; `site` rows stay off the overview). Append it at the end; the site sorts. CI fails
   a PR that changes reader-facing files (anything in `analysis/` except `updates.csv`, or the news index) without a
   row for its number. The PR description is the maintainers' record; this is for readers. For a PR readers don't need to hear about (a typo, a citation page fix), the maintainer labels it
   `no-update` instead; don't add that label yourself.
