@@ -30,7 +30,7 @@ check facts and build their own materials.
 
 - **Repeating a fact:** click its citation and quote the original document, not this site.
 - **Our own work:** figures marked <span class="cite cite-der">our sum</span> or
-  <span class="cite cite-der">our estimate</span>, and anything headed or starting **Our analysis**, are this archive's reading.
+  <span class="cite cite-der">our estimate</span>, and anything headed or starting <span class="analysis"><strong>Our analysis</strong></span>, are this archive's reading.
   Label them that way if you reuse them.
 - **Reusing our work:** the analysis and site text are under
   [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): copy or adapt them for any purpose, with credit to
@@ -65,7 +65,7 @@ Contact: [hello@oregonedtrail.org](mailto:hello@oregonedtrail.org)
   opens the Portland Public Schools research archive.
 - <span class="cite cite-der">our sum</span> and <span class="cite cite-der">our estimate</span> mark figures
   this archive calculated itself; the link shows the method and inputs. They are not official numbers.
-- Yellow boxes and highlights headed or starting **Our analysis** mark interpretation, kept apart from what the
+- Yellow boxes and highlights headed or starting <span class="analysis"><strong>Our analysis</strong></span> mark interpretation, kept apart from what the
   documents say.
 - Quotes are verbatim. Members of the public are described, not named.
 
