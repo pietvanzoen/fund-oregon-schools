@@ -6,7 +6,7 @@ const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(
 const MARK = `<svg class="mark" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#fff"/><path d="M8 30 C 16 30, 14 16, 22 18 S 29 11, 32 10" fill="none" stroke="#005eb8" stroke-width="3" stroke-linecap="round" stroke-dasharray="0.1 5.5"/><circle cx="32" cy="10" r="4" fill="#ffb81c"/></svg>`;
 
 // Card data for this page only; the script reads it as text, never as markup
-const LIVE = "https://fundoregonschools.org/";
+const LIVE = "https://oregonedtrail.org/";
 
 export function layout({ title, crumbs = [], back = null, description = "", hero = "", body, aside = "", meta = "", cards, wide = false }) {
   const trail = back
@@ -36,7 +36,7 @@ ${SPRITE}
 </header>
 ${hero}
 <div class="wrap">
-<p class="phase"><strong class="tag">Test build</strong> A preview of a new design. The facts come from the same archive as <a href="https://fundoregonschools.org/">fundoregonschools.org</a>.</p>
+<p class="phase"><strong class="tag">Test build</strong> A preview of a new design. The facts come from the same archive as <a href="https://oregonedtrail.org/">oregonedtrail.org</a>.</p>
 ${trail}
 <main id="content" class="${aside ? "grid" : wide ? "" : "narrow"}">
   ${hero ? "" : `<h1>${esc(title)}</h1>`}

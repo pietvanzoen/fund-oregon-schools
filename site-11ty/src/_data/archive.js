@@ -8,7 +8,7 @@ import matter from "@11ty/gray-matter";
 import { icon } from "../_includes/icons.js";
 
 const ROOT = path.resolve(import.meta.dirname, "../../..");
-const LIVE = "https://fundoregonschools.org/"; // pages the spike doesn't build yet link to the live site
+const LIVE = "https://oregonedtrail.org/"; // pages the spike doesn't build yet link to the live site
 const REPO = "https://github.com/pietvanzoen/fund-oregon-schools";
 const BLOB = REPO + "/blob/main/";
 const md = markdownIt({ html: true });
@@ -377,7 +377,7 @@ function buildHome() {
     + `<form class="search" role="search" action="${LIVE}" method="get"><label class="vh" for="q">Search topics, people and terms</label>`
     + `<input id="q" name="q" type="search" placeholder="Search topics, people and terms" autocomplete="off">`
     + `<button type="submit" class="search-go">${icon("search")}<span class="vh">Search</span></button></form>`
-    + `<p class="search-note">Searches the current site, fundoregonschools.org, until this one has its own search.</p></div></section>`;
+    + `<p class="search-note">Searches the current site, oregonedtrail.org, until this one has its own search.</p></div></section>`;
 
   // Coming up: the next dated row of timeline.md, as on the live site
   const today = new Date().toISOString().slice(0, 10);

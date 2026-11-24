@@ -2,7 +2,7 @@
 
 A test of building the site with Eleventy instead of MkDocs + Material, to try wiki-style features. It builds the home
 page, a Topics list, topic pages, person pages (including generated stub pages for everyone in `people.csv` without a
-profile) and Who decides, from the same files as the live site. Everything else links to fundoregonschools.org.
+profile) and Who decides, from the same files as the live site. Everything else links to oregonedtrail.org.
 
 What it tries:
 - Citation chips, Analysis boxes and backticked file references, ported from `tools/site_hook.py`.
