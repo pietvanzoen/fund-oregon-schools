@@ -1,0 +1,17 @@
+From: NUNN Jerod * ODE <Jerod.Nunn@ode.oregon.gov>
+Cc: CLARK Vanessa * ODE <vanessa.clark@ode.oregon.gov>
+Subject: RE: Question: "Charter Schools Rate (ORS 338.155)" in the 2025-26 SSF estimates
+Date: Tuesday, 24 November 2026 09:48
+
+Piet,
+
+Thank you for the email question. Here are the answers to your questions:
+
+1. You are correct on the calculation for the Charter School Rate. It is General Purpose Grant divided by current year ADMw. The rate being calculated on current year ADMw helps reflect the current student population of the Charter School. This rate is not the 80% or 95% minimum referred to in ORS 338.155. The rule applies to the “School District’s General Purpose Grant per ADMw as calculated under ORS 327.013. On the district estimate, that number is titled “General Purpose Grant per Extended ADMw”. The rule is to guide sponsoring districts in writing contracts with Charter Schools. District / Charter contracts are completed at the district level. ODE has no part of that process. Districts are expected to follow the rule when contracting with Charter Schools.
+2. ODE does not publish the dollar amount that is attributable to virtual schools as those dollars flow through the school districts, and they are responsible for the distributions to charter schools. The Fiscal Transparency Unit here at ODE has a School Level Expenditure Report Dashboard that you might find helpful.
+
+Please let me know if you have any other questions. Thank you.
+
+Jerod Nunn
+State School Fund Coordinator
+School Finance | Office of Finance & Administration
