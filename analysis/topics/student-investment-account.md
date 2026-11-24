@@ -9,7 +9,7 @@ summary: >
   other education programs grants on top of regular state school funding, to support students' mental and
   behavioral health and raise achievement. Districts and the other programs have reported spending almost all of
   the money every year, and most of it has paid for staff. The state's reports cover only two years of results,
-  measured against targets each grantee set with the state rather than against what would have happened without
+  measured against targets each district or program set with the state rather than against what would have happened without
   the money, so on their own they can't show whether the money changed results for students.
 ---
 # The Student Investment Account: what the money funds and what the Oregon Department of Education reports it did
