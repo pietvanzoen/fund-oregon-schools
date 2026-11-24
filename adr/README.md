@@ -50,3 +50,4 @@ The concrete signal that should reopen this.
 | [2026-11-22](20261123-0249-correcting-news-records.md) | A wrong news record is corrected in place, with a dated note |
 | [2026-11-23](20261123-1927-vale-review-comments.md) | Vale findings are review comments on the PR, not a separate check run |
 | [2026-11-24](20261124-0038-licenses.md) | Analysis is CC BY 4.0, code is MIT, archived sources are excluded |
+| [2026-11-24](20261124-0049-site-name-oregon-ed-trail.md) | The site is called Oregon Ed Trail, at oregonedtrail.org |

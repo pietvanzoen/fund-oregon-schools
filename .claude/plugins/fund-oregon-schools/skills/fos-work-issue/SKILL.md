@@ -352,8 +352,8 @@ Then update the issue body so its status is clear at a glance (`gh api -X PATCH 
 - Keep the original wording of each item; add, don't rewrite.
 - Add (or update) a `## Where to find it` section at the end of the body, above the footer, so a reader can go
   straight to the results once the PR merges:
-  - **On the site**, the pages this PR adds or changes, as fundoregonschools.org links. Each page sits at
-    `https://fundoregonschools.org/<page>/`: `analysis/topics/<name>.md` → `/<name>/`; `decisions.md` →
+  - **On the site**, the pages this PR adds or changes, as oregonedtrail.org links. Each page sits at
+    `https://oregonedtrail.org/<page>/`: `analysis/topics/<name>.md` → `/<name>/`; `decisions.md` →
     `/decisions/`; `people/<slug>.md` → `/people/<slug>/`; `timeline.md` → `/timeline/`; `promises.csv` →
     `/promises/`; `people/quotes_all.jsonl` → `/quotes/`; `glossary.csv` → `/glossary/`; the CSVs listed in
     `FILE_TO_PAGE` in `tools/site_hook.py` → their page there (e.g. `data/qem_gap.csv` → `/numbers/`). Link a

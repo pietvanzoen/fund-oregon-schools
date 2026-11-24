@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://fundoregonschools.org/sitemap.xml
+Sitemap: https://oregonedtrail.org/sitemap.xml
