@@ -203,11 +203,11 @@ function markAnalysis(text) {
   return blocks.map((b) => {
     if (b.startsWith("Analysis:")) {
       const body = b.slice(9).trim();
-      return `<aside class="analysis">\n\n**We think:** ${body}\n\n</aside>`;
+      return `<aside class="analysis">\n\n**Our analysis:** ${body}\n\n</aside>`;
     }
     if (b.includes("Analysis:") && !/^\s*[|#]/.test(b)) {
       const i = b.indexOf("Analysis:");
-      return b.slice(0, i) + '<span class="analysis"><strong>We think:</strong> ' + b.slice(i + 9).trimStart() + "</span>";
+      return b.slice(0, i) + '<span class="analysis"><strong>Our analysis:</strong> ' + b.slice(i + 9).trimStart() + "</span>";
     }
     return b;
   }).join("\n");
@@ -235,7 +235,7 @@ function numberTiles(text) {
 
 // The topic file's sections as cards; ids stay the same, headings say what each one is
 const SECTIONS = {
-  analysis: ["box-analysis", "think", "What we think this means", "Our interpretation, not a source"],
+  analysis: ["box-analysis", "think", "Our analysis", "Our interpretation, not a source"],
   "what-the-sources-say": ["box-docs", "doc", "What the documents say"],
   "derived-figures": ["box-numbers", "calc", "Numbers we worked out"],
 };
@@ -409,7 +409,7 @@ function buildHome() {
       tiles.push(`<li class="kn-tile"><p class="kn-label">${esc(t[1])}</p><p class="kn-fig"><span class="kn-num">$${t[2]}</span> <span class="kn-unit">${t[3]}</span></p><p class="kn-rest">${inline(own.replace(/^[,.]?\s*/, ""))}</p></li>`);
       if (after.trim()) rest.push(`<li>${inline(after.trim())}</li>`);
     }
-    else if (it.startsWith("Analysis:")) analysis = `<p class="analysis kn-think"><strong>We think:</strong> ${inline(it.slice(9).trim())}</p>`;
+    else if (it.startsWith("Analysis:")) analysis = `<p class="analysis kn-think"><strong>Our analysis:</strong> ${inline(it.slice(9).trim())}</p>`;
     else rest.push(`<li>${inline(it)}</li>`);
   }
   const more = (keyBlock.match(/^More: (.+)$/m) || [])[1];

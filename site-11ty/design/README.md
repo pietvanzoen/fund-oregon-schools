@@ -16,7 +16,7 @@ Work happens on `site-11ty/` (#155). Light only, no dark mode for now.
 | Muted | `#4c6272` | secondary text ("Our interpretation, not a source", dates) |
 | Ground | `#f0f4f5` | page background, number tiles, secondary buttons |
 | White | `#ffffff` | cards |
-| Analysis | `#fff4cc` | "What we think this means" card and inline "We think" highlight |
+| Analysis | `#fff4cc` | "Our analysis" card and inline "Our analysis:" highlight |
 | Accent | `#ffb81c` | the logo mark's dot only (decorative; never carries text) |
 | Focus | `#ffeb3b` with `#212b32` border | keyboard focus and the pill being previewed |
 
@@ -41,7 +41,7 @@ dotted trail in blue ending in a gold dot (see the mockups' masthead).
 ## Page structure
 
 Topic page, top to bottom: breadcrumbs; title; **In short** card (blue header bar, white body, 21px text) from the
-topic file's front matter `summary`; **What we think this means** card (the `## Analysis` section, yellow, with
+topic file's front matter `summary`; **Our analysis** card (the `## Analysis` section, yellow, with
 "Our interpretation, not a source"); **What the documents say** card; **Numbers we worked out** (`## Derived figures`)
 as tiles when there are at most 4 rows with short values, otherwise a plain table in the card. Side column: "On this
 page" and "Related pages" (backlinks) cards; on phones, "On this page" goes above the article and "Related pages"
@@ -56,7 +56,7 @@ Phone: a bottom sheet on first tap, with a full-width "Open document" / "Open pa
 copy" as a text link below when there is one. Topic cards show the topic's `summary`; every other kind is built from
 its data row.
 
-Inline analysis in a list of facts: a yellow highlight starting with **We think:**.
+Inline analysis in a list of facts: a yellow highlight starting with **Our analysis:**. (STYLE.md: "our analysis", never a bare "we".)
 
 Menu and footer (`chrome/`): on phones the three nav links go behind a **Menu** button in the masthead (white tab
 with an up chevron when open, `aria-expanded`, `aria-controls`), opening a white list under the masthead: Topics,

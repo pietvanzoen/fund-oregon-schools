@@ -50,7 +50,7 @@ ${meta ? `<section class="page-meta" aria-labelledby="about-page"><h2 id="about-
 <footer class="foot">
   <div class="wrap">
     <nav aria-label="About the site"><ul class="foot-links"><li><a href="${LIVE}about/">About this site</a></li><li><a href="${LIVE}updates/">What's new</a></li><li><a href="mailto:hello@oregonedtrail.org">Contact: hello@oregonedtrail.org</a></li><li><a href="https://github.com/pietvanzoen/fund-oregon-schools">Research archive on GitHub</a></li></ul></nav>
-    <p>Every fact links to where it comes from: <span class="cite cite-src">${icon("doc")}Document, p.3</span> a document, <span class="cite cite-news">${icon("news")}Outlet</span> a news report, <span class="cite cite-der">${icon("calc")}our sum</span> our own calculation. Our interpretation is kept apart from what the documents say, in yellow boxes headed <strong>What we think this means</strong> or starting <strong>We think</strong>.</p>
+    <p>Every fact links to where it comes from: <span class="cite cite-src">${icon("doc")}Document, p.3</span> a document, <span class="cite cite-news">${icon("news")}Outlet</span> a news report, <span class="cite cite-der">${icon("calc")}our sum</span> our own calculation. Our interpretation is kept apart from what the documents say, in yellow boxes headed or starting <strong>Our analysis</strong>.</p>
     <p class="foot-small">Run by Oregon public school parents. Analysis licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
   </div>
 </footer>
