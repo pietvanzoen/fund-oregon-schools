@@ -12,6 +12,9 @@ What it tries:
 - Backlinks ("Mentioned on"), a generated infobox and generated position/option tables on person pages.
 - `[[lieber]]` / `[[topic:reserves]]` links that fail the build when the ID doesn't exist.
 - A broken-internal-link check after every build (stands in for `mkdocs build --strict`).
+- Design direction C, "Kitchen table" (`design/README.md`, #155): topic pages as cards (In short from the topic
+  file's front-matter `summary`, read with the pinned `@11ty/gray-matter`), source pills with line icons, a factual
+  person card from `people.csv`, and the preview card as a bottom sheet on touch.
 
     cd site-11ty && npm ci && npx eleventy --serve      # http://localhost:8080
     PREVIEW=1 npx eleventy                              # relative links, for hosting from any folder

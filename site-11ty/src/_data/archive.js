@@ -4,6 +4,8 @@ import fs from "node:fs";
 import path from "node:path";
 import { parse } from "csv-parse/sync";
 import markdownIt from "markdown-it";
+import matter from "@11ty/gray-matter";
+import { icon } from "../_includes/icons.js";
 
 const ROOT = path.resolve(import.meta.dirname, "../../..");
 const LIVE = "https://fundoregonschools.org/"; // pages the spike doesn't build yet link to the live site
@@ -46,19 +48,20 @@ const entities = {};
 for (const p of people) {
   const seat = [p.party && p.district ? `${p.party}-District ${p.district}` : "", p.area].filter(Boolean).join(", ");
   entities[`person:${p.id}`] = {
-    kind: "Person", title: `${TITLE[p.office] || ""} ${p.name}`.trim(), url: `/people/${p.id}/`,
+    kind: "Person", icon: "person", title: `${TITLE[p.office] || ""} ${p.name}`.trim(), url: `/people/${p.id}/`,
     lines: [seat || p.office, p.role_2027 && `2027: ${p.role_2027}`].filter(Boolean), name: p.name, row: p,
   };
 }
 const topicFiles = fs.readdirSync(path.join(ROOT, "analysis/topics")).filter((f) => f.endsWith(".md")).sort();
 for (const f of topicFiles) {
-  const text = read(`analysis/topics/${f}`);
+  const { data, content: text } = matter(read(`analysis/topics/${f}`));
+  const summary = String(data.summary || "").trim();
   const h1 = (text.match(/^# (.+)$/m) || [, f])[1].trim();
   const lead = (text.split(/^## Analysis\s*$/m)[1] || text.split("\n\n")[1] || "").trim().split(/\n\s*\n/)[0];
-  entities[`topic:${f.slice(0, -3)}`] = { kind: "Topic", title: h1, url: `/${f.slice(0, -3)}/`, lines: [clip(plain(lead))] };
+  entities[`topic:${f.slice(0, -3)}`] = { kind: "Topic", icon: "topic", title: h1, url: `/${f.slice(0, -3)}/`, lines: [summary || clip(plain(lead))], summary, text };
 }
 for (const g of glossary)
-  entities[`term:${g.term}`] = { kind: "Abbreviation", title: g.full_name || g.term, url: null, lines: [g.tooltip], term: g.term };
+  entities[`term:${g.term}`] = { kind: "Abbreviation", icon: "abbr", title: g.full_name || g.term, url: null, lines: [g.tooltip], term: g.term };
 
 // A card for one citation chip; built per chip because the page number differs
 function citeCard(kind, body) {
@@ -70,24 +73,24 @@ function citeCard(kind, body) {
     const url = base + (page && p.toLowerCase().endsWith(".pdf") ? `#page=${page}` : "");
     return { kind: "Document", title: s.title || path.basename(p), url, external: true,
       lines: [[s.date && `Dated ${s.date}`, page && `cited at page ${page}`].filter(Boolean).join(", ")],
-      also: { label: "Archived copy", url: BLOB + "sources/" + p }, chip: `📄 ${shortTitle(s.title || path.basename(p))}${page ? `, p.${page}` : ""}`, cls: "src" };
+      also: { label: "Archived copy", url: BLOB + "sources/" + p }, icon: "doc", chip: `${shortTitle(s.title || path.basename(p))}${page ? `, p.${page}` : ""}`, cls: "src" };
   }
   if (kind === "NEWS") {
     const r = news[body] || {};
     return { kind: "News report", title: r.title || body, url: r.url, external: true, lines: [[r.outlet, r.date].filter(Boolean).join(", ")],
-      chip: `📰 ${(r.outlet || "news").split("/")[0]}`, cls: "news" };
+      icon: "news", chip: `${(r.outlet || "news").split("/")[0]}`, cls: "news" };
   }
   if (kind === "DER") {
     const r = derived[body] || {};
     const est = r.kind === "est";
     return { kind: est ? "Our estimate" : "Our calculation", title: r.label || body, external: true,
       url: BLOB + "analysis/derived/" + body.split("/")[0] + ".csv", lines: [r.method && `Method: ${r.method}`, r.assumptions && `Assumes: ${r.assumptions}`].filter(Boolean),
-      chip: est ? "🧮 our estimate" : "🧮 our sum", cls: "der" };
+      icon: "calc", chip: est ? "our estimate" : "our sum", cls: "der" };
   }
   if (kind === "PPSARCH")
-    return { kind: "Other archive", title: "Portland Public Schools research archive", url: "https://github.com/timaelliott/save-our-schools", external: true, lines: [body], chip: "🏫 PPS archive", cls: "pps" };
+    return { kind: "Other archive", title: "Portland Public Schools research archive", url: "https://github.com/timaelliott/save-our-schools", external: true, lines: [body], icon: "archive", chip: "PPS archive", cls: "pps" };
   const [, ts] = body.split("@");
-  return { kind: "Recording", title: path.basename(body.split("@")[0]), url: null, lines: [ts ? `At ${ts}` : ""], chip: `🎥 ${ts || "video"}`, cls: "vid" };
+  return { kind: "Recording", title: path.basename(body.split("@")[0]), url: null, lines: [ts ? `At ${ts}` : ""], icon: "video", chip: `Recording${ts ? `, ${ts}` : ""}`, cls: "vid" };
 }
 
 function shortTitle(t) {
@@ -131,7 +134,9 @@ class Page {
       const c = citeCard(kind, body);
       const id = this.card(`cite:${kind}:${body.trim()}`, c);
       const attrs = `class="cite cite-${c.cls}" data-card="${esc(id)}"`;
-      return c.url ? `<a ${attrs} href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.chip)}</a>` : `<span ${attrs} tabindex="0">${esc(c.chip)}</span>`;
+      const [first, ...more] = c.chip.split(" "); // the icon stays on the line with the first word
+      const chip = `<span class="nw">${icon(c.icon)}${esc(first)}</span>${more.length ? " " + esc(more.join(" ")) : ""}`;
+      return c.url ? `<a ${attrs} href="${esc(c.url)}" target="_blank" rel="noopener">${chip}</a>` : `<span ${attrs} tabindex="0">${chip}</span>`;
     });
     return this.linkMentions(md.render(text));
   }
@@ -188,27 +193,52 @@ function markAnalysis(text) {
   return blocks.map((b) => {
     if (b.startsWith("Analysis:")) {
       const body = b.slice(9).trim();
-      return `<aside class="analysis"><p class="analysis-tag">Analysis: our interpretation</p>\n\n${body[0].toUpperCase() + body.slice(1)}\n\n</aside>`;
+      return `<aside class="analysis">\n\n**We think:** ${body}\n\n</aside>`;
     }
     if (b.includes("Analysis:") && !/^\s*[|#]/.test(b)) {
       const i = b.indexOf("Analysis:");
-      return b.slice(0, i) + '<span class="analysis"><span class="analysis-tag">Analysis</span> ' + b.slice(i + 9).trimStart() + "</span>";
+      return b.slice(0, i) + '<span class="analysis"><strong>We think:</strong> ' + b.slice(i + 9).trimStart() + "</span>";
     }
     return b;
   }).join("\n");
 }
 
-const table = (head, rows) => `<div class="scroll"><table><thead><tr>${head.map((h) => `<th>${h}</th>`).join("")}</tr></thead><tbody>${
-  rows.map((r) => `<tr>${r.map((c) => `<td>${c}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+const table = (head, rows) => `<table><thead><tr>${head.map((h) => `<th>${h}</th>`).join("")}</tr></thead><tbody>${
+  rows.map((r) => `<tr>${r.map((c) => `<td>${c}</td>`).join("")}</tr>`).join("")}</tbody></table>`;
 
-// ------------------------------------------------------------- build
+// Derived figures as number tiles when there are at most 4 rows with short values; otherwise the table stays
+function numberTiles(text) {
+  return text.replace(/(^## Derived figures\s*\n)([\s\S]*?)(?=^## |(?![\s\S]))/m, (all, h, sec) => {
+    const lines = sec.split("\n").filter((l) => l.startsWith("|"));
+    if (lines.length < 3) return all;
+    const cells = (l) => l.replace(/^\||\|\s*$/g, "").split("|").map((c) => c.trim());
+    const head = cells(lines[0]).map((c) => c.toLowerCase());
+    const rows = lines.slice(2).map(cells);
+    const v = head.indexOf("value");
+    const tag = (r) => r.find((c) => c.includes("[DER:"));
+    if (v < 1 || rows.length > 4 || rows.some((r) => !r[v] || r[v].length > 16 || !tag(r))) return all;
+    const tiles = rows.map((r) => `<li class="tile"><span class="tile-value">${esc(r[v])}</span><span class="vh">: </span><span class="tile-label">${md.renderInline(r[0])}</span> ${tag(r)}</li>`);
+    const table = sec.slice(sec.indexOf(lines[0]), sec.indexOf(lines.at(-1)) + lines.at(-1).length);
+    return h + sec.replace(table, `<ul class="tiles">${tiles.join("")}</ul>`);
+  });
+}
+
+// The topic file's sections as cards; ids stay the same, headings say what each one is
+const SECTIONS = {
+  analysis: ["box-analysis", "think", "What we think this means", "Our interpretation, not a source"],
+  "what-the-sources-say": ["box-docs", "doc", "What the documents say"],
+  "derived-figures": ["box-numbers", "calc", "Numbers we worked out"],
+};
+
+const PARTY = { D: "Democrat", R: "Republican", I: "Independent" };
 
 const pages = [];
 
 for (const f of topicFiles) {
   const e = entities[`topic:${f.slice(0, -3)}`];
   const p = new Page(`topic:${f.slice(0, -3)}`, e.url, e.title);
-  p.body = p.render(read(`analysis/topics/${f}`), `topics/${f}`);
+  p.body = p.render(numberTiles(e.text), `topics/${f}`);
+  p.summary = e.summary;
   p.sourceFile = `analysis/topics/${f}`;
   pages.push(p);
 }
@@ -229,13 +259,15 @@ for (const person of people) {
     pos.map((r) => [decisionLink(r.decision), esc(r.date), esc(r.stance), r.source]));
   if (opts.length) gen += `\n\n## Options proposed\n\n` + table(["Decision", "Date", "Option", "Source"],
     opts.map((r) => [decisionLink(r.decision), esc(r.proposed_on), esc(r.option), r.source]));
-  p.body = p.render([h1, "", "<!--infobox-->", ...rest].join("\n") + (has ? "" : "\n\nNo profile written yet. What's here is built from the archive's data: their role, and the pages that mention them.") + gen, `people/${person.id}.md`);
+  p.body = p.render([h1, "", "<!--summary-->", ...rest].join("\n") + (has ? "" : `\n\n<p class="box no-profile">We haven't written about this person yet. Here's their role and the pages that mention them.</p>`) + gen, `people/${person.id}.md`);
+  // People get a factual card from people.csv, never a prose summary
   const r = person;
-  p.infobox = [["Office", r.office + (r.district ? `, District ${r.district}` : "")], ["Party", r.party], ["Area", r.area],
-    ["Role 2025-26", r.role_2025_26], ["Role 2027", r.role_2027],
-    ["Official page", r.official_page && `<a href="${esc(r.official_page)}">${esc(r.official_page.replace(/^https?:\/\/(www\.)?/, ""))}</a>`]]
-    .filter(([, v]) => v).map(([k, v]) => `<dt>${k}</dt><dd>${k === "Official page" ? v : esc(v)}</dd>`).join("");
-  p.infoboxCites = p.render(r.source, "people/people.csv").replace(/^<p>|<\/p>\n?$/g, "");
+  const office = [r.office + (r.district ? `, District ${r.district}` : ""), PARTY[r.party] || r.party].filter(Boolean).join(" · ");
+  const cites = p.render(r.source, "people/people.csv").replace(/^<p>|<\/p>\n?$/g, "");
+  p.personCard = `<section class="box person-card" aria-label="Office and role"><p class="pc-office">${esc(office)}</p>${r.area ? `<p>${esc(r.area)}</p>` : ""}`
+    + (r.role_2027 ? `<p><span class="year">2027</span><span class="vh">: </span> ${esc(r.role_2027)}</p>` : "")
+    + `<p class="pc-more">${[r.role_2025_26 && `2025-26: ${esc(r.role_2025_26)}`, r.official_page && `<a href="${esc(r.official_page)}">Official page</a>`].filter(Boolean).join(" · ")}</p>`
+    + `<p class="pc-src">Sources: ${cites}</p></section>`;
   p.sourceFile = has ? file : "analysis/people/people.csv";
   p.stub = !has;
   pages.push(p);
@@ -258,28 +290,36 @@ for (const p of pages) p.backlinks = [];
 for (const p of pages) for (const id of p.refs) if (byId[id] && id !== p.id) byId[id].backlinks.push(p);
 
 for (const p of pages) {
-  // The layout draws the title, so the Markdown H1 goes; the infobox and backlinks go to the side column
-  p.html = p.body.replace(/^\s*<h1>[\s\S]*?<\/h1>\s*/, "").replace("<!--infobox-->", "");
-  // h2 ids for a contents list; the topic's Analysis section gets the same box as other analysis
-  const slugs = new Set();
-  const heads = [];
+  // The layout draws the title, so the Markdown H1 goes; the person card takes the placeholder
+  p.html = p.body.replace(/^\s*<h1>[\s\S]*?<\/h1>\s*/, "").replace(/(<p>)?<!--summary-->(<\/p>)?/, p.personCard || "");
+  // Wide tables scroll inside their own region, which takes keyboard focus, never the page
+  p.html = p.html.replace(/<table>[\s\S]*?<\/table>/g, (t) => `<div class="scroll" tabindex="0" role="region" aria-label="Table">${t}</div>`);
+  const slugs = new Set(["in-short"]);
+  const heads = p.summary ? [["in-short", "In short"]] : [];
   p.html = p.html.replace(/<h2>([\s\S]*?)<\/h2>/g, (_, inner) => {
     let id = inner.replace(/<[^>]+>/g, "").toLowerCase().replace(/&[^;]+;/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
     while (slugs.has(id)) id += "-2";
-    slugs.add(id); heads.push([id, inner.replace(/<[^>]+>/g, "")]);
+    slugs.add(id); heads.push([id, SECTIONS[id]?.[2] || inner.replace(/<[^>]+>/g, "")]);
     return `<h2 id="${id}">${inner}</h2>`;
   });
-  p.html = p.html.replace(/(<h2 id="analysis">Analysis<\/h2>)([\s\S]*?)(?=<h2 |$)/, '<section class="analysis-section" aria-labelledby="analysis"><h2 id="analysis">Our analysis</h2>$2</section>');
+  if (p.id.startsWith("topic:")) {
+    // Each h2 and what follows it becomes one card
+    p.html = p.html.replace(/<h2 id="([^"]+)">([\s\S]*?)<\/h2>([\s\S]*?)(?=<h2 id=|$)/g, (_, id, inner, rest) => {
+      const [cls, ic, label, note] = SECTIONS[id] || ["box-plain", "", inner];
+      const sub = note || (id === "derived-figures" && rest.includes("cite-der") ? "Our own calculations. Each one links to its method." : "");
+      return `<section class="box ${cls}" aria-labelledby="${id}"><h2 id="${id}">${ic ? icon(ic, "i h-icon") : ""}${label}</h2>${sub ? `<p class="box-note">${sub}</p>` : ""}${rest}</section>`;
+    });
+    if (p.summary) p.html = `<section class="box box-short" aria-labelledby="in-short"><h2 id="in-short">In short</h2><p>${esc(p.summary)}</p></section>` + p.html;
+  }
   p.aside = "";
   if (p.id.startsWith("topic:") && heads.length > 1)
-    p.aside += `<nav class="side-box side-top" aria-label="Contents"><h2 class="side-title">Contents</h2><ol class="side-list contents">${heads.map(([id, t]) => `<li><a href="#${id}">${esc(id === "analysis" ? "Our analysis" : t)}</a></li>`).join("")}</ol></nav>`;
-  if (p.infobox) p.aside += `<section class="side-box side-top"><h2 class="side-title">At a glance</h2><dl class="summary">${p.infobox}</dl><p class="side-src">${p.infoboxCites}</p></section>`;
+    p.aside += `<nav class="box side-box side-top" aria-labelledby="otp"><h2 class="side-title" id="otp">On this page</h2><ul class="side-list">${heads.map(([id, t]) => `<li><a href="#${id}">${esc(t)}</a></li>`).join("")}</ul></nav>`;
   if (p.backlinks.length)
-    p.aside += `<section class="side-box"><h2 class="side-title">Mentioned on</h2><ul class="side-list">${p.backlinks.sort((a, b) => a.title.localeCompare(b.title))
+    p.aside += `<section class="box side-box" aria-labelledby="rel"><h2 class="side-title" id="rel">Related pages</h2><ul class="side-list">${p.backlinks.sort((a, b) => a.title.localeCompare(b.title))
       .map((b) => `<li><a href="${b.url}" data-card="${b.id}">${esc(b.title)}</a></li>`).join("")}</ul></section>`;
-  for (const b of p.backlinks) p.card(b.id, entities[b.id] || { kind: "Page", title: b.title, url: b.url, lines: [] });
+  for (const b of p.backlinks) p.card(b.id, entities[b.id] || { kind: "Page", icon: "topic", title: b.title, url: b.url, lines: [] });
   p.meta = `Source on GitHub: <a href="${BLOB}${p.sourceFile}"><code>${p.sourceFile}</code></a> · <a href="https://github.com/pietvanzoen/fund-oregon-schools/commits/main/${p.sourceFile}">history</a>`;
-  p.caption = p.id.startsWith("topic:") ? "Topic" : p.id.startsWith("person:") ? (p.stub ? "Person · no profile yet" : "Person") : "People";
+  p.back = p.id.startsWith("person:") ? ["Who decides", "/who-decides/"] : null;
 }
 
 const nav = {
@@ -288,7 +328,7 @@ const nav = {
 };
 
 export default {
-  pages: pages.map((p) => ({ url: p.url, title: p.title, html: p.html, aside: p.aside, meta: p.meta, caption: p.caption, stub: !!p.stub,
-    cards: Object.fromEntries(Object.entries(p.cards).map(([k, c]) => [k, { kind: c.kind, title: c.title, url: c.url, external: !!c.external, lines: c.lines.filter(Boolean), also: c.also }])) })),
-  nav,
+  pages: pages.map((p) => ({ url: p.url, title: p.title, html: p.html, aside: p.aside, meta: p.meta, back: p.back, description: p.summary || "", stub: !!p.stub,
+    cards: Object.fromEntries(Object.entries(p.cards).map(([k, c]) => [k, { kind: c.kind, icon: c.icon, title: c.title, url: c.url, external: !!c.external, lines: c.lines.filter(Boolean), also: c.also }])) })),
+  nav: { topics: nav.topics.map(({ text, ...t }) => t), people: nav.people },
 };

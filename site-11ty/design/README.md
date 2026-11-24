@@ -29,6 +29,9 @@ Pills by kind (background / border / text). Kinds differ by icon and word first;
 Type: Lexend (Google Fonts), weights 400/500/600/700. Sizes: title 40 desktop / 30 phone, section heading 25,
 body 19 desktop / 17 phone, small 15, pills and labels 14. Line height 1.6 body, 1.15 titles.
 
+Masthead: the mark, the site name and under it the tagline **Following the money behind Oregon's schools** in light
+blue `#e8f1fa` on the masthead blue, 15px desktop / 13px phone, on every page.
+
 Shape: cards radius 12, number tiles 10, pills full round, bottom sheet 16 with a drag handle. Card shadow
 `0 10px 30px rgba(33,43,50,.2)`. Touch targets at least 44px (48 for sheet buttons).
 

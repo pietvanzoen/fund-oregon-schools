@@ -11,8 +11,8 @@ export function render({ archive }) {
   const body = `<p class="lead">Primary documents and cited analysis on Oregon K-12 funding: how much the state spends, how it's shared and what it buys, focused on the 2027-29 budget.</p>
 <p>This test build shows topic pages, people pages and Who decides. Other links go to the current site.</p>
 <div class="home-grid">
-<section><h2>Topics</h2><ul class="topic-list">${archive.nav.topics.map(topic).join("")}</ul></section>
-<section><h2>People</h2><ul class="people-list">${profiled.map(person).join("")}</ul>
+<section class="box"><h2 id="topics">Topics</h2><ul class="topic-list">${archive.nav.topics.map(topic).join("")}</ul></section>
+<section class="box"><h2>People</h2><ul class="people-list">${profiled.map(person).join("")}</ul>
 <p><a href="/who-decides/">Everyone who decides (${archive.nav.people.length})</a></p></section>
 </div>`;
   return layout({ title: "Oregon K-12 funding, document by document", body, cards, wide: true });

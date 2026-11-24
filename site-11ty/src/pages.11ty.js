@@ -8,6 +8,6 @@ export const data = {
 };
 
 export function render({ entry: e }) {
-  const crumbs = [["Home", "/"], ...(e.url.startsWith("/people/") ? [["Who decides", "/who-decides/"]] : []), [e.title]];
-  return layout({ title: e.title, caption: e.caption, crumbs, body: e.html, aside: e.aside, meta: e.meta, cards: e.cards });
+  const crumbs = e.url === "/who-decides/" ? [["Home", "/"]] : [["Home", "/"], ["Topics", "/#topics"]];
+  return layout({ title: e.title, crumbs, back: e.back, description: e.description, body: e.html, aside: e.aside, meta: e.meta, cards: e.cards });
 }
