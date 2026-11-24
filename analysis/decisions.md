@@ -90,7 +90,7 @@ document from the Governor with the $12.57 billion figure.
   other state money too, so the like-for-like gap between the two model scenarios is the status quo to the full
   model. See `topics/quality-education-model.md`.
 - Analysis: by the Quality Education Model's statewide measure, a State School Fund at the current service level keeps
-  the status quo (2025-27 service levels) only if the state's grant programs outside the fund continue at about their
+  the status quo (continuing 2025-27 activities) only if the state's grant programs outside the fund continue at about their
   2025-27 amounts and the model's status quo already prices what they pay for. The archive can't settle that second
   point yet; a question to Department of Education staff is drafted (#146). If it fails, the $1.2 billion is left to other
   state money or to reduced services, and the difference between the two readings is roughly the size of the grants.
