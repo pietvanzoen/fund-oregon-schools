@@ -1,6 +1,6 @@
 # Each page's search title and description live in its file's front matter, or are built from its data
 
-Status: accepted (2026-11-24, PR #N)
+Status: accepted (2026-11-24, PR #171)
 
 ## Context
 Search results and link previews show a page's `<title>` and meta description. Topic pages used their H1 (up to
