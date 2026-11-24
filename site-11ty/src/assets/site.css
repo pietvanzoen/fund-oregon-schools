@@ -1,31 +1,123 @@
-:root{color-scheme:light dark;--bg:light-dark(#fbfbfa,#15181b);--ink:light-dark(#1d232a,#e6e9ec);--muted:light-dark(#5c6670,#9aa4ad);
-  --line:light-dark(#dde1e5,#2c3238);--accent:light-dark(#1f5fa8,#8cbcf0);--panel:light-dark(#fff,#1d2125);--note:light-dark(#f2f5f8,#20262c)}
+/*
+VOICE   GOV.UK's plain public service, NHS's warmth, Our World in Data's care with sources.
+IDEA    A trail guide: every claim is a waypoint you can follow back to its document.
+PICTURE No photography: the dotted-trail mark, navy masthead and gold rule carry the identity.
+COLOUR  Oregon flag navy and gold; GOV.UK link blue; white reading ground, pale grey for asides.
+TYPE    Atkinson Hyperlegible Next (made for low-vision readers). 48 / 27 / 19 / 16, 14 for chips.
+LAYOUT  1000px column; two-thirds article and one-third side column from 900px; one column on phones.
+*/
+:root{color-scheme:light dark;
+  --navy:#0a2a4f;--gold:#f3c13a;--focus:#ffdd00;
+  --bg:light-dark(#fff,#111418);--ink:light-dark(#0b0c0c,#eceff1);--muted:light-dark(#505a5f,#a9b3b9);
+  --link:light-dark(#1d5fa8,#8fc1f5);--visited:light-dark(#4c2c92,#c6b2f2);--line:light-dark(#b1b4b6,#3a4046);
+  --soft:light-dark(#f3f2f1,#1b1f24);--inset:light-dark(#eef3f9,#16212e);--chip:light-dark(#f3f2f1,#232830);
+  --rule:light-dark(#0a2a4f,#6f93bd)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
 *{box-sizing:border-box;min-width:0}
-body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 "Atkinson Hyperlegible Next",system-ui,sans-serif;overflow-x:clip}
-a{color:var(--accent)}a:focus-visible,abbr:focus-visible,.cite:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:3px}
-.top{display:flex;flex-wrap:wrap;gap:8px 24px;align-items:center;padding:14px max(5vw,16px);border-bottom:1px solid var(--line)}
-.brand{font-weight:700;text-decoration:none;color:var(--ink)}.top nav{display:flex;flex-wrap:wrap;gap:4px 18px}
-main{max-width:46rem;margin:0 auto;padding:24px 16px 64px}
-h1{font-size:clamp(28px,5vw,40px);line-height:1.1;text-wrap:balance}h2{margin-top:2em;font-size:22px}
-.muted{color:var(--muted);font-weight:400}
-.scroll{overflow-x:auto}table{border-collapse:collapse;font-size:15px;width:100%}th,td{text-align:left;vertical-align:top;padding:8px;border-bottom:1px solid var(--line)}
-.cite{font-size:13px;-webkit-box-decoration-break:clone;box-decoration-break:clone;text-decoration:none;padding:1px 6px;border-radius:999px;background:var(--note);border:1px solid var(--line);color:var(--ink);cursor:pointer}
-abbr[data-card]{text-decoration:underline dotted;cursor:help}
-a[data-card]:not(.cite){text-decoration-style:dotted;text-underline-offset:3px}
-.analysis-tag{font-weight:700;font-size:14px;color:var(--muted);margin:0}
-aside.analysis{background:var(--note);border-left:4px solid var(--accent);padding:4px 16px;margin:1em 0}
-span.analysis{background:var(--note)}span.analysis .analysis-tag{margin-right:4px}
-.infobox{float:right;width:min(18rem,100%);margin:0 0 16px 20px;padding:12px 14px;background:var(--panel);border:1px solid var(--line);font-size:14px}
-.infobox dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:4px 10px}.infobox dt{color:var(--muted)}.infobox dd{margin:0}
-.infobox-src{margin:8px 0 0}
-@media(max-width:600px){.infobox{float:none;margin:0 0 16px;width:100%}}
-.backlinks{clear:both;margin-top:40px;padding-top:8px;border-top:1px solid var(--line)}
-.page-meta{color:var(--muted);font-size:14px;margin-top:32px}
-.card{position:absolute;z-index:10;width:min(22rem,calc(100vw - 16px));background:var(--panel);border:1px solid var(--line);border-radius:10px;
-  box-shadow:0 8px 28px rgba(0,0,0,.18);padding:12px 16px;font-size:15px;line-height:1.45}
-.card.sheet{position:fixed;left:8px;right:8px;bottom:8px;top:auto;width:auto;max-width:34rem;margin:0 auto}
-.card p{margin:4px 0}.card-kind{font-size:13px;color:var(--muted)}.card-title{font-weight:700}
-.card-actions{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;margin-top:10px!important}
+html{scroll-padding-top:24px;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 19px/1.55 "Atkinson Hyperlegible Next",system-ui,sans-serif;overflow-x:clip}
+@media(max-width:640px){body{font-size:17px}}
+.wrap{max-width:1000px;margin:0 auto;padding:0 max(4vw,16px)}
+
+a{color:var(--link);text-underline-offset:.15em;text-decoration-thickness:max(1px,.0625em)}
+a:visited{color:var(--visited)}
+a:hover{text-decoration-thickness:max(3px,.1875em)}
+/* GOV.UK's focus style: yellow ground, dark underline, readable on any background */
+a:focus-visible,abbr:focus-visible,.cite:focus-visible,button:focus-visible{outline:3px solid transparent;background:var(--focus);color:#0b0c0c;
+  box-shadow:0 -2px var(--focus),0 4px #0b0c0c;text-decoration:none}
+.skip{position:absolute;left:-9999px}.skip:focus{position:static;display:block;padding:10px 16px}
+
+/* masthead */
+.masthead{background:var(--navy);color:#fff;border-bottom:8px solid var(--gold)}
+.masthead-row{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 32px;padding-block:14px}
+.brand,.brand:visited{display:flex;align-items:center;gap:12px;color:#fff;text-decoration:none}
+.mark{width:44px;height:31px;color:#fff;flex:none}
+.brand-name{display:block;font-weight:700;font-size:24px;line-height:1.1}
+.brand-tag{display:block;font-size:16px;color:#d5deea}
+.topnav{display:flex;flex-wrap:wrap;gap:4px 24px}
+.topnav a,.topnav a:visited{color:#fff;font-weight:700;font-size:16px;text-decoration:none;padding-block:6px}
+.topnav a:hover{text-decoration:underline}
+.phase{border-bottom:1px solid var(--line);padding-block:10px;font-size:16px}
+.tag{display:inline-block;background:var(--navy);color:#fff;font-size:14px;padding:2px 8px;margin-right:8px}
+
+/* page */
+.crumbs ol{list-style:none;display:flex;flex-wrap:wrap;margin:16px 0 0;padding:0;font-size:16px}
+.crumbs li{margin:0}
+.crumbs li+li::before{content:"";display:inline-block;width:5px;height:5px;border-radius:50%;background:var(--gold);margin:0 10px 3px}
+.crumbs a,.crumbs a:visited{color:var(--ink)}
+main{padding:24px 0 8px}
+main.narrow article{max-width:42rem}
+main.grid{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:0 48px}main.grid .page-head{grid-column:1/-1;max-width:46rem}
+@media(max-width:900px){main.grid{grid-template-columns:minmax(0,1fr);gap:8px}}
+.caption{color:var(--muted);font-size:19px;margin:0 0 4px}
+h1{font-size:48px;line-height:1.05;margin:0 0 32px;text-wrap:balance}
+h2{font-size:27px;line-height:1.2;margin:48px 0 16px}
+h3{font-size:19px;margin:32px 0 8px}
+@media(max-width:640px){h1{font-size:32px;margin-bottom:24px}h2{font-size:22px;margin-top:36px}}
+article>h2:first-of-type{margin-top:0}
+p{margin:0 0 20px}ul,ol{padding-left:22px;margin:0 0 20px}li{margin-bottom:8px}
+.lead{font-size:24px;line-height:1.4;max-width:38rem}
+.muted{color:var(--muted)}
+code{font-size:.85em;overflow-wrap:anywhere}
+
+/* our analysis vs. the sources (GOV.UK inset text) */
+aside.analysis{background:var(--inset);border-left:8px solid var(--rule);padding:16px 20px 2px;margin:24px 0}
+.analysis-tag{font-weight:700;font-size:16px;margin:0 0 8px}
+span.analysis{background:var(--inset);box-decoration-break:clone;-webkit-box-decoration-break:clone;padding:0 2px}
+span.analysis .analysis-tag{display:inline;background:var(--navy);color:#fff;font-size:14px;padding:1px 6px;margin-right:4px}
+
+section.analysis-section{background:var(--inset);border-left:8px solid var(--rule);padding:20px 24px 4px;margin:0 0 40px}
+section.analysis-section h2{margin-top:0}
+.contents li{padding-left:0}.contents a{text-decoration:none}.contents a:hover{text-decoration:underline}
+/* phones: contents and the summary go above the article, backlinks below it */
+@media(max-width:900px){main.grid{display:flex;flex-direction:column}main.grid .side{display:contents}main.grid .side>*{order:1}main.grid .page-head{order:-2}main.grid .side>.side-top{order:-1}}
+@media(max-width:640px){.brand-name{font-size:20px}.brand-tag{font-size:14px}.mark{width:34px;height:24px}.masthead-row{padding-block:10px}
+  .topnav{gap:0 18px}.topnav a{font-size:15px}.phase{font-size:14px;padding-block:6px}section.analysis-section{padding:16px 16px 2px;margin-inline:-4px}}
+
+/* citation chips: quiet, so the sentence reads first */
+.cite,.cite:visited{font-size:14px;line-height:1.3;text-decoration:none;padding:1px 6px;background:var(--chip);color:var(--ink);border-bottom:2px solid var(--line);
+  box-decoration-break:clone;-webkit-box-decoration-break:clone;cursor:pointer}
+.cite:hover{border-bottom-color:var(--link)}
+abbr[data-card]{text-decoration:underline dotted;text-underline-offset:.2em;cursor:help}
+
+/* tables (GOV.UK) */
+.scroll{overflow-x:auto;margin-bottom:24px}
+table{border-collapse:collapse;width:100%;font-size:16px}
+th,td{text-align:left;vertical-align:top;padding:10px 20px 10px 0;border-bottom:1px solid var(--line)}
+th{font-weight:700}
+
+/* side column */
+.side-box{border-top:4px solid var(--rule);padding-top:12px;margin-bottom:32px}
+.side-title{font-size:19px;margin:0 0 12px}
+.summary{display:grid;grid-template-columns:auto minmax(0,1fr);margin:0;font-size:16px}
+.summary dt,.summary dd{overflow-wrap:anywhere;padding:8px 0;border-bottom:1px solid var(--line);margin:0}
+.summary dt{font-weight:700;padding-right:16px}
+.side-src{margin-top:12px;font-size:14px}
+.side-list{list-style:none;padding:0;font-size:16px}.side-list li{margin-bottom:10px}
+
+/* home */
+.home-grid{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:48px;margin-top:16px}
+@media(max-width:900px){.home-grid{grid-template-columns:minmax(0,1fr);gap:0}}
+.home-grid h2{margin-top:24px}
+.topic-list,.people-list{list-style:none;padding:0}
+.topic-list li{border-top:1px solid var(--line);padding:16px 0 4px;margin:0}
+.list-link{font-weight:700;font-size:21px}
+.topic-list p{color:var(--muted);font-size:16px;margin:6px 0 12px}
+.people-list li{display:flex;flex-direction:column;border-top:1px solid var(--line);padding:12px 0;margin:0;font-size:17px}
+.people-list .muted{font-size:16px}
+
+.page-meta{color:var(--muted);font-size:16px;border-top:1px solid var(--line);padding-top:16px;margin:24px 0 48px}
+.foot{background:var(--soft);border-top:1px solid var(--line);padding:32px 0 24px;font-size:16px}
+.foot .cite{cursor:default}.foot-small{color:var(--muted)}
+
+/* preview card */
+.card{position:absolute;z-index:10;width:min(24rem,calc(100vw - 16px));background:var(--bg);color:var(--ink);border:1px solid var(--line);
+  border-top:5px solid var(--rule);padding:14px 18px 10px;font-size:16px;line-height:1.45;box-shadow:0 6px 20px rgba(11,12,12,.18)}
+.card.sheet{position:fixed;left:8px;right:8px;bottom:8px;top:auto;width:auto;max-width:36rem;margin:0 auto}
+.card p{margin:4px 0}.card-kind{font-size:14px;color:var(--muted)}.card-title{font-weight:700;font-size:19px}
+.card-actions{display:flex;flex-wrap:wrap;gap:8px 20px;align-items:center;margin-top:12px!important}
+.card-actions a{font-weight:700}
 .card-actions a,.card-actions button{min-height:44px;display:inline-flex;align-items:center}
-.card-actions button{margin-left:auto;font:inherit;background:none;border:1px solid var(--line);border-radius:8px;padding:0 14px;color:var(--ink)}
-@media(hover:hover){.card-actions a,.card-actions button{min-height:0}}
+.card-actions button{margin-left:auto;font:inherit;font-weight:700;background:var(--soft);border:0;border-bottom:3px solid var(--line);padding:0 16px;color:var(--ink)}
+@media(hover:hover) and (pointer:fine){.card-actions a,.card-actions button{min-height:0}}
+@media(prefers-reduced-motion:no-preference){.card:not([hidden]){animation:rise .15s ease-out}@keyframes rise{from{transform:translateY(4px);opacity:0}}}

@@ -229,7 +229,7 @@ for (const person of people) {
     pos.map((r) => [decisionLink(r.decision), esc(r.date), esc(r.stance), r.source]));
   if (opts.length) gen += `\n\n## Options proposed\n\n` + table(["Decision", "Date", "Option", "Source"],
     opts.map((r) => [decisionLink(r.decision), esc(r.proposed_on), esc(r.option), r.source]));
-  p.body = p.render([h1, "", "<!--infobox-->", ...rest].join("\n") + (has ? "" : "\n\n*No profile written yet. This page is built from the archive's data.*") + gen, `people/${person.id}.md`);
+  p.body = p.render([h1, "", "<!--infobox-->", ...rest].join("\n") + (has ? "" : "\n\nNo profile written yet. What's here is built from the archive's data: their role, and the pages that mention them.") + gen, `people/${person.id}.md`);
   const r = person;
   p.infobox = [["Office", r.office + (r.district ? `, District ${r.district}` : "")], ["Party", r.party], ["Area", r.area],
     ["Role 2025-26", r.role_2025_26], ["Role 2027", r.role_2027],
@@ -258,12 +258,28 @@ for (const p of pages) p.backlinks = [];
 for (const p of pages) for (const id of p.refs) if (byId[id] && id !== p.id) byId[id].backlinks.push(p);
 
 for (const p of pages) {
-  p.html = p.body.replace("<!--infobox-->", p.infobox ? `<aside class="infobox"><dl>${p.infobox}</dl><p class="infobox-src">${p.infoboxCites}</p></aside>` : "");
+  // The layout draws the title, so the Markdown H1 goes; the infobox and backlinks go to the side column
+  p.html = p.body.replace(/^\s*<h1>[\s\S]*?<\/h1>\s*/, "").replace("<!--infobox-->", "");
+  // h2 ids for a contents list; the topic's Analysis section gets the same box as other analysis
+  const slugs = new Set();
+  const heads = [];
+  p.html = p.html.replace(/<h2>([\s\S]*?)<\/h2>/g, (_, inner) => {
+    let id = inner.replace(/<[^>]+>/g, "").toLowerCase().replace(/&[^;]+;/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+    while (slugs.has(id)) id += "-2";
+    slugs.add(id); heads.push([id, inner.replace(/<[^>]+>/g, "")]);
+    return `<h2 id="${id}">${inner}</h2>`;
+  });
+  p.html = p.html.replace(/(<h2 id="analysis">Analysis<\/h2>)([\s\S]*?)(?=<h2 |$)/, '<section class="analysis-section" aria-labelledby="analysis"><h2 id="analysis">Our analysis</h2>$2</section>');
+  p.aside = "";
+  if (p.id.startsWith("topic:") && heads.length > 1)
+    p.aside += `<nav class="side-box side-top" aria-label="Contents"><h2 class="side-title">Contents</h2><ol class="side-list contents">${heads.map(([id, t]) => `<li><a href="#${id}">${esc(id === "analysis" ? "Our analysis" : t)}</a></li>`).join("")}</ol></nav>`;
+  if (p.infobox) p.aside += `<section class="side-box side-top"><h2 class="side-title">At a glance</h2><dl class="summary">${p.infobox}</dl><p class="side-src">${p.infoboxCites}</p></section>`;
   if (p.backlinks.length)
-    p.html += `<section class="backlinks"><h2>Mentioned on</h2><ul>${p.backlinks.sort((a, b) => a.title.localeCompare(b.title))
+    p.aside += `<section class="side-box"><h2 class="side-title">Mentioned on</h2><ul class="side-list">${p.backlinks.sort((a, b) => a.title.localeCompare(b.title))
       .map((b) => `<li><a href="${b.url}" data-card="${b.id}">${esc(b.title)}</a></li>`).join("")}</ul></section>`;
   for (const b of p.backlinks) p.card(b.id, entities[b.id] || { kind: "Page", title: b.title, url: b.url, lines: [] });
-  p.html += `<p class="page-meta">Source on GitHub: <a href="${BLOB}${p.sourceFile}"><code>${p.sourceFile}</code></a> · <a href="https://github.com/pietvanzoen/fund-oregon-schools/commits/main/${p.sourceFile}">history</a></p>`;
+  p.meta = `Source on GitHub: <a href="${BLOB}${p.sourceFile}"><code>${p.sourceFile}</code></a> · <a href="https://github.com/pietvanzoen/fund-oregon-schools/commits/main/${p.sourceFile}">history</a>`;
+  p.caption = p.id.startsWith("topic:") ? "Topic" : p.id.startsWith("person:") ? (p.stub ? "Person · no profile yet" : "Person") : "People";
 }
 
 const nav = {
@@ -272,7 +288,7 @@ const nav = {
 };
 
 export default {
-  pages: pages.map((p) => ({ url: p.url, title: p.title, html: p.html, stub: !!p.stub,
+  pages: pages.map((p) => ({ url: p.url, title: p.title, html: p.html, aside: p.aside, meta: p.meta, caption: p.caption, stub: !!p.stub,
     cards: Object.fromEntries(Object.entries(p.cards).map(([k, c]) => [k, { kind: c.kind, title: c.title, url: c.url, external: !!c.external, lines: c.lines.filter(Boolean), also: c.also }])) })),
   nav,
 };

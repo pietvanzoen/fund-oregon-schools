@@ -7,6 +7,7 @@ export const data = {
   eleventyComputed: { title: (d) => d.entry.title },
 };
 
-export function render({ entry, archive }) {
-  return layout({ title: entry.title, body: entry.html, cards: entry.cards, nav: archive.nav });
+export function render({ entry: e }) {
+  const crumbs = [["Home", "/"], ...(e.url.startsWith("/people/") ? [["Who decides", "/who-decides/"]] : []), [e.title]];
+  return layout({ title: e.title, caption: e.caption, crumbs, body: e.html, aside: e.aside, meta: e.meta, cards: e.cards });
 }
