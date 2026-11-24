@@ -2,17 +2,16 @@
 VOICE   GOV.UK's plain public service, NHS's warmth, Our World in Data's care with sources.
 IDEA    A trail guide: every claim is a waypoint you can follow back to its document.
 PICTURE No photography: the dotted-trail mark, navy masthead and gold rule carry the identity.
-COLOUR  Oregon flag navy and gold; GOV.UK link blue; white reading ground, pale grey for asides.
+COLOUR  Oregon flag navy and gold; GOV.UK link blue; white reading ground, pale grey for asides. Light only for now.
 TYPE    Atkinson Hyperlegible Next (made for low-vision readers). 48 / 27 / 19 / 16, 14 for chips.
 LAYOUT  1000px column; two-thirds article and one-third side column from 900px; one column on phones.
 */
-:root{color-scheme:light dark;
+:root{color-scheme:light;
   --navy:#0a2a4f;--gold:#f3c13a;--focus:#ffdd00;
-  --bg:light-dark(#fff,#111418);--ink:light-dark(#0b0c0c,#eceff1);--muted:light-dark(#505a5f,#a9b3b9);
-  --link:light-dark(#1d5fa8,#8fc1f5);--visited:light-dark(#4c2c92,#c6b2f2);--line:light-dark(#b1b4b6,#3a4046);
-  --soft:light-dark(#f3f2f1,#1b1f24);--inset:light-dark(#eef3f9,#16212e);--chip:light-dark(#f3f2f1,#232830);
-  --rule:light-dark(#0a2a4f,#6f93bd)}
-:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+  --bg:#fff;--ink:#0b0c0c;--muted:#505a5f;
+  --link:#1d5fa8;--visited:#4c2c92;--line:#b1b4b6;
+  --soft:#f3f2f1;--inset:#eef3f9;--chip:#f3f2f1;
+  --rule:#0a2a4f}
 *{box-sizing:border-box;min-width:0}
 html{scroll-padding-top:24px;-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font:400 19px/1.55 "Atkinson Hyperlegible Next",system-ui,sans-serif;overflow-x:clip}
