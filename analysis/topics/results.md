@@ -1,4 +1,7 @@
 ---
+description: >
+  The State Board of Education's April 2026 student results targets, Gov. Tina Kotek's order on school time, and
+  how little is known of what the money buys.
 summary: >
   In April 2026 the State Board of Education unanimously set statewide targets for student results to reach by
   2029-30, after Oregon Department of Education Director Charlene Williams said meeting them doesn't require new
@@ -28,7 +31,8 @@ increases go (#61), research on whether funding changes outcomes (#63), and unfu
   using or redirecting the resources they have; a board member and a board adviser voiced doubts about meeting them
   without more money, and the board then voted unanimously [NEWS:NEWS-20260429-oregonian-1].
 - Under SB 141, state help and oversight step up for districts that show no progress [NEWS:NEWS-20260429-oregonian-1].
-- **Executive Order 26-06**: no further cuts to instructional time; a district that cut it for 2025-26 or 2026-27
+- **Executive Order 26-06**, signed by Gov. Tina Kotek on April 15, 2026
+  [SRC:gov/eo/eo-26-06_preserving-instructional-time.pdf p.3]: no further cuts to instructional time; a district that cut it for 2025-26 or 2026-27
   before the order took effect must submit, within 90 days, a plan to restore it to no less than 2024-25 levels by the
   start of 2027-28 [SRC:gov/eo/eo-26-06_preserving-instructional-time.pdf p.2]. Its FAQ says funding options will be explored
   "within the existing budget" [SRC:gov/eo/eo-26-06_faq.pdf p.2].

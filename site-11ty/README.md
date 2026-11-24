@@ -10,9 +10,9 @@ in `website/about.md`. Nothing here repeats the research. Why Eleventy: `adr/202
   marker), backticked file references as links, first-mention links to people and `<abbr>` on acronyms, backlinks,
   generated person pages (a stub for everyone in `people.csv` without a profile), the decision tables from the
   decision CSVs, and the list pages (numbers, quotes, promises, timeline, sources, What's new, questions, glossary).
-- `src/_includes/layout.js` is the frame of every page: masthead, search panel, footer, preview card, page metadata
+- `src/_includes/layout.js` is the frame of every page: masthead, search panel, footer, preview card, page metadata (title and description from a file's front matter, or set or built in `archive.js`)
   and Umami analytics. `src/*.11ty.js` are the templates; `src/assets/` the CSS and scripts.
-- The build fails on a broken internal link or an unknown `[[id]]` (`eleventy.config.js`), then Pagefind indexes
+- The build fails on a broken internal link, an unknown `[[id]]` or an indexable page with no meta description or with a title or description another page uses (`eleventy.config.js`), then Pagefind indexes
   topic, person and glossary pages for search.
 - `.github/workflows/pages.yml` runs the build on every PR and deploys `_site/` to GitHub Pages from `main`.
 - The design spec is `design/README.md` (direction C, #155); it links to the commit that holds the mockups.

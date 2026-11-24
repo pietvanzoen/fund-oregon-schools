@@ -34,8 +34,9 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
    `tools/fetch_sources.py` (or by hand with an entry in `sources/_manifest.jsonl`: URL, fetch time, sha256).
    **Always keep originals.** Agencies revise and remove documents. A changed file is moved to `_prior/` and
    logged in `sources/_versions_log.csv`, never overwritten.
-2. `analysis/` is derived. Every factual claim carries a citation, with one exception: a topic file's front-matter
-   `summary` (rule 4) has no citations, and every sentence in it restates a cited line further down the same page:
+2. `analysis/` is derived. Every factual claim carries a citation, with one exception: front matter (rule 4: a
+   topic's `summary`, `description` and `title`, a profile's `description` and `title`) has no citations, and every
+   sentence in it restates a cited line further down the same page:
    - Archived file: `[SRC:<path under sources/> p.<page>]` (page = PDF page; `.pdf.txt` separates pages with \f).
      Omit `p.` for HTML pages, and for a claim about a whole PDF ("mentions no charter bill"). Path conventions:
      - `gov/` Governor's office: recommended budgets, press releases, executive orders, letters
@@ -74,11 +75,15 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
    what was said, never the transcript text unchecked. If you can't listen, don't quote; paraphrase as unverified.
    OCR text (below a `--- OCR of this page` line in `<file>.pdf.ocr.txt`) misreads too: check the PDF page.
 4. Keep separate what sources state (documents and what people said), what we calculated, and our own inference.
-   - Topic files (`analysis/topics/*.md`) start with front matter holding only a `summary`, shown on the site as
-     "In short" and used as the page's meta description: two or three plain sentences (`STYLE.md`, "In short"),
-     written as `summary: >` with indented lines. Only `key: value` and folded `>` are read (no YAML library), and
-     no other file in `analysis/` has front matter; people keep factual cards from `people.csv`. Why:
-     `adr/20261124-0555-topic-summaries-in-front-matter.md`. The title is the H1 right after it.
+   - Topic files (`analysis/topics/*.md`) start with front matter: a `summary`, shown on the site as "In short":
+     two or three plain sentences (`STYLE.md`, "In short"); a `description` for search results and link previews
+     (one plain sentence, at most 160 characters); and a `title` when the H1 is over 55 characters (the browser tab
+     and search results; at most 55). Person profiles (`analysis/people/<id>.md`) hold a `description` and may hold
+     a `title`; people keep factual cards from `people.csv`, never a summary. Write each as `key: >` with indented
+     lines. Like the summary, a description or title carries no citations and says nothing the cited lines below
+     don't. Only `key: value` and folded `>` are read (no YAML library), and no other file in `analysis/` has front
+     matter. Why: `adr/20261124-0555-topic-summaries-in-front-matter.md`, `adr/20261124-1751-page-titles-and-descriptions-in-front-matter.md`. The H1
+     comes right after it.
    - Topic files have three sections, in this order: `## Analysis` (our interpretation;
      no "Analysis:" label needed; first, so the page leads with it, and it reads on its own: point to the evidence as
      "below"), `## What the sources say` (only statements a cited source makes; every line cited; no inference) and
@@ -146,7 +151,7 @@ Least new code that fully does the job; adapted from the ponytail rules
 - **Keep** validation and error handling when moving or merging code.
 - **Tests:** anything with branches, loops, parsing, money figures or a new script gets an assert-based case in
   `tools/test_tools.py` (plain `assert`, run by CI). Trivial changes don't. Site code (`site-11ty/`) gets no tests: CI's
-  site build (`cd site-11ty && npm ci && npx eleventy`) covers it, failing on a broken internal link or an unknown `[[id]]`. Derive scripts
+  site build (`cd site-11ty && npm ci && npx eleventy`) covers it, failing on a broken internal link, an unknown `[[id]]` or an indexable page with no meta description or with a title or description another page uses. Derive scripts
   (`tools/derive_*.py`) get no tests either: they're plain arithmetic on archived data, CI reruns them and fails on
   any change in output, and the fact-checker checks each method; a test would only pin today's numbers.
 - **Known limits** go in a comment: `shortcut: <the limit>, <when to upgrade>`.
@@ -167,7 +172,7 @@ Least new code that fully does the job; adapted from the ponytail rules
 - `analysis/promises.csv` — pledge tracker (who, what, when, status, rating on outcomes, source)
 - `analysis/data/*.csv` — SSF history, QEM gap, forecasts, reserves: values copied from sources only
 - `analysis/derived/<topic>.csv` — every value we calculated, written by `tools/derive_<topic>.py` (never by hand)
-- `analysis/topics/<topic>.md` — topic files: a `summary` in front matter, then the three sections; each is published on the website automatically
+- `analysis/topics/<topic>.md` — topic files: `summary`, `description` (and `title` if the H1 is long) in front matter, then the three sections; each is published on the website automatically
 - `analysis/glossary.csv` — abbreviations and terms: full name, hover tooltip, cited definition
 - `analysis/START.md` (home page), `analysis/timeline.md`
 - `analysis/updates.csv` — What's new for readers (`date, text, page, pr`; the site shows it newest first, the

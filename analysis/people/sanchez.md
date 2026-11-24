@@ -1,3 +1,10 @@
+---
+title: >
+  Rep. Tawna Sanchez on school funding
+description: >
+  Rep. Tawna Sanchez, co-chair of the Legislature's budget committee: her role in Oregon's K-12 budget and her
+  statements on revenue and reserves, cited.
+---
 # Rep. Tawna Sanchez
 
 Official page: <https://www.oregonlegislature.gov/sanchez>

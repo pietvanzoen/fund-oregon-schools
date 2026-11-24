@@ -8,8 +8,9 @@ Errors: unknown SRC path (not archived and not queued), page beyond the document
 CSV row with no source, malformed JSONL, duplicate queue paths or news ids;
 malformed analysis/derived/<topic>.csv, unknown [DER:topic/id], a DER value not shown in its sentence or table row,
 a DER figure outside topics/ without "our sum"/"our estimate" in its sentence;
-a topic file without an uncited `summary` in its front matter, front matter outside topics/ or beyond `key: value`
-and folded `>`; a topic file without the three sections in order (Analysis first), or a line under
+a topic file without an uncited `summary` and `description` in its front matter, a person profile without a
+`description`, a `title` or `description` too long for search results (or no `title` when the H1 is), front matter
+outside topics/ and people/ or beyond `key: value` and folded `>`; a topic file without the three sections in order (Analysis first), or a line under
 "What the sources say" with no source citation or with "Analysis:".
 Warnings also flag a number under "What the sources say" that isn't in the text of a source the line cites.
 analysis/updates.csv (What's new) has its own columns instead of a source: date, text, page, pr.
@@ -189,10 +190,12 @@ def main():
                 check_der_figures(rel, body_lines, derived, errors)
                 check_glossary(rel, lines, glossary, warnings)  # the summary too: STYLE.md allows no abbreviations
                 if os.path.dirname(full) == os.path.join(ANALYSIS, "topics"):
-                    check_summary(rel, meta, errors)
+                    check_front_matter(rel, meta, body, {"summary", "description"}, errors)
                     check_sections(rel, body_lines, news_text, errors, warnings)
+                elif os.path.dirname(full) == os.path.join(ANALYSIS, "people"):
+                    check_front_matter(rel, meta, body, {"description"}, errors)
                 elif meta:
-                    errors.append(f"{rel}: only topic files may have front matter (CLAUDE.md rule 4)")
+                    errors.append(f"{rel}: only topic files and person profiles may have front matter (CLAUDE.md rule 4)")
             elif dirpath == DERIVED:
                 continue  # checked above
             elif full == UPDATES:
@@ -387,14 +390,28 @@ def check_glossary(rel, lines, glossary, warnings):
             warnings.append(f"{rel}:{n}: {w} isn't in analysis/glossary.csv (CLAUDE.md rule 11)")
 
 
-def check_summary(rel, meta, errors):
-    """Topic files: front matter holds only a `summary` (STYLE.md, "In short"), uncited; the page below backs it."""
-    if not meta.get("summary"):
-        errors.append(f"{rel}: no `summary` in front matter (STYLE.md, \"In short\")")
-    for k in meta.keys() - {"summary"}:
-        errors.append(f"{rel}: front matter key {k} isn't used; topic files hold only `summary`")
-    if TAG_RE.search(meta.get("summary", "")):
-        errors.append(f"{rel}: the summary carries no citations; back each sentence with a cited line below")
+# Search results cut a title at about 60 characters (ours gets " · Oregon Ed Trail") and a description at about 160
+TITLE_MAX, DESC_MAX = 55, 160
+
+
+def check_front_matter(rel, meta, body, required, errors):
+    """Topics and person profiles (CLAUDE.md rule 4): `summary` ("In short", topics only), `description` (search
+    results) and an optional `title` (the browser tab and search results, when the H1 is too long). All uncited;
+    the page below backs every sentence."""
+    for k in sorted(required - meta.keys()):
+        errors.append(f"{rel}: no `{k}` in front matter (CLAUDE.md rule 4)")
+    for k in sorted(meta.keys() - required - {"title"}):
+        errors.append(f"{rel}: front matter key {k} isn't used; this file holds only {', '.join(sorted(required | {'title'}))}")
+    for k in sorted(meta.keys() & {"summary", "description", "title"}):
+        if TAG_RE.search(meta[k]):
+            errors.append(f"{rel}: the {k} carries no citations; back each sentence with a cited line below")
+    if len(meta.get("description", "")) > DESC_MAX:
+        errors.append(f"{rel}: description is {len(meta['description'])} characters; search results show about {DESC_MAX}")
+    h1 = (re.search(r"^# (.+)$", body, re.M) or [None, ""])[1].strip()
+    title = meta.get("title", h1)
+    if len(title) > TITLE_MAX:
+        errors.append(f"{rel}: page title is {len(title)} characters; search results show about {TITLE_MAX}, so "
+                      f"{'shorten the `title`' if 'title' in meta else 'add a shorter `title` to the front matter'}")
 
 
 def check_sections(rel, lines, news_text, errors, warnings):
