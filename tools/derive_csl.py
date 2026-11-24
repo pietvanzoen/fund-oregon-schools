@@ -37,6 +37,6 @@ out = [
      "sum of the FSS (CAT) column", JPEA, ""),
 ]
 with open(OUT, "w", newline="", encoding="utf-8") as f:
-    w = csv.writer(f)
+    w = csv.writer(f, lineterminator="\n")
     w.writerow(["id", "value", "unit", "kind", "label", "method", "inputs", "assumptions"])
     w.writerows(out)

@@ -1,0 +1,5 @@
+# Our own CSVs are stored with LF endings, so a script that writes CRLF can't make untouched rows look edited.
+# Archived documents under sources/ are left byte-for-byte as fetched (CLAUDE.md rule 1), so only sources/_*.csv here.
+# Why: adr/20261123-2131-csv-line-endings-via-gitattributes.md
+analysis/**/*.csv text eol=lf
+sources/_*.csv text eol=lf
