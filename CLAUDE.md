@@ -12,12 +12,15 @@ money buys (results, the Student Investment Account, SB 141 accountability).
 Structure and rules are modeled on the PPS research archive (github.com/timaelliott/save-our-schools). That repo
 has no license, so nothing here copies its code; the tools in `tools/` were written for this repo.
 
+**The maintainer** is the repo's owner (GitHub `pietvanzoen`): they set scope and order, merge PRs and send the
+archive's emails and records requests.
+
 ## Start here
 - **Answering questions:** follow `.claude/plugins/fund-oregon-schools/skills/fos-research/SKILL.md`. Answer from what's in the repo.
 - **Adding sources:** follow `RUNBOOK.md`. In short: add a row to `sources/_queue.csv`; the `fetch-sources`
   GitHub Action downloads it (cloud sandboxes usually can't reach oregon.gov or the Legislature's site).
 - **Working a research issue end to end:** follow `.claude/plugins/fund-oregon-schools/skills/fos-work-issue/SKILL.md` (queue → fetch on the
-  issue branch → analysis → three independent reviewers → PR; Piet merges).
+  issue branch → analysis → three independent reviewers → PR; the maintainer merges).
 - **What to research and how it's organized:** `RESEARCH.md`: decisions, their baselines and options, dated
   positions and questions; the checks an issue passes before it's labelled `next`; staying neutral; how to write
   so the analysis gets used.
@@ -155,7 +158,7 @@ Least new code that fully does the job; adapted from the ponytail rules
   any change in output, and the fact-checker checks each method; a test would only pin today's numbers.
 - **Known limits** go in a comment: `shortcut: <the limit>, <when to upgrade>`.
 - **Never cut:** the rules above about `sources/` (keep originals, provenance), citation and quote checks,
-  secrets and access handling, accessibility of the site, or anything Piet asked for.
+  secrets and access handling, accessibility of the site, or anything the maintainer asked for.
 - **PR description ends with** one or two lines: what was skipped or left unchecked, and any risk to know about.
 
 ## Key files

@@ -83,4 +83,4 @@ Not checked / couldn't check: <list or none>
 
 Kinds: contradiction, superseded, open-question, labelling, separation, wrong-section, fairness, counter-argument,
 campaign, copyright, privacy, glossary. Severity: **error** = must change before merge; **warn** = should change; **note** = for
-Piet's judgement. If a category has nothing, say so in one line. Don't list things you checked and found fine.
+the maintainer's judgement. If a category has nothing, say so in one line. Don't list things you checked and found fine.

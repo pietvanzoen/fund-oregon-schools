@@ -6,7 +6,7 @@ Status: accepted, provisional (2026-11-21, PR #36 for the code rules)
 `tools/test_tools.py` is the whole test suite: one script of plain `assert`s, run by CI, that starts a local HTTP
 server and a throwaway copy of the repo for the fetcher tests. When the code rules were adopted (#36), the
 question was whether a testing library was needed; the answer was no, since `unittest` "would only add structure
-we don't need". On 2026-11-21 it was 223 lines with 42 asserts and ran in under a second. Piet expects a
+we don't need". On 2026-11-21 it was 223 lines with 42 asserts and ran in under a second. The maintainer expects a
 framework to be worth it at some point, so this records when to switch rather than a permanent rule.
 
 ## Decision

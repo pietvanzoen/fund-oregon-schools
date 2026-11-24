@@ -101,7 +101,7 @@ can be `none stated` when someone was asked and declined. Only stances on the re
 
 - `asked_by` describes the asker ("a parent volunteer", "the maintainer"), never a member of the public's name.
 - `status`: `open`, `answered` (with `answer`: a link to the section of `analysis/decisions.md` or a topic that
-  answers it) or `not planned` (closed by Piet, with what was found so far in `answer`).
+  answers it) or `not planned` (closed by the maintainer, with what was found so far in `answer`).
 - `issue`: the GitHub issue that does the work, if any. The CSV is the record; issues are work tickets.
 
 Readers can send questions by email; the maintainer adds them here.
@@ -119,7 +119,7 @@ There are two tracks.
    differ across that range. If every answer reads the same, it's background, not research.
 4. Nobody official already answers it plainly. If an agency does, archive that document and link to it.
 5. It's targeted: it answers one decision's question, or a few closely related ones, in one PR a reviewer can check
-   in one pass. Scope is set here, by Piet, not by runs: a run that finds an issue too broad proposes a narrower
+   in one pass. Scope is set here, by the maintainer, not by runs: a run that finds an issue too broad proposes a narrower
    scope on the issue and moves on; it doesn't split it.
 6. Every checklist item has a source that exists today. An item that waits for a future document (the Governor's
    budget, the next forecast, a session's adopted budget) goes in its own issue labelled `blocked`, with a
@@ -135,7 +135,7 @@ Housekeeping and tooling issues need neither, but shouldn't crowd out research n
 `enhancement` (research issues are labelled `research`) and ordered in their own Enhancements queue (label
 `enhancement-queue`), which the nightly run doesn't work.
 
-`next` means an issue is ready; the **Research queue** issue (label `queue`) sets the order. Piet adds `next`
+`next` means an issue is ready; the **Research queue** issue (label `queue`) sets the order. The maintainer adds `next`
 issues to it in the order they should run, and agents take the first free one.
 
 **Where questions come from**, in order of weight:

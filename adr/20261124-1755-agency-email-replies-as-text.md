@@ -7,7 +7,7 @@ Until now, emailed replies were left out as personal correspondence, and only th
 (the Kotek letter, Baker SD 5J's service agreement). ODE's Nov. 24, 2026 answer on the "Charter Schools Rate" (#47)
 is different: the email is the only source for what it says. Nothing published says which per-student figure
 ORS 338.155's minimums use or that ODE publishes no virtual charter total. The emailed copy also carries the
-maintainer's address and his quoted original message.
+maintainer's address and their quoted original message.
 
 ## Decision
 Archive a reply only when the analysis needs something it says and no other citable source says it. Attachments
