@@ -9,7 +9,7 @@ starts such an issue can only write a placeholder or move everything out again.
 
 ## Decision
 An issue whose checklist needs a document that isn't out yet doesn't get `next`. It's labelled `blocked`, with a
-`Waits for: <document>, expected <date>` line in its body; runs skip `blocked` issues, and Piet removes the label
+`Waits for: <document>, expected <date>` line in its body; runs skip `blocked` issues, and the maintainer removes the label
 once the document is archived (`RESEARCH.md` check 6; work-issue skill, steps 1 and 2).
 
 ## Options weighed

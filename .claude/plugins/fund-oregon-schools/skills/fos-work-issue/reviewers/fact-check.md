@@ -68,7 +68,7 @@ scrambled, or text below a `--- OCR of this page` line (machine OCR of a picture
   the source doesn't exist, audio you can't check, behind a login or script, fetch failed twice), and does it hold?
   "Not researched", "out of scope" or no reason at all is an **error**. Where you can, say what the run could
   have tried (a page, a search, a session-law lookup).
-- For each item handed to Piet: does its issue exist, and for an email, does it give the address with where it was
+- For each item handed to the maintainer: does its issue exist, and for an email, does it give the address with where it was
   found, a draft and a link?
 - List material that goes beyond the issue, if it's substantial.
 

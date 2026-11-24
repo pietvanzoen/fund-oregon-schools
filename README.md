@@ -46,12 +46,12 @@ python3 tools/check_citations.py
 Open issues carry one status label: `in progress` (being worked; agents add it when they start), `next` (vetted and
 ready) or `later` (backlog). The order work happens in is the pinned [Research queue](https://github.com/pietvanzoen/fund-oregon-schools/issues?q=is%3Aopen+label%3Aqueue)
 issue: the nightly run, and any session not given an issue number, takes the first free issue in its list, and does
-nothing if none is free. Piet reorders it by editing the list.
+nothing if none is free. The maintainer reorders it by editing the list.
 
 A type label says what kind of work an issue is: `research` (gathering sources or answering a question) or
 `enhancement` (site, tooling, style or process). Enhancements have their own ordered list, the
 [Enhancements queue](https://github.com/pietvanzoen/fund-oregon-schools/issues?q=is%3Aopen+label%3Aenhancement-queue)
-(label `enhancement-queue`). Nothing picks from it automatically: Piet starts each item himself. It must never carry
+(label `enhancement-queue`). Nothing picks from it automatically: the maintainer starts each item. It must never carry
 the `queue` label, which the research skill uses to find the Research queue. Bookmark these:
 - [In progress](https://github.com/pietvanzoen/fund-oregon-schools/issues?q=is%3Aopen+label%3A%22in+progress%22)
 - [Next](https://github.com/pietvanzoen/fund-oregon-schools/issues?q=is%3Aopen+label%3Anext+-label%3A%22in+progress%22)

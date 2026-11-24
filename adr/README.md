@@ -56,4 +56,5 @@ The concrete signal that should reopen this.
 | [2026-11-24](20261124-0555-topic-summaries-in-front-matter.md) | A topic's plain-language summary lives in its own file's front matter |
 | [2026-11-24](20261124-0837-site-built-with-eleventy.md) | The site is built with Eleventy, not MkDocs and Material |
 | [2026-11-24](20261124-1751-page-titles-and-descriptions-in-front-matter.md) | Each page's search title and description live in its file's front matter, or are built from its data |
+| [2026-11-24](20261124-1755-agency-email-replies-as-text.md) | Email replies are archived as reply text, and only when nothing else can be cited |
 | [2026-11-24](20261124-2210-whats-new-kinds.md) | What's new rows have a kind; site changes stay off the overview |

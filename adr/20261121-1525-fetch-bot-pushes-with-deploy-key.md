@@ -9,7 +9,7 @@ direct pushes to `main` (after a merge that changes the queue, and on the Monday
 
 ## Decision
 The Action checks out with an SSH deploy key that has write access (private half in the `FETCH_DEPLOY_KEY`
-secret). Deploy keys are on the ruleset's bypass list, next to Repository admin. The key was generated on Piet's
+secret). Deploy keys are on the ruleset's bypass list, next to Repository admin. The key was generated on the maintainer's
 own machine, so the private key never passed through Claude. Without the secret, checkout falls back to
 `GITHUB_TOKEN`: pushes to `claude/**` branches still work and pushes to `main` are refused.
 
