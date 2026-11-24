@@ -1,6 +1,6 @@
 # An agency's email answer to the archive's question is archived as its reply text
 
-Status: accepted (2026-11-24, PR #TBD)
+Status: accepted (2026-11-24, PR #170)
 
 ## Context
 Until now, emailed replies were left out as personal correspondence, and only their attachments were archived
