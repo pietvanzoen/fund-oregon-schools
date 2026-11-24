@@ -52,6 +52,13 @@ const positions = positionRows.filter((_, i) => !replaced.has(i + 2));
 const options = csv("analysis/options.csv");
 const glossaryAll = csv("analysis/glossary.csv");
 const glossary = glossaryAll.filter((r) => r.kind === "acronym" && r.tooltip);
+const termSlug = (t) => t.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const termTitle = (g) => (g.kind === "acronym" && g.full_name ? `${g.term}: ${g.full_name}` : g.term);
+// Every row, found in page text for "Terms on this page" and its term page's backlinks. An acronym matches in its
+// own case or as its full name (pages usually write "State School Fund"); words match in any case
+const wordRe = (w, flags) => new RegExp(`(^|[^\\w-])${w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w-])`, flags);
+const termRes = glossaryAll.map((g) => [g, g.kind === "acronym"
+  ? [wordRe(g.term, ""), g.full_name && wordRe(g.full_name, "i")].filter(Boolean) : [wordRe(g.term, "i")]]);
 
 // ------------------------------------------------------------- entities (everything that gets a card)
 
@@ -136,7 +143,7 @@ const PAGE_FILES = { "numbers.md": "/numbers/", "quotes.md": "/quotes/", "promis
   "updates.md": "/updates/", "questions.md": "/questions/", "who-decides.md": "/who-decides/", "glossary.md": "/glossary/" };
 
 class Page {
-  constructor(id, url, title) { Object.assign(this, { id, url, title, refs: new Set(), cards: {} }); }
+  constructor(id, url, title) { Object.assign(this, { id, url, title, refs: new Set(), terms: new Set(), cards: {} }); }
 
   card(id, data) { this.cards[id] = data; return id; }
 
@@ -193,6 +200,10 @@ class Page {
         continue;
       }
       if (skip) continue;
+      for (const [g, res] of termRes) {
+        const id = `glossary:${termSlug(g.term)}`;
+        if (id !== this.id && !this.terms.has(g) && res.some((re) => re.test(parts[i]))) { this.terms.add(g); this.refs.add(id); }
+      }
       for (const [id, e] of names) {
         if (seen.has(id)) continue;
         const word = e.name || e.term;
@@ -323,8 +334,6 @@ Object.assign(who, { seo: "Who decides Oregon's K-12 budget", description: "Gov.
 pages.push(who);
 
 // Glossary: one page per row of glossary.csv (search returns terms), and a list of them all
-const termSlug = (t) => t.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-const termTitle = (g) => (g.kind === "acronym" && g.full_name ? `${g.term}: ${g.full_name}` : g.term);
 const slugs = new Set();
 for (const g of glossaryAll) {
   const slug = termSlug(g.term);
@@ -594,6 +603,12 @@ for (const p of pages) {
   p.aside = "";
   if (p.id.startsWith("topic:") && heads.length > 1)
     p.aside += `<nav class="box side-box side-top" aria-labelledby="otp"><h2 class="side-title" id="otp">On this page</h2><ul class="side-list">${heads.map(([id, t]) => `<li><a href="#${id}">${esc(t)}</a></li>`).join("")}</ul></nav>`;
+  if (p.terms.size)
+    p.aside += `<section class="box side-box" aria-labelledby="gls"><h2 class="side-title" id="gls">Terms on this page</h2><ul class="side-list">${[...p.terms]
+      .sort((a, b) => a.term.localeCompare(b.term, "en", { sensitivity: "base" })).map((g) => {
+        const id = p.card(`glossary:${termSlug(g.term)}`, { kind: "Term", icon: "abbr", title: termTitle(g), url: `/glossary/${termSlug(g.term)}/`, lines: [g.tooltip || clip(plain(g.definition), 160)] });
+        return `<li><a href="/glossary/${termSlug(g.term)}/" data-card="${id}">${esc(termTitle(g))}</a></li>`;
+      }).join("")}</ul></section>`;
   if (p.backlinks.length)
     p.aside += `<section class="box side-box" aria-labelledby="rel"><h2 class="side-title" id="rel">Related pages</h2><ul class="side-list">${p.backlinks.sort((a, b) => a.title.localeCompare(b.title))
       .map((b) => `<li><a href="${b.url}" data-card="${b.id}">${esc(b.title)}</a></li>`).join("")}</ul></section>`;
