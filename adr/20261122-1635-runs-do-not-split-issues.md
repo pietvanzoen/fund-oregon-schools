@@ -9,10 +9,10 @@ The work-issue skill told runs to split an issue that looked too big for one PR 
 smaller PRs, as long as the issue's scope is targeted.
 
 ## Decision
-Runs never split an issue. Piet sets scope when he labels an issue `next` (a check in `RESEARCH.md`): one
+Runs never split an issue. The maintainer sets scope when they label an issue `next` (a check in `RESEARCH.md`): one
 decision's question, or a few closely related ones, in one PR a reviewer can check in one pass. A run that finds an
 issue too broad comments with a proposed narrower scope, adds `needs-judgement` and takes the next queue item.
-Moving items that need Piet or are blocked into their own issues stays: that's the definition of done.
+Moving items that need the maintainer or are blocked into their own issues stays: that's the definition of done.
 
 ## Options weighed
 - **Split by file count** (the old rule: more than one topic file or decision section, separate source batches,

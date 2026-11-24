@@ -1,6 +1,6 @@
 # Site design: direction C, "Kitchen table"
 
-Piet picked direction C (Nov 23, 2026) from three drawn options. The mockups (exports from the design canvas; open
+The maintainer picked direction C (Nov 23, 2026) from three drawn options. The mockups (exports from the design canvas; open
 them in a browser) and the screenshots are no longer in the tree: they're at [commit 2288eb1](https://github.com/pietvanzoen/fund-oregon-schools/tree/2288eb1/site-11ty/design), the last commit that has them
 (`direction-c/`, `chrome/`, `home/`, `search/`, `screenshots/`). This file is the spec; the mockups win where they show
 something this file doesn't.

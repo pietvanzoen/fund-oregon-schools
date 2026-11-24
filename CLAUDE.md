@@ -12,12 +12,15 @@ money buys (results, the Student Investment Account, SB 141 accountability).
 Structure and rules are modeled on the PPS research archive (github.com/timaelliott/save-our-schools). That repo
 has no license, so nothing here copies its code; the tools in `tools/` were written for this repo.
 
+**The maintainer** is the repo's owner (GitHub `pietvanzoen`): they set scope and order, merge PRs and send the
+archive's emails and records requests.
+
 ## Start here
 - **Answering questions:** follow `.claude/plugins/fund-oregon-schools/skills/fos-research/SKILL.md`. Answer from what's in the repo.
 - **Adding sources:** follow `RUNBOOK.md`. In short: add a row to `sources/_queue.csv`; the `fetch-sources`
   GitHub Action downloads it (cloud sandboxes usually can't reach oregon.gov or the Legislature's site).
 - **Working a research issue end to end:** follow `.claude/plugins/fund-oregon-schools/skills/fos-work-issue/SKILL.md` (queue → fetch on the
-  issue branch → analysis → three independent reviewers → PR; Piet merges).
+  issue branch → analysis → three independent reviewers → PR; the maintainer merges).
 - **What to research and how it's organized:** `RESEARCH.md`: decisions, their baselines and options, dated
   positions and questions; the checks an issue passes before it's labelled `next`; staying neutral; how to write
   so the analysis gets used.
@@ -52,7 +55,8 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
        `legislature/calendar/` the Legislature's session and interim calendars
      - `ode/` Oregon Department of Education, incl. `ode/qec/` Quality Education Commission reports and minutes,
        `ode/ssf/` State School Fund estimates and transparency reports, `ode/charter/` charter school lists and
-       guidance, `ode/legislation/` ODE summaries of enacted legislation, `ode/enrollment/` enrollment reports,
+       guidance, `ode/correspondence/` ODE staff's email answers to questions sent for the archive (reply text
+       and the question it answers, only when nothing else citable says it; RUNBOOK, "Email replies"), `ode/legislation/` ODE summaries of enacted legislation, `ode/enrollment/` enrollment reports,
        `ode/grants/` ODE grant allocation reports (for example High School Success), `ode/sia/` Student Investment
        Account legislative reports and progress-marker reports
      - `fiscal/oea/` Office of Economic Analysis forecasts; `fiscal/das/` Department of Administrative Services (budget instructions); `fiscal/lfo/` Legislative Fiscal Office; `fiscal/lro/` Legislative Revenue Office;
@@ -105,6 +109,9 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
    recheck it against the article (never from memory or another outlet), fix the summary or key facts, add a dated
    `note` saying what changed, and say so in the PR. Why: `adr/20261123-0249-correcting-news-records.md`.
 7. Describe members of the public, don't name them. Officials, legislators, staff and organizations can be named.
+   Emails and records requests sent for the archive, however they're drafted, may be published in it with their
+   reply (RUNBOOK, "Email replies"): write them to be read by the public, with no private details beyond what the
+   About page says about who runs the archive.
 8. Prefer structured outputs (CSV/JSONL) alongside readable Markdown. Every CSV row has a `source` column, except
    `analysis/derived/*.csv`, whose rows name their `inputs`, `analysis/updates.csv`, whose rows name their PR, and
    `analysis/questions.csv`, whose rows are questions, not facts. `analysis/positions.csv` is append-only: never
@@ -158,7 +165,7 @@ Least new code that fully does the job; adapted from the ponytail rules
   any change in output, and the fact-checker checks each method; a test would only pin today's numbers.
 - **Known limits** go in a comment: `shortcut: <the limit>, <when to upgrade>`.
 - **Never cut:** the rules above about `sources/` (keep originals, provenance), citation and quote checks,
-  secrets and access handling, accessibility of the site, or anything Piet asked for.
+  secrets and access handling, accessibility of the site, or anything the maintainer asked for.
 - **PR description ends with** one or two lines: what was skipped or left unchecked, and any risk to know about.
 
 ## Key files
