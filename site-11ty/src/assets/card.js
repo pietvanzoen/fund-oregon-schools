@@ -8,6 +8,7 @@
   const touch = { matches: matchMedia("(hover: none)").matches };
   document.addEventListener("pointerdown", (e) => { touch.matches = e.pointerType !== "mouse"; }, true);
   let owner = null;
+  const newTab = () => Object.assign(document.createElement("span"), { className: "vh", textContent: " (opens in a new tab)" });
   let timer = null;
 
   function show(el) {
@@ -16,19 +17,20 @@
     clearTimeout(timer);
     owner = el;
     $("card-kind").textContent = c.kind;
+    $("card-icon").setAttribute("href", "#i-" + (c.icon || "doc"));
     $("card-title").textContent = c.title;
     $("card-lines").replaceChildren(...c.lines.map((l) => Object.assign(document.createElement("p"), { textContent: l })));
     const open = $("card-open");
     open.hidden = !c.url;
     if (c.url) {
       open.href = !c.external && el.tagName === "A" ? el.href : c.url; // the link's own href, already right for this page
-      open.textContent = c.external ? "Open document ↗" : "Open page";
+      open.replaceChildren(c.external ? "Open document" : "Open page", ...(c.external ? [newTab()] : []));
       open.target = c.external ? "_blank" : "";
       open.rel = c.external ? "noopener" : "";
     }
     const also = $("card-also");
     also.hidden = !c.also;
-    if (c.also) { also.href = c.also.url; also.textContent = c.also.label + " ↗"; also.target = "_blank"; }
+    if (c.also) { also.href = c.also.url; also.replaceChildren(c.also.label, newTab()); also.target = "_blank"; also.rel = "noopener"; }
     $("card-close").hidden = !touch.matches;
     card.hidden = false;
     el.setAttribute("aria-describedby", "card");
