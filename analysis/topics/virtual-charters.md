@@ -48,20 +48,21 @@ or business office pages (see "Still to find").
   calculation (sources below). Because the extended count is the greater of the two years' counts, a rate on the
   current-year count can't be lower than the grant rate.
 - **Which rate the minimums use.** Despite its label, the Charter Schools Rate is not the base for the minimum
-  payments a sponsor must pass on under ORS 338.155 (80% of the grant per weighted student for K-8, 95% for high
-  school), the department says: that base is the grant per extended weighted student, the line titled "General
-  Purpose Grant per Extended ADMw" on each district's estimate. The statute alone doesn't settle this, because it
-  says "per ADMw" (per weighted student) without saying which year's count (sources below). The department has no
-  part in the contracts, which are made at the district level.
+  payments a sponsoring district must pass on under ORS 338.155 (80% of the grant per weighted student for K-8, 95%
+  for high school), the department says: that base is the grant per extended weighted student, the line titled
+  "General Purpose Grant per Extended ADMw" on each district's estimate. The statute alone doesn't settle this,
+  because it says "per ADMw" (per weighted student) without saying which year's count (sources below). The department
+  has no part in the contracts, which are made at the district level.
 - In our analysis, a contract that pays 80% and 95% of the Charter Schools Rate, as Baker's does, therefore pays at
-  least the statutory minimum rate per weighted student. For Baker the two rates are equal, so its 80% and 95% match the statutory
-  minimums. Where a sponsor's current-year count is below its extended count, terms like these would pay a higher rate: at North
-  Bend, for example, the Charter Schools Rate is $11,514 against a grant rate of $11,129. The archive has no North
-  Bend contract.
-- **No dollar total from the department.** The department says it doesn't publish the dollars attributable to
-  virtual schools, its term in the reply to a question about virtual charter students, because the money flows through the sponsoring districts, which pay the charters (sources
+  least the statutory minimum rate per weighted student. For Baker the two rates are equal, so its 80% and 95% match
+  the statutory minimums. Where a sponsor's current-year count is below its extended count, terms like these would pay
+  a higher rate: at North Bend, for example, the Charter Schools Rate is $11,514 against a grant rate of $11,129. The
+  archive has no North Bend contract.
+- **No dollar total from the department.** The department says it doesn't publish the dollars attributable to virtual
+  schools (its term), because the money flows through the sponsoring districts, which pay the charters (sources
   below). Our estimate below multiplies each charter's weighted count by its sponsor's grant per extended weighted
-  student. The department's reply names that rate as the base for the minimums but doesn't comment on the estimate.
+  student. That is the rate the department names as the base for the minimums; the estimate itself wasn't put to the
+  department.
 - **The money.** Our estimate is about $257 million of formula revenue in 2025-26
   [DER:virtual_charters/gpg_attributable_2025_26], roughly 3.3% of the school district share
   [DER:virtual_charters/gpg_attributable_share_2025_26]. The denominator is wider than the estimate: the district
