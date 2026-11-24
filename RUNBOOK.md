@@ -3,6 +3,8 @@
 Answering questions needs none of this; see `.claude/plugins/fund-oregon-schools/skills/fos-research/SKILL.md`.
 
 ## Add a document (most common)
+With Claude, `/fos-lead` does all of this for a lead and vets each document before merging. By hand:
+
 1. Find the official URL (prefer the agency's own PDF over a news write-up). Copy it from a link on the agency's
    page; don't build it from a file-name pattern (dated names change when a document is revised).
 2. Add a row to `sources/_queue.csv`: `url,path,title,date,kind,notes`. Pick `path` by the conventions in

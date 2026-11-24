@@ -216,7 +216,8 @@ stops doing one of those jobs should go.
   (`fetch_sources`, `ocr_pdfs`), check it (`check_citations`, `check_sources`, `test_tools`) and calculate it
   (`derive_<topic>`, one per topic).
 - **Skills** (`.claude/plugins/fund-oregon-schools/`): `fos-research` answers from the archive with citations;
-  `fos-work-issue` takes an issue to a reviewed PR, with an independent fact-check and fairness review.
+  `fos-work-issue` takes an issue to a reviewed PR, with an independent fact-check and fairness review;
+  `fos-lead` turns a lead into vetted, archived sources and drafted issues, with the maintainer.
 - **Volunteer setup** (`SETUP.md`, `setup/`): gets a volunteer's own Claude answering from the archive, read only.
 - **ADRs** (`adr/`): why the repo is built the way it is, and when to revisit.
 - **Runbook** (`RUNBOOK.md`): how to add and refresh sources.

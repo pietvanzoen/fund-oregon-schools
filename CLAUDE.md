@@ -19,6 +19,8 @@ archive's emails and records requests.
 - **Answering questions:** follow `.claude/plugins/fund-oregon-schools/skills/fos-research/SKILL.md`. Answer from what's in the repo.
 - **Adding sources:** follow `RUNBOOK.md`. In short: add a row to `sources/_queue.csv`; the `fetch-sources`
   GitHub Action downloads it (cloud sandboxes usually can't reach oregon.gov or the Legislature's site).
+- **A new lead** (a forwarded email, a link, a note): follow `.claude/plugins/fund-oregon-schools/skills/fos-lead/SKILL.md`
+  with the maintainer: archive and vet its documents on a sources PR that merges on its own, and draft issues for the rest.
 - **Working a research issue end to end:** follow `.claude/plugins/fund-oregon-schools/skills/fos-work-issue/SKILL.md` (queue → fetch on the
   issue branch → analysis → three independent reviewers → PR; the maintainer merges).
 - **What to research and how it's organized:** `RESEARCH.md`: decisions, their baselines and options, dated
