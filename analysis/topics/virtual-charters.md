@@ -86,8 +86,8 @@ copy came from the district in reply to a public records request (issue #46).
   Charter Schools Rate on its whole weighted count. Those are the general minimums in ORS 338.155. The agreement
   doesn't apply the lower special-education minimums in ORS 338.165, so, if its weighted counts include the
   special-education weight, the rate it set for those students is above the law's minimum. The district also
-  provides those students' special-education services itself, and the agreement calls them consistent with ORS
-  338.165, which lets the two sides negotiate a different split (next bullet and sources below). For Baker the
+  agreed to provide those students' special-education services itself, and the agreement calls them consistent with ORS
+  338.165, which lets the two sides negotiate a different split (sources below). For Baker the
   Charter Schools Rate equals its grant rate, $11,223 per weighted student
   [SRC:ode/ssf/2025-26_ssf-estimates_2026-05-01.pdf p.2]. So for this school the assumption behind the $36 million
   estimate above, that the contract pays the general minimums, holds.
@@ -96,7 +96,7 @@ copy came from the district in reply to a public records request (issue #46).
   [DER:virtual_charters/bwa_keep_share_2025_26] and passed on about $38.3 million
   [DER:virtual_charters/bwa_passed_through_2025_26]. It uses the academy's fall 2025 headcount split by grade in place
   of its weighted split, and the April 2026 weighted count, not the final count reconciled in May of the following
-  school year. Under the same agreement the district provided special-education services to the academy and to Baker
+  school year. Under the same agreement the district agreed to provide special-education services to the academy and to Baker
   Early College, another of its charters, estimated at $3,435,625 for 2025-26, plus state reporting, technology,
   printing, mail, internet and administrative support. The agreement doesn't split those costs between the two
   charters or say which money pays for them. It had the academy cover up to $56,100 of payroll for one new
