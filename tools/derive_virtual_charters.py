@@ -34,6 +34,13 @@ in_report = [r["institution_id"] for r in rows]
 col = lambda k: [float(r[k]) for r in rows]
 sponsors = {r["sponsor_district"]: r["sponsor_admw_separated"] for r in rows}
 
+BAKER_SA = "districts/baker-5j/2025-26_service-agreement_baker-charter-schools.pdf"
+# Baker Web Academy is paid 80% of the Charter School Rate for K-8 ADMw, 95% for 9-12 [SRC:districts/baker-5j/2025-26_service-agreement_baker-charter-schools.pdf p.1]
+BWA_PASS_K8, BWA_PASS_HS = 0.80, 0.95
+bwa = next(r for r in rows if r["institution_id"] == "4728")
+bwa_grant = float(bwa["admw_2025_26"]) * float(bwa["sponsor_charter_rate_2025_26"])
+bwa_pass = (k8("4728") * BWA_PASS_K8 + hs("4728") * BWA_PASS_HS) / (k8("4728") + hs("4728"))
+
 attributable = sum(float(r["ode_separate_extended_admw"]) * float(r["sponsor_gpg_per_ext_admw_2025_26"]) for r in rows)
 keep_split = sum(float(r["ode_separate_extended_admw"]) * float(r["sponsor_gpg_per_ext_admw_2025_26"])
                  * (k8(r["institution_id"]) * (1 - MIN_PASS_K8) + hs(r["institution_id"]) * (1 - MIN_PASS_HS))
@@ -117,6 +124,22 @@ out = [
      f"{DATA}; {GRADES}; legislature/ors/ors338.html",
      "Oregon Charter Academy's Oct 1 headcount split by grade stands in for its ADMw split; " + keep_common.replace(
          "; covers only the 20 charters in ODE's 2025-26 report", "")),
+    ("bwa_keep_under_agreement_2025_26", round(bwa_grant * (1 - bwa_pass) / 1e6, 1), "USD millions", "est",
+     "What the Baker School District 5J kept of the General Purpose Grant money for Baker Web Academy's students (at the Charter Schools Rate, equal to Baker's grant rate) under its 2025-26 service agreement",
+     "Baker Web Academy's admw_2025_26 x Baker's Charter Schools Rate x (K-8 share x 0.20 + 9-12 share x 0.05)",
+     f"{DATA}; {GRADES}; {BAKER_SA}",
+     "Baker Web Academy's Oct 1 headcount split by grade stands in for its ADMw split; uses the April 2026 "
+     "transparency report's 2025-26 ADMw, before the payment adjustments the agreement reconciles in May of the following school year; uses the "
+     "Charter Schools Rate on ODE's May 1, 2026 estimate, while each payment uses the latest estimate; excludes the "
+     "special-education services the district provides under the same agreement and its other pass-throughs"),
+    ("bwa_keep_share_2025_26", round(100 * (1 - bwa_pass), 1), "percent", "est",
+     "Share of the General Purpose Grant money for Baker Web Academy's students the Baker School District 5J kept under its 2025-26 service agreement",
+     "K-8 share x 0.20 + 9-12 share x 0.05", f"{GRADES}; {BAKER_SA}",
+     "Baker Web Academy's Oct 1 headcount split by grade stands in for its ADMw split"),
+    ("bwa_passed_through_2025_26", round(bwa_grant * bwa_pass / 1e6, 1), "USD millions", "est",
+     "What the Baker School District 5J passed through to Baker Web Academy under its 2025-26 service agreement",
+     "Baker Web Academy's admw_2025_26 x Baker's Charter Schools Rate x (K-8 share x 0.80 + 9-12 share x 0.95)",
+     f"{DATA}; {GRADES}; {BAKER_SA}", "same as bwa_keep_under_agreement_2025_26"),
     ("hss_listed_charters", len(in_hss), "charters", "derived",
      "Report charters with their own row in ODE's 2025-27 High School Success allocations", "count of rows with a 9-12 ADMw",
      HSADMW, ""),

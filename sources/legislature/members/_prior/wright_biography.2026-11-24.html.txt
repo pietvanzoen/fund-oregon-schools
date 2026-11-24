@@ -1,0 +1,484 @@
+Representative Boomer Wright
+
+Biography
+
+Sign In
+
+Skip to main content
+
+Oregon State Legislature
+
+Biography
+
+Navigation
+
+Search
+
+Senate
+
+Senate Information
+
+All Senators
+
+Senators by District
+
+Senators - Democrats
+
+Senators - Republicans
+
+Find Your Senator
+
+Find Your Senator and District
+
+Senate Leadership
+
+President Rob Wagner
+
+President Pro Tempore James I. Manning Jr.
+
+Democratic Leader Anthony Broadman
+
+Republican Leader Bruce Starr
+
+More
+
+Senate Offices
+
+Senate President
+
+Democratic Caucus
+
+Republican Caucus
+
+Secretary of the Senate
+
+More
+
+House
+
+House Information
+
+All Representatives
+
+Representatives by District
+
+Representatives - Democrats
+
+Representatives - Republicans
+
+Find Your Representative
+
+Find Your Representative and District
+
+House Leadership
+
+Speaker Julie Fahey
+
+Speaker Pro Tempore David Gomberg
+
+Democratic Leader Ben Bowman
+
+Republican Leader Lucetta Elmer
+
+More
+
+House Offices
+
+House Speaker
+
+Democratic Caucus
+
+Republican Caucus
+
+Chief Clerk of the House
+
+More
+
+Bills and Laws
+
+Bills
+
+Find Bills or Votes
+
+2026 Regular Session
+
+2025 Regular Session
+
+2025 Special Session
+
+Previous Sessions
+
+Governor Signed Bills
+
+Open Data
+
+Session Information
+
+Current Session Details
+
+Previous Session Details
+
+Session Publications
+
+Oregon Laws
+
+1999-2026 Sessions
+
+Oregon Revised Statutes
+
+2025 Oregon Revised Statutes
+
+ORS Annotations
+
+ORS Archives
+
+Oregon Rules of Civil Procedure
+
+Oregon Admin. Rules (OARs)
+
+Oregon Constitution
+
+Purchase Publications
+
+Committees
+
+Committee Meetings
+
+Today's Meetings
+
+Agendas Online
+
+Committee Participation
+
+How to Testify
+
+How to Submit Testimony
+
+How to Register or Submit Testimony
+
+e-Subscribe to Agendas
+
+Committee Assignments
+
+Senate Committees
+
+House Committees
+
+Joint Committees
+
+Listed by Senator
+
+Listed by Representative
+
+Listed by Committee
+
+Publications and Reports
+
+Background Briefs
+
+Required by Statute
+
+Summary of Legislation
+
+More
+
+Get Involved
+
+Engage
+
+Visitor Information
+
+How to Testify
+
+How to Register or Submit Testimony
+
+Find Bills or Votes
+
+e-Subscribe to Alerts
+
+Floor Plans
+
+Language Access Services
+
+Find Your Legislators
+
+Find Your Legislators and District
+
+Learn
+
+How Ideas Become Law
+
+The Legislative Body
+
+Legislative Process
+
+Legislative Glossary
+
+Types of Measures
+
+Legislators through Time
+
+More
+
+Audio and Video
+
+Legislative Meetings
+
+News Conferences
+
+Informational Videos
+
+Publications and Reports
+
+Press Releases
+
+Redistricting Information
+
+More
+
+Capitol Offices
+
+Legislative Agencies
+
+Legislative Administration
+
+Legislative Comm. on Indian Srvs.
+
+Legislative Counsel
+
+Legislative Equity
+
+Legislative Fiscal
+
+Legislative Policy and Research
+
+Legislative Revenue
+
+Organizations
+
+Capitol Access., Maint. & Safety (CAMS)
+
+Capitol Master Plan
+
+Visitor Information
+
+Find Your Legislators
+
+Find Your Legislators and District
+
+Executive Branch
+
+Governor's Office
+
+Secretary of State
+
+State Treasurer
+
+List of State Agencies
+
+Home Page
+
+BiographyCurrently selected
+
+News and Information
+
+District Map
+
+Bills
+
+Committees
+
+Content
+
+Edit
+
+Representative - Boomer Wright
+
+Republican - District 09 - Coos Bay
+
+Capitol Phone: 503-986-1409 | District Phone: 503-986-1409
+
+Capitol Address: 900 Court St. NE, H-372, Salem, Oregon 97301
+
+District Address: PO Box 39000 Florence, Oregon 97439
+
+Email: Rep.BoomerWright@oregonlegislature.gov | Website: https://www.oregonlegislature.gov/wright​​
+
+Follow
+
+javascript: SP.SOD.executeFunc('followingcommon.js', 'FollowDoc', function() { FollowDoc('{ListId}', {ItemId}); });
+
+0x0
+
+0x0
+
+ContentType
+
+0x01
+
+1100
+
+Compliance Details
+
+javascript:if (typeof CalloutManager !== 'undefined' && Boolean(CalloutManager) && Boolean(CalloutManager.closeAll)) CalloutManager.closeAll(); commonShowModalDialog('{SiteUrl}'+
+'/_layouts/15/itemexpiration.aspx'
++'?ID={ItemId}&List={ListId}', 'center:1;dialogHeight:500px;dialogWidth:500px;resizable:yes;status:no;location:no;menubar:no;help:no', function GotoPageAfterClose(pageid){if(pageid == 'hold') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/hold.aspx'
++'?ID={ItemId}&List={ListId}'); return false;} if(pageid == 'audit') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/Reporting.aspx'
++'?Category=Auditing&backtype=item&ID={ItemId}&List={ListId}'); return false;} if(pageid == 'config') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/expirationconfig.aspx'
++'?ID={ItemId}&List={ListId}'); return false;} if(pageid == 'tag') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/Hold.aspx'
++'?Tag=true&ID={ItemId}&List={ListId}'); return false;}}, null);
+
+0x0
+
+0x1
+
+ContentType
+
+0x01
+
+898
+
+Document Set Version History
+
+/_layouts/15/images/versions.gif?rev=44
+
+javascript:SP.UI.ModalDialog.ShowPopupDialog('{SiteUrl}'+
+'/_layouts/15/DocSetVersions.aspx'
++ '?List={ListId}&ID={ItemId}')
+
+0x0
+
+0x0
+
+ContentType
+
+0x0120D520
+
+330
+
+Send To other location
+
+/_layouts/15/images/sendOtherLoc.gif?rev=44
+
+javascript:GoToPage('{SiteUrl}' +
+'/_layouts/15/docsetsend.aspx'
++ '?List={ListId}&ID={ItemId}')
+
+0x0
+
+0x0
+
+ContentType
+
+0x0120D520
+
+350
+
+Biography
+
+Edit
+
+​Representative Boomer (Duane) Wright currently lives in Reedsport, Oregon with his wife Susan, dog named Wynston and cat named Marvin. Boomer and Susan have been married for 27 years.
+
+Representative Wright was born the only child of Hollie and Loretta Wright. Boomer grew up in Lorane, Oregon after moving from California at 10 years of age. After graduati​ng from Crow High School, Boomer received his Bachelor's Degree in Education from Oregon College of Education in 1972. While in college, he met his first wife Andrea, who pasted away in 1991. He and Andrea moved to Florence, Oregon in 1972, when starting his first teaching job at Siuslaw Elementary. He and Andrea had two children, Kelli and Byron. While the children were young, Boomer finished his Master's Degree in Education and Certification as an Administrator in 1982 from the University of Oregon. Boomer was Vice Principal for Siuslaw Middle School for the school year 1981-1982; Principal for Rhododendron Elementary 1982-1988; Principal for Siuslaw Middle School 1988-1994; Principal of Siuslaw Primary 1994-1999; Superintendent of Mapleton School District from 1999-2002.
+
+Representative Wright retired from education in 2002 and went to work for Selco Credit Union as the liaison for the Florence community for 3 years. Boomer then accepted a job as General Manager of Sea Lion Caves for 5 years. Since his retirement from the Caves, he has substitute taught at various local high schools of House District 9. He enjoys being with the students and learning as much from them as they learn from him.
+
+Boomer enjoys many blessings. He enjoys being a parent to his two children and Susan's two children, Eric and Dallas. Together, Boomer and Susan enjoy seven grandchildren. He looks forward to continue to serve the people of House District 9.
+
+Follow
+
+javascript: SP.SOD.executeFunc('followingcommon.js', 'FollowDoc', function() { FollowDoc('{ListId}', {ItemId}); });
+
+0x0
+
+0x0
+
+ContentType
+
+0x01
+
+1100
+
+Compliance Details
+
+javascript:if (typeof CalloutManager !== 'undefined' && Boolean(CalloutManager) && Boolean(CalloutManager.closeAll)) CalloutManager.closeAll(); commonShowModalDialog('{SiteUrl}'+
+'/_layouts/15/itemexpiration.aspx'
++'?ID={ItemId}&List={ListId}', 'center:1;dialogHeight:500px;dialogWidth:500px;resizable:yes;status:no;location:no;menubar:no;help:no', function GotoPageAfterClose(pageid){if(pageid == 'hold') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/hold.aspx'
++'?ID={ItemId}&List={ListId}'); return false;} if(pageid == 'audit') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/Reporting.aspx'
++'?Category=Auditing&backtype=item&ID={ItemId}&List={ListId}'); return false;} if(pageid == 'config') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/expirationconfig.aspx'
++'?ID={ItemId}&List={ListId}'); return false;} if(pageid == 'tag') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/Hold.aspx'
++'?Tag=true&ID={ItemId}&List={ListId}'); return false;}}, null);
+
+0x0
+
+0x1
+
+ContentType
+
+0x01
+
+898
+
+Document Set Version History
+
+/_layouts/15/images/versions.gif?rev=44
+
+javascript:SP.UI.ModalDialog.ShowPopupDialog('{SiteUrl}'+
+'/_layouts/15/DocSetVersions.aspx'
++ '?List={ListId}&ID={ItemId}')
+
+0x0
+
+0x0
+
+ContentType
+
+0x0120D520
+
+330
+
+Send To other location
+
+/_layouts/15/images/sendOtherLoc.gif?rev=44
+
+javascript:GoToPage('{SiteUrl}' +
+'/_layouts/15/docsetsend.aspx'
++ '?List={ListId}&ID={ItemId}')
+
+0x0
+
+0x0
+
+ContentType
+
+0x0120D520
+
+350
+
+<div class="UserGeneric">The current browser does not support Web pages that contain the IFRAME element. To use this Web Part, you must use a browser that supports this element, such as Internet Explorer 7.0 or later.</div>
+
+x
+
+Oregon State Legislature
+
+You are now leaving the Oregon State Legislative Website.
+
+The Oregon State Legislature is not responsible for content, nor necessarily supports the site you are about to access.
+
+Thank you for visiting
+
+OregonLegislature.gov
+
+Cancel
+Continue
+
+<%@ Register Tagprefix="SharePoint" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>

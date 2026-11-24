@@ -33,15 +33,17 @@ are this site's own.
 
 </details>
 
-Analysis: the choice of baseline matters. Whether the current service level keeps all of today's services is an open
-question (see `questions.csv#csl-meaning`); the commission counts about $1.2 billion of other state money on top of it
-for its status quo estimate [SRC:ode/qec/2026_qem_report.pdf p.103].
+Analysis: the choice of baseline matters. The commission counts about $1.2 billion of other state money on top of
+the current service level for its status quo estimate [SRC:ode/qec/2026_qem_report.pdf p.103]. How the model arrives
+at that money is set out under the State School Fund decision below. Whether the current service level keeps today's
+services is still open (see `questions.csv#csl-meaning`).
 
 ## The Governor's recommended budget for 2027-29 {#grb-2027-29}
 
 - State law sets Dec. 1 of even-numbered years for a governor continuing in office to submit a budget
   [SRC:legislature/ors/ors291.html]; Gov. Tina Kotek was reelected in November [NEWS:NEWS-20261106-occ-1].
-- The budget is built on the Nov. 18 revenue forecast [SRC:fiscal/oea/2026-12_forecast.pdf p.33]. That forecast
+- The budget will be based on the December 2026 revenue forecast, released Nov. 18, 2026
+  [SRC:fiscal/oea/2026-12_forecast.pdf p.1] [SRC:fiscal/oea/2026-12_forecast.pdf p.33]. That forecast
   raised its projection of net General Fund revenue for 2027-29 by $233.5 million over the previous forecast; with an
   $11.2 million larger beginning balance, projected available resources for 2027-29 rose $244.6 million
   [SRC:fiscal/oea/2026-12_forecast.pdf p.63]. That beginning balance is the current budget's projected ending balance
@@ -86,6 +88,23 @@ document from the Governor with the $12.57 billion figure.
 - Analysis: the current service level is the State School Fund alone, while both Quality Education Model figures count
   other state money too, so the like-for-like gap between the two model scenarios is the status quo to the full
   model. See `topics/quality-education-model.md`.
+- Analysis: by the Quality Education Model's statewide measure, a State School Fund at the current service level keeps
+  the status quo (today's services) only if the state's grant programs outside the fund continue at about their
+  2025-27 amounts and the model's status quo already prices what they pay for. The archive can't settle that second
+  point yet; a question to Department of Education staff is drafted (#146). If it fails, the $1.2 billion is left to other
+  state money or to reduced services, and the difference between the two readings is roughly the size of the grants.
+  The archive has no district-level estimate, and districts losing federal money can still have less to spend. See
+  `topics/quality-education-model.md`.
+- The model's status quo ($13.78 billion) is the current service level plus $1.22 billion of state money from outside
+  the State School Fund; the table that derives it lists no state grant program among the revenue it subtracts
+  [SRC:ode/qec/2026_qem_report.pdf p.103]. The Joint Committee on Public Education Appropriation counted $2.2 billion
+  of state grants for core K-12 programs in 2025-27, led by $1.1 billion of Student Investment Account grants
+  [SRC:legislature/olis/2025I1/310959_jpea-adequacy-report.pdf p.29].
+- The current service level updates the last budget for pay, benefits, pension rates, inflation and enrollment
+  [SRC:ode/qec/2026_qem_report.pdf p.111] [SRC:legislature/olis/2025R1/307212_sb5516-ssf-work-session.pdf p.2], and
+  leaves out declining federal money and falling earnings on districts' pension side accounts
+  [SRC:ode/qec/2026_qem_report.pdf p.100]. Whether the grant programs' own 2027-29 budgets carry them forward isn't
+  archived yet (#136).
 
 <!-- site: funding chart -->
 

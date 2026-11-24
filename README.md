@@ -25,6 +25,11 @@ material stays in that archive and is cited from here as `[PPSARCH:...]`.
   questions, evidence) is in [`RESEARCH.md`](RESEARCH.md).
 - Everything else supports the research: see "How the repo supports the research" at the end of `RESEARCH.md`.
 
+## License
+Our analysis and the website text are [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): reuse them for
+anything, with credit. The code is MIT ([`LICENSE`](LICENSE)). Files in `sources/` belong to their publishers and
+aren't covered by either. Details: [`LICENSE-content.md`](LICENSE-content.md).
+
 ## Quick use
 ```bash
 python3 tools/search.py "State School Fund"
@@ -37,8 +42,16 @@ python3 tools/check_citations.py
 Open issues carry one status label: `in progress` (being worked; agents add it when they start), `next` (vetted and
 ready) or `later` (backlog). The order work happens in is the pinned [Research queue](https://github.com/pietvanzoen/fund-oregon-schools/issues?q=is%3Aopen+label%3Aqueue)
 issue: the nightly run, and any session not given an issue number, takes the first free issue in its list, and does
-nothing if none is free. Piet reorders it by editing the list. Bookmark these:
+nothing if none is free. Piet reorders it by editing the list. Runs merge their own PRs only when the merge gate in `fos-work-issue` passes and the queue
+issue carries the `auto-merge` label, which only Piet adds; without it, each PR records what the gate would have done.
+
+A type label says what kind of work an issue is: `research` (gathering sources or answering a question) or
+`enhancement` (site, tooling, style or process). Enhancements have their own ordered list, the
+[Enhancements queue](https://github.com/pietvanzoen/fund-oregon-schools/issues?q=is%3Aopen+label%3Aenhancement-queue)
+(label `enhancement-queue`). Nothing picks from it automatically: Piet starts each item himself. It must never carry
+the `queue` label, which the research skill uses to find the Research queue. Bookmark these:
 - [In progress](https://github.com/pietvanzoen/fund-oregon-schools/issues?q=is%3Aopen+label%3A%22in+progress%22)
 - [Next](https://github.com/pietvanzoen/fund-oregon-schools/issues?q=is%3Aopen+label%3Anext+-label%3A%22in+progress%22)
 - [Later](https://github.com/pietvanzoen/fund-oregon-schools/issues?q=is%3Aopen+label%3Alater+-label%3A%22in+progress%22)
+- [Research](https://github.com/pietvanzoen/fund-oregon-schools/issues?q=is%3Aopen+label%3Aresearch) and [Enhancements](https://github.com/pietvanzoen/fund-oregon-schools/issues?q=is%3Aopen+label%3Aenhancement)
 - [Not triaged](https://github.com/pietvanzoen/fund-oregon-schools/issues?q=is%3Aopen+-label%3Anext+-label%3Alater+-label%3A%22in+progress%22)

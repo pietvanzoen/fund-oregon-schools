@@ -17,7 +17,8 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
 - **Adding sources:** follow `RUNBOOK.md`. In short: add a row to `sources/_queue.csv`; the `fetch-sources`
   GitHub Action downloads it (cloud sandboxes usually can't reach oregon.gov or the Legislature's site).
 - **Working a research issue end to end:** follow `.claude/plugins/fund-oregon-schools/skills/fos-work-issue/SKILL.md` (queue → fetch on the
-  issue branch → analysis → three independent reviewers → PR; Piet merges).
+  issue branch → analysis → three independent reviewers → PR; Piet merges, or the run does if its merge gate
+  passes and auto-merge is on).
 - **What to research and how it's organized:** `RESEARCH.md`: decisions, their baselines and options, dated
   positions and questions; the checks an issue passes before it's labelled `next`; staying neutral; how to write
   so the analysis gets used.
@@ -53,7 +54,7 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
        guidance, `ode/legislation/` ODE summaries of enacted legislation, `ode/enrollment/` enrollment reports,
        `ode/grants/` ODE grant allocation reports (for example High School Success), `ode/sia/` Student Investment
        Account legislative reports and progress-marker reports
-     - `fiscal/oea/` Office of Economic Analysis forecasts; `fiscal/lfo/` Legislative Fiscal Office; `fiscal/lro/` Legislative Revenue Office;
+     - `fiscal/oea/` Office of Economic Analysis forecasts; `fiscal/das/` Department of Administrative Services (budget instructions); `fiscal/lfo/` Legislative Fiscal Office; `fiscal/lro/` Legislative Revenue Office;
        `fiscal/dor/` Department of Revenue; `fiscal/sos/` Secretary of State Audits Division reports
      - `reference/` reference works (e.g. Oregon Encyclopedia) and other agencies' explainers; prefer a primary
        source when one exists
@@ -151,6 +152,8 @@ Least new code that fully does the job; adapted from the ponytail rules
 - `sources/_queue.csv` — what to fetch (url, path, title, date, kind, notes)
 - `sources/_manifest.jsonl` — what was fetched (path, url, final_url, fetched_at, sha256, bytes, content_type)
 - `sources/news/index.jsonl` — news records
+- `.gitattributes` — our CSVs (`analysis/**/*.csv`, `sources/_*.csv`) are stored with LF endings; archived files
+  aren't touched (`adr/20261123-2131-csv-line-endings-via-gitattributes.md`)
 - `analysis/people/<slug>.md`, `analysis/people/quotes_all.jsonl` — what officials said, dated and cited
 - `analysis/decisions.csv`, `options.csv`, `positions.csv`, `questions.csv` — the decision model (`RESEARCH.md`);
   `analysis/decisions.md` — where each decision stands, with short cited answers

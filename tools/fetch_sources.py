@@ -159,7 +159,7 @@ def report_failures(failures):
 def log_version(path, prior, old_sha, new_sha, now):
     new = not os.path.exists(VERSIONS_LOG)
     with open(VERSIONS_LOG, "a", newline="", encoding="utf-8") as f:
-        w = csv.writer(f)
+        w = csv.writer(f, lineterminator="\n")
         if new:
             w.writerow(["path", "prior_copy", "old_sha256", "new_sha256", "detected_at"])
         w.writerow([path, prior, old_sha, new_sha, now])

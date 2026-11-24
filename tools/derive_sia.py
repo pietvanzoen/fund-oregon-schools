@@ -28,6 +28,6 @@ out = [
      "(health_safety + well_rounded + reduced_class_size) / spent, 2024-25", DATA, ""),
 ]
 with open(OUT, "w", newline="", encoding="utf-8") as f:
-    w = csv.writer(f)
+    w = csv.writer(f, lineterminator="\n")
     w.writerow(["id", "value", "unit", "kind", "label", "method", "inputs", "assumptions"])
     w.writerows(out)
