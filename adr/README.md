@@ -48,8 +48,6 @@ The concrete signal that should reopen this.
 | [2026-11-22](20261122-1718-correcting-append-only-rows.md) | A wrong append-only row is corrected by a new row that names the line it replaces |
 | [2026-11-22](20261122-2302-analysis-first-in-topic-files.md) | Topic files put the Analysis section first |
 | [2026-11-22](20261123-0249-correcting-news-records.md) | A wrong news record is corrected in place, with a dated note |
-| [2026-11-23](20261123-0557-questions-listed-once.md) | Questions are listed in full once, on the Questions page; the Decisions page links to them |
-| [2026-11-23](20261123-0625-merge-gate.md) | A run merges its own PR only through a written gate, which starts in shadow mode |
 | [2026-11-23](20261123-1927-vale-review-comments.md) | Vale findings are review comments on the PR, not a separate check run |
 | [2026-11-23](20261123-2131-csv-line-endings-via-gitattributes.md) | Our CSVs are stored with LF endings through `.gitattributes`, not a linter |
 | [2026-11-23](20261123-2132-blocked-label-for-future-documents.md) | Research waiting for a future document is labelled `blocked`, not started |
