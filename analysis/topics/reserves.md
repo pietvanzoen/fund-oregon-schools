@@ -6,7 +6,7 @@ summary: >
   emergency declared by the governor. Portland Public Schools asked for $500 million of it to lower districts'
   payments into the state's public employee pension system, and a legislator has floated one-time pension relief
   for districts under financial strain, with no amount or bill yet. Gov. Tina Kotek said tapping one-time
-  reserves for the district's budget problems would go against funding schools by enrollment.
+  reserves for the district's budget problems would run against the enrollment-driven way the state invests.
 ---
 # Reserves: Education Stability Fund
 
@@ -30,7 +30,8 @@ while longer-term reform is developed (`decisions.md#esf-draw-2027-29`).
 ## What the sources say
 
 - The Education Stability Fund, one of the state's two general reserve accounts, is projected at $1.271 billion at
-  the end of 2025-27 [SRC:fiscal/oea/2026-12_forecast.pdf p.41]. Withdrawal takes a
+  the end of 2025-27 in the December 2026 revenue forecast, released Nov. 18, 2026
+  [SRC:fiscal/oea/2026-12_forecast.pdf p.1] [SRC:fiscal/oea/2026-12_forecast.pdf p.41]. Withdrawal takes a
   three-fifths vote in each chamber plus either an economic trigger or a governor's emergency declaration
   [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1] (news coverage: [NEWS:NEWS-20261102-opb-1]).
 - Portland Public Schools asked for $500 million of the Education Stability Fund to buy down Public Employees Retirement System (PERS) rates statewide [NEWS:NEWS-20261102-opb-1]. The
