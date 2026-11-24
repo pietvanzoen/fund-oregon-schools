@@ -3,9 +3,9 @@
 Status: accepted (2026-11-23)
 
 ## Context
-The maintainers are public school parents who use this archive to build arguments for better-funded schools. The
-neutrality rules in `RESEARCH.md` didn't say how that fits: a session could read them as ruling out questions that
-serve a funding argument, or let the goal slant the answers. Claims against more school funding ("spending rose,
+The maintainers are public school parents who also use this archive to build arguments elsewhere. The neutrality
+rules in `RESEARCH.md` didn't say how that fits: a session could read them as ruling out questions that serve an
+argument, or let the goal slant the answers. Claims against more school funding ("spending rose,
 results fell") reach legislators whether or not we check them.
 
 ## Decision
