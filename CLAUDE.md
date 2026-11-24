@@ -91,7 +91,8 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
      script copies from a source carries its citation in a comment. `analysis/data/*.csv` holds only values
      copied from sources.
    - Outside `topics/`, our figures go in their own sentences, marked "our sum" or "our estimate" with
-     the DER tag; inference elsewhere starts its own paragraph or list item with "Analysis:".
+     the DER tag; inference elsewhere starts its own paragraph or list item with "Analysis:". The site shows that
+     marker, and a topic's `## Analysis` section, as "Our analysis"; files keep "Analysis:" (#167).
 5. Advocacy documents (`orgs/`, district press materials) are labeled as that group's claims or estimates.
 6. News is copyrighted: store metadata, a summary in your own words, and at most short quotes (< 25 words each)
    with attribution. Never full article text. (States Newsroom / Oregon Capital Chronicle allows republishing,
@@ -122,8 +123,8 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
     reported as "verify after fetch", not guessed. The session verifies each finding against the source before fixing
     it, and the PR description says what the fact-check found and what changed.
 11. **Glossary.** When analysis uses an abbreviation or term of art that isn't in `analysis/glossary.csv`, add a
-    row (cited, like everything else). Acronyms get a short plain-text `tooltip`, shown on hover across the whole
-    site; `kind: term` rows appear only on the Glossary page. Don't use one abbreviation for two things: OEA is the
+    row (cited, like everything else). Acronyms get a short plain-text `tooltip`, shown in a preview card on the
+    acronym's first use on each page; every row gets its own page under Glossary. Don't use one abbreviation for two things: OEA is the
     Office of Economic Analysis, so write out "Oregon Education Association".
 
 ## Writing code (tools/, workflows, site build)
@@ -131,7 +132,7 @@ Least new code that fully does the job; adapted from the ponytail rules
 (github.com/DietrichGebert/ponytail). Lazy about the solution, never about the scope.
 
 - **Before writing:** read the affected code and list everywhere the change must reach: callers, tests, the
-  workflows, `site_hook.py` and `mkdocs.yml`, both skills and the reviewer prompts, CLAUDE.md, README, RUNBOOK,
+  workflows, the site build (`site-11ty/`, mainly `src/_data/archive.js`), both skills and the reviewer prompts, CLAUDE.md, README, RUNBOOK,
   and any record in `adr/` that the change touches or reverses.
 - **Pick the first option that fully works, in this order:** skip it (say so in one line); reuse what's in
   `tools/` (`common.py`, `check_citations.py`, the existing patterns); the Python standard library; a one-liner a
@@ -144,8 +145,8 @@ Least new code that fully does the job; adapted from the ponytail rules
 - **Bugs:** grep all callers first, then fix the cause in shared code.
 - **Keep** validation and error handling when moving or merging code.
 - **Tests:** anything with branches, loops, parsing, money figures or a new script gets an assert-based case in
-  `tools/test_tools.py` (plain `assert`, run by CI). Trivial changes don't. Site code (`tools/site_hook.py`,
-  `mkdocs.yml`, `overrides/`) gets no tests: CI's `mkdocs build --strict` covers it. Derive scripts
+  `tools/test_tools.py` (plain `assert`, run by CI). Trivial changes don't. Site code (`site-11ty/`) gets no tests: CI's
+  site build (`cd site-11ty && npm ci && npx eleventy`) covers it, failing on a broken internal link or an unknown `[[id]]`. Derive scripts
   (`tools/derive_*.py`) get no tests either: they're plain arithmetic on archived data, CI reruns them and fails on
   any change in output, and the fact-checker checks each method; a test would only pin today's numbers.
 - **Known limits** go in a comment: `shortcut: <the limit>, <when to upgrade>`.
@@ -178,4 +179,7 @@ Least new code that fully does the job; adapted from the ponytail rules
 - `sources/**/<media file>.txt` — machine transcript of an .mp4/.m4a/.mp3/.wav/.webm, by the `transcribe` Action
 - Tools: `tools/search.py`, `tools/doc.py`, `tools/linkify.py`, `tools/check_citations.py` (`--measures` for the
   review measures), `tools/check_sources.py`, `tools/fetch_sources.py`, `tools/ocr_pdfs.py`, `tools/derive_<topic>.py`,
-  `tools/site_hook.py`, `tools/test_tools.py`
+  `tools/test_tools.py`
+- Site: `site-11ty/` builds oregonedtrail.org with Eleventy (`cd site-11ty && npm ci && npx eleventy --serve`);
+  every page but About (`website/about.md`) is generated from `analysis/` and `sources/` in `src/_data/archive.js`.
+  Why Eleventy: `adr/20261124-0837-site-built-with-eleventy.md`

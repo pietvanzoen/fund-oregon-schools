@@ -29,8 +29,8 @@ check facts and build their own materials.
 ## How to use this research
 
 - **Repeating a fact:** click its citation and quote the original document, not this site.
-- **Our own work:** figures marked <span class="cite cite-der">🧮 our sum</span> or
-  <span class="cite cite-der">🧮 our estimate</span>, and anything marked **Analysis**, are this archive's reading.
+- **Our own work:** figures marked <span class="cite cite-der">our sum</span> or
+  <span class="cite cite-der">our estimate</span>, and anything headed or starting **Our analysis**, are this archive's reading.
   Label them that way if you reuse them.
 - **Reusing our work:** the analysis and site text are under
   [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): copy or adapt them for any purpose, with credit to
@@ -60,12 +60,13 @@ Contact: [hello@oregonedtrail.org](mailto:hello@oregonedtrail.org)
 - **Primary documents** (budgets, reports, bills, meeting materials) are saved in the archive. See [Sources](sources.md).
 - **The analysis** (decisions, topics, quotes, promises, figures, timeline) cites those documents claim by claim. Every page on
   this site is built automatically from those files, so it always matches the archive.
-- **Citation links:** <span class="cite cite-src">📄 Title, p.N</span> opens a state or legislative document at the cited page.
-  <span class="cite cite-news">📰 Outlet</span> opens a news story. <span class="cite cite-pps">🏫 PPS archive</span>
+- **Citation links:** <span class="cite cite-src">Title, p.N</span> opens a state or legislative document at the cited page.
+  <span class="cite cite-news">Outlet</span> opens a news story. <span class="cite cite-pps">PPS archive</span>
   opens the Portland Public Schools research archive.
-- <span class="cite cite-der">🧮 our sum</span> and <span class="cite cite-der">🧮 our estimate</span> mark figures
+- <span class="cite cite-der">our sum</span> and <span class="cite cite-der">our estimate</span> mark figures
   this archive calculated itself; the link shows the method and inputs. They are not official numbers.
-- **Analysis** boxes, tags and sections mark interpretation, kept apart from what the documents say.
+- Yellow boxes and highlights headed or starting **Our analysis** mark interpretation, kept apart from what the
+  documents say.
 - Quotes are verbatim. Members of the public are described, not named.
 
 ## How research is added and checked
