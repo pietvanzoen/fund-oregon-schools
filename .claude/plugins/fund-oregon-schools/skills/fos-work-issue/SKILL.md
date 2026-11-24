@@ -150,6 +150,11 @@ description:
   while the maintainer's desktop app is open, and asks for approval on each new site). If neither works, don't queue the
   row: list the document in the PR as "needs a browser" and move on. Never wait on the browser in an
   unattended run.
+- **Look for the other side too.** For each item, also search for an official source that would support a
+  different answer from the one the issue's framing points to (the range of answers it expects, `RESEARCH.md`
+  check 3), such as an agency's own case against a cost estimate or a fiscal office's view that a gap is smaller.
+  Queue it if it exists. If none turns up, say in the PR where you looked. A search that only finds support for one
+  answer leaves the fairness reviewer nothing to check against.
 - **Check the URL before queueing** when you can (web fetch or the browser): a wrong URL costs a whole fetch
   round trip.
 - **Pages that load their content by script** (e.g. OLIS measure history): the fetcher saves only the HTML as
