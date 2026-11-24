@@ -603,15 +603,17 @@ for (const p of pages) {
   p.aside = "";
   if (p.id.startsWith("topic:") && heads.length > 1)
     p.aside += `<nav class="box side-box side-top" aria-labelledby="otp"><h2 class="side-title" id="otp">On this page</h2><ul class="side-list">${heads.map(([id, t]) => `<li><a href="#${id}">${esc(t)}</a></li>`).join("")}</ul></nav>`;
-  if (p.terms.size)
-    p.aside += `<section class="box side-box" aria-labelledby="gls"><h2 class="side-title" id="gls">Terms on this page</h2><ul class="side-list">${[...p.terms]
-      .sort((a, b) => a.term.localeCompare(b.term, "en", { sensitivity: "base" })).map((g) => {
-        const id = p.card(`glossary:${termSlug(g.term)}`, { kind: "Term", icon: "abbr", title: termTitle(g), url: `/glossary/${termSlug(g.term)}/`, lines: [g.tooltip || clip(plain(g.definition), 160)] });
-        return `<li><a href="/glossary/${termSlug(g.term)}/" data-card="${id}">${esc(termTitle(g))}</a></li>`;
-      }).join("")}</ul></section>`;
   if (p.backlinks.length)
     p.aside += `<section class="box side-box" aria-labelledby="rel"><h2 class="side-title" id="rel">Related pages</h2><ul class="side-list">${p.backlinks.sort((a, b) => a.title.localeCompare(b.title))
       .map((b) => `<li><a href="${b.url}" data-card="${b.id}">${esc(b.title)}</a></li>`).join("")}</ul></section>`;
+  if (p.terms.size) { // after Related pages; past 10, the rest behind "See N more"
+    const li = [...p.terms].sort((a, b) => a.term.localeCompare(b.term, "en", { sensitivity: "base" })).map((g) => {
+      const id = p.card(`glossary:${termSlug(g.term)}`, { kind: "Term", icon: "abbr", title: termTitle(g), url: `/glossary/${termSlug(g.term)}/`, lines: [g.tooltip || clip(plain(g.definition), 160)] });
+      return `<li><a href="/glossary/${termSlug(g.term)}/" data-card="${id}">${esc(termTitle(g))}</a></li>`;
+    });
+    p.aside += `<section class="box side-box" aria-labelledby="gls"><h2 class="side-title" id="gls">Terms on this page</h2><ul class="side-list">${li.slice(0, 10).join("")}</ul>`
+      + (li.length > 10 ? `<details class="read-more"><summary>See ${li.length - 10} more</summary><ul class="side-list">${li.slice(10).join("")}</ul></details>` : "") + `</section>`;
+  }
   for (const b of p.backlinks) p.card(b.id, entities[b.id] || { kind: "Page", icon: "topic", title: b.title, url: b.url, lines: [] });
   if (p.boxes) // each section of a generated page is a white card; the text before the first one stays as the intro
     p.html = p.html.replace(/<h2 id="([^"]+)">[\s\S]*?(?=<h2 id=|$)/g, (sec, id) => `<section class="box" aria-labelledby="${id}">${sec}</section>`);

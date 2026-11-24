@@ -6,9 +6,6 @@ in `website/about.md`. Nothing here repeats the research. Why Eleventy: `adr/202
     cd site-11ty && npm ci && npx eleventy --serve      # http://localhost:8080
     PREVIEW=1 npx eleventy                              # relative links, for hosting from any folder
 
-Every PR's `website` run attaches this PREVIEW build as `site-preview-pr-<N>` (run Summary page, Artifacts, kept 14
-days): unzip it and open `index.html`. Search needs a local server (`npx http-server` in the unzipped folder).
-
 - `src/_data/archive.js` turns the files into pages: citation pills, "Our analysis" boxes (the files' "Analysis:"
   marker), backticked file references as links, first-mention links to people and `<abbr>` on acronyms, backlinks,
   generated person pages (a stub for everyone in `people.csv` without a profile), the decision tables from the
