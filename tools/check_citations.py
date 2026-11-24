@@ -13,7 +13,8 @@ a topic file without an uncited `summary` and `description` in its front matter,
 outside topics/ and people/ or beyond `key: value` and folded `>`; a topic file without the three sections in order (Analysis first), or a line under
 "What the sources say" with no source citation or with "Analysis:".
 Warnings also flag a number under "What the sources say" that isn't in the text of a source the line cites.
-analysis/updates.csv (What's new) has its own columns instead of a source: date, text, page, pr.
+analysis/updates.csv (What's new) has its own columns instead of a source: date, text, page, pr, kind
+(research, correction or site).
 The decision files (RESEARCH.md) must agree: every option, position and question names a decision in decisions.csv,
 every decision has a baseline option, statuses and kinds are known values, and a position's actor is a people.csv id
 or an organization's name. A people.csv area must appear on the legislature/members/ page its row cites.
@@ -39,7 +40,8 @@ from common import (ANALYSIS, DERIVED, NEWS_INDEX, QUOTES, ROOT, SOURCES, TAG_RE
 
 SECTIONS = ["Analysis", "What the sources say", "Derived figures"]
 DER_COLS = ["id", "value", "unit", "kind", "label", "method", "inputs", "assumptions"]
-UPDATE_COLS = ["date", "text", "page", "pr"]
+UPDATE_COLS = ["date", "text", "page", "pr", "kind"]
+UPDATE_KINDS = {"research", "correction", "site"}  # site rows stay off the overview (adr/20261124-2210-whats-new-kinds.md)
 UPDATES = os.path.join(ANALYSIS, "updates.csv")
 NOT_READER_FACING = {"analysis/updates.csv"}  # not shown on the site
 QUESTIONS = os.path.join(ANALYSIS, "questions.csv")
@@ -337,6 +339,8 @@ def check_updates(rel, errors):
             errors.append(f"{rel}:{n}: page {page} isn't a file under analysis/")
         if r["pr"] and not r["pr"].isdigit():
             errors.append(f"{rel}:{n}: pr must be a PR number")
+        if r["kind"] not in UPDATE_KINDS:
+            errors.append(f"{rel}:{n}: kind must be one of {', '.join(sorted(UPDATE_KINDS))}")
 
 
 def check_pr_update(pr, base, errors):
@@ -350,7 +354,7 @@ def check_pr_update(pr, base, errors):
                or f == "sources/news/index.jsonl"]
     if changed and not any(r["pr"] == str(pr) for r in read_updates()[1]):
         errors.append(f"PR #{pr} changes {', '.join(changed[:3])}{' …' if len(changed) > 3 else ''} but "
-                      f"analysis/updates.csv has no row with pr {pr}. Add one (date, text for readers, page, {pr}), "
+                      f"analysis/updates.csv has no row with pr {pr}. Add one (date, text for readers, page, {pr}, kind), "
                       "or label the PR no-update if readers don't need to know.")
 
 

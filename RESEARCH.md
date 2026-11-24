@@ -222,5 +222,5 @@ stops doing one of those jobs should go.
 - **Runbook** (`RUNBOOK.md`): how to add and refresh sources.
 - **CLAUDE.md**: the rules every agent follows: citation formats, keeping sources, derived figures and analysis
   apart, quotes verbatim.
-- **What's new** (`analysis/updates.csv`): one reader-facing line per change. The maintainers' history is the PRs
+- **What's new** (`analysis/updates.csv`): one reader-facing line per change, marked research, correction or site. The maintainers' history is the PRs
   and git.
