@@ -3,7 +3,7 @@ summary: >
   State school money for students at online charter schools goes first to the district where the school is
   located; a district that sponsors one must pass on at least 80% of its per-student grant for kindergarten
   through eighth grade and 95% for high school, and keeps the rest. The education department says it doesn't
-  publish a total; our estimate is about $257 million of state and local school money in 2025-26, a
+  publish a total for online schools; our estimate is about $257 million of state and local school money in 2025-26, a
   little over 3% of the money shared among school districts. How much sponsors keep depends on contracts, and
   the archive has the terms for only one online charter.
 ---
@@ -47,17 +47,21 @@ or business office pages (see "Still to find").
   Scio, $11,796 [DER:virtual_charters/scio_gpg_per_current_admw]. The department has since confirmed that
   calculation (sources below). Because the extended count is the greater of the two years' counts, a rate on the
   current-year count can't be lower than the grant rate.
-- **Which rate the minimums use.** Despite its label, the Charter Schools Rate is not the base for the ORS 338.155
-  minimums, the department says: that base is the grant per extended weighted student, the line titled "General
-  Purpose Grant per Extended ADMw" on each district's estimate. The statute alone doesn't settle this, because it says
-  "per ADMw" without saying which count (sources below). So a contract that pays 80% and 95% of the Charter Schools
-  Rate, as Baker's does, meets the statutory minimum, and pays more than it where a sponsor's current-year count is
-  below its extended count (North Bend: $11,514 against $11,129). The department has no part in the contracts, which districts
-  write.
+- **Which rate the minimums use.** Despite its label, the Charter Schools Rate is not the base for the minimum
+  payments a sponsor must pass on under ORS 338.155 (80% of the grant per weighted student for K-8, 95% for high
+  school), the department says: that base is the grant per extended weighted student, the line titled "General
+  Purpose Grant per Extended ADMw" on each district's estimate. The statute alone doesn't settle this, because it
+  says "per ADMw" (per weighted student) without saying which year's count (sources below). The department has no
+  part in the contracts, which are made at the district level.
+- In our analysis, a contract that pays 80% and 95% of the Charter Schools Rate, as Baker's does, therefore pays at
+  least the statutory minimum rate per weighted student. For Baker the two rates are equal, so its 80% and 95% match the statutory
+  minimums. Where a sponsor's current-year count is below its extended count, terms like these would pay a higher rate: at North
+  Bend, for example, the Charter Schools Rate is $11,514 against a grant rate of $11,129. The archive has no North
+  Bend contract.
 - **No dollar total from the department.** The department says it doesn't publish the dollars attributable to
-  virtual charters, because the money flows through the sponsoring districts, which pay the charters (sources
-  below). Our estimate below uses the grant per extended weighted student, the rate the department names as the
-  minimums' base.
+  virtual schools, its term in the reply to a question about virtual charter students, because the money flows through the sponsoring districts, which pay the charters (sources
+  below). Our estimate below multiplies each charter's weighted count by its sponsor's grant per extended weighted
+  student. The department's reply names that rate as the base for the minimums but doesn't comment on the estimate.
 - **The money.** Our estimate is about $257 million of formula revenue in 2025-26
   [DER:virtual_charters/gpg_attributable_2025_26], roughly 3.3% of the school district share
   [DER:virtual_charters/gpg_attributable_share_2025_26]. The denominator is wider than the estimate: the district
@@ -183,11 +187,11 @@ or business office pages (see "Still to find").
   (`fossilschools.com`) blocked our browser with a bot check. A records request is #46.
 - An official dollar total for State School Fund money paid for virtual charter students: none in the department's
   archived documents or the 2017 and 2019 Secretary of State reports, and the department says it doesn't publish
-  one (#47). It pointed to its Fiscal Transparency Unit's School Level Expenditure Report Dashboard, which isn't
+  one (#47, sources below). It pointed to its Fiscal Transparency Unit's School Level Expenditure Report Dashboard, which isn't
   archived or checked yet (#169).
 - A 9-12 weighted count for Fossil Charter School and Paisley School: the High School Success allocations print only
   their sponsor districts' rows (Fossil School District 21J 25.53, Paisley School District 11 43.12), so this would
-  have to come from the department. #47 didn't ask for it; it's an open question (`questions.csv`,
+  have to come from the department. Issue #47 didn't ask for this count; it is an open question (`questions.csv`,
   `virtual-charter-hs-admw`).
 
 ## What the sources say
@@ -214,7 +218,8 @@ or business office pages (see "Still to find").
   327.013" [SRC:legislature/ors/ors338.html] (ORS 338.155(2)). ORS 327.013 calculates the General Purpose Grant on
   the district's extended weighted count, its current or prior year's weighted count, whichever is greater
   [SRC:legislature/ors/ors327.html] (ORS 327.013(1), (1)(c)). Neither section says which count the grant is divided
-  by to give the per-student figure.
+  by to give the per-student figure. The department determines each district's estimated General Purpose Grant per
+  ADMw each year and makes it available to all districts [SRC:legislature/ors/ors338.html] (ORS 338.155(4)).
 - **Poverty weight is borrowed from the sponsor.** A charter's weighted count assumes the same share of children in
   poverty as the district where it is located [SRC:legislature/ors/ors338.html] (ORS 338.157).
 - **Separate calculation for shrinking sponsors.** If a sponsoring district's own enrollment (leaving out the
@@ -283,8 +288,8 @@ or business office pages (see "Still to find").
   $11,514 against a General Purpose Grant per extended weighted student of $11,129
   [SRC:ode/ssf/2025-26_ssf-estimates_2026-05-01.pdf p.32].
 - Asked by email, the department's State School Fund Coordinator, Jerod Nunn, replied on Nov. 24, 2026, that the
-  Charter Schools Rate is the General Purpose Grant divided by the current-year weighted count, so that the rate reflects
-  the charter's current students [SRC:ode/correspondence/2026-11-24_ode-ssf-coordinator-reply_charter-schools-rate.txt].
+  Charter Schools Rate is the General Purpose Grant divided by the current-year weighted count, which, he wrote, helps the
+  rate reflect the charter's current students [SRC:ode/correspondence/2026-11-24_ode-ssf-coordinator-reply_charter-schools-rate.txt].
 - In the same reply he wrote: "This rate is not the 80% or 95% minimum referred to in ORS 338.155." The minimums
   apply to the district's General Purpose Grant per weighted student as calculated under ORS 327.013, the figure
   titled "General Purpose Grant per Extended ADMw" on the district estimates. Charter contracts are written at the
