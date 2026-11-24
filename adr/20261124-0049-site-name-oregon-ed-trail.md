@@ -1,6 +1,6 @@
 # The site is called Oregon Ed Trail, at oregonedtrail.org
 
-Status: accepted (2026-11-23, PR #TBD)
+Status: accepted (2026-11-23, PR #152)
 
 ## Context
 The domain fundoregonschools.org reads as a demand ("fund Oregon schools"), which works against an archive meant to
