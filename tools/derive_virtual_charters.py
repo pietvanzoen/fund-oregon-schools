@@ -129,7 +129,7 @@ out = [
      "Baker Web Academy's admw_2025_26 x Baker's Charter Schools Rate x (K-8 share x 0.20 + 9-12 share x 0.05)",
      f"{DATA}; {GRADES}; {BAKER_SA}",
      "Baker Web Academy's Oct 1 headcount split by grade stands in for its ADMw split; uses the April 2026 "
-     "transparency report's 2025-26 ADMw, not the final count reconciled in May of the following school year; uses the "
+     "transparency report's 2025-26 ADMw, before the payment adjustments the agreement reconciles in May of the following school year; uses the "
      "Charter Schools Rate on ODE's May 1, 2026 estimate, while each payment uses the latest estimate; excludes the "
      "special-education services the district provides under the same agreement and its other pass-throughs"),
     ("bwa_keep_share_2025_26", round(100 * (1 - bwa_pass), 1), "percent", "est",

@@ -11,8 +11,9 @@ document gives an official total.
 
 Issue #20. Copied values: `data/virtual_charters_2025-26.csv`, `data/virtual_charters_grades_2025-26.csv` and
 `data/virtual_charters_hs_admw_2024-25.csv`. Our calculations: `derived/virtual_charters.csv`,
-written by `tools/derive_virtual_charters.py`. Baker's 2025-26 service agreement isn't posted online; the archived
-copy came from the district in reply to a public records request (issue #46).
+written by `tools/derive_virtual_charters.py`. The archived copy of the Baker School District 5J's 2025-26 service
+agreement came from the district in reply to a public records request (issue #46); it wasn't on the district's board
+or business office pages (see "Still to find").
 
 ## Analysis
 
@@ -84,10 +85,11 @@ copy came from the district in reply to a public records request (issue #46).
 - **Baker School District 5J and Baker Web Academy.** The district's 2025-26 service agreement set Baker Web Academy's
   payment, for the largest virtual charter by fall 2025 student count, at 80% (K-8) and 95% (9-12) of the department's
   Charter Schools Rate on its whole weighted count. Those are the general minimums in ORS 338.155. The agreement
-  doesn't apply the lower special-education minimums in ORS 338.165, so, if its weighted counts include the
-  special-education weight, the rate it set for those students is above the law's minimum. The district also
-  agreed to provide those students' special-education services itself, and the agreement calls them consistent with ORS
-  338.165, which lets the two sides negotiate a different split (sources below). For Baker the
+  doesn't apply the lower special-education minimums in ORS 338.165. That law adds the special-education weight to a
+  charter's weighted count [SRC:legislature/ors/ors338.html] (ORS 338.165(2)), so the rate the agreement set for those
+  students is above the law's minimum. The district also agreed to provide those students' special-education
+  services itself. The agreement calls those services consistent with ORS 338.165 but doesn't say whether it uses that
+  law's option, in 338.165(4), to negotiate a different split case by case (sources below). For Baker the
   Charter Schools Rate equals its grant rate, $11,223 per weighted student
   [SRC:ode/ssf/2025-26_ssf-estimates_2026-05-01.pdf p.2]. So for this school the assumption behind the $36 million
   estimate above, that the contract pays the general minimums, holds.
@@ -95,8 +97,8 @@ copy came from the district in reply to a public records request (issue #46).
   Purpose Grant money for the academy's students in 2025-26 [DER:virtual_charters/bwa_keep_under_agreement_2025_26]
   [DER:virtual_charters/bwa_keep_share_2025_26] and passed on about $38.3 million
   [DER:virtual_charters/bwa_passed_through_2025_26]. It uses the academy's fall 2025 headcount split by grade in place
-  of its weighted split, and the April 2026 weighted count, not the final count reconciled in May of the following
-  school year. Under the same agreement the district agreed to provide special-education services to the academy and to Baker
+  of its weighted split, and the April 2026 weighted count; the agreement reconciles payment adjustments in May of the
+  following school year. Under the same agreement the district agreed to provide special-education services to the academy and to Baker
   Early College, another of its charters, estimated at $3,435,625 for 2025-26, plus state reporting, technology,
   printing, mail, internet and administrative support. The agreement doesn't split those costs between the two
   charters or say which money pays for them. It had the academy cover up to $56,100 of payroll for one new
@@ -313,11 +315,11 @@ copy came from the district in reply to a public records request (issue #46).
   School Fund payment the district passes on the charters' portion, based on the latest weighted-count report and the
   Charter Schools Rate (ORS 338.155) on the latest State School Fund estimate, with adjustments reconciled in May of
   the following school year. Baker Web Academy is paid 80% of that rate for its K-8 weighted count and 95% for 9-12; Baker Early
-  College 95%. Invoices for additional service-agreement items are paid within 10 business days of receipt
+  College 95%. The agreement has invoices for additional service-agreement items paid within 10 business days of receipt
   [SRC:districts/baker-5j/2025-26_service-agreement_baker-charter-schools.pdf p.1].
 - Under the same agreement, which calls its special-education services consistent with ORS 338.165, the district's
-  special-education staff serve the charters' students, at an estimated cost
-  of $3,435,625 in 2025-26 for 24.80 full-time equivalent staff. Baker Web Academy covers up to $56,100 of payroll for
+  special-education staff were to serve the charters' students, at an estimated cost
+  of $3,435,625 in 2025-26 for 24.80 full-time equivalent staff. Baker Web Academy was to cover up to $56,100 of payroll for
   a new special-education position, to offset what it calls the Measure 98 (High School Success) special-education
   pass-through for the position. It says the district reimburses preapproved supplies, curriculum and services, and lists
   other district services: state reporting, technology, printing (at no cost to the charters), mail, internet and
