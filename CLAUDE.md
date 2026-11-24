@@ -177,8 +177,9 @@ Least new code that fully does the job; adapted from the ponytail rules
 - `analysis/topics/<topic>.md` — topic files: `summary`, `description` (and `title` if the H1 is long) in front matter, then the three sections; each is published on the website automatically
 - `analysis/glossary.csv` — abbreviations and terms: full name, hover tooltip, cited definition
 - `analysis/START.md` (home page), `analysis/timeline.md`
-- `analysis/updates.csv` — What's new for readers (`date, text, page, pr`; the site shows it newest first, the
-  overview the latest three). A PR that changes reader-facing files must add a row with its number (CI checks;
+- `analysis/updates.csv` — What's new for readers (`date, text, page, pr, kind`; `kind` is `correction`,
+  `research` or `site`: `adr/20261124-2210-whats-new-kinds.md`; the site shows it newest first with site changes
+  last, the overview the latest three that aren't `site`). A PR that changes reader-facing files must add a row with its number (CI checks;
   label `no-update` to waive). The maintainers' record is the PR description
 - `adr/YYYYMMDD-HHMM-<slug>.md` — architecture decision records, named by the UTC time they're created: context,
   decision, options weighed, when to revisit

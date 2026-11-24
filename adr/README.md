@@ -57,3 +57,4 @@ The concrete signal that should reopen this.
 | [2026-11-24](20261124-0837-site-built-with-eleventy.md) | The site is built with Eleventy, not MkDocs and Material |
 | [2026-11-24](20261124-1751-page-titles-and-descriptions-in-front-matter.md) | Each page's search title and description live in its file's front matter, or are built from its data |
 | [2026-11-24](20261124-2151-terms-on-this-page.md) | Pages list the glossary terms they use in the side column; term pages get backlinks |
+| [2026-11-24](20261124-2210-whats-new-kinds.md) | What's new rows have a kind; site changes stay off the overview |

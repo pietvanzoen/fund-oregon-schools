@@ -555,10 +555,12 @@ ${mdTable(["Budget", "Stage", "$ billion", "Note", "Source"], ssf.map((r) => [r.
 
 // What's new: updates.csv, newest first (same date: the later row first)
 const updatesSorted = csv("analysis/updates.csv").map((r, i) => [r, i]).sort((a, b) => b[0].date.localeCompare(a[0].date) || b[1] - a[1]).map(([r]) => r);
-listPage("updates", "/updates/", "What's new", "New research and data in this archive, newest first. Each entry says what changed for readers, links to it and to the change on GitHub.\n\n"
-  + updatesSorted.map((r) => `- **${apDate(r.date)}:** ${r.text}${r.page ? ` → \`${r.page}\`` : ""}${r.pr ? ` · [#${r.pr}](${REPO}/pull/${r.pr})` : ""}`).join("\n"),
+const updateItem = (r) => `- **${apDate(r.date)}:** ${r.text}${r.page ? ` → \`${r.page}\`` : ""}${r.pr ? ` · [#${r.pr}](${REPO}/pull/${r.pr})` : ""}`;
+listPage("updates", "/updates/", "What's new", "New research, data and corrections in this archive, newest first. Each entry says what changed for readers, links to it and to the change on GitHub. Changes to how the site looks and works are listed at the end.\n\n"
+  + updatesSorted.filter((r) => r.kind !== "site").map(updateItem).join("\n")
+  + "\n\n## Site changes\n\n" + updatesSorted.filter((r) => r.kind === "site").map(updateItem).join("\n"),
   ["analysis/updates.csv"], { boxes: false, seo: "What's new in the Oregon K-12 funding archive",
-    description: "New research and data in the Oregon K-12 funding archive, newest first: analysis, documents and figures added, each linked." });
+    description: "New research, data and corrections in the Oregon K-12 funding archive, newest first, each linked, with site changes listed at the end." });
 
 // About this site: hand-written, the only page that may say "we" (STYLE.md)
 {
@@ -701,8 +703,8 @@ function buildHome() {
     + (keyBlock.includes("<!-- site: funding chart -->") ? fundingChart(inline) : "")
     + `<ul class="kn-rest-list">${rest.join("")}</ul>${more ? `<p class="sec-note">More: ${inline(more)}</p>` : ""}</section>`;
 
-  // What's new: the latest three rows of updates.csv, newest first (same date: the later row first)
-  const ups = csv("analysis/updates.csv").map((r, i) => [r, i]).sort((a, b) => (b[0].date + String(b[1]).padStart(5, "0")).localeCompare(a[0].date + String(a[1]).padStart(5, "0")))
+  // What's new: the latest three research or correction rows of updates.csv, newest first (same date: the later row first)
+  const ups = csv("analysis/updates.csv").map((r, i) => [r, i]).filter(([r]) => r.kind !== "site").sort((a, b) => (b[0].date + String(b[1]).padStart(5, "0")).localeCompare(a[0].date + String(a[1]).padStart(5, "0")))
     .slice(0, 3).map(([r]) => `<li class="box update"><p class="up-date">${apDate(r.date)}</p><p>${inline(r.text)}</p></li>`);
 
   // Read first: the first four, then the rest behind "All eight"
