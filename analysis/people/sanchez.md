@@ -2,8 +2,8 @@
 title: >
   Rep. Tawna Sanchez on school funding
 description: >
-  Rep. Tawna Sanchez, Ways and Means co-chair: her role in Oregon's K-12 budget and her statements on revenue and
-  reserves, cited.
+  Rep. Tawna Sanchez, co-chair of the Legislature's budget committee: her role in Oregon's K-12 budget and her
+  statements on revenue and reserves, cited.
 ---
 # Rep. Tawna Sanchez
 

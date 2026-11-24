@@ -2,8 +2,8 @@
 title: >
   Rep. Ricki Ruiz on school funding
 description: >
-  Rep. Ricki Ruiz, Education Subcommittee co-chair: the finding that 2025-27 school funding met the Quality
-  Education Model, and the bill to replace the model.
+  Rep. Ricki Ruiz, co-chair of the committee that found 2025-27 school funding met the Quality Education Model
+  once grants outside the school fund were counted.
 ---
 # Rep. Ricki Ruiz
 

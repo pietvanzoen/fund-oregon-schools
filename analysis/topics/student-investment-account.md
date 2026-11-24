@@ -2,8 +2,8 @@
 title: >
   The Student Investment Account: what it funds
 description: >
-  Grants to school districts on top of regular state school funding. Most of the money has paid for staff; the
-  state's reports can't show if it changed results.
+  Student Investment Account grants, on top of regular state school funding, went mostly to staff; state reports
+  alone can't show if they changed results.
 summary: >
   The Student Investment Account, created by the Student Success Act in 2019, gives school districts and some
   other education programs grants on top of regular state school funding, to support students' mental and

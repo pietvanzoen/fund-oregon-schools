@@ -1,7 +1,7 @@
 ---
 description: >
-  The statewide targets for student results Oregon set in April 2026, and Gov. Tina Kotek's 2026 order barring
-  further cuts to students' time at school.
+  The State Board of Education's April 2026 targets for student results, an executive order on school time, and
+  how little is known of what the money buys.
 summary: >
   In April 2026 the State Board of Education unanimously set statewide targets for student results to reach by
   2029-30, after Oregon Department of Education Director Charlene Williams said meeting them doesn't require new

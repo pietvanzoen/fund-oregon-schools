@@ -303,7 +303,8 @@ for (const person of people) {
     + `<p class="pc-src">Sources: ${cites}</p></section>`;
   p.line = [office, r.area].filter(Boolean).join(" · ");
   Object.assign(p, { seo: fm.title?.trim(), description: fm.description?.trim()
-    || clip(`${e.title} (${[PARTY[r.party], r.district && `District ${r.district}`, r.area].filter(Boolean).join(", ") || r.office}): ${(r.role_2025_26 || r.role_2027).replace(/W&M/g, "Ways and Means")}. Their role in Oregon's school budget.`, 160) });
+    || clip((`${e.title} (${[PARTY[r.party], r.district && `${r.office.split(" ")[0]} District ${r.district}`, r.area].filter(Boolean).join(", ") || r.office}): `
+      + `${r.role_2025_26 || r.role_2027}. Their part in Oregon's school budget, cited.`).replace(/W&M/g, "Ways and Means").replace(/\bN\/NE\b/g, "North and Northeast").replace(/\bS\/SW\b/g, "South and Southwest"), 160) });
   p.sourceFile = has ? file : "analysis/people/people.csv";
   p.stub = !has;
   pages.push(p);
