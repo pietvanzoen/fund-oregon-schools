@@ -258,7 +258,7 @@ function numberTiles(text) {
 const SECTIONS = {
   analysis: ["box-analysis", "think", "Our analysis", "Our interpretation, not a source"],
   "what-the-sources-say": ["box-docs", "doc", "What the documents say"],
-  "derived-figures": ["box-numbers", "calc", "Numbers we worked out"],
+  "derived-figures": ["box-numbers", "calc", "Our calculations"],
 };
 
 const PARTY = { D: "Democrat", R: "Republican", I: "Independent" };
@@ -299,7 +299,7 @@ for (const person of people) {
     pos.map((r) => [decisionLink(r.decision), esc(r.date), esc(r.stance), r.source]));
   if (opts.length) gen += `\n\n## Options proposed\n\n` + table(["Decision", "Date", "Option", "Source"],
     opts.map((r) => [decisionLink(r.decision), esc(r.proposed_on), esc(r.option), r.source]));
-  p.body = p.render([h1, "", "<!--summary-->", ...rest].join("\n") + (has ? "" : `\n\n<p class="box no-profile">We haven't written about this person yet. Here's their role and the pages that mention them.</p>`) + gen, `people/${person.id}.md`);
+  p.body = p.render([h1, "", "<!--summary-->", ...rest].join("\n") + (has ? "" : `\n\n<p class="box no-profile">The archive has no profile of this person yet. Here's their role and the pages that mention them.</p>`) + gen, `people/${person.id}.md`);
   // People get a factual card from people.csv, never a prose summary
   const r = person;
   const office = [r.office + (r.district ? `, District ${r.district}` : ""), PARTY[r.party] || r.party].filter(Boolean).join(" · ");

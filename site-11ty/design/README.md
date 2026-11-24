@@ -42,14 +42,14 @@ dotted trail in blue ending in a gold dot (see the mockups' masthead).
 
 Topic page, top to bottom: breadcrumbs; title; **In short** card (blue header bar, white body, 21px text) from the
 topic file's front matter `summary`; **Our analysis** card (the `## Analysis` section, yellow, with
-"Our interpretation, not a source"); **What the documents say** card; **Numbers we worked out** (`## Derived figures`)
+"Our interpretation, not a source"); **What the documents say** card; **Our calculations** (`## Derived figures`)
 as tiles when there are at most 4 rows with short values, otherwise a plain table in the card. Side column: "On this
 page" and "Related pages" (backlinks) cards; on phones, "On this page" goes above the article and "Related pages"
 below it. A topic without a `summary` shows no In short card.
 
 Person page: back link, name, a white summary card built from `people.csv` (office and district, party, area, the
 2027 role with a "2027" tag), then the profile. People get no prose summary: their card stays factual. Without a
-profile: "We haven't written about this person yet. Here's their role and the pages that mention them."
+profile: "The archive has no profile of this person yet. Here's their role and the pages that mention them." (STYLE.md: never a bare "we")
 
 Preview card: kind label with icon, title, one or two lines, actions. Desktop: a floating card on hover or focus.
 Phone: a bottom sheet on first tap, with a full-width "Open document" / "Open page" button, "Close", and "Archived
