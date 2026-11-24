@@ -37,12 +37,29 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:3px solid 
 .topnav a{color:#fff;display:inline-flex;align-items:center;min-height:44px}
 .topnav a:hover{color:#fff}
 .menu-about,.menu-button{display:none}
+.masthead-row{column-gap:20px}
+.brand{margin-right:auto}
+.topnav{order:1}
+.mast-divider{order:2;align-self:center;width:1px;height:36px;background:rgba(255,255,255,.5)}
+.search-toggle{order:3;display:flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;border:0;border-radius:10px;background:transparent;color:#fff;cursor:pointer;padding:0 10px}
+.search-toggle .i{width:24px;height:24px;stroke-width:2.5}
+.search-toggle[aria-expanded=true]{background:#fff;color:var(--blue);border-radius:0;box-shadow:inset 0 -4px 0 var(--blue);align-self:stretch;margin-block:-16px;min-width:64px}
+.search-panel{background:#fff;border-bottom:1px solid #aeb7bd}
+.search-panel form{padding-block:32px 36px}
+.search-label{display:block;font-weight:700;font-size:25px;margin-bottom:14px}
+.search-panel .search{max-width:760px}
+.search-hint{margin:12px 0 0;font-size:16px;color:var(--muted)}
+@media(max-width:640px){.search-panel form{padding-block:20px 24px}.search-label{font-size:19px;margin-bottom:10px}.search-hint{font-size:14px;margin-top:10px}}
 @media(max-width:640px){.masthead-row{padding-block:12px 4px}.mark{width:32px;height:32px}.brand{gap:10px}.brand-name{font-size:20px}.brand-tag{font-size:13px}
   .topnav ul{gap:0 20px;font-size:15px}
   /* phones with JavaScript: the nav goes behind the Menu button, as a white list under the masthead */
   .js .masthead-row{flex-wrap:wrap;align-items:stretch;padding-block:0;gap:0 8px}
   .js .brand{padding-block:12px;flex:1 1 0}
   .js .menu-button{flex:none}
+  .js .mast-divider{display:none}
+  .js .search-toggle{order:0;flex:none;margin:0 -16px 0 0;min-width:52px;border-radius:0;min-height:64px}
+  .js .search-toggle[aria-expanded=true]{margin-block:0;min-width:56px}
+  .js .topnav{order:4}
   .js .menu-button{display:flex;align-items:center;gap:4px;margin-right:-16px;padding:0 16px;min-height:64px;border:0;background:transparent;color:#fff;
     font:inherit;font-weight:600;font-size:15px;cursor:pointer}
   .js .menu-button .i{width:16px;height:16px;stroke-width:2.5}
@@ -229,6 +246,30 @@ th{font-weight:600}
 .look{background:var(--white);border-radius:10px;padding:12px 16px 4px;margin:0;font-size:16px}
 .look a{font-weight:600;display:inline-flex;align-items:center;min-height:44px}
 .look p{font-size:15px;color:var(--muted);margin:0 0 10px}
+
+/* search page */
+.search-page{margin-bottom:12px}
+.search-page input{height:52px}.search-page .search-go{height:52px;width:56px}
+.search-status{margin:0 0 20px;color:var(--muted);font-size:16px}
+.filters ul{list-style:none;padding:0;margin:0 0 24px;display:flex;flex-wrap:wrap;gap:10px}
+.filters li{margin:0}
+.filters a{min-height:44px;display:inline-flex;align-items:center;gap:6px;padding:0 16px;border-radius:999px;background:#fff;color:var(--ink);text-decoration:none;font-size:16px;border:1px solid #aeb7bd}
+.filters a:hover{border-color:var(--ink);color:var(--ink)}
+.filters a[aria-current]{background:var(--blue);border-color:var(--blue);color:#fff;font-weight:600}
+.filters a[aria-current]:focus-visible{color:var(--ink)}
+@media(max-width:640px){.filters{margin:0 -16px 20px;overflow-x:auto;scrollbar-width:none}.filters ul{flex-wrap:nowrap;padding:2px 16px;margin:0;width:max-content}}
+.results{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:16px;max-width:760px}
+.result{margin:0;padding:18px 22px 4px}
+.result-kind{display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:600;color:var(--deep);margin:0}
+.result h2{margin:4px 0 6px;font-size:22px;line-height:1.3}
+.result-line{font-size:17px;margin:0 0 14px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;line-clamp:3;overflow:hidden}
+.result-line.muted{color:var(--muted)}
+mark{background:var(--think);color:inherit;padding:0 2px;border-radius:3px}
+.no-results{max-width:760px;padding:16px 20px 2px}
+.search-docs{margin:28px 0 0;font-size:16px;max-width:760px}
+.glossary-list{list-style:none;padding:12px 22px 4px}
+.glossary-list li{margin:0 0 12px}.glossary-list p{font-size:15px;color:var(--muted);margin:2px 0 0}
+@media(max-width:640px){.result{padding:14px 16px 2px}.result h2{font-size:19px}}
 
 .page-meta{color:var(--muted);font-size:16px;line-height:1.55;padding:24px 0 40px;max-width:46rem}
 .page-meta h2{font-size:16px;font-weight:600;color:var(--ink);margin:0 0 6px}
