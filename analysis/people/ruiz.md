@@ -65,8 +65,3 @@ committee's report spells his name "Ricky".) His 2027 committee roles aren't ann
   the objection that reserves shouldn't pay ongoing costs, though PERS payments are themselves an ongoing cost.
 - He wants a different yardstick for "adequate," not necessarily less money. Open question: what level he'd fund to
   in 2027-29 while the model is under review.
-
-## Sources not yet usable
-- The Nov. 18, 2026, Moms for Oregon interview (`sources/orgs/momsfororegon/2026-11-18_ruiz-interview.mp4`) is archived
-  but not quoted: its on-screen captions and a test machine transcript disagreed on a key word, so quote it only after
-  listening to the recording.
