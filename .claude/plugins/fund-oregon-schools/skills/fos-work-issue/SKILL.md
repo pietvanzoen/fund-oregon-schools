@@ -128,7 +128,8 @@ description:
 - **For an email or records request:** the exact address, and where you found it (an official page, with the
   page named; never a guessed address; if you can't find one, say so and name the office to call); the subject;
   the full draft in a code block (GitHub gives it a copy button), written to be sent as is and signed
-  "Piet van Zoen"; and a link `[✉️ Open this email (address and subject filled in)](mailto:<address>?subject=<URL-encoded subject>)`.
+  "Piet van Zoen", and to be read by the public: the email and its reply may be archived (RUNBOOK, "Email
+  replies"), so no private details beyond what the About page says about who runs the archive; and a link `[✉️ Open this email (address and subject filled in)](mailto:<address>?subject=<URL-encoded subject>)`.
   GitHub strips a mailto link that also has `body=` or `cc=`, so keep those out of the link and put any cc on its
   own line. Add "- [ ] Sent · [ ] Reply received" and say how to handle the reply:
   attachments under `sources/<agency or district>/…` with a manifest line, and the reply itself only if it's the
