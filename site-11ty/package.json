@@ -1,0 +1,14 @@
+{
+  "name": "fos-site-11ty-spike",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "3.1.8",
+    "csv-parse": "6.1.0",
+    "markdown-it": "14.3.3"
+  }
+}
