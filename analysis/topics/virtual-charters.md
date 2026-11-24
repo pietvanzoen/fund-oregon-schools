@@ -220,7 +220,7 @@ or business office pages (see "Still to find").
   the district's extended weighted count, its current or prior year's weighted count, whichever is greater
   [SRC:legislature/ors/ors327.html] (ORS 327.013(1), (1)(c)). Neither section says which count the grant is divided
   by to give the per-student figure. The department determines each district's estimated General Purpose Grant per
-  ADMw each year and makes it available to all districts [SRC:legislature/ors/ors338.html] (ORS 338.155(4)).
+  weighted student each year and makes it available to all districts [SRC:legislature/ors/ors338.html] (ORS 338.155(4)).
 - **Poverty weight is borrowed from the sponsor.** A charter's weighted count assumes the same share of children in
   poverty as the district where it is located [SRC:legislature/ors/ors338.html] (ORS 338.157).
 - **Separate calculation for shrinking sponsors.** If a sponsoring district's own enrollment (leaving out the
