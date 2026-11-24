@@ -235,7 +235,9 @@ model report's ranking is of state-sourced funding, which is a different measure
 ### Whether the Quality Education Model is the right yardstick
 
 - The Joint Committee on Public Education Appropriation's November 2025 report says 2025-27 funding "effectively closes the
-  funding gap and allows for the full implementation of the QEM" [SRC:legislature/olis/2025I1/310695_jpea.pdf p.4].
+  funding gap and allows for the full implementation of the QEM": the Legislature provided $11.4 billion for the State
+  School Fund and $2.2 billion in grant-in-aid for core K-12 operations and programs, $13.6 billion in all, against
+  the commission's $13.5 billion state funding need [SRC:legislature/olis/2025I1/310695_jpea.pdf p.4].
 - The same report criticizes how the model is built [SRC:legislature/olis/2025I1/310695_jpea.pdf p.5].
 - A legislative concept from the joint committee would move the cost model from the Quality Education Commission to the Legislative
   Policy and Research Office [SRC:legislature/olis/2025I1/311607_jpea-legislative-concepts.pdf p.1]. It became

@@ -18,7 +18,7 @@ Governor's Recommended Budget for 2027-29 in December [NEWS:NEWS-2026-salemrepor
 - Her September 2026 platform: instructional time at the national average by the end of a second term; fewer student
   absences; tougher diploma requirements; less access to social media on school-issued devices; and, under
   affordability, universal preschool [NEWS:NEWS-20260917-opb-1].
-- Executive Order 26-06 (April 16, 2026) barring further cuts to instructional time and requiring districts that
+- Executive Order 26-06 (signed April 15, 2026 [SRC:gov/eo/eo-26-06_preserving-instructional-time.pdf p.3]) barring further cuts to instructional time and requiring districts that
   cut it for 2025-26 or 2026-27 to submit a plan to restore 2024-25 levels no later than the start of 2027-28 [SRC:gov/eo/eo-26-06_preserving-instructional-time.pdf p.2].
 - The executive order's FAQ asks "Is this just another 'unfunded mandate' for districts?" and answers only "No."
   [SRC:gov/eo/eo-26-06_faq.pdf p.3]. For funding it says she directed the Oregon Department of Education "to explore potential options within the

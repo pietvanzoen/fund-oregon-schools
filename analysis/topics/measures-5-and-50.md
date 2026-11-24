@@ -42,7 +42,8 @@ general elections) for some elections, and the kicker, the law that returns inco
   elections [SRC:fiscal/dor/2009-06_brief-history-property-taxation.pdf p.4].
 - **The local option cap.** The amount kept outside the equalization formula is capped at the lesser of 20% of
   formula revenue or an indexed per-student amount ($1,343.92 in 2017-18)
-  [SRC:legislature/olis/2018R1/146437_lro-school-local-option.pdf p.4]. Twenty districts levied one in 2016-17
+  [SRC:legislature/olis/2018R1/146437_lro-school-local-option.pdf p.4]; collections over the cap go into the pool of
+  formula revenue [SRC:legislature/olis/2018R1/146437_lro-school-local-option.pdf p.3]. Twenty districts levied one in 2016-17
   [SRC:legislature/olis/2018R1/146437_lro-school-local-option.pdf p.5].
 
 ## Derived figures
