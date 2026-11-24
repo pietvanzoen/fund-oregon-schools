@@ -203,7 +203,7 @@ def main():
             "share,3.97,percent,derived,Share,n / state total,data/x.csv,\n"
             "est,256.6,USD millions,est,Money,sum of x * y,data/x.csv,y is an average\n")
         open(f"{root}/analysis/topics/ok.md", "w").write(
-            "# OK topic\n\nIntro.\n\n## Analysis\n\nAbout 22,100 students, about 4% (our sum [DER:t/n] [DER:t/share]).\n\n"
+            "---\nsummary: >\n  About 4% of students.\n---\n# OK topic\n\nIntro.\n\n## Analysis\n\nAbout 22,100 students, about 4% (our sum [DER:t/n] [DER:t/share]).\n\n"
             "## What the sources say\n\n- The fund is $13 billion\n  [SRC:gov/test_page.html].\n\n"
             "| Bill | Fund |\n|---|---|\n| State | $13 billion [SRC:gov/test_page.html] |\n\n"
             "## Derived figures\n\n| Figure | Value |\n|---|---|\n| Money | about $257M [DER:t/est] |\n")
@@ -218,8 +218,9 @@ def main():
         open(f"{root}/analysis/notes.md", "w").write(
             "Enrolled about 22,200 students (our sum [DER:t/n]). About $257M of it [DER:t/est].\n"
             "Unknown [DER:t/nope] and [DER:zz/n].\n")
+        # front matter shifts the body down 5 lines; reported line numbers stay the file's
         open(f"{root}/analysis/topics/bad.md", "w").write(
-            "# Bad\n\n## Analysis\n\nNo citation needed here.\n\n## What the sources say\n\n- No citation here.\n"
+            "---\nsummary: >\n  Short [SRC:gov/test_page.html].\ntitle: Bad\n---\n# Bad\n\n## Analysis\n\nNo citation needed here.\n\n## What the sources say\n\n- No citation here.\n"
             "- Analysis: inference [SRC:gov/test_page.html].\n- It is $14 billion [SRC:gov/test_page.html].\n\n"
             "## Derived figures\n")
         # the old order (sources first) is now an error
@@ -230,15 +231,17 @@ def main():
         open(f"{root}/analysis/derived/v.csv", "w").write("id,value\nx,1\n")
         r = run(root, "check_citations.py")
         out = r.stdout
-        assert r.returncode == 1 and out.count("ERROR") == 10, out
+        assert r.returncode == 1 and out.count("ERROR") == 13, out
         assert "notes.md:1: [DER:t/n] is 22110 students; no number" in out, out  # 22,200 is not 22110 rounded
         assert "notes.md:1: [DER:t/est] needs \"our sum\" or \"our estimate\"" in out, out
         assert "unknown derived figure t/nope" in out and "unknown derived figure zz/n" in out, out
-        assert "bad.md:9: line under \"What the sources say\" has no source citation" in out, out
-        assert "bad.md:10: \"Analysis:\" under" in out and "order.md: needs exactly these sections" in out, out
+        assert "order.md: no `summary` in front matter" in out and "front matter key title isn't used" in out, out
+        assert "bad.md: the summary carries no citations" in out, out
+        assert "bad.md:14: line under \"What the sources say\" has no source citation" in out, out
+        assert "bad.md:15: \"Analysis:\" under" in out and "order.md: needs exactly these sections" in out, out
         assert "u.csv:2: kind must be derived or est" in out and "u.csv:2: value 'abc' is not a number" in out, out
         assert "v.csv: columns must be" in out, out
-        assert "warn  analysis/topics/bad.md:11: 14 is not in the text" in out, out
+        assert "warn  analysis/topics/bad.md:16: 14 is not in the text" in out, out
         shutil.rmtree(f"{root}/analysis/derived")
         shutil.rmtree(f"{root}/analysis/topics")
         os.remove(f"{root}/analysis/notes.md")
@@ -281,6 +284,18 @@ def main():
         os.remove(f"{root}/sources/gov/hand_added.pdf")
 
         sys.path.insert(0, HERE)
+        from common import front_matter
+        assert front_matter("# T\n") == ({}, "# T\n")
+        assert front_matter("---\nsummary: >\n  One two.\n  Three.\nk: v\n---\n# T\nx") == \
+            ({"summary": "One two. Three.", "k": "v"}, "# T\nx")
+        for bad in ("---\nk: v\n# T\n", "---\nk: \"q\"\n---\n", "---\nk: [a]\n---\n", "---\nk: a: b\n---\n",
+                    "---\nk: |\n  x\n---\n", "---\nk: >\n---\n", "---\nk: >\n  a\n\n  b\n---\n",
+                    "---\n- a\n---\n", "---\nk: v\nk: w\n---\n", "---\nk: v # c\n---\n"):
+            try:
+                front_matter(bad)
+                raise AssertionError(f"accepted {bad!r}")
+            except ValueError:
+                pass
         from ocr_pdfs import MIN_CHARS, pages_to_ocr
         # p.1 picture-only slide, p.2 text-rich page with a logo, p.3 blank page without an image
         assert pages_to_ocr(["Title", "x" * MIN_CHARS, ""], {1, 2}) == [1]

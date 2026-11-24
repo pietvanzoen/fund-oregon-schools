@@ -1,3 +1,10 @@
+---
+summary: >
+  Measure 5 (1990) and Measure 50 (1997) capped property taxes for schools. Over the same years the state's
+  share of school operating money rose from under a third in 1990-91 to about 70% by 1998-99, according to the
+  Oregon Encyclopedia. A district can raise more for day-to-day operations only with a local levy, and how much
+  it can keep from a levy is capped too; the archive doesn't yet have today's state share or today's cap.
+---
 # Measures 5 and 50: why school funding is a state decision
 
 Decisions this informs: `decisions.md` (all). Open research: #16, #65, #66, #67.
@@ -35,7 +42,8 @@ general elections) for some elections, and the kicker, the law that returns inco
   elections [SRC:fiscal/dor/2009-06_brief-history-property-taxation.pdf p.4].
 - **The local option cap.** The amount kept outside the equalization formula is capped at the lesser of 20% of
   formula revenue or an indexed per-student amount ($1,343.92 in 2017-18)
-  [SRC:legislature/olis/2018R1/146437_lro-school-local-option.pdf p.4]. Twenty districts levied one in 2016-17
+  [SRC:legislature/olis/2018R1/146437_lro-school-local-option.pdf p.4]; collections over the cap go into the pool of
+  formula revenue [SRC:legislature/olis/2018R1/146437_lro-school-local-option.pdf p.3]. Twenty districts levied one in 2016-17
   [SRC:legislature/olis/2018R1/146437_lro-school-local-option.pdf p.5].
 
 ## Derived figures

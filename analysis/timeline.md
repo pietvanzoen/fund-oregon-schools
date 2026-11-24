@@ -18,7 +18,7 @@
 | 2026-10-21 | Quality Education Commission meeting | [SRC:ode/qec/minutes/2026-10-21.pdf] |
 | 2026-11-02 | Portland Public Schools asks the state for $500 million from the Education Stability Fund | [NEWS:NEWS-20261102-opb-1] |
 | 2026-11-03 | Oregon Journalism Project investigation of online schools; Kotek says she is reviewing the state's approach | [NEWS:NEWS-20261103-wweek-1] |
-| 2026-11-06 | Post-election: Kotek declines to commit to a school funding plan | [NEWS:NEWS-20261106-occ-1] |
+| 2026-11-06 | Post-election news conference: Kotek names her priorities and says she has made no commitments on how to pay for things | [NEWS:NEWS-20261106-occ-1] |
 | 2026-11-06 | Kotek, at a press conference, as quoted by KATU: "Maybe enrollment is the wrong marker" for school funding | [NEWS:NEWS-2026-katu-kotek-pps-1] |
 | 2026-11-12 | Tammy Carpenter, D-District 27 (Beaverton and Cedar Hills), who won the seat in the Nov. 3, 2026, election (unofficial results), and Rep. Zach Hudson, D-District 49 (Troutdale, Fairview, Wood Village, Gresham, Portland), discuss revenue and reserves at a Portland forum | [NEWS:NEWS-20261112-katu-2] [SRC:legislature/members/hudson.html] [SRC:legislature/members/2026-11-03_general-election-results_state-representative.html] [SRC:legislature/members/helm.html] |
 | 2026-11-13 | Senate Democrats name Lieber as Ways and Means co-chair for 2027 | [SRC:legislature/press/2026-11-13_senate-dems-2027-leadership.pdf p.1] |

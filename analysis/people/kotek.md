@@ -9,8 +9,8 @@ Governor's Recommended Budget for 2027-29 in December [NEWS:NEWS-2026-salemrepor
 - Proposed raising the fund's 2025-27 current service level (the amount needed to continue existing authorized
   programs) by about $515 million over the original calculation [SRC:gov/press/2024_ssf-csl-proposal.html].
 - Said in April 2026 she didn't expect extra school money beyond the current budget [NEWS:NEWS-20260430-wweek-1].
-- After reelection, declined to commit to how she'd pay for her school goals and repeated her opposition to using
-  one-time reserves for ongoing costs [NEWS:NEWS-20261106-occ-1].
+- After reelection, speaking about revenue proposals such as a wealth tax, said she had made no commitments on how to
+  pay for things [NEWS:NEWS-20261106-occ-1].
 - On her 2027-29 budget: "my budget will be prioritizing education and particularly summer investments again"
   [NEWS:NEWS-2026-salemreporter-1].
 
@@ -18,8 +18,8 @@ Governor's Recommended Budget for 2027-29 in December [NEWS:NEWS-2026-salemrepor
 - Her September 2026 platform: instructional time at the national average by the end of a second term; fewer student
   absences; tougher diploma requirements; less access to social media on school-issued devices; and, under
   affordability, universal preschool [NEWS:NEWS-20260917-opb-1].
-- Executive Order 26-06 (April 16, 2026) barring cuts to instructional time and requiring districts to restore
-  2024-25 levels no later than the start of 2027-28 [SRC:gov/eo/eo-26-06_preserving-instructional-time.pdf p.2].
+- Executive Order 26-06 (signed April 15, 2026 [SRC:gov/eo/eo-26-06_preserving-instructional-time.pdf p.3]) barring further cuts to instructional time and requiring districts that
+  cut it for 2025-26 or 2026-27 to submit a plan to restore 2024-25 levels no later than the start of 2027-28 [SRC:gov/eo/eo-26-06_preserving-instructional-time.pdf p.2].
 - The executive order's FAQ asks "Is this just another 'unfunded mandate' for districts?" and answers only "No."
   [SRC:gov/eo/eo-26-06_faq.pdf p.3]. For funding it says she directed the Oregon Department of Education "to explore potential options within the
   existing budget" [SRC:gov/eo/eo-26-06_faq.pdf p.2].
@@ -46,7 +46,11 @@ Governor's Recommended Budget for 2027-29 in December [NEWS:NEWS-2026-salemrepor
 ## On the Education Stability Fund
 - Using it requires a three-fifths vote in each chamber plus either an economic trigger or a governor's emergency
   declaration [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1] (OPB described it as an emergency declaration and a
-  three-fifths vote [NEWS:NEWS-20261102-opb-1]). She has resisted one-time money for ongoing costs [NEWS:NEWS-20261106-occ-1].
+  three-fifths vote [NEWS:NEWS-20261102-opb-1]).
+- Asked by OPB in October 2026 about past calls to use the fund for schools, she said "That is up to the
+  legislature" and, of raising it with legislative leaders, "I would bring it up, and it was summarily dismissed".
+  She described their argument, which she said she could understand, that "if you use one-time dollars, which is
+  what a reserve fund is, that will have a greater cliff down the line" [NEWS:NEWS-20261102-opb-1].
 - The April 2026 FAQ for Executive Order 26-06: she "remains open to discussing all options to support districts," but does not plan
   to declare an emergency and call a special session for the fund unless legislative leaders indicate a three-fifths
   majority would approve it [SRC:gov/eo/eo-26-06_faq.pdf p.2] [SRC:gov/eo/eo-26-06_faq.pdf p.3]. (KTVZ described
@@ -54,8 +58,9 @@ Governor's Recommended Budget for 2027-29 in December [NEWS:NEWS-2026-salemrepor
 - Nov. 6, 2026, press conference: KATU reports she does not support using one-time state reserves for Portland Public
   Schools' budget problems [NEWS:NEWS-2026-katu-kotek-pps-1].
 - Analysis: the April FAQ is conditional (no special session for the fund at that time unless a supermajority is
-  lined up); the November statements, as reported, set her against one-time reserves for Portland Public Schools and
-  for ongoing costs.
+  lined up); the November statement, as KATU reported it, sets her against one-time reserves for Portland Public Schools'
+  budget problems. On one-time money for ongoing costs, the archive has her describing unnamed legislative leaders'
+  objection as one she can understand (October 2026), framed as their argument.
 
 ## On Portland Public Schools closures
 - Oct. 13, 2026, letter to Portland Public Schools Superintendent Kimberlee Armstrong and School Board Chair Eddie Wang [SRC:gov/letters/2026-10-13_kotek-letter-to-pps-school-closures.pdf p.1]:

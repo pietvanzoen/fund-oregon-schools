@@ -29,6 +29,14 @@ blocking); the clarity reviewer checks the rest.
   - Yes: "Kotek has not said how much her budget will give schools; it's due Dec. 1."
   - No: "In 2024, during her campaign, Kotek said… [three sentences later] She hasn't given a figure."
 - **One idea per sentence** where you can. Active voice: say who did it.
+- **In short.** Each topic file has a `summary` in its front matter, shown as "In short". Two or three sentences in
+  everyday words, for a parent with no budget background: name the thing, say what the archive found, and what it
+  can't yet say. Use a number only if it needs no context ("almost all", "about $2 billion") and it matches the
+  cited figures below. No abbreviations or jargon. No new claims: every sentence restates something cited further
+  down the page.
+  - Yes: "Schools and other grantees spent almost all of this money each year, mostly on staff. The state's reports
+    don't yet show whether it changed results for students."
+  - No: "The money didn't work." (the reports can't tell, which isn't the same)
 
 ## Weight and certainty
 

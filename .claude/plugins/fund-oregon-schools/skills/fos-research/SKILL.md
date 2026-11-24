@@ -50,7 +50,8 @@ python3 tools/linkify.py analysis/decisions.md                  # print with cit
 - Lead with the strongest few cited facts when the answer feeds something we're writing (call scripts, emails,
   flyers, testimony). Flag figures that are estimates, projections or an advocacy group's numbers.
 - Keep what documents state, what people said, and your own inference ("Analysis:") separate. Topic files do this
-  in sections: "Analysis" (first), "What the sources say", "Derived figures".
+  in sections: "Analysis" (first), "What the sources say", "Derived figures". Each opens with front matter whose
+  `summary` (the site's "In short") is uncited plain words: never cite it; cite the lines below it that back it.
 - A `[DER:...]` figure is this archive's own calculation, never an official number. Say so ("by the archive's own
   sum", "the archive estimates"), keep the DER tag or link to its row, and give an `est` figure's assumptions.
   Don't attribute it to the agency whose data went into it.

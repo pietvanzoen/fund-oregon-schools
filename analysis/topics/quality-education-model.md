@@ -1,3 +1,13 @@
+---
+summary: >
+  The Quality Education Model is the state's own estimate of what schools need to meet Oregon's goals: its 2026
+  report puts that at about $16.2 billion of state money for the 2027-29 budget, about $2.4 billion more than
+  its estimate of what keeping 2025-27 services would take. A legislative committee said 2025-27 funding
+  effectively closed the model's gap for that budget, counting about $2.2 billion of state grants outside the
+  main school fund, while criticizing how the model is built. The archive can't yet say whether the model
+  already counts those grants, and a 2026 bill to move the model to the Legislature's research office did not
+  pass.
+---
 # The Quality Education Model: the state's estimate of what schools need
 
 Decisions this informs: `decisions.md#ssf-2027-29`, `decisions.md#cost-model-2027`. Figures copied from sources:
@@ -225,7 +235,9 @@ model report's ranking is of state-sourced funding, which is a different measure
 ### Whether the Quality Education Model is the right yardstick
 
 - The Joint Committee on Public Education Appropriation's November 2025 report says 2025-27 funding "effectively closes the
-  funding gap and allows for the full implementation of the QEM" [SRC:legislature/olis/2025I1/310695_jpea.pdf p.4].
+  funding gap and allows for the full implementation of the QEM": the Legislature provided $11.4 billion for the State
+  School Fund and $2.2 billion in grant-in-aid for core K-12 operations and programs, $13.6 billion in all, against
+  the commission's $13.5 billion state funding need [SRC:legislature/olis/2025I1/310695_jpea.pdf p.4].
 - The same report criticizes how the model is built [SRC:legislature/olis/2025I1/310695_jpea.pdf p.5].
 - A legislative concept from the joint committee would move the cost model from the Quality Education Commission to the Legislative
   Policy and Research Office [SRC:legislature/olis/2025I1/311607_jpea-legislative-concepts.pdf p.1]. It became

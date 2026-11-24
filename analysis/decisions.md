@@ -54,7 +54,8 @@ services is still open (`questions.csv`, "csl-meaning").
   the $11 million for the current budget reaches 2027-29 as the larger beginning balance, so it isn't new money on top
   of the $245 million [SRC:fiscal/oea/2026-12_forecast.pdf p.62] [SRC:fiscal/oea/2026-12_forecast.pdf p.63].
 - Kotek has said her budget will prioritize education and summer learning [NEWS:NEWS-2026-salemreporter-1]. After the
-  election she declined to commit to how she would pay for her school goals [NEWS:NEWS-20261106-occ-1].
+  election, speaking about revenue proposals such as a wealth tax, she said she had made no commitments on how to pay
+  for things [NEWS:NEWS-20261106-occ-1].
 - Analysis: when the budget is released, compare its State School Fund amount with each figure in the comparison set
   for the next decision, not with one benchmark alone.
 
@@ -125,8 +126,11 @@ document from the Governor with the $12.57 billion figure.
 - Rep. Ricki Ruiz, D-District 50 (Gresham), describes his proposal, one-time fund money for targeted relief on Public Employees Retirement System (PERS) costs, as
   immediate relief while longer-term reform is developed
   [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt] [SRC:legislature/members/ruiz.html].
-- Analysis: every option here needs the same vote and trigger. Kotek and Lieber object on the record to one-time money
-  for ongoing costs. PERS contributions are an ongoing cost, so the objection could apply both to Ruiz's proposal and to Portland Public Schools' request for $500 million to
+- Analysis: every option here needs the same vote and trigger. Lieber objects on the record to one-time money
+  for ongoing costs [NEWS:NEWS-20260510-wweek-1]; Kotek has described a similar objection, from unnamed legislative leaders, as
+  one she can understand [NEWS:NEWS-20261102-opb-1], and has said tapping one-time reserves for Portland Public Schools'
+  budget problems goes against enrollment-driven state investment [NEWS:NEWS-2026-katu-kotek-pps-1]. PERS
+  contributions are an ongoing cost, so the objection could apply both to Ruiz's proposal and to Portland Public Schools' request for $500 million to
   buy down PERS rates [NEWS:NEWS-20261102-opb-1], while
   supporters describe a one-time draw as a bridge until lasting reform. The objection stated by Rep. Tawna
   Sanchez, D-District 43 (North and Northeast Portland) [SRC:legislature/members/sanchez.html], is mainly timing:

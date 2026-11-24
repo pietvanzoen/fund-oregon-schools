@@ -55,6 +55,13 @@ the added or changed sentences in those files, in our own words: skip quotes, ci
    person's columns are empty or the person isn't in the file, note it as `style` with "needs: party, district and
    area in people.csv", never `must` or `should`.
 
+8. **In short.** For each added or changed `summary` in a topic file's front matter (it's our own words, so review
+   it): two or three sentences in everyday words a parent with no budget background could repeat; it names the
+   thing, says what the archive found and what it can't yet say; no abbreviations or jargon; any number needs no
+   context and matches the cited figures below. Retell it as in check 1 and compare with the cited lines it
+   restates: simpler words often overstate ("the money didn't work" where the source shows "the reports can't
+   tell"). Overstating is `must`.
+
 ## Rewrites
 
 Suggest a rewrite for each finding, using only facts already in the sentence or its cited source. If the clear

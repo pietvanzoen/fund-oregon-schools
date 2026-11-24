@@ -1,13 +1,13 @@
+---
+summary: >
+  State school money for students at online charter schools goes first to the district where the school is
+  located; a district that sponsors one must pass on at least 80% of its per-student grant for kindergarten
+  through eighth grade and 95% for high school, and keeps the rest. None of the education department's documents
+  in the archive gives a total; our estimate is about $257 million of state and local school money in 2025-26, a
+  little over 3% of the money shared among school districts. How much sponsors keep depends on contracts, and
+  the archive has the terms for only one online charter.
+---
 # Online charters: State School Fund money that follows students
-
-State School Fund money for students of online (virtual) charter schools is paid first to the district where the
-charter is located. A district that sponsors a charter must pass on at least 80% (K-8) or 95% (grades 9-12) of its
-General Purpose Grant per weighted student [SRC:legislature/ors/ors338.html]. Our estimate puts the formula revenue
-attributable to virtual charters at about $257 million in 2025-26 [DER:virtual_charters/gpg_attributable_2025_26],
-roughly 3.3% of the school district share [DER:virtual_charters/gpg_attributable_share_2025_26]. It multiplies each
-charter's extended weighted count (the higher of the current or prior year's weighted enrollment) by its sponsor's
-average grant rate and mixes state and local money; no archived state
-document gives an official total.
 
 Issue #20. Copied values: `data/virtual_charters_2025-26.csv`, `data/virtual_charters_grades_2025-26.csv` and
 `data/virtual_charters_hs_admw_2024-25.csv`. Our calculations: `derived/virtual_charters.csv`,
@@ -52,7 +52,8 @@ or business office pages (see "Still to find").
   [DER:virtual_charters/gpg_attributable_2025_26], roughly 3.3% of the school district share
   [DER:virtual_charters/gpg_attributable_share_2025_26]. The denominator is wider than the estimate: the district
   share also pays transportation, high-cost disability grants and the educator advancement fund, which the estimate
-  leaves out, so on a like-for-like basis the share would be a little higher.
+  leaves out, so on a like-for-like basis the share would be a little higher. The estimate mixes state and local
+  money and multiplies each charter's weighted count by its sponsor's grant per weighted student (method below).
 - **The sponsors' share.** How much a sponsor keeps depends on each charter's contract. The archive has pass-through
   terms for only one virtual charter, Baker Web Academy, from the Baker School District 5J's 2025-26 service agreement
   rather than its charter contract (see "Baker School District 5J and Baker Web Academy" below). The transparency report has no grade split. A district sponsor keeps whatever it does not pass through. If every

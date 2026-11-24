@@ -1,8 +1,13 @@
+---
+summary: >
+  The Student Investment Account, created by the Student Success Act in 2019, gives school districts and some
+  other education programs grants on top of regular state school funding, to support students' mental and
+  behavioral health and raise achievement. Districts and the other programs have reported spending almost all of
+  the money every year, and most of it has paid for staff. The state's reports cover only two years of results,
+  measured against targets each grantee set with the state rather than against what would have happened without
+  the money, so on their own they can't show whether the money changed results for students.
+---
 # The Student Investment Account: what the money funds and what the Oregon Department of Education reports it did
-
-Grantees have reported spending 98.1% to 99.4% of each year's Student Investment Account money, mostly on staff in the
-years with staff figures (2021-22 on). The Oregon Department of Education's outcome reports cover two years of targets, and they don't show whether the
-money changed outcomes (sources and figures below).
 
 Decisions this informs: standing research (what the money buys). Figures copied from sources: `data/sia_spending.csv`.
 Our sums: `derived/sia.csv`. Audits and outside reviews are still to come (#57).
@@ -10,8 +15,7 @@ Our sums: `derived/sia.csv`. Audits and outside reviews are still to come (#57).
 ## Analysis
 
 The spending picture is clear and consistent. Grantees (districts, eligible charter schools, and youth corrections
-and juvenile detention programs) reported spending almost all of each year's allocation, mostly on staff (from
-2021-22, when staff figures begin). The same three of the law's four allowed uses lead every year: health and safety
+and juvenile detention programs) reported spending almost all of each year's allocation, mostly on staff. The same three of the law's four allowed uses lead every year: health and safety
 first, then well-rounded education and smaller classes. By the law's list, that category covers
 student mental and behavioral health and school health professionals, among other health and safety uses, which
 fits the first of the law's two purposes (meeting students' mental or behavioral health needs; the second is raising
@@ -133,7 +137,8 @@ reviews (#57), outcomes over time (#58) and the research on whether funding chan
   Well-rounded education and smaller classes come next [SRC:ode/sia/2022-01_sia-legislative-report.pdf p.13]
   [SRC:ode/sia/2023-01_sia-legislative-report.pdf p.17] [SRC:ode/sia/2024-01_sia-legislative-report.pdf p.23]
   [SRC:ode/sia/2025-01_sia-legislative-report.pdf p.19] [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.23].
-- **Most of it pays for people.** Salaries and benefits were 75.7% of spending in 2021-22, 81.7% in 2022-23 and in
+- **Most of it pays for people.** Salaries and benefits were 76% of spending in 2020-21
+  [SRC:ode/sia/2022-01_sia-legislative-report.pdf p.14], 75.7% in 2021-22, 81.7% in 2022-23 and in
   2023-24, and 85.8% ($473.3 million) in 2024-25 [SRC:ode/sia/2023-01_sia-legislative-report.pdf p.17]
   [SRC:ode/sia/2024-01_sia-legislative-report.pdf p.23] [SRC:ode/sia/2025-01_sia-legislative-report.pdf p.19]
   [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.24]. In 2021-22, salary and benefit spending funded 2,459.0

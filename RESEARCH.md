@@ -56,7 +56,7 @@ decision ── baseline and options ── positions (who stands where, when)
 |---|---|---|---|
 | Decision | A choice, who makes it, by when, its status and outcome | Draw on the Education Stability Fund in 2027-29? | `analysis/decisions.csv` |
 | Option | The baseline, a benchmark or a concrete proposal, who proposed it, its formality | PPS: $500M to buy down PERS rates statewide | `analysis/options.csv` |
-| Position | One actor's dated, cited stance on a decision or an option | Kotek, Nov 2026: against one-time money for ongoing costs | `analysis/positions.csv` |
+| Position | One actor's dated, cited stance on a decision or an option | Lieber, May 2026: warned that one-time money for ongoing costs leaves a cliff | `analysis/positions.csv` |
 | Actor | A person or body with a role in a decision | Sen. Kate Lieber, Ways and Means co-chair | `analysis/people/people.csv`; `analysis/people/<id>.md` |
 | Question | What a reader needs to know to compare options | Could the stability fund pay down districts' PERS costs? | `analysis/questions.csv` |
 | Evidence | What sources say, what we calculated, our analysis | Fund rules, balances, PERS rates | `sources/`, `analysis/data/`, `analysis/derived/`, `analysis/topics/`, `analysis/people/` |

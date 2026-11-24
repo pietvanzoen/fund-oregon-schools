@@ -8,8 +8,9 @@ Errors: unknown SRC path (not archived and not queued), page beyond the document
 CSV row with no source, malformed JSONL, duplicate queue paths or news ids;
 malformed analysis/derived/<topic>.csv, unknown [DER:topic/id], a DER value not shown in its sentence or table row,
 a DER figure outside topics/ without "our sum"/"our estimate" in its sentence;
-a topic file without the three sections in order (Analysis first), or a line under "What the sources say" with no source citation or with
-"Analysis:".
+a topic file without an uncited `summary` in its front matter, front matter outside topics/ or beyond `key: value`
+and folded `>`; a topic file without the three sections in order (Analysis first), or a line under
+"What the sources say" with no source citation or with "Analysis:".
 Warnings also flag a number under "What the sources say" that isn't in the text of a source the line cites.
 analysis/updates.csv (What's new) has its own columns instead of a source: date, text, page, pr.
 The decision files (RESEARCH.md) must agree: every option, position and question names a decision in decisions.csv,
@@ -32,8 +33,8 @@ import sys
 from decimal import ROUND_HALF_UP, Decimal
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import (ANALYSIS, DERIVED, NEWS_INDEX, QUOTES, ROOT, SOURCES, TAG_RE, parse_src,  # noqa: E402
-                    read_jsonl, read_queue, text_path)
+from common import (ANALYSIS, DERIVED, NEWS_INDEX, QUOTES, ROOT, SOURCES, TAG_RE, front_matter,  # noqa: E402
+                    parse_src, read_jsonl, read_queue, text_path)
 
 SECTIONS = ["Analysis", "What the sources say", "Derived figures"]
 DER_COLS = ["id", "value", "unit", "kind", "label", "method", "inputs", "assumptions"]
@@ -174,14 +175,24 @@ def main():
             full = os.path.join(dirpath, f)
             rel = os.path.relpath(full, ROOT)
             if f.endswith(".md"):
-                lines = list(enumerate(open(full, encoding="utf-8").read().split("\n"), 1))
+                text = open(full, encoding="utf-8").read()
+                lines = list(enumerate(text.split("\n"), 1))
+                try:
+                    meta, body = front_matter(text)
+                except ValueError as e:
+                    errors.append(f"{rel}: {e}")
+                    continue
+                body_lines = lines[len(lines) - len(body.split("\n")):]  # keeps the file's line numbers
                 for n, line in lines:
                     for m in TAG_RE.finditer(line):
                         check_tag(f"{rel}:{n}", m.group(1), m.group(2))
-                check_der_figures(rel, lines, derived, errors)
-                check_glossary(rel, lines, glossary, warnings)
+                check_der_figures(rel, body_lines, derived, errors)
+                check_glossary(rel, lines, glossary, warnings)  # the summary too: STYLE.md allows no abbreviations
                 if os.path.dirname(full) == os.path.join(ANALYSIS, "topics"):
-                    check_sections(rel, lines, news_text, errors, warnings)
+                    check_summary(rel, meta, errors)
+                    check_sections(rel, body_lines, news_text, errors, warnings)
+                elif meta:
+                    errors.append(f"{rel}: only topic files may have front matter (CLAUDE.md rule 4)")
             elif dirpath == DERIVED:
                 continue  # checked above
             elif full == UPDATES:
@@ -374,6 +385,16 @@ def check_glossary(rel, lines, glossary, warnings):
                 continue
             seen.add(w)
             warnings.append(f"{rel}:{n}: {w} isn't in analysis/glossary.csv (CLAUDE.md rule 11)")
+
+
+def check_summary(rel, meta, errors):
+    """Topic files: front matter holds only a `summary` (STYLE.md, "In short"), uncited; the page below backs it."""
+    if not meta.get("summary"):
+        errors.append(f"{rel}: no `summary` in front matter (STYLE.md, \"In short\")")
+    for k in meta.keys() - {"summary"}:
+        errors.append(f"{rel}: front matter key {k} isn't used; topic files hold only `summary`")
+    if TAG_RE.search(meta.get("summary", "")):
+        errors.append(f"{rel}: the summary carries no citations; back each sentence with a cited line below")
 
 
 def check_sections(rel, lines, news_text, errors, warnings):

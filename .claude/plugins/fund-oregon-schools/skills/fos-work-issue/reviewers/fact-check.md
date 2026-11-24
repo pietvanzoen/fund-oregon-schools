@@ -37,7 +37,11 @@ scrambled, or text below a `--- OCR of this page` line (machine OCR of a picture
    projection all match the source.
 3. **Claims**: the citation supports the sentence as written, without overstatement ("plans to" vs "has
    committed to", "about" vs an exact figure, one district vs "districts").
-4. **Uncited claims**: any factual sentence with no citation.
+4. **Uncited claims**: any factual sentence with no citation. The one exception is a topic file's front-matter
+   `summary` (CLAUDE.md rule 2): it carries no citations, but **each sentence in it must be backed by a cited line
+   further down the same page**. For each summary sentence, name the cited line(s) that back it and check those
+   against their sources as usual. A summary sentence with no backing line, or one that says more than its backing
+   lines do (more certain, broader, a different period or actor, a number that doesn't match), is an error.
 5. **News records**: the summary is in the author's own words (not lifted from the article; open the URL with
    your web tools if you can, and compare), every quote is under 25 words, and the outlet and date are right.
    **Every fact a `[NEWS:...]` citation supports must appear in that record's summary, key facts or quotes.** A

@@ -1,3 +1,12 @@
+---
+summary: >
+  The Quality Education Model works out the cost of full funding from a set list of staff and programs, such as
+  smaller elementary classes, counselors, nurses, librarians and summer school, aimed at a 90% four-year
+  graduation rate; districts decide how to spend the money. The commission behind the model says student results
+  inform its judgment but aren't part of the model's math, and in 2022 it said the model had never directly
+  modeled how results change with cost. The commission says that had the state fully funded the model since
+  2012-13, the state would be positioned to reach 90% graduation by 2027-28; its 2024 report said 2025-26.
+---
 # What full funding is meant to buy: the Quality Education Model's practices and outcomes
 
 How the Quality Education Commission links its Quality Education Model to practices in schools and to
