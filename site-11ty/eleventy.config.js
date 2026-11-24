@@ -36,17 +36,25 @@ export default function (cfg) {
     walk(out);
     if (broken.length) throw new Error(`Broken internal links:\n  ${broken.join("\n  ")}`);
 
-    // Search results show the description; every page search engines may index needs one (CLAUDE.md rule 4)
-    const bare = [];
+    // Search results show the title and description; every indexable page needs its own (CLAUDE.md rule 4)
+    const bare = [], seen = {};
     const walkMeta = (d) => fs.readdirSync(d, { withFileTypes: true }).forEach((f) => {
       const p = path.join(d, f.name);
       if (f.isDirectory()) return walkMeta(p);
       if (!p.endsWith(".html")) return;
       const html = fs.readFileSync(p, "utf8");
-      if (!html.includes('name="robots" content="noindex"') && !html.includes('<meta name="description"')) bare.push(path.relative(out, p));
+      if (html.includes('name="robots" content="noindex"')) return;
+      const page = path.relative(out, p);
+      const desc = html.match(/<meta name="description" content="([^"]*)"/)?.[1];
+      if (!desc) bare.push(page);
+      for (const v of [html.match(/<title>([^<]*)<\/title>/)?.[1], desc].filter(Boolean)) (seen[v] ||= []).push(page);
     });
     walkMeta(out);
-    if (bare.length) throw new Error(`Pages with no meta description:\n  ${bare.join("\n  ")}`);
+    const dupes = Object.entries(seen).filter(([, ps]) => ps.length > 1).map(([v, ps]) => `"${v}": ${ps.join(", ")}`);
+    if (bare.length || dupes.length) throw new Error([
+      bare.length && `Pages with no meta description:\n  ${bare.join("\n  ")}`,
+      dupes.length && `Titles or descriptions used on more than one page:\n  ${dupes.join("\n  ")}`,
+    ].filter(Boolean).join("\n"));
 
     // Search index: Pagefind reads the built pages marked data-pagefind-body (topics, people, terms)
     const { index, errors } = await pagefind.createIndex();

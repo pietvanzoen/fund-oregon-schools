@@ -151,7 +151,7 @@ Least new code that fully does the job; adapted from the ponytail rules
 - **Keep** validation and error handling when moving or merging code.
 - **Tests:** anything with branches, loops, parsing, money figures or a new script gets an assert-based case in
   `tools/test_tools.py` (plain `assert`, run by CI). Trivial changes don't. Site code (`site-11ty/`) gets no tests: CI's
-  site build (`cd site-11ty && npm ci && npx eleventy`) covers it, failing on a broken internal link, an unknown `[[id]]` or an indexable page with no meta description. Derive scripts
+  site build (`cd site-11ty && npm ci && npx eleventy`) covers it, failing on a broken internal link, an unknown `[[id]]` or an indexable page with no meta description or with a title or description another page uses. Derive scripts
   (`tools/derive_*.py`) get no tests either: they're plain arithmetic on archived data, CI reruns them and fails on
   any change in output, and the fact-checker checks each method; a test would only pin today's numbers.
 - **Known limits** go in a comment: `shortcut: <the limit>, <when to upgrade>`.
