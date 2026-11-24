@@ -8,7 +8,7 @@ summary: >
   for districts under financial strain, with no amount or bill yet. Gov. Tina Kotek said tapping one-time
   reserves for the district's budget problems would run against the enrollment-driven way the state invests.
 ---
-# Reserves: Education Stability Fund
+# The Education Stability Fund: Oregon's school reserve
 
 ## Analysis
 
