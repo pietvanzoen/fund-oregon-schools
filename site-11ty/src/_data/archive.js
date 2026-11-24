@@ -53,6 +53,8 @@ const options = csv("analysis/options.csv");
 const glossaryAll = csv("analysis/glossary.csv");
 const termSlug = (t) => t.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const termTitle = (g) => (g.kind === "acronym" && g.full_name ? `${g.term}: ${g.full_name}` : g.term);
+// The card for a term's page, wherever a link to it appears (Terms on this page, Related pages)
+const termCard = (g) => ({ kind: g.kind === "acronym" ? "Abbreviation" : "Term", icon: "abbr", title: termTitle(g), url: `/glossary/${termSlug(g.term)}/`, lines: [g.tooltip || clip(plain(g.definition), 160)] });
 // Every row, found in page text for "Terms on this page" and its term page's backlinks. An acronym matches in its
 // own case or as its full name (pages usually write "State School Fund"); words match in any case
 const wordRe = (w, flags) => new RegExp(`(^|[^\\w-])${w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w-])`, flags);
@@ -340,6 +342,7 @@ for (const g of glossaryAll) {
   if (slugs.has(slug)) throw new Error(`glossary.csv: two terms make the page /glossary/${slug}/`);
   slugs.add(slug);
   const p = new Page(`glossary:${slug}`, `/glossary/${slug}/`, termTitle(g));
+  p.term = g;
   p.body = p.render(`# ${termTitle(g)}\n\n${g.definition} ${g.source}`, "glossary.csv");
   p.line = g.tooltip || clip(plain(g.definition), 160);
   p.description = clip(plain(g.definition).replace(/\s+/g, " ").trim(), 160);
@@ -608,13 +611,13 @@ for (const p of pages) {
       .map((b) => `<li><a class="with-i" href="${b.url}" data-card="${b.id}">${icon(entities[b.id]?.icon || (b.id.startsWith("glossary:") ? "abbr" : "topic"))}<span>${esc(b.title)}</span></a></li>`).join("")}</ul></section>`;
   if (p.terms.size) { // after Related pages; past 10, the rest behind "See N more"
     const li = [...p.terms].sort((a, b) => a.term.localeCompare(b.term, "en", { sensitivity: "base" })).map((g) => {
-      const id = p.card(`glossary:${termSlug(g.term)}`, { kind: "Term", icon: "abbr", title: termTitle(g), url: `/glossary/${termSlug(g.term)}/`, lines: [g.tooltip || clip(plain(g.definition), 160)] });
+      const id = p.card(`glossary:${termSlug(g.term)}`, termCard(g));
       return `<li><a href="/glossary/${termSlug(g.term)}/" data-card="${id}">${esc(termTitle(g))}</a></li>`;
     });
     p.aside += `<section class="box side-box" aria-labelledby="gls"><h2 class="side-title" id="gls">Terms on this page</h2><ul class="side-list">${li.slice(0, 10).join("")}</ul>`
       + (li.length > 10 ? `<details class="read-more"><summary>See ${li.length - 10} more</summary><ul class="side-list">${li.slice(10).join("")}</ul></details>` : "") + `</section>`;
   }
-  for (const b of p.backlinks) p.card(b.id, entities[b.id] || { kind: "Page", icon: "topic", title: b.title, url: b.url, lines: [] });
+  for (const b of p.backlinks) p.card(b.id, entities[b.id] || (b.term && termCard(b.term)) || { kind: "Page", icon: "topic", title: b.title, url: b.url, lines: [] });
   if (p.boxes) // each section of a generated page is a white card; the text before the first one stays as the intro
     p.html = p.html.replace(/<h2 id="([^"]+)">[\s\S]*?(?=<h2 id=|$)/g, (sec, id) => `<section class="box" aria-labelledby="${id}">${sec}</section>`);
   p.meta = (p.note || "") + pageMeta([p.sourceFile].flat());
