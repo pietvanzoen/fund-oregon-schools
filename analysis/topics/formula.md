@@ -41,7 +41,9 @@ and poverty weights (#19), and the 2027 reform proposals (#25).
 - **Transportation.** The state reimburses an approved share of district transportation costs
   [SRC:legislature/ors/ors327.html].
 - **Charters.** A sponsoring district must pass through at least 80% (K-8) or 95% (9-12) of its General Purpose
-  Grant per weighted student to a public charter school it sponsors, virtual ones included [SRC:legislature/ors/ors338.html]; see
+  Grant per weighted student to a public charter school it sponsors, virtual ones included [SRC:legislature/ors/ors338.html].
+  The department says that figure is the grant per extended weighted student
+  [SRC:ode/correspondence/2026-11-24_ode-ssf-coordinator-reply_charter-schools-rate.txt]; see
   `topics/virtual-charters.md`.
 - At a Nov. 6, 2026, press conference Gov. Tina Kotek said, as quoted by KATU: "Maybe enrollment is the wrong
   marker. That was established almost 30 years ago. Maybe it has to be student need." She called rethinking it "a

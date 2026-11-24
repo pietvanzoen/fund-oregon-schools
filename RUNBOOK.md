@@ -36,6 +36,17 @@ budget link, then queue the budget PDFs themselves.
   cite `[VID:legislature/video/<date>_<committee>@H:MM:SS]`. Keep files under GitHub's 100 MB limit (audio only,
   if the video is bigger).
 - **Pages behind scripts or logins.** Save from a browser and add a manifest line by hand (url, fetched_at, sha256).
+- **Email replies** to a question or records request sent for the archive. Archive an attachment (a contract, a
+  report) as its original file. Archive the reply itself only when the analysis needs something it says and no
+  other citable source says it; otherwise leave it out and name the reply in the manifest note of anything it
+  came with. When you do archive one, save it as `sources/<agency or district folder>/correspondence/<date>_<slug>.txt`:
+  the header lines (sender, cc, subject, date), the body and the signature's name and titles, verbatim, then the
+  quoted message it answers (its headers and body), so the answer reads against the question as sent. Leave out
+  email addresses of members of the public (the maintainer's included), phone numbers, links and notices a mail
+  system added; join line breaks from a PDF print and say so. Add a manifest line by hand
+  (`url` empty, `fetched_at` when the reply arrived) with notes saying what was asked, what was left out and any
+  formatting changes. Why:
+  `adr/20261124-1755-agency-email-replies-as-text.md`.
 - **News.** Don't archive articles. Add a record to `sources/news/index.jsonl`: id `NEWS-YYYYMMDD-outlet-N`, date,
   outlet, title, url, a summary in your own words, key facts, and at most short quotes (< 25 words). To correct
   a record, recheck it against the article and add a dated `note` saying what changed (`CLAUDE.md` rule 6).
