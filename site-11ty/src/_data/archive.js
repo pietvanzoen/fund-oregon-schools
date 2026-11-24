@@ -9,7 +9,8 @@ import { icon } from "../_includes/icons.js";
 
 const ROOT = path.resolve(import.meta.dirname, "../../..");
 const LIVE = "https://fundoregonschools.org/"; // pages the spike doesn't build yet link to the live site
-const BLOB = "https://github.com/pietvanzoen/fund-oregon-schools/blob/main/";
+const REPO = "https://github.com/pietvanzoen/fund-oregon-schools";
+const BLOB = REPO + "/blob/main/";
 const md = markdownIt({ html: true });
 
 const read = (p) => fs.readFileSync(path.join(ROOT, p), "utf8");
@@ -303,6 +304,10 @@ for (const p of pages) {
     return `<h2 id="${id}">${inner}</h2>`;
   });
   if (p.id.startsWith("topic:")) {
+    // The paragraph before the first section is a note for maintainers (decision, open issues, data files): it goes to the foot
+    const i = p.html.indexOf("<h2 ");
+    p.note = p.html.slice(0, i).trim().replace(/(^|[\s(])#(\d+)\b/g, `$1<a href="${REPO}/issues/$2">#$2</a>`);
+    p.html = p.html.slice(i);
     // Each h2 and what follows it becomes one card
     p.html = p.html.replace(/<h2 id="([^"]+)">([\s\S]*?)<\/h2>([\s\S]*?)(?=<h2 id=|$)/g, (_, id, inner, rest) => {
       const [cls, ic, label, note] = SECTIONS[id] || ["box-plain", "", inner];
@@ -318,7 +323,7 @@ for (const p of pages) {
     p.aside += `<section class="box side-box" aria-labelledby="rel"><h2 class="side-title" id="rel">Related pages</h2><ul class="side-list">${p.backlinks.sort((a, b) => a.title.localeCompare(b.title))
       .map((b) => `<li><a href="${b.url}" data-card="${b.id}">${esc(b.title)}</a></li>`).join("")}</ul></section>`;
   for (const b of p.backlinks) p.card(b.id, entities[b.id] || { kind: "Page", icon: "topic", title: b.title, url: b.url, lines: [] });
-  p.meta = `Source on GitHub: <a href="${BLOB}${p.sourceFile}"><code>${p.sourceFile}</code></a> · <a href="https://github.com/pietvanzoen/fund-oregon-schools/commits/main/${p.sourceFile}">history</a>`;
+  p.meta = `${p.note || ""}<p>Source on GitHub: <a href="${BLOB}${p.sourceFile}"><code>${p.sourceFile}</code></a> · <a href="${REPO}/commits/main/${p.sourceFile}">history</a></p>`;
   p.back = p.id.startsWith("person:") ? ["Who decides", "/who-decides/"] : null;
 }
 

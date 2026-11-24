@@ -40,7 +40,7 @@ ${trail}
   </article>
   ${aside ? `<div class="side">${aside}</div>` : ""}
 </main>
-${meta ? `<p class="page-meta">${meta}</p>` : ""}
+${meta ? `<section class="page-meta" aria-labelledby="about-page"><h2 id="about-page">About this page</h2>${meta}</section>` : ""}
 </div>
 <footer class="foot">
   <div class="wrap">
