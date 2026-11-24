@@ -36,6 +36,17 @@ jobs:
       - name: Build site
         working-directory: site-11ty
         run: npm ci && npx eleventy
+      # PRs: a relative-link build as a zip on the run's Summary page; unzip and open index.html (search needs a local
+      # server, e.g. `npx http-server`)
+      - if: github.event_name == 'pull_request'
+        working-directory: site-11ty
+        run: PREVIEW=1 npx eleventy
+      - if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-preview-pr-${{ github.event.pull_request.number }}
+          path: site-11ty/_site
+          retention-days: 14
       - if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:

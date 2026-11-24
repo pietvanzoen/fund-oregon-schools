@@ -12,7 +12,7 @@ export default function (cfg) {
   if (PREVIEW)
     cfg.addTransform("relative-links", function (html) {
       if (!this.page.outputPath?.endsWith(".html")) return html;
-      const depth = this.page.url.split("/").filter(Boolean).length;
+      const depth = this.page.url.replace(/[^/]*$/, "").split("/").filter(Boolean).length; // a file URL (/404.html) sits at its folder's depth
       const up = "../".repeat(depth) || "./";
       return html.replace(/(href|src|action)="\/(?!\/)([^"#]*)(#[^"]*)?"/g, (_, attr, p, hash = "") =>
         `${attr}="${up}${p}${p === "" || p.endsWith("/") ? "index.html" : ""}${hash}"`);
