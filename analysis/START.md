@@ -18,11 +18,12 @@ Run by Oregon public school parents. [About this site](about.md)
 - **State School Fund, adopted by the Legislature for 2025-27:** $11.36 billion [SRC:fiscal/lfo/2025-07_lab-summary-2025-27.pdf p.1].
   The State School Fund is the primary source of state funding for K-12 public education
   [SRC:gov/press/2024_ssf-csl-proposal.html].
-- **State School Fund current service level, 2027-29:** $12.56 billion, the amount needed in the 2027-29 budget to
-  continue existing authorized programs [SRC:gov/press/2024_ssf-csl-proposal.html], as estimated by the Department of
-  Administrative Services in the Quality Education Commission's 2026 report [SRC:ode/qec/2026_qem_report.pdf p.103].
+- **State School Fund current service level, 2027-29:** $12.56 billion, the amount needed in the next two-year budget
+  to continue existing authorized programs [SRC:gov/press/2024_ssf-csl-proposal.html], as estimated by the Department of
+  Administrative Services when the Quality Education Commission's 2026 report was published
+  [SRC:ode/qec/2026_qem_report.pdf p.103] [SRC:ode/qec/2026_qem_report.pdf p.117].
 - **Quality Education Commission estimate for 2027-29, to keep 2025-27 service levels:** $13.78 billion in core
-  state funding, which counts state money beyond the State School Fund, in its 2026 report [SRC:ode/qec/2026_qem_report.pdf p.103]
+  state funding, which counts the State School Fund and other state money, in its 2026 report [SRC:ode/qec/2026_qem_report.pdf p.103]
   [SRC:ode/qec/2026_qem_report.pdf p.117].
 - **Quality Education Commission estimate for 2027-29, to meet the state's education goals:** $16.21 billion in
   core state funding, in its 2026 report [SRC:ode/qec/2026_qem_report.pdf p.117].
