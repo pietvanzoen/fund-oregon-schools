@@ -10,8 +10,8 @@ const SITE = "https://oregonedtrail.org";
 // seo: the <title> and link-preview title when it differs from the H1; the home page's is the site name.
 // The home page also names the site for Google's site-name display (WebSite structured data)
 export function layout({ url, title, seo = "", crumbs = [], back = null, description = "", hero = "", body, aside = "", meta = "", search = null, script = "", cards, wide = false, noindex = false }) {
-  // <title> carries the domain, so search results show the address to type; the home page adds the tagline
-  const full = url === "/" ? "OregonEdTrail.org: following the money behind Oregon's schools" : `${seo || title} · OregonEdTrail.org`;
+  // Only the home title carries the domain (the address people pass on); elsewhere the name reads better aloud
+  const full = url === "/" ? "OregonEdTrail.org: following the money behind Oregon's schools" : `${seo || title} · Oregon Ed Trail`;
   const trail = back
     ? `<p class="crumbs back"><a href="${back[1]}">‹ ${esc(back[0])}</a></p>`
     : crumbs.length ? `<nav class="crumbs" aria-label="Breadcrumb"><ol>${crumbs.map(([t, u]) => `<li><a href="${u}">${esc(t)}</a></li>`).join("")}</ol></nav>` : "";
