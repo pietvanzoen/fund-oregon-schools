@@ -404,8 +404,8 @@ function buildHome() {
   for (const it of items(keyBlock, /^- /)) {
     const t = it.match(/^\*\*(.+?):\*\*\s*\$([\d.,]+) (billion|million)([\s\S]*)$/);
     if (t) {
-      // The tile keeps the figure with its own citation; later sentences (definitions) go to the list below
-      const [, own, after] = t[4].match(/^([^[]*?(?:\[[A-Z]+:[^\]]+\]\s*)+)\.?\s*([\s\S]*)$/) || [, t[4], ""];
+      // The tile keeps the bullet's first sentence (the figure and what it is); later sentences go to the list below
+      const [, own, after] = t[4].match(/^([\s\S]*?\])\.\s+([A-Z][\s\S]*)$/) || [, t[4].replace(/\.\s*$/, ""), ""];
       tiles.push(`<li class="kn-tile"><p class="kn-label">${esc(t[1])}</p><p class="kn-fig"><span class="kn-num">$${t[2]}</span> <span class="kn-unit">${t[3]}</span></p><p class="kn-rest">${inline(own.replace(/^[,.]?\s*/, ""))}</p></li>`);
       if (after.trim()) rest.push(`<li>${inline(after.trim())}</li>`);
     }
@@ -447,7 +447,7 @@ function buildHome() {
   return p;
 }
 
-// The funding chart from the live site (site_hook.funding_chart), as HTML bars
+// The funding chart from the live site (site_hook.funding_chart, labels and note as there), as HTML bars
 function fundingChart(inline) {
   const qem = Object.fromEntries(csv("analysis/data/qem_gap.csv").filter((r) => r.biennium === "2027-29").map((r) => [r.measure, r]));
   const adopted = csv("analysis/data/ssf_history.csv").find((r) => r.biennium === "2025-27" && r.stage === "legislatively_adopted");
@@ -463,7 +463,7 @@ function fundingChart(inline) {
   return `<figure class="box chart"><figcaption class="chart-title">State funding for K-12, billions of dollars: 2025-27 adopted and 2027-29 estimates</figcaption><ul class="bars">`
     + bars.map(([label, val, sub, cls]) => `<li class="bar-row"><p class="bar-label"><strong>${esc(label)}</strong> <span>${esc(sub)}</span></p>`
       + `<p class="bar"><span class="bar-fill bar-${cls}" style="width:calc((100% - 8.5em) * ${(val / max).toFixed(3)})"></span><span class="bar-val">$${val.toFixed(2)} billion</span></p></li>`).join("")
-    + `</ul><p class="chart-src">2027-29 figures: 2026 Quality Education Model report ${inline(srcs)}. 2025-27: ${inline(adopted.source)}</p></figure>`;
+    + `</ul><p class="chart-src">The first two bars are the State School Fund alone; the Quality Education Model figures also count other state money, so compare them with each other. The Quality Education Commission leaves what counts as adequate to the Legislature.</p><p class="chart-src">2027-29 figures: 2026 Quality Education Model report ${inline(srcs)}. 2025-27: ${inline(adopted.source)}</p></figure>`;
 }
 
 const home = buildHome();
