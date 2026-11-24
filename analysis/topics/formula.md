@@ -1,4 +1,9 @@
 ---
+title: >
+  How the State School Fund is shared among districts
+description: >
+  Oregon shares its State School Fund among school districts by a formula in state law that counts enrollment and
+  gives extra weight to some students.
 summary: >
   The State School Fund is shared among school districts by a formula in state law. It counts each district's
   average enrollment and gives extra weight to some students, such as those in special education or learning

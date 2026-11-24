@@ -1,3 +1,10 @@
+---
+title: >
+  Gov. Tina Kotek on school funding
+description: >
+  Gov. Tina Kotek's record and statements on Oregon K-12 funding, outcome goals, the Education Stability Fund and
+  Portland school closures, cited.
+---
 # Gov. Tina Kotek
 
 Tina Kotek is governor of Oregon; she was reelected in November 2026 [NEWS:NEWS-20261106-occ-1]. She submits the

@@ -37,6 +37,15 @@ blocking); the clarity reviewer checks the rest.
   - Yes: "Schools and other grantees spent almost all of this money each year, mostly on staff. The state's reports
     don't yet show whether it changed results for students."
   - No: "The money didn't work." (the reports can't tell, which isn't the same)
+- **Search titles and descriptions.** Topic files and person profiles have a `description` in front matter, shown
+  under the page's link in search results and link previews; a topic whose H1 is over 55 characters also has a
+  shorter `title`. The description is one sentence of at most 160 characters that says what the page covers and
+  its main finding, with the words a reader would search for (State School Fund, not "the fund"). Same rules as
+  In short: plain words, no abbreviations, no new claims. The title names the subject first and is at most 55
+  characters; the site adds "· Oregon Ed Trail".
+  - Yes: "Oregon shares its State School Fund among school districts by a formula in state law that counts enrollment
+    and gives extra weight to some students."
+  - No: "This page looks at the formula." (says nothing a search result can use)
 
 ## Weight and certainty
 

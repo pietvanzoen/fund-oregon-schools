@@ -1,4 +1,9 @@
 ---
+title: >
+  Measures 5 and 50: why schools rely on the state
+description: >
+  Measures 5 (1990) and 50 (1997) capped property taxes; the state's share of school operating money went
+  from under a third to about 70% by 1998-99.
 summary: >
   Measure 5 (1990) and Measure 50 (1997) capped property taxes for schools. Over the same years the state's
   share of school operating money rose from under a third in 1990-91 to about 70% by 1998-99, according to the

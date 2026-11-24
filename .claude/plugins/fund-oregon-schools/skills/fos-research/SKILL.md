@@ -51,7 +51,8 @@ python3 tools/linkify.py analysis/decisions.md                  # print with cit
   flyers, testimony). Flag figures that are estimates, projections or an advocacy group's numbers.
 - Keep what documents state, what people said, and your own inference ("Analysis:") separate. Topic files do this
   in sections: "Analysis" (first), "What the sources say", "Derived figures". Each opens with front matter whose
-  `summary` (the site's "In short") is uncited plain words: never cite it; cite the lines below it that back it.
+  `summary` (the site's "In short") and `description` (search results) are uncited plain words: never cite them;
+  cite the lines below them that back them.
 - A `[DER:...]` figure is this archive's own calculation, never an official number. Say so ("by the archive's own
   sum", "the archive estimates"), keep the DER tag or link to its row, and give an `est` figure's assumptions.
   Don't attribute it to the agency whose data went into it.

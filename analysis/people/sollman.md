@@ -1,3 +1,10 @@
+---
+title: >
+  Sen. Janeen Sollman on school funding
+description: >
+  Sen. Janeen Sollman, school budget subcommittee co-chair who lost her 2026 primary, and the 2026 bill to
+  replace the Quality Education Model that didn't pass.
+---
 # Sen. Janeen Sollman
 
 Official page: <https://www.oregonlegislature.gov/sollman>

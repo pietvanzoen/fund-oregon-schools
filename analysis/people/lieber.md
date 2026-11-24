@@ -1,3 +1,10 @@
+---
+title: >
+  Sen. Kate Lieber on school funding
+description: >
+  Sen. Kate Lieber, co-chair of the Legislature's budget committee: her K-12 budget role and her statements on
+  revenue and the Education Stability Fund, cited.
+---
 # Sen. Kate Lieber
 
 Official page: <https://www.oregonlegislature.gov/lieber>
