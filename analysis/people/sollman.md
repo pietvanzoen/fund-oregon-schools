@@ -1,3 +1,10 @@
+---
+title: >
+  Sen. Janeen Sollman on school funding
+description: >
+  Sen. Janeen Sollman, Education Subcommittee co-chair: her role in Oregon's K-12 budget and the 2026 bill to
+  replace the Quality Education Model, cited.
+---
 # Sen. Janeen Sollman
 
 Official page: <https://www.oregonlegislature.gov/sollman>

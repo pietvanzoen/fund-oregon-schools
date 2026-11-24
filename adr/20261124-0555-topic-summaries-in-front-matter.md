@@ -1,6 +1,6 @@
 # A topic's plain-language summary lives in its own file's front matter
 
-Status: accepted (2026-11-24, PR #158)
+Status: accepted (2026-11-24, PR #158). Extended by [20261124-1751-page-titles-and-descriptions-in-front-matter.md](20261124-1751-page-titles-and-descriptions-in-front-matter.md)
 
 ## Context
 For most readers a topic's opening is the only paragraph they read, and only 2 of the 8 topic files opened with a

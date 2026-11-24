@@ -70,7 +70,8 @@ for (const f of topicFiles) {
   const summary = String(data.summary || "").trim();
   const h1 = (text.match(/^# (.+)$/m) || [, f])[1].trim();
   const lead = (text.split(/^## Analysis\s*$/m)[1] || text.split("\n\n")[1] || "").trim().split(/\n\s*\n/)[0];
-  entities[`topic:${f.slice(0, -3)}`] = { kind: "Topic", icon: "topic", title: h1, url: `/${f.slice(0, -3)}/`, lines: [summary || clip(plain(lead))], summary, text };
+  entities[`topic:${f.slice(0, -3)}`] = { kind: "Topic", icon: "topic", title: h1, url: `/${f.slice(0, -3)}/`, lines: [summary || clip(plain(lead))], summary, text,
+    seo: data.title?.trim(), description: data.description?.trim() };
 }
 for (const g of glossary)
   entities[`term:${g.term}`] = { kind: "Abbreviation", icon: "abbr", title: g.full_name || g.term, url: null, lines: [g.tooltip], term: g.term };
@@ -262,23 +263,13 @@ const SECTIONS = {
 };
 
 const PARTY = { D: "Democrat", R: "Republican", I: "Independent" };
-// <title> and description for profiles, as on the MkDocs site
-const PERSON_META = {
-  kotek: { seo: "Gov. Tina Kotek on school funding", description: "Gov. Tina Kotek's record and statements on Oregon K-12 funding, outcome goals, the Education Stability Fund and Portland school closures, cited." },
-  lieber: { seo: "Sen. Kate Lieber on school funding", description: "Sen. Kate Lieber, Ways and Means co-chair: her role in Oregon's K-12 budget and her statements on revenue and the Education Stability Fund, cited." },
-  sanchez: { seo: "Rep. Tawna Sanchez on school funding", description: "Rep. Tawna Sanchez, Ways and Means co-chair: her role in Oregon's K-12 budget and her statements on revenue and reserves, cited." },
-  ruiz: { seo: "Rep. Ricki Ruiz on school funding", description: "Rep. Ricki Ruiz, Education Subcommittee and JPEA co-chair: the JPEA sufficiency finding, the push to replace the QEM, and his statements, cited." },
-  sollman: { seo: "Sen. Janeen Sollman on school funding", description: "Sen. Janeen Sollman, Education Subcommittee co-chair: her role in Oregon's K-12 budget and the 2026 effort to replace the QEM, cited." },
-};
-
 const pages = [];
 
 for (const f of topicFiles) {
   const e = entities[`topic:${f.slice(0, -3)}`];
   const p = new Page(`topic:${f.slice(0, -3)}`, e.url, e.title);
   p.body = p.render(numberTiles(e.text), `topics/${f}`);
-  p.summary = e.summary;
-  p.line = e.summary;
+  Object.assign(p, { summary: e.summary, line: e.summary, seo: e.seo, description: e.description });
   p.sourceFile = `analysis/topics/${f}`;
   pages.push(p);
 }
@@ -289,7 +280,9 @@ for (const person of people) {
   const p = new Page(id, e.url, e.title);
   const file = `analysis/people/${person.id}.md`;
   const has = fs.existsSync(path.join(ROOT, file));
-  let text = has ? read(file).replace(/^Official page: .*\n/m, "") : `# ${e.title}\n`;
+  // A profile's front matter holds its <title> and description; a person without one gets both from people.csv below
+  const { data: fm, content } = has ? matter(read(file)) : { data: {}, content: `# ${e.title}\n` };
+  const text = content.replace(/^Official page: .*\n/m, "");
   const [h1, ...rest] = text.split("\n");
   const pos = positions.filter((r) => r.actor === person.id);
   const opts = options.filter((r) => r.proposed_by.split(/[;,]\s*/).includes(person.id));
@@ -309,7 +302,8 @@ for (const person of people) {
     + `<p class="pc-more">${[r.role_2025_26 && `2025-26: ${esc(r.role_2025_26)}`, r.official_page && `<a href="${esc(r.official_page)}">Official page</a>`].filter(Boolean).join(" · ")}</p>`
     + `<p class="pc-src">Sources: ${cites}</p></section>`;
   p.line = [office, r.area].filter(Boolean).join(" · ");
-  Object.assign(p, PERSON_META[person.id] || {});
+  Object.assign(p, { seo: fm.title?.trim(), description: fm.description?.trim()
+    || clip(`${e.title} (${[PARTY[r.party], r.district && `District ${r.district}`, r.area].filter(Boolean).join(", ") || r.office}): ${(r.role_2025_26 || r.role_2027).replace(/W&M/g, "Ways and Means")}. Their role in Oregon's school budget.`, 160) });
   p.sourceFile = has ? file : "analysis/people/people.csv";
   p.stub = !has;
   pages.push(p);
@@ -338,6 +332,7 @@ for (const g of glossaryAll) {
   const p = new Page(`glossary:${slug}`, `/glossary/${slug}/`, termTitle(g));
   p.body = p.render(`# ${termTitle(g)}\n\n${g.definition} ${g.source}`, "glossary.csv");
   p.line = g.tooltip || clip(plain(g.definition), 160);
+  p.description = clip(plain(g.definition).replace(/\s+/g, " ").trim(), 160);
   p.sourceFile = "analysis/glossary.csv";
   pages.push(p);
 }
@@ -356,6 +351,7 @@ topicsPage.body = `<ul class="topic-list box">${topicFiles.map((f) => {
   return `<li><a class="list-link" href="${e.url}" data-card="topic:${f.slice(0, -3)}">${esc(e.title)}</a><p>${esc(e.lines[0])}</p></li>`;
 }).join("")}</ul>`;
 topicsPage.sourceFile = "analysis/topics";
+Object.assign(topicsPage, { seo: "Oregon K-12 funding topics", description: "Cited explainers on Oregon school funding: the State School Fund formula, the Quality Education Model, the school reserve, online charters, results and more." });
 pages.push(topicsPage);
 
 // ------------------------------------------------------------- pages built from the decision files, data and lists
@@ -539,7 +535,7 @@ ${mdTable(["Budget", "Stage", "$ billion", "Note", "Source"], ssf.map((r) => [r.
   const p = new Page("sources", "/sources/", "Sources");
   p.body = html.join("\n");
   Object.assign(p, { sourceFile: ["sources/_manifest.jsonl", "sources/news/index.jsonl"], boxes: true, seo: "Primary sources",
-    description: "Every document in the Oregon K-12 funding archive: budgets, legislative hearing documents, QEM reports and revenue forecasts, with download records and news metadata." });
+    description: "Every document in the Oregon K-12 funding archive: budgets, legislative hearing documents, Quality Education Model reports, forecasts and news." });
   pages.push(p);
 }
 
@@ -749,6 +745,6 @@ export default {
     search: p.kind ? { kind: p.kind, line: p.line || "" } : null,
     cards: Object.fromEntries(Object.entries(p.cards).map(([k, c]) => [k, { kind: c.kind, icon: c.icon, title: c.title, url: c.url, external: !!c.external, lines: c.lines.filter(Boolean), also: c.also }])) })),
   nav: { topics: nav.topics.map(({ text, ...t }) => t), people: nav.people },
-  home: { title: home.title, hero: home.hero, description: "Primary documents and cited analysis on Oregon K-12 funding: how much the state spends, how it's shared through the formula, and what it buys, focused on the 2027-29 budget.", html: home.html, meta: home.meta,
+  home: { title: home.title, hero: home.hero, description: "Primary documents and cited analysis on Oregon K-12 school funding: how much the state spends, how it's shared and what it buys, for the 2027-29 budget.", html: home.html, meta: home.meta,
     cards: Object.fromEntries(Object.entries(home.cards).map(([k, c]) => [k, { kind: c.kind, icon: c.icon, title: c.title, url: c.url, external: !!c.external, lines: c.lines.filter(Boolean), also: c.also }])) },
 };

@@ -1,4 +1,7 @@
 ---
+description: >
+  Oregon's Education Stability Fund is expected to hold about $1.3 billion at the end of 2025-27; spending it
+  takes a three-fifths vote of both chambers.
 summary: >
   The Education Stability Fund is one of the state's two general savings accounts, expected to hold about $1.3
   billion at the end of the 2025-27 budget, according to the state's December 2026 revenue forecast; taking

@@ -1,4 +1,9 @@
 ---
+title: >
+  Online charter schools and State School Fund money
+description: >
+  How state school money for online charter school students passes through sponsoring districts, which keep up to
+  20% for kindergarten to eighth grade.
 summary: >
   State school money for students at online charter schools goes first to the district where the school is
   located; a district that sponsors one must pass on at least 80% of its per-student grant for kindergarten

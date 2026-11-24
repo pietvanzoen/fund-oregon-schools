@@ -1,4 +1,9 @@
 ---
+title: >
+  What the Quality Education Model is meant to buy
+description: >
+  The Quality Education Model prices full funding from a set list of staff and programs, such as smaller
+  elementary classes, counselors and summer school.
 summary: >
   The Quality Education Model works out the cost of full funding from a set list of staff and programs, such as
   smaller elementary classes, counselors, nurses, librarians and summer school, aimed at a 90% four-year

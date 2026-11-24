@@ -36,6 +36,18 @@ export default function (cfg) {
     walk(out);
     if (broken.length) throw new Error(`Broken internal links:\n  ${broken.join("\n  ")}`);
 
+    // Search results show the description; every page search engines may index needs one (CLAUDE.md rule 4)
+    const bare = [];
+    const walkMeta = (d) => fs.readdirSync(d, { withFileTypes: true }).forEach((f) => {
+      const p = path.join(d, f.name);
+      if (f.isDirectory()) return walkMeta(p);
+      if (!p.endsWith(".html")) return;
+      const html = fs.readFileSync(p, "utf8");
+      if (!html.includes('name="robots" content="noindex"') && !html.includes('<meta name="description"')) bare.push(path.relative(out, p));
+    });
+    walkMeta(out);
+    if (bare.length) throw new Error(`Pages with no meta description:\n  ${bare.join("\n  ")}`);
+
     // Search index: Pagefind reads the built pages marked data-pagefind-body (topics, people, terms)
     const { index, errors } = await pagefind.createIndex();
     if (errors.length) throw new Error(`Pagefind: ${errors.join("; ")}`);

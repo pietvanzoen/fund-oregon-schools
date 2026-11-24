@@ -1,3 +1,10 @@
+---
+title: >
+  Sen. Kate Lieber on school funding
+description: >
+  Sen. Kate Lieber, Ways and Means co-chair: her role in Oregon's K-12 budget and her statements on revenue and
+  the Education Stability Fund, cited.
+---
 # Sen. Kate Lieber
 
 Official page: <https://www.oregonlegislature.gov/lieber>

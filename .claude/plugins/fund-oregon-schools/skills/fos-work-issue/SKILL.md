@@ -223,9 +223,10 @@ Then, as the issue needs:
   the page leads with it; it reads on its own and points to the evidence as "below"), `## What the sources say`
   (what documents state and what people said, dated, every line cited, no inference) and `## Derived figures` (a
   table of our sums, shares and estimates, each with its `[DER:<topic>/<id>]` tag). It is published on the website
-  automatically, titled by its H1. It opens with a front-matter `summary` ("In short", `STYLE.md`): uncited, and
+  automatically, titled by its H1. It opens with front matter (CLAUDE.md rule 4): a `summary` ("In short") and a
+  `description` (search results), plus a `title` when the H1 is over 55 characters (`STYLE.md`); all uncited, and
   every sentence backed by a cited line below. When the research changes what the page found, update the summary
-  in the same PR.
+  and description in the same PR.
 - Structured data in `analysis/data/<name>.csv` with a `source` column on every row: values copied from sources
   only. A total the document prints is a source value; one we add up is derived.
 - Every calculated value (per-row and totals) goes in `analysis/derived/<topic>.csv`, written only by a plain

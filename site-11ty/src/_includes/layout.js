@@ -7,7 +7,8 @@ const MARK = `<svg class="mark" viewBox="0 0 40 40" aria-hidden="true"><rect wid
 
 const SITE = "https://oregonedtrail.org";
 
-// seo: the <title> and link-preview title when it differs from the H1; the home page's is the site name alone
+// seo: the <title> and link-preview title when it differs from the H1; the home page's is the site name alone.
+// The home page also names the site for Google's site-name display (WebSite structured data)
 export function layout({ url, title, seo = "", crumbs = [], back = null, description = "", hero = "", body, aside = "", meta = "", search = null, script = "", cards, wide = false, noindex = false }) {
   const full = seo === "Oregon Ed Trail" ? seo : `${seo || title} · Oregon Ed Trail`;
   const trail = back
@@ -23,7 +24,7 @@ ${description ? `<meta name="description" content="${esc(description)}">\n` : ""
 <meta property="og:site_name" content="Oregon Ed Trail">
 <meta property="og:title" content="${esc(seo || title)}">
 ${description ? `<meta property="og:description" content="${esc(description)}">\n` : ""}<meta name="twitter:card" content="summary">
-<!-- Umami Cloud page analytics: cookieless, no personal data -->
+${url === "/" ? `<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Oregon Ed Trail","url":"${SITE}/"}</script>\n` : ""}<!-- Umami Cloud page analytics: cookieless, no personal data -->
 <script defer src="https://cloud.umami.is/script.js" data-website-id="da03c53e-e3dd-49c6-9802-664629302cd2"></script>
 <link rel="icon" href="/assets/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
