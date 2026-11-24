@@ -1,6 +1,6 @@
 # Pages list the glossary terms they use in the side column
 
-Status: accepted (2026-11-24, PR #173)
+Status: accepted (2026-11-24, PR #173). Labels (baseline, benchmark, proposal) aren't linked in running text: [20261124-2326-glossary-labels-not-linked-in-text.md](20261124-2326-glossary-labels-not-linked-in-text.md)
 
 ## Context
 Readers meet terms of art without a definition (#161). Acronyms got a preview card on first use, but the 31 `kind: term`
