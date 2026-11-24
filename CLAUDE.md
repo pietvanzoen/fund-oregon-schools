@@ -136,7 +136,9 @@ archive's emails and records requests.
     it, and the PR description says what the fact-check found and what changed.
 11. **Glossary.** When analysis uses an abbreviation or term of art that isn't in `analysis/glossary.csv`, add a
     row (cited, like everything else). Acronyms get a short plain-text `tooltip`, shown in a preview card on the
-    acronym's first use on each page; every row gets its own page under Glossary. Don't use one abbreviation for two things: OEA is the
+    acronym's first use on each page, which links to the term's page (a term of art gets the same, its card
+    showing its tooltip or the start of its definition); every row gets its own page under Glossary, and every page that uses it lists it
+    under "Terms on this page". Don't use one abbreviation for two things: OEA is the
     Office of Economic Analysis, so write out "Oregon Education Association".
 
 ## Writing code (tools/, workflows, site build)
