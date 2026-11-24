@@ -1,6 +1,6 @@
 # What's new is a CSV with a PR column, checked in CI, not built from commit messages
 
-Status: accepted (2026-11-21)
+Status: accepted (2026-11-21). Amended by [20261124-2210-whats-new-kinds.md](20261124-2210-whats-new-kinds.md) (a `kind` column)
 
 ## Context
 What's new (`analysis/updates.md`) was a hand-edited list, and nothing checked that a PR added a line: #51 merged
