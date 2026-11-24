@@ -1,9 +1,11 @@
-# Oregon K-12 Funding Research
+# Oregon Ed Trail
+
+*Following the money behind Oregon's schools.*
 
 A research archive on Oregon K-12 funding (how much the state spends, how it's shared and what it buys), focused on the **2027-29 budget** (Gov. Tina Kotek's
 Recommended Budget and the 2027 Legislature): primary sources, and analysis that cites them claim by claim.
 
-**Browse it:** <https://fundoregonschools.org>, a readable website built from this repo.
+**Browse it:** <https://oregonedtrail.org>, a readable website built from this repo.
 
 **Start here:** [`analysis/START.md`](analysis/START.md) (the home page) and
 [`analysis/decisions.md`](analysis/decisions.md): what's being decided, the options, who stands where and what's open.
@@ -13,7 +15,7 @@ How the research is organized: [`RESEARCH.md`](RESEARCH.md).
 
 > Please set me up using https://raw.githubusercontent.com/pietvanzoen/fund-oregon-schools/main/SETUP.md
 
-**Who runs it:** a volunteer group of Oregon public school parents. Contact: hello@fundoregonschools.org
+**Who runs it:** a volunteer group of Oregon public school parents. Contact: hello@oregonedtrail.org
 
 Modeled on the PPS rightsizing archive ([timaelliott/save-our-schools](https://github.com/timaelliott/save-our-schools)):
 primary sources kept untouched in `sources/`, and everything in `analysis/` cites back to them. Portland-specific

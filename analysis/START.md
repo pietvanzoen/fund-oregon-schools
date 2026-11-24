@@ -1,5 +1,7 @@
 # Oregon K-12 funding: the research archive
 
+*Following the money behind Oregon's schools.*
+
 A research archive on Oregon K-12 funding, focused on the 2027-29 budget. It collects the primary documents and
 cites every claim, so parents, reporters and anyone else can check facts and build their own materials.
 

@@ -577,7 +577,7 @@ def questions_page(ctx):
     out = ["# Questions", "",
            "What readers have asked, and what this archive can answer so far. Each question belongs to a "
            "[decision](decisions.md) or to standing research. Have a question? Email "
-           "[hello@fundoregonschools.org](mailto:hello@fundoregonschools.org); we describe who asked, never name them.",
+           "[hello@oregonedtrail.org](mailto:hello@oregonedtrail.org); we describe who asked, never name them.",
            "", "## Answered", ""]
     out += [f"- **{q['question']}** {about(q)} · `{q['answer']}`" for q in answered] or ["None yet."]
     out += ["", "## Open", ""]

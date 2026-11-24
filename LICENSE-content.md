@@ -5,12 +5,12 @@ This repository holds three kinds of material, under different terms.
 ## Our analysis and writing: CC BY 4.0
 
 Everything in `analysis/` (including `analysis/data/` and `analysis/derived/`), `website/`, and the pages of
-<https://fundoregonschools.org> built from them is licensed under the
+<https://oregonedtrail.org> built from them is licensed under the
 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
 (CC BY 4.0). You may copy, adapt and republish it for any purpose, commercial or not, as long as you credit it and
 say whether you changed it. A credit like this is enough:
 
-> Oregon K-12 Funding Research, fundoregonschools.org, CC BY 4.0
+> Oregon Ed Trail, oregonedtrail.org, CC BY 4.0
 
 The license covers only our own words and calculations. Quotes from documents, officials and news outlets in the
 analysis remain the work of their authors.
@@ -28,4 +28,4 @@ rights stay with whoever published them. We keep copies so citations still work 
 documents. Each file's original URL is in `sources/_manifest.jsonl`. News is stored only as metadata, our own
 summaries and short quotes.
 
-If you publish a document archived here and want it removed, email hello@fundoregonschools.org.
+If you publish a document archived here and want it removed, email hello@oregonedtrail.org.

@@ -1,11 +1,11 @@
 ---
 title: About this site
-description: How the Oregon K-12 Funding Research site works, from archived primary sources and claim-by-claim citations to asking questions and reporting errors.
+description: How the Oregon Ed Trail site works, from archived primary sources and claim-by-claim citations to asking questions and reporting errors.
 ---
 
 # About this site
 
-This site is a readable view of the [Oregon K-12 Funding Research archive](https://github.com/pietvanzoen/fund-oregon-schools),
+This site is a readable view of the [Oregon Ed Trail archive](https://github.com/pietvanzoen/fund-oregon-schools),
 a collection of primary documents and cited analysis on Oregon K-12 funding: how much the state spends on public
 schools, how that money is shared, and what it buys, focused on the 2027-29 budget.
 
@@ -34,7 +34,7 @@ check facts and build their own materials.
   Label them that way if you reuse them.
 - **Reusing our work:** the analysis and site text are under
   [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): copy or adapt them for any purpose, with credit to
-  Oregon K-12 Funding Research, fundoregonschools.org. Archived documents belong to their publishers.
+  Oregon Ed Trail, oregonedtrail.org. Archived documents belong to their publishers.
 - **Check the date:** forecasts and budgets change (the Governor's budget is due Dec. 1, 2026). Each page shows when
   it was last updated.
 - **Ask in plain language:** paste this into a new Claude chat, and Claude will set itself up to answer your
@@ -43,7 +43,7 @@ check facts and build their own materials.
     > Please set me up using https://raw.githubusercontent.com/pietvanzoen/fund-oregon-schools/main/SETUP.md
 
 - **Have a question the site doesn't answer?** Email it to
-  [hello@fundoregonschools.org](mailto:hello@fundoregonschools.org). Open questions are listed on
+  [hello@oregonedtrail.org](mailto:hello@oregonedtrail.org). Open questions are listed on
   [What's being decided](decisions.md); we describe who asked, never name them.
 - **Found a gap or a mistake?** [Tell us](#spot-a-mistake-or-have-a-source-to-add).
 
@@ -53,7 +53,7 @@ A volunteer group of Oregon public school parents maintains this archive. Our ch
 including Portland Public Schools, so we have a stake in these decisions. That's why every claim links to its source:
 check it rather than take our word for it, and the site records options and positions on all sides of each decision.
 
-Contact: [hello@fundoregonschools.org](mailto:hello@fundoregonschools.org)
+Contact: [hello@oregonedtrail.org](mailto:hello@oregonedtrail.org)
 
 ## How it works
 
@@ -92,4 +92,4 @@ Even with these checks, mistakes can get through. That's why every claim links t
 ## Spot a mistake or have a source to add?
 
 [Open an issue](https://github.com/pietvanzoen/fund-oregon-schools/issues/new) on GitHub, or email
-[hello@fundoregonschools.org](mailto:hello@fundoregonschools.org).
+[hello@oregonedtrail.org](mailto:hello@oregonedtrail.org).
