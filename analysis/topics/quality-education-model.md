@@ -2,9 +2,9 @@
 summary: >
   The Quality Education Model is the state's own estimate of what schools need to meet Oregon's goals. Its 2026
   report puts that at about $16.2 billion of state money for the 2027-29 budget, about $2.4 billion more than
-  its estimate of what it takes to keep today's level of service. A legislative committee said funding for the
-  current two-year budget closed the gap by this measure while criticizing how the model is built, and a 2026
-  bill to replace it did not pass.
+  the model's own estimate of what keeping 2025-27 services would take. A legislative committee said 2025-27
+  funding effectively closed the model's gap for that budget while criticizing how the model is built, and a
+  2026 bill to move the model to the Legislature's research office did not pass.
 ---
 # The Quality Education Model: the state's estimate of what schools need
 

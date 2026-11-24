@@ -1,10 +1,12 @@
 ---
 summary: >
   The Education Stability Fund is one of the state's two general savings accounts, expected to hold about $1.3
-  billion at the end of the current two-year budget. Taking money out takes a three-fifths vote in both the
-  House and the Senate, plus either a trigger tied to the economy or an emergency declared by the governor.
-  Portland Public Schools and a legislator have floated using some of it to help districts with state retirement
-  costs, while Gov. Tina Kotek opposes using one-time savings for costs that continue.
+  billion at the end of the 2025-27 budget, by the December 2026 revenue forecast. Taking money out takes a
+  three-fifths vote in both the House and the Senate, plus either a trigger tied to the economy or an emergency
+  declared by the governor. Portland Public Schools asked for $500 million of it to lower districts' payments
+  into the state's public employee pension system, and a legislator has floated a targeted plan with no amount
+  or bill; Gov. Tina Kotek said tapping one-time reserves for the district's budget problems would go against
+  funding schools by enrollment.
 ---
 # Reserves: Education Stability Fund
 
@@ -31,7 +33,7 @@ while longer-term reform is developed (`decisions.md#esf-draw-2027-29`).
   the end of 2025-27 [SRC:fiscal/oea/2026-12_forecast.pdf p.41]. Withdrawal takes a
   three-fifths vote in each chamber plus either an economic trigger or a governor's emergency declaration
   [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1] (news coverage: [NEWS:NEWS-20261102-opb-1]).
-- Portland Public Schools asked for $500 million to buy down Public Employees Retirement System (PERS) rates statewide [NEWS:NEWS-20261102-opb-1]. The
+- Portland Public Schools asked for $500 million of the Education Stability Fund to buy down Public Employees Retirement System (PERS) rates statewide [NEWS:NEWS-20261102-opb-1]. The
   district's chief financial officer said it would shrink its gap from $65 million to about $42.7 million
   [NEWS:NEWS-20261116-wweek-1].
 - Rep. Ricki Ruiz, D-District 50 (Gresham) [SRC:legislature/members/ruiz.html], co-chair of the Ways and Means
@@ -44,6 +46,9 @@ while longer-term reform is developed (`decisions.md#esf-draw-2027-29`).
   Rep. Zach Hudson, D-District 49 (Troutdale, Fairview, Wood Village, Gresham, Portland), expects 2027 revenue bills
   [NEWS:NEWS-20261112-katu-2] [SRC:legislature/members/hudson.html] [SRC:legislature/members/2026-11-03_general-election-results_state-representative.html] [SRC:legislature/members/helm.html].
 - Gov. Tina Kotek opposes using one-time reserves for ongoing costs [NEWS:NEWS-20261106-occ-1].
+- At a Nov. 6, 2026, press conference Kotek said, as quoted by KATU, "To tap the one-time reserves for this particular
+  instance goes against what we are talking about around enrollment-driving state investment", about Portland Public
+  Schools' budget problems [NEWS:NEWS-2026-katu-kotek-pps-1].
 
 ## Derived figures
 

@@ -1,10 +1,10 @@
 ---
 summary: >
-  This page covers what state school money is meant to buy and the goals attached to it, the least-researched
-  part of the archive so far. In April 2026 the State Board of Education set statewide targets for student
-  results to reach by 2029-30; the state's education director said meeting them doesn't require new money, and a
-  board member and a board adviser doubted that. A 2026 executive order from Gov. Tina Kotek bars cuts to time
-  in class and has districts restore 2024-25 levels by 2027-28.
+  In April 2026 the State Board of Education set statewide targets for student results to reach by 2029-30.
+  Oregon Department of Education Director Charlene Williams said meeting them doesn't require new money; a board
+  member and a board adviser doubted that, and the board adopted the targets unanimously. A 2026 executive order
+  from Gov. Tina Kotek bars further cuts to time in class and has districts that cut it plan to restore 2024-25
+  levels by 2027-28; the archive has little yet on what the money buys.
 ---
 # Results and accountability: what the money buys
 
@@ -27,8 +27,9 @@ increases go (#61), research on whether funding changes outcomes (#63), and unfu
   using or redirecting the resources they have; a board member and a board adviser voiced doubts about meeting them
   without more money, and the board then voted unanimously [NEWS:NEWS-20260429-oregonian-1].
 - Under SB 141, state help and oversight step up for districts that show no progress [NEWS:NEWS-20260429-oregonian-1].
-- **Executive Order 26-06**: no cuts to instructional time; districts restore 2024-25 levels by 2027-28
-  [SRC:gov/eo/eo-26-06_preserving-instructional-time.pdf p.2]. Its FAQ says funding options will be explored
+- **Executive Order 26-06**: no further cuts to instructional time; a district that cut it for 2025-26 or 2026-27
+  before the order took effect must submit, within 90 days, a plan to restore it to no less than 2024-25 levels by the
+  start of 2027-28 [SRC:gov/eo/eo-26-06_preserving-instructional-time.pdf p.2]. Its FAQ says funding options will be explored
   "within the existing budget" [SRC:gov/eo/eo-26-06_faq.pdf p.2].
 - The FAQ answers "No." to whether the order is an unfunded mandate [SRC:gov/eo/eo-26-06_faq.pdf p.3], while saying
   current funding "may not be sufficient for some school districts to cover increasing costs"

@@ -1,9 +1,9 @@
 ---
 summary: >
-  Measure 5 (1990) and Measure 50 (1997) capped property taxes for schools and had the state replace much of the
-  lost money: the state's share of school operating money rose from under a third to about 70% by 1998-99. A
-  district can raise more for its own schools only with a local levy, and that is capped too, so how much
-  schools get is mostly decided by the governor and the Legislature.
+  Measure 5 (1990) and Measure 50 (1997) capped property taxes for schools. Over the same years the state's
+  share of school operating money rose from under a third in 1990-91 to about 70% by 1998-99, according to the
+  Oregon Encyclopedia. A district can raise more for day-to-day operations only with a local levy, and how much
+  of that it keeps outside the state's sharing formula is capped too.
 ---
 # Measures 5 and 50: why school funding is a state decision
 
