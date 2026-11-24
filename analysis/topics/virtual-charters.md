@@ -197,8 +197,8 @@ or business office pages (see "Still to find").
   archived or checked yet (#169).
 - A 9-12 weighted count for Fossil Charter School and Paisley School: the High School Success allocations print only
   their sponsor districts' rows (Fossil School District 21J 25.53, Paisley School District 11 43.12), so this would
-  have to come from the department. Issue #47 didn't ask for this count; it is an open question (`questions.csv`,
-  `virtual-charter-hs-admw`).
+  have to come from the department. It isn't being pursued, because the check above already covers 18 of the 20
+  charters (`questions.csv`, `virtual-charter-hs-admw`).
 
 ## What the sources say
 
