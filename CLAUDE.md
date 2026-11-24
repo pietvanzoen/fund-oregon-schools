@@ -101,6 +101,9 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
    recheck it against the article (never from memory or another outlet), fix the summary or key facts, add a dated
    `note` saying what changed, and say so in the PR. Why: `adr/20261123-0249-correcting-news-records.md`.
 7. Describe members of the public, don't name them. Officials, legislators, staff and organizations can be named.
+   Emails and records requests sent for the archive, however they're drafted, may be published in it with their
+   reply (RUNBOOK, "Email replies"): write them to be read by the public, with no private details beyond what the
+   About page says about who runs the archive.
 8. Prefer structured outputs (CSV/JSONL) alongside readable Markdown. Every CSV row has a `source` column, except
    `analysis/derived/*.csv`, whose rows name their `inputs`, `analysis/updates.csv`, whose rows name their PR, and
    `analysis/questions.csv`, whose rows are questions, not facts. `analysis/positions.csv` is append-only: never
