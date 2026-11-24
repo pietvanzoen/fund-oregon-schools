@@ -13,7 +13,7 @@ column, below "Related pages", each linking to its term page with a preview card
 behind "See N more". The same match counts as a backlink, so term pages get
 "Related pages". An acronym matches in its own case or as its full name, a term in any case. In the text, a term of
 art's first use on each page gets the same dotted underline and preview card as an acronym's (its tooltip, or the
-start of its definition); later uses stay plain.
+start of its definition), and both link to the term's page for the full definition; later uses stay plain.
 
 ## Options weighed
 - **Side-column card, generated from `glossary.csv` (chosen):** one source of definitions; on phones it sits below

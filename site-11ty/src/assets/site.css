@@ -127,7 +127,7 @@ span.analysis{background:var(--think);border-radius:6px;padding:2px 6px;box-deco
 .box-analysis .cite-der,span.analysis .cite-der{background:var(--white)}
 a.cite:hover{color:var(--ink);border-color:var(--ink)}
 .cite[aria-describedby],.cite:focus-visible{background:var(--focus);border-color:var(--ink);color:var(--ink);outline:0}
-abbr[data-card],.term[data-card]{text-decoration:underline dotted;text-underline-offset:4px;cursor:help}
+a.gl{color:inherit;text-decoration:underline dotted;text-underline-offset:4px}
 
 /* small text holding pills needs lines at least as tall as a pill (about 24px) */
 .kn-rest,.chart-src,.pc-src,.foot p{line-height:1.9}

@@ -79,9 +79,9 @@ for (const f of topicFiles) {
   entities[`topic:${f.slice(0, -3)}`] = { kind: "Topic", icon: "topic", title: h1, url: `/${f.slice(0, -3)}/`, lines: [summary || clip(plain(lead))], summary, text,
     seo: data.title?.trim(), description: data.description?.trim() };
 }
-for (const g of glossaryAll) // a term of art matches in any case; its card shows the start of its definition
-  entities[`term:${g.term}`] = g.kind === "acronym" ? { kind: "Abbreviation", icon: "abbr", title: g.full_name || g.term, url: null, lines: [g.tooltip], term: g.term }
-    : { kind: "Term", icon: "abbr", title: g.term, url: null, lines: [g.tooltip || clip(plain(g.definition), 160)], term: g.term, ci: true };
+for (const g of glossaryAll) // links to its term page; a term of art matches in any case and its card shows the start of its definition
+  entities[`term:${g.term}`] = g.kind === "acronym" ? { kind: "Abbreviation", icon: "abbr", title: g.full_name || g.term, url: `/glossary/${termSlug(g.term)}/`, lines: [g.tooltip], term: g.term }
+    : { kind: "Term", icon: "abbr", title: g.term, url: `/glossary/${termSlug(g.term)}/`, lines: [g.tooltip || clip(plain(g.definition), 160)], term: g.term, ci: true };
 
 // A card for one citation chip; built per chip because the page number differs
 function citeCard(kind, body) {
@@ -211,10 +211,8 @@ class Page {
         const ci = byWord.get(w.toLowerCase());
         const [id, e] = byWord.get(w) || (ci?.[1].ci ? ci : []); // names and acronyms match only in their own case
         if (!id || seen.has(id)) return m;
-        seen.add(id); this.card(id, e);
-        if (e.url) this.refs.add(id);
-        return e.url ? `${pre}<a href="${e.url}" data-card="${id}">${w}</a>`
-          : `${pre}<${e.ci ? 'span class="term"' : "abbr"} data-card="${id}" tabindex="0">${w}</${e.ci ? "span" : "abbr"}>`;
+        seen.add(id); this.card(id, e); this.refs.add(id);
+        return `${pre}<a${e.term ? ' class="gl"' : ""} href="${e.url}" data-card="${id}">${w}</a>`;
       });
     }
     return parts.join("");
