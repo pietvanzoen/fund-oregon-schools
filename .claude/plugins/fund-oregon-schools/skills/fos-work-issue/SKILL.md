@@ -384,8 +384,9 @@ Then update the issue body so its status is clear at a glance (`gh api -X PATCH 
   - **On the site**, the pages this PR adds or changes, as oregonedtrail.org links. Each page sits at
     `https://oregonedtrail.org/<page>/`: `analysis/topics/<name>.md` → `/<name>/`; `decisions.md` →
     `/decisions/`; `people/<slug>.md` → `/people/<slug>/`; `timeline.md` → `/timeline/`; `promises.csv` →
-    `/promises/`; `people/quotes_all.jsonl` → `/quotes/`; `glossary.csv` → `/glossary/`; the CSVs listed in
-    `FILE_TO_PAGE` in `tools/site_hook.py` → their page there (e.g. `data/qem_gap.csv` → `/numbers/`). Link a
+    `/promises/`; `people/quotes_all.jsonl` → `/quotes/`; `glossary.csv` → `/glossary/` (one term: `/glossary/<term
+    in lowercase, hyphenated>/`); the files listed in `LINKS` in `site-11ty/src/_data/archive.js` → their page there
+    (e.g. `data/qem_gap.csv` → `/numbers/`). Link a
     decision's section by its anchor (`/decisions/#<id>`) when one changed. Note "(live after #<PR> merges)".
   - **In the repo**, the changed resources that have no page of their own: new or changed `analysis/data/*.csv`
     and `analysis/derived/*.csv`, the archived sources this PR added (one line per document, by path, linked

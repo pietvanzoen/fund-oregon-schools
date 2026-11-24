@@ -7,6 +7,7 @@ const PREVIEW = process.env.PREVIEW === "1";
 
 export default function (cfg) {
   cfg.addPassthroughCopy("src/assets");
+  cfg.addPassthroughCopy("src/CNAME"); // records the domain; an Actions deploy takes it from the repo's Pages settings
 
   if (PREVIEW)
     cfg.addTransform("relative-links", function (html) {
@@ -17,7 +18,7 @@ export default function (cfg) {
         `${attr}="${up}${p}${p === "" || p.endsWith("/") ? "index.html" : ""}${hash}"`);
     });
 
-  // Stands in for mkdocs build --strict: fail the build on any internal link with no page behind it
+  // Fail the build on any internal link with no page behind it
   cfg.on("eleventy.after", async ({ dir }) => {
     const out = dir.output;
     const broken = [];
@@ -28,7 +29,7 @@ export default function (cfg) {
       for (const [, href] of fs.readFileSync(p, "utf8").matchAll(/href="([^"#]+)/g)) {
         if (/^(https?:|mailto:|\/\/)/.test(href)) continue;
         const target = href.startsWith("/") ? path.join(out, href) : path.join(path.dirname(p), href);
-        const file = target.endsWith(".html") || target.endsWith(".css") ? target : path.join(target, "index.html");
+        const file = /\.\w+$/.test(target) ? target : path.join(target, "index.html");
         if (!fs.existsSync(file)) broken.push(`${path.relative(out, p)} -> ${href}`);
       }
     });

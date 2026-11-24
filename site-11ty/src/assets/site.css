@@ -73,9 +73,6 @@ a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:3px solid 
   .js .menu-about{display:block;border-top:1px solid var(--line);margin:8px 16px 0}
   .js .menu-about a{padding:0;font-weight:400}}
 
-.phase{background:var(--white);border-radius:10px;padding:8px 14px;margin:20px 0 0;font-size:16px}
-.tag{display:inline-block;background:var(--blue);color:#fff;border-radius:6px;padding:1px 8px;font-size:14px;margin-right:8px}
-@media(max-width:640px){.phase{font-size:15px;margin-top:12px}}
 
 /* page */
 .crumbs{font-size:16px;margin:16px 0 0}
@@ -193,7 +190,6 @@ th{font-weight:600}
 .search-go .i{width:24px;height:24px;stroke-width:2.5}
 .search-note{font-size:15px;color:var(--muted);margin:8px 0 0}
 @media(max-width:640px){.hero .wrap{padding-block:28px 24px}.hero h1{font-size:30px}.hero .lead{font-size:19px}}
-.phase+main,.hero+.wrap .phase{margin-bottom:8px}
 .home-sec{margin:36px 0 0}
 .home-sec>h2{margin:0 0 14px;font-size:27px}
 .sec-note{font-size:16px;color:var(--muted);margin:-8px 0 16px}
@@ -303,3 +299,26 @@ mark{background:var(--think);color:inherit;padding:0 2px;border-radius:3px}
 .sheet .card-also{text-align:center;margin-top:8px!important}
 .sheet .card-also a{display:inline-flex;align-items:center;min-height:44px}
 @media(prefers-reduced-motion:no-preference){.card:not([hidden]){animation:rise .15s ease-out}@keyframes rise{from{transform:translateY(4px);opacity:0}}}
+
+/* generated pages: decisions, numbers, timeline, quotes, promises, sources */
+article>section.box{margin-bottom:24px}
+.box>h2:first-child{margin-top:0}
+.box h3{margin-top:24px}
+details.info{background:var(--ground);border-radius:10px;padding:10px 16px 2px;margin:0 0 18px;font-size:17px}
+details.info summary{cursor:pointer;color:var(--blue);text-decoration:underline;min-height:44px;display:flex;align-items:center}
+.quotes,.promises{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:16px}
+.quote-card,.promise-card{margin:0;padding:18px 22px 6px}
+.quote-card blockquote{margin:0 0 10px;font-size:21px;line-height:1.45}
+.quote-card .who,.promise-card .who{font-size:16px;margin:0 0 6px}
+.quote-card .context{font-size:15px;color:var(--muted);line-height:1.9}
+.quote-filter button{font:inherit;font-size:16px;min-height:44px;padding:0 16px;border-radius:999px;background:#fff;color:var(--ink);border:1px solid #aeb7bd;cursor:pointer}
+.quote-filter button:hover{border-color:var(--ink)}
+.quote-filter button[aria-pressed=true]{background:var(--blue);border-color:var(--blue);color:#fff;font-weight:600}
+.quote-filter button[aria-pressed=true]:focus-visible{color:var(--ink)}
+.promise{font-size:20px;font-weight:600;line-height:1.4;margin:0 0 8px}
+.promise-card dl{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;font-size:16px;margin:8px 0 14px;line-height:1.9}
+.promise-card dt{color:var(--muted)}.promise-card dd{margin:0}
+.source-list{font-size:16px;padding-left:20px}
+.source-list li{margin-bottom:12px;overflow-wrap:anywhere}
+.source-list .muted{font-size:14px}
+article{overflow-wrap:break-word}

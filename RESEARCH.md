@@ -206,8 +206,9 @@ counter for it.
 None of this is research. It keeps the evidence trustworthy, publishes it and helps people use it; a part that
 stops doing one of those jobs should go.
 
-- **Site build** (`mkdocs.yml`, `tools/site_hook.py`, `website/`, `overrides/`): turns `analysis/` and `sources/`
-  into the reader pages above, with citations as links and the glossary as tooltips.
+- **Site build** (`site-11ty/`, Eleventy, and `website/about.md`): turns `analysis/` and `sources/` into the reader
+  pages above, with citations as links, a preview card for every linked person, topic, document and abbreviation,
+  and site search.
 - **Workflows** (`.github/workflows/`): `fetch-sources` archives queued documents with provenance and OCR,
   `transcribe` writes machine transcripts for media, `check` blocks a merge when citations, derived figures or the
   What's new row are wrong, and `pages` publishes the site.

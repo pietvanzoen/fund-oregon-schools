@@ -17,7 +17,7 @@ analysis remain the work of their authors.
 
 ## Code: MIT
 
-Code in `tools/`, `overrides/`, `.github/`, `.claude/` and `mkdocs.yml` is under the MIT License in
+Code in `tools/`, `site-11ty/`, `.github/` and `.claude/` is under the MIT License in
 [`LICENSE`](LICENSE).
 
 ## Archived sources: not ours to license

@@ -1,5 +1,5 @@
 {
-  "name": "fos-site-11ty-spike",
+  "name": "fos-site",
   "private": true,
   "type": "module",
   "scripts": {

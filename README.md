@@ -25,6 +25,8 @@ material stays in that archive and is cited from here as `[PPSARCH:...]`.
 - `sources/`: primary documents, untouched, with provenance in `_manifest.jsonl`; `_queue.csv` is what to fetch.
 - `analysis/`: everything derived from them, every claim cited. The research model (decisions, options, positions,
   questions, evidence) is in [`RESEARCH.md`](RESEARCH.md).
+- `site-11ty/`: the website, built with Eleventy from `analysis/` and `sources/`. Preview it with
+  `cd site-11ty && npm ci && npx eleventy --serve`; CI runs the same build on every PR and deploys it from `main`.
 - Everything else supports the research: see "How the repo supports the research" at the end of `RESEARCH.md`.
 
 ## License

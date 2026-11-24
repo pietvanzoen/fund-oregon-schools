@@ -20,5 +20,5 @@ export function render() {
 <p>Nothing on this site matches that. Check the spelling, try a shorter word, or browse the <a href="/topics/">topic list</a> and <a href="/who-decides/">Who decides</a>.</p>
 </div>
 <p class="search-docs">Looking for an original document? Search finds pages on this site. The documents themselves are listed under each topic's <strong>What the documents say</strong>.</p>`;
-  return layout({ title: "Search", crumbs: [["Home", "/"]], body, search: "page", cards: {} });
+  return layout({ url: "/search/", title: "Search", crumbs: [["Home", "/"]], body, search: "page", cards: {}, noindex: true });
 }

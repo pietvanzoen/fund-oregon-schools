@@ -63,3 +63,5 @@ machine-made: verify every quote by listening at the timestamp before citing it.
 - `python3 tools/check_citations.py` and `python3 tools/test_tools.py` must pass (CI runs both).
 - If a data file or derive script changed, run every `tools/derive_*.py` and commit `analysis/derived/`; CI reruns
   them and fails if the output differs.
+- To see the pages as readers will: `cd site-11ty && npm ci && npx eleventy --serve` (http://localhost:8080). CI runs
+  the same build on every PR; it fails on a broken internal link or an unknown `[[id]]`.
