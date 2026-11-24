@@ -184,7 +184,7 @@ class Page {
 
   // Cards on existing entity links; first mention of each person and abbreviation gets a link or <abbr>
   linkMentions(html) {
-    const seen = new Set([this.id]);
+    const seen = (this.seen ||= new Set([this.id])); // first mention per page, across every render call
     html = html.replace(/<a href="(\/[^"#]*)(#[^"]*)?"/g, (m, url, anchor = "") => {
       const id = Object.keys(entities).find((k) => entities[k].url === url);
       if (!id) return m;
@@ -281,6 +281,7 @@ const pages = [];
 for (const f of topicFiles) {
   const e = entities[`topic:${f.slice(0, -3)}`];
   const p = new Page(`topic:${f.slice(0, -3)}`, e.url, e.title);
+  p.summaryHtml = e.summary && p.render(e.summary, `topics/${f}`); // before the body: the summary comes first on the page
   p.body = p.render(numberTiles(e.text), `topics/${f}`);
   Object.assign(p, { summary: e.summary, line: e.summary, seo: e.seo, description: e.description });
   p.sourceFile = `analysis/topics/${f}`;
@@ -601,7 +602,7 @@ for (const p of pages) {
       const sub = note || (id === "derived-figures" && rest.includes("cite-der") ? "Our own calculations. Each one links to its method." : "");
       return `<section class="box ${cls}" aria-labelledby="${id}"><h2 id="${id}">${ic ? icon(ic, "i h-icon") : ""}${label}</h2>${sub ? `<p class="box-note">${sub}</p>` : ""}${rest}</section>`;
     });
-    if (p.summary) p.html = `<section class="box box-short" aria-labelledby="in-short"><h2 id="in-short">In short</h2><p>${esc(p.summary)}</p></section>` + p.html;
+    if (p.summary) p.html = `<section class="box box-short" aria-labelledby="in-short"><h2 id="in-short">In short</h2>${p.summaryHtml}</section>` + p.html;
   }
   p.aside = "";
   if (p.id.startsWith("topic:") && heads.length > 1)
