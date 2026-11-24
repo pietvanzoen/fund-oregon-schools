@@ -1,8 +1,12 @@
+---
+summary: >
+  The Student Investment Account, created by the Student Success Act in 2019, gives school districts and some
+  other education programs grants on top of regular state school funding, to support students' mental and
+  behavioral health and raise achievement. Grantees have reported spending almost all of the money every year,
+  and most of it pays for staff. The state's reports cover only two years of results, measured against targets
+  each grantee set with the state, so they don't yet show whether the money changed results for students.
+---
 # The Student Investment Account: what the money funds and what the Oregon Department of Education reports it did
-
-Grantees have reported spending 98.1% to 99.4% of each year's Student Investment Account money, mostly on staff in the
-years with staff figures (2021-22 on). The Oregon Department of Education's outcome reports cover two years of targets, and they don't show whether the
-money changed outcomes (sources and figures below).
 
 Decisions this informs: standing research (what the money buys). Figures copied from sources: `data/sia_spending.csv`.
 Our sums: `derived/sia.csv`. Audits and outside reviews are still to come (#57).

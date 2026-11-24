@@ -1,3 +1,11 @@
+---
+summary: >
+  This page covers what state school money is meant to buy and the goals attached to it, the least-researched
+  part of the archive so far. In April 2026 the State Board of Education set statewide targets for student
+  results to reach by 2029-30; the state's education director said meeting them doesn't require new money, and a
+  board member and a board adviser doubted that. A 2026 executive order from Gov. Tina Kotek bars cuts to time
+  in class and has districts restore 2024-25 levels by 2027-28.
+---
 # Results and accountability: what the money buys
 
 Standing research: what state funding buys, and the outcome goals and mandates attached to it. Open research: #57 (see `topics/student-investment-account.md`; audits still to do),

@@ -1,3 +1,11 @@
+---
+summary: >
+  The Education Stability Fund is one of the state's two general savings accounts, expected to hold about $1.3
+  billion at the end of the current two-year budget. Taking money out takes a three-fifths vote in both the
+  House and the Senate, plus either a trigger tied to the economy or an emergency declared by the governor.
+  Portland Public Schools and a legislator have floated using some of it to help districts with state retirement
+  costs, while Gov. Tina Kotek opposes using one-time savings for costs that continue.
+---
 # Reserves: Education Stability Fund
 
 ## Analysis

@@ -1,3 +1,11 @@
+---
+summary: >
+  The State School Fund is shared among school districts by a formula in state law. It counts each district's
+  average enrollment and gives extra weight to some students, such as those in special education or learning
+  English, though special education counts only up to 11% of a district's students unless the state approves
+  more. Gov. Tina Kotek has said student need might be a better basis than enrollment, but the archive has no
+  proposal from her for changing the formula.
+---
 # The funding formula: how the State School Fund is shared
 
 Decisions this informs: `decisions.md#formula-2027`. Open research: #17, #18, #19, #25.
