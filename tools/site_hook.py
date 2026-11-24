@@ -349,10 +349,15 @@ def actor(a):
     return NAMES.get(a, a)
 
 
-def question_list(qs):
-    """A decision's questions as links into the Questions page, which alone carries who asked, dates and status."""
-    return "\n".join(f"- [{q['question']}](questions.md#{q['id']})" + (" (answered)" if q["status"] == "answered" else "")
-                     for q in qs)
+def question_rows(qs):
+    def status(q):
+        if q["status"] == "answered" and q["answer"]:
+            return f"answered: `{q['answer']}`"
+        if q["issue"]:
+            return f"{q['status']} · [follow the work]({GITHUB}/issues/{q['issue']})"
+        return q["status"]
+    return table(["Question", "Asked by", "Needed by", "Status"],
+                 [[q["question"], q["asked_by"], q["needed_by"] or "no date", status(q)] for q in qs])
 
 
 def decision_tables(md):
@@ -382,16 +387,14 @@ def decision_tables(md):
                             p["stance"], p["source"]] for p in ps])]
         qs = [q for q in questions if q["decision"] == d["id"]]
         if qs:
-            out += ["", f"**Questions ({len(qs)})** · who asked, when it's needed and the work on each are on the "
-                        "[Questions](questions.md) page",
-                    "", question_list(qs)]
+            out += ["", "**Questions**", "", question_rows(qs)]
         return "\n".join(out) + "\n"
 
     md, n = re.subn(r"<!-- site: decision ([\w-]+) -->\n", block, md)
     assert n == len(decisions), f"decisions.md has {n} decision markers; decisions.csv has {len(decisions)} rows"
     standing = [q for q in questions if not q["decision"]]
     return md.replace("<!-- site: standing questions -->\n",
-                      (question_list(standing) if standing else "None yet.") + "\n")
+                      (question_rows(standing) if standing else "None yet.") + "\n")
 
 
 def table(headers, rows):
@@ -576,12 +579,11 @@ def questions_page(ctx):
            "[decision](decisions.md) or to standing research. Have a question? Email "
            "[hello@fundoregonschools.org](mailto:hello@fundoregonschools.org); we describe who asked, never name them.",
            "", "## Answered", ""]
-    # The anchor lets the Decisions page link to each question
-    out += [f"- <a id=\"{q['id']}\"></a>**{q['question']}** {about(q)} · `{q['answer']}`" for q in answered] or ["None yet."]
+    out += [f"- **{q['question']}** {about(q)} · `{q['answer']}`" for q in answered] or ["None yet."]
     out += ["", "## Open", ""]
     for q in still:
         work = f" · [follow the work]({GITHUB}/issues/{q['issue']})" if q["issue"] else ""
-        out.append(f"- <a id=\"{q['id']}\"></a>**{q['question']}**  \n  {about(q)} · asked by {q['asked_by']} · "
+        out.append(f"- **{q['question']}**  \n  {about(q)} · asked by {q['asked_by']} · "
                    f"needed by {q['needed_by'] or 'no date'}{work}")
     md = file_refs("\n".join(out) + "\n", "questions.md", "questions.csv")
     return md + footer(["analysis/questions.csv"], ["analysis/questions.csv"])
