@@ -1,0 +1,4244 @@
+2027-2029
+Budget and Legislative Concepts Instructions
+March 2026
+Chief Financial Office
+
+Department of Administrative Services
+155 Cottage Street NE
+Salem, OR 97301
+503-378-3104
+oregon.gov/das
+
+
+--- OCR of this page (tesseract), not checked by a person: check the PDF before quoting or copying a figure ---
+2027-2029
+
+Budget and Legislative Concepts Instructions
+
+March 2026
+Chief Financial Office
+
+Department of Administrative Services
+155 Cottage Street NE
+
+Salem, OR 97301
+
+503-378-3104
+
+oregon.gov/das
+
+Department of Administrative Services
+Chief Financial Office
+Staff
+
+Position
+
+Phone
+
+Kate Nass
+
+Chief Financial Officer
+
+503-871-0974
+
+Tamara Brickman
+
+Budget and Policy Administrator
+
+971-719-3492
+
+Russ Casler
+
+Statewide Budget Reporting Administrator
+
+503-302-8155
+
+Kristin Keith
+
+Processes and Procedures
+
+971-283-1289
+
+Kat Walter
+
+Program Analyst
+
+971-349-2117
+
+Jon Bennett
+
+Policy and Budget Analyst
+
+971-394-0106
+
+Allison Daniel
+
+Policy and Budget Analyst
+
+971-453-2488
+
+Sione Filimoehala
+
+Policy and Budget Analyst
+
+971-707-8779
+
+Paul Johnson
+
+Policy and Budget Analyst
+
+971-718-2445
+
+Kim McCarty
+
+Policy and Budget Analyst
+
+971-375-5783
+
+Anjela Parada
+
+Policy and Budget Analyst
+
+971-720-0987
+
+Morgan Poloni
+
+Policy and Budget Analyst
+
+971-458-2267
+
+Anne Sires
+
+Policy and Budget Analyst
+
+971-718-7645
+
+Michael Streepey
+
+Policy and Budget Analyst
+
+971-283-1198
+
+Jason Trombley
+
+Policy and Budget Analyst
+
+971-719-3903
+
+JeaLinda Patton
+
+Assistant Policy and Budget Analyst
+
+971-446-0918
+
+Adison Rowe
+
+Assistant Policy and Budget Analyst
+
+503-400-4747
+
+Rhonda Nelson
+
+Finance and Planning Section Manager
+
+971-719-1998
+
+Sandra Naegeli
+
+Financial Coordinator
+
+971-719-3144
+
+Chris Curtis
+
+Capital Finance Analyst
+
+971-900-7371
+
+Renee Frazier
+
+Capital Finance Analyst
+
+503-877-8125
+
+Shawn Miller
+
+SABRS Section Manager
+
+971-719-3181
+
+Jennifer Friesen
+
+Senior SABRS Auditor
+
+971-453-1621
+
+Breanna McGehee
+
+SABRS Auditor
+
+971-719-3559
+
+Patrick Sevigny
+
+ORPICS Auditor
+
+971-719-3510
+
+Greg Budreau
+
+SABRS Analyst
+
+971-719-3077
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+2
+
+Table of Contents
+2027-2029...................................................................................................................................1
+Department of Administrative Services .....................................................................................2
+Chief Financial Office ............................................................................................................2
+2027-29 Executive Summary .....................................................................................................5
+Fiscal Context.......................................................................................................................5
+Budget Structure...................................................................................................................5
+Key Budget Development Requirements and Consistent Practices for 2027–29 ......................6
+Budget and Legislative Concept Development Schedule............................................................8
+Early Submittal agencies ........................................................................................................11
+Key Economic and Demographic Trends .................................................................................12
+Economic Outlook ..............................................................................................................12
+Revenue Outlook ................................................................................................................14
+IT Budget and Project Request ................................................................................................16
+Budget Overview ....................................................................................................................17
+Phases of the Budget Process .............................................................................................17
+Agency Request Budget (ARB) .............................................................................................17
+Governor’s Recommended Budget (GRB) ............................................................................18
+Legislatively Adopted Budget (LAB) ......................................................................................19
+Expenditure Categories .......................................................................................................21
+Capital Improvement, Capital Construction, and Nonlimited Expenditures ...........................22
+Process Resources .............................................................................................................22
+Budget Development ..............................................................................................................23
+Early Preparation JANUARY -- MARCH .................................................................................23
+Base Budget APRIL -- MAY ...................................................................................................29
+Current Service Level (CSL)MAY – JUNE ...............................................................................30
+Base + Essential Packages ..................................................................................................30
+Modified Current Service Level – Revenue Shortfalls ............................................................39
+Agency Request Budget MAY -- JULY ...................................................................................40
+CSL + Policy Packages ........................................................................................................40
+Reduction Options ..............................................................................................................41
+Capital Budgeting and State Facilities Planning .......................................................................43
+2027-2029 Budget and Legislative Concepts Instructions
+
+3
+
+Capital Budgeting ...............................................................................................................43
+The Budget Document
+
+JULY -- AUGUST ............................................................................44
+
+Document Format...............................................................................................................44
+Due Dates, Document Titles and Copy Requirements ..........................................................45
+Budget Outline ....................................................................................................................46
+Budget Detail ......................................................................................................................48
+1. Revenue Forecast Narrative (107BF02) ................................................................52
+2. Detail of Fee, License, or Assessment Revenue Proposed for Increase
+(107BF08) ........................................................................................................................52
+3. Detail of Lottery Funds, Other Funds, and Federal Funds Revenue (Form
+107BF07 or ORBITS Report BPR012 must be included.) .......................................53
+Legislative Concept Procedures ..............................................................................................63
+Placeholder Drafts ..............................................................................................................63
+Legislative Concept Form Instructions .................................................................................64
+Things for Agencies to Consider ..............................................................................................67
+Statewide Budget Systems ..................................................................................................67
+Additional Compliance Considerations ...............................................................................67
+Appendix A. Glossary ..............................................................................................................70
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+4
+
+2027-29 Executive Summary
+Fiscal Context
+Significant fiscal fluctuations over the past several biennia continue to shape the state's
+financial outlook as we begin developing the 2027–29 biennial budget. During the February
+2026 legislative session, the 2025-27 Legislatively Adopted Budget was rebalanced to
+address a projected revenue shortfall created from impacts of H.R. 1, the 2025 federal
+budget reconciliation act. The 2027-29 budget is expected to be constrained, and agencies
+will need to prepare assuming there are no revenues available to expand or propose new
+programs. Our focus must remain on programs core to each agency’s mission and
+prioritize the Governor’s focus on affordability, economic prosperity, and protecting
+Oregon’s values. When developing budget requests, agencies should look to existing
+resources. Proposed investments should be budget neutral, meaning the package does
+not request additional revenue and, for General Fund and Lottery Funds supported
+requests, an equivalent reduction must be proposed to fund any packages put forward.
+Given the current budget landscape, budget-neutral policy packages for the 2027-29
+biennium should include the following priorities:
+•
+
+Economic development: Prioritize investments that support job creation, spur
+business growth, and expand the state’s revenue base.
+
+•
+
+Affordability: Prioritize investments that make everyday life more affordable for
+Oregonians, including strategies to reduce the cost of housing, health care,
+childcare, food, transportation, and utilities.
+
+•
+
+Improving customer service and agency program efficiencies: Modernize service
+delivery, streamline processes, and eliminate duplicative or low-value activities to
+improve outcomes within existing budgets.
+
+•
+
+Protecting Oregon values: Focus resources on upholding civil rights, access to
+essential services, and state authority.
+
+Proposed packages meeting the above guidelines are due on April 17, to the Chief
+Financial Office (CFO) and Governor’s Office for review and approval before officially
+submitting requests in the Agency Request Budget (ARB).
+
+Budget Structure
+The basic structure of budget development remains the same as prior biennia. This budget
+instruction document provides detailed information on each phase of the budget, but the
+basic structure is as follows:
+2027-2029 Budget and Legislative Concepts Instructions
+
+5
+
+1. The 2025–27 Legislatively Approved Budget serves as the starting point for building
+the Base Budget. To create the 2027–29 Base Budget, we adjust the adopted
+budget to reﬂect actions from the 2026 Legislative Session, any Emergency Board
+decisions, and Nonlimited administrative actions through April 2026. We also
+update the budget for projected personal services costs and scheduled debt
+service payments provided by CFO. Capital Construction budgets approved for
+2025–27 are not carried forward into the 2027–29 Base Budget.
+2. Essential packages are added to the Base Budget to develop the Current Service
+Level (CSL); i.e., the cost of continuing legislatively approved programs through
+the 2027-29 biennium. This includes, but is not limited to, inﬂation and phase-ins
+of legislatively approved program changes.
+3. Finally, policy packages reﬂecting other programs and policy changes that will
+affect the overall budget if adopted.
+
+Key Budget Development Requirements and
+Consistent Practices for 2027–29
+Several elements are consistent across prior biennia: outcome-focused budgeting,
+coordination with partner agencies, revenue estimate updates, and adherence to
+statewide budget policies.
+We continue to experience increased inflationary pressures. As part of the development
+process and in consultation with the Office of Economic Analysis (OEA), the following
+standard biennial inflation factors are applied: 4.9% for general inflation, 9.3% for nonstate employee personnel costs, and 6.5% for medical services. As with previous budget
+development, non-standard inflation and cost increases will be evaluated on a case-bycase basis in accordance with the exception process.
+To comply with ORS 291.206, each agency will identify 10% reduction options from the
+Current Service Level (CSL) for all programs.
+Consistent with developing previous budgets, statewide employee compensation
+increases for the 2027-29 biennium, such as cost-of-living adjustments (COLAs), will not
+be included in Agency Request Budgets. Any proposed increase will be in the Governor’s
+Recommended Budget as a statewide request through a salary and compensation
+increase package, (commonly referred to as the Salary Pot).
+Agency budgets should be focused on achieving outcomes. Agencies will continue to
+develop and report Key Performance Measures (KPMs) and other internal agency measures
+when appropriate. Agencies will include specific outcome measures with each policy
+package requested, including information about how the investment advances the
+Governor’s priorities and/or agency strategic plan goals.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+6
+
+While not new to this budget cycle, there will be an increased emphasis on how agencies
+project revenues. Agencies should update their revenue estimates with the most current
+information available at the time they submit their Agency Request Budget.
+Note: Agencies can continue to work with the CFO to update their revenues even after they
+have finished their CSL audit.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+7
+
+Budget and Legislative Concept Development
+Schedule
+Phase 1 – Budget and
+Legislative Concept Planning
+Date Due
+March 5, 2026
+March 17, 2026
+During March 2026
+March 27, 2026
+
+Content Due
+Actuals audit transmittals due to SABRS
+Agency Budget Kickoff Meeting
+EIS to deliver program-area presentations to
+agencies on the IT Readiness Policy and
+Procedures
+2026 session actions (input spreadsheets) due to
+SABRS
+
+Phase 2 – Pricing and Drafting
+Date Due
+April 1, 2026
+
+Content Due
+Information on Legislative Concepts (LCs) for
+agencies with 10 or more concepts due to the
+Governor’s Office and CFO
+
+April 6, 2026
+
+SCR/DCR changes due to CFO – Agency, CFO and
+LFO consensus needed for budget prep
+Revenue methodology and Preliminary Revenue
+Estimates due to CFO
+Current service level exception requests (for nonstandard items identified on page 25) due to CFO
+
+April 10, 2026
+
+Information on LCs for agencies with 10 or fewer
+concepts due to the Governor’s Office and CFO
+
+April 17, 2026
+
+POPs to Governor’s Office and CFO for review
+
+April 23, 2026
+
+SABRS kickoff meeting online via Teams meeting
+
+April 24, 2026
+
+ORPICS and ORBITS systems open
+
+April 30, 2026
+
+Last date to submit Key Performance Measure
+(KPM) changes to CFO, LFO
+DRAFT Agency IT Readiness Workbook Due
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+8
+
+May 1, 2026
+
+CSL workbook due to CFO (see page 32 for
+additional details)
+Last date for CFO approval on current service
+level exception requests
+
+May 8, 2026
+
+ORPICS start-up transmittals due – “Base”
+positions frozen in ORPICS for all agencies
+
+May 15, 2026
+
+Capital Project Bond Financing requests due to
+CFO (107BF09 and 107BF15)
+
+Between May 16 and 29, 2026
+
+Feedback received from CFO on POPs
+
+May 20, 2026
+
+June Revenue Forecast
+
+May 29, 2026
+
+ORPICS CSL information and audit transmittal
+due to SABRS – all agencies
+ORBITS CSL information and audit transmittal
+due to SABRS – early submittal agencies only
+Last day to submit Debt Financing Request forms
+
+June 26, 2026
+
+ORPICS Agency Request Budget (ARB)
+information and audit transmittal due to SABRS –
+all agencies
+ORBITS CSL information and CSL audit
+transmittal due to SABRS – all remaining agencies
+ORBITS ARB information and audit transmittal
+due to SABRS – early submittal agencies only
+DAS submits approved LCs to Legislative Counsel
+
+June 30, 2026
+
+Updated Agency IT Readiness Workbook Due
+
+July 31, 2026
+
+ORBITS ARB information and audit transmittal
+due to SABRS – all remaining agencies
+ARB narrative due to CFO – early submittal
+agencies only
+Deadline to finalize placeholder language with
+Legislative Counsel
+
+August 26, 2026
+
+September Revenue Forecast
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+9
+
+August 31, 2026
+
+ARB narrative due to CFO – all remaining agencies
+
+Phase 3 – Governor’s
+Recommended Budget and
+Legislative Concept Build Out
+Date Due
+October 23, 2026
+
+Content Due
+Legislative Counsel returns LCs to agencies
+
+October-November
+
+Governor’s Office advisor and CFO analyst
+develop budget briefings to advise final budget
+decisions
+
+Phase 4 – Final Decisions
+Date Due
+October 26, 2026
+
+Content Due
+Agencies submit LC packages to DAS (LC, Fiscal
+Impact Statement, one-pager)
+
+December 1, 2026
+
+Governor’s Recommended Budget (GRB)
+released
+
+December 11, 2026
+
+Pre-session filing deadline
+
+After Governor’s
+Recommended Budget
+Release and Legislatively
+Adopted Budget
+Due Date
+To Be Announced
+
+Content Due
+Audit request(s) to SABRS for 2027-2029 GRB
+Last date to submit Annual Performance Progress
+Report (as part of the GRB)
+Agency’s 2027-29 GRB document delivered to
+CFO and the Legislature
+
+90 days after session
+
+Audit request(s) to SABRS for 2027-2029
+Legislatively Adopted Budget (LAB)
+
+30 days after SABRS Audit is complete
+
+Agency’s 2027-20 LAB document to CFO and LFO
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+10
+
+Early Submittal agencies
+The agencies listed below are considered "early submittal" agencies for CSL audit and ARB
+submission. CSL audit transmittals are due to CFO no later than May 29, 2026, for
+agencies listed below. All others are due no later than June 26, 2026. Final ARBs are due
+from early submittal agencies on June 26, 2026, and all other agencies on July 31, 2026.
+
+Accountancy, State Board of
+
+Licensed Social Workers, Board of
+
+Advocacy Commissions Office, Oregon
+
+Liquor and Cannabis Commission, Oregon
+
+Aviation, Oregon department of
+
+Marine Board
+
+Blind, Commission for the
+
+Medical Board, Oregon
+
+Chiropractic Examiners, Board of
+
+Mental Health Regulatory Agency
+
+Columbia River Gorge Commission
+
+Military Department, Oregon
+
+Construction Contractors Board
+
+Nursing, Board of
+
+Consumer and Business Services, Dept. of
+
+Parole and Post-Prison Supervision, Board of
+
+Criminal Justice Commission
+
+Pharmacy, Board of
+
+Dentistry, Board of
+
+Psychiatric Security Review Board
+
+District Attorneys and their Deputies
+
+Public Employees’ Retirement System
+
+Emergency Management, Dept. of
+
+Public Records Advocate
+
+Employment Department
+
+Public Safety Standards and Training, Dept. of
+
+Employment Relations Board
+
+Public Utility Commission
+
+Energy, Department of
+
+Racing Commission
+
+Geology and Minerals Industries, Dept. of
+
+Real Estate Agency
+
+Government Ethics Commission
+
+State Lands, Department of
+
+Health Related Licensing Boards
+
+Tax Practitioners, State Board of
+
+Labor and Industries, Bureau of
+
+Teacher Standards and Practices Commission
+
+Land Conservation and Development, Dept. of
+
+Veterans’ Affairs, Department of
+
+Land Use Board of Appeals
+
+Water Resources, Department of
+
+Library, State
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+11
+
+Key Economic and Demographic Trends
+Economic Outlook
+The U.S. economy appears to be in the middle stages of a longer-than-average economic
+cycle, in large part due to tax cuts and interest rate reductions that are supporting growth.
+The post-pandemic inflation surge has not been fully tamed -- but with central bankers
+increasingly focused on fostering stronger labor conditions, the “last mile” of inflation
+containment is unlikely to be realized. Policymakers are favoring an extended economic
+cycle at the cost of more persistent inflation.
+The major question economic forecasters are facing over the near-to-medium term
+pertains to labor conditions. The pace of hiring has been sluggish, and forecasters are
+uncertain about the degree to which this can be attributed to cyclical, short-term factors.
+These include right-sizing workforces in a more-balanced, slower-growing economy,
+versus structural, long-term issues, including sharply reduced immigration flows and AIrelated job displacement.
+It is the view of the Office of Economic Analysis (OEA) that the current labor malaise is
+more attributable to short-term factors, and so firming growth dynamics will stabilize labor
+conditions heading into the 2027-29 biennium. As such, while Artificial Intelligence (AI)
+holds tremendous potential to disrupt labor market dynamics over a longer time horizon,
+potentially spanning the next decade, we do not think it is an impediment to hiring at
+present.
+The baseline outlook for the 2027-29 budget period calls for continued economic
+expansion, albeit at a more moderate pace compared to the post-pandemic biennia. The
+economy is poised to grow close to its natural, or potential, rate (of about 2%). This means
+that factors such as underlying population changes and business investment and
+productivity gains will dominate growth outcomes, particularly across states. Economic
+growth is largely determined by the combination of the number of workers in the local
+economy and their productivity.
+Labor Market - The labor market is currently experiencing a period of malaise
+characterized by a slowdown in hiring and slower job churn. While announced layoffs were
+elevated at the start of the current biennium, those separations have since moderated and
+returned to typical levels. These factors have contributed to a gradual rise in the
+unemployment rate and a small decline in total employment over the past 12 months. The
+current labor malaise is expected to subside as the 2025–27 biennium progresses,
+supported by firming growth dynamics and stabilizing labor conditions heading into the
+2027–29 biennium. As such, the unemployment rate is expected to decline through the
+remainder of this biennium and into the 2027–29 biennium. Oregon total nonfarm
+employment is expected to grow 1.3% in the 2027–29 biennium, which is slower than what
+2027-2029 Budget and Legislative Concepts Instructions
+
+12
+
+the state has been accustomed to over time, yet still above the expected growth of 0.4% in
+the current biennium. Underpinning the economic outlook is a continued rebound of instate migration, leading to slow but positive population gains.
+Capital Investment - The economy has experienced a substantial capital investment
+boom since 2022, much of which has been directed toward hyperscale’s (i.e. AI,
+datacenters, tech, etc.). Typically, capital investment cycles drive productivity cycles,
+thereby boosting economic output and income on a per capita basis. While the economy
+has indeed experienced a surge in productivity in recent quarters, it is not clear that this is
+attributable to AI just yet; rather may be continued normalization of labor conditions postpandemic. However, just because the productivity gains of late are not clearly attributable
+to AI does not mean that AI won’t pose a substantial disruption to labor conditions over the
+medium term. It also holds the capacity to roil financial conditions. Either the massive
+investment over the past decade will yield a dividend from a substantial productivity
+enhancement, or it will strain financial conditions as a massive cohort of investments
+prove unprofitable
+Employment - Employment growth varies across the state due to differences in industry
+composition and regional demographics. In general, employment in rural counties is
+expected to trail behind urban and metro areas during the 2027-29 biennium. This is in
+large part driven by an older population base residing in rural areas. Historically, most of
+the state’s population gains have occurred in or around metro areas, which have a larger
+working-age cohort and stronger labor force growth. The distribution of the anticipated job
+gains for the state in the 2027-29 biennium depends on area specific business
+investments, the available workforce, and underlying population changes. Following the
+pandemic, most of the employment growth has occurred in Oregon’s secondary metros.
+Inflation - Consumer price inflation has diminished appreciably over the past few years
+due largely to a restrictive stance of interest rates. However, in its effort to avert a hard
+landing for the economy, the Federal Reserve has lowered interest rates as it placed
+greater emphasis on stabilizing labor conditions. This appears to have left the “inflation
+fight” unfinished. Tariff pass-through effects and rising energy prices due to geopolitics
+threaten continued upward pressure on inflation, which in turn constrain the Fed’s ability
+to further reduce interest rates. For multiple decades prior to the pandemic, low interest
+rates and low inflation were the norm. A return to this trend looks elusive given the current
+landscape of tariffs, energy price pressures, and anticipated Federal Reserve policy.
+Demographics - Oregon's population is expected to continue growing at rates that will
+show slow recovery from the pandemic-era low in 2020-21. According to the March 2026
+forecast, the total population is expected to increase by 46,600 during the 2027-29
+biennium. Since the number of deaths will exceed the number of births, the entire
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+13
+
+population increase will come from net migration. Oregon’s population is expected to
+approach 4.4 million by the end of the 2027-29 biennium.
+•
+
+•
+
+•
+
+Although overall population gains will be slow during the 2027-29 biennium (1.1%),
+growth will be paced by the oldest seniors (85 years and older; 13.2%) as life
+expectancy continues to improve after the drop during the pandemic and as postGreat Depression era birth cohorts continue to mature into this age group.
+The next fastest growing group will be older seniors (age 75-84; 8.8%) as the baby
+boomers mature into this age group and the smaller pre-baby boom cohort exit. The
+size of the youngest seniors (age 65-74 years old; -1.3%) will decline as the smaller
+baby-bust cohorts replace the tail end of the baby boom era cohorts.
+Change among other budget-driving population cohorts is as follows:
+ Head Start and Childcare (0-4 years: 0.6%)
+ TANF and Foster Care (0-17 years: -2.1%)
+ K-12 Education (5-17 years: -2.9%)
+ Youth Correctional (12-17 years: -1.7%)
+ Higher Ed (18-24 years: 1.5%)
+ Prison Inmate (Male 18-44 years: 0.8%)
+
+Corrections Population - The Adults-in-Custody population supervised by the
+Department of Corrections is expected to increase 1% from 12,067 between July 1, 2025,
+and July 1, 2027. The low growth is attributable primarily to issues present in the public
+defense system, which are not expected to resolve within this timeframe. Most of the
+growth is attributable to the women’s cohort, which is expected to grow 3.2%, while the
+male population is expected to increase just 0.8%.
+
+Revenue Outlook
+General Fund/Lottery Funds
+For the 2027-29 biennium, General Fund revenues are expected to grow to $41.5 billion, a
+17.3% increase from the current biennium. That growth is somewhat higher than the
+historical average due to a kicker credit and the impact of H.R.1 suppressing revenues in
+2025-27. Currently, there is no personal income tax kicker projected for the 2025-27
+biennium
+Personal and Corporate Income Taxes, which have historically fluctuated significantly
+along with business cycles, currently comprise approximately 94% of General Fund
+revenues. This introduces considerable uncertainty into the revenue forecast.
+The March 2026 forecast for Lottery earnings in 2027-29 is $1,894.7 million. This
+constitutes a 4.2% increase from the current biennium. Video lottery is the sole contributor
+to this growth as traditional games and sports betting sales are projected to soften in the
+2027-2029 Budget and Legislative Concepts Instructions
+
+14
+
+coming years. Historically, earnings have grown closer to 10%. However, the introduction
+of slot-style Video games and the Mega Millions game elevates this average.
+
+Tobacco and Marijuana Taxes
+Cigarette and Other Tobacco taxes dedicated to the General Fund are forecast to total
+$71.5 million in the 2027-29 biennium. This is a decline of 9.8% from the current biennium,
+in keeping with declining tobacco usage, increased prevalence of oral nicotine, and a
+stagnant population.
+Cigarette, Inhalant Delivery, and Other Tobacco taxes dedicated to the Oregon Health Plan
+are forecast to total $143.51 million for the 2027-29 biennium. Tobacco-related revenues
+dedicated to the Oregon Health Authority will total $272 million. An additional $19.3 million
+in tobacco taxes will be available for Mental Health, and $38.4 million will be available to
+fund the Tobacco Use Reduction Account. These amounts are approximately 10% below
+the current biennium.
+Recreational marijuana taxes dedicated to Drug Treatment and Recovery are forecast to
+total $210.1 million for the 2027-29 biennium. Revenues dedicated to Mental Health,
+Alcoholism and Drug Services are forecast to total $23 million. An additional $5.8 million in
+recreational marijuana taxes will be available for Alcohol and Drug Abuse Prevention, and
+Intervention and Treatment. No recreational marijuana taxes are dedicated to the General
+Fund.
+
+Corporate Activity Tax
+The March 2026 forecast projects Corporate Activity Tax revenues to reach $3,413.2
+million in the 2027-29 biennium. This represents a 12.6%, $382 million increase from the
+current biennium. Although the tax is relatively new, it has demonstrated less volatility
+than its income-based brethren. The projected General Fund backfill distributed to the
+State School Fund in 2027-29 is $921.7 million.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+15
+
+IT Budget and Project Request
+Senate Bill 1090 (2025) requires the State Chief Information Officer (CIO) to create rules for
+how state agencies should ask for funding information technology (IT) budgets and
+projects. This includes projects such as the replacement, modernization, upgrades, or
+expansions of IT systems.
+Any agency requesting funding for a covered project must send their request to both the
+CIO and the Office of Enterprise Information Services (EIS). Agencies must comply with the
+deadline the CIO sets every two years.
+The IT Readiness policy addresses direction provided in Senate Bill 1090 (2025) to adopt a
+policy and a procedure for state agencies to follow when requesting funding for IT budget
+and projects. The CIO and EIS leveraged and improved on prior processes such as the
+project prioritization matrix and the input sheet used for the Senate Bill 1090 October 31
+statutory reporting.
+Agencies requesting funding for IT budget and projects are required to follow Statewide IT
+policy 107-004-180 (IT Readiness). The policy and accompanying procedure (107-004180_PR) provide direction to the agency to submit an IT Readiness Workbook, located on
+the CFO website, for IT budget and project requests
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+16
+
+Budget Overview
+Phases of the Budget Process
+There are three major phases in the budget development process: the Agency Request
+Budget (ARB), the Governor’s Recommended Budget (GRB) and the Legislatively Adopted
+Budget (LAB). These phases are described in more detail below.
+
+Diagram of biennial budget cycle
+
+Agency Request Budget (ARB)
+The ARB is the first phase of the biennial budget process, with the budget development
+process starting early in even-numbered years. ORS 291.208 requires all agencies to
+submit a two-year budget before September 1, in even numbered years. To balance
+workload for audit and review of agency budget submissions, the Chief Financial Office
+requires some agencies to submit materials earlier than the statutory deadline. Early
+submittal agencies must submit their ARB by August 1, and all remaining agencies must
+submit by August 31 to the Department of Administrative Services (DAS).
+As a part of the ARB process, agencies will develop a Current Service Level (CSL), which is
+the projected cost of continuing on-going programs for next biennium. Agencies will
+develop the CSL by pricing phase-in and phase-outs, accounting for appropriate
+inflationary amounts, changes to mandated caseloads, and any technical corrections that
+need to be made from their current biennium budget. The ARB includes requested budget
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+17
+
+or policy changes from the agency’s CSL and is prepared under guidelines set by the
+Governor through DAS. The ARB document should include the following information:
+•
+•
+•
+•
+•
+
+Description of the agency’s core mission, objectives, and program priorities
+Budget information for past, current, and future biennia
+Descriptive narratives
+Budget forms
+Audited ORBITS reports
+
+Agency budgets are structured as follows:
+•
+•
+•
+•
+
+Agency budgets are organized by program unit. Program units align with major
+program or policy areas.
+In smaller agencies, a single program unit may represent the entire agency.
+Program units are identified in the ORBITS system as Summary Cross Reference
+(SCR) numbers and, at a lower level, by Detail Cross Reference (DCR) numbers.
+SCR and DCR numbers illustrate the relationship between how the agency is
+organized and its budget structure.
+
+Governor’s Recommended Budget (GRB)
+The Governor’s Budget is the first step in the budget process to balance to available state
+General Fund and Lottery Fund resources. The Governor and CFO review agency request
+budgets and other factors while considering available revenues to balance the GRB. That
+budget reflects the Governor’s priorities and policies set in statute as well as any changes
+proposed by the Governor. Once final, the recommended budget, including statewide
+tables, is printed in the GRB. ORS 291.218 requires transmission of the Governor’s budget
+to each member of the Legislature by December 1, 2026. The GRB is the starting point for
+budget negotiations during the legislative session.
+A Tax Expenditure Report, compiled by the Department of Revenue, is published
+concurrently with the GRB.
+ORS 291.216 requires the GRB to include the following features:
+•
+•
+
+A formal message explaining fiscal policies for the next biennium
+Expenditures and revenues are required to be balanced and show total proposed
+expenditures and anticipated revenues, drawing comparisons with the previous and
+current biennia. All assumptions -- such as borrowing plans, inflation, caseload
+trends, and compensation agreements -- must be clearly explained. Detailed
+schedules or statements, including the following information:
+ Expenditures classified by program units, objects, and fund types
+ Revenue by organizational units, sources, and fund types
+ Proposed new borrowing
+ New tax or revenue sources, including a comprehensive list of proposed
+increases in fees, licenses, and assessments
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+18
+
+•
+•
+•
+•
+
+ Detailed estimates of expenditures and revenues, including statements of
+bonded indebtedness for past and projected debt service
+ Actual debt service for the past biennium
+ Estimated debt service for the current and ensuing biennia
+Tax expenditure recommendations as required under ORS 291.214
+Program outcomes as per ORS 291.217(2) and 291.217(3)
+Racial Equity Impact Statements (REIS) under ORS 291.206
+Deferred Maintenance/Capital Improvement policy packages per ORS 291.215
+
+After publication of the GRB, each agency prepares a GRB document at budget detail
+levels. This document is used for presentation of the agency budget during the legislative
+session.
+
+Legislatively Adopted Budget (LAB)
+The GRB is presented to the Legislature during the legislative session. Typically, the Joint
+Committee on Ways and Means and its subcommittees review agency budgets, hold
+public hearings, and pass agency budget bills. The Governor introduces a legislative
+budget bill for each agency. These bills set appropriations for General Fund, allocations for
+Lottery Funds, and expenditure limits for Other Funds and Federal Funds. Committee
+recommendations for an agency’s LAB are presented in budget reports, which provide a
+greater level of detail and include an agency’s position authority. It is important to note that
+an agency may be impacted by more than one bill.
+Agencies prepare LAB documents showing legislative changes and implement budgets
+over the biennium. Adjustments may occur during short sessions, Emergency Board
+meetings or special sessions.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+19
+
+Budget Process Outline
+Timeframe Budget
+Budget Section and Content
+Adjustments
+2025-2027
++ Plus
+2025-2027
+
+=
++ Plus or – Less
+
+2027-2029
+
+=
++ Plus or – Less
+
+=
+- Less
+=
++ Plus
+
+2027-2029
+
+=
++ Plus or – Less
+
+2027-2029
+
+=
++ Plus or – Less
+=
+
+2027-2029
+
+Legislatively Adopted Budget
+Legislative and E-Board Actions through April of the even
+numbered year
+Legislatively Approved Budget (LAB)
+Statewide Administrative Adjustments
+• Net Cost of Position Actions (ORPICS driven)
+• Base Debt Service Adjustments
+• Nonlimited Adjustments
+• Capital Construction Adjustments
+Base Budget
+Essential Packages
+• Package 010
+o Vacancy Factor
+o Non-ORPICS Personal Service Adjustments
+• Package 021 Phased-In Programs
+• Package 022 Phased-Out Programs
+• Package 030s Inflation
+o Cost of Goods and Services Adjustments
+o State Gov’t Service Charges Adjustments
+• Package 040 Mandated Caseload
+• Package 050 Fund Shifts
+• Package 060 Technical Adjustments
+Current Service Level (CSL)
+Revenue Reductions
+• Package 070 Revenue Shortfall
+Modified Current Service Level
+Emergency Board Actions
+• Package 081 June 2026
+• Package 082 September 2026
+Policy Packages – Work with CFO analyst to determine
+package numbers
+Agency Request Budget (ARB)
+Updated Budgetary Adjustments
+Governor’s Budget Adjustments
+Governor’s Recommended Budget (GRB)
+Legislative Session Adjustments
+Legislatively Adopted Budget
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+20
+
+Expenditure Categories
+Oregon’s budget and accounting systems use defined expenditure categories and budget
+groupings. Agency budget staff must review these categories and work with accounting
+staff to ensure expenditures are recorded accurately, with minimal correcting entries.
+These budget categories include the following areas:
+
+Personal Services
+•
+•
+
+Employee gross compensation (total compensation)
+Includes wages, benefits, temporary staff, unemployment assessments, pay
+differentials, vacancy savings, and other personnel costs
+
+Services and Supplies
+•
+•
+•
+
+Non-personnel expenditures for agency operation and maintenance
+Includes office supplies, professional services contracts, rent, telephones,
+computers, software, and routine building repairs
+Debt issuance costs related to bonds must be budgeted in Services and Supplies
+and not in Capital Construction.
+
+Capital Outlay
+•
+
+•
+
+Expenditures for the acquisition of major repair of fixed assets intended to benefit
+future periods, such as items not usually consumed in the usual course of agency
+operations and normally used more than once
+Must have a useful life of more than one year and an initial value of $10,000 or more
+
+Special Payments
+•
+•
+
+Transfers and payments to external entities
+Includes benefit payments to individuals, distributions to governments and other
+entities, contributions, loans, deposits, collections, and other transfers where
+goods and services are not received in return
+
+Debt Service
+•
+•
+
+Expenditures on principal, interest, discounts, and premiums related to state debt
+Bond issuance-related program expenditures (e.g., trust agreements, audit fees,
+travel, Bond Counsel, financial consulting) should be budgeted in Services and
+Supplies.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+21
+
+Capital Improvement, Capital Construction, and
+Nonlimited Expenditures
+Capital Improvement and Capital Construction expenditures are not for routine
+maintenance or repairs. These expenditures are for land, buildings, support systems,
+equipment, and information technology-related projects or systems. In general, both
+Capital Improvements and Capital Construction are separate programs in most agency
+budgets. While these are not separate expenditure categories, they are distinct
+appropriated fund types in ORBITS (for example, the appropriated fund code in ORBITS for
+Capital Improvements Other Funds is 3010 and for Capital Construction Other Funds is
+3020).
+Capital Construction is appropriated for six years, though the funds will show in ORBITS as
+being fully spent within the biennium in which they were appropriated. Unspent Capital
+Construction is not included in an agency’s beginning or ending balance.
+The Legislature approves some Other Funds and Federal Funds expenditures as
+Nonlimited expenditures, typically when driven by external factors (e.g., federal
+unemployment claim payments, repayment of certain bonded debt). Nonlimited
+expenditures may be reported in a separate program unit. Agencies should use the
+standard categories such as Personal Services, Services and Supplies, Capital Outlay, and
+Special Payments. See the SABRS website for more information.
+
+Process Resources
+See additional budgeting resources available on the following websites:
+•
+
+SABRS Coordinator Presentations
+
+•
+
+The 2027-2029 DAS Price List of Goods and Services details assessments, service
+charges, and other costs to be released in April
+
+•
+
+The Oregon Legislative Information System (OLIS) has links to budget bills, budget
+reports, and other actions for multiple sessions.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+22
+
+Budget Development
+Early Preparation
+
+JANUARY -- MARCH
+
+The Agency Request Budget (ARB) process includes three phases: Base Budget, Current
+Service Level (CSL), and Policy Packages. Before these phases begin, agencies must
+complete early preparation tasks such as validating historical expenditure data in
+ORBITS, determining program unit levels, submitting exception requests, and developing
+revenue estimates.
+
+Historical Expenditure Data in ORBITS
+In January of even-numbered years, SABRS prepares ORBITS for the upcoming biennium by
+loading historical data expenditures (actuals). For budget preparation, SABRS
+downloads this information directly from the Statewide Financial Management Application
+(SFMA). ORBITS displays this data along with historical budget data in separately displayed
+columns, which includes a 2023-25 Actuals (revenues and expenditures) column and
+the 2025-27 Legislatively Approved Budget column. Agencies must review 2023-25 Actuals
+and submit corrections to SABRS by March 5, 2026. No expenditure adjustments should
+occur between categories or programs at this stage.
+
+Determining Program Units
+Agency budgets are organized by program units, which contain the agency’s major policy
+and program areas. In addition to an agency’s specific programmatic budget structure
+units, referred to as a Summary Cross Reference (SCR) or Detail Cross Reference (DCR),
+agency budgets may also include budget structure units for Capital Improvement (088),
+Capital Construction (089), Debt Service, and Nonlimited expenditures.
+The first step in budget preparation is for agencies to confirm or revise their program units
+to reflect major policy changes or program restructuring that occurred in the last biennium.
+Proposed changes are due by April 6, 2026, and the agency must work on proposed
+changes with CFO and LFO prior to this deadline to verify consistency and receive
+approval of all changes.
+Accounting structures must align with the program units reflected in ORBITS. Refer to the
+SABRS website for more information on developing program, and keep in mind
+that cross reference numbers must be in place early to ensure the ARB is submitted on
+time.
+
+Exception Requests -- Inflationary Issues
+Exception requests address extraordinary cost increases beyond standard inflation
+factors. A series of exceptional inflationary requests are anticipated for statewide items, as
+well as some agency-specific items. To proactively address these items, CFO will evaluate
+each request and provide guidance to agencies on whether exceptional inflation is
+allowable and to what extent.
+2027-2029 Budget and Legislative Concepts Instructions
+
+23
+
+Agencies should submit conceptual exception requests with dollar estimates by fund type
+before April 6, 2026. CFO will review requests in April. Approved exceptions
+require that full documentation, detailed by SCR, Category and Fund Type, is submitted to
+the agency’s CFO analyst. Only documented exceptions finalized before the CSL audit can
+be included in the ARB; however, agencies may need to continue working with analysts
+after this deadline to modify Essential Packages as part of the CSL for the Governor’s
+Recommended Budget.
+Agencies do not need to submit exception requests for the following:
+Statewide Items:
+•
+
+DAS Data Processing Charges
+
+•
+
+DAS Fleet Services Charges
+
+•
+
+DAS Shared Financial Services Charges
+
+•
+
+DAS Shuttle Service Charges
+
+•
+
+DAS Financial Business Services Charges
+
+•
+
+DAS IT Charges
+
+•
+
+Uniform and Non-Uniform Rent
+
+•
+
+Attorney General Rate
+
+•
+
+Board Member Per Diem Costs
+
+•
+
+Interagency funding of programs with Personal Services Costs
+
+•
+
+Fuel and Utility Costs
+
+Agency-Specific Items:
+•
+
+Behavioral Rehabilitation Service (BRS) Rates (ODHS, OHA, OYA)
+
+•
+
+Non-ORPICS for 24/7 Facilities (ODHS, OHA, DOC, OYA)
+
+•
+
+Shared Services Funding (OHA, ODHS, DEQ, ODF)
+
+•
+
+Cost Per Case inflation for Mandated Caseload Programs (OHA, ODHS)
+
+•
+
+Medical Inflation for PEBB/OEBB
+
+•
+
+Oregon Health Plan (OHA)
+
+•
+
+Agents Compensation and Credit Card Fees (OLCC)
+
+Exception requests may be submitted for items not addressed through standard budget
+rules, as described later in this document. The following will not be accepted as an
+exception request; however, this does not prohibit the following requests from
+being submitted as policy packages:
+2027-2029 Budget and Legislative Concepts Instructions
+
+24
+
+•
+
+Annual inflation: Lone exception is for annual appropriations as directed in the
+Legislatively Adopted Budgets (State School Fund)
+
+•
+
+Postage: Now tied to inflation by the U.S. Postal Service
+
+•
+
+Attorney General: For increased usage.
+
+•
+
+Additional funding: For increased usage of previously listed statewide items
+
+Once CFO has completed its analysis of each of these items, information will be provided
+on the DAS CFO website by April 22, and agencies will be able to work with their CFO
+analyst to build the allowable inflationary costs into the appropriate CSL Packages.
+
+Estimating Revenues and Available Resources
+Agencies must submit detailed revenue spreadsheets and narratives to CFO and LFO
+analysts by April 6, 2026. Include actual revenues for 2023-25, updated estimates
+for 2025-27, and preliminary estimates for 2027-29. Revenue projections must equal
+agency expenditures, at a minimum, and be updated as needed. Templates
+107BF06a and 107BF06b are available for use and can be found on the DAS CFO website.
+Be sure to include the following information in the narrative document, categorized by
+revenue source:
+•
+
+Summary of major issues, if any
+
+•
+
+Methods and assumptions used in budget forecasts
+
+•
+
+Fee schedules (if any), with proposed fee increases or new fees
+
+•
+
+List of programs for which anticipated revenues are not expected to
+be sufficient to cover current service level expenditures, if known
+
+•
+
+Revenue projections through 2031
+
+Fund Type Definitions
+There are four revenue categories used for budgetary purposes: General Fund, Lottery
+Funds, Other Funds, and Federal Funds. Agencies should estimate and budget all
+revenues at the program unit level. The following information details the types of revenues
+typically associated with each fund type and provides other useful information, such
+as how to account for a fund type in ORBITS.
+
+General Fund (GF)
+•
+
+GF is revenue an agency collects, including taxes and some fees and fines. The
+collecting agency will record these funds as GF revenue (8800 fund type
+in ORBITS) and enter a matching revenue transfer to GF.
+
+•
+
+GF expenditures (appropriations) used for agency operations are recorded
+separately from the GF revenue account (8000 fund type in ORBITS) and must be
+recorded for the program expenditures they fund, such as Personal Services,
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+25
+
+Services and Supplies, Capital Outlay, and Special Payments. Note that GF
+appropriations cannot cross biennia.
+
+Lottery Funds (LF)
+•
+•
+•
+
+•
+•
+
+LF allocations are awarded by the Legislature, including all interest earned while
+held by an agency.
+LF revenue transfers between agencies are recorded as LF by the sending agency
+and receiving agency in the agency’s budget.
+LF associated with Ballot Measure 76 (2010), which provide for 15% of net
+lottery proceeds to parks and salmon restoration, require more detailed
+reporting. Agencies receiving these funds should expect to
+provide additional expenditure information in accordance with the required
+allocations.
+ At least 70% of LF for Salmon Restoration (7.5% of net lottery proceeds)
+must be distributed as grants to entities other than state or federal
+government. Up to 30% may be used for ongoing operations.
+ At least 25% of LF for Parks (7.5% of net lottery proceeds) must be
+distributed as local grants.
+ Transfers-In of Lottery Funds from DAS or the Oregon Watershed
+Enhancement Board (OWEB) are used to reflect new 2027-29 biennium
+revenue allocations.
+ Unspent LF balances proposed for carry-forward must be included as LF
+beginning balance(s) in the Base Budget.
+At ARB, LF beyond the June forecast requested in policy option packages must be
+budgeted as generic Transfers-In Lottery Proceeds (Account 1040 in ORBITS).
+At LAB, all generic transfers must be replaced by transfers from
+the respective agencies (e.g., Accounts 1107 from DAS and 1691 from OWEB).
+
+Other Funds (OF)
+•
+
+Other Funds are agency revenues that can be spent under an OF expenditure
+limitation or as Nonlimited Other Funds. These revenues may come from the
+public or from other agencies, cities or counties. Examples include licenses and
+fees, loan repayments, and charges for services. Federal Funds transferred from
+another agency are usually considered OF in the receiving agency budget.
+
+•
+
+Agencies with OF-supported operations must maintain adequate ending balances
+for cash flow and contingencies, including potential statewide salary and benefit
+increases to the Governor's Recommended Budget.
+ OF Revenue Estimation and Budgeting
+ Base revenue estimates for existing OF sources on current law fee and
+assessment levels.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+26
+
+ Budget current law fee and assessment revenues in the agency's Base
+Budget.
+ Estimate separately any fees established or increased administratively
+during the 2025-27 biennium that were not approved by the 2025 or
+2026 Legislatures in the Revenue Forecast Narrative.
+ Call out any proposed new sources of OF revenues or proposed
+increases in existing fees in the Revenue Forecast Narrative, even if
+within current legal limits.
+
+Fees
+Fee Changes, Clarification for Budget Development, and Legislative
+Requirements
+ New or increased fees that were included in the LAB are permanent, and the
+fee revenue should be included in the Base Budget.
+ Fees established or increased administratively during the 2025-27 biennium
+but not included in the LAB are temporary unless ratified during the 2026
+Legislative session. Any revenue from fees that has not been ratified by the
+legislature is not to be included in the Base Budget.
+ Do not include temporary fee revenues in Base Budget projections.
+Temporary fees, which the agency plans to continue, should be in a fee
+increase policy package. This includes fees approved through the
+Emergency Board process.
+ Submit proposals for fee changes (including those requiring statutory
+amendments) through the Legislative Concept process.
+Fee Reporting Requirements
+ Agencies must report all fee changes included in the 2027-29 ARB using form
+107BF22 Fee Change Detail Report. Submit the form and cover memo
+electronically to the agency's CFO analyst along with the ARB.
+ Agencies must update the statewide fee database during fall 2026 to reflect
+fees changed during the 2025 and 2026 Legislative Sessions or
+administratively during the interim. Do not include proposed fee changes for
+2027-29 that are not yet implemented. Instructions will be posted on the
+CFO website, and SABR coordinators will be notified when the database is
+open.
+
+Federal Funds (FF)
+•
+
+FF are revenues received from the federal government spent
+under FF expenditure limitation or as FF Nonlimited expenditures.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+27
+
+•
+•
+•
+•
+•
+•
+
+These funds may be received as direct revenue or as matching fund
+reimbursement for state expenditures.
+FF received from another agency, rather than directly from the federal
+government, are generally treated as OF in the receiving agency budget.
+Agencies must follow FF Revenue Estimation guidelines when estimating
+Federal Funds revenues.
+Use the most recently completed congressional action to estimate Federal
+Funds revenues.
+Provide documentation to the CFO analyst as soon as funds are authorized and
+appropriated.
+Revise Federal Funds revenue estimates periodically as federal authorizations
+and appropriations change and notify the CFO analyst immediately.
+
+Budgeting and Packaging Requirements
+Because most FF are provided on a reimbursement basis, agencies must include
+necessary FF revenues in each Essential and Policy Package. Most agencies will not
+have a beginning or ending balance in FF; however, exceptions exist. Agencies
+should consult with their CFO analyst and SABRS staff if questions arise.
+FF Compliance and Audit-Sensitive Procedures
+•
+
+Maintain accurate documentation for all FF estimates, authorizations, and
+appropriations.
+
+•
+
+Records must be retained for audit purposes and made available upon request.
+Ensure all updates to revenue estimates and package submissions meet DAS
+deadlines to avoid compliance issues.
+
+Revenue Transfers and Special Payments
+Agencies engaged in any type of interagency fund transfer must coordinate with one
+another early in the budget process. Agencies must also agree on the
+transfer amount(s) and determine how the transfer(s) will be treated within their respective
+budgets.
+The AUD004 ORBITS report can assist in reviewing transfers for budget
+development. Further, instructions for this step can be found on the SABRS website. Note
+that all transfers must be documented before requesting an ORBITS audit.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+28
+
+Base Budget
+
+APRIL -- MAY
+
+The Base Budget is the starting point for the new biennium. It begins with the 2025-27 LAB,
+adjusted for actions approved through April 2026, including the 2026 Session actions,
+Emergency Board actions, and DAS-approved Nonlimited changes. The Base Budget also
+includes the following adjustments for Personal Services, Debt Service, Nonlimited
+expenditures, and Capital Construction expenditures.
+
+Personal Services Adjustments
+ORPICS generates Base Budget Personal Services costs using position data as of the
+freeze date (mid‑April 2026). Salaries and Other Payroll Expenses (OPE) are calculated
+based on each employee’s base salary in Workday. Positions are then adjusted to include
+cost‑of‑living adjustments (COLAs) and step increases through the end of the current
+biennium, June 30, 2027. Vacant positions are frozen at the fifth step of the salary range,
+already adjusted for COLAs. Limited duration positions are not included in the base budget
+and are removed during the freeze process.
+Agencies should include only reclassifications or position changes that have
+administrative or legislative approval. SABRS will attempt to load bargained changes, class
+studies, and approved administrative adjustments into ORPICS before the freeze.
+However, agencies should review classification changes and ensure all updates are
+entered correctly.
+In some cases, agencies may need to adjust the step used in the ORPICS freeze for
+specific positions (for example, seasonal positions). Agencies should work with their CFO
+analyst to make any necessary modifications during the Start-up period.
+
+Base Debt Service Adjustments
+Include only scheduled debt service projects already financed through Legislative action.
+Changes to the Base Debt Service budget will be provided by the DAS Capital Finance
+Section. New Debt Service requests must be submitted as policy packages.
+
+Base Nonlimited Adjustments
+Changes for programs with approved Nonlimited Other Funds and Federal Funds
+expenditures must be shown. Requests for new Nonlimited authority must be included in
+policy packages.
+
+Capital Construction Adjustments
+Remove Capital Construction expenditure limitation from the budget for projects approved
+in the 2025 and 2026 sessions or by the Emergency Board prior to April 2026. These
+expenditures do not carry forward in the Base Budget. New requests must be submitted as
+policy packages.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+29
+
+Other Base Budget Adjustments
+Agencies should use the Base Budget to move amounts among accounts within the same
+expenditure category to “true up” their budget, as necessary. This should not be done in
+Package 030. These adjustments must be net zero and generally should not affect
+protected accounts such as Attorney General, Rent, State Government Service Charges,
+and Professional Services accounts. Agencies should also update revenues not
+associated with packages in the Base Budget.
+
+Current Service Level (CSL)
+
+MAY – JUNE
+
+Base + Essential Packages
+CSL is required by law. It estimates the cost to continue legislatively approved programs
+into the 2027-29 biennium. The CSL is built by the agency in coordination with CFO,
+beginning with the agency’s Base Budget.
+Agencies must complete a CSL workbook, located on the CFO website, and submit it to
+their CFO analyst using the template provided by CFO (see page 39 for more information
+on the workbook).
+Be sure to apply the following key requirements:
+•
+•
+•
+
+Emergency Board actions or changes after April 2026 are excluded from CSL during
+the agency request phase.
+Agencies may request continued funding for these actions in Policy Package(s) No.
+08X.
+Adjustments to CSL may occur later if CFO, EIS (for IT-related items), and LFO
+approve.
+
+The Summary of 2027-29 Budget form in ORBITS displays the agency budget, including CSL
+estimates and it is presented at the program unit level and summarized at the agency-wide
+level. ORBITS now generates this form automatically.
+
+Essential Packages
+Essential packages in budget development are assigned ORBITS package numbers.
+Agencies must provide supporting documentation for all packages to their CFO analyst.
+The essential packages in budget development are assigned the ORBITS package numbers
+discussed below. Agencies are responsible for supplying supporting documentation for all
+packages to the CFO analyst. The documentation provided must include expenditures by
+SCR, budget category, and fund type. The CFO analyst may also require account level
+detail if necessary. Agencies should work with their CFO analyst to put items in the correct
+packages and to document all packages by the end of May 2026. The documentation must
+be provided by SCR, Category, and Fund Type. In some cases, account level detail may be
+required, as determined by the CFO analyst. The following are the package numbers and
+titles of each essential package:
+2027-2029 Budget and Legislative Concepts Instructions
+
+30
+
+•
+•
+•
+•
+•
+•
+
+010: Vacancy Factor and Non-ORPICS Personal Services
+021 and 022: Phase-ins, Phase-outs, and One-time Costs
+031, 032 and 033: Inflationary Adjustments
+040: Mandated Caseloads
+050: Fund Shifts
+060: Technical Adjustment
+
+Essential Package No. 010 | Vacancy Factor and Non-ORPICS
+Personal Services
+Package 010 covers vacancy factor adjustments and non-ORPICS driven personal services
+costs for the 2027-29 biennium. These adjustments ensure accurate projections for
+salaries, wages, and related costs.
+Vacancy Factor Adjustments
+The ORPICS system automatically updates position costs to include 24-month pricing and
+salary adjustments for the next biennium. Agencies with more than 70 FTE will apply a 5%
+vacancy savings factor to account for anticipated staffing-related savings from turnover.
+Please work with your CFO Analyst if applying less than the 5% vacancy savings factor. The
+following vacancy savings factors apply to agencies with 70 or fewer FTE:
+•
+•
+•
+
+0.00-30.00 FTE: 0%
+30.01-50.00 FTE: 1.5%
+50.01-70.00 FTE: 3%
+
+Refer to the following requirements when creating vacancy factor adjustments:
+•
+•
+•
+
+•
+
+The vacancy savings factor is calculated on the CSL for Salaries and Wages.
+Agencies must work with their CFO analyst to review and document any
+circumstances requiring adjustments to the standard rate.
+Changes to projected vacancy factor savings must be entered into ORBITS as an
+adjustment to the amount included in the 2027-29 Base Budget. Adjustments may
+increase or decrease the amount.
+All changes are reported on the Summary of 2027-29 Budget form BDV104 in
+ORBITS.
+
+Non-ORPICS Personal Services Costs
+Non-ORPICS personal services costs include inflation adjustments for items not
+calculated by ORPICS, such as unemployment assessments, overtime, temporary
+employees, shift differentials, and Mass Transit taxes. There should be no ORPICS driven
+changes in this package.
+Refer to the following requirements when creating Non-ORPICS personal service costs:
+•
+•
+
+Apply the general inflation factor outlined in Package 031 below for these items.
+Cost increases above the standard inflation rate must be requested in a policy
+package.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+31
+
+•
+•
+
+ The one exception is for agencies with mandated caseload and 24/7 facilities,
+such as the Department of Corrections and Oregon Youth Authority. These
+agencies should work with their CFO analyst to negotiate adjustments based on
+specific bargaining agreements. A formal exception request is not required.
+No adjustment will be necessary for the state’s Pension Obligation Bonds (POB)
+liability because it will be paid off during the 2025-2027 biennium.
+For Transit taxes use the rate of .006 of Total Salaries and Wages by fund type,
+excluding federal funds.
+
+Essential Package No. 021 and 022 | Costs of Phased-In/Phased-Out
+Programs and One-Time Costs
+Agencies must identify budget adjustments for program phase-ins, phase-outs, and onetime costs during the 2025–27 biennium. These adjustments typically occur in Services
+and Supplies, Capital Outlay, and Special Payments. Each package must include a
+narrative description and assumptions used to calculate the adjustment.
+Enter phase-ins in Essential Package 021 and phase-outs or one-time cost eliminations in
+Essential Package 022.
+Phase-In Programs (Package 021)
+Phase-in programs include new programs and expansions of non-mandated caseload
+programs funded for fewer than 24 months in the prior biennium but requiring a full 24
+months in the next biennium. Agencies with program Phase-Ins of programs should
+provide the following information:
+•
+•
+•
+•
+
+The added costs above the 2027–29 Base Budget level after removing prior start-up
+or one-time costs
+ORPICS adjustments for legislatively approved positions not addressed in the
+freeze process (ORPICS OPE)
+Adjustments to Services and Supplies related to the amount of FTE being phased
+from a position not funded as a full FTE in the previous biennium
+Include inflation for phased-in programs within Package 021 (do not include in
+Package 031). Package 021 amounts are NOT part of the inflation autocalculating function in ORBITS.
+
+Phase-Out Programs and One-Time Costs (Package 022)
+• Phase-outs reduce costs by eliminating pilot programs, temporary initiatives or
+one-time expenditures funded in the 2025–27 biennium but not meant to be funded
+in the 2027-29 biennium. ORPICS will adjust for legislatively approved position
+phase-outs in Personal Services calculations.
+Agencies are responsible for providing the following information:
+•
+•
+•
+
+Phase-out services and supplies costs associated with Limited Duration positions.
+Remove programs approved with legislative review requirements before further
+funding.
+Eliminate completed one-time expenditures such as IT projects or new systems.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+32
+
+•
+
+Enter Package 022 amounts into ORBITS before applying auto inflation calculations.
+
+Both 021 and 022 packages require agency documentation and CFO approval by the
+end of May.
+Package 021 and 022 Tips
+• Identify phase-in and phase-out packages shortly after the legislative session ends.
+• Read current budget reports with an impact on the agency carefully to identify
+Package 20 needs.
+• If a budget report is unclear, reach out to the CFO analyst.
+• Use Fiscal Impact Statements for new programs funded for part of the biennium as
+a reference (inflation not included).
+• Avoid double counting position costs automatically priced by ORPICS.
+• Adjust out one-time costs from the previous biennium when calculating phase-in
+needs for the next biennium.
+
+Essential Packages No. 031, 032 and 033 | Inflation and Price List
+Adjustments
+Inflation packages ensure accurate budgeting for Services and Supplies, Capital Outlay
+and Special Payments during the 2025–27 biennium. These packages use DAS Price List
+rates and published inflation factors. Changes in volume or usage are not allowed as part
+of inflation packages.
+Refer to the following biennial inflation factors for 2027–29 when creating packages:
+•
+•
+•
+
+4.9% for general inflation
+9.3% for non-state employee personnel costs (contract providers)
+6.5% for medical services (notify CFO analyst if used)
+
+Package 030 is broken into three parts (031, 032, and 033) to isolate the incremental
+impacts of certain inflation factors.
+Package 031 – Standard Inflation and State Government Service Charges
+This package includes standard inflation factors, as follows, and does not require special
+approval:
+•
+•
+•
+•
+
+General inflation factor (4.9%) for most Services and Supplies, non-ORPICS
+Personal Services, Capital Outlay, and some Special Payments
+Non-state employee personnel costs applied to Professional Services and Special
+Payments for state employee costs (9.3%)
+Published rates for uniform and non-uniform rent (DAS EAM provides non-DAS
+office rent factor)
+State Government Service Charges (SGSC), including Treasury charges and DAS
+assessments
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+33
+
+•
+
+Standard rate portion of medical cost increases, non-state employee personnel
+costs as applied to Special Payment, and usage-based Price List items
+
+Package 032 – Above Standard Inflation (Requires CFO Analyst Approval)
+This package includes inflation amounts above Package 031 for limited factors. Agencies
+must provide documentation and obtain CFO analyst approval by the end of May for the
+following amounts:
+•
+
+•
+•
+
+Medical services inflation above standard up to 6.5% for programs with high
+medical costs (e.g., Oregon Health Plan, foster care, mental health services); the
+medical services inflation factor will only be allowed for programs relying heavily on
+skilled medical staff, advancements in technology, or high-cost prescription drugs.
+Usage-based DAS Price List items (e.g., motor pool, printing) when cost per unit
+increases are beyond standard inflation
+Non-state employee personnel costs applied to Special Payments above standard
+inflation up to published rate
+
+Package 033 – Exceptional Inflation (Requires CFO Leadership Approval)
+This package applies when standard and above-standard inflation factors are insufficient.
+CFO leadership may approve exceptions through the exception process, based on agency
+documentation.
+Include the following costs and see the Exceptions section above for more information on
+exceptions:
+•
+•
+
+Inflation amounts exceeding Packages 031 and 032 maximums
+Extraordinary cost increases determined by CFO
+
+Inflation Summary Checklist
+Package 031 – Include the following Standard Inflation components:
+• General inflation (4.9%)
+• Non-state employee personnel costs (9.3%)
+• Attorney General costs
+• Uniform and non-uniform rent
+• SGSC (including Treasury)
+• Standard portions of medical and usage-based Price List items
+Package 032 – Include the following Above Standard Inflation components:
+• Usage-based Price List items above standard inflation
+• Medical inflation, such as Oregon Health Plan provider expenditures, above
+standard up to 6.5%
+• Non-state employee personnel costs above standard up to published rate as
+applied to Special Payments; amounts above standard inflation up to 9.3%
+2027-2029 Budget and Legislative Concepts Instructions
+
+34
+
+Package 033 –Include the following Exceptional Inflation components:
+• Exceptions for medical inflation above published rates
+• Extraordinary cost increases approved by CFO leadership
+Inflation Reporting
+The Summary of 2027-29 Budget form in ORBITS reports net changes from Packages 031,
+032 and 033 in two parts: (1) Cost of Goods and Services increase/decrease excluding
+SGSC, and (2) SGSC line showing net changes from the Base Budget. Inflation factors are
+not applied to SGSC charges.
+State Government Service Charges
+DAS publishes the State’s Price List of Goods and Services. The Price List includes
+assessments and charges from agencies across state government. An electronic version
+of the 2027-29 Price List will be available on the DAS website in April. Note that items in the
+Price List may change, based on more current information, during the budget development
+period.
+The following assessments should be budgeted in ORBITS account 4225 State
+Government Service Charges:
+Central Government Service Charges
+Secretary of State, Archives Division
+Secretary of State, Audits Division
+Certification Office for Business Inclusion and Diversity
+Oregon State Library
+State of Oregon Law Library
+Oregon Government Ethics Commission
+DAS Policy Functions:
+Chief Operating Office
+Chief Financial Office
+Enterprise Information Services
+Chief Human Resource Office
+DAS Service Delivery Offices
+EIS Data Center Services (assessment portion only)
+Enterprise Asset Management
+Enterprise Goods and Services
+Risk Management Services
+Treasury Banking Services Charges
+2027-2029 Budget and Legislative Concepts Instructions
+
+35
+
+Treasury Debt Management Services
+Office of the Public Records Advocate
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+36
+
+Essential Package No. 040 | Mandated Caseload
+Mandated caseload adjustments are based on changes in programs required by federal
+law, the state constitution or court actions. These costs may include additional staff,
+subject to further analysis. Agencies must follow compliance requirements and provide
+documentation for all adjustments.
+Programs Included in Mandated Caseload
+• Oregon Health Plan -- Medicaid only
+• Other Medicaid expenditures within medical assistance programs
+• Crisis services for adults with intellectual and developmental disabilities
+• Crisis services for children with intellectual and developmental disabilities
+• Non-crisis in-home care for adults with intellectual and developmental disabilities
+• Non-crisis comprehensive care for adults with intellectual and developmental
+disabilities
+• Civil and criminal commitments for individuals with mental illness or intellectual
+and developmental disabilities
+• Community-based and nursing home care
+• Adoption Assistance
+• Children’s Foster Care (DHS and OHA only)
+• Other foster care placement alternatives: Subsidized Guardianship, Statewide
+Residential Treatment Programs, Treatment Foster Care, Family Shelter Care,
+Family Group Home, Native American Relative Foster Care, Other Tribal Programs
+• Food Stamps
+• State School Fund, High School Success Fund
+• Early Interventions/Early Childhood Special Education
+• Juvenile Corrections: DOC youth and Public Safety Reserve population only (at
+population forecast level)
+• Adult corrections, including community corrections (at population forecast level)
+• Department of Justice Criminal Appeals
+• Unemployment Insurance
+• Adult criminal indigent public defense services
+Package Requirements
+Mandated caseload packages must reflect only costs associated with caseload changes at
+the forecasted rate for the next biennium. Examples include changes in the number of
+clients served or in the cost of services purchased.
+Policy changes that increase or decrease costs should be included in a policy package, not
+in this essential package. Examples of policy changes include adding services, restricting
+eligibility, or increasing reimbursement rates.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+37
+
+Documentation and Approval
+Methods used to forecast caseload and cost-per-case must be clearly explained in the
+narrative portion of this package and discussed with the CFO analyst prior to CSL
+finalization. Comparative data from other jurisdictions for similar caseloads is
+recommended.
+Adjustments for standard mandated caseloads listed in the Budget Instructions require
+agency documentation and CFO approval by the end of May 2026. Expanding beyond the
+approved list will not be considered. Additional adjustments based on updated
+information may be included by the analyst in the Governor’s Recommended Budget.
+
+Essential Package No. 050 | Fund Shifts
+Essential Package 050 addresses significant revenue changes in existing programs during
+the 2025-27 or expected during the 2027-29 biennium. These adjustments ensure accurate
+funding alignment without changing total program costs.
+Key Requirements
+• Use this package only for revenue source changes that result in a net-zero Total Funds
+cost.
+ Example: A legislatively approved budget planned for Other Funds, but Federal
+Funds are now being used instead.
+• Request General Fund replacement of Lottery Funds, Other Funds or Federal Funds
+only for mandated caseload programs or if these funds have historically been
+interchanged with General Fund.
+• Any other request for General Fund backfills must be submitted in a policy package,
+not in this essential package.
+• Do not use this package to reduce expenditures below CSL due to revenue shortfalls. If
+revenues are insufficient to maintain CSL, reductions must be included in Policy
+Package No. 070 (Modified Current Service Level).
+This package requires complete agency documentation and CFO approval before
+submission. Ensure all changes comply with statutory requirements and audit-sensitive
+procedures.
+
+Essential Package No. 060 | Technical Adjustments
+Essential Package 060 is used for technical budget adjustments that do not fit within
+Essential Packages 010-050. These adjustments are typically for agency reorganizations
+and expenditure category shifts.
+Key Requirements
+• Use this package only for technical adjustments, such as organizational changes or
+expenditure category realignments.
+• For structure changes in ORBITS, SABRS approval is required before implementation.
+• Provide complete documentation for all adjustments to ensure compliance with
+statutory and audit-sensitive requirements.
+2027-2029 Budget and Legislative Concepts Instructions
+
+38
+
+•
+
+Obtain final CFO approval by the end of May 2026.
+
+CSL Workbook
+The CSL workbook serves as a communication and documentation tool between agencies
+and CFO analysts to streamline the CSL audit process and ensure clarity on adjustments
+from the Base Budget.
+Purpose and Requirements
+Each agency must submit a CSL workbook detailing assumed adjustments from specific
+essential package using this CSL Workbook, which is available on the CFO website.
+Essential packages include the following information:
+•
+•
+•
+•
+•
+•
+•
+
+010 – Vacancy Factor and Non-ORPICS Personal Services
+021 and 022 – Costs of Phased-In and Phased-Out Programs
+031, 032 and 033 – Inflationary Adjustments
+040 – Mandated Caseloads
+050 – Fund Shifts
+060 – Technical Adjustments
+070 – Revenue Reductions
+
+Workbook content requirements include the following information:
+•
+•
+•
+•
+•
+
+Package type and SCR title
+Amount of adjustment
+Number of positions and FTE
+Fund type
+Description explaining why the adjustment is appropriate
+
+Deadlines and Review Process
+The CSL workbook must be completed by May 1, 2026. It should be a joint product
+developed with input from both the agency and the CFO analyst. After submission, the
+CFO analyst will review the information with CFO Leadership, provide feedback and work
+with the agency to finalize adjustments prior to CSL audit submission.
+
+Modified Current Service Level – Revenue Shortfalls
+CSL is the estimated cost of continuing current programs into the next biennium, as
+required by ORS Chapter 291. The modified CSL reduces current expenditures to balance
+to available revenues. Expenditure reductions due to revenue shortfalls should be
+included in Policy Package No. 070. The Summary of the 2027-29 Budget form (BDV104 in
+ORBITS) will include the subtotal for the modified CSL including Base Budget, Essential
+Packages No. 010-060 and Policy Package No. 070.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+39
+
+Policy Package No. 070 | Revenue Shortfalls
+This package should only include Lottery Funds, Other Funds, and Federal Funds
+expenditure reductions necessary to adjust CSL to available revenues that are normally
+budgeted in base and/or Essential Packages 010-060 (for Federal Funds). Reductions
+should be sufficient to leave ending balances where appropriate. If an agency seeks
+restoration of some or all the reductions, they will need to propose a policy package to
+increase revenues and restore expenditures.
+
+Agency Request Budget
+
+MAY -- JULY
+
+CSL + Policy Packages
+The final phase of the budget development process adds policy enhancements to the
+Current or Modified Current Budget Level. Policy decisions to reduce or increase programs
+or expenditures are implemented through policy packages as described below. For the
+2027-29 biennium policy packages should be net neutral and not require new revenue. The
+same applies to legislative concept development -- concepts should not require additional
+resources.
+•
+•
+
+•
+
+For General Fund and Lottery Funds, packages must be funded within existing
+resources available to the agency in the CSL.
+For Other Funds, policy packages should not require increased fees, assessments
+or rates; this does not limit agencies from requesting fee increases to cover costs of
+current service level.
+Agencies may request packages to utilize additional Federal Funds where available,
+however no new revenue can be requested to satisfy state match or maintenance of
+effort requirements.
+
+Agencies may request certain policy packages to be reviewed through the initial approval
+process related to the following:
+•
+•
+•
+
+Capital projects that must go through the Capital Projects Advisory Board process
+IT projects as they relate to SB 1090 (2025) review, especially projects already in
+process
+Legislative or Ballot Measure mandates
+
+Policy Packages No. 081 and 082 | Emergency Board Actions After
+April
+Use these packages to enter all expenditure and revenue actions taken by the Emergency
+Board that are not included in the Base Budget. Typically, this includes actions taken after
+April of the even-numbered year that will carry forward to the next biennium. Amounts in
+Policy Packages 081 and 082 must be biennialized and inflated using standard inflation
+rates. In some cases, changes to mandatory caseload figures may be adjusted in Package
+040, or changes to fund shifts may be taken in Package 050 to keep the CSL “true.”
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+40
+
+Policy Packages | Program or Other Proposed Enhancements
+Policy packages reflect policy and program changes affecting an agency’s budget.
+Requested policy packages should be coordinated with the Governor’s Office and CFO.
+The Agency Request Budget (ARB) consists of the Base Budget, essential packages, and
+policy packages.
+NOTE: Package requests for 2027-29 are restricted to revenue-neutral proposals or
+approved exceptions, such as capital projects requiring review by the Capital Projects
+Advisory Board, IT projects as they related to SB 1090 (2025) review (especially projects
+already in process), and legislative or ballot measure mandates.
+
+Guidelines for Policy Packages
+•
+
+•
+
+•
+•
+
+Packages impacting multiple agencies: For policy packages impacting multiple
+agencies, consult with all agencies and ensure consistent package numbers and titles
+across agencies.
+Deferred Maintenance/Capital Improvements: Agencies owning state buildings and
+infrastructure should request policy packages for deferred maintenance and capital
+improvements per ORS 291.215. These requests should be for at least 2% of the
+current replacement value of state-owned assets. Packages requiring fee increases are
+allowed to cover CSL costs only.
+Audit Findings: Identify any funding requests resulting from Secretary of State audit
+findings or recommendations. Clearly indicate if a policy package is related to audit
+findings and specify components by fund type.
+Position Actions: Prepare supporting documentation for position actions, including
+position descriptions, organization charts and CHRO approval memos. Submit these
+upon request to the CFO analyst.
+
+System Guidance
+Refer to the SABRS website for instructions on entering policy package data into ORBITS
+and ORPICS. Presentation requirements for policy packages in the budget document are
+outlined in the Budget Document section of these instructions.
+
+Reduction Options
+As required by ORS 291.206, agencies must include reduction options totaling 10%of the
+CSL, to be completed in two 5% increments. These options support the Governor and
+Legislative Assembly when they consider expenditures requiring reductions. Reduction
+options do not apply to the debt service portion of the CSL.
+
+Calculation Basis
+•
+•
+
+Calculate reduction options using the Modified CSL (Base Budget plus essential
+packages, including Policy Package No. 070).
+Present all reductions separately for each type of fund: General Fund, Lottery
+Funds, Other Funds, and Federal Funds.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+41
+
+Fund Type Presentation
+•
+•
+•
+•
+
+Report reduction options on Form 107BF17 for each fund type.
+Describe the activities or programs that will not be undertaken for each reduction.
+Rank each activity or program by lowest cost for benefit obtained.
+Clearly explain the criteria and methods used for cost-benefit analysis.
+
+Impact Analysis
+•
+•
+•
+•
+
+Explain how reductions may affect other revenues, expenditures, or programs.
+Identify if a General Fund reduction will result in the loss of matching Federal
+Funds.
+For revenue transfers, describe reduction options with other affected entities.
+Verify that reduction is possible under Federal rules and law.
+
+Submission Requirements
+•
+•
+•
+
+•
+
+Include reduction option information in the ARB narrative.
+Provide summary details for each option to facilitate evaluation.
+Legislative Concepts (LCs) are not required for proposed reductions. However, the
+agency should be prepared to provide necessary legislative changes upon request
+from the Governor or CFO analysts.
+Analysts may request additional or alternative reduction options if those proposed
+are not feasible or do not align with statewide policies.
+
+Review and Updates
+•
+
+•
+
+After release of the Governor’s Recommended Budget, agencies must update the
+reduction options Form 107BF17 to indicate which reductions were used in the
+development of the 2027-29 budget.
+Use strikethrough formatting to show items and dollars incorporated into the GRB.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+42
+
+Capital Budgeting and State Facilities Planning
+Capital Budgeting
+•
+
+•
+
+•
+
+•
+
+Major capital projects require advance planning and may involve external financing,
+including bond financing of other financing agreements. Agencies that own state
+buildings or other infrastructure must include a Capital Budgeting section as part of
+the budget document. This section of the agency’s budget document will include
+information on the following:
+ Capital Improvements -- project costs less than $1 million including
+potential costs in future biennia
+ Capital Construction (Major Construction/Acquisition) -- project costs more
+than $1 million for acquisition, building, adaptation, replacement, or change
+in the use of a facility or group of facilities
+Request policy packages to ensure deferred maintenance and capital
+improvements reach at least two percent of the current replacement value, as
+required by ORS 291.215.
+Governor’s Office and Legislative approval is needed if the agency plans to finance
+more than $100,000 of the project with bonds or other financing agreements.
+Requests meeting these criteria must be submitted by May 15, 2026, using Form
+107BF15, and the agency must obtain estimates from the Capital Finance Section.
+Refer to supplemental instructions and manuals provided by DAS for further
+guidance on capital budgeting and facility planning. Additional details for Capital
+Budgeting (including Financing Agreements and Bond Financing) are provided in the
+supplemental 2027-29 Capital Budgeting Instructions. Additional resources are
+also available in the Statewide Facility Planning Process Manual. Reporting
+requirements on agency-owned building and infrastructure are outlined in “The
+Budget Document” section of these instructions.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+43
+
+The Budget Document
+
+JULY -- AUGUST
+
+The budget document provides clear instructions for preparing agency submissions for the
+biennium. Agencies must use the formats and forms in this manual to ensure consistency
+and compliance. This standard structure helps decision-makers review information
+efficiently.
+Agencies should prepare documents electronically for ease of access. Include hyperlinks
+in the table of contents and section tabs. Graphics may be used to explain complex issues.
+The goal is a concise, accurate presentation that supports informed decisions.
+The “Agency Summary” section identifies the major issues and context of the agency’s
+activities. The “Program Unit” sections provide supplemental budget and program detail.
+Agencies submit three versions of the budget document during the process: Agency
+Request Budget (ARB), Governor’s Recommended Budget (GRB), and Legislatively Adopted
+Budget (LAB). All versions become public records once published. Agencies must update
+the ARB as decisions are made by the Governor and Legislature.
+The budget document combines narrative, ORBITS reports, budget forms and agencysupplied information. Narrative may be entered directly into ORBITS or by using form
+107BF02. Instructions for each section identify the required ORBITS components and
+forms.
+All CFO-provided materials are available in ORBITS, from CFO, or online. The following
+pages explain how to assemble the budget documents. Visit the DAS CFO website for budget
+instruction forms.
+The icon pictured to the left means the electronic document should contain major
+section identifiers and hyperlinks at this point in the file.
+
+Document Format
+Budget documents are submitted at three points in the process. See below and on the
+following page for details on when to submit. Refer to the following guidelines to help
+prepare the document:
+•
+•
+•
+•
+
+Orient all budget pages as “landscape.”
+Side margins should be a minimum of ½ inch.
+Budget forms are available on the CFO website.
+Do not write or type on ORBITS reports other than to add page numbers.
+
+Electronic Document
+Agencies should submit the budget document electronically using Box, which is an online
+secured file transfer service. A link to upload the budget document will be sent to SABR
+Coordinators and Budget Directors at each budget phase (ARB, GB, LAB, Etc.). A hard copy
+of the budget document is not required unless requested by the CFO or LFO analyst.
+2027-2029 Budget and Legislative Concepts Instructions
+
+44
+
+•
+•
+•
+•
+•
+•
+
+All electronic documents should be digitized (created from source documents and
+not scanned) utilizing optical character recognition (OCR) for printed text to be
+searched electronically.
+Bookmark PDF documents at each section. Please be mindful regarding the use of
+bookmarks to ensure the document is reader friendly.
+Ensure electronic files contain appropriate hyperlinks to important sections of the
+document.
+Embed fonts and create a printable PDF prior to saving the document.
+Submit PDF as one combined document.
+Agencies are responsible for ensuring their final budget document complies with all
+applicable accessibility standards before it is published online.
+
+Due Dates, Document Titles and Copy Requirements
+Agencies must update forms, narratives, and graphics in the agency request document at
+each step to reflect the Governor’s and Legislature’s decisions. The document format
+remains the same. The due dates, document titles, and copy requirements for each are the
+following:
+
+Agency Request Budget Document
+•
+•
+•
+
+Due to the CFO by August 31, 2026, from all agencies (early submittal agencies due
+by July 31, 2026)
+Title: "Agency Name" 2027-29 Agency Request Budget
+An electronic copy (PDF) of the document should be uploaded using Box, which
+is an online secured file transfer service. A link to upload budget binders will be
+sent out to SABR Coordinators and Budget Directors. The document must
+include the certification page with an authorized signature. The agency is also
+required to publish the ARB on its website and forward the document hyperlink to
+the CFO.
+
+Governor's Recommended Budget
+•
+•
+•
+
+Due to CFO in early 2027; actual due date will be supplied before that time
+Title: "Agency Name" 2027-29 Governor's Recommended Budget
+An electronic copy (PDF) of the document should be uploaded using Box, which
+is an online secured file transfer service. A link to upload budget binders will be
+sent out to SABR Coordinators and Budget Directors. The document must
+include the certification page with an authorized signature.
+
+Legislatively Adopted Budget
+•
+•
+
+Due to CFO within 30 days of the date the agency is through SABRS audit process
+and receives ORBITS budget support documents
+Title: "Agency Name" 2027-29 Legislatively Adopted Budget
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+45
+
+•
+
+An electronic copy (PDF) of the document should be uploaded using Box, which
+is an online secured file transfer service. A link to upload budget binders will be
+sent out to SABR Coordinators. The document must include the certification page
+with an authorized signature.
+
+Budget Outline
+Introductory Information
+Table of Contents
+Certification (107BF01)
+
+Legislative Action
+A summarized list of Budget Report(s) and Emergency Board Actions using the
+Legislative Action Workbook available on the CFO website
+
+Agency Summary
+Agency Summary Narrative (107BF02)
+1. Budget Summary Graphics
+2. Mission Statement and Statutory Authority
+3. Agency Strategic Plan
+4. Criteria for 2027-29 Budget Development
+5. Racial Equity Impact Statements and Diversity, Equity, and Inclusion Plan
+6. State-Owned Buildings and Infrastructure
+7. IT Strategic Plan
+8. IT Project Prioritization Matrix
+Summary of 2027-29 Budget (Agency-wide and Program Unit levels) (ORBITS
+BDV104)
+Program Prioritization for 2027-29 (107BF23)
+Reduction Options (107BF17)
+2025-27 Organization Chart
+2027-29 Organization Chart (if changes proposed)
+
+Revenues
+1. Revenue Forecast Narrative/Graphics (107BF02)
+2. Detail of Fee, License or Assessment Revenue Proposed for Increase
+(107BF08)
+3. Detail of Lottery Funds, Other Funds, and Federal Funds Revenue (107BF07)
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+46
+
+Program Units
+Program Unit Organization Chart(s)
+Program Unit Executive Summary (107BF02)
+Program Unit Narrative (107BF02)
+Essential and Policy Package Narrative and Fiscal Impact Summary (ORBITS
+BPR013)
+
+Capital Budgeting
+Financing Agreements and COPs
+Capital Improvement
+Capital Improvement Narrative (107BF02)
+Detail of Lottery Funds, Other Funds, and Federal Funds Revenue
+(BPR012)
+Capital Construction (Major Construction/Acquisition)
+•
+•
+
+Major Construction/Acquisition Narrative (107BF02 and 107BF11)
+Major Construction/Acquisition Six-Year Plan (107BF13)
+Capital Financing Six-Year Forecast Summary (107BF12)
+Project Narrative
+Detail of Lottery Funds, Other Funds, and Federal Funds Revenue
+(ORBITS BPR012 and 107BF07)
+Facilities Maintenance and Management
+•
+•
+•
+•
+•
+
+•
+•
+•
+
+Facilities Maintenance Narrative (107BF02)
+Facilities Maintenance Summary Report (107BF16a)
+Facilities Operations and Maintenance and Deferred Maintenance
+Report (107BF16b)
+
+Special Reports
+IT Project Prioritization Matrix – Supporting Documentation and Submission Via
+PPM
+IT Strategic Plan (required for agencies with 50 FTE or More)
+Information Technology Report
+Annual Performance Progress Report
+Audit Response Report
+Affirmative Action Report
+Supervisory Ratio
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+47
+
+Budget Detail
+Introductory Information
+The first two items in the budget document are the Table of Contents and the Certification.
+They precede the Legislative Action tab.
+Table of Contents (no form)
+Certification page (use form 107BF01) -- with this form, the agency certifies the
+accuracy of the budget document
+This certification must be completed and signed by the agency head or, if the agency is
+under control of a board or a commission, by the chairperson. The agency head or
+chairperson must sign the certification each time the budget document is updated
+(electronic signature is acceptable).
+
+Legislative Action
+This section should provide a summarized list of budget reports, bill numbers, and
+emergency board actions that impacted the agency’s 2025-27 budget or will have a direct
+budget impact on the agency in the 2027-29 biennium. As a resource, the BSM002a in
+ORBITS will provide a summary of all budgetary legislative actions. The Legislative Action
+Workbook is available on the CFO website.
+
+Agency Summary
+1. Agency Summary Narrative (107BF02)
+This section presents policy issues and agency business plans for the 2027-29 biennium.
+An outline can be used if the information is complete.
+The following headings and information must be in the narrative:
+a. Budget Summary Graphics
+This section must provide pie charts or other graphics depicting the proposed budget,
+including the following:
+•
+•
+•
+
+How the budget is allocated among programs or activities
+Distribution by fund type
+Comparison of 2025-27 LAB (as of April 2026) with the
+2027-29 ARB
+
+Update these graphics for the GRB and the Legislatively Adopted Budget.
+b. Mission Statement and Statutory Authority
+This section explains the authority and direction of the agency. It must do the following:
+•
+
+Clearly and concisely state what the agency seeks to achieve.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+48
+
+•
+
+Cite Oregon Revised Statutes and Oregon Administrative Rules chapters containing
+the agency's authorities and duties.
+
+c. Agency Strategic Plan
+Agencies must create and maintain a strategic plan that follows the goals set by the
+Governor’s Office. The plan should be developed with agency leadership and in
+partnership with direct service employees, community partners, tribes, underrepresented
+communities, and any boards or commissions that oversee the organization.
+The strategic plan must include a section that aligns with the agency’s information
+technology strategy. This section should explain how modernization efforts will support the
+agency’s goals and improve operations.
+Agencies are also required to have a Diversity, Equity, and Inclusion (DEI) Plan. The DEI
+Plan must be updated every two years and serves as the main tool for guiding and tracking
+equity strategies across programs and services.
+d. Criteria for 2025-27 Budget Development
+Using the short-term and long-term plans, identify the goals, objectives and/or outcomes
+used as a basis to develop the budget proposal.
+e. 2027-29 Racial Equity Impact Statement Instructions
+Developed in consultation with the Racial Justice Council pursuant to ORS 291.206, the
+Racial Equity Impact Statement (REIS) describes how proposed programs, policies, and
+budgets may impact Oregonians who are Black, Indigenous, and other people of color.
+The purpose of the REIS is to ensure racial equity impacts are evaluated during the budget
+build process so communities of color, who have been historically harmed, underserved or
+excluded, are not disproportionately burdened by budget decisions. It is a mechanism to
+assist agencies in bringing resource and policy decisions into alignment with federal and
+state civil rights laws and agency missions.
+Requirements for Agencies
+• Complete the REIS worksheets on the CFO website for the agency as they apply to
+agency-wide strategic mission, goals, and programs, and each policy option
+package (POP) proposed.
+•
+
+If the agency has no POPs this budget cycle, choose one Program or division
+(Summary Cross Reference) to evaluate, and use the Program REIS worksheet.
+
+•
+
+If additional revenue becomes available for the agency through the Governor’s
+Recommended Budget, complete the REIS for POPs.
+
+•
+
+Submit a copy of your diversity, equity and inclusion (DEI) action plan with the ARB.
+Include it in the appendix. It will be considered alongside the agency’s REIS in the
+budget review process.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+49
+
+•
+
+A copy of the agency’s affirmative action plan is required by statute as part of the
+ARB under “Special Reports.” This will also be considered alongside the REIS in the
+budget review process.
+
+Who Is Responsible for Completing the REIS?
+The REIS carries shared accountability across executive leadership, program, and budget
+staff.
+•
+
+Executive leadership is required to provide the direction and guidance to complete
+the full agency budget REIS section.
+
+•
+
+Program managers are required to provide the direction and guidance to fill out the
+REIS for POPs or programs related to their scope of work.
+
+•
+
+The REIS needs to be completed in collaboration with the agency’s DEIB
+practitioner(s), if the agency has one. DEIB practitioners can provide expertise on
+racial disparities, relevant data, and community context.
+
+We recommend agencies collaborate with the following groups:
+•
+
+Community engagement managers to help support input and feedback from the
+community in developing the REIS, budgets, and policies
+
+•
+
+Data analysts to support research and analysis when exploring disparate impacts
+
+Executive Leadership is required to review the REIS prior to submission to ensure racial
+equity analysis is considered in budget decisions.
+Review Process
+Information received for this REIS process will be reviewed by Chief Financial Office (CFO)
+policy and budget analysts in consultation with the Department of Administrative Service’s
+Office of Cultural Change (OCC). If additional information or clarification is needed, CFO
+analysts will follow up with agencies. This analysis will be provided to the Governor’s
+Racial Justice Council (RJC).
+Agencies may receive a request to present their REIS analysis to the RJC before the ARB is
+due. This will be an opportunity for the RJC to advise agencies on their process and for
+agencies to update their ARB as necessary based on this feedback.
+Access REIS Worksheets on the CFO website.
+f. State-Owned Buildings and Infrastructure
+This section must list all buildings and infrastructure owned by the agency and include the
+current replacement value of those assets. A summary is sufficient for the budget
+document; however, agencies must keep detailed information available for review by the
+CFO analyst if requested.
+2027-2029 Budget and Legislative Concepts Instructions
+
+50
+
+The section must also show the amount of deferred maintenance funding included in the
+agency’s Base Budget, broken down by fund type.
+Under ORS 291.215(2), agencies do not need to report buildings or infrastructure owned by
+or for use by public universities, community colleges, or transportation infrastructure.
+g. IT Readiness Workbook
+Agencies requesting funding for information technology (IT) budget and projects, including
+replacements, modernizations, upgrades and expansion of IT systems, must follow
+Statewide IT policy 107-004-180 (IT Readiness). The policy and accompanying procedure
+(107-004-180_PR) provide direction to the agency to submit an IT Readiness Workbook
+located on the CFO website for IT budget and project requests.
+
+2. Summary of 2027-29 Budget (ORBITS)
+This report is produced directly out of ORBITS and should be completed at the agencywide
+level (DO NOT include each SCR). It reports the Base Budget, the essential packages
+bringing the budget to the CSL, and any policy packages in the budget. This report will need
+to be completed at each stage of the budget development process (GRB and LAB).
+
+3. Program Prioritization for 2027-29 (form 107BF23)
+This form is required for the ARB. Priorities are listed for each Program Unit/Division as well as
+agency wide.
+
+4. Reduction Options
+Agencies must present General Fund, Lottery Funds, Other Funds, and Federal Funds reduction
+options (see page 41 for details). Rank each option in order, by lowest cost for benefit obtained.
+Number the first option to be implemented as one, the second as two, etc.
+10% Reduction Options Form (107BF02, and form 107BF17). For each option, provide the
+following:
+•
+•
+
+•
+•
+
+Activity or Program -- Describe the activity or program that would not be undertaken
+if the reduction were adopted.
+Describe Reduction -- Explain the reduction and how it would be implemented.
+Describe the option’s impacts on the agency's mission, strategic plan, other agencies,
+local governments, and impacts on Oregonians who are Black, Indigenous, or other
+people of color. Identify any statutory changes required by the reduction option and
+whether a legislative concept has been filed. List positions and full-time equivalent
+positions affected by the option. If the option would be phased in, show the 2027-29
+impact and the full 24-month projected 2029-31 impact.
+Amount and Fund Type -- State the reduction amount and the fund type. If Other Funds
+or Federal Funds are affected, identify the amount and source, and note any
+restrictions on use of the funds for other activities or programs.
+Rank and Justification -- Rank each option based on lowest cost for benefit obtained.
+Explain the criteria and methods used to determine costs and benefits.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+51
+
+If one option includes multiple elements, provide this information for each element.
+Although dollar amounts for reduction options are not entered into ORBITS in the ARB,
+agencies should be prepared to provide their CFO and LFO analysts detailed information
+by category. This allows the analysts to create policy packages quickly if the options are
+recommended by the Governor or adopted by the Legislature. See page 41 for instructions
+on displaying reduction options used in the GRB.
+
+5. Organization Chart(s) 2025-27
+Include a copy of the agency's current organization chart.
+
+6. Organization Chart(s) 2027-29
+If the 2079-29 budget includes organizational changes, include a chart of the proposed
+structure.
+•
+•
+•
+•
+•
+
+A chart should summarize the agency structure in one or two pages.
+Include the number of positions and full-time equivalent (FTE) in each unit of the
+agency.
+Note any positions eliminated from or added to the 2025-27 LAB to date.
+Show proposed 2027-29 biennium changes by shaded or dashed boxes.
+Use summary footnotes to save space. More detailed charts will be included in the
+program unit sections of the budget.
+
+Revenues
+This section presents revenues at the agency-wide level.
+
+1. Revenue Forecast Narrative (107BF02)
+
+Explain the total estimated Lottery Funds, Other Funds, and Federal Funds revenues. For
+each source describe the following:
+•
+•
+•
+•
+•
+•
+•
+
+The source of funds, and for Federal Funds, name the federal program and agency
+Any required matching funds, including the percentage and type of match
+Agency programs funded with the revenue
+General limits on use of funds
+Basis for 2027-29 biennium estimates, and for fees or assessments, describe who
+pays, the number of payers, and rates
+Proposed changes in revenue sources or fees
+Proposals for new legislation
+
+Include graphics or other aids to provide a clear, concise report. A more detailed revenue
+narrative is required for each program unit.
+
+2. Detail of Fee, License, or Assessment Revenue Proposed for
+
+Increase (107BF08)
+
+Describe all fees, licenses, and assessments that will be established or increased in the
+2027-29 budget. Include any fee changes made administratively during the 2025-27
+2027-2029 Budget and Legislative Concepts Instructions
+
+52
+
+biennium, only if they were not approved by the Legislature and included in the LAB. In the
+explanation section, clearly distinguish between increases in volume and increases in rate.
+Use form 107BF22 (Fee Change Detail) to report detailed information on all fee increases,
+establishments, or decreases included in the 2027-29 ARB. The form and accompanying
+cover memo must be included in the ARB submission.
+
+3. Detail of Lottery Funds, Other Funds, and Federal Funds Revenue
+
+(Form 107BF07 or ORBITS Report BPR012 must be included.)
+
+Itemize Lottery Funds, Other Funds, and Federal Funds for the agency by type of funds and
+source. Entries must match fund sources in the Revenue Forecast Narrative.
+
+Program Units
+Present each program unit under a separate tab in the budget. Generally, a program unit
+has a Base Budget and may have essential or policy packages.
+An agency presenting its entire budget as a single program unit may combine this section
+with the Agency Summary section if all required information is included.
+
+Program Unit (Title)
+Organize each program unit under its tab as follows:
+1. Program Unit Organization Charts
+Include a copy of the current organization chart for each program unit. If the 2027-29
+budget makes organizational changes, include a chart of the 2025-27 structure and one of
+the proposed 2027-29 structure.
+•
+•
+•
+•
+•
+
+Charts should summarize the program unit's structure on one page if possible.
+Include the number of positions and FTE in each unit.
+Note any positions eliminated, added, or transferred during the 2025–27 biennium
+to date, compared to the 2025–27 LAB.
+Show proposed 2027-29 biennium changes by shaded or dashed boxes.
+Use summary footnotes to save space.
+
+2. Program Unit Executive Summary (107BF02)
+For the 2027-29 biennium, agencies must continue using the Program Unit Executive
+Summary format from prior biennia, limited to four pages. The summary should give
+readers a clear understanding of the program unit’s core functions and outcomes.
+Summarize the requested funding level for the upcoming biennium and explain the
+expected performance if the funding request is approved.
+The Program Unit Executive Summary must include the following:
+a. Long-Term Focus -- Describe the program’s long-term goals and how they align with
+the agency’s Strategic Plan.
+b. Primary Program Contact -- Identify the person who can answer questions about
+program operations.
+2027-2029 Budget and Legislative Concepts Instructions
+
+53
+
+c. Budget and Performance Graphics -- Provide a graphic showing the program unit’s
+total funds budget over time and corresponding performance, including the number
+of persons served or other units of service provided. The graphic should display at
+least five biennia of history, the current biennium, and projected funding and
+performance for 2027-29. If this history is not available, agencies should work with
+their CFO analyst to determine an appropriate alternative.
+Agencies should also include estimated future costs through the 2031-33 biennium,
+especially for proposed changes that may roll up in future biennia. This helps avoid
+unexpected funding needs later. Use the same methodology applied to develop the
+agency’s Current Service Level (CSL). As a general guideline, the following inflation
+factors should be used:
+
+Standard
+Inflation
+2027-29 4.9
+2029-31 4.3
+2031-33 4.1
+
+State
+Employee
+Personnel
+Costs
+11.5
+10.5
+9.5
+
+Non-State
+Employee
+Personnel
+Costs
+9.3
+8.8
+8.2
+
+Medical
+Inflation
+6.5
+5.9
+5.5
+
+d. Program Overview -- In one or two sentences, describe what the program does and
+why it is important.
+e. Program Funding Request -- Summarize the funding request for the Governor’s
+Office. Include the total resources requested for this program and the performance
+outcomes expected if this proposal is funded. Provide the projected proposal costs
+and performance for the 2027-29 biennium, as well as estimated costs and
+performance through the 2031-33 biennium.
+f. Program Description -- Provide a clear description of the program, including the
+clients it serves and how often they receive services. Explain the program’s purpose
+and how it achieves that purpose. Describe how services are delivered, and identify
+the partners needed to ensure success. Include the major cost drivers for the
+program and note opportunities to improve performance through alternative
+delivery methods.
+g. Program Justification -- Explain how the program’s performance connects to the
+agency’s strategic plan and supports the desired outcomes. At a minimum, show a
+clear link between program results and strategic plan. Ideally, include research or
+nationally recognized best practices to demonstrate that investing in this program
+will help Oregon achieve its long-term objectives. If the program affects long-term
+performance indicators, identify those indicators and how they change with
+program performance.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+54
+
+h. Program Performance -- Provide tables or charts showing performance and
+outcomes over time. If possible, include 10 years of historical data and projected
+performance during 2027-29 if the program proposal is accepted by the Governor.
+When possible, include data for all four of the following key performance indicators:
+o
+o
+o
+o
+o
+
+Number of people served or items produced
+Quality of services provided
+Timeliness of services delivered
+Cost per service unit
+For each metric, explain what it measures and why it is important for
+understanding the program performance. If trends or data anomalies exist,
+describe them clearly. At a minimum, report the same information used for
+the 2025-27 budget.
+
+i. Enabling Legislation/Program Authorization -- State whether the program is
+mandated by the U.S. Constitution, Oregon Constitution, or Federal Law. Cite the
+enabling legislation that mandates the program. If the program is authorized but not
+mandated by federal law, or if it is mandated by Oregon law, provide the relevant
+statutory citation.
+j. Funding Streams -- Describe all funding streams that support the program. Include
+details on leveraged funds and explain how Oregon qualifies for the additional
+resources, such as competitive grant, federal matching program, private donation,
+and performance bonuses. If the program has a dedicated funding source, identify
+the source and whether the dedication is constitutional or statutory. Provide legal
+citations for the dedication.
+k. Proposal Comparison -- Explain how the 2027-29 funding proposal compares to the
+program authorized in 2025-27. State whether the proposal maintains the program
+at CSL or increases or decreases funding. If the proposal changes the program from
+the CSL, describe the nature of the change and why the agency is recommending it.
+3. Program Unit Narrative (107BF02)
+This section provides detailed information beyond the Program Unit Executive Summary. It
+should address major program and policy issues and include budget details for the Base
+Budget, essential packages, and policy packages. Agencies with questions should consult
+their CFO analyst for examples or guidance.
+The narrative must clearly describe the following budget details:
+•
+•
+•
+•
+
+Expenditures by fund type, positions, and full-time equivalents
+Activities, programs, and issues in the Base Budget that may need more explanation
+than allowed in the Program Unit Executive Summary
+Additional background for decision makers including trends in caseload, workload,
+or other external factors that affect program operations
+Revenue sources and proposed revenue changes; for Lottery Funds, Other Funds,
+and Federal Funds revenues, provide the following information:
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+55
+
+•
+
+o The source of funds, and for Federal Funds, name the federal program and
+agency
+o Any required matching funds including the percentage and type of match
+o Programs funded by each revenue source
+o General limits on use of funds
+o Basis for 2027-29 estimates, and for fees or assessments, describe who
+pays, the number of payers, and the rates
+Proposed new laws that apply to the program unit
+
+Balance detail against brevity and focus on key issues. Use an outline format providing
+complete information and provide graphics or charts to improve clarity.
+4. Packages (107BF02 and BPR013)
+Packages propose budget, policy, and program changes. There are two types: essential
+packages and policy packages. List the essential packages first, followed by policy
+packages. Rank policy packages in overall agency-wide priority order with “1” as the top
+priority and subsequent numbers in order.
+•
+
+•
+
+A package based on new or increased Federal Funds must be supported by
+completed congressional action and documentation showing the funds are
+authorized and appropriated. Exceptions may be made if funding is reasonably
+certain.
+Highlight any actions that would do the following:
+o Produce substantial matching revenues from other jurisdictions
+o Generate new or increased revenues
+o Eliminate revenues received by the agency during the 2027-29 biennium
+o Indicate whether package revenues are restricted to the purposes described
+or can be used for other programs
+
+Descriptions of a program unit’s essential packages can be combined on one or two
+pages. Each policy package must have its own page. The narrative should summarize the
+agency’s business case for new funding proposals and describe the issue, the proposed
+solution, resources required, and how success will be measured if approved. For each
+package, include the following information:
+o Package Narrative–: Include the following headings and information:
+Purpose -- Describe the issue and the agency’s proposed solution. Explain
+how the action supports long-term goals, key initiatives, the agency's
+mission, strategic plan, and applicable benchmarks or key performance
+measures.
+o How Achieved -- Explain how the proposed action will address the issue.
+Include the agency’s implementation strategy, timeline, planning activities,
+stakeholder involvement, and alternatives considered. If statutory changes
+are needed, include them in the legislative concept process. Describe any
+impacts on other agencies or governments and coordination efforts.
+2027-2029 Budget and Legislative Concepts Instructions
+
+56
+
+o Staffing Impact -- List positions and full-time equivalents required. For
+phased actions, show the 2027-29 impact and the full 24-month impact for
+2029-31.
+o Quantifying Results -- Explain how results will be measured if approved
+(policy packages only). Measures include operational metrics beyond Key
+Performance Measures (KPMs). Also include a timeline with performance
+milestones.
+o Revenue Source -- Identify revenue sources and amounts for the package,
+and highlight new revenues, savings, or fee changes.
+If a package includes multiple elements, provide this information for each element.
+•
+
+•
+
+•
+
+Essential and Policy Package Fiscal Impact Summary (BPR013) -- Show fiscal
+details for each package by category and fund type. Include Personal Services,
+Services and Supplies, Capital Outlay, Special Payments, Positions, FTE, and
+related costs. Estimate the fiscal impact in the 2029-31 biennium for any phased
+actions or if the funding base will change.
+Policy packages involving IT projects/initiatives -- Submit to the agency’s Enterprise
+Information Services (EIS) Senior IT Portfolio Manager (SIPM) the following
+information:
+ The IT Project Budget Spreadsheet for all new or continuing IT Project
+investments that are part of an IT policy package and cost $150,000 or more
+All related IT policy package materials
+ A completed Business Case and Project Prioritization Matrix in the Enterprise
+Project Portfolio Management (PPM) system, regardless of fund source or
+policy package inclusion, for IT investments costing $1,000,000 or more
+
+5. Detail of Lottery Funds, Other Funds, and Federal Funds Revenue
+(107BF07)
+Itemize Lottery Funds, Other Funds, and Federal Funds revenues for the program unit by
+type of funds and source. The total revenues described for all program units should equal
+the totals in the Revenue section of the agency budget document.
+
+Capital Budgeting and Facilities Maintenance
+Capital Budgeting and Facilities Maintenance Forms
+XI-Q Bonds and Financing Agreements
+Article XI-Q Bond Financing and Other Financing Agreements Request Form for 202729 Biennium (107BF15): If the agency requests XI-Q bond financing or capital lease
+financing, this form must be completed and returned to Rhonda Nelson on or before
+May 15, 2026. Bond financing may be for capitalizable costs related to capital acquisition,
+construction or improvement of real property, equipment, or IT systems.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+57
+
+Lottery Revenue Bond Financing Request Form for 2027-29Biennium (107BF09): If the
+agency requests lottery revenue bond financing, this form must be completed and
+returned to Rhonda Nelson on or before May 15, 2026.
+Capital Improvements
+Capital Improvement Narrative (107BF02): See form for instructions.
+Detail of Lottery Funds, Other Funds, and Federal Funds Revenue (ORBITS BPR012
+and 107BF07): List each source and amount of Lottery Funds, Other Funds, or
+Federal Funds.
+Major Construction/Acquisitions 1
+• Major Construction/Acquisition Narrative (107BF02 and 107BF11): Provide a
+general description of the agency's business plan or facilities master plan that is the
+basis for the request. Describe the basic assumptions supporting the request.
+Provide a description of the project purpose, project scope and alternates considered,
+and project budget for each major construction or acquisition project. These might
+include demographic changes, trends, economic factors, federal mandates, etc.
+Complete a separate form for each project. A separate form is included for the
+Higher Education Coordinating Commission for reporting public university and
+community college plans (form 107BF11a). All other agencies will continue to use
+form 107BF11.
+• Major Construction/Acquisition Ten-Year Plan (107BF13): Show each requested
+project by biennium. List them in numbered priority (No. 1 being highest). Include
+the estimated cost to complete, list all costs by fund source (General, Lottery,
+Other, Federal), and show totals. For projects in future biennia, list a planning cost
+estimate in the appropriate biennium. Include a discussion of operating and
+maintenance costs. A cost breakdown by program or institution is acceptable.
+• Capital Financing Six-Year Forecast Summary (107BF12): There is a separate
+summary form for each biennium of the forecast. Show the total principal amount
+of XI-Q bonds to be issued for major construction/ or acquisition projects costing
+over $1 million, equipment and information technology-related projects or systems
+costing over $500,000, and loan and grant programs. Show the agency’s issuance
+plans for each financing program. For each category, provide total project costs to
+be repaid by General Fund, Other Funds, or Lottery Funds. Do not show debt service
+on this form.
+Please attach a sheet to the summary form detailing the agency’s planned debt
+issuance. Include specific information on the source of Other Funds used to repay
+debt, such as for Other Funds-loan repayments, or Other Funds-licensing fees, if
+applicable.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+58
+
+This information will show planned use of debt capacity. It will be compared to the
+debt capacity recommendations issued by the State Debt Policy Advisory
+Commission.
+Please be sure to provide a detailed source list and amount of Lottery Funds, Other
+Funds, and Federal Funds Revenue (ORBITS BPR012 and 107BF07).
+Facilities Maintenance Forms Descriptions
+• Facilities Maintenance Narrative (107BF02): Describe the key drivers for the
+agency’s facility needs and how the agency measures space and facility demand.
+Include the key facility-related challenges, including maintenance needs over the
+next 10 years. Also describe the agency approaches and strategies to meet these
+needs.
+• Facilities Maintenance Summary Report (107BF16a): Provide summary data on
+owned facilities valued at over $1 million, under $1 million, and leased facilities. For
+facilities valued over $1 million, provide a measure of the space utilization of the
+facility per the instructions. Include facility and lease data as reported to the CPAB.
+• Facilities Operations and Maintenance Budget and Deferred Maintenance Plan
+(107BF16b): Provide information on the agency’s operations and maintenance (O
+and M) budget and deferred maintenance plan by biennium and fund type. This
+does not include Capital Improvements. Be sure to use the definition of
+maintenance described in the Budget Instructions above, and if staff performing
+maintenance functions also perform other duties, make the best estimate of the
+time and costs to allocate to maintenance. Include amounts for janitorial and
+utilities costs by biennium for state-owned facilities. If maintenance costs are
+not included in a distinct DCR, please retain worksheets used to estimate the O and
+M budget. The Legislatively Approved column should reflect approved amounts as
+of April 2026. Provide O and M and Short- and Long -Term Deferred Maintenance
+data by priority as reported to the CPAB.
+
+Special Reports
+Under this tab of the budget document, agencies should include the reports described
+below.
+
+IT Project Readiness Workbook
+Senate Bill 1090 (2025) requires the State Chief Information Officer (CIO) to create rules for
+how state agencies should ask for funding technology (IT) budgets and projects. This
+includes projects including the replacement, modernization, upgrades, or expansions of IT
+systems.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+59
+
+Agencies requesting funding for information technology (IT) budget and projects are
+required to follow Statewide IT policy 107-004-180 (IT Readiness). The policy and
+accompanying procedure (107-004-180_PR) provide direction to the agency to submit an IT
+Readiness Workbook for IT budget and project requests.
+
+Annual Performance Progress Report -- Key Performance Measures
+In 1993, the Legislative Assembly required agencies to include benchmark-based planning
+in performance measurement and budget policy. In 2001, additional requirements were
+added for developing and reporting performance measures. ORS 291.110 directs DAS, in
+consultation with the Legislative Fiscal Office, to maintain a statewide system of
+performance measures that improves the efficiency and effectiveness of state programs
+and services. State agencies must continue to track and report annually on Legislatively
+Approved Key Performance Measures (KPMs) and request changes as part of the budget
+development process.
+The process for proposing and approving agency KPMs for the 2027-29 biennium remains
+the same as for previous biennia. See KPM resources for more information on the Oregon
+State Legislature website.
+Step 1: March – April 2026
+Agencies must enter initial KPM change requests in the automated KPM system and notify
+their CFO/LFO analysts that they are requesting changes by April 30, 2026. CFO and LFO
+analysts will review the requests and provide feedback. Agencies may adjust proposed
+changes based on feedback received.
+Step 2: August – December 2026
+Agencies must submit the appropriate version of their Annual Performance Progress
+Report (APPR) for 2026 (either with or without proposed changes) along with both their ARB
+and GRB binders (Special Reports Section).
+If data for some measures is incomplete, note this in the “How we are Doing” section for
+the relevant KPM(s). Update the automated system when data becomes available and
+email the updated APPR to the agency’s CFO and LFO analysts.
+APPRs are also due to LFO on October 1, 2026. Be sure to check the LFO KPM website for
+more information, including submission instructions. Agencies are required to post a copy
+of the APPR on the agency’s website. Annual reports are also posted centrally on the LFO
+Website.
+Step 3: January – June 2027
+Agencies must include KPM information in their budget presentation to the appropriate
+Subcommittee of the Joint Committee on Ways and Means. Each Subcommittee reviews
+the KPMs, targets, and proposed changes to measures and their targets before making
+recommendations to the full Joint Ways and Means Committee as part of the budget
+approval process.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+60
+
+Step 4: June 2025
+A list of legislatively approved KPMs for 2027-29 will be attached to each agency’s final
+Budget Report.
+
+Audits Response Report
+To comply with ORS 297.100, agencies must report on the status of action plans
+developed in response to audit funding and recommendations from the Audits Division.
+The report does not have a prescribed format but must include the following:
+•
+
+Any Secretary of State audits currently in progress, with a brief description of the
+scope if known
+
+•
+
+A summary of responses to financial or performance audits completed by the
+Secretary of State since February 2024
+
+•
+
+Include work completed to date and any updates on actions taken or planned to
+address audit findings and recommendations
+
+The report must also identify the following:
+•
+
+Any new or enhanced funding or savings included in the agency’s Base Budget or
+ARB as a result of implementing audit recommendations
+
+•
+
+Any policy packages in the ARB intended to address audit findings and
+recommendations, regardless of when the audit occurred
+
+Update this information in each budget binder throughout the budget process. If a policy
+package intended to address audit findings is not included in the budget, explain how the
+agency plans to resolve the findings or recommendations.
+
+Affirmative Action Plan and Statewide Report
+Agencies must budget resources to support agency affirmative action goals. Oregon
+Revised Statute 659A.012 – 659-015 requires agencies to carry out policy against
+discrimination in employment and present affirmative action objectives and performance
+of the current and following biennium. The DAS Office of Cultural Change will partner with
+agencies to track these efforts by providing Affirmative Action Plan (AAP) guidance and
+support. Agencies must include their AAP with their ARB and email a copy of their AAP to
+cultural.change@das.oregon.gov. Each agency’s AAP is required to report the following
+information:
+1. An evaluation of all management personnel, and their effectiveness in achieving
+affirmative action objectives as a key consideration of their performance
+2. Affirmative action objectives and agency performance of the current biennium and those
+for the following biennium
+3. Information concerning its awards of construction, service, and personal service
+contracts awarded to minority businesses
+2027-2029 Budget and Legislative Concepts Instructions
+
+61
+
+The DAS Cultural Change Office will use each agency’s plan to prepare a statewide report
+to the Legislature that includes progress toward collective enterprise goals for the current
+biennium and projected goals for the following biennium. Refer to the Affirmative Action
+Plan Guidelines for further details on the Affirmative Action Plan development process.
+For questions or additional support in the development of the agency’s Affirmative Action
+Plan, contact the Office of Cultural Change at cultural.change@das.oregon.gov or call the
+Affirmative Action Manager at 971-375-8408.
+
+Maximum Supervisory Ratio Report
+As required in ORS 291.227, each state agency with more than 100 employees must report
+its maximum supervisory ratio for the biennium to the Joint Committee on Ways and
+Means. Include this report in both the GRB and LAB binders and be prepared to present the
+information during 2027 session budget hearings.
+Agencies must determine their maximum supervisory ratio starting from a baseline of 1:11
+and adjust based on some or all the following factors:
+•
+•
+•
+•
+•
+•
+•
+
+Safety of the public or of state agency employees
+Geographic location of the agency’s employees
+Complexity of agency duties
+Industry best practices and standards
+Size and hours of operation of the agency
+Unique personnel needs, including use of volunteers, seasonal or temporary
+employees, or supervisory authority over non-agency personnel
+Financial scope and responsibility of the agency
+
+Each state agency employing more than 100 employees must provide a copy of the report
+to all labor organizations representing its employees before submitting it to the Joint
+Committee on Ways and Means.
+Tools and guidance may be found on the CHRO Span of Control website.
+For any additional questions or assistance, contact CHRO Compliance at
+chro.compliance@das.oregon.gov or 971-719-3099.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+62
+
+Legislative Concept Procedures
+For a successful 2027 Legislative Session, legislative concepts (LC) and budgets must be
+developed together and aligned with the Governor’s policy priorities. Both processes
+should focus on achieving outcomes rather than maintaining programs and should seek
+partnerships that deliver results more effectively and efficiently.
+To ensure a smooth process, DAS will manage the legislative concept drafting process.
+Before submission to Legislative Counsel formal legislative introduction, DAS and the
+Governor’s Office must review all draft requests.
+Agencies requesting legislative concepts should communicate regularly with their
+assigned Governor’s Office Policy Advisor, CFO analyst, and other stakeholders to ensure
+clarity of purpose and understanding of implementation and funding needs. Contact
+Jessica Popinga-Fleer (971) 518-0438, or at Jessica.POPINGA-FLEER@das.oregon.gov, for
+questions.
+The last day to submit legislative concepts to DAS is April 10, 2026.
+Agencies with 10 or more requests must submit by April 1, 2026.
+
+Placeholder Drafts
+Placeholder legislative concepts are generally discouraged and will only be accepted when
+the concept is essential and timely completion was beyond the agency’s control.
+Examples include responding to potential changes from an upcoming election, anticipated
+federal law changes, or the outcome of an active task force.
+Each placeholder draft must include an explanation of the general policy objective and
+draft language. Agencies with five or more placeholders must submit additional
+placeholder and suggested language requests to DAS by May 20, 2026. Final placeholder
+information must be submitted to Legislative Counsel by July 3, 2026. All submitted
+information must remain within the scope of the original placeholder description.
+Agencies may request assistance when drafting language from the Department of Justice
+(DOJ). However, this does not change the legislative concept schedule -- deadlines will not
+be waived or extended for DOJ review. While DOJ input may be helpful, Legislative Counsel
+may choose not to use DOJ language when preparing the final draft.
+
+Legislative Concept Policy Guidelines
+No executive branch agency may introduce a bill or measure before the Legislative
+Assembly without the Governor’s approval. This includes bills introduced at the
+Governor’s request on behalf of an agency and bills introduced by a legislative committee
+or individual legislator on behalf of an agency. Legislative concepts approved early in the
+process may still be disapproved at any time before pre-session filing.
+A legislative concept should aim to accomplish some of the following goals:
+•
+
+Support the Governor’s policy priorities
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+63
+
+•
+•
+•
+•
+•
+•
+
+Achieve solutions without adding programs and activities unless necessary
+Replace systems and programs that do not produce results
+Deliver essential services more effectively and economically
+Build or expand partnerships across levels of government for better outcomes
+Make changes required by court decisions or federal law
+Promote public trust and participation in government
+
+A concept should not be proposed if it includes any of the following:
+•
+•
+•
+•
+•
+
+Moves or creates programs without adequate resources
+Adds unnecessary red tape
+Imposes fees or assessments without clear benefit
+Concentrates power in one agency when collaboration is needed
+Lacks sufficient data to support it before the session
+
+Concepts generally fall into one of the three following categories:
+•
+•
+•
+
+Major policy and program creation, deletion, or changes
+Minor program changes
+Housekeeping -- technical corrections with no policy changes
+
+An LC’s estimated fiscal and revenue impact must be identified when the concept is
+proposed. If approved for introduction, the fiscal impact must be included in the Agency
+Request Budget (ARB). Legislative concepts approved to move forward that have a
+fiscal impact must be included in the Governor’s Recommended Budget (GRB) for the
+concept to be approved for legislative introduction, even if conceptually approved.
+This requirement applies to concepts that affect other agencies. For example, proposals to
+create new criminal penalties or increase the penalties for existing crimes, impacting
+populations in the Department of Corrections or Oregon Youth Authority, must be linked to
+policy packages in those agencies. Conversely, policy packages requiring statutory
+changes without submitted legislative concepts will not be included in the GRB.
+All approved agency-requested legislative concepts will be pre-session filed by the
+Governor on behalf of the requesting agency. DAS will file agency budget bills and other
+budget-related measures.
+
+Legislative Concept Form Instructions
+To create a bill that meets an agency’s goals, the agency must provide a clear and detailed
+explanation of the intended outcome. Agencies should work closely with their assigned
+Governor’s Office Policy Advisor, CFO analyst and other stakeholders, as prudent, in
+developing their legislative concepts and corresponding policy packages. All internal
+reviews and approvals must be completed before submitting a concept to DAS.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+64
+
+The Concept Form
+Submit all LCs to DAS using the Agency Legislative Concept Request Form in BillTracker.
+Include enough detail to allow drafting of a bill, such as the following:
+•
+•
+•
+•
+
+A narrative describing the problem the concept addresses
+How the proposed concept solves the problem
+Any estimated fiscal and revenue impacts
+Draft statutory language
+
+Agencies must explain the problem and the solution. Submitting only proposed statutory
+changes is insufficient, yet the draft does not need to be in final format. Draft language can
+be a photocopy of the statute with handwritten edits or a digital version showing proposed
+changes. Ensure all proposed changes use the most recent version of the Oregon Revised
+Statutes and be sure to include contact information for the legislative liaison and program
+staff who can provide details about the problem and solution.
+Notes on Concept Contents
+Be sure to read the instructions when filling out the form in BillTracker. They are not
+repeated here.
+
+Fees and Assessments
+If a concept includes an increase to a fee or assessment, attach form 107BF22 providing
+detailed information on the fee increase. This form provides detailed information about the
+proposed increase. Include all required narratives as outlined in the form’s instructions.
+Clearly state whether the agency has authority to make the change by administrative rule or if
+legislation is required.
+
+Fiscal Impacts
+Include a complete Fiscal Impact Estimate form and attachments for each concept. Be sure
+approved concepts with a fiscal impact are included in the ARB.
+
+The Concept Process
+Agencies must submit their legislative concept draft requests by April 10, 2026. Agencies
+with 10 or more concepts must submit their legislative concept draft by April 1, 2026, DAS
+will send concepts to Legislative Counsel for bill drafting by May 29, 2026.
+After receiving Legislative Counsel’s first draft, agencies may request changes only ONCE.
+This revision request must be submitted by October 9, 2026, or 14 calendar days from the
+date on the bill draft, whichever comes first. DAS will then receive final versions of the
+legislative concept and send the final draft to the agency in November 2026.
+Agencies must return this final draft, along with all required materials (one-page
+summaries, fiscal impacts, fee forms, etc.) to DAS for approval by the Governor’s Office by
+October 26, 2026. Once approved, DAS will coordinate pre-session filing of agency bills by
+2027-2029 Budget and Legislative Concepts Instructions
+
+65
+
+December 11, 2026. DAS will file major budget related concepts. Agencies will not file any
+measures directly.
+Review the following development schedule carefully! Meeting the deadlines is the only
+way to ensure that a concept is included in a legislative package supported or authorized
+by the Governor.
+
+Key Legislative Concept Dates
+LC dates are included in the 2027-9 Budget Development schedule, but a list of key dates
+is included below as well:
+•
+
+•
+•
+
+Phase 1 -- Pricing and Drafting
+o April 1, 2026 -- last day to submit LCs to DAS for agencies with 10 or more
+requests
+o April 10, 2026 -- last day to submit LCs to DAS for agencies with 9 or fewer
+requests
+o May 29, 2026 -- DAS submits approved LCs to Legislative Counsel for
+drafting
+o July 3, 2026 -- last day for DAS to submit placeholder language and
+information for LCs to Legislative Counsil for drafting
+Phase 3 -- Governor’s Recommended Budget and LC Build Out
+o October 23, 2026 -- Legislative Counsel stops drafting agency bills
+Phase 4 -- Final Decisions
+o October 26, 2026 -- Agencies submit LC packets to DAS (LC, Fiscal Impact
+Statement, and one pager on LC)
+o December 11, 2026 -- Pre-session filing deadline
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+66
+
+Things for Agencies to Consider
+Statewide Budget Systems
+All agency budgets are built using the Oregon Position Information Control System
+(ORPICS) and the Oregon Budget Information Tracking System (ORBITS). Data entered into
+these systems is audited by the CFO/SABRS before final documents are completed. Be
+sure to do the following to ensure a smooth audit process:
+•
+•
+•
+•
+•
+
+Complete policy and program decisions well in advance of deadlines.
+Schedule board or commission meetings early for discussion of budget issues.
+Allow sufficient time for staff to enter detail into ORPICS and ORBITS.
+Ensure all data input in ORBITS is correct before requesting an agency audit.
+Respond promptly to requests from CFO analysts and SABRS staff during the audit
+process.
+
+When proposing changes to programs or new programs, it is important that agencies
+consider how those proposals may impact other agencies and the proposing agency
+reaches out to other impacted agencies. As an example, if an agency requesting a new or
+expanded program that would require additional IT capacity, the requesting agency should
+confer with DAS Enterprise Information Services (EIS) to determine costs related to the
+data center if DAS would be required to enhance services for the agency proposing the new
+or expanded program.
+
+Additional Compliance Considerations
+Federal Maintenance of Effort (MOE) Requirements
+•
+
+•
+•
+•
+
+The federal government is a significant partner in funding many of the services
+provided by state government to Oregonians, including sharing in the costs of
+providing services. The federal government often requires the state to maintain a
+certain level of financial commitment to the programs, which are called
+Maintenance of Effort (MOE) requirements.
+Agencies must maintain documentation demonstrating compliance with federal
+MOE requirements.
+Agencies must also provide MOE documentation and assumptions upon request
+from CFO or LFO analysts for both current and upcoming biennia.
+If reductions need to be considered, CFO and LFO analysts will be required to
+review the MOE assumptions and calculations.
+
+Administrative Services Information
+•
+
+Be prepared to supply budget details for proposals relating to the provision of
+administrative services to an agency, including Information Technology (IT), Human
+Resources (HR), and Fiscal and Procurement Services upon request.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+67
+
+Ballot Measures
+1. Ballot Measure 30 (1995): The state must pay the costs of new work required by
+local governments under Article XI, Section 15 of the Oregon Constitution.
+2. Ballot Measure 17 (1994): Agencies must prioritize inmate services and products
+per Article I, Section 40. Refer to the Oregon Corrections Enterprises website for
+more information.
+
+Equipment and System Acquisition
+•
+
+•
+
+•
+
+DAS has authority to control the performance and production of state agency work
+duplication and purchase of printing and copying and mail equipment and mail
+service acquisitions.
+Requests for printing and copying equipment (ORS 282.050,) and mailing
+equipment (ORS 283.140), need to be submitted to DAS Publishing and Distribution
+by June 30, 2026. Additional information regarding equipment subject to evaluation
+under this statute and approval guidance is available by emailing
+order.info@state.or.us.
+DAS is required to review new or major modifications to fiscal systems and submit
+written requests to DAS for review as soon as defined. As soon as possible, contact
+Fabiola Flores, DAS Deputy State Controller at (971) 900-7635 for accounting
+system proposals. Contact Renee Royston at (971) 208-2251 or
+Renee.R.Royston@das.oregon.gov for payroll system related changes. Fiscal
+systems as defined by DAS are the following:
+ General ledger accounting and financial reporting systems duplicating any
+functionality currently provided by Statewide Financial Management
+Application (SFMA) or interface data into SFMA
+ Payroll and/or time and attendance systems duplicating any functionality
+currently provided by Oregon Statewide Payroll Application (OSPA) or
+interface data into OSPA
+ Financial data marts duplicating any functionality currently provided by the
+SFMA and OSPA data marts
+
+Compensation Plan Adjustments
+•
+
+Submit proposed compensation changes to DAS Chief Human Resource Office
+(CHRO) separately from the agency budget request. Approved changes will be
+included in DAS compensation plan proposals. Funding for compensation changes
+should not be included in the ARB. Contact CHRO as early as possible in this
+process.
+
+Interior Project Management
+•
+
+For information concerning interior project management and space planning
+services, refer to the State of Oregon: State facilities and land - Interior project
+management services.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+68
+
+Vehicle Purchases
+•
+
+Follow DAS Statewide Fleet Management Standards in DAS Policy 107-011-040 (for
+all vehicle purchases).
+
+If DAS Fleet provides vehicles for the agency, coordinate with DAS Fleet Operations for
+any changes requiring new vehicles as DAS Fleet may need to include a companion
+policy package to accommodate DAS Fleet operational needs associated with the
+request. For information, contact the DAS Fleet and Parking Services Manager at (503)
+373-7723 for pricing and delivery information.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+69
+
+Appendix A. Glossary
+Adaptation, adapt
+(in facilities)
+
+Changes to the interior arrangements or other physical characteristics of a
+facility or permanent installation of equipment enabling a building to be
+better used for its current purpose or adapted to a new one; adaptation can
+include code compliance.
+
+Allocation
+
+Allocations refer specifically to revenues. An allocation is a cash transfer of
+either Lottery or Criminal Fine Account (CFA) funds to an agency by the
+Legislature. Allocated funds cannot be spent without expenditure limitation.
+
+Allotment
+
+An allotment is an agency’s plan of estimated expenditures, revenues, cash
+disbursements, and cash receipts for each month of the biennium. It is used
+to monitor quarterly spending by an agency. Agencies must submit their
+allotment to the Department of Administrative Services each quarter for
+review. Upon approval, the requested funds are made available to the
+agency.
+
+Analyst
+
+The Department of Administrative Services Chief Financial Office (Budget
+and Management section) analyst assigned to an agency
+
+Appropriated Funds
+
+A coding structure that reflects revenues and expenditures by funding source
+and purpose
+
+Appropriation
+
+An amount of money from the General Fund approved by the Legislature for a
+certain purpose
+
+Approved Spending
+Level
+
+The actual amount of spending authority an agency has for a particular
+budget cycle; typically, this is called the legislatively approved budget;
+however, the Governor may lower the General Fund amount that can be
+spent if the revenue forecast falls to the point of putting the state in a
+deficit situation. In that case, the Governor does not actually reduce the
+statutorily approved amounts but simply reduces the amount that
+agencies will be allowed to spend. The approved spending level is the
+amount approved by the Legislature, less any allotment reductions
+implemented by the Governor to balance the budget.
+
+Article XI-Q Bond
+
+A bond authorized to be issued to finance real and personal property owned
+or operated by the state; Article XI-Q bonds, for which enabling legislation
+was approved in 2011, have replaced Certificates of Participation (COPs) for
+financing projects.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+70
+
+Authorization
+
+The substantive legislation establishes the purpose and guidelines for a given
+activity and usually sets a limit on the amount that can be appropriated or
+spent. The authorization does not provide actual dollars for a program.
+
+Backfill
+
+One-time funds used to replace discretionary funding in an agency’s
+budget; these are typically Other or Federal Funds used to replace General
+or Lottery Funds. They are used extensively when General and Lottery
+Funds are at a premium and continue programs, which would otherwise be
+eliminated. While one-time funds continue the program for a certain
+period, the program must then revert to the original funding source once
+the “backfilled” funds go away.
+
+Base Budget
+
+The starting point for budgeting; to budget for the upcoming biennium, the
+Base Budget begins with the current biennium Legislatively Adopted Budget
+(LAB). The LAB is adjusted for Emergency Board, February even-year session,
+special session, and administrative actions through a designated date in the
+current biennium, and personal services changes from Oregon’s Position
+Information Control System (ORPICS). The result is the Base Budget.
+
+Biennium
+
+A period of two fiscal years; Oregon state government’s biennium runs from
+July 1 of an odd-numbered year through June 30 of the next odd-numbered
+year. Regular sessions convene twice per biennium: for 160 days in the oddnumbered year, and 35 days in the even-numbered year.
+
+Bond
+
+A debt instrument issued through a formal legal procedure and secured
+either by the pledge of specific properties or revenues or by the general credit
+of the state.
+
+Budget Document
+
+The detailed material prepared by agencies, as directed by the Department of
+Administrative Services Chief Financial Office, for all phases of budget
+development
+
+Budget Note
+
+Included in a Budget Report, it is a formal directive to a state agency
+expressing legislative intent for a particular budget issue. A budget note is
+technical in nature, directing an agency to take administrative and
+managerial action relating to the agency’s execution of its biennial budget.
+A budget note is of limited scope, not intended to circumvent, supplant, or
+replace other substantive or policy measures or law. The directive of a
+budget note typically expires at the end of the biennium for which it
+pertains. Budget notes are neither required nor necessary for every Ways
+and Means measure.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+71
+
+Budget Report
+
+An official report on any bill approved by the Joint Committee on Ways and
+Means that appropriates General Fund or establishes expenditure
+limitation for Lottery Funds, Other Funds, and Federal Funds. The report
+summarizes any discussion by the Committee and contains the
+recommendations to the Legislature on the bill. In addition to the
+recommended expenditures and revenues, it also lists the recommended
+number of positions and full-time equivalent (FTE) positions.
+
+Capital Assets
+
+Tangible or intangible assets held and used in state operations which have a
+service life of more than one year and meet the state’s capitalization policy;
+capital assets of the state include land, infrastructure, improvements to
+land, buildings, leasehold improvements, vehicles, furnishings, equipment,
+collections, and all other tangible and intangible assets that are used in state
+operations.
+
+Capital Outlay
+
+Expenditures for the acquisition or major repair of fixed assets intended to
+benefit future periods; as an expenditure category, capital outlay is limited to
+items that: (i) are not consumed in the usual course of agency operations; (ii)
+can normally be used more than once; (iii) have a useful life of more than one
+year and, (iv) have an initial value of $10,000 or more.
+
+Certificates of
+Participation (COPs)
+
+A financing agreement used to finance real and personal property owned and
+operated by the state; Article XI-Q bonds have replaced COPs for financing
+projects.
+
+Cross Reference
+Number
+
+A computerized table in ORBITS that specifies the organizational structure
+under which an agency builds and presents its budget; a Summary Cross
+Reference (SCR) is a program unit and is composed of two or more Detail
+Cross References (DCRs).
+
+Construction
+
+Building, installing, or assembling a new structure; adding to, expanding,
+altering, converting, or replacing a structure; moving a structure to a new
+location; includes site preparation and equipment installed and made part of
+the structure.
+
+Construction Costs
+
+Direct costs, including labor, materials, and equipment rental; for total
+related costs, see Project Costs.
+
+Current Service Level
+
+A projected expenditure level representing the estimated cost of providing
+currently authorized services in the ensuing biennium; it is calculated using
+current appropriations, the bow wave of legislative intentions assumed in
+existing appropriations (costs or savings), Emergency Board actions through
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+72
+
+May and adjustments for trends in entitlement caseload/enrollment,
+inflation and other mandatory expenses, less one-time costs, program
+phase-outs and pilot programs. This number establishes a theoretical base
+from which changes are made to create a new budget.
+Debt Service
+
+Expenditures for principal, interest, discounts, and premiums related to
+payment of state debt
+
+Deferred Maintenance
+
+Facilities Maintenance that was not performed when it should have been
+or a backlog of activities that agencies deem necessary to bring facilities
+into good repair; deferred maintenance is generally work that is left
+undone due to the lack of resources or perceived lower priority than
+projects funded. Failure to perform deferred work may result in the
+progressive deterioration of the facility condition or performance, and if
+not addressed, will significantly increase restoration cost. It may also
+include maintenance needs resulting from unforeseen circumstances
+such as windstorms, premature failure of facilities components, etc.
+
+Emergency Board
+
+The legislative committee with constitutional and statutory authority to make
+fiscal decisions for the legislature when the legislature is not in session
+
+Emergency Fund
+
+A fund from which the Emergency Board can provide General Fund
+appropriations to agencies for needs that arise after their budget is approved,
+or for programs approved but not funded during the legislative session
+
+Essential Package
+
+A package to adjust the Base Budget, not to request new programs or
+expansions; essential Packages may adjust for one-time costs, programs
+phased in or out, vacancy factors, non-ORPICS Personal Services costs,
+inflation, price list cost changes, fund shifts, and mandated caseload
+changes. An agency's Base Budget, plus essential packages, is its current
+service level.
+
+Executive Branch
+
+The branch of state government that carries out and enforces state laws; in
+common use, it refers to all of state government outside the Legislative
+Branch and the Judicial Branch. Sometimes it refers only to the governor and
+agencies that answer directly to the governor. Rarely used in statute. The state
+constitution names four “departments:” the Executive, Administrative,
+Judicial, and Legislative.
+
+Executive Service
+
+Commonly used for certain unclassified or exempt employees; most are
+department heads, administrators, and deputies; their executive assistants;
+and certain principal assistants.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+73
+
+Expenditures
+
+Decreases in net current financial resources; expenditures include
+disbursements and accruals for the current period. Encumbrances are not
+included.
+
+Expenditure Limitation
+
+A spending limit set by the legislature identifying the maximum amount of
+Lottery Funds, Other Funds, or Federal Funds an agency may spend; it is
+defined in an agency’s budget. If an agency receives more Other Funds or
+Federal Funds than the Legislature approved them to spend, they must
+obtain an increase in their expenditure limitation from the Legislature or
+the Emergency Board to spend the revenue.
+
+Facility
+
+A building or structure, including utility and other support systems, a real
+property improvement, a campus or group of structures; see Real Property
+Improvements.
+
+Emergency Board
+
+The joint committee of Senators and Representatives that meets during the
+interim periods to address state fiscal and budgetary matters
+
+Federal Funds
+
+Money a state agency receives directly from the federal government is spent
+under a Federal Funds expenditure limitation or as Nonlimited Federal
+Funds.
+
+Fee
+
+A fee is a charge, fixed by law, for the benefit of a service or to cover the cost
+of a regulatory program or the costs of administering a program for which the
+fee payer benefits. For example, professional license fees that cover the cost
+of administering and regulating that category of professions are fees. Other
+charges that are categorized as fees include tolls and tuition. Fees must be
+authorized by statute. The Legislature may set the rates in statute or
+authorize a state agency to set rates using administrative procedures.
+
+Financing
+Agreement
+
+Any agreement to finance real or personal property, which is or will be owned
+and operated by an agency; includes lease-purchase, installment sale, or
+loan agreements and Certificates of Participation
+
+Fiscal Year
+
+The state government fiscal year runs from July 1 of one calendar year to June
+30 of the next. See Biennium.
+
+Full-Time Equivalent
+(FTE)
+
+The standard unit for budgeting positions an FTE is the number of months in
+the biennium for which the position is budgeted, divided by 24. One FTE
+equals one full-time position budgeted for the entire biennium. A permanent,
+part-time position budgeted for 12 months is 0.50 FTE. A full-time, limited
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+74
+
+duration position phased in 6 months after the start of the biennium (or
+budgeted for 18 months) is 0.75 FTE.
+General Fund
+
+Money available for the state budget that is not dedicated to a specific
+agency or purpose and that can be used for general purposes of state
+government; most General Fund money in Oregon derives from personal
+and corporate income taxes. Some revenue from liquor, cigarettes, and
+other sources also goes into the General Fund. See Appropriation.
+
+Governor's
+Recommended
+Budget
+
+The constitutionally required budget recommended to the legislature by the
+Governor; the Governor first reviews and decides on agencies’ requests for
+funding. The Governor’s Recommended Budget must be submitted by
+December 1 of even-numbered years. A newly elected Governor has until the
+following February 1 to publish a budget.
+
+Interagency Transfer
+
+A transfer of funds between agencies must balance all interagency transfers
+before requesting an ORBITS audit.
+
+Joint Committee on
+Ways and Means
+
+A standing committee of senators and representatives appointed by their
+presiding officers; the Committee reviews the management and
+recommended budgets of entities that receive or administer state funds. It
+recommends the amounts of revenues and expenditures for the legislature’s
+approved budget.
+
+Judicial Branch
+
+The branch of state government that interprets all state laws and includes
+state courts; the Chief Justice of the Supreme Court is the chief executive of
+the branch.
+
+Legislative Branch
+
+The Legislative Assembly and its staff; the branch of state government that
+enacts state laws, grants agencies statutory powers and duties, and adopts
+the state budget. The Legislative Branch in Oregon consists of a Senate with
+30 elected members and a House of Representatives with 60 elected
+members.
+
+Legislative Fiscal
+Office
+
+Analyzes and presents a wide range of budget and related data on state
+programs to the legislature; staff to the Joint Committee on Ways and Means,
+the Joint Legislative Audit Committee, the Joint Legislative Committee on
+Information Management and Technology, and the state Emergency Board
+
+Legislative Concept
+
+Relating to an agency or statute; major or minor policy and program changes
+and non-policy technical adjustments or corrections to the current Oregon
+Revised Statutes; approved concepts are sent to Legislative Counsel for bill
+drafting.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+75
+
+Legislative Session
+
+The Legislative Assembly convenes annually in February. Sessions may not
+exceed 160 days in odd-numbered years and 35 days in even-numbered
+years. Five-day extensions are allowed by a two-thirds vote in each house.
+Special sessions can occur at other times.
+
+Legislatively Adopted
+Budget
+
+The budget approved by the legislature during the regular legislative session;
+it sets maximum spending and staffing levels. It can be modified by actions
+of the Emergency Board or special sessions.
+
+Legislatively Approved
+Budget
+
+The legislatively adopted budget as modified by Emergency Board or other
+legislative action
+
+Lottery Funds
+
+Money received by a state agency from lottery proceeds; the Legislature
+decides how much to provide and for what purpose. The state constitution
+restricts use of these funds. Lottery Funds include any of the following: (1)
+funds allocated to an agency by the legislature such as Lottery Funds; (2)
+Lottery Funds revenue transfers between agencies, i.e., Lottery Funds
+transferred by an agency must be received by the receiving agency as
+Lottery Funds; (3) all interest earned on Lottery Funds while held by an
+agency. Lottery Funds lose their identity, for budget purposes, when
+expended. Ballot Measure 66 requires that certain Lottery Funded
+agencies track and report Lottery Funds expenditures at a more detailed
+level.
+
+Maintenance
+
+Keeping property in good operating condition; does not add value to or
+extend the economic life of a property. This commonly includes inspecting,
+calibrating, lubricating, and cleaning. Maintenance costs are categorized as
+Services and Supplies expenditures.
+
+Maintenance of Effort
+
+A requirement contained in certain legislation, regulations, or
+administrative policies that a recipient must maintain a specified level of
+financial effort in the area for which federal funds will be provided to
+receive federal grant funds; this requirement is usually given in terms of a
+previous base-year dollar amount.
+
+Management Service
+
+Supervisory, confidential, or managerial employees excluded from collective
+bargaining
+
+Modified Current
+Service Level
+
+Current service level less adjustments for revenue reductions
+
+Non-add Expenditures
+
+Generally, these are inter-agency and intra-agency expenditures that fund
+administrative functions and are paid for by other programs. This results in a
+double count in total statewide expenditures. While the expenditures are
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+76
+
+included for both programs for reporting purposes, the non-add expenditures
+are usually shown as an informational tool to indicate where the budget
+contains expenditures that are counted twice. Many of the programs at the
+Department of Administrative Services (DAS) are considered non-add
+because they assess agencies for the costs of the programs. The agency
+shows an expenditure to DAS for their services and DAS then has
+expenditures to provide those services.
+Nonlimited
+Expenditures
+
+Expenditures for which the legislature defines purposes but sets no dollar
+limits; they are subject to allotment control, and the appropriation bill
+defines their allowed purposes. These expenditures can only be supported
+by Other and Federal Funds and revenue may be continuously appropriated
+for them. The expenditures are for programs that have a single source of
+revenue and support programs that have expenditures that are often
+outside of the agency’s control, as other factors often limit their ultimate
+costs.
+An example would be Unemployment Insurance during the 2019-21
+biennium. Nonlimited expenditure limitation for the Oregon Employment
+Department was increased by almost $3.3 billion from the adopted budget
+because of federal legislation and the economic situation. The Department
+was able to increase its limitation and pass those payments through
+without having to wait for a legislative hearing.
+
+Other Payroll
+Expenses (OPE)
+
+Expenses other than salaries paid to state employees; these include
+retirement payments, Social Security taxes, and health insurance costs.
+
+ORBITS
+
+Oregon’s Budget Information Tracking System (ORBITS) is a system used to
+prepare budget requests. It compiles, maintains, and reports revenue,
+expenditure, and position data for budget preparation and execution.
+
+ORPICS
+
+Oregon’s Position Information Control System (ORPICS) is a system used to
+establish and maintain budgeted positions and related expenditures at the
+detail level. This information is summarized and added into ORBITS for use in
+budget preparation and execution actions.
+
+Other Funds
+
+Money received by state agencies that does not come from the General
+Fund or from the federal government; Other Funds come from sources
+such as gasoline taxes, driver licenses fees, and fishing license fees. Other
+Funds may be dedicated, requiring the revenue to be spent for specific
+purposes. Examples of dedicated funds are park user fees dedicated to
+park programs and gasoline taxes dedicated to highway programs.
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+77
+
+Package
+
+A component of a program unit that presents proposed budget, policy, and
+program changes for an agency; the two types are essential and policy
+packages.
+
+Pass-through
+Expenditures
+
+Expenditures that are not directly for state use; while an agency has an
+appropriation or limitation for a particular program, the funds may be
+“passed through” to non-state entities. Some examples include funding for
+education programs such as the State School Fund, Community Colleges,
+and Higher Education, as well as many social programs that provide cash
+and food assistance.
+
+Personal Services
+
+Employee gross compensation (salary, pay differentials, other payroll
+expenses) that includes state temporary personnel services
+
+Planning Study (in
+capital budgeting)
+
+Provides enough data for full project development; normally includes siting,
+feasibility, and preliminary design studies; includes cost estimates and all
+else that is needed to do a capital project budget request.
+
+Policy Package
+
+A package that presents policy and program changes above or below the
+agency’s current service level budget; an agency's total budget is the sum of
+its Base Budget, essential packages, and policy packages. Examples of a
+policy package could include the following:
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Price List of Goods and
+Services
+
+Forming new programs or expanding existing programs
+Reducing or ending programs
+Requesting enhanced funding for existing programs
+Transfer Programs between agencies (if not previously approved)
+Shifting from one fund source to another
+Establishing or increasing fees
+Implementing a reorganization of an agency
+Funding of legislative concepts
+Proposing Capital Construction Projects
+
+Identifies projected state assessments and user fees; This is compiled for
+budgeting by the Department of Administrative Services (DAS) and includes
+assessments and fees of DAS, Department of Justice, Correction Industries,
+Secretary of State, Treasurer of State, and Central Government Services
+(certain costs of the legislative assembly, Legislative Fiscal Office, Legislative
+Council, and Governor’s Office). It also allocates other shared statewide
+costs for services of the PEBB Employee Assistance Program, State Library,
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+78
+
+Law Library, Government Ethics Commission, and Capitol Mall security
+functions.
+Program Unit
+
+A budget structure containing similar services or functions for deliberation of
+major policy issues and budget information; agency activities may be
+grouped into one or more program units
+
+Project Costs (in capital
+budgeting)
+
+The total of all necessary costs to construct the complete facility; includes
+site acquisition, direct construction costs, furnishings, equipment, and
+contingencies allowance; also includes all indirect costs, such as design
+consultants, material testing services, special inspection services, project
+management, One Percent for Art, and others.
+
+Real Property
+Improvements
+
+Property that is fixed, immovable, and permanent; real property includes
+land, structures affixed to the land, property affixed to the structures, and in
+some cases, trees etc., growing on the land; includes sidewalks,
+landscaping, drives, tunnels, drains and sewers
+
+Rebalance
+
+Sometimes it becomes necessary to realign budgets during the biennium.
+Because appropriations and limitations are specified in statute, legislative
+action is needed to rebalance the budget. A rebalance can occur on a
+statewide basis (usually when revenues are below forecast) or can be done
+at the agency level. In either case, the term generally refers to the
+increases and decreases necessary to better align the budget with the
+expected needs.
+
+Reclassification
+
+A change in position classification because duties, authority, and
+responsibilities are significantly changed, but the required knowledge and
+skills remain similar
+
+Revenues
+
+Cash receipts and receivables of a governmental unit derived from taxes and
+other sources
+
+Repairs
+
+Work done to restore worn or damaged property to normal operating
+condition; repairs are usually Services and Supplies expenditures.
+
+Replacement (in capital
+budgeting)
+
+Putting one facility component in place of another to gain equal or greater
+performance or economy or to comply with codes; it performs the same
+function and is usually required by wear or by accidental damage
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+79
+
+Roll-up Costs
+
+The full costs associated with expenditures that were not fully charged in the
+previous biennium; typically, these are personal services and debt service
+costs that are implemented as the biennium progresses. Increases in salary
+and/or benefits are usually phased in during the biennium as part of a
+collective bargaining agreement. Debt is usually issued during the biennium.
+Many times, it is issued late in the biennium to minimize the costs for that
+period.
+During the following biennium, the full 24-month costs for both categories
+need to be accounted for. The additional amount is considered the roll-up
+cost. While roll-up costs are usually associated with personal services and
+debt service costs, they also apply to any program costs that were
+implemented in the middle of the biennium.
+
+Salary Adjustment
+Allocations
+
+Money or limitation allocated by the Emergency Board to fund approved
+compensation plan increases
+
+Services and Supplies
+
+Expenditures on business operations; examples include personal service
+contracts, consumable materials, publishing, office supplies, travel, utilities,
+rent, and maintenance and repair of equipment and buildings
+
+Space Planning
+
+Analyzing workflow, space, and equipment needs of work units to plan
+efficient equipment, furnishings, and support systems
+
+Special Payments
+
+Budgeted transfers and payments where goods and services are not received
+in return; paying out contributions, loans, deposits, or collections; also,
+paying federal or state funds to eligible people, cities, counties, quasi-public
+agencies, and others
+
+Special Purpose
+Appropriation
+
+A General Fund appropriation to the Emergency Board for a specific
+purpose; when the appropriation is established, it states the agency and
+specific purpose for the funds. The Emergency Board can only allocate
+funds to that agency and for that purpose. There is also an expiration date
+for the appropriation. After that date, any remaining funds become
+available for any purpose for which the Emergency Board may lawfully
+allocate funds.
+
+Special Session
+
+Meeting of the Legislature between regularly scheduled sessions; may be
+called by the Governor or the Legislature
+
+State Agency or Agency
+
+Variously defined in state statutes and commonly a department, office,
+board, or commission created by state law to carry out duties assigned by
+law; agencies range in size from thousands of employees with billion-dollar
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+80
+
+budgets to one employee with a tiny budget. They are funded by license and
+user fees, state and federal taxes, fines, and fees for service. Some agencies
+report to a board or commission.
+Tentative Budget
+
+A document that is used to estimate the state’s relative fiscal position for
+the coming two-year budget period, assuming the continuation of all
+current law programs and services
+
+Unfunded Mandate
+
+A requirement that a lower level of government provides a program or
+performs an activity within existing resources; under a federal mandate,
+the federal government may require a state or local government to provide
+a service and not provide additional federal funding to pay for it. Under a
+state mandate, the state may require a local government to provide a
+service. However, under the Oregon Constitution, a local government is
+not required to comply with certain new state mandates unless the state
+pays the costs of the new services. The Constitution provides exceptions.
+
+Vacancy Factor
+
+A calculation to project budget savings expected from staff turnover during
+the biennium
+
+2027-2029 Budget and Legislative Concepts Instructions
+
+81
+
+

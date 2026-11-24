@@ -54,7 +54,7 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
        guidance, `ode/legislation/` ODE summaries of enacted legislation, `ode/enrollment/` enrollment reports,
        `ode/grants/` ODE grant allocation reports (for example High School Success), `ode/sia/` Student Investment
        Account legislative reports and progress-marker reports
-     - `fiscal/oea/` Office of Economic Analysis forecasts; `fiscal/lfo/` Legislative Fiscal Office; `fiscal/lro/` Legislative Revenue Office;
+     - `fiscal/oea/` Office of Economic Analysis forecasts; `fiscal/das/` Department of Administrative Services (budget instructions); `fiscal/lfo/` Legislative Fiscal Office; `fiscal/lro/` Legislative Revenue Office;
        `fiscal/dor/` Department of Revenue; `fiscal/sos/` Secretary of State Audits Division reports
      - `reference/` reference works (e.g. Oregon Encyclopedia) and other agencies' explainers; prefer a primary
        source when one exists
@@ -152,6 +152,8 @@ Least new code that fully does the job; adapted from the ponytail rules
 - `sources/_queue.csv` — what to fetch (url, path, title, date, kind, notes)
 - `sources/_manifest.jsonl` — what was fetched (path, url, final_url, fetched_at, sha256, bytes, content_type)
 - `sources/news/index.jsonl` — news records
+- `.gitattributes` — our CSVs (`analysis/**/*.csv`, `sources/_*.csv`) are stored with LF endings; archived files
+  aren't touched (`adr/20261123-2131-csv-line-endings-via-gitattributes.md`)
 - `analysis/people/<slug>.md`, `analysis/people/quotes_all.jsonl` — what officials said, dated and cited
 - `analysis/decisions.csv`, `options.csv`, `positions.csv`, `questions.csv` — the decision model (`RESEARCH.md`);
   `analysis/decisions.md` — where each decision stands, with short cited answers

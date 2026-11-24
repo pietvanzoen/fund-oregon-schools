@@ -1,0 +1,502 @@
+Representative Susan McLain
+
+Home Page
+
+Sign In
+
+Skip to main content
+
+Oregon State Legislature
+
+Home Page
+
+Navigation
+
+Search
+
+Senate
+
+Senate Information
+
+All Senators
+
+Senators by District
+
+Senators - Democrats
+
+Senators - Republicans
+
+Find Your Senator
+
+Find Your Senator and District
+
+Senate Leadership
+
+President Rob Wagner
+
+President Pro Tempore James I. Manning Jr.
+
+Democratic Leader Anthony Broadman
+
+Republican Leader Bruce Starr
+
+More
+
+Senate Offices
+
+Senate President
+
+Democratic Caucus
+
+Republican Caucus
+
+Secretary of the Senate
+
+More
+
+House
+
+House Information
+
+All Representatives
+
+Representatives by District
+
+Representatives - Democrats
+
+Representatives - Republicans
+
+Find Your Representative
+
+Find Your Representative and District
+
+House Leadership
+
+Speaker Julie Fahey
+
+Speaker Pro Tempore David Gomberg
+
+Democratic Leader Ben Bowman
+
+Republican Leader Lucetta Elmer
+
+More
+
+House Offices
+
+House Speaker
+
+Democratic Caucus
+
+Republican Caucus
+
+Chief Clerk of the House
+
+More
+
+Bills and Laws
+
+Bills
+
+Find Bills or Votes
+
+2026 Regular Session
+
+2025 Regular Session
+
+2025 Special Session
+
+Previous Sessions
+
+Governor Signed Bills
+
+Open Data
+
+Session Information
+
+Current Session Details
+
+Previous Session Details
+
+Session Publications
+
+Oregon Laws
+
+1999-2026 Sessions
+
+Oregon Revised Statutes
+
+2025 Oregon Revised Statutes
+
+ORS Annotations
+
+ORS Archives
+
+Oregon Rules of Civil Procedure
+
+Oregon Admin. Rules (OARs)
+
+Oregon Constitution
+
+Purchase Publications
+
+Committees
+
+Committee Meetings
+
+Today's Meetings
+
+Agendas Online
+
+Committee Participation
+
+How to Testify
+
+How to Submit Testimony
+
+How to Register or Submit Testimony
+
+e-Subscribe to Agendas
+
+Committee Assignments
+
+Senate Committees
+
+House Committees
+
+Joint Committees
+
+Listed by Senator
+
+Listed by Representative
+
+Listed by Committee
+
+Publications and Reports
+
+Background Briefs
+
+Required by Statute
+
+Summary of Legislation
+
+More
+
+Get Involved
+
+Engage
+
+Visitor Information
+
+How to Testify
+
+How to Register or Submit Testimony
+
+Find Bills or Votes
+
+e-Subscribe to Alerts
+
+Floor Plans
+
+Language Access Services
+
+Find Your Legislators
+
+Find Your Legislators and District
+
+Learn
+
+How Ideas Become Law
+
+The Legislative Body
+
+Legislative Process
+
+Legislative Glossary
+
+Types of Measures
+
+Legislators through Time
+
+More
+
+Audio and Video
+
+Legislative Meetings
+
+News Conferences
+
+Informational Videos
+
+Publications and Reports
+
+Press Releases
+
+Redistricting Information
+
+More
+
+Capitol Offices
+
+Legislative Agencies
+
+Legislative Administration
+
+Legislative Comm. on Indian Srvs.
+
+Legislative Counsel
+
+Legislative Equity
+
+Legislative Fiscal
+
+Legislative Policy and Research
+
+Legislative Revenue
+
+Organizations
+
+Capitol Access., Maint. & Safety (CAMS)
+
+Capitol Master Plan
+
+Visitor Information
+
+Find Your Legislators
+
+Find Your Legislators and District
+
+Executive Branch
+
+Governor's Office
+
+Secretary of State
+
+State Treasurer
+
+List of State Agencies
+
+Home PageCurrently selected
+
+Biography
+
+Biografía en Español
+
+News and Information
+
+Events Calendar
+
+District Map
+
+Bills
+
+Committees
+
+Content
+
+Edit
+
+Representative Susan McLain
+
+Democrat - District 29 - Forest Grove, Cornelius, Hillsboro
+
+Capitol Phone: 503-986-1429
+
+Capitol Address: 900 Court St. NE, H-493, Salem, Oregon 97301
+
+Email: rep.susanmclain@oregonlegislature.gov
+
+Website: https://www.oregonlegislature.gov/mclain​
+
+Follow
+
+javascript: SP.SOD.executeFunc('followingcommon.js', 'FollowDoc', function() { FollowDoc('{ListId}', {ItemId}); });
+
+0x0
+
+0x0
+
+ContentType
+
+0x01
+
+1100
+
+Compliance Details
+
+javascript:if (typeof CalloutManager !== 'undefined' && Boolean(CalloutManager) && Boolean(CalloutManager.closeAll)) CalloutManager.closeAll(); commonShowModalDialog('{SiteUrl}'+
+'/_layouts/15/itemexpiration.aspx'
++'?ID={ItemId}&List={ListId}', 'center:1;dialogHeight:500px;dialogWidth:500px;resizable:yes;status:no;location:no;menubar:no;help:no', function GotoPageAfterClose(pageid){if(pageid == 'hold') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/hold.aspx'
++'?ID={ItemId}&List={ListId}'); return false;} if(pageid == 'audit') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/Reporting.aspx'
++'?Category=Auditing&backtype=item&ID={ItemId}&List={ListId}'); return false;} if(pageid == 'config') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/expirationconfig.aspx'
++'?ID={ItemId}&List={ListId}'); return false;} if(pageid == 'tag') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/Hold.aspx'
++'?Tag=true&ID={ItemId}&List={ListId}'); return false;}}, null);
+
+0x0
+
+0x1
+
+ContentType
+
+0x01
+
+898
+
+Document Set Version History
+
+/_layouts/15/images/versions.gif?rev=44
+
+javascript:SP.UI.ModalDialog.ShowPopupDialog('{SiteUrl}'+
+'/_layouts/15/DocSetVersions.aspx'
++ '?List={ListId}&ID={ItemId}')
+
+0x0
+
+0x0
+
+ContentType
+
+0x0120D520
+
+330
+
+Send To other location
+
+/_layouts/15/images/sendOtherLoc.gif?rev=44
+
+javascript:GoToPage('{SiteUrl}' +
+'/_layouts/15/docsetsend.aspx'
++ '?List={ListId}&ID={ItemId}')
+
+0x0
+
+0x0
+
+ContentType
+
+0x0120D520
+
+350
+
+Biography
+
+Edit
+
+​
+
+Dear Friends and Neighbors,
+
+Thank you for visiting my legislative webpage. I am honored to represent the people of House District 29 from West Hillsboro, Cornelius, and Forest Grove in the 83rd Legislative Assembly. I am committed to working hard for our communities to keep Oregon a great place to raise a family, work, attend school, and recreate.
+
+I am thrilled to serve as Chair of the House Transportation Committee and Co-Chair of the I-5 Interstate Bridge Committee. I am also proud to serve as a member of the Joint Committee on Education Appropriation, the Joint Ways and Means Subcommittee on Education, and the House Agriculture, Land Use, Natural Resources, and Water Committee. You can learn more about these committees in the “Committees" tab on the left of this page.
+
+​ ​
+
+It is important to me that we focus on issues affecting Oregon families, such as transportation safety, school funding, protecting our environment, and supporting our farms and all businesses. We must also increase government accountability and transparency to ensure the best use of taxpayer funds. I know from my conversations with constituents over the past few years that these issues matter most to our community.
+
+Listening to you is my number one job, and I want to ensure that you have a strong voice in Salem advocating for the issues that affect our community. I hope you’ll continue to share your questions and concerns with me by email at rep.susanmclain@oregonlegislature.gov, or by calling my office at (503) 986-1429.
+
+You can keep up with what I am working on by signing up for my e-newsletter on the right side of this page or clicking this link.
+
+Sincerely,
+
+​
+
+Representative Susan McLain
+
+Follow
+
+javascript: SP.SOD.executeFunc('followingcommon.js', 'FollowDoc', function() { FollowDoc('{ListId}', {ItemId}); });
+
+0x0
+
+0x0
+
+ContentType
+
+0x01
+
+1100
+
+Compliance Details
+
+javascript:if (typeof CalloutManager !== 'undefined' && Boolean(CalloutManager) && Boolean(CalloutManager.closeAll)) CalloutManager.closeAll(); commonShowModalDialog('{SiteUrl}'+
+'/_layouts/15/itemexpiration.aspx'
++'?ID={ItemId}&List={ListId}', 'center:1;dialogHeight:500px;dialogWidth:500px;resizable:yes;status:no;location:no;menubar:no;help:no', function GotoPageAfterClose(pageid){if(pageid == 'hold') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/hold.aspx'
++'?ID={ItemId}&List={ListId}'); return false;} if(pageid == 'audit') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/Reporting.aspx'
++'?Category=Auditing&backtype=item&ID={ItemId}&List={ListId}'); return false;} if(pageid == 'config') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/expirationconfig.aspx'
++'?ID={ItemId}&List={ListId}'); return false;} if(pageid == 'tag') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/Hold.aspx'
++'?Tag=true&ID={ItemId}&List={ListId}'); return false;}}, null);
+
+0x0
+
+0x1
+
+ContentType
+
+0x01
+
+898
+
+Document Set Version History
+
+/_layouts/15/images/versions.gif?rev=44
+
+javascript:SP.UI.ModalDialog.ShowPopupDialog('{SiteUrl}'+
+'/_layouts/15/DocSetVersions.aspx'
++ '?List={ListId}&ID={ItemId}')
+
+0x0
+
+0x0
+
+ContentType
+
+0x0120D520
+
+330
+
+Send To other location
+
+/_layouts/15/images/sendOtherLoc.gif?rev=44
+
+javascript:GoToPage('{SiteUrl}' +
+'/_layouts/15/docsetsend.aspx'
++ '?List={ListId}&ID={ItemId}')
+
+0x0
+
+0x0
+
+ContentType
+
+0x0120D520
+
+350
+
+<div class="UserGeneric">The current browser does not support Web pages that contain the IFRAME element. To use this Web Part, you must use a browser that supports this element, such as Internet Explorer 7.0 or later.</div>
+
+x
+
+Oregon State Legislature
+
+You are now leaving the Oregon State Legislative Website.
+
+The Oregon State Legislature is not responsible for content, nor necessarily supports the site you are about to access.
+
+Thank you for visiting
+
+OregonLegislature.gov
+
+Cancel
+Continue
+
+<%@ Register Tagprefix="SharePoint" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
