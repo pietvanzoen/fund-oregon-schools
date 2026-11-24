@@ -13,7 +13,7 @@ installed, and `tools/` stays stdlib-only (`20261122-1551-vale-in-ci-stdlib-in-t
 `.gitattributes` marks `analysis/**/*.csv` and `sources/_*.csv` as `text eol=lf`, and one commit made them all LF.
 Git then stores LF whatever an editor or script writes, and diffs ignore line-ending changes. Archived documents
 under `sources/` aren't covered: they stay byte-for-byte as fetched (CLAUDE.md rule 1, sha256 in the manifest).
-The two scripts that wrote CRLF (`derive_sia.py`, the versions log in `fetch_sources.py`) now write LF, as
+The scripts that wrote CRLF (`derive_sia.py`, `derive_csl.py` from #137, the versions log in `fetch_sources.py`) now write LF, as
 `derive_virtual_charters.py` already did. There's no new check, so `tools/test_tools.py` gets no new case.
 
 ## Options weighed
