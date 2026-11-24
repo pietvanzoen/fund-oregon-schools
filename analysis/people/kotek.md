@@ -9,7 +9,7 @@ Governor's Recommended Budget for 2027-29 in December [NEWS:NEWS-2026-salemrepor
 - Proposed raising the fund's 2025-27 current service level (the amount needed to continue existing authorized
   programs) by about $515 million over the original calculation [SRC:gov/press/2024_ssf-csl-proposal.html].
 - Said in April 2026 she didn't expect extra school money beyond the current budget [NEWS:NEWS-20260430-wweek-1].
-- After reelection, asked about revenue proposals such as a wealth tax, said she had made no commitments on how to
+- After reelection, speaking about revenue proposals such as a wealth tax, said she had made no commitments on how to
   pay for things [NEWS:NEWS-20261106-occ-1].
 - On her 2027-29 budget: "my budget will be prioritizing education and particularly summer investments again"
   [NEWS:NEWS-2026-salemreporter-1].
@@ -59,8 +59,8 @@ Governor's Recommended Budget for 2027-29 in December [NEWS:NEWS-2026-salemrepor
   Schools' budget problems [NEWS:NEWS-2026-katu-kotek-pps-1].
 - Analysis: the April FAQ is conditional (no special session for the fund at that time unless a supermajority is
   lined up); the November statement, as KATU reported it, sets her against one-time reserves for Portland Public Schools'
-  budget problems. On one-time money for ongoing costs, the archive has her describing legislative leaders' objection
-  as one she can understand (October 2026), not stating it as her own.
+  budget problems. On one-time money for ongoing costs, the archive has her describing unnamed legislative leaders'
+  objection as one she can understand (October 2026), framed as their argument.
 
 ## On Portland Public Schools closures
 - Oct. 13, 2026, letter to Portland Public Schools Superintendent Kimberlee Armstrong and School Board Chair Eddie Wang [SRC:gov/letters/2026-10-13_kotek-letter-to-pps-school-closures.pdf p.1]:
