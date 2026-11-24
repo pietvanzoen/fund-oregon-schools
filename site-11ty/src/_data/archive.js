@@ -51,7 +51,15 @@ const replaced = new Set(positionRows.map((r) => Number(r.replaces)).filter(Bool
 const positions = positionRows.filter((_, i) => !replaced.has(i + 2));
 const options = csv("analysis/options.csv");
 const glossaryAll = csv("analysis/glossary.csv");
-const glossary = glossaryAll.filter((r) => r.kind === "acronym" && r.tooltip);
+const termSlug = (t) => t.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const termTitle = (g) => (g.kind === "acronym" && g.full_name ? `${g.term}: ${g.full_name}` : g.term);
+// The card for a term's page, wherever a link to it appears (Terms on this page, Related pages)
+const termCard = (g) => ({ kind: g.kind === "acronym" ? "Abbreviation" : "Term", icon: "abbr", title: termTitle(g), url: `/glossary/${termSlug(g.term)}/`, lines: [g.tooltip || clip(plain(g.definition), 160)] });
+// Every row, found in page text for "Terms on this page" and its term page's backlinks. An acronym matches in its
+// own case or as its full name (pages usually write "State School Fund"); words match in any case
+const wordRe = (w, flags) => new RegExp(`(^|[^\\w-])${w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w-])`, flags);
+const termRes = glossaryAll.map((g) => [g, g.kind === "acronym"
+  ? [wordRe(g.term, ""), g.full_name && wordRe(g.full_name, "i")].filter(Boolean) : [wordRe(g.term, "i")]]);
 
 // ------------------------------------------------------------- entities (everything that gets a card)
 
@@ -73,8 +81,9 @@ for (const f of topicFiles) {
   entities[`topic:${f.slice(0, -3)}`] = { kind: "Topic", icon: "topic", title: h1, url: `/${f.slice(0, -3)}/`, lines: [summary || clip(plain(lead))], summary, text,
     seo: data.title?.trim(), description: data.description?.trim() };
 }
-for (const g of glossary)
-  entities[`term:${g.term}`] = { kind: "Abbreviation", icon: "abbr", title: g.full_name || g.term, url: null, lines: [g.tooltip], term: g.term };
+for (const g of glossaryAll) // links to its term page; a term of art matches in any case and its card shows the start of its definition
+  entities[`term:${g.term}`] = g.kind === "acronym" ? { kind: "Abbreviation", icon: "abbr", title: g.full_name || g.term, url: `/glossary/${termSlug(g.term)}/`, lines: [g.tooltip], term: g.term }
+    : { kind: "Term", icon: "abbr", title: g.term, url: `/glossary/${termSlug(g.term)}/`, lines: [g.tooltip || clip(plain(g.definition), 160)], term: g.term, ci: true };
 
 // A card for one citation chip; built per chip because the page number differs
 function citeCard(kind, body) {
@@ -136,7 +145,7 @@ const PAGE_FILES = { "numbers.md": "/numbers/", "quotes.md": "/quotes/", "promis
   "updates.md": "/updates/", "questions.md": "/questions/", "who-decides.md": "/who-decides/", "glossary.md": "/glossary/" };
 
 class Page {
-  constructor(id, url, title) { Object.assign(this, { id, url, title, refs: new Set(), cards: {} }); }
+  constructor(id, url, title) { Object.assign(this, { id, url, title, refs: new Set(), terms: new Set(), cards: {} }); }
 
   card(id, data) { this.cards[id] = data; return id; }
 
@@ -175,14 +184,17 @@ class Page {
 
   // Cards on existing entity links; first mention of each person and abbreviation gets a link or <abbr>
   linkMentions(html) {
-    const seen = new Set([this.id]);
+    const seen = (this.seen ||= new Set([this.id])); // first mention per page, across every render call
     html = html.replace(/<a href="(\/[^"#]*)(#[^"]*)?"/g, (m, url, anchor = "") => {
       const id = Object.keys(entities).find((k) => entities[k].url === url);
       if (!id) return m;
       seen.add(id); this.refs.add(id); this.card(id, entities[id]);
       return `<a href="${url}${anchor}" data-card="${id}"`;
     });
-    const names = Object.entries(entities).filter(([, e]) => e.name || e.term);
+    // One pass per text run, longest name first: "QEM gap" wins over "QEM", and inserted markup is never rescanned
+    const names = Object.entries(entities).filter(([, e]) => e.name || e.term).sort(([, a], [, b]) => (b.name || b.term).length - (a.name || a.term).length);
+    const byWord = new Map(names.map(([id, e]) => [e.ci ? e.term.toLowerCase() : e.name || e.term, [id, e]]));
+    const any = new RegExp(`(^|[^\\w-])(${names.map(([, e]) => (e.name || e.term).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})(?![\\w-])`, "gi");
     const parts = html.split(/(<[^>]+>)/);
     let skip = 0; // inside <a>, <code>, headings or <abbr>
     for (let i = 0; i < parts.length; i++) {
@@ -193,16 +205,17 @@ class Page {
         continue;
       }
       if (skip) continue;
-      for (const [id, e] of names) {
-        if (seen.has(id)) continue;
-        const word = e.name || e.term;
-        const re = new RegExp(`(^|[^\\w-])(${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})(?![\\w-])`);
-        if (!re.test(parts[i])) continue;
-        seen.add(id); this.card(id, e);
-        if (e.url) this.refs.add(id);
-        parts[i] = parts[i].replace(re, (_, pre, w) => e.url
-          ? `${pre}<a href="${e.url}" data-card="${id}">${w}</a>` : `${pre}<abbr data-card="${id}" tabindex="0">${w}</abbr>`);
+      for (const [g, res] of termRes) {
+        const id = `glossary:${termSlug(g.term)}`;
+        if (id !== this.id && !this.terms.has(g) && res.some((re) => re.test(parts[i]))) { this.terms.add(g); this.refs.add(id); }
       }
+      parts[i] = parts[i].replace(any, (m, pre, w) => {
+        const ci = byWord.get(w.toLowerCase());
+        const [id, e] = byWord.get(w) || (ci?.[1].ci ? ci : []); // names and acronyms match only in their own case
+        if (!id || seen.has(id)) return m;
+        seen.add(id); this.card(id, e); this.refs.add(id);
+        return `${pre}<a${e.term ? ' class="gl"' : ""} href="${e.url}" data-card="${id}">${w}</a>`;
+      });
     }
     return parts.join("");
   }
@@ -268,6 +281,7 @@ const pages = [];
 for (const f of topicFiles) {
   const e = entities[`topic:${f.slice(0, -3)}`];
   const p = new Page(`topic:${f.slice(0, -3)}`, e.url, e.title);
+  p.summaryHtml = e.summary && p.render(e.summary, `topics/${f}`); // before the body: the summary comes first on the page
   p.body = p.render(numberTiles(e.text), `topics/${f}`);
   Object.assign(p, { summary: e.summary, line: e.summary, seo: e.seo, description: e.description });
   p.sourceFile = `analysis/topics/${f}`;
@@ -323,14 +337,13 @@ Object.assign(who, { seo: "Who decides Oregon's K-12 budget", description: "Gov.
 pages.push(who);
 
 // Glossary: one page per row of glossary.csv (search returns terms), and a list of them all
-const termSlug = (t) => t.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-const termTitle = (g) => (g.kind === "acronym" && g.full_name ? `${g.term}: ${g.full_name}` : g.term);
 const slugs = new Set();
 for (const g of glossaryAll) {
   const slug = termSlug(g.term);
   if (slugs.has(slug)) throw new Error(`glossary.csv: two terms make the page /glossary/${slug}/`);
   slugs.add(slug);
   const p = new Page(`glossary:${slug}`, `/glossary/${slug}/`, termTitle(g));
+  p.term = g;
   p.body = p.render(`# ${termTitle(g)}\n\n${g.definition} ${g.source}`, "glossary.csv");
   p.line = g.tooltip || clip(plain(g.definition), 160);
   p.description = clip(plain(g.definition).replace(/\s+/g, " ").trim(), 160);
@@ -591,15 +604,23 @@ for (const p of pages) {
       const sub = note || (id === "derived-figures" && rest.includes("cite-der") ? "Our own calculations. Each one links to its method." : "");
       return `<section class="box ${cls}" aria-labelledby="${id}"><h2 id="${id}">${ic ? icon(ic, "i h-icon") : ""}${label}</h2>${sub ? `<p class="box-note">${sub}</p>` : ""}${rest}</section>`;
     });
-    if (p.summary) p.html = `<section class="box box-short" aria-labelledby="in-short"><h2 id="in-short">In short</h2><p>${esc(p.summary)}</p></section>` + p.html;
+    if (p.summary) p.html = `<section class="box box-short" aria-labelledby="in-short"><h2 id="in-short">In short</h2>${p.summaryHtml}</section>` + p.html;
   }
   p.aside = "";
   if (p.id.startsWith("topic:") && heads.length > 1)
     p.aside += `<nav class="box side-box side-top" aria-labelledby="otp"><h2 class="side-title" id="otp">On this page</h2><ul class="side-list">${heads.map(([id, t]) => `<li><a href="#${id}">${esc(t)}</a></li>`).join("")}</ul></nav>`;
   if (p.backlinks.length)
     p.aside += `<section class="box side-box" aria-labelledby="rel"><h2 class="side-title" id="rel">Related pages</h2><ul class="side-list">${p.backlinks.sort((a, b) => a.title.localeCompare(b.title))
-      .map((b) => `<li><a href="${b.url}" data-card="${b.id}">${esc(b.title)}</a></li>`).join("")}</ul></section>`;
-  for (const b of p.backlinks) p.card(b.id, entities[b.id] || { kind: "Page", icon: "topic", title: b.title, url: b.url, lines: [] });
+      .map((b) => `<li><a class="with-i" href="${b.url}" data-card="${b.id}">${icon(entities[b.id]?.icon || (b.id.startsWith("glossary:") ? "abbr" : "topic"))}<span>${esc(b.title)}</span></a></li>`).join("")}</ul></section>`;
+  if (p.terms.size) { // after Related pages; past 10, the rest behind "See N more"
+    const li = [...p.terms].sort((a, b) => a.term.localeCompare(b.term, "en", { sensitivity: "base" })).map((g) => {
+      const id = p.card(`glossary:${termSlug(g.term)}`, termCard(g));
+      return `<li><a href="/glossary/${termSlug(g.term)}/" data-card="${id}">${esc(termTitle(g))}</a></li>`;
+    });
+    p.aside += `<section class="box side-box" aria-labelledby="gls"><h2 class="side-title" id="gls">Terms on this page</h2><ul class="side-list">${li.slice(0, 10).join("")}</ul>`
+      + (li.length > 10 ? `<details class="read-more"><summary>See ${li.length - 10} more</summary><ul class="side-list">${li.slice(10).join("")}</ul></details>` : "") + `</section>`;
+  }
+  for (const b of p.backlinks) p.card(b.id, entities[b.id] || (b.term && termCard(b.term)) || { kind: "Page", icon: "topic", title: b.title, url: b.url, lines: [] });
   if (p.boxes) // each section of a generated page is a white card; the text before the first one stays as the intro
     p.html = p.html.replace(/<h2 id="([^"]+)">[\s\S]*?(?=<h2 id=|$)/g, (sec, id) => `<section class="box" aria-labelledby="${id}">${sec}</section>`);
   p.meta = (p.note || "") + pageMeta([p.sourceFile].flat());
