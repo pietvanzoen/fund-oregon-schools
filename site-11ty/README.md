@@ -15,5 +15,5 @@ in `website/about.md`. Nothing here repeats the research. Why Eleventy: `adr/202
 - The build fails on a broken internal link or an unknown `[[id]]` (`eleventy.config.js`), then Pagefind indexes
   topic, person and glossary pages for search.
 - `.github/workflows/pages.yml` runs the build on every PR and deploys `_site/` to GitHub Pages from `main`.
-- The design spec is `design/README.md` (direction C, #155); its mockups and screenshots are in `design/`.
+- The design spec is `design/README.md` (direction C, #155); it links to the commit that holds the mockups.
 - Pinned: `@11ty/eleventy`, `@11ty/gray-matter`, `csv-parse`, `markdown-it` and `pagefind` (`package.json`).

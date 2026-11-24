@@ -1,8 +1,9 @@
 # Site design: direction C, "Kitchen table"
 
-Piet picked direction C (Nov 23, 2026) from three drawn options. The mockups in `direction-c/` are exports from the
-design canvas: open them in a browser to see them (they render without the canvas runtime). `screenshots/` has the
-mockups and the spike as it is now. This file is the spec; the mockups win where they show something this file doesn't.
+Piet picked direction C (Nov 23, 2026) from three drawn options. The mockups (exports from the design canvas; open
+them in a browser) and the screenshots are no longer in the tree: they're at [commit 2288eb1](https://github.com/pietvanzoen/fund-oregon-schools/tree/2288eb1/site-11ty/design), the last commit that has them
+(`direction-c/`, `chrome/`, `home/`, `search/`, `screenshots/`). This file is the spec; the mockups win where they show
+something this file doesn't.
 
 Work happens on `site-11ty/` (#155). Light only, no dark mode for now.
 
@@ -36,7 +37,7 @@ Shape: cards radius 12, number tiles 10, pills full round, bottom sheet 16 with 
 `0 10px 30px rgba(33,43,50,.2)`. Touch targets at least 44px (48 for sheet buttons).
 
 Icons: inline stroke SVG (24 grid, stroke 2, `currentColor`), never emoji. The mark: a white rounded square with a
-dotted trail in blue ending in a gold dot (see the mockups' masthead).
+dotted trail in blue ending in a gold dot (see the mockups' masthead, or `src/_includes/layout.js`).
 
 ## Page structure
 
