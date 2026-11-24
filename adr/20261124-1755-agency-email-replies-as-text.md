@@ -1,4 +1,4 @@
-# An agency's email answer to the archive's question is archived as its reply text
+# Email replies are archived as reply text, and only when nothing else can be cited
 
 Status: accepted (2026-11-24, PR #170)
 
@@ -10,9 +10,11 @@ ORS 338.155's minimums use or that ODE publishes no virtual charter total. The e
 maintainer's address and his quoted original message.
 
 ## Decision
-When an official answers a question sent for the archive, save the reply as a `.txt` under
-`sources/<agency>/correspondence/`: the header lines, the body and the signature's name and titles, verbatim. Leave
-out the recipient's address, phone numbers and the quoted original. Add a manifest line by hand that says what was
+Archive a reply only when the analysis needs something it says and no other citable source says it. Attachments
+are archived as their original files, as before; a reply that only covers them stays out, named in their manifest
+note. When a reply is archived, save it as a `.txt` under
+`sources/<agency or district folder>/correspondence/`: the header lines, the body and the signature's name and titles, verbatim. Leave
+out the recipient's address, phone numbers, links and the quoted original. Add a manifest line by hand that says what was
 asked, what was left out and that `fetched_at` is when the reply arrived.
 
 ## Options weighed
@@ -21,6 +23,8 @@ asked, what was left out and that `fetched_at` is when the reply arrived.
 - **The emailed PDF as-is**: the most original form, but it puts a private address and the quoted request in the
   public archive.
 - **Not archiving it**: keeps to the earlier rule, but the claims would then rest on nothing citable.
+- **Archiving every reply**: simpler to follow, but adds private correspondence the analysis doesn't use. Baker
+  SD 5J's Nov. 23 reply stays out for that reason: the topic cites only the agreement it came with.
 
 ## Revisit when
 A reply's meaning depends on the question in ways the manifest note can't carry, or a sender asks that a reply not

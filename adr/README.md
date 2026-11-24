@@ -55,4 +55,4 @@ The concrete signal that should reopen this.
 | [2026-11-24](20261124-0049-site-name-oregon-ed-trail.md) | The site is called Oregon Ed Trail, at oregonedtrail.org |
 | [2026-11-24](20261124-0555-topic-summaries-in-front-matter.md) | A topic's plain-language summary lives in its own file's front matter |
 | [2026-11-24](20261124-0837-site-built-with-eleventy.md) | The site is built with Eleventy, not MkDocs and Material |
-| [2026-11-24](20261124-1755-agency-email-replies-as-text.md) | An agency's email answer to the archive's question is archived as its reply text |
+| [2026-11-24](20261124-1755-agency-email-replies-as-text.md) | Email replies are archived as reply text, and only when nothing else can be cited |

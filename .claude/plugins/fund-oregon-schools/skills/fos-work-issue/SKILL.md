@@ -130,8 +130,9 @@ description:
   the full draft in a code block (GitHub gives it a copy button), written to be sent as is and signed
   "Piet van Zoen"; and a link `[✉️ Open this email (address and subject filled in)](mailto:<address>?subject=<URL-encoded subject>)`.
   GitHub strips a mailto link that also has `body=` or `cc=`, so keep those out of the link and put any cc on its
-  own line. Add "- [ ] Sent · [ ] Reply received" and say where to save the reply
-  (`sources/<agency or district>/…` with a manifest line).
+  own line. Add "- [ ] Sent · [ ] Reply received" and say how to handle the reply:
+  attachments under `sources/<agency or district>/…` with a manifest line, and the reply itself only if it's the
+  sole citable source for something (RUNBOOK, "Email replies").
 - If an agent could still try something first (searching a district's board packets for a contract), make that a
   sub-item of the original issue and say in the Piet issue to wait for it.
 
