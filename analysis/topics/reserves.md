@@ -23,7 +23,7 @@ draw is being discussed, though it rests on one social media post with no amount
 vote and trigger. The objection on record from Sen. Kate Lieber, D-District 14 (Beaverton & Southwest
 Portland) [SRC:legislature/members/lieber.html], to one-time money for ongoing costs could still apply: PERS
 contributions are an ongoing cost. Gov. Tina Kotek has said tapping one-time reserves for Portland Public Schools'
-budget problems goes against enrollment-driven state investment; on one-time money for ongoing costs, she has
+budget problems goes against enrollment-driven state investment. On one-time money for ongoing costs, she has
 described a similar objection, from unnamed legislative leaders who dismissed using the fund when she raised it, as
 one she can understand, framing it as their argument (below).
 The objection stated by Rep. Tawna Sanchez, D-District 43 (North and Northeast Portland)
