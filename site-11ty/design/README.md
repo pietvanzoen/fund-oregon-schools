@@ -77,7 +77,7 @@ Search (`search/`, #159): the GOV.UK pattern. A search icon button at the right 
 (phones: next to Menu) opens a white panel under the masthead: "Search Oregon Ed Trail", a large field, a blue button
 and the hint line. The button becomes a white Close tab with an X (`aria-expanded="true"`), focus moves to the field,
 and Escape or Close shuts it. Without JavaScript it's a link to the search page. The search page has its own field,
-the count in a live region, filter pills by kind with counts (`aria-current` on the active one; on phones they scroll
+the count in a live region, filter pills by kind with counts (All, Topics, People, Terms; the mockup's Documents pill waits until documents are indexed; `aria-current` on the active one; on phones they scroll
 sideways), and one white card per result: kind label with icon, title link, one line (a topic's `summary`, a
 person's office and area, a term's tooltip, else the matching passage with the term highlighted in `#fff4cc`). With no
 results it says so and points to the topic list and Who decides.

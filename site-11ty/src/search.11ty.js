@@ -4,8 +4,8 @@ import { icon } from "./_includes/icons.js";
 
 export const data = { permalink: "/search/" };
 
-// Filter pills, in this order; Documents stays at 0 until the archived documents are indexed
-const KINDS = [["", "All"], ["Topic", "Topics"], ["Person", "People"], ["Term", "Terms"], ["Document", "Documents"]];
+// Filter pills, in this order. A Documents pill joins them when the archived documents are indexed
+const KINDS = [["", "All"], ["Topic", "Topics"], ["Person", "People"], ["Term", "Terms"]];
 
 export function render() {
   const body = `<form class="search search-page" role="search" action="/search/" method="get">

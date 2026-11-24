@@ -5,7 +5,7 @@
   const params = new URLSearchParams(location.search);
   const query = (params.get("q") || "").trim();
   let kind = params.get("kind") || "";
-  const ICON = { Topic: "topic", Person: "person", Term: "abbr", Document: "doc" };
+  const ICON = { Topic: "topic", Person: "person", Term: "abbr" };
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
   // Pagefind's excerpt is escaped text with <mark> around matches; keep only the marks
   const excerpt = (html) => html.replace(/<(?!\/?mark>)[^>]*>/g, "");
