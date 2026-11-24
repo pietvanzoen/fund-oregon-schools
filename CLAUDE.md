@@ -138,7 +138,8 @@ archive's emails and records requests.
     row (cited, like everything else). Acronyms get a short plain-text `tooltip`, shown in a preview card on the
     acronym's first use on each page, which links to the term's page (a term of art gets the same, its card
     showing its tooltip or the start of its definition); every row gets its own page under Glossary, and every page that uses it lists it
-    under "Terms on this page". Don't use one abbreviation for two things: OEA is the
+    under "Terms on this page". A word this site gives its own meaning (baseline, benchmark, proposal) is `kind: label`:
+    listed and linked from "Terms on this page", but not linked in running text. Don't use one abbreviation for two things: OEA is the
     Office of Economic Analysis, so write out "Oregon Education Association".
 
 ## Writing code (tools/, workflows, site build)

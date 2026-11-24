@@ -81,7 +81,9 @@ for (const f of topicFiles) {
   entities[`topic:${f.slice(0, -3)}`] = { kind: "Topic", icon: "topic", title: h1, url: `/${f.slice(0, -3)}/`, lines: [summary || clip(plain(lead))], summary, text,
     seo: data.title?.trim(), description: data.description?.trim() };
 }
-for (const g of glossaryAll) // links to its term page; a term of art matches in any case and its card shows the start of its definition
+// Each row links to its term page on first use (a term of art in any case, its card showing the start of its definition).
+// A label, a word this site gives its own meaning, gets no link in running text but still lists in Terms on this page.
+for (const g of glossaryAll.filter((g) => g.kind !== "label"))
   entities[`term:${g.term}`] = g.kind === "acronym" ? { kind: "Abbreviation", icon: "abbr", title: g.full_name || g.term, url: `/glossary/${termSlug(g.term)}/`, lines: [g.tooltip], term: g.term }
     : { kind: "Term", icon: "abbr", title: g.term, url: `/glossary/${termSlug(g.term)}/`, lines: [g.tooltip || clip(plain(g.definition), 160)], term: g.term, ci: true };
 
