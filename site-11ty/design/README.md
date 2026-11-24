@@ -45,7 +45,7 @@ Topic page, top to bottom: breadcrumbs; title; **In short** card (blue header ba
 topic file's front matter `summary`; **Our analysis** card (the `## Analysis` section, yellow, with
 "Our interpretation, not a source"); **What the documents say** card; **Our calculations** (`## Derived figures`)
 as tiles when there are at most 4 rows with short values, otherwise a plain table in the card. Side column: "On this
-page", "Related pages" (backlinks) and "Terms on this page" (every `glossary.csv` row the page uses, each linking
+page", "Related pages" (backlinks, each with its kind's icon: person, topic, term) and "Terms on this page" (every `glossary.csv` row the page uses, each linking
 to its term page with a preview card; past 10, the rest behind "See N more") cards; on phones, "On this page" goes
 above the article and the other two below it. A topic without a `summary` shows no In short card.
 

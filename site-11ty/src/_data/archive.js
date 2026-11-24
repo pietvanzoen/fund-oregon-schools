@@ -605,7 +605,7 @@ for (const p of pages) {
     p.aside += `<nav class="box side-box side-top" aria-labelledby="otp"><h2 class="side-title" id="otp">On this page</h2><ul class="side-list">${heads.map(([id, t]) => `<li><a href="#${id}">${esc(t)}</a></li>`).join("")}</ul></nav>`;
   if (p.backlinks.length)
     p.aside += `<section class="box side-box" aria-labelledby="rel"><h2 class="side-title" id="rel">Related pages</h2><ul class="side-list">${p.backlinks.sort((a, b) => a.title.localeCompare(b.title))
-      .map((b) => `<li><a href="${b.url}" data-card="${b.id}">${esc(b.title)}</a></li>`).join("")}</ul></section>`;
+      .map((b) => `<li><a class="with-i" href="${b.url}" data-card="${b.id}">${icon(entities[b.id]?.icon || (b.id.startsWith("glossary:") ? "abbr" : "topic"))}<span>${esc(b.title)}</span></a></li>`).join("")}</ul></section>`;
   if (p.terms.size) { // after Related pages; past 10, the rest behind "See N more"
     const li = [...p.terms].sort((a, b) => a.term.localeCompare(b.term, "en", { sensitivity: "base" })).map((g) => {
       const id = p.card(`glossary:${termSlug(g.term)}`, { kind: "Term", icon: "abbr", title: termTitle(g), url: `/glossary/${termSlug(g.term)}/`, lines: [g.tooltip || clip(plain(g.definition), 160)] });

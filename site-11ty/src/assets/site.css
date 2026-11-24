@@ -163,6 +163,7 @@ th{font-weight:600}
 .side-list{list-style:none;padding:0;margin:0 0 8px;font-size:16px}
 .side-list li{margin:0}
 .side-list a{display:inline-block;padding:4px 0}
+.side-list a.with-i{display:flex;gap:8px;align-items:flex-start}.with-i .i{margin-top:.25em}
 @media(pointer:coarse){.side-list a,.list-link,.people-list a{display:inline-block;padding:10px 0}.topic-list li{padding-top:4px}}
 
 /* home */
