@@ -20,9 +20,12 @@ forecast already expects needs neither, though a tax increase also needs three-f
 targeted, one-time Public Employees Retirement System (PERS) relief from Rep. Ricki Ruiz, D-District 50 (Gresham), a
 co-chair of the Ways and Means Education Subcommittee in 2026, suggests a narrower
 draw is being discussed, though it rests on one social media post with no amount or bill. It still needs the same
-vote and trigger. The objection on record from Kotek and Sen. Kate Lieber, D-District 14 (Beaverton & Southwest
+vote and trigger. The objection on record from Sen. Kate Lieber, D-District 14 (Beaverton & Southwest
 Portland) [SRC:legislature/members/lieber.html], to one-time money for ongoing costs could still apply: PERS
-contributions are an ongoing cost.
+contributions are an ongoing cost. Gov. Tina Kotek has said tapping one-time reserves for Portland Public Schools'
+budget problems goes against enrollment-driven state investment; on one-time money for ongoing costs, she has
+described the same objection, from legislative leaders who dismissed using the fund when she raised it, as one she
+can understand, without stating it as her own (below).
 The objection stated by Rep. Tawna Sanchez, D-District 43 (North and Northeast Portland)
 [SRC:legislature/members/sanchez.html], is mainly timing. Ruiz describes his proposal as relief
 while longer-term reform is developed (`decisions.md#esf-draw-2027-29`).
@@ -46,7 +49,10 @@ while longer-term reform is developed (`decisions.md#esf-draw-2027-29`).
 - Tammy Carpenter, D-District 27 (Beaverton and Cedar Hills), who won the seat in the Nov. 3, 2026, election (unofficial results), suggested the fund as a bridge;
   Rep. Zach Hudson, D-District 49 (Troutdale, Fairview, Wood Village, Gresham, Portland), expects 2027 revenue bills
   [NEWS:NEWS-20261112-katu-2] [SRC:legislature/members/hudson.html] [SRC:legislature/members/2026-11-03_general-election-results_state-representative.html] [SRC:legislature/members/helm.html].
-- Gov. Tina Kotek opposes using one-time reserves for ongoing costs [NEWS:NEWS-20261106-occ-1].
+- Asked by OPB in October 2026 about past calls to use the fund for schools, Kotek said "That is up to the
+  legislature" and, of raising it with legislative leaders, "I would bring it up, and it was summarily dismissed".
+  She described their argument, which she said she could understand, that "if you use one-time dollars, which is
+  what a reserve fund is, that will have a greater cliff down the line" [NEWS:NEWS-20261102-opb-1].
 - At a Nov. 6, 2026, press conference Kotek said, as quoted by KATU, "To tap the one-time reserves for this particular
   instance goes against what we are talking about around enrollment-driving state investment", about Portland Public
   Schools' budget problems [NEWS:NEWS-2026-katu-kotek-pps-1].

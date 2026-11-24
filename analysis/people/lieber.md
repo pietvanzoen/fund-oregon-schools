@@ -37,5 +37,5 @@ the session organizes).
   needed to continue existing authorized programs), not whether districts face deficits. The 2026 Quality Education Model puts the cost of today's
   services about $1.2 billion above the State School Fund's current service level, to come from state funds outside
   the fund (see `topics/quality-education-model.md`), so a State School Fund at the current service level passes her
-  test whether or not those other funds keep pace. Her position matches that of Gov. Tina Kotek: no one-time money for
-  ongoing costs (see `kotek.md`).
+  test whether or not those other funds keep pace. Gov. Tina Kotek has described the same objection, from legislative
+  leaders, as one she can understand (see `kotek.md`).
