@@ -7,7 +7,7 @@ in `website/about.md`. Nothing here repeats the research. Why Eleventy: `adr/202
     PREVIEW=1 npx eleventy                              # relative links, for hosting from any folder
 
 - `src/_data/archive.js` turns the files into pages: citation pills, "Our analysis" boxes (the files' "Analysis:"
-  marker), backticked file references as links, first-mention links to people and `<abbr>` on acronyms, backlinks,
+  marker), backticked file references as links, first-mention links to people, `<abbr>` on acronyms and a dotted marker on terms of art, backlinks,
   generated person pages (a stub for everyone in `people.csv` without a profile), the decision tables from the
   decision CSVs, and the list pages (numbers, quotes, promises, timeline, sources, What's new, questions, glossary).
 - `src/_includes/layout.js` is the frame of every page: masthead, search panel, footer, preview card, page metadata (title and description from a file's front matter, or set or built in `archive.js`)

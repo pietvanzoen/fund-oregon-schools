@@ -51,7 +51,6 @@ const replaced = new Set(positionRows.map((r) => Number(r.replaces)).filter(Bool
 const positions = positionRows.filter((_, i) => !replaced.has(i + 2));
 const options = csv("analysis/options.csv");
 const glossaryAll = csv("analysis/glossary.csv");
-const glossary = glossaryAll.filter((r) => r.kind === "acronym" && r.tooltip);
 const termSlug = (t) => t.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const termTitle = (g) => (g.kind === "acronym" && g.full_name ? `${g.term}: ${g.full_name}` : g.term);
 // Every row, found in page text for "Terms on this page" and its term page's backlinks. An acronym matches in its
@@ -80,8 +79,9 @@ for (const f of topicFiles) {
   entities[`topic:${f.slice(0, -3)}`] = { kind: "Topic", icon: "topic", title: h1, url: `/${f.slice(0, -3)}/`, lines: [summary || clip(plain(lead))], summary, text,
     seo: data.title?.trim(), description: data.description?.trim() };
 }
-for (const g of glossary)
-  entities[`term:${g.term}`] = { kind: "Abbreviation", icon: "abbr", title: g.full_name || g.term, url: null, lines: [g.tooltip], term: g.term };
+for (const g of glossaryAll) // a term of art matches in any case; its card shows the start of its definition
+  entities[`term:${g.term}`] = g.kind === "acronym" ? { kind: "Abbreviation", icon: "abbr", title: g.full_name || g.term, url: null, lines: [g.tooltip], term: g.term }
+    : { kind: "Term", icon: "abbr", title: g.term, url: null, lines: [g.tooltip || clip(plain(g.definition), 160)], term: g.term, ci: true };
 
 // A card for one citation chip; built per chip because the page number differs
 function citeCard(kind, body) {
@@ -189,7 +189,10 @@ class Page {
       seen.add(id); this.refs.add(id); this.card(id, entities[id]);
       return `<a href="${url}${anchor}" data-card="${id}"`;
     });
-    const names = Object.entries(entities).filter(([, e]) => e.name || e.term);
+    // One pass per text run, longest name first: "QEM gap" wins over "QEM", and inserted markup is never rescanned
+    const names = Object.entries(entities).filter(([, e]) => e.name || e.term).sort(([, a], [, b]) => (b.name || b.term).length - (a.name || a.term).length);
+    const byWord = new Map(names.map(([id, e]) => [e.ci ? e.term.toLowerCase() : e.name || e.term, [id, e]]));
+    const any = new RegExp(`(^|[^\\w-])(${names.map(([, e]) => (e.name || e.term).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})(?![\\w-])`, "gi");
     const parts = html.split(/(<[^>]+>)/);
     let skip = 0; // inside <a>, <code>, headings or <abbr>
     for (let i = 0; i < parts.length; i++) {
@@ -204,16 +207,15 @@ class Page {
         const id = `glossary:${termSlug(g.term)}`;
         if (id !== this.id && !this.terms.has(g) && res.some((re) => re.test(parts[i]))) { this.terms.add(g); this.refs.add(id); }
       }
-      for (const [id, e] of names) {
-        if (seen.has(id)) continue;
-        const word = e.name || e.term;
-        const re = new RegExp(`(^|[^\\w-])(${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})(?![\\w-])`);
-        if (!re.test(parts[i])) continue;
+      parts[i] = parts[i].replace(any, (m, pre, w) => {
+        const ci = byWord.get(w.toLowerCase());
+        const [id, e] = byWord.get(w) || (ci?.[1].ci ? ci : []); // names and acronyms match only in their own case
+        if (!id || seen.has(id)) return m;
         seen.add(id); this.card(id, e);
         if (e.url) this.refs.add(id);
-        parts[i] = parts[i].replace(re, (_, pre, w) => e.url
-          ? `${pre}<a href="${e.url}" data-card="${id}">${w}</a>` : `${pre}<abbr data-card="${id}" tabindex="0">${w}</abbr>`);
-      }
+        return e.url ? `${pre}<a href="${e.url}" data-card="${id}">${w}</a>`
+          : `${pre}<${e.ci ? 'span class="term"' : "abbr"} data-card="${id}" tabindex="0">${w}</${e.ci ? "span" : "abbr"}>`;
+      });
     }
     return parts.join("");
   }
