@@ -51,8 +51,9 @@ written by `tools/derive_virtual_charters.py`.
   [DER:virtual_charters/gpg_attributable_share_2025_26]. The denominator is wider than the estimate: the district
   share also pays transportation, high-cost disability grants and the educator advancement fund, which the estimate
   leaves out, so on a like-for-like basis the share would be a little higher.
-- **The sponsors' share.** How much a sponsor keeps depends on each charter's contract. Only Baker's terms are
-  archived (next bullet but one), and the transparency report has no grade split. A district sponsor keeps whatever it does not pass through. If every
+- **The sponsors' share.** How much a sponsor keeps depends on each charter's contract. Of those terms the archive
+  has only the Baker School District 5J's for Baker Web Academy (see "Baker School District 5J and Baker Web Academy"
+  below). The transparency report has no grade split. A district sponsor keeps whatever it does not pass through. If every
   contract paid exactly the statutory minimum, sponsors would keep between 5% (all high school) and 20% (all K-8) of
   the grant, roughly $13 million [DER:virtual_charters/sponsor_keep_min_2025_26] to $51 million
   [DER:virtual_charters/sponsor_keep_max_2025_26]. Contracts may pay more than the minimum, which would lower
@@ -79,19 +80,29 @@ written by `tools/derive_virtual_charters.py`.
   for like: the years differ, our estimate uses the 2024-25 weighted count at 2025-26 rates, and the academy's "State
   School Fund" line may include money our estimate leaves out (transportation, high-cost disability). S&P doesn't
   say how it counted either, so the contract is still needed to settle it.
-- **Baker SD 5J and Baker Web Academy.** Baker's 2025-26 service agreement passes Baker Web Academy exactly the
-  statutory minimum shares, 80% (K-8) and 95% (9-12), applied to the department's Charter Schools Rate, which for
-  Baker equals its grant rate, $11,223 per weighted student [SRC:ode/ssf/2025-26_ssf-estimates_2026-05-01.pdf p.2]. So for the largest virtual charter the $36 million minimum
-  estimate above is not just a bound. With the academy's grade split, Baker would keep about $5.6 million of the
-  academy's grant in 2025-26 [DER:virtual_charters/bwa_keep_under_agreement_2025_26] and pass on about $38.3 million
-  [DER:virtual_charters/bwa_passed_through_2025_26]. That is not all margin: under the same agreement the district
-  provides special-education services to the academy and Baker Early College, at an estimated $3.4 million for
-  2025-26, and the agreement doesn't split that cost between the two charters or say which money pays for it. The
-  agreement is a yearly service agreement that runs to June 30, 2026; the charter itself isn't archived, so whether it
-  sets or defers to these terms is still open.
+- **Baker School District 5J and Baker Web Academy.** For 2025-26, the district's service agreement paid Baker Web
+  Academy, the largest virtual charter by student count, 80% (K-8) and 95% (9-12) of the department's Charter Schools
+  Rate on its whole weighted count. Those are the general minimums in ORS 338.155; the agreement doesn't use the
+  lower special-education minimums in ORS 338.165, so on that part it pays more than the law requires. For Baker the
+  Charter Schools Rate equals its grant rate, $11,223 per weighted student
+  [SRC:ode/ssf/2025-26_ssf-estimates_2026-05-01.pdf p.2]. So for this school the assumption behind the $36 million
+  estimate above, that the contract pays the general minimums, holds.
+- **What Baker kept.** Our estimate is that Baker kept about $5.6 million of the academy's grant in 2025-26
+  [DER:virtual_charters/bwa_keep_under_agreement_2025_26], 12.7% [DER:virtual_charters/bwa_keep_share_2025_26], and
+  passed on about $38.3 million [DER:virtual_charters/bwa_passed_through_2025_26]. It uses the academy's fall 2025
+  headcount split by grade in place of its weighted split, and the April 2026 weighted count before the May
+  reconciliation. The district doesn't keep that free of costs: under the same agreement it provides special-education
+  services to the academy and to Baker Early College, the district's other charter, estimated at $3,435,625 for
+  2025-26, plus state reporting, technology, printing, mail, internet and administrative support. The agreement doesn't
+  split those costs between the two charters. It has the academy cover up to $56,100 of payroll for one new
+  special-education position and says invoices for additional service-agreement items are paid within 10 business
+  days, but it doesn't say which services are billed (sources below).
+- **Which year.** The agreement covered 2025-26 and ran to June 30, 2026; the archive has no 2026-27 terms, and the
+  charter itself isn't archived, so whether the charter sets or defers to these terms is still open.
 - **Contract terms.** The department's list gives Baker Web Academy's contract as Oct. 16, 2024, to June 30, 2032,
   about eight years, while Baker's financial report describes a 10-year agreement renewed annually for "Baker Charter
-  School", which our analysis takes to be Baker Web Academy or both of its charters; a rolling term renewed each
+  School", which our analysis takes to be both of its charters (the 2025-26 service agreement is with "Baker Charter
+  Schools", naming both); a rolling term renewed each
   year would fit both, but the contract is needed to say. S&P says Santiam Canyon's agreement with Oregon Charter
   Academy was renewed for seven years starting in 2025 [SRC:districts/santiam-canyon/audit_santiam-canyon-sd-129j.pdf p.1];
   the department gives a start of June 13, 2024, but an end of June 30, 2032, which fits a seven-year term from 2025.
@@ -290,17 +301,23 @@ written by `tools/derive_virtual_charters.py`.
   refers to "the 10-year sponsorship agreement that is renewed annually"
   [SRC:districts/baker-5j/fy2024-25_annual-financial-report.pdf p.17]. The report gives no amount passed through or
   kept.
-- Baker's 2025-26 service agreement with Baker Charter Schools covers Baker Web Academy and Baker Early College
-  [SRC:districts/baker-5j/2025-26_service-agreement_baker-charter-schools.pdf p.1]. Within 10 business days of each
-  State School Fund payment the district passes on the charters' portion, based on the latest weighted-count report
-  and the Charter Schools Rate (ORS 338.155) on the latest State School Fund estimate, with adjustments reconciled the
-  following May. Baker Web Academy is paid 80% of that rate for its K-8 weighted count and 95% for 9-12; Baker Early
+- The Baker School District 5J's 2025-26 service agreement is with Baker Charter Schools, the name it uses for Baker
+  Web Academy and Baker Early College together
+  [SRC:districts/baker-5j/2025-26_service-agreement_baker-charter-schools.pdf p.1]. It isn't posted online; the
+  archived copy came from the district in reply to a public records request. Within 10 business days of each State
+  School Fund payment the district passes on the charters' portion, based on the latest weighted-count report and the
+  Charter Schools Rate (ORS 338.155) on the latest State School Fund estimate, with adjustments reconciled in May of
+  the following school year. Baker Web Academy is paid 80% of that rate for its K-8 weighted count and 95% for 9-12; Baker Early
   College 95% [SRC:districts/baker-5j/2025-26_service-agreement_baker-charter-schools.pdf p.1].
 - Under the same agreement the district's special-education staff serve the charters' students, at an estimated cost
   of $3,435,625 in 2025-26 for 24.80 full-time equivalent staff. Baker Web Academy covers up to $56,100 of payroll for
-  a new special-education position, offsetting the Measure 98 pass-through for special education
-  [SRC:districts/baker-5j/2025-26_service-agreement_baker-charter-schools.pdf p.1]. The charters don't ask for the
-  Student Investment Account's poverty pass-through, as virtual schools don't qualify for that account
+  a new special-education position, to offset the special-education part of the Measure 98 (High School Success)
+  money passed through. It says the district reimburses preapproved supplies, curriculum and services, and lists
+  other district services: state reporting, technology, printing (at no cost to the charters), mail, internet and
+  administrative support [SRC:districts/baker-5j/2025-26_service-agreement_baker-charter-schools.pdf p.1]
+  [SRC:districts/baker-5j/2025-26_service-agreement_baker-charter-schools.pdf p.2].
+- The district passes Student Investment Account money to Baker Early College. The charters don't ask for the
+  account's poverty pass-through, which the agreement says is because virtual schools don't qualify for it
   [SRC:districts/baker-5j/2025-26_service-agreement_baker-charter-schools.pdf p.1].
 - The agreement runs through June 30, 2026, after which a 2026-27 agreement may be negotiated
   [SRC:districts/baker-5j/2025-26_service-agreement_baker-charter-schools.pdf p.2]. The charters' superintendent,
@@ -422,8 +439,9 @@ membership) and ADMw the weighted count.
 | K-8 share of that enrollment | 61.6% | derived | [DER:virtual_charters/k8_share_fall_2025] |
 | What sponsors would keep at the statutory minimum, using each school's grade split | about $36 million | est | [DER:virtual_charters/sponsor_keep_gradesplit_2025_26] |
 | What Santiam Canyon would keep from Oregon Charter Academy at the statutory minimum | about $3.9 million | est | [DER:virtual_charters/orca_keep_at_minimum_2025_26] |
-| What Baker keeps from Baker Web Academy under its 2025-26 service agreement | about $5.6 million | est | [DER:virtual_charters/bwa_keep_under_agreement_2025_26] |
-| What Baker passes on to Baker Web Academy under that agreement | about $38.3 million | est | [DER:virtual_charters/bwa_passed_through_2025_26] |
+| What the Baker School District 5J kept of Baker Web Academy's grant under its 2025-26 service agreement | about $5.6 million | est | [DER:virtual_charters/bwa_keep_under_agreement_2025_26] |
+| The same as a share of that grant | 12.7% | est | [DER:virtual_charters/bwa_keep_share_2025_26] |
+| What it passed on to Baker Web Academy under that agreement | about $38.3 million | est | [DER:virtual_charters/bwa_passed_through_2025_26] |
 | General Purpose Grant attributable to Oregon Charter Academy's students, 2025-26 | about $31.1 million | est | [DER:virtual_charters/orca_formula_revenue_2025_26] |
 | Report charters with their own High School Success row | 18 | derived | [DER:virtual_charters/hss_listed_charters] |
 | 9-12 share of those charters' 2024-25 ADMw | 48.0% | est | [DER:virtual_charters/hs_admw_share_2024_25] |

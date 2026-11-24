@@ -125,14 +125,19 @@ out = [
      "Oregon Charter Academy's Oct 1 headcount split by grade stands in for its ADMw split; " + keep_common.replace(
          "; covers only the 20 charters in ODE's 2025-26 report", "")),
     ("bwa_keep_under_agreement_2025_26", round(bwa_grant * (1 - bwa_pass) / 1e6, 1), "USD millions", "est",
-     "What Baker SD 5J keeps from Baker Web Academy's General Purpose Grant under its 2025-26 service agreement",
+     "What the Baker School District 5J kept of Baker Web Academy's General Purpose Grant under its 2025-26 service agreement",
      "Baker Web Academy's admw_2025_26 x Baker's Charter Schools Rate x (K-8 share x 0.20 + 9-12 share x 0.05)",
      f"{DATA}; {GRADES}; {BAKER_SA}",
      "Baker Web Academy's Oct 1 headcount split by grade stands in for its ADMw split; uses the April 2026 "
-     "transparency report's 2025-26 ADMw, not the final count the agreement reconciles to in May; excludes the "
+     "transparency report's 2025-26 ADMw, not the final count the agreement reconciles to in May; uses the "
+     "Charter Schools Rate on ODE's May 1, 2026 estimate, while each payment uses the latest estimate; excludes the "
      "special-education services the district provides under the same agreement and its other pass-throughs"),
+    ("bwa_keep_share_2025_26", round(100 * (1 - bwa_pass), 1), "percent", "est",
+     "Share of Baker Web Academy's grant the Baker School District 5J kept under its 2025-26 service agreement",
+     "K-8 share x 0.20 + 9-12 share x 0.05", f"{GRADES}; {BAKER_SA}",
+     "Baker Web Academy's Oct 1 headcount split by grade stands in for its ADMw split"),
     ("bwa_passed_through_2025_26", round(bwa_grant * bwa_pass / 1e6, 1), "USD millions", "est",
-     "What Baker SD 5J passes through to Baker Web Academy under its 2025-26 service agreement",
+     "What the Baker School District 5J passed through to Baker Web Academy under its 2025-26 service agreement",
      "Baker Web Academy's admw_2025_26 x Baker's Charter Schools Rate x (K-8 share x 0.80 + 9-12 share x 0.95)",
      f"{DATA}; {GRADES}; {BAKER_SA}", "same as bwa_keep_under_agreement_2025_26"),
     ("hss_listed_charters", len(in_hss), "charters", "derived",
