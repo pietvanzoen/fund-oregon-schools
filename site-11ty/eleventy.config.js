@@ -45,6 +45,23 @@ export default function (cfg) {
     await pagefind.close();
     // The site builds its own results UI, so Pagefind's bundled UIs aren't shipped
     for (const f of fs.readdirSync(path.join(out, "pagefind"))) if (/-ui\.(css|js)$/.test(f)) fs.rmSync(path.join(out, "pagefind", f));
+    // shortcut: the hosted preview serves only a fixed list of file types, so PREVIEW renames Pagefind's data files to
+    // .wasm (served as bytes) and patches the paths in its scripts; drop this if the preview moves to a plain web host
+    if (PREVIEW) {
+      const pf = path.join(out, "pagefind");
+      const walkPf = (d) => fs.readdirSync(d, { withFileTypes: true }).forEach((f) => {
+        const p = path.join(d, f.name);
+        if (f.isDirectory()) return walkPf(p);
+        if (/\.(pf_\w+|pagefind)$/.test(f.name)) fs.renameSync(p, p + ".wasm");
+        else if (/^pagefind(-worker)?\.js$/.test(f.name)) {
+          const js = fs.readFileSync(p, "utf8");
+          const patched = js.replace(/\.(pf_meta|pf_index|pf_filter|pf_fragment|pagefind)`/g, ".$1.wasm`");
+          if (patched === js) throw new Error(`PREVIEW: no Pagefind paths to patch in ${f.name}`);
+          fs.writeFileSync(p, patched);
+        }
+      });
+      walkPf(pf);
+    }
     console.log(`[pagefind] indexed ${added.page_count} pages`);
   });
 
