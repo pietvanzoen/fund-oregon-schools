@@ -8,7 +8,7 @@ const MARK = `<svg class="mark" viewBox="0 0 40 40" aria-hidden="true"><rect wid
 // Card data for this page only; the script reads it as text, never as markup
 const LIVE = "https://oregonedtrail.org/";
 
-export function layout({ title, crumbs = [], back = null, description = "", hero = "", body, aside = "", meta = "", cards, wide = false }) {
+export function layout({ title, crumbs = [], back = null, description = "", hero = "", body, aside = "", meta = "", search = null, cards, wide = false }) {
   const trail = back
     ? `<p class="crumbs back"><a href="${back[1]}">‹ ${esc(back[0])}</a></p>`
     : crumbs.length ? `<nav class="crumbs" aria-label="Breadcrumb"><ol>${crumbs.map(([t, u]) => `<li><a href="${u}">${esc(t)}</a></li>`).join("")}</ol></nav>` : "";
@@ -32,18 +32,27 @@ ${SPRITE}
     <a class="brand" href="/">${MARK}<span><span class="brand-name">Oregon Ed Trail</span><span class="brand-tag">Following the money behind Oregon's schools</span></span></a>
     <button type="button" id="menu-button" class="menu-button" aria-expanded="false" aria-controls="menu">${icon("chevron")}Menu</button>
     <nav id="menu" class="topnav" aria-label="Main"><ul><li><a href="/topics/">Topics</a></li><li><a href="/who-decides/">Who decides</a></li><li><a href="${LIVE}decisions/">What's being decided</a></li><li class="menu-about"><a href="${LIVE}about/">About this site</a></li></ul></nav>
+    <span class="mast-divider" aria-hidden="true"></span>
+    <a href="/search/" id="search-toggle" class="search-toggle" aria-label="Search">${icon("search")}</a>
   </div>
 </header>
+<div id="search-panel" class="search-panel" hidden>
+  <form class="wrap" role="search" action="/search/" method="get">
+    <label for="q-top" class="search-label">Search Oregon Ed Trail</label>
+    <div class="search"><input id="q-top" name="q" type="search" autocomplete="off" aria-describedby="q-top-hint"><button type="submit" class="search-go">${icon("search")}<span class="vh">Search</span></button></div>
+    <p id="q-top-hint" class="search-hint">Topics, people and terms, for example "PERS" or "Lieber"</p>
+  </form>
+</div>
 ${hero}
 <div class="wrap">
 <p class="phase"><strong class="tag">Test build</strong> A preview of a new design. The facts come from the same archive as <a href="https://oregonedtrail.org/">oregonedtrail.org</a>.</p>
 ${trail}
-<main id="content" class="${aside ? "grid" : wide ? "" : "narrow"}">
+<main id="content" class="${aside ? "grid" : wide ? "" : "narrow"}"${search?.kind ? ` data-pagefind-body data-pagefind-filter="kind:${search.kind}" data-pagefind-meta="line[data-line]" data-line="${esc(search.line)}"` : ""}>
   ${hero ? "" : `<h1>${esc(title)}</h1>`}
   <article>
     ${body}
   </article>
-  ${aside ? `<div class="side">${aside}</div>` : ""}
+  ${aside ? `<div class="side" data-pagefind-ignore>${aside}</div>` : ""}
 </main>
 ${meta ? `<section class="page-meta" aria-labelledby="about-page"><h2 id="about-page">About this page</h2>${meta}</section>` : ""}
 </div>
@@ -64,7 +73,8 @@ ${meta ? `<section class="page-meta" aria-labelledby="about-page"><h2 id="about-
 </div>
 <script type="application/json" id="cards">${JSON.stringify(cards).replace(/</g, "\\u003c")}</script>
 <script src="/assets/card.js"></script>
-<script src="/assets/menu.js"></script>
+<script src="/assets/masthead.js"></script>
+${search === "page" ? '<script src="/assets/search.js"></script>' : ""}
 </body>
 </html>`;
 }

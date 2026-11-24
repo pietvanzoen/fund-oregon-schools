@@ -15,6 +15,8 @@ What it tries:
 - Design direction C, "Kitchen table" (`design/README.md`, #155): topic pages as cards (In short from the topic
   file's front-matter `summary`, read with the pinned `@11ty/gray-matter`), source pills with line icons, a factual
   person card from `people.csv`, and the preview card as a bottom sheet on touch.
+- Search (#159): Pagefind (pinned) indexes topic, person and glossary pages after each build, with a `kind` filter;
+  the results page is the site's own markup on Pagefind's JS API. Glossary pages, one per row of `glossary.csv`.
 - The home page built from `analysis/START.md` (with `timeline.md`, `updates.csv` and the funding chart's data), a
   Topics page, a phone Menu button and the footer links.
 

@@ -40,7 +40,8 @@ const positionRows = csv("analysis/positions.csv");
 const replaced = new Set(positionRows.map((r) => Number(r.replaces)).filter(Boolean));
 const positions = positionRows.filter((_, i) => !replaced.has(i + 2));
 const options = csv("analysis/options.csv");
-const glossary = csv("analysis/glossary.csv").filter((r) => r.kind === "acronym" && r.tooltip);
+const glossaryAll = csv("analysis/glossary.csv");
+const glossary = glossaryAll.filter((r) => r.kind === "acronym" && r.tooltip);
 
 // ------------------------------------------------------------- entities (everything that gets a card)
 
@@ -115,7 +116,7 @@ const LINKS = {
   "START.md": ["start here", "/"], "promises.csv": ["promises tracker", LIVE + "promises/"],
   "people/quotes_all.jsonl": ["what they've said", LIVE + "quotes/"], "questions.csv": ["questions", LIVE + "questions/"],
   "people/people.csv": ["who decides", "/who-decides/"], "updates.csv": ["what's new", LIVE + "updates/"],
-  "about.md": ["about this site", LIVE + "about/"],
+  "about.md": ["about this site", LIVE + "about/"], "glossary.csv": ["glossary", "/glossary/"],
 };
 
 class Page {
@@ -249,6 +250,7 @@ for (const f of topicFiles) {
   const p = new Page(`topic:${f.slice(0, -3)}`, e.url, e.title);
   p.body = p.render(numberTiles(e.text), `topics/${f}`);
   p.summary = e.summary;
+  p.line = e.summary;
   p.sourceFile = `analysis/topics/${f}`;
   pages.push(p);
 }
@@ -278,6 +280,7 @@ for (const person of people) {
     + (r.role_2027 ? `<p><span class="year">2027</span><span class="vh">: </span> ${esc(r.role_2027)}</p>` : "")
     + `<p class="pc-more">${[r.role_2025_26 && `2025-26: ${esc(r.role_2025_26)}`, r.official_page && `<a href="${esc(r.official_page)}">Official page</a>`].filter(Boolean).join(" · ")}</p>`
     + `<p class="pc-src">Sources: ${cites}</p></section>`;
+  p.line = [office, r.area].filter(Boolean).join(" · ");
   p.sourceFile = has ? file : "analysis/people/people.csv";
   p.stub = !has;
   pages.push(p);
@@ -293,6 +296,26 @@ people with a role in a decision this archive tracks.`, "who-decides.md") + tabl
 people.forEach((r) => { who.refs.add(`person:${r.id}`); who.card(`person:${r.id}`, entities[`person:${r.id}`]); });
 who.sourceFile = "analysis/people/people.csv";
 pages.push(who);
+
+// Glossary: one page per row of glossary.csv (search returns terms), and a list of them all
+const termSlug = (t) => t.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const termTitle = (g) => (g.kind === "acronym" && g.full_name ? `${g.term}: ${g.full_name}` : g.term);
+const slugs = new Set();
+for (const g of glossaryAll) {
+  const slug = termSlug(g.term);
+  if (slugs.has(slug)) throw new Error(`glossary.csv: two terms make the page /glossary/${slug}/`);
+  slugs.add(slug);
+  const p = new Page(`glossary:${slug}`, `/glossary/${slug}/`, termTitle(g));
+  p.body = p.render(`# ${termTitle(g)}\n\n${g.definition} ${g.source}`, "glossary.csv");
+  p.line = g.tooltip || clip(plain(g.definition), 160);
+  p.sourceFile = "analysis/glossary.csv";
+  pages.push(p);
+}
+const glossaryPage = new Page("glossary", "/glossary/", "Glossary");
+glossaryPage.body = `<ul class="box glossary-list">${[...glossaryAll].sort((a, b) => a.term.localeCompare(b.term, "en", { sensitivity: "base" }))
+  .map((g) => `<li><a href="/glossary/${termSlug(g.term)}/">${esc(termTitle(g))}</a>${g.tooltip ? `<p>${esc(g.tooltip)}</p>` : ""}</li>`).join("")}</ul>`;
+glossaryPage.sourceFile = "analysis/glossary.csv";
+pages.push(glossaryPage);
 
 // Topics: the list the old placeholder home page held, now its own page
 const topicsPage = new Page("topics", "/topics/", "Topics");
@@ -343,7 +366,8 @@ for (const p of pages) {
       .map((b) => `<li><a href="${b.url}" data-card="${b.id}">${esc(b.title)}</a></li>`).join("")}</ul></section>`;
   for (const b of p.backlinks) p.card(b.id, entities[b.id] || { kind: "Page", icon: "topic", title: b.title, url: b.url, lines: [] });
   p.meta = `${p.note || ""}<p>Source on GitHub: <a href="${BLOB}${p.sourceFile}"><code>${p.sourceFile}</code></a> · <a href="${REPO}/commits/main/${p.sourceFile}">history</a></p>`;
-  p.back = p.id.startsWith("person:") ? ["Who decides", "/who-decides/"] : null;
+  p.back = p.id.startsWith("person:") ? ["Who decides", "/who-decides/"] : p.id.startsWith("glossary:") ? ["Glossary", "/glossary/"] : null;
+  p.kind = { topic: "Topic", person: "Person", glossary: p.id.includes(":") ? "Term" : "" }[p.id.split(":")[0]] || "";
 }
 
 // ------------------------------------------------------------- home page, from analysis/START.md
@@ -374,10 +398,9 @@ function buildHome() {
   const runBy = intro.findIndex((t) => t.startsWith("Run by "));
   const hero = `<section class="hero"><div class="wrap"><h1>${esc(p.title)}</h1>`
     + intro.map((t, i) => `<p class="${i === runBy ? "run-by" : "lead"}">${inline(t)}</p>`).join("")
-    + `<form class="search" role="search" action="${LIVE}" method="get"><label class="vh" for="q">Search topics, people and terms</label>`
+    + `<form class="search" role="search" action="/search/" method="get"><label class="vh" for="q">Search topics, people and terms</label>`
     + `<input id="q" name="q" type="search" placeholder="Search topics, people and terms" autocomplete="off">`
-    + `<button type="submit" class="search-go">${icon("search")}<span class="vh">Search</span></button></form>`
-    + `<p class="search-note">Searches the current site, oregonedtrail.org, until this one has its own search.</p></div></section>`;
+    + `<button type="submit" class="search-go">${icon("search")}<span class="vh">Search</span></button></form></div></section>`;
 
   // Coming up: the next dated row of timeline.md, as on the live site
   const today = new Date().toISOString().slice(0, 10);
@@ -475,6 +498,7 @@ const nav = {
 
 export default {
   pages: pages.map((p) => ({ url: p.url, title: p.title, html: p.html, aside: p.aside, meta: p.meta, back: p.back, description: p.summary || "", stub: !!p.stub,
+    search: p.kind ? { kind: p.kind, line: p.line || "" } : null,
     cards: Object.fromEntries(Object.entries(p.cards).map(([k, c]) => [k, { kind: c.kind, icon: c.icon, title: c.title, url: c.url, external: !!c.external, lines: c.lines.filter(Boolean), also: c.also }])) })),
   nav: { topics: nav.topics.map(({ text, ...t }) => t), people: nav.people },
   home: { title: home.title, hero: home.hero, html: home.html, meta: home.meta,
