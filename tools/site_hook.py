@@ -8,7 +8,8 @@ same files Claude and the citation checker use. Citation tags become small links
   [VID:...]     -> "🎥 H:MM:SS"
   [DER:...]     -> "🧮 our sum" / "🧮 our estimate"  our own calculation (analysis/derived/<topic>.csv on GitHub)
 "Analysis:" passages are boxed or tagged so readers can tell interpretation from documented fact.
-Every analysis/topics/<name>.md is published as <name>.md and listed under Topics, titled by its H1.
+Every analysis/topics/<name>.md is published as <name>.md and listed under Topics, titled by its H1 (the first line
+after its front matter); its front-matter `summary` is shown as "In short" under the H1 and is the meta description.
 
 Preview locally:  pip install "mkdocs>=1.6,<2" "mkdocs-material>=9.7,<10" && mkdocs serve
 """
@@ -29,6 +30,7 @@ from common import (  # noqa: E402
     ANALYSIS, DERIVED, MANIFEST, NEWS_INDEX, QUOTES, ROOT, TAG_RE, manifest_by_path, parse_src, read_jsonl,
     read_queue,
 )
+from common import front_matter as split_front_matter  # noqa: E402
 from linkify import link_for, urls  # noqa: E402
 
 GITHUB = "https://github.com/pietvanzoen/fund-oregon-schools"
@@ -47,15 +49,18 @@ with open(os.path.join(ANALYSIS, "people", "people.csv"), newline="", encoding="
 for _slug in PEOPLE:
     MD_PAGES[f"people/{_slug}.md"] = f"people/{_slug}.md"
 
-# Topic page -> its H1, for the nav and link text
-TOPICS = {}
+# Topic page -> its H1, for the nav and link text; -> its summary, for "In short" and the meta description
+TOPICS, SUMMARIES = {}, {}
 for _f in sorted(os.listdir(os.path.join(ANALYSIS, "topics"))):
     if _f.endswith(".md"):
         assert _f not in {*MD_PAGES, "numbers.md", "quotes.md", "promises.md", "who-decides.md", "sources.md",
                           "about.md", "questions.md"}, f"topics/{_f} would replace the {_f} page; rename it"
         MD_PAGES[_f] = f"topics/{_f}"
-        _h1 = open(os.path.join(ANALYSIS, "topics", _f), encoding="utf-8").readline()
+        _meta, _body = split_front_matter(open(os.path.join(ANALYSIS, "topics", _f), encoding="utf-8").read())
+        _h1 = _body.split("\n", 1)[0]
         TOPICS[_f] = _h1[2:].strip() if _h1.startswith("# ") else _f[:-3]
+        if _meta.get("summary"):
+            SUMMARIES[_f] = _meta["summary"]
 
 # Backticked file names in analysis/ -> site page, so "see `people/kotek.md`" becomes a link
 FILE_TO_PAGE = {v: k for k, v in MD_PAGES.items()}
@@ -255,7 +260,10 @@ def footer(sources, ctx_date_paths):
 
 
 def from_analysis(page, src, ctx):
-    md = open(os.path.join(ANALYSIS, src), encoding="utf-8").read()
+    md = split_front_matter(open(os.path.join(ANALYSIS, src), encoding="utf-8").read())[1]
+    if page in SUMMARIES:
+        h1, _, rest = md.partition("\n")
+        md = f"{h1}\n\n**In short:** {SUMMARIES[page]}\n{rest}"
     if page == "decisions.md":
         md = decision_tables(md)
     if page == "timeline.md":
@@ -682,7 +690,8 @@ def abbr_defs():
 
 
 # Per-page <title> and meta description (SEO); written as front matter on each generated page.
-# The home page's <title> is the site name, so it only needs a description.
+# The home page's <title> is the site name, so it only needs a description. Topic pages aren't listed: their <title>
+# is the H1 and their description the topic file's own summary (adr/20261124-0555-topic-summaries-in-front-matter.md).
 PAGE_META = {
     "index.md": (None, "Primary documents and cited analysis on Oregon K-12 funding: how much the state spends, "
                  "how it's shared through the formula, and what it buys, focused on the 2027-29 budget."),
@@ -703,8 +712,6 @@ PAGE_META = {
                      "budget, what this archive can answer so far, and what's still open."),
     "who-decides.md": ("Who decides Oregon's K-12 budget", "Gov. Kotek and the Oregon legislators who write the "
                        "school budget: Ways and Means co-chairs and the Education Subcommittee, with their roles."),
-    "reserves.md": ("Oregon Education Stability Fund", "Oregon's Education Stability Fund: projected balance, the "
-                    "rules for withdrawing from it, and proposals to use it for K-12 schools in 2027-29."),
     "glossary.md": ("Glossary of Oregon school funding terms", "Plain-language definitions of the abbreviations "
                     "and budget terms used on this site: SSF, CSL, QEM, JPEA, ESF, biennium, kicker and more, each cited."),
     "sources.md": ("Primary sources", "Every document in the Oregon K-12 funding archive: budgets, legislative "
@@ -723,7 +730,7 @@ PAGE_META = {
 
 
 def front_matter(page):
-    title, desc = PAGE_META.get(page, (None, None))
+    title, desc = PAGE_META.get(page, (None, SUMMARIES.get(page)))
     lines = [f"title: {json.dumps(title)}"] if title else []
     lines += [f"description: {json.dumps(desc)}"] if desc else []
     return "---\n" + "\n".join(lines) + "\n---\n\n" if lines else ""

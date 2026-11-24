@@ -34,7 +34,8 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
    `tools/fetch_sources.py` (or by hand with an entry in `sources/_manifest.jsonl`: URL, fetch time, sha256).
    **Always keep originals.** Agencies revise and remove documents. A changed file is moved to `_prior/` and
    logged in `sources/_versions_log.csv`, never overwritten.
-2. `analysis/` is derived. Every factual claim carries a citation:
+2. `analysis/` is derived. Every factual claim carries a citation, with one exception: a topic file's front-matter
+   `summary` (rule 4) has no citations, and every sentence in it restates a cited line further down the same page:
    - Archived file: `[SRC:<path under sources/> p.<page>]` (page = PDF page; `.pdf.txt` separates pages with \f).
      Omit `p.` for HTML pages, and for a claim about a whole PDF ("mentions no charter bill"). Path conventions:
      - `gov/` Governor's office: recommended budgets, press releases, executive orders, letters
@@ -73,7 +74,12 @@ has no license, so nothing here copies its code; the tools in `tools/` were writ
    what was said, never the transcript text unchecked. If you can't listen, don't quote; paraphrase as unverified.
    OCR text (below a `--- OCR of this page` line in `<file>.pdf.ocr.txt`) misreads too: check the PDF page.
 4. Keep separate what sources state (documents and what people said), what we calculated, and our own inference.
-   - Topic files (`analysis/topics/*.md`) have three sections, in this order: `## Analysis` (our interpretation;
+   - Topic files (`analysis/topics/*.md`) start with front matter holding only a `summary`, shown on the site as
+     "In short" and used as the page's meta description: two or three plain sentences (`STYLE.md`, "In short"),
+     written as `summary: >` with indented lines. Only `key: value` and folded `>` are read (no YAML library), and
+     no other file in `analysis/` has front matter; people keep factual cards from `people.csv`. Why:
+     `adr/20261124-0555-topic-summaries-in-front-matter.md`. The title is the H1 right after it.
+   - Topic files have three sections, in this order: `## Analysis` (our interpretation;
      no "Analysis:" label needed; first, so the page leads with it, and it reads on its own: point to the evidence as
      "below"), `## What the sources say` (only statements a cited source makes; every line cited; no inference) and
      `## Derived figures` (a table of our sums, shares and estimates, each with its `[DER:...]` tag). Why:
@@ -160,7 +166,7 @@ Least new code that fully does the job; adapted from the ponytail rules
 - `analysis/promises.csv` — pledge tracker (who, what, when, status, rating on outcomes, source)
 - `analysis/data/*.csv` — SSF history, QEM gap, forecasts, reserves: values copied from sources only
 - `analysis/derived/<topic>.csv` — every value we calculated, written by `tools/derive_<topic>.py` (never by hand)
-- `analysis/topics/<topic>.md` — topic files in the three sections; each is published on the website automatically
+- `analysis/topics/<topic>.md` — topic files: a `summary` in front matter, then the three sections; each is published on the website automatically
 - `analysis/glossary.csv` — abbreviations and terms: full name, hover tooltip, cited definition
 - `analysis/START.md` (home page), `analysis/timeline.md`
 - `analysis/updates.csv` — What's new for readers (`date, text, page, pr`; the site shows it newest first, the
