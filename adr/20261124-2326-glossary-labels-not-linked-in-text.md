@@ -1,6 +1,6 @@
 # Words the site gives its own meaning are glossary labels, not linked in running text
 
-Status: accepted (2026-11-24, PR #TBD)
+Status: accepted (2026-11-24, PR #180)
 
 ## Context
 Since #173, the first use of every `glossary.csv` row on a page links to its term page. Three rows are ordinary words
