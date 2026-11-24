@@ -1,6 +1,6 @@
 # Leads are triaged in a session, and their sources merge on their own PR once vetted
 
-Status: accepted (2026-11-24, PR #179)
+Status: accepted (2026-11-24, PR #181)
 
 ## Context
 Leads (a forwarded email, a link, an agenda) mix documents that exist, documents not out yet and questions.
