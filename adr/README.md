@@ -54,3 +54,4 @@ The concrete signal that should reopen this.
 | [2026-11-24](20261124-0038-licenses.md) | Analysis is CC BY 4.0, code is MIT, archived sources are excluded |
 | [2026-11-24](20261124-0049-site-name-oregon-ed-trail.md) | The site is called Oregon Ed Trail, at oregonedtrail.org |
 | [2026-11-24](20261124-0555-topic-summaries-in-front-matter.md) | A topic's plain-language summary lives in its own file's front matter |
+| [2026-11-24](20261124-0837-site-built-with-eleventy.md) | The site is built with Eleventy, not MkDocs and Material |
