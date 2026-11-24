@@ -1,0 +1,578 @@
+Representative Tawna Sanchez
+
+Home Page
+
+Sign In
+
+Skip to main content
+
+Oregon State Legislature
+
+Home Page
+
+Navigation
+
+Search
+
+Senate
+
+Senate Information
+
+All Senators
+
+Senators by District
+
+Senators - Democrats
+
+Senators - Republicans
+
+Find Your Senator
+
+Find Your Senator and District
+
+Senate Leadership
+
+President Rob Wagner
+
+President Pro Tempore James I. Manning Jr.
+
+Democratic Leader Anthony Broadman
+
+Republican Leader Bruce Starr
+
+More
+
+Senate Offices
+
+Senate President
+
+Democratic Caucus
+
+Republican Caucus
+
+Secretary of the Senate
+
+More
+
+House
+
+House Information
+
+All Representatives
+
+Representatives by District
+
+Representatives - Democrats
+
+Representatives - Republicans
+
+Find Your Representative
+
+Find Your Representative and District
+
+House Leadership
+
+Speaker Julie Fahey
+
+Speaker Pro Tempore David Gomberg
+
+Democratic Leader Ben Bowman
+
+Republican Leader Lucetta Elmer
+
+More
+
+House Offices
+
+House Speaker
+
+Democratic Caucus
+
+Republican Caucus
+
+Chief Clerk of the House
+
+More
+
+Bills and Laws
+
+Bills
+
+Find Bills or Votes
+
+2026 Regular Session
+
+2025 Regular Session
+
+2025 Special Session
+
+Previous Sessions
+
+Governor Signed Bills
+
+Open Data
+
+Session Information
+
+Current Session Details
+
+Previous Session Details
+
+Session Publications
+
+Oregon Laws
+
+1999-2026 Sessions
+
+Oregon Revised Statutes
+
+2025 Oregon Revised Statutes
+
+ORS Annotations
+
+ORS Archives
+
+Oregon Rules of Civil Procedure
+
+Oregon Admin. Rules (OARs)
+
+Oregon Constitution
+
+Purchase Publications
+
+Committees
+
+Committee Meetings
+
+Today's Meetings
+
+Agendas Online
+
+Committee Participation
+
+How to Testify
+
+How to Submit Testimony
+
+How to Register or Submit Testimony
+
+e-Subscribe to Agendas
+
+Committee Assignments
+
+Senate Committees
+
+House Committees
+
+Joint Committees
+
+Listed by Senator
+
+Listed by Representative
+
+Listed by Committee
+
+Publications and Reports
+
+Background Briefs
+
+Required by Statute
+
+Summary of Legislation
+
+More
+
+Get Involved
+
+Engage
+
+Visitor Information
+
+How to Testify
+
+How to Register or Submit Testimony
+
+Find Bills or Votes
+
+e-Subscribe to Alerts
+
+Floor Plans
+
+Language Access Services
+
+Find Your Legislators
+
+Find Your Legislators and District
+
+Learn
+
+How Ideas Become Law
+
+The Legislative Body
+
+Legislative Process
+
+Legislative Glossary
+
+Types of Measures
+
+Legislators through Time
+
+More
+
+Audio and Video
+
+Legislative Meetings
+
+News Conferences
+
+Informational Videos
+
+Publications and Reports
+
+Press Releases
+
+Redistricting Information
+
+More
+
+Capitol Offices
+
+Legislative Agencies
+
+Legislative Administration
+
+Legislative Comm. on Indian Srvs.
+
+Legislative Counsel
+
+Legislative Equity
+
+Legislative Fiscal
+
+Legislative Policy and Research
+
+Legislative Revenue
+
+Organizations
+
+Capitol Access., Maint. & Safety (CAMS)
+
+Capitol Master Plan
+
+Visitor Information
+
+Find Your Legislators
+
+Find Your Legislators and District
+
+Executive Branch
+
+Governor's Office
+
+Secretary of State
+
+State Treasurer
+
+List of State Agencies
+
+Home PageCurrently selected
+
+Biography
+
+News and Information
+
+District Map
+
+Media
+
+Bills
+
+Committees
+
+Content
+
+Edit
+
+Representative Tawna D. Sanchez
+
+Democrat - District 43 - North and Northeast Portland
+
+Capitol Phone: 503-986-1443
+
+Capitol Address: 900 Court St. NE, H-273, Salem, Oregon 97301
+
+Email: Rep.TawnaSanchez@oregonlegislature.gov
+
+Website: https://www.oregonlegislature.gov/sanchez​
+
+Follow
+
+javascript: SP.SOD.executeFunc('followingcommon.js', 'FollowDoc', function() { FollowDoc('{ListId}', {ItemId}); });
+
+0x0
+
+0x0
+
+ContentType
+
+0x01
+
+1100
+
+Compliance Details
+
+javascript:if (typeof CalloutManager !== 'undefined' && Boolean(CalloutManager) && Boolean(CalloutManager.closeAll)) CalloutManager.closeAll(); commonShowModalDialog('{SiteUrl}'+
+'/_layouts/15/itemexpiration.aspx'
++'?ID={ItemId}&List={ListId}', 'center:1;dialogHeight:500px;dialogWidth:500px;resizable:yes;status:no;location:no;menubar:no;help:no', function GotoPageAfterClose(pageid){if(pageid == 'hold') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/hold.aspx'
++'?ID={ItemId}&List={ListId}'); return false;} if(pageid == 'audit') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/Reporting.aspx'
++'?Category=Auditing&backtype=item&ID={ItemId}&List={ListId}'); return false;} if(pageid == 'config') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/expirationconfig.aspx'
++'?ID={ItemId}&List={ListId}'); return false;} if(pageid == 'tag') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/Hold.aspx'
++'?Tag=true&ID={ItemId}&List={ListId}'); return false;}}, null);
+
+0x0
+
+0x1
+
+ContentType
+
+0x01
+
+898
+
+Document Set Version History
+
+/_layouts/15/images/versions.gif?rev=44
+
+javascript:SP.UI.ModalDialog.ShowPopupDialog('{SiteUrl}'+
+'/_layouts/15/DocSetVersions.aspx'
++ '?List={ListId}&ID={ItemId}')
+
+0x0
+
+0x0
+
+ContentType
+
+0x0120D520
+
+330
+
+Send To other location
+
+/_layouts/15/images/sendOtherLoc.gif?rev=44
+
+javascript:GoToPage('{SiteUrl}' +
+'/_layouts/15/docsetsend.aspx'
++ '?List={ListId}&ID={ItemId}')
+
+0x0
+
+0x0
+
+ContentType
+
+0x0120D520
+
+350
+
+Greeting
+
+Edit
+
+Greetings,
+
+I am honored to serve you in the Oregon Legislature, where I proudly represent North and Northeast Portland. I currently serve as Co-Chair of the Joint Committee on Ways and Means and Co-Chair of the Joint Committee on Audits. I also serve on the Joint Committee on Addiction and Community Safety Response.​
+
+I have been advocating for social justice my entire life and am proud to bring that experience and dedication to the Oregon Legislature. From serving as a foster parent to co-founding the Native American Youth and Family Center, I have seen firsthand the numerous obstacles faced by children and families in our community. I am committed to removing these obstacles by improving our behavioral health system, investing in affordable housing, and strengthening early education. Fighting for the underserved in our district and our state remains my top priority.
+
+Please sign up for updates on our progress by entering your email address in the upper right-hand corner of this page.
+
+You are welcome and encouraged to reach out to my office at any time. My staff and I greatly value your participation in the legislative process and are always happy to assist you.
+
+You can call me at (503) 986-1443 or reach me by email at Rep.TawnaSanchez@oregonlegislature.gov.
+
+Aishen (Thank You), ​​
+
+Representative Tawna Sanchez
+State Representative
+North and Northeast Portland ​
+
+Follow
+
+javascript: SP.SOD.executeFunc('followingcommon.js', 'FollowDoc', function() { FollowDoc('{ListId}', {ItemId}); });
+
+0x0
+
+0x0
+
+ContentType
+
+0x01
+
+1100
+
+Compliance Details
+
+javascript:if (typeof CalloutManager !== 'undefined' && Boolean(CalloutManager) && Boolean(CalloutManager.closeAll)) CalloutManager.closeAll(); commonShowModalDialog('{SiteUrl}'+
+'/_layouts/15/itemexpiration.aspx'
++'?ID={ItemId}&List={ListId}', 'center:1;dialogHeight:500px;dialogWidth:500px;resizable:yes;status:no;location:no;menubar:no;help:no', function GotoPageAfterClose(pageid){if(pageid == 'hold') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/hold.aspx'
++'?ID={ItemId}&List={ListId}'); return false;} if(pageid == 'audit') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/Reporting.aspx'
++'?Category=Auditing&backtype=item&ID={ItemId}&List={ListId}'); return false;} if(pageid == 'config') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/expirationconfig.aspx'
++'?ID={ItemId}&List={ListId}'); return false;} if(pageid == 'tag') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/Hold.aspx'
++'?Tag=true&ID={ItemId}&List={ListId}'); return false;}}, null);
+
+0x0
+
+0x1
+
+ContentType
+
+0x01
+
+898
+
+Document Set Version History
+
+/_layouts/15/images/versions.gif?rev=44
+
+javascript:SP.UI.ModalDialog.ShowPopupDialog('{SiteUrl}'+
+'/_layouts/15/DocSetVersions.aspx'
++ '?List={ListId}&ID={ItemId}')
+
+0x0
+
+0x0
+
+ContentType
+
+0x0120D520
+
+330
+
+Send To other location
+
+/_layouts/15/images/sendOtherLoc.gif?rev=44
+
+javascript:GoToPage('{SiteUrl}' +
+'/_layouts/15/docsetsend.aspx'
++ '?List={ListId}&ID={ItemId}')
+
+0x0
+
+0x0
+
+ContentType
+
+0x0120D520
+
+350
+
+<div class="UserGeneric">The current browser does not support Web pages that contain the IFRAME element. To use this Web Part, you must use a browser that supports this element, such as Internet Explorer 7.0 or later.</div>
+
+Social
+
+Edit
+
+Follow us on Facebook
+
+Follow us on Instagram
+
+Follow
+
+javascript: SP.SOD.executeFunc('followingcommon.js', 'FollowDoc', function() { FollowDoc('{ListId}', {ItemId}); });
+
+0x0
+
+0x0
+
+ContentType
+
+0x01
+
+1100
+
+Compliance Details
+
+javascript:if (typeof CalloutManager !== 'undefined' && Boolean(CalloutManager) && Boolean(CalloutManager.closeAll)) CalloutManager.closeAll(); commonShowModalDialog('{SiteUrl}'+
+'/_layouts/15/itemexpiration.aspx'
++'?ID={ItemId}&List={ListId}', 'center:1;dialogHeight:500px;dialogWidth:500px;resizable:yes;status:no;location:no;menubar:no;help:no', function GotoPageAfterClose(pageid){if(pageid == 'hold') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/hold.aspx'
++'?ID={ItemId}&List={ListId}'); return false;} if(pageid == 'audit') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/Reporting.aspx'
++'?Category=Auditing&backtype=item&ID={ItemId}&List={ListId}'); return false;} if(pageid == 'config') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/expirationconfig.aspx'
++'?ID={ItemId}&List={ListId}'); return false;} if(pageid == 'tag') {STSNavigate(unescape(decodeURI('{SiteUrl}'))+
+'/_layouts/15/Hold.aspx'
++'?Tag=true&ID={ItemId}&List={ListId}'); return false;}}, null);
+
+0x0
+
+0x1
+
+ContentType
+
+0x01
+
+898
+
+Document Set Version History
+
+/_layouts/15/images/versions.gif?rev=44
+
+javascript:SP.UI.ModalDialog.ShowPopupDialog('{SiteUrl}'+
+'/_layouts/15/DocSetVersions.aspx'
++ '?List={ListId}&ID={ItemId}')
+
+0x0
+
+0x0
+
+ContentType
+
+0x0120D520
+
+330
+
+Send To other location
+
+/_layouts/15/images/sendOtherLoc.gif?rev=44
+
+javascript:GoToPage('{SiteUrl}' +
+'/_layouts/15/docsetsend.aspx'
++ '?List={ListId}&ID={ItemId}')
+
+0x0
+
+0x0
+
+ContentType
+
+0x0120D520
+
+350
+
+x
+
+Oregon State Legislature
+
+You are now leaving the Oregon State Legislative Website.
+
+The Oregon State Legislature is not responsible for content, nor necessarily supports the site you are about to access.
+
+Thank you for visiting
+
+OregonLegislature.gov
+
+Cancel
+Continue
+
+<%@ Register Tagprefix="SharePoint" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
