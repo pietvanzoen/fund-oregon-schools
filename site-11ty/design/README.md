@@ -58,4 +58,19 @@ its data row.
 
 Inline analysis in a list of facts: a yellow highlight starting with **We think:**.
 
+Menu and footer (`chrome/`): on phones the three nav links go behind a **Menu** button in the masthead (white tab
+with an up chevron when open, `aria-expanded`, `aria-controls`), opening a white list under the masthead: Topics,
+Who decides, What's being decided, a divider, then **About this site**. Desktop keeps the three links inline, with no
+About link. Without JavaScript the list stays open. The footer has a row of links (About this site, What's new,
+Contact: hello@oregonedtrail.org with the address shown as text, Research archive on GitHub), the one-line explainer
+with pills, and "Run by Oregon public school parents. Analysis licensed CC BY 4.0."
+
+Home page (`home/`), built from `analysis/START.md`: a white top band (title, description, "Run by Oregon public school
+parents. About this site", a large search box); a **Coming up** banner for the next dated row of `timeline.md`;
+**Start here** as four cards from START.md's entry points, with line icons; **Key numbers for 2027-29** as tiles
+("$12.56 billion", unit smaller) with a source pill each, the "Analysis:" line as the yellow box, the funding chart and
+the other bullets as a list; **What's new** (latest three from `updates.csv`) beside **Read first** (first four, the
+rest behind "All eight"); **Look things up** cards for the Reference list. Text the layout needs goes in START.md,
+cited, never in the template.
+
 Every sentence must still read without the cards, pills and colours (STYLE.md). AA contrast for all text.

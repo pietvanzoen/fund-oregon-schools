@@ -5,6 +5,8 @@
 A research archive on Oregon K-12 funding, focused on the 2027-29 budget. It collects the primary documents and
 cites every claim, so parents, reporters and anyone else can check facts and build their own materials.
 
+Run by Oregon public school parents. [About this site](about.md)
+
 - 🗳️ **What's being decided:** the Governor's budget, the State School Fund amount, reserves and the cost model, with the options on the table → `decisions.md`
 - 💰 **How much:** the State School Fund against the state's own estimates of need → `topics/quality-education-model.md`
 - ⚖️ **How it's shared:** the funding formula, its weights and caps → `topics/formula.md`
@@ -13,14 +15,16 @@ cites every claim, so parents, reporters and anyone else can check facts and bui
 ## Key numbers for 2027-29
 
 - The Governor's recommended budget is due Dec. 1, 2026 [SRC:legislature/ors/ors291.html].
-- The State School Fund is the primary source of state funding for K-12 public education
-  [SRC:gov/press/2024_ssf-csl-proposal.html]. The Legislature adopted $11.36 billion for it for 2025-27
-  [SRC:fiscal/lfo/2025-07_lab-summary-2025-27.pdf p.1].
-- The State School Fund's current service level for 2027-29 is $12.56 billion, a Department of Administrative Services estimate
-  [SRC:ode/qec/2026_qem_report.pdf p.103]. The current service level is the amount needed in the next two-year
+- **State School Fund, adopted for 2025-27:** $11.36 billion [SRC:fiscal/lfo/2025-07_lab-summary-2025-27.pdf p.1].
+  The State School Fund is the primary source of state funding for K-12 public education
+  [SRC:gov/press/2024_ssf-csl-proposal.html].
+- **State School Fund current service level, 2027-29:** $12.56 billion, a Department of Administrative Services
+  estimate [SRC:ode/qec/2026_qem_report.pdf p.103]. The current service level is the amount needed in the next two-year
   budget to continue existing authorized programs [SRC:gov/press/2024_ssf-csl-proposal.html].
-- The Quality Education Commission's 2026 report estimates core state funding, counting state money beyond the State
-  School Fund, of $13.78 billion to keep 2025-27 service levels and $16.21 billion to meet the state's education goals
+- **Quality Education Commission, to keep 2025-27 service levels:** $13.78 billion
+  [SRC:ode/qec/2026_qem_report.pdf p.117]. The commission's 2026 report counts core state funding, including state
+  money beyond the State School Fund [SRC:ode/qec/2026_qem_report.pdf p.117].
+- **Quality Education Commission, to meet the state's education goals:** $16.21 billion
   [SRC:ode/qec/2026_qem_report.pdf p.117].
 - The commission leaves what counts as adequate, and which funding counts toward it, to the Legislature
   [SRC:ode/qec/2026_qem_report.pdf p.117].
