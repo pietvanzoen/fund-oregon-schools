@@ -1,12 +1,12 @@
 ---
 summary: >
   The Education Stability Fund is one of the state's two general savings accounts, expected to hold about $1.3
-  billion at the end of the 2025-27 budget, by the December 2026 revenue forecast. Taking money out takes a
-  three-fifths vote in both the House and the Senate, plus either a trigger tied to the economy or an emergency
-  declared by the governor. Portland Public Schools asked for $500 million of it to lower districts' payments
-  into the state's public employee pension system, and a legislator has floated a targeted plan with no amount
-  or bill; Gov. Tina Kotek said tapping one-time reserves for the district's budget problems would go against
-  funding schools by enrollment.
+  billion at the end of the 2025-27 budget, according to the state's December 2026 revenue forecast; taking
+  money out takes a three-fifths vote in both the House and the Senate, plus a trigger tied to the economy or an
+  emergency declared by the governor. Portland Public Schools asked for $500 million of it to lower districts'
+  payments into the state's public employee pension system, and a legislator has floated one-time pension relief
+  for districts under financial strain, with no amount or bill yet. Gov. Tina Kotek said tapping one-time
+  reserves for the district's budget problems would go against funding schools by enrollment.
 ---
 # Reserves: Education Stability Fund
 

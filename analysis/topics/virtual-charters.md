@@ -3,9 +3,9 @@ summary: >
   State school money for students at online charter schools goes first to the district where the school is
   located; a district that sponsors one must pass on at least 80% of its per-student grant for kindergarten
   through eighth grade and 95% for high school, and keeps the rest. None of the education department's documents
-  in the archive gives a total; our estimate is about $257 million of state and local school money in 2025-26,
-  roughly 3% of the money shared among school districts. How much sponsors keep depends on contracts, and the
-  archive has the terms for only one online charter.
+  in the archive gives a total; our estimate is about $257 million of state and local school money in 2025-26, a
+  little over 3% of the money shared among school districts. How much sponsors keep depends on contracts, and
+  the archive has the terms for only one online charter.
 ---
 # Online charters: State School Fund money that follows students
 
@@ -53,7 +53,7 @@ or business office pages (see "Still to find").
   [DER:virtual_charters/gpg_attributable_share_2025_26]. The denominator is wider than the estimate: the district
   share also pays transportation, high-cost disability grants and the educator advancement fund, which the estimate
   leaves out, so on a like-for-like basis the share would be a little higher. The estimate mixes state and local
-  money and uses each sponsor's average grant rate (method below); no department document gives an official total.
+  money and multiplies each charter's weighted count by its sponsor's grant per weighted student (method below).
 - **The sponsors' share.** How much a sponsor keeps depends on each charter's contract. The archive has pass-through
   terms for only one virtual charter, Baker Web Academy, from the Baker School District 5J's 2025-26 service agreement
   rather than its charter contract (see "Baker School District 5J and Baker Web Academy" below). The transparency report has no grade split. A district sponsor keeps whatever it does not pass through. If every

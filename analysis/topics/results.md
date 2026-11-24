@@ -3,8 +3,8 @@ summary: >
   In April 2026 the State Board of Education set statewide targets for student results to reach by 2029-30.
   Oregon Department of Education Director Charlene Williams said meeting them doesn't require new money; a board
   member and a board adviser doubted that, and the board adopted the targets unanimously. A 2026 executive order
-  from Gov. Tina Kotek bars further cuts to time in class and has districts that cut it plan to restore 2024-25
-  levels by 2027-28; the archive has little yet on what the money buys.
+  from Gov. Tina Kotek bars further cuts to students' time at school, and districts that already cut it must
+  send the state a plan to restore 2024-25 levels by 2027-28.
 ---
 # Results and accountability: what the money buys
 

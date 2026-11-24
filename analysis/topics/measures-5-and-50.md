@@ -3,7 +3,7 @@ summary: >
   Measure 5 (1990) and Measure 50 (1997) capped property taxes for schools. Over the same years the state's
   share of school operating money rose from under a third in 1990-91 to about 70% by 1998-99, according to the
   Oregon Encyclopedia. A district can raise more for day-to-day operations only with a local levy, and how much
-  of that it keeps outside the state's sharing formula is capped too.
+  it can keep from a levy is capped too; the archive doesn't yet have today's state share or today's cap.
 ---
 # Measures 5 and 50: why school funding is a state decision
 
