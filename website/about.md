@@ -32,6 +32,9 @@ check facts and build their own materials.
 - **Our own work:** figures marked <span class="cite cite-der">🧮 our sum</span> or
   <span class="cite cite-der">🧮 our estimate</span>, and anything marked **Analysis**, are this archive's reading.
   Label them that way if you reuse them.
+- **Reusing our work:** the analysis and site text are under
+  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): copy or adapt them for any purpose, with credit to
+  Oregon K-12 Funding Research, fundoregonschools.org. Archived documents belong to their publishers.
 - **Check the date:** forecasts and budgets change (the Governor's budget is due Dec. 1, 2026). Each page shows when
   it was last updated.
 - **Ask in plain language:** paste this into a new Claude chat, and Claude will set itself up to answer your

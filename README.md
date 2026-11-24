@@ -25,6 +25,11 @@ material stays in that archive and is cited from here as `[PPSARCH:...]`.
   questions, evidence) is in [`RESEARCH.md`](RESEARCH.md).
 - Everything else supports the research: see "How the repo supports the research" at the end of `RESEARCH.md`.
 
+## License
+Our analysis and the website text are [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): reuse them for
+anything, with credit. The code is MIT ([`LICENSE`](LICENSE)). Files in `sources/` belong to their publishers and
+aren't covered by either. Details: [`LICENSE-content.md`](LICENSE-content.md).
+
 ## Quick use
 ```bash
 python3 tools/search.py "State School Fund"
