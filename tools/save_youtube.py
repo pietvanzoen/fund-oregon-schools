@@ -18,6 +18,7 @@ import os
 import subprocess
 import sys
 import tempfile
+import time
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import MANIFEST, SOURCES  # noqa: E402
@@ -25,6 +26,12 @@ from common import MANIFEST, SOURCES  # noqa: E402
 MODEL = "mlx-community/whisper-large-v3-turbo"
 LIMIT = 100 * 1024 * 1024  # GitHub rejects files over 100 MB
 LOOP = 5  # this many identical segments in a row is Whisper repeating itself, not the speaker
+START = time.monotonic()
+
+
+def log(msg):
+    e = int(time.monotonic() - START)
+    print(f"[{time.strftime('%H:%M:%S')} +{e // 60}:{e % 60:02}] {msg}", flush=True)
 
 
 def lines(segments):
@@ -51,15 +58,16 @@ def loops(segments):
 
 
 def download(url, rel, title, date, dest, tmp):
-    print(f"downloading {url}", flush=True)
+    log(f"downloading {url}")
     # --print makes yt-dlp quiet; --progress puts its progress bar back on stderr, which isn't captured
     final_url = subprocess.run(["yt-dlp", "--no-playlist", "-f", "bestaudio", "-o", f"{tmp}/orig.%(ext)s",
                                 "--no-simulate", "--progress", "--print", "webpage_url", url],
                                check=True, stdout=subprocess.PIPE, text=True).stdout.strip().splitlines()[-1]
     orig = next(os.path.join(tmp, f) for f in os.listdir(tmp) if f.startswith("orig."))
+    log(f"downloaded {os.path.getsize(orig) / 1e6:.0f} MB from {final_url}")
     # shortcut: 32 kbps mono fits about 7 hours under 100 MB; split the file if a recording runs longer
     os.makedirs(os.path.dirname(dest), exist_ok=True)
-    print("re-encoding to 32 kbps mono Opus", flush=True)
+    log("re-encoding to 32 kbps mono Opus")
     subprocess.run(["ffmpeg", "-loglevel", "error", "-stats", "-i", orig, "-vn", "-ac", "1", "-c:a", "libopus",
                     "-b:a", "32k", "-application", "voip", dest], check=True)
     size = os.path.getsize(dest)
@@ -74,13 +82,13 @@ def download(url, rel, title, date, dest, tmp):
                    "to fit GitHub's 100 MB limit."}
     with open(MANIFEST, "a", encoding="utf-8") as f:
         f.write(json.dumps(rec) + "\n")
-    print(f"saved {rel} ({size / 1e6:.0f} MB) and its manifest line")
+    log(f"saved {rel} ({size / 1e6:.0f} MB) and its manifest line")
 
 
 def transcribe(dest, tmp):
     # condition-on-previous-text off and the silence threshold stop the repeated-line loops Whisper falls into
     # on long meetings with quiet stretches (a 5-hour State Board meeting lost 146 minutes to them)
-    print(f"transcribing with {MODEL} (prints each segment as it goes)", flush=True)
+    log(f"transcribing with {MODEL} (prints each segment as it goes)")
     subprocess.run(["mlx_whisper", dest, "--model", MODEL, "--language", "en",
                     "--condition-on-previous-text", "False", "--word-timestamps", "True",
                     "--hallucination-silence-threshold", "2",
@@ -90,11 +98,13 @@ def transcribe(dest, tmp):
             "Listen to the recording to verify any quote before citing it.")
     with open(dest + ".txt", "w", encoding="utf-8") as f:
         f.write("\n".join([head] + lines(segments)) + "\n")
-    print(f"wrote {os.path.relpath(dest, SOURCES)}.txt ({len(segments)} segments)")
+    t = int(segments[-1]["end"]) if segments else 0
+    log(f"wrote {os.path.relpath(dest, SOURCES)}.txt: {len(segments)} segments, "
+        f"{t // 3600}:{t // 60 % 60:02}:{t % 60:02} of audio")
     found = loops(segments)
     for start, n, text in found:
         t = int(start)
-        print(f"  loop at {t // 3600}:{t // 60 % 60:02}:{t % 60:02}: {n}x {text[:60]!r}")
+        log(f"loop at {t // 3600}:{t // 60 % 60:02}:{t % 60:02}: {n}x {text[:60]!r}")
     if found:
         raise SystemExit(f"{len(found)} repeated-line loop(s): the transcript has gaps there")
 
@@ -107,10 +117,15 @@ def main():
         raise SystemExit("PATH must end in .webm (the audio is saved as Opus in WebM)")
     dest = os.path.join(SOURCES, rel)
     with tempfile.TemporaryDirectory() as tmp:
-        if not os.path.exists(dest):
+        if os.path.exists(dest):
+            log(f"{rel} already archived, not downloading")
+        else:
             download(url, rel, title, date, dest, tmp)
-        if not os.path.exists(dest + ".txt"):
+        if os.path.exists(dest + ".txt"):
+            log(f"{rel}.txt exists, not transcribing (delete it to redo)")
+        else:
             transcribe(dest, tmp)
+    log("done")
 
 
 if __name__ == "__main__":
