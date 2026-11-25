@@ -1,0 +1,1543 @@
+LEGISLATIVE REPORT
+
+Division 22 and 24 Standards
+Review and Recommendations
+for the Oregon Department
+of Education
+
+Northwest Comprehensive Center
+The Northwest Comprehensive Center is part of a national network of federally funded technical
+assistance centers that provides customized capacity-building services to local, regional, state, and
+Tribal education agencies and schools. The Northwest Comprehensive Center supports education
+agencies across Alaska, Idaho, Montana, Oregon, and Washington to select, implement, and sustain
+evidence-based programs, practices, and interventions that strengthen instruction and improve
+student outcomes.
+
+This publication is in the public domain. While permission to reprint is not necessary,
+reproductions should be cited as:
+Northwest Comprehensive Center. (2026). Division 22 and 24 standards review and
+
+recommendations for the Oregon Department of Education: Legislative report. Northwest
+Comprehensive Center at Education Northwest.
+
+The contents of this report were developed under a grant from the U.S. Department of Education (Department).
+The Department does not mandate or prescribe practices, models, or other activities described or discussed in this
+document. The contents of this report may contain examples of, adaptations of, and links to resources created
+and maintained by another public or private organization. The Department does not control or guarantee the
+accuracy, relevance, timeliness, or completeness of this outside information. The content of this report does not
+necessarily represent the policy of the Department. This publication is not intended to represent the views
+or policy of or be an endorsement of any views expressed, or materials provided by any Federal agency.
+
+nwcc.ednw.org
+
+i
+
+Executive Summary
+In 2025, the Oregon State Legislature passed Senate Bill 141 (SB 141, the Education Accountability
+Act), directing the Oregon Department of Education (ODE) to work with an external entity to review
+the administrative rules that establish standards for school districts (Division 22) and education
+service districts (Division 24). There are 59 individual administrative rules in the Division 22
+standards and 29 in the Division 24 standards (see Appendix A in the report for a complete list of
+these standards). The standards are intended to promote statewide consistency and equity while
+preserving local flexibility. The Legislature requested recommendations on which standards to
+prioritize, which to remove or revise, how to monitor and enforce compliance, and how to improve
+the noncompliance reporting and resolution process.
+ODE engaged the Northwest Comprehensive Center (NWCC) to conduct this review using multiple
+methods: an analysis of all 59 Division 22 standards, interviews and focus groups with stakeholders
+across Oregon, a survey of ODE rule owners, and a comparative analysis of administrative rules and
+accountability systems in 13 other states.
+
+Key Findings
+
+Oregon lacks a consistent process for reviewing standards. Division 22 and Division 24
+standards have expanded incrementally over many years. As a result, they contain overlapping
+requirements, inconsistent expectations, and varying connections to student outcomes. ODE
+staff members who work closely with Division 22 rules reported that most standards require
+modernization, clarification, or structural revision. Few comparable states have similarly broad
+collections of statewide administrative rules.
+
+About half of Division 22 standards focus on student outcomes. Thirty standards directly
+address or influence positive student outcomes. These standards are clustered around academic
+infrastructure, targeted interventions for special populations, and student safety and well-being.
+These were consistently prioritized across all data sources. By contrast, 29 standards focus
+primarily on administrative and planning requirements or reporting processes—important
+governance functions but not appropriate as statewide minimum standards.
+Many Division 24 standards are outdated or obsolete. Stakeholders and system leaders
+consistently described Division 24 as misaligned with the current role of education service
+districts (ESDs), retaining provisions eliminated by statute as far back as 2011 and failing
+to connect accountability to district or student outcomes.
+
+The accountability process is reactive and reliant on self-reporting. The existing system is
+driven by complaints and dependent on unverified district assurances. Rule owners identified a
+persistent gap between what districts report and what data show. Multiple stakeholder groups
+called for a shift to proactive monitoring grounded in observable indicators and for ODE to act
+as a partner in improvement rather than a compliance enforcer.
+
+nwcc.ednw.org
+
+ii
+
+Complaint processes are difficult to navigate and insufficient on their own. The public is
+generally unaware of the existing complaint pathways or it struggles to access and use them.
+Participants broadly agreed that complaint systems should be more accessible and multilingual
+and that all attempts should be made to resolve complaints locally before escalation to ODE.
+
+Recommendations
+
+These recommendations are organized under three high-level themes that respond directly
+to the legislative intent behind SB 141.
+
+Establish a statewide framework for evaluating the standards. NWCC recommends that ODE
+establish a framework for adding, revising, consolidating, or removing standards. This framework
+should be based on clear, evidence-based criteria that are aligned to Oregon’s five student success
+priorities and should be developed through inclusive stakeholder engagement with the State Board
+of Education, districts, ESDs, families, and legislators. Because Oregon currently has no structured,
+recurring process for evaluating whether existing standards remain fit for their intended purpose,
+standards have accumulated over decades without coherent framing. This has resulted in an overly
+burdensome system that is disconnected from student outcomes.
+
+Structure standards to create an outcomes-focused framework. Division 22 should be
+restructured to retain only essential, binary, and clearly measurable standards with a direct
+connection to student outcomes (e.g., graduation requirements, educator licensure, safety facility,
+special education). Standards focused on educational quality (i.e., those that exist on a continuum
+and require professional judgment) should be relocated to a separate regulatory school quality
+framework built around Oregon’s five student success priorities, monitored through a shared
+statewide rubric, and subject to annual local board review. Division 24 should remove obsolete
+provisions and reposition the local service plan as the central accountability mechanism, tying ESD
+accountability to district and student outcomes through a biennial performance cycle. The current
+approach, which treats all standards as equivalent compliance items, conflates minimum floors
+with continuous improvement, generating administrative burden without educational meaning.
+Integrate standards accountability with a monitoring system for continuous improvement.
+In any subsequent Division 22 revisions, rather than creating new reporting requirements, ODE
+should align accountability with existing SB 141 initiatives (i.e., Unified Application, Continuum of
+Supports, regional support teams). Districts could then use a common rubric to assess and
+publicly report school quality annually to local school boards and ODE, shifting from binary selfreported assurances to evidence-based reflection. ODE should also reorient toward differentiated
+support, providing tiered technical assistance before formal intervention and reserving graduated
+enforcement for persistent, unresolved noncompliance. Accessible, multilingual complaint
+pathways should complement, not drive, this broader accountability system. Effective
+accountability systems distinguish between compliance with non-negotiable minimums and the
+pursuit of quality, while also supporting improvement rather than incentivizing concealment.
+
+nwcc.ednw.org
+
+iii
+
+Looking Ahead
+Together, these recommendations create a path to modernizing Oregon’s standards system while
+preserving local flexibility and strengthening statewide accountability. This approach should not
+be viewed as prescriptive but rather as a starting point for ODE to collaborate with partners in
+making meaningful, sustainable change, ensuring every student experiences the conditions
+necessary for success.
+
+nwcc.ednw.org
+
+iv
+
+Contents
+Executive Summary
+Introduction
+
+Methods and Data Sources
+
+Foundational Finding and Recommendation Across the Division 22 and 24 Standards: Establish
+a Formal Standards Review and Governance Process
+ORS 327.103 (Division 22) Standards Review Findings and Recommendations
+ORS 334.217 (Division 24) Standards Review
+
+Conclusion. A Coherent Framework for Oregon’s Education System
+Appendix A. Division 22 and 24 Standards
+Appendix B. Glossary
+
+ii
+
+1
+
+4
+
+5
+
+7
+
+15
+
+20
+
+21
+
+25
+
+Division 22 and 24 Standards Review and Recommendations: Legislative Report
+
+Introduction
+Oregon has long recognized that every student deserves access to a high-quality public education
+regardless of where they live. Within the Oregon Administrative Rules for the Oregon Department
+of Education (ODE), Division 22 (ORS 327.103) establishes statewide minimum expectations that
+school districts must meet to ensure students have access to essential educational opportunities,
+while Division 24 (ORS 334.217) establishes requirements for education service districts (ESDs) to
+support districts within their service areas. There are 59 individual administrative rules in the
+Division 22 standards and 29 in the Division 24 standards (see Appendix A for a complete list of
+these standards). Together, these standards define Oregon’s educational floor by establishing
+common expectations for student access, health and safety, instructional opportunities, and core
+operational requirements.
+In 2025, the Oregon State Legislature passed Senate Bill 141 (SB 141), known as the Education
+Accountability Act, to examine whether Oregon’s standards and accountability system align with
+student success. Part of the legislation directs ODE to work with an external entity to review the
+Division 22 and Division 24 standards and identify:
+•
+•
+
+•
+•
+
+Standards that best support student outcomes and should be prioritized by ODE and districts
+Standards that make less significant contributions to student outcomes and may no longer
+warrant inclusion as statewide minimum requirements
+Effective methods for determining and enforcing whether districts are meeting standards
+An improved process for receiving, investigating, and resolving complaints related
+to noncompliance with standards
+
+ODE partnered with the Northwest Comprehensive Center (NWCC) to conduct this review. Together,
+ODE and NWCC designed the scope of the review, examined the history and context of the state’s
+district and ESD accountability standards system, identified key stakeholder groups to inform the
+review, and developed the lines of inquiry necessary to address the legislative requirements. NWCC
+independently collected and analyzed the data to identify findings and develop recommendations.
+This report summarizes the major findings and recommendations related to the four requirements
+established in SB 141. For details on the methodology, findings, implementation considerations,
+and supporting resources, see the accompanying technical report.
+
+A Shared Responsibility: Creating a More Coherent Support
+and Accountability System
+
+Divisions 22 and 24 standards have evolved over many decades through legislation, administrative
+rulemaking, and responses to emerging educational priorities. As a result, the current set of
+standards contains requirements that vary considerably in purpose, importance, and relationship
+to student outcomes. Some standards establish essential minimum expectations that should be met
+nwcc.ednw.org
+
+1
+
+Division 22 and 24 Standards Review and Recommendations: Legislative Report
+
+regardless of local context, while others describe broader dimensions of educational quality that
+are better addressed through continuous improvement. The review directed by SB 141 was
+designed to clarify these distinctions so that Oregon’s accountability system remains focused
+on the educational experiences and outcomes that matter most for students.
+
+Throughout the review, stakeholders consistently emphasized that Oregon needs both strong
+statewide minimum standards and a robust framework for continuous improvement. These
+functions serve distinct but complementary purposes and should be supported through different
+accountability approaches.
+Statewide minimum standards establish the non-negotiable conditions every student should
+experience, including instructional time, graduation requirements, educator qualifications,
+student health and safety protections, and equitable access to educational services. Other
+standards attempt to promote educational quality by requiring specific practices, policies,
+or processes intended to influence areas such as school climate, family engagement, student
+belonging, leadership, and organizational learning. While these dimensions are critical to
+student success, they exist along a continuum and are often highly contextual. Stakeholders
+consistently noted that these aspects of quality cannot be advanced through uniform
+compliance requirements alone and are better supported through continuous improvement
+and local decision-making.
+
+The review also reaffirmed the shared responsibilities of Oregon’s education partners. The
+Legislature establishes statewide educational priorities; the Oregon State Board of Education
+adopts administrative rules to implement those priorities; and ODE provides guidance, technical
+assistance, monitoring, and accountability. As regional partners, ESDs build local capacity and
+provide specialized services, while school districts and their governing boards implement
+programs that respond to community needs. Families, students, educators, Tribal governments,
+and community organizations play essential roles in shaping priorities, monitoring
+implementation, and strengthening accountability. These shared responsibilities reflect Oregon’s
+long-standing commitment to balancing statewide consistency with local control while ensuring
+equitable educational opportunities for all students.
+
+The recommendations in this report are not intended to create additional layers of oversight or
+replace ODE’s ongoing efforts to modernize educational support and accountability systems.
+Stakeholders consistently expressed support for reducing duplication, improving clarity, and
+creating a more coherent system that allows districts to spend less time demonstrating compliance
+and more time improving student outcomes. The recommendations therefore align with and
+strengthen ongoing initiatives such as the Unified Application, Continuum of Supports, regional
+support structures, and other improvement efforts underway through SB 141 implementation.
+More broadly, the review highlights that the responsibility for continuously improving Oregon’s
+education system rests with all educational partners and requires ongoing collaboration among
+state agencies, regional providers, local districts, educators, families, and communities.
+
+nwcc.ednw.org
+
+2
+
+Division 22 and 24 Standards Review and Recommendations: Legislative Report
+
+At its core, this report is grounded in a simple principle: Students benefit when the state clearly
+defines the minimum conditions every learner should experience and supports districts to
+continuously improve the quality of those experiences. The recommendations seek to clarify
+statewide priorities; strengthen implementation; align accountability with student outcomes;
+and create a more transparent, supportive, and coherent educational system that better serves
+students, families, educators, districts, and communities across Oregon.
+
+nwcc.ednw.org
+
+3
+
+Division 22 and 24 Standards Review and Recommendations: Legislative Report
+
+Methods and Data Sources
+To conduct this review, the NWCC engaged in a series of data collection and analysis activities:
+•
+
+•
+
+•
+
+•
+
+Analysis of current Division 22 standards on a range of criteria, including their relation to
+student outcomes and measurability (i.e., whether the standard can be meaningfully verified
+through a monitoring process). 1
+Stakeholder engagement including interviews and focus groups, to understand the
+strengths and weaknesses of Division 22 and 24 standards from various perspectives.
+Survey of rule owners (i.e., the ODE staff members responsible for overseeing and
+administering Division 22 standards) to capture perspectives on standards design,
+implementation, and enforcement.
+
+Comparative state analysis of analogous standards and accountability systems across
+13 states identified by NWCC and ODE to understand the national landscape. We focused
+on five states for the standards comparison and eight states for the accountability system
+comparison, with no overlap between the two groups.
+
+Table 1 identifies how each data collection and analysis activity informed findings and
+recommendations for each of the review requirements established in SB 141.
+Table 1. Crosswalk of data sources to legislative review requirements
+Legislative
+requirement
+
+Standards
+analysis
+
+Stakeholder
+engagement
+
+Rule owner
+survey
+
+State
+comparison
+
+Standards that best support
+student outcomes
+
+✓
+
+✓
+
+✓
+
+✓
+
+Standards that contribute less
+significantly to student outcomes
+
+✓
+
+✓
+
+✓
+
+✓
+
+Effective methods for determining
+whether a district is standard
+
+✓
+
+✓
+
+✓
+
+Complaint process for noncompliance
+
+✓
+
+✓
+
+✓
+
+Source: Authors’ analysis; Oregon Legislative Assembly Senate Bill 141, 2025 Regular Session, relating to
+education; and declaring an emergency.
+
+For more details on the methodology, findings by data source, and recommendations with implementation
+considerations, see the accompanying technical report.
+1 The NWCC review team determined that applying the same standards analysis to Division 24 would not be appropriate
+
+because Division 24 rules are far removed from student outcomes and largely binary in measurement. Instead, the team
+drew on an analysis of Division 24 standards conducted by Gary Peterson, past director of the Oregon Association
+of Education Service Districts, in 2023.
+
+nwcc.ednw.org
+
+4
+
+Division 22 and 24 Standards Review and Recommendations: Legislative Report
+
+Foundational Finding and Recommendation
+Across the Division 22 and 24 Standards:
+Establish a Formal Standards Review and
+Governance Process
+The most salient finding from this review is that Oregon currently lacks a structured, recurring
+process for evaluating whether existing standards continue to serve their intended purpose.
+Similarly, there is no process to evaluate potential standards before formal adoption or to evaluate
+related legislative mandates that districts or ESDs must follow but that do not fall under Division 22
+or Division 24. Standards have accumulated over time without a review and governance process for
+determining if they remain necessary, achieve their intended effect, or are well matched to their
+policy mechanism.
+Based on review findings, NWCC recommends that ODE establish clear criteria and a process
+to guide decisions about adding, revising, consolidating, relocating, or removing standards.
+(See Appendix E in the technical report for a table that summarizes the findings from the analysis.
+This table can be used as a starting place for assessing how standards meet defined criteria).
+
+ODE should gather feedback on the criteria and process from the Oregon State Board of Education,
+school districts, ESDs, families, and legislators, then incorporate the feedback as appropriate. The final
+criteria should prioritize student outcomes and focus on the evidence base, feasibility, measurability,
+implementation burden, and equity impact of each standard. Furthermore, the criteria for inclusion
+should reflect ODE’s five Priorities for Student Success, which are the domains for how the current
+standards are organized: 1) high-quality learning experiences for all students, 2) aligned and focused
+educational systems, 3) engaged partners and communities, 4) safe and inclusive schools, and 5)
+committed and supported staff.
+This process would ideally begin with an initial criteria-driven review of all existing Division 22
+and 24 standards and would thereafter apply to any proposed new legislation affecting standards
+before it is adopted. Criteria and transparent decisions with documented stakeholder input would
+help build the trust and buy-in needed for effective implementation across Oregon’s diverse
+district contexts.
+
+For the purposes of this review, NWCC applied a set of criteria to the existing Division 22 standards
+and provides recommendations for which standards to retain in Division 22 and which to remove.
+The recommendations offer a starting point for this work and should not be seen as a final solution.
+Developing the final criteria and review process will require a comprehensive, inclusive approach
+that engages Oregon’s major educational stakeholders and partners, including educators, district and
+school leaders, students, families, community organizations, Tribal nations, advocacy organizations,
+nwcc.ednw.org
+
+5
+
+Division 22 and 24 Standards Review and Recommendations: Legislative Report
+
+and policymakers. Broad engagement will ensure that revisions to Division 22 and 24 are rigorous,
+equitable, practical to implement, and reflective of Oregon’s diverse educational contexts.
+
+Significant additional analysis, stakeholder input, and greater specificity will be needed to finalize
+a standards review and governance process. Within 12 months of receipt of this report, ODE and
+its collaborators should develop a codified standards review and governance process to provide the
+structure, oversight, and continuous improvement foundation necessary to guide future work.
+
+nwcc.ednw.org
+
+6
+
+Division 22 and 24 Standards Review and Recommendations: Legislative Report
+
+ORS 327.103 (Division 22) Standards Review
+Findings and Recommendations
+Division 22 standards establish statewide minimum expectations that school districts must meet
+to ensure students have access to essential educational opportunities.
+
+Findings
+
+This section presents key findings drawn from the analysis of Division 22 standards, stakeholder
+engagement, the survey of rule owners, and the comparative state analysis.
+
+Thirty Standards Directly Impact Student Outcomes
+
+Of the 59 Division 22 standards, the analysis found that 30 directly impact student outcomes. These
+30 student-facing standards reflect three general categories:
+•
+
+•
+
+•
+
+Academic infrastructure: diploma requirements and pathways, instructional time,
+curriculum, instructional materials, assessment systems, educator quality, career education,
+and class size
+Targeted interventions for special populations: special education services, modified and
+extended diploma pathways, dyslexia screening and professional learning, and assessments
+for English learner students
+Student safety and well-being: suicide prevention, substance use prevention, health
+services, school counseling, concussion safety, restraint and seclusion protections, sexuality
+education, and Every Student Belongs
+
+These three categories and the 30 standards that fall within them are reinforced by multiple data
+sources as high priority for continued inclusion in the Division 22 standards. Stakeholders
+consistently identified diploma and health and safety requirements as worth preserving. Rule
+owners confirmed that standards tied to graduation, early literacy, and assessment have the
+strongest alignment to Oregon’s performance growth targets. The five-state comparative analysis
+found the greatest cross-state consistency with Division 22 standards situated in the Aligned and
+Focused Educational Systems domain—particularly special education and personnel standards—
+suggesting these represent a recognized national floor for outcomes-focused regulation.
+
+Twenty-Nine Standards Have Little or No Direct Impact on Student Outcomes
+
+Findings from multiple sources suggest that Oregon’s standards have expanded over time without
+a process for review or removal, leaving several standards serving mainly operational purposes
+with only indirect ties to student outcomes. The analysis found that eight standards were assessed
+as having no direct impact on student outcomes. Instead, they govern internal district operations,
+documentation, and administrative compliance. Additionally, 21 standards were assessed as
+nwcc.ednw.org
+
+7
+
+Division 22 and 24 Standards Review and Recommendations: Legislative Report
+
+moderately impacting student outcomes. These standards influence the student experience
+indirectly and require multiple implementation layers before reaching students.
+
+Stakeholders further reinforced these analysis findings, identifying several standards as weakly
+connected to student achievement, including:
+•
+•
+•
+•
+
+Physical education instructional minutes
+
+•
+
+Menstrual dignity requirements
+
+Redundant financial literacy provisions
+
+Educational equity advisory committees
+(our cross-state review found
+no comparable rule in the five
+comparison states)
+
+•
+
+Rights of parents of Talented and
+Gifted students (our cross-state review
+found no comparable rule in the five
+comparison states)
+
+Asbestos management plans and
+agreements with voluntary organizations
+
+The five-state comparative analysis also supports these findings. Standards with the least alignment
+to other states’ systems, particularly those within the Engaged Partners and Communities domain,
+were also the ones most frequently described by stakeholders as peripheral to student outcomes.
+
+A recurring theme across interviews and focus groups was that Division 22 has grown too large to
+be useful. The accumulation of requirements, including many that are ambiguous or difficult to
+measure, has contributed to check-the-box compliance rather than meaningful implementation.
+When surveyed, rule owners said that only 24 percent of standards require no changes, while
+more than a quarter need deeper structural or policy-level revision. Standards that cannot be
+meaningfully verified through a monitoring process and lack a clear connection to student experience
+were consistently viewed as candidates for removal or conversion to nonmandatory guidance.
+
+Stakeholders Identified Opportunities to Improve Accountability
+
+The analysis found that the current Division 22 monitoring and enforcement process is driven by
+compliance, reactive (triggered only by complaints), and relies almost entirely on unverified district
+self-reporting. Across stakeholder interviews, focus groups, and the rule owner survey, participants
+said the model produces inconsistent implementation and inequitable student experiences,
+particularly in rural and frontier communities where oversight capacity is most limited (see
+Division 22 Standards Review Key Findings, Findings by Data Collection Method in the Technical
+Report for more details).
+Rule owners identified a persistent and documented gap between what districts report through the
+assurances process and what they saw when they dug deeper into district reality and looked at
+examples and artifacts associated with Division 22 standards. Furthermore, rule owners noted that
+several standards have no identified point of accountability at ODE.
+Across stakeholder engagement, a tiered accountability model was the most frequently cited
+alternative to the current approach, one that scaffolds supports and consequences based on the
+severity and pattern of noncompliance rather than treating all violations the same. Stakeholders
+also pointed to the importance of proactive monitoring grounded in observable indicators, rather
+
+nwcc.ednw.org
+
+8
+
+Division 22 and 24 Standards Review and Recommendations: Legislative Report
+
+than continued reliance on self-reported assurances. Multiple stakeholder groups highlighted the
+need to shift from self-reporting to verifying compliance and quality with data.
+
+Rule owners described ODE’s current guidance as often outdated, incomplete, or actively impeding
+compliance. They characterized agency resources as "several years old, confusing, and not useful"
+and as missing definitions and implementation tools. More than half of rule owners (54%) indicated
+that districts want ODE to set clear expectations, keep guidance current, and provide responsive
+technical assistance, reflecting that they see ODE as a potential partner in compliance, not only an
+enforcer. Public transparency around compliance expectations and monitoring outcomes was also
+identified as an important accountability mechanism, giving families, legislators, and communities
+the ability to assess district performance directly.
+
+Increase Awareness of Oregon’s Accountability System While Positioning
+Complaints as One Component of the Larger System
+
+Across interviews, focus groups, and other data sources, participants consistently emphasized the
+importance of maintaining clear, accessible pathways for families, students, and community
+members to raise concerns about standards implementation and compliance limited (see Division
+22 Standards Review Key Findings, Findings by Data Collection Method in the Technical Report
+for more details). Stakeholders viewed complaint processes as an essential component of
+accountability, providing a mechanism to identify and address situations where standards are
+not implemented as intended. However, participants across groups cautioned against relying on
+complaints as the primary accountability strategy.
+
+Many stakeholders described existing complaint systems as difficult to navigate, opaque, and
+reactive rather than preventative. Families may be unaware of the standards governing educational
+services, struggle to recognize noncompliance, or not know how to file complaints. Some families
+expressed frustration with inconsistent communication and insufficient follow-through during
+investigations, creating perceptions that complaints are not always resolved effectively.
+Participants broadly agreed that complaint systems should be accessible, available in multiple
+languages, and clearly communicated so that families and community members can use them when
+needed. Many stakeholders supported a tiered approach in which concerns are first addressed and
+resolved at the local level whenever appropriate before being escalated to ODE. At the same time,
+participants noted that there should be clear exceptions for issues of student safety, discrimination,
+civil rights violations, or serious concerns that warrant immediate state-level review.
+Rule owners and system leaders highlighted practical challenges that affect the effectiveness of
+complaint-based accountability, including limited staffing, investigation backlogs, and insufficient
+capacity for proactive monitoring. Participants also described broader concerns about
+accountability processes that rely heavily on district self-reporting and limited verification, which
+some felt reduced confidence in the state’s ability to consistently identify and address
+implementation challenges.
+
+nwcc.ednw.org
+
+9
+
+Division 22 and 24 Standards Review and Recommendations: Legislative Report
+
+Overall, the findings suggest that the complaint processes should be viewed as one element of the
+broader accountability system. The state currently uses multiple accountability mechanisms,
+including the complaint process, self-reporting assurance processes, and other district reporting
+requirements. However, stakeholder feedback indicates that many participants were either unaware
+of these complementary accountability mechanisms or perceived that, in practice, meaningful
+accountability occurred more reactively to complaints than proactively through a robust monitoring
+process. This disconnect suggests a need for clearer and more strategic communication with
+communities about existing accountability structures; how they function; and the role of families,
+educators, and community members in supporting accountability efforts. Consistent with
+stakeholder input and research on effective accountability systems, complaint pathways are likely to
+be most effective when they are transparent, timely, and integrated with complementary strategies
+such as monitoring, technical assistance, and continuous improvement. Such an approach would
+preserve accessible avenues for raising concerns while also creating more proactive mechanisms
+for ensuring implementation quality and compliance across the system.
+
+Division 22 Recommendations for Improvement
+
+The recommendations are organized around the four review requirements established in SB 141.
+While several recommendations contribute to multiple aspects of the legislative charge, they are
+presented according to their primary purpose: identifying priority standards that connect directly to
+student outcomes; identifying standards to revise, consolidate, or remove; strengthening methods
+for monitoring and enforcing compliance; and establishing effective processes for reporting and
+resolving noncompliance. Together, the recommendations are intended to support a more coherent,
+transparent, and outcomes-focused standards and accountability system (see ORS 327.103 [Division
+22] Recommendations in the technical report for more information about these recommendations).
+
+Recommendation 1. Restructure Division 22 to Retain Only Standards That
+Connect Directly to Student Outcomes
+
+Based on findings and best practice, this review points toward restructuring Division 22 to focus on a
+smaller set of standards that connect directly to student outcomes and can be measured in an explicit
+binary way. To identify the standards that remain in Division 22, ODE should develop and implement
+a set of standards review criteria such as what is described earlier in the foundational finding and
+recommendation (see Appendix E in the technical report for a table that summarizes the findings
+from the analysis that can be used as a starting place for assessing how standards meet defined
+criteria). Those identified to remain should be non-negotiable minimum expectations that are clear,
+consistently measurable, and enforceable statewide. Compliance should be straightforward—a school
+either meets the requirement or does not—and there should be a compelling state interest in
+ensuring uniform implementation regardless of geography or local context. Standards that fall into
+the following categories should be prioritized for inclusion:
+•
+
+Instructional time and school calendar: every student is entitled to minimum instructional
+hours, and compliance is straightforward to measure and report
+
+nwcc.ednw.org
+
+10
+
+Division 22 and 24 Standards Review and Recommendations: Legislative Report
+•
+
+•
+
+•
+
+•
+
+•
+•
+
+Credit requirements and graduation standards: ensures a diploma represents
+a comparable educational experience regardless of district
+
+Educator licensure and assignment requirements: a binary standard; an educator
+is licensed or is not
+
+Health, safety, and facility standards: including physical plant safety, athletic and
+extracurricular safety, substance abuse education, and suicide prevention, which directly
+affect student well-being
+
+Student records and privacy requirements: legal minimums under the Family Educational
+Rights and Privacy Act; either in compliance or not
+
+Special education procedural minimums: basic compliance aligned with the federal framework
+English language learner program requirements: reflects federal obligations and state
+commitments to equitable access
+
+We recommend that the state identify Division 22 standards for inclusion within six months of
+creating the formal standards review and governance process. This process should also be applied
+to administrative rules currently situated outside of Division 22 that impose mandates on districts
+to determine whether they should be incorporated into a set of restructured standards.
+
+Standards that are both high impact and easily measurable (i.e., verifiable through clear, observable,
+or binary indicators) should be the core of the Division 22 standards. Mastery-focused and evidencebased standards, particularly in early literacy and core academic areas, should be strengthened in
+alignment with ODE’s central mission to foster equity and excellence for every learner through
+collaboration with educators, partners, and communities. 2
+
+Additionally, each retained standard would benefit from explanatory guidance describing its
+connection to student outcomes, how compliance is monitored, and implementation and continuous
+improvement supports available to districts. Available supports for Division 22 standards should
+align with existing ODE initiatives already underway, such as the continuum of supports and regional
+support teams.
+
+Recommendation 2. Relocate Standards With Less Direct Ties to Student Outcomes
+Twenty-nine Division 22 standards were either moderately or indirectly tied to student outcomes.
+Based on these findings and best practice, Oregon should consider moving these standards into a
+separate regulatory accountability and continuous improvement framework. This does not imply
+that these 29 standards are unimportant. Many of the standards reflect essential components of a
+quality education; however, they do not connect directly to student outcomes, exist on a spectrum of
+quality, and may require professional judgment to evaluate. Their presence in Division 22 contributes
+to a rules structure that is simultaneously too rigid in some areas and too vague in others, while only
+loosely connecting to Oregon’s priority outcomes.
+2 Oregon Department of Education mission statement
+
+nwcc.ednw.org
+
+11
+
+Division 22 and 24 Standards Review and Recommendations: Legislative Report
+
+Educators, administrators, and community partners consistently described spending significant
+time on compliance documentation that yielded little insight into student learning, school
+improvement, or resource deployment. Stakeholders also highlight that by having all 59 standards
+in one place, they are positioned equally in terms of monitoring and accountability, regardless of
+their impact on student outcomes. That means, for example, that from a district’s perspective,
+asbestos management is viewed the same as instructional time. Moving the identified standards
+into a regulatory accountability framework—one organized around outcomes, supported by shared
+rubrics, and designed for continuous improvement rather than documenting the absence of
+violations—has the potential to reduce compliance burden, increase local flexibility, and produce
+far more useful information for schools, districts, boards, and the state.
+
+Recommendation 3. Develop a Regulatory School Quality Framework and
+Annual School Quality Report
+
+Based on findings and best practice in state accountability design, there is a strong case to develop
+a regulatory school quality framework organized around Oregon’s five student success priorities:
+1. High-quality learning experiences
+for all students
+
+2. Aligned and focused educational systems
+
+3. Engaged partners and communities
+
+4. Safe and inclusive schools
+
+5. Committed and supported staff
+
+A regulatory school quality framework is a tool that organizes key components of education quality
+into a common statewide framework that supports continuous improvement, evidence-based
+monitoring, and transparent reporting while preserving local flexibility in implementation. Each
+student success priority area would be supported by measurable indicators drawn from data districts
+already collect under SB 141 and existing reporting requirements. This would avoid creating burdens
+while organizing existing data into a coherent, board-facing accountability structure.
+Retained Division 22 standards with clear binary indicators can continue to be reported through an
+assurance-based process, like the one currently in place, with the addition of evidence of practice.
+Additionally, we recommend that ODE develop a regulatory school quality framework with an
+accompanying statewide rubric for districts to assess and report their performance annually
+to local boards.
+The rubric would structure board conversations around the domains that matter most, capture the
+core concepts of any Division 22 standards that are relocated, create a common language for quality
+across districts, and generate a consistent record ODE can use for monitoring and support (see the
+technical report for an example rubric). Stakeholders explicitly called for a more transparent and
+aligned framework and rubric of this kind, noting that districts frequently do not know what
+standard of evidence ODE expects. A rubric that articulates what proficient and exemplary practice
+looks like in concrete, observable terms transforms accountability from a surveillance function into
+a learning function. It would also create a more meaningful role for local school boards by
+grounding public conversations in evidence of implementation, district strengths, areas for
+improvement, and identified support needs.
+nwcc.ednw.org
+
+12
+
+Division 22 and 24 Standards Review and Recommendations: Legislative Report
+
+In developing and implementing this framework, it will be important to leverage existing SB 141
+reporting structures and data whenever possible to minimize new reporting requirements and
+reduce administrative burden. The framework can be designed to align with existing district
+reporting and initiatives, including the Unified Application, and be supported by common statewide
+rubrics, evidence criteria, and guidance to promote consistency in implementation. Additionally,
+piloting the framework prior to statewide rollout would help build district and school board capacity,
+refine processes based on feedback, and support more effective and equitable implementation.
+
+The annual school quality report would also provide ODE with a more consistent source of evidence
+to inform monitoring, technical assistance, and differentiated support. Rather than relying
+primarily on district assurances or complaint-driven oversight, ODE could use these reports to
+identify implementation strengths, effective practices, prioritize technical assistance, and focus
+accountability where additional support is needed. If this approach is pursued, the State Board
+could consider revising OAR 581-022-2305 to reflect the requirement to complete the school
+quality rubric and incorporate findings into the established community and school board report.
+
+Recommendation 4. Reorient the Oregon Department of Education’s Role
+Toward Differentiated Support and Improvement
+
+The review found that districts across Oregon feel that the current system is driven by compliance,
+reactive, and punitive: Identifying problems to ODE triggers consequences rather than support,
+which incentivizes self-protection over transparency. This dynamic is worth addressing directly,
+by ODE leadership, through an enhanced system of differentiated support and continuous
+improvement that leverages and aligns with other ongoing accountability efforts at the
+agency. When a district submits a rubric showing beginning-level performance, a well-designed
+system would first respond by offering resources, identifying peer districts that have navigated
+similar challenges, and collaborating on an improvement plan. This does not mean abandoning
+enforcement. Standards retained in Division 22 (e.g., health and safety, instructional time,
+graduation requirements) would still be enforced consistently and with real consequences.
+However, it is important to distinguish between non-negotiable compliance failures and the
+continuum of school quality captured by the rubric. ODE’s organizational culture, staffing, and
+performance metrics would benefit from reflecting this dual role—a direction already underway
+through SB 141 mandates establishing a Continuum of Supports and regional support teams.
+
+Where rubric scores and student outcome data together show persistent, unresolved gaps,
+particularly among historically underserved focal student groups, escalation would remain
+available and necessary. That escalation would be graduated and transparent: beginning with more
+intensive structured support, moving through required improvement planning with defined
+milestones, and, where warranted after sustained nonperformance, to formal intervention.
+Thresholds for escalation would be clearly defined, publicly known, and consistently applied.
+
+Recommendation 5. Increase Public Awareness of the Complaint Process
+
+The analysis found that accessible complaint pathways are not clear to the public. Furthermore,
+families that engage in the current process report frustration with follow-through investigations
+nwcc.ednw.org
+
+13
+
+Division 22 and 24 Standards Review and Recommendations: Legislative Report
+
+and supports. Although there is a system for families to submit complaints, and it is linguistically
+accessible, there is a need to build community awareness of these systems and clearly communicate
+expectations for response times and investigation resolutions.
+We recommend keeping the reporting and resolution process at the local level while
+ensuring that ODE is aware of all concerns and follows the process toward a resolution.
+Our recommended process would include:
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+Notifications of concern submitted simultaneously to the local school board and to ODE
+so that both local governance and the state are immediately aware of the concern
+
+An option, where appropriate, for families to attempt resolution with the district before
+escalating to the state, consistent with legislative provisions allowing first-attempt resolution
+at the district level
+
+Materials, forms, and communications that are well publicized, easy to access, available in
+the languages spoken by Oregon families, and accompanied by plain-language summaries
+that support varying literacy levels and accessibility needs
+
+Transparent response timelines, including acknowledgment within five business days of
+submission of a concern, status updates at minimum every 30 calendar days until resolved,
+and a written summary of outcomes within five business days of resolution
+
+Retaliation protections that explicitly assure families that raising concerns will not result
+in adverse consequences for their students
+
+Statewide analysis of aggregated complaint trends to identify systemic patterns and inform
+ODE’s technical assistance priorities, transforming family feedback from an isolated grievance
+mechanism into a system-level improvement signal
+
+Establishing this system is not supplementary to the reform; it is a necessary accountability
+mechanism that ensures the flexibility granted to schools does not come at the expense of families’
+ability to hold schools accountable for delivering quality.
+
+nwcc.ednw.org
+
+14
+
+Division 22 and 24 Standards Review and Recommendations: Legislative Report
+
+ORS 334.217 (Division 24) Standards Review
+Division 24 standards establish requirements for education service districts (ESDs) to support
+districts across the state.
+
+Findings
+
+The following findings specific to Division 24 are drawn from interviews and focus groups.
+
+Many Division 24 Standards Are Outdated or Obsolete
+
+Stakeholders consistently described Division 24 standards as outdated and no longer reflective of
+how ESDs operate today. Governance structures, reporting requirements, and accountability
+functions embedded in the current rules have not kept pace with how the ESD system has evolved
+over the past two decades. Several participants pointed to specific examples of this drift—
+provisions tied to the original 1990s ESD reorganization, board zone and merger requirements,
+and audit retention rules—as evidence that portions of the standards are obsolete rather than
+merely outdated in tone.
+
+The local service plan (LSP) process was the most frequently cited pain point. The LSP outlines
+services available to component districts related to children with special needs, technology support,
+school improvement, and administrative support. It is developed in concert with member districts
+and approved by both member district boards, and the ESD board. Stakeholders described it as
+burdensome, rigid, and largely disconnected from meaningful district or student outcomes. Rather
+than functioning as a living planning tool that helps ESDs and districts align around shared goals,
+the LSP was characterized as a static compliance artifact.
+
+There was no clear consensus among stakeholders about which aspects of Division 24 are valuable
+and should be preserved. Stakeholders were far more likely to say Division 24 needs substantial
+overhaul than to name specific rules worth retaining. The one notable exception was a single
+participant’s observation that the flexibility built into the LSP process has value and should not
+be eliminated, even as the process itself is redesigned.
+
+Stakeholders Recommended Overall Changes to the Design, Structure, and
+Content of Division 24 Standards
+Stakeholders offered several concrete recommendations for reshaping Division 24:
+•
+
+•
+
+Establish a clear theory of change that explicitly links ESD activities and services to student
+outcomes, so that the connection between what ESDs do and what students experience is
+traceable rather than assumed.
+
+Update the LSP and position it as the central planning document for ESDs, with flexibility to
+make adjustments midcycle rather than waiting for a full planning cycle to reset priorities.
+
+nwcc.ednw.org
+
+15
+
+Division 22 and 24 Standards Review and Recommendations: Legislative Report
+•
+
+Remove provisions that position ESDs as district compliance officers. Stakeholders felt this
+framing is fundamentally at odds with the collaborative, service-oriented relationship ESDs
+are meant to have with component districts. They recommended replacing this language with
+standards that reflect ESDs’ actual role as regional support partners.
+
+The Oregon Department of Education Can Strengthen Trust, Collaboration, and
+Accountability Structures With Education Service Districts
+On the question of how implementation and enforcement responsibilities should be distributed,
+stakeholders consistently emphasized the importance of clearly defining the respective roles of
+ODE and ESDs. Specifically, participants noted:
+•
+
+•
+
+The importance of building ODE’s internal capacity and strengthening trust with ESDs before
+introducing new expectations. Several participants reflected that previous rule changes
+were implemented without sufficient lead time or meaningful dialogue, which diminished
+confidence in the rulemaking process.
+
+Accountability structures should tie ESD activities to measurable district and student
+outcomes, rather than relying on process compliance alone. This echoes the "outcomes over
+checkboxes" theme from the Division 22 review findings.
+
+Supporting Analysis: Oregon Association of Education Service Districts Rule-byRule Review
+The findings in this review are corroborated by a rule-level analysis conducted in 2023 by Gary
+Peterson, past director of the Oregon Association of Education Service Districts. 3 Peterson’s
+analysis is incorporated here because NWCC found that Division 24 rules are far removed from
+student outcomes and largely binary in measurement (i.e., a district or ESD either technically
+complies with a procedural requirement or it does not, with little regard for whether compliance
+produces any meaningful benefit), so applying the review procedure utilized for Division 22 was
+not applicable.
+
+Peterson’s review examined 29 Division 24 rules and assigned each a recommendation of Keep,
+Change, or Remove (five rules received no formal analysis or recommendation). Nearly 70 percent
+of reviewed rules (20 of 29) were flagged for removal or substantive change, a striking convergence
+with the finding that Division 24 no longer reflects how ESDs function. Illustrative examples from
+the analysis include:
+•
+
+Remove 581-024-0190 (Legal Name, Common Name and Annexation): Peterson noted
+that this rule enabled language tied to the 1993 ESD Reorganization Act (Senate Bill 262) and
+became obsolete once the reorganization process concluded in 1996, an example of a rule that
+outlived its statutory purpose.
+
+3 Peterson, G. (2023). An analysis of Division 24: Standards for education service districts [Unpublished
+
+manuscript]. Oregon Association of Education Service Districts.
+
+nwcc.ednw.org
+
+16
+
+Division 22 and 24 Standards Review and Recommendations: Legislative Report
+•
+
+•
+
+•
+
+•
+
+•
+
+Remove 581-024-0206 (Powers and Duties): Provisions such as a requirement to retain
+completed audits for 20 years and language designating ESDs as school district boundary
+boards (a function eliminated by House Bill 3298 in 2011 and subsequently removed from
+statute by House Bill 2148 in 2013) no longer correspond to current law or practice.
+Remove 581-024-0208 (Mission, Roles and Goals): Annual reporting requirements
+referenced in this rule were superseded by Senate Bill 250 (2011), which established
+a different statutory reporting framework, making the existing rule redundant.
+
+Change 581-024-0285 (Local Service Plans): Peterson observed that the LSP standard
+language largely parallels existing statute (ORS 334.175) and recommended converting it into
+a checklist format with rubric descriptions (standard, conditionally standard, nonstandard)—
+a structural fix that would be more usable and measurable than its current narrative form.
+This recommendation aligns with the stakeholder critique that the LSP process is processheavy but substantively thin.
+Change 581-024-0192 (Establishment of Zones for New ESD): While written for new
+ESDs, this rule’s population-based board zone requirements (tied to ORS 334.032) remain
+relevant to all current ESDs following each decennial census, suggesting the rule needs
+updating rather than removal.
+
+Keep 581-024-0191 (ESD Merger, General Requirements): Cited as one of the few provisions
+that remains actively useful, having been invoked in real mergers (Yamhill/Willamette in 2003,
+Union-Baker/Intermountain in 2011).
+
+Peterson’s analysis provides a granular, rule-by-rule evidentiary basis for this review’s key finding:
+Division 24 has many obsolete or statutorily superseded provisions; its flagship planning instrument
+(the LSP) is ill suited to produce meaningful, measurable accountability; and Division 24 would
+benefit from a full-scale revision rather than piecemeal amendment.
+
+Division 24 Recommendations for Improvement
+
+Based on the findings, NWCC recommends modernizing Division 24 to clarify the role and impact
+of ESDs.
+
+Recommendation 6. Remove Obsolete Provisions from Division 24
+
+As a component of the review recommended for Division 22, Division 24 should be revised to remove
+obsolete provisions, including the boundary board function, the review of school district operations
+section, reporting requirements replaced by Senate Bill 250 that were never updated in rule, and an
+accountability framework that cannot meaningfully distinguish between standard and nonstandard
+ESD performance. Division 24 should retain only binary essential compliance minimums as
+enforceable standards, including governance and legal compliance, superintendent licensure,
+financial transparency and audit compliance, LSP adoption thresholds, special education service
+obligations, facility safety and emergency preparedness, annual reporting requirements under
+Senate Bill 250, and attendance supervision.
+nwcc.ednw.org
+
+17
+
+Division 22 and 24 Standards Review and Recommendations: Legislative Report
+
+Recommendation 7. Establish Local Service Plans as the Accountability
+Instrument for Education Service Districts
+The LSP should be the central accountability instrument connecting ESD service delivery to measurable
+district and student outcomes. This is already supported by the fact that OAR 581-024-0285 and ORS
+334.175 require completion of the LSP for each ESD. LSPs must be affirmed by two-thirds of the school
+boards within an ESD’s service area, representing at least half of the total number of students enrolled
+in component districts, and must contain annual performance measures.
+
+To facilitate this shift, NWCC recommends that each LSP defines services to be delivered, intended
+educator capacity impacts, performance measures and data sources, and a financial plan demonstrating
+resource alignment, functioning as a two-year performance agreement between the ESD and the
+districts it serves. LSPs should explicitly connect to district accountability and improvement goals,
+including state and federal improvement designations.
+
+Recommendation 8. Require Component Districts to Evaluate Education Service
+District Performance
+
+The most legitimate accountability relationship for ESDs is with the districts they serve. Division 24
+should require that the LSP process include documented evidence of district satisfaction and
+service effectiveness; not simply a vote, but a structured evaluation in which districts assess
+whether each service area met the needs for which it was approved. Measures of service quality
+should include responsiveness to district-identified needs, timeliness and accessibility of services,
+and evidence of district capacity-building, not merely counts of services delivered. Where districts
+consistently report unmet needs, the ESD should document its response in the subsequent LSP
+planning cycle.
+
+Recommendation 9. Establish a Biennial Local Service Plan Approval Cycle With
+Opportunity for Midcycle Adjustments
+
+The current annual LSP approval cycle should move to a biennial structure that aligns to the state
+budget cycle. The cycle should include a midpoint review for service adjustments that do not
+require full board reapproval, unless material changes are involved. This shift requires targeted
+statutory changes to ORS 334.175. Division 24 should require that structured district evaluations
+of ESD performance, described above, be integrated into each LSP cycle.
+
+After each two-year cycle, ESDs should submit a biennial performance report to ODE organized
+around established accountability domains including service delivery and student impact, district
+partnership and responsiveness, financial stewardship, continuous improvement, regional
+coordination, and governance and operational integrity.
+
+nwcc.ednw.org
+
+18
+
+Division 22 and 24 Standards Review and Recommendations: Legislative Report
+
+Recommendation 10. Codify the Roles of the Oregon Department of Education
+and Education Service Districts
+Division 24 should codify ODE’s obligation to consult with and engage ESDs in planning and
+implementing statewide initiatives and clearly define how ESD regional support functions and
+ODE regional support teams align to avoid duplication and gaps.
+
+nwcc.ednw.org
+
+19
+
+Division 22 and 24 Standards Review and Recommendations: Legislative Report
+
+Conclusion. A Coherent Framework for
+Oregon’s Education System
+The recommendations presented in this report are not independent reforms; they drive toward
+a more coherent system. Together, they establish a clear, consistent logic across every level of
+Oregon’s education infrastructure: distinguish between what is non-negotiable and what exists
+on a continuum of quality; enforce the former with consistency and support the latter with
+investment; and build accountability relationships that are grounded in trust, transparency, and
+shared commitment to student outcomes.
+
+That logic depends on clarity about the obligations involved. Statutes establish legal authority and
+structural mandates that no district, ESD, or agency may circumvent. Administrative rules codify
+the binary, measurable, enforceable minimums that represent the state’s non-negotiable floors.
+Standards define statewide expectations for quality, what excellent practice looks like, and what
+Oregon aspires to achieve across its schools and regions. And mandates give those obligations force,
+ensuring that required actions are implemented, not merely encouraged.
+Distinguishing these categories is not a technical nicety; it is the prerequisite for a system in which
+every actor understands their role, exercises it with integrity, and is held accountable for results.
+This includes the Legislature providing statutory authority and funding, ODE designing and
+monitoring the standards system, the Oregon State Board of Education adopting and revising
+administrative rules, the Governor’s Office aligning cross-agency priorities, ESDs translating state
+expectations into differentiated regional support, districts implementing with fidelity and
+community voice, and families advocating for students.
+
+At the same time, this report should be viewed as a beginning, not an endpoint. The findings
+and recommendations contained here do not, by themselves, improve student outcomes.
+Real improvement will depend on the decisions and actions that follow. Once this report is
+finalized, education leaders and governing bodies will need to determine what to prioritize and
+which recommendations can be advanced given existing authority, capacity, and resources, all
+while building toward long-term systemic change. Effective governance requires not only a clear
+vision of what to improve, but also disciplined decision-making about sequencing, resourcing,
+and implementation.
+
+Throughout the review, participants emphasized that Oregon’s students do not need a more
+complicated system; they need a more coherent one. These recommendations aim to guide Oregon
+toward a more coherent system that ensures all students have access to the opportunities and
+conditions necessary for success.
+
+nwcc.ednw.org
+
+20
+
+Division 22 and 24 Standards Review and Recommendations: Legislative Report
+
+Appendix A. Division 22 and 24 Standards
+Division 22
+The following outline Division 22 rule numbers and titles that align with each of Oregon’s five
+priorities for student success.
+
+Aligned and Focused Educational Systems
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+581-022-2320 — Required Instructional Time
+581-022-2025 — Credit Options
+
+581-022-2030 — District Curriculum
+
+581-022-2060 — Comprehensive School Counseling
+
+581-022-2120 — Essential Skill Assessments for English Language Learners
+581-022-2315 — Special Education for Children with Disabilities
+581-022-2335 — Daily Class Size
+581-022-2400 — Personnel
+
+581-022-2445 — Universal Screenings for Risk Factors of Dyslexia
+581-022-2100 — Administration of State Assessments
+
+581-022-2110 — Exception of Students with Disabilities from State Assessments
+581-022-2115 — Assessment of Essential Skills
+
+581-022-2130 — Community Informed Information Gathering Process at Kindergarten
+581-022-2250 — District Improvement Plan
+581-022-2260 — Records and Reports
+581-022-2265 — Report on PE Data
+581-022-2300 — Standardization
+
+581-022-2305 — District Assurances of Compliance with Public School Standards
+
+581-022-2325 — Identification of Academically Talented and Intellectually Gifted Students
+
+Safe and Inclusive Schools
+•
+•
+•
+•
+•
+•
+
+581-022-2215 — Safety of School Sports–Concussions
+581-022-2220 — Health Services
+
+581-022-2267 — Annual Report on Restraint and Seclusion
+581-022-2510 — Suicide Prevention Plan
+
+581-022-2045 — Substance Use Prevention and Intervention Plan
+581-022-2225 — Emergency Plans and Safety Programs
+
+nwcc.ednw.org
+
+21
+
+Division 22 and 24 Standards Review and Recommendations: Legislative Report
+•
+•
+•
+
+•
+•
+•
+•
+•
+•
+•
+
+581-022-2310 — Equal Education Opportunities
+581-022-2345 — Auxiliary Services
+
+581-022-2430 — Fingerprinting of Subject Individuals in Positions Not Requiring Licensure
+as Teachers, Administrators, Personnel Specialists, School Nurses
+581-022-2205 — Policies on Reporting of Child Abuse
+581-022-2223 — Healthy and Safe Schools Plan
+581-022-2312 — Every Student Belongs
+
+581-022-2515 — Menstrual Dignity for Students
+
+581-022-2210 — Anabolic Steroids and Performance Enhancing Substances
+581-022-2230 — Asbestos Management Plans
+
+581-022-2308 — Agreements Entered Into with Voluntary Organizations
+
+High-Quality Learning Experiences for All Students
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+581-022-2000 — Diploma Requirements
+581-022-2010 — Modified Diploma
+
+581-022-2050 — Human Sexuality Education
+581-022-2055 — Career Education
+
+581-022-2263 — Physical Education Requirements
+581-022-2340 — Media Programs
+
+581-022-2355 — Instructional Materials Adoption
+
+581-022-2440 — Teacher Training Related to Dyslexia
+581-022-2020 — Certificate of Attendance
+
+581-022-2350 — Independent Adoptions of Instructional Materials
+581-022-2505 — Alternative Education Programs
+581-022-2015 — Extended Diploma
+
+581-022-2500 — Programs and Services for TAG Students
+
+581-022-2360 — Postponement of Purchase of State-Adopted Instructional Materials
+
+Engaged Partners and Communities
+•
+•
+•
+•
+•
+•
+
+581-022-2005 — Veterans Diploma
+
+581-022-2270 — Individual Student Assessment, Recordkeeping and Reporting
+581-022-2255 — School and District Performance Report Criteria
+581-022-2307 — Educational Equity Advisory Committees
+581-022-2330 — Rights of Parents of TAG Students
+581-022-2370 — Complaint Procedures
+
+nwcc.ednw.org
+
+22
+
+Division 22 and 24 Standards Review and Recommendations: Legislative Report
+
+Committed and Supportive Staff
+•
+•
+•
+•
+
+581-022-2410 — Teacher and Administrator Evaluation and Support
+581-022-2415 — Core Teaching Standards
+
+581-022-2420 — Educational Leadership - Administrator Standards
+581-022-2405 — Personnel Policies
+
+Division 24
+
+The following rule numbers and titles are included for Division 24.
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+581-024-0190 — Legal Name, Common Name and Annexation
+581-024-0191 — ESD Merger, General Requirements
+
+581-024-0192 — Establishment of Zones for New ESD
+581-024-0193 — Election of Board of New ESD
+581-024-0205 — Definitions
+
+581-024-0206 — Powers and Duties
+
+581-024-0208 — Mission, Roles and Goals
+
+581-024-0210 — Administration of the Standardization Requirements
+581-024-0215 — Assignment of Standardization Classification
+581-024-0226 — Assessment and Evaluation of Services
+581-024-0228 — Review School District Operations
+581-024-0231 — Curriculum Improvement
+
+581-024-0235 — Special Education Services
+581-024-0240 — Administration
+581-024-0245 — Staff
+
+581-024-0250 — District Boundary Board
+581-024-0252 — Boundary Changes
+
+581-024-0255 — Attendance Supervision
+
+581-024-0257 — Children Instructed by Parent or Private Teacher
+581-024-0260 — Budgets
+
+581-024-0262 — Budget Committee
+581-024-0265 — Audits
+
+581-024-0270 — State Board Assistance
+
+581-024-0275 — Facilities, Safety and Emergency Planning
+581-024-0280 — Auxiliary Services
+
+nwcc.ednw.org
+
+23
+
+Division 22 and 24 Standards Review and Recommendations: Legislative Report
+•
+•
+•
+•
+
+581-024-0285 — Local Service Plans
+
+581-024-0290 — Advisors to the Board
+581-024-0300 — Advisory Committees
+581-024-0310 — Gifts and Bequest
+
+nwcc.ednw.org
+
+24
+
+Division 22 and 24 Standards Review and Recommendations: Legislative Report
+
+Appendix B. Glossary
+Accountability: The process of ensuring that Oregon school districts, public charter schools, and
+education agencies meet state and federal education requirements and are responsible for student
+outcomes, fiscal stewardship, and compliance with applicable laws and standards.
+
+Assurance: A formal, legally binding certification provided by a school district or education agency
+confirming that it will comply with applicable Oregon laws, administrative rules, and federal
+education requirements as a condition of receiving funding or approval.
+
+Compliance: The extent to which a school district, education service district, or public school meets
+the requirements established in Oregon statutes, administrative rules, and federal education laws.
+
+Continuous improvement: An ongoing process of using data to improve educational outcomes and
+organizational performance.
+Continuum of Supports: An accountability and improvement system designed to help Oregon
+school districts meet student success priorities. It replaces punitive monitoring with an equitycentered, tiered approach, providing preventative coaching, professional development, and
+technical assistance to underperforming districts.
+
+Differentiated monitoring: A modern accountability approach where oversight is tailored based
+on a district’s level of risk, performance, or history of compliance rather than applying the same
+level of monitoring to everyone.
+
+Division 22 standards: Oregon Administrative Rules (OAR Chapter 581, Division 22) that establish
+minimum standards for public elementary and secondary schools. These standards contain
+requirements relating to the five priorities for student success: high-quality learning experiences
+for all students, aligned and focused educational systems, engaged partners and communities, safe
+and inclusive schools, and committed and supported staff.
+Division 24 standards: Oregon Administrative Rules (OAR Chapter 581, Division 24) establish the
+standards for education service districts. These rules govern how education service districts
+operate, including requirements for comprehensive core service plans and local service plans.
+
+Education service district (ESD): Regional public education agencies established by Oregon law
+that partner with the Oregon Department of Education. There are 19 education service districts
+statewide. They provide specialized programs to local school districts within their service regions
+that are often too costly for individual districts to manage alone, such as technical assistance,
+professional learning, special education support, technology, and other educational services.
+Enforcement: Actions taken by the Oregon Department of Education to address violations
+of state laws or administrative rules, including requiring corrective actions, monitoring progress,
+or applying statutory consequences when necessary.
+
+nwcc.ednw.org
+
+25
+
+Division 22 and 24 Standards Review and Recommendations: Legislative Report
+
+Every Student Succeeds Act (ESSA): The federal law governing K–12 education that establishes
+requirements for accountability, assessment, school improvement, educator quality, and support
+for historically underserved student populations. ESSA was signed into law in 2015, replacing the
+previous education law No Child Left Behind.
+Evidence review: The examination of documentation, records, policies, procedures, and other
+materials to verify compliance with legal and administrative requirements.
+
+Family Educational Rights and Privacy Act (FERPA): The federal law that protects the privacy
+of student education records and governs how Oregon schools collect, maintain, and disclose
+student information.
+Graduated intervention: A series of increasingly intensive supports or corrective actions that
+escalate based on the severity or persistence of implementation challenges or noncompliance.
+
+Guidance: Nonregulatory information, recommendations, or resources issued by the Oregon
+Department of Education to help districts understand and implement statutory or administrative
+requirements. Guidance explains expectations but generally does not create new legal requirements.
+
+Implementation: The process of putting laws, policies, standards, or administrative rules into
+practice. This is a common policy term that is often assumed but not defined.
+
+Local service plan (LSP): A collaborative plan developed by an education service district in
+partnership with its component school districts that identifies the educational services the education
+service district will provide, how those services align with district needs, and how state resources will
+be allocated to support them.
+Menstrual Dignity Act: Oregon’s Menstrual Dignity Act (HB 3294) mandates that all public school
+districts, charter schools, and education service districts provide free, easily accessible menstrual
+products in all student bathrooms. The law covers all K–12 grades and ensures products are
+inclusive and affirming for all students.
+Monitoring: The Oregon Department of Education’s process of reviewing district policies,
+documentation, practices, and performance to determine compliance with state and federal
+education requirements and identify areas needing improvement. The Oregon Department of
+Education conducts multiple structured monitoring processes across school districts to ensure
+compliance and student growth. This includes Elementary and Secondary Education Act federal
+grant monitoring, fiscal monitoring, and special education/general supervision oversight.
+
+Noncompliance: A determination that a school district, education service district, or school has not
+met one or more requirements established in Oregon law, administrative rules, or federal education
+regulations, often requiring corrective action.
+ODE rule owner: An Oregon Department of Education staff member designated as the subject
+matter expert and primary administrator for one or more Oregon Administrative Rules. Rule
+owners oversee rule implementation, provide guidance and technical assistance, support
+
+nwcc.ednw.org
+
+26
+
+Division 22 and 24 Standards Review and Recommendations: Legislative Report
+
+monitoring and compliance activities, coordinate rulemaking and stakeholder engagement, and
+serve as the primary point of contact for questions related to their assigned rules.
+
+Oregon Administrative Rules (OAR): The administrative rules that implement Oregon statutes
+including Divisions 22 and 24.
+Oregon Department of Education (ODE): The state agency responsible for administering
+Oregon’s public education system.
+Oregon State Board of Education: The governing body that adopts Oregon’s education
+administrative rules and statewide education policies.
+
+Outcomes-focused: An approach that emphasizes measurable improvements in student learning,
+educational access, well-being, and school performance rather than simply demonstrating
+procedural compliance.
+
+Risk-based monitoring: An approach that prioritizes monitoring activities based on indicators of
+risk, such as prior findings of noncompliance, student outcomes, fiscal concerns, or other factors
+suggesting that additional oversight or support may be needed.
+
+School improvement: Evidence-based efforts to improve student achievement, educational equity,
+and school performance.
+Self-certification: A key concept in Oregon’s current Division 22 accountability system. Districts
+annually certify that they meet Division 22 requirements.
+
+Special education service obligations: The legal responsibilities of Oregon school districts to
+identify, evaluate, and provide appropriate special education and related services to eligible
+students with disabilities in accordance with state law and the federal Individuals with Disabilities
+Education Act.
+Standards: The minimum requirements established in Oregon statutes and administrative rules
+that govern the operation of public schools, educational programs, and district responsibilities.
+Talented and Gifted (TAG): Oregon’s program for identifying and serving students who
+demonstrate exceptional academic or intellectual ability and require differentiated educational
+opportunities to meet their learning needs.
+
+Technical assistance: Training, coaching, consultation, tools, and other supports provided by
+the Oregon Department of Education, education service districts, or other partners to help
+school districts build capacity, improve implementation, and achieve compliance with state and
+federal requirements.
+Unified Application: An initiative launched by the Oregon Department of Education to
+significantly streamline and simplify the state and federal grant application and reporting
+processes for school districts.
+
+Validation: The process of confirming that reported information, certifications, or evidence
+accurately reflects actual implementation and compliance.
+
+nwcc.ednw.org
+
+27
+
+
