@@ -1,7 +1,7 @@
 {
   "name": "fund-oregon-schools",
-  "version": "0.3.21",
-  "description": "Research skills for the Fund Oregon Schools archive (pietvanzoen/fund-oregon-schools): answer cited questions about Oregon K-12 school funding, and work research issues end to end with independent reviewers.",
+  "version": "0.3.22",
+  "description": "Research skills for the Fund Oregon Schools archive (pietvanzoen/fund-oregon-schools): answer cited questions about Oregon K-12 school funding, triage leads into vetted sources and issues, and work research issues end to end with independent reviewers.",
   "author": {
     "name": "Oregon Ed Trail maintainers"
   }
