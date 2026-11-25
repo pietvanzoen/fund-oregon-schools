@@ -352,6 +352,9 @@ def main():
         segs += [{"start": 3731 + i, "text": "And so we can do that."} for i in range(LOOP)]
         segs += [{"start": 3800, "text": "Adjourned."}, {"start": 3801, "text": "Adjourned."}]
         assert loops(segs) == [(3731, LOOP, "And so we can do that.")]
+        stuck = "Mr. Richardson, " * 6
+        segs += [{"start": 3900, "text": stuck}, {"start": 3903, "text": stuck}, {"start": 3910, "text": "Thank you, chair."}]
+        assert loops(segs) == [(3731, LOOP, "And so we can do that."), (3900, 2, stuck.strip())]
 
         print("all tool tests passed")
     finally:

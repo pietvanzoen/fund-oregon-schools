@@ -19,6 +19,7 @@ import subprocess
 import sys
 import tempfile
 import time
+import zlib
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import MANIFEST, SOURCES  # noqa: E402
@@ -44,8 +45,15 @@ def lines(segments):
     return out
 
 
+def compressed(text):
+    """Whisper's own test for a stuck decode: text that zlib shrinks more than 2.4 times is one phrase repeated."""
+    b = text.encode()
+    return len(b) >= 40 and len(b) / len(zlib.compress(b)) > 2.4
+
+
 def loops(segments):
-    """(start seconds, repeats, text) for each run of LOOP or more identical segments."""
+    """(start seconds, lines, text) for each run of LOOP or more identical segments, and each run of segments
+    that repeat a phrase inside themselves ("Mr. Richardson, Mr. Richardson, ...")."""
     out, i = [], 0
     while i < len(segments):
         j = i
@@ -54,15 +62,23 @@ def loops(segments):
         if j - i + 1 >= LOOP:
             out.append((segments[i]["start"], j - i + 1, segments[i]["text"].strip()))
         i = j + 1
-    return out
+    i = 0
+    while i < len(segments):
+        j = i - 1
+        while j + 1 < len(segments) and compressed(segments[j + 1]["text"].strip()):
+            j += 1
+        if j >= i:
+            out.append((segments[i]["start"], j - i + 1, segments[i]["text"].strip()))
+        i = max(j, i) + 1
+    return sorted(out)
 
 
 def download(url, rel, title, date, dest, tmp):
     log(f"downloading {url}")
-    # --print makes yt-dlp quiet; --progress puts its progress bar back on stderr, which isn't captured
-    final_url = subprocess.run(["yt-dlp", "--no-playlist", "-f", "bestaudio", "-o", f"{tmp}/orig.%(ext)s",
-                                "--no-simulate", "--progress", "--print", "webpage_url", url],
-                               check=True, stdout=subprocess.PIPE, text=True).stdout.strip().splitlines()[-1]
+    # the URL goes to a file: on stdout it's mixed in with yt-dlp's progress bar
+    subprocess.run(["yt-dlp", "--no-playlist", "-f", "bestaudio", "-o", f"{tmp}/orig.%(ext)s",
+                    "--print-to-file", "webpage_url", f"{tmp}/url.txt", url], check=True)
+    final_url = open(f"{tmp}/url.txt", encoding="utf-8").read().strip()
     orig = next(os.path.join(tmp, f) for f in os.listdir(tmp) if f.startswith("orig."))
     log(f"downloaded {os.path.getsize(orig) / 1e6:.0f} MB from {final_url}")
     # shortcut: 32 kbps mono fits about 7 hours under 100 MB; split the file if a recording runs longer
@@ -104,7 +120,7 @@ def transcribe(dest, tmp):
     found = loops(segments)
     for start, n, text in found:
         t = int(start)
-        log(f"loop at {t // 3600}:{t // 60 % 60:02}:{t % 60:02}: {n}x {text[:60]!r}")
+        log(f"loop at {t // 3600}:{t // 60 % 60:02}:{t % 60:02}: {n} lines of {text[:60]!r}")
     if found:
         raise SystemExit(f"{len(found)} repeated-line loop(s): the transcript has gaps there")
 
