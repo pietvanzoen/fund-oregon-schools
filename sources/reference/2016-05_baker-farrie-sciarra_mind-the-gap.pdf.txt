@@ -1,0 +1,5400 @@
+P OLICY I NFORMATION R EPORT
+
+MIND THE GAP
+20 Years of Progress and Retrenchment in School Funding and Achievement Gaps
+By Bruce D. Baker, Danielle Farrie and David G. Sciarra
+ETS RR-16-15
+
+This Policy Information Report was written by:
+
+Bruce D. Baker
+Rutgers University, New Brunswick, NJ
+Danielle Farrie & David G. Sciarra
+Education Law Center, Newark, NJ
+
+Policy Information Center
+Mail Stop 19-R
+Educational Testing Service
+Rosedale Road Princeton, NJ 08541-0001
+(609) 734-5212
+pic@ets.org
+
+Copies can be downloaded from:www.ets.org/research/pic
+
+The views expressed in this report are those of the author and do not necessarily reflect the views of the officers and
+trustees of Educational Testing Service.
+
+About ETS
+At ETS, we advance quality and equity in education for people worldwide by creating assessments based on rigorous
+research. ETS serves individuals, educational institutions and government agencies by providing customized solutions
+for teacher certification, English language learning, and elementary, secondary and postsecondary education, and by conducting education research, analysis and policy studies. Founded as a nonprofit in 1947, ETS develops, administers and
+scores more than 50 million tests annually — including the TOEFL and TOEIC tests, the GRE tests and The Praxis
+Series assessments — in more than 180 countries, at over 9,000 locations worldwide.
+
+®
+
+®
+
+®
+
+®
+
+Policy Information Report and ETS Research Report Series ISSN 2330-8516
+
+RESEARCH REPORT
+
+Mind the Gap: 20 Years of Progress and Retrenchment in
+School Funding and Achievement Gaps
+Bruce D. Baker,1 Danielle Farrie,2 & David G. Sciarra2
+1 Rutgers University, New Brunswick, NJ
+2 Education Law Center, Newark, NJ
+
+Although there has been significant progress in the long term, achievement gaps among the nation’s students persist. Many factors have
+contributed to the disparities in outcomes, and societal changes can explain progress, or lack thereof, over the past few decades. This is
+well documented in the 2010 Educational Testing Service (ETS) report Black–White Achievement Gaps: When Progress Stopped, which
+explored achievement gap trends and identified the changing conditions that may have influenced those trends. In this report, we extend
+that work by focusing on the relationship between school funding, resource allocation, and achievement among students from lowincome families. We tackle the assumption that greater resources, delivered through fair and equitable school funding systems, could
+help raise academic outcomes and reduce the achievement gap. The goal is to provide convincing evidence that state finance policies
+have consequences in terms of the level and distribution of resources, here limited to staffing characteristics, and that the resulting
+allocation of resources is also associated with changes in both the level of academic achievement and achievement gaps between lowincome children and their peers. Using more than 20 years of revenue and expenditure data for schools, we empirically test the idea
+that increasing investments in schools generally is associated with greater access to resources as measured by staffing ratios, class sizes,
+and the competitiveness of teacher wages. When the findings presented here are considered with the strong body of academic literature
+on the positive relationship between substantive and sustained state school finance reforms and improved student outcomes, a strong
+case can be made that state and federal policy focused on improving state finance systems to ensure equitable funding and improving
+access to resources for children from low-income families is a key strategy to improve outcomes and close achievement gaps.
+Keywords school funding; school finance; funding equity; funding fairness; achievement gap; teacher compensation; class size;
+school quality; school poverty
+
+doi:10.1002/ets2.12098
+In 2010, Educational Testing Service (ETS) released The Black–White Achievement Gap: When Progress Stopped, a report
+by Barton and Coley (2010) in which the authors explored the Black–White achievement gap from the 1970s to recent
+years. The goal of that report was to explore trends in Black–White achievement gaps and changing conditions that may
+explain those trends. Barton and Coley explained that “from the early 1970s until the late 1980s, a very large narrowing of
+the gap occurred in both reading and mathematics, with the size of the reduction depending on the subject and age group
+examined” (p. 7). Reductions to achievement gaps were particularly large in reading among 13- and 17-year-olds, while
+still significant in mathematics. However, “during the 1990s, the gap narrowing generally halted, and actually began to
+increase in some cases” (p. 7). The authors noted some additional gap narrowing from 1999 to 2004 and mixed findings
+from 2004 to 2008. Rothstein (2011) showed that, even during the period from 1990 to 2008, achievement gains for
+Black fourth- and eighth-grade students have been substantial in mathematics in particular and that these students have
+outpaced their White peers.1
+Barton and Coley (2010) offered some broad hypotheses as to policy and contextual changes that may partly explain
+the faster rate of gap reduction that occurred during the earlier periods. For example, the authors noted that the past
+several decades have been a time of increased investment in early education programs made available to low-income and
+minority children; reduction in racially disparate tracking in America’s middle and high schools; class size and pupil-toteacher ratio reduction; desegregation; and increased emphasis on testing and accountability, including a focus on racial
+achievement gaps.
+Other recent reports have focused more broadly on trends in income and racial inequality among children in the
+United States over recent decades (Coley & Baker, 2013; Reardon, 2011). Specifically, there has been increased emphasis
+Corresponding author: B. D. Baker, E-mail: bruce.baker@gse.rutgers.edu
+
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+1
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+on income inequality built on assertions that income-based achievement gaps now far surpass racially based achievement
+gaps. For example, Reardon noted that “the achievement gap between children from high- and low-income families is
+roughly 30 to 40 percent larger among children born in 2001 than among those born twenty-five years earlier” (p. 1).
+Furthermore,
+the income achievement gap (defined here as the average achievement difference between a child from a family at the
+90th percentile of the family income distribution and a child from a family at the 10th percentile) is now nearly twice
+as large as the Black–White achievement gap. (p. 1)
+This report builds on the earlier work of Barton and Coley (2010) by longitudinally tracking achievement gaps and
+potential factors explaining both the ebbs and flows of those gaps and cross-state variation in those gaps over time. But, like
+Reardon (2011) and Coley and Baker (2013), we focus on income inequality—specifically child poverty—in evaluating
+gaps in both available educational resources and measured educational outcomes. We focus on the distribution of children
+living in poverty and below various low-income thresholds across U.S. public schools, differences in resources available
+to those children, and differences in measured outcomes of children falling under various income thresholds. Appendix
+A provides a brief explanation of the relationship between income-based and racially based achievement gaps.
+We begin with a review of the literature on how and why money matters, focusing on equitable and adequate funding,
+class sizes and teacher salaries, and the role of state school finance systems in ensuring equal educational opportunity. This
+is followed by an examination of trends in school revenues, staffing, and wages over time to demonstrate the relationship
+between increased funding and the availability of resources, particularly for children from low-income families. Understanding that school funding and resource distribution vary widely by state as a function of the dominance of state and
+local financing of U.S. public schools; we focus our analyses at the state level. The time period of the analysis also allows
+for some speculation on the consequences of the Great Recession for school funding fairness and resource equity. Finally,
+we show that the level and distribution of resources relative to poverty are associated with higher academic outcomes for
+children from low-income families and a narrowing of achievement gaps by income.
+How and Why Money Matters in Schools
+Expanding on Barton and Coley’s (2010) exploration of potential factors explaining achievement gap reduction, we focus
+herein on measures of funding and key resources available to children’s schools and how those resources have been distributed with respect to low-income populations over time. Our emphasis on funding and related resources warrants some
+justification. In a comprehensive review of literature addressing the question “Does money matter in education?” Baker
+(2012) concluded,
+To be blunt, money does matter. Schools and districts with more money clearly have greater ability to provide
+higher-quality, broader, and deeper educational opportunities to the children they serve. Furthermore, in the
+absence of money, or in the aftermath of deep cuts to existing funding, schools are unable to do many of the things
+they need to do in order to maintain quality educational opportunities. Without funding, efficiency tradeoffs and
+innovations being broadly endorsed are suspect. One cannot tradeoff spending money on class size reductions
+against increasing teacher salaries to improve teacher quality if funding is not there for either—if class sizes are
+already large and teacher salaries non-competitive. While these are not the conditions faced by all districts, they are
+faced by many. (p. 18)
+Building on the findings and justifications Baker (2012) provided, we offer Figure 1 as a simple model of the relationship
+of schooling resources to children’s measurable school achievement outcomes. First, the fiscal capacity of states—their
+wealth and income—does affect their ability to finance public education systems. But, as we have shown in related
+research, on which we expand herein, the effort put forth in state and local tax policy plays an equal role (Baker, Farrie, &
+Sciarra, 2010).
+The amount of state and local revenue raised drives the majority of current spending of local public school districts,
+because federal aid constitutes such a relatively small share. Furthermore, the amount of money a district is able spend on
+current operations determines the staffing ratios, class sizes, and wages a local public school district is able to pay. Indeed,
+2
+
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+State & Local
+Wealth &
+Income
+
+State & Local
+Fiscal Effort
+
+State &
+Local
+Revenue
+Current
+Operating
+Expenditure
+
+Staffing
+Quantities (Pupil
+to Teacher Ratio
+& Class Size)
+Student
+Outcomes
+
+Staffing Quality
+(Competitive
+Wage)
+
+Figure 1 Conceptual map of the relationship of schooling resources to children’s measurable school achievement outcomes.
+
+there are trade-offs to be made between staffing ratios and wage levels. Finally, a sizable body of research has illustrated
+the connection between staffing qualities and quantities and student outcomes (see Baker, 2012).
+The connections laid out in this model appear rather obvious. How much you raise dictates how much you can spend.
+How much you spend in a labor-intensive industry dictates how many individuals you can employ, the wage you can pay
+them, and in turn the quality of individuals you can recruit and retain. But in this modern era of resource-free school
+reforms, the connections between revenue, spending, and real, tangible resources are often ignored or, worse, argued to
+be irrelevant. A common theme advanced in modern political discourse is that all schools and districts already have more
+than enough money to get the job done. They simply need to use it more wisely and adjust to the new normal (Baker &
+Welner, 2012).
+But, on closer inspection of the levels of funding available across states and local public school districts within states,
+this argument rings hollow. To illustrate, a significant portion of this report statistically documents these connections.
+First, we take a quick look at existing literature on the relevance of state school finance systems and on the reform of those
+systems for improving the level and distribution of student outcomes as well as literature on the importance of class sizes
+and teacher wages for improving school quality as measured by student outcomes.
+Equitable and Adequate Funding
+An increasing body of evidence suggests that substantive and sustained state school finance reforms matter for improving
+both the level and distribution of short-term and long-run student outcomes. A few studies have attempted to tackle
+school finance reforms broadly by applying multistate analyses over time. Card and Payne (2002) found “evidence that
+equalization of spending levels leads to a narrowing of test score outcomes across family background groups” (p. 49).
+Most recently, Jackson, Johnson, and Persico (2015) evaluated long-term outcomes of children exposed to court-ordered
+school finance reforms, finding that
+a 10 percent increase in per-pupil spending each year for all twelve years of public school leads to 0.27 more
+completed years of education, 7.25 percent higher wages, and a 3.67 percentage-point reduction in the annual
+incidence of adult poverty; effects are much more pronounced for children from low-income families. (p. 1)
+Numerous other researchers have explored the effects of specific state school finance reforms over time.2 Several such
+studies have provided compelling evidence of the potential positive effects of school finance reforms. Studies of Michigan
+school finance reforms in the 1990s have shown positive effects on student performance in both the previously lowest
+spending districts (Roy, 2011)3 and previously lower performing districts (Papke, 2005). Similarly, a study of Kansas school
+finance reforms in the 1990s, which also involved primarily a leveling up of low-spending districts, found that a 20%
+increase in spending was associated with a 5% increase in the likelihood of students going on to postsecondary education
+(Deke, 2003).
+Three studies of Massachusetts school finance reforms from the 1990s found similar results. The first, by Downes,
+Zabel, and Ansel (2009), found that the combination of funding and accountability reforms “has been successful in raising
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+3
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+the achievement of students in the previously low-spending districts” (p. 5). The second found that increases in per pupil
+spending led to significant increases in mathematics, reading, science, and social studies test scores for fourth- and eighthgrade students (Guryan, 2001).4 The most recent of the three found that “changes in the state education aid following the
+education reform resulted in significantly higher student performance” (Nguyen-Hoang & Yinger, 2014, p. 297). Such
+findings have been replicated in other states, including Vermont.5
+On balance, it is safe to say that a sizable and growing body of rigorous empirical literature has validated that state school
+finance reforms can have substantive, positive effects on student outcomes, including reductions in outcome disparities
+or increases in overall outcome levels.6
+Class Sizes and Teacher Salaries
+The premise that money matters for improving school quality is grounded in the assumption that having more money
+provides schools and districts the opportunity to improve the qualities and quantities of real resources. Jackson et al.
+(2015) explained that the spending increases they found to be associated with long-term benefits “were associated with
+sizable improvements in measured school quality, including reductions in student-to-teacher ratios, increases in teacher
+salaries, and longer school years” (p. 1).
+The primary resources involved in the production of schooling outcomes are human resources—or quantities and
+qualities of teachers, administrators, support, and other staff in schools. Quantities of school staff are reflected in pupilto-teacher ratios and average class sizes. Reduction of class sizes or reductions of overall pupil-to-staff ratios require
+additional staff, thus additional money, assuming the wages and benefits for additional staff remain constant. Qualities of
+school staff depend in part on the compensation available to recruit and retain the staff—specifically salaries and benefits,
+in addition to working conditions. Notably, working conditions may be reflected in part through measures of workload,
+such as average class sizes, as well as the composition of the student population.
+A substantial body of literature has accumulated to validate the conclusion that teachers’ overall wages and relative
+wages affect the quality of those who choose to enter the teaching profession—and whether they stay once they get in.
+For example, Murnane and Olsen (1989) found that salaries affect the decision to enter teaching and the duration of the
+teaching career, whereas Figlio (1997, 2002) and Ferguson (1991) concluded that higher salaries are associated with more
+qualified teachers. In addition, more recent studies have tackled the specific issues of relative pay noted earlier. Loeb and
+Page (2000) showed that
+once we adjust for labor market factors, we estimate that raising teacher wages by 10 percent reduces high school
+dropout rates by 3 percent to 4 percent. Our findings suggest that previous studies have failed to produce robust
+estimates because they lack adequate controls for non-wage aspects of teaching and market differences in alternative
+occupational opportunities. (p. 393)
+In short, although salaries are not the only factor involved, they do affect the quality of the teaching workforce, which
+in turn affects student outcomes. A permanent upward shift in the competitiveness of teacher wages may substantively
+improve the quality of the teacher workforce and, ultimately, student outcomes.
+Research on the flip side of this issue—evaluating spending constraints or reductions—has revealed the potential
+harm to teaching quality that flows from leveling down or reducing spending. For example, Figlio and Rueben (2001)
+noted that “using data from the National Center for Education Statistics we find that tax limits systematically reduce the
+average quality of education majors, as well as new public school teachers in states that have passed these limits” (p. 1; see
+also Downes & Figlio, 1999).
+Salaries also play a potentially important role in improving the equity of student outcomes. Although several studies
+have shown that higher salaries relative to labor market norms can draw higher quality candidates into teaching, the
+evidence also indicates that relative teacher salaries across schools and districts may influence the distribution of teaching
+quality. For example, Ondrich, Pas, and Yinger (2008) found
+that teachers in districts with higher salaries relative to non-teaching salaries in the same county are less likely to
+leave teaching and that a teacher is less likely to change districts when he or she teaches in a district near the top of
+the teacher salary distribution in that county. (p. 112)
+4
+
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+In addition, ample research has indicated that children in smaller classes achieve better outcomes, both academic
+and otherwise, and that class size reduction can be an effective strategy for closing racially or socioeconomically based
+achievement gaps (see Coalition for Evidence-Based Policy, 2003). Although it is certainly plausible that other uses of the
+same money might be equally or even more effective, there is little evidence to support this. For example, whereas we are
+quite confident that higher teacher salaries lead to increases in the quality of applicants to the teaching profession and
+increases in student outcomes, we do not know whether the same money spent toward salary increases would achieve
+better or worse outcomes if it were spent toward class size reduction. Indeed, some have raised concerns that large-scale
+class size reductions can lead to unintended labor market consequences that offset some of the gains attributable to class
+size reduction (such as the inability to recruit enough fully qualified teachers; Jepsen & Rivkin, 2002). And many, over
+time, have argued the need for more precise cost-benefit analysis (Ehrenberg, Brewer, Gamoran, & Willms, 2001). Still,
+the preponderance of existing evidence suggests that the additional resources expended on class size reductions do result
+in positive effects.
+Both reductions to class sizes and improvements to competitive wages can yield improved outcomes, but the efficiency
+gains of choosing one strategy over the other are unclear, and local public school districts rarely have complete flexibility
+to make trade-offs (Baker & Welner, 2012). Class size reduction may be constrained by available classrooms. Smaller class
+sizes and reduced total student loads are a relevant working condition simultaneously influencing teacher recruitment
+and retention (Loeb, Darling-Hammond, & Luczak, 2005); that is, providing smaller classes may partly offset the need
+for higher wages for recruiting or retaining teachers. High-poverty schools require both–and rather than an either–or
+strategy when it comes to smaller classes and competitive wages.
+State School Finance Systems and Equal Educational Opportunity
+Presently, the central assumption is that state finance systems should be designed to provide children, regardless of where
+they live and attend school, with equal opportunity to achieve some constitutionally adequate level of outcomes (Baker &
+Green, 2008, 2009a, 2015). Much is embedded in this statement, and it is helpful to unpack it, one layer at a time.
+The main concerns of advocates, policymakers, academics, and state courts from the 1960s through the 1980s were
+to (a) reduce the overall variation in per pupil spending across local public school districts and (b) disrupt the extent to
+which that spending variation was related to differences in taxable property wealth across districts; that is, the goal was
+to achieve more equal dollar inputs, or nominal spending equity, coupled with fiscal neutrality, or reducing the correlation
+between local school resources and local property wealth. Although modern goals of providing equal opportunity and
+achieving educational adequacy are more complex and loftier than mere spending equity or fiscal neutrality, achieving
+the more basic goals remains relevant and still elusive in many states (Baker, 2014).
+An alternative to nominal spending equity is to look at the real resources provided across children and school districts: the programs and services, staffing, materials, supplies and equipment, and educational facilities provided. (Still,
+the emphasis is on equal provision of these inputs.)7 Providing real resource equity may, in fact, require that per pupil
+spending not be perfectly equal if, for example, resources such as similarly qualified teachers come at a higher price (competitive wage) in one region than in another. Real resource parity is more meaningful than mere dollar equity. Furthermore,
+if one knows how the prices of real resources differ, one can better compare the value of the school dollar from one location
+to the next (Baker & Levin, 2014).
+Modern conceptions of equal educational opportunity and educational adequacy shift emphasis away from schooling
+inputs and onto schooling outcomes and, more specifically, equal opportunity to achieve some level of educational outcomes. References to broad outcome standards in the school finance context often emanate from the seven standards8
+articulated in Rose v. Council for Better Education, a school funding adequacy case in 1989 in Kentucky argued by scholars
+to be the turning point from equity toward adequacy in school finance legal theory (Clune, 1994). These days, a commonly referenced outcome standard is that students completing elementary and secondary education should be college
+ready (Partnership for Assessment of Readiness for Colleges and Careers, 2011).
+There are two separable but often integrated goals here: equal opportunity and educational adequacy. The first goal is
+achieved where all students are provided the real resources to have equal opportunities to achieve some common level of
+educational outcomes. Because children come to school with varied backgrounds and needs, striving for common goals
+requires moving beyond mere equitable provision of real resources. For example, children with disabilities and children
+with limited English language proficiency may require specialized resources (personnel), programs, materials, supplies,
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+5
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+and equipment. Schools and districts serving larger shares of these children may require substantively more funding
+to provide these resources. Furthermore, where poverty is highly concentrated, smaller class sizes and other resourceintensive interventions may be required to strive for those outcomes commonly achieved by the state’s average child.
+Meanwhile, conceptions of educational adequacy require that policymakers determine the desired level of outcome
+to be achieved. It may well be that the outcomes achieved by the average child are deemed to be sufficient. But it may
+also be the case that the preferences of policymakers or a specific legal mandate are somewhat higher (or lower) than the
+outcomes achieved by the average child. Essentially, adequacy conceptions attach a “level” of outcome expectation to the
+equal educational opportunity concept.
+Modern state school finance formulas—aid distribution formulas—strive to achieve two simultaneous objectives:
+(a) accounting for differences in the costs of achieving equal educational opportunity across schools and districts and
+(b) accounting for differences in the ability of local public school districts to cover those costs. Local district ability to
+raise revenues might be a function of either or both local taxable property wealth and the incomes of local property
+owners, thus their ability to pay taxes on their properties.
+In a typical state school finance formula, it is implied that some basic funding level should be sufficient for producing a
+given level of student outcomes in an average school district. It is then assumed that if one wishes to produce a higher level
+of outcomes, the foundation level should be increased. In short, it costs more to achieve higher outcomes (Duncombe &
+Yinger, 1999), and the foundation level in a state school finance formula is the tool used for determining the overall level
+of support to be provided.
+Furthermore, it is assumed that resource levels may be adjusted to permit districts in different parts of a state to recruit
+and retain teachers of comparable quality; that is, the wages paid to teachers affect who will be willing to work in any given
+school. In other words, teacher wages affect teacher quality, and in turn, they affect school quality and student outcomes.
+This is plain common sense, and this teacher wage effect operates at two levels. First, in general, teacher wages must be
+sufficiently competitive with other career opportunities for similarly educated individuals. The overall competitiveness of
+teacher wages affects the overall academic quality of those who choose to enter teaching (Allegretto, Corcoran, & Mishel,
+2008; Ferguson, 1991; Figlio, 1997, 2002; Figlio & Rueben, 2001; Loeb & Page, 2000; Murnane & Olsen, 1989). Second, the
+relative wages for teachers across local public school districts determine the distribution of teaching quality (Clotfelter,
+Glennie, Ladd, & Vigdor, 2008; Clotfelter, Ladd, & Vigdor, 2011; Lankford, Loeb, & Wyckoff, 2002; Ondrich et al., 2008).
+Districts with more favorable working conditions (more desirable facilities, fewer students from low-income families and
+minority students) can pay a lower wage and attract the same teacher.
+Finally, student need adjustments in state school finance formulas assume that the additional resources can be leveraged
+to improve outcomes for students from low-income families or students with limited English language proficiency. First,
+note that some share of the additional resources is needed in higher poverty settings simply to provide for “real resource”
+equity—or to pay the wage premium for doing the more complicated job, under less desirable working conditions. Second, resource-intensive strategies such as reduced class sizes in the early grades, high-quality (using qualified teaching
+staff; Barnett, 2003) early childhood programs, intensive tutoring, and extended learning time programs may significantly
+improve outcomes of students from low-income families. And these strategies all come with significant additional costs.
+As such, as a rule of thumb, for a state school finance system to provide equal educational opportunity, that system must
+ensure sufficiently higher resources in higher need (higher poverty) settings than in lower need settings. We characterize
+such a system herein as progressive. By contrast, many state school finance systems barely achieve “flat” funding between
+high- and low-need settings, and still others remain regressive.
+Tracking Indicators of Funding, Key Resources, and Outcomes
+In this section, we explore 20 years of changes in school funding across states in relation to specific educational resources
+and student outcomes. Table 1 summarizes the indicators we explore herein, each intended to illustrate the linkages in our
+conceptual map from state financing to student outcomes. We begin with financial indicators, establishing the connection
+between state and local revenues per pupil and current operating spending per pupil. Data sources are elaborated in
+Appendix B.
+In each case where we measure revenues or expenditures, our data are annual from 1993 to 2012 and are at the level
+of the local public school district. Our intent is, to the extent possible, to create an equated dollar value across settings.
+We use statistical models fit to our district-level data to predict the level of funding available in a K–12 district enrolling
+6
+
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+Table 1 Indicators
+Indicator type
+
+Levels and adequacy
+
+Distribution and equity
+
+Financial inputs
+
+Fiscal Indicator 1: Local revenue per
+pupil for a K–12 district with 10%
+Census poverty, 2,000 or more
+students, in an average wage labor
+market.
+Fiscal Indicator 2: State aid per pupil for
+a K–12 district with 10% Census
+poverty, 2,000 or more students, in an
+average wage labor market.
+Fiscal Indicator 3: Federal aid per pupil
+for a K–12 district with 10% Census
+poverty, 2,000 or more students, in an
+average wage labor market.
+Fiscal Indicator 4: Current spending per
+pupil for a K–12 district with 10%
+Census poverty, 2,000 or more
+students, in an average wage labor
+market.
+
+Real resources
+
+Resource Input 1: Teachers per 100 pupils
+for a K–12 district with 10% Census
+poverty, 2,000 or more students, in an
+average wage labor market.
+Resource Input 2: Competitive wage
+ratio. Predicted wage of elementary
+and secondary teachers divided by
+predicted wage of nonteachers
+working in the same state, with
+master’s degree, at specific ages.
+
+Outcomes
+
+Outcome Level Indicator 1: Low-income
+students’ performance level.
+Standardized difference between
+actual and expected NAEP scale
+score for students from low-income
+families (given mean income of
+low-income families).
+
+Input Equity Indicator 1: Current spending fairness ratio.
+Predicted current spending per pupil for a district with 30%
+poverty divided by predicted current spending per pupil for
+a district with 0% poverty, for K–12 districts with 2,000 or
+more students, in an average wage labor market.
+• Current spending fairness ratio of 1.2 indicates that a
+high-poverty district is expected to have 20% higher per
+pupil spending than a low-poverty district, and the system is
+progressive.
+• Current spending fairness ratio of 0.80 indicates that a
+high-poverty district is expected to have only 80% of the
+spending of a low-poverty district, and the system is
+regressive.
+Input Equity Indicator 2: State and local revenue fairness ratio.
+Predicted state and local revenue per pupil for a district with
+30% poverty divided by predicted state and local revenue per
+pupil for a district with 0% poverty, for K–12 districts with
+2,000 or more students, in an average wage labor market.
+• State and local revenue fairness ratio of 1.2 indicates that a
+high-poverty district is expected to have 20% higher per
+pupil revenue than a low-poverty district, and the system is
+progressive.
+• State and local revenue fairness ratio of 0.80 indicates that a
+high-poverty district is expected to have only 80% of the
+revenue of a low-poverty district, and the system is
+regressive.
+Input Equity Indicator 3: Teachers per 100 pupils fairness ratio.
+Predicted teachers per 100 pupils for a district with 30%
+poverty divided by predicted teachers per 100 pupils for a
+district with 0% poverty, for K–12 districts with 2,000 or
+more students, in an average wage labor market.
+• Teachers per 100 pupils fairness ratio of 0.80 indicates that a
+high-poverty district is expected to have 80% of the teachers
+per 100 pupils of a low-poverty district, and the system is
+regressive.
+• Teachers per 100 pupils fairness ratio of 1.2 indicates that a
+high-poverty district is expected to have 20% higher teachers
+per 100 pupils than a low-poverty district, and the system is
+progressive.
+Outcome Gap Indicator 1: Low-income achievement gap.
+Standardized difference in NAEP mean scale scores of
+children from low-income families (children with free lunch)
+versus children from non-low-income families, corrected for
+differences in the mean income levels of the two groups.
+Outcome Gap Indicator 2: Income achievement effect. Statistical
+relationship across schools within states between school-level
+concentration of children from low-income families and
+school-level expected NAEP mean scale score.
+
+Note. NAEP = National Assessment of Educational Progress.
+
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+7
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+at least 2,000 pupils, in an average competitive wage (national mean) labor market and at varied levels of child poverty
+concentration. Our goals are twofold: (a) to have comparable predicted resource measures across states at fixed poverty
+rates and (b) to have indicators of the extent to which funding varies across districts by poverty concentration within
+states. Statistical models are presented in Appendix C. All of our fiscal input indicators apply the same approach.
+Next we move to real resource indicators. The first real resource indicator we explore is a staffing quantity measure:
+numbers of teaching staff per 100 pupils. We opt for this measure in place of the more common pupil-to-teacher ratio (its
+inverse) because this measure moves in the same direction as our other measures—wherein higher levels on the measure
+indicate more resources per pupil. Our staffing quantity indicators are constructed by the same method as our financial
+indicators: Using annual district-level data, we predict teachers per 100 pupils across states at a fixed district poverty rate
+and within states at varied district poverty rates.
+We also explore the relative competitiveness of teacher wages across states using U.S. Census data on individuals holding
+a bachelor’s or master’s degree and between the ages of 25 and 45 years. We use these data to estimate the relative annual
+wage of elementary and secondary teachers to nonteachers, at constant age and degree level. This indicator serves as
+a measure of the relative adequacy of teacher wages across states. We can expect, for example, that in states in which
+teacher wages are more comparable to other employment options, individuals may be more likely to choose teaching as
+a career. But, because we do not know the school districts in which these individuals teach, we are unable to evaluate the
+distribution of teacher wages with respect to school district child poverty concentration.
+Finally, for our outcome measures, we rely on the National Assessment of Educational Progress (NAEP). For state
+performance levels, we focus specifically on the mean performance of children from low-income families. But, because
+the mean performance of children from low-income families varies with respect to the income levels of children from
+low-income families across states, we re-express NAEP average performance to account for these differences. That is, the
+income level of low-income families varies by state. In states where that income level is higher, NAEP tends to be higher,
+and vice versa. We condition the average performance on the average income levels of students from low-income families
+in the state and express performance levels as standardized differences between the expected performance level (given
+income levels) and actual performance levels (see Appendix C for more information on variable construction).
+We make similar adjustments to our achievement gap measures; that is, we start with a simple measure of the achievement gap—mean performance difference—between children from families who do not qualify for free lunch and children
+from families who do qualify for free lunch. But the income gap between these groups varies by state. Furthermore,
+states with bigger income gaps between low-income and non-low-income families tend to have bigger performance gaps
+between these same groups (correlations in Appendix D). Our approach is to condition our achievement gap measures on
+the income gap and express achievement gaps as standardized differences between the expected achievement gap (given
+income gap) and actual achievement gap.9
+Public School Revenues Over Time
+We begin by exploring local public school district revenues over time, tracking the following indicators:
+Fiscal Indicator 1: Local revenue per pupil for a K–12 district with 10% Census poverty and 2,000 or more students, in
+an average wage labor market.
+Fiscal Indicator 2: State aid per pupil for a K–12 district with 10% Census poverty and 2,000 or more students, in an
+average wage labor market.
+Fiscal Indicator 3: Federal aid per pupil for a K–12 district with 10% Census poverty and 2,000 or more students, in an
+average wage labor market.
+Fiscal Indicator 4: Current spending per pupil for a K–12 district with 10% Census poverty and 2,000 or more
+students, in an average wage labor market.
+Figure 2 presents the national averages of current spending per pupil and state and local revenues per pupil, adjusted for
+changes in labor costs by dividing each district’s revenue or spending figure by the comparable wage index for that district.
+Both revenues and spending are included to illustrate how the two largely move together over time, as one would expect.
+The Education Comparable Wage Index adjusts for both regional variation in labor costs (input prices) and inflationary
+change in labor costs. Figure 2 shows that, on average, using district-level data weighted by student enrollments, state and
+8
+
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+Current Spending (adj.)
+
+State & Local Revenue (Adj.)
+
+Adjusted per Pupil ($1999)
+
+$9,000
+$8,000
+$7,000
+$6,000
+$5,000
+$4,000
+$3,000
+$2,000
+
+2012
+
+2010
+
+2008
+
+2006
+
+2004
+
+2002
+
+2000
+
+1998
+
+1996
+
+1994
+
+$0
+
+1992
+
+$1,000
+
+Year
+
+Figure 2 Input price-adjusted revenue and spending. Data are from current spending per pupil and state and local revenue per pupil
+from the U.S. Census Fiscal Survey of Local Governments (U.S. Census Bureau, n.d.-a), adjusted by dividing by Education Comparable
+Wage Index (Taylor, 2014).
+
+local revenues, and per pupil spending is up approximately 4.5–5.5% over the period, reaching a high in approximately
+2008 and returning to levels comparable to 2000 by 2012.
+Figure 3 tracks the local, state, and federal revenues per pupil (predicted from our model for a district of constant
+characteristics) for each state from 1993 to 2012. In most cases, federal revenue remains relatively trivial, revealing only
+a small temporary bump when federal stimulus funds flowed in 2010–2011. State and local revenues tend to play counterbalancing roles, most noticeable in states such as New Jersey, New York, and Texas. When state aid is increased,
+pressure is taken off local revenue sources, but when state aid is cut, local revenues are increased by many districts to
+offset their losses. However, with increased dependence on local revenue often comes increased inequity based on variations in local wealth. In many states in Figure 3, state aid cuts in the recent recession were substantial and have not
+rebounded.
+In some states, abrupt policy changes, such as reclassification, recapture, and distribution of property tax revenues,
+lead to abrupt switches in state and local roles. In Vermont and New Hampshire, a share of property tax revenues was
+reclassified as state revenues and redistributed. In Michigan, state sales and sin taxes were dramatically increased in the
+1990s to substitute for property taxes.
+Tracking School Stafﬁng Over Time
+Next we track predicted teachers per 100 pupils over time by state:
+Resource Input 1: Teachers per 100 pupils for a K–12 district with 10% Census poverty and 2,000 or more students, in
+an average wage labor market.
+It is broadly acknowledged that over the past several decades, nationally, pupil-to-teacher ratios have declined, and
+thus numbers of teachers per 100 pupils have climbed (Kena et al., 2015). But there has been little attention to more
+recent trends or how those trends vary by state. Figure 4 presents national trends for all local public school districts, and
+then for K–12 unified school districts and sufficiently large (>2,000 students) K–12 unified districts. Indeed, numbers of
+teachers per 100 pupils are higher than they were in the early 1990s. But since 2008, there has been a significant downturn
+in staffing, which, by 2012, was on average lower than 12 years earlier (in 2000).
+Of course, overall levels and trends in staffing per pupil vary by state. State-level patterns do include some unexplained
+volatility in specific years, but overall patterns are consistent with national averages, wherein staffing per pupil generally
+increased since the early 1990s and has declined in recent years. Some states, such as New Jersey, already had relatively
+high staffing per pupil, whereas others, such as Pennsylvania, did not. Despite national trends, many states, including Wisconsin, Idaho, Oregon, Washington, Colorado, Montana, Utah, and Oklahoma, never experienced substantive increases
+in staffing ratios.
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+9
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+Maryland
+
+New York
+
+Pennsylvania
+
+New Jersey
+
+2010
+
+1990
+
+2000
+
+2010
+
+2020 1990
+
+2000
+
+2010
+
+Louisiana
+
+Mississippi
+
+Texas
+
+2020
+0 2000 4000 6000
+
+2000
+
+0
+
+5000 10000
+
+1990
+
+Alabama
+
+0 2000 4000 6000
+
+Delaware
+
+0
+
+5000 10000
+
+Table 2 summarizes changes to the numbers of teachers per 100 pupils over time. Over the entire 20-year period, nearly
+all states increased numbers of staff per 100 pupils. The state average (unweighted) increase was approximately 1 additional
+teacher per 100 pupils, moving from approximately 5.5 to approximately 6.5 total teachers per 100 pupils. Most of those
+gains occurred prior to 2002. Over the past 10 years, state average staffing increases have been much more modest, and
+over the past 5 years, they have been nonexistent.
+Table 3 displays state-by-state ratios of teachers per 100 pupils and changes in those ratios. States, including
+Alabama and Virginia, appear to have reduced the number of teachers per 100 pupils by more than 1.0 (or by
+
+1990
+
+2020
+
+2000
+
+2010
+
+2020 1990
+
+State Aid
+
+State Aid
+
+Local Revenue
+
+Michigan
+
+Minnesota
+
+Ohio
+
+Wisconsin
+
+0 5000 10000 15000
+
+10000
+
+Indiana
+
+0 5000 10000 15000
+
+0
+
+5000
+
+Illinois
+
+0
+
+5000
+
+10000
+
+Local Revenue
+
+2010
+
+2020 1990
+
+2000
+
+2010
+
+2020 1990
+
+2000
+
+2010
+
+2020
+
+1990
+
+Connecticut
+
+Maine
+
+Massachusetts
+
+New Hampshire
+
+Rhode Island
+
+Vermont
+
+2000
+
+2010
+
+2020 1990
+
+2000
+
+year
+
+2010
+
+2020 1990
+
+2000
+
+2010
+
+2020
+
+year
+
+State Aid
+
+Local Revenue
+
+State Aid
+
+Federal Aid
+
+Local Revenue
+
+Federal Aid
+
+Graphs by state_name
+
+Graphs by state_name
+
+Oregon
+
+2000 4000 6000 8000
+
+Idaho
+
+Iowa
+
+Kansas
+
+Missouri
+
+Nebraska
+
+North Dakota
+
+South Dakota
+
+0
+
+0
+
+2000 4000 6000 8000
+
+2020
+
+Graphs by state_name
+
+Graphs by state_name
+
+2000
+
+2010
+
+Federal Aid
+
+Federal Aid
+
+1990
+
+2000
+
+year
+
+year
+
+2010
+
+2020
+2000 4000 6000 8000
+
+2000
+
+0
+
+0
+
+2000 4000 6000 8000
+
+1990
+Washington
+
+1990
+
+2000
+
+2010
+
+2020
+
+1990
+
+2000
+
+2010
+
+2020 1990
+
+year
+State Aid
+
+2010
+
+2020 1990
+
+2000
+
+2010
+
+2020
+
+year
+Local Revenue
+
+State Aid
+
+Federal Aid
+Graphs by state_name
+
+2000
+
+Local Revenue
+
+Federal Aid
+Graphs by state_name
+
+Figure 3 State revenue trends (excludes Alaska, Hawaii, and Nevada).
+10
+
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+Montana
+
+Utah
+
+Wyoming
+
+Arkansas
+
+Kentucky
+
+Tennessee
+
+West Virginia
+
+Oklahoma
+
+0
+
+0
+
+5000
+
+5000
+
+Colorado
+
+10000
+
+20 Years of Progress in School Funding
+
+10000
+
+B. D. Baker et al.
+
+2000
+
+2010
+
+2020
+
+0
+
+0
+
+5000
+
+5000
+
+10000
+
+10000
+
+1990
+
+1990
+
+2000
+
+2010
+
+20201990
+
+2000
+
+2010
+
+2020
+
+1990
+
+2000
+
+2010
+
+20201990
+
+year
+
+2010
+
+2020
+
+year
+
+State Aid
+
+Local Revenue
+
+State Aid
+
+Federal Aid
+
+Local Revenue
+
+Federal Aid
+
+Graphs by state_name
+
+Graphs by state_name
+
+Georgia
+
+South Carolina
+
+Virginia
+
+North Carolina
+
+Arizona
+
+10000
+
+Florida
+
+California
+
+0
+
+0
+
+5000
+
+2000 4000 6000
+
+2000
+
+2010
+
+2020
+
+1990
+
+2000
+
+2010
+
+2020
+
+New Mexico
+
+10000
+
+2000
+
+0
+
+0
+
+5000
+
+2000 4000 6000
+
+1990
+
+1990
+
+2000
+
+2010
+
+20201990
+
+2000
+
+2010
+
+2020
+
+1990
+
+2000
+
+2010
+
+year
+
+2020
+year
+
+State Aid
+
+Local Revenue
+
+State Aid
+
+Federal Aid
+
+Local Revenue
+
+Federal Aid
+
+Graphs by state_name
+
+Graphs by state_name
+
+Figure 3 Continued
+
+6.60
+
+Teachers per 100 Pupils
+
+6.50
+6.40
+6.30
+6.20
+6.10
+6.00
+All Districts
+K-12 Districts
+K-12 Districs >2,000 Pupils
+
+5.90
+5.80
+5.70
+5.60
+5.50
+
+Year
+
+Figure 4 Teachers per 100 pupils over time.
+
+approximately 13–16%) in recent years (2007–2012). Approximately half of states continued to increase numbers
+of teaching staff per 100 pupils over this time period. Notably, these figures change over time as a function of both
+changing numbers of staff and changing numbers of pupils. States with constant staffing but declining enrollments will
+show increasing staffing ratios; states with increasing enrollment but no additional staff will show decreasing staffing
+ratios.
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+11
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+Table 2 Summary of Staffing Level Changes Over Time
+Period
+
+No. states that improved staffing ratios
+
+State average change
+
+49
+34
+25
+
+1.06
+0.21
+0.03
+
+1993–2012
+2002–2012
+2007–2012
+Table 3 Predicted Staffing Ratios for Select Years
+
+Teachers per 100 pupils
+
+Change over time
+
+State
+
+1993
+
+2002
+
+2007
+
+2012
+
+1993–2007
+
+20-year
+change
+
+10-year
+change
+
+5-year
+change
+
+Alabama
+Alaska
+Arizona
+Arkansas
+California
+Colorado
+Connecticut
+Delaware
+District of Columbia
+Florida
+Georgia
+Hawaii
+Idaho
+Illinois
+Indiana
+Iowa
+Kansas
+Kentucky
+Louisiana
+Maine
+Maryland
+Massachusetts
+Michigan
+Minnesota
+Mississippi
+Missouri
+Montana
+Nebraska
+Nevada
+New Hampshire
+New Jersey
+New Mexico
+New York
+North Carolina
+North Dakota
+Ohio
+Oklahoma
+Oregon
+Pennsylvania
+Rhode Island
+South Carolina
+South Dakota
+Tennessee
+Texas
+Utah
+Vermont
+Virginia
+Washington
+West Virginia
+Wisconsin
+Wyoming
+
+5.58
+5.60
+4.99
+5.57
+4.03
+5.12
+6.71
+5.77
+5.57
+5.59
+5.30
+4.90
+4.81
+5.42
+5.33
+5.66
+6.06
+5.45
+5.81
+6.49
+5.90
+6.28
+4.86
+5.38
+5.24
+5.44
+4.91
+5.91
+5.47
+5.96
+7.04
+5.24
+6.52
+5.72
+5.17
+5.41
+5.53
+4.90
+5.43
+6.96
+5.56
+5.52
+4.80
+5.75
+4.17
+5.48
+6.24
+5.56
+6.19
+5.73
+6.03
+
+6.41
+5.76
+5.26
+6.66
+4.89
+5.89
+7.37
+6.54
+7.78
+5.49
+6.48
+6.08
+5.34
+6.14
+5.83
+6.71
+6.68
+6.00
+7.04
+7.43
+6.45
+8.24
+5.54
+6.20
+6.10
+6.62
+5.63
+6.65
+5.90
+6.84
+7.78
+6.66
+7.45
+6.56
+6.26
+6.38
+6.06
+4.96
+6.25
+7.23
+6.68
+6.30
+6.45
+6.91
+4.67
+7.00
+7.45
+5.20
+6.79
+6.79
+7.51
+
+7.76
+5.77
+5.43
+6.55
+4.85
+5.93
+6.92
+6.60
+7.74
+6.25
+7.16
+6.42
+5.39
+5.84
+5.62
+6.92
+6.89
+6.50
+7.21
+8.04
+7.22
+7.61
+5.56
+6.08
+6.56
+6.77
+5.86
+6.88
+5.87
+7.48
+8.26
+6.68
+7.97
+7.45
+6.99
+5.67
+6.05
+4.18
+6.59
+7.70
+7.02
+6.52
+6.47
+6.95
+4.61
+7.59
+8.92
+5.30
+5.70
+6.70
+7.66
+
+6.68
+6.06
+5.50
+6.56
+4.40
+5.67
+8.02
+6.95
+8.46
+7.01
+6.79
+6.57
+5.54
+6.39
+5.85
+6.66
+7.39
+6.17
+7.10
+7.64
+7.13
+7.35
+5.36
+6.09
+6.56
+6.84
+5.98
+6.94
+5.81
+7.29
+8.22
+6.45
+8.10
+6.60
+7.40
+5.76
+5.84
+4.72
+7.10
+8.57
+6.50
+6.45
+6.75
+6.73
+4.38
+7.49
+7.54
+5.13
+7.08
+6.58
+7.94
+
+2.18
+0.18
+0.44
+0.98
+0.83
+0.81
+0.21
+0.83
+2.17
+0.66
+1.87
+1.52
+0.58
+0.43
+0.29
+1.27
+0.84
+1.05
+1.40
+1.55
+1.32
+1.33
+0.69
+0.70
+1.32
+1.33
+0.95
+0.97
+0.40
+1.52
+1.22
+1.44
+1.45
+1.73
+1.82
+0.26
+0.52
+−0.71
+1.16
+0.74
+1.46
+1.00
+1.67
+1.19
+0.44
+2.11
+2.68
+−0.26
+−0.50
+0.97
+1.63
+
+1.09
+0.46
+0.51
+0.99
+0.37
+0.55
+1.31
+1.18
+2.90
+1.42
+1.49
+1.67
+0.73
+0.98
+0.52
+1.00
+1.33
+0.72
+1.29
+1.15
+1.24
+1.07
+0.50
+0.71
+1.32
+1.40
+1.07
+1.04
+0.34
+1.33
+1.19
+1.21
+1.58
+0.88
+2.22
+0.35
+0.31
+−0.18
+1.67
+1.62
+0.93
+0.93
+1.96
+0.98
+0.21
+2.01
+1.30
+−0.43
+0.89
+0.85
+1.91
+
+0.27
+0.30
+0.24
+−0.10
+−0.50
+−0.22
+0.65
+0.41
+0.68
+1.52
+0.31
+0.49
+0.20
+0.25
+0.02
+−0.05
+0.70
+0.17
+0.06
+0.21
+0.68
+−0.90
+−0.17
+−0.12
+0.45
+0.23
+0.35
+0.30
+−0.08
+0.45
+0.44
+−0.22
+0.65
+0.04
+1.14
+−0.62
+−0.22
+−0.24
+0.86
+1.34
+−0.18
+0.15
+0.30
+−0.18
+−0.30
+0.50
+0.09
+−0.07
+0.29
+−0.21
+0.43
+
+−1.09
+0.29
+0.07
+0.01
+−0.46
+−0.26
+1.10
+0.35
+0.72
+0.77
+−0.38
+0.15
+0.15
+0.55
+0.23
+−0.27
+0.49
+−0.33
+−0.11
+−0.40
+−0.08
+−0.26
+−0.19
+0.01
+0.00
+0.07
+0.12
+0.07
+−0.05
+−0.19
+−0.04
+−0.23
+0.12
+−0.85
+0.41
+0.09
+−0.21
+0.54
+0.51
+0.87
+−0.53
+−0.07
+0.29
+−0.22
+−0.23
+−0.10
+−1.38
+−0.17
+1.38
+−0.12
+0.28
+
+12
+
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+Spending Levels and Staffing Levels 2011-12
+
+9
+
+RI
+
+Teachers per 100 Pupils
+
+8.5
+8
+KS
+
+7.5
+
+FL
+MO
+TN GA
+TX
+AL IA
+AR
+MSNC SC
+SD
+NM
+
+7
+6.5
+
+KY
+IN
+
+OK
+
+6
+ID
+
+CO
+AZ
+
+4.5
+
+WY
+
+NY
+
+ME
+ND
+
+LA WV
+NE
+WI
+IL
+
+VT
+MA
+NH
+MD
+PA
+DE
+
+HI
+
+MN
+MT
+NV
+OH
+
+AK
+
+MI
+WA
+
+5.5
+5
+
+VA
+
+DC
+NJ
+CT
+
+OR
+
+UT
+
+4
+4000
+
+CA
+
+6000
+
+R2 = 0.4852
+
+8000
+
+10000
+
+12000
+
+14000
+
+16000
+
+18000
+
+Current Spending per Pupil (Constant 1999)
+
+Figure 5 Spending levels and staffing levels, 2011–2012, showing line of best fit.
+Table 4 Summary of Changes in Wage Competitiveness
+Period
+
+No. states that increased wage competitiveness
+
+State mean change (%)
+
+1
+3
+1
+
+−12
+−9
+−8
+
+2000–2012
+2000–2007
+2007–2012
+
+The Relationship Between Stafﬁng Levels and Funding Levels
+As one might assume, more staffing per pupil requires more spending per pupil (unless, of course, wages are cut substantially). Figure 5 conveys that states with higher per pupil spending tend, on average, to have more teachers per 100
+pupils; that is, on balance, across states, higher spending on schools is leveraged to increase staffing quantities. Perhaps
+more important, however, is whether these increased overall staffing quantities translate into decreased class sizes, where
+research literature has tended to point to more positive effects on student outcomes (see Baker, 2012; Schanzenbach, 2014).
+Competitive Teacher Wages Over Time
+Next, we summarize our competitive wage index over time for each state for 25- and 45-year-olds. Our index measures
+the ratio of predicted teacher wages to nonteacher wages for each state at constant age and degree level. Focusing on ages
+25 and 45 years allows us to examine the competitiveness of wages for those just entering the profession and again at
+mid-career.
+Resource Input 2: Competitive wage ratio. Predicted annual wage of elementary and secondary teachers divided by
+predicted wage of nonteachers working in the same state, with master’s degree, at specific ages.
+Table 4 summarizes changes to the state average competitiveness of teacher wages over the past 12 years, and then for
+the most recent 5 years. Wage competitiveness is expressed as a ratio of teacher wage to nonteacher wages. A ratio less than
+1.0 means that teachers earn less than comparable nonteachers. It is important to understand in this case that there are two
+moving parts: teacher wages and nonteacher wages. Teacher wages can become more competitive if they remain relatively
+constant, but wages of others (at the same age and education level) decline. Teacher wages can become less competitive
+even if they appear to grow, but grow more slowly than wages in other sectors. Put simply, it is all relative, but it is the
+relative wage that matters.
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+13
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+From 2000 to 2012, teacher wages in every state became less competitive based on our model, a finding that is consistent
+with similar work by Allegretto, Corcoran, and Mishel (2011). It would appear that over the last 5 years, only in Iowa did
+teacher wages become marginally more competitive. Over the 12-year period, the state average (unweighted) reduction in
+wage competitiveness was 12%. Over the period from 2007 to 2012, the state average reduction in wage competitiveness
+was 8%.
+But, as can be seen in Table 5, these estimates tend to jump around, especially in low-population states such as Alaska.
+States with persistently noncompetitive teacher wages include Colorado and Arizona. Teacher wages have tended over
+time to be more competitive in rural states (where nonteacher wages are not as high), including Montana and Wyoming.
+Average teacher wages in New York and Rhode Island have also tended to be more competitive.
+Relationship Between Teacher Wages and Funding Levels
+Figure 6 shows that, on average, states with higher current operating spending tend to have more competitive teacher
+wages. Coupled with previous analyses, this figure affirms the assumption that where current spending per pupil is higher,
+school districts have more competitively compensated staff. States including Utah, California, and Arizona suffer from
+persistently low spending, leading to a combination of low staffing ratios and less competitive teacher wages. By contrast,
+higher spending states such as New York, New Jersey, and Wyoming tend to have both more competitive teacher wages
+and higher staffing ratios. Again, these are state averages, which do not speak to whether money, teachers, or their wages
+are distributed equitably across children in these states.
+Spending and Stafﬁng Fairness Over Time
+Here, we begin exploring within-state distributions of resources across local public school districts by the concentration
+of child poverty in those school districts. We explore our fairness ratio indicators:
+Input Equity Indicator 1: Current spending fairness ratio. Predicted current spending per pupil for a district with 30%
+poverty divided by predicted current spending per pupil for a district with 0% poverty, for K–12 districts with 2,000
+or more students, in an average wage labor market.
+•
+•
+
+A current spending fairness ratio of 1.2 indicates that a high-poverty district is expected to have 20% higher per
+pupil spending than a low-poverty district, and the system is progressive.
+A current spending fairness ratio of 0.80 indicates that a high-poverty district is expected to have only 80% of the
+spending of a low-poverty district, and the system is regressive.
+Input Equity Indicator 2: State and local revenue fairness ratio. Predicted state and local revenue per pupil for a
+district with 30% poverty divided by predicted state and local revenue per pupil for a district with 0% poverty,
+for K–12 districts with 2,000 or more students, in an average wage labor market.
+
+•
+•
+
+A state and local revenue fairness ratio of 1.2 indicates that a high-poverty district is expected to have 20% higher
+per pupil revenue than a low-poverty district, and the system is progressive.
+A state and local revenue fairness ratio of 0.80 indicates that a high-poverty district is expected to have only 80% of
+the revenue of a low-poverty district, and the system is regressive.
+Input Equity Indicator 3: Staffing ratio (teachers per 100 pupils) fairness. Predicted staffing ratio for a district with
+30% poverty divided by predicted staffing ratio for a district with 0% poverty, for K–12 districts with 2,000 or
+more students, in an average wage labor market
+
+•
+•
+
+A staffing ratio fairness ratio of 1.2 indicates that a high-poverty district is expected to have a 20% higher staffing
+ratio than a low-poverty district, and the system is progressive.
+A staffing ratio fairness ratio of 0.80 indicates that a high-poverty district is expected to have 80% of the staffing
+ratio of a low-poverty district, and the system is regressive.
+
+Figure 7 tracks, side by side, the fairness indexes for (a) state and local revenue per pupil, (b) current spending per
+pupil, and (c) staffing ratios. When the revenue or spending fairness index is at the horizontal line (1.0), a local public
+14
+
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+Table 5 Teacher/Nonteacher Wage Ratios for Select Years
+Wage competitiveness
+ratio (teacher/nonteacher; %)
+
+Change over time (%)
+
+State
+
+2000
+
+2002
+
+2007
+
+2012
+
+12-year
+change
+
+10-year
+change
+
+5-year
+change
+
+Alabama
+Alaska
+Arizona
+Arkansas
+California
+Colorado
+Connecticut
+Delaware
+District of Columbia
+Florida
+Georgia
+Hawaii
+Idaho
+Illinois
+Indiana
+Iowa
+Kansas
+Kentucky
+Louisiana
+Maine
+Maryland
+Massachusetts
+Michigan
+Minnesota
+Mississippi
+Missouri
+Montana
+Nebraska
+Nevada
+New Hampshire
+New Jersey
+New Mexico
+New York
+North Carolina
+North Dakota
+Ohio
+Oklahoma
+Oregon
+Pennsylvania
+Rhode Island
+South Carolina
+South Dakota
+Tennessee
+Texas
+Utah
+Vermont
+Virginia
+Washington
+West Virginia
+Wisconsin
+Wyoming
+
+83
+89
+79
+82
+79
+81
+78
+82
+74
+85
+76
+95
+93
+77
+87
+86
+87
+84
+78
+90
+80
+77
+93
+84
+86
+83
+100
+86
+93
+78
+86
+77
+83
+80
+87
+80
+80
+93
+94
+92
+86
+82
+86
+77
+99
+90
+76
+79
+89
+94
+106
+
+83
+104
+74
+84
+82
+75
+82
+87
+85
+82
+76
+83
+92
+78
+85
+87
+80
+80
+78
+79
+77
+72
+88
+80
+81
+76
+98
+82
+85
+82
+81
+82
+80
+79
+86
+79
+78
+82
+92
+87
+89
+88
+74
+78
+93
+91
+75
+78
+79
+88
+91
+
+77
+118
+70
+82
+82
+70
+76
+83
+74
+80
+74
+81
+86
+79
+80
+83
+77
+78
+79
+90
+78
+77
+94
+75
+78
+78
+93
+78
+84
+75
+82
+85
+82
+75
+77
+82
+76
+86
+85
+94
+77
+78
+76
+73
+79
+95
+72
+74
+79
+84
+99
+
+71
+85
+62
+74
+75
+68
+71
+75
+68
+73
+68
+77
+72
+73
+70
+85
+70
+71
+75
+81
+75
+69
+78
+71
+72
+68
+74
+77
+82
+73
+76
+78
+81
+67
+70
+75
+67
+75
+80
+78
+73
+68
+66
+69
+71
+75
+63
+69
+77
+76
+94
+
+−12
+−4
+−18
+−7
+−5
+−13
+−7
+−7
+−7
+−11
+−8
+−17
+−21
+−4
+−17
+−1
+−17
+−13
+−4
+−9
+−4
+−8
+−15
+−13
+−13
+−16
+−26
+−10
+−11
+−5
+−10
+1
+−2
+−13
+−17
+−5
+−13
+−17
+−13
+−13
+−13
+−15
+−20
+−8
+−28
+−15
+−14
+−11
+−12
+−18
+−12
+
+−12
+−19
+−13
+−10
+−7
+−6
+−11
+−13
+−18
+−8
+−8
+−6
+−20
+−5
+−15
+−2
+−10
+−9
+−3
+2
+−2
+−3
+−10
+−10
+−9
+−9
+−24
+−6
+−3
+−9
+−5
+−4
+1
+−12
+−17
+−4
+−11
+−7
+−12
+−8
+−16
+−21
+−9
+−9
+−22
+−16
+−12
+−9
+−3
+−12
+3
+
+−6
+−33
+−9
+−8
+−7
+−2
+−5
+−9
+−6
+−6
+−5
+−4
+−13
+−6
+−10
+3
+−7
+−7
+−5
+−9
+−3
+−8
+−16
+−5
+−6
+−11
+−19
+−2
+−3
+−2
+−6
+−7
+−1
+−8
+−7
+−7
+−9
+−11
+−5
+−16
+−4
+−10
+−10
+−4
+−8
+−20
+−10
+−5
+−2
+−8
+−5
+
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+15
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+Spending Levels & Competitive Wages
+
+Teacher to Non-Teacher Wage Ratio [age 45]
+
+1
+WY
+
+0.95
+0.9
+AK
+
+IA
+
+0.85
+
+NV
+
+0.8
+
+NM
+
+0.75
+UT
+
+MI
+
+OH
+CA OR
+AR
+MTLA
+FL SC
+ALKY MN
+IN KS
+TX CO
+WA
+SDGA MO
+OKNC
+TN
+
+NEWV
+WI
+
+ID MS
+
+0.7
+0.65
+
+ME
+PA
+
+NY
+RI
+
+HI
+
+NJ
+
+MDE
+VT
+NH
+
+IL
+ND
+
+CT
+MA
+
+DC
+
+VA
+
+AZ
+
+0.6
+0.55
+0.5
+4000
+
+6000
+
+8000
+
+10000
+
+12000
+
+14000
+
+16000
+
+18000
+
+Current Spending per Pupil
+
+R2 = 0.2547
+
+Figure 6 Spending levels and competitive wages showing line of best fit.
+
+Maryland
+
+New York
+
+Pennsylvania
+
+New Jersey
+
+Alabama
+
+Louisiana
+
+Mississippi
+
+Texas
+
+.8
+
+0
+
+1
+
+.5
+
+1
+
+1.5
+
+1.2 1.4
+
+Delaware
+
+2000
+
+2010
+
+2020
+
+0
+
+.8
+
+.5
+
+1
+
+1
+
+1.5
+
+1.2 1.4
+
+1990
+
+1990
+
+2000
+
+2010 2020 1990
+
+2000
+2010
+year
+
+State & Local Rev Fairness
+Staffing Fairness
+
+2020
+
+1990
+
+2000
+
+Spending Fairness
+
+2010
+
+2020 1990
+year
+
+State & Local Rev Fairness
+Staffing Fairness
+
+Graphs by state_name
+
+2000
+
+2010
+
+2020
+
+Spending Fairness
+
+Graphs by state_name
+
+Indiana
+
+Michigan
+
+Minnesota
+
+Ohio
+
+Wisconsin
+
+Connecticut
+
+Maine
+
+Massachusetts
+
+New Hampshire
+
+Rhode Island
+
+Vermont
+
+.5
+.5
+
+.5
+
+1
+
+1
+
+1.5
+
+2
+
+1.5
+
+.5
+
+1
+
+1
+
+1.5
+
+2
+
+1.5
+
+Illinois
+
+1990
+
+2000
+
+2010
+
+2020 1990
+
+2000
+2010
+year
+
+State & Local Rev Fairness
+Staffing Fairness
+
+2020 1990
+
+2000
+
+2010
+
+2020
+
+Spending Fairness
+
+Graphs by state_name
+
+1990
+
+2000
+
+2010
+
+2020 1990
+
+2000
+2010
+year
+
+State & Local Rev Fairness
+Staffing Fairness
+
+2020 1990
+
+2000
+
+2010
+
+2020
+
+Spending Fairness
+
+Graphs by state_name
+
+Figure 7 Fairness indices (excludes Alaska, Hawaii, Nevada).
+
+16
+
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+Oregon
+
+Iowa
+
+Kansas
+
+Missouri
+
+Nebraska
+
+North Dakota
+
+South Dakota
+
+1990
+
+2000
+
+2010
+
+2020
+
+2
+.5
+
+1
+
+1.5
+
+.8 1 1.2 1.4 1.6
+
+Washington
+
+.5
+
+1
+
+1.5
+
+2
+
+.8 1 1.2 1.4 1.6
+
+Idaho
+
+1990
+
+2000
+
+2010
+
+2020
+year
+
+1990
+
+State & Local Rev Fairness
+Staffing Fairness
+
+2000
+
+Spending Fairness
+
+2010
+
+2020 1990
+
+2000
+2010
+year
+
+State & Local Rev Fairness
+Staffing Fairness
+
+Graphs by state_name
+
+2020 1990
+
+2000
+
+2010
+
+2020
+
+Spending Fairness
+
+Graphs by state_name
+Montana
+
+Utah
+
+Wyoming
+
+Arkansas
+
+Kentucky
+
+Tennessee
+
+West Virginia
+
+Oklahoma
+
+.5
+
+.8
+
+1
+
+1
+
+1.5
+
+2
+
+1.2 1.4
+
+Colorado
+
+2000
+
+2010
+
+2020
+
+.8
+
+.5
+
+1
+
+1
+
+1.5
+
+1.2 1.4
+
+2
+
+1990
+
+1990
+
+2000
+
+2010
+
+2020 1990
+year
+
+2000
+
+State & Local Rev Fairness
+Staffing Fairness
+
+2010
+
+2020
+
+1990
+
+Spending Fairness
+
+2010
+
+2020 1990
+
+2000
+2010
+year
+
+State & Local Rev Fairness
+Staffing Fairness
+
+Graphs by state_name
+
+2020
+Spending Fairness
+
+Graphs by state_name
+
+Florida
+
+Georgia
+
+South Carolina
+
+Virginia
+
+North Carolina
+
+Arizona
+
+California
+
+.5
+
+.8
+
+1
+
+1
+
+1.2 1.4
+
+1.5
+
+2000
+
+2000
+
+2010
+
+2020
+
+1990
+
+2000
+
+2010
+
+2020
+
+New Mexico
+
+.5
+
+.8
+
+1
+
+1
+
+1.2 1.4
+
+1.5
+
+1990
+
+1990
+
+2000
+
+2010 2020 1990
+
+2000
+2010
+year
+
+State & Local Rev Fairness
+Staffing Fairness
+Graphs by state_name
+
+2020
+Spending Fairness
+
+1990
+
+2000
+
+2010
+
+2020
+year
+
+State & Local Rev Fairness
+Staffing Fairness
+
+Spending Fairness
+
+Graphs by state_name
+
+Figure 7 Continued
+
+school district serving a high-poverty population would be expected to have comparable funding to a district serving a
+low-poverty population. When the revenue or spending fairness index rises above 1.0, higher poverty districts can be
+expected to have more funding than lower poverty ones.
+Figure 7 shows, for example, for New Jersey, that revenue and spending fairness climbed from approximately 1998
+to 2006, then leveled off and, more recently, plummeted back to a near-flat distribution. During that same time period,
+staffing ratio fairness also improved but has since regressed. The profile over time for Massachusetts is similar to that
+of New Jersey but does not climb as high or fall as far. A state that has made significant gains, from regressive to progressive, over time is Louisiana, with dramatically scaled-up funding to New Orleans area schools following Hurricane
+Katrina. By contrast, states including Pennsylvania and Illinois display persistently regressive patterns over the 20-year
+period.
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+17
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+Table 6 States Improving Funding Fairness
+Initial fairness ratio
+among improved states
+Period
+
+No. states that
+improved fairness
+
+<0.95
+
+0.95–1.05
+
+>1.05
+
+33
+23
+21
+
+4
+3
+2
+
+9
+3
+4
+
+20
+17
+15
+
+1993–2012
+2002–2012
+2007–2012
+
+Spending Fairness & Staffing Fairness 2011-12
+Teachers per 100 Pupils Fairness Ratio
+
+1.6
+ND
+1.5
+1.4
+NH
+
+1.3
+1.2
+
+OH
+MA
+AR
+MT
+MI
+WA
+WV
+ID
+IA NJ
+COOK
+SC
+NMLANE
+KYNC
+MO
+GA
+TN
+MS
+NY AZ MD TX
+DE
+CA
+KS
+OR
+DC
+AL
+HI
+ME VA
+CT
+PA
+IL
+FL
+VT
+WI
+RI
+WY
+
+1.1
+1
+
+0.9
+0.8
+0.8
+
+R2 = 0.3633
+
+1
+
+1.2
+
+1.4
+
+UT
+
+MN
+SD
+
+IN
+AK
+
+1.6
+
+1.8
+
+2
+
+Current Spending per Pupil Fairness Ratio
+
+Figure 8 Spending fairness and staffing fairness, 2011–2012, showing line of best fit.
+
+Numbers of Winners and Losers Over Time
+So what, then, have been the consequences of the economic downturn for school spending fairness across states? That is,
+how have higher poverty districts been differentially affected when compared with lower poverty ones? Table 6 summarizes numbers of states where funding fairness improved over specific time periods over the past 20 years. Again, a funding
+fairness ratio of 0.95 means that the district with 30% children in poverty10 has only 95% of the funding of a district with
+0% children in poverty. A fairness ratio of 1.05 indicates that a district with 30% poverty has 5% greater funding than a
+district with 0% poverty.
+From 1993 to 2007 in particular, 40 states experienced increased funding levels in higher poverty districts relative to
+lower poverty ones. But in the 5 years that followed, 30 states reduced funding fairness, with some of the greatest reductions
+coming in states that had previously experienced the greatest improvements, including New Jersey.
+The Relationship Between Spending Fairness and Stafﬁng Fairness
+Figure 8 shows that, in 2012, states with more progressive distribution of current spending also had more progressive
+distribution of staffing; that is, in states where higher poverty districts are able to spend more per pupil than lower poverty
+districts, those higher poverty districts are able to leverage that spending to have more teaching staff per pupil than lower
+poverty districts.
+Tables 7 and 8 clarify the connections from revenue to spending and spending to staffing ratios. Specifically, the
+linear regression models in Table 7 ask whether changes to the level and distribution of state, local, and federal
+revenues (a) are associated with differences across states and over time in spending fairness and (b) are associated
+18
+
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+Table 7 Cross-State Differences and Within-State Changes in Funding Fairness Translated to Spending Fairness
+Within states, over
+time (fixed effects)
+
+Fairness ratios
+State
+Local
+Federal
+Revenue levels (ln)
+State
+Local
+Federal
+Intercept
+R2
+Within
+Between
+Overall
+
+Across and within states,
+over time (random effects)
+
+Coefficient
+
+S.E.
+
+Coefficient
+
+S.E.
+
+0.000
+0.077
+0.022
+
+0.000
+0.019*
+0.001*
+
+0.000
+0.080
+0.022
+
+0.000
+0.019*
+0.001*
+
+0.037
+0.003
+0.063
+0.325
+
+0.014*
+0.015
+0.014*
+0.130*
+
+0.033
+−0.004
+0.069
+0.371
+
+0.014*
+0.014
+0.013*
+0.130*
+
+0.403
+0.342
+0.311
+
+0.403
+0.358
+0.320
+
+*p < .05.
+Table 8 Cross-State Differences and Within-State Changes in Spending Fairness Translated to Pupil/Teacher Ratio Fairness
+Within states, over
+time (fixed effects)
+
+Spending measures
+Spending fairness
+Constant
+R2
+Within
+Between
+Overall
+
+Across and within states,
+over time (random effects)
+
+Coefficient
+
+S.E.
+
+Coefficient
+
+S.E.
+
+0.417
+0.564
+
+0.022*
+0.026*
+
+0.432
+0.546
+
+0.020*
+0.026*
+
+0.278
+0.694
+0.572
+
+0.278
+0.694
+0.572
+
+Note. N = 50 × 20 years.
+*p < .01.
+
+specifically with changes over time in spending fairness (see Appendix C for model specification). Table 7 shows
+that
+•
+•
+•
+
+the level (amount) of state aid provided per pupil positively influences the fairness of current spending per pupil,
+the fairness of local revenue (or degree of unfairness) influences the fairness of current spending per pupil, where
+local revenues are less regressively distributed, current spending variation tends to be less regressive,
+the level (amount) and fairness of federal revenues provided positively influence the fairness of current spending
+per pupil.
+
+In other words, as one might expect, state aid and federal revenue can improve the progressiveness of current spending
+across districts within states. These relationships hold not only across states but also over time. When state aid and federal
+aid are increased, fairness generally increases. But the degrees of disparity in local revenue raising still make a difference.
+Table 8 provides additional evidence that the resulting differences in current spending fairness identified in Table 7
+lead to changes to the distribution of staffing. Like Table 7, Table 8 shows variations both across states and over time.
+Table 8 shows that as the spending fairness index rises over time, the staffing fairness index rises. Within states, over time,
+a 1.0 increase in spending fairness (which would involve doubling the ratio of spending in the highest poverty districts
+compared to the lowest poverty ones) results, on average, in a 0.417 increase in the staffing ratio fairness index.
+In other words, 20 years of data on all states (and all districts in them) validate that increased targeted funding to and
+spending in high-poverty districts within states lead to substantive increases in staffing ratios in those same districts,
+leading to more progressive state educational systems in terms of both funding and staffing. Notably, these relationships
+work in both directions.
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+19
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+If increased targeted funding leads to increase targeted staffing, then so too does decreased targeted funding lead to
+decrease targeted staffing. As discussed earlier, over the past 5 years, and even 10, years, decreases, not increases, have
+been the norm. States have reduced targeted funding to high-need districts and thus reduced targeted staffing to those
+same districts.
+Outcome Gaps Over Time
+Finally, in this section, we begin exploring achievement gaps with respect to household income. Specifically, we explore
+achievement gaps between children from low-income families and children from non-low-income families on the NAEP.
+But, as explained subsequently, we condition those achievement gaps on the income gaps between the two groups. Also,
+as a second indicator, we explore the “regressiveness” of NAEP score distributions across schools within states, that is, to
+what extent are NAEP scores sensitive to differences in school-level child poverty?
+Outcome Gap Indicator 1: Low-income achievement gap. Standardized difference in NAEP mean performance of
+children from low-income families (children with free lunch) versus children from non-low-income families,
+corrected for differences in the mean income levels of the two groups.
+Outcome Gap Indicator 2: Income achievement effect. Statistical relationship across schools within states between
+school-level concentration of children from low-income families (standardized within state) and school-level
+expected NAEP mean performance (conditioned on the average income of the families of students from low-income
+families in each state).11
+A central assumption here is that states that have done a better job of targeting funding, and thus real resources, to
+higher poverty settings over time would be more likely to show a reduction in achievement gaps by children’s family
+income status and reduction of the sensitivity of achievement measures to differences in school-level poverty; that is,
+more progressive resource allocation should lead to less regressive outcome distribution.
+Numerous caveats are in order, and we attempt to address a few common concerns. First, achievement levels of children
+from low-income and non-low-income families across states depend on the income levels of these families, and so, too,
+do the gaps. As explained previously, we correct the achievement gaps for differences in income gaps. In some analyses,
+in which we focus specifically on achievement levels of low-income families, we correct those levels for income levels.
+A second set of concerns is more difficult to address: We have no way of knowing whether children from low-income
+families in the NAEP samples within states over time are attending predominantly low-income school districts in general
+or more specifically high-poverty school districts as measured in our funding distribution measures. That is, if funding
+distributions are considered a “treatment” that might affect outcomes, we are not able, with NAEP outcome data, to identify
+clearly the same “treatment” group.
+We attempt to resolve this problem partially with our second approach to outcome disparity measurement, in which
+we relate school-level low-income concentrations with school-level outcomes. But even then, we do not know that the
+higher and lower poverty schools are clearly aligned with higher and lower poverty districts (though the likelihood is in
+our favor). Finally, our NAEP data are generally biennial, not annual, and span the period from 1998 to 2013, making it
+harder to track changes over time, especially because we do not yet understand well the lag periods over which resource
+changes take hold and reveal themselves in student outcome changes.
+Thus, as is the case with The Black–White Achievement Gap: When Progress Stopped (Barton & Coley, 2010), we are
+only able herein to hypothesize about the connection between state policy contexts, resource distributions, and outcome
+distributions, using scatterplots and regression analyses as descriptive tools to characterize relationships between inputs
+and outcomes across states. Unlike The Black–White Achievement Gap: When Progress Stopped, which focused only on
+national average trends, by focusing on states over time, we are able to take more thorough steps to establish statistical
+relationships between state policy conditions—distributions of resources—and student outcome measures.
+Figure 9 presents plots of our standardized adjusted outcome gap measures over time for all states. Among Mid-Atlantic
+states, outcome gaps appear to decline in all but Pennsylvania, where outcome gaps remain larger than expected, given
+income gaps (above the red horizontal line). Notably, Pennsylvania does have the most persistently regressive funding during this period. In Gulf Coast states, outcome gaps decline in Louisiana, and initially in Texas, but remain flat and generally
+greater than expected in the other states. Some states have consistently larger than expected achievement gaps, including
+20
+
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+Alabama, Illinois, and Wisconsin, whereas others have consistently smaller gaps, including Maine, North Dakota, and
+West Virginia.
+Resource Levels and Outcome Levels
+Our big question is whether these gaps bear any relation to resource distribution differences across states. Figure 10 shows
+the relationship between predicted staffing ratios by state and performance of children from low-income families (relative
+to expectations, given their family income level) in Grade 4 for all states and all years; that is, this figure includes each
+state in each year. The figure shows a small positive correlation (see Figure 16) wherein states (by year) with higher staffing
+ratios tend to have higher adjusted scale scores for fourth graders. What we cannot tell in Figure 10 is the extent to which
+the pattern is driven by (a) differences across states or (b) changes within states over time. Notably, because we have only
+biennial data for just longer than a decade, we simply do not have enough points within states over time to reveal clear
+patterns or trends.
+Figure 11 explores this same relationship using data from 2011 (the final matched year of NAEP and fiscal data as of
+the preparation of this report). Figure 11 shows similar relationships wherein states with higher staffing ratios do tend
+to have higher performance for children from low-income families. Using this approach, however, we cannot rule out
+the possibility that state economic conditions provide simultaneously the opportunity to increase staffing ratios and the
+conditions that tend to lead to higher student outcomes; that is, some other contextual factors might be driving both
+measures.
+Figure 12 explores the cross-state (all years) relationship between relative competitive wages and low-income NAEP
+performance. This relationship is somewhat weaker than the pupil-to-teacher ratio relationship, but perhaps not entirely
+inconsequential. More competitive teacher wage states generally do not fall in the lower performance range. Figure 13
+shows this pattern across states for 2011 only, revealing little correlation.
+
+New York
+
+Pennsylvania
+
+New Jersey
+
+Alabama
+
+Louisiana
+
+Mississippi
+
+Texas
+
+2
+
+Maryland
+
+-2
+
+-1
+
+0
+
+0
+
+2
+
+1
+
+4
+
+Delaware
+
+2000
+
+2005
+
+2010
+
+2015
+
+-2
+
+-1
+
+0
+
+0
+
+2
+
+1
+
+4
+
+2
+
+1995
+
+1995
+1995
+
+2000
+
+2005
+
+2010
+
+20151995
+
+2000
+
+2005
+
+2010
+
+2000
+
+2005
+
+2010
+
+20151995
+
+2015
+
+Adj. Gap Math 4
+Adj. Gap Reading 4
+
+2000
+
+2005
+
+2010
+
+2015
+
+year
+
+year
+Adj. Gap Math 4
+Adj. Gap Reading 4
+
+Adj. Gap Math 8
+Adj. Gap Reading 8
+
+Adj. Gap Math 8
+Adj. Gap Reading 8
+
+Graphs by state_name
+Graphs by state_name
+
+Indiana
+
+Michigan
+
+Minnesota
+
+Ohio
+
+Wisconsin
+
+Connecticut
+
+Maine
+
+Massachusetts
+
+New Hampshire
+
+Rhode Island
+
+Vermont
+
+-4
+
+-4
+
+-2
+
+-2
+
+0
+
+0
+
+2
+
+2
+
+-4
+
+-4
+
+-2
+
+-2
+
+0
+
+0
+
+2
+
+2
+
+Illinois
+
+1995
+
+2000
+
+2005
+
+2010
+
+20151995
+
+2000
+
+2005
+
+2010
+
+20151995
+
+2000
+
+2005
+
+2010
+
+2015
+
+1995
+
+2000
+
+2010
+
+2005
+
+20151995
+
+2000
+
+Adj. Gap Math 4
+Adj. Gap Reading 4
+
+2005
+
+2010
+
+20151995
+
+2000
+
+2005
+
+2010
+
+2015
+
+year
+
+year
+Adj. Gap Math 4
+Adj. Gap Reading 4
+
+Adj. Gap Math 8
+Adj. Gap Reading 8
+
+Graphs by state_name
+
+Adj. Gap Math 8
+Adj. Gap Reading 8
+
+Graphs by state_name
+
+Figure 9 State trends in adjusted outcome gap measures.
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+21
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+Idaho
+
+Oregon
+
+Washington
+
+Iowa
+
+Kansas
+
+Missouri
+
+Nebraska
+
+North Dakota
+
+South Dakota
+
+-2
+
+-2
+
+0
+
+0
+
+2
+
+2
+
+4
+
+-2
+
+-2
+
+0
+
+0
+
+2
+
+2
+
+4
+
+Alaska
+
+1995
+
+2000
+
+2010
+
+2005
+
+20151995
+
+2000
+
+2005
+
+2010
+
+1995
+
+2015
+
+2000
+
+2005
+
+2010
+
+20151995
+
+2000
+
+2005
+
+2010
+
+20151995
+
+2000
+
+2005
+
+2010
+
+2015
+
+year
+
+year
+Adj. Gap Math 4
+Adj. Gap Reading 4
+
+Adj. Gap Math 4
+Adj. Gap Reading 4
+
+Adj. Gap Math 8
+Adj. Gap Reading 8
+
+Adj. Gap Math 8
+Adj. Gap Reading 8
+
+Graphs by state_name
+
+Graphs by state_name
+
+Montana
+
+Utah
+
+Wyoming
+
+Arkansas
+
+Kentucky
+
+Tennessee
+
+West Virginia
+
+Oklahoma
+
+-4
+
+-2 -1
+
+-2
+
+0
+
+0
+
+1
+
+2
+
+2
+
+Colorado
+
+2000
+
+2005
+
+2010
+
+2015
+
+-4
+
+-2
+
+-2 -1
+
+0
+
+0
+
+1
+
+2
+
+2
+
+1995
+
+1995
+
+2000
+
+2005
+
+2010
+
+20151995
+
+2000
+
+2005
+
+2010
+
+2015
+
+1995
+
+2000
+
+2005
+
+2010
+
+20151995
+
+2000
+
+year
+
+2005
+
+2010
+
+2015
+
+year
+
+Adj. Gap Math 4
+Adj. Gap Reading 4
+
+Adj. Gap Math 8
+Adj. Gap Reading 8
+
+Adj. Gap Math 4
+Adj. Gap Reading 4
+
+Graphs by state_name
+
+Adj. Gap Math 8
+Adj. Gap Reading 8
+
+Graphs by state_name
+
+Georgia
+
+South Carolina
+
+Virginia
+
+North Carolina
+
+Arizona
+
+California
+
+Nevada
+
+New Mexico
+
+-2
+
+-2
+
+-1
+
+0
+
+0
+
+1
+
+2
+
+2
+
+Florida
+
+2000
+
+2005
+
+2010
+
+2015
+
+-2
+
+-2
+
+-1
+
+0
+
+0
+
+1
+
+2
+
+2
+
+1995
+
+1995
+
+2000
+
+2005
+
+2010
+
+20151995
+
+2000
+
+2005
+
+2010
+
+1995
+
+2015
+
+2000
+
+2005
+
+2010
+
+20151995
+
+Adj. Gap Math 4
+Adj. Gap Reading 4
+
+2000
+
+2005
+
+2010
+
+2015
+
+year
+
+year
+Adj. Gap Math 4
+Adj. Gap Reading 4
+
+Adj. Gap Math 8
+Adj. Gap Reading 8
+
+Adj. Gap Math 8
+Adj. Gap Reading 8
+
+Graphs by state_name
+
+Graphs by state_name
+
+Figure 9 Continued
+
+Resource Distributions and Outcome Distributions
+Here, we move from looking at resources and the level of performance of children from low-income families to resource
+distributions and achievement gaps. Again, the assumption is that states in which staffing ratios are significantly higher
+(progressive) in higher poverty settings may be more likely to show smaller income-based achievement gaps, after adjusting for income gaps; that is, targeted staffing increases can help reduce achievement gaps. Figure 14 provides evidence of
+some pattern across all states over all years. States with higher staffing ratio fairness indexes, indicating that staffing ratios
+tend to be higher in higher poverty districts, also tend to have lower than expected NAEP achievement gaps in Grade 8.
+Figure 15 tells a similar story for Grade 4.
+22
+
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+Teachers per 100 Level & Adj. NAEP Low Income
+
+-4
+
+Adj.NAEP - Low Income
+-2
+0
+2
+
+4
+
+All Years
+
+4
+
+6
+
+8
+
+10
+
+Teachers per 100 Pupils
+
+Adj. Math 4 Low Income
+
+Adj. Reading 4 Low Income
+
+Figure 10 Teachers per 100 level and adjusted National Assessment of Educational Progress low income, all years. Correlation
+(Math = .24, Reading = .25).
+
+Teachers per 100 Level & Adj. NAEP Low Income
+2011
+2
+
+NH
+MA
+ND
+NH
+FL
+MD
+VT
+NJ
+KS
+DE WY
+ND
+NY
+ME
+MD
+VT
+IA
+TX
+NJ
+ME
+FLALPA
+KS
+NC
+GA
+AR
+TX
+AR
+RI
+PA
+DE
+IAWI MO
+NY
+SDMONE WV
+SC WI
+CT
+GA
+WV
+TN
+IL NM
+LA
+SC
+LA
+IL
+TN
+MS
+HI
+MS
+AL
+NM
+CT
+NE
+HI
+
+1
+
+NC
+
+IN
+
+0
+
+IN
+UT
+UT
+
+OR
+OR
+
+-1
+
+Adj. NAEP - Low Income
+
+KY
+
+WA
+WAMI
+AZ
+AZ
+MI
+
+MT
+KY
+OH
+OH MN
+VA
+OK MT
+ID OK
+VA
+ID
+CO
+MN
+CO
+
+-2
+
+CA
+CA
+
+4
+
+5
+
+6
+Teachers per 100 Pupils
+
+Adj. Math 4 Low Income
+
+7
+
+8
+
+Adj. Reading 4 Low Income
+
+Figure 11 Teachers per 100 level and adjacent National Assessment of Educational Progress low income, 2011. Correlation (Math = .30,
+Reading = .44).
+
+Figure 16 summarizes the correlations of our outcome measures for all grades and subjects with our salary parity
+measures (a level indicator) and for our staffing ratio level and fairness (distribution) measures. Again, our outcome
+measures include the following:
+Outcome Level Indicator 1: Low-income students’ performance level. State average performance of children from low
+income families (receiving free lunch), conditioned on the average income levels of students from low-income
+families in the state and expressed as standardized differences between the expected performance level (given income
+levels) and actual performance levels.
+Outcome Gap Indicator 1: Low-income achievement gap. State average achievement gaps between children from
+low-income families and children from non-low-income families adjusted for the difference (gap) in income between
+families of low income and non-low income and expressed as standardized differences between the expected
+achievement gap and the actual gap.
+Outcome Gap Indicator 2: Income achievement effect. Within-state ratio of expected NAEP performance in
+high-poverty school (+2 S.D.) to low-poverty school (−2 S.D.), adjusted for the difference (gap) in income between
+families of low income and non-low income (see note 11).
+
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+23
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+-4
+
+Adj. NAEP - Low Income
+0
+2
+-2
+
+4
+
+Teacher Wages & Adj. NAEP Low Income
+All Years
+
+.7
+
+.8
+
+.9
+1
+Wage Parity at 25
+
+Adj. Math 8 Low Income
+
+1.1
+
+1.2
+
+Adj. Reading 8 Low Income
+
+Figure 12 Teacher wages and adjusted National Assessment of Educational Progress low income, all years. Correlation (Math = .12,
+Reading = .16).
+
+2
+
+Teacher Wages & Adj. NAEP Low Income
+2011
+MA
+
+KY
+MT
+
+NH
+OH
+MANHMT
+ME
+ID
+KY MN
+OH
+SD
+MN
+DE
+KS
+SD
+IN
+OR
+NJ
+MO
+ILMD ID
+OK
+OR
+KS IN AR
+NJ
+NC
+OK
+NY
+MI
+SC
+FL
+ILMD DE
+RI
+UT
+NY
+MOTX
+RI
+NEAR
+SC
+PA
+PA
+NM LA
+FL
+WI
+CT TN NM
+AL
+MI
+AZ
+WI
+LA
+HI
+TN
+UT
+NE
+MS
+MS
+VT
+VT
+
+1
+
+NC
+
+CT
+
+0
+
+VA
+
+VA
+
+GA
+WA
+WA CO
+COGA
+WV
+WV
+
+-1
+
+Adj. NAEP - Low Income
+
+TX
+
+AL
+
+-2
+
+.8
+
+.9
+Wage Parity at 25
+
+Adj. Math 8 Low Income
+
+WY
+WY
+IA
+
+HI
+
+CA
+CA
+
+.7
+
+ND
+ND
+
+1
+
+Adj. Reading 8 Low Income
+
+Figure 13 Teacher wages and adjusted National Assessment of Educational Progress low income, 2011. Correlation (Math = .15, Reading = .15).
+
+All correlations, except those shaded more lightly, are statistically significant, p < .05. Blue bars show the correlations
+between our staffing ratio level indicator and outcome measures (levels and gaps). That indicator has a small to no correlation (nonsignificant shaded bars) with our achievement gap measures but does have a consistently modest positive
+correlation with our low-family-income students’ achievement level indicator. Staffing levels also have modest positive
+relationships with our achievement progressiveness measures, where higher staffing levels are associated with higher ratios
+of performance in low-income schools to that of higher income schools; that is, in states where staffing ratios are higher,
+lower-family-income students tend to be performing better.
+The red bars indicate the relationship between our staffing ratio fairness indicators and each outcome measure. Here,
+we see that the staffing fairness ratio is modestly negatively correlated with our achievement gap measure; that is, where
+staffing ratios are higher in higher poverty settings, achievement gaps are lower. The inverse is also true: Where staffing fairness wanes, achievement gaps are larger. Correlations tend to be strongest between staffing fairness and outcome fairness,
+using our outcome regressiveness ratio.
+Green bars show correlations for salary parity indexes for 45-year-olds. Again, this is a level indicator, indicating the
+relative competitiveness of teacher salaries to the salaries of similarly educated, same-age nonteachers working in the
+same state. The correlations, though smaller in magnitude, do fall in the expected direction. States with more competitive
+teacher wages have (a) smaller achievement gaps (than expected) and (b) higher mean scale scores (than expected) for
+24
+
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+-4
+
+-2
+
+0
+
+2
+
+4
+
+Teachers per 100 Fairness & NAEP Gaps - All Years
+Grade 8
+
+.5
+
+1
+
+1.5
+
+2
+
+Staffing Fairness
+Adj. Gap Math 8
+
+Adj. Gap Reading 8
+
+Figure 14 Teachers per 100 fairness and National Assessment of Educational Progress gaps, all years, Grade 8. Excludes Alaska, Nevada,
+and the District of Columbia. Correlation (Math = −.31, Reading = −.33).
+
+-4
+
+-2
+
+0
+
+2
+
+4
+
+Teachers per 100 Fairness & NAEP Gaps - All Years
+Grade 4
+
+.5
+
+1
+
+1.5
+
+2
+
+Staffing Fairness
+Adj. Gap Math 4
+
+Adj. Gap Reading 4
+
+Figure 15 Teachers per 100 fairness and National Assessment of Educational Progress gaps, all years, Grade 4. Excludes Alaska, Nevada,
+and the District of Columbia. Correlation (Math = −.36, Reading = −.35).
+
+children from low-income families and (c) less outcome disparity across schools by income. Note that this consistent
+pattern is unlikely to be merely a function of rich states versus poor states, because both measures are expressed in relative
+terms: Teacher wages are expressed relative to nonteacher wages, and outcomes of students from low-income families are
+adjusted for their income levels across states.
+Finally, we take this analysis statistically one step further, estimating multiple regression models to our panel of data,
+which includes all jurisdictions except Alaska, Nevada, and Washington, D.C., and six to seven approximately biennial
+administrations of NAEP from the late 1990s to 2011 (see Appendix C). In Table 9, we estimate random effects models
+that capture the relationships between our resource measures and our NAEP outcome measures simultaneously across all
+states and over time. Sadly, with only six to seven time periods for our outcome gap and level measures, and five for our
+outcome disparity ratio measures, it is difficult to tease out relationships between resource measure changes and outcome
+changes within states over time. But such analyses may become more feasible in future years.
+Table 9 affirms the findings of our previous correlation analyses. More fairly distributed staffing ratios within states are
+associated with smaller gaps (less fairly distributed pupil-to-teacher ratios associated with larger gaps) and with higher
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+25
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+0.08
+
+0.43
+0.12
+
+0.17
+
+0.25
+
+0.37
+
+0.43
+0.16
+
+0.13
+(0.16)
+
+0.04
+
+Low Inc. Achievement Gap
+
+Math 8
+
+Math 4
+
+Reading 8
+
+Reading 4
+
+(0.31)
+Math 8
+
+(0.09)
+
+(0.14)
+
+(0.36)
+Math 4
+
+(0.14)
+
+(0.02)
+(0.33)
+Reading 8
+
+(0.12)
+
+Reading 4 (0.35)
+
+(0.18)
+
+Low Inc. Performance Level
+
+0.20
+
+0.28
+
+0.29
+0.04
+
+0.04
+
+Math 8
+
+Math 4
+
+Reading 8
+
+Reading 4
+
+Salary Parity (45)
+0.38
+
+0.39
+
+Teachers per 100 Pupils Fairness
+
+0.14
+
+0.24
+
+0.24
+0.01
+
+0.11
+
+0.05
+
+0.25
+0.33
+
+Teachers per 100 Pupils
+
+Income Achievement Effect
+
+Figure 16 Correlations between resource measures and adjusted National Assessment of Educational Progress measures (all states
+and all years). Performance for children qualified for free lunch (<130% income threshold for poverty), adjusted for income differences
+across states, and gap between scale scores for children not qualified for free lunch (>130% income threshold for poverty) and children
+qualified for free lunch (<130% income threshold for poverty), adjusted for differences in income gaps across states. Excludes Alaska,
+Nevada, and the District of Columbia.
+
+scores for children from low-income families. These patterns are relatively consistent across tests (except for eighth-grade
+mathematics on our alternative outcome disparity measure). In fourth-grade reading, higher staffing levels are also associated with smaller achievement gaps.
+Linkages between competitive wage levels, low-income performance levels, and achievement gaps are less clear
+when similar regression models are estimated. All coefficients are in the expected direction, and some are statistically
+significant at various thresholds. Competitive wages for 25-year-old teachers are positively associated with (a) lowincome fourth-grade mathematics achievement, p < .10; (b) low-income fourth-grade reading achievement, p < .05;
+(c) low-income eighth-grade mathematics achievement, p < .05; and (d) low-income eighth-grade reading achievement
+(ns). More competitive wages for 25-year-old teachers are associated with smaller achievement gaps for (a) fourthgrade mathematics (ns); (b) fourth-grade reading (ns); (c) eighth-grade mathematics, p < .10; and (d) eighth-grade
+reading (ns).
+What Does It All Mean?
+The analyses presented here validate the conclusion that variations in available revenues and expenditures are associated
+with variations in children’s access to real resources, as measured by the competitiveness of the wages paid to their teachers
+and by pupil-to-teacher ratios and class sizes. Variations in the levels and distributions of real resources are, in turn,
+associated with the levels and distributions of student outcomes across states:
+•
+•
+•
+26
+
+States that apply more effort—spending a greater share of their fiscal capacity on schools—spend more generally
+on schools.
+These higher spending levels translate into higher statewide staffing levels—more teaching staff per pupil.
+These higher spending levels translate into more competitive statewide teacher wages.
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+Table 9 Differences in Levels and Distributions of National Assessment of Educational Progress Performance Associated With Staffing
+Ratio Levels and Distributions
+Performance level
+(adj.), Outcome
+Level Indicator 1
+
+Math 4
+Level: teachers per 100
+Fairness: teachers per 100
+Constant
+R2
+Within
+Between
+Overall
+Math 8
+Level: teachers per 100
+Fairness: teachers per 100
+Constant
+R2
+Within
+Between
+Overall
+Reading 4
+Level: teachers per 100
+Fairness: teachers per 100
+Constant
+R2
+Within
+Between
+Overall
+Reading 8
+Level: teachers per 100
+Fairness: teachers per 100
+Constant
+R2
+Within
+Between
+Overall
+
+Achievement gap (adj.),
+Outcome Gap Indicator 1
+
+Achievement effect (adj.),
+Outcome Gap Indicator 2
+
+Coefficient
+
+S.E.
+
+Coefficient
+
+S.E.
+
+Coefficient
+
+S.E.
+
+0.055
+0.652
+−0.946
+
+0.057
+0.348**
+0.523**
+
+−0.084
+−1.094
+1.744
+
+0.071
+0.431*
+0.652*
+
+0.140
+0.681
+−1.630
+
+0.074**
+0.362**
+0.635*
+
+0.000
+0.421
+0.227
+0.033
+0.910
+−1.108
+
+0.061
+0.368*
+0.558*
+
+0.002
+0.345
+0.172
+0.021
+−0.807
+0.814
+
+0.000
+0.391
+0.220
+0.165
+1.048
+−2.071
+
+0.061*
+0.357*
+0.542*
+
+0.064
+0.372*
+0.569*
+
+0.044
+0.606
+−0.962
+
+0.001
+0.186
+0.095
+−0.167
+−1.475
+2.661
+
+0.010
+0.444
+0.256
+0.070
+1.334
+−1.773
+
+0.069
+0.416**
+0.631
+
+0.003
+0.311
+0.213
+
+0.075*
+0.440*
+0.674*
+
+0.000
+0.177
+0.090
+0.223
+0.900
+−2.371
+
+0.011
+0.364
+0.175
+−0.040
+−1.439
+1.866
+
+0.010
+0.407
+0.246
+
+0.077
+0.452*
+0.694*
+0.011
+0.216
+0.111
+
+0.088
+0.452
+0.780
+
+0.076*
+0.400*
+0.675*
+0.009
+0.286
+0.179
+
+0.055
+1.296
+−1.771
+
+0.089
+0.474*
+0.799*
+0.013
+0.114
+0.067
+
+Note. Scale score for children qualified for free lunch (<130% income threshold for poverty), adjusted for income differences across
+states, and gap between scale scores for children not qualified for free or reduced-priced lunch (>185% income threshold for poverty)
+and children qualified for free or reduced-priced lunch (<185% income threshold for poverty), adjusted for differences in income gaps
+across states. Excludes Alaska, Nevada, and the District of Columbia.
+*p < .05.
+**p < .10.
+
+•
+
+Increased targeted staffing to higher poverty schools within states is associated both with higher measured outcomes
+of children from low-income families and with smaller achievement gaps between children from low-income and
+children from non-low-income families.
+
+We are not able to provide firm empirical evaluation that state school finance systems, the reform of those systems
+over time, and their more recent collapse are directly responsible for improvements or reversal of student achievement
+levels or gaps on national assessments over time. That said, as we noted early on in this report, a substantial body of
+rigorous longitudinal literature has already established quite consistently the positive relationship between substantive
+and sustained state school finance reforms and improved student outcomes.
+What we are able to show is that across states, over the past decade and a half in particular, states with lower pupilto-teacher ratios and fairer distribution of staffing tend to have both higher outcomes among children from low-income
+families and smaller achievement gaps between children from low-income and children from non-low-income families.
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+27
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+We also have evidence that states in which teacher wages are more competitive have smaller achievement gaps and higher
+scores for children from lower income families.
+We can also show that the level and distribution of pupil-to-teacher ratios are highly and consistently sensitive, both
+across states and over time, to changes to the level and distribution of school district current spending; that is, more
+spending, holding other factors constant, drives lower pupil-to-teacher ratios, and fairer spending across districts within
+states drives fairer pupil-to-teacher ratios. Spending also drives the competitiveness of teacher wages. States with higher
+spending have more competitive wages, all else being equal.
+And as one might expect, available spending and the equity of that spending remain contingent on the revenues that
+support that spending. Increased state support provides the opportunity for improved equity of current spending, whereas
+the stability of both state and local revenues dictates the overall level of spending.
+Unfortunately, what we have seen over the past 5 years of available data is that state revenues sharply declined, current spending flattened out or declined, pupil-to-teacher ratios increased in most states, and current spending fairness
+worsened in most states. This likely is the result of austerity cuts following the Great Recession and the loss of federal
+stimulus funds that were used to prop up state education budgets. We cannot yet know the effect that this has had
+on achievement, especially for students from low-income families, but data presented here suggest that these students
+may suffer.
+
+Notes
+1 On these exams, American students have improved substantially, in some cases phenomenally. In general, the improvements
+have been greatest for African American students and, among these, for the most disadvantaged. The improvements have been
+greatest for both Black and White fourth and eighth graders in mathematics. Improvements have been less great but still
+substantial for Black 4th and 8th graders in reading and for Black 12th graders in both mathematics and reading. Improvements
+have been modest for Whites in 12th grade mathematics and at all three grade levels in reading (Rothstein, 2011).
+2 Figlio (2004) explained that the influence of state school finance reforms on student outcomes is perhaps better measured within
+states over time, explaining that national studies of the type attempted by Card and Payne (2002) confront problems of (a) the
+enormous diversity in the nature of state aid reform plans and (b) the paucity of national-level student performance data.
+3 Roy (2011) published an analysis of the effects of Michigan’s 1990s school finance reforms, which led to a significant leveling up
+for previously low-spending districts. Roy, whose analyses measure both whether the policy resulted in changes in funding and
+who was affected, found that “Proposal A was quite successful in reducing interdistrict spending disparities. There was also a
+significant positive effect on student performance in the lowest-spending districts as measured in state tests” (p. 137).
+4 The magnitudes imply that a $1,000 increase in per pupil spending leads to approximately a one-third to one-half of a standard
+deviation increase in average test scores. It is noted that the state aid driving the estimates is targeted to underfunded school
+districts, which may have atypical returns to additional expenditures (Guryan, 2001).
+5 Downes had conducted earlier studies of Vermont school finance reforms in the late 1990s (Act 60). In a 2004 book chapter,
+Downes (2004) noted, “All of the evidence cited in this paper supports the conclusion that Act 60 has dramatically reduced
+dispersion in education spending and has done this by weakening the link between spending and property wealth. Further, the
+regressions presented in this paper offer some evidence that student performance has become more equal in the post–Act 60
+period. And no results support the conclusion that Act 60 has contributed to increased dispersion in performance” (p. 312).
+6 Indeed, this point is not without some controversy, much of which is readily discarded. Secondhand references to dreadful
+failures following massive infusions of new funding can often be traced to methodologically inept, anecdotal tales of
+desegregation litigation in Kansas City, Missouri, or court-ordered financing of urban districts in New Jersey (Baker & Welner,
+2011). Two reports from the Cato Institute are illustrative (Ciotti, 1998; Coate & VanDerHoff, 1999). Hanushek and Lindseth
+(2009) provided a similar anecdote-driven approach in which they dedicated a chapter of a book to proving that court-ordered
+school funding reforms in New Jersey, Wyoming, Kentucky, and Massachusetts resulted in few or no measurable improvements.
+However, these conclusions are based on little more than a series of graphs of student achievement on the NAEP in 1992 and
+2007 and an untested assertion that, during that period, each of the four states infused substantial additional funds into public
+education in response to judicial orders. That is, the authors merely asserted that these states experienced large infusions of
+funding, focused on low-income and minority students, within the time period identified. They necessarily assumed that, in all
+other states that serve as a comparison basis, similar changes did not occur. Yet they validated neither assertion. Baker and
+Welner (2011) explained that Hanushek and Lindseth (2009) failed even to measure whether substantive changes had occurred to
+the level or distribution of school funding as well as when and for how long. In New Jersey, for example, infusion of funding
+occurred from 1998 to 2003 (or 2005), thus Hanushek and Lindseth’s window included 6 years on the front end where little
+28
+
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+change occurred. Kentucky reforms had largely faded by the mid to late 1990s, yet Hanushek and Lindseth measured postreform
+effects in 2007. Furthermore, in New Jersey, funding was infused into approximately 30 specific districts, but Hanushek and
+Lindseth explored overall changes to outcomes among low-income children and minorities using NAEP data, where some of
+these children attended the districts receiving additional support, but many did not. In short, the slipshod comparisons
+Hanushek and Lindseth made provided no reasonable basis for asserting either the success or failure of state school finance
+reforms. Hanushek (2006) went so far as to title the book Courting Failure: How School Finance Lawsuits Exploit Judges’ Good
+Intentions and Harm Our Children. The premise that additional funding for schools often leveraged toward class size reduction,
+additional course offerings, or increased teacher salaries causes harm to children is, on its face, absurd. And the book, which
+implies as much in its title, never once validated that such reforms ever do cause harm. Rather, the title is little more than a
+manipulative attempt to convince the noncritical spectator who never gets past the book’s cover to fear that school finance
+reforms might somehow harm children. The book also included two examples of a type of analysis that occurred with some
+frequency in the mid-2000s that also had the intent of showing that school funding does not matter. These studies would
+cherry-pick anecdotal information on either or both (a) poorly funded schools that have high outcomes or (b) well-funded
+schools that have low outcomes (see Evers & Clopton, 2006; Walberg, 2006). In an equally problematic analysis, Neymotin (2010)
+set out to show that massive court-ordered infusions of funding in Kansas following Montoy v. Kansas led to no substantive
+improvements in student outcomes. However, Neymotin evaluated changes in school funding from 1997 to 2006, but the first
+additional funding infused following the January 2005 Supreme Court decision occurred in the 2005–2006 school year, the end
+point of Neymotin’s outcome data. Greene and Trivitt (2008) presented a study in which they claimed to show that
+court-ordered school finance reforms led to no substantive improvements in student outcomes. However, the authors tested only
+whether the presence of a court order is associated with changes in outcomes and never once measured whether substantive
+school finance reforms followed the court order, but they still expressed the conclusion that court-ordered funding increases have
+no effect.
+7 Although often treated as a newer approach to equity analysis than measuring pure fiscal inputs, equity evaluations of real
+resources predate modern school finance equity, often being used, for example, to evaluate the uniformity of segregated Black
+and White schools operating in the pre-Brown, separate-but-equal era (Baker & Green, 2009b).
+8 As per the court’s declaration in Rose v. Council for Better Educ., Inc. (1989), “an efficient system of education must have as its goal
+to provide each and every child with at least the seven following capacities: (i) sufficient oral and written communication skills to
+enable students to function in a complex and rapidly changing civilization; (ii) sufficient knowledge of economic, social, and
+political systems to enable the student to make informed choices; (iii) sufficient understanding of governmental processes to
+enable the student to understand the issues that affect his or her community, state, and nation; (iv) sufficient self-knowledge and
+knowledge of his or her mental and physical wellness; (v) sufficient grounding in the arts to enable each student to appreciate his
+or her cultural and historical heritage; (vi) sufficient training or preparation for advanced training in either academic or
+vocational fields so as to enable each child to choose and pursue life work intelligently; and (vii) sufficient levels of academic or
+vocational skills to enable public school students to compete favorably with their counterparts in surrounding states, in
+academics or in the job market.” See also Thro (2009).
+9 Where our standardized, expected gap measure is the standardized residual of the regression NAEP Income Achievement
+Gapst = b0 + b1 ACS Income Gapst + b2 Year + e for each state (s) in year (t).
+10 Census poverty rate, where 30% rate is equivalent to approximately 80% free or reduced-priced lunch.
+11 Here, we take the standardized (z-score) NAEP estimate for each school (standardized around state mean) and standardized
+low-income share for each school (z-score around state mean) and estimate the following regression: NAEP School
+Standardized = b0 + b1 Poverty Standardized + b2 State + b3 State × Poverty Standardized + e. Next, we use this regression to
+generate predicted values of NAEP for high-poverty (2 S.D.s above state mean) and low-poverty (2 S.D.s below state mean)
+schools in each state and year. We then calculate the ratio of the NAEP for high-poverty to low-poverty schools. These
+values are invariably below 1.0, and positive change in this value indicates reduction income-related disparity in NAEP across
+schools.
+
+References
+Allegretto, S. A., Corcoran, S. P., & Mishel, L. R. (2008). The teaching penalty: Teacher pay losing ground. Washington, DC: Economic
+Policy Institute.
+Allegretto, S. A., Corcoran, S. P., & Mishel, L. (2011). The teaching penalty: An update through 2010 (EPI Issue Brief No. 298). Washington, DC: Economic Policy Institute.
+American Institutes for Research. (n.d.). National longitudinal school-level state assessment score database [Data set]. Retrieved from
+http://www.schooldata.org/DataFiles/tabid/65/Default.aspx
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+29
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+Baker, B. D. (2012). Revisiting the age-old question: Does money matter in education? Washington, DC: Albert Shanker Institute.
+Baker, B. D. (2014). Evaluating the recession’s impact on equity and adequacy of state school finance systems. Education Policy Analysis
+Archives, 22(91), 1–33. Retrieved from http://epaa.asu.edu/ojs/article/view/1590
+Baker, B. D., Farrie, D., & Sciarra, D. G. (2010). Is school funding fair? A national report card. Newark, NJ: Education Law Center of New
+Jersey. Retrieved from http://schoolfundingfairness.org/National_Report_Card_2010.pdf
+Baker, B., & Green, P. (2008). Conceptions of equity and adequacy in school finance. In H. F. Ladd & E. D. Fiske (Eds.), Handbook of
+research in education finance and policy (pp. 203–221). New York, NY: Routledge.
+Baker, B. D., & Green, P. C. (2009a). Conceptions, measurement and application of educational adequacy standards. In G. Sykes, B.
+Schneider, & D. N. Plank (Eds.), AERA handbook on education policy research (pp. 438–452). New York, NY: Routledge.
+Baker, B. D., & Green, P. C. (2009b). Does increased state involvement in public schooling necessarily increase equality of educational
+opportunity? In B. C. Fusarelli & B. S. Cooper (Eds.), The rising state: How state power is transforming our nation’s schools (pp.
+133–150). Albany, NY: SUNY Press.
+Baker, B., & Green, P. (2015). Conceptions of equity and adequacy in school finance. In H. F. Ladd & M. E. Goertz (Eds.), Handbook of
+research in education finance and policy (2nd ed., pp. 231–243). New York, NY: Routledge.
+Baker, B. D., & Levin, J. (2014). Educational equity, adequacy, and equal opportunity in the commonwealth: An evaluation of Pennsylvania’s school finance system. Retrieved from http://www.air.org/sites/default/files/downloads/report/AIR-EEAEO%20in%20the
+%20Commonwealth%20-%20Full%20Report%2010-09-14.pdf
+Baker, B. D., Taylor, L., Levin, J., Chambers, J., & Blankenship, C. (2013). Funding adjusted poverty measures and the distribution of
+Title I aid: Does Title I really make the rich states richer? Education Finance and Policy, 8(3), 394–417.
+Baker, B. D., & Welner, K. G. (2011). School finance and courts: Does reform matter, and how can we tell. Teachers College Record,
+113(11), 2374–2414.
+Baker, B., & Welner, K. G. (2012). Evidence and rigor scrutinizing the rhetorical embrace of evidence-based decision making. Educational Researcher, 41(3), 98–101.
+Barnett, W. S. (2003). Better teachers, better preschools: Student achievement linked to teacher qualifications (Preschool Policy Matters
+No. 2). New Brunswick, NJ: NIEER. Retrieved from http://nieer.org/resources/policybriefs/2.pdf
+Barton, P. E., & Coley, R. J. (2010). The Black–White achievement gap: When progress stopped (Policy Information Report). Princeton,
+NJ: Educational Testing Service.
+Card, D., & Payne, A. A. (2002). School finance reform, the distribution of school spending, and the distribution of student test scores.
+Journal of Public Economics, 83(1), 49–82.
+Ciotti, P. (1998). Money and school performance: Lessons from the Kansas City desegregations experience (Cato Policy Analysis No. 298).
+Retrieved from http://www.cato.org/pubs/pas/pa-298.html
+Clotfelter, C. T., Glennie, E., Ladd, H. F., & Vigdor, J. L. (2008). Would higher salaries keep teachers in high-poverty schools? Evidence
+from a policy intervention in North Carolina. Journal of Public Economics, 92, 1352–1370.
+Clotfelter, C., Ladd, H. F., & Vigdor, J. (2011). Teacher mobility, school segregation and pay based policies to level the playing field.
+Education Finance and Policy, 6, 399–438.
+Clune, W. H. (1994). The shift from equity to adequacy in school finance. Educational Policy, 8, 376–394.
+Coalition for Evidence-Based Policy. (2003). Identifying and implementing educational practices supported by rigorous evidence: A user
+friendly guide. Retrieved from http://www2.ed.gov/rschstat/research/pubs/rigorousevid/rigorousevid.pdf
+Coate, D., & VanDerHoff, J. (1999). Public school spending and student achievement: The case of New Jersey. Cato Journal, 19, 85–99.
+Coley, R. J., & Baker, B. (2013). Poverty and education: Finding the way forward. Princeton, NJ: Educational Testing Service.
+Deke, J. (2003). A study of the impact of public school spending on postsecondary educational attainment using statewide school district
+refinancing in Kansas. Economics of Education Review, 22, 275–284.
+Downes, T. A. (2004). School finance reform and school quality: Lessons from Vermont. In J. Yinger (Ed.), Helping children left behind:
+State aid and the pursuit of educational equity (pp. 283–313). Cambridge, MA: MIT Press.
+Downes, T. A., & Figlio, D. N. (1999). Do tax and expenditure limits provide a free lunch? Evidence on the link between limits and
+public sector service quality. National Tax Journal, 52, 113–128.
+Downes, T. A., Zabel, J., & Ansel, D. (2009). Incomplete grade: Massachusetts education reform at 15. Boston, MA: MassINC.
+Duncombe, W., & Yinger, J. M. (1999). Performance standards and education cost indexes: You can’t have one without the other. In H.
+F. Ladd, R. Chalk, & J. S. Hansen (Eds.), Equity and adequacy in education finance: Issues and perspectives (pp. 260–297). Washington,
+DC: National Academy Press.
+Ehrenberg, R. G., Brewer, D., Gamoran, A., & Willms, J. D. (2001). Class size and student achievement. Psychological Science in the
+Public Interest, 2, 1–30.
+Evers, W. M., & Clopton, P. (2006). High-spending, low-performing school districts. In E. A. Hanushek (Ed.), Courting failure: How
+school finance lawsuits exploit judges’ good intentions and harm our children (pp. 103–194). Palo Alto, CA: Hoover Institution Press.
+30
+
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+Ferguson, R. (1991). Paying for public education: New evidence on how and why money matters. Harvard Journal on Legislation, 28,
+465–498.
+Figlio, D. N. (1997). Teacher salaries and teacher quality. Economics Letters, 55, 267–271.
+Figlio, D. N. (2002). Can public schools buy better-qualified teachers? Industrial and Labor Relations Review, 55, 686–699.
+Figlio, D. N. (2004). Funding and accountability: Some conceptual and technical issues in state aid reform. In J. Yinger (Ed.), Helping
+children left behind: State aid and the pursuit of educational equity (pp. 87–111). Cambridge, MA: MIT Press.
+Figlio, D. N., & Rueben, K. (2001). Tax limits and the qualifications of new teachers. Journal of Public Economics, 80(1), 49–71.
+Global Report Card [data file]. (n.d.). Retrieved from http://globalreportcard.org/docs/Global-Report-Card-Data-11.14.12.xlsx
+Greene, J. P., & Trivitt, J. R. (2008). Can judges improve academic achievement? Peabody Journal of Education, 83, 224–237. Retrieved
+from 10.1080/01619560801997010
+Guryan, J. (2001). Does money matter? Regression-discontinuity estimates from education finance reform in Massachusetts (Working
+Paper No. 8269). Cambridge, MA: National Bureau of Economic Research.
+Hanushek, E. A. (Ed.). (2006). Courting failure: How school finance lawsuits exploit judges’ good intentions and harm our children. Palo
+Alto, CA: Hoover Institution Press.
+Hanushek, E. A., & Lindseth, A. (2009). Schoolhouses, courthouses and statehouses. Princeton, NJ: Princeton University Press.
+Jackson, C. K., Johnson, R., & Persico, C. (2015). The effects of school spending on educational and economic outcomes: Evidence from
+school finance reforms (NBER Working Paper No. 20847). Cambridge, MA: National Bureau of Economic Research.
+Jepsen, C., & Rivkin, S. (2002). What is the tradeoff between smaller classes and teacher quality? (NBER Working Paper No. 9205).
+Cambridge, MA: National Bureau of Economic Research.
+Kena, G., Musu-Gillette, L., Robinson, J., Wang, X., Rathbun, A., Zhang, J., … Dunlop Velez, E. (2015). The condition of education
+2015 (NCES Report No. 2015–144). Washington, DC: National Center for Education Statistics.
+Lankford, H., Loeb, S., & Wyckoff, J. (2002). Teacher sorting and the plight of urban schools. Educational Evaluation and Policy Analysis,
+24(1), 37–62.
+Loeb, S., Darling-Hammond, L., & Luczak, J. (2005). How teaching conditions predict teacher turnover in California schools. Peabody
+Journal of Education, 80, 44–70.
+Loeb, S., & Page, M. (2000). Examining the link between teacher wages and student outcomes: The importance of alternative labor
+market opportunities and non-pecuniary variation. The Review of Economics and Statistics, 82, 393–408.
+Murnane, R. J., & Olsen, R. (1989). The effects of salaries and opportunity costs on length of state in teaching: Evidence from Michigan.
+The Review of Economics and Statistics, 71, 347–352.
+National Center for Education Statistics. (n.d.-a). Common core of data [Data set]. Retrieved from http://nces.ed.gov/ccd/ccddata.asp
+National Center for Education Statistics. (n.d.-b). NAEP data explorer [Data set]. Retrieved from http://nces.ed.gov/nationsreportcard/
+naepdata/dataset.aspx
+National Center for Education Statistics. (n.d.-c). Schools and staffing survey (SASS) [Data set]. Retrieved from http://nces.ed.gov/
+surveys/sass/
+New America Foundation. (n.d.). Federal Education Budget Project: PreK–12 district level data [Data set]. Retrieved from http://febp
+.newamerica.net/data/k12_district-data-13.csv
+Neymotin, F. (2010). The relationship between school funding and student achievement in Kansas public schools. The Journal of Education Finance, 36, 88–108.
+Nguyen-Hoang, P., & Yinger, J. (2014). Education finance reform, local behavior, and student performance in Massachusetts. The Journal
+of Education Finance, 39, 297–322.
+Ondrich, J., Pas, E., & Yinger, J. (2008). The determinants of teacher attrition in upstate New York. Public Finance Review, 36, 112–144.
+Papke, L. (2005). The effects of spending on test pass rates: Evidence from Michigan. Journal of Public Economics, 89, 821–839.
+Partnership for Assessment of Readiness for Colleges and Careers. (2011). Pennsylvania. Retrieved from http://www.parcconline.org/
+pennsylvania
+Reardon, S. F. (2011). The widening academic achievement gap between the rich and the poor: New evidence and possible explanations.
+In G. J. Duncan & R. J. Murnane (Eds.), Whither opportunity? Rising inequality, schools, and children’s life chances (pp. 91–116). New
+York, NY: Russell Sage Foundation.
+Rose v. Council for Better Educ., Inc., 790 S.W.2d 186, 212 (Ky. 1989).
+Rothstein, R. (2011). Fact-challenged policy (EPI Policy Memorandum No. 182). Washington, DC: Economic Policy Institute.
+Roy, J. (2011). Impact of school finance reform on resource equalization and academic performance: Evidence from Michigan. Education Finance and Policy, 6, 137–167.
+Ruggles, S. J., Alexander, T., Genadek, K., Goeken, R., Schroeder, M. B., & Sobek, M. (2011). Integrated public use microdata series:
+Version 5.0 [Machine-readable database]. Minneapolis, MN: Minnesota Population Center.
+Schanzenbach, D. W. (2014). Does class size matter? Boulder, CO: National Education Policy Center.
+Taylor, L. (2014). Extending the NCES CWI [Data set]. Retrieved from http://bush.tamu.edu/research/faculty/taylor_CWI/
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+31
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+Thro, W. E. (2009). Judicial humility: The enduring legacy of Rose v. Council for Better Education. Retrieved from http://law-apache.uky
+.edu/wordpress/wp-content/uploads/2012/06/Thro-II.pdf
+U.S. Census Bureau. (n.d.-a). Public school system finances: Public elementary-secondary education finance data. Retrieved from http://
+www.census.gov/govs/school/
+U.S. Census Bureau. (n.d.-b). Small area income and poverty estimates: School district data files. Retrieved from http://www.census.gov/
+did/www/saipe/data/schools/data/index.html
+Walberg, H. (2006). High poverty, high performance schools, districts and states. In E. A. Hanushek (Ed.), Courting failure: How school
+finance lawsuits exploit judges’ good intentions and harm our children (pp. 79–102). Palo Alto, CA: Hoover Institution Press.
+
+Appendix A
+Relating Black–White Achievement Gaps to Income Achievement Gaps
+Although we do not address racially based achievement gaps specifically herein, we would be remiss to ignore the
+intersection of race and income among school-aged children in the United States. Reardon’s (2011) comparison of an
+income achievement gap between the 90th and 10th percentile family income to the Black–White achievement gap is
+deceptive. One would expect the achievement gap among children from the highest and lowest income groups to be
+larger than the achievement gap between Black and White children if the income gap between families at the 90th and
+10th percentiles is larger than the family income gap between Black and White children. Furthermore, achievement
+gaps at the income extremes would be expected to grow more quickly to the extent that income gaps at the extremes are
+growing more quickly than Black–White income gaps. Figure A1 shows that the income gap at the poles is clearly much
+larger and growing more quickly than the income gap between Blacks and Whites.
+Not surprisingly, income gaps matter for explaining achievement gaps: Where income gaps are larger, so too tend to
+be outcome gaps. The same is true at the intersection of income and race. Where the income gap between Blacks and
+Whites is larger, the racial achievement gap is larger. For example, Figure A2 shows that in 2011, states with larger income
+gaps between families of Black and White children had larger test score gaps between those children. States with very large
+income gaps between Black and White families, such as Connecticut, Wisconsin, and Pennsylvania, had large achievement
+
+Figure A1 Family incomes for families of 5- to 17-year-old children. Income gaps are calculated using data from the American Community Survey and Decennial Census (Ruggles et al., 2011) for White to Black families for Black and White children and for those
+above the 90th percentile and below the 10th percentile household income.
+32
+
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+Black White Income Gap & Grade 8 Reading Gap
+
+Scale Score Gap
+15
+20
+25
+
+30
+
+PA
+
+NM
+
+SD
+
+WI
+
+AR
+NJ
+MN CT
+MO
+MA
+MSOH
+MD
+CA
+ALNYMIKS
+ILRI
+TN NC
+SC
+AZ KY
+LA
+ME
+IN
+FL
+NE TX AK
+VA
+CO
+OR
+GA
+IA
+NV DE
+OK
+WA
+
+10
+
+HI
+
+5
+
+WV
+
+.5
+
+1
+
+1.5
+Black-White Income Gap
+
+Reading Grade 8 Gap
+
+2
+
+2.5
+
+Trendline
+
+Correlation=.66
+
+Figure A2 Black–White income gap and Grade 8 reading gap. Income gaps are calculated using data from the American Community Survey (Ruggles et al., 2011). State-level income gaps are the ratio of household income for White to Black families for public
+school–enrolled Black and White children. National Assessment for Educational Progress achievement gaps are drawn from National
+Center for Education Statistics (NCES; n.d.-b).
+
+Figure A3 Family income for families of 5- to 17-year-old children. Income gaps are calculated using data from the American Community Survey and Decennial Census (Ruggles et al., 2011) for White to Black families for Black and White children and for those above and below specified thresholds using the poverty index (where 100% indicates income at the federal
+poverty level).
+
+gaps, and states with smaller income gaps, such as West Virginia, had smaller achievement gaps between Black and White
+children. Similar patterns hold for different assessments and in different years.
+More similar though still larger in magnitude to Black–White gaps are the income gaps between children from
+families falling above and below commonly employed low-income classifications used in our educational systems:
+children qualifying for the National School Lunch Program (NSLP), for either free lunch (<130% income threshold
+for poverty) or reduced-price lunch (<185% income threshold for poverty). Figure A3 shows the income gaps between
+Black and White children’s families and the income gaps between families above and below the NSLP poverty thresholds.
+A notable feature of Figure A3 is that mean income levels of non-low-income families have grown faster than income
+levels of Whites, leading to a widening of income gaps, but not necessarily of the income gaps between Black and White
+children’s families.
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+33
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+Appendix B
+Data Sources
+
+Data element
+District-level fiscal measures (U.S. Census
+Bureau, n.d.-a)
+Per pupil spending
+State revenue
+Local revenue
+Federal revenue
+District characteristics (NCES, n.d.-a)
+Enrollment
+Grade ranges
+Pupil/teacher ratios
+Regional cost variation
+Education comparable wage index
+Population needs/characteristics
+Child poverty (Baker, Taylor, Levin,
+Chambers, & Blankenship, 2013)
+
+Family and household income
+
+Teacher characteristics
+Wages/compensation
+
+Class size
+
+Student outcomes
+Math/reading outcomes by subsidized
+lunch status
+
+Unit of analysis
+
+Data source
+
+Years available
+
+Years imputed*
+
+District
+District
+District
+District
+
+F-33
+F-33
+F-33
+F-33
+
+1993–2011
+1993–2011
+1993–2011
+1993–2011
+
+District
+District
+District
+
+CCD
+CCD
+CCD
+
+1993–2011
+1993–2011
+1993–2011
+
+District
+
+Texas A&M (Taylor, 2014)
+
+1997–2011
+
+1993–1996
+
+District
+
+U.S. Census small area
+income and poverty
+estimates (U.S. Census
+Bureau, )
+Census ACS (IPUMS)a
+
+1995, 1997, 1999, 2000–2011
+
+1993–1994,
+1996, 1998
+
+1990, 2000–2011
+
+1990–1999
+[used 1996,
+1998]
+
+NCES schools and staffing
+surveyb
+
+1993–1994, 1999–2000,
+2003–2004, 2007–2008,
+2011–1012
+1993–1994, 1999–2000,
+2003–2004, 2007–2008,
+2011–2012
+
+State
+
+Teacher linked to
+school/district
+(sample)
+School (sample)
+
+NCES Schools and Staffing
+Survey
+
+State
+
+NAEPc
+
+Standardized math and reading outcomes
+
+District
+
+State math and reading proficiency rates
+
+District
+
+State assessment systems
+(AIRd and Global Report
+Carde )
+state assessment systems
+(New America
+Foundation)f
+
+Reading 4 (1998, 2002, 2003,
+2005, 2007, 2009, 2011);
+Math 4 (1996, 2000, 2003,
+2005, 2007, 2009, 2011);
+Reading 8 (1998, 2002,
+2003, 2005, 2007, 2009,
+2011); Math 8 (1996, 2000,
+2003, 2005, 2007, 2009,
+2011)
+2004–2009
+
+2006
+
+2005–2011 (Grade 4);
+2006–2011 (Grade 8)
+
+Note. ACS = American Community Survey; AIR = American Institutes for Research; CCD = Common Core of Data; F-33 = Fiscal Survey of Local
+Governments; IPUMS = Integrated Public Use Microdata Series; NAEP = National Assessment of Educational Progress; NCES = National Center for
+Education Statistics.
+a Ruggles et al. (2011).
+b NCES (n.d.-c).
+c NCES (n.d.-b).
+d American Institutes for Research (n.d.).
+e Global Report Card (n.d.).
+f New American Foundation (n.d.).
+
+34
+
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+Appendix C
+Methodological Appendix
+Financial Inputs
+Fiscal Indicator 1
+Local revenue per pupil (LRPP) for a K–12 district with 10% Census poverty and 2,000 or more students, in an average
+wage labor market:
+lnLRPPdy = f (State × Povertydy , Education Comparable Wage Index (ECWI)dy , Enrollmentdy ),
+with lnLRPP predicted at 10% poverty, 1.0 ECWI, and Enrollment >2,000.
+Fiscal Indicator 2
+State aid per pupil (SAPP) for a K–12 district with 10% Census poverty and 2,000 or more students, in an average wage
+labor market:
+lnSAPPdy = f (State × Povertydy , ECWIdy , Enrollmentdy ),
+with lnSAPP predicted at 10% poverty, 1.0 ECWI, and Enrollment >2,000.
+Fiscal Indicator 3
+Federal aid per pupil (FAPP) for a K–12 district with 10% Census poverty and 2,000 or more students, in an average wage
+labor market:
+lnFAPPdy = f (State × Povertydy , ECWIdy , Enrollmentdy ),
+with lnFAPP predicted at 10% poverty, 1.0 ECWI, and Enrollment >2,000.
+Fiscal Indicator 4
+Per pupil current spending (PPCSTOT) for a K–12 district with 10% Census poverty and 2,000 or more students, in an
+average wage labor market:
+lnPPCSTOTdy = f (State × Povertydy , ECWIdy , Enrollmentdy ),
+with lnPPCSTOT predicted at 10% poverty, 1.0 ECWI, and Enrollment >2,000.
+Real Resources
+Resource Input 1
+Staffing ratio (SR) for a K–12 district with 10% Census poverty and 2,000 or more students, in an average wage labor
+market:
+lnSRdy = f (State × Povertydy , ECWIdy , Enrollmentdy ),
+with SR predicted at 10% poverty, 1.0 ECWI, and Enrollment >2,000.
+Resource Input 2
+Competitive wage ratio (INCWAGE), or predicted wage of elementary and secondary teachers divided by predicted wage
+of nonteachers working in the same state, with a master’s degree, at specific ages:
+lnINCWAGE = f (State × K–12 Teacher, Age, Degree, Hours per Week, Weeks per Year).
+Equity Indicators
+Input Equity Indicator 1
+Current spending fairness ratio, or predicted current spending per pupil (PPCSTOT) for a district with 30% poverty
+divided by predicted current spending per pupil for a district with 0% poverty, for K–12 districts with 2,000 or more
+students, in an average wage labor market:
+lnPPCSTOTdy = f (State × Povertydy , ECWIdy , Enrollmentdy ),
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+35
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+with PPCSTOT predicted at 30% poverty, 1.0 ECWI, and Enrollment >2,000; PPCSTOT predicted at 0% poverty, 1.0
+ECWI, and Enrollment >2,000; and fairness index = PPCSTOT predicted at 30% poverty/PPCSTOT predicted at 0%
+poverty.
+Input Equity Indicator 2
+State and local revenue fairness ratio, or predicted state and local revenue per pupil (SLOCREVPP) for a district with 30%
+poverty divided by predicted state and local revenue per pupil for a district with 0% poverty, for K–12 districts with 2,000
+or more students, in an average wage labor market:
+lnSLOCREVPPdy = f (State × Povertydy , ECWIdy , Enrollmentdy ),
+with SLOCREVPP predicted at 30% poverty, 1.0 ECWI, and Enrollment >2,000; SLOCREVPP predicted at 0% poverty,
+1.0 ECWI, and Enrollment >2,000; and fairness index = SLOCREVPP predicted at 30% poverty/SLOCREVPP predicted
+at 0% poverty.
+Input Equity Indicator 3
+Staffing ratio (teachers per 100 pupils; SR) fairness, or predicted staffing ratio for a district with 30% poverty divided by
+predicted staffing ratio for a district with 0% poverty, for K–12 districts with 2,000 or more students, in an average wage
+labor market:
+lnSRdy = f (State × Povertydy , ECWIdy , Enrollmentdy ),
+with SR predicted at 30% poverty, 1.0 ECWI; and Enrollment >2,000; SR predicted at 0% poverty, 1.0 ECWI, and Enrollment >2,000; and fairness index = SR predicted at 30% poverty/SR predicted at 0% poverty.
+Outcomes
+Outcome Level Indicator 1
+Low-income students performance level, or standardized difference between actual and expected NAEP scale score for
+students from low-income families (given mean income of low-income families):
+NAEP Free Lunch Scale Score Mean = f (State Mean Family Income Free Lunch)
+Adj. NAEP Scale Score = Standardized Residual.
+Outcome Gap Indicator 1
+Low-income achievement gap, or standardized difference in NAEP mean scale scores of students from low-income families (students with free lunch) versus students from non-low-income families, corrected for differences in the mean income
+levels of the two groups:
+NAEP Free Lunch Gap = NAEP Non-Free-Lunch Scale Score − NAEP Free Lunch Scale Score,
+Income Gap Ratio = ACS Income for Families Over 130% Poverty/ACS Income for Families
+Under 130% Poverty,
+NAEP Free Lunch Gap = f (Income Gap Ratio),
+Adj. NAEP Free Lunch Gap = Standardized Residual.
+Outcome Gap Indicator 2
+Income achievement effect, or statistical relationship across schools within states between school-level concentration of
+children from low-income families and school-level expected NAEP mean scale score—here we take the standardized
+(z-score) NAEP estimate for each school (standardized around state mean) and standardized low-income share for each
+school (z-score around state mean) and estimate the following regression:
+NAEP School Standardized = b0 + b1 Poverty Standardized + b2 State+ b3 State × Poverty Standardized + e.
+Next, we use this regression to generate predicted values of NAEP for high-poverty (2 S.D.s above state mean) and
+low-poverty (2 S.D.s below state mean) schools in each state and year. We then calculate the ratio of the NAEP for highpoverty to low-poverty schools. These values are invariably below 1.0, and positive change in this value indicates reduction
+in income-related disparity in NAEP across schools.
+36
+
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+B. D. Baker et al.
+
+20 Years of Progress in School Funding
+
+Multiple Regression Models
+1. Cross-state differences and within-state changes in funding fairness translate into spending fairness:
+Spending Fairness Ratiost = f (Revenue Levelst , Revenue Fairnessst ),
+for each state s in year t, estimated as both random effects (averaging within state over time with between-state effects)
+model and fixed effects (within state over time) with robust standard errors (clustering on state) to account for repeated
+measures (states over time).
+2. Cross-state differences and within-state changes in spending fairness translate into pupil-to-teacher ratio fairness:
+Staffing Fairness Ratiost = f (Spending Levelst , Spending Fairnessst ),
+for each state s in year t, estimated as both random effects (averaging within state over time with between-state effects)
+model and fixed effects (within state over time) with robust standard errors (clustering on state) to account for repeated
+measures (states over time).
+3. Cross-state differences in levels and distributions of NAEP scores are associated with staffing ratio levels and distributions:
+Outcome Measurest = f (Teachers per 100 Pupilsst , Fairness Ratio Teachers per 100 Pupilsst ),
+for each state s in year t, estimated as a random effects (averaging within state over time with between-state effects) model
+with robust standard errors (clustering on state) to account for repeated measures (states over time).
+Appendix D
+Correlations Between State Income Gaps and State Achievement Gaps
+In this report, we create adjusted achievement gap measures by relating achievement gaps (state level) to income gaps
+between families above and below the free lunch income threshold (130% poverty). We have found previously that states
+with larger income gaps tend to have larger outcome gaps. Thus, we adjust. Table D1 shows the cross-state correlations,
+by year, of the relationship between income gaps and outcome gaps that serve as the basis for our adjustment strategy.
+Table D1 Cross-State Correlations, by Year, of the Relationship Between Income Gaps and Outcome Gaps
+Year
+
+Math 4
+
+Reading 4
+
+Math 8
+
+Reading 8
+
+1996
+1998
+2000
+2002
+2003
+2005
+2007
+2009
+2011
+2013
+
+0.646
+–
+0.597
+–
+0.510
+0.550
+0.372
+0.535
+0.578
+0.619
+
+–
+0.432
+–
+0.407
+0.418
+0.494
+0.490
+0.453
+0.518
+0.499
+
+0.391
+–
+0.523
+–
+0.431
+0.549
+0.443
+0.436
+0.422
+0.558
+
+–
+0.424
+–
+0.322
+0.462
+0.520
+0.395
+0.395
+0.452
+0.555
+
+Suggested citation:
+Baker, B. D., Farrie, D., & Sciarra, D. G. (2016). Mind the gap: 20 years of progress and retrenchment in school funding and achievement
+gaps (Research Report No. RR-16-15). Princeton, NJ: Educational Testing Service. http://dx.doi.org/10.1002/ets2.12098
+
+Action Editor: James Carlson
+Reviewers: Debra Ackerman and Alexis Lopez
+ETS and the ETS logo are registered trademarks of Educational Testing Service (ETS). MEASURING THE POWER OF LEARNING is a
+trademark of ETS. All other trademarks are property of their respective owners.
+Find other ETS-published reports by searching the ETS ReSEARCHER database at http://search.ets.org/researcher/
+
+Policy Information Report and ETS Research Report Series No. RR-16-15. © 2016 Educational Testing Service
+
+37
+
+
