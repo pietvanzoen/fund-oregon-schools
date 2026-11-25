@@ -12,7 +12,8 @@ no chart script sent to readers.
 ## Decision
 One file per visual, `analysis/visuals/<id>.json`, checked by `tools/check_citations.py` and embedded in any page
 with `<!-- site: visual <id> -->`. Each visual also gets its own page, `/visuals/<id>/`, with a generated text version, its
-sources and the pages that use it.
+notes, its sources and the pages that use it; `/visuals/` lists them all. An embedded visual shows no citation chips or
+notes, only a link to its page: a picture crowded with chips is hard to read, and the sources stay one tap away.
 - A visual holds no numbers. A chart's bars point to rows by reference: `data/<file>/<id>` for a row of
   `analysis/data/<file>.csv` or `derived/<topic>/<id>` for a row of `analysis/derived/<topic>.csv`. The value and
   its citation come from the row. A calculated value gets a derive row first. Data files that a visual uses get an

@@ -139,16 +139,18 @@ function flowHtml(v) {
     + (b.open ? `<p class="flow-open">Not yet confirmed: ${esc(b.open).replace(/#(\d+)/g, `<a href="${REPO}/issues/$1">#$1</a>`)}</p>` : "") + (goes(b) ? `<ul class="flow-to">${goes(b)}</ul>` : "") + `</li>`).join("")}</ul></li>`).join("")}</ol>`;
 }
 
-// One visual, its citation tags left raw for Page.render to turn into chips; `here` on the visual's own page
+// One visual, its citation tags left raw for Page.render to turn into chips. On its own page (`here`) it carries its
+// notes and every citation; embedded elsewhere it shows neither and links to that page, so the picture stays readable
 function visualHtml(id, here) {
   const v = visuals[id];
   if (!v) throw new Error(`no visual ${id} (analysis/visuals/${id}.json)`);
   const body = { bars: barsHtml, flow: flowHtml }[v.kind];
   if (!body) throw new Error(`analysis/visuals/${id}.json: unknown kind ${v.kind}`);
-  return `<figure class="box chart viz viz-${v.kind}"${here ? ` aria-label="${esc(v.title)}"` : ""}>${here ? "" : `<figcaption class="chart-title">${esc(v.title)}</figcaption>`}${body(v)}`
-    + (v.notes || []).map((n) => `<p class="chart-src">${esc(n)}</p>`).join("")
+  const html = here ? body(v) : body(v).replace(/<p class="chart-src">Figures:[^<]*<\/p>/, "").replace(/ ?\[(?:SRC|VID|NEWS|PPSARCH|DER):[^\]]+\]/g, "");
+  return `<figure class="box chart viz viz-${v.kind}"${here ? ` aria-label="${esc(v.title)}"` : ""}>${here ? "" : `<figcaption class="chart-title">${esc(v.title)}</figcaption>`}${html}`
+    + (here ? (v.notes || []).map((n) => `<p class="chart-src">${esc(n)}</p>`).join("") : "")
     + `<details class="viz-text"><summary>Text version</summary><p>${esc(visualText(v))}</p></details>`
-    + (here ? "" : `<p class="chart-src"><a href="/visuals/${id}/">About this ${v.kind === "flow" ? "diagram" : "chart"}: its sources</a></p>`) + `</figure>`;
+    + (here ? "" : `<p class="chart-src"><a href="/visuals/${id}/">Sources${v.notes?.length ? " and notes" : ""} for this ${v.kind === "flow" ? "diagram" : "chart"}</a></p>`) + `</figure>`;
 }
 
 // A card for one citation chip; built per chip because the page number differs
@@ -204,7 +206,7 @@ const LINKS = {
   "people/people.csv": ["who decides", "/who-decides/"], "updates.csv": ["what's new", "/updates/"],
   "about.md": ["about this site", "/about/"], "glossary.csv": ["glossary", "/glossary/"],
   "data/qem_gap.csv": ["the numbers", "/numbers/"], "data/ssf_history.csv": ["the numbers", "/numbers/"],
-  "data/reserves.csv": ["the numbers", "/numbers/"],
+  "data/reserves.csv": ["the numbers", "/numbers/"], "visuals/": ["charts and diagrams", "/visuals/"],
 };
 // Plain Markdown links in website/about.md name pages by their old MkDocs file names
 const PAGE_FILES = { "numbers.md": "/numbers/", "quotes.md": "/quotes/", "promises.md": "/promises/", "sources.md": "/sources/",
@@ -431,9 +433,27 @@ pages.push(glossaryPage);
 // Visuals: one page each, with the visual, its text version, its sources and (in the side column) the pages that use it
 for (const v of Object.values(visuals)) {
   const p = new Page(`visual:${v.id}`, `/visuals/${v.id}/`, v.title);
-  const sources = visualTags(v).map((t) => { const [, k, b] = t.match(/^\[(\w+):(.+)\]$/); return `- ${citeCard(k, b).title} ${t}`; });
+  // One line per document, with a chip for each page cited
+  const docs = new Map();
+  for (const t of visualTags(v)) {
+    const [, k, b] = t.match(/^\[(\w+):(.+)\]$/);
+    const key = k === "SRC" ? `SRC:${b.split(/\s+p\./)[0]}` : `${k}:${b}`;
+    if (!docs.has(key)) docs.set(key, [citeCard(k, b).title, []]);
+    docs.get(key)[1].push(t);
+  }
+  const sources = [...docs.values()].map(([title, tags]) => `- ${title} ${tags.join(" ")}`);
   p.body = p.render(`# ${v.title}\n\n<!-- site: visual ${v.id} -->\n\n## Sources\n\n${sources.join("\n")}\n`, `visuals/${v.id}.json`);
   Object.assign(p, { description: v.description, sourceFile: `analysis/visuals/${v.id}.json`, boxes: true });
+  pages.push(p);
+}
+{
+  const p = new Page("visuals", "/visuals/", "Charts and diagrams");
+  p.body = `<ul class="topic-list box">${Object.values(visuals).map((v) => {
+    p.card(`visual:${v.id}`, entities[`visual:${v.id}`]);
+    return `<li><a class="list-link" href="/visuals/${v.id}/" data-card="visual:${v.id}">${esc(v.title)}</a><p>${esc(v.description)}</p></li>`;
+  }).join("")}</ul>`;
+  Object.assign(p, { sourceFile: "analysis/visuals", seo: "Charts and diagrams of Oregon school funding",
+    description: "Every chart and diagram on this site, each with a text version and the documents it's drawn from." });
   pages.push(p);
 }
 
@@ -702,7 +722,7 @@ for (const p of pages) {
   if (p.boxes) // each section of a generated page is a white card; the text before the first one stays as the intro
     p.html = p.html.replace(/<h2 id="([^"]+)">[\s\S]*?(?=<h2 id=|$)/g, (sec, id) => `<section class="box" aria-labelledby="${id}">${sec}</section>`);
   p.meta = (p.note || "") + pageMeta([p.sourceFile].flat());
-  p.back = p.id.startsWith("person:") ? ["Who decides", "/who-decides/"] : p.id.startsWith("glossary:") ? ["Glossary", "/glossary/"] : null;
+  p.back = p.id.startsWith("person:") ? ["Who decides", "/who-decides/"] : p.id.startsWith("glossary:") ? ["Glossary", "/glossary/"] : p.id.startsWith("visual:") ? ["Charts and diagrams", "/visuals/"] : null;
   p.kind = { topic: "Topic", person: "Person", glossary: p.id.includes(":") ? "Term" : "" }[p.id.split(":")[0]] || "";
 }
 

@@ -106,7 +106,7 @@ archive's emails and records requests.
      column, or `derived/<topic>/<id>`), and a value we calculate gets a derive row first. Every note, diagram box
      and arrow carries its own citation; a path no archived source confirms is marked `open` (with why) or left
      out, and the maintainer chooses which. Colour is never the only way to tell bars apart: each bar names its
-     group. Why: `adr/20261125-0411-visuals-as-derived-entities.md`.
+     group. Embedded in a page, a visual shows no citations or notes and links to its own page, which has both. Why: `adr/20261125-0411-visuals-as-derived-entities.md`.
    - Outside `topics/`, our figures go in their own sentences, marked "our sum" or "our estimate" with
      the DER tag; inference elsewhere starts its own paragraph or list item with "Analysis:". The site shows that
      marker, and a topic's `## Analysis` section, as "Our analysis"; files keep "Analysis:" (#167).
@@ -191,7 +191,8 @@ Least new code that fully does the job; adapted from the ponytail rules
 - `analysis/data/*.csv` — SSF history, QEM gap, forecasts, reserves: values copied from sources only
 - `analysis/derived/<topic>.csv` — every value we calculated, written by `tools/derive_<topic>.py` (never by hand)
 - `analysis/visuals/<id>.json` — charts (`kind: bars`, drawn with Charts.css) and diagrams (`kind: flow`): each
-  has its own page at `/visuals/<id>/` with a generated text version and its sources; `id` columns in
+  has its own page at `/visuals/<id>/` with a generated text version, its notes and its sources (all listed at
+  `/visuals/`); `id` columns in
   `analysis/data/*.csv` exist for the rows visuals point to
 - `analysis/topics/<topic>.md` — topic files: `summary`, `description` (and `title` if the H1 is long) in front matter, then the three sections; each is published on the website automatically
 - `analysis/glossary.csv` — abbreviations and terms: full name, hover tooltip, cited definition

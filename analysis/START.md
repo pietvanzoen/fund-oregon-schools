@@ -62,3 +62,4 @@ See `updates.csv`.
 - `promises.csv`: goals and mandates, whether money came with them, and how they've been rated
 - `people/people.csv`: who decides, and their roles
 - `timeline.md`: dates coming up and what has happened
+- `visuals/`: every chart and diagram, with a text version and its sources

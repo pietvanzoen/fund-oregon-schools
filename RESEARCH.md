@@ -243,7 +243,7 @@ issues to it in the order they should run, and agents take the first free one.
 | What's being decided | `decisions.csv`, `options.csv`, `positions.csv`, `questions.csv`, `analysis/decisions.md` | Per decision: who decides and by when, the baseline and options, who stands where and when, what's known, open questions |
 | Topics | `analysis/topics/*.md` | The evidence on one subject |
 | People, What they've said, Promises, The numbers, Timeline, Glossary, Sources | as named | Reference |
-| Charts and diagrams, each with its own page | `analysis/visuals/*.json` | Show a comparison or a flow at a glance, embedded in any page; each page gives a text version and the sources |
+| Charts and diagrams (`/visuals/`), each with its own page | `analysis/visuals/*.json` | Show a comparison or a flow at a glance, embedded in any page; each visual's page gives its text version, notes and sources |
 | About | `website/about.md` | Who runs the site, how to read it, how to send a question |
 
 `analysis/decisions.md` holds the hand-written part of the decisions page: one section per decision with a short
