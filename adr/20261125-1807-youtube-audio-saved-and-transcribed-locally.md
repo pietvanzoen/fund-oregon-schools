@@ -1,6 +1,6 @@
 # YouTube recordings are saved and transcribed on the maintainer's Mac
 
-Status: accepted (2026-11-25, PR #TBD)
+Status: accepted (2026-11-25, PR #200)
 
 ## Context
 State Board of Education meetings and the Governor's press conferences are on YouTube, which the fetch-sources
