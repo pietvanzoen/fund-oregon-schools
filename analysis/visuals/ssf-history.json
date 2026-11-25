@@ -1,0 +1,31 @@
+{
+  "id": "ssf-history",
+  "kind": "bars",
+  "title": "State School Fund by two-year budget, billions of dollars, not adjusted for inflation",
+  "description": "Bar chart of Oregon's State School Fund: the 2023-25 legislatively approved and 2025-27 adopted budgets, and the 2027-29 current service level estimate.",
+  "column": "amount_billion",
+  "unit": "billion",
+  "bars": [
+    {
+      "ref": "data/ssf_history/ssf-2023-25-approved",
+      "label": "2023-25",
+      "group": "Legislatively approved budget"
+    },
+    {
+      "ref": "data/ssf_history/ssf-2025-27-adopted",
+      "label": "2025-27",
+      "group": "Adopted budget"
+    },
+    {
+      "ref": "data/ssf_history/ssf-2027-29-csl",
+      "label": "2027-29",
+      "group": "Current service level estimate"
+    }
+  ],
+  "notes": [
+    "The 2023-25 figure is the legislatively approved budget: the adopted budget updated by later legislative sessions and Emergency Board actions [SRC:fiscal/das/2026-03_budget-instructions-2027-29.pdf p.6] [SRC:fiscal/das/2026-03_budget-instructions-2027-29.pdf p.20].",
+    "2027-29 is the current service level estimate, not a budget the Legislature passed [SRC:ode/qec/2026_qem_report.pdf p.103].",
+    "The current service level is the cost of continuing existing programs, updating the last budget for pay, benefits, pension rates, inflation and enrollment [SRC:gov/press/2024_ssf-csl-proposal.html] [SRC:ode/qec/2026_qem_report.pdf p.111] [SRC:legislature/olis/2025R1/307212_sb5516-ssf-work-session.pdf p.2].",
+    "The figure shown is the Department of Administrative Services' estimate in the Quality Education Commission's 2026 Quality Education Model report, dated August 2026 [SRC:ode/qec/2026_qem_report.pdf p.1] [SRC:ode/qec/2026_qem_report.pdf p.13] [SRC:ode/qec/2026_qem_report.pdf p.103]."
+  ]
+}

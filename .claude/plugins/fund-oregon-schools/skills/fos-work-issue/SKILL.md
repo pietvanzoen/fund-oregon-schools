@@ -240,6 +240,10 @@ Then, as the issue needs:
   `tools/derive_<topic>.py` that reads `analysis/data/` (columns `id, value, unit, kind, label, method, inputs,
   assumptions`; `kind` = `derived` for arithmetic, `est` when it rests on assumptions). Cite any constant the
   script copies from a source in a comment. Never type a derived value by hand.
+- Charts and diagrams as visuals in `analysis/visuals/<id>.json`, embedded with `<!-- site: visual <id> -->`
+  (CLAUDE.md rule 4): a bar points to a data row by its `id` (add the column to the data file if it has none) or to
+  a derived row; every note, box and arrow is cited; ask the maintainer before leaving out or marking `open` a path
+  no source confirms.
 - Quotes in `analysis/people/quotes_all.jsonl` and the person's `analysis/people/<slug>.md`.
 - Pledges in `analysis/promises.csv` (rate on outcomes, not intentions: `rating` and `rated_on`); dates in
   `analysis/timeline.md`.

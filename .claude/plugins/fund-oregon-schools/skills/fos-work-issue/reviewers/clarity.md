@@ -18,7 +18,7 @@ Setup:
 ```bash
 d=$(mktemp -d) && git clone -q https://github.com/pietvanzoen/fund-oregon-schools "$d" && cd "$d"
 git fetch -q origin {{BRANCH}} && git checkout -q FETCH_HEAD   # run every later command in "$d"
-git diff {{BASE}} -- analysis/START.md analysis/decisions.md analysis/topics/ analysis/people/*.md analysis/timeline.md
+git diff {{BASE}} -- analysis/START.md analysis/decisions.md analysis/topics/ analysis/people/*.md analysis/timeline.md analysis/visuals/
 ```
 
 Read `STYLE.md` (the house style) and the "Writing so it gets used" section of `RESEARCH.md` first. Review only

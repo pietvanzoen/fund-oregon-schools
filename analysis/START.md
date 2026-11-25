@@ -34,7 +34,7 @@ Run by Oregon public school parents. [About this site](about.md)
 - The Education Stability Fund, one of the state's two general reserve accounts, is projected at $1.271 billion at
   the end of 2025-27 [SRC:fiscal/oea/2026-12_forecast.pdf p.41].
 
-<!-- site: funding chart -->
+<!-- site: visual funding-2027-29 -->
 
 More: `data/qem_gap.csv`
 

@@ -271,6 +271,51 @@ def main():
         os.remove(f"{root}/analysis/v.md")
         shutil.rmtree(f"{root}/sources/legislature")
 
+        # visuals: bars point to data rows by id or to derived rows; every note, box and arrow is cited or open
+        for d in ("data", "derived", "visuals"):
+            os.makedirs(f"{root}/analysis/{d}")
+        open(f"{root}/analysis/data/h.csv", "w").write(
+            "id,biennium,amount_billion,source\na,2025-27,11.36,[SRC:gov/test_page.html]\nb,2027-29,,[SRC:gov/test_page.html]\n")
+        open(f"{root}/analysis/derived/z.csv", "w").write(
+            "id,value,unit,kind,label,method,inputs,assumptions\nn,12.5,USD billions,derived,N,a + 1,data/h.csv,\n")
+        bars = {"id": "ok-bars", "kind": "bars", "title": "T", "description": "D", "column": "amount_billion",
+                "unit": "billion", "notes": ["Adopted [SRC:gov/test_page.html]."],
+                "bars": [{"ref": "data/h/a", "label": "2025-27", "group": "Adopted"},
+                         {"ref": "derived/z/n", "label": "Ours", "group": "Our sum"}]}
+        flow = {"id": "ok-flow", "kind": "flow", "title": "T", "description": "D", "columns": 2,
+                "rows": [{"groups": [{"name": "R", "span": 1, "boxes": [{"id": "a", "label": "A", "cite": "[NEWS:NEWS-1]"}]},
+                                     {"name": "Q", "span": 1, "boxes": [{"id": "b", "label": "B", "open": "no source yet"}]}]},
+                         {"groups": [{"name": "S", "span": 2, "boxes": [{"id": "c", "label": "C", "cite": "[SRC:gov/test_page.html]"}]}]}],
+                "arrows": [{"from": "a", "to": "c", "label": "x", "cite": "[NEWS:NEWS-1]"},
+                           {"from": "b", "to": "c", "label": "y", "open": "not yet confirmed"}]}
+        for v in (bars, flow):
+            json.dump(v, open(f"{root}/analysis/visuals/{v['id']}.json", "w"))
+        open(f"{root}/analysis/m.md", "w").write("<!-- site: visual ok-bars -->\n")
+        r = run(root, "check_citations.py")
+        assert r.returncode == 0 and "0 errors" in r.stdout, r.stdout
+        bad = dict(bars, id="bad", notes=["No citation."], bars=[{"ref": "data/h/b", "label": "L", "group": "G"},
+                                                                 {"ref": "data/h/zz", "label": "L"}, {"ref": "derived/z/q", "label": "L", "group": "G"}])
+        json.dump(bad, open(f"{root}/analysis/visuals/bad.json", "w"))
+        json.dump(dict(flow, id="bad-flow", arrows=[{"from": "a", "to": "nope", "label": "x", "cite": "[NEWS:NEWS-9]"},
+                                                   {"from": "a", "to": "c", "label": "y"}]),
+                  open(f"{root}/analysis/visuals/bad-flow.json", "w"))
+        json.dump(dict(flow, kind="pie"), open(f"{root}/analysis/visuals/renamed.json", "w"))
+        json.dump(dict(flow, id="wide", columns=1), open(f"{root}/analysis/visuals/wide.json", "w"))
+        open(f"{root}/analysis/data/h.csv", "a").write("a,2029-31,13,[SRC:gov/test_page.html]\n")
+        open(f"{root}/analysis/m.md", "a").write("<!-- site: visual gone -->\n")
+        r = run(root, "check_citations.py")
+        out = r.stdout
+        assert r.returncode == 1 and out.count("ERROR") == 13, out
+        assert "wide.json: row 1's groups span more than 1 columns" in out and "wide.json: row 2's" in out, out
+        assert "h.csv:4: id 'a' is empty or used twice" in out and "m.md:2: no visual gone" in out, out
+        assert "bad.json: note has no citation" in out and "bar 'data/h/b' doesn't point to a row with a number" in out, out
+        assert "bar 'data/h/zz'" in out and "bar data/h/zz needs a label and a group" in out and "bar 'derived/z/q'" in out, out
+        assert "bad-flow.json: arrow a -> nope: no box nope" in out and "unknown NEWS id NEWS-9" in out, out
+        assert "bad-flow.json: arrow 'y' has no citation" in out and "renamed.json: id must be 'renamed'" in out, out
+        for d in ("data", "derived", "visuals"):
+            shutil.rmtree(f"{root}/analysis/{d}")
+        os.remove(f"{root}/analysis/m.md")
+
         r = run(root, "check_sources.py")
         assert r.returncode == 0 and "0 errors" in r.stdout, r.stdout
         q3 = open(f"{root}/sources/_queue.csv").read()

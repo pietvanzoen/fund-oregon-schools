@@ -7,6 +7,7 @@ const PREVIEW = process.env.PREVIEW === "1";
 
 export default function (cfg) {
   cfg.addPassthroughCopy("src/assets");
+  cfg.addPassthroughCopy({ "node_modules/charts.css/dist/charts.min.css": "assets/charts.min.css" }); // bar charts (adr/20261125-0411-visuals-as-derived-entities.md)
   cfg.addPassthroughCopy("src/CNAME"); // records the domain; an Actions deploy takes it from the repo's Pages settings
 
   if (PREVIEW)

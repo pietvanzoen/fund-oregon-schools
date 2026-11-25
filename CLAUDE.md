@@ -101,6 +101,12 @@ archive's emails and records requests.
      assumptions`; `kind` is `derived` (plain arithmetic) or `est` (rests on assumptions, listed). A constant the
      script copies from a source carries its citation in a comment. `analysis/data/*.csv` holds only values
      copied from sources.
+   - Charts and diagrams are visuals, `analysis/visuals/<id>.json`, embedded with `<!-- site: visual <id> -->`.
+     A visual holds no numbers of its own: a bar points to a row (`data/<file>/<id>`, by the data file's `id`
+     column, or `derived/<topic>/<id>`), and a value we calculate gets a derive row first. Every note, diagram box
+     and arrow carries its own citation; a path no archived source confirms is marked `open` (with why) or left
+     out, and the maintainer chooses which. Colour is never the only way to tell bars apart: each bar names its
+     group. Embedded in a page, a visual shows no citations or notes and links to its own page, which has both. Why: `adr/20261125-0411-visuals-as-derived-entities.md`.
    - Outside `topics/`, our figures go in their own sentences, marked "our sum" or "our estimate" with
      the DER tag; inference elsewhere starts its own paragraph or list item with "Analysis:". The site shows that
      marker, and a topic's `## Analysis` section, as "Our analysis"; files keep "Analysis:" (#167).
@@ -149,7 +155,8 @@ Least new code that fully does the job; adapted from the ponytail rules
 
 - **Before writing:** read the affected code and list everywhere the change must reach: callers, tests, the
   workflows, the site build (`site-11ty/`, mainly `src/_data/archive.js`), both skills and the reviewer prompts, CLAUDE.md, README, RUNBOOK,
-  and any record in `adr/` that the change touches or reverses.
+  the entity diagram in `RESEARCH.md` ("The model": a new file type or relationship), and any record in `adr/`
+  that the change touches or reverses.
 - **Pick the first option that fully works, in this order:** skip it (say so in one line); reuse what's in
   `tools/` (`common.py`, `check_citations.py`, the existing patterns); the Python standard library; a one-liner a
   reader gets at a glance; otherwise the minimum code. Tools in `tools/` stay stdlib-only (heavier jobs run only in GitHub Actions with pinned versions, like OCR,
@@ -183,6 +190,10 @@ Least new code that fully does the job; adapted from the ponytail rules
 - `analysis/promises.csv` — pledge tracker (who, what, when, status, rating on outcomes, source)
 - `analysis/data/*.csv` — SSF history, QEM gap, forecasts, reserves: values copied from sources only
 - `analysis/derived/<topic>.csv` — every value we calculated, written by `tools/derive_<topic>.py` (never by hand)
+- `analysis/visuals/<id>.json` — charts (`kind: bars`, drawn with Charts.css) and diagrams (`kind: flow`): each
+  has its own page at `/visuals/<id>/` with a generated text version, its notes and its sources (all listed at
+  `/visuals/`); `id` columns in
+  `analysis/data/*.csv` exist for the rows visuals point to
 - `analysis/topics/<topic>.md` — topic files: `summary`, `description` (and `title` if the H1 is long) in front matter, then the three sections; each is published on the website automatically
 - `analysis/glossary.csv` — abbreviations and terms: full name, hover tooltip, cited definition
 - `analysis/START.md` (home page), `analysis/timeline.md`
