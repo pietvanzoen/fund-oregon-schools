@@ -84,7 +84,7 @@ services is still open (`questions.csv`, "csl-meaning").
   students (12.9%) in the next 10 years, after a drop of 36,800 (6.4%) in 2015-25. It
   says the decline in the number of children "may indicate smaller budget allocation for the pre-K and K-12
   education", and that in the long run the state may face a labor shortage [SRC:fiscal/oea/2026-12_forecast.pdf p.48].
-- On where the revenue growth comes from, the forecast itself says capital gains, dividend and retirement account income
+- On investment income, the forecast itself says capital gains, dividend and retirement account income
   "continue to grow at double-digit rates as financial and equity markets soar to new heights", while the rest of
   income shows "historically normal gains" [SRC:fiscal/oea/2026-12_forecast.pdf p.6]. It warns that an equity
   correction like past ones "would impact Oregon’s revenue streams as well" [SRC:fiscal/oea/2026-12_forecast.pdf p.25].
@@ -92,8 +92,8 @@ services is still open (`questions.csv`, "csl-meaning").
   Smith statements is the rise in available resources for 2027-29, and the Senate Republicans' $233 million is the rise
   in net General Fund revenue (above). The Republican statements argue against basing spending on these gains. The
   forecast reports fast growth in investment income and says a market correction would affect revenue; it makes no
-  recommendation on spending. None of the statements says where the State School Fund should land against the current service level, so the archive
-  records no position from them on the State School Fund amount (below). The archive has no
+  recommendation on spending [SRC:fiscal/oea/2026-12_forecast.pdf]. None of the statements says where the State School Fund should land against the current service level, so the archive
+  records no position from them on the State School Fund amount (see the State School Fund decision below). The archive has no
   statement on this forecast from the House or Senate Democratic caucuses.
 - Kotek has said her budget will prioritize education and summer learning [NEWS:NEWS-2026-salemreporter-1]. After the
   election, speaking about revenue proposals such as a wealth tax, she said she had made no commitments on how to pay
