@@ -1,18 +1,34 @@
 {
   "id": "funding-2027-29",
   "kind": "bars",
-  "title": "State funding for K-12, billions of dollars: 2025-27 adopted and 2027-29 estimates",
+  "title": "State funding for K-12, billions of dollars, not adjusted for inflation: 2025-27 adopted and 2027-29 estimates",
   "description": "Bar chart: the 2025-27 State School Fund, its 2027-29 current service level, and the Quality Education Commission's two 2027-29 estimates.",
   "column": "amount_billion",
   "unit": "billion",
   "bars": [
-    {"ref": "data/ssf_history/ssf-2025-27-adopted", "label": "Adopted for 2025-27", "group": "State School Fund"},
-    {"ref": "data/qem_gap/qem-2027-29-ssf-csl", "label": "Current service level, 2027-29", "group": "State School Fund"},
-    {"ref": "data/qem_gap/qem-2027-29-status-quo", "label": "Keep 2025-27 service levels", "group": "Commission estimate, all core state funding"},
-    {"ref": "data/qem_gap/qem-2027-29-full", "label": "Meet the state's goals", "group": "Commission estimate, all core state funding"}
+    {
+      "ref": "data/ssf_history/ssf-2025-27-adopted",
+      "label": "Adopted for 2025-27",
+      "group": "State School Fund"
+    },
+    {
+      "ref": "data/qem_gap/qem-2027-29-ssf-csl",
+      "label": "Current service level, 2027-29",
+      "group": "State School Fund"
+    },
+    {
+      "ref": "data/qem_gap/qem-2027-29-status-quo",
+      "label": "Keep 2025-27 service levels",
+      "group": "Commission estimate, all core state funding"
+    },
+    {
+      "ref": "data/qem_gap/qem-2027-29-full",
+      "label": "Meet the state's goals",
+      "group": "Commission estimate, all core state funding"
+    }
   ],
   "notes": [
-    "The current service level is the Department of Administrative Services' estimate, as used in the Quality Education Commission's 2026 report [SRC:ode/qec/2026_qem_report.pdf p.103].",
-    "The commission's two estimates count the State School Fund and other state money [SRC:ode/qec/2026_qem_report.pdf p.103]. The commission leaves what counts as adequate to the Legislature [SRC:ode/qec/2026_qem_report.pdf p.117]."
+    "The current service level is the Department of Administrative Services' estimate of what continuing existing programs costs [SRC:gov/press/2024_ssf-csl-proposal.html], updating the last budget for pay, benefits, pension rates, inflation and enrollment [SRC:ode/qec/2026_qem_report.pdf p.111] [SRC:legislature/olis/2025R1/307212_sb5516-ssf-work-session.pdf p.2]. This one is the estimate in the Quality Education Commission's 2026 Quality Education Model report, released August 2026 [SRC:ode/qec/2026_qem_report.pdf p.103] [NEWS:NEWS-20260812-opb-1].",
+    "The commission's two estimates are core K-12 state funding: the State School Fund and other state money [SRC:ode/qec/2026_qem_report.pdf p.103] [SRC:ode/qec/2026_qem_report.pdf p.117]. The commission leaves what counts as adequate to the Legislature [SRC:ode/qec/2026_qem_report.pdf p.117]."
   ]
 }

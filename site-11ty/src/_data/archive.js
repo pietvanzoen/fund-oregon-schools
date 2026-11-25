@@ -108,13 +108,14 @@ const visualTags = (v) => [...new Set([...(v.bars || []).map((b) => barRow(v, b)
 
 // The text version, generated from the same file so it can't disagree with the picture
 function visualText(v) {
+  const notes = (v.notes || []).map((n) => " " + plain(n)).join("");
   if (v.kind === "bars")
-    return `${v.title}. ` + v.bars.map((b) => `${b.label} (${b.group}): $${barRow(v, b)[0]} ${v.unit}.`).join(" ");
+    return `${v.title}. ` + v.bars.map((b) => `${b.label} (${b.group}): $${barRow(v, b)[0]} ${v.unit}.`).join(" ") + notes;
   const box = Object.fromEntries(v.rows.flatMap((r) => r.boxes).map((b) => [b.id, b]));
   return `${v.title}. ` + v.rows.map((r) => `${r.name}: ` + r.boxes.map((b) => {
     const to = v.arrows.filter((a) => a.from === b.id).map((a) => `to ${box[a.to].label} (${a.label}${a.open ? `, ${a.open}` : ""})`);
-    return `${b.label}${b.open ? ` (not yet confirmed: ${b.open})` : ""}${to.length ? ` goes ${to.join("; and ")}` : ""}.`;
-  }).join(" ")).join(" ");
+    return `${b.label}${b.open ? ` (not yet confirmed: ${b.open})` : ""}${to.length ? `: ${to.join("; ")}` : ""}.`;
+  }).join(" ")).join(" ") + notes;
 }
 
 // Charts.css bars: the chart is a data table; the group is written on each bar, so colour isn't the only cue
@@ -135,7 +136,7 @@ function flowHtml(v) {
     + `<a href="#${v.id}-${a.to}">${esc(box[a.to].label)}</a>: ${esc(a.label)} ${a.cite || `<em>(${esc(a.open)})</em>`}</li>`).join("");
   return `<ol class="flow">${v.rows.map((r) => `<li class="flow-row"><p class="flow-row-name">${esc(r.name)}</p><ul class="flow-boxes">${r.boxes.map((b) =>
     `<li class="flow-box${b.open ? " open" : ""}" id="${v.id}-${b.id}"><p class="flow-label"><strong>${esc(b.label)}</strong> ${b.cite || ""}</p>`
-    + (b.open ? `<p class="flow-open">Not yet confirmed: ${esc(b.open)}</p>` : "") + (goes(b) ? `<ul class="flow-to">${goes(b)}</ul>` : "") + `</li>`).join("")}</ul></li>`).join("")}</ol>`;
+    + (b.open ? `<p class="flow-open">Not yet confirmed: ${esc(b.open).replace(/#(\d+)/g, `<a href="${REPO}/issues/$1">#$1</a>`)}</p>` : "") + (goes(b) ? `<ul class="flow-to">${goes(b)}</ul>` : "") + `</li>`).join("")}</ul></li>`).join("")}</ol>`;
 }
 
 // One visual, its citation tags left raw for Page.render to turn into chips; `here` on the visual's own page
