@@ -1,0 +1,277 @@
+Opposition to SB 1555
+QEM Revision
+February 11, 2026
+Chair Frederick, Vice-Chair Weber, and Members of the Committee,
+Oregon PTA has publicly stated that we need more alignment across our education system and we
+need a shared North Star such as the Quality Education Model (QEM) to guide us1. We’ve also
+testified to this legislature multiple times that the Quality Education Commission (QEC) and QEM
+need to be revised.2
+And while we appreciate the efforts by Senator Sollman and Representative Ruiz to move us
+forward, unfortunately, neither the content of the bill nor the process in which it was developed
+meet the standards the Legislature should have for itself. A rushed decision that ignores advice
+from national and Oregon’s own experts is not a sound foundation to build major strategies for our
+education system upon.
+In particular we are concerned and argue below that this bill:
+●​ Misses clarity of purpose and misunderstands school funding research
+●​ Lowers expectations for students by reducing them to data points
+●​ Is insufficiently aligned with other efforts and avoids agency accountability
+●​ Rushes through the process without sufficient input from the public and other key voices in
+public education
+●​ Provides no additional funding, funding stability, or equitable funding distribution
+SB 141 passed just months ago arguing that the solution for Oregon’s educational crisis is greater
+state oversight and strengthening the role of ODE vis-a-vis district leadership. In contrast, SB 1555
+argues that the crisis is partially caused by ODE and that we should listen to the experts on the
+ground doing the work in our districts.
+This is exactly the kind of legislative policy see-saw whiplash that the State Auditor’s Systemic Risk
+report has warned about and that keeps Oregon at the bottom of national education rankings.
+
+1
+2
+
+Oregon PTA, “Oregon has lost sight of what a quality education means”, The Oregonian, Aug 17, 2025
+Testimony JPEAC 2003, SB 5515 (2004)
+
+1
+
+Misses clarity of purpose and misunderstands school funding research
+One intent of the bill seems to be to create a cost model to calculate a specific dollar amount:
+“Article VIII, Section 8 of the Oregon Constitution requires the Legislative Assembly to
+appropriate a “sufficient” amount of funding for K-12 education or issue a report about funding
+insufficiency. That requirement was enacted into law in 2000 with the passage of Ballot Measure
+1. To comply with this requirement, the legislature needs to know how much is sufficient. “3
+If it is just for the dollar amount, which for years has been a purely academic exercise and we worry
+will remain so, it could be done both more affordably and more efficiently than the elaborate
+process that this bill envisions.
+Neither the Joint Committee on Public Education Appropriation (JPEA) nor any other legislative
+committee has - to our knowledge - considered whether the “professional judgement panel (PJP)”
+approach is even the most appropriate or effective methodology for Oregon for developing the cost
+estimate required by Article 8 of the constitution.4
+The other intent speaks to providing a roadmap to improve educational outcomes across Oregon
+through aligned strategies.
+If the goal is to build a real roadmap, it needs a much broader approach. It needs to include more
+stakeholders. It needs to align with the work of ODE, including its new strategic plan, and the
+Teacher Standards and Practices Commission It needs clear alignment with the timelines for setting
+state goals from SB 141. Finally, it needs to wrestle with how the bottom-up approach of the cost
+model interacts with the top-down of our funding distribution. All of this takes additional time to
+get right that is just not available in a short session timeframe.
+Arguments made by supporters of SB 1555 are misunderstanding or misrepresenting the scientific
+research on school funding cost modeling.
+This bill takes a wrecking ball to the foundation underlying our education system by eliminating
+widely supported educational goals from statute. As explained below, this lowers expectations for
+our students and educators. The elimination of our educational goals in ORS 329.015, and 329.025
+also speaks to misconceptions behind this bill. Bill sponsors have argued that the existing goals
+such as high expectations, safe learning environments and parental involvement can't be used as
+3
+
+LPRO staff memo “SB 1555” (Feb 6, 2026)
+Other cost analysis methods for example include: Consultant synthesis (evidence based) resource cost
+model; Cost-function analysis; Successful Schools Method. See: Baker, Bruce D. “Education Inequality and
+School Finance - Chapter 9: Applying High-Quality Cost Analysis to School Finance Policy”; AIR “Review and
+Evaluation of the Efficacy and Methodology of the Quality Education Model- Section 1”
+4
+
+2
+
+the basis of a cost model. This goes against the American Institutes for Research (AIR) report,
+which states:
+“A key strength of the PJP [professional judgement panel] approach is its ability to accommodate
+an expansive view of outcome targets, including goals that are not easily quantified. Effective
+PJPs leverage this opportunity to define adequacy targets using multifaceted aims, which might
+include student well-being, academic and postsecondary success, and democratic citizenship.”5
+AIR quoted ORS 329.015 - the very statute which this bill aims to repeal - in full in its report and
+concluded: “These aims, while broad, would make for useful outcome targets for a PJP in Oregon.”
+Bill supporters have further argued that the proposed process would link resources and outcomes
+which is again inconsistent with statements by AIR:
+“Whereas being able to accommodate a broader set of goals is a strength, the lack of an explicit
+empirical link between resources and outcomes is also a weakness of the PJP. With PJP, the link
+between resources and outcomes is hypothetical [...] There is no guarantee that the planned
+programs, and associated collections of resources necessary to support them, represent the most
+efficient way to produce the desired student outcomes.”
+
+Lowers expectations for students by reducing them to data points
+The current SB 1555 draft would repeal ORS 329.015 and 329.025, which describe the state
+education goals and general characteristics of the school system.
+These goals - which include a safe learning environment, high expectations for all students, and
+parental involvement among other important goals - represent the foundation and purpose of our
+educational system. These overarching goals are supported by a vast and bipartisan majority of
+Oregonians. Eliminating the goal of “parental involvement in the education of their children” from
+statute is especially incompatible with the mission and values of Oregon PTA.
+The goals are ambitious and rightfully so. Parents don’t want to claim success when their
+teenagers are reading at a third-grade level; instead they want them to leave school ready for
+college, work and the world. Repealing these goals isn’t setting high expectations, it’s lowering the
+bar.
+These broad educational goals are guardrails to ensure our systems center the best interests of
+Oregon’s students in their work.
+
+5
+
+AIR, “Review and Evaluation of the Efficacy and Methodology of the Quality Education Model”, pg. 10
+
+3
+
+One example is the upcoming decision about reinstating the essential skills test for high school
+graduation. Under the current goals which in ORS 329.015 include:
+●​ “ To equip students with the academic and career skills and information necessary to pursue the
+future of their choice through a program of rigorous academic preparation and career readiness;
+●​ To provide an environment that motivates students to pursue serious scholarship and to have
+experience in applying knowledge and skills and demonstrating achievement;”
+Currently, reinstating an essential skills test seems a logical and aligned decision that can be
+weighed against other existing state goals.6 If “graduation rate” as a metric replaces those broad
+state goals, then it would be more logical to suspend the “Assessment of Essential Skills” test
+indefinitely as lifting the suspension would likely decrease graduation rates. Eliminating academic
+requirements like it lowers the expectations we have for our students. Other states who have used
+metrics such as grade-level proficiency as goals have often lowered test standards to meet targets
+leading to an erosion of trust in the public school system.7
+Oregon PTA believes the current state education goals are important and should not only remain in
+statute but become guiding principles for all decision-makers and stakeholders to create greater
+consistency in all our efforts. They should only be updated or modified by a thoughtful, inclusive
+process.
+The broad, ambitious goals, which for the record can and in Oregon are often times already
+measured,8 are necessary to avoid Oregon becoming a “teach to the test state.” Oregonians have a
+long history of supporting and demanding broad curricula approaches such as mandatory PE
+minutes, funding for outdoor school and art taxes, or health curricula.
+Oregon’s current educational goals acknowledge our students with all their multifaceted hopes and
+dreams, challenges and needs.
+SB 1555 replaces these ambitious, complex goals with simple metrics that seem to value students
+only as data points that need to be managed, dehumanizing their experiences. Oregon PTA strongly
+believes in an education system that centers children, not dashboards.
+PTA acknowledges that standardized testing has an important place in our education system.9 But
+families also don’t want testing to be the only lens that we look through when we design
+educational systems and experiences.
+6
+
+It is PTA’s position that “neither one test, nor a single data point should ever be the sole determinant of a
+student’s academic or work future, such as graduation, admission, retention or tracking.”
+7
+As the adage goes: “Metrics that become goals become useless as metrics.”
+8
+https://www.oregonpta.org/assets/pages/files/Metrics_for_Oregon_K-12_Education_Goals_Crosswalk.pdf
+9
+https://www.pta.org/home/advocacy/ptas-positions/PTA-Positions-Standards-Assessments
+
+4
+
+Focuses on averages, once again marginalizing disadvantaged students
+The current draft only considers statewide averages for the narrowly defined goals of “quality
+education” such as 3rd grade reading, attendance, or graduation rates taken from SB 141. We know
+from decades of education research that a focus on averages leaves our marginalized students students with disabilities, students of color, rural students, students experiencing poverty, English
+Learners - behind. We need to ensure that our education system serves not just the average, but all
+students.
+Families and communities deserve schools that serve the needs of every student and their diverse
+needs are represented in discussions around educational strategies and funding. State goals can
+either open or close the door on these important community conversations, so it is
+imperative that we are intentional about including student subgroups.
+
+Is insufficiently aligned with other efforts and avoids agency accountability
+The Oregon State Board of Education is currently in the process of adopting statewide targets for
+2030 for the metrics identified in SB 1555. Given SB 1555’s timeline of presenting a new cost
+model for the first time for the 2029-31 biennium, this would give districts about one year of full
+funding - if the legislature were to fully fund the new QEM, which seems highly unlikely itself - to
+achieve potentially ambitious state goals or be taken over by the Department of Education - which,
+ironically, this bill seems to suggest we can’t trust to get cost calculations or educational strategies
+right.
+In the more likely case of the Legislature not funding districts to the level of new QEM before 2030,
+why would we hold districts accountable and use authority from SB 141 to have ODE take them
+over, when evidence-based research from this process has shown that the targets were impossible
+to achieve in the first place given funding constraints?
+The educational goals in SB 1555 also seem out of sync with the goals of the strategic plan ODE is
+developing and it raises the question as to why those efforts weren’t coordinated more.
+Lastly, it has not been addressed how this process will incorporate costs resulting from new
+legislative mandates or ODE and other agency rule-making especially in the time between the
+publication of the cost estimate (February of even numbered years) and budget adoption (June of
+odd numbered years).
+
+5
+
+The 2025 JPEA committee exposed great flaws in the way ODE is currently calculating the QEM and
+potential insufficiency of state funding.10 Neither the JPEA nor the relevant Joint Subcommittee on
+Education - both co-chaired by Senator Sollman and Representative Ruiz - have held hearings with
+the Department of Education to investigate why the QEM report was prepared so haphazardly and
+which consequences the Department has drawn from it.
+Instead of addressing the issue with ODE, SB 1555 avoids accountability for the agency. Without
+clear communication and a clear alignment between the Legislature and ODE, any efforts to
+improve our education system are destined to be stymied. SB 141 (2025) gives great powers to the
+Department of Education to take over districts. If we can’t trust ODE to properly calculate the
+purely theoretical QEM, why would we trust ODE with running actual districts?
+Additionally, it should be noted that LFO, who will be instrumental in the implementation of SB
+1555, did not spot ODEs two billion dollar mistake for months and only realized it after the
+2025-27 budget had been passed.
+Neither JPEA nor the Joint Subcommittee on Education have held hearings to hold LFO
+accountable.
+
+Rushes through the process without sufficient input from the public and other
+key voices in public education
+Bill sponsors have argued this bill requires immediate passage in order to be able to have an
+updated model in time that can provide input for the 2029 biennium.11 This time pressure is
+artificially created by timelines in the bill itself. The bill assumes a contractor would require at
+least 18 months to develop the report and model and the bill further requires the report/model to
+be presented Feb 1 of even numbered years. About 11 months before the start of a legislative long
+session and about 18 months before the cost number is needed for the report required by Article 8
+of the constitution. The bill sponsors have offered no testimony or evidence that would support
+these long (29-36 months), self-chosen timelines.
+10
+
+https://olis.oregonlegislature.gov/liz/2025I1/Downloads/CommitteeMeetingDocument/310915
+It is worth highlighting that this issue could have been addressed in the 2025 session. In fact, Oregon PTA
+testified to the Joint Subcommittee on Education in March of 2025 (11 months ago) and urged to “provide
+additional resources and staffing to the Quality Education Commission. This support will enable the study of best
+practices for statewide implementation, the refinement of the quality education model with a broader range of
+student outcomes and more detailed financial data, and the development of a realistic plan to achieve
+much-needed improvements in student outcomes.” The co-chairs of the Joint Subcommittee on Education did
+not respond to our testimony nor did they propose budget adjustments or budget notes to improve the work
+of the Quality Education Commission in 2025. The co-chairs of this subcommittee in 2025 were: Senator
+Janeen Sollman, Representative Ricki Ruiz.
+11
+
+6
+
+The long timelines also raise questions about the timeliness of the financial data underlying the
+model. The most current available financial data for districts as of February 2026 is from the
+2023-24 school year, that means for the first report to be published in February 2028 the most
+recent data will be the current 2025-26 school year and that assumes that there is sufficient time
+between the publication of the financial data by ODE (typically in November) and the publication of
+the report (in February) to run the model again based on the most recent data, otherwise the
+2029-31 QEM cost estimate stemming from SB 1555 might be informed by 2024-25 financial data
+which would likely be unrepresentative for 2029-31 costs. ODE’s update to the Program Budgeting
+and Accounting Manual (PBAM) used statewide by districts currently in progress will further
+complicate our ability to develop the cost comparisons and trends over time necessary for the cost
+model.
+The AIR report, which could be considered of similar complexity, was written in about 9 months.
+Current QEM reports are seemingly written within 18 months and published in August before the
+long session - six months later than what SB 1555 proposes.
+Overall, the bill was developed without sufficient public input. Breaking with tradition, the 2025
+JPEA co-chairs decided to not hold a public hearing to discuss the committee's draft report, giving
+no opportunity to the public to weigh in on the report or the conclusions presented in it.
+At the February 10, 2026, Senate Education Committee hearing, supporters of the bill including
+staff were given close to an hour of testimony time and all five witnesses registered in support
+were called by the chair for testimony, while only three out of five witnesses opposed to the bill
+were called. The three witnesses in opposition spoke for less than 20 minutes and were denied by
+the chair to fully respond to a question raised to them by Senator Sollman due to limited time. Yet
+later in the same meeting, prompted by Senator Sollman, the chair agreed to call additional
+testimony from staff in support of the bill.
+At the same committee meeting, a bill sponsor was corrected on the record about misrepresenting
+stakeholder engagement.
+This raises questions about the inclusiveness and fairness of the process and whether it allows for
+sufficient vetting of this bill. As can be seen in submitted testimony, other stakeholders have raised
+these concerns as well.
+
+7
+
+Provides no additional funding, funding stability or equitable funding
+distribution
+Finally, the current budgetary situation provides another reason that there is limited benefit to
+rushing this bill. Given the challenging revenue outlook for the next two biennia we can’t even be
+sure we will be able to maintain CSL funding for schools, so developing this new QEM exercise feels
+particularly unnecessary.
+We agree with the bill sponsors that schools need adequate and stable funding. This was also the
+goal of the original QEM. A goal that was never met.
+Despite the sponsors’ best intent: This bill provides neither funding nor funding stability. It does
+not address our current inequitable funding distribution.
+
+Submitted:
+Robin Roemer
+VP for Legislative Advocacy, Oregon PTA
+
+8
+
+
