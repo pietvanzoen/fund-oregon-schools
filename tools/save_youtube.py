@@ -51,13 +51,16 @@ def loops(segments):
 
 
 def download(url, rel, title, date, dest, tmp):
+    print(f"downloading {url}", flush=True)
+    # --print makes yt-dlp quiet; --progress puts its progress bar back on stderr, which isn't captured
     final_url = subprocess.run(["yt-dlp", "--no-playlist", "-f", "bestaudio", "-o", f"{tmp}/orig.%(ext)s",
-                                "--no-simulate", "--print", "webpage_url", url],
-                               check=True, capture_output=True, text=True).stdout.strip().splitlines()[-1]
+                                "--no-simulate", "--progress", "--print", "webpage_url", url],
+                               check=True, stdout=subprocess.PIPE, text=True).stdout.strip().splitlines()[-1]
     orig = next(os.path.join(tmp, f) for f in os.listdir(tmp) if f.startswith("orig."))
     # shortcut: 32 kbps mono fits about 7 hours under 100 MB; split the file if a recording runs longer
     os.makedirs(os.path.dirname(dest), exist_ok=True)
-    subprocess.run(["ffmpeg", "-loglevel", "error", "-i", orig, "-vn", "-ac", "1", "-c:a", "libopus",
+    print("re-encoding to 32 kbps mono Opus", flush=True)
+    subprocess.run(["ffmpeg", "-loglevel", "error", "-stats", "-i", orig, "-vn", "-ac", "1", "-c:a", "libopus",
                     "-b:a", "32k", "-application", "voip", dest], check=True)
     size = os.path.getsize(dest)
     if size > LIMIT:
@@ -77,6 +80,7 @@ def download(url, rel, title, date, dest, tmp):
 def transcribe(dest, tmp):
     # condition-on-previous-text off and the silence threshold stop the repeated-line loops Whisper falls into
     # on long meetings with quiet stretches (a 5-hour State Board meeting lost 146 minutes to them)
+    print(f"transcribing with {MODEL} (prints each segment as it goes)", flush=True)
     subprocess.run(["mlx_whisper", dest, "--model", MODEL, "--language", "en",
                     "--condition-on-previous-text", "False", "--word-timestamps", "True",
                     "--hallucination-silence-threshold", "2",
