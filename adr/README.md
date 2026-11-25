@@ -61,4 +61,5 @@ The concrete signal that should reopen this.
 | [2026-11-24](20261124-2210-whats-new-kinds.md) | What's new rows have a kind; site changes stay off the overview |
 | [2026-11-24](20261124-2349-leads-archived-on-their-own-pr.md) | Leads are triaged in a session; their sources merge on their own PR once vetted |
 | [2026-11-25](20261125-0411-visuals-as-derived-entities.md) | Charts and diagrams are their own files, checked once and embedded by id |
+| [2026-11-25](20261125-1807-youtube-audio-saved-and-transcribed-locally.md) | YouTube recordings are saved and transcribed on the maintainer's Mac |
 | [2026-11-25](20261125-1901-search-labels-what-each-hit-is.md) | Search labels each hit of the archive's own files as cited, analysis, derived or summary |

@@ -68,7 +68,7 @@ follow its citation to the page before stating what the source says.
   only from 2029.)
 - Give citations as links (`tools/linkify.py`), keeping the tag when the text will be reused elsewhere.
 - Quotes verbatim and short; never smooth a quote. Hearing transcripts (`<file>.mp4.txt`) are machine-made:
-  verify a quote by listening at its timestamp, or don't quote it. Text below a `--- OCR of this page` line
+  verify a quote by listening at its timestamp, or don't quote it (RUNBOOK, "Checking a quote against a recording"). Text below a `--- OCR of this page` line
   (from `<file>.pdf.ocr.txt`, picture-only slides and scans) is machine OCR: render the PDF page to check a quote
   or figure before using it.
 

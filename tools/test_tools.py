@@ -362,6 +362,15 @@ def main():
         # p.1 picture-only slide, p.2 text-rich page with a logo, p.3 blank page without an image
         assert pages_to_ocr(["Title", "x" * MIN_CHARS, ""], {1, 2}) == [1]
         assert pages_to_ocr(["  a b  " * 5, ""], {1}) == [1]
+        from save_youtube import LOOP, lines, loops
+        segs = [{"start": 3725.6, "text": " Good morning. "}, {"start": 3730, "text": "  "}]
+        assert lines(segs) == ["1:02:05 Good morning."]
+        segs += [{"start": 3731 + i, "text": "And so we can do that."} for i in range(LOOP)]
+        segs += [{"start": 3800, "text": "Adjourned."}, {"start": 3801, "text": "Adjourned."}]
+        assert loops(segs) == [(3731, LOOP, "And so we can do that.")]
+        stuck = "Mr. Richardson, " * 6
+        segs += [{"start": 3900, "text": stuck}, {"start": 3903, "text": stuck}, {"start": 3910, "text": "Thank you, chair."}]
+        assert loops(segs) == [(3731, LOOP, "And so we can do that."), (3900, 2, stuck.strip())]
 
         print("all tool tests passed")
     finally:

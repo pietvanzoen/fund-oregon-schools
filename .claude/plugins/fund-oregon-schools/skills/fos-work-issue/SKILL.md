@@ -111,7 +111,8 @@ a proposed narrower scope, `needs-judgement`, remove `in progress`); say in the 
 **So the PR always closes the issue**, every item that can't be done here moves out of it before the PR opens:
 - needs a person → its own issue for the maintainer (below);
 - the fetch failed twice, or needs a browser → a follow-up issue labelled `auto` with the URLs and what to retry;
-- needs audio you can't check → a follow-up issue labelled `needs-human` with the timestamps;
+- needs audio you can't check → ask the maintainer to listen if they're in the session; otherwise a follow-up issue
+  labelled `needs-human` with a link to each moment and what to confirm (RUNBOOK, "Checking a quote against a recording");
 - the source doesn't exist → no issue: tick the item with a note saying where you looked;
 - the source isn't out yet → a follow-up issue labelled `blocked` (not `auto`), with a `Waits for: <document>,
   expected <date>` line and what to do once it's archived. The maintainer removes `blocked` when it is.
