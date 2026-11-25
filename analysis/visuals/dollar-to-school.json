@@ -8,7 +8,7 @@
     {
       "groups": [
         {
-          "name": "State taxes and reserves",
+          "name": "State taxes, funds and reserves",
           "span": 3,
           "boxes": [
             {
@@ -63,7 +63,7 @@
     {
       "groups": [
         {
-          "name": "How state money is shared",
+          "name": "How state money is paid out",
           "span": 1,
           "boxes": [
             {
@@ -100,7 +100,7 @@
           "boxes": [
             {
               "id": "federal-counted",
-              "label": "Some federal money",
+              "label": "Federal money counted as local revenue",
               "cite": "[SRC:legislature/ors/ors327.html]"
             },
             {
@@ -174,7 +174,7 @@
     {
       "from": "ssf",
       "to": "formula",
-      "label": "shared among districts by the formula",
+      "label": "paid out to districts through the formula",
       "cite": "[SRC:legislature/ors/ors327.html]"
     },
     {
