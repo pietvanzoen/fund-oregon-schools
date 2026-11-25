@@ -253,6 +253,22 @@ def main():
 
         r = run(root, "search.py", "school fund", "--kind", "src")
         assert "[SRC:gov/test_page.html]" in r.stdout, r.stdout + r.stderr
+        # the archive's own files: each row's kind says what it is, and front matter is its own uncited row
+        os.makedirs(f"{root}/analysis/topics")
+        os.makedirs(f"{root}/analysis/derived")
+        open(f"{root}/analysis/topics/k.md", "w").write(
+            "---\nsummary: >\n  Zebra short.\n---\n# K\n\n## Analysis\n\nZebra guess.\n\n## What the sources say\n\n"
+            "- Zebra fact [SRC:gov/test_page.html].\n- Analysis: zebra aside.\n")
+        open(f"{root}/analysis/derived/k.csv", "w").write("id,value,label\nz1,5,zebra sum\n")
+        r = run(root, "search.py", "zebra", "--json")
+        got = {(h["kind"], h["cite"]) for h in json.loads(r.stdout)}
+        assert got == {("summary", "analysis/topics/k.md front matter"), ("analysis", "analysis/topics/k.md:9 (Analysis)"),
+                       ("cited", "analysis/topics/k.md:13 (What the sources say)"),
+                       ("analysis", "analysis/topics/k.md:14 (What the sources say)"), ("derived", "[DER:k/z1]")}, got
+        r = run(root, "search.py", "zebra", "--kind", "cited", "--kind", "derived")
+        assert "k.md:13" in r.stdout and "[DER:k/z1]" in r.stdout and "k.md:9" not in r.stdout, r.stdout
+        shutil.rmtree(f"{root}/analysis/topics")
+        shutil.rmtree(f"{root}/analysis/derived")
         r = run(root, "doc.py", "test_page", "--grep", "billion")
         assert "13 billion" in r.stdout, r.stdout + r.stderr
 

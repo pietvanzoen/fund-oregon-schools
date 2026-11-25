@@ -2,7 +2,12 @@
 """Full-text search over sources, news records, analysis and quotes (SQLite FTS5, stdlib only).
 
     python3 tools/search.py "State School Fund" -n 20
-    python3 tools/search.py "current service level" --kind src     # src | news | analysis | quote
+    python3 tools/search.py "current service level" --kind src     # archived documents only
+    python3 tools/search.py "reserves" --kind analysis --kind derived   # our inference and our calculations
+
+Kinds: src (archived documents), news (news records), quote (quotes_all.jsonl); and the archive's own files in
+analysis/: cited (what sources say, cited), analysis (our inference: a "## Analysis" section or an "Analysis:"
+item), derived (our calculations, cited as [DER:...]) and summary (front matter: uncited, never cite it).
     python3 tools/search.py "budget" --kind quote --person Kotek
     python3 tools/search.py '"Education Stability Fund" AND emergency' --json
 
@@ -10,6 +15,8 @@ Machine transcripts of audio/video (<file>.txt) come back one line per hit, as [
 The index lives in .cache/search.sqlite and rebuilds itself when any file is newer than it.
 """
 import argparse
+import csv
+import io
 import json
 import os
 import re
@@ -17,8 +24,9 @@ import sqlite3
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import ANALYSIS, MEDIA, NEWS_INDEX, QUOTES, ROOT, SOURCES, read_jsonl  # noqa: E402
+from common import ANALYSIS, MEDIA, front_matter, NEWS_INDEX, QUOTES, ROOT, SOURCES, read_jsonl  # noqa: E402
 
+KINDS = ["src", "news", "quote", "cited", "analysis", "derived", "summary"]
 DB = os.path.join(ROOT, ".cache", "search.sqlite")
 
 
@@ -35,7 +43,54 @@ def stale():
     if not os.path.exists(DB):
         return True
     built = os.path.getmtime(DB)
-    return any(os.path.getmtime(p) > built for p in corpus_files())
+    return any(os.path.getmtime(p) > built for p in [__file__, *corpus_files()])  # a change here changes the index
+
+
+def analysis_rows(rel, text):
+    """The archive's own files, kind by what each piece is: analysis (our inference), cited (what sources say,
+    with citations), derived (our calculations), summary (uncited front matter). One row per paragraph or list
+    item of a .md, per record of a .csv, per visual."""
+    if rel.endswith(".json"):
+        return [("cited", rel, "", "", text)]
+    if rel.endswith(".csv"):
+        rows, reader = [], csv.reader(io.StringIO(text))
+        header, start = next(reader, []), 2
+        for rec in reader:
+            r = dict(zip(header, rec))
+            if any(rec):
+                derived = rel.startswith("analysis/derived/")
+                cite = f"[DER:{os.path.basename(rel)[:-4]}/{r.get('id', '')}]" if derived else f"{rel}:{start}"
+                rows.append(("derived" if derived else "cited", cite, "", "",
+                             "  ".join(f"{k}: {v}" for k, v in r.items() if v)))
+            start = reader.line_num + 1
+        return rows
+    try:
+        meta, body = front_matter(text)
+    except ValueError:  # check_citations reports it; still index the text
+        meta, body = {}, text
+    rows = [("summary", f"{rel} front matter", "", "", "  ".join(meta.values()))] if meta else []
+    buf, section, heading = [], "", ""
+
+    def flush():
+        if buf:
+            chunk = "\n".join(line for _, line in buf)
+            kind = {"Analysis": "analysis", "Derived figures": "derived"}.get(section, "cited")
+            if re.match(r"(- )?Analysis:", chunk):
+                kind = "analysis"
+            rows.append((kind, f"{rel}:{buf[0][0]}" + (f" ({heading})" if heading else ""), "", "", chunk))
+            buf.clear()
+
+    first = text[:len(text) - len(body)].count("\n") + 1
+    for n, line in enumerate(body.split("\n"), first):
+        if not line.strip() or re.match(r"#{1,6} |- ", line):
+            flush()  # a list item is its own row: one list can mix "Analysis:" items with cited ones
+        if re.match(r"#{1,6} ", line):
+            heading = line.lstrip("#").strip()
+            section = heading if line.startswith("## ") else section
+        elif line.strip():
+            buf.append((n, line))
+    flush()
+    return rows
 
 
 def build():
@@ -77,12 +132,9 @@ def build():
                      f"{q.get('quote', '')}  ({q.get('context', '')})"))
     for dirpath, _, files in os.walk(ANALYSIS):
         for f in files:
-            if f.endswith((".md", ".csv")):
+            if f.endswith((".md", ".csv")) or dirpath.endswith("visuals") and f.endswith(".json"):
                 full = os.path.join(dirpath, f)
-                rel = os.path.relpath(full, ROOT)
-                for i, chunk in enumerate(open(full, encoding="utf-8").read().split("\n\n")):
-                    if chunk.strip():
-                        rows.append(("analysis", f"{rel}#{i}", "", "", chunk))
+                rows += analysis_rows(os.path.relpath(full, ROOT), open(full, encoding="utf-8").read())
     con.executemany("INSERT INTO docs VALUES (?,?,?,?,?)", rows)
     con.commit()
     return con
@@ -92,7 +144,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("query")
     ap.add_argument("-n", type=int, default=15)
-    ap.add_argument("--kind", choices=["src", "news", "analysis", "quote"])
+    ap.add_argument("--kind", action="append", choices=KINDS, help="repeat for several")
     ap.add_argument("--person")
     ap.add_argument("--json", action="store_true")
     a = ap.parse_args()
@@ -100,8 +152,8 @@ def main():
     sql = "SELECT kind, cite, person, date, snippet(docs, 4, '«', '»', ' … ', 24) FROM docs WHERE docs MATCH ?"
     params = [a.query]
     if a.kind:
-        sql += " AND kind = ?"
-        params.append(a.kind)
+        sql += f" AND kind IN ({','.join('?' * len(a.kind))})"
+        params += a.kind
     if a.person:
         sql += " AND person LIKE ?"
         params.append(f"%{a.person}%")
