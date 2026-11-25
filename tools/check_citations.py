@@ -19,6 +19,11 @@ The decision files (RESEARCH.md) must agree: every option, position and question
 every decision has a baseline option, statuses and kinds are known values, and a position's actor is a people.csv id
 or an organization's name. A people.csv area must appear on the legislature/members/ page its row cites.
 questions.csv has no source column; tags in any *source column are checked.
+Visuals (analysis/visuals/<id>.json; adr/20261125-0411-visuals-as-derived-entities.md): the id matches the file name,
+a known kind, a title and a description; every bar points to a data row by id (data/<file>/<id>, the file's `id`
+column) or a derived row (derived/<topic>/<id>) with a number; every note, box and arrow is cited (or, for a box or
+arrow, marked `open` with why), arrows join boxes that exist, and every `<!-- site: visual <id> -->` marker has a file.
+A data file with an `id` column needs a unique id on every row.
 
     python3 tools/check_citations.py --measures  # RESEARCH.md's review measures: questions and decisions
 
@@ -28,6 +33,7 @@ questions.csv has no source column; tags in any *source column are checked.
 import argparse
 import csv
 import glob
+import json
 import os
 import re
 import subprocess
@@ -50,6 +56,8 @@ KINDS = {"baseline", "benchmark", "proposal"}
 DECISION_STATUS = {"open", "decided", "implemented"}
 QUESTION_STATUS = {"open", "answered", "not planned"}
 ZERO_WIDTH = re.compile("[\u200b-\u200d\ufeff]")
+VISUALS = os.path.join(ANALYSIS, "visuals")
+VISUAL_MARKER = re.compile(r"<!-- site: visual ([\w-]+) -->")
 NUM_RE = re.compile(r"\d[\d,]*(?:\.\d+)?")
 BLOCK_START = re.compile(r"^\s*(?:[-*] |\d+\. |\||#+ )")
 # shortcut: an abbreviation like "Gov. " also ends a sentence; reword the sentence if it splits a DER figure off
@@ -173,6 +181,7 @@ def main():
         with open(glossary_path, newline="", encoding="utf-8") as fh:
             glossary = {r["term"] for r in csv.DictReader(fh)}
 
+    data_rows, visuals, markers = {}, {}, []  # checked after the walk, once every data row is read
     for dirpath, _, files in os.walk(ANALYSIS):
         for f in sorted(files):
             full = os.path.join(dirpath, f)
@@ -189,6 +198,7 @@ def main():
                 for n, line in lines:
                     for m in TAG_RE.finditer(line):
                         check_tag(f"{rel}:{n}", m.group(1), m.group(2))
+                    markers += [(f"{rel}:{n}", v) for v in VISUAL_MARKER.findall(line)]
                 check_der_figures(rel, body_lines, derived, errors)
                 check_glossary(rel, lines, glossary, warnings)  # the summary too: STYLE.md allows no abbreviations
                 if os.path.dirname(full) == os.path.join(ANALYSIS, "topics"):
@@ -204,6 +214,11 @@ def main():
                 check_updates(rel, errors)
             elif full == QUESTIONS:
                 continue  # checked with the decision files
+            elif dirpath == VISUALS and f.endswith(".json"):
+                try:
+                    visuals[f[:-5]] = (rel, json.load(open(full, encoding="utf-8")))
+                except json.JSONDecodeError as e:
+                    errors.append(f"{rel}: bad JSON: {e}")
             elif f.endswith(".csv"):
                 with open(full, newline="", encoding="utf-8") as fh:
                     rd = csv.DictReader(fh)
@@ -211,6 +226,11 @@ def main():
                         errors.append(f"{rel}: no 'source' column")
                         continue
                     for n, row in enumerate(rd, 2):
+                        if "id" in rd.fieldnames:  # a visual points to the row by it
+                            key = f"data/{f[:-4]}/{row['id']}"
+                            if not row["id"].strip() or key in data_rows:
+                                errors.append(f"{rel}:{n}: id {row['id']!r} is empty or used twice")
+                            data_rows[key] = row
                         if not (row.get("source") or "").strip():
                             errors.append(f"{rel}:{n}: row has no source")
                         for col in (c for c in rd.fieldnames if c.endswith("source")):
@@ -224,6 +244,11 @@ def main():
                     for m in TAG_RE.finditer(q.get("cite", "")):
                         check_tag(f"{rel}:{n}", m.group(1), m.group(2))
 
+    for name, (rel, v) in sorted(visuals.items()):
+        check_visual(rel, name, v, data_rows, derived, check_tag, errors)
+    for where, v in markers:
+        if v not in visuals:
+            errors.append(f"{where}: no visual {v} (analysis/visuals/{v}.json)")
     if os.path.exists(os.path.join(ANALYSIS, "decisions.csv")):
         check_model(errors)
     if a.pr:
@@ -356,6 +381,57 @@ def check_pr_update(pr, base, errors):
         errors.append(f"PR #{pr} changes {', '.join(changed[:3])}{' …' if len(changed) > 3 else ''} but "
                       f"analysis/updates.csv has no row with pr {pr}. Add one (date, text for readers, page, {pr}, kind), "
                       "or label the PR no-update if readers don't need to know.")
+
+
+def check_visual(rel, name, v, data_rows, derived, check_tag, errors):
+    """A visual holds no numbers of its own: bars point to rows, and every text in it is cited (CLAUDE.md, Key files)."""
+    if not isinstance(v, dict) or v.get("id") != name:
+        errors.append(f"{rel}: id must be {name!r}, the file name")
+        return
+    for k in ("title", "description"):
+        if not str(v.get(k) or "").strip():
+            errors.append(f"{rel}: no {k}")
+    if len(v.get("description") or "") > DESC_MAX:
+        errors.append(f"{rel}: description is {len(v['description'])} characters; search results show about {DESC_MAX}")
+    cited = [("note", n) for n in v.get("notes", [])]  # (what, text) that must carry a citation
+    if v.get("kind") == "bars":
+        if not v.get("bars") or not v.get("column") or not v.get("unit"):
+            errors.append(f"{rel}: a bars visual needs bars, a column and a unit")
+        for b in v.get("bars", []):
+            ref, label = b.get("ref", ""), b.get("label")
+            if not label or not b.get("group"):
+                errors.append(f"{rel}: bar {ref} needs a label and a group (colour is never the only cue)")
+            topic, _, did = ref[len("derived/"):].partition("/")
+            row = derived.get(topic, {}).get(did) if ref.startswith("derived/") else data_rows.get(ref)
+            value = (row or {}).get("value" if ref.startswith("derived/") else v.get("column"))
+            try:
+                Decimal(value)
+            except (TypeError, ArithmeticError):
+                errors.append(f"{rel}: bar {ref!r} doesn't point to a row with a number in it"
+                              f"{'' if ref.startswith('derived/') else ' (data/<file>/<id>, the id column)'}")
+    elif v.get("kind") == "flow":
+        boxes = [b for r in v.get("rows", []) for b in r.get("boxes", [])]
+        ids = [b.get("id") for b in boxes]
+        for i in {i for i in ids if ids.count(i) > 1}:
+            errors.append(f"{rel}: box id {i} used twice")
+        for a in v.get("arrows", []):
+            for end in (a.get("from"), a.get("to")):
+                if end not in ids:
+                    errors.append(f"{rel}: arrow {a.get('from')} -> {a.get('to')}: no box {end}")
+        for what, x in [("box", b) for b in boxes] + [("arrow", a) for a in v.get("arrows", [])]:
+            if not x.get("label"):
+                errors.append(f"{rel}: a {what} has no label")
+            if x.get("open"):
+                continue  # a path no archived source confirms, drawn as open (the maintainer chose to keep it)
+            cited.append((f"{what} {x.get('label')!r}", x.get("cite", "")))
+    else:
+        errors.append(f"{rel}: kind must be bars or flow")
+    for what, text in cited:
+        tags = TAG_RE.findall(text or "")
+        if not tags:
+            errors.append(f"{rel}: {what} has no citation")
+        for kind, body in tags:
+            check_tag(rel, kind, body)
 
 
 def check_der_figures(rel, lines, derived, errors):

@@ -2,7 +2,7 @@
   "id": "dollar-to-school",
   "kind": "flow",
   "title": "How a dollar gets to a school: day-to-day operating money",
-  "description": "Diagram of how state taxes, the State School Fund, local property taxes and levies reach an Oregon school district, with the law or budget document for each step.",
+  "description": "Diagram of how state taxes, the State School Fund, property taxes and levies reach an Oregon school district, citing the law or budget document for each step.",
   "rows": [
     {"name": "State taxes and funds", "boxes": [
       {"id": "general-fund", "label": "State General Fund", "cite": "[SRC:legislature/olis/2025R1/307212_sb5516-ssf-work-session.pdf p.3]"},
