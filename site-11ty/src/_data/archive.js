@@ -112,7 +112,7 @@ const visualTags = (v) => [...new Set([...(v.bars || []).map((b) => barRow(v, b)
 // The text version, generated from the same file so it can't disagree with the picture: a list, since it's mostly listing
 function visualText(v) {
   const li = (items) => `<ul>${items.map((t) => `<li>${t}</li>`).join("")}</ul>`;
-  const notes = (v.notes || []).map((n) => `<p>${esc(plain(n))}</p>`).join("");
+  const notes = v.notes?.length ? `<p>Notes:</p>` + li(v.notes.map((n) => esc(plain(n)))) : "";
   if (v.kind === "bars")
     return li(v.bars.map((b) => `${esc(b.label)} (${esc(b.group)}): $${esc(barRow(v, b)[0])} ${esc(v.unit)}`)) + notes;
   const box = Object.fromEntries(flowBoxes(v).map((b) => [b.id, b]));
@@ -210,7 +210,7 @@ function visualHtml(id, here) {
   if (!body) throw new Error(`analysis/visuals/${id}.json: unknown kind ${v.kind}`);
   const html = here ? body(v) : body(v).replace(/ ?\[(?:SRC|VID|NEWS|PPSARCH|DER):[^\]]+\]/g, "");
   return `<figure class="box chart viz viz-${v.kind}"${here ? ` aria-label="${esc(v.title)}"` : ""}>${here ? "" : `<figcaption class="chart-title">${esc(v.title)}</figcaption>`}${html}`
-    + (here ? (v.notes || []).map((n) => `<p class="chart-src">${esc(n)}</p>`).join("") : "")
+    + (here && v.notes?.length ? `<h3 class="viz-notes-title">Notes</h3><ul class="viz-notes">${v.notes.map((n) => `<li>${esc(n)}</li>`).join("")}</ul>` : "")
     + (here && v.kind === "flow" ? "" : `<details class="viz-text"><summary>Text version</summary>${visualText(v)}</details>`) // a flow's page lists each step instead
     + (here ? "" : `<p class="chart-src"><a href="/visuals/${id}/">Sources${v.notes?.length ? " and notes" : ""} for this ${v.kind === "flow" ? "diagram" : "chart"}</a></p>`) + `</figure>`;
 }
