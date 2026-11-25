@@ -1,0 +1,599 @@
+Education Cost Modeling
+PREPARED FOR: Senate Interim Committee on Education
+DATE: June 16, 2026
+BY: Monica Cox, Research Analyst
+
+Today’s Takeaways
+• Education cost models are research-based tools that help guide decisions about
+education funding.
+• There are four main approaches to developing cost models, each with strengths and
+weaknesses. Oregon uses the Professional Judgment Panel approach.
+• Best practices for a comprehensive Professional Judgment Panel approach are
+rigorously structured and incorporate elements of other approaches.
+• A recent evaluation of Oregon’s current cost model, the Quality Education Model (QEM),
+identified several areas of misalignment with methodological best practices that affect its
+usefulness for connecting cost estimates to education policies and programs.
+• The Professional Judgment Panel approach is a time- and resource-intensive process
+requiring substantial time commitment from panelists and skilled facilitators and
+researchers with expertise in the approach.
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+June 16, 2026
+
+2
+
+What Is an Education Cost Model
+and Why Does Oregon Need One?
+
+Education cost models are tools for decision-making
+Education cost models help policymakers answer the question: How much money is
+sufficient to ensure the public education system meets quality goals?
+They are research-based tools used to guide decisions about:
+• How much total funding to allocate to education each budget cycle
+• How to distribute the funding to school districts
+Education cost models can also provide policy-relevant information about:
+• Geographic differences in costs
+• The types of education resources (e.g., staffing, materials, and services) needed to
+achieve education goals
+• How resource needs vary across different school contexts and for different levels of
+student needs
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+June 16, 2026
+
+4
+
+Constitutional and legislative requirements
+necessitate an education cost model in Oregon
+• Constitutional requirement for sufficiency, enacted in 2000
+Section 8. Adequate and Equitable Funding. (1) The Legislative Assembly shall
+appropriate in each biennium a sum of money sufficient to ensure that the state's
+system of public education meets quality goals established by law and publish a report
+that either demonstrates the appropriation is sufficient, or identifies the reasons for the
+insufficiency, its extent, and its impact on the ability of the state's system of public
+education to meet those goals.
+• In 2001, the legislature established the Quality Education Commission to define the
+costs sufficient to meet the quality goals. It directed the QEC to determine sufficiency
+using research, data, professional judgment, and public values and identify best
+practices and the costs of implementing those practices in Oregon public schools (ORS
+327.497 – ORS 327.506).
+
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+June 16, 2026
+
+5
+
+There are four main approaches to modeling
+education costs
+Professional Judgment Panel (PJP): Based on the costs of educational resources
+identified by practicing educators with experience in prototype school settings. Limited
+evidence of the link between resources and outcomes.
+Evidence-based: Based on the costs of educational resources identified in research
+literature as being effective. Limited state context.
+Successful schools: Based on resource allocations in schools that are achieving target
+outcomes. May not capture varying school contexts and student needs.
+Cost-function (econometric): Based on the statistical relationship between current school
+expenditures and outcomes. Limited insight into the education resources that underlie costs.
+Hybrid approaches are commonly used.
+Oregon’s Quality Education Model (QEM) uses Professional Judgment Panels.
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+June 16, 2026
+
+6
+
+What Are the Best Practices
+When Using Professional
+Judgment Panels?
+
+There are six steps to modeling education costs
+using Professional Judgment Panel best practices
+1. Define Education Goals
+2. Develop Prototype Schools
+3. Recruit Educator Panels
+4. Identify Education Resources
+5. Establish Resource Prices
+
+In the Professional Judgment Panel (PJP) approach,
+groups of active educators—the panels—work together to
+identify the resources necessary to provide an adequate
+education to all students, then researchers determine the
+prices of those resources and estimate the total cost.
+A comprehensive PJP approach incorporates elements of
+the evidence-based and successful schools cost modeling
+approaches. Facilitators and researchers follow a 6-step
+structured process to develop the model.
+
+6. Generate Cost Estimates
+
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+June 16, 2026
+
+8
+
+Professional Judgment Panel Best Practices: Step 1
+1. Define Education Goals
+2. Develop Prototype Schools
+3. Recruit Educator Panels
+4. Identify Education Resources
+5. Establish Resource Prices
+
+The PJP process should start with a goals statement that
+reflects the state’s education priorities. Panelists are tasked with
+designing prototype schools to achieve these goals. It is best
+practice to:
+•
+
+Set goals based on published aims and public values. They
+can be specific and measurable or broader and more
+abstract
+
+•
+
+Use multiple goals
+
+•
+
+Balance having a variety of goals with not overwhelming the
+expert panelists
+
+6. Generate Cost Estimates
+
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+June 16, 2026
+
+9
+
+Professional Judgment Panel Best Practices: Step 2
+1. Define Education Goals
+2. Develop Prototype Schools
+3. Recruit Educator Panels
+4. Identify Education Resources
+5. Establish Resource Prices
+
+Prototype schools should reasonably represent the breadth
+of school contexts, characteristics, and student needs that
+are outside the control of schools and districts. It is best
+practice to:
+•
+
+Generate numerous prototypes
+
+•
+
+Generate realistic prototypes using current data on
+enrollment size and student needs
+
+•
+
+Balance the number of prototypes with not overwhelming
+the panelists
+
+6. Generate Cost Estimates
+
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+June 16, 2026
+
+10
+
+Professional Judgment Panel Best Practices: Step 3
+1. Define Education Goals
+2. Develop Prototype Schools
+
+The panels are tasked with determining the types and amounts
+of resources the prototype schools need. Panels should
+represent a breadth of experience and perspectives to inform
+the design of education programs for the prototype schools. It is
+best practice to:
+
+3. Recruit Educator Panels
+
+•
+
+4. Identify Education Resources
+
+Recruit panelists who are active educators in schools and
+districts reflecting the prototype settings, including
+geographic locale
+
+•
+
+Ensure a variety of roles in a school are represented
+
+•
+
+Include panelists familiar with different grade levels and
+student needs for the prototype schools
+
+•
+
+Run multiple panels per prototype to generate cost variation
+
+5. Establish Resource Prices
+6. Generate Cost Estimates
+
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+June 16, 2026
+
+11
+
+Professional Judgment Panel Best Practices: Step 4
+1. Define Education Goals
+2. Develop Prototype Schools
+3. Recruit Educator Panels
+4. Identify Education Resources
+5. Establish Resource Prices
+
+Resource identification is a critical step in the process. Program
+components and base assumptions about what to include as
+costs should be in place before panels meet to specify
+resources. Some resources are outside the scope of panels
+and should be determined by an analysis of existing data. It is
+best practice to:
+•
+
+Compile an exhaustive list of resources
+
+•
+
+Define resources the panelists will specify; differentiate by
+school level
+
+•
+
+Define resources the research team will specify and
+determine costs for
+
+•
+
+Give panelists base assumptions about costs and resources
+
+6. Generate Cost Estimates
+
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+June 16, 2026
+
+12
+
+Professional Judgment Panel Best Practices: Step 5
+1. Define Education Goals
+2. Develop Prototype Schools
+
+Establishing prices for the resources identified by panelists is
+another critical step in the PJP process. Prices should be
+realistic, reflecting state context and aligning resource
+categories with school definitions. It is best practice to:
+
+3. Recruit Educator Panels
+
+•
+
+Use statewide average prices, when possible
+
+•
+
+Adjust to state-level costs when using national average
+prices
+
+•
+
+Structure resource types to facilitate accurate cost
+identification
+
+4. Identify Education Resources
+5. Establish Resource Prices
+6. Generate Cost Estimates
+
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+June 16, 2026
+
+13
+
+Professional Judgment Panel Best Practices: Step 6
+1. Define Education Goals
+2. Develop Prototype Schools
+3. Recruit Educator Panels
+4. Identify Education Resources
+5. Establish Resource Prices
+
+In this step researchers estimate the per-pupil costs for each
+prototype school based on the panels’ resource specifications and
+prices, estimates the average variation in costs by student needs
+and school context, predicts school-level costs for each school in
+the state, and then calculates district-level costs to derive the final
+cost estimates. It is best practice to:
+•
+
+Estimate average variation in costs based on student needs and
+school characteristics
+
+•
+
+Predict actual cost levels for each school in the state
+
+•
+
+Aggregate school costs to the district level, add central district
+costs, and apply regional cost adjustments
+
+6. Generate Cost Estimates
+
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+June 16, 2026
+
+14
+
+What Did the AIR Evaluation
+Say About Oregon’s QEM?
+
+Overview of AIR’s Evaluation of Oregon’s
+Quality Education Model
+•
+
+Senate Bill 1552 (2024) directed an evaluation of the methodology used to develop the
+Quality Education Model (QEM).
+
+•
+
+The American Institutes for Research (AIR) independently conducted the evaluation. Its
+findings were published in a report in January 2025 and presented at a joint informational
+meeting to the House and Senate Education Committees in February 2025.
+
+Overall, the evaluation did not find any fundamental errors in the QEM, but it
+did identify several areas of misalignment with methodological best practices
+that impact the model’s usefulness for connecting cost estimates to
+education policy and programs.
+
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+June 16, 2026
+
+16
+
+Summary of AIR Evaluation Findings (1 of 3)
+Step 1: Define Education Goals
+• Best practice: Use multiple goals based on published aims and public values
+• QEM practice: Uses a single goal, 90% graduation rate statewide
+Step 2: Develop Prototype Schools
+• Best practice: Use numerous prototype schools that represent the breadth of school contexts,
+characteristics, and student needs
+• QEM practice: Uses 3 prototype schools representing the average elementary, middle, and high
+schools in Oregon
+
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+June 16, 2026
+
+17
+
+Summary of AIR Evaluation Findings (2 of 3)
+Step 3: Recruit Educator Panels
+• Best practice: Use multiple panels of active educators from schools reflecting the prototypes and who
+serve in a variety of roles
+• QEM practice: Uses a single panel of up to 11 members (currently only 7), the Quality Education
+Commission; no more than 5 members can be active educators
+Step 4: Identify Education Resources
+• Best practice: Panelists develop an exhaustive list of resources based on program components that
+are predetermined by researchers using research literature, and current resource and demographic
+profiles of Oregon’s schools
+• QEM practice: Resource list is not exhaustive because only a single goal is used; panelists specify
+both program components and resources
+
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+June 16, 2026
+
+18
+
+Summary of AIR Evaluation Findings (3 of 3)
+Step 5: Establish Resource Prices
+• Best practice: Use statewide average prices when available; national prices should be adjusted to
+state-level costs
+• QEM practice: Uses statewide average prices for almost all resources
+Step 6: Generate Cost Estimates
+• Best practice: Estimate average variation in costs based on school contexts; estimate costs for each
+school, then estimate costs for each school district by aggregating school costs, adding central district
+costs, and applying regional cost adjustments
+• QEM practice: Estimates cost for each prototype school; does not estimate variation in costs based on
+school contexts and does not provide estimates for each school and school district
+
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+June 16, 2026
+
+19
+
+How Do Professional Judgment
+Panels Work in Practice?
+
+Considerations for Using the PJP Approach to
+Develop a Cost Model
+•
+
+The Professional Judgment Panel process is time- and resource-intensive.
+•
+
+It requires a substantial time commitment (~3 days) from active educators who serve as panelists.
+
+•
+
+It requires skilled facilitation of panels, including at least 1 lead facilitator and supporting staff, and an
+experienced research team with the appropriate tools to guide panelists through the process.
+
+•
+
+The process could take up to a year, followed by routine maintenance to ensure resource prices and cost
+estimates are up to date.
+
+•
+
+Reports should include documentation that clearly and thoroughly details the goals, program components, base
+assumptions, resource specifications, prices, and calculations used to develop the cost estimate.
+
+•
+
+The cost model should be responsive to changing education contexts and needs, but changes should be
+incremental to ensure stability of the cost estimate.
+
+•
+
+The Professional Judgment Panel approach, like other education cost studies, has limitations that should be
+taken into consideration when translating findings into policy and practice.
+
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+June 16, 2026
+
+21
+
+A comprehensive PJP approach incorporates
+elements of other approaches
+Evidence-Based (EB)
+Element
+Literature review of
+effective practices
+
+Professional Judgment
+Panel (PJP) Element
+Panelists use materials
+from EB and SS approaches
+to design an adequate
+educational program
+and specify resources
+
+Successful Schools (SS)
+Element
+Resource profiles of
+successful prototype
+schools
+
+Actual Resource
+Allocation Element
+Resource profiles of
+average prototype
+schools
+
+Source: National Education Association, Determining the Cost of Providing an Adequate Education for
+All Students (2009).
+
+June 16, 2026
+
+22
+
+Example of Prototype Schools
+
+This example shows
+48 prototype schools
+representing varying
+student needs for
+each school level
+within each locale.
+
+Source: American Institutes for Research, Review and Evaluation of the Efficacy and Methodology of
+the Quality Education Model (2025).
+
+June 16, 2026
+
+23
+
+PJP Researcher and Facilitator Roles (1 of 2)
+Research and preparation
+•
+
+Conduct surveys, listening sessions, and/or convene stakeholder meetings to gather input
+
+•
+
+Analyze state data to summarize school characteristics and demographics, expenditures, and outcomes
+
+•
+
+Conduct a literature review to identify effective education programs and practices that align with state education
+goals, school characteristics, and student needs
+
+Recruit and select panelists and coordinate panel meetings
+•
+
+Manage a statewide solicitation of panelist nominations from key stakeholder groups
+
+•
+
+Review applications and select panelists to ensure balanced panels of about 10 educators representing
+different roles and school contexts; the number of panels depends on the number of prototype schools
+
+•
+
+Coordinate in-person panel meetings, which can be up to 3 days long; provide travel reimbursement and an
+honorarium to panelists for their time and expertise
+
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+June 16, 2026
+
+24
+
+PJP Researcher and Facilitator Roles (2 of 2)
+Facilitate panels
+•
+
+Provide a package of materials to panelists to aid in developing their education resource specifications; the
+package could include summaries from the literature review, demographic and resource profiles of Oregon
+schools, including those that are achieving target goals, and instructions for the panels
+
+•
+
+Provide worksheets organized by education program components for each prototype school for panelists to
+record their resource specifications
+
+•
+
+Facilitate panel deliberations to achieve consensus; convene a broader review panel to reconcile differences
+across panels
+
+Calculate cost estimates
+•
+
+Determine resource prices and convert panels’ resource specifications to costs; calculate costs associated with
+central administration, which are not included in panelists’ specifications
+
+•
+
+Analyze variation in costs across school types and student needs
+
+•
+
+Calculate cost estimates statewide and for each school and school district; write and disseminate the report
+
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+June 16, 2026
+
+25
+
+Resources
+Read the full AIR evaluation report or LPRO’s summary of the report:
+• Review and Evaluation of the Efficacy and Methodology of the Quality Education Model (AIR, 2025)
+• American Institutes for Research Evaluation of the Quality Education Model Methodology:
+Summary of Findings (LPRO, 2025)
+
+Read more about education cost modeling approaches:
+• Determining the Cost of Providing an Adequate Education for All Students (National Education
+Association, 2009)
+• An Evidence-Based Approach to School Finance Adequacy in Michigan: Determining the Cost for
+Funding Educational Achievement for All Michigan Students (Picus Odden & Associates, 2018)
+
+LEGISLATIVE POLICY AND RESEARCH OFFICE
+
+June 16, 2026
+
+26
+
+
