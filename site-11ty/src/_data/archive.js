@@ -331,12 +331,12 @@ class Page {
     const byWord = new Map(names.map(([id, e]) => [e.ci ? e.term.toLowerCase() : e.name || e.term, [id, e]]));
     const any = new RegExp(`(^|[^\\w-])(${names.map(([, e]) => (e.name || e.term).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})(?![\\w-])`, "gi");
     const parts = html.split(/(<[^>]+>)/);
-    let skip = 0; // inside <a>, <code>, headings or <abbr>
+    let skip = 0; // inside <a>, <code>, headings, <abbr> or an <svg> (a link there would break the drawing's text)
     for (let i = 0; i < parts.length; i++) {
       const t = parts[i];
       if (t.startsWith("<")) {
-        if (/^<(a|code|h[1-6]|abbr|script)[\s>]/.test(t)) skip++;
-        else if (/^<\/(a|code|h[1-6]|abbr|script)>/.test(t)) skip--;
+        if (/^<(a|code|h[1-6]|abbr|script|svg)[\s>]/.test(t)) skip++;
+        else if (/^<\/(a|code|h[1-6]|abbr|script|svg)>/.test(t)) skip--;
         continue;
       }
       if (skip) continue;
