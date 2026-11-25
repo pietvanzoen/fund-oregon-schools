@@ -50,7 +50,7 @@
       ]
     },
     {
-      "name": "Local money",
+      "name": "Local money, and federal money counted as local",
       "boxes": [
         {
           "id": "property-tax",
@@ -129,12 +129,12 @@
       "from": "esf",
       "to": "ssf",
       "label": "can be transferred in; a draw needs a three-fifths vote in each chamber and an economic trigger or a governor's emergency declaration",
-      "cite": "[SRC:legislature/ors/ors327.html] [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1]"
+      "cite": "[SRC:legislature/ors/ors327.html] [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1] [SRC:legislature/constitution/oregon-constitution.html]"
     },
     {
       "from": "fss",
       "to": "ssf",
-      "label": "a transfer each two-year budget",
+      "label": "a transfer each two-year budget, set by law to pay for high-cost disability grants and to make up for a personal income tax cut",
       "cite": "[SRC:legislature/ors/ors327.html] [SRC:legislature/olis/2025I1/310915_ssa-qem-gap.pdf p.6]"
     },
     {
@@ -164,7 +164,7 @@
     {
       "from": "levy",
       "to": "district",
-      "label": "kept outside the formula, up to a cap",
+      "label": "stays with the district; up to a cap, it isn't subtracted from its State School Fund grant",
       "cite": "[SRC:legislature/ors/ors327.html]"
     },
     {
@@ -187,6 +187,6 @@
     }
   ],
   "notes": [
-    "Education service districts also get a share of the State School Fund, and Student Investment Account grants also go to some charter schools and youth corrections and juvenile detention education programs; neither is drawn here. [SRC:legislature/ors/ors327.html] [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.3]"
+    "Not drawn here: education service districts also get a share of the State School Fund, and Student Investment Account grants also go to some charter schools and youth corrections and juvenile detention education programs [SRC:legislature/ors/ors327.html] [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.3]. Some programs are paid from the State School Fund before the formula shares it, and some districts with a local option levy get a Local Option Equalization Grant from the state [SRC:legislature/olis/2025R1/293759_ssf-budget-review.pdf p.1]."
   ]
 }
