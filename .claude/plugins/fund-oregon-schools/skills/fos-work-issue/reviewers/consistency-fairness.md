@@ -27,7 +27,7 @@ Read `CLAUDE.md` (the archive's rules), `RESEARCH.md` (how research is organized
 
 For every figure, date, stance and name the diff adds or changes:
 
-1. Search the rest of the archive for the same thing: `python3 tools/search.py "<term>" --kind analysis`,
+1. Search the rest of the archive for the same thing: `python3 tools/search.py "<term>" --kind cited --kind analysis --kind derived`,
    `grep -rn "<figure or key words>" analysis/`. Check `START.md`, `decisions.md`, the decision CSVs,
    `analysis/topics/`, `analysis/people/`, `analysis/data/*.csv`, `promises.csv`, `timeline.md`. An answer in
    `decisions.md` or a stance in `positions.csv` must say what its topic or profile says, citing the same source.

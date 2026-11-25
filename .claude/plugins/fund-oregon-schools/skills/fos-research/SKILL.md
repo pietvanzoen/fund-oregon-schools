@@ -24,13 +24,19 @@ there. If github.com can't be reached, read the same files through the GitHub co
 ## 2. Find things
 ```bash
 python3 tools/search.py "State School Fund" -n 20              # full-text over sources + analysis
-python3 tools/search.py "current service level" --kind src      # kinds: src, news, analysis, quote
+python3 tools/search.py "current service level" --kind src      # archived documents only
+python3 tools/search.py "reserves" --kind cited --kind analysis  # the archive's own files (repeat --kind)
 python3 tools/search.py "Kotek" --kind quote
 python3 tools/search.py "school funding" --kind src             # also hearing transcripts: [VID:...@H:MM:SS] hits
 python3 tools/doc.py qec/2026_qem_report 12                     # page 12 of a sources/ PDF by path fragment
 python3 tools/doc.py qec/2026_qem_report --grep "current service level"
 python3 tools/linkify.py analysis/decisions.md                  # print with citation tags turned into links
 ```
+Each hit's kind says what it is. Sources: `src` (archived documents), `news` (news records, our summaries),
+`quote`. The archive's own files, by line (`file:line (heading)`): `cited` (what sources say, with citations),
+`analysis` (our inference: a `## Analysis` section or an "Analysis:" item), `derived` (our calculations, cited as
+`[DER:...]`) and `summary` (front matter: uncited, never cite it). A `cited` or `analysis` line is not a source:
+follow its citation to the page before stating what the source says.
 
 ## 3. Answer recipes
 | Question | Where to go |
