@@ -107,7 +107,7 @@ document from the Governor with the $12.57 billion figure.
   [SRC:ode/qec/2026_qem_report.pdf p.100]. Whether the grant programs' own 2027-29 budgets carry them forward isn't
   archived yet (#136).
 
-<!-- site: funding chart -->
+<!-- site: visual funding-2027-29 -->
 
 <!-- site: decision ssf-2027-29 -->
 

@@ -1,0 +1,48 @@
+{
+  "id": "dollar-to-school",
+  "kind": "flow",
+  "title": "How a dollar gets to a school: day-to-day operating money",
+  "description": "Diagram of how state taxes, the State School Fund, local property taxes and levies reach an Oregon school district, with the law or budget document for each step.",
+  "rows": [
+    {"name": "State taxes and funds", "boxes": [
+      {"id": "general-fund", "label": "State General Fund", "cite": "[SRC:legislature/olis/2025R1/307212_sb5516-ssf-work-session.pdf p.3]"},
+      {"id": "lottery", "label": "Lottery Funds", "cite": "[SRC:legislature/olis/2025R1/307212_sb5516-ssf-work-session.pdf p.3]"},
+      {"id": "small-taxes", "label": "Marijuana tax and State Timber Tax", "cite": "[SRC:legislature/olis/2025R1/307212_sb5516-ssf-work-session.pdf p.3]"},
+      {"id": "cat", "label": "Corporate Activity Tax", "cite": "[SRC:fiscal/oea/2026-09_forecast.pdf p.32]"},
+      {"id": "esf", "label": "Education Stability Fund (a reserve)", "cite": "[SRC:legislature/ors/ors327.html]"}
+    ]},
+    {"name": "State funds for schools", "boxes": [
+      {"id": "fss", "label": "Fund for Student Success", "cite": "[SRC:legislature/ors/ors327.html]"},
+      {"id": "ssf", "label": "State School Fund", "cite": "[SRC:legislature/ors/ors327.html]"}
+    ]},
+    {"name": "Local money", "boxes": [
+      {"id": "property-tax", "label": "Property taxes and other local revenue", "cite": "[SRC:legislature/ors/ors327.html]"},
+      {"id": "federal-counted", "label": "Some federal money", "cite": "[SRC:legislature/ors/ors327.html]"},
+      {"id": "levy", "label": "Local option levy", "cite": "[SRC:legislature/ors/ors327.html]"}
+    ]},
+    {"name": "How it's shared", "boxes": [
+      {"id": "formula", "label": "The formula, which shares the money by weighted enrollment", "cite": "[SRC:legislature/ors/ors327.html]"},
+      {"id": "sia", "label": "Student Investment Account", "cite": "[SRC:legislature/ors/ors327.html]"},
+      {"id": "federal-other", "label": "Most federal money", "open": "no primary source in the archive yet; #182 looks for one"}
+    ]},
+    {"name": "Where it ends up", "boxes": [
+      {"id": "district", "label": "A school district", "cite": "[SRC:legislature/ors/ors327.html]"}
+    ]}
+  ],
+  "arrows": [
+    {"from": "general-fund", "to": "ssf", "label": "appropriated by the Legislature; most of the 2025-27 State School Fund", "cite": "[SRC:legislature/ors/ors327.html] [SRC:legislature/olis/2025R1/307212_sb5516-ssf-work-session.pdf p.3]"},
+    {"from": "lottery", "to": "ssf", "label": "part of the 2025-27 State School Fund", "cite": "[SRC:legislature/olis/2025R1/307212_sb5516-ssf-work-session.pdf p.3]"},
+    {"from": "small-taxes", "to": "ssf", "label": "small parts of the 2025-27 State School Fund", "cite": "[SRC:legislature/olis/2025R1/307212_sb5516-ssf-work-session.pdf p.3]"},
+    {"from": "cat", "to": "fss", "label": "dedicated to education through this fund", "cite": "[SRC:fiscal/oea/2026-09_forecast.pdf p.32]"},
+    {"from": "esf", "to": "ssf", "label": "money transferred from the reserve", "cite": "[SRC:legislature/ors/ors327.html]"},
+    {"from": "fss", "to": "ssf", "label": "a transfer each two-year budget", "cite": "[SRC:legislature/ors/ors327.html] [SRC:legislature/olis/2025I1/310915_ssa-qem-gap.pdf p.6]"},
+    {"from": "fss", "to": "sia", "label": "at least 50% of what's left after that transfer and a reserve", "cite": "[SRC:legislature/ors/ors327.html]"},
+    {"from": "ssf", "to": "formula", "label": "pooled with all districts' local revenue", "cite": "[SRC:legislature/ors/ors327.html]"},
+    {"from": "property-tax", "to": "formula", "label": "counted as the district's local revenue", "cite": "[SRC:legislature/ors/ors327.html]"},
+    {"from": "federal-counted", "to": "formula", "label": "federal money received without applying for it, counted as local revenue", "cite": "[SRC:legislature/ors/ors327.html]"},
+    {"from": "levy", "to": "district", "label": "kept outside the formula, up to a cap", "cite": "[SRC:legislature/ors/ors327.html]"},
+    {"from": "formula", "to": "district", "label": "general purpose, transportation and high-cost disability grants; the State School Fund pays them minus the district's own local revenue", "cite": "[SRC:legislature/ors/ors327.html]"},
+    {"from": "sia", "to": "district", "label": "grants on top of the State School Fund", "cite": "[SRC:legislature/ors/ors327.html]"},
+    {"from": "federal-other", "to": "district", "label": "how it gets there", "open": "not yet confirmed"}
+  ]
+}

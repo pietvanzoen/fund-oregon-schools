@@ -85,6 +85,71 @@ for (const g of glossaryAll) // links to its term page; a term of art matches in
   entities[`term:${g.term}`] = g.kind === "acronym" ? { kind: "Abbreviation", icon: "abbr", title: g.full_name || g.term, url: `/glossary/${termSlug(g.term)}/`, lines: [g.tooltip], term: g.term }
     : { kind: "Term", icon: "abbr", title: g.term, url: `/glossary/${termSlug(g.term)}/`, lines: [g.tooltip || clip(plain(g.definition), 160)], term: g.term, ci: true };
 
+// ------------------------------------------------------------- visuals: analysis/visuals/<id>.json (adr/20261125-0411-visuals-as-derived-entities.md)
+
+const dataRows = {}; // "data/<file>/<id>" -> row, for data files with an id column
+for (const f of fs.readdirSync(path.join(ROOT, "analysis/data")).filter((f) => f.endsWith(".csv")))
+  for (const r of csv(`analysis/data/${f}`)) if (r.id) dataRows[`data/${f.slice(0, -4)}/${r.id}`] = r;
+const visuals = Object.fromEntries(fs.readdirSync(path.join(ROOT, "analysis/visuals")).filter((f) => f.endsWith(".json")).sort()
+  .map((f) => JSON.parse(read(`analysis/visuals/${f}`))).map((v) => [v.id, v]));
+for (const v of Object.values(visuals))
+  entities[`visual:${v.id}`] = { kind: v.kind === "flow" ? "Diagram" : "Chart", icon: "calc", title: v.title, url: `/visuals/${v.id}/`, lines: [v.description] };
+
+// A bar's value (as the row writes it, keeping its precision) and citation come from the row it points to
+function barRow(v, b) {
+  const r = b.ref.startsWith("derived/") ? derived[b.ref.slice(8)] : dataRows[b.ref];
+  if (!r) throw new Error(`analysis/visuals/${v.id}.json: no row ${b.ref}`);
+  return b.ref.startsWith("derived/") ? [r.value, `[DER:${b.ref.slice(8)}]`] : [r[v.column], r.source];
+}
+const tagsIn = (s) => s.match(/\[(?:SRC|VID|NEWS|PPSARCH|DER):[^\]]+\]/g) || [];
+// Every citation a visual rests on, in order, once
+const visualTags = (v) => [...new Set([...(v.bars || []).map((b) => barRow(v, b)[1]), ...(v.notes || []),
+  ...(v.rows || []).flatMap((r) => r.boxes.map((b) => b.cite || "")), ...(v.arrows || []).map((a) => a.cite || "")].flatMap(tagsIn))];
+
+// The text version, generated from the same file so it can't disagree with the picture
+function visualText(v) {
+  if (v.kind === "bars")
+    return `${v.title}. ` + v.bars.map((b) => `${b.label} (${b.group}): $${barRow(v, b)[0]} ${v.unit}.`).join(" ");
+  const box = Object.fromEntries(v.rows.flatMap((r) => r.boxes).map((b) => [b.id, b]));
+  return `${v.title}. ` + v.rows.map((r) => `${r.name}: ` + r.boxes.map((b) => {
+    const to = v.arrows.filter((a) => a.from === b.id).map((a) => `to ${box[a.to].label} (${a.label}${a.open ? `, ${a.open}` : ""})`);
+    return `${b.label}${b.open ? ` (not yet confirmed: ${b.open})` : ""}${to.length ? ` goes ${to.join("; and ")}` : ""}.`;
+  }).join(" ")).join(" ");
+}
+
+// Charts.css bars: the chart is a data table; the group is written on each bar, so colour isn't the only cue
+function barsHtml(v) {
+  const groups = [...new Set(v.bars.map((b) => b.group))];
+  const rows = v.bars.map((b) => [b, barRow(v, b)[0]]);
+  const max = Math.max(...rows.map(([, val]) => Number(val)));
+  return `<table class="charts-css bar show-labels data-outside viz-bars"><thead><tr><th scope="col">Bar</th><th scope="col">Amount</th></tr></thead><tbody>`
+    + rows.map(([b, val]) => `<tr><th scope="row">${esc(b.label)} <span class="viz-group">${esc(b.group)}</span></th>`
+      + `<td style="--size:${(Number(val) / max).toFixed(3)};--color:var(--g${groups.indexOf(b.group)})"><span class="data">$${esc(val)} ${esc(v.unit)}</span></td></tr>`).join("")
+    + `</tbody></table><p class="chart-src">Figures: ${[...new Set(v.bars.flatMap((b) => tagsIn(barRow(v, b)[1])))].join(" ")}</p>`;
+}
+
+// Rows of boxes, top to bottom; each box lists where its money goes as text, so nothing depends on drawn lines
+function flowHtml(v) {
+  const box = Object.fromEntries(v.rows.flatMap((r) => r.boxes).map((b) => [b.id, b]));
+  const goes = (b) => v.arrows.filter((a) => a.from === b.id).map((a) => `<li${a.open ? ' class="open"' : ""}><span aria-hidden="true">→ </span>`
+    + `<a href="#${v.id}-${a.to}">${esc(box[a.to].label)}</a>: ${esc(a.label)} ${a.cite || `<em>(${esc(a.open)})</em>`}</li>`).join("");
+  return `<ol class="flow">${v.rows.map((r) => `<li class="flow-row"><p class="flow-row-name">${esc(r.name)}</p><ul class="flow-boxes">${r.boxes.map((b) =>
+    `<li class="flow-box${b.open ? " open" : ""}" id="${v.id}-${b.id}"><p class="flow-label"><strong>${esc(b.label)}</strong> ${b.cite || ""}</p>`
+    + (b.open ? `<p class="flow-open">Not yet confirmed: ${esc(b.open)}</p>` : "") + (goes(b) ? `<ul class="flow-to">${goes(b)}</ul>` : "") + `</li>`).join("")}</ul></li>`).join("")}</ol>`;
+}
+
+// One visual, its citation tags left raw for Page.render to turn into chips; `here` on the visual's own page
+function visualHtml(id, here) {
+  const v = visuals[id];
+  if (!v) throw new Error(`no visual ${id} (analysis/visuals/${id}.json)`);
+  const body = { bars: barsHtml, flow: flowHtml }[v.kind];
+  if (!body) throw new Error(`analysis/visuals/${id}.json: unknown kind ${v.kind}`);
+  return `<figure class="box chart viz viz-${v.kind}"${here ? ` aria-label="${esc(v.title)}"` : ""}>${here ? "" : `<figcaption class="chart-title">${esc(v.title)}</figcaption>`}${body(v)}`
+    + (v.notes || []).map((n) => `<p class="chart-src">${esc(n)}</p>`).join("")
+    + `<details class="viz-text"><summary>Text version</summary><p>${esc(visualText(v))}</p></details>`
+    + (here ? "" : `<p class="chart-src"><a href="/visuals/${id}/">About this ${v.kind === "flow" ? "diagram" : "chart"}: its sources</a></p>`) + `</figure>`;
+}
+
 // A card for one citation chip; built per chip because the page number differs
 function citeCard(kind, body) {
   body = body.trim();
@@ -151,6 +216,11 @@ class Page {
 
   // Markdown with our conventions -> HTML
   render(text, srcFile) {
+    text = text.replace(/<!-- site: visual ([\w-]+) -->/g, (_, id) => {
+      this.refs.add(`visual:${id}`);
+      if (visuals[id]?.kind === "bars") this.charts = true; // loads Charts.css
+      return visualHtml(id, this.id === `visual:${id}`);
+    });
     text = text.replace(/`([\w./-]+\.(?:md|csv|jsonl))(#[\w-]+)?`/g, (m, ref, anchor = "") => {
       const key = path.posix.normalize(path.posix.join(path.posix.dirname(srcFile), ref));
       const ent = FILE_ENTITY[key] || FILE_ENTITY[ref];
@@ -357,6 +427,15 @@ glossaryPage.sourceFile = "analysis/glossary.csv";
 Object.assign(glossaryPage, { seo: "Glossary of Oregon school funding terms", description: "Plain-language definitions of the abbreviations and budget terms used on this site: SSF, CSL, QEM, JPEA, ESF, biennium, kicker and more, each cited." });
 pages.push(glossaryPage);
 
+// Visuals: one page each, with the visual, its text version, its sources and (in the side column) the pages that use it
+for (const v of Object.values(visuals)) {
+  const p = new Page(`visual:${v.id}`, `/visuals/${v.id}/`, v.title);
+  const sources = visualTags(v).map((t) => { const [, k, b] = t.match(/^\[(\w+):(.+)\]$/); return `- ${citeCard(k, b).title} ${t}`; });
+  p.body = p.render(`# ${v.title}\n\n<!-- site: visual ${v.id} -->\n\n## Sources\n\n${sources.join("\n")}\n`, `visuals/${v.id}.json`);
+  Object.assign(p, { description: v.description, sourceFile: `analysis/visuals/${v.id}.json`, boxes: true });
+  pages.push(p);
+}
+
 // Topics: the list the old placeholder home page held, now its own page
 const topicsPage = new Page("topics", "/topics/", "Topics");
 topicsPage.body = `<ul class="topic-list box">${topicFiles.map((f) => {
@@ -381,7 +460,7 @@ const questions = csv("analysis/questions.csv");
 function listPage(id, url, title, text, files, { seo, description, boxes = true, wide = false, srcFile } = {}) {
   const p = new Page(id, url, title);
   // the chart's citation tags stay raw here: render turns them into pills with the rest of the page
-  p.body = p.render(text.replace("<!-- site: funding chart -->", fundingChart((t) => t)), srcFile || path.posix.relative("analysis", files[0]));
+  p.body = p.render(text, srcFile || path.posix.relative("analysis", files[0]));
   Object.assign(p, { sourceFile: files, seo, description, boxes, wide });
   pages.push(p);
   return p;
@@ -440,16 +519,12 @@ function questionRows(qs) {
 // The numbers: both charts, reserves, and every figure in the data files
 {
   const ssf = csv("analysis/data/ssf_history.csv");
-  const hist = ssf.filter((r) => r.amount_billion && ["legislatively_adopted", "current_service_level"].includes(r.stage) && !r.source.includes("PPSARCH"));
   const nice = (s) => s.replace(/_/g, " ");
-  const tags = (s) => [...new Set(s.match(/\[[^\]]+\]/g) || [])].join(" ");
   const text = `The state's own Quality Education Commission prices what Oregon schools need. These charts use its 2026 report.
 
-<!-- site: funding chart -->
+<!-- site: visual funding-2027-29 -->
 
-${barChart("State School Fund by two-year budget, billions of dollars",
-    hist.map((r) => [r.biennium, Number(r.amount_billion), r.stage === "legislatively_adopted" ? "adopted budget" : "current service level", r.stage === "legislatively_adopted" ? "main" : "base"]),
-    [`2027-29 is the current service level estimate, not an adopted budget. ${tags(hist.map((r) => r.source).join(" "))}`])}
+<!-- site: visual ssf-history -->
 
 ## Reserves
 
@@ -575,6 +650,8 @@ listPage("updates", "/updates/", "What's new", "New research, data and correctio
 const byId = Object.fromEntries(pages.map((p) => [p.id, p]));
 for (const p of pages) p.backlinks = [];
 for (const p of pages) for (const id of p.refs) if (byId[id] && id !== p.id) byId[id].backlinks.push(p);
+// The home page is built last, from START.md, so its visuals are found here
+for (const [, id] of read("analysis/START.md").matchAll(/<!-- site: visual ([\w-]+) -->/g)) byId[`visual:${id}`]?.backlinks.push({ id: "home", url: "/", title: "Start here" });
 
 for (const p of pages) {
   // The layout draws the title, so the Markdown H1 goes; the person card takes the placeholder
@@ -700,7 +777,7 @@ function buildHome() {
   const more = (keyBlock.match(/^More: (.+)$/m) || [])[1];
   const numbers = `<section class="home-sec" aria-labelledby="key-numbers-for-2027-29"><h2 id="key-numbers-for-2027-29">Key numbers for 2027-29</h2>`
     + `<p class="sec-note">Each figure is from the document in its pill.</p><ul class="kn-tiles">${tiles.join("")}</ul>${analysis}`
-    + (keyBlock.includes("<!-- site: funding chart -->") ? fundingChart(inline) : "")
+    + (keyBlock.match(/<!-- site: visual [\w-]+ -->/g) || []).map((m) => p.render(m, "START.md")).join("")
     + `<ul class="kn-rest-list">${rest.join("")}</ul>${more ? `<p class="sec-note">More: ${inline(more)}</p>` : ""}</section>`;
 
   // What's new: the latest three research or correction rows of updates.csv, newest first (same date: the later row first)
@@ -732,30 +809,6 @@ function buildHome() {
   return p;
 }
 
-// Horizontal bars from zero, the label above each bar so it stays legible on phones. bars: [label, value, sublabel, "base"|"main"]
-function barChart(title, bars, notes) {
-  const max = Math.max(...bars.map((b) => b[1]));
-  return `<figure class="box chart"><figcaption class="chart-title">${esc(title)}</figcaption><ul class="bars">`
-    + bars.map(([label, val, sub, cls]) => `<li class="bar-row"><p class="bar-label"><strong>${esc(label)}</strong> <span>${esc(sub)}</span></p>`
-      + `<p class="bar"><span class="bar-fill bar-${cls}" style="width:calc((100% - 8.5em) * ${(val / max).toFixed(3)})"></span><span class="bar-val">$${val.toFixed(2)} billion</span></p></li>`).join("")
-    + `</ul>${notes.map((n) => `<p class="chart-src">${n}</p>`).join("")}</figure>`;
-}
-
-// The 2027-29 funding benchmarks (home page, What's being decided, The numbers). inline renders its citation tags
-function fundingChart(inline) {
-  const qem = Object.fromEntries(csv("analysis/data/qem_gap.csv").filter((r) => r.biennium === "2027-29").map((r) => [r.measure, r]));
-  const adopted = csv("analysis/data/ssf_history.csv").find((r) => r.biennium === "2025-27" && r.stage === "legislatively_adopted");
-  const v = (m) => Number(qem[m].amount_billion);
-  const srcs = [...new Set([qem.status_quo_state_funding, qem.full_qem_state_funding, qem.ssf_csl_in_report].flatMap((r) => r.source.match(/\[[^\]]+\]/g)))].join(" ");
-  return barChart("State funding for K-12, billions of dollars: 2025-27 adopted and 2027-29 estimates", [
-    ["Adopted for 2025-27", Number(adopted.amount_billion), "State School Fund", "base"],
-    ["Current service level", v("ssf_csl_in_report"), "State School Fund · Department of Administrative Services estimate", "base"],
-    ["Keep 2025-27 service levels", v("status_quo_state_funding"), "Commission estimate · all core state funding", "main"],
-    ["Meet the state's goals", v("full_qem_state_funding"), "Commission estimate · all core state funding", "main"],
-  ], ["The first two bars are the State School Fund alone. The last two, the Quality Education Commission's estimates, count the State School Fund and other state money. The commission leaves what counts as adequate to the Legislature.",
-    `2027-29 figures: 2026 Quality Education Model report ${inline(srcs)}. 2025-27: ${inline(adopted.source)}`]);
-}
-
 const home = buildHome();
 
 const nav = {
@@ -765,10 +818,10 @@ const nav = {
 
 export default {
   pages: pages.map((p) => ({ url: p.url, title: p.title, html: p.html, aside: p.aside, meta: p.meta, back: p.back, description: p.description || p.summary || "", stub: !!p.stub,
-    seo: p.seo || "", wide: !!p.wide, script: p.script || "", crumbs: p.id.startsWith("topic:") ? [["Home", "/"], ["Topics", "/topics/"]] : [["Home", "/"]],
+    seo: p.seo || "", wide: !!p.wide, charts: !!p.charts, script: p.script || "", crumbs: p.id.startsWith("topic:") ? [["Home", "/"], ["Topics", "/topics/"]] : [["Home", "/"]],
     search: p.kind ? { kind: p.kind, line: p.line || "" } : null,
     cards: Object.fromEntries(Object.entries(p.cards).map(([k, c]) => [k, { kind: c.kind, icon: c.icon, title: c.title, url: c.url, external: !!c.external, lines: c.lines.filter(Boolean), also: c.also }])) })),
   nav: { topics: nav.topics.map(({ text, ...t }) => t), people: nav.people },
-  home: { title: home.title, hero: home.hero, description: "Primary documents and cited analysis on Oregon K-12 school funding: how much the state spends, how it's shared and what it buys, for the 2027-29 budget.", html: home.html, meta: home.meta,
+  home: { title: home.title, hero: home.hero, charts: !!home.charts, description: "Primary documents and cited analysis on Oregon K-12 school funding: how much the state spends, how it's shared and what it buys, for the 2027-29 budget.", html: home.html, meta: home.meta,
     cards: Object.fromEntries(Object.entries(home.cards).map(([k, c]) => [k, { kind: c.kind, icon: c.icon, title: c.title, url: c.url, external: !!c.external, lines: c.lines.filter(Boolean), also: c.also }])) },
 };

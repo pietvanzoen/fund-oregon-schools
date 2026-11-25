@@ -9,7 +9,7 @@ const SITE = "https://oregonedtrail.org";
 
 // seo: the <title> and link-preview title when it differs from the H1; the home page's is the site name.
 // The home page also names the site for Google's site-name display (WebSite structured data)
-export function layout({ url, title, seo = "", crumbs = [], back = null, description = "", hero = "", body, aside = "", meta = "", search = null, script = "", cards, wide = false, noindex = false }) {
+export function layout({ url, title, seo = "", crumbs = [], back = null, description = "", hero = "", body, aside = "", meta = "", search = null, script = "", cards, wide = false, noindex = false, charts = false }) {
   // Only the home title carries the domain (the address people pass on); elsewhere the name reads better aloud
   const full = url === "/" ? "OregonEdTrail.org: following the money behind Oregon's schools" : `${seo || title} · Oregon Ed Trail`;
   const trail = back
@@ -31,7 +31,7 @@ ${url === "/" ? `<script type="application/ld+json">{"@context":"https://schema.
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="/assets/site.css">
+${charts ? '<link rel="stylesheet" href="/assets/charts.min.css">\n' : ""}<link rel="stylesheet" href="/assets/site.css">
 <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
