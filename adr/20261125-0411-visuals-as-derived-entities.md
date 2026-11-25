@@ -1,6 +1,6 @@
 # Charts and diagrams are their own files, checked once and embedded by id
 
-Status: accepted (2026-11-25, PR #TBD)
+Status: accepted (2026-11-25, PR #196)
 
 ## Context
 Guides (#188) and topics need charts and diagrams. A visual restates archived figures in a new form, so it's derived
