@@ -59,6 +59,15 @@ scrambled, or text below a `--- OCR of this page` line (machine OCR of a picture
 9. **Derived figures**: for each changed row in `analysis/derived/*.csv`, the method, inputs and assumptions are
    right and complete, the script does what `method` says, constants it copies from a source carry a citation,
    and `kind` is `est` whenever the figure rests on an assumption.
+10. **Visuals**: for each new or changed `analysis/visuals/*.json`, and each visual whose rows changed, check it
+    against its sources (CLAUDE.md rule 4; its page at `/visuals/<id>/` lists them). A chart: every bar's `ref`
+    points to the row its `label` and `group` describe (the right year, stage and measure), the title and unit match
+    those rows, and any value we calculated is a derived row, not a number typed into the file. A diagram: every box
+    and arrow says only what its own citation supports at the cited page or section (an arrow's direction too); a
+    path no source confirms is marked `open` rather than cited to something that doesn't say it; and nothing drawn
+    contradicts the topic it links to. Notes are checked like any sentence. Read the generated text version (the
+    site build writes it from the file; `cd site-11ty && npm ci && npx eleventy`, then `_site/visuals/<id>/`) and
+    report anything in it that misstates the file.
 
 ## Scope
 

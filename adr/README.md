@@ -60,3 +60,4 @@ The concrete signal that should reopen this.
 | [2026-11-24](20261124-1755-agency-email-replies-as-text.md) | Email replies are archived as reply text, and only when nothing else can be cited |
 | [2026-11-24](20261124-2210-whats-new-kinds.md) | What's new rows have a kind; site changes stay off the overview |
 | [2026-11-24](20261124-2349-leads-archived-on-their-own-pr.md) | Leads are triaged in a session; their sources merge on their own PR once vetted |
+| [2026-11-25](20261125-0411-visuals-as-derived-entities.md) | Charts and diagrams are their own files, checked once and embedded by id |

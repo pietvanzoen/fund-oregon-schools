@@ -61,6 +61,96 @@ decision ── baseline and options ── positions (who stands where, when)
 | Question | What a reader needs to know to compare options | Could the stability fund pay down districts' PERS costs? | `analysis/questions.csv` |
 | Evidence | What sources say, what we calculated, our analysis | Fund rules, balances, PERS rates | `sources/`, `analysis/data/`, `analysis/derived/`, `analysis/topics/`, `analysis/people/` |
 
+### The whole repo
+
+How every kind of file relates. Citations are the links from what we write to what sources say; the site turns
+each one into a chip. Guides (#188) are planned. Keep this diagram current: a new file type or relationship means
+editing it (`CLAUDE.md`, "Before writing").
+
+```mermaid
+erDiagram
+    SOURCE {
+        file path "sources/PUBLISHER/..., provenance in _manifest.jsonl"
+        file queue "sources/_queue.csv until fetched"
+    }
+    NEWS_RECORD {
+        file index "sources/news/index.jsonl: our summary, short quotes"
+    }
+    CITATION {
+        tag form "SRC, VID, NEWS, PPSARCH, DER"
+    }
+    DATA_ROW {
+        file csv "analysis/data/*.csv: values copied from sources"
+        column id "where a visual points to the row"
+    }
+    DERIVED_ROW {
+        file csv "analysis/derived/*.csv, by tools/derive_*.py"
+        column inputs "the data rows it's calculated from"
+    }
+    TOPIC {
+        file md "analysis/topics/*.md: Analysis, What the sources say, Derived figures"
+    }
+    DECISION {
+        file csv "analysis/decisions.csv; where it stands in decisions.md"
+    }
+    OPTION {
+        file csv "analysis/options.csv: baseline, benchmark or proposal"
+    }
+    POSITION {
+        file csv "analysis/positions.csv: append-only"
+    }
+    QUESTION {
+        file csv "analysis/questions.csv"
+    }
+    PERSON {
+        file csv "analysis/people/people.csv; profile in people/*.md"
+    }
+    QUOTE {
+        file jsonl "analysis/people/quotes_all.jsonl"
+    }
+    PROMISE {
+        file csv "analysis/promises.csv"
+    }
+    GLOSSARY_TERM {
+        file csv "analysis/glossary.csv"
+    }
+    VISUAL {
+        file json "analysis/visuals/*.json: bars or flow"
+    }
+    GUIDE {
+        status planned "#188"
+    }
+
+    CITATION }o--o| SOURCE : "SRC, VID point to"
+    CITATION }o--o| NEWS_RECORD : "NEWS points to"
+    CITATION }o--o| DERIVED_ROW : "DER points to"
+    TOPIC ||--o{ CITATION : carries
+    DATA_ROW ||--|{ CITATION : "source column"
+    OPTION ||--|{ CITATION : "source column"
+    POSITION ||--|{ CITATION : "source column"
+    PERSON ||--|{ CITATION : "source column"
+    QUOTE ||--|{ CITATION : "cite"
+    PROMISE ||--|{ CITATION : "source column"
+    GLOSSARY_TERM ||--|{ CITATION : "source column"
+    VISUAL ||--|{ CITATION : "notes, boxes, arrows"
+    DERIVED_ROW }o--|{ DATA_ROW : "inputs"
+    VISUAL }o--o{ DATA_ROW : "bars point to by id"
+    VISUAL }o--o{ DERIVED_ROW : "bars point to"
+    DECISION ||--|{ OPTION : "baseline and options"
+    DECISION ||--o{ POSITION : "stances on"
+    OPTION |o--o{ POSITION : "stances on (empty: the whole decision)"
+    DECISION |o--o{ QUESTION : "raises (empty: standing research)"
+    DECISION }o--o{ DECISION : related
+    PERSON ||--o{ POSITION : "takes (or an organization)"
+    PERSON }o--o{ OPTION : proposes
+    PERSON ||--o{ QUOTE : said
+    QUESTION }o--o| TOPIC : "answered in (or decisions.md)"
+    TOPIC }o--o{ GLOSSARY_TERM : "uses"
+    TOPIC }o--o{ VISUAL : embeds
+    GUIDE }o--|{ TOPIC : "steps link to"
+    GUIDE }o--o{ VISUAL : embeds
+```
+
 **Topics are evidence, organized by subject** (the Education Stability Fund, the Quality Education Model, the
 formula, Measures 5 and 50). They keep their three sections and grow slowly. **People profiles are evidence,
 organized by person**: what someone has said and done, dated and cited, with their quotes in `quotes_all.jsonl`.
@@ -153,6 +243,7 @@ issues to it in the order they should run, and agents take the first free one.
 | What's being decided | `decisions.csv`, `options.csv`, `positions.csv`, `questions.csv`, `analysis/decisions.md` | Per decision: who decides and by when, the baseline and options, who stands where and when, what's known, open questions |
 | Topics | `analysis/topics/*.md` | The evidence on one subject |
 | People, What they've said, Promises, The numbers, Timeline, Glossary, Sources | as named | Reference |
+| Charts and diagrams, each with its own page | `analysis/visuals/*.json` | Show a comparison or a flow at a glance, embedded in any page; each page gives a text version and the sources |
 | About | `website/about.md` | Who runs the site, how to read it, how to send a question |
 
 `analysis/decisions.md` holds the hand-written part of the decisions page: one section per decision with a short
