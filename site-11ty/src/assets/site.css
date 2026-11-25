@@ -229,10 +229,9 @@ th{font-weight:600}
 .viz-bars.charts-css.bar tbody tr td{width:calc((100% - 8.5em) * var(--size));height:26px;min-height:0;padding:0;border-radius:0 6px 6px 0}
 .viz-bars .data{font-size:15px;font-weight:600;white-space:nowrap;color:var(--ink);margin-left:6px}
 .viz-text{font-size:15px;margin:8px 0}.viz-text summary{cursor:pointer}.viz-text p{margin:6px 0 0}.viz-text ul{margin:6px 0 0;padding-left:20px}.viz-text li{margin:2px 0}
-/* Flow: rows of boxes top to bottom, an arrow between rows; each box says in text where its money goes */
+/* A flow's steps under its diagram, on its own page: each box says in text where its money goes, with citations */
 .flow,.flow-boxes,.flow-to{list-style:none;padding:0;margin:0}
-.flow-row{position:relative;padding:0 0 28px}
-.flow-row:not(:last-child)::after{content:"↓";position:absolute;bottom:2px;left:50%;font-size:20px;line-height:1;color:var(--muted)}
+.flow-row{padding:0 0 20px}
 .flow-row-name{font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:0 0 6px}
 .flow-boxes{display:grid;grid-template-columns:repeat(auto-fit,minmax(14em,1fr));gap:10px}
 .flow-box{border:2px solid var(--blue);border-radius:10px;padding:10px 12px;background:var(--white)}
@@ -242,6 +241,13 @@ th{font-weight:600}
 .flow-to{margin:6px 0 0;font-size:14px;line-height:1.6}
 .flow-to li{margin:4px 0 0}.flow-to .open{border-width:0 0 0 2px;padding-left:6px}
 .flow-box:target{outline:3px solid var(--focus)}
+.flow-svg{margin:0 0 12px}.flow-svg svg{display:block;width:100%;height:auto;font-family:Lexend,system-ui,sans-serif}
+.fs-group{fill:var(--ground);stroke:#aeb7bd;stroke-width:1}
+.fs-group-name{font-size:14px;font-weight:600;fill:var(--muted);stroke:var(--ground);stroke-width:5px;paint-order:stroke;stroke-linejoin:round}
+.fs-box{fill:var(--white);stroke:var(--blue);stroke-width:2}.fs-box.open{stroke:var(--muted);stroke-dasharray:6 4}
+.fs-label{font-size:15px;font-weight:500;fill:var(--ink);text-anchor:middle}
+.fs-arrow{fill:none;stroke:var(--deep);stroke-width:2}.fs-arrow.open{stroke:var(--muted);stroke-dasharray:6 4}
+.fs-head{fill:var(--deep)}
 .chart-src{font-size:14px;color:var(--muted);margin:8px 0}
 .kn-rest-list{font-size:16px;margin:16px 0 8px}
 .home-two{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:0 24px;align-items:start}

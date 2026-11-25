@@ -20,7 +20,7 @@ every decision has a baseline option, statuses and kinds are known values, and a
 or an organization's name. A people.csv area must appear on the legislature/members/ page its row cites.
 questions.csv has no source column; tags in any *source column are checked.
 Visuals (analysis/visuals/<id>.json; adr/20261125-0411-visuals-as-derived-entities.md): the id matches the file name,
-a known kind, a title and a description; every bar points to a data row by id (data/<file>/<id>, the file's `id`
+a known kind, a title and a description; a flow's rows hold groups (containers) whose spans fit its `columns`; every bar points to a data row by id (data/<file>/<id>, the file's `id`
 column) or a derived row (derived/<topic>/<id>) with a number; every note, box and arrow is cited (or, for a box or
 arrow, marked `open` with why), arrows join boxes that exist, and every `<!-- site: visual <id> -->` marker has a file.
 A data file with an `id` column needs a unique id on every row.
@@ -410,7 +410,20 @@ def check_visual(rel, name, v, data_rows, derived, check_tag, errors):
                 errors.append(f"{rel}: bar {ref!r} doesn't point to a row with a number in it"
                               f"{'' if ref.startswith('derived/') else ' (data/<file>/<id>, the id column)'}")
     elif v.get("kind") == "flow":
-        boxes = [b for r in v.get("rows", []) for b in r.get("boxes", [])]
+        cols = v.get("columns")
+        if not isinstance(cols, int) or cols < 1:
+            errors.append(f"{rel}: a flow needs `columns`, the width of its grid")
+            cols = 0
+        groups = [g for r in v.get("rows", []) for g in r.get("groups", [])]
+        for n, r in enumerate(v.get("rows", []), 1):
+            if not r.get("groups"):
+                errors.append(f"{rel}: row {n} has no groups")
+            if cols and sum(g.get("span", 0) for g in r.get("groups", [])) > cols:
+                errors.append(f"{rel}: row {n}'s groups span more than {cols} columns")
+        for g in groups:
+            if not g.get("name") or not isinstance(g.get("span"), int) or g["span"] < 1 or not g.get("boxes"):
+                errors.append(f"{rel}: group {g.get('name')!r} needs a name, a span and boxes")
+        boxes = [b for g in groups for b in g.get("boxes", [])]
         ids = [b.get("id") for b in boxes]
         for i in {i for i in ids if ids.count(i) > 1}:
             errors.append(f"{rel}: box id {i} used twice")

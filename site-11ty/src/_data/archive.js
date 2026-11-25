@@ -101,10 +101,13 @@ function barRow(v, b) {
   if (!r) throw new Error(`analysis/visuals/${v.id}.json: no row ${b.ref}`);
   return b.ref.startsWith("derived/") ? [r.value, `[DER:${b.ref.slice(8)}]`] : [r[v.column], r.source];
 }
+// A flow's groups (containers) and boxes, in reading order: rows top to bottom, groups left to right
+const flowGroups = (v) => (v.rows || []).flatMap((r) => r.groups);
+const flowBoxes = (v) => flowGroups(v).flatMap((g) => g.boxes);
 const tagsIn = (s) => s.match(/\[(?:SRC|VID|NEWS|PPSARCH|DER):[^\]]+\]/g) || [];
 // Every citation a visual rests on, in order, once
 const visualTags = (v) => [...new Set([...(v.bars || []).map((b) => barRow(v, b)[1]), ...(v.notes || []),
-  ...(v.rows || []).flatMap((r) => r.boxes.map((b) => b.cite || "")), ...(v.arrows || []).map((a) => a.cite || "")].flatMap(tagsIn))];
+  ...flowBoxes(v).map((b) => b.cite || ""), ...(v.arrows || []).map((a) => a.cite || "")].flatMap(tagsIn))];
 
 // The text version, generated from the same file so it can't disagree with the picture: a list, since it's mostly listing
 function visualText(v) {
@@ -112,8 +115,8 @@ function visualText(v) {
   const notes = (v.notes || []).map((n) => `<p>${esc(plain(n))}</p>`).join("");
   if (v.kind === "bars")
     return li(v.bars.map((b) => `${esc(b.label)} (${esc(b.group)}): $${esc(barRow(v, b)[0])} ${esc(v.unit)}`)) + notes;
-  const box = Object.fromEntries(v.rows.flatMap((r) => r.boxes).map((b) => [b.id, b]));
-  return li(v.rows.map((r) => `<strong>${esc(r.name)}</strong>` + li(r.boxes.map((b) => {
+  const box = Object.fromEntries(flowBoxes(v).map((b) => [b.id, b]));
+  return li(flowGroups(v).map((g) => `<strong>${esc(g.name)}</strong>` + li(g.boxes.map((b) => {
     const to = v.arrows.filter((a) => a.from === b.id).map((a) => `to ${esc(box[a.to].label)}: ${esc(a.label)}${a.open ? ` (${esc(a.open)})` : ""}`);
     return `${esc(b.label)}${b.open ? ` (not yet confirmed: ${esc(b.open)})` : ""}${to.length ? li(to) : ""}`;
   })))) + notes;
@@ -130,14 +133,72 @@ function barsHtml(v) {
     + `</tbody></table><p class="chart-src">Figures: ${[...new Set(v.bars.flatMap((b) => tagsIn(barRow(v, b)[1])))].join(" ")}</p>`;
 }
 
-// Rows of boxes, top to bottom; each box lists where its money goes as text, so nothing depends on drawn lines
-function flowHtml(v) {
-  const box = Object.fromEntries(v.rows.flatMap((r) => r.boxes).map((b) => [b.id, b]));
+// Each step with its citations, as a list under the diagram on its own page
+function flowSteps(v) {
+  const box = Object.fromEntries(flowBoxes(v).map((b) => [b.id, b]));
   const goes = (b) => v.arrows.filter((a) => a.from === b.id).map((a) => `<li${a.open ? ' class="open"' : ""}><span aria-hidden="true">→ </span>`
     + `<a href="#${v.id}-${a.to}">${esc(box[a.to].label)}</a>: ${esc(a.label)} ${a.cite || `<em>(${esc(a.open)})</em>`}</li>`).join("");
-  return `<ol class="flow">${v.rows.map((r) => `<li class="flow-row"><p class="flow-row-name">${esc(r.name)}</p><ul class="flow-boxes">${r.boxes.map((b) =>
+  return `<h3>Each step and its source</h3><ol class="flow">${flowGroups(v).map((g) => `<li class="flow-row"><p class="flow-row-name">${esc(g.name)}</p><ul class="flow-boxes">${g.boxes.map((b) =>
     `<li class="flow-box${b.open ? " open" : ""}" id="${v.id}-${b.id}"><p class="flow-label"><strong>${esc(b.label)}</strong> ${b.cite || ""}</p>`
     + (b.open ? `<p class="flow-open">Not yet confirmed: ${esc(b.open).replace(/#(\d+)/g, `<a href="${REPO}/issues/$1">#$1</a>`)}</p>` : "") + (goes(b) ? `<ul class="flow-to">${goes(b)}</ul>` : "") + `</li>`).join("")}</ul></li>`).join("")}</ol>`;
+}
+
+// The flow as one SVG drawn at build time, desktop first (on phones it scales down and readers zoom): each row of the file is a band of
+// containers (groups) side by side on a grid of `columns`, boxes sit in a row inside their container, arrows run box to box.
+// shortcut: label width is estimated at 0.56em per character, not measured; if a label overflows, shorten it or widen W
+function flowSvg(v) {
+  const W = 760, M = 2, GUT = 16, PAD = 12, GAP = 10, BAND = 52, FS = 15, LH = 19, TOP = 32;
+  const colW = (W - 2 * M - GUT * (v.columns - 1)) / v.columns;
+  const wrap = (t, w) => t.split(" ").reduce((out, word) => {
+    const next = out.length ? `${out.at(-1)} ${word}` : word;
+    if (out.length && next.length * FS * 0.56 <= w - 16) out[out.length - 1] = next; else out.push(word);
+    return out;
+  }, []);
+  const at = {}, groups = [];
+  let y = M;
+  for (const row of v.rows) {
+    let col = 0, bandH = 0;
+    const band = row.groups.map((g) => {
+      const x = M + col * (colW + GUT), w = g.span * colW + (g.span - 1) * GUT;
+      col += g.span;
+      const bw = Math.min(200, (w - 2 * PAD - GAP * (g.boxes.length - 1)) / g.boxes.length);
+      const lines = g.boxes.map((b) => wrap(b.label, bw));
+      const bh = 14 + LH * Math.max(...lines.map((l) => l.length));
+      let bx = x + (w - (g.boxes.length * bw + GAP * (g.boxes.length - 1))) / 2;
+      g.boxes.forEach((b, i) => { at[b.id] = { x: bx, y: y + TOP, w: bw, h: bh, lines: lines[i], open: !!b.open }; bx += bw + GAP; });
+      bandH = Math.max(bandH, TOP + bh + PAD);
+      return { name: g.name, x, w };
+    });
+    band.forEach((g) => groups.push({ ...g, y, h: bandH }));
+    y += bandH + BAND;
+  }
+  const H = y - BAND + M;
+  // Arrows leave the bottom of a box (or its side, to a box in the same row) and spread out where several share a box
+  const outs = {}, ins = {};
+  for (const a of v.arrows) { (outs[a.from] ||= []).push(a); (ins[a.to] ||= []).push(a); }
+  for (const id in ins) ins[id].sort((p, q) => at[p.from].x - at[q.from].x);
+  const spread = (list, a, b0, len) => b0 + len * (list.indexOf(a) + 1) / (list.length + 1);
+  const paths = v.arrows.map((a) => {
+    const s = at[a.from], t = at[a.to];
+    let d;
+    if (s.y === t.y) { // same row: side to side
+      const [x1, x2] = s.x < t.x ? [s.x + s.w, t.x - 3] : [s.x, t.x + t.w + 3];
+      d = `M${x1} ${s.y + s.h / 2}H${x2}`;
+    } else {
+      const x1 = spread(outs[a.from], a, s.x, s.w), y1 = s.y + s.h, x2 = spread(ins[a.to], a, t.x, t.w), y2 = t.y - 3, mid = (y1 + y2) / 2;
+      d = `M${x1.toFixed(1)} ${y1}C${x1.toFixed(1)} ${mid} ${x2.toFixed(1)} ${mid} ${x2.toFixed(1)} ${y2}`;
+    }
+    return `<path class="fs-arrow${a.open ? " open" : ""}" d="${d}" marker-end="url(#${v.id}-head)"/>`;
+  });
+  const n = (x) => +x.toFixed(1);
+  return `<div class="flow-svg"><svg viewBox="0 0 ${W} ${n(H)}" role="img" aria-label="${esc(v.title)}. The text version follows." focusable="false">`
+    + `<defs><marker id="${v.id}-head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="fs-head"/></marker></defs>`
+    + groups.map((g) => `<rect class="fs-group" x="${n(g.x)}" y="${n(g.y)}" width="${n(g.w)}" height="${n(g.h)}" rx="12"/>`).join("")
+    + paths.join("") // container names go over the arrows, on a halo, so an arrow passing through never hides one
+    + groups.map((g) => `<text class="fs-group-name" x="${n(g.x + PAD)}" y="${n(g.y + 21)}">${esc(g.name)}</text>`).join("")
+    + Object.values(at).map((b) => `<rect class="fs-box${b.open ? " open" : ""}" x="${n(b.x)}" y="${n(b.y)}" width="${n(b.w)}" height="${n(b.h)}" rx="8"/>`
+      + `<text class="fs-label" x="${n(b.x + b.w / 2)}" y="${n(b.y + (b.h - LH * b.lines.length) / 2 + FS)}">${b.lines.map((l, i) => `<tspan x="${n(b.x + b.w / 2)}"${i ? ` dy="${LH}"` : ""}>${esc(l)}</tspan>`).join("")}</text>`).join("")
+    + `</svg></div>`;
 }
 
 // One visual, its citation tags left raw for Page.render to turn into chips. On its own page (`here`) it carries its
@@ -145,12 +206,12 @@ function flowHtml(v) {
 function visualHtml(id, here) {
   const v = visuals[id];
   if (!v) throw new Error(`no visual ${id} (analysis/visuals/${id}.json)`);
-  const body = { bars: barsHtml, flow: flowHtml }[v.kind];
+  const body = { bars: barsHtml, flow: (v) => flowSvg(v) + (here ? flowSteps(v) : "") }[v.kind];
   if (!body) throw new Error(`analysis/visuals/${id}.json: unknown kind ${v.kind}`);
   const html = here ? body(v) : body(v).replace(/<p class="chart-src">Figures:[^<]*<\/p>/, "").replace(/ ?\[(?:SRC|VID|NEWS|PPSARCH|DER):[^\]]+\]/g, "");
   return `<figure class="box chart viz viz-${v.kind}"${here ? ` aria-label="${esc(v.title)}"` : ""}>${here ? "" : `<figcaption class="chart-title">${esc(v.title)}</figcaption>`}${html}`
     + (here ? (v.notes || []).map((n) => `<p class="chart-src">${esc(n)}</p>`).join("") : "")
-    + `<details class="viz-text"><summary>Text version</summary>${visualText(v)}</details>`
+    + (here && v.kind === "flow" ? "" : `<details class="viz-text"><summary>Text version</summary>${visualText(v)}</details>`) // a flow's page lists each step instead
     + (here ? "" : `<p class="chart-src"><a href="/visuals/${id}/">Sources${v.notes?.length ? " and notes" : ""} for this ${v.kind === "flow" ? "diagram" : "chart"}</a></p>`) + `</figure>`;
 }
 

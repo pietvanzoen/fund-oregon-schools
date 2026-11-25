@@ -20,9 +20,10 @@ notes, only a link to its page: a picture crowded with chips is hard to read, an
   `id` column (first, unique), added when a visual first needs one.
 - Every text field in a visual (a note, a diagram box or arrow) carries its own citation.
 - Two templates, in the site build: `bars` uses Charts.css (pinned, plain CSS on an HTML table), and `flow` is
-  our own HTML and CSS: rows of boxes that stack on phones, each box listing where its money goes as text, with a
-  down-arrow between rows. A path no archived source confirms is drawn as open (dashed, labelled) or left out,
-  and the maintainer chooses which.
+  one SVG drawn at build time from the file, desktop first: rows of containers (groups) on a grid, boxes inside
+  them and drawn arrows from box to box. On phones the SVG scales down and readers zoom; the bulleted text version
+  and, on the diagram's own page, a list of each step with its citations carry the same content. A path no archived
+  source confirms is drawn dashed (`open`, with why) or left out, and the maintainer chooses which.
 - Colour never tells series apart on its own: each bar's group is written on it.
 
 ## Options weighed
@@ -39,17 +40,22 @@ notes, only a link to its page: a picture crowded with chips is hard to read, an
   and its class names in our markup.
 - **Bars with our own CSS** (`barChart`, the former template): no dependency, but every chart shape (columns, a
   stacked bar) is code to write and maintain.
-- **SVG templates in the build** (the issue's first idea): full control, but SVG text shrinks with the image on a
-  phone instead of wrapping.
+- **SVG for bars**: full control, but SVG text shrinks with the image on a phone, and Charts.css already gives a
+  real table that wraps.
+- **SVG for flows** (chosen, after a first HTML version): a flow's value is seeing every path at once, and nested
+  containers with drawn arrows read as a flow, where HTML cards with arrows written as text read as a list. Cost:
+  text shrinks on phones (readers zoom), and label widths are estimated, not measured.
 - **Mermaid on the site**: renders at a fixed width, so text shrinks on phones; looks generic; needs headless
   Chromium in CI to render at build time. (Mermaid is fine in `RESEARCH.md`, which GitHub renders and the site
   doesn't publish.)
 - **A JavaScript chart library**: redraws per screen size, but ships a script to every reader and the chart
   doesn't exist until it runs.
-- **Flow diagrams with drawn connector lines** (CSS pseudo-elements, as in org-chart demos): suited to one box
-  branching into many; our flows merge many sources into one fund, where drawn lines tangle and don't survive a
-  phone's single column.
+- **Flow diagrams in HTML and CSS** (the first version in this PR: rows of cards, each listing its destinations
+  as text, with a down-arrow between rows): reflows on phones, but the maintainer found it read as a list of cards,
+  not a flow. CSS connector lines (org-chart demos) suit one box branching into many, not many sources merging.
 
 ## Revisit when
 A visual needs a shape neither template draws (a timeline for #189, a stacked bar for #191: check Charts.css first),
-a flow needs crossing paths that text lists can't show clearly, or Charts.css stops being maintained.
+a flow's arrows cross so much it stops reading as a flow (then add routing or split the diagram), estimated label
+widths overflow often enough to need measuring, phone readers report the diagram too small to use, or Charts.css
+stops being maintained.
