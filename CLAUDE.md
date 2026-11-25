@@ -204,9 +204,9 @@ Least new code that fully does the job; adapted from the ponytail rules
 - `adr/YYYYMMDD-HHMM-<slug>.md` — architecture decision records, named by the UTC time they're created: context,
   decision, options weighed, when to revisit
 - `sources/**/<file>.pdf.ocr.txt` — the PDF's text plus OCR of its picture-only pages, by `tools/ocr_pdfs.py` in fetch-sources
-- `sources/**/<media file>.txt` — machine transcript of an .mp4/.m4a/.mp3/.wav/.webm, by the `transcribe` Action
+- `sources/**/<media file>.txt` — machine transcript of an .mp4/.m4a/.mp3/.wav/.webm, by the `transcribe` Action (or `tools/save_youtube.py` for YouTube recordings, run on the maintainer's Mac)
 - Tools: `tools/search.py`, `tools/doc.py`, `tools/linkify.py`, `tools/check_citations.py` (`--measures` for the
-  review measures), `tools/check_sources.py`, `tools/fetch_sources.py`, `tools/ocr_pdfs.py`, `tools/derive_<topic>.py`,
+  review measures), `tools/check_sources.py`, `tools/fetch_sources.py`, `tools/ocr_pdfs.py`, `tools/save_youtube.py`, `tools/derive_<topic>.py`,
   `tools/test_tools.py`
 - Site: `site-11ty/` builds oregonedtrail.org with Eleventy (`cd site-11ty && npm ci && npx eleventy --serve`);
   every page but About (`website/about.md`) is generated from `analysis/` and `sources/` in `src/_data/archive.js`.

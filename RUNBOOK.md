@@ -37,6 +37,12 @@ budget link, then queue the budget PDFs themselves.
   by hand under `sources/legislature/video/<date>_<committee>.<mp4|m4a|mp3|wav|webm>` with a manifest line, and
   cite `[VID:legislature/video/<date>_<committee>@H:MM:SS]`. Keep files under GitHub's 100 MB limit (audio only,
   if the video is bigger).
+  For a recording on YouTube (State Board meetings, press conferences), the maintainer runs
+  `python3 tools/save_youtube.py URL PATH TITLE DATE` on their Mac (needs `brew install yt-dlp ffmpeg deno` and
+  `pipx install mlx-whisper`). It saves the audio as 32 kbps mono Opus (`PATH` ends in `.webm`), appends the
+  manifest line and writes the transcript with mlx-whisper `whisper-large-v3-turbo`; it reports any stretch
+  where Whisper repeated one line (the transcript has a gap there). Push to a `claude/**` branch: the
+  `transcribe` Action skips files that already have a transcript.
 - **Pages behind scripts or logins.** Save from a browser and add a manifest line by hand (url, fetched_at, sha256).
 - **Email replies** to a question or records request sent for the archive. Archive an attachment (a contract, a
   report) as its original file. Archive the reply itself only when the analysis needs something it says and no
