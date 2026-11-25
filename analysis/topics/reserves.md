@@ -59,8 +59,8 @@ while longer-term reform is developed (`decisions.md#esf-draw-2027-29`).
 - At a Nov. 6, 2026, press conference Kotek said, as quoted by KATU, "To tap the one-time reserves for this particular
   instance goes against what we are talking about around enrollment-driving state investment", about Portland Public
   Schools' budget problems [NEWS:NEWS-2026-katu-kotek-pps-1].
-- Gov. Tina Kotek's statement on the December 2026 forecast, and statements on it from Republican legislative leaders
-  (the Governor's budget section of `decisions.md`), don't mention the Education Stability Fund or other reserves
+- Kotek's statement on the December 2026 forecast, and statements on it from Republican legislative leaders
+  (`decisions.md#grb-2027-29`), don't mention the Education Stability Fund or other reserves
   [SRC:gov/press/2026-11-18_kotek_revenue-forecast-statement.html]
   [SRC:legislature/press/2026-11-18_house-republicans_revenue-forecast.pdf]
   [SRC:legislature/press/2026-11-18_senate-republicans_revenue-forecast.pdf]
