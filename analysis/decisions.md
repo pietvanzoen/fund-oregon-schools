@@ -53,6 +53,39 @@ services is still open (`questions.csv`, "csl-meaning").
 - Analysis: the reported $245 million matches the forecast's $244.6 million rise in available resources for 2027-29;
   the $11 million for the current budget reaches 2027-29 as the larger beginning balance, so it isn't new money on top
   of the $245 million [SRC:fiscal/oea/2026-12_forecast.pdf p.62] [SRC:fiscal/oea/2026-12_forecast.pdf p.63].
+- Kotek's statement on the forecast, issued the day it came out, said it "shows Oregon state government has steady
+  financial footing on which to protect essential services". It does not mention schools or reserves
+  [SRC:gov/press/2026-11-18_kotek_revenue-forecast-statement.html].
+- Three Republican statements the same day argued, as their own claims, that much of the increase comes from
+  investment income and stock market gains rather than wages, and warned against building permanent spending on it:
+  - House Republican Leader Lucetta Elmer, R-District 24 [SRC:legislature/members/elmer.html], for the House
+    Republican caucus: "We cannot build a responsible state budget around a strong stock market and hope it lasts"
+    [SRC:legislature/press/2026-11-18_house-republicans_revenue-forecast.pdf p.1].
+  - Senate Republican Leader Bruce Starr, R-District 12 (Rural Polk & Yamhill Counties)
+    [SRC:legislature/members/starr.html]: "The state can't keep making permanent spending decisions based on stock
+    market gains that could disappear overnight."
+    [SRC:legislature/press/2026-11-18_senate-republicans_revenue-forecast.pdf p.1]
+  - Sen. David Brock Smith, R-District 1 (Port Orford) [SRC:legislature/members/smithd.html]: "We cannot lock in
+    permanent spending on temporary windfalls." He also called on Democrats to work with Republicans to "right-size
+    government" [SRC:legislature/press/2026-11_brock-smith_revenue-forecast.pdf p.1].
+- None of the four statements names a State School Fund amount or mentions the Education Stability Fund
+  [SRC:gov/press/2026-11-18_kotek_revenue-forecast-statement.html]
+  [SRC:legislature/press/2026-11-18_house-republicans_revenue-forecast.pdf]
+  [SRC:legislature/press/2026-11-18_senate-republicans_revenue-forecast.pdf]
+  [SRC:legislature/press/2026-11_brock-smith_revenue-forecast.pdf].
+- The House Republican and Starr statements both point to the forecast's projection that K-12 enrollment will fall
+  13% over the next decade. Elmer: "Thirteen percent fewer students in our schools over the next decade should get
+  everyone's attention." [SRC:legislature/press/2026-11-18_house-republicans_revenue-forecast.pdf p.1]
+  [SRC:legislature/press/2026-11-18_senate-republicans_revenue-forecast.pdf p.1]. The forecast projects public school
+  enrollment falling by 69,500 students (12.9%) in the next 10 years, after a drop of 36,800 (6.4%) in 2015-25. It
+  says the decline in the number of children "may indicate smaller budget allocation for the pre-K and K-12
+  education", and that in the long run the state may face a labor shortage [SRC:fiscal/oea/2026-12_forecast.pdf p.48].
+- Analysis: the statements' revenue figures match the forecast. The $245 million in the House Republican and Brock
+  Smith statements is the rise in available resources for 2027-29, and the Senate Republicans' $233 million is the rise
+  in net General Fund revenue (above). The Republican statements argue against new permanent spending built on these
+  gains, but none says where the State School Fund should land against the current service level, so the archive
+  records no position from them on that decision. The archive has no statement on this forecast from the House or
+  Senate Democratic caucuses.
 - Kotek has said her budget will prioritize education and summer learning [NEWS:NEWS-2026-salemreporter-1]. After the
   election, speaking about revenue proposals such as a wealth tax, she said she had made no commitments on how to pay
   for things [NEWS:NEWS-20261106-occ-1].
