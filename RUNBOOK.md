@@ -83,7 +83,11 @@ maintainer (in the session, or in a `needs-human` issue) and gives them:
 - **A link to the moment.** For YouTube, the manifest's `url` with `t=<seconds>` added (`?t=` or `&t=`), about
   20 seconds before the quote so the lead-in is heard: 2:28:47 → `https://youtu.be/geKi7gkUryU?t=8907`. Adding
   `t=` to an archived URL is fine; it's not a guessed link. For other recordings, the `H:MM:SS`.
-- **A link to where the speaker is named** (a roll call, the chair calling on them), to compare the voice.
+- **A link to where someone else names the speaker right after they speak**, to compare the voice. Meeting
+  protocol helps: speakers address the chair, then whoever asked, so a reply that names only the chair ("Chair
+  Scurlock, thank you for the question") means the chair just spoke, and a member who opens with "Thank you, Chair
+  Scurlock" was just called on by the chair. Search the transcript for the name and its misspellings. A roll call
+  gives one word of their voice, so use it only as a backup.
 - **What to confirm:** the exact words, including where the sentence ends (check them against any news or
   advocacy version too); who is speaking, and the evidence (named aloud, chairing the vote, same voice); the second
   the quoted words begin, read off the player, which goes in the citation (Whisper's line times are a few seconds
