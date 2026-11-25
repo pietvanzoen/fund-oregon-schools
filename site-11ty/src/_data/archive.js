@@ -130,7 +130,7 @@ function barsHtml(v) {
   return `<table class="charts-css bar show-labels data-outside viz-bars"><thead><tr><th scope="col">Bar</th><th scope="col">Amount</th></tr></thead><tbody>`
     + rows.map(([b, val]) => `<tr><th scope="row">${esc(b.label)} <span class="viz-group">${esc(b.group)}</span></th>`
       + `<td style="--size:${(Number(val) / max).toFixed(3)};--color:var(--g${groups.indexOf(b.group)})"><span class="data">$${esc(val)} ${esc(v.unit)}</span></td></tr>`).join("")
-    + `</tbody></table><p class="chart-src">Figures: ${[...new Set(v.bars.flatMap((b) => tagsIn(barRow(v, b)[1])))].join(" ")}</p>`;
+    + `</tbody></table>`; // the figures' sources are listed on the chart's own page, under Sources
 }
 
 // Each step with its citations, as a list under the diagram on its own page
@@ -208,7 +208,7 @@ function visualHtml(id, here) {
   if (!v) throw new Error(`no visual ${id} (analysis/visuals/${id}.json)`);
   const body = { bars: barsHtml, flow: (v) => flowSvg(v) + (here ? flowSteps(v) : "") }[v.kind];
   if (!body) throw new Error(`analysis/visuals/${id}.json: unknown kind ${v.kind}`);
-  const html = here ? body(v) : body(v).replace(/<p class="chart-src">Figures:[^<]*<\/p>/, "").replace(/ ?\[(?:SRC|VID|NEWS|PPSARCH|DER):[^\]]+\]/g, "");
+  const html = here ? body(v) : body(v).replace(/ ?\[(?:SRC|VID|NEWS|PPSARCH|DER):[^\]]+\]/g, "");
   return `<figure class="box chart viz viz-${v.kind}"${here ? ` aria-label="${esc(v.title)}"` : ""}>${here ? "" : `<figcaption class="chart-title">${esc(v.title)}</figcaption>`}${html}`
     + (here ? (v.notes || []).map((n) => `<p class="chart-src">${esc(n)}</p>`).join("") : "")
     + (here && v.kind === "flow" ? "" : `<details class="viz-text"><summary>Text version</summary>${visualText(v)}</details>`) // a flow's page lists each step instead
