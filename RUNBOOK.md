@@ -77,6 +77,22 @@ the Action existed, or a push it missed: Actions → transcribe → Run workflow
 It uses faster-whisper `small.en` on CPU, roughly an hour per 3-hour hearing (estimated). Transcripts are
 machine-made: verify every quote by listening at the timestamp before citing it.
 
+## Checking a quote against a recording
+The transcript finds the moment; a person who listens confirms the quote. A session that can't listen asks the
+maintainer (in the session, or in a `needs-human` issue) and gives them:
+- **A link to the moment.** For YouTube, the manifest's `url` with `t=<seconds>` added (`?t=` or `&t=`), about
+  20 seconds before the quote so the lead-in is heard: 2:28:47 → `https://youtu.be/geKi7gkUryU?t=8907`. Adding
+  `t=` to an archived URL is fine; it's not a guessed link. For other recordings, the `H:MM:SS`.
+- **A link to where the speaker is named** (a roll call, the chair calling on them), to compare the voice.
+- **What to confirm:** the exact words, including where the sentence ends (check them against any news or
+  advocacy version too); who is speaking, and the evidence (named aloud, chairing the vote, same voice); the second
+  the quoted words begin, read off the player, which goes in the citation (Whisper's line times are a few seconds
+  off); and any outcome the analysis states, such as a vote.
+- **Names:** spell them from an archived roster or document (Board Actions, a member page), not from the
+  transcript or by ear. On the May 21, 2026 State Board recording Whisper wrote "Sherlock" and "Skirlock" for
+  Chair Scurlock, and Director Wofford was heard as "Walker" (an ODE staff member presenting that day).
+Put the evidence in the quote's `context` and `confidence`, and say in the PR who listened.
+
 ## After adding sources
 - Update `analysis/` and swap NEWS citations for SRC ones where a primary document now exists.
 - `python3 tools/check_citations.py` and `python3 tools/test_tools.py` must pass (CI runs both).

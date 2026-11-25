@@ -59,7 +59,8 @@ archive's emails and records requests.
        `ode/ssf/` State School Fund estimates and transparency reports, `ode/charter/` charter school lists and
        guidance, `ode/correspondence/` ODE staff's email answers to questions sent for the archive (reply text
        and the question it answers, only when nothing else citable says it; RUNBOOK, "Email replies"), `ode/legislation/` ODE summaries of enacted legislation, `ode/enrollment/` enrollment reports,
-       `ode/grants/` ODE grant allocation reports (for example High School Success), `ode/sia/` Student Investment
+       `ode/grants/` ODE grant allocation reports (for example High School Success), `ode/state-board/` State Board of
+       Education board actions and materials, with meeting recordings in `ode/state-board/video/`, `ode/sia/` Student Investment
        Account legislative reports and progress-marker reports
      - `fiscal/oea/` Office of Economic Analysis forecasts; `fiscal/das/` Department of Administrative Services (budget instructions); `fiscal/lfo/` Legislative Fiscal Office; `fiscal/lro/` Legislative Revenue Office;
        `fiscal/dor/` Department of Revenue; `fiscal/sos/` Secretary of State Audits Division reports
@@ -78,7 +79,8 @@ archive's emails and records requests.
 3. Quotes must be verbatim from the source. Keep them short (1–3 sentences). Never invent or "smooth" a quote.
    For transcripts, give speaker attribution with evidence and `confidence: high | medium | low`; don't use low.
    Machine transcripts (Whisper) mishear words and names: listen to the recording at that timestamp and quote
-   what was said, never the transcript text unchecked. If you can't listen, don't quote; paraphrase as unverified.
+   what was said, never the transcript text unchecked. If you can't listen, don't quote; paraphrase as unverified, or
+   ask the maintainer to listen (RUNBOOK, "Checking a quote against a recording": a timestamped link and what to confirm).
    OCR text (below a `--- OCR of this page` line in `<file>.pdf.ocr.txt`) misreads too: check the PDF page.
 4. Keep separate what sources state (documents and what people said), what we calculated, and our own inference.
    - Topic files (`analysis/topics/*.md`) start with front matter: a `summary`, shown on the site as "In short":

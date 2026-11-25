@@ -32,7 +32,7 @@ scrambled, or text below a `--- OCR of this page` line (machine OCR of a picture
 1. **Quotes**: word for word, on the cited page, attributed to the right person. For hearing captions, check who
    was speaking just before. Any changed word is an error. A quote cited `[VID:...]` rests on a machine
    transcript (`<file>.mp4.txt`): check the transcript line, and report it as "verify against audio" unless you
-   listened to the recording.
+   listened to the recording or the PR says who did. The timestamp is where the quoted words begin.
 2. **Figures**: the number, its unit, its year or biennium, and whether it's an actual, an estimate or a
    projection all match the source.
 3. **Claims**: the citation supports the sentence as written, without overstatement ("plans to" vs "has
