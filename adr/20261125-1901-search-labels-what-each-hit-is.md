@@ -1,6 +1,6 @@
 # Search labels each hit of the archive's own files as cited, analysis, derived or summary
 
-Status: accepted (2026-11-25, PR #TBD)
+Status: accepted (2026-11-25, PR #199)
 
 ## Context
 `tools/search.py` gave every hit in `analysis/` one kind, `analysis`, located by paragraph number. A hit didn't say
