@@ -106,16 +106,17 @@ const tagsIn = (s) => s.match(/\[(?:SRC|VID|NEWS|PPSARCH|DER):[^\]]+\]/g) || [];
 const visualTags = (v) => [...new Set([...(v.bars || []).map((b) => barRow(v, b)[1]), ...(v.notes || []),
   ...(v.rows || []).flatMap((r) => r.boxes.map((b) => b.cite || "")), ...(v.arrows || []).map((a) => a.cite || "")].flatMap(tagsIn))];
 
-// The text version, generated from the same file so it can't disagree with the picture
+// The text version, generated from the same file so it can't disagree with the picture: a list, since it's mostly listing
 function visualText(v) {
-  const notes = (v.notes || []).map((n) => " " + plain(n)).join("");
+  const li = (items) => `<ul>${items.map((t) => `<li>${t}</li>`).join("")}</ul>`;
+  const notes = (v.notes || []).map((n) => `<p>${esc(plain(n))}</p>`).join("");
   if (v.kind === "bars")
-    return `${v.title}. ` + v.bars.map((b) => `${b.label} (${b.group}): $${barRow(v, b)[0]} ${v.unit}.`).join(" ") + notes;
+    return li(v.bars.map((b) => `${esc(b.label)} (${esc(b.group)}): $${esc(barRow(v, b)[0])} ${esc(v.unit)}`)) + notes;
   const box = Object.fromEntries(v.rows.flatMap((r) => r.boxes).map((b) => [b.id, b]));
-  return `${v.title}. ` + v.rows.map((r) => `${r.name}: ` + r.boxes.map((b) => {
-    const to = v.arrows.filter((a) => a.from === b.id).map((a) => `to ${box[a.to].label} (${a.label}${a.open ? `, ${a.open}` : ""})`);
-    return `${b.label}${b.open ? ` (not yet confirmed: ${b.open})` : ""}${to.length ? `: ${to.join("; ")}` : ""}.`;
-  }).join(" ")).join(" ") + notes;
+  return li(v.rows.map((r) => `<strong>${esc(r.name)}</strong>` + li(r.boxes.map((b) => {
+    const to = v.arrows.filter((a) => a.from === b.id).map((a) => `to ${esc(box[a.to].label)}: ${esc(a.label)}${a.open ? ` (${esc(a.open)})` : ""}`);
+    return `${esc(b.label)}${b.open ? ` (not yet confirmed: ${esc(b.open)})` : ""}${to.length ? li(to) : ""}`;
+  })))) + notes;
 }
 
 // Charts.css bars: the chart is a data table; the group is written on each bar, so colour isn't the only cue
@@ -149,7 +150,7 @@ function visualHtml(id, here) {
   const html = here ? body(v) : body(v).replace(/<p class="chart-src">Figures:[^<]*<\/p>/, "").replace(/ ?\[(?:SRC|VID|NEWS|PPSARCH|DER):[^\]]+\]/g, "");
   return `<figure class="box chart viz viz-${v.kind}"${here ? ` aria-label="${esc(v.title)}"` : ""}>${here ? "" : `<figcaption class="chart-title">${esc(v.title)}</figcaption>`}${html}`
     + (here ? (v.notes || []).map((n) => `<p class="chart-src">${esc(n)}</p>`).join("") : "")
-    + `<details class="viz-text"><summary>Text version</summary><p>${esc(visualText(v))}</p></details>`
+    + `<details class="viz-text"><summary>Text version</summary>${visualText(v)}</details>`
     + (here ? "" : `<p class="chart-src"><a href="/visuals/${id}/">Sources${v.notes?.length ? " and notes" : ""} for this ${v.kind === "flow" ? "diagram" : "chart"}</a></p>`) + `</figure>`;
 }
 
@@ -206,7 +207,7 @@ const LINKS = {
   "people/people.csv": ["who decides", "/who-decides/"], "updates.csv": ["what's new", "/updates/"],
   "about.md": ["about this site", "/about/"], "glossary.csv": ["glossary", "/glossary/"],
   "data/qem_gap.csv": ["the numbers", "/numbers/"], "data/ssf_history.csv": ["the numbers", "/numbers/"],
-  "data/reserves.csv": ["the numbers", "/numbers/"], "visuals/": ["charts and diagrams", "/visuals/"],
+  "data/reserves.csv": ["the numbers", "/numbers/"],
 };
 // Plain Markdown links in website/about.md name pages by their old MkDocs file names
 const PAGE_FILES = { "numbers.md": "/numbers/", "quotes.md": "/quotes/", "promises.md": "/promises/", "sources.md": "/sources/",
