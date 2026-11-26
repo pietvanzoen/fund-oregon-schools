@@ -27,7 +27,9 @@ Then, as the issue needs:
 - Every calculated value (per-row and totals) goes in `analysis/derived/<topic>.csv`, written only by a plain
   `tools/derive_<topic>.py` that reads `analysis/data/` (columns `id, value, unit, kind, label, method, inputs,
   assumptions`; `kind` = `derived` for arithmetic, `est` when it rests on assumptions). Cite any constant the
-  script copies from a source in a comment. Never type a derived value by hand.
+  script copies from a source in a comment. Never type a derived value by hand. Each new or changed row gets a
+  case in `tools/tests/test_derive_<topic>.py`: a value worked out by hand from the test's small fake fixture
+  (never copied from the script's output), or an invariant when that isn't practical (`.claude/rules/code.md`, Tests).
 - Charts and diagrams as visuals in `analysis/visuals/<id>.json`, embedded with `<!-- site: visual <id> -->`
   (`.claude/rules/analysis.md` rule 4): a bar points to a data row by its `id` (add the column to the data file if it has none) or to
   a derived row; every note, box and arrow is cited; ask the maintainer before leaving out or marking `open` a path
@@ -64,11 +66,7 @@ Then, as the issue needs:
 Stay within what the issue asks. Note related gaps as `open` rows in `analysis/questions.csv` or as a follow-up
 issue rather than chasing them.
 
-Run, and fix until clean:
-
-```bash
-python3 tools/check_citations.py && python3 tools/check_sources.py && python3 tools/test_tools.py
-for f in tools/derive_*.py; do python3 "$f"; done; git status --short analysis/derived/   # commit what changed
-```
+After changing data or a derive script, run `make derive` and commit what changed in `analysis/derived/`. Then
+run `make check` (what CI's check job runs) and fix until clean.
 
 Commit and push.

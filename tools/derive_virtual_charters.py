@@ -4,7 +4,8 @@
 import csv
 import os
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+from common import ROOT
+
 DATA = "data/virtual_charters_2025-26.csv"
 OUT = os.path.join(ROOT, "analysis", "derived", "virtual_charters.csv")
 EST = "ode/ssf/2025-26_ssf-estimates_2026-05-01.pdf"

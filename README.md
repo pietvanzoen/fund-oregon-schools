@@ -39,7 +39,7 @@ aren't covered by either. Details: [`LICENSE-content.md`](LICENSE-content.md).
 python3 tools/search.py "State School Fund"
 python3 tools/doc.py 2026_qem_report --grep "current service level"
 python3 tools/linkify.py analysis/decisions.md
-python3 tools/check_citations.py
+make check     # what CI's check job runs; `make` lists the other commands
 ```
 
 ## What's in progress and what's next
