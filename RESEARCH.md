@@ -193,7 +193,8 @@ can be `none stated` when someone was asked and declined. Only stances on the re
 
 - `asked_by` describes the asker ("a parent volunteer", "the maintainer"), never a member of the public's name.
 - `status`: `open`, `answered` (with `answer`: a link to the section of `analysis/decisions.md` or a topic that
-  answers it) or `not planned` (closed by the maintainer, with what was found so far in `answer`).
+  answers it) or `not planned` (closed by the maintainer, with what was found so far in `answer`). An `open` row
+  may carry `answer`, a link to what's known so far; the status stays `open` until the question is fully answered.
 - `issue`: the GitHub issue that does the work, if any. The CSV is the record; issues are work tickets.
 
 Readers can send questions by email; the maintainer adds them here.
