@@ -32,10 +32,21 @@ jobs:
           cache-dependency-path: site-11ty/package-lock.json
       - name: Citations and data files
         run: python3 tools/check_citations.py
+      - name: Install site dependencies
+        working-directory: site-11ty
+        run: npm ci
       # Eleventy fails the build on a broken internal link or an unknown [[id]]; Pagefind indexes search inside it
       - name: Build site
         working-directory: site-11ty
-        run: npm ci && npx eleventy
+        run: npx eleventy
+      # Markup and accessibility rules a browser isn't needed for: alt text, names on controls, heading order, ARIA
+      - name: Validate built HTML (html-validate)
+        working-directory: site-11ty
+        run: npx html-validate _site
+      - name: Lint and format site code (Biome)
+        if: ${{ !cancelled() }}  # report alongside a failed build or HTML check, not instead of them
+        working-directory: site-11ty
+        run: npx biome ci
       - if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:

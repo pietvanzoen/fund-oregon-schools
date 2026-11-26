@@ -1,0 +1,8 @@
+# Ruff runs only in GitHub (.github/workflows/lint.yml); tools/ stays stdlib-only. adr/20261124-2226-linters-in-ci.md.
+line-length = 120
+target-version = "py312"
+include = ["tools/**/*.py"]
+
+[lint]
+# One-line open(...).read() in short-lived scripts and tests; a with-block adds lines without changing behaviour.
+ignore = ["SIM115"]

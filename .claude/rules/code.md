@@ -18,7 +18,7 @@ Least new code that fully does the job; adapted from the ponytail rules
 - **Pick the first option that fully works, in this order:** skip it (say so in one line); reuse what's in
   `tools/` (`common.py`, `check_citations.py`, the existing patterns); the Python standard library; a one-liner a
   reader gets at a glance; otherwise the minimum code. Tools in `tools/` stay stdlib-only (heavier jobs run only in GitHub Actions with pinned versions, like OCR,
-  transcripts, the site build and the Vale style check; `adr/20261122-1551-vale-in-ci-stdlib-in-tools.md`): no new dependencies, and no
+  transcripts, the site build, the linters and the Vale style check; `adr/20261122-1551-vale-in-ci-stdlib-in-tools.md`): no new dependencies, and no
   framework for tests.
 - **No unrequested extras:** no abstractions, wrappers, options, config or "for later" code. Deleting beats adding.
   Prefer extending an existing script over a new one.
@@ -30,6 +30,10 @@ Least new code that fully does the job; adapted from the ponytail rules
   site build (`cd site-11ty && npm ci && npx eleventy`) covers it, failing on a broken internal link, an unknown `[[id]]` or an indexable page with no meta description or with a title or description another page uses. Derive scripts
   (`tools/derive_*.py`) get no tests either: they're plain arithmetic on archived data, CI reruns them and fails on
   any change in output, and the fact-checker checks each method; a test would only pin today's numbers.
+- **Linters (CI, blocking):** Ruff checks and formats `tools/` (`ruff.toml`), Biome lints and formats `site-11ty/`
+  JS (`site-11ty/biome.json`), actionlint checks the workflows, and html-validate checks the built pages' markup and
+  accessibility (`site-11ty/.htmlvalidate.mjs`). Fix the code, not the rule; turn a rule off only with a one-line
+  why in its config. Why: `adr/20261124-2226-linters-in-ci.md`.
 - **Known limits** go in a comment: `shortcut: <the limit>, <when to upgrade>`.
 - **Never cut:** the rules in CLAUDE.md and `.claude/rules/` about `sources/` (keep originals, provenance), citation and quote checks,
   secrets and access handling, accessibility of the site, or anything the maintainer asked for.

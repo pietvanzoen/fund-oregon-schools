@@ -16,4 +16,7 @@ in `website/about.md`. Nothing here repeats the research. Why Eleventy: `adr/202
   topic, person and glossary pages for search.
 - `.github/workflows/pages.yml` runs the build on every PR and deploys `_site/` to GitHub Pages from `main`.
 - The design spec is `design/README.md` (direction C, #155); it links to the commit that holds the mockups.
-- Pinned: `@11ty/eleventy`, `@11ty/gray-matter`, `csv-parse`, `markdown-it` and `pagefind` (`package.json`).
+- CI also runs Biome on the JS (`npx biome check --write` fixes most of it locally) and html-validate on `_site/`
+  (`npx html-validate _site` after a build). Why: `adr/20261124-2226-linters-in-ci.md`.
+- Pinned: `@11ty/eleventy`, `@11ty/gray-matter`, `@biomejs/biome`, `charts.css`, `csv-parse`, `html-validate`,
+  `markdown-it` and `pagefind` (`package.json`).
