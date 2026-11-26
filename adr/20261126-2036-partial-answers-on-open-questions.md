@@ -1,6 +1,6 @@
 # An open question can link to what's known so far; there's no "partly answered" status
 
-Status: accepted (2026-11-26, PR #TBD)
+Status: accepted (2026-11-26, PR #214)
 
 ## Context
 Some questions can be answered only in part. `esf-pers-relief` (from #22, PR #209) is one: the archive has the
