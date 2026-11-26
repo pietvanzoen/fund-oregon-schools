@@ -4,6 +4,8 @@ How this archive decides what to research, how the research is organized, and ho
 analysis for its own sake. `CLAUDE.md` and `.claude/rules/` say how to do the work, `RUNBOOK.md` how to add sources, and `adr/` why
 the repo is built the way it is.
 
+Contents: [In one paragraph](#in-one-paragraph) · [Who it's for](#who-its-for) · [Neutral by design](#neutral-by-design) · [The model](#the-model) · [Choosing what to work on](#choosing-what-to-work-on) · [What readers see](#what-readers-see) · [Writing so it gets used](#writing-so-it-gets-used) · [How we know it's working](#how-we-know-its-working) · [Practices this draws on](#practices-this-draws-on) · [How the repo supports the research](#how-the-repo-supports-the-research)
+
 ## In one paragraph
 
 The research starts from **decisions**: choices someone will make by a date, such as the Governor's budget or a

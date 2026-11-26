@@ -20,7 +20,8 @@ git diff {{BASE}} --stat
 git diff {{BASE}} -- analysis/ sources/news/ tools/derive_*.py
 ```
 
-Read `CLAUDE.md` and `.claude/rules/analysis.md` first: they define the citation formats and rules you're checking against.
+In your clone, read `.claude/rules/analysis.md` (citation formats, quotes, how analysis files are laid out) and
+`.claude/rules/sources.md` (rule 6, news records) first: they define the rules you're checking against.
 
 ## Check every changed or added line in `analysis/` and `sources/news/index.jsonl`
 

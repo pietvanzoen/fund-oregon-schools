@@ -44,7 +44,7 @@ PR body, in this order:
 
 1. **Summary**: two or three plain sentences on what the archive now knows that it didn't, and which core
    question in `RESEARCH.md` it moves (by number).
-2. **Issue**: `Closes #<n>` (for a sub-issue of #25 or #57 that's the last open one, also `Closes #25` or `Closes #57`). Never
+2. **Issue**: `Closes #<n>` (for a sub-issue of #57 that's the last open one, also `Closes #57`). Never
    `Part of #<n>`: anything unfinished has moved to its own issue (step 2).
 3. **Sources added**: each document, its path, and whether it fetched cleanly.
 4. **Analysis changed**: files touched; call out any change to `START.md` or `decisions.md` explicitly, and name

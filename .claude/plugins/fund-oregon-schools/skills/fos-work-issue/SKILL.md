@@ -29,13 +29,11 @@ read the issue before going further; if neither works, stop and say so.
 ## 1. Pick the issue
 
 - If you were given a number, use it.
-- Otherwise take the next one from the **Research queue**: the open issue labelled `queue` (`gh api
-  "repos/pietvanzoen/fund-oregon-schools/issues?state=open&labels=queue" --jq '.[0].body'`). Its numbered list is
-  The maintainer's order. Go down it and take the first issue that is open, labelled `auto`, has none of `needs-human`,
-  `needs-judgement`, `manual`, `in progress`, `blocked`, and has no open PR or `claude/issue-<n>-*` branch. Only for the
-  issues split before runs stopped splitting (#25 and #57; drop this rule once both close): if the issue has sub-issues
-  (`gh api repos/pietvanzoen/fund-oregon-schools/issues/<n>/sub_issues`), take its first open sub-issue that passes
-  the same test instead.
+- Otherwise run `python3 tools/next_issue.py`. It goes down the **Research queue** (the open issue labelled
+  `queue`, whose numbered list is the maintainer's order) and prints the first issue that is open, labelled `auto`,
+  has none of `needs-human`, `needs-judgement`, `manual`, `in progress`, `blocked`, and has no open PR or
+  `claude/issue-<n>-*` branch. For an issue split before runs stopped splitting (#57; drop that rule once it closes),
+  it prints its first free sub-issue instead. It prints nothing and exits 1 if nothing qualifies.
 - If nothing in the queue qualifies, stop: say so in one line and pick nothing. Never fall back to issues that
   aren't in the queue, and never edit the queue's order (only the maintainer does).
 - Mark it as yours before starting: add the `in progress` label

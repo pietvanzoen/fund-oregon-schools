@@ -18,14 +18,10 @@ Investment Account and High School Success revenue is netted out of the funding 
 
 Then, as the issue needs:
 
-- Topic file `analysis/topics/<topic>.md` in three sections, in order: `## Analysis` (our interpretation, first so
-  the page leads with it; it reads on its own and points to the evidence as "below"), `## What the sources say`
-  (what documents state and what people said, dated, every line cited, no inference) and `## Derived figures` (a
-  table of our sums, shares and estimates, each with its `[DER:<topic>/<id>]` tag). It is published on the website
-  automatically, titled by its H1. It opens with front matter (`.claude/rules/analysis.md` rule 4): a `summary` ("In short") and a
-  `description` (search results), plus a `title` when the H1 is over 55 characters (`STYLE.md`); all uncited, and
-  every sentence backed by a cited line below. When the research changes what the page found, update the summary
-  and description in the same PR.
+- Topic file `analysis/topics/<topic>.md`, laid out as `.claude/rules/analysis.md` rule 4 says: front matter, then
+  `## Analysis`, `## What the sources say` and `## Derived figures`. It is published on the website automatically,
+  titled by its H1. When the research changes what the page found, update the summary and description in the same
+  PR.
 - Structured data in `analysis/data/<name>.csv` with a `source` column on every row: values copied from sources
   only. A total the document prints is a source value; one we add up is derived.
 - Every calculated value (per-row and totals) goes in `analysis/derived/<topic>.csv`, written only by a plain
@@ -43,8 +39,8 @@ Then, as the issue needs:
   on the record as a new row in `positions.csv` (append, never edit a row; to correct one, append the corrected row
   with `replaces` set to the wrong row's line number, as `.claude/rules/analysis.md` rule 8 says); an answered question's `status` and
   `answer` in `questions.csv`, and its short cited answer in that decision's section of `analysis/decisions.md`.
-  Facts land in a topic, profile or data table first; the decision files cite the same source. For #25 and
-  #57 (split before runs stopped splitting), only the last open sub-issue writes the question's answer.
+  Facts land in a topic, profile or data table first; the decision files cite the same source. For #57 (split
+  before runs stopped splitting), only the last open sub-issue writes the question's answer.
 - Swap NEWS citations for SRC ones wherever the new primary document supports the same claim.
 - New questions you hit go in `analysis/questions.csv` as `open` rows (describe the asker; never name a member of
   the public), not as research you chase in this PR.

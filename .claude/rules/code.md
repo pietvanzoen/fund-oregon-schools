@@ -11,7 +11,8 @@ Least new code that fully does the job; adapted from the ponytail rules
 (github.com/DietrichGebert/ponytail). Lazy about the solution, never about the scope.
 
 - **Before writing:** read the affected code and list everywhere the change must reach: callers, tests, the
-  workflows, the site build (`site-11ty/`, mainly `src/_data/archive.js`), both skills and the reviewer prompts, CLAUDE.md, README, RUNBOOK,
+  workflows, the site build (`site-11ty/`, mainly `src/_data/archive.js`), the skills (each `SKILL.md` and fos-work-issue's `steps/`), the reviewer prompts, CLAUDE.md and
+  `.claude/rules/`, the nightly scheduled task's prompt (it calls `tools/next_issue.py`; tell the maintainer), README, RUNBOOK,
   the entity diagram in `RESEARCH.md` ("The model": a new file type or relationship), and any record in `adr/`
   that the change touches or reverses.
 - **Pick the first option that fully works, in this order:** skip it (say so in one line); reuse what's in
@@ -40,7 +41,7 @@ Least new code that fully does the job; adapted from the ponytail rules
 - `adr/YYYYMMDD-HHMM-<slug>.md` — architecture decision records, named by the UTC time they're created: context,
   decision, options weighed, when to revisit
 - Tools: `tools/search.py`, `tools/doc.py`, `tools/linkify.py`, `tools/check_citations.py` (`--measures` for the
-  review measures), `tools/check_sources.py`, `tools/fetch_sources.py`, `tools/ocr_pdfs.py`, `tools/save_youtube.py`, `tools/derive_<topic>.py`,
+  review measures), `tools/check_sources.py`, `tools/fetch_sources.py`, `tools/ocr_pdfs.py`, `tools/save_youtube.py`, `tools/next_issue.py`, `tools/derive_<topic>.py`,
   `tools/test_tools.py`
 - Site: `site-11ty/` builds oregonedtrail.org with Eleventy (`cd site-11ty && npm ci && npx eleventy --serve`);
   every page but About (`website/about.md`) is generated from `analysis/` and `sources/` in `src/_data/archive.js`.

@@ -4,6 +4,8 @@ paths:
 ---
 # Rules for `analysis/` (moved from CLAUDE.md; rule numbers kept)
 
+Contents: rules 2 (citations), 3 (quotes), 4 (sources, calculations and inference kept apart; the topic-file layout), 5 (advocacy), 8 (structured files), 10 (independent review), 11 (glossary); Key files.
+
 2. `analysis/` is derived. Every factual claim carries a citation, with one exception: front matter (rule 4: a
    topic's `summary`, `description` and `title`, a profile's `description` and `title`) has no citations, and every
    sentence in it restates a cited line further down the same page:
@@ -28,7 +30,7 @@ paths:
    - Topic files (`analysis/topics/*.md`) start with front matter: a `summary`, shown on the site as "In short":
      two or three plain sentences (`STYLE.md`, "In short"); a `description` for search results and link previews
      (one plain sentence, at most 160 characters); and a `title` when the H1 is over 55 characters (the browser tab
-     and search results; at most 55). Person profiles (`analysis/people/<id>.md`) hold a `description` and may hold
+     and search results; at most 55). `tools/check_citations.py` enforces all three and both lengths. Person profiles (`analysis/people/<id>.md`) hold a `description` and may hold
      a `title`; people keep factual cards from `people.csv`, never a summary. Write each as `key: >` with indented
      lines. Like the summary, a description or title carries no citations and says nothing the cited lines below
      don't. Only `key: value` and folded `>` are read (no YAML library), and no other file in `analysis/` has front
@@ -63,7 +65,7 @@ paths:
    version. Why: `adr/20261122-1718-correcting-append-only-rows.md`.
 10\. **Independent fact-check before a PR is ready.** When a session adds research (new or changed files in
     `analysis/`, new news records, new quotes), it starts a separate fact-checker agent before asking for a merge.
-    The fact-checker starts fresh: it gets the branch, CLAUDE.md, this file and a neutral checklist, not the session's reasoning
+    The fact-checker starts fresh: it gets the branch, the rule files its prompt names and a neutral checklist, not the session's reasoning
     or notes on what's uncertain. It reports only (no edits, pushes or GitHub comments). A second fresh reviewer checks consistency with the rest of the archive and
     fairness of framing, and a third checks clarity against `STYLE.md`
     (`.claude/plugins/fund-oregon-schools/skills/fos-work-issue/reviewers/`). Checklist: every quote verbatim,
