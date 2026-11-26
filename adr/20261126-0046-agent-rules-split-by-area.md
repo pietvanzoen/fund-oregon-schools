@@ -1,6 +1,6 @@
 # Agent rules are split by area: a short CLAUDE.md, rule files, and one file per work step
 
-Status: accepted (2026-11-26, PR #N)
+Status: accepted (2026-11-26, PR #202)
 
 ## Context
 Every session, subagent and reviewer loaded all of CLAUDE.md (about 21 KB): citation rules in site work, code rules
