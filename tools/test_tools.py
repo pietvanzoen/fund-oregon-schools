@@ -371,6 +371,15 @@ def main():
         stuck = "Mr. Richardson, " * 6
         segs += [{"start": 3900, "text": stuck}, {"start": 3903, "text": stuck}, {"start": 3910, "text": "Thank you, chair."}]
         assert loops(segs) == [(3731, LOOP, "And so we can do that."), (3900, 2, stuck.strip())]
+        from next_issue import pick
+        iss = {1: ("open", ["auto", "blocked"]), 2: ("closed", ["auto"]), 3: ("open", ["auto"]), 4: ("open", ["auto"]),
+               5: ("open", []), 6: ("open", ["auto"]), 7: ("open", ["auto", "in progress"]), 8: ("open", ["auto"])}
+        get = lambda n: {"state": iss[n][0], "labels": iss[n][1]}  # noqa: E731
+        subs = {6: [7, 8]}
+        q = "1. #1 Blocked\n2. #2 Closed\n3. #3 Has a PR\n 4. #4 Has a branch\n5. #5 Not auto\n6. #6 Split\n"
+        assert pick(q, get, lambda n: subs.get(n, []), ["Fixes x.\n\nCloses #3"], ["claude/issue-4-x"]) == 8
+        assert pick(q, get, lambda n: [], ["closes #30"], []) == 3  # #30 doesn't close #3
+        assert pick("no list", get, lambda n: [], [], []) is None
 
         print("all tool tests passed")
     finally:

@@ -1,8 +1,10 @@
 # Research approach
 
 How this archive decides what to research, how the research is organized, and how we tell useful analysis from
-analysis for its own sake. `CLAUDE.md` says how to do the work, `RUNBOOK.md` how to add sources, and `adr/` why
+analysis for its own sake. `CLAUDE.md` and `.claude/rules/` say how to do the work, `RUNBOOK.md` how to add sources, and `adr/` why
 the repo is built the way it is.
+
+Contents: [In one paragraph](#in-one-paragraph) · [Who it's for](#who-its-for) · [Neutral by design](#neutral-by-design) · [The model](#the-model) · [Choosing what to work on](#choosing-what-to-work-on) · [What readers see](#what-readers-see) · [Writing so it gets used](#writing-so-it-gets-used) · [How we know it's working](#how-we-know-its-working) · [Practices this draws on](#practices-this-draws-on) · [How the repo supports the research](#how-the-repo-supports-the-research)
 
 ## In one paragraph
 
@@ -65,7 +67,7 @@ decision ── baseline and options ── positions (who stands where, when)
 
 How every kind of file relates. Citations are the links from what we write to what sources say; the site turns
 each one into a chip. Guides (#188) are planned. Keep this diagram current: a new file type or relationship means
-editing it (`CLAUDE.md`, "Before writing").
+editing it (`.claude/rules/code.md`, "Before writing").
 
 ```mermaid
 erDiagram
@@ -312,7 +314,7 @@ stops doing one of those jobs should go.
 - **Volunteer setup** (`SETUP.md`, `setup/`): gets a volunteer's own Claude answering from the archive, read only.
 - **ADRs** (`adr/`): why the repo is built the way it is, and when to revisit.
 - **Runbook** (`RUNBOOK.md`): how to add and refresh sources.
-- **CLAUDE.md**: the rules every agent follows: citation formats, keeping sources, derived figures and analysis
+- **CLAUDE.md** and **`.claude/rules/`**: the rules every agent follows: citation formats, keeping sources, derived figures and analysis
   apart, quotes verbatim.
 - **What's new** (`analysis/updates.csv`): one reader-facing line per change, marked research, correction or site. The maintainers' history is the PRs
   and git.

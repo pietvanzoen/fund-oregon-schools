@@ -63,3 +63,4 @@ The concrete signal that should reopen this.
 | [2026-11-25](20261125-0411-visuals-as-derived-entities.md) | Charts and diagrams are their own files, checked once and embedded by id |
 | [2026-11-25](20261125-1807-youtube-audio-saved-and-transcribed-locally.md) | YouTube recordings are saved and transcribed on the maintainer's Mac |
 | [2026-11-25](20261125-1901-search-labels-what-each-hit-is.md) | Search labels each hit of the archive's own files as cited, analysis, derived or summary |
+| [2026-11-26](20261126-0046-agent-rules-split-by-area.md) | Agent rules are split by area: a short CLAUDE.md, rule files, and one file per work step |

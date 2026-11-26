@@ -14,7 +14,7 @@ The maintainer is in the session. Ask them when a call is theirs; don't run this
 
 ## 0. Get the archive and orient
 
-Work in a clone of pietvanzoen/fund-oregon-schools on the latest `main` (`fos-research` step 0). Read `CLAUDE.md`,
+Work in a clone of pietvanzoen/fund-oregon-schools on the latest `main` (`fos-research` step 0). Read `CLAUDE.md`, `.claude/rules/sources.md`,
 `RESEARCH.md` (the decisions, the `next` checks, staying neutral) and `analysis/decisions.md`.
 
 ## 1. List what the lead contains
@@ -65,7 +65,7 @@ the title page, contents, method or summary, and the pages the lead pointed at.
 
 **Suitable**, all of:
 - the official or primary copy; an advocacy group's document only under `orgs/<org>/`, and its figures will be
-  labelled as that group's claims (`CLAUDE.md` rule 5);
+  labelled as that group's claims (`.claude/rules/analysis.md` rule 5);
 - the document the lead described, complete (not a cover page, a login wall or an error page saved as HTML);
 - readable: the text extracted, or OCR covers the pages that matter.
 

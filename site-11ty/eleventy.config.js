@@ -37,7 +37,7 @@ export default function (cfg) {
     walk(out);
     if (broken.length) throw new Error(`Broken internal links:\n  ${broken.join("\n  ")}`);
 
-    // Search results show the title and description; every indexable page needs its own (CLAUDE.md rule 4)
+    // Search results show the title and description; every indexable page needs its own (.claude/rules/analysis.md rule 4)
     const bare = [], seen = {};
     const walkMeta = (d) => fs.readdirSync(d, { withFileTypes: true }).forEach((f) => {
       const p = path.join(d, f.name);

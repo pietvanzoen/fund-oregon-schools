@@ -1,6 +1,6 @@
 ---
 name: fos-research
-description: Answer questions about Oregon K-12 school funding for the 2027-29 budget (State School Fund, Quality Education Model gap, Gov. Kotek's promises and budget, revenue forecasts, Education Stability Fund, legislators' positions, the funding formula, and results and accountability) from this repository's archived sources, citing every claim. Use whenever working in the fund-oregon-schools repo or asked about Oregon state school funding or Kotek's education record.
+description: Answer questions about Oregon K-12 school funding for the 2027-29 budget (State School Fund, Quality Education Model gap, Gov. Kotek's promises and budget, revenue forecasts, Education Stability Fund, legislators' positions, the funding formula, and results and accountability) from this repository's archived sources, citing every claim. Use when asked a question about Oregon state school funding or Kotek's education record that the archive can answer. Not for site, tooling or design work in the repo.
 ---
 
 # Oregon school funding archive: answering questions
@@ -15,7 +15,7 @@ If you're not already in a clone of pietvanzoen/fund-oregon-schools (`git remote
 there. If github.com can't be reached, read the same files through the GitHub connector.
 
 ## 1. Orient
-- Read `CLAUDE.md` (citation formats, quote rules).
+- Read `CLAUDE.md` and `.claude/rules/analysis.md` (citation formats, quote rules).
 - Broad question or first question of a session: read `RESEARCH.md`, `analysis/START.md` and
   `analysis/decisions.md`.
 - Check freshness: `git log -1 --format=%cd --date=short`, and `sources/_queue.csv` rows with no matching
@@ -56,9 +56,8 @@ follow its citation to the page before stating what the source says.
 - Lead with the strongest few cited facts when the answer feeds something we're writing (call scripts, emails,
   flyers, testimony). Flag figures that are estimates, projections or an advocacy group's numbers.
 - Keep what documents state, what people said, and your own inference ("Analysis:") separate. Topic files do this
-  in sections: "Analysis" (first), "What the sources say", "Derived figures". Each opens with front matter whose
-  `summary` (the site's "In short") and `description` (search results) are uncited plain words: never cite them;
-  cite the lines below them that back them.
+  in sections (`.claude/rules/analysis.md` rule 4). Their front matter (`summary`, the site's "In short", and
+  `description`) is uncited plain words: never cite it; cite the lines below it that back it.
 - A `[DER:...]` figure is this archive's own calculation, never an official number. Say so ("by the archive's own
   sum", "the archive estimates"), keep the DER tag or link to its row, and give an `est` figure's assumptions.
   Don't attribute it to the agency whose data went into it.
