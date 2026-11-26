@@ -90,17 +90,20 @@ services is still open (`questions.csv`, "csl-meaning").
   How enrollment reaches the budget: the current service level adjusts the State School Fund total for projected
   enrollment [SRC:ode/qec/2026_qem_report.pdf p.111], and the formula pays districts on the higher of the current or
   prior year's weighted enrollment, which the Quality Education Commission's report calls a "temporary financial
-  glide path" for declining districts [SRC:ode/qec/2026_qem_report.pdf p.114].
+  glide path" for declining districts. That cushions a declining district's share, not the statewide total
+  [SRC:ode/qec/2026_qem_report.pdf p.114] [SRC:legislature/ors/ors327.html].
 - On the points the statements make, the forecast itself says capital gains, dividend and retirement account income
   "continue to grow at double-digit rates as financial and equity markets soar to new heights", while the rest of
   income shows "historically normal gains" [SRC:fiscal/oea/2026-12_forecast.pdf p.6]. It warns that an equity
   correction like past ones "would impact Oregon’s revenue streams as well" [SRC:fiscal/oea/2026-12_forecast.pdf p.25].
-  On the state's footing, it puts the projected General Fund ending balance for the current budget at $411 million,
-  "still $62 million below the Close-of-Session level" [SRC:fiscal/oea/2026-12_forecast.pdf p.6].
+  For the current budget, it puts the projected General Fund ending balance on June 30, 2027, at $411 million,
+  "still $62 million less than what legislators left at the end of the 2025 session"
+  [SRC:fiscal/oea/2026-12_forecast.pdf p.30].
 - Analysis: the statements' revenue figures match the forecast. The $245 million in the House Republican and Brock
   Smith statements is the rise in available resources for 2027-29, and the $233 million in Starr's release is the rise
-  in net General Fund revenue (above). The Republican statements argue against basing spending on these gains, and Kotek's for "responsible investments".
-  The
+  in net General Fund revenue (above). The Republican statements argue against basing spending on these gains.
+  Kotek's calls for "responsible investments" to lower costs, foster job growth and create economic opportunity,
+  without tying them to the forecast's gains [SRC:gov/press/2026-11-18_kotek_revenue-forecast-statement.html]. The
   forecast reports fast growth in investment income and says a market correction would affect revenue; it makes no
   recommendation on spending [SRC:fiscal/oea/2026-12_forecast.pdf]. None of the statements says where the State School Fund should land against the current service level, so the archive
   records no position from them on the State School Fund amount (see the State School Fund decision below). The archive has no
