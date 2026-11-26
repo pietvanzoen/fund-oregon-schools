@@ -95,10 +95,13 @@ Then update the issue body so its status is clear at a glance (`gh api -X PATCH 
 
   What gets a comment, each starting with its tag:
   - **Decide:** each call the maintainer has to make: the question, the options, which you'd take and what it
-    costs, and the sources it rests on (path and page).
+    costs, the sources it rests on (path and page), and what it blocks: whether the PR can't merge without it or
+    it could move to a follow-up issue.
   - **Check:** each changed figure on `START.md` or `decisions.md` (old → new, and its source); each disputed or
     unresolved reviewer finding (the finding, your reason, what would settle it); anything else where a wrong
     reading would reach the site, such as a new headline number or a quote not yet checked against its recording.
+    Say what you confirmed against the source and what you couldn't, and why (e.g. couldn't listen to the
+    recording, source not fetched yet, page number taken from a reviewer).
 
   Not: a tour of the diff, findings already fixed, or Vale findings (those have their own threads).
 
