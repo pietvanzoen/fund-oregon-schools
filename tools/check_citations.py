@@ -207,7 +207,7 @@ def main():
                 elif os.path.dirname(full) == os.path.join(ANALYSIS, "people"):
                     check_front_matter(rel, meta, body, {"description"}, errors)
                 elif meta:
-                    errors.append(f"{rel}: only topic files and person profiles may have front matter (CLAUDE.md rule 4)")
+                    errors.append(f"{rel}: only topic files and person profiles may have front matter (.claude/rules/analysis.md rule 4)")
             elif dirpath == DERIVED:
                 continue  # checked above
             elif full == UPDATES:
@@ -384,7 +384,7 @@ def check_pr_update(pr, base, errors):
 
 
 def check_visual(rel, name, v, data_rows, derived, check_tag, errors):
-    """A visual holds no numbers of its own: bars point to rows, and every text in it is cited (CLAUDE.md, Key files)."""
+    """A visual holds no numbers of its own: bars point to rows, and every text in it is cited (.claude/rules/analysis.md, Key files)."""
     if not isinstance(v, dict) or v.get("id") != name:
         errors.append(f"{rel}: id must be {name!r}, the file name")
         return
@@ -471,7 +471,7 @@ ABBR_RE = re.compile(r"\b[A-Z][A-Z0-9&]{1,5}[a-z]?\b")  # ADMr, ADMw too
 
 
 def check_glossary(rel, lines, glossary, warnings):
-    """CLAUDE.md rule 11: an abbreviation in analysis needs a glossary row, unless the line writes it out as "(XYZ)".
+    """.claude/rules/analysis.md rule 11: an abbreviation in analysis needs a glossary row, unless the line writes it out as "(XYZ)".
     Quoted text is skipped: it's the source's wording (e.g. a bill's "Representative WRIGHT")."""
     seen = set()
     for n, line in lines:
@@ -480,7 +480,7 @@ def check_glossary(rel, lines, glossary, warnings):
             if w in glossary or w in NOT_GLOSSARY or w in seen or f"({w})" in text:
                 continue
             seen.add(w)
-            warnings.append(f"{rel}:{n}: {w} isn't in analysis/glossary.csv (CLAUDE.md rule 11)")
+            warnings.append(f"{rel}:{n}: {w} isn't in analysis/glossary.csv (.claude/rules/analysis.md rule 11)")
 
 
 # Search results cut a title at about 60 characters (ours gets " · Oregon Ed Trail") and a description at about 160
@@ -488,11 +488,11 @@ TITLE_MAX, DESC_MAX = 55, 160
 
 
 def check_front_matter(rel, meta, body, required, errors):
-    """Topics and person profiles (CLAUDE.md rule 4): `summary` ("In short", topics only), `description` (search
+    """Topics and person profiles (.claude/rules/analysis.md rule 4): `summary` ("In short", topics only), `description` (search
     results) and an optional `title` (the browser tab and search results, when the H1 is too long). All uncited;
     the page below backs every sentence."""
     for k in sorted(required - meta.keys()):
-        errors.append(f"{rel}: no `{k}` in front matter (CLAUDE.md rule 4)")
+        errors.append(f"{rel}: no `{k}` in front matter (.claude/rules/analysis.md rule 4)")
     for k in sorted(meta.keys() - required - {"title"}):
         errors.append(f"{rel}: front matter key {k} isn't used; this file holds only {', '.join(sorted(required | {'title'}))}")
     for k in sorted(meta.keys() & {"summary", "description", "title"}):

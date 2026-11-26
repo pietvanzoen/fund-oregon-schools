@@ -8,7 +8,7 @@ With Claude, `/fos-lead` does all of this for a lead and vets each document befo
 1. Find the official URL (prefer the agency's own PDF over a news write-up). Copy it from a link on the agency's
    page; don't build it from a file-name pattern (dated names change when a document is revised).
 2. Add a row to `sources/_queue.csv`: `url,path,title,date,kind,notes`. Pick `path` by the conventions in
-   `CLAUDE.md` (e.g. `fiscal/oea/2026-11_forecast.pdf`, `legislature/olis/2027R1/<docId>_<slug>.pdf`).
+   `.claude/rules/sources.md` (e.g. `fiscal/oea/2026-11_forecast.pdf`, `legislature/olis/2027R1/<docId>_<slug>.pdf`).
    End `notes` with `from: <page URL>` (the page the link was on), so a dead link can be re-found there.
 3. Commit to `main` (or merge a PR). The **fetch-sources** Action runs on any change to the queue: it downloads
    new rows, writes `<file>.txt`, OCRs PDF pages with little text (see OCR below), appends to `sources/_manifest.jsonl`, runs the citation check and commits.
@@ -57,7 +57,7 @@ budget link, then queue the budget PDFs themselves.
   `adr/20261124-1755-agency-email-replies-as-text.md`.
 - **News.** Don't archive articles. Add a record to `sources/news/index.jsonl`: id `NEWS-YYYYMMDD-outlet-N`, date,
   outlet, title, url, a summary in your own words, key facts, and at most short quotes (< 25 words). To correct
-  a record, recheck it against the article and add a dated `note` saying what changed (`CLAUDE.md` rule 6).
+  a record, recheck it against the article and add a dated `note` saying what changed (`.claude/rules/sources.md` rule 6).
 
 ## OCR
 After each fetch, `tools/ocr_pdfs.py` looks at every archived PDF without a `<file>.pdf.ocr.txt`. Pages that have an

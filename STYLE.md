@@ -2,7 +2,7 @@
 
 How the archive's reader-facing text sounds and looks: `analysis/START.md`, `analysis/decisions.md`,
 `analysis/topics/`, `analysis/people/` pages and `analysis/timeline.md`. It applies to our own sentences; quotes stay
-verbatim. The rules on citations, sections and quotes are in `CLAUDE.md`; this file covers wording. Where AP style
+verbatim. The rules on citations, sections and quotes are in `.claude/rules/analysis.md`; this file covers wording. Where AP style
 covers something this file doesn't, follow AP. Why these choices: `adr/20261122-1607-house-style.md`.
 
 The mechanical rules are checked by Vale on pull requests (`.github/styles/FOS/`, added lines only, never

@@ -20,7 +20,7 @@ git fetch -q origin {{BRANCH}} && git checkout -q FETCH_HEAD   # run every later
 git diff {{BASE}} -- analysis/ sources/news/ sources/_queue.csv
 ```
 
-Read `CLAUDE.md` (the archive's rules), `RESEARCH.md` (how research is organized) and `analysis/decisions.md`
+Read `CLAUDE.md` and `.claude/rules/analysis.md` (the archive's rules), `RESEARCH.md` (how research is organized) and `analysis/decisions.md`
 (where each decision stands) before you start.
 
 ## Consistency
@@ -59,7 +59,7 @@ dismiss it over.
    Fund), the main objection on the record is stated fairly too, if the archive has it.
 9. **No campaign content**: no talking points, asks or calls to action in `analysis/`.
 10. **Glossary**: every abbreviation or term of art the change uses has a row in `analysis/glossary.csv`
-    (CLAUDE.md rule 11), and no abbreviation means two things.
+    (`.claude/rules/analysis.md` rule 11), and no abbreviation means two things.
 
 ## Copyright and privacy
 

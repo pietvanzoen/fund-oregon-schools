@@ -15,7 +15,7 @@ If you're not already in a clone of pietvanzoen/fund-oregon-schools (`git remote
 there. If github.com can't be reached, read the same files through the GitHub connector.
 
 ## 1. Orient
-- Read `CLAUDE.md` (citation formats, quote rules).
+- Read `CLAUDE.md` and `.claude/rules/analysis.md` (citation formats, quote rules).
 - Broad question or first question of a session: read `RESEARCH.md`, `analysis/START.md` and
   `analysis/decisions.md`.
 - Check freshness: `git log -1 --format=%cd --date=short`, and `sources/_queue.csv` rows with no matching
