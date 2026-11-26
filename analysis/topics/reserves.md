@@ -5,9 +5,9 @@ description: >
 summary: >
   The Education Stability Fund is one of the state's two general savings accounts, expected to hold about $1.3
   billion at the end of the 2025-27 budget; taking money out takes a three-fifths vote in both the House and the
-  Senate, plus a trigger tied to the economy or an emergency declared by the governor. The state has taken
-  money from it nine times, mostly to help balance the state budget in downturns by paying for schools with it,
-  most recently $400 million in 2020; in 2021 Gov. Kate Brown vetoed the spending of a $200 million draw, saying
+  Senate, plus a trigger tied to the economy or an emergency declared by the governor. The state has used
+  it nine times, mostly to help balance the state budget in downturns by paying for schools with it,
+  most recently $400 million approved in 2020; in 2021 Gov. Kate Brown vetoed the spending of a $200 million draw, saying
   the conditions for using the fund were not met. Portland Public Schools has asked for $500 million of it to lower
   districts' pension payments, and a state representative and a newly elected House member have suggested one-time
   help from it, with no amount named.
@@ -34,7 +34,7 @@ The objection stated by Rep. Tawna Sanchez, D-District 43 (North and Northeast P
 [SRC:legislature/members/sanchez.html], is mainly timing. Ruiz describes his proposal as relief
 while longer-term reform is developed (`decisions.md#esf-draw-2027-29`).
 
-No money has been taken from the fund since 2020, and none of its past uses paid for pension costs (below). The
+No money has been taken from the fund since the 2020 transfer, and none of its past uses paid for pension costs (below). The
 nine allocations the Legislative Fiscal Office lists, $1,540.6 million in all, not adjusted for inflation
 [DER:reserves/esf_withdrawals_total], went to the State School Fund or other education programs, mostly to balance or
 rebalance the state budget in the downturns of 2001-03, 2007-11 and 2020. The last draw the Legislature wrote into a
@@ -44,13 +44,14 @@ not met, while a Legislative Counsel opinion had argued that a trigger met earli
 available. Lawmakers kept the State School Fund at $9.3 billion mainly with lottery money instead. The Legislative
 Fiscal Office's lottery tables show no withdrawal in 2021-23, 2023-25 or 2025-27, as of March 2026. If the
 Legislature draws on the fund in 2027-29, then it would be the first withdrawal since 2020 and the first in the record
-for pension costs; the 2021 veto shows that a governor's reading of the conditions can stop a draw the Legislature
-has passed.
+for pension costs; the 2021 veto shows that a governor's reading of the conditions can stop spending the
+Legislature has budgeted from the fund.
 
 What a one-time draw for districts' budget gaps would cost statewide isn't known. The archive has no statewide total
 of district budget gaps for 2027-28; the only district figure is Portland Public Schools' own projection of a $65
 million gap. The district's $500 million request for all districts' pension rates would be about 39% of the $1.271
-billion balance projected for the end of 2025-27 in the December 2026 forecast [DER:reserves/pps_ask_share_of_esf].
+billion balance projected for the end of 2025-27 in the December 2026 forecast [SRC:fiscal/oea/2026-12_forecast.pdf p.41]
+[DER:reserves/pps_ask_share_of_esf].
 
 ## What the sources say
 
@@ -87,7 +88,7 @@ billion balance projected for the end of 2025-27 in the December 2026 forecast [
 
   The office's 2015 edition gives the 2003 session's transfer for the final 2001-03 rebalance (the 2001-03 rebalance row
   above) as $112 million. It dates the transfers: $150 million on May 1, 2003; the 2003 rebalance in May 2003;
-  the diverted lottery deposits on May 1, 2005; the $84.3 million in May 2011; the $100 million in June 2012; and the
+  the diverted lottery deposits on May 1, 2005; the $84.3 million, approved in the February 2010 special session, in May 2011; the $100 million in June 2012; and the
   $82.2 million in May 2013 [SRC:fiscal/lfo/2015-11_stabilization-funds.pdf p.3]. It also says the Legislature authorized no transfer in the 2013,
   2014 or 2015 sessions [SRC:fiscal/lfo/2015-11_stabilization-funds.pdf p.4].
 - The 2020 transfer was House Bill 4303, passed in the second special session of 2020. It was offset by reductions

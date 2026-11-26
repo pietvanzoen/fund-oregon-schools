@@ -175,7 +175,7 @@ document from the Governor with the $12.57 billion figure.
 - State reserves are currently 9.7% [SRC:fiscal/oea/2026-12_forecast_slides.pdf p.37]; the projected 2027-29 balances
   ($2.9 billion in the Rainy Day Fund, $1.6 billion in the Education Stability Fund) would be 10.6% of the General Fund projection
   [SRC:fiscal/oea/2026-12_forecast.pdf p.41].
-- Money has been taken from the fund nine times, most recently $400 million in 2020 to rebalance the 2019-21 budget during
+- The Legislative Fiscal Office lists nine allocations from the fund, most recently $400 million approved in 2020 to rebalance the 2019-21 budget during
   the COVID-19 emergency [SRC:fiscal/lfo/2020-09_budget-reserve-funds.pdf p.3]
   [SRC:legislature/olis/2021R1/241974_sb226-staff-measure-summary.pdf p.1]. Our sum of the nine allocations is $1,540.6 million,
   not adjusted for inflation [DER:reserves/esf_withdrawals_total].
@@ -183,7 +183,8 @@ document from the Governor with the $12.57 billion figure.
   [SRC:legislature/press/2021-05-11_democrats-9.3b-school-funding-plan.pdf p.1]. Gov. Kate Brown vetoed the section of
   the State School Fund bill, Senate Bill 5514, that allowed spending it [SRC:legislature/laws/2021orlaw0289.pdf p.1],
   arguing that the conditions for using the fund, a downturn or another emergency, were not met
-  [NEWS:NEWS-20210617-eastoregonian-1]; lawmakers kept the State School Fund at $9.3 billion mainly with lottery money
+  [NEWS:NEWS-20210617-eastoregonian-1], while a Legislative Counsel opinion had argued that a trigger met earlier in
+  the budget period left the fund available [NEWS:NEWS-20210512-opb-1]; lawmakers kept the State School Fund at $9.3 billion mainly with lottery money
   instead [SRC:fiscal/lro/2021-10_2021-measures-passed.pdf p.28]. The Legislative Fiscal Office's lottery tables show
   no withdrawal in 2021-23, 2023-25 or 2025-27, as of March 2026 [SRC:legislature/olis/2023R1/276164_hb5029-revenue-allocations.pdf p.3]
   [SRC:legislature/olis/2026R1/315811_sb5703-revenue-allocations.pdf p.3].
@@ -199,12 +200,13 @@ document from the Governor with the $12.57 billion figure.
   immediate relief while longer-term reform is developed
   [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt] [SRC:legislature/members/ruiz.html].
 - What the rules allow for PERS relief (question `esf-pers-relief`): withdrawals must go to public education, which the
-  Legislative Fiscal Office describes as K-12 and post-secondary education [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1]
+  Legislative Fiscal Office describes as K-12 and post-secondary education, with some public early learning
+  programs possibly eligible [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1]
   [SRC:fiscal/lfo/2020-09_budget-reserve-funds.pdf p.2]. No archived source says whether paying down districts'
   pension costs counts, and none of the past withdrawals listed was for pension costs
   [SRC:fiscal/lfo/2020-09_budget-reserve-funds.pdf p.3]. On cost, Portland Public Schools asks for $500 million
   [NEWS:NEWS-20261102-opb-1]. Our estimate: that is about 39% of the $1.271 billion balance projected for the end of
-  2025-27 [DER:reserves/pps_ask_share_of_esf]. Ruiz names no amount and no test for which districts would qualify
+  2025-27 [SRC:fiscal/oea/2026-12_forecast.pdf p.41] [DER:reserves/pps_ask_share_of_esf]. Ruiz names no amount and no test for which districts would qualify
   beyond "significant financial strain" [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt]. The
   archive has no statewide total of district budget gaps for 2027-28.
 - Analysis: every option here needs the same vote and trigger. Lieber objects on the record to one-time money
@@ -214,9 +216,10 @@ document from the Governor with the $12.57 billion figure.
   contributions are an ongoing cost, so the objection could apply both to Ruiz's proposal and to Portland Public Schools' request for $500 million to
   buy down PERS rates [NEWS:NEWS-20261102-opb-1], while
   supporters describe a one-time draw as a bridge until lasting reform. The objection stated by Sanchez is mainly timing:
-  saving the fund for worse years. The stances of Lieber, Sanchez and Kotek in April 2026 were about a draw in 2025-27; Kotek's November 2026
-  stances and Carpenter's suggestion came in the debate over Portland Public Schools' 2027-28 gap
-  [NEWS:NEWS-2026-katu-kotek-pps-1] [NEWS:NEWS-20261112-katu-2]. In 2021 Gov. Kate Brown vetoed a draw she argued
+  saving the fund for worse years. Kotek's stance in April 2026 and Lieber's and Sanchez's in May 2026 were about a draw in 2025-27
+  [SRC:gov/eo/eo-26-06_faq.pdf p.2] [NEWS:NEWS-20260510-wweek-1]; Kotek's October and November 2026 stances and
+  Carpenter's suggestion came in the debate over Portland Public Schools' 2027-28 gap [NEWS:NEWS-20261102-opb-1]
+  [NEWS:NEWS-2026-katu-kotek-pps-1] [NEWS:NEWS-20261112-katu-2]. In 2021 Gov. Kate Brown vetoed spending the Legislature had budgeted from the fund, arguing it
   didn't meet the conditions for using the fund [NEWS:NEWS-20210617-eastoregonian-1], so the Governor's reading of
   those conditions matters as well as the votes. See
   `topics/reserves.md`.
