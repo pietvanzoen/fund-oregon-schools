@@ -27,7 +27,7 @@ Least new code that fully does the job; adapted from the ponytail rules
 - **Keep** validation and error handling when moving or merging code.
 - **Tests:** every `tools/<tool>.py` has a `tools/tests/test_<tool>.py` (`unittest`, plain `assert`s in test
   methods, shared setup in `tools/tests/helpers.py`); `test_every_tool_has_a_test.py` fails otherwise. Run them with
-  `python3 -m unittest discover -s tools/tests` (CI does). A change with branches, loops, parsing or money figures
+  `make test` (CI runs `make check`). A change with branches, loops, parsing or money figures
   gets a test case; trivial changes don't. A bug fix gets a test that fails without the fix. Expected values are
   worked out by hand from a small fake fixture, never copied from the code's output (a copied value only confirms
   what the code does now). Tools that shell out to programs available only in GitHub Actions (`ocr_pdfs.py`,
@@ -54,6 +54,8 @@ Least new code that fully does the job; adapted from the ponytail rules
 - Tools: `tools/search.py`, `tools/doc.py`, `tools/linkify.py`, `tools/check_citations.py` (`--measures` for the
   review measures), `tools/check_sources.py`, `tools/fetch_sources.py`, `tools/ocr_pdfs.py`, `tools/save_youtube.py`, `tools/next_issue.py`, `tools/derive_<topic>.py`,
   `tools/tests/` (one `test_<tool>.py` per tool, `helpers.py`)
-- Site: `site-11ty/` builds oregonedtrail.org with Eleventy (`cd site-11ty && npm ci && npx eleventy --serve`);
+- `Makefile` — the common commands (`make` lists them); CI's check job runs `make citations sources test derive-check`.
+  Why: `adr/20261126-2010-makefile-for-common-commands.md`
+- Site: `site-11ty/` builds oregonedtrail.org with Eleventy (`make serve`);
   every page but About (`website/about.md`) is generated from `analysis/` and `sources/` in `src/_data/archive.js`.
   Why Eleventy: `adr/20261124-0837-site-built-with-eleventy.md`

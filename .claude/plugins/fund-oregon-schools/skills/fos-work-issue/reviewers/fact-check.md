@@ -88,9 +88,8 @@ scrambled, or text below a `--- OCR of this page` line (machine OCR of a picture
 
 ## Tool checks
 
-Run `python3 tools/check_citations.py`, `python3 tools/check_sources.py` and `python3 -m unittest discover -s tools/tests`, and
-every `tools/derive_*.py` followed by `git status --short analysis/derived/` (it should print nothing). Report any
-failure, and each checker warning (a number not found in its cited source) that you confirm.
+Run `make check` (citations, sources, tool tests, and the derive scripts rerun with `analysis/derived/` unchanged).
+Report any failure, and each checker warning (a number not found in its cited source) that you confirm.
 
 ## Report
 

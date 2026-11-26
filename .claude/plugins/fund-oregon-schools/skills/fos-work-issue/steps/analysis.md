@@ -66,11 +66,7 @@ Then, as the issue needs:
 Stay within what the issue asks. Note related gaps as `open` rows in `analysis/questions.csv` or as a follow-up
 issue rather than chasing them.
 
-Run, and fix until clean:
-
-```bash
-python3 tools/check_citations.py && python3 tools/check_sources.py && python3 -m unittest discover -s tools/tests
-for f in tools/derive_*.py; do python3 "$f"; done; git status --short analysis/derived/   # commit what changed
-```
+After changing data or a derive script, run `make derive` and commit what changed in `analysis/derived/`. Then
+run `make check` (what CI's check job runs) and fix until clean.
 
 Commit and push.

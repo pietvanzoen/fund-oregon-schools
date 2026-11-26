@@ -6,8 +6,8 @@ First bring in what merged while you worked: `git fetch origin main && git merge
 rebase: the branch is already pushed and the fetch bot pushes to it too). Conflicts are nearly always in the
 append-only files, where both sides added rows or sections: `analysis/updates.csv`, `sources/_queue.csv`,
 `sources/_manifest.jsonl`, `analysis/positions.csv`, `analysis/questions.csv`, and the folder list in `.claude/rules/sources.md`. Keep both sides' lines, drop
-only exact duplicates, and keep the CSV header once. Then rerun `tools/check_citations.py`, every
-`tools/derive_*.py` and `python3 -m unittest discover -s tools/tests`. A conflict anywhere else (a topic file, `decisions.md`, a data CSV) means
+only exact duplicates, and keep the CSV header once. Then run `make derive`, commit any change in
+`analysis/derived/`, and run `make check`. A conflict anywhere else (a topic file, `decisions.md`, a data CSV) means
 someone changed the same facts: resolve it against the sources, and say what you did in the PR's **Anything odd**.
 
 Push, then open the PR with REST:
