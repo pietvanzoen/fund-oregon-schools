@@ -18,9 +18,9 @@ Standing research: what state funding buys, and the outcome goals and mandates a
 ## Analysis
 
 The archive so far covers mostly how much is spent; what the money buys is the least-researched part. Still to
-research: Student Investment Account audits and reviews (#57; spending and the department's outcome reports are in
-`topics/student-investment-account.md`), outcomes over time set against funding (#58), progress and consequences under Senate Bill 141 (2025), the Education Accountability Act (#60, #71), where
-increases go (#61), research on whether funding changes outcomes (#63), and unfunded mandates (#72).
+research: Student Investment Account audits and reviews (spending and the department's outcome reports are in
+`topics/student-investment-account.md`), outcomes over time set against funding, progress and consequences under Senate Bill 141 (2025), the Education Accountability Act, where
+increases go, research on whether funding changes outcomes, and unfunded mandates.
 
 ## What the sources say
 

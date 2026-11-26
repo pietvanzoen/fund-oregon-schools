@@ -40,12 +40,12 @@ says varied a great deal. The department's median changes from 2023-24 to 2024-2
 English language arts, 0.01% in regular attendance) are most likely percentage points:
 its overview of how the targets were set uses "%" for a percentage-point difference ("nearly two percentage points
 higher (1.9%)") [SRC:ode/sia/2023-2028_lpgt-overview-of-targets.pdf p.2]. That's our reading; the department has
-been asked (#116).
+been asked.
 
 So the archive can say what the account's money paid for, and how grantees did against their own targets in two
 recent years. It can't yet say whether the account changed outcomes statewide. The Quality Education Commission
 recommends sustaining investments under the Student Success Act, the 2019 law that created the account (`topics/qem-practices-outcomes.md`). Outside audits and
-reviews (#57), outcomes over time (#58) and the research on whether funding changes outcomes (#63) bear on that.
+reviews, outcomes over time and the research on whether funding changes outcomes bear on that.
 
 ## What the sources say
 

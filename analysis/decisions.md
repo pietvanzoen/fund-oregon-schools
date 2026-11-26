@@ -140,14 +140,14 @@ document from the Governor with the $12.57 billion figure.
 - The Quality Education Commission leaves the question of what is adequate, and which funding counts, to the
   Legislature [SRC:ode/qec/2026_qem_report.pdf p.117].
 - The positions of the Oregon Education Association, the Oregon School Boards Association and the Coalition of Oregon
-  School Administrators on the 2027-29 amount aren't archived yet (#26).
+  School Administrators on the 2027-29 amount aren't archived yet.
 - Analysis: the current service level is the State School Fund alone, while both Quality Education Model figures count
   other state money too, so the like-for-like gap between the two model scenarios is the status quo to the full
   model. See `topics/quality-education-model.md`.
 - Analysis: by the Quality Education Model's statewide measure, a State School Fund at the current service level keeps
   the status quo (continuing 2025-27 activities) only if the state's grant programs outside the fund continue at about their
   2025-27 amounts and the model's status quo already prices what they pay for. The archive can't settle that second
-  point yet; a question to Department of Education staff is drafted (#146). If it fails, the $1.2 billion is left to other
+  point yet; a question to Department of Education staff is drafted. If it fails, the $1.2 billion is left to other
   state money or to reduced services, and the difference between the two readings is roughly the size of the grants.
   The archive has no district-level estimate, and districts losing federal money can still have less to spend. See
   `topics/quality-education-model.md`.
@@ -160,7 +160,7 @@ document from the Governor with the $12.57 billion figure.
   [SRC:ode/qec/2026_qem_report.pdf p.111] [SRC:legislature/olis/2025R1/307212_sb5516-ssf-work-session.pdf p.2], and
   leaves out declining federal money and falling earnings on districts' pension side accounts
   [SRC:ode/qec/2026_qem_report.pdf p.100]. Whether the grant programs' own 2027-29 budgets carry them forward isn't
-  archived yet (#136).
+  archived yet.
 
 <!-- site: visual funding-2027-29 -->
 
@@ -239,7 +239,7 @@ document from the Governor with the $12.57 billion figure.
 ## Changes to the funding formula {#formula-2027}
 
 - Analysis: as of Nov. 22, 2026, the archive has no formula proposal from Kotek, and a web search found no
-  2027 committee assignment memos, so who will hear formula bills in 2027 isn't settled (#107).
+  2027 committee assignment memos, so who will hear formula bills in 2027 isn't settled.
 - The formula's weights and caps are set in chapter 327 of the Oregon Revised Statutes [SRC:legislature/ors/ors327.html]. See
   `topics/formula.md`.
 - Kotek, Nov. 6, 2026, as quoted by KATU: "Maybe enrollment is the wrong marker. That was established almost 30 years
