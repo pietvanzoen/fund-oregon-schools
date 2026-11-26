@@ -18,7 +18,9 @@
   if (query) {
     document.querySelector("h1").textContent = `Search results for "${query}"`;
     document.title = `Search results for "${query}" · Oregon Ed Trail`;
-    run().catch(() => { $("search-status").textContent = "Search isn't working right now. Try again later."; });
+    run().catch(() => {
+      $("search-status").textContent = "Search isn't working right now. Try again later.";
+    });
   }
 
   async function run() {
@@ -34,24 +36,38 @@
       const p = new URLSearchParams({ q: query });
       if (k) p.set("kind", k);
       a.href = `${location.pathname}?${p}`;
-      a.addEventListener("click", (e) => { e.preventDefault(); kind = k; history.replaceState(null, "", a.href); show(all, links); });
+      a.addEventListener("click", (e) => {
+        e.preventDefault();
+        kind = k;
+        history.replaceState(null, "", a.href);
+        show(all, links);
+      });
     }
     $("search-filters").hidden = false;
     show(all, links);
   }
 
   function show(all, links) {
-    for (const a of links) a.dataset.kind === kind ? a.setAttribute("aria-current", "true") : a.removeAttribute("aria-current");
+    for (const a of links)
+      a.dataset.kind === kind ? a.setAttribute("aria-current", "true") : a.removeAttribute("aria-current");
     const list = all.filter((d) => !kind || d.filters.kind?.[0] === kind);
-    const label = links.find((a) => a.dataset.kind === kind)?.firstChild.textContent.trim().toLowerCase();
+    const label = links
+      .find((a) => a.dataset.kind === kind)
+      ?.firstChild.textContent.trim()
+      .toLowerCase();
     const n = list.length;
-    $("search-status").textContent = `${n} ${n === 1 ? "result" : "results"} for "${query}"${kind ? ` in ${label}` : ""}`;
+    $("search-status").textContent =
+      `${n} ${n === 1 ? "result" : "results"} for "${query}"${kind ? ` in ${label}` : ""}`;
     $("search-none").hidden = n > 0;
-    $("search-results").innerHTML = list.map((d) => {
-      const k = d.filters.kind?.[0] || "Page";
-      const line = d.meta.line ? esc(d.meta.line) : excerpt(d.excerpt);
-      return `<li class="box result"><p class="result-kind"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-${ICON[k] || "topic"}"/></svg>${esc(k)}</p>`
-        + `<h2><a href="${esc(href(d.url))}">${esc(d.meta.title)}</a></h2><p class="result-line${d.meta.line ? " muted" : ""}">${line}</p></li>`;
-    }).join("");
+    $("search-results").innerHTML = list
+      .map((d) => {
+        const k = d.filters.kind?.[0] || "Page";
+        const line = d.meta.line ? esc(d.meta.line) : excerpt(d.excerpt);
+        return (
+          `<li class="box result"><p class="result-kind"><svg class="i" aria-hidden="true" focusable="false"><use href="#i-${ICON[k] || "topic"}"/></svg>${esc(k)}</p>` +
+          `<h2><a href="${esc(href(d.url))}">${esc(d.meta.title)}</a></h2><p class="result-line${d.meta.line ? " muted" : ""}">${line}</p></li>`
+        );
+      })
+      .join("");
   }
 }

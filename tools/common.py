@@ -1,4 +1,5 @@
 """Shared helpers for the fund-oregon-schools tools (stdlib only)."""
+
 import csv
 import json
 import os
@@ -86,7 +87,7 @@ def front_matter(text):
     for k, v in meta.items():
         if not v:
             raise ValueError(f"front matter {k} is empty")
-    return meta, text[end + 5:]
+    return meta, text[end + 5 :]
 
 
 def text_path(src_path):

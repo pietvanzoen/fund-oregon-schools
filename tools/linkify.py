@@ -8,12 +8,13 @@ SRC → the original URL from the manifest (or the queue, if not fetched yet), w
 NEWS → the article URL. PPSARCH → the PPS archive on GitHub. VID → URL from the manifest plus #t=seconds.
 DER → our own calculation, analysis/derived/<topic>.csv on GitHub.
 """
+
 import argparse
 import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import NEWS_INDEX, TAG_RE, manifest_by_path, parse_src, read_jsonl, read_queue  # noqa: E402
+from common import NEWS_INDEX, TAG_RE, manifest_by_path, parse_src, read_jsonl, read_queue
 
 REPO = "https://github.com/pietvanzoen/fund-oregon-schools/blob/main/sources/"
 DERIVED = "https://github.com/pietvanzoen/fund-oregon-schools/blob/main/analysis/derived/"

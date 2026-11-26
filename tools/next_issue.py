@@ -7,6 +7,7 @@ Free: open, labelled `auto`, none of the labels in SKIP, no open PR that says "C
 `claude/issue-<n>-*` branch. An issue split before runs stopped splitting gives its first free sub-issue instead.
 Reads GitHub with `gh api` (REST; GraphQL isn't available in cloud sessions).
 """
+
 import json
 import re
 import subprocess
@@ -14,17 +15,22 @@ import sys
 
 REPO = "repos/pietvanzoen/fund-oregon-schools"
 SKIP = {"needs-human", "needs-judgement", "manual", "in progress", "blocked"}
-QUEUE_RE = re.compile(r"^\s*\d+\.\s+#(\d+)\b", re.M)
+QUEUE_RE = re.compile(r"^\s*\d+\.\s+#(\d+)\b", re.MULTILINE)
 
 
 def pick(queue_body, get_issue, get_subs, pr_bodies, branches):
     """First free issue number in queue order, or None. get_issue(n) -> {"state", "labels"}; get_subs(n) -> [n]."""
+
     def free(n):
         i = get_issue(n)
         labels = set(i["labels"])
-        return (i["state"] == "open" and "auto" in labels and not labels & SKIP
-                and not any(re.search(rf"\bcloses #{n}\b", b, re.I) for b in pr_bodies)
-                and not any(b.startswith(f"claude/issue-{n}-") for b in branches))
+        return (
+            i["state"] == "open"
+            and "auto" in labels
+            and not labels & SKIP
+            and not any(re.search(rf"\bcloses #{n}\b", b, re.IGNORECASE) for b in pr_bodies)
+            and not any(b.startswith(f"claude/issue-{n}-") for b in branches)
+        )
 
     for n in map(int, QUEUE_RE.findall(queue_body)):
         if not free(n):
@@ -39,8 +45,9 @@ def pick(queue_body, get_issue, get_subs, pr_bodies, branches):
 
 
 def gh(path):
-    out = subprocess.run(["gh", "api", "--paginate", f"{REPO}/{path}"], check=True, text=True,
-                         capture_output=True).stdout
+    out = subprocess.run(
+        ["gh", "api", "--paginate", f"{REPO}/{path}"], check=True, text=True, capture_output=True
+    ).stdout
     # --paginate joins pages as concatenated JSON arrays
     return json.loads(out.replace("][", ",")) if out.startswith("[") else json.loads(out)
 
@@ -56,8 +63,9 @@ def main():
         i = gh(f"issues/{n}")
         return {"state": i["state"], "labels": [lab["name"] for lab in i["labels"]]}
 
-    n = pick(queue[0]["body"] or "", get_issue, lambda n: [s["number"] for s in gh(f"issues/{n}/sub_issues")],
-             prs, branches)
+    n = pick(
+        queue[0]["body"] or "", get_issue, lambda n: [s["number"] for s in gh(f"issues/{n}/sub_issues")], prs, branches
+    )
     if n is None:
         sys.exit(1)
     print(n)

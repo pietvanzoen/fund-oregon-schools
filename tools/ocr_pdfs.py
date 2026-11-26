@@ -9,18 +9,21 @@ those pages, so exact text stays exact, pages stay separated by \\f, and text_pa
 that already have one are skipped, and the PDF itself is never touched. Needs pdftotext, pdfimages, pdftoppm (poppler-utils) and tesseract.
 Runs in the fetch-sources Action after each fetch, so new PDFs and older ones alike get OCR'd once.
 """
+
 import os
 import subprocess
 import sys
 import tempfile
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import SOURCES  # noqa: E402
+from common import SOURCES
 
 # shortcut: a page with MIN_CHARS+ of real text but a chart or table as a picture isn't OCR'd, so numbers in the
 # picture aren't searchable; lower MIN_CHARS (or OCR every page with a large image) if a cited deck needs them.
 MIN_CHARS = 200
-MARKER = "--- OCR of this page (tesseract), not checked by a person: check the PDF before quoting or copying a figure ---"
+MARKER = (
+    "--- OCR of this page (tesseract), not checked by a person: check the PDF before quoting or copying a figure ---"
+)
 
 
 def pages_to_ocr(pages, image_pages):
@@ -35,10 +38,10 @@ def image_pages(pdf):
 
 def ocr_page(pdf, n, tmp):
     prefix = os.path.join(tmp, f"p{n}")
-    subprocess.run(["pdftoppm", "-r", "300", "-gray", "-png", "-singlefile", "-f", str(n), "-l", str(n), pdf, prefix],
-                   check=True)
-    return subprocess.run(["tesseract", prefix + ".png", "stdout"], capture_output=True, text=True,
-                          check=True).stdout
+    subprocess.run(
+        ["pdftoppm", "-r", "300", "-gray", "-png", "-singlefile", "-f", str(n), "-l", str(n), pdf, prefix], check=True
+    )
+    return subprocess.run(["tesseract", prefix + ".png", "stdout"], capture_output=True, text=True, check=True).stdout
 
 
 def main():
@@ -50,8 +53,9 @@ def main():
             if not f.lower().endswith(".pdf") or os.path.exists(pdf + ".ocr.txt"):
                 continue
             try:
-                text = subprocess.run(["pdftotext", "-enc", "UTF-8", pdf, "-"], capture_output=True, text=True,
-                                      check=True).stdout
+                text = subprocess.run(
+                    ["pdftotext", "-enc", "UTF-8", pdf, "-"], capture_output=True, text=True, check=True
+                ).stdout
                 pages = text.split("\f")[:-1]  # pdftotext ends every page with \f
                 todo = pages_to_ocr(pages, image_pages(pdf))
                 if not todo:

@@ -1,17 +1,18 @@
 #!/usr/bin/env python3
 """Print a page of an archived document, or grep it with page numbers.
 
-    python3 tools/doc.py qec/2026_qem_report            # list matching files and page counts
-    python3 tools/doc.py qec/2026_qem_report 12          # page 12 (the N in [SRC:... p.N])
-    python3 tools/doc.py qec/2026_qem_report --grep "current service level"
+python3 tools/doc.py qec/2026_qem_report            # list matching files and page counts
+python3 tools/doc.py qec/2026_qem_report 12          # page 12 (the N in [SRC:... p.N])
+python3 tools/doc.py qec/2026_qem_report --grep "current service level"
 """
+
 import argparse
 import os
 import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import SOURCES, text_path  # noqa: E402
+from common import SOURCES, text_path
 
 
 def find(fragment):
@@ -51,7 +52,7 @@ def main():
         sys.exit(f"{rel} has no text extraction")
     pages = open(tp, encoding="utf-8", errors="replace").read().split("\f")
     if a.grep:
-        rx = re.compile(a.grep, re.I)
+        rx = re.compile(a.grep, re.IGNORECASE)
         for n, pg in enumerate(pages, 1):
             for line in pg.splitlines():
                 if rx.search(line):

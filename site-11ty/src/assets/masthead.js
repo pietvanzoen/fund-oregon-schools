@@ -15,13 +15,19 @@
   btn.setAttribute("aria-controls", "search-panel");
   link.replaceWith(btn);
 
-  const setMenu = (open) => { menuBtn.setAttribute("aria-expanded", String(open)); nav.classList.toggle("open", open); };
+  const setMenu = (open) => {
+    menuBtn.setAttribute("aria-expanded", String(open));
+    nav.classList.toggle("open", open);
+  };
   const setSearch = (open) => {
     btn.setAttribute("aria-expanded", String(open));
     btn.setAttribute("aria-label", open ? "Close search" : "Search");
     btn.innerHTML = `<svg class="i" aria-hidden="true" focusable="false"><use href="#i-${open ? "close" : "search"}"/></svg>`;
     panel.hidden = !open;
-    if (open) { setMenu(false); field.focus(); }
+    if (open) {
+      setMenu(false);
+      field.focus();
+    }
   };
   setSearch(false);
 
@@ -33,7 +39,12 @@
   btn.addEventListener("click", () => setSearch(btn.getAttribute("aria-expanded") !== "true"));
   document.addEventListener("keydown", (e) => {
     if (e.key !== "Escape") return;
-    if (btn.getAttribute("aria-expanded") === "true") { setSearch(false); btn.focus(); }
-    else if (menuBtn.getAttribute("aria-expanded") === "true") { setMenu(false); menuBtn.focus(); }
+    if (btn.getAttribute("aria-expanded") === "true") {
+      setSearch(false);
+      btn.focus();
+    } else if (menuBtn.getAttribute("aria-expanded") === "true") {
+      setMenu(false);
+      menuBtn.focus();
+    }
   });
 }

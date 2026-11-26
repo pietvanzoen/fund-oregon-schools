@@ -12,19 +12,37 @@ Warnings:
   - queue row from a host that isn't a known government site (a reviewer checks it's the official copy)
   - queue row URL and path with different file types (e.g. a .pdf URL saved as .html)
 """
+
 import os
 import re
 import sys
 import urllib.parse
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import ROOT, SOURCES, manifest_by_path, read_queue  # noqa: E402
+from common import SOURCES, manifest_by_path, read_queue
 
 TOP_DIRS = {"gov", "legislature", "ode", "fiscal", "reference", "districts", "orgs"}
-NEWS_HOSTS = {"katu.com", "ktvz.com", "wweek.com", "klcc.org", "newsfromthestates.com", "opb.org",
-              "oregonlive.com", "salemreporter.com", "oregoncapitalchronicle.com", "statesmanjournal.com",
-              "registerguard.com", "koin.com", "kgw.com", "kptv.com", "portlandtribune.com",
-              "pamplinmedia.com", "oregonjournalismproject.org", "bendbulletin.com", "eastoregonian.com"}
+NEWS_HOSTS = {
+    "katu.com",
+    "ktvz.com",
+    "wweek.com",
+    "klcc.org",
+    "newsfromthestates.com",
+    "opb.org",
+    "oregonlive.com",
+    "salemreporter.com",
+    "oregoncapitalchronicle.com",
+    "statesmanjournal.com",
+    "registerguard.com",
+    "koin.com",
+    "kgw.com",
+    "kptv.com",
+    "portlandtribune.com",
+    "pamplinmedia.com",
+    "oregonjournalismproject.org",
+    "bendbulletin.com",
+    "eastoregonian.com",
+}
 OFFICIAL_SUFFIXES = (".oregon.gov", ".oregonlegislature.gov", ".state.or.us", ".k12.or.us", ".gov")
 OFFICIAL_HOSTS = {"oregon.gov", "oregonlegislature.gov", "oregonencyclopedia.org"}
 OLIS_RE = re.compile(r"^legislature/olis/\d{4}[RIS]\d/[^/]+$")
