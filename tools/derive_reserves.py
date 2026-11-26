@@ -4,7 +4,8 @@
 import csv
 import os
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+from common import ROOT
+
 DATA = os.path.join(ROOT, "analysis", "data")
 OUT = os.path.join(ROOT, "analysis", "derived", "reserves.csv")
 
