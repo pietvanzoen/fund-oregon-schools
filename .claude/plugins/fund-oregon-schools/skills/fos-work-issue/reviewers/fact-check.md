@@ -61,7 +61,9 @@ scrambled, or text below a `--- OCR of this page` line (machine OCR of a picture
    document prints itself is a source fact.
 9. **Derived figures**: for each changed row in `analysis/derived/*.csv`, the method, inputs and assumptions are
    right and complete, the script does what `method` says, constants it copies from a source carry a citation,
-   and `kind` is `est` whenever the figure rests on an assumption.
+   and `kind` is `est` whenever the figure rests on an assumption. Each new or changed row has a case in
+   `tools/tests/test_derive_<topic>.py` whose expected value you can work out by hand from that test's fixture
+   (or an invariant); report one that copies the script's output or is missing.
 10. **Visuals**: for each new or changed `analysis/visuals/*.json`, and each visual whose rows changed, check it
     against its sources (`.claude/rules/analysis.md` rule 4; its page at `/visuals/<id>/` lists them). A chart: every bar's `ref`
     points to the row its `label` and `group` describe (the right year, stage and measure), the title and unit match
@@ -86,7 +88,7 @@ scrambled, or text below a `--- OCR of this page` line (machine OCR of a picture
 
 ## Tool checks
 
-Run `python3 tools/check_citations.py`, `python3 tools/check_sources.py` and `python3 tools/test_tools.py`, and
+Run `python3 tools/check_citations.py`, `python3 tools/check_sources.py` and `python3 -m unittest discover -s tools/tests`, and
 every `tools/derive_*.py` followed by `git status --short analysis/derived/` (it should print nothing). Report any
 failure, and each checker warning (a number not found in its cited source) that you confirm.
 

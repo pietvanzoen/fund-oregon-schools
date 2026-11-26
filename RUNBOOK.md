@@ -99,7 +99,7 @@ Put the evidence in the quote's `context` and `confidence`, and say in the PR wh
 
 ## After adding sources
 - Update `analysis/` and swap NEWS citations for SRC ones where a primary document now exists.
-- `python3 tools/check_citations.py` and `python3 tools/test_tools.py` must pass (CI runs both).
+- `python3 tools/check_citations.py` and `python3 -m unittest discover -s tools/tests` must pass (CI runs both).
 - If a data file or derive script changed, run every `tools/derive_*.py` and commit `analysis/derived/`; CI reruns
   them and fails if the output differs.
 - To see the pages as readers will: `cd site-11ty && npm ci && npx eleventy --serve` (http://localhost:8080). CI runs

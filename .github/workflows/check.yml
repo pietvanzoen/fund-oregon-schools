@@ -18,8 +18,8 @@ jobs:
         run: python3 tools/check_citations.py
       - name: Queue and archived files
         run: python3 tools/check_sources.py
-      - name: Tool smoke tests
-        run: python3 tools/test_tools.py
+      - name: Tool tests
+        run: python3 -m unittest discover -s tools/tests
       - name: Derived figures match their scripts
         run: |
           shopt -s nullglob

@@ -306,7 +306,7 @@ stops doing one of those jobs should go.
   `transcribe` writes machine transcripts for media, `check` blocks a merge when citations, derived figures or the
   What's new row are wrong, and `pages` publishes the site.
 - **Tools** (`tools/`): stdlib scripts that search and read the archive (`search`, `doc`, `linkify`), fetch it
-  (`fetch_sources`, `ocr_pdfs`), check it (`check_citations`, `check_sources`, `test_tools`) and calculate it
+  (`fetch_sources`, `ocr_pdfs`), check it (`check_citations`, `check_sources`; each tool's tests are in `tools/tests/`) and calculate it
   (`derive_<topic>`, one per topic).
 - **Skills** (`.claude/plugins/fund-oregon-schools/`): `fos-research` answers from the archive with citations;
   `fos-work-issue` takes an issue to a reviewed PR, with an independent fact-check and fairness review;
