@@ -35,7 +35,7 @@ The objection stated by Rep. Tawna Sanchez, D-District 43 (North and Northeast P
 while longer-term reform is developed (`decisions.md#esf-draw-2027-29`).
 
 No money has been taken from the fund since the 2020 transfer, and none of its past uses paid for pension costs (below). The
-Legislative Fiscal Office lists nine allocations, $1,540.6 million in all, not adjusted for inflation
+Legislative Fiscal Office lists nine allocations, which total $1,540.6 million, not adjusted for inflation
 [DER:reserves/esf_withdrawals_total]. They went to the State School Fund or other education programs, mostly to
 balance or rebalance the state budget in the downturns of 2001-03, 2007-11 and 2020. The last draw the Legislature wrote into a
 budget bill, $200 million for the 2021-23 State School Fund, did not take effect. Gov. Kate Brown vetoed it. She
@@ -87,10 +87,10 @@ billion balance projected for the end of 2025-27 in the December 2026 forecast [
   | 2019-21 | 400.0 | Rebalance of the 2019-21 budget after the June 2020 estimate of revenue shortfalls from the COVID-19 emergency | [SRC:fiscal/lfo/2020-09_budget-reserve-funds.pdf p.3] |
 
   The office's 2015 edition gives the 2003 session's transfer for the final 2001-03 rebalance (the 2001-03 rebalance row
-  above) as $112 million. It dates the transfers. The $150 million moved on May 1, 2003, and the 2003
-  rebalance in May 2003. The diverted lottery deposits moved on May 1, 2005. The $84.3 million, approved in the
-  February 2010 special session, moved in May 2011. The $100 million moved in June 2012, and the $82.2 million in May
-  2013 [SRC:fiscal/lfo/2015-11_stabilization-funds.pdf p.3]. It also says the Legislature authorized no transfer in the 2013,
+  above) as $112 million. It gives dates for the transfers. The $150 million was set for May 1, 2003, and
+  the 2003 rebalance moved in May 2003. The diverted lottery deposits moved on May 1, 2005. The $84.3 million,
+  approved in the February 2010 special session, moved in May 2011. The $100 million was set for October 2011 and then
+  changed to June 2012, and the $82.2 million was set for May 2013 [SRC:fiscal/lfo/2015-11_stabilization-funds.pdf p.3]. It also says the Legislature authorized no transfer in the 2013,
   2014 or 2015 sessions [SRC:fiscal/lfo/2015-11_stabilization-funds.pdf p.4].
 - The 2020 transfer was House Bill 4303, passed in the second special session of 2020. It was offset by reductions
   from the General Fund, lottery money and the Fund for Student Success, keeping the 2019-21 State School Fund at
