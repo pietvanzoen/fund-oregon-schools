@@ -60,3 +60,9 @@ The concrete signal that should reopen this.
 | [2026-11-24](20261124-1755-agency-email-replies-as-text.md) | Email replies are archived as reply text, and only when nothing else can be cited |
 | [2026-11-24](20261124-2210-whats-new-kinds.md) | What's new rows have a kind; site changes stay off the overview |
 | [2026-11-24](20261124-2326-glossary-labels-not-linked-in-text.md) | Words the site gives its own meaning are glossary labels, not linked in running text |
+| [2026-11-24](20261124-2226-linters-in-ci.md) | Code is linted and the built HTML validated in CI, with pinned tools; no browser checks yet |
+| [2026-11-24](20261124-2349-leads-archived-on-their-own-pr.md) | Leads are triaged in a session; their sources merge on their own PR once vetted |
+| [2026-11-25](20261125-0411-visuals-as-derived-entities.md) | Charts and diagrams are their own files, checked once and embedded by id |
+| [2026-11-25](20261125-1807-youtube-audio-saved-and-transcribed-locally.md) | YouTube recordings are saved and transcribed on the maintainer's Mac |
+| [2026-11-25](20261125-1901-search-labels-what-each-hit-is.md) | Search labels each hit of the archive's own files as cited, analysis, derived or summary |
+| [2026-11-26](20261126-0046-agent-rules-split-by-area.md) | Agent rules are split by area: a short CLAUDE.md, rule files, and one file per work step |

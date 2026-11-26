@@ -1,0 +1,772 @@
+APRIL 2025 // SPENDING MORE, ACHIEVING LESS? OREGON’S EDUCATION CHALLENGE
+
+APRIL 2025
+
+SPENDING MORE, ACHIEVING LESS
+OREGON’S EDUCATION CHALLENGE
+
+COMMON SENSE INSTITUTE :: COMMONSENSEINSTITUTEOR.ORG
+
+
+--- OCR of this page (tesseract), not checked by a person: check the PDF before quoting or copying a figure ---
+Hy SENSE
+
+INSTITUTE
+
+APRIL 2025
+
+SPENDING MORE, ACHIEVING LESS
+OREGON'S EDUCATION CHALLENGE
+Summary.......................................................................................................................................................................3
+Key Findings................................................................................................................................................................. 4
+Introduction..................................................................................................................................................................6
+K-12 Schools Have Seen a Decline in Enrollment...............................................................................................7
+Where Oregon Schools Get Their Money............................................................................................................9
+Oregon’s School Funding Model: How Schools Get Their Money.................................................................9
+The Corporate Activity Tax: A Major New Funding Source, but Limited Visibility................................10
+New State Legislation Impacting School Funding and Oversight................................................................10
+Rising Pension Costs and Their Impact on School Budgets.............................................................................11
+Expenditures: How Education Dollars Are Spent.............................................................................................. 12
+Changes in Oregon’s K-12 Workforce and Salaries............................................................................................ 13
+Salary Growth: Faster Increases for Administrators........................................................................................... 14
+Student Performance: Stagnation Despite Increased Investment................................................................ 15
+Bottom Line................................................................................................................................................................ 17
+Appendix.....................................................................................................................................................................18
+REFERENCES............................................................................................................................ 19
+
+COMMON SENSE INSTITUTE :: COMMONSENSEINSTITUTEOR.ORG
+
+APRIL 2025 // SPENDING MORE, ACHIEVING LESS? OREGON’S EDUCATION CHALLENGE
+
+TABLE OF CONTENTS
+
+Oregon’s education spending has increased significantly over the past two decades, but student
+achievement remains stagnant or in decline. In fact, despite record per-pupil funding of $17,988 in
+2022-23, proficiency rates in math, reading, and science remain low, raising concerns about how
+effectively these resources are being used.
+At the same time, public school enrollment has declined while staffing, particularly for administrative
+roles, has expanded. Additionally, pension costs under the Public Employees Retirement System
+consume a larger share of school budgets, straining district finances and reducing the funds available
+for classroom instruction.
+
+APRIL 2025 // SPENDING MORE, ACHIEVING LESS? OREGON’S EDUCATION CHALLENGE
+
+SUMMARY
+
+This report examines the relationship between education spending and student outcomes, analyzing
+enrollment trends, expenditure allocations, workforce expansion, and student achievement data.
+The findings suggest that while Oregon continues to invest heavily in education, these investments
+have not yielded better results.
+A more strategic, outcome-driven approach to funding and accountability is needed to ensure
+education dollars directly benefit students.
+
+COMMON SENSE INSTITUTE :: COMMONSENSEINSTITUTEOR.ORG
+
+3
+
+Oregon’s K-12 public education system continues to receive more funding year after year even though
+student achievement has remained stagnant or declined. Despite a significant rise in per-pupil spending,
+growing administrative costs and non-instructional expenditures mean classroom instruction is getting a
+smaller share of funding.
+Oregon’s K-12 enrollment has declined for five consecutive years.
+•
+
+After peaking at 581,700 students in 2018-19, public school enrollment fell to 547,400 in 2023-24, a
+drop of more than 34,000 students.
+
+•
+
+The largest single-year decline occurred in 2020-21, with more than 20,000 students leaving the
+public school system. This exodus was largely due to COVID-19 disruptions and a shift toward other
+education options.
+
+•
+
+Enrollment has not rebounded, forcing school districts to consider school closures, budget cuts, and
+staffing adjustments.
+
+APRIL 2025 // SPENDING MORE, ACHIEVING LESS? OREGON’S EDUCATION CHALLENGE
+
+KEY FINDINGS
+
+Despite declining student numbers, education funding continues to rise.
+•
+
+Per-pupil spending reached $17,988 in 2022-23, nearly double the amount spent per student two
+decades ago.
+
+•
+
+Total funding for Oregon’s K-12 system has continued to grow even though fewer students attend
+public schools.
+
+•
+
+The majority of the new funding is going toward retirement benefits and administrative expenditures.
+Classroom instruction now receives a smaller share of school budgets.
+
+COMMON SENSE INSTITUTE :: COMMONSENSEINSTITUTEOR.ORG
+
+4
+
+•
+
+Spending on support services, administration, and pensions has outpaced classroom investments.
+
+•
+
+In 2009-10, 54.8% of per-pupil spending went to instruction; by 2020-21, this share had dropped
+to 44.6%. i
+
+•
+
+The most recent data from the Statewide Report Card also suggests Oregon is spending a smaller
+share of school budgets on classroom instruction, raising concerns about whether education dollars
+are being effectively allocated to improve student learning.
+
+Oregon’s teacher workforce has grown, but administrative roles have expanded at a faster rate.
+•
+
+Between 2013 and 2023, the number of teachers increased by 18% while the number of
+administrators grew by 32.5% and the number of support staff expanded by 59%.
+
+•
+
+The share of teachers among total school staff has fallen, dropping from 44.7% in 2013-14 to 38.9% in
+2023-24, reflecting a shift toward non-instructional roles.
+
+•
+
+Administrative salaries have risen faster than teacher salaries, with superintendent pay increasing by
+70% over the past decade, compared to a 50% increase for teachers.
+
+Student performance has declined, despite record-high education spending.
+•
+
+Oregon once outperformed the national average in 8th-grade reading and math, but by 2024, the
+state had fallen behind ranking 40 among 50 states and Washington D.C.
+
+•
+
+8th-grade math scores declined from 285 in 2009 to 268 in 2024 while 4th-grade reading scores
+dropped from 218 to 207 over the same period.
+
+•
+
+The state’s post-pandemic recovery has been weaker than many other states, with persistent learning
+losses in core subjects.
+
+APRIL 2025 // SPENDING MORE, ACHIEVING LESS? OREGON’S EDUCATION CHALLENGE
+
+While rising overall, the relative share of spending on on classroom instruction has declined over time.
+
+Oregon must shift its education spending priorities.
+•
+
+More funding alone has not driven academic improvement, suggesting that spending decisions, not
+just funding levels, play a crucial role in shaping educational outcomes.
+
+•
+
+Aligning investments with evidence-based practices and ensuring stronger accountability in school
+spending are necessary to improve student performance.
+
+COMMON SENSE INSTITUTE :: COMMONSENSEINSTITUTEOR.ORG
+
+5
+
+Oregon’s public education system faces mounting challenges as student achievement stagnates despite
+increasing investment. Recent statewide assessments reveal that average proficiency across all grade
+levels remain low, with only 42.5% of students proficient in English language arts, 31% in math, and
+29.3% in science. Meanwhile, education funding has continued to rise, prompting concerns about
+whether resources are being allocated and used effectively.ii
+
+APRIL 2025 // SPENDING MORE, ACHIEVING LESS? OREGON’S EDUCATION CHALLENGE
+
+INTRODUCTION
+
+In response to these concerns, Governor Tina Kotek and state lawmakers introduced new
+accountability measures through House Bill 2009 and Senate Bill 141. These initiatives aim to track
+student performance more rigorously and improve fiscal responsibility in schools. The legislation
+includes the addition of two new student success metrics — K-12 regular attendance and 8thgrade math proficiency — that research shows are strong predictors of long-term academic success.
+Additionally, the state is standardizing interim assessments to better measure student growth and help
+districts adjust their strategies in real time.
+At the same time, the financial sustainability of Oregon’s school system is under duress. One of
+the largest fiscal challenges is the rising cost of employee retirement benefits within the Public
+Employees Retirement System. Put simply, retirement benefits are now competing for resources that
+would otherwise go toward classroom instruction, teacher salaries, and student support services.
+With enrollment declining and school budgets increasingly constrained, understanding how funds are
+distributed — and whether they translate into better educational outcomes — is more critical than ever.
+This report examines the connection between education funding and student performance in Oregon,
+analyzing enrollment trends, spending patterns, and key student achievement data. The Common Sense
+Institute’s goal is to provide a clear, data-driven assessment regarding whether increased investment in
+education has led to improved student success and to highlight where policy changes may be needed to
+ensure a more effective and sustainable system.
+
+COMMON SENSE INSTITUTE :: COMMONSENSEINSTITUTEOR.ORG
+
+6
+
+As Figure 1 indicates, Oregon’s K-12 public school system saw steady enrollment growth year after year,
+reaching a peak of 581,700 in the 2018-19 school year. This trend reversed in recent years, with total
+student enrollment declining to approximately 545,088 in 2024-25 — a drop of more than 36,000
+students.
+The largest single-year
+decline occurred in 2020-21
+when enrollment fell by more
+than 20,000 students. A
+report by American Institutes
+for Research (AIR), presented
+to the House Committee
+on Education, analyzed the
+COVID-19 pandemic’s impact
+on school enrollment using
+an interrupted time series
+analysis. It found a statistically
+significant enrollment drop
+due to the pandemic since
+many families opted for
+homeschooling, private
+schools, or charter schools
+instead of public education.
+
+FIGURE 1
+
+COMMON SENSE INSTITUTE :: COMMONSENSEINSTITUTEOR.ORG
+
+APRIL 2025 // SPENDING MORE, ACHIEVING LESS? OREGON’S EDUCATION CHALLENGE
+
+K-12 SCHOOLS HAVE SEEN
+A DECLINE IN ENROLLMENT
+
+7
+
+Even though student numbers are falling, Oregon’s teacher workforce is growing, rising from 26,750
+teachers in 2013-14 to approximately 31,600 in 2023-24. As Figure 2 shows, this increase has led to
+a decline in the studentFIGURE 2
+teacher ratio, from 21.2
+students per teacher in
+2013-14 to 17.3 in 202324. While smaller class sizes
+generally benefit students, the
+disconnect between falling
+enrollment and rising staffing
+levels presents funding
+challenges, especially as
+average teacher salaries have
+also increased significantly
+over the past decade.
+Together, higher staffing levels
+and rising compensation
+amplify the financial strain on
+school budgets.
+
+APRIL 2025 // SPENDING MORE, ACHIEVING LESS? OREGON’S EDUCATION CHALLENGE
+
+While AIR’s analysis suggests enrollment began stabilizing in 2022-23, it focuses on average school
+enrollment rather than total K-12 enrollment. Statewide data actually shows total public school
+enrollment continues to decline. This finding suggests that rather than students returning to the system,
+some schools may have consolidated or closed, causing a redistribution of students that skews
+per-school averages. In fact, school districts such as West Linn-Wilsonville and Beaverton are
+considering school consolidations and closures in response to falling student numbers, though no final
+decisions have been made.iii
+
+Each of these factors has led to budget headaches for local school districts.
+Portland Public Schools, for example, is projecting a $40 million budget shortfall for the 2025-26 school
+year, adding to concerns about the long-term sustainability of Oregon’s public education system under
+the current funding model.iv Indeed, since Oregon’s education funding is partially tied to student count,
+the ongoing enrollment decline highlights the need to assess whether spending is aligned with
+student needs.
+The next section examines how education funding has changed over time and whether rising
+investments are being effectively allocated.
+
+COMMON SENSE INSTITUTE :: COMMONSENSEINSTITUTEOR.ORG
+
+8
+
+Oregon’s School Funding Model: How Schools Get
+Their Money
+K-12 public education in Oregon is funded through a combination of state income taxes, the Oregon
+Lottery, local property taxes, and federal funds. Over time, the balance between these sources has
+shifted, particularly due to state policy changes that reduced the role of local property taxes and
+increased reliance on state-collected revenue.
+Prior to 1990, local property taxes were the primary source of school funding, but the passage of
+Measure 5 in 1990 placed strict limits on property tax rates, significantly reducing the amount of local
+revenue available for schools. This shift was reinforced by in 1997 with the passage of Measure 50, which
+capped the growth of assessed property values, limiting property tax growth even as housing prices
+rose.v
+
+APRIL 2025 // SPENDING MORE, ACHIEVING LESS? OREGON’S EDUCATION CHALLENGE
+
+WHERE OREGON SCHOOLS
+GET THEIR MONEY
+
+As a result, Oregon moved toward a state-controlled funding model, relying more heavily on state
+income taxes and the Oregon Lottery to provide resources for schools. Today the State School Fund
+(SSF) pools these resources and distributes them to school districts based on a weighted funding
+formula that adjusts for:
+•
+
+Students requiring additional resources (e.g., special education, English language learners, students in
+poverty or foster care).
+
+•
+
+District size and rural status, recognizing that smaller and more remote districts often face higher
+operational costs.
+
+While this model aims to equalize funding across districts, challenges remain. Some districts, particularly
+those that previously relied on higher local tax revenue, have faced funding gaps. Other districts fill gaps
+by relying on local option levies and bond measures, leading to continued disparities in school funding
+across the state. Additionally, because Oregon’s education funding now relies heavily on state income
+taxes, school budgets are highly sensitive to economic downturns, making long-term planning more
+difficult for districts.
+
+COMMON SENSE INSTITUTE :: COMMONSENSEINSTITUTEOR.ORG
+
+9
+
+In 2019, Oregon lawmakers approved the Corporate Activity Tax (CAT) through the Student Success Act,
+creating a new revenue stream intended to close longstanding education funding gaps. The CAT is a gross
+receipts tax on businesses with more than $1 million in annual revenue. It now generates approximately $3
+billion per biennium.
+The funds are distributed in line with the original legislation: roughly one-third goes to the General Fund
+to offset income tax reductions included in the Act, while the remaining two-thirds fund new, targeted
+education programs such as the Student Investment Account and Early Learning initiatives. These
+programs aim to expand access to preschool, reduce class sizes, improve student mental health, and
+support historically underserved students.
+However, CAT dollars are not integrated into the State School Fund and are not additive to baseline
+K-12 education funding. As a result, many Oregonians remain confused about why this new tax has not
+resolved broader school funding challenges. The complexity of the funding streams — combined with
+limited public visibility — has led to scepticism, especially as districts continue to face budget shortfalls,
+staff reductions, and possible school closures.
+Improving transparency around how CAT dollars are allocated and how those programs impact student
+outcomes is essential for maintaining public trust and delivering on the tax’s long-term goals.
+
+New State Legislation Impacting School Funding
+and Oversight
+
+APRIL 2025 // SPENDING MORE, ACHIEVING LESS? OREGON’S EDUCATION CHALLENGE
+
+The Corporate Activity Tax: A Major New Funding Source,
+but Limited Visibility
+
+In response to ongoing concerns about education spending and student performance, Oregon
+lawmakers introduced House Bill 2009 and Senate Bill 141 in 2025, which aim to standardize student
+performance metrics and improve financial oversight of school spending.
+Key components of these bills include:
+•
+
+New student success metrics: Schools will now be evaluated on K-12 regular attendance and 8th
+grade math proficiency in addition to existing measures such as 3rd grade reading proficiency, 9th
+grade on-track rates, and high school graduation rates.
+
+•
+
+Standardized interim assessments: School districts will be required to use uniform measures to track
+student progress over time, allowing the state to better assess which districts are improving and which
+are falling behind.
+
+•
+
+State-directed interventions for struggling districts: In districts that fail to meet performance
+benchmarks, the state may require targeted coaching, direct oversight of up to 25% of school funding,
+and stricter financial planning requirements.
+
+COMMON SENSE INSTITUTE :: COMMONSENSEINSTITUTEOR.ORG
+
+10
+
+These legislative proposals signal increasing efforts toward more standardized evaluation of school
+performance and increased financial oversight in order to ensure more generous funding translates to
+measurable improvements in student outcomes.
+
+Rising Pension Costs and Their Impact on School Budgets
+Beyond general school funding, retirement costs have placed increasing pressure on education budgets.
+The Public Employees Retirement System (PERS), which provides pensions for school employees, has
+become a major financial burden, requiring schools to allocate a growing share of their budgets to meet
+pension obligations.
+PERS contributions are consuming a growing share of school budgets — in some cases rivaling teacher
+salary costs:
+•
+
+Portland Public Schools allocated 30% of its payroll to PERS costs, nearly double the national average.1
+
+•
+
+Salem-Keizer School District anticipates 5-7% annual increases in retirement costs, adding to financial
+strain.2
+
+•
+
+Statewide, retirement costs have outpaced total education funding growth over the past decade,
+leading some districts to cut programs or staff to cover pension obligations.3
+
+APRIL 2025 // SPENDING MORE, ACHIEVING LESS? OREGON’S EDUCATION CHALLENGE
+
+Administrative streamlining: The Oregon Department of Education will work to reduce unnecessary
+reporting burdens on school districts and eliminate redundant administrative requirements.
+
+•
+
+These increasing retirement costs create long-term financial challenges for Oregon’s schools, particularly
+as enrollment declines. With fewer students leading to declines in student-based funding formula
+allocations and more money going toward pensions, districts are left struggling to balance budgets while
+maintaining classroom resources.
+The next section will examine how these rising costs translate into spending decisions, including
+how funds are allocated for teacher salaries, classroom instruction, and administrative costs.
+
+https://www.salemreporter.com/2024/11/18/salem-keizer-pers-increase-20-million/
+
+1
+
+https://www.osba.org/schools-face-startling-pers-increases-as-side-accounts-lose-effectiveness/
+
+2
+
+https://katu.com/news/local/beaverton-school-district-announces-30m-budget-deficit-budget-money-staff-teachers-students-money-enrollment-costs
+
+3
+
+COMMON SENSE INSTITUTE :: COMMONSENSEINSTITUTEOR.ORG
+
+11
+
+According to the latest Statewide Report Card, Oregon’s per-pupil spending reached $17,988 in
+2022-23. But while education funding has increased, including the share going to instruction,
+overhead and non-instructional costs have increased even more.
+The most detailed expenditure breakdown available from the National Center for Education Statistics
+(NCES) is for 2019-20, but comparing this data to 5 years ago (2014-15) and 10 years ago (2009-10)
+provides insight into how spending patterns have evolved.
+
+APRIL 2025 // SPENDING MORE, ACHIEVING LESS? OREGON’S EDUCATION CHALLENGE
+
+EXPENDITURES: HOW EDUCATION
+DOLLARS ARE SPENT
+
+As Figure 3 shows, in 2009-10 Oregon spent $11,372 per student, with 54.8% ($6,234) going toward
+instruction. By 2014-15, per-pupil spending had increased to $11,894, but the share going to instruction
+had fallen to 51.3% to $6,096 per student. By 2019-20, Oregon’s total per-pupil spending had surged
+to $17,160 yet only 43.5% ($7,466) was allocated to instruction.
+This decline in the instructional share of spending shows that, while overall funding has increased, the
+proportion reaching classrooms has shrunk.
+FIGURE 3
+Year
+
+Total Spending Per Pupil
+
+Instructional Spending
+
+Instruction Share
+
+2009-10
+
+$11,372
+
+$6,234
+
+54.80%
+
+2014-15
+
+$11,894
+
+$6,096
+
+51.30%
+
+2020-21
+
+$17,913
+
+$7,988
+
+44.59%
+
+While a full breakdown of the latest spending is not yet available, the decade-long trend suggests that a
+growing portion of education funding continues to be absorbed by administrative costs, support services,
+and other non-classroom expenses.
+
+COMMON SENSE INSTITUTE :: COMMONSENSEINSTITUTEOR.ORG
+
+12
+
+Changes in Oregon’s K-12 Workforce and Salaries
+
+APRIL 2025 // SPENDING MORE, ACHIEVING LESS? OREGON’S EDUCATION CHALLENGE
+
+As Figure 4 indicates, over the past two decades, operating expenditures per student have more than
+doubled, rising from $7,494 in 2000-01 to $17,988 in 2022-23. While direct classroom expenditures,
+activities directly related to student-teacher interaction, including teacher salaries, instructional materials,
+and classroom activities, have also grown, increasing by 132% over this period, other categories,
+particularly classroom
+FIGURE 4
+support and central support,1
+have expanded at a faster
+rate. Since 2020-21 alone,
+classroom support spending
+has risen by 35% compared
+to a 16% increase in direct
+classroom expenditures.
+This finding suggests that
+while most funding remains
+concentrated on student
+services, a growing portion
+is being directed to
+non-instructional support
+functions rather than
+direct teaching.
+
+Over the past decade, Oregon’s K-12 workforce has expanded significantly, but not evenly across all
+roles. While the number of teachers has risen, administrative and support staff have increased at a much
+faster rate.
+FIGURE 5
+
+For example, between 2013
+and 2023 the number of:
+•
+
+Teachers increased 18%,
+from 26,750 to 31,601.
+
+•
+
+Administrators increased
+32.5%, from 1,968 to
+2,608.
+
+•
+
+Support staff increased
+59%, from 18,346 to 29,211.
+
+Figure 5 shows the school
+staffing composition changes
+between 2013 and 2023.
+1
+
+Support services are a broad category of K-12 education expenditures that cover all operational spending that isn’t direct student instruction.
+
+COMMON SENSE INSTITUTE :: COMMONSENSEINSTITUTEOR.ORG
+
+13
+
+The share of administrators is not only outpacing growth in the number of teachers. As Figure 6 shows,
+administrators enjoyed the lion’s share of salary increases over the last decade. Specifically:
+•
+
+Average teacher salaries increased 31.5%, from $58,630 in 2013-14 to $77,130 in 2023-24.
+
+•
+
+Average superintendent salaries increased 40%, from $121,875 to $170,556.
+
+•
+
+Average principal salaries increased 31%, from $101,765 to $133,283.
+
+While higher administrator
+salaries may reflect increased
+responsibilities and district
+complexities, the growing
+gap raises questions about
+spending priorities —
+especially as teacher pay
+struggles to keep pace with
+inflation and cost-of-living
+increases.
+
+FIGURE 6
+
+COMMON SENSE INSTITUTE :: COMMONSENSEINSTITUTEOR.ORG
+
+APRIL 2025 // SPENDING MORE, ACHIEVING LESS? OREGON’S EDUCATION CHALLENGE
+
+Salary Growth: Faster Increases for Administrators
+
+14
+
+Despite significant increases in education funding over the past decade, Oregon’s student performance—
+particularly in reading and math—has not improved accordingly, as shown in Figures 7 and 8. This
+performance data comes from the National Assessment of Educational Progress (NAEP), the benchmark
+federal assessment used to measure student achievement across states. This disconnect between funding
+and outcomes raises important questions about whether current spending strategies are effectively
+supporting student achievement.
+•
+
+Grade 8 Reading: In 2009, Oregon’s average score was 265, slightly above the national average of
+262. By 2024, the state’s score had declined to 255, falling below the national average of 257.
+
+•
+
+Grade 4 Reading: Scores decreased from 218 in 2009 to 207 in 2024, with Oregon consistently
+trailing the national average.
+
+•
+
+Grade 8 Math: Oregon’s
+scores peaked at 285
+in 2009, but declined
+to 268 by 2024 while
+the national average
+decreased from
+282 to 272.
+
+•
+
+Grade 4 Math: Scores
+remained relatively stable
+around 238 from 2005
+to 2015, but dropped to
+229 in 2024. The national
+average did experience
+a similar decline, falling
+from 237 to 238 between
+2009 and 2024.
+
+APRIL 2025 // SPENDING MORE, ACHIEVING LESS? OREGON’S EDUCATION CHALLENGE
+
+STUDENT PERFORMANCE: STAGNATION
+DESPITE INCREASED INVESTMENT
+
+FIGURE 7
+
+COMMON SENSE INSTITUTE :: COMMONSENSEINSTITUTEOR.ORG
+
+15
+
+Oregon’s consistent underperformance relative to national averages highlights the need for targeted,
+data-driven interventions. More funding alone does not guarantee better results — strategic, evidencebased investments are necessary to improve instructional quality, support students effectively, and close
+achievement gaps. Ensuring stronger accountability in education spending is key to making sure that
+every dollar spent leads to real gains in student learning.
+Oregon’s policymakers must
+reassess how education
+dollars are allocated in
+order to ensure that funding
+prioritizes direct classroom
+instruction, teacher
+effectiveness, and proven
+strategies that drive academic
+success. Without a shift in
+spending priorities, Oregon
+risks continued stagnation
+in student outcomes despite
+ever-rising costs.
+
+FIGURE 8
+
+COMMON SENSE INSTITUTE :: COMMONSENSEINSTITUTEOR.ORG
+
+APRIL 2025 // SPENDING MORE, ACHIEVING LESS? OREGON’S EDUCATION CHALLENGE
+
+The persistent decline in student performance, despite record increases in education funding, signals a
+fundamental disconnect between investment and outcomes. Simply increasing financial resources has not
+translated into measurable improvements in student achievement.
+
+16
+
+Oregon’s education system is at a crossroads. Despite a significant increase in funding, student
+achievement has remained stagnant, and in many areas, it has declined. The state now spends more than
+it ever has on K-12 education, with per-pupil expenditures reaching $17,988 in 2022-23. Still, student
+proficiency rates in math, reading, and science remain persistently low.
+This disconnect raises serious concerns about how education dollars are allocated and whether they
+are being used effectively to support student success.
+Oregon policymakers must determine whether allocating a growing share of education funding toward
+administrative costs and support services is helping students. While pension obligations are a major and
+growing cost, they largely stem from past commitments and are far less flexible in the short term. The
+expansion of school staff, particularly administrators and support personnel, has outpaced the growth
+in the number of teachers. Additionally, salaries for administrators have risen at a faster rate than salaries
+for educators. Added to these pressures is the fact that the financial burden of the Public Employees
+Retirement System has forced districts to allocate more resources toward retirement benefits, diverting
+funds from programs that directly benefit students.
+
+APRIL 2025 // SPENDING MORE, ACHIEVING LESS? OREGON’S EDUCATION CHALLENGE
+
+BOTTOM LINE
+
+At the same time, Oregon has struggled to recover from pandemic-era learning losses. Unlike many
+states that have implemented targeted interventions to help students regain lost ground, Oregon’s
+students remain behind pre-pandemic achievement levels. Chronic absenteeism, inconsistent academic
+recovery strategies, and delays in intervention efforts have contributed to the state’s slow progress.
+Without decisive action, these trends threaten to further widen achievement gaps and limit
+opportunities for Oregon’s students.
+To drive meaningful improvements in student outcomes, policymakers must put a greater emphasis
+on accountability and strategic investment. Simply increasing funding is not enough. Resources must
+be directed toward initiatives that have a proven impact on student learning, including strengthening
+classroom instruction, supporting teachers, and ensuring that funds are used efficiently.
+Put simply: Oregon policymakers must rethink how education dollars are spent so the focus is on
+student outcomes.
+Without a shift in approach, the state is putting students, and their futures, at risk.
+COMMON SENSE INSTITUTE :: COMMONSENSEINSTITUTEOR.ORG
+
+17
+
+18
+
+COMMON SENSE INSTITUTE :: COMMONSENSEINSTITUTEOR.ORG
+
+APRIL 2025 // SPENDING MORE, ACHIEVING LESS? OREGON’S EDUCATION CHALLENGE
+
+APPENDIX
+
+
+--- OCR of this page (tesseract), not checked by a person: check the PDF before quoting or copying a figure ---
+APPENDIX
+
+The total number of full-time equivalent school employees
+
+2013-14 2014-15 2015-16 2016-17 2017-18 2018-19 2019-20 2020-21 2021-22
+
+Teachers 26,750 27,879 29,794 29,794 29,946 30,176 30,284 30,767 31,655
+Educational Ass. 9235 9733 11,234 11,234 11,612 11,884 12,047 11,170 11,776
+District Administrators 428 452 490 490 484 500 471 502 549
+School Admin. 1540 1609 1717 1717 1743 1775 1844 1854 1976
+School Counselors 957 1040 1163 1163 1256 1323 1363 1502 1636
+Lic. Library and Media 159 165 152 147 158
+Library and Media Sup. 817 849 869 869 686 697 711 668 680
+Psychologists pee 370 369 395 392
+Support Staff 18,346 19,668 20,951 20,951 20,667 22,207 21,116 21,161 22,840
+Special Educ. Spec. 1781 1853 1986 1986 1731 1806 1850 1947 2009
+Total 59,854 63,083 68,203 68,203 68,638 70,901 70,206 70,112 73,671
+
+Source: Oregon Department of Education- Statewide Annual Report Cards
+
+JODNATIVHD NOILVONG S,NODIYXO éS$S$41 DNIAZIHDV ‘JYOW ONIGNAdS // SZOZ 11ddV
+
+COMMON SENSE INSTITUTE :: COMMONSENSEINSTITUTEOR.ORG
+
+18
+i.
+
+NCES, Digest of Education Statistics. The most recent available data on the breakdown of per-pupil spending is from the
+2020–21 school year.
+
+ii.
+
+Oregon Department of Education. (2024). 2024 Oregon state test results data visualizations. Retrieved from
+https://content.govdelivery.com/attachments/ORED/2024/10/02/file_attachments/3019123/2024%20Oregon%20
+State%20Test%20Results%20Data%20Visualizations.pdf
+
+iii.
+
+Silverman, J. (2024, September). Another Portland-area school district will consider closing some schools amid low
+enrollment. The Oregonian/OregonLive. https://www.oregonlive.com/education/2024/09/another-portland-area-schooldistrict-will-consider-closing-some-schools-amid-low-enrollment.html
+
+iv.
+
+Murmurs: PPS superintendent floats school closure talks. (2025, February 12). Willamette Week. Retrieved from:
+https://www.wweek.com/news/2025/02/12/murmurs-pps-superintendent-floats-school-closure-talks/
+
+v.
+
+Oregon Secretary of State. (n.d.). Public education in Oregon. Oregon Blue Book. Retrieved from: https://sos.oregon.gov/
+blue-book/Pages/education-public.aspx
+
+COMMON SENSE INSTITUTE :: COMMONSENSEINSTITUTEOR.ORG
+
+APRIL 2025 // SPENDING MORE, ACHIEVING LESS? OREGON’S EDUCATION CHALLENGE
+
+REFERENCES
+
+19
+
+

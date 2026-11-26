@@ -3,33 +3,93 @@
 import { execFileSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
+import matter from "@11ty/gray-matter";
 import { parse } from "csv-parse/sync";
 import markdownIt from "markdown-it";
-import matter from "@11ty/gray-matter";
 import { icon } from "../_includes/icons.js";
 
 const ROOT = path.resolve(import.meta.dirname, "../../..");
 const REPO = "https://github.com/pietvanzoen/fund-oregon-schools";
-const BLOB = REPO + "/blob/main/";
+const BLOB = `${REPO}/blob/main/`;
 const md = markdownIt({ html: true });
 
 const read = (p) => fs.readFileSync(path.join(ROOT, p), "utf8");
 const csv = (p) => parse(read(p), { columns: true, skip_empty_lines: true, relax_column_count: true });
-const jsonl = (p) => read(p).split("\n").filter((l) => l.trim()).map((l) => JSON.parse(l));
+const jsonl = (p) =>
+  read(p)
+    .split("\n")
+    .filter((l) => l.trim())
+    .map((l) => JSON.parse(l));
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
-const plain = (s) => s.replace(/\[(SRC|VID|NEWS|PPSARCH|DER):[^\]]+\]/g, "").replace(/`([^`]+)`/g, "$1")
-  .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1").replace(/[*_]/g, "").replace(/\s+/g, " ").replace(/ ([.,;)])/g, "$1").trim();
+// Wide tables scroll inside their own region, which takes keyboard focus, never the page. Each region is named after
+// the heading above it, numbered on repeats, so a screen reader's landmark list can tell them apart.
+const scrollTables = (html, title) => {
+  const seen = {};
+  const text = (h) => h[2].replace(/<[^>]+>|\s*\{#[\w-]+\}/g, "").trim();
+  return html.replace(/<table>[\s\S]*?<\/table>/g, (t, at) => {
+    const heads = [...html.slice(0, at).matchAll(/<h([2-6])[^>]*>([\s\S]*?)<\/h\1>/g)];
+    const last = heads.pop();
+    const h2 = last && last[1] !== "2" ? heads.filter((h) => h[1] === "2").pop() : null;
+    let name = `Table: ${last ? [h2, last].filter(Boolean).map(text).join(": ") : esc(title)}`;
+    seen[name] = (seen[name] || 0) + 1;
+    if (seen[name] > 1) name += ` (${seen[name]})`;
+    return `<section class="scroll" tabindex="0" aria-label="${name.replace(/"/g, "&quot;")}">${t}</section>`;
+  });
+};
+const plain = (s) =>
+  s
+    .replace(/\[(SRC|VID|NEWS|PPSARCH|DER):[^\]]+\]/g, "")
+    .replace(/`([^`]+)`/g, "$1")
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+    .replace(/[*_]/g, "")
+    .replace(/\s+/g, " ")
+    .replace(/ ([.,;)])/g, "$1")
+    .trim();
 // Date of the last commit touching these files, for "Last updated" (CI checks out full history)
-const gitDate = (files) => { try { return execFileSync("git", ["log", "-1", "--format=%cs", "--", ...files], { cwd: ROOT, encoding: "utf8" }).trim(); } catch { return ""; } };
+const gitDate = (files) => {
+  try {
+    return execFileSync("git", ["log", "-1", "--format=%cs", "--", ...files], { cwd: ROOT, encoding: "utf8" }).trim();
+  } catch {
+    return "";
+  }
+};
 const AP_MONTH = ["Jan.", "Feb.", "March", "April", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."];
 // AP style dates (STYLE.md); a month alone is spelled out ("August 2026")
-const MONTH = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-const apDate = (iso, end) => { const [y, m, d] = iso.split("-").map(Number); return `${AP_MONTH[m - 1]} ${d}${end ? `-${Number(end)}` : ""}, ${y}`; };
-const apMonth = (iso) => { const [y, m] = iso.split("-").map(Number); return `${MONTH[m - 1]} ${y}`; };
+const MONTH = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
+const apDate = (iso, end) => {
+  const [y, m, d] = iso.split("-").map(Number);
+  return `${AP_MONTH[m - 1]} ${d}${end ? `-${Number(end)}` : ""}, ${y}`;
+};
+const apMonth = (iso) => {
+  const [y, m] = iso.split("-").map(Number);
+  return `${MONTH[m - 1]} ${y}`;
+};
 // Python-Markdown's toc slugify: drop tags and punctuation, spaces to hyphens
-const slug = (h) => h.replace(/<[^>]+>/g, "").replace(/&#(\d+);/g, (_, c) => String.fromCharCode(c)).replace(/&\w+;/g, "")
-  .normalize("NFKD").replace(/[^\x00-\x7f]/g, "").replace(/[^\w\s-]/g, "").trim().toLowerCase().replace(/[-\s]+/g, "-");
-const clip = (s, n = 220) => (s.length <= n ? s : s.slice(0, n).replace(/\s+\S*$/, "") + "…");
+const slug = (h) =>
+  h
+    .replace(/<[^>]+>/g, "")
+    .replace(/&#(\d+);/g, (_, c) => String.fromCharCode(c))
+    .replace(/&\w+;/g, "")
+    .normalize("NFKD")
+    .replace(/[^\p{ASCII}]/gu, "")
+    .replace(/[^\w\s-]/g, "")
+    .trim()
+    .toLowerCase()
+    .replace(/[-\s]+/g, "-");
+const clip = (s, n = 220) => (s.length <= n ? s : `${s.slice(0, n).replace(/\s+\S*$/, "")}…`);
 
 // ------------------------------------------------------------- data
 
@@ -41,7 +101,13 @@ for (const f of fs.readdirSync(path.join(ROOT, "analysis/derived")).filter((f) =
   for (const r of csv(`analysis/derived/${f}`)) derived[`${f.slice(0, -4)}/${r.id}`] = r;
 const srcInfo = {};
 for (const r of queue) srcInfo[r.path.trim()] = { title: r.title, date: r.date, url: r.url };
-for (const [p, r] of Object.entries(manifest)) srcInfo[p] = { ...srcInfo[p], url: r.final_url || r.url, title: srcInfo[p]?.title || r.title, date: srcInfo[p]?.date || r.date };
+for (const [p, r] of Object.entries(manifest))
+  srcInfo[p] = {
+    ...srcInfo[p],
+    url: r.final_url || r.url,
+    title: srcInfo[p]?.title || r.title,
+    date: srcInfo[p]?.date || r.date,
+  };
 
 const people = csv("analysis/people/people.csv");
 const decisions = Object.fromEntries(csv("analysis/decisions.csv").map((r) => [r.id, r]));
@@ -51,15 +117,29 @@ const replaced = new Set(positionRows.map((r) => Number(r.replaces)).filter(Bool
 const positions = positionRows.filter((_, i) => !replaced.has(i + 2));
 const options = csv("analysis/options.csv");
 const glossaryAll = csv("analysis/glossary.csv");
-const termSlug = (t) => t.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const termSlug = (t) =>
+  t
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
 const termTitle = (g) => (g.kind === "acronym" && g.full_name ? `${g.term}: ${g.full_name}` : g.term);
 // The card for a term's page, wherever a link to it appears (Terms on this page, Related pages)
-const termCard = (g) => ({ kind: g.kind === "acronym" ? "Abbreviation" : "Term", icon: "abbr", title: termTitle(g), url: `/glossary/${termSlug(g.term)}/`, lines: [g.tooltip || clip(plain(g.definition), 160)] });
+const termCard = (g) => ({
+  kind: g.kind === "acronym" ? "Abbreviation" : "Term",
+  icon: "abbr",
+  title: termTitle(g),
+  url: `/glossary/${termSlug(g.term)}/`,
+  lines: [g.tooltip || clip(plain(g.definition), 160)],
+});
 // Every row, found in page text for "Terms on this page" and its term page's backlinks. An acronym matches in its
 // own case or as its full name (pages usually write "State School Fund"); words match in any case
 const wordRe = (w, flags) => new RegExp(`(^|[^\\w-])${w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![\\w-])`, flags);
-const termRes = glossaryAll.map((g) => [g, g.kind === "acronym"
-  ? [wordRe(g.term, ""), g.full_name && wordRe(g.full_name, "i")].filter(Boolean) : [wordRe(g.term, "i")]]);
+const termRes = glossaryAll.map((g) => [
+  g,
+  g.kind === "acronym"
+    ? [wordRe(g.term, ""), g.full_name && wordRe(g.full_name, "i")].filter(Boolean)
+    : [wordRe(g.term, "i")],
+]);
 
 // ------------------------------------------------------------- entities (everything that gets a card)
 
@@ -68,24 +148,293 @@ const entities = {};
 for (const p of people) {
   const seat = [p.party && p.district ? `${p.party}-District ${p.district}` : "", p.area].filter(Boolean).join(", ");
   entities[`person:${p.id}`] = {
-    kind: "Person", icon: "person", title: `${TITLE[p.office] || ""} ${p.name}`.trim(), url: `/people/${p.id}/`,
-    lines: [seat || p.office, p.role_2027 && `2027: ${p.role_2027}`].filter(Boolean), name: p.name, row: p,
+    kind: "Person",
+    icon: "person",
+    title: `${TITLE[p.office] || ""} ${p.name}`.trim(),
+    url: `/people/${p.id}/`,
+    lines: [seat || p.office, p.role_2027 && `2027: ${p.role_2027}`].filter(Boolean),
+    name: p.name,
+    row: p,
   };
 }
-const topicFiles = fs.readdirSync(path.join(ROOT, "analysis/topics")).filter((f) => f.endsWith(".md")).sort();
+const topicFiles = fs
+  .readdirSync(path.join(ROOT, "analysis/topics"))
+  .filter((f) => f.endsWith(".md"))
+  .sort();
 for (const f of topicFiles) {
   const { data, content: text } = matter(read(`analysis/topics/${f}`));
   const summary = String(data.summary || "").trim();
-  const h1 = (text.match(/^# (.+)$/m) || [, f])[1].trim();
+  const h1 = (text.match(/^# (.+)$/m)?.[1] ?? f).trim();
   const lead = (text.split(/^## Analysis\s*$/m)[1] || text.split("\n\n")[1] || "").trim().split(/\n\s*\n/)[0];
-  entities[`topic:${f.slice(0, -3)}`] = { kind: "Topic", icon: "topic", title: h1, url: `/${f.slice(0, -3)}/`, lines: [summary || clip(plain(lead))], summary, text,
-    seo: data.title?.trim(), description: data.description?.trim() };
+  entities[`topic:${f.slice(0, -3)}`] = {
+    kind: "Topic",
+    icon: "topic",
+    title: h1,
+    url: `/${f.slice(0, -3)}/`,
+    lines: [summary || clip(plain(lead))],
+    summary,
+    text,
+    seo: data.title?.trim(),
+    description: data.description?.trim(),
+  };
 }
 // Each row links to its term page on first use (a term of art in any case, its card showing the start of its definition).
 // A label, a word this site gives its own meaning, gets no link in running text but still lists in Terms on this page.
 for (const g of glossaryAll.filter((g) => g.kind !== "label"))
-  entities[`term:${g.term}`] = g.kind === "acronym" ? { kind: "Abbreviation", icon: "abbr", title: g.full_name || g.term, url: `/glossary/${termSlug(g.term)}/`, lines: [g.tooltip], term: g.term }
-    : { kind: "Term", icon: "abbr", title: g.term, url: `/glossary/${termSlug(g.term)}/`, lines: [g.tooltip || clip(plain(g.definition), 160)], term: g.term, ci: true };
+  entities[`term:${g.term}`] =
+    g.kind === "acronym"
+      ? {
+          kind: "Abbreviation",
+          icon: "abbr",
+          title: g.full_name || g.term,
+          url: `/glossary/${termSlug(g.term)}/`,
+          lines: [g.tooltip],
+          term: g.term,
+        }
+      : {
+          kind: "Term",
+          icon: "abbr",
+          title: g.term,
+          url: `/glossary/${termSlug(g.term)}/`,
+          lines: [g.tooltip || clip(plain(g.definition), 160)],
+          term: g.term,
+          ci: true,
+        };
+
+// ------------------------------------------------------------- visuals: analysis/visuals/<id>.json (adr/20261125-0411-visuals-as-derived-entities.md)
+
+const dataRows = {}; // "data/<file>/<id>" -> row, for data files with an id column
+for (const f of fs.readdirSync(path.join(ROOT, "analysis/data")).filter((f) => f.endsWith(".csv")))
+  for (const r of csv(`analysis/data/${f}`)) if (r.id) dataRows[`data/${f.slice(0, -4)}/${r.id}`] = r;
+const visuals = Object.fromEntries(
+  fs
+    .readdirSync(path.join(ROOT, "analysis/visuals"))
+    .filter((f) => f.endsWith(".json"))
+    .sort()
+    .map((f) => JSON.parse(read(`analysis/visuals/${f}`)))
+    .map((v) => [v.id, v]),
+);
+for (const v of Object.values(visuals))
+  entities[`visual:${v.id}`] = {
+    kind: v.kind === "flow" ? "Diagram" : "Chart",
+    icon: "calc",
+    title: v.title,
+    url: `/visuals/${v.id}/`,
+    lines: [v.description],
+  };
+
+// A bar's value (as the row writes it, keeping its precision) and citation come from the row it points to
+function barRow(v, b) {
+  const r = b.ref.startsWith("derived/") ? derived[b.ref.slice(8)] : dataRows[b.ref];
+  if (!r) throw new Error(`analysis/visuals/${v.id}.json: no row ${b.ref}`);
+  return b.ref.startsWith("derived/") ? [r.value, `[DER:${b.ref.slice(8)}]`] : [r[v.column], r.source];
+}
+// A flow's groups (containers) and boxes, in reading order: rows top to bottom, groups left to right
+const flowGroups = (v) => (v.rows || []).flatMap((r) => r.groups);
+const flowBoxes = (v) => flowGroups(v).flatMap((g) => g.boxes);
+const tagsIn = (s) => s.match(/\[(?:SRC|VID|NEWS|PPSARCH|DER):[^\]]+\]/g) || [];
+// Every citation a visual rests on, in order, once
+const visualTags = (v) => [
+  ...new Set(
+    [
+      ...(v.bars || []).map((b) => barRow(v, b)[1]),
+      ...(v.notes || []),
+      ...flowBoxes(v).map((b) => b.cite || ""),
+      ...(v.arrows || []).map((a) => a.cite || ""),
+    ].flatMap(tagsIn),
+  ),
+];
+
+// The text version, generated from the same file so it can't disagree with the picture: a list, since it's mostly listing
+function visualText(v) {
+  const li = (items) => `<ul>${items.map((t) => `<li>${t}</li>`).join("")}</ul>`;
+  const notes = v.notes?.length ? `<p>Notes:</p>${li(v.notes.map((n) => esc(plain(n))))}` : "";
+  if (v.kind === "bars")
+    return li(v.bars.map((b) => `${esc(b.label)} (${esc(b.group)}): $${esc(barRow(v, b)[0])} ${esc(v.unit)}`)) + notes;
+  const box = Object.fromEntries(flowBoxes(v).map((b) => [b.id, b]));
+  return (
+    li(
+      flowGroups(v).map(
+        (g) =>
+          `<strong>${esc(g.name)}</strong>` +
+          li(
+            g.boxes.map((b) => {
+              const to = v.arrows
+                .filter((a) => a.from === b.id)
+                .map((a) => `to ${esc(box[a.to].label)}: ${esc(a.label)}${a.open ? ` (${esc(a.open)})` : ""}`);
+              return `${esc(b.label)}${b.open ? ` (not yet confirmed: ${esc(b.open)})` : ""}${to.length ? li(to) : ""}`;
+            }),
+          ),
+      ),
+    ) + notes
+  );
+}
+
+// Charts.css bars: the chart is a data table; the group is written on each bar, so colour isn't the only cue
+function barsHtml(v) {
+  const groups = [...new Set(v.bars.map((b) => b.group))];
+  const rows = v.bars.map((b) => [b, barRow(v, b)[0]]);
+  const max = Math.max(...rows.map(([, val]) => Number(val)));
+  return (
+    `<table class="charts-css bar show-labels data-outside viz-bars"><thead><tr><th scope="col">Bar</th><th scope="col">Amount</th></tr></thead><tbody>` +
+    rows
+      .map(
+        ([b, val]) =>
+          `<tr><th scope="row">${esc(b.label)} <span class="viz-group">${esc(b.group)}</span></th>` +
+          `<td style="--size:${(Number(val) / max).toFixed(3)};--color:var(--g${groups.indexOf(b.group)})"><span class="data">$${esc(val)} ${esc(v.unit)}</span></td></tr>`,
+      )
+      .join("") +
+    `</tbody></table>`
+  ); // the figures' sources are listed on the chart's own page, under Sources
+}
+
+// Each step with its citations, as a list under the diagram on its own page
+function flowSteps(v) {
+  const box = Object.fromEntries(flowBoxes(v).map((b) => [b.id, b]));
+  const goes = (b) =>
+    v.arrows
+      .filter((a) => a.from === b.id)
+      .map(
+        (a) =>
+          `<li${a.open ? ' class="open"' : ""}><span aria-hidden="true">→ </span>` +
+          `<a href="#${v.id}-${a.to}">${esc(box[a.to].label)}</a>: ${esc(a.label)} ${a.cite || `<em>(${esc(a.open)})</em>`}</li>`,
+      )
+      .join("");
+  return `<h3>Each step and its source</h3><ol class="flow">${flowGroups(v)
+    .map(
+      (g) =>
+        `<li class="flow-row"><p class="flow-row-name">${esc(g.name)}</p><ul class="flow-boxes">${g.boxes
+          .map(
+            (b) =>
+              `<li class="flow-box${b.open ? " open" : ""}" id="${v.id}-${b.id}"><p class="flow-label"><strong>${esc(b.label)}</strong> ${b.cite || ""}</p>` +
+              (b.open
+                ? `<p class="flow-open">Not yet confirmed: ${esc(b.open).replace(/#(\d+)/g, `<a href="${REPO}/issues/$1">#$1</a>`)}</p>`
+                : "") +
+              (goes(b) ? `<ul class="flow-to">${goes(b)}</ul>` : "") +
+              `</li>`,
+          )
+          .join("")}</ul></li>`,
+    )
+    .join("")}</ol>`;
+}
+
+// The flow as one SVG drawn at build time, desktop first (on phones it scales down and readers zoom): each row of the file is a band of
+// containers (groups) side by side on a grid of `columns`, boxes sit in a row inside their container, arrows run box to box.
+// shortcut: label width is estimated at 0.56em per character, not measured; if a label overflows, shorten it or widen W
+function flowSvg(v) {
+  const W = 760,
+    M = 2,
+    GUT = 16,
+    PAD = 12,
+    GAP = 10,
+    BAND = 52,
+    FS = 15,
+    LH = 19,
+    TOP = 32;
+  const colW = (W - 2 * M - GUT * (v.columns - 1)) / v.columns;
+  const wrap = (t, w) =>
+    t.split(" ").reduce((out, word) => {
+      const next = out.length ? `${out.at(-1)} ${word}` : word;
+      if (out.length && next.length * FS * 0.56 <= w - 16) out[out.length - 1] = next;
+      else out.push(word);
+      return out;
+    }, []);
+  const at = {},
+    groups = [];
+  let y = M;
+  for (const row of v.rows) {
+    let col = 0,
+      bandH = 0;
+    const band = row.groups.map((g) => {
+      const x = M + col * (colW + GUT),
+        w = g.span * colW + (g.span - 1) * GUT;
+      col += g.span;
+      const bw = Math.min(200, (w - 2 * PAD - GAP * (g.boxes.length - 1)) / g.boxes.length);
+      const lines = g.boxes.map((b) => wrap(b.label, bw));
+      const bh = 14 + LH * Math.max(...lines.map((l) => l.length));
+      let bx = x + (w - (g.boxes.length * bw + GAP * (g.boxes.length - 1))) / 2;
+      g.boxes.forEach((b, i) => {
+        at[b.id] = { x: bx, y: y + TOP, w: bw, h: bh, lines: lines[i], open: !!b.open };
+        bx += bw + GAP;
+      });
+      bandH = Math.max(bandH, TOP + bh + PAD);
+      return { name: g.name, x, w };
+    });
+    for (const g of band) groups.push({ ...g, y, h: bandH });
+    y += bandH + BAND;
+  }
+  const H = y - BAND + M;
+  // Arrows leave the bottom of a box (or its side, to a box in the same row) and spread out where several share a box
+  const outs = {},
+    ins = {};
+  for (const a of v.arrows) {
+    outs[a.from] = [...(outs[a.from] || []), a];
+    ins[a.to] = [...(ins[a.to] || []), a];
+  }
+  for (const id in ins) ins[id].sort((p, q) => at[p.from].x - at[q.from].x);
+  const spread = (list, a, b0, len) => b0 + (len * (list.indexOf(a) + 1)) / (list.length + 1);
+  const paths = v.arrows.map((a) => {
+    const s = at[a.from],
+      t = at[a.to];
+    let d;
+    if (s.y === t.y) {
+      // same row: side to side
+      const [x1, x2] = s.x < t.x ? [s.x + s.w, t.x - 3] : [s.x, t.x + t.w + 3];
+      d = `M${x1} ${s.y + s.h / 2}H${x2}`;
+    } else {
+      const x1 = spread(outs[a.from], a, s.x, s.w),
+        y1 = s.y + s.h,
+        x2 = spread(ins[a.to], a, t.x, t.w),
+        y2 = t.y - 3,
+        mid = (y1 + y2) / 2;
+      d = `M${x1.toFixed(1)} ${y1}C${x1.toFixed(1)} ${mid} ${x2.toFixed(1)} ${mid} ${x2.toFixed(1)} ${y2}`;
+    }
+    return `<path class="fs-arrow${a.open ? " open" : ""}" d="${d}" marker-end="url(#${v.id}-head)"/>`;
+  });
+  const n = (x) => +x.toFixed(1);
+  return (
+    `<div class="flow-svg"><svg viewBox="0 0 ${W} ${n(H)}" role="img" aria-label="${esc(v.title)}. The text version follows." focusable="false">` +
+    `<defs><marker id="${v.id}-head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="fs-head"/></marker></defs>` +
+    groups
+      .map((g) => `<rect class="fs-group" x="${n(g.x)}" y="${n(g.y)}" width="${n(g.w)}" height="${n(g.h)}" rx="12"/>`)
+      .join("") +
+    paths.join("") + // container names go over the arrows, on a halo, so an arrow passing through never hides one
+    groups
+      .map((g) => `<text class="fs-group-name" x="${n(g.x + PAD)}" y="${n(g.y + 21)}">${esc(g.name)}</text>`)
+      .join("") +
+    Object.values(at)
+      .map(
+        (b) =>
+          `<rect class="fs-box${b.open ? " open" : ""}" x="${n(b.x)}" y="${n(b.y)}" width="${n(b.w)}" height="${n(b.h)}" rx="8"/>` +
+          `<text class="fs-label" x="${n(b.x + b.w / 2)}" y="${n(b.y + (b.h - LH * b.lines.length) / 2 + FS)}">${b.lines.map((l, i) => `<tspan x="${n(b.x + b.w / 2)}"${i ? ` dy="${LH}"` : ""}>${esc(l)}</tspan>`).join("")}</text>`,
+      )
+      .join("") +
+    `</svg></div>`
+  );
+}
+
+// One visual, its citation tags left raw for Page.render to turn into chips. On its own page (`here`) it carries its
+// notes and every citation; embedded elsewhere it shows neither and links to that page, so the picture stays readable
+function visualHtml(id, here) {
+  const v = visuals[id];
+  if (!v) throw new Error(`no visual ${id} (analysis/visuals/${id}.json)`);
+  const body = { bars: barsHtml, flow: (v) => flowSvg(v) + (here ? flowSteps(v) : "") }[v.kind];
+  if (!body) throw new Error(`analysis/visuals/${id}.json: unknown kind ${v.kind}`);
+  const html = here ? body(v) : body(v).replace(/ ?\[(?:SRC|VID|NEWS|PPSARCH|DER):[^\]]+\]/g, "");
+  return (
+    `<figure class="box chart viz viz-${v.kind}"${here ? ` aria-label="${esc(v.title)}"` : ""}>${here ? "" : `<figcaption class="chart-title">${esc(v.title)}</figcaption>`}${html}` +
+    (here && v.notes?.length
+      ? `<h3 class="viz-notes-title">Notes</h3><ul class="viz-notes">${v.notes.map((n) => `<li>${esc(n)}</li>`).join("")}</ul>`
+      : "") +
+    (here && v.kind === "flow"
+      ? ""
+      : `<details class="viz-text"><summary>Text version</summary>${visualText(v)}</details>`) + // a flow's page lists each step instead
+    (here
+      ? ""
+      : `<p class="chart-src"><a href="/visuals/${id}/">Sources${v.notes?.length ? " and notes" : ""} for this ${v.kind === "flow" ? "diagram" : "chart"}</a></p>`) +
+    `</figure>`
+  );
+}
 
 // A card for one citation chip; built per chip because the page number differs
 function citeCard(kind, body) {
@@ -93,35 +442,75 @@ function citeCard(kind, body) {
   if (kind === "SRC") {
     const [, p, page] = body.match(/^(.*?)(?:\s+p\.(\d+)(?:-\d+)?)?$/);
     const s = srcInfo[p] || {};
-    const base = s.url || BLOB + "sources/" + p;
+    const base = s.url || `${BLOB}sources/${p}`;
     const url = base + (page && p.toLowerCase().endsWith(".pdf") ? `#page=${page}` : "");
-    return { kind: "Document", title: s.title || path.basename(p), url, external: true,
+    return {
+      kind: "Document",
+      title: s.title || path.basename(p),
+      url,
+      external: true,
       lines: [[s.date && `Dated ${s.date}`, page && `cited at page ${page}`].filter(Boolean).join(", ")],
-      also: { label: "Archived copy", url: BLOB + "sources/" + p }, icon: "doc", chip: `${shortTitle(s.title || path.basename(p))}${page ? `, p.${page}` : ""}`, cls: "src" };
+      also: { label: "Archived copy", url: `${BLOB}sources/${p}` },
+      icon: "doc",
+      chip: `${shortTitle(s.title || path.basename(p))}${page ? `, p.${page}` : ""}`,
+      cls: "src",
+    };
   }
   if (kind === "NEWS") {
     const r = news[body] || {};
-    return { kind: "News report", title: r.title || body, url: r.url, external: true, lines: [[r.outlet, r.date].filter(Boolean).join(", ")],
-      icon: "news", chip: `${(r.outlet || "news").split("/")[0]}`, cls: "news" };
+    return {
+      kind: "News report",
+      title: r.title || body,
+      url: r.url,
+      external: true,
+      lines: [[r.outlet, r.date].filter(Boolean).join(", ")],
+      icon: "news",
+      chip: `${(r.outlet || "news").split("/")[0]}`,
+      cls: "news",
+    };
   }
   if (kind === "DER") {
     const r = derived[body] || {};
     const est = r.kind === "est";
-    return { kind: est ? "Our estimate" : "Our calculation", title: r.label || body, external: true,
-      url: BLOB + "analysis/derived/" + body.split("/")[0] + ".csv", lines: [r.method && `Method: ${r.method}`, r.assumptions && `Assumes: ${r.assumptions}`].filter(Boolean),
-      icon: "calc", chip: est ? "our estimate" : "our sum", cls: "der" };
+    return {
+      kind: est ? "Our estimate" : "Our calculation",
+      title: r.label || body,
+      external: true,
+      url: `${BLOB}analysis/derived/${body.split("/")[0]}.csv`,
+      lines: [r.method && `Method: ${r.method}`, r.assumptions && `Assumes: ${r.assumptions}`].filter(Boolean),
+      icon: "calc",
+      chip: est ? "our estimate" : "our sum",
+      cls: "der",
+    };
   }
   if (kind === "PPSARCH")
-    return { kind: "Other archive", title: "Portland Public Schools research archive", url: "https://github.com/timaelliott/save-our-schools", external: true, lines: [body], icon: "archive", chip: "PPS archive", cls: "pps" };
+    return {
+      kind: "Other archive",
+      title: "Portland Public Schools research archive",
+      url: "https://github.com/timaelliott/save-our-schools",
+      external: true,
+      lines: [body],
+      icon: "archive",
+      chip: "PPS archive",
+      cls: "pps",
+    };
   const [, ts] = body.split("@");
-  return { kind: "Recording", title: path.basename(body.split("@")[0]), url: null, lines: [ts ? `At ${ts}` : ""], icon: "video", chip: `Recording${ts ? `, ${ts}` : ""}`, cls: "vid" };
+  return {
+    kind: "Recording",
+    title: path.basename(body.split("@")[0]),
+    url: null,
+    lines: [ts ? `At ${ts}` : ""],
+    icon: "video",
+    chip: `Recording${ts ? `, ${ts}` : ""}`,
+    cls: "vid",
+  };
 }
 
 function shortTitle(t) {
   t = t.split(" (")[0];
   const head = t.split(": ")[0];
   t = head.length >= 8 ? head : t;
-  return t.length <= 48 ? t : t.slice(0, 46).replace(/\s+\S*$/, "") + "…";
+  return t.length <= 48 ? t : `${t.slice(0, 46).replace(/\s+\S*$/, "")}…`;
 }
 
 // ------------------------------------------------------------- page rendering
@@ -133,26 +522,52 @@ const FILE_ENTITY = Object.fromEntries([
 ]);
 // Files with a page of their own that isn't a topic or person: [link text, where it goes]
 const LINKS = {
-  "decisions.md": ["what's being decided", "/decisions/"], "decisions.csv": ["what's being decided", "/decisions/"],
-  "options.csv": ["what's being decided", "/decisions/"], "positions.csv": ["what's being decided", "/decisions/"],
-  "timeline.md": ["timeline", "/timeline/"], "START.md": ["start here", "/"], "promises.csv": ["promises tracker", "/promises/"],
-  "people/quotes_all.jsonl": ["what they've said", "/quotes/"], "questions.csv": ["questions", "/questions/"],
-  "people/people.csv": ["who decides", "/who-decides/"], "updates.csv": ["what's new", "/updates/"],
-  "about.md": ["about this site", "/about/"], "glossary.csv": ["glossary", "/glossary/"],
-  "data/qem_gap.csv": ["the numbers", "/numbers/"], "data/ssf_history.csv": ["the numbers", "/numbers/"],
+  "decisions.md": ["what's being decided", "/decisions/"],
+  "decisions.csv": ["what's being decided", "/decisions/"],
+  "options.csv": ["what's being decided", "/decisions/"],
+  "positions.csv": ["what's being decided", "/decisions/"],
+  "timeline.md": ["timeline", "/timeline/"],
+  "START.md": ["start here", "/"],
+  "promises.csv": ["promises tracker", "/promises/"],
+  "people/quotes_all.jsonl": ["what they've said", "/quotes/"],
+  "questions.csv": ["questions", "/questions/"],
+  "people/people.csv": ["who decides", "/who-decides/"],
+  "updates.csv": ["what's new", "/updates/"],
+  "about.md": ["about this site", "/about/"],
+  "glossary.csv": ["glossary", "/glossary/"],
+  "data/qem_gap.csv": ["the numbers", "/numbers/"],
+  "data/ssf_history.csv": ["the numbers", "/numbers/"],
   "data/reserves.csv": ["the numbers", "/numbers/"],
 };
 // Plain Markdown links in website/about.md name pages by their old MkDocs file names
-const PAGE_FILES = { "numbers.md": "/numbers/", "quotes.md": "/quotes/", "promises.md": "/promises/", "sources.md": "/sources/",
-  "updates.md": "/updates/", "questions.md": "/questions/", "who-decides.md": "/who-decides/", "glossary.md": "/glossary/" };
+const PAGE_FILES = {
+  "numbers.md": "/numbers/",
+  "quotes.md": "/quotes/",
+  "promises.md": "/promises/",
+  "sources.md": "/sources/",
+  "updates.md": "/updates/",
+  "questions.md": "/questions/",
+  "who-decides.md": "/who-decides/",
+  "glossary.md": "/glossary/",
+};
 
 class Page {
-  constructor(id, url, title) { Object.assign(this, { id, url, title, refs: new Set(), terms: new Set(), cards: {} }); }
+  constructor(id, url, title) {
+    Object.assign(this, { id, url, title, refs: new Set(), terms: new Set(), cards: {} });
+  }
 
-  card(id, data) { this.cards[id] = data; return id; }
+  card(id, data) {
+    this.cards[id] = data;
+    return id;
+  }
 
   // Markdown with our conventions -> HTML
   render(text, srcFile) {
+    text = text.replace(/<!-- site: visual ([\w-]+) -->/g, (_, id) => {
+      this.refs.add(`visual:${id}`);
+      if (visuals[id]?.kind === "bars") this.charts = true; // loads Charts.css
+      return visualHtml(id, this.id === `visual:${id}`);
+    });
     text = text.replace(/`([\w./-]+\.(?:md|csv|jsonl))(#[\w-]+)?`/g, (m, ref, anchor = "") => {
       const key = path.posix.normalize(path.posix.join(path.posix.dirname(srcFile), ref));
       const ent = FILE_ENTITY[key] || FILE_ENTITY[ref];
@@ -161,7 +576,7 @@ class Page {
       return link ? `[${link[0]}](${link[1]}${anchor})` : m;
     });
     // Plain Markdown links to those files, e.g. [About this site](about.md)
-    text = text.replace(/\]\(([\w./-]+\.md)(#[\w-]+)?\)/g, (m, ref, anchor = "") => {
+    text = text.replace(/\]\(([\w./-]+\.md)(#[\w-]+)?\)/g, (_, ref, anchor = "") => {
       const ent = FILE_ENTITY[ref] || FILE_ENTITY[`topics/${ref}`];
       const url = ent ? entities[ent].url : LINKS[ref]?.[1] || PAGE_FILES[ref];
       if (!url) throw new Error(`${srcFile}: link to ${ref} has no page`);
@@ -178,44 +593,59 @@ class Page {
       const id = this.card(`cite:${kind}:${body.trim()}`, c);
       const attrs = `class="cite cite-${c.cls}" data-card="${esc(id)}"`;
       const [first, ...more] = c.chip.split(" "); // the icon stays on the line with the first word
-      const chip = `<span class="nw">${icon(c.icon)}${esc(first)}</span>${more.length ? " " + esc(more.join(" ")) : ""}`;
-      return c.url ? `<a ${attrs} href="${esc(c.url)}" target="_blank" rel="noopener">${chip}</a>` : `<span ${attrs} tabindex="0">${chip}</span>`;
+      const chip = `<span class="nw">${icon(c.icon)}${esc(first)}</span>${more.length ? ` ${esc(more.join(" "))}` : ""}`;
+      return c.url
+        ? `<a ${attrs} href="${esc(c.url)}" target="_blank" rel="noopener">${chip}</a>`
+        : `<span ${attrs} tabindex="0">${chip}</span>`;
     });
     return this.linkMentions(md.render(text));
   }
 
   // Cards on existing entity links; first mention of each person and abbreviation gets a link or <abbr>
   linkMentions(html) {
-    const seen = (this.seen ||= new Set([this.id])); // first mention per page, across every render call
+    this.seen = this.seen || new Set([this.id]); // first mention per page, across every render call
+    const seen = this.seen;
     html = html.replace(/<a href="(\/[^"#]*)(#[^"]*)?"/g, (m, url, anchor = "") => {
       const id = Object.keys(entities).find((k) => entities[k].url === url);
       if (!id) return m;
-      seen.add(id); this.refs.add(id); this.card(id, entities[id]);
+      seen.add(id);
+      this.refs.add(id);
+      this.card(id, entities[id]);
       return `<a href="${url}${anchor}" data-card="${id}"`;
     });
     // One pass per text run, longest name first: "QEM gap" wins over "QEM", and inserted markup is never rescanned
-    const names = Object.entries(entities).filter(([, e]) => e.name || e.term).sort(([, a], [, b]) => (b.name || b.term).length - (a.name || a.term).length);
+    const names = Object.entries(entities)
+      .filter(([, e]) => e.name || e.term)
+      .sort(([, a], [, b]) => (b.name || b.term).length - (a.name || a.term).length);
     const byWord = new Map(names.map(([id, e]) => [e.ci ? e.term.toLowerCase() : e.name || e.term, [id, e]]));
-    const any = new RegExp(`(^|[^\\w-])(${names.map(([, e]) => (e.name || e.term).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})(?![\\w-])`, "gi");
+    const any = new RegExp(
+      `(^|[^\\w-])(${names.map(([, e]) => (e.name || e.term).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})(?![\\w-])`,
+      "gi",
+    );
     const parts = html.split(/(<[^>]+>)/);
-    let skip = 0; // inside <a>, <code>, headings or <abbr>
+    let skip = 0; // inside <a>, <code>, headings, <abbr> or an <svg> (a link there would break the drawing's text)
     for (let i = 0; i < parts.length; i++) {
       const t = parts[i];
       if (t.startsWith("<")) {
-        if (/^<(a|code|h[1-6]|abbr|script)[\s>]/.test(t)) skip++;
-        else if (/^<\/(a|code|h[1-6]|abbr|script)>/.test(t)) skip--;
+        if (/^<(a|code|h[1-6]|abbr|script|svg)[\s>]/.test(t)) skip++;
+        else if (/^<\/(a|code|h[1-6]|abbr|script|svg)>/.test(t)) skip--;
         continue;
       }
       if (skip) continue;
       for (const [g, res] of termRes) {
         const id = `glossary:${termSlug(g.term)}`;
-        if (id !== this.id && !this.terms.has(g) && res.some((re) => re.test(parts[i]))) { this.terms.add(g); this.refs.add(id); }
+        if (id !== this.id && !this.terms.has(g) && res.some((re) => re.test(parts[i]))) {
+          this.terms.add(g);
+          this.refs.add(id);
+        }
       }
       parts[i] = parts[i].replace(any, (m, pre, w) => {
         const ci = byWord.get(w.toLowerCase());
         const [id, e] = byWord.get(w) || (ci?.[1].ci ? ci : []); // names and acronyms match only in their own case
         if (!id || seen.has(id)) return m;
-        seen.add(id); this.card(id, e); this.refs.add(id);
+        seen.add(id);
+        this.card(id, e);
+        this.refs.add(id);
         return `${pre}<a${e.term ? ' class="gl"' : ""} href="${e.url}" data-card="${id}">${w}</a>`;
       });
     }
@@ -232,39 +662,58 @@ function markAnalysis(text) {
     if (!line.trim() || (starts && cur.length)) {
       if (cur.length) blocks.push(cur.join("\n"));
       cur = [];
-      if (!line.trim()) { blocks.push(line); continue; }
+      if (!line.trim()) {
+        blocks.push(line);
+        continue;
+      }
     }
     cur.push(line);
   }
   if (cur.length) blocks.push(cur.join("\n"));
-  return blocks.map((b) => {
-    if (b.startsWith("Analysis:")) {
-      const body = b.slice(9).trim();
-      return `<aside class="analysis">\n\n**Our analysis:** ${body}\n\n</aside>`;
-    }
-    if (b.includes("Analysis:") && !/^\s*[|#]/.test(b)) {
-      const i = b.indexOf("Analysis:");
-      return b.slice(0, i) + '<span class="analysis"><strong>Our analysis:</strong> ' + b.slice(i + 9).trimStart() + "</span>";
-    }
-    return b;
-  }).join("\n");
+  return blocks
+    .map((b) => {
+      if (b.startsWith("Analysis:")) {
+        const body = b.slice(9).trim();
+        return `<aside class="analysis">\n\n**Our analysis:** ${body}\n\n</aside>`;
+      }
+      if (b.includes("Analysis:") && !/^\s*[|#]/.test(b)) {
+        const i = b.indexOf("Analysis:");
+        return (
+          b.slice(0, i) +
+          '<span class="analysis"><strong>Our analysis:</strong> ' +
+          b.slice(i + 9).trimStart() +
+          "</span>"
+        );
+      }
+      return b;
+    })
+    .join("\n");
 }
 
-const table = (head, rows) => `<table><thead><tr>${head.map((h) => `<th>${h}</th>`).join("")}</tr></thead><tbody>${
-  rows.map((r) => `<tr>${r.map((c) => `<td>${c}</td>`).join("")}</tr>`).join("")}</tbody></table>`;
+const table = (head, rows) =>
+  `<table><thead><tr>${head.map((h) => `<th>${h}</th>`).join("")}</tr></thead><tbody>${rows
+    .map((r) => `<tr>${r.map((c) => `<td>${c}</td>`).join("")}</tr>`)
+    .join("")}</tbody></table>`;
 
 // Derived figures as number tiles when there are at most 4 rows with short values; otherwise the table stays
 function numberTiles(text) {
   return text.replace(/(^## Derived figures\s*\n)([\s\S]*?)(?=^## |(?![\s\S]))/m, (all, h, sec) => {
     const lines = sec.split("\n").filter((l) => l.startsWith("|"));
     if (lines.length < 3) return all;
-    const cells = (l) => l.replace(/^\||\|\s*$/g, "").split("|").map((c) => c.trim());
+    const cells = (l) =>
+      l
+        .replace(/^\||\|\s*$/g, "")
+        .split("|")
+        .map((c) => c.trim());
     const head = cells(lines[0]).map((c) => c.toLowerCase());
     const rows = lines.slice(2).map(cells);
     const v = head.indexOf("value");
     const tag = (r) => r.find((c) => c.includes("[DER:"));
     if (v < 1 || rows.length > 4 || rows.some((r) => !r[v] || r[v].length > 16 || !tag(r))) return all;
-    const tiles = rows.map((r) => `<li class="tile"><span class="tile-value">${esc(r[v])}</span><span class="vh">: </span><span class="tile-label">${md.renderInline(r[0])}</span> ${tag(r)}</li>`);
+    const tiles = rows.map(
+      (r) =>
+        `<li class="tile"><span class="tile-value">${esc(r[v])}</span><span class="vh">: </span><span class="tile-label">${md.renderInline(r[0])}</span> ${tag(r)}</li>`,
+    );
     const table = sec.slice(sec.indexOf(lines[0]), sec.indexOf(lines.at(-1)) + lines.at(-1).length);
     return h + sec.replace(table, `<ul class="tiles">${tiles.join("")}</ul>`);
   });
@@ -304,38 +753,88 @@ for (const person of people) {
   const opts = options.filter((r) => r.proposed_by.split(/[;,]\s*/).includes(person.id));
   const decisionLink = (d) => `<a href="/decisions/#${d}">${esc(decisions[d]?.decision || d)}</a>`;
   let gen = "";
-  if (pos.length) gen += `\n\n## Positions on decisions\n\n` + table(["Decision", "Date", "Position", "Source"],
-    pos.map((r) => [decisionLink(r.decision), esc(r.date), esc(r.stance), r.source]));
-  if (opts.length) gen += `\n\n## Options proposed\n\n` + table(["Decision", "Date", "Option", "Source"],
-    opts.map((r) => [decisionLink(r.decision), esc(r.proposed_on), esc(r.option), r.source]));
-  p.body = p.render([h1, "", "<!--summary-->", ...rest].join("\n") + (has ? "" : `\n\n<p class="box no-profile">The archive has no profile of this person yet. Here's their role and the pages that mention them.</p>`) + gen, `people/${person.id}.md`);
+  if (pos.length)
+    gen +=
+      `\n\n## Positions on decisions\n\n` +
+      table(
+        ["Decision", "Date", "Position", "Source"],
+        pos.map((r) => [decisionLink(r.decision), esc(r.date), esc(r.stance), r.source]),
+      );
+  if (opts.length)
+    gen +=
+      `\n\n## Options proposed\n\n` +
+      table(
+        ["Decision", "Date", "Option", "Source"],
+        opts.map((r) => [decisionLink(r.decision), esc(r.proposed_on), esc(r.option), r.source]),
+      );
+  p.body = p.render(
+    [h1, "", "<!--summary-->", ...rest].join("\n") +
+      (has
+        ? ""
+        : `\n\n<p class="box no-profile">The archive has no profile of this person yet. Here's their role and the pages that mention them.</p>`) +
+      gen,
+    `people/${person.id}.md`,
+  );
   // People get a factual card from people.csv, never a prose summary
   const r = person;
-  const office = [r.office + (r.district ? `, District ${r.district}` : ""), PARTY[r.party] || r.party].filter(Boolean).join(" · ");
+  const office = [r.office + (r.district ? `, District ${r.district}` : ""), PARTY[r.party] || r.party]
+    .filter(Boolean)
+    .join(" · ");
   const cites = p.render(r.source, "people/people.csv").replace(/^<p>|<\/p>\n?$/g, "");
-  p.personCard = `<section class="box person-card" aria-label="Office and role"><p class="pc-office">${esc(office)}</p>${r.area ? `<p>${esc(r.area)}</p>` : ""}`
-    + (r.role_2027 ? `<p><span class="year">2027</span><span class="vh">: </span> ${esc(r.role_2027)}</p>` : "")
-    + `<p class="pc-more">${[r.role_2025_26 && `2025-26: ${esc(r.role_2025_26)}`, r.official_page && `<a href="${esc(r.official_page)}">Official page</a>`].filter(Boolean).join(" · ")}</p>`
-    + `<p class="pc-src">Sources: ${cites}</p></section>`;
+  p.personCard =
+    `<section class="box person-card" aria-label="Office and role"><p class="pc-office">${esc(office)}</p>${r.area ? `<p>${esc(r.area)}</p>` : ""}` +
+    (r.role_2027 ? `<p><span class="year">2027</span><span class="vh">: </span> ${esc(r.role_2027)}</p>` : "") +
+    `<p class="pc-more">${[r.role_2025_26 && `2025-26: ${esc(r.role_2025_26)}`, r.official_page && `<a href="${esc(r.official_page)}">Official page</a>`].filter(Boolean).join(" · ")}</p>` +
+    `<p class="pc-src">Sources: ${cites}</p></section>`;
   p.line = [office, r.area].filter(Boolean).join(" · ");
-  Object.assign(p, { seo: fm.title?.trim(), description: fm.description?.trim()
-    || clip((`${e.title} (${[PARTY[r.party], r.district && `${r.office.split(" ")[0]} District ${r.district}`, r.area].filter(Boolean).join(", ") || r.office}): `
-      + `${r.role_2025_26 || r.role_2027}. Their part in Oregon's school budget, cited.`).replace(/\bN\/NE\b/g, "North and Northeast").replace(/\bS\/SW\b/g, "South and Southwest"), 160) });
+  Object.assign(p, {
+    seo: fm.title?.trim(),
+    description:
+      fm.description?.trim() ||
+      clip(
+        (
+          `${e.title} (${[PARTY[r.party], r.district && `${r.office.split(" ")[0]} District ${r.district}`, r.area].filter(Boolean).join(", ") || r.office}): ` +
+          `${r.role_2025_26 || r.role_2027}. Their part in Oregon's school budget, cited.`
+        )
+          .replace(/\bN\/NE\b/g, "North and Northeast")
+          .replace(/\bS\/SW\b/g, "South and Southwest"),
+        160,
+      ),
+  });
   p.sourceFile = has ? file : "analysis/people/people.csv";
   p.stub = !has;
   pages.push(p);
 }
 
 const who = new Page("who", "/who-decides/", "Who decides");
-who.body = who.render(`# Who decides
+who.body =
+  who.render(
+    `# Who decides
 
 The Governor proposes a budget; the Legislature's Ways and Means committee writes the final one. These are the
-people with a role in a decision this archive tracks.`, "who-decides.md") + table(["Name", "Office", "Area", "Role 2025-26", "Role 2027"],
-  people.map((r) => [`<a href="/people/${r.id}/" data-card="person:${r.id}">${esc(r.name)}</a>`, esc([r.office, r.district && `District ${r.district}`, r.party && `(${r.party})`].filter(Boolean).join(" ")),
-    esc(r.area), esc(r.role_2025_26), esc(r.role_2027)]));
-people.forEach((r) => { who.refs.add(`person:${r.id}`); who.card(`person:${r.id}`, entities[`person:${r.id}`]); });
+people with a role in a decision this archive tracks.`,
+    "who-decides.md",
+  ) +
+  table(
+    ["Name", "Office", "Area", "Role 2025-26", "Role 2027"],
+    people.map((r) => [
+      `<a href="/people/${r.id}/" data-card="person:${r.id}">${esc(r.name)}</a>`,
+      esc([r.office, r.district && `District ${r.district}`, r.party && `(${r.party})`].filter(Boolean).join(" ")),
+      esc(r.area),
+      esc(r.role_2025_26),
+      esc(r.role_2027),
+    ]),
+  );
+people.forEach((r) => {
+  who.refs.add(`person:${r.id}`);
+  who.card(`person:${r.id}`, entities[`person:${r.id}`]);
+});
 who.sourceFile = "analysis/people/people.csv";
-Object.assign(who, { seo: "Who decides Oregon's K-12 budget", description: "Gov. Kotek and the Oregon legislators who write the school budget: Ways and Means co-chairs and the Education Subcommittee, with their roles." });
+Object.assign(who, {
+  seo: "Who decides Oregon's K-12 budget",
+  description:
+    "Gov. Kotek and the Oregon legislators who write the school budget: Ways and Means co-chairs and the Education Subcommittee, with their roles.",
+});
 pages.push(who);
 
 // Glossary: one page per row of glossary.csv (search returns terms), and a list of them all
@@ -353,28 +852,91 @@ for (const g of glossaryAll) {
   pages.push(p);
 }
 const glossaryPage = new Page("glossary", "/glossary/", "Glossary");
-glossaryPage.body = `<ul class="box glossary-list">${[...glossaryAll].sort((a, b) => a.term.localeCompare(b.term, "en", { sensitivity: "base" }))
-  .map((g) => `<li><a href="/glossary/${termSlug(g.term)}/">${esc(termTitle(g))}</a>${g.tooltip ? `<p>${esc(g.tooltip)}</p>` : ""}</li>`).join("")}</ul>`;
+glossaryPage.body = `<ul class="box glossary-list">${[...glossaryAll]
+  .sort((a, b) => a.term.localeCompare(b.term, "en", { sensitivity: "base" }))
+  .map(
+    (g) =>
+      `<li><a href="/glossary/${termSlug(g.term)}/">${esc(termTitle(g))}</a>${g.tooltip ? `<p>${esc(g.tooltip)}</p>` : ""}</li>`,
+  )
+  .join("")}</ul>`;
 glossaryPage.sourceFile = "analysis/glossary.csv";
-Object.assign(glossaryPage, { seo: "Glossary of Oregon school funding terms", description: "Plain-language definitions of the abbreviations and budget terms used on this site: SSF, CSL, QEM, JPEA, ESF, biennium, kicker and more, each cited." });
+Object.assign(glossaryPage, {
+  seo: "Glossary of Oregon school funding terms",
+  description:
+    "Plain-language definitions of the abbreviations and budget terms used on this site: SSF, CSL, QEM, JPEA, ESF, biennium, kicker and more, each cited.",
+});
 pages.push(glossaryPage);
+
+// Visuals: one page each, with the visual, its text version, its sources and (in the side column) the pages that use it
+for (const v of Object.values(visuals)) {
+  const p = new Page(`visual:${v.id}`, `/visuals/${v.id}/`, v.title);
+  // One line per document, with a chip for each page cited
+  const docs = new Map();
+  for (const t of visualTags(v)) {
+    const [, k, b] = t.match(/^\[(\w+):(.+)\]$/);
+    const key = k === "SRC" ? `SRC:${b.split(/\s+p\./)[0]}` : `${k}:${b}`;
+    if (!docs.has(key)) docs.set(key, [citeCard(k, b).title, []]);
+    docs.get(key)[1].push(t);
+  }
+  const sources = [...docs.values()].map(([title, tags]) => `- ${title} ${tags.join(" ")}`);
+  p.body = p.render(
+    `# ${v.title}\n\n<!-- site: visual ${v.id} -->\n\n## Sources\n\n${sources.join("\n")}\n`,
+    `visuals/${v.id}.json`,
+  );
+  Object.assign(p, { description: v.description, sourceFile: `analysis/visuals/${v.id}.json`, boxes: true });
+  pages.push(p);
+}
+{
+  const p = new Page("visuals", "/visuals/", "Charts and diagrams");
+  p.body = `<ul class="topic-list box">${Object.values(visuals)
+    .map((v) => {
+      p.card(`visual:${v.id}`, entities[`visual:${v.id}`]);
+      return `<li><a class="list-link" href="/visuals/${v.id}/" data-card="visual:${v.id}">${esc(v.title)}</a><p>${esc(v.description)}</p></li>`;
+    })
+    .join("")}</ul>`;
+  Object.assign(p, {
+    sourceFile: "analysis/visuals",
+    seo: "Charts and diagrams of Oregon school funding",
+    description: "Every chart and diagram on this site, each with a text version and the documents it's drawn from.",
+  });
+  pages.push(p);
+}
 
 // Topics: the list the old placeholder home page held, now its own page
 const topicsPage = new Page("topics", "/topics/", "Topics");
-topicsPage.body = `<ul class="topic-list box">${topicFiles.map((f) => {
-  const e = entities[`topic:${f.slice(0, -3)}`];
-  topicsPage.card(`topic:${f.slice(0, -3)}`, e);
-  return `<li><a class="list-link" href="${e.url}" data-card="topic:${f.slice(0, -3)}">${esc(e.title)}</a><p>${esc(e.lines[0])}</p></li>`;
-}).join("")}</ul>`;
+topicsPage.body = `<ul class="topic-list box">${topicFiles
+  .map((f) => {
+    const e = entities[`topic:${f.slice(0, -3)}`];
+    topicsPage.card(`topic:${f.slice(0, -3)}`, e);
+    return `<li><a class="list-link" href="${e.url}" data-card="topic:${f.slice(0, -3)}">${esc(e.title)}</a><p>${esc(e.lines[0])}</p></li>`;
+  })
+  .join("")}</ul>`;
 topicsPage.sourceFile = "analysis/topics";
-Object.assign(topicsPage, { seo: "Oregon K-12 funding topics", description: "Cited explainers on Oregon school funding: the State School Fund formula, the Quality Education Model, the school reserve, online charters, results and more." });
+Object.assign(topicsPage, {
+  seo: "Oregon K-12 funding topics",
+  description:
+    "Cited explainers on Oregon school funding: the State School Fund formula, the Quality Education Model, the school reserve, online charters, results and more.",
+});
 pages.push(topicsPage);
 
 // ------------------------------------------------------------- pages built from the decision files, data and lists
 
 // A Markdown table; cells may hold Markdown and citation tags
-const mdTable = (head, rows) => [`| ${head.join(" | ")} |`, `|${"---|".repeat(head.length)}`,
-  ...rows.map((r) => `| ${r.map((c) => String(c ?? "").replace(/\|/g, "\\|").replace(/\n/g, " ")).join(" | ")} |`)].join("\n");
+const mdTable = (head, rows) =>
+  [
+    `| ${head.join(" | ")} |`,
+    `|${"---|".repeat(head.length)}`,
+    ...rows.map(
+      (r) =>
+        `| ${r
+          .map((c) =>
+            String(c ?? "")
+              .replace(/\|/g, "\\|")
+              .replace(/\n/g, " "),
+          )
+          .join(" | ")} |`,
+    ),
+  ].join("\n");
 // A people.csv id as a linked name; an organization's name as it is
 const actor = (a) => (entities[`person:${a}`] ? `[${entities[`person:${a}`].name}](/people/${a}/)` : a);
 const questions = csv("analysis/questions.csv");
@@ -383,16 +945,23 @@ const questions = csv("analysis/questions.csv");
 function listPage(id, url, title, text, files, { seo, description, boxes = true, wide = false, srcFile } = {}) {
   const p = new Page(id, url, title);
   // the chart's citation tags stay raw here: render turns them into pills with the rest of the page
-  p.body = p.render(text.replace("<!-- site: funding chart -->", fundingChart((t) => t)), srcFile || path.posix.relative("analysis", files[0]));
+  p.body = p.render(text, srcFile || path.posix.relative("analysis", files[0]));
   Object.assign(p, { sourceFile: files, seo, description, boxes, wide });
   pages.push(p);
   return p;
 }
 
 function questionRows(qs) {
-  const status = (q) => (q.status === "answered" && q.answer ? `answered: \`${q.answer}\``
-    : q.issue ? `${q.status} · [follow the work](${REPO}/issues/${q.issue})` : q.status);
-  return mdTable(["Question", "Asked by", "Needed by", "Status"], qs.map((q) => [q.question, q.asked_by, q.needed_by || "no date", status(q)]));
+  const status = (q) =>
+    q.status === "answered" && q.answer
+      ? `answered: \`${q.answer}\``
+      : q.issue
+        ? `${q.status} · [follow the work](${REPO}/issues/${q.issue})`
+        : q.status;
+  return mdTable(
+    ["Question", "Asked by", "Needed by", "Status"],
+    qs.map((q) => [q.question, q.asked_by, q.needed_by || "no date", status(q)]),
+  );
 }
 
 // What's being decided: decisions.md, with each "<!-- site: decision <id> -->" replaced by that decision's tables
@@ -405,59 +974,124 @@ function questionRows(qs) {
     n++;
     const out = [`**Decided by:** ${d.decided_by} · **Due:** ${d.due} · **Status:** ${d.status} ${d.source}`];
     if (d.outcome) out.push("", `**Outcome:** ${d.outcome} ${d.outcome_source}`);
-    out.push("", "### Baseline and options", "", mdTable(["", "Option", "Proposed by", "When", "Amount", "Formality", "Source"],
-      options.filter((o) => o.decision === id).map((o) => [o.kind, o.option, o.proposed_by ? o.proposed_by.split(/;\s*/).map(actor).join(", ") : "—",
-        o.proposed_on || "—", o.amount || "—", o.formality, o.source])));
+    out.push(
+      "",
+      "### Baseline and options",
+      "",
+      mdTable(
+        ["", "Option", "Proposed by", "When", "Amount", "Formality", "Source"],
+        options
+          .filter((o) => o.decision === id)
+          .map((o) => [
+            o.kind,
+            o.option,
+            o.proposed_by ? o.proposed_by.split(/;\s*/).map(actor).join(", ") : "—",
+            o.proposed_on || "—",
+            o.amount || "—",
+            o.formality,
+            o.source,
+          ]),
+      ),
+    );
     const ps = positions.filter((r) => r.decision === id).sort((a, b) => a.date.localeCompare(b.date));
-    if (ps.length) out.push("", "### Who stands where", "", mdTable(["Who", "When", "On", "Stance", "Source"],
-      ps.map((r) => [actor(r.actor), r.date, optText[r.option] || "the decision as a whole", r.stance, r.source])));
+    if (ps.length)
+      out.push(
+        "",
+        "### Who stands where",
+        "",
+        mdTable(
+          ["Who", "When", "On", "Stance", "Source"],
+          ps.map((r) => [actor(r.actor), r.date, optText[r.option] || "the decision as a whole", r.stance, r.source]),
+        ),
+      );
     const qs = questions.filter((q) => q.decision === id);
     if (qs.length) out.push("", "### Questions", "", questionRows(qs));
-    return out.join("\n") + "\n";
+    return `${out.join("\n")}\n`;
   });
-  if (n !== Object.keys(decisions).length) throw new Error(`decisions.md has ${n} decision markers; decisions.csv has ${Object.keys(decisions).length} rows`);
+  if (n !== Object.keys(decisions).length)
+    throw new Error(`decisions.md has ${n} decision markers; decisions.csv has ${Object.keys(decisions).length} rows`);
   const standing = questions.filter((q) => !q.decision);
-  text = text.replace("<!-- site: standing questions -->\n", (standing.length ? questionRows(standing) : "None yet.") + "\n");
-  const p = listPage("decisions", "/decisions/", "What's being decided", text,
-    ["analysis/decisions.md", "analysis/decisions.csv", "analysis/options.csv", "analysis/positions.csv", "analysis/questions.csv"], {
-      seo: "What's being decided on Oregon K-12 funding, 2027-29", wide: true,
-      description: "The Governor's budget, the State School Fund amount, the Education Stability Fund and the cost model: options, who stands where, open questions, each cited." });
+  text = text.replace(
+    "<!-- site: standing questions -->\n",
+    `${standing.length ? questionRows(standing) : "None yet."}\n`,
+  );
+  listPage(
+    "decisions",
+    "/decisions/",
+    "What's being decided",
+    text,
+    [
+      "analysis/decisions.md",
+      "analysis/decisions.csv",
+      "analysis/options.csv",
+      "analysis/positions.csv",
+      "analysis/questions.csv",
+    ],
+    {
+      seo: "What's being decided on Oregon K-12 funding, 2027-29",
+      wide: true,
+      description:
+        "The Governor's budget, the State School Fund amount, the Education Stability Fund and the cost model: options, who stands where, open questions, each cited.",
+    },
+  );
 }
 
 // Questions: answered first, then open by the date the answer is needed
 {
-  const about = (q) => (q.decision ? `[${decisions[q.decision].decision}](/decisions/#${q.decision})` : "standing research");
+  const about = (q) =>
+    q.decision ? `[${decisions[q.decision].decision}](/decisions/#${q.decision})` : "standing research";
   const answered = questions.filter((q) => q.status === "answered");
-  const open = questions.filter((q) => q.status === "open").sort((a, b) => (a.needed_by || "9999").localeCompare(b.needed_by || "9999"));
-  listPage("questions", "/questions/", "Questions", [
-    "What readers have asked, and what this archive can answer so far. Each question belongs to a [decision](/decisions/) or to "
-    + "standing research. Have a question? Email [hello@oregonedtrail.org](mailto:hello@oregonedtrail.org). Askers are described, never named.",
-    "", "## Answered", "", ...(answered.length ? answered.map((q) => `- **${q.question}** ${about(q)} · \`${q.answer}\``) : ["None yet."]),
-    "", "## Open", "", ...open.map((q) => `- **${q.question}**  \n  ${about(q)} · asked by ${q.asked_by} · needed by ${q.needed_by || "no date"}`
-      + (q.issue ? ` · [follow the work](${REPO}/issues/${q.issue})` : "")),
-  ].join("\n"), ["analysis/questions.csv"], { seo: "Questions about Oregon K-12 funding",
-    description: "What readers have asked about Oregon's 2027-29 school budget, what this archive can answer so far, and what's still open." });
+  const open = questions
+    .filter((q) => q.status === "open")
+    .sort((a, b) => (a.needed_by || "9999").localeCompare(b.needed_by || "9999"));
+  listPage(
+    "questions",
+    "/questions/",
+    "Questions",
+    [
+      "What readers have asked, and what this archive can answer so far. Each question belongs to a [decision](/decisions/) or to " +
+        "standing research. Have a question? Email [hello@oregonedtrail.org](mailto:hello@oregonedtrail.org). Askers are described, never named.",
+      "",
+      "## Answered",
+      "",
+      ...(answered.length ? answered.map((q) => `- **${q.question}** ${about(q)} · \`${q.answer}\``) : ["None yet."]),
+      "",
+      "## Open",
+      "",
+      ...open.map(
+        (q) =>
+          `- **${q.question}**  \n  ${about(q)} · asked by ${q.asked_by} · needed by ${q.needed_by || "no date"}` +
+          (q.issue ? ` · [follow the work](${REPO}/issues/${q.issue})` : ""),
+      ),
+    ].join("\n"),
+    ["analysis/questions.csv"],
+    {
+      seo: "Questions about Oregon K-12 funding",
+      description:
+        "What readers have asked about Oregon's 2027-29 school budget, what this archive can answer so far, and what's still open.",
+    },
+  );
 }
 
 // The numbers: both charts, reserves, and every figure in the data files
 {
   const ssf = csv("analysis/data/ssf_history.csv");
-  const hist = ssf.filter((r) => r.amount_billion && ["legislatively_adopted", "current_service_level"].includes(r.stage) && !r.source.includes("PPSARCH"));
   const nice = (s) => s.replace(/_/g, " ");
-  const tags = (s) => [...new Set(s.match(/\[[^\]]+\]/g) || [])].join(" ");
   const text = `The state's own Quality Education Commission prices what Oregon schools need. These charts use its 2026 report.
 
-<!-- site: funding chart -->
+<!-- site: visual funding-2027-29 -->
 
-${barChart("State School Fund by two-year budget, billions of dollars",
-    hist.map((r) => [r.biennium, Number(r.amount_billion), r.stage === "legislatively_adopted" ? "adopted budget" : "current service level", r.stage === "legislatively_adopted" ? "main" : "base"]),
-    [`2027-29 is the current service level estimate, not an adopted budget. ${tags(hist.map((r) => r.source).join(" "))}`])}
+<!-- site: visual ssf-history -->
 
 ## Reserves
 
-${csv("analysis/data/reserves.csv").map((r) => `### ${r.fund}: about $${r.amount_billion.replace(/^~/, "")} billion (as of ${r.as_of})
+${csv("analysis/data/reserves.csv")
+  .map(
+    (r) => `### ${r.fund}: about $${r.amount_billion.replace(/^~/, "")} billion (as of ${r.as_of})
 
-**To use it:** ${r.conditions_to_use}. ${r.note} ${r.source}`).join("\n\n")}
+**To use it:** ${r.conditions_to_use}. ${r.note} ${r.source}`,
+  )
+  .join("\n\n")}
 
 More: \`topics/reserves.md\`.
 
@@ -465,15 +1099,39 @@ More: \`topics/reserves.md\`.
 
 ### Quality Education Model estimates
 
-${mdTable(["Budget", "Report", "Measure", "$ billion", "Note", "Source"], csv("analysis/data/qem_gap.csv").map((r) => [r.biennium, r.report, nice(r.measure), r.amount_billion, r.note, r.source]))}
+${mdTable(
+  ["Budget", "Report", "Measure", "$ billion", "Note", "Source"],
+  csv("analysis/data/qem_gap.csv").map((r) => [
+    r.biennium,
+    r.report,
+    nice(r.measure),
+    r.amount_billion,
+    r.note,
+    r.source,
+  ]),
+)}
 
 ### State School Fund history
 
-${mdTable(["Budget", "Stage", "$ billion", "Note", "Source"], ssf.map((r) => [r.biennium, nice(r.stage), r.amount_billion || "—", r.note, r.source]))}
+${mdTable(
+  ["Budget", "Stage", "$ billion", "Note", "Source"],
+  ssf.map((r) => [r.biennium, nice(r.stage), r.amount_billion || "—", r.note, r.source]),
+)}
 `;
-  const p = listPage("numbers", "/numbers/", "The numbers", text, ["analysis/data/qem_gap.csv", "analysis/data/ssf_history.csv", "analysis/data/reserves.csv"], {
-    seo: "Oregon school funding numbers, 2027-29", wide: true, srcFile: "numbers.md",
-    description: "State School Fund history, Quality Education Model estimates and Education Stability Fund balances for Oregon's 2027-29 budget, each with its source." });
+  listPage(
+    "numbers",
+    "/numbers/",
+    "The numbers",
+    text,
+    ["analysis/data/qem_gap.csv", "analysis/data/ssf_history.csv", "analysis/data/reserves.csv"],
+    {
+      seo: "Oregon school funding numbers, 2027-29",
+      wide: true,
+      srcFile: "numbers.md",
+      description:
+        "State School Fund history, Quality Education Model estimates and Education Stability Fund balances for Oregon's 2027-29 budget, each with its source.",
+    },
+  );
 }
 
 // What they've said: every quote, with a filter by person
@@ -485,16 +1143,31 @@ ${mdTable(["Budget", "Stage", "$ billion", "Note", "Source"], ssf.map((r) => [r.
     const person = people.find((r) => r.name === q.person);
     const more = person ? ` · <a href="/people/${person.id}/">More on ${esc(q.person.split(" ").at(-1))}</a>` : "";
     const cite = p.render(q.cite, "people/quotes_all.jsonl").replace(/^<p>|<\/p>\n?$/g, "");
-    return `<li class="box quote-card" data-person="${esc(q.person)}"><blockquote>“${esc(q.quote)}”</blockquote>`
-      + `<p class="who"><strong>${esc(q.person)}</strong>, ${esc(q.role || "")} · ${esc(q.date)}</p><p class="context">${esc(q.context || "")} ${cite}${more}</p></li>`;
+    return (
+      `<li class="box quote-card" data-person="${esc(q.person)}"><blockquote>“${esc(q.quote)}”</blockquote>` +
+      `<p class="who"><strong>${esc(q.person)}</strong>, ${esc(q.role || "")} · ${esc(q.date)}</p><p class="context">${esc(q.context || "")} ${cite}${more}</p></li>`
+    );
   });
-  p.body = `<p>Exact words from the officials who decide school funding, each with its source. Pick a person to filter.</p>`
-    + `<div class="filters quote-filter" role="group" aria-label="Filter quotes by person" hidden><ul><li><button type="button" data-person="" aria-pressed="true">Everyone</button></li>`
-    + who.map((w) => `<li><button type="button" data-person="${esc(w)}" aria-pressed="false">${esc(w)}</button></li>`).join("") + `</ul></div>`
-    + `<ul class="quotes">${cards.join("")}</ul>`;
-  for (const r of people) if (quotes.some((q) => q.person === r.name)) { p.refs.add(`person:${r.id}`); p.card(`person:${r.id}`, entities[`person:${r.id}`]); }
-  Object.assign(p, { sourceFile: ["analysis/people/quotes_all.jsonl"], seo: "What officials have said about Oregon school funding", script: "quotes",
-    description: "Verbatim, dated and cited statements on K-12 funding from Gov. Tina Kotek and the Oregon legislators who write the school budget." });
+  p.body =
+    `<p>Exact words from the officials who decide school funding, each with its source. Pick a person to filter.</p>` +
+    `<div class="filters quote-filter" role="group" aria-label="Filter quotes by person" hidden><ul><li><button type="button" data-person="" aria-pressed="true">Everyone</button></li>` +
+    who
+      .map((w) => `<li><button type="button" data-person="${esc(w)}" aria-pressed="false">${esc(w)}</button></li>`)
+      .join("") +
+    `</ul></div>` +
+    `<ul class="quotes">${cards.join("")}</ul>`;
+  for (const r of people)
+    if (quotes.some((q) => q.person === r.name)) {
+      p.refs.add(`person:${r.id}`);
+      p.card(`person:${r.id}`, entities[`person:${r.id}`]);
+    }
+  Object.assign(p, {
+    sourceFile: ["analysis/people/quotes_all.jsonl"],
+    seo: "What officials have said about Oregon school funding",
+    script: "quotes",
+    description:
+      "Verbatim, dated and cited statements on K-12 funding from Gov. Tina Kotek and the Oregon legislators who write the school budget.",
+  });
   pages.push(p);
 }
 
@@ -502,14 +1175,27 @@ ${mdTable(["Budget", "Stage", "$ billion", "Note", "Source"], ssf.map((r) => [r.
 {
   const p = new Page("promises", "/promises/", "Promises tracker");
   const cell = (t) => p.render(t, "promises.csv").replace(/^<p>|<\/p>\n?$/g, "");
-  p.body = p.render(`Pledges and mandates on school outcomes and funding, and whether money came with them. Ratings follow outcomes
-(what was funded, enacted or voted), not intentions: not yet rated, in the works, stalled, kept, compromise or broken.`, "promises.csv")
-    + `<ul class="promises">${csv("analysis/promises.csv").map((r) => `<li class="box promise-card"><p class="promise">${esc(r.promise)}</p>`
-      + `<p class="who"><strong>${esc(r.who)}</strong> · ${esc(r.date)} · ${esc(r.type)}</p><dl><dt>Money attached</dt><dd>${esc(r.money_attached)}</dd>`
-      + `<dt>Status</dt><dd>${esc(r.status)}</dd><dt>Rating</dt><dd>${esc(r.rating + (r.rated_on ? ` (as of ${r.rated_on})` : ""))}</dd>`
-      + `<dt>Source</dt><dd>${cell(r.source)}</dd></dl></li>`).join("")}</ul>`;
-  Object.assign(p, { sourceFile: ["analysis/promises.csv"], seo: "Oregon school goals and mandates tracker",
-    description: "Gov. Kotek's and the state's K-12 goals and mandates (instructional time, SB 141 targets and more), and whether money was attached to each." });
+  p.body =
+    p.render(
+      `Pledges and mandates on school outcomes and funding, and whether money came with them. Ratings follow outcomes
+(what was funded, enacted or voted), not intentions: not yet rated, in the works, stalled, kept, compromise or broken.`,
+      "promises.csv",
+    ) +
+    `<ul class="promises">${csv("analysis/promises.csv")
+      .map(
+        (r) =>
+          `<li class="box promise-card"><p class="promise">${esc(r.promise)}</p>` +
+          `<p class="who"><strong>${esc(r.who)}</strong> · ${esc(r.date)} · ${esc(r.type)}</p><dl><dt>Money attached</dt><dd>${esc(r.money_attached)}</dd>` +
+          `<dt>Status</dt><dd>${esc(r.status)}</dd><dt>Rating</dt><dd>${esc(r.rating + (r.rated_on ? ` (as of ${r.rated_on})` : ""))}</dd>` +
+          `<dt>Source</dt><dd>${cell(r.source)}</dd></dl></li>`,
+      )
+      .join("")}</ul>`;
+  Object.assign(p, {
+    sourceFile: ["analysis/promises.csv"],
+    seo: "Oregon school goals and mandates tracker",
+    description:
+      "Gov. Kotek's and the state's K-12 goals and mandates (instructional time, SB 141 targets and more), and whether money was attached to each.",
+  });
   pages.push(p);
 }
 
@@ -522,52 +1208,123 @@ ${mdTable(["Budget", "Stage", "$ billion", "Note", "Source"], ssf.map((r) => [r.
   const today = new Date().toISOString().slice(0, 10);
   const ahead = rows.filter((r) => r.slice(2, 12) >= today); // month-only dates ("2026-08") count as past once that month starts
   const past = rows.filter((r) => !ahead.includes(r)).reverse();
-  const nice = (r) => r.replace(/^\| (\d{4}-\d{2})(?:-(\d{2}))?(?: to \d{2}-(\d{2}))? \|/, (_, ym, d, end) => `| ${d ? apDate(`${ym}-${d}`, end) : apMonth(ym)} |`);
+  const nice = (r) =>
+    r.replace(
+      /^\| (\d{4}-\d{2})(?:-(\d{2}))?(?: to \d{2}-(\d{2}))? \|/,
+      (_, ym, d, end) => `| ${d ? apDate(`${ym}-${d}`, end) : apMonth(ym)} |`,
+    );
   const head = "| Date | Event | Source |\n|---|---|---|\n";
-  const out = (ahead.length ? `## Coming up\n\n${head}${ahead.map(nice).join("\n")}\n\n` : "") + `## What's happened\n\n${head}${past.map(nice).join("\n")}`;
-  listPage("timeline", "/timeline/", "Timeline", text.replace(head + block, out), ["analysis/timeline.md"], { seo: "Oregon K-12 funding timeline", wide: true,
-    description: "Dated events in Oregon school funding: budgets, revenue forecasts, Quality Education Model reports, executive orders and the 2027-29 budget process." });
+  const out =
+    (ahead.length ? `## Coming up\n\n${head}${ahead.map(nice).join("\n")}\n\n` : "") +
+    `## What's happened\n\n${head}${past.map(nice).join("\n")}`;
+  listPage("timeline", "/timeline/", "Timeline", text.replace(head + block, out), ["analysis/timeline.md"], {
+    seo: "Oregon K-12 funding timeline",
+    wide: true,
+    description:
+      "Dated events in Oregon school funding: budgets, revenue forecasts, Quality Education Model reports, executive orders and the 2027-29 budget process.",
+  });
 }
 
 // Sources: every archived document by publisher, then the news records
 {
-  const SECTION_NAMES = { gov: "Governor's office", legislature: "Oregon Legislature", ode: "Oregon Department of Education and Quality Education Commission",
-    fiscal: "State fiscal and economic offices", districts: "School districts", orgs: "Advocacy groups and associations", reference: "Reference" };
+  const SECTION_NAMES = {
+    gov: "Governor's office",
+    legislature: "Oregon Legislature",
+    ode: "Oregon Department of Education and Quality Education Commission",
+    fiscal: "State fiscal and economic offices",
+    districts: "School districts",
+    orgs: "Advocacy groups and associations",
+    reference: "Reference",
+  };
   const order = Object.keys(SECTION_NAMES);
   const groups = {};
-  for (const p of Object.keys(manifest).sort()) (groups[p.split("/")[0]] ||= []).push(p);
-  const li = (t) => `<li>${t}</li>`;
-  const html = [`<p>Every document the analysis cites. <strong>Original</strong> opens the publisher's copy; <strong>Archived copy</strong> is the version saved in this repository, kept in case the original changes or disappears.</p>`];
-  for (const top of Object.keys(groups).sort((a, b) => ((order.indexOf(a) + 1) || 99) - ((order.indexOf(b) + 1) || 99))) {
-    const name = SECTION_NAMES[top] || top;
-    html.push(`<h2>${esc(name)}</h2><ul class="source-list">${groups[top].map((p) => {
-      const r = manifest[p];
-      return li(`<strong>${esc(srcInfo[p]?.title || path.basename(p))}</strong> · <a href="${esc(r.final_url || r.url)}">Original</a> · <a href="${BLOB}sources/${esc(p)}">Archived copy</a> <span class="muted">${esc(p)}</span>`);
-    }).join("")}</ul>`);
+  for (const p of Object.keys(manifest).sort()) {
+    const g = p.split("/")[0];
+    groups[g] = groups[g] || [];
+    groups[g].push(p);
   }
-  html.push(`<h2>News coverage</h2><p>Summaries are written for this archive; follow the link to read the full story.</p><ul class="source-list">${Object.values(news)
-    .sort((a, b) => (b.date || "").localeCompare(a.date || "")).map((r) => li(`<strong><a href="${esc(r.url)}">${esc(r.title || r.id)}</a></strong> · ${esc(r.outlet || "")}, ${esc(r.date || "")}<br>${esc(r.summary || "")}`)).join("")}</ul>`);
-  html.push(`<h2>Portland Public Schools archive</h2><p>Portland-specific material lives in the <a href="https://github.com/timaelliott/save-our-schools">PPS research archive</a>.</p>`);
+  const li = (t) => `<li>${t}</li>`;
+  const html = [
+    `<p>Every document the analysis cites. <strong>Original</strong> opens the publisher's copy; <strong>Archived copy</strong> is the version saved in this repository, kept in case the original changes or disappears.</p>`,
+  ];
+  for (const top of Object.keys(groups).sort((a, b) => (order.indexOf(a) + 1 || 99) - (order.indexOf(b) + 1 || 99))) {
+    const name = SECTION_NAMES[top] || top;
+    html.push(
+      `<h2>${esc(name)}</h2><ul class="source-list">${groups[top]
+        .map((p) => {
+          const r = manifest[p];
+          return li(
+            `<strong>${esc(srcInfo[p]?.title || path.basename(p))}</strong> · <a href="${esc(r.final_url || r.url)}">Original</a> · <a href="${BLOB}sources/${esc(p)}">Archived copy</a> <span class="muted">${esc(p)}</span>`,
+          );
+        })
+        .join("")}</ul>`,
+    );
+  }
+  html.push(
+    `<h2>News coverage</h2><p>Summaries are written for this archive; follow the link to read the full story.</p><ul class="source-list">${Object.values(
+      news,
+    )
+      .sort((a, b) => (b.date || "").localeCompare(a.date || ""))
+      .map((r) =>
+        li(
+          `<strong><a href="${esc(r.url)}">${esc(r.title || r.id)}</a></strong> · ${esc(r.outlet || "")}, ${esc(r.date || "")}<br>${esc(r.summary || "")}`,
+        ),
+      )
+      .join("")}</ul>`,
+  );
+  html.push(
+    `<h2>Portland Public Schools archive</h2><p>Portland-specific material lives in the <a href="https://github.com/timaelliott/save-our-schools">PPS research archive</a>.</p>`,
+  );
   const p = new Page("sources", "/sources/", "Sources");
   p.body = html.join("\n");
-  Object.assign(p, { sourceFile: ["sources/_manifest.jsonl", "sources/news/index.jsonl"], boxes: true, seo: "Primary sources",
-    description: "Every document in the Oregon K-12 funding archive: budgets, legislative hearing documents, Quality Education Model reports, forecasts and news." });
+  Object.assign(p, {
+    sourceFile: ["sources/_manifest.jsonl", "sources/news/index.jsonl"],
+    boxes: true,
+    seo: "Primary sources",
+    description:
+      "Every document in the Oregon K-12 funding archive: budgets, legislative hearing documents, Quality Education Model reports, forecasts and news.",
+  });
   pages.push(p);
 }
 
 // What's new: updates.csv, newest first (same date: the later row first)
-const updatesSorted = csv("analysis/updates.csv").map((r, i) => [r, i]).sort((a, b) => b[0].date.localeCompare(a[0].date) || b[1] - a[1]).map(([r]) => r);
-const updateItem = (r) => `- **${apDate(r.date)}:** ${r.text}${r.page ? ` → \`${r.page}\`` : ""}${r.pr ? ` · [#${r.pr}](${REPO}/pull/${r.pr})` : ""}`;
-listPage("updates", "/updates/", "What's new", "New research, data and corrections in this archive, newest first. Each entry says what changed for readers, links to it and to the change on GitHub. Changes to how the site looks and works are listed at the end.\n\n"
-  + updatesSorted.filter((r) => r.kind !== "site").map(updateItem).join("\n")
-  + "\n\n## Site changes\n\n" + updatesSorted.filter((r) => r.kind === "site").map(updateItem).join("\n"),
-  ["analysis/updates.csv"], { boxes: false, seo: "What's new in the Oregon K-12 funding archive",
-    description: "New research, data and corrections in the Oregon K-12 funding archive, newest first, each linked, with site changes listed at the end." });
+const updatesSorted = csv("analysis/updates.csv")
+  .map((r, i) => [r, i])
+  .sort((a, b) => b[0].date.localeCompare(a[0].date) || b[1] - a[1])
+  .map(([r]) => r);
+const updateItem = (r) =>
+  `- **${apDate(r.date)}:** ${r.text}${r.page ? ` → \`${r.page}\`` : ""}${r.pr ? ` · [#${r.pr}](${REPO}/pull/${r.pr})` : ""}`;
+listPage(
+  "updates",
+  "/updates/",
+  "What's new",
+  "New research, data and corrections in this archive, newest first. Each entry says what changed for readers, links to it and to the change on GitHub. Changes to how the site looks and works are listed at the end.\n\n" +
+    updatesSorted
+      .filter((r) => r.kind !== "site")
+      .map(updateItem)
+      .join("\n") +
+    "\n\n## Site changes\n\n" +
+    updatesSorted
+      .filter((r) => r.kind === "site")
+      .map(updateItem)
+      .join("\n"),
+  ["analysis/updates.csv"],
+  {
+    boxes: false,
+    seo: "What's new in the Oregon K-12 funding archive",
+    description:
+      "New research, data and corrections in the Oregon K-12 funding archive, newest first, each linked, with site changes listed at the end.",
+  },
+);
 
 // About this site: hand-written, the only page that may say "we" (STYLE.md)
 {
   const { data, content } = matter(read("website/about.md"));
-  const p = listPage("about", "/about/", data.title || "About this site", content, ["website/about.md"], { boxes: false, description: data.description, srcFile: "about.md" });
+  const p = listPage("about", "/about/", data.title || "About this site", content, ["website/about.md"], {
+    boxes: false,
+    description: data.description,
+    srcFile: "about.md",
+  });
   // The sample pills in the text get the same icons as real ones
   const ICON = { src: "doc", news: "news", der: "calc", pps: "archive" };
   p.body = p.body.replace(/<span class="cite cite-(\w+)">/g, (m, k) => `${m}${icon(ICON[k] || "doc")}`);
@@ -577,12 +1334,14 @@ listPage("updates", "/updates/", "What's new", "New research, data and correctio
 const byId = Object.fromEntries(pages.map((p) => [p.id, p]));
 for (const p of pages) p.backlinks = [];
 for (const p of pages) for (const id of p.refs) if (byId[id] && id !== p.id) byId[id].backlinks.push(p);
+// The home page is built last, from START.md, so its visuals are found here
+for (const [, id] of read("analysis/START.md").matchAll(/<!-- site: visual ([\w-]+) -->/g))
+  byId[`visual:${id}`]?.backlinks.push({ id: "home", url: "/", title: "Start here" });
 
 for (const p of pages) {
   // The layout draws the title, so the Markdown H1 goes; the person card takes the placeholder
   p.html = p.body.replace(/^\s*<h1>[\s\S]*?<\/h1>\s*/, "").replace(/(<p>)?<!--summary-->(<\/p>)?/, p.personCard || "");
-  // Wide tables scroll inside their own region, which takes keyboard focus, never the page
-  p.html = p.html.replace(/<table>[\s\S]*?<\/table>/g, (t) => `<div class="scroll" tabindex="0" role="region" aria-label="Table">${t}</div>`);
+  p.html = scrollTables(p.html, p.title);
   const slugs = new Set(["in-short"]);
   const heads = p.summary ? [["in-short", "In short"]] : [];
   // Heading ids as MkDocs made them (Python-Markdown's slugify), so old links to #sections keep working; {#id} sets one
@@ -598,35 +1357,72 @@ for (const p of pages) {
   if (p.id.startsWith("topic:")) {
     // The paragraph before the first section is a note for maintainers (decision, open issues, data files): it goes to the foot
     const i = p.html.indexOf("<h2 ");
-    p.note = p.html.slice(0, i).trim().replace(/(^|[\s(])#(\d+)\b/g, `$1<a href="${REPO}/issues/$2">#$2</a>`);
+    p.note = p.html
+      .slice(0, i)
+      .trim()
+      .replace(/(^|[\s(])#(\d+)\b/g, `$1<a href="${REPO}/issues/$2">#$2</a>`);
     p.html = p.html.slice(i);
     // Each h2 and what follows it becomes one card
     p.html = p.html.replace(/<h2 id="([^"]+)">([\s\S]*?)<\/h2>([\s\S]*?)(?=<h2 id=|$)/g, (_, id, inner, rest) => {
       const [cls, ic, label, note] = SECTIONS[id] || ["box-plain", "", inner];
-      const sub = note || (id === "derived-figures" && rest.includes("cite-der") ? "Our own calculations. Each one links to its method." : "");
+      const sub =
+        note ||
+        (id === "derived-figures" && rest.includes("cite-der")
+          ? "Our own calculations. Each one links to its method."
+          : "");
       return `<section class="box ${cls}" aria-labelledby="${id}"><h2 id="${id}">${ic ? icon(ic, "i h-icon") : ""}${label}</h2>${sub ? `<p class="box-note">${sub}</p>` : ""}${rest}</section>`;
     });
-    if (p.summary) p.html = `<section class="box box-short" aria-labelledby="in-short"><h2 id="in-short">In short</h2>${p.summaryHtml}</section>` + p.html;
+    if (p.summary)
+      p.html =
+        `<section class="box box-short" aria-labelledby="in-short"><h2 id="in-short">In short</h2>${p.summaryHtml}</section>` +
+        p.html;
   }
   p.aside = "";
   if (p.id.startsWith("topic:") && heads.length > 1)
     p.aside += `<nav class="box side-box side-top" aria-labelledby="otp"><h2 class="side-title" id="otp">On this page</h2><ul class="side-list">${heads.map(([id, t]) => `<li><a href="#${id}">${esc(t)}</a></li>`).join("")}</ul></nav>`;
   if (p.backlinks.length)
-    p.aside += `<section class="box side-box" aria-labelledby="rel"><h2 class="side-title" id="rel">Related pages</h2><ul class="side-list">${p.backlinks.sort((a, b) => a.title.localeCompare(b.title))
-      .map((b) => `<li><a class="with-i" href="${b.url}" data-card="${b.id}">${icon(entities[b.id]?.icon || (b.id.startsWith("glossary:") ? "abbr" : "topic"))}<span>${esc(b.title)}</span></a></li>`).join("")}</ul></section>`;
-  if (p.terms.size) { // after Related pages; past 10, the rest behind "See N more"
-    const li = [...p.terms].sort((a, b) => a.term.localeCompare(b.term, "en", { sensitivity: "base" })).map((g) => {
-      const id = p.card(`glossary:${termSlug(g.term)}`, termCard(g));
-      return `<li><a href="/glossary/${termSlug(g.term)}/" data-card="${id}">${esc(termTitle(g))}</a></li>`;
-    });
-    p.aside += `<section class="box side-box" aria-labelledby="gls"><h2 class="side-title" id="gls">Terms on this page</h2><ul class="side-list">${li.slice(0, 10).join("")}</ul>`
-      + (li.length > 10 ? `<details class="read-more"><summary>See ${li.length - 10} more</summary><ul class="side-list">${li.slice(10).join("")}</ul></details>` : "") + `</section>`;
+    p.aside += `<section class="box side-box" aria-labelledby="rel"><h2 class="side-title" id="rel">Related pages</h2><ul class="side-list">${p.backlinks
+      .sort((a, b) => a.title.localeCompare(b.title))
+      .map(
+        (b) =>
+          `<li><a class="with-i" href="${b.url}" data-card="${b.id}">${icon(entities[b.id]?.icon || (b.id.startsWith("glossary:") ? "abbr" : "topic"))}<span>${esc(b.title)}</span></a></li>`,
+      )
+      .join("")}</ul></section>`;
+  if (p.terms.size) {
+    // after Related pages; past 10, the rest behind "See N more"
+    const li = [...p.terms]
+      .sort((a, b) => a.term.localeCompare(b.term, "en", { sensitivity: "base" }))
+      .map((g) => {
+        const id = p.card(`glossary:${termSlug(g.term)}`, termCard(g));
+        return `<li><a href="/glossary/${termSlug(g.term)}/" data-card="${id}">${esc(termTitle(g))}</a></li>`;
+      });
+    p.aside +=
+      `<section class="box side-box" aria-labelledby="gls"><h2 class="side-title" id="gls">Terms on this page</h2><ul class="side-list">${li.slice(0, 10).join("")}</ul>` +
+      (li.length > 10
+        ? `<details class="read-more"><summary>See ${li.length - 10} more</summary><ul class="side-list">${li.slice(10).join("")}</ul></details>`
+        : "") +
+      `</section>`;
   }
-  for (const b of p.backlinks) p.card(b.id, entities[b.id] || (b.term && termCard(b.term)) || { kind: "Page", icon: "topic", title: b.title, url: b.url, lines: [] });
-  if (p.boxes) // each section of a generated page is a white card; the text before the first one stays as the intro
-    p.html = p.html.replace(/<h2 id="([^"]+)">[\s\S]*?(?=<h2 id=|$)/g, (sec, id) => `<section class="box" aria-labelledby="${id}">${sec}</section>`);
+  for (const b of p.backlinks)
+    p.card(
+      b.id,
+      entities[b.id] ||
+        (b.term && termCard(b.term)) || { kind: "Page", icon: "topic", title: b.title, url: b.url, lines: [] },
+    );
+  if (p.boxes)
+    // each section of a generated page is a white card; the text before the first one stays as the intro
+    p.html = p.html.replace(
+      /<h2 id="([^"]+)">[\s\S]*?(?=<h2 id=|$)/g,
+      (sec, id) => `<section class="box" aria-labelledby="${id}">${sec}</section>`,
+    );
   p.meta = (p.note || "") + pageMeta([p.sourceFile].flat());
-  p.back = p.id.startsWith("person:") ? ["Who decides", "/who-decides/"] : p.id.startsWith("glossary:") ? ["Glossary", "/glossary/"] : null;
+  p.back = p.id.startsWith("person:")
+    ? ["Who decides", "/who-decides/"]
+    : p.id.startsWith("glossary:")
+      ? ["Glossary", "/glossary/"]
+      : p.id.startsWith("visual:")
+        ? ["Charts and diagrams", "/visuals/"]
+        : null;
   p.kind = { topic: "Topic", person: "Person", glossary: p.id.includes(":") ? "Term" : "" }[p.id.split(":")[0]] || "";
 }
 
@@ -645,37 +1441,56 @@ const START_ICONS = ["decide", "dollar", "scales", "target"]; // START.md's four
 const cap = (t) => t[0].toUpperCase() + t.slice(1);
 function buildHome() {
   const p = new Page("home", "/", "");
-  const inline = (t) => p.render(t, "START.md").trim().replace(/^<p>([\s\S]*)<\/p>$/, "$1");
+  const inline = (t) =>
+    p
+      .render(t, "START.md")
+      .trim()
+      .replace(/^<p>([\s\S]*)<\/p>$/, "$1");
   const text = read("analysis/START.md");
   const section = (h) => (text.split(new RegExp(`^## ${h}\\s*$`, "m"))[1] || "").split(/^## /m)[0];
-  const items = (block, marker) => block.split("\n").reduce((out, l) => {
-    if (marker.test(l)) out.push(l.replace(marker, ""));
-    else if (/^\s+\S/.test(l) && out.length) out[out.length - 1] += " " + l.trim();
-    return out;
-  }, []);
+  const items = (block, marker) =>
+    block.split("\n").reduce((out, l) => {
+      if (marker.test(l)) out.push(l.replace(marker, ""));
+      else if (/^\s+\S/.test(l) && out.length) out[out.length - 1] += ` ${l.trim()}`;
+      return out;
+    }, []);
   const [, title] = text.match(/^# (.+)$/m);
   p.title = title.trim();
 
   // Top band: the paragraphs between the title and the first list (the masthead already shows the tagline)
-  const intro = text.split(/^# .+$/m)[1].split(/^- /m)[0].split(/\n\s*\n/).map((t) => t.trim()).filter(Boolean)
+  const intro = text
+    .split(/^# .+$/m)[1]
+    .split(/^- /m)[0]
+    .split(/\n\s*\n/)
+    .map((t) => t.trim())
+    .filter(Boolean)
     .filter((t) => plain(t) !== TAGLINE);
   const runBy = intro.findIndex((t) => t.startsWith("Run by "));
-  const hero = `<section class="hero"><div class="wrap"><h1>${esc(p.title)}</h1>`
-    + intro.map((t, i) => `<p class="${i === runBy ? "run-by" : "lead"}">${inline(t)}</p>`).join("")
-    + `<form class="search" role="search" action="/search/" method="get"><label class="vh" for="q">Search topics, people and terms</label>`
-    + `<input id="q" name="q" type="search" placeholder="Search topics, people and terms" autocomplete="off">`
-    + `<button type="submit" class="search-go">${icon("search")}<span class="vh">Search</span></button></form></div></section>`;
+  const hero =
+    `<section class="hero"><div class="wrap"><h1>${esc(p.title)}</h1>` +
+    intro.map((t, i) => `<p class="${i === runBy ? "run-by" : "lead"}">${inline(t)}</p>`).join("") +
+    `<form class="search" role="search" action="/search/" method="get"><label class="vh" for="q">Search topics, people and terms</label>` +
+    `<input id="q" name="q" type="search" placeholder="Search topics, people and terms" autocomplete="off">` +
+    `<button type="submit" class="search-go">${icon("search")}<span class="vh">Search</span></button></form></div></section>`;
 
   // Coming up: the next dated row of timeline.md, as on the live site
   const today = new Date().toISOString().slice(0, 10);
-  const next = [...read("analysis/timeline.md").matchAll(/^\| (\d{4}-\d{2}-\d{2})(?: to \d{2}-(\d{2}))? \| ([^|]+) \| ([^|]*) \|$/gm)]
-    .find((m) => m[1] >= today);
-  const coming = next ? `<section class="coming-up" aria-labelledby="coming-up">${icon("calendar", "i cu-icon")}<div class="cu-text">`
-    + `<h2 id="coming-up">Coming up</h2><p class="cu-event"><strong>${apDate(next[1], next[2])}:</strong> ${inline(next[3].trim() + " " + next[4])}</p></div>`
-    + `<p class="cu-more"><a href="/timeline/">All dates</a></p></section>` : "";
+  const next = [
+    ...read("analysis/timeline.md").matchAll(
+      /^\| (\d{4}-\d{2}-\d{2})(?: to \d{2}-(\d{2}))? \| ([^|]+) \| ([^|]*) \|$/gm,
+    ),
+  ].find((m) => m[1] >= today);
+  const coming = next
+    ? `<section class="coming-up" aria-labelledby="coming-up">${icon("calendar", "i cu-icon")}<div class="cu-text">` +
+      `<h2 id="coming-up">Coming up</h2><p class="cu-event"><strong>${apDate(next[1], next[2])}:</strong> ${inline(`${next[3].trim()} ${next[4]}`)}</p></div>` +
+      `<p class="cu-more"><a href="/timeline/">All dates</a></p></section>`
+    : "";
 
   // Start here: START.md's four entry points as cards
-  const starts = text.split(/^- /m).slice(1, 5).map((b) => b.split("\n\n")[0].replace(/\n\s+/g, " ").trim())
+  const starts = text
+    .split(/^- /m)
+    .slice(1, 5)
+    .map((b) => b.split("\n\n")[0].replace(/\n\s+/g, " ").trim())
     .map((b, i) => {
       const [, name, desc, ref] = b.match(/^\S+\s+\*\*(.+?):\*\*\s*(.+?)\s*→\s*`([^`]+)`/);
       const ent = FILE_ENTITY[ref] && entities[FILE_ENTITY[ref]];
@@ -686,34 +1501,47 @@ function buildHome() {
 
   // Key numbers: "**Label:** $X billion" bullets as tiles, "Analysis:" as the yellow box, the rest as a list
   const keyBlock = section("Key numbers for 2027-29");
-  const tiles = [], rest = [];
+  const tiles = [],
+    rest = [];
   let analysis = "";
   for (const it of items(keyBlock, /^- /)) {
     const t = it.match(/^\*\*(.+?):\*\*\s*\$([\d.,]+) (billion|million)([\s\S]*)$/);
     if (t) {
       // The tile keeps the bullet's first sentence (the figure and what it is); later sentences go to the list below
-      const [, own, after] = t[4].match(/^([\s\S]*?\])\.\s+([A-Z][\s\S]*)$/) || [, t[4].replace(/\.\s*$/, ""), ""];
-      tiles.push(`<li class="kn-tile"><p class="kn-label">${esc(t[1])}</p><p class="kn-fig"><span class="kn-num">$${t[2]}</span> <span class="kn-unit">${t[3]}</span></p><p class="kn-rest">${inline(own.replace(/^[,.]?\s*/, ""))}</p></li>`);
+      const [, own, after] = t[4].match(/^([\s\S]*?\])\.\s+([A-Z][\s\S]*)$/) || [null, t[4].replace(/\.\s*$/, ""), ""];
+      tiles.push(
+        `<li class="kn-tile"><p class="kn-label">${esc(t[1])}</p><p class="kn-fig"><span class="kn-num">$${t[2]}</span> <span class="kn-unit">${t[3]}</span></p><p class="kn-rest">${inline(own.replace(/^[,.]?\s*/, ""))}</p></li>`,
+      );
       if (after.trim()) rest.push(`<li>${inline(after.trim())}</li>`);
-    }
-    else if (it.startsWith("Analysis:")) analysis = `<p class="analysis kn-think"><strong>Our analysis:</strong> ${inline(it.slice(9).trim())}</p>`;
+    } else if (it.startsWith("Analysis:"))
+      analysis = `<p class="analysis kn-think"><strong>Our analysis:</strong> ${inline(it.slice(9).trim())}</p>`;
     else rest.push(`<li>${inline(it)}</li>`);
   }
   const more = (keyBlock.match(/^More: (.+)$/m) || [])[1];
-  const numbers = `<section class="home-sec" aria-labelledby="key-numbers-for-2027-29"><h2 id="key-numbers-for-2027-29">Key numbers for 2027-29</h2>`
-    + `<p class="sec-note">Each figure is from the document in its pill.</p><ul class="kn-tiles">${tiles.join("")}</ul>${analysis}`
-    + (keyBlock.includes("<!-- site: funding chart -->") ? fundingChart(inline) : "")
-    + `<ul class="kn-rest-list">${rest.join("")}</ul>${more ? `<p class="sec-note">More: ${inline(more)}</p>` : ""}</section>`;
+  const numbers =
+    `<section class="home-sec" aria-labelledby="key-numbers-for-2027-29"><h2 id="key-numbers-for-2027-29">Key numbers for 2027-29</h2>` +
+    `<p class="sec-note">Each figure is from the document in its pill.</p><ul class="kn-tiles">${tiles.join("")}</ul>${analysis}` +
+    (keyBlock.match(/<!-- site: visual [\w-]+ -->/g) || []).map((m) => p.render(m, "START.md")).join("") +
+    `<ul class="kn-rest-list">${rest.join("")}</ul>${more ? `<p class="sec-note">More: ${inline(more)}</p>` : ""}</section>`;
 
   // What's new: the latest three research or correction rows of updates.csv, newest first (same date: the later row first)
-  const ups = csv("analysis/updates.csv").map((r, i) => [r, i]).filter(([r]) => r.kind !== "site").sort((a, b) => (b[0].date + String(b[1]).padStart(5, "0")).localeCompare(a[0].date + String(a[1]).padStart(5, "0")))
-    .slice(0, 3).map(([r]) => `<li class="box update"><p class="up-date">${apDate(r.date)}</p><p>${inline(r.text)}</p></li>`);
+  const ups = csv("analysis/updates.csv")
+    .map((r, i) => [r, i])
+    .filter(([r]) => r.kind !== "site")
+    .sort((a, b) =>
+      (b[0].date + String(b[1]).padStart(5, "0")).localeCompare(a[0].date + String(a[1]).padStart(5, "0")),
+    )
+    .slice(0, 3)
+    .map(([r]) => `<li class="box update"><p class="up-date">${apDate(r.date)}</p><p>${inline(r.text)}</p></li>`);
 
   // Read first: the first four, then the rest behind "All eight"
   const reads = items(section("Read first"), /^\d+\. /).map((t) => `<li>${inline(t)}</li>`);
   const n = reads.length;
-  const readFirst = `<ol class="box read-first">${reads.slice(0, 4).join("")}</ol>` + (n > 4
-    ? `<details class="read-more"><summary>All ${WORDS[n] || n}</summary><ol class="box read-first" start="5">${reads.slice(4).join("")}</ol></details>` : "");
+  const readFirst =
+    `<ol class="box read-first">${reads.slice(0, 4).join("")}</ol>` +
+    (n > 4
+      ? `<details class="read-more"><summary>All ${WORDS[n] || n}</summary><ol class="box read-first" start="5">${reads.slice(4).join("")}</ol></details>`
+      : "");
 
   // Look things up: the Reference list
   const refs = items(section("Reference"), /^- /).map((t) => {
@@ -722,55 +1550,87 @@ function buildHome() {
     return `<li class="look"><a href="${url}">${esc(name[0].toUpperCase() + name.slice(1))}</a><p>${inline(cap(desc))}</p></li>`;
   });
 
-  p.html = coming
-    + `<section class="home-sec" aria-labelledby="start-here"><h2 id="start-here">Start here</h2><ul class="start-cards">${starts.join("")}</ul></section>`
-    + numbers
-    + `<div class="home-two"><section class="home-sec" aria-labelledby="latest-updates"><h2 id="latest-updates">What's new</h2><ol class="updates">${ups.join("")}</ol><p class="sec-more"><a href="/updates/">All updates</a></p></section>`
-    + `<section class="home-sec" aria-labelledby="read-first"><h2 id="read-first">Read first</h2>${readFirst}</section></div>`
-    + `<section class="home-sec" aria-labelledby="reference"><h2 id="reference">Look things up</h2><ul class="look-up">${refs.join("")}</ul></section>`;
-  p.html = p.html.replace(/<table>[\s\S]*?<\/table>/g, (t) => `<div class="scroll" tabindex="0" role="region" aria-label="Table">${t}</div>`);
+  p.html =
+    coming +
+    `<section class="home-sec" aria-labelledby="start-here"><h2 id="start-here">Start here</h2><ul class="start-cards">${starts.join("")}</ul></section>` +
+    numbers +
+    `<div class="home-two"><section class="home-sec" aria-labelledby="latest-updates"><h2 id="latest-updates">What's new</h2><ol class="updates">${ups.join("")}</ol><p class="sec-more"><a href="/updates/">All updates</a></p></section>` +
+    `<section class="home-sec" aria-labelledby="read-first"><h2 id="read-first">Read first</h2>${readFirst}</section></div>` +
+    `<section class="home-sec" aria-labelledby="reference"><h2 id="reference">Look things up</h2><ul class="look-up">${refs.join("")}</ul></section>`;
+  p.html = scrollTables(p.html, p.title);
   p.hero = hero;
   p.meta = pageMeta(["analysis/START.md"]);
   return p;
-}
-
-// Horizontal bars from zero, the label above each bar so it stays legible on phones. bars: [label, value, sublabel, "base"|"main"]
-function barChart(title, bars, notes) {
-  const max = Math.max(...bars.map((b) => b[1]));
-  return `<figure class="box chart"><figcaption class="chart-title">${esc(title)}</figcaption><ul class="bars">`
-    + bars.map(([label, val, sub, cls]) => `<li class="bar-row"><p class="bar-label"><strong>${esc(label)}</strong> <span>${esc(sub)}</span></p>`
-      + `<p class="bar"><span class="bar-fill bar-${cls}" style="width:calc((100% - 8.5em) * ${(val / max).toFixed(3)})"></span><span class="bar-val">$${val.toFixed(2)} billion</span></p></li>`).join("")
-    + `</ul>${notes.map((n) => `<p class="chart-src">${n}</p>`).join("")}</figure>`;
-}
-
-// The 2027-29 funding benchmarks (home page, What's being decided, The numbers). inline renders its citation tags
-function fundingChart(inline) {
-  const qem = Object.fromEntries(csv("analysis/data/qem_gap.csv").filter((r) => r.biennium === "2027-29").map((r) => [r.measure, r]));
-  const adopted = csv("analysis/data/ssf_history.csv").find((r) => r.biennium === "2025-27" && r.stage === "legislatively_adopted");
-  const v = (m) => Number(qem[m].amount_billion);
-  const srcs = [...new Set([qem.status_quo_state_funding, qem.full_qem_state_funding, qem.ssf_csl_in_report].flatMap((r) => r.source.match(/\[[^\]]+\]/g)))].join(" ");
-  return barChart("State funding for K-12, billions of dollars: 2025-27 adopted and 2027-29 estimates", [
-    ["Adopted for 2025-27", Number(adopted.amount_billion), "State School Fund", "base"],
-    ["Current service level", v("ssf_csl_in_report"), "State School Fund · Department of Administrative Services estimate", "base"],
-    ["Keep 2025-27 service levels", v("status_quo_state_funding"), "Commission estimate · all core state funding", "main"],
-    ["Meet the state's goals", v("full_qem_state_funding"), "Commission estimate · all core state funding", "main"],
-  ], ["The first two bars are the State School Fund alone. The last two, the Quality Education Commission's estimates, count the State School Fund and other state money. The commission leaves what counts as adequate to the Legislature.",
-    `2027-29 figures: 2026 Quality Education Model report ${inline(srcs)}. 2025-27: ${inline(adopted.source)}`]);
 }
 
 const home = buildHome();
 
 const nav = {
   topics: topicFiles.map((f) => entities[`topic:${f.slice(0, -3)}`]),
-  people: people.map((r) => ({ ...entities[`person:${r.id}`], stub: !fs.existsSync(path.join(ROOT, `analysis/people/${r.id}.md`)) })),
+  people: people.map((r) => ({
+    ...entities[`person:${r.id}`],
+    stub: !fs.existsSync(path.join(ROOT, `analysis/people/${r.id}.md`)),
+  })),
 };
 
 export default {
-  pages: pages.map((p) => ({ url: p.url, title: p.title, html: p.html, aside: p.aside, meta: p.meta, back: p.back, description: p.description || p.summary || "", stub: !!p.stub,
-    seo: p.seo || "", wide: !!p.wide, script: p.script || "", crumbs: p.id.startsWith("topic:") ? [["Home", "/"], ["Topics", "/topics/"]] : [["Home", "/"]],
+  pages: pages.map((p) => ({
+    url: p.url,
+    title: p.title,
+    html: p.html,
+    aside: p.aside,
+    meta: p.meta,
+    back: p.back,
+    description: p.description || p.summary || "",
+    stub: !!p.stub,
+    seo: p.seo || "",
+    wide: !!p.wide,
+    charts: !!p.charts,
+    script: p.script || "",
+    crumbs: p.id.startsWith("topic:")
+      ? [
+          ["Home", "/"],
+          ["Topics", "/topics/"],
+        ]
+      : [["Home", "/"]],
     search: p.kind ? { kind: p.kind, line: p.line || "" } : null,
-    cards: Object.fromEntries(Object.entries(p.cards).map(([k, c]) => [k, { kind: c.kind, icon: c.icon, title: c.title, url: c.url, external: !!c.external, lines: c.lines.filter(Boolean), also: c.also }])) })),
+    cards: Object.fromEntries(
+      Object.entries(p.cards).map(([k, c]) => [
+        k,
+        {
+          kind: c.kind,
+          icon: c.icon,
+          title: c.title,
+          url: c.url,
+          external: !!c.external,
+          lines: c.lines.filter(Boolean),
+          also: c.also,
+        },
+      ]),
+    ),
+  })),
   nav: { topics: nav.topics.map(({ text, ...t }) => t), people: nav.people },
-  home: { title: home.title, hero: home.hero, description: "Primary documents and cited analysis on Oregon K-12 school funding: how much the state spends, how it's shared and what it buys, for the 2027-29 budget.", html: home.html, meta: home.meta,
-    cards: Object.fromEntries(Object.entries(home.cards).map(([k, c]) => [k, { kind: c.kind, icon: c.icon, title: c.title, url: c.url, external: !!c.external, lines: c.lines.filter(Boolean), also: c.also }])) },
+  home: {
+    title: home.title,
+    hero: home.hero,
+    charts: !!home.charts,
+    description:
+      "Primary documents and cited analysis on Oregon K-12 school funding: how much the state spends, how it's shared and what it buys, for the 2027-29 budget.",
+    html: home.html,
+    meta: home.meta,
+    cards: Object.fromEntries(
+      Object.entries(home.cards).map(([k, c]) => [
+        k,
+        {
+          kind: c.kind,
+          icon: c.icon,
+          title: c.title,
+          url: c.url,
+          external: !!c.external,
+          lines: c.lines.filter(Boolean),
+          also: c.also,
+        },
+      ]),
+    ),
+  },
 };

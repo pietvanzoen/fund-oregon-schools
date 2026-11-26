@@ -1,0 +1,6 @@
+{
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "vcs": { "enabled": true, "clientKind": "git", "useIgnoreFile": true },
+  "files": { "includes": ["src/**/*.js", "eleventy.config.js"] },
+  "formatter": { "indentStyle": "space", "lineWidth": 120 }
+}

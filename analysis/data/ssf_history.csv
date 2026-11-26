@@ -1,8 +1,8 @@
-biennium,stage,amount_billion,note,source
-2023-25,legislatively_adopted,10.2,State School Fund,[NEWS:NEWS-20241203-osba-1]
-2025-27,governor_recommended,11.36,"11% increase over 2023-25; GRB released Dec 2, 2024",[NEWS:NEWS-20241203-osba-1]
-2025-27,legislatively_adopted,11.36,"SB 5516; $11,359,442,690 total funds",[SRC:fiscal/lfo/2025-07_lab-summary-2025-27.pdf p.1]
-2025-27,governor_csl_proposal,,"Kotek proposal to raise the SSF current service level ~$515M above the original calculation",[SRC:gov/press/2024_ssf-csl-proposal.html]
-2027-29,current_service_level,12.56,"DAS CSL incl. SSA transfer ($12,558,429,348) as used in the 2026 QEM report",[SRC:ode/qec/2026_qem_report.pdf p.103]
-2027-29,current_service_level,12.57,"As cited by the PPS Board: 'proposed at $12.57 billion'",[PPSARCH:BB:14673756 p.1]
-2027-29,governor_recommended,,"Due Dec 1, 2026; fill in when released",[SRC:gov/budget/grb_page.html]
+id,biennium,stage,amount_billion,note,source
+ssf-2023-25-approved,2023-25,legislatively_approved,10.2,"State School Fund, total funds ($10,200,000,000)",[SRC:legislature/olis/2025R1/293759_ssf-budget-review.pdf p.1]
+ssf-2025-27-grb,2025-27,governor_recommended,11.36,"11% increase over 2023-25; GRB released Dec 2, 2024",[NEWS:NEWS-20241203-osba-1]
+ssf-2025-27-adopted,2025-27,legislatively_adopted,11.36,"SB 5516; $11,359,442,690 total funds",[SRC:fiscal/lfo/2025-07_lab-summary-2025-27.pdf p.1]
+ssf-2025-27-csl-proposal,2025-27,governor_csl_proposal,,Kotek proposal to raise the SSF current service level ~$515M above the original calculation,[SRC:gov/press/2024_ssf-csl-proposal.html]
+ssf-2027-29-csl,2027-29,current_service_level,12.56,"DAS CSL incl. SSA transfer ($12,558,429,348) as used in the 2026 QEM report",[SRC:ode/qec/2026_qem_report.pdf p.103]
+ssf-2027-29-csl-pps,2027-29,current_service_level,12.57,As cited by the PPS Board: 'proposed at $12.57 billion',[PPSARCH:BB:14673756 p.1]
+ssf-2027-29-grb,2027-29,governor_recommended,,"Due Dec 1, 2026; fill in when released",[SRC:gov/budget/grb_page.html]

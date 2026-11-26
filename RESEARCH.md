@@ -1,8 +1,10 @@
 # Research approach
 
 How this archive decides what to research, how the research is organized, and how we tell useful analysis from
-analysis for its own sake. `CLAUDE.md` says how to do the work, `RUNBOOK.md` how to add sources, and `adr/` why
+analysis for its own sake. `CLAUDE.md` and `.claude/rules/` say how to do the work, `RUNBOOK.md` how to add sources, and `adr/` why
 the repo is built the way it is.
+
+Contents: [In one paragraph](#in-one-paragraph) · [Who it's for](#who-its-for) · [Neutral by design](#neutral-by-design) · [The model](#the-model) · [Choosing what to work on](#choosing-what-to-work-on) · [What readers see](#what-readers-see) · [Writing so it gets used](#writing-so-it-gets-used) · [How we know it's working](#how-we-know-its-working) · [Practices this draws on](#practices-this-draws-on) · [How the repo supports the research](#how-the-repo-supports-the-research)
 
 ## In one paragraph
 
@@ -60,6 +62,96 @@ decision ── baseline and options ── positions (who stands where, when)
 | Actor | A person or body with a role in a decision | Sen. Kate Lieber, Ways and Means co-chair | `analysis/people/people.csv`; `analysis/people/<id>.md` |
 | Question | What a reader needs to know to compare options | Could the stability fund pay down districts' PERS costs? | `analysis/questions.csv` |
 | Evidence | What sources say, what we calculated, our analysis | Fund rules, balances, PERS rates | `sources/`, `analysis/data/`, `analysis/derived/`, `analysis/topics/`, `analysis/people/` |
+
+### The whole repo
+
+How every kind of file relates. Citations are the links from what we write to what sources say; the site turns
+each one into a chip. Guides (#188) are planned. Keep this diagram current: a new file type or relationship means
+editing it (`.claude/rules/code.md`, "Before writing").
+
+```mermaid
+erDiagram
+    SOURCE {
+        file path "sources/PUBLISHER/..., provenance in _manifest.jsonl"
+        file queue "sources/_queue.csv until fetched"
+    }
+    NEWS_RECORD {
+        file index "sources/news/index.jsonl: our summary, short quotes"
+    }
+    CITATION {
+        tag form "SRC, VID, NEWS, PPSARCH, DER"
+    }
+    DATA_ROW {
+        file csv "analysis/data/*.csv: values copied from sources"
+        column id "where a visual points to the row"
+    }
+    DERIVED_ROW {
+        file csv "analysis/derived/*.csv, by tools/derive_*.py"
+        column inputs "the data rows it's calculated from"
+    }
+    TOPIC {
+        file md "analysis/topics/*.md: Analysis, What the sources say, Derived figures"
+    }
+    DECISION {
+        file csv "analysis/decisions.csv; where it stands in decisions.md"
+    }
+    OPTION {
+        file csv "analysis/options.csv: baseline, benchmark or proposal"
+    }
+    POSITION {
+        file csv "analysis/positions.csv: append-only"
+    }
+    QUESTION {
+        file csv "analysis/questions.csv"
+    }
+    PERSON {
+        file csv "analysis/people/people.csv; profile in people/*.md"
+    }
+    QUOTE {
+        file jsonl "analysis/people/quotes_all.jsonl"
+    }
+    PROMISE {
+        file csv "analysis/promises.csv"
+    }
+    GLOSSARY_TERM {
+        file csv "analysis/glossary.csv"
+    }
+    VISUAL {
+        file json "analysis/visuals/*.json: bars or flow"
+    }
+    GUIDE {
+        status planned "#188"
+    }
+
+    CITATION }o--o| SOURCE : "SRC, VID point to"
+    CITATION }o--o| NEWS_RECORD : "NEWS points to"
+    CITATION }o--o| DERIVED_ROW : "DER points to"
+    TOPIC ||--o{ CITATION : carries
+    DATA_ROW ||--|{ CITATION : "source column"
+    OPTION ||--|{ CITATION : "source column"
+    POSITION ||--|{ CITATION : "source column"
+    PERSON ||--|{ CITATION : "source column"
+    QUOTE ||--|{ CITATION : "cite"
+    PROMISE ||--|{ CITATION : "source column"
+    GLOSSARY_TERM ||--|{ CITATION : "source column"
+    VISUAL ||--|{ CITATION : "notes, boxes, arrows"
+    DERIVED_ROW }o--|{ DATA_ROW : "inputs"
+    VISUAL }o--o{ DATA_ROW : "bars point to by id"
+    VISUAL }o--o{ DERIVED_ROW : "bars point to"
+    DECISION ||--|{ OPTION : "baseline and options"
+    DECISION ||--o{ POSITION : "stances on"
+    OPTION |o--o{ POSITION : "stances on (empty: the whole decision)"
+    DECISION |o--o{ QUESTION : "raises (empty: standing research)"
+    DECISION }o--o{ DECISION : related
+    PERSON ||--o{ POSITION : "takes (or an organization)"
+    PERSON }o--o{ OPTION : proposes
+    PERSON ||--o{ QUOTE : said
+    QUESTION }o--o| TOPIC : "answered in (or decisions.md)"
+    TOPIC }o--o{ GLOSSARY_TERM : "uses"
+    TOPIC }o--o{ VISUAL : embeds
+    GUIDE }o--|{ TOPIC : "steps link to"
+    GUIDE }o--o{ VISUAL : embeds
+```
 
 **Topics are evidence, organized by subject** (the Education Stability Fund, the Quality Education Model, the
 formula, Measures 5 and 50). They keep their three sections and grow slowly. **People profiles are evidence,
@@ -153,6 +245,7 @@ issues to it in the order they should run, and agents take the first free one.
 | What's being decided | `decisions.csv`, `options.csv`, `positions.csv`, `questions.csv`, `analysis/decisions.md` | Per decision: who decides and by when, the baseline and options, who stands where and when, what's known, open questions |
 | Topics | `analysis/topics/*.md` | The evidence on one subject |
 | People, What they've said, Promises, The numbers, Timeline, Glossary, Sources | as named | Reference |
+| Charts and diagrams (`/visuals/`), each with its own page | `analysis/visuals/*.json` | Show a comparison or a flow at a glance, embedded in any page; each visual's page gives its text version, notes and sources |
 | About | `website/about.md` | Who runs the site, how to read it, how to send a question |
 
 `analysis/decisions.md` holds the hand-written part of the decisions page: one section per decision with a short
@@ -216,11 +309,12 @@ stops doing one of those jobs should go.
   (`fetch_sources`, `ocr_pdfs`), check it (`check_citations`, `check_sources`, `test_tools`) and calculate it
   (`derive_<topic>`, one per topic).
 - **Skills** (`.claude/plugins/fund-oregon-schools/`): `fos-research` answers from the archive with citations;
-  `fos-work-issue` takes an issue to a reviewed PR, with an independent fact-check and fairness review.
+  `fos-work-issue` takes an issue to a reviewed PR, with an independent fact-check and fairness review;
+  `fos-lead` turns a lead into vetted, archived sources and drafted issues, with the maintainer.
 - **Volunteer setup** (`SETUP.md`, `setup/`): gets a volunteer's own Claude answering from the archive, read only.
 - **ADRs** (`adr/`): why the repo is built the way it is, and when to revisit.
 - **Runbook** (`RUNBOOK.md`): how to add and refresh sources.
-- **CLAUDE.md**: the rules every agent follows: citation formats, keeping sources, derived figures and analysis
+- **CLAUDE.md** and **`.claude/rules/`**: the rules every agent follows: citation formats, keeping sources, derived figures and analysis
   apart, quotes verbatim.
 - **What's new** (`analysis/updates.csv`): one reader-facing line per change, marked research, correction or site. The maintainers' history is the PRs
   and git.

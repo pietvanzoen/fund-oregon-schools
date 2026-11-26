@@ -170,8 +170,10 @@ th{font-weight:600}
 .home-grid{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:24px;margin-top:8px;align-items:start}
 @media(max-width:900px){.home-grid{grid-template-columns:minmax(0,1fr)}}
 .home-grid h2{margin-top:0}
-.topic-list,.people-list{list-style:none;padding:0}
+.topic-list{list-style:none}
+.people-list{list-style:none;padding:0}
 .topic-list li{border-top:1px solid var(--line);padding:14px 0 2px;margin:0}
+.topic-list li:first-child{border-top:0;padding-top:0}
 .list-link{font-weight:600;font-size:20px}
 .topic-list p{color:var(--muted);font-size:16px;margin:6px 0 12px}
 .people-list li{display:flex;flex-direction:column;border-top:1px solid var(--line);padding:12px 0;margin:0;font-size:17px}
@@ -217,13 +219,36 @@ th{font-weight:600}
 .kn-think{display:block;background:var(--think);margin:16px 0 0;border-radius:10px;padding:12px 16px;font-size:16px}
 .chart{margin:16px 0 0;padding:18px 22px 8px}
 .chart-title{font-size:16px;font-weight:600;margin:0 0 12px}
-.bars{list-style:none;padding:0;margin:0}
-.bar-row{margin:0 0 12px}
-.bar-label{font-size:15px;margin:0 0 4px}.bar-label span{color:var(--muted);margin-left:6px}
-.bar{display:flex;align-items:center;gap:8px;margin:0}
-.bar-fill{display:block;height:26px;border-radius:0 6px 6px 0;flex:none}
-.bar-base{background:#7ba7d6}.bar-main{background:var(--blue)}
-.bar-val{font-size:15px;font-weight:600;white-space:nowrap}
+.viz-bars{--g0:#7ba7d6;--g1:var(--blue);--g2:var(--deep);margin:0}
+.viz-bars.charts-css.bar.show-labels{--labels-size:0px}
+/* Charts.css bars, the label above each bar so it stays legible on phones; room is left for the value after the bar */
+.viz-bars.charts-css.bar tbody,.viz-bars.charts-css.bar tbody tr{display:block}
+.viz-bars.charts-css.bar tbody tr{margin:0 0 12px}
+.viz-bars.charts-css.bar tbody tr th{position:static;display:block;width:auto;font-size:15px;font-weight:600;text-align:start;margin:0 0 4px}
+.viz-group{color:var(--muted);font-weight:400;margin-left:6px}
+.viz-bars.charts-css.bar tbody tr td{width:calc((100% - 8.5em) * var(--size));height:26px;min-height:0;padding:0;border-radius:0 6px 6px 0}
+.viz-bars .data{font-size:15px;font-weight:600;white-space:nowrap;color:var(--ink);padding-left:8px} /* padding, not margin: Charts.css shifts the value by its own width */
+.viz-notes-title{font-size:16px;margin:16px 0 6px}.viz-notes{font-size:15px;color:var(--muted);line-height:1.9;margin:0 0 12px}.viz-notes li{margin:0 0 6px}
+.viz-text{font-size:15px;margin:8px 0}.viz-text summary{cursor:pointer}.viz-text p{margin:6px 0 0}.viz-text ul{margin:6px 0 0;padding-left:20px}.viz-text li{margin:2px 0}
+/* A flow's steps under its diagram, on its own page: each box says in text where its money goes, with citations */
+.flow,.flow-boxes,.flow-to{list-style:none;padding:0;margin:0}
+.flow-row{padding:0 0 20px}
+.flow-row-name{font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin:0 0 6px}
+.flow-boxes{display:grid;grid-template-columns:repeat(auto-fit,minmax(14em,1fr));gap:10px}
+.flow-box{border:2px solid var(--blue);border-radius:10px;padding:10px 12px;background:var(--white)}
+.flow-box.open,.flow-to .open{border-style:dashed;border-color:var(--muted)}
+.flow-label{margin:0;font-size:15px}
+.flow-open{margin:4px 0 0;font-size:14px;color:var(--muted)}
+.flow-to{margin:6px 0 0;font-size:14px;line-height:1.6}
+.flow-to li{margin:4px 0 0}.flow-to .open{border-width:0 0 0 2px;padding-left:6px}
+.flow-box:target{outline:3px solid var(--focus)}
+.flow-svg{margin:0 0 12px}.flow-svg svg{display:block;width:100%;height:auto;font-family:Lexend,system-ui,sans-serif}
+.fs-group{fill:var(--ground);stroke:#aeb7bd;stroke-width:1}
+.fs-group-name{font-size:14px;font-weight:600;fill:var(--muted);stroke:var(--ground);stroke-width:5px;paint-order:stroke;stroke-linejoin:round}
+.fs-box{fill:var(--white);stroke:var(--blue);stroke-width:2}.fs-box.open{stroke:var(--muted);stroke-dasharray:6 4}
+.fs-label{font-size:15px;font-weight:500;fill:var(--ink);text-anchor:middle}
+.fs-arrow{fill:none;stroke:var(--deep);stroke-width:2}.fs-arrow.open{stroke:var(--muted);stroke-dasharray:6 4}
+.fs-head{fill:var(--deep)}
 .chart-src{font-size:14px;color:var(--muted);margin:8px 0}
 .kn-rest-list{font-size:16px;margin:16px 0 8px}
 .home-two{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:0 24px;align-items:start}

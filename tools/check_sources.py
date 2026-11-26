@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Check sources/_queue.csv rows and archived files against the conventions in CLAUDE.md.
+"""Check sources/_queue.csv rows and archived files against the conventions in .claude/rules/sources.md.
 
     python3 tools/check_sources.py      # errors fail (exit 1); warnings are printed for a reviewer to judge
 
 Errors:
-  - queue row: missing url/path/title/kind, non-http(s) URL, duplicate URL, top folder not in CLAUDE.md's list,
+  - queue row: missing url/path/title/kind, non-http(s) URL, duplicate URL, top folder not in .claude/rules/sources.md's list,
     OLIS path without a session folder (e.g. legislature/olis/2025R1/...), or a news site URL (news is never
     archived: add a record to sources/news/index.jsonl instead)
   - archived file under sources/ with no line in sources/_manifest.jsonl
@@ -12,19 +12,37 @@ Warnings:
   - queue row from a host that isn't a known government site (a reviewer checks it's the official copy)
   - queue row URL and path with different file types (e.g. a .pdf URL saved as .html)
 """
+
 import os
 import re
 import sys
 import urllib.parse
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import ROOT, SOURCES, manifest_by_path, read_queue  # noqa: E402
+from common import SOURCES, manifest_by_path, read_queue
 
 TOP_DIRS = {"gov", "legislature", "ode", "fiscal", "reference", "districts", "orgs"}
-NEWS_HOSTS = {"katu.com", "ktvz.com", "wweek.com", "klcc.org", "newsfromthestates.com", "opb.org",
-              "oregonlive.com", "salemreporter.com", "oregoncapitalchronicle.com", "statesmanjournal.com",
-              "registerguard.com", "koin.com", "kgw.com", "kptv.com", "portlandtribune.com",
-              "pamplinmedia.com", "oregonjournalismproject.org", "bendbulletin.com", "eastoregonian.com"}
+NEWS_HOSTS = {
+    "katu.com",
+    "ktvz.com",
+    "wweek.com",
+    "klcc.org",
+    "newsfromthestates.com",
+    "opb.org",
+    "oregonlive.com",
+    "salemreporter.com",
+    "oregoncapitalchronicle.com",
+    "statesmanjournal.com",
+    "registerguard.com",
+    "koin.com",
+    "kgw.com",
+    "kptv.com",
+    "portlandtribune.com",
+    "pamplinmedia.com",
+    "oregonjournalismproject.org",
+    "bendbulletin.com",
+    "eastoregonian.com",
+}
 OFFICIAL_SUFFIXES = (".oregon.gov", ".oregonlegislature.gov", ".state.or.us", ".k12.or.us", ".gov")
 OFFICIAL_HOSTS = {"oregon.gov", "oregonlegislature.gov", "oregonencyclopedia.org"}
 OLIS_RE = re.compile(r"^legislature/olis/\d{4}[RIS]\d/[^/]+$")

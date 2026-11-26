@@ -20,7 +20,8 @@ git diff {{BASE}} --stat
 git diff {{BASE}} -- analysis/ sources/news/ tools/derive_*.py
 ```
 
-Read `CLAUDE.md` first: it defines the citation formats and rules you're checking against.
+In your clone, read `.claude/rules/analysis.md` (citation formats, quotes, how analysis files are laid out) and
+`.claude/rules/sources.md` (rule 6, news records) first: they define the rules you're checking against.
 
 ## Check every changed or added line in `analysis/` and `sources/news/index.jsonl`
 
@@ -32,12 +33,12 @@ scrambled, or text below a `--- OCR of this page` line (machine OCR of a picture
 1. **Quotes**: word for word, on the cited page, attributed to the right person. For hearing captions, check who
    was speaking just before. Any changed word is an error. A quote cited `[VID:...]` rests on a machine
    transcript (`<file>.mp4.txt`): check the transcript line, and report it as "verify against audio" unless you
-   listened to the recording.
+   listened to the recording or the PR says who did. The timestamp is where the quoted words begin.
 2. **Figures**: the number, its unit, its year or biennium, and whether it's an actual, an estimate or a
    projection all match the source.
 3. **Claims**: the citation supports the sentence as written, without overstatement ("plans to" vs "has
    committed to", "about" vs an exact figure, one district vs "districts").
-4. **Uncited claims**: any factual sentence with no citation. The one exception is front matter (CLAUDE.md rule 2:
+4. **Uncited claims**: any factual sentence with no citation. The one exception is front matter (`.claude/rules/analysis.md` rule 2:
    a topic's `summary`, `description` and `title`, a person profile's `description` and `title`): it carries no
    citations, but **each sentence in it must be backed by a cited line further down the same page**. For each
    summary or description sentence, name the cited line(s) that back it and check those
@@ -59,6 +60,15 @@ scrambled, or text below a `--- OCR of this page` line (machine OCR of a picture
 9. **Derived figures**: for each changed row in `analysis/derived/*.csv`, the method, inputs and assumptions are
    right and complete, the script does what `method` says, constants it copies from a source carry a citation,
    and `kind` is `est` whenever the figure rests on an assumption.
+10. **Visuals**: for each new or changed `analysis/visuals/*.json`, and each visual whose rows changed, check it
+    against its sources (`.claude/rules/analysis.md` rule 4; its page at `/visuals/<id>/` lists them). A chart: every bar's `ref`
+    points to the row its `label` and `group` describe (the right year, stage and measure), the title and unit match
+    those rows, and any value we calculated is a derived row, not a number typed into the file. A diagram: every box
+    and arrow says only what its own citation supports at the cited page or section (an arrow's direction too); a
+    path no source confirms is marked `open` rather than cited to something that doesn't say it; and nothing drawn
+    contradicts the topic it links to. Notes are checked like any sentence. Read the generated text version (the
+    site build writes it from the file; `cd site-11ty && npm ci && npx eleventy`, then `_site/visuals/<id>/`) and
+    report anything in it that misstates the file.
 
 ## Scope
 

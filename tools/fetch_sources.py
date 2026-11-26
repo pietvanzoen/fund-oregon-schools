@@ -13,6 +13,7 @@ a growing pause (FOS_RETRY_DELAY seconds, default 5, then 3x that). Requests to 
 FOS_REQUEST_DELAY seconds (default 1). Any failed row is listed at the end, written to the GitHub job summary and
 annotated as an error when run in Actions, and makes the exit code 1 even if other rows succeeded.
 """
+
 import argparse
 import csv
 import datetime as dt
@@ -29,15 +30,15 @@ import urllib.parse
 import urllib.request
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import MANIFEST, SOURCES, manifest_by_path, read_queue  # noqa: E402
+from common import MANIFEST, SOURCES, manifest_by_path, read_queue
 
 UA = "Mozilla/5.0 (compatible; fund-oregon-schools-archiver; +https://github.com/pietvanzoen/fund-oregon-schools)"
 VERSIONS_LOG = os.path.join(SOURCES, "_versions_log.csv")
 
 
 class _Text(html.parser.HTMLParser):
-    SKIP = {"script", "style", "noscript", "nav", "footer", "header", "svg"}
-    BLOCK = {"p", "div", "br", "li", "tr", "h1", "h2", "h3", "h4", "h5", "h6", "section", "article", "table"}
+    SKIP = frozenset({"script", "style", "noscript", "nav", "footer", "header", "svg"})
+    BLOCK = frozenset({"p", "div", "br", "li", "tr", "h1", "h2", "h3", "h4", "h5", "h6", "section", "article", "table"})
 
     def __init__(self):
         super().__init__()
@@ -130,7 +131,7 @@ def download(url):
     for attempt in range(1, RETRIES + 1):
         try:
             return _download_once(url)
-        except Exception as e:  # noqa: BLE001
+        except Exception as e:
             if attempt == RETRIES or not _retryable(e):
                 raise
             pause = RETRY_DELAY * (3 ** (attempt - 1))
@@ -153,7 +154,9 @@ def report_failures(failures):
             f.write(f"### {len(failures)} source(s) failed to download\n\n| Path | Error | URL |\n|---|---|---|\n")
             for rel, url, err in failures:
                 f.write(f"| `{rel}` | {err} | {url} |\n")
-            f.write("\nThey stay in the queue; re-run fetch-sources (Actions -> fetch-sources -> Run workflow) to retry.\n")
+            f.write(
+                "\nThey stay in the queue; re-run fetch-sources (Actions -> fetch-sources -> Run workflow) to retry.\n"
+            )
 
 
 def log_version(path, prior, old_sha, new_sha, now):
@@ -194,7 +197,7 @@ def main():
             print(f"  ! failed: {err}", file=sys.stderr)
             failures.append((rel, url, err))
             continue
-        now = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()
+        now = dt.datetime.now(dt.UTC).replace(microsecond=0).isoformat()
         sha = hashlib.sha256(data).hexdigest()
         if os.path.exists(dest):
             old_sha = known.get(rel, {}).get("sha256") or hashlib.sha256(open(dest, "rb").read()).hexdigest()
@@ -214,9 +217,18 @@ def main():
         with open(dest, "wb") as f:
             f.write(data)
         extract_text(dest, ctype)
-        rec = {"path": rel, "url": url, "final_url": final_url, "fetched_at": now, "sha256": sha,
-               "bytes": len(data), "content_type": ctype, "title": row.get("title", ""),
-               "date": row.get("date", ""), "kind": row.get("kind", "")}
+        rec = {
+            "path": rel,
+            "url": url,
+            "final_url": final_url,
+            "fetched_at": now,
+            "sha256": sha,
+            "bytes": len(data),
+            "content_type": ctype,
+            "title": row.get("title", ""),
+            "date": row.get("date", ""),
+            "kind": row.get("kind", ""),
+        }
         with open(MANIFEST, "a", encoding="utf-8") as f:
             f.write(json.dumps(rec, ensure_ascii=False) + "\n")
         ok += 1

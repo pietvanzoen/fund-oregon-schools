@@ -20,14 +20,15 @@ git fetch -q origin {{BRANCH}} && git checkout -q FETCH_HEAD   # run every later
 git diff {{BASE}} -- analysis/ sources/news/ sources/_queue.csv
 ```
 
-Read `CLAUDE.md` (the archive's rules), `RESEARCH.md` (how research is organized) and `analysis/decisions.md`
+In your clone, read `.claude/rules/analysis.md` (the archive's rules), rule 7 in `CLAUDE.md` (members of the
+public), `RESEARCH.md` "Neutral by design" and "The model" (how research is organized) and `analysis/decisions.md`
 (where each decision stands) before you start.
 
 ## Consistency
 
 For every figure, date, stance and name the diff adds or changes:
 
-1. Search the rest of the archive for the same thing: `python3 tools/search.py "<term>" --kind analysis`,
+1. Search the rest of the archive for the same thing: `python3 tools/search.py "<term>" --kind cited --kind analysis --kind derived`,
    `grep -rn "<figure or key words>" analysis/`. Check `START.md`, `decisions.md`, the decision CSVs,
    `analysis/topics/`, `analysis/people/`, `analysis/data/*.csv`, `promises.csv`, `timeline.md`. An answer in
    `decisions.md` or a stance in `positions.csv` must say what its topic or profile says, citing the same source.
@@ -48,9 +49,8 @@ dismiss it over.
 5. **Labelling**: every estimate, projection or forecast is labelled as one. Every figure from an advocacy group,
    union, association or district press material is attributed to that group as its claim or estimate, not stated
    as fact.
-6. **Separation**: what sources state, what we calculated, and the author's own inference are kept apart (in topic
-   files: "Analysis" (first), "What the sources say", "Derived figures"; elsewhere "our sum"/"our estimate" and
-   "Analysis:"). Flag inference written as fact, and any **wrong section**: an inference among source facts, or a
+6. **Separation**: what sources state, what we calculated, and the author's own inference are kept apart (the layout
+   in `.claude/rules/analysis.md` rule 4). Flag inference written as fact, and any **wrong section**: an inference among source facts, or a
    calculation shown as a source figure instead of a `[DER:...]` figure.
 7. **Fairness to named officials**: positions are described from what they said or did on the record, with dates.
    No loaded words (`STYLE.md`, verdict words), no motives imputed, no "refused" or "ignored" unless the source says so. The same care
@@ -59,7 +59,7 @@ dismiss it over.
    Fund), the main objection on the record is stated fairly too, if the archive has it.
 9. **No campaign content**: no talking points, asks or calls to action in `analysis/`.
 10. **Glossary**: every abbreviation or term of art the change uses has a row in `analysis/glossary.csv`
-    (CLAUDE.md rule 11), and no abbreviation means two things.
+    (`.claude/rules/analysis.md` rule 11), and no abbreviation means two things.
 
 ## Copyright and privacy
 

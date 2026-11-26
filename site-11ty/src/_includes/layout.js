@@ -1,4 +1,4 @@
-import { SPRITE, icon } from "./icons.js";
+import { icon, SPRITE } from "./icons.js";
 
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
 
@@ -9,12 +9,34 @@ const SITE = "https://oregonedtrail.org";
 
 // seo: the <title> and link-preview title when it differs from the H1; the home page's is the site name.
 // The home page also names the site for Google's site-name display (WebSite structured data)
-export function layout({ url, title, seo = "", crumbs = [], back = null, description = "", hero = "", body, aside = "", meta = "", search = null, script = "", cards, wide = false, noindex = false }) {
+export function layout({
+  url,
+  title,
+  seo = "",
+  crumbs = [],
+  back = null,
+  description = "",
+  hero = "",
+  body,
+  aside = "",
+  meta = "",
+  search = null,
+  script = "",
+  cards,
+  wide = false,
+  noindex = false,
+  charts = false,
+}) {
   // Only the home title carries the domain (the address people pass on); elsewhere the name reads better aloud
-  const full = url === "/" ? "OregonEdTrail.org: following the money behind Oregon's schools" : `${seo || title} · Oregon Ed Trail`;
+  const full =
+    url === "/"
+      ? "OregonEdTrail.org: following the money behind Oregon's schools"
+      : `${seo || title} · Oregon Ed Trail`;
   const trail = back
     ? `<p class="crumbs back"><a href="${back[1]}">‹ ${esc(back[0])}</a></p>`
-    : crumbs.length ? `<nav class="crumbs" aria-label="Breadcrumb"><ol>${crumbs.map(([t, u]) => `<li><a href="${u}">${esc(t)}</a></li>`).join("")}</ol></nav>` : "";
+    : crumbs.length
+      ? `<nav class="crumbs" aria-label="Breadcrumb"><ol>${crumbs.map(([t, u]) => `<li><a href="${u}">${esc(t)}</a></li>`).join("")}</ol></nav>`
+      : "";
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,7 +53,7 @@ ${url === "/" ? `<script type="application/ld+json">{"@context":"https://schema.
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="/assets/site.css">
+${charts ? '<link rel="stylesheet" href="/assets/charts.min.css">\n' : ""}<link rel="stylesheet" href="/assets/site.css">
 <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
@@ -67,7 +89,7 @@ ${meta ? `<section class="page-meta" aria-labelledby="about-page"><h2 id="about-
 </div>
 <footer class="foot">
   <div class="wrap">
-    <nav aria-label="About the site"><ul class="foot-links"><li><a href="/about/">About this site</a></li><li><a href="/updates/">What's new</a></li><li><a href="/glossary/">Glossary</a></li><li><a href="mailto:hello@oregonedtrail.org">Contact: hello@oregonedtrail.org</a></li><li><a href="https://github.com/pietvanzoen/fund-oregon-schools">Research archive on GitHub</a></li></ul></nav>
+    <nav aria-label="About the site"><ul class="foot-links"><li><a href="/about/">About this site</a></li><li><a href="/updates/">What's new</a></li><li><a href="/glossary/">Glossary</a></li><li><a href="/visuals/">Charts and diagrams</a></li><li><a href="mailto:hello@oregonedtrail.org">Contact: hello@oregonedtrail.org</a></li><li><a href="https://github.com/pietvanzoen/fund-oregon-schools">Research archive on GitHub</a></li></ul></nav>
     <p>Every fact links to where it comes from: <span class="cite cite-src">${icon("doc")}Document, p.3</span> a document, <span class="cite cite-news">${icon("news")}Outlet</span> a news report, <span class="cite cite-der">${icon("calc")}our sum</span> our own calculation. Our interpretation is kept apart from what the documents say, in yellow boxes headed or starting <span class="analysis"><strong>Our analysis</strong></span>.</p>
     <p class="foot-small">Run by Oregon public school parents. Analysis licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
   </div>

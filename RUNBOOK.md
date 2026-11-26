@@ -3,10 +3,12 @@
 Answering questions needs none of this; see `.claude/plugins/fund-oregon-schools/skills/fos-research/SKILL.md`.
 
 ## Add a document (most common)
+With Claude, `/fos-lead` does all of this for a lead and vets each document before merging. By hand:
+
 1. Find the official URL (prefer the agency's own PDF over a news write-up). Copy it from a link on the agency's
    page; don't build it from a file-name pattern (dated names change when a document is revised).
 2. Add a row to `sources/_queue.csv`: `url,path,title,date,kind,notes`. Pick `path` by the conventions in
-   `CLAUDE.md` (e.g. `fiscal/oea/2026-11_forecast.pdf`, `legislature/olis/2027R1/<docId>_<slug>.pdf`).
+   `.claude/rules/sources.md` (e.g. `fiscal/oea/2026-11_forecast.pdf`, `legislature/olis/2027R1/<docId>_<slug>.pdf`).
    End `notes` with `from: <page URL>` (the page the link was on), so a dead link can be re-found there.
 3. Commit to `main` (or merge a PR). The **fetch-sources** Action runs on any change to the queue: it downloads
    new rows, writes `<file>.txt`, OCRs PDF pages with little text (see OCR below), appends to `sources/_manifest.jsonl`, runs the citation check and commits.
@@ -35,6 +37,12 @@ budget link, then queue the budget PDFs themselves.
   by hand under `sources/legislature/video/<date>_<committee>.<mp4|m4a|mp3|wav|webm>` with a manifest line, and
   cite `[VID:legislature/video/<date>_<committee>@H:MM:SS]`. Keep files under GitHub's 100 MB limit (audio only,
   if the video is bigger).
+  For a recording on YouTube (State Board meetings, press conferences), the maintainer runs
+  `python3 tools/save_youtube.py URL PATH TITLE DATE` on their Mac (needs `brew install yt-dlp ffmpeg deno` and
+  `pipx install mlx-whisper`). It saves the audio as 32 kbps mono Opus (`PATH` ends in `.webm`), appends the
+  manifest line and writes the transcript with mlx-whisper `whisper-large-v3-turbo`; it reports any stretch
+  where Whisper repeated one line (the transcript has a gap there). Push to a `claude/**` branch: the
+  `transcribe` Action skips files that already have a transcript.
 - **Pages behind scripts or logins.** Save from a browser and add a manifest line by hand (url, fetched_at, sha256).
 - **Email replies** to a question or records request sent for the archive. Archive an attachment (a contract, a
   report) as its original file. Archive the reply itself only when the analysis needs something it says and no
@@ -49,7 +57,7 @@ budget link, then queue the budget PDFs themselves.
   `adr/20261124-1755-agency-email-replies-as-text.md`.
 - **News.** Don't archive articles. Add a record to `sources/news/index.jsonl`: id `NEWS-YYYYMMDD-outlet-N`, date,
   outlet, title, url, a summary in your own words, key facts, and at most short quotes (< 25 words). To correct
-  a record, recheck it against the article and add a dated `note` saying what changed (`CLAUDE.md` rule 6).
+  a record, recheck it against the article and add a dated `note` saying what changed (`.claude/rules/sources.md` rule 6).
 
 ## OCR
 After each fetch, `tools/ocr_pdfs.py` looks at every archived PDF without a `<file>.pdf.ocr.txt`. Pages that have an
@@ -69,10 +77,31 @@ the Action existed, or a push it missed: Actions → transcribe → Run workflow
 It uses faster-whisper `small.en` on CPU, roughly an hour per 3-hour hearing (estimated). Transcripts are
 machine-made: verify every quote by listening at the timestamp before citing it.
 
+## Checking a quote against a recording
+The transcript finds the moment; a person who listens confirms the quote. A session that can't listen asks the
+maintainer (in the session, or in a `needs-human` issue) and gives them:
+- **A link to the moment.** For YouTube, the manifest's `url` with `t=<seconds>` added (`?t=` or `&t=`), about
+  20 seconds before the quote so the lead-in is heard: 2:28:47 → `https://youtu.be/geKi7gkUryU?t=8907`. Adding
+  `t=` to an archived URL is fine; it's not a guessed link. For other recordings, the `H:MM:SS`.
+- **A link to where someone else names the speaker right after they speak**, to compare the voice. Meeting
+  protocol helps: speakers address the chair, then whoever asked, so a reply that names only the chair ("Chair
+  Scurlock, thank you for the question") means the chair just spoke, and a member who opens with "Thank you, Chair
+  Scurlock" was just called on by the chair. Search the transcript for the name and its misspellings. A roll call
+  gives one word of their voice, so use it only as a backup.
+- **What to confirm:** the exact words, including where the sentence ends (check them against any news or
+  advocacy version too); who is speaking, and the evidence (named aloud, chairing the vote, same voice); the second
+  the quoted words begin, read off the player, which goes in the citation (Whisper's line times are a few seconds
+  off); and any outcome the analysis states, such as a vote.
+- **Names:** spell them from an archived roster or document (Board Actions, a member page), not from the
+  transcript or by ear. On the May 21, 2026 State Board recording Whisper wrote "Sherlock" and "Skirlock" for
+  Chair Scurlock, and Director Wofford was heard as "Walker" (an ODE staff member presenting that day).
+Put the evidence in the quote's `context` and `confidence`, and say in the PR who listened.
+
 ## After adding sources
 - Update `analysis/` and swap NEWS citations for SRC ones where a primary document now exists.
 - `python3 tools/check_citations.py` and `python3 tools/test_tools.py` must pass (CI runs both).
 - If a data file or derive script changed, run every `tools/derive_*.py` and commit `analysis/derived/`; CI reruns
   them and fails if the output differs.
 - To see the pages as readers will: `cd site-11ty && npm ci && npx eleventy --serve` (http://localhost:8080). CI runs
-  the same build on every PR; it fails on a broken internal link or an unknown `[[id]]`.
+  the same build on every PR; it fails on a broken internal link, an unknown `[[id]]`, or invalid HTML or an
+  accessibility error in the built pages (html-validate).

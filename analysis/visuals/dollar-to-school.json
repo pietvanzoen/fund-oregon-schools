@@ -1,0 +1,221 @@
+{
+  "id": "dollar-to-school",
+  "kind": "flow",
+  "title": "How a dollar gets to a school district: day-to-day operating money",
+  "description": "Diagram of how state taxes, the State School Fund, property taxes and levies reach an Oregon school district, with a source for each confirmed step.",
+  "columns": 3,
+  "rows": [
+    {
+      "groups": [
+        {
+          "name": "State taxes, funds and reserves",
+          "span": 3,
+          "boxes": [
+            {
+              "id": "cat",
+              "label": "Corporate Activity Tax",
+              "cite": "[SRC:fiscal/oea/2026-09_forecast.pdf p.32]"
+            },
+            {
+              "id": "general-fund",
+              "label": "State General Fund",
+              "cite": "[SRC:legislature/olis/2025R1/293759_ssf-budget-review.pdf p.1]"
+            },
+            {
+              "id": "lottery",
+              "label": "Lottery Funds",
+              "cite": "[SRC:legislature/olis/2025R1/293759_ssf-budget-review.pdf p.1]"
+            },
+            {
+              "id": "small-taxes",
+              "label": "Marijuana tax and State Timber Tax",
+              "cite": "[SRC:legislature/olis/2025R1/307212_sb5516-ssf-work-session.pdf p.3]"
+            },
+            {
+              "id": "esf",
+              "label": "Education Stability Fund, a state reserve account",
+              "cite": "[SRC:fiscal/oea/2026-12_forecast.pdf p.41]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "groups": [
+        {
+          "name": "State funds for schools",
+          "span": 1,
+          "boxes": [
+            {
+              "id": "fss",
+              "label": "Fund for Student Success",
+              "cite": "[SRC:legislature/ors/ors327.html]"
+            },
+            {
+              "id": "ssf",
+              "label": "State School Fund",
+              "cite": "[SRC:legislature/ors/ors327.html]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "groups": [
+        {
+          "name": "How state money is paid out",
+          "span": 1,
+          "boxes": [
+            {
+              "id": "sia",
+              "label": "Student Investment Account",
+              "cite": "[SRC:legislature/ors/ors327.html]"
+            },
+            {
+              "id": "formula",
+              "label": "Funding formula, which shares money by weighted enrollment",
+              "cite": "[SRC:legislature/ors/ors327.html]"
+            }
+          ]
+        },
+        {
+          "name": "Local money",
+          "span": 1,
+          "boxes": [
+            {
+              "id": "property-tax",
+              "label": "Property taxes and other local revenue",
+              "cite": "[SRC:legislature/ors/ors327.html]"
+            },
+            {
+              "id": "levy",
+              "label": "Local option levy",
+              "cite": "[SRC:legislature/ors/ors327.html]"
+            }
+          ]
+        },
+        {
+          "name": "Federal money",
+          "span": 1,
+          "boxes": [
+            {
+              "id": "federal-counted",
+              "label": "Federal money counted as local revenue",
+              "cite": "[SRC:legislature/ors/ors327.html]"
+            },
+            {
+              "id": "federal-other",
+              "label": "Other federal money",
+              "open": "no primary source in the archive yet; #182 looks for one"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "groups": [
+        {
+          "name": "Where it ends up",
+          "span": 3,
+          "boxes": [
+            {
+              "id": "district",
+              "label": "School district",
+              "cite": "[SRC:legislature/ors/ors327.html]"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "arrows": [
+    {
+      "from": "general-fund",
+      "to": "ssf",
+      "label": "appropriated by the Legislature; most of the State School Fund",
+      "cite": "[SRC:legislature/ors/ors327.html] [SRC:legislature/olis/2025R1/293759_ssf-budget-review.pdf p.1]"
+    },
+    {
+      "from": "lottery",
+      "to": "ssf",
+      "label": "part of the State School Fund",
+      "cite": "[SRC:legislature/olis/2025R1/293759_ssf-budget-review.pdf p.1]"
+    },
+    {
+      "from": "small-taxes",
+      "to": "ssf",
+      "label": "small parts of the State School Fund in the Legislative Fiscal Office's 2025-27 budget recommendation",
+      "cite": "[SRC:legislature/olis/2025R1/307212_sb5516-ssf-work-session.pdf p.3]"
+    },
+    {
+      "from": "cat",
+      "to": "fss",
+      "label": "dedicated to education through this fund",
+      "cite": "[SRC:fiscal/oea/2026-09_forecast.pdf p.32]"
+    },
+    {
+      "from": "esf",
+      "to": "ssf",
+      "label": "can be transferred in; a draw needs a three-fifths vote in each chamber and an economic trigger or a governor's emergency declaration",
+      "cite": "[SRC:legislature/ors/ors327.html] [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1] [SRC:legislature/constitution/oregon-constitution.html]"
+    },
+    {
+      "from": "fss",
+      "to": "ssf",
+      "label": "a transfer each two-year budget, set by law to pay for high-cost disability grants and to make up for General Fund revenue changes from the 2019 income tax cut and the Corporate Activity Tax",
+      "cite": "[SRC:legislature/ors/ors327.html] [SRC:legislature/olis/2025I1/310915_ssa-qem-gap.pdf p.6]"
+    },
+    {
+      "from": "fss",
+      "to": "sia",
+      "label": "at least 50% of what's left after that transfer and a reserve; the rest goes to two other education accounts",
+      "cite": "[SRC:legislature/ors/ors327.html]"
+    },
+    {
+      "from": "ssf",
+      "to": "formula",
+      "label": "paid out to districts through the formula",
+      "cite": "[SRC:legislature/ors/ors327.html]"
+    },
+    {
+      "from": "property-tax",
+      "to": "district",
+      "label": "stays with the district, and is subtracted from its State School Fund grant",
+      "cite": "[SRC:legislature/ors/ors327.html]"
+    },
+    {
+      "from": "federal-counted",
+      "to": "district",
+      "label": "money received without applying for it, unless federal law bars counting it: stays with the district, and is subtracted from its State School Fund grant",
+      "cite": "[SRC:legislature/ors/ors327.html]"
+    },
+    {
+      "from": "levy",
+      "to": "district",
+      "label": "stays with the district; up to a cap, it isn't subtracted from its State School Fund grant",
+      "cite": "[SRC:legislature/ors/ors327.html]"
+    },
+    {
+      "from": "formula",
+      "to": "district",
+      "label": "general purpose, transportation and high-cost disability grants, minus the district's local revenue",
+      "cite": "[SRC:legislature/ors/ors327.html]"
+    },
+    {
+      "from": "sia",
+      "to": "district",
+      "label": "grants on top of the State School Fund",
+      "cite": "[SRC:legislature/ors/ors327.html]"
+    },
+    {
+      "from": "federal-other",
+      "to": "district",
+      "label": "how it gets there",
+      "open": "not yet confirmed"
+    }
+  ],
+  "notes": [
+    "Not drawn here: education service districts also get a share of the State School Fund, and Student Investment Account grants also go to some charter schools and youth corrections and juvenile detention education programs [SRC:legislature/ors/ors327.html] [SRC:ode/sia/2026-01_sia-legislative-report.pdf p.3].",
+    "Also not drawn: some programs are paid from the State School Fund before the formula shares it, and some districts with a local option levy get a Local Option Equalization Grant from the state [SRC:legislature/olis/2025R1/293759_ssf-budget-review.pdf p.1]."
+  ]
+}

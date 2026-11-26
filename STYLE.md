@@ -2,11 +2,13 @@
 
 How the archive's reader-facing text sounds and looks: `analysis/START.md`, `analysis/decisions.md`,
 `analysis/topics/`, `analysis/people/` pages and `analysis/timeline.md`. It applies to our own sentences; quotes stay
-verbatim. The rules on citations, sections and quotes are in `CLAUDE.md`; this file covers wording. Where AP style
+verbatim. The rules on citations, sections and quotes are in `.claude/rules/analysis.md`; this file covers wording. Where AP style
 covers something this file doesn't, follow AP. Why these choices: `adr/20261122-1607-house-style.md`.
 
 The mechanical rules are checked by Vale on pull requests (`.github/styles/FOS/`, added lines only, never
 blocking); the clarity reviewer checks the rest.
+
+Contents: [Voice](#voice) · [Structure](#structure) · [Weight and certainty](#weight-and-certainty) · [Names](#names) · [Abbreviations and terms](#abbreviations-and-terms) · [Numbers and dates (AP)](#numbers-and-dates-ap)
 
 ## Voice
 
@@ -38,11 +40,12 @@ blocking); the clarity reviewer checks the rest.
     don't yet show whether it changed results for students."
   - No: "The money didn't work." (the reports can't tell, which isn't the same)
 - **Search titles and descriptions.** Topic files and person profiles have a `description` in front matter, shown
-  under the page's link in search results and link previews; a topic whose H1 is over 55 characters also has a
-  shorter `title`. The description is one sentence of at most 160 characters that says what the page covers and
+  under the page's link in search results and link previews; a topic with a long H1 also has a
+  shorter `title` (the lengths: `.claude/rules/analysis.md` rule 4, enforced by `tools/check_citations.py`). The
+  description is one sentence that says what the page covers and
   its main finding, with the words a reader would search for (State School Fund, not "the fund"). Same rules as
-  In short: plain words, no abbreviations, no new claims. The title names the subject first and is at most 55
-  characters; the site adds "· Oregon Ed Trail".
+  In short: plain words, no abbreviations, no new claims. The title names the subject first; the site adds
+  "· Oregon Ed Trail".
   - Yes: "Oregon shares its State School Fund among school districts by a formula in state law that counts enrollment
     and gives extra weight to some students."
   - No: "This page looks at the formula." (says nothing a search result can use)

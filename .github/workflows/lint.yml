@@ -1,0 +1,27 @@
+# Lint and format checks for code: Ruff on tools/, actionlint on the workflows. Biome and html-validate run in the
+# site build (pages.yml). Pinned, CI only, so tools/ stays stdlib-only. adr/20261124-2226-linters-in-ci.md.
+name: lint
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  ruff:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/ruff-action@v3
+        with:
+          version: "0.17.6"
+          args: check
+      - if: ${{ !cancelled() }}  # report formatting alongside lint findings
+        run: ruff format --check
+  actionlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker://rhysd/actionlint:1.7.12
+        with:
+          args: -color
