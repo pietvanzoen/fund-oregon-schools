@@ -29,7 +29,7 @@ findings are your call. Any rewording of a factual sentence gets the targeted fa
 Every review thread must be resolved before `main` accepts the merge. A fixed finding needs nothing: on its next
 run reviewdog deletes its comment. For each finding you keep, reply on its thread with the reason in one line
 (e.g. "Kept: attributed paraphrase of the Commission, p.103; STYLE.md allows it."), then resolve the thread, so a
-reviewer sees why on the PR:
+reviewer sees why on the PR (the maintainer's review points, below, are the exception: leave those open):
 
 ```bash
 gh api repos/pietvanzoen/fund-oregon-schools/pulls/<PR>/comments/<comment_id>/replies -f body="Kept: <reason>"
@@ -77,10 +77,42 @@ Then update the issue body so its status is clear at a glance (`gh api -X PATCH 
     with `https://github.com/pietvanzoen/fund-oregon-schools/blob/main/<path>`), and any new news records by id.
   - On a later PR for the same issue, add to the lists rather than replacing them.
 - Label the PR `needs-human` if any finding is disputed or unresolved, any figure on `START.md` or `decisions.md` changed, or a
-  checklist item needs the maintainer's judgement. Say which of these applies, and what the maintainer has to decide, in a
-  **Needs you** line at the top of the PR body.
+  checklist item needs the maintainer's judgement. Say which of these applies, what the maintainer has to decide, and how
+  many review points you left (below), in a **Needs you** line at the top of the PR body.
+- On a `needs-human` PR, leave the maintainer one review comment per point, on the line it's about, so he can work
+  through them in the PR's Files tab. Post them as one review after your last content push (the `updates.csv`
+  commit above):
+
+  ```bash
+  gh api repos/pietvanzoen/fund-oregon-schools/pulls/<PR>/reviews --input /tmp/review.json
+  ```
+
+  ```json
+  {"commit_id": "<git rev-parse HEAD>", "event": "COMMENT",
+   "body": "<n> points for you, one thread each. Resolve each thread once it's settled.",
+   "comments": [{"path": "analysis/decisions.md", "line": 42, "side": "RIGHT", "body": "**Decide:** ..."}]}
+  ```
+
+  What gets a comment, each starting with its tag:
+  - **Decide:** each call the maintainer has to make: the question, the options, which you'd take and what it
+    costs, and the sources it rests on (path and page).
+  - **Check:** each changed figure on `START.md` or `decisions.md` (old → new, and its source); each disputed or
+    unresolved reviewer finding (the finding, your reason, what would settle it); anything else where a wrong
+    reading would reach the site, such as a new headline number or a quote not yet checked against its recording.
+
+  Not: a tour of the diff, findings already fixed, or Vale findings (those have their own threads).
+
+  `line` must be in the PR's diff (a changed line, or a context line inside a hunk); one bad `line` makes GitHub
+  reject the whole review. A point about a file with no suitable line gets a file-level comment instead:
+  `gh api repos/pietvanzoen/fund-oregon-schools/pulls/<PR>/comments -f commit_id=<sha> -f path=<path>
+  -f subject_type=file -f body="<tag and point>"`. A point with no file goes in the review's `body`.
+
+  Don't reply to or resolve these threads: they're the maintainer's checklist, and `main` won't accept the merge
+  until he resolves each one. If a later push changes a line you commented on, GitHub marks the comment outdated:
+  post it again on the new line.
 - Wait for the `check` and `build` checks on the PR. If one fails, fix it and push. If the PR shows a merge
   conflict later (another PR merged first), merge `origin/main` in again as above.
 
-End with a short report: the PR link, one-line summary, the review table's counts, the site pages from
-`## Where to find it`, and what's left on the issue.
+End with a short report: the PR link, one-line summary, the review table's counts, the number of review points
+left for the maintainer (on a `needs-human` PR), the site pages from `## Where to find it`, and what's left on the
+issue.
