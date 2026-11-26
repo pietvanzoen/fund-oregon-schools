@@ -14,6 +14,7 @@ item), derived (our calculations, cited as [DER:...]) and summary (front matter:
 Machine transcripts of audio/video (<file>.txt) come back one line per hit, as [VID:<path>@H:MM:SS].
 The index lives in .cache/search.sqlite and rebuilds itself when any file is newer than it.
 """
+
 import argparse
 import csv
 import io
@@ -24,7 +25,7 @@ import sqlite3
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import ANALYSIS, MEDIA, front_matter, NEWS_INDEX, QUOTES, ROOT, SOURCES, read_jsonl  # noqa: E402
+from common import ANALYSIS, MEDIA, NEWS_INDEX, QUOTES, ROOT, SOURCES, front_matter, read_jsonl
 
 KINDS = ["src", "news", "quote", "cited", "analysis", "derived", "summary"]
 DB = os.path.join(ROOT, ".cache", "search.sqlite")
@@ -60,8 +61,9 @@ def analysis_rows(rel, text):
             if any(rec):
                 derived = rel.startswith("analysis/derived/")
                 cite = f"[DER:{os.path.basename(rel)[:-4]}/{r.get('id', '')}]" if derived else f"{rel}:{start}"
-                rows.append(("derived" if derived else "cited", cite, "", "",
-                             "  ".join(f"{k}: {v}" for k, v in r.items() if v)))
+                rows.append(
+                    ("derived" if derived else "cited", cite, "", "", "  ".join(f"{k}: {v}" for k, v in r.items() if v))
+                )
             start = reader.line_num + 1
         return rows
     try:
@@ -80,7 +82,7 @@ def analysis_rows(rel, text):
             rows.append((kind, f"{rel}:{buf[0][0]}" + (f" ({heading})" if heading else ""), "", "", chunk))
             buf.clear()
 
-    first = text[:len(text) - len(body)].count("\n") + 1
+    first = text[: len(text) - len(body)].count("\n") + 1
     for n, line in enumerate(body.split("\n"), first):
         if not line.strip() or re.match(r"#{1,6} |- ", line):
             flush()  # a list item is its own row: one list can mix "Analysis:" items with cited ones
@@ -119,7 +121,7 @@ def build():
                     if re.fullmatch(r"\d+:\d\d:\d\d", ts):
                         rows.append(("src", f"[VID:{os.path.splitext(rel)[0]}@{ts}]", "", "", said))
                 continue
-            pages =open(full, encoding="utf-8", errors="replace").read().split("\f")
+            pages = open(full, encoding="utf-8", errors="replace").read().split("\f")
             is_pdf = rel.lower().endswith(".pdf")
             for n, pg in enumerate(pages, 1):
                 if pg.strip():
@@ -128,8 +130,15 @@ def build():
         body = " ".join(str(r.get(k, "")) for k in ("title", "outlet", "summary", "key_facts", "quotes"))
         rows.append(("news", f"[NEWS:{r['id']}]", "", r.get("date", ""), body))
     for q in read_jsonl(QUOTES):
-        rows.append(("quote", q.get("cite", ""), q.get("person", ""), q.get("date", ""),
-                     f"{q.get('quote', '')}  ({q.get('context', '')})"))
+        rows.append(
+            (
+                "quote",
+                q.get("cite", ""),
+                q.get("person", ""),
+                q.get("date", ""),
+                f"{q.get('quote', '')}  ({q.get('context', '')})",
+            )
+        )
     for dirpath, _, files in os.walk(ANALYSIS):
         for f in files:
             if f.endswith((".md", ".csv")) or dirpath.endswith("visuals") and f.endswith(".json"):

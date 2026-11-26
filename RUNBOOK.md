@@ -103,4 +103,5 @@ Put the evidence in the quote's `context` and `confidence`, and say in the PR wh
 - If a data file or derive script changed, run every `tools/derive_*.py` and commit `analysis/derived/`; CI reruns
   them and fails if the output differs.
 - To see the pages as readers will: `cd site-11ty && npm ci && npx eleventy --serve` (http://localhost:8080). CI runs
-  the same build on every PR; it fails on a broken internal link or an unknown `[[id]]`.
+  the same build on every PR; it fails on a broken internal link, an unknown `[[id]]`, or invalid HTML or an
+  accessibility error in the built pages (html-validate).

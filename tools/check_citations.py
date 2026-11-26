@@ -30,6 +30,7 @@ A data file with an `id` column needs a unique id on every row.
     python3 tools/check_citations.py --pr 64 --base origin/main  # also: a PR that changes reader-facing files
                                                                 # must add an updates.csv row with its number
 """
+
 import argparse
 import csv
 import glob
@@ -41,13 +42,29 @@ import sys
 from decimal import ROUND_HALF_UP, Decimal
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import (ANALYSIS, DERIVED, NEWS_INDEX, QUOTES, ROOT, SOURCES, TAG_RE, front_matter,  # noqa: E402
-                    parse_src, read_jsonl, read_queue, text_path)
+from common import (
+    ANALYSIS,
+    DERIVED,
+    NEWS_INDEX,
+    QUOTES,
+    ROOT,
+    SOURCES,
+    TAG_RE,
+    front_matter,
+    parse_src,
+    read_jsonl,
+    read_queue,
+    text_path,
+)
 
 SECTIONS = ["Analysis", "What the sources say", "Derived figures"]
 DER_COLS = ["id", "value", "unit", "kind", "label", "method", "inputs", "assumptions"]
 UPDATE_COLS = ["date", "text", "page", "pr", "kind"]
-UPDATE_KINDS = {"research", "correction", "site"}  # site rows stay off the overview (adr/20261124-2210-whats-new-kinds.md)
+UPDATE_KINDS = {
+    "research",
+    "correction",
+    "site",
+}  # site rows stay off the overview (adr/20261124-2210-whats-new-kinds.md)
 UPDATES = os.path.join(ANALYSIS, "updates.csv")
 NOT_READER_FACING = {"analysis/updates.csv"}  # not shown on the site
 QUESTIONS = os.path.join(ANALYSIS, "questions.csv")
@@ -165,7 +182,9 @@ def main():
         elif kind == "DER":
             topic, _, did = body.strip().partition("/")
             if did not in derived.get(topic, {}):
-                errors.append(f"{where}: unknown derived figure {body.strip()} (no such id in analysis/derived/{topic}.csv)")
+                errors.append(
+                    f"{where}: unknown derived figure {body.strip()} (no such id in analysis/derived/{topic}.csv)"
+                )
         elif kind == "NEWS" and body.strip() not in news_ids:
             errors.append(f"{where}: unknown NEWS id {body.strip()}")
         elif kind == "VID":
@@ -194,7 +213,7 @@ def main():
                 except ValueError as e:
                     errors.append(f"{rel}: {e}")
                     continue
-                body_lines = lines[len(lines) - len(body.split("\n")):]  # keeps the file's line numbers
+                body_lines = lines[len(lines) - len(body.split("\n")) :]  # keeps the file's line numbers
                 for n, line in lines:
                     for m in TAG_RE.finditer(line):
                         check_tag(f"{rel}:{n}", m.group(1), m.group(2))
@@ -207,7 +226,9 @@ def main():
                 elif os.path.dirname(full) == os.path.join(ANALYSIS, "people"):
                     check_front_matter(rel, meta, body, {"description"}, errors)
                 elif meta:
-                    errors.append(f"{rel}: only topic files and person profiles may have front matter (.claude/rules/analysis.md rule 4)")
+                    errors.append(
+                        f"{rel}: only topic files and person profiles may have front matter (.claude/rules/analysis.md rule 4)"
+                    )
             elif dirpath == DERIVED:
                 continue  # checked above
             elif full == UPDATES:
@@ -338,8 +359,10 @@ def measures():
         ps = model_csv("positions.csv")
         replaced = {p["replaces"] for p in ps if p.get("replaces")}
         stances = sum(p["decision"] == d["id"] and str(n) not in replaced for n, p in enumerate(ps, 2))
-        print(f"{d['id']} (due {d['due']}): baseline {'yes' if 'baseline' in kinds else 'NO'}, "
-              f"proposals {'yes' if 'proposal' in kinds else 'none'}, {stances} stances")
+        print(
+            f"{d['id']} (due {d['due']}): baseline {'yes' if 'baseline' in kinds else 'NO'}, "
+            f"proposals {'yes' if 'proposal' in kinds else 'none'}, {stances} stances"
+        )
     return 0
 
 
@@ -370,17 +393,23 @@ def check_updates(rel, errors):
 
 def check_pr_update(pr, base, errors):
     """Readers learn about new research from What's new, so a PR that changes what the site shows adds a row."""
-    out = subprocess.run(["git", "-C", ROOT, "diff", "--name-only", f"{base}...HEAD"],
-                         capture_output=True, text=True)
+    out = subprocess.run(
+        ["git", "-C", ROOT, "diff", "--name-only", f"{base}...HEAD"], capture_output=True, text=True, check=False
+    )
     if out.returncode:
         errors.append(f"--pr: git diff against {base} failed: {out.stderr.strip()}")
         return
-    changed = [f for f in out.stdout.split() if (f.startswith("analysis/") and f not in NOT_READER_FACING)
-               or f == "sources/news/index.jsonl"]
+    changed = [
+        f
+        for f in out.stdout.split()
+        if (f.startswith("analysis/") and f not in NOT_READER_FACING) or f == "sources/news/index.jsonl"
+    ]
     if changed and not any(r["pr"] == str(pr) for r in read_updates()[1]):
-        errors.append(f"PR #{pr} changes {', '.join(changed[:3])}{' …' if len(changed) > 3 else ''} but "
-                      f"analysis/updates.csv has no row with pr {pr}. Add one (date, text for readers, page, {pr}, kind), "
-                      "or label the PR no-update if readers don't need to know.")
+        errors.append(
+            f"PR #{pr} changes {', '.join(changed[:3])}{' …' if len(changed) > 3 else ''} but "
+            f"analysis/updates.csv has no row with pr {pr}. Add one (date, text for readers, page, {pr}, kind), "
+            "or label the PR no-update if readers don't need to know."
+        )
 
 
 def check_visual(rel, name, v, data_rows, derived, check_tag, errors):
@@ -401,14 +430,16 @@ def check_visual(rel, name, v, data_rows, derived, check_tag, errors):
             ref, label = b.get("ref", ""), b.get("label")
             if not label or not b.get("group"):
                 errors.append(f"{rel}: bar {ref} needs a label and a group (colour is never the only cue)")
-            topic, _, did = ref[len("derived/"):].partition("/")
+            topic, _, did = ref[len("derived/") :].partition("/")
             row = derived.get(topic, {}).get(did) if ref.startswith("derived/") else data_rows.get(ref)
             value = (row or {}).get("value" if ref.startswith("derived/") else v.get("column"))
             try:
                 Decimal(value)
             except (TypeError, ArithmeticError):
-                errors.append(f"{rel}: bar {ref!r} doesn't point to a row with a number in it"
-                              f"{'' if ref.startswith('derived/') else ' (data/<file>/<id>, the id column)'}")
+                errors.append(
+                    f"{rel}: bar {ref!r} doesn't point to a row with a number in it"
+                    f"{'' if ref.startswith('derived/') else ' (data/<file>/<id>, the id column)'}"
+                )
     elif v.get("kind") == "flow":
         cols = v.get("columns")
         if not isinstance(cols, int) or cols < 1:
@@ -458,15 +489,39 @@ def check_der_figures(rel, lines, derived, errors):
                     continue  # not DER, or unknown id (reported by check_tag)
                 # shortcut: compares in the derived file's unit (256.6 USD millions matches "$257M", not "$0.26B")
                 if not any(rounds_to(row["value"], x) for x in numbers(sent)):
-                    errors.append(f"{rel}:{n}: [DER:{m.group(2)}] is {row['value']} {row['unit']}; "
-                                  "no number in its sentence rounds to that")
-                if not rel.startswith("analysis/topics/") and not re.search(r"\bour (sum|estimate)\b", sent, re.I):
-                    errors.append(f"{rel}:{n}: [DER:{m.group(2)}] needs \"our sum\" or \"our estimate\" in its sentence")
+                    errors.append(
+                        f"{rel}:{n}: [DER:{m.group(2)}] is {row['value']} {row['unit']}; "
+                        "no number in its sentence rounds to that"
+                    )
+                if not rel.startswith("analysis/topics/") and not re.search(
+                    r"\bour (sum|estimate)\b", sent, re.IGNORECASE
+                ):
+                    errors.append(f'{rel}:{n}: [DER:{m.group(2)}] needs "our sum" or "our estimate" in its sentence')
 
 
 # Everyday abbreviations and outlet names a reader doesn't need explained.
-NOT_GLOSSARY = {"FAQ", "PDF", "URL", "OCR", "COVID", "SW", "NE", "NW", "SE", "II", "III", "US", "USA",
-                "KATU", "KTVZ", "OPB", "KGW", "KOIN", "KLCC", "DER"}
+NOT_GLOSSARY = {
+    "FAQ",
+    "PDF",
+    "URL",
+    "OCR",
+    "COVID",
+    "SW",
+    "NE",
+    "NW",
+    "SE",
+    "II",
+    "III",
+    "US",
+    "USA",
+    "KATU",
+    "KTVZ",
+    "OPB",
+    "KGW",
+    "KOIN",
+    "KLCC",
+    "DER",
+}
 ABBR_RE = re.compile(r"\b[A-Z][A-Z0-9&]{1,5}[a-z]?\b")  # ADMr, ADMw too
 
 
@@ -494,17 +549,23 @@ def check_front_matter(rel, meta, body, required, errors):
     for k in sorted(required - meta.keys()):
         errors.append(f"{rel}: no `{k}` in front matter (.claude/rules/analysis.md rule 4)")
     for k in sorted(meta.keys() - required - {"title"}):
-        errors.append(f"{rel}: front matter key {k} isn't used; this file holds only {', '.join(sorted(required | {'title'}))}")
+        errors.append(
+            f"{rel}: front matter key {k} isn't used; this file holds only {', '.join(sorted(required | {'title'}))}"
+        )
     for k in sorted(meta.keys() & {"summary", "description", "title"}):
         if TAG_RE.search(meta[k]):
             errors.append(f"{rel}: the {k} carries no citations; back each sentence with a cited line below")
     if len(meta.get("description", "")) > DESC_MAX:
-        errors.append(f"{rel}: description is {len(meta['description'])} characters; search results show about {DESC_MAX}")
-    h1 = (re.search(r"^# (.+)$", body, re.M) or [None, ""])[1].strip()
+        errors.append(
+            f"{rel}: description is {len(meta['description'])} characters; search results show about {DESC_MAX}"
+        )
+    h1 = (re.search(r"^# (.+)$", body, re.MULTILINE) or [None, ""])[1].strip()
     title = meta.get("title", h1)
     if len(title) > TITLE_MAX:
-        errors.append(f"{rel}: page title is {len(title)} characters; search results show about {TITLE_MAX}, so "
-                      f"{'shorten the `title`' if 'title' in meta else 'add a shorter `title` to the front matter'}")
+        errors.append(
+            f"{rel}: page title is {len(title)} characters; search results show about {TITLE_MAX}, so "
+            f"{'shorten the `title`' if 'title' in meta else 'add a shorter `title` to the front matter'}"
+        )
 
 
 def check_sections(rel, lines, news_text, errors, warnings):
@@ -513,16 +574,16 @@ def check_sections(rel, lines, news_text, errors, warnings):
     if [h for _, h in heads] != SECTIONS:
         errors.append(f"{rel}: needs exactly these sections, in order: " + ", ".join("## " + s for s in SECTIONS))
         return
-    rows = blocks(lines[heads[1][0] + 1:heads[2][0]])
+    rows = blocks(lines[heads[1][0] + 1 : heads[2][0]])
     for i, (n, text) in enumerate(rows):
         # headings, and a table's header and separator rows, carry no facts to cite
         if text.startswith("#") or TABLE_SEP.match(text) or (i + 1 < len(rows) and TABLE_SEP.match(rows[i + 1][1])):
             continue
         cites = [m for m in TAG_RE.finditer(text) if m.group(1) != "DER"]
         if not cites:
-            errors.append(f"{rel}:{n}: line under \"What the sources say\" has no source citation")
+            errors.append(f'{rel}:{n}: line under "What the sources say" has no source citation')
         if "Analysis:" in text:
-            errors.append(f"{rel}:{n}: \"Analysis:\" under \"What the sources say\"; move it to ## Analysis")
+            errors.append(f'{rel}:{n}: "Analysis:" under "What the sources say"; move it to ## Analysis')
         texts = [cited_text(m, news_text) for m in cites]
         if not cites or None in texts:
             continue  # a VID/PPSARCH/pending source has no text here to compare against
