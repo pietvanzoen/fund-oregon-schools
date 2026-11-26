@@ -217,9 +217,10 @@ document from the Governor with the $12.57 billion figure.
   buy down PERS rates [NEWS:NEWS-20261102-opb-1], while
   supporters describe a one-time draw as a bridge until lasting reform. The objection stated by Sanchez is mainly timing:
   saving the fund for worse years. Kotek's stance in April 2026 and Lieber's and Sanchez's in May 2026 were about a draw in 2025-27
-  [SRC:gov/eo/eo-26-06_faq.pdf p.2] [NEWS:NEWS-20260510-wweek-1]; Kotek's October and November 2026 stances and
-  Carpenter's suggestion came in the debate over Portland Public Schools' 2027-28 gap [NEWS:NEWS-20261102-opb-1]
-  [NEWS:NEWS-2026-katu-kotek-pps-1] [NEWS:NEWS-20261112-katu-2]. In 2021 Gov. Kate Brown vetoed spending the Legislature had budgeted from the fund, arguing it
+  [SRC:gov/eo/eo-26-06_faq.pdf p.2] [SRC:gov/eo/eo-26-06_faq.pdf p.3] [NEWS:NEWS-20260510-wweek-1]; Kotek's
+  November 2026 stance and Carpenter's suggestion came in the debate over Portland Public Schools' 2027-28 gap
+  [NEWS:NEWS-2026-katu-kotek-pps-1] [NEWS:NEWS-20261112-katu-2], and her October 2026 comments were reported in it
+  [NEWS:NEWS-20261102-opb-1]. In 2021 Gov. Kate Brown vetoed spending the Legislature had budgeted from the fund, arguing it
   didn't meet the conditions for using the fund [NEWS:NEWS-20210617-eastoregonian-1], so the Governor's reading of
   those conditions matters as well as the votes. See
   `topics/reserves.md`.
