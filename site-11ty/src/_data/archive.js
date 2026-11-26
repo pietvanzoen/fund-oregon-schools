@@ -494,14 +494,21 @@ function citeCard(kind, body) {
       chip: "PPS archive",
       cls: "pps",
     };
-  const [, ts] = body.split("@");
+  const [p, ts] = body.split("@");
+  const file = Object.keys(srcInfo).find((k) => k.startsWith(`${p}.`)); // VID paths leave out the extension
+  const s = srcInfo[file] || {};
+  const sec = ts ? ts.split(":").reduce((a, n) => a * 60 + Number(n), 0) : 0;
+  // YouTube opens at the cited second; other players can't be linked to a time
+  const at = ts && /youtube\.com|youtu\.be/.test(s.url || "") ? `${s.url.includes("?") ? "&" : "?"}t=${sec}` : "";
   return {
     kind: "Recording",
-    title: path.basename(body.split("@")[0]),
-    url: null,
-    lines: [ts ? `At ${ts}` : ""],
+    title: s.title || path.basename(p),
+    url: s.url ? s.url + at : null,
+    external: true,
+    lines: [[s.date && `Dated ${s.date}`, ts && `cited at ${ts}`].filter(Boolean).join(", ")],
+    also: file ? { label: "Archived copy", url: `${BLOB}sources/${file}` } : undefined,
     icon: "video",
-    chip: `Recording${ts ? `, ${ts}` : ""}`,
+    chip: `${shortTitle(s.title || "Recording")}${ts ? `, ${ts}` : ""}`,
     cls: "vid",
   };
 }
