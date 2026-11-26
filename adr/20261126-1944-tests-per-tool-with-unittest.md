@@ -1,6 +1,6 @@
 # Every tool has its own test file, run with unittest; derive scripts are tested against hand-worked fixtures
 
-Status: accepted (2026-11-26, PR #TBD). Supersedes [20261121-1526-no-test-framework-for-now.md](20261121-1526-no-test-framework-for-now.md)
+Status: accepted (2026-11-26, PR #212). Supersedes [20261121-1526-no-test-framework-for-now.md](20261121-1526-no-test-framework-for-now.md)
 
 ## Context
 `tools/test_tools.py` had reached 542 lines, one `main()` of 72 asserts sharing one throwaway root, so a failure
