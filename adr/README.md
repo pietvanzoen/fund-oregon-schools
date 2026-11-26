@@ -59,6 +59,7 @@ The concrete signal that should reopen this.
 | [2026-11-24](20261124-2151-terms-on-this-page.md) | Pages list the glossary terms they use in the side column; term pages get backlinks |
 | [2026-11-24](20261124-1755-agency-email-replies-as-text.md) | Email replies are archived as reply text, and only when nothing else can be cited |
 | [2026-11-24](20261124-2210-whats-new-kinds.md) | What's new rows have a kind; site changes stay off the overview |
+| [2026-11-24](20261124-2326-glossary-labels-not-linked-in-text.md) | Words the site gives its own meaning are glossary labels, not linked in running text |
 | [2026-11-24](20261124-2226-linters-in-ci.md) | Code is linted and the built HTML validated in CI, with pinned tools; no browser checks yet |
 | [2026-11-24](20261124-2349-leads-archived-on-their-own-pr.md) | Leads are triaged in a session; their sources merge on their own PR once vetted |
 | [2026-11-25](20261125-0411-visuals-as-derived-entities.md) | Charts and diagrams are their own files, checked once and embedded by id |

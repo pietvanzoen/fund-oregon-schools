@@ -178,7 +178,9 @@ for (const f of topicFiles) {
     description: data.description?.trim(),
   };
 }
-for (const g of glossaryAll) // links to its term page; a term of art matches in any case and its card shows the start of its definition
+// Each row links to its term page on first use (a term of art in any case, its card showing the start of its definition).
+// A label, a word this site gives its own meaning, gets no link in running text but still lists in Terms on this page.
+for (const g of glossaryAll.filter((g) => g.kind !== "label"))
   entities[`term:${g.term}`] =
     g.kind === "acronym"
       ? {
@@ -794,7 +796,6 @@ for (const person of people) {
           `${e.title} (${[PARTY[r.party], r.district && `${r.office.split(" ")[0]} District ${r.district}`, r.area].filter(Boolean).join(", ") || r.office}): ` +
           `${r.role_2025_26 || r.role_2027}. Their part in Oregon's school budget, cited.`
         )
-          .replace(/W&M/g, "Ways and Means")
           .replace(/\bN\/NE\b/g, "North and Northeast")
           .replace(/\bS\/SW\b/g, "South and Southwest"),
         160,
