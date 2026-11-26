@@ -20,6 +20,8 @@ git fetch -q origin {{BRANCH}} && git checkout -q FETCH_HEAD   # run every later
 git diff {{BASE}} -- analysis/ sources/news/ sources/_queue.csv
 ```
 
+If the clone or fetch fails with HTTP 429 (too many concurrent transfers), wait 5 seconds and retry once.
+
 In your clone, read `.claude/rules/analysis.md` (the archive's rules), rule 7 in `CLAUDE.md` (members of the
 public), `RESEARCH.md` "Neutral by design" and "The model" (how research is organized) and `analysis/decisions.md`
 (where each decision stands) before you start.

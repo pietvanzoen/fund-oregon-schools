@@ -21,6 +21,8 @@ git fetch -q origin {{BRANCH}} && git checkout -q FETCH_HEAD   # run every later
 git diff {{BASE}} -- analysis/START.md analysis/decisions.md analysis/topics/ analysis/people/*.md analysis/timeline.md analysis/visuals/
 ```
 
+If the clone or fetch fails with HTTP 429 (too many concurrent transfers), wait 5 seconds and retry once.
+
 Read `STYLE.md` (the house style) and the "Writing so it gets used" section of `RESEARCH.md` first. Review only
 the added or changed sentences in those files, in our own words: skip quotes, citation tags, CSVs and code.
 

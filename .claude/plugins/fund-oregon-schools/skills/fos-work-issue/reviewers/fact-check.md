@@ -20,6 +20,8 @@ git diff {{BASE}} --stat
 git diff {{BASE}} -- analysis/ sources/news/ tools/derive_*.py
 ```
 
+If the clone or fetch fails with HTTP 429 (too many concurrent transfers), wait 5 seconds and retry once.
+
 In your clone, read `.claude/rules/analysis.md` (citation formats, quotes, how analysis files are laid out) and
 `.claude/rules/sources.md` (rule 6, news records) first: they define the rules you're checking against.
 
