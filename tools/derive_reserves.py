@@ -73,7 +73,9 @@ for r in forecasts:
             "resources include the beginning balance and offsets, which are not revenue; shown for comparison",
         )
     )
-worst = min(forecasts, key=lambda r: float(r["gross_change_from_cos_million"]) / float(r["cos_gross_gf_revenue_million"]))
+worst = min(
+    forecasts, key=lambda r: float(r["gross_change_from_cos_million"]) / float(r["cos_gross_gf_revenue_million"])
+)
 out.append(
     (
         "esf_2pct_gross_max_decline",
@@ -91,7 +93,11 @@ with open(os.path.join(DATA, "esf_next_biennium_test.csv"), encoding="utf-8") as
         out.append(
             (
                 f"esf_3pct_{r['id']}",
-                round(100 * (float(r["next_biennium_net_revenue_million"]) / float(r["current_appropriations_million"]) - 1), 1),
+                round(
+                    100
+                    * (float(r["next_biennium_net_revenue_million"]) / float(r["current_appropriations_million"]) - 1),
+                    1,
+                ),
                 "%",
                 "est",
                 f"{r['forecast']} forecast: {r['next_biennium']} net General Fund revenue compared with {r['current_biennium']} General Fund appropriations",
@@ -103,7 +109,16 @@ with open(os.path.join(DATA, "esf_next_biennium_test.csv"), encoding="utf-8") as
         out.append(
             (
                 f"esf_3pct_drop_needed_{r['id']}",
-                round(100 * (1 - 0.97 * float(r["current_appropriations_million"]) / float(r["next_biennium_net_revenue_million"])), 1),
+                round(
+                    100
+                    * (
+                        1
+                        - 0.97
+                        * float(r["current_appropriations_million"])
+                        / float(r["next_biennium_net_revenue_million"])
+                    ),
+                    1,
+                ),
                 "%",
                 "est",
                 f"How far {r['next_biennium']} net General Fund revenue would have to fall from the {r['forecast']} forecast to be 3% below {r['current_biennium']} appropriations",
