@@ -1,7 +1,7 @@
 ---
 description: >
-  Oregon's Education Stability Fund: about $1.3 billion forecast for mid-2027, the vote and triggers to use it,
-  whether one is met, and nine past allocations.
+  Oregon's Education Stability Fund: about $1.3 billion forecast for mid-2027, what a draw on its principal takes,
+  whether a trigger is met, and nine past allocations.
 summary: >
   The Education Stability Fund is one of the state's two general savings accounts, expected to hold about $1.3
   billion at the end of the 2025-27 budget; spending that balance takes a three-fifths vote in both the House and the
@@ -9,8 +9,10 @@ summary: >
   are paid out under state law, at present all to college financial aid. No state revenue forecast so far has shown a
   drop large enough to meet a revenue trigger, and the last test for 2025-27 comes with the May 2027 forecast (its date
   is tentative); the state's first job estimates showed two quarters of decline in the first half of 2026, but one was
-  later revised up, so whether the jobs trigger is met is unsettled. The state has used the fund nine times, most
-  recently $400 million approved in 2020; Portland Public Schools has asked for $500 million of it to lower districts'
+  later revised up, so whether the jobs trigger is met is unsettled. The state has used the fund nine times, mostly
+  to help balance the state budget in downturns by paying for schools with it, most recently $400 million approved in
+  2020; in 2021 Gov. Kate Brown vetoed the spending of a $200 million draw, saying the conditions for using the fund
+  were not met. Portland Public Schools has asked for $500 million of it to lower districts'
   pension payments, and a state representative and a newly elected House member have suggested one-time help from it,
   with no amount named.
 ---
