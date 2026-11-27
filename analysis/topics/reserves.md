@@ -42,8 +42,8 @@ has no proposal on record to redirect the earnings.
 
 The December 2026 forecast projects the balance a draw would come from at $1,273.3 million for the end of 2025-27
 [SRC:fiscal/oea/2026-12_forecast.pdf p.73]. Its text on p.41 still gives September's $1,271 million (below). In its
-reserve table, which starts with 2021-23, the fund pays out about what it earns in each budget period, so almost all of the balance's growth from then to the projected end of 2025-27
-comes from lottery deposits, set at 18% of net lottery proceeds until the fund reaches its cap
+reserve table, which starts with 2021-23, the fund pays out about what it earns in each budget period, so almost all
+of the balance's growth from then to the projected end of 2025-27 comes from lottery deposits, set at 18% of net lottery proceeds until the fund reaches its cap
 [SRC:fiscal/oea/2026-12_forecast.pdf p.73] [SRC:fiscal/oea/2026-12_forecast.pdf p.72]
 [SRC:legislature/constitution/oregon-constitution.html]. If a law kept earnings in the fund, the archive can't say
 whether spending them later would need the vote and a trigger: the constitution, the statutes, the Legislative Fiscal
