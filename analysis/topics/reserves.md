@@ -16,36 +16,53 @@ summary: >
 
 ## Analysis
 
-Any draw from the Education Stability Fund needs a three-fifths vote in each chamber and either an economic trigger or an emergency
-declaration. For a
-2025-27 draw, Gov. Tina Kotek said she did not plan at that time to declare an emergency unless the votes were there. Revenue the
-forecast already expects needs neither, though a tax increase also needs three-fifths of each chamber
-[SRC:legislature/constitution/oregon-constitution.html]. That holds for a large, general draw. An initial proposal (November 2026) for
-targeted, one-time Public Employees Retirement System (PERS) relief from Rep. Ricki Ruiz, D-District 50 (Gresham), a
-co-chair of the Ways and Means Education Subcommittee in 2026, suggests a narrower
-draw is being discussed, though it rests on one social media post with no amount or bill. It still needs the same
-vote and trigger. The objection on record from Sen. Kate Lieber, D-District 14 (Beaverton & Southwest
-Portland) [SRC:legislature/members/lieber.html], to one-time money for ongoing costs could still apply: PERS
-contributions are an ongoing cost. Gov. Tina Kotek has said tapping one-time reserves for Portland Public Schools'
-budget problems goes against enrollment-driven state investment. On one-time money for ongoing costs, she has
-described a similar objection, from unnamed legislative leaders who dismissed using the fund when she raised it, as
-one she can understand, framing it as their argument (below).
-The objection stated by Rep. Tawna Sanchez, D-District 43 (North and Northeast Portland)
-[SRC:legislature/members/sanchez.html], is mainly timing. Ruiz describes his proposal as relief
-while longer-term reform is developed (`decisions.md#esf-draw-2027-29`).
+### What a draw needs
 
-No money has been taken from the fund since the 2020 transfer, and none of its past uses paid for pension costs (below). The
-Legislative Fiscal Office lists nine allocations, which total $1,540.6 million, not adjusted for inflation
-[DER:reserves/esf_withdrawals_total]. They went to the State School Fund or other education programs, mostly to
-balance or rebalance the state budget in the downturns of 2001-03, 2007-11 and 2020. The last draw the Legislature wrote into a
-budget bill, $200 million for the 2021-23 State School Fund, did not take effect. Gov. Kate Brown vetoed it. She
-argued that the conditions for using the fund's principal, a downturn or another emergency affecting school budgets,
-were not met. A Legislative Counsel opinion had argued that a trigger met earlier in the budget period left the fund
-available. Lawmakers kept the State School Fund at $9.3 billion mainly with lottery money instead. The Legislative
-Fiscal Office's lottery tables show no withdrawal in 2021-23, 2023-25 or 2025-27, as of March 2026. If the
-Legislature draws on the fund in 2027-29, then it would be the first withdrawal since 2020. A draw for pension costs
-would be the first in the record. The 2021 veto shows that a governor's reading of the conditions can stop spending
-the Legislature has budgeted from the fund.
+Any draw from the Education Stability Fund needs a three-fifths vote in each chamber and either an economic trigger
+or an emergency declaration. For a 2025-27 draw, Gov. Tina Kotek said she did not plan at that time to declare an
+emergency unless the votes were there. Revenue the forecast already expects needs neither, though a tax increase
+also needs three-fifths of each chamber [SRC:legislature/constitution/oregon-constitution.html]. That holds for a
+large, general draw.
+
+An initial proposal (November 2026) for targeted, one-time Public Employees Retirement System (PERS) relief from
+Rep. Ricki Ruiz, D-District 50 (Gresham), a co-chair of the Ways and Means Education Subcommittee in 2026, suggests a
+narrower draw is being discussed, though it rests on one social media post with no amount or bill. It still needs
+the same vote and trigger.
+
+### Objections on record
+
+Three officials have objections on record:
+
+- The objection on record from Sen. Kate Lieber, D-District 14 (Beaverton & Southwest Portland)
+  [SRC:legislature/members/lieber.html], to one-time money for ongoing costs could still apply: PERS contributions
+  are an ongoing cost.
+- Kotek has said tapping one-time reserves for Portland Public Schools' budget problems goes against
+  enrollment-driven state investment. On one-time money for ongoing costs, she has described a similar objection,
+  from unnamed legislative leaders who dismissed using the fund when she raised it, as one she can understand,
+  framing it as their argument (below).
+- The objection stated by Rep. Tawna Sanchez, D-District 43 (North and Northeast Portland)
+  [SRC:legislature/members/sanchez.html], is mainly timing. Ruiz describes his proposal as relief while longer-term
+  reform is developed (`decisions.md#esf-draw-2027-29`).
+
+### Past draws and the 2021 veto
+
+No money has been taken from the fund since the 2020 transfer, and none of its past uses paid for pension costs
+(below). The Legislative Fiscal Office lists nine allocations, which total $1,540.6 million, not adjusted for
+inflation [DER:reserves/esf_withdrawals_total]. They went to the State School Fund or other education programs,
+mostly to balance or rebalance the state budget in the downturns of 2001-03, 2007-11 and 2020.
+
+The last draw the Legislature wrote into a budget bill, $200 million for the 2021-23 State School Fund, did not take
+effect. Gov. Kate Brown vetoed it. She argued that the conditions for using the fund's principal, a downturn or
+another emergency affecting school budgets, were not met. A Legislative Counsel opinion had argued that a trigger
+met earlier in the budget period left the fund available. Lawmakers kept the State School Fund at $9.3 billion
+mainly with lottery money instead.
+
+The Legislative Fiscal Office's lottery tables show no withdrawal in 2021-23, 2023-25 or 2025-27, as of March 2026.
+If the Legislature draws on the fund in 2027-29, then it would be the first withdrawal since 2020. A draw for pension
+costs would be the first in the record. The 2021 veto shows that a governor's reading of the conditions can stop
+spending the Legislature has budgeted from the fund.
+
+### What a draw for budget gaps would cost
 
 What a one-time draw for districts' budget gaps would cost statewide isn't known. The archive has no statewide total
 of district budget gaps for 2027-28; the only district figure is Portland Public Schools' own projection of a $65

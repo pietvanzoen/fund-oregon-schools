@@ -40,7 +40,8 @@ Contents: rules 2 (citations), 3 (quotes), 4 (sources, calculations and inferenc
      no "Analysis:" label needed; first, so the page leads with it, and it reads on its own: point to the evidence as
      "below"), `## What the sources say` (only statements a cited source makes; every line cited; no inference) and
      `## Derived figures` (a table of our sums, shares and estimates, each with its `[DER:...]` tag). Why:
-     `adr/20261122-2302-analysis-first-in-topic-files.md`. A total the document prints itself is a source fact; it's derived only when we do the adding.
+     `adr/20261122-2302-analysis-first-in-topic-files.md`. Inside `## Analysis`, `###` subheadings, paragraph length
+     and lists follow `STYLE.md`, "Analysis sections a reader can scan". A total the document prints itself is a source fact; it's derived only when we do the adding.
      Plain unit rescaling ($1,271M as $1.271 billion) is allowed under sources.
    - Every calculated value lives in `analysis/derived/<topic>.csv`, written only by `tools/derive_<topic>.py`
      (one plain script per topic, no shared library). Columns: `id, value, unit, kind, label, method, inputs,
