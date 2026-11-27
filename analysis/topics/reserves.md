@@ -9,12 +9,12 @@ summary: >
   are paid out under state law, at present all to college financial aid. No state revenue forecast so far has fallen
   far enough to meet a revenue condition, and two more are due in 2027; the state's first estimates showed payroll jobs
   falling two quarters in a row in the first half of 2026, which could meet the jobs condition, but one quarter's
-  estimate was later raised, the archive can't yet say whether it still shows a fall, and how the condition's 12-month
-  window is counted in 2027 is open. The state has used the fund nine times, most recently $400
+  estimate was later raised, the archive can't yet say whether it still shows a fall, and it has no source on how the
+  condition's 12-month window is counted in 2027. The state has used the fund nine times, most recently $400
   million approved in 2020, and in 2021 Gov. Kate Brown vetoed the spending of a $200 million draw, saying the
   conditions were not met; Portland Public Schools has asked for $500 million of it to lower districts' pension
-  payments, and Gov. Tina Kotek has said tapping one-time reserves for the district's budget problems goes against
-  enrollment-driven state investment.
+  payments, and Gov. Tina Kotek has said tapping one-time reserves for the district's budget problems goes against what she
+  called "enrollment-driving state investment".
 ---
 # The Education Stability Fund: Oregon's school reserve
 
@@ -118,9 +118,10 @@ said the 2026 Legislature used neither the Education Stability Fund nor the Rain
 "despite meeting the economic triggers to access those funds"; they didn't say which triggers
 [SRC:orgs/osba-cosa/2026-04-08_legislative-report.pdf p.4]. Their report came out before the June 2026 forecast,
 released May 20, 2026, the first to show the January-March 2026 decline [SRC:fiscal/oea/2026-06_forecast.pdf p.1].
-Before then the archive has two figures that come closest: the 2.24% fall in available resources in September 2025,
-which the 2% test doesn't measure (above), and a 1.5% drop, at an annual rate, in payroll jobs in April-June 2025,
-whose prior quarter the archive lacks; with that quarter, it would have made two quarters in a row if it also fell
+Before then the archive has two figures that come closest: the 2.24% fall in available resources from the close-of-session
+forecast in September 2025, a measure the 2% test doesn't use (above), and a 1.5% drop, at an annual rate, in payroll
+jobs in April-June 2025. The archive lacks the quarter before it, January-March 2025; if that quarter also fell, the
+two would make two quarters in a row, though it ended more than 12 months before their report
 [SRC:fiscal/oea/2025-09_forecast.pdf p.44] [SRC:fiscal/oea/2025-09_forecast.pdf p.46]. The archive can't tell what
 they relied on.
 
