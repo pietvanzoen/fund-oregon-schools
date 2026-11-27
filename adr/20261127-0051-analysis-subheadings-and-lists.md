@@ -1,6 +1,6 @@
 # Long Analysis sections get specific subheadings, paragraphs of at most 5 sentences and lists only for parallel items
 
-Status: proposed (2026-11-27, PR #217)
+Status: accepted (2026-11-27, PR #217)
 
 ## Context
 No rule covered paragraph length, subheadings or bullets inside a topic's `## Analysis`. Seven of eight topic
