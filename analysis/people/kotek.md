@@ -46,7 +46,7 @@ Governor's Recommended Budget for 2027-29 in December [NEWS:NEWS-2026-salemrepor
   established almost 30 years ago. Maybe it has to be student need" [NEWS:NEWS-2026-katu-kotek-pps-1]. She added
   that rethinking it "is a longer conversation than what is happening in districts right now"
   [NEWS:NEWS-2026-katu-kotek-pps-1].
-- The press conference video has not been archived or checked yet (#106).
+- The press conference video has not been archived or checked yet.
 
 ## On online schools
 - In a statement to the Oregon Journalism Project, published Nov. 3, 2026, Kotek said she "is actively reviewing the

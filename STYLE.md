@@ -65,6 +65,12 @@ Contents: [Voice](#voice) · [Structure](#structure) · [Weight and certainty](#
   - Yes: "Oregon shares its State School Fund among school districts by a formula in state law that counts enrollment
     and gives extra weight to some students."
   - No: "This page looks at the formula." (says nothing a search result can use)
+- **No issue numbers in reader-facing text.** Say what's still to research in plain words, without "(#57)". The
+  issue goes in a row in `analysis/questions.csv`, which the site lists on its Questions page with a link to the
+  work. A topic's maintainer note (the paragraph before `## Analysis`, shown at the page foot) may keep issue
+  numbers.
+  - Yes: "Still to research: outcomes over time set against funding, and unfunded mandates."
+  - No: "Still to research: outcomes over time (#58) and unfunded mandates (#72)."
 
 ## Weight and certainty
 

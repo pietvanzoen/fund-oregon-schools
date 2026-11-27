@@ -45,7 +45,7 @@ districts.
 
 Whether those grants cover the $1.2 billion depends on a point the archive can't settle yet: whether the status quo
 prices what the grants pay for and doesn't already subtract their money. A question to Department of Education staff
-is drafted (#146). The sources point both ways (below). The report says the status quo covers all current activities
+is drafted. The sources point both ways (below). The report says the status quo covers all current activities
 "regardless of the historical funding source", and the Legislature's committee says the 2024 model's revenue
 calculations didn't count state grants. The model's cost workbook subtracts only local, federal and food service revenue, plus a PERS side account line, with
 no line for state grant revenue. But the

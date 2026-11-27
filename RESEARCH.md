@@ -197,7 +197,9 @@ can be `none stated` when someone was asked and declined. Only stances on the re
   may carry `answer`, a link to what's known so far; the status stays `open` until the question is fully answered.
 - `issue`: the GitHub issue that does the work, if any. The CSV is the record; issues are work tickets.
 
-Readers can send questions by email; the maintainer adds them here.
+Readers can send questions by email; the maintainer adds them here. Standing research the analysis names as still
+to do gets a row too (`asked_by` the maintainer, no `decision`), so the site's Questions page lists all open research
+and the text needn't cite issue numbers (`STYLE.md`, Structure).
 
 ## Choosing what to work on
 

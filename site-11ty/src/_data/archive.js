@@ -307,9 +307,7 @@ function flowSteps(v) {
           .map(
             (b) =>
               `<li class="flow-box${b.open ? " open" : ""}" id="${v.id}-${b.id}"><p class="flow-label"><strong>${esc(b.label)}</strong> ${b.cite || ""}</p>` +
-              (b.open
-                ? `<p class="flow-open">Not yet confirmed: ${esc(b.open).replace(/#(\d+)/g, `<a href="${REPO}/issues/$1">#$1</a>`)}</p>`
-                : "") +
+              (b.open ? `<p class="flow-open">Not yet confirmed: ${esc(b.open)}</p>` : "") +
               (goes(b) ? `<ul class="flow-to">${goes(b)}</ul>` : "") +
               `</li>`,
           )
@@ -1057,7 +1055,7 @@ function questionRows(qs) {
     "/questions/",
     "Questions",
     [
-      "What readers have asked, and what this archive can answer so far. Each question belongs to a [decision](/decisions/) or to " +
+      "What readers have asked, what's still being researched, and what this archive can answer so far. Each question belongs to a [decision](/decisions/) or to " +
         "standing research. Have a question? Email [hello@oregonedtrail.org](mailto:hello@oregonedtrail.org). Askers are described, never named.",
       "",
       "## Answered",

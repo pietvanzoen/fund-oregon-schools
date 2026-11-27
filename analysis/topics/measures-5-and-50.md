@@ -25,7 +25,7 @@ districts' operating taxes, not just levies, would raise and what the Measure 5 
 exempt) [SRC:fiscal/dor/2009-06_brief-history-property-taxation.pdf p.7],
 whether Measure 56 (2008) changed Measure 50's turnout rule (at least half of registered voters must vote, outside
 general elections) for some elections, and the kicker, the law that returns income tax surpluses to taxpayers
-[SRC:fiscal/lfo/2020-09_budget-reserve-funds.pdf p.1] (#66, #67).
+[SRC:fiscal/lfo/2020-09_budget-reserve-funds.pdf p.1].
 
 ## What the sources say
 

@@ -29,7 +29,7 @@ years, which is consistent with funding mattering but does not by itself separat
 
 The strongest evidence the commission cites that money matters is outside research (reviews by C. Kirabo Jackson and by Bruce Baker for the Learning Policy Institute).
 That research concerns spending in general rather than the model's particular practices, and research finding smaller
-or no effects isn't archived yet (#63). What full funding "buys" in the
+or no effects isn't archived yet. What full funding "buys" in the
 model is therefore best read as: the 2022 staffing list (smaller elementary
 classes, counselors, nurses, librarians, summer school), priced at today's costs, plus an expectation that districts
 use it on the recommended practices.
@@ -150,13 +150,13 @@ targets don't require new money, a view some State Board members doubted (`topic
   American Progress report, a policy organization's report, filed under `orgs/`
   [SRC:orgs/center-for-american-progress/2018-11-13_quality-approach-school-funding.html]. Jackson's review is cited
   here through the commission's report: its only public copy is a working paper marked not for quotation or distribution.
-  Their own findings, alongside research that finds smaller effects, are for #63.
+  Their own findings, alongside research that finds smaller effects, are still to research.
 - The 2024 report's list of research articles includes Baker, Farrie and Sciarra (2016), "Mind the Gap: 20 Years of
   Progress and Retrenchment in School Funding and Achievement Gaps" (a 2016 research report), alongside studies of class size (Tennessee's Student Teacher
   Achievement Ratio project), early childhood programs and community schools [SRC:ode/qec/2024_qem_report.pdf p.112]
   [SRC:ode/qec/2024_qem_report.pdf p.113]. The 2026 report cites "Mind the Gap" too, for the
   statement that the impacts of socio-economic status on learning are well documented
-  [SRC:ode/qec/2026_qem_report.pdf p.20]. It isn't archived yet (#79).
+  [SRC:ode/qec/2026_qem_report.pdf p.20]. It isn't archived yet.
 - The 2026 report presents its own regressions above and the American Institutes for Research's 2025 work below as evidence for its funding level [SRC:ode/qec/2026_qem_report.pdf p.95] [SRC:ode/qec/2026_qem_report.pdf p.100].
 
 ### The 2025 outside evaluation

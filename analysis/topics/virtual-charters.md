@@ -190,11 +190,11 @@ or business office pages (see "Still to find").
   Canyon's BoardBook (searched "charter contract" and "Oregon Charter Academy"), on Oregon Charter Academy's charter
   board and reporting pages, or on the Baker School District 5J's board and business office pages; the Fossil School
   District 21J's were not found by web search, and the district's site (`fossil.k12.or.us`) and the school's
-  (`fossilschools.com`) blocked our browser with a bot check. A records request is #46.
+  (`fossilschools.com`) blocked our browser with a bot check. A public records request has been made.
 - An official dollar total for State School Fund money paid for virtual charter students: none in the department's
   archived documents or the 2017 and 2019 Secretary of State reports, and the department says it doesn't publish
-  one (#47, sources below). It pointed to its Fiscal Transparency Unit's School Level Expenditure Report Dashboard, which isn't
-  archived or checked yet (#169).
+  one (sources below). It pointed to its Fiscal Transparency Unit's School Level Expenditure Report Dashboard, which isn't
+  archived or checked yet.
 - A 9-12 weighted count for Fossil Charter School and Paisley School: the High School Success allocations print only
   their sponsor districts' rows (Fossil School District 21J 25.53, Paisley School District 11 43.12), so this would
   have to come from the department. It isn't being pursued, because the check above already covers 18 of the 20

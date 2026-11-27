@@ -14,3 +14,14 @@ mandates-funded,"Which state mandates on school districts are unfunded or underf
 csl-statewide-gap,"How large is the gap between the 2027-29 General Fund forecast and the cost of continuing all state programs at the current service level, including federal H.R. 1 effects?",grb-2027-29,what the state can afford at current service level,the maintainer,2026-12-01,open,,136
 virtual-charter-hs-admw,"What are the 9-12 weighted counts of Fossil Charter School and Paisley School, which the High School Success allocations don't print separately?",formula-2027,what sponsors keep,the maintainer,2027-01-19,not planned,"Not pursued: these counts would only complete the check of the headcount grade split against the High School Success weighted counts in topics/virtual-charters.md, which already covers 18 of the 20 report charters and agrees closely. No archived ODE document gives them separately from the sponsor districts.",
 esf-trigger-2027,"Is any of the economic triggers for drawing on the Education Stability Fund met for 2025-27 or 2027-29, or would a draw need the Governor's emergency declaration?",esf-draw-2027-29,what the rules allow,raised in research for #22,2027-01-19,open,,210
+school-money-sources,"Where does Oregon's school money come from: what are the state, local and federal shares, and what pays for the state's share?",,what's available,the maintainer,,open,,182
+measures-5-50,"How did Measures 5 and 50 shape school funding, and what do local option levies and tax compression mean for districts today?",,what's available; fairness between districts,the maintainer,,open,,16
+ssf-proposals,What does each group and official propose for the 2027-29 State School Fund amount?,ssf-2027-29,cost,the maintainer,,open,,26
+sped-cap,What happened to House Bill 2953 (2025) and the 11% cap on special education funding?,formula-2027,fairness between districts; cost,the maintainer,,open,,17
+transport-closures,How do school closures change the state transportation grant?,formula-2027,fairness between districts; cost,the maintainer,,open,,18
+el-poverty-weights,How do the formula's English learner and poverty weights work?,formula-2027,fairness between districts,the maintainer,,open,,19
+sia-results,"What has the Student Investment Account paid for, and what do audits and reviews say about its results?",,results,the maintainer,,open,,57
+outcomes-over-time,"How have student outcomes changed over time, set against funding?",,results,the maintainer,,open,,58
+sb141-accountability,"How is accountability under Senate Bill 141 (2025) working: what progress has been made, and what happens to districts that miss their targets?",,results,the maintainer,,open,,71
+cost-drivers,"Where do funding increases go: pensions, benefits or staffing?",,cost,the maintainer,,open,,61
+funding-outcomes-research,What does research find about whether school funding changes student outcomes?,,results,the maintainer,,open,,63
