@@ -168,8 +168,8 @@ document from the Governor with the $12.57 billion figure.
 
 ## Drawing on the Education Stability Fund in 2027-29 {#esf-draw-2027-29}
 
-- The fund, one of the state's two general reserve accounts, is projected at $1.271 billion at the end of 2025-27
-  [SRC:fiscal/oea/2026-12_forecast.pdf p.41].
+- The fund, one of the state's two general reserve accounts, is projected at $1,273.3 million at the end of 2025-27
+  [SRC:fiscal/oea/2026-12_forecast.pdf p.73].
 - Withdrawal takes a three-fifths vote in each chamber plus either an economic trigger or a governor's emergency
   declaration [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1].
 - State reserves are currently 9.7% [SRC:fiscal/oea/2026-12_forecast_slides.pdf p.37]; the projected 2027-29 balances
@@ -205,8 +205,8 @@ document from the Governor with the $12.57 billion figure.
   [SRC:fiscal/lfo/2020-09_budget-reserve-funds.pdf p.2]. No archived source says whether paying down districts'
   pension costs counts, and none of the past withdrawals listed was for pension costs
   [SRC:fiscal/lfo/2020-09_budget-reserve-funds.pdf p.3]. On cost, Portland Public Schools asks for $500 million
-  [NEWS:NEWS-20261102-opb-1]. Our estimate: that is about 39% of the $1.271 billion balance projected for the end of
-  2025-27 [SRC:fiscal/oea/2026-12_forecast.pdf p.41] [DER:reserves/pps_ask_share_of_esf]. Ruiz names no amount and no test for which districts would qualify
+  [NEWS:NEWS-20261102-opb-1]. Our estimate: that is about 39% of the $1,273.3 million balance projected for the end of
+  2025-27 [SRC:fiscal/oea/2026-12_forecast.pdf p.73] [DER:reserves/pps_ask_share_of_esf]. Ruiz names no amount and no test for which districts would qualify
   beyond "significant financial strain" [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt]. The
   archive has no statewide total of district budget gaps for 2027-28.
 - Analysis: every option here needs the same vote and trigger. Lieber objects on the record to one-time money

@@ -40,8 +40,8 @@ revenue forecast, released Nov. 18, 2026, projects $116.1 million in interest ea
 going to the grant [SRC:fiscal/oea/2026-12_forecast.pdf p.1] [SRC:fiscal/oea/2026-12_forecast.pdf p.73]. The archive
 has no proposal on record to redirect the earnings.
 
-The December 2026 forecast projects the balance a draw would come from at $1.271 billion for the end of 2025-27
-[SRC:fiscal/oea/2026-12_forecast.pdf p.41]. In its reserve table, which starts with 2021-23, the fund pays out about
+The December 2026 forecast projects the balance a draw would come from at $1,273.3 million for the end of 2025-27
+[SRC:fiscal/oea/2026-12_forecast.pdf p.73]; its text on p.41 still gives September's $1,271 million (below). In its reserve table, which starts with 2021-23, the fund pays out about
 what it earns in each budget period, so almost all of the balance's growth from then to the projected end of 2025-27
 comes from lottery deposits, set at 18% of net lottery proceeds until the fund reaches its cap
 [SRC:fiscal/oea/2026-12_forecast.pdf p.73] [SRC:fiscal/oea/2026-12_forecast.pdf p.72]
@@ -116,15 +116,19 @@ spending the Legislature has budgeted from the fund.
 
 What a one-time draw for districts' budget gaps would cost statewide isn't known. The archive has no statewide total
 of district budget gaps for 2027-28; the only district figure is Portland Public Schools' own projection of a $65
-million gap. The district's $500 million request for all districts' pension rates would be about 39% of the $1.271
-billion balance projected for the end of 2025-27 in the December 2026 forecast [SRC:fiscal/oea/2026-12_forecast.pdf p.41]
+million gap. The district's $500 million request for all districts' pension rates would be about 39% of the $1,273.3
+million balance projected for the end of 2025-27 in the December 2026 forecast [SRC:fiscal/oea/2026-12_forecast.pdf p.73]
 [DER:reserves/pps_ask_share_of_esf].
 
 ## What the sources say
 
-- The Education Stability Fund, one of the state's two general reserve accounts, is projected at $1.271 billion at
-  the end of 2025-27 in the December 2026 forecast
-  [SRC:fiscal/oea/2026-12_forecast.pdf p.1] [SRC:fiscal/oea/2026-12_forecast.pdf p.41]. Withdrawal takes a
+- The Education Stability Fund, one of the state's two general reserve accounts, is projected at $1,273.3 million at
+  the end of 2025-27 in the December 2026 forecast's reserve table
+  [SRC:fiscal/oea/2026-12_forecast.pdf p.1] [SRC:fiscal/oea/2026-12_forecast.pdf p.73]. The forecast's text gives $1,271 million
+  [SRC:fiscal/oea/2026-12_forecast.pdf p.41], the figure in the September 2026 forecast's reserve table, along with
+  the same Rainy Day Fund balance ($2,192 million) and total ($3,463 million)
+  [SRC:fiscal/oea/2026-09_forecast.pdf p.68]; the December table gives $2,203.1 million and $3,476.4 million
+  [SRC:fiscal/oea/2026-12_forecast.pdf p.73]. Withdrawal takes a
   three-fifths vote in each chamber plus either an economic trigger or a governor's emergency declaration
   [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1] (news coverage: [NEWS:NEWS-20261102-opb-1]).
 - The Oregon Constitution sets that vote and trigger for "any portion of the principal" of the fund. Of its earnings
