@@ -1,0 +1,6 @@
+# More than 5 sentences in a paragraph (GOV.UK: no more than 5). Logic in config/scripts/ParagraphLength.tengo.
+extends: script
+message: "Over 5 sentences: consider splitting this paragraph (STYLE.md, Analysis sections a reader can scan)."
+level: suggestion
+scope: paragraph
+script: ParagraphLength.tengo
