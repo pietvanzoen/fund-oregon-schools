@@ -5,7 +5,8 @@ topics/quality-education-model.md (what the Quality Education Model's ~$1.2B of 
 import csv
 import os
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+from common import ROOT
+
 OUT = os.path.join(ROOT, "analysis", "derived", "csl.csv")
 QEM = "ode/qec/2026_qem_report.pdf p.103"
 OEA = "fiscal/oea/2026-12_forecast.pdf p.75"

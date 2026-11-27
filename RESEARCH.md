@@ -193,7 +193,8 @@ can be `none stated` when someone was asked and declined. Only stances on the re
 
 - `asked_by` describes the asker ("a parent volunteer", "the maintainer"), never a member of the public's name.
 - `status`: `open`, `answered` (with `answer`: a link to the section of `analysis/decisions.md` or a topic that
-  answers it) or `not planned` (closed by the maintainer, with what was found so far in `answer`).
+  answers it) or `not planned` (closed by the maintainer, with what was found so far in `answer`). An `open` row
+  may carry `answer`, a link to what's known so far; the status stays `open` until the question is fully answered.
 - `issue`: the GitHub issue that does the work, if any. The CSV is the record; issues are work tickets.
 
 Readers can send questions by email; the maintainer adds them here.
@@ -306,7 +307,7 @@ stops doing one of those jobs should go.
   `transcribe` writes machine transcripts for media, `check` blocks a merge when citations, derived figures or the
   What's new row are wrong, and `pages` publishes the site.
 - **Tools** (`tools/`): stdlib scripts that search and read the archive (`search`, `doc`, `linkify`), fetch it
-  (`fetch_sources`, `ocr_pdfs`), check it (`check_citations`, `check_sources`, `test_tools`) and calculate it
+  (`fetch_sources`, `ocr_pdfs`), check it (`check_citations`, `check_sources`; each tool's tests are in `tools/tests/`) and calculate it
   (`derive_<topic>`, one per topic).
 - **Skills** (`.claude/plugins/fund-oregon-schools/`): `fos-research` answers from the archive with citations;
   `fos-work-issue` takes an issue to a reviewed PR, with an independent fact-check and fairness review;
