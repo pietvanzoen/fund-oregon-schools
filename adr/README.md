@@ -39,7 +39,7 @@ The concrete signal that should reopen this.
 | [2026-11-21](20261121-1523-embedded-attachments-not-extracted.md) | Files embedded in archived PDFs aren't extracted |
 | [2026-11-21](20261121-1524-one-derive-script-per-topic.md) | Calculated values live in their own files, one plain derive script per topic |
 | [2026-11-21](20261121-1525-fetch-bot-pushes-with-deploy-key.md) | The fetch-sources bot pushes with a deploy key |
-| [2026-11-21](20261121-1526-no-test-framework-for-now.md) | Tests are plain asserts in one script, no framework, for now |
+| [2026-11-21](20261121-1526-no-test-framework-for-now.md) | Tests are plain asserts in one script, no framework, for now (superseded) |
 | [2026-11-21](20261121-1646-whats-new-from-a-csv.md) | What's new is a CSV with a PR column, checked in CI, not built from commits |
 | [2026-11-21](20261121-2205-research-organized-around-decisions.md) | Research is organized around decisions, with questions in a CSV |
 | [2026-11-22](20261122-1551-vale-in-ci-stdlib-in-tools.md) | Python tools stay stdlib-only; heavier checks run in GitHub Actions |
@@ -66,3 +66,6 @@ The concrete signal that should reopen this.
 | [2026-11-25](20261125-1807-youtube-audio-saved-and-transcribed-locally.md) | YouTube recordings are saved and transcribed on the maintainer's Mac |
 | [2026-11-25](20261125-1901-search-labels-what-each-hit-is.md) | Search labels each hit of the archive's own files as cited, analysis, derived or summary |
 | [2026-11-26](20261126-0046-agent-rules-split-by-area.md) | Agent rules are split by area: a short CLAUDE.md, rule files, and one file per work step |
+| [2026-11-26](20261126-1944-tests-per-tool-with-unittest.md) | Every tool has its own test file, run with unittest; derive scripts are tested against hand-worked fixtures |
+| [2026-11-26](20261126-2010-makefile-for-common-commands.md) | Common commands live in a Makefile, and CI's check job runs its targets |
+| [2026-11-26](20261126-2036-partial-answers-on-open-questions.md) | An open question can link to what's known so far; there's no "partly answered" status |

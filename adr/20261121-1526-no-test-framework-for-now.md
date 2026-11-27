@@ -1,6 +1,6 @@
 # Tests are plain asserts in one script, no framework, for now
 
-Status: accepted, provisional (2026-11-21, PR #36 for the code rules)
+Status: superseded by [20261126-1944-tests-per-tool-with-unittest.md](20261126-1944-tests-per-tool-with-unittest.md) (was accepted, provisional, 2026-11-21, PR #36 for the code rules)
 
 ## Context
 `tools/test_tools.py` is the whole test suite: one script of plain `assert`s, run by CI, that starts a local HTTP
