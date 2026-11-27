@@ -46,9 +46,9 @@ reserve table, which starts with 2021-23, the fund pays out about what it earns 
 [SRC:fiscal/oea/2026-12_forecast.pdf p.73]. So almost all of the balance's growth since then comes from lottery
 deposits, set at 18% of net lottery proceeds until the fund reaches its cap [SRC:fiscal/oea/2026-12_forecast.pdf p.73]
 [SRC:fiscal/oea/2026-12_forecast.pdf p.72] [SRC:legislature/constitution/oregon-constitution.html]. If a law kept earnings in the
-fund, the archive can't say whether spending them later would need the vote and a trigger: the constitution, the statutes, the Legislative Fiscal
-Office's briefs and the Legislative Revenue Office's reserve table in the archive don't say whether kept earnings become
-principal. Nor does the archive have a source that says how earnings are declared under the statute.
+fund, the archive can't say whether spending them later would need the vote and a trigger. The constitution, the
+statutes, the Legislative Fiscal Office's briefs and the Legislative Revenue Office's reserve table in the archive
+don't say whether kept earnings become principal, and no archived source says how earnings are declared.
 
 For a 2025-27 draw, Gov. Tina Kotek's office said in April 2026 that she remained open to
 discussing all options to support districts. It said she did not plan at that time to declare an economic emergency and call a
