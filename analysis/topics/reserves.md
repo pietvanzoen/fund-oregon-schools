@@ -20,35 +20,38 @@ summary: >
 ### What a draw needs
 
 A draw on the Education Stability Fund's principal needs a three-fifths vote in each chamber and either one of the
-economic conditions set in the Oregon Constitution or an emergency declared by the governor. The constitution sets that
-rule for the principal only and treats the fund's investment earnings separately: they are kept in the fund or spent
-on public education as state law provides [SRC:legislature/constitution/oregon-constitution.html]. State law pays all
-of the fund's declared earnings out, 75% to the Oregon Education Fund, for public education and payments on education
-lottery bonds, and 25% to the Oregon Opportunity Grant, financial aid for college students; any part of the Education
-Fund's share that the director of the Department of Administrative Services finds is more than needed goes to the grant
-as well [SRC:legislature/ors/ors348.html]. The Legislative Fiscal Office says public education here includes K-12 and
-post-secondary education, and that the bond payments were for schools approved in the 1997 and 1999 sessions
-[SRC:fiscal/lfo/2020-09_budget-reserve-funds.pdf p.2]. It said in November 2015 that the debt on those bonds had been
-paid off, and in 2020 that any lottery bond obligations were expected to end after 2019-21
+economic conditions set in the Oregon Constitution (a trigger) or an emergency declared by the governor. The
+constitution sets that rule for the principal only and treats the fund's investment earnings separately: they are kept
+in the fund or spent on public education as state law provides
+[SRC:legislature/constitution/oregon-constitution.html]. State law pays all of the fund's declared earnings out, 75% to
+the Oregon Education Fund, for public education and payments on education lottery bonds, and 25% to the Oregon
+Opportunity Grant, financial aid for college students; any part of the Education Fund's share that the director of the
+Department of Administrative Services finds is more than needed goes to the grant as well
+[SRC:legislature/ors/ors348.html]. The Legislative Fiscal Office says the bond payments were for schools approved in
+the 1997 and 1999 sessions [SRC:fiscal/lfo/2020-09_budget-reserve-funds.pdf p.2]. In November 2015 it said the debt on
+those bonds had been paid off, and in 2020 it still expected any financial obligation relating to lottery bonds to end
+after 2019-21; the archive doesn't show what obligation remained between those dates
 [SRC:fiscal/lfo/2015-11_stabilization-funds.pdf p.2] [SRC:fiscal/lfo/2020-09_budget-reserve-funds.pdf p.3].
 
-The state's budget tables show all of the earnings going to the grant, with nothing for bond payments, in 2023-25 and
-2025-27 [SRC:legislature/olis/2026R1/315811_sb5703-revenue-allocations.pdf p.3]. The December 2026 revenue forecast,
-released Nov. 18, 2026, projects about $116 million in interest for the 2027-29 budget, all of it going to the grant
-[SRC:fiscal/oea/2026-12_forecast.pdf p.1] [SRC:fiscal/oea/2026-12_forecast.pdf p.73]. The statute lets the Education
-Fund pay for public education as well as bonds, while the forecast's footnote and the office's briefs tie that share to
-bond debt (below). The archive doesn't show how the director decides how much of the Education Fund's share is needed,
-and it has no proposal on record to redirect the earnings.
+The Legislative Fiscal Office's lottery tables for Senate Bill 5703 (March 2026) send all of the fund's distributions
+to the grant, with nothing for bond payments: $97,197,652 in the 2023-25 approved budget and $98,481,347 in the 2025-27
+budget as of March 2026 [SRC:legislature/olis/2026R1/315811_sb5703-revenue-allocations.pdf p.3]. The December 2026
+revenue forecast, released Nov. 18, 2026, projects $116.1 million in interest earnings for the 2027-29 budget, all of it
+going to the grant [SRC:fiscal/oea/2026-12_forecast.pdf p.1] [SRC:fiscal/oea/2026-12_forecast.pdf p.73]. The statute
+lets the Education Fund's share pay for public education as well as bonds, which would leave less for the grant, while
+the forecast's footnote and the Legislative Fiscal Office's briefs tie that share to bond debt (below). The archive
+doesn't show how the director decides how much of the Education Fund's share is needed, and it has no proposal on
+record to redirect the earnings.
 
 The December 2026 forecast projects the balance a draw would come from at $1.271 billion for the end of 2025-27
 [SRC:fiscal/oea/2026-12_forecast.pdf p.41]. In its reserve table, which starts with 2021-23, the fund pays out about
-what it earns in each budget period, so the balance's growth since then, including the projected 2025-27 figures, comes
-almost entirely from deposits, which the constitution sets at 18% of lottery proceeds
+what it earns in each budget period, so almost all of the balance's growth from then to the projected end of 2025-27
+comes from lottery deposits, set at 18% of net lottery proceeds until the fund reaches its cap
 [SRC:fiscal/oea/2026-12_forecast.pdf p.73] [SRC:fiscal/oea/2026-12_forecast.pdf p.72]
-[SRC:legislature/constitution/oregon-constitution.html]. If a law kept
-earnings in the fund, the archive can't say whether spending them later would need the vote and a trigger: the
-constitution, the statutes, the Legislative Fiscal Office's briefs and the Legislative Revenue Office's reserve table in
-the archive don't say whether kept earnings become principal.
+[SRC:legislature/constitution/oregon-constitution.html]. If a law kept earnings in the fund, the archive can't say
+whether spending them later would need the vote and a trigger: the constitution, the statutes, the Legislative Fiscal
+Office's briefs and the Legislative Revenue Office's reserve table in the archive don't say whether kept earnings become
+principal. Nor does the archive have a source that says how earnings are declared under the statute.
 
 For a 2025-27 draw, Gov. Tina Kotek's office said in April 2026 that she remained open to
 discussing all options to support districts. It said she did not plan at that time to declare an economic emergency and call a
@@ -165,7 +168,7 @@ billion balance projected for the end of 2025-27 in the December 2026 forecast [
   2025-27 budget as of March 2026, with no debt service allocation to the Department of Education and no withdrawal
   in either period. The table adds the Oregon Growth Account's earnings distributions to the fund's revenue, though
   it leaves out the account's balances [SRC:legislature/olis/2026R1/315811_sb5703-revenue-allocations.pdf p.3]. The
-  forecast's table below leaves that subaccount out and was released in November 2026, so its figures differ
+  forecast's table below leaves that subaccount out and was released in November 2026; its figures differ from these
   [SRC:fiscal/oea/2026-12_forecast.pdf p.1] [SRC:fiscal/oea/2026-12_forecast.pdf p.73].
 - The December 2026 forecast's reserve table (Table B.10) shows the fund's interest earnings and where they went
   [SRC:fiscal/oea/2026-12_forecast.pdf p.73]:
