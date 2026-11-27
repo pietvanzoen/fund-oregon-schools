@@ -1,0 +1,3 @@
+id,value,unit,kind,label,method,inputs,assumptions
+esf_withdrawals_total,1540.6,$M,derived,"Total of the Education Stability Fund allocations the Legislative Fiscal Office lists, 2001-03 to 2019-21 (nine allocations)",sum of amount_million,data/esf_withdrawals.csv,"dollars as listed, not adjusted for inflation"
+pps_ask_share_of_esf,39,%,derived,Portland Public Schools' $500 million request as a share of the fund's projected balance at the end of 2025-27,500 / projected balance,"data/reserves.csv (Education Stability Fund, 2027-06); NEWS:NEWS-20261102-opb-1","the balance is a forecast (December 2026), not a cash figure"

@@ -20,6 +20,10 @@ Governor's Recommended Budget for 2027-29 in December [NEWS:NEWS-2026-salemrepor
   pay for things [NEWS:NEWS-20261106-occ-1].
 - On her 2027-29 budget: "my budget will be prioritizing education and particularly summer investments again"
   [NEWS:NEWS-2026-salemreporter-1].
+- On the December 2026 revenue forecast, released Nov. 18, 2026: "Today’s revenue forecast shows Oregon state
+  government has steady financial footing on which to protect essential services, even as stubborn inflation persists
+  as a result of tepid federal action." The statement does not mention schools or reserves
+  [SRC:gov/press/2026-11-18_kotek_revenue-forecast-statement.html].
 
 ## On school outcomes (2026 platform and actions)
 - Her September 2026 platform: instructional time at the national average by the end of a second term; fewer student

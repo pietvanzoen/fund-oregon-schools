@@ -48,6 +48,6 @@ These apply to every session. The rest are in `.claude/rules/` (above).
    Emails and records requests sent for the archive, however they're drafted, may be published in it with their
    reply (RUNBOOK, "Email replies"): write them to be read by the public, with no private details beyond what the
    About page says about who runs the archive.
-9\. Run `python3 tools/check_citations.py` before committing analysis changes, and after changing data or a derive
-   script, run every `tools/derive_*.py` and commit `analysis/derived/`. CI runs the check, reruns the scripts and
+9\. Run `make check` before committing analysis changes (`make` lists every command), and after changing data or a
+   derive script, run `make derive` and commit `analysis/derived/`. CI runs the check, reruns the scripts and
    fails if `analysis/derived/` changes.
