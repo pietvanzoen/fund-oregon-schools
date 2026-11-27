@@ -1,6 +1,6 @@
 # Long Analysis sections get specific subheadings, short paragraphs and lists only for parallel items
 
-Status: proposed (2026-11-27, PR #PRNUM)
+Status: proposed (2026-11-27, PR #217)
 
 ## Context
 No rule covered paragraph length, subheadings or bullets inside a topic's `## Analysis`. Seven of eight topic
