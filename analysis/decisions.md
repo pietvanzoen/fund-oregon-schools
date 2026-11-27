@@ -181,7 +181,7 @@ document from the Governor with the $12.57 billion figure.
   in the six 2025-27 forecasts so far was 1.76%, in September 2025 [DER:reserves/esf_2pct_gross_max_decline]. Two more
   forecasts are due, tentatively Feb. 24 and May 12, 2027 [SRC:fiscal/oea/2027_forecast-calendar.pdf p.1]
   [SRC:fiscal/oea/2026-12_forecast.pdf p.33].
-- The 3% test asks whether the last forecast of the budget period, the May 2027 one, puts General Fund money available
+- The 3% test asks whether the last forecast of the budget period, tentatively the May 2027 one, puts General Fund money available
   for the next budget at least 3% below General Fund appropriations for the current budget period
   [SRC:legislature/constitution/oregon-constitution.html]. Our estimate from the December 2026 forecast: 2027-29 net
   General Fund revenue (after transfers out) is about 13.5% more than 2025-27 appropriations, leaving out the
@@ -201,8 +201,9 @@ document from the Governor with the $12.57 billion figure.
   [SRC:orgs/osba-cosa/2026-04-08_legislative-report.pdf p.4] [SRC:fiscal/oea/2026-06_forecast.pdf p.1].
 - Analysis: so far no forecast has met a revenue test, so for now a draw on the principal turns on the jobs test or an
   emergency declaration. If the Legislature finds the jobs test met, a draw on the principal needs the three-fifths
-  votes but no emergency declaration, though the Governor can still veto the spending, as Gov. Kate Brown did in 2021
-  (below). If not, it also needs Kotek's emergency declaration. Asked in April 2026 about a draw in the middle of the
+  votes but no emergency declaration, though the Governor can still veto single items in an appropriation bill
+  [SRC:legislature/constitution/oregon-constitution.html], as Gov. Kate Brown did with spending from the fund in 2021
+  (below). If the Legislature doesn't find a trigger met, a draw also needs Kotek's emergency declaration. Asked in April 2026 about a draw in the middle of the
   2025-27 budget, her office said she did not then plan to declare an emergency and call a special session unless the
   presiding officers indicated three-fifths support [SRC:gov/eo/eo-26-06_faq.pdf p.2]
   [SRC:gov/eo/eo-26-06_faq.pdf p.3]; the archive has no statement from her on a declaration in the 2027 session. The
