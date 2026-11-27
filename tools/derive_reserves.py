@@ -100,6 +100,18 @@ with open(os.path.join(DATA, "esf_next_biennium_test.csv"), encoding="utf-8") as
                 "net revenue stands in for 'moneys available', leaving out the beginning balance; the trigger uses the last forecast of the budget period (May 2027), not this one",
             )
         )
+        out.append(
+            (
+                f"esf_3pct_drop_needed_{r['id']}",
+                round(100 * (1 - 0.97 * float(r["current_appropriations_million"]) / float(r["next_biennium_net_revenue_million"])), 1),
+                "%",
+                "est",
+                f"How far {r['next_biennium']} net General Fund revenue would have to fall from the {r['forecast']} forecast to be 3% below {r['current_biennium']} appropriations",
+                "1 - 0.97 x current appropriations / next-biennium net revenue",
+                f"data/esf_next_biennium_test.csv ({r['id']})",
+                "same stand-in for 'moneys available' as esf_3pct; ignores any change in appropriations",
+            )
+        )
 
 with open(OUT, "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f, lineterminator="\n")

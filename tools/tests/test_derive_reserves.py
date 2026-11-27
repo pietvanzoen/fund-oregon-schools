@@ -40,6 +40,7 @@ class DeriveReserves(ArchiveTest):
             "esf_2pct_resources_b": 0.0,  # -0.0 compares equal
             "esf_2pct_gross_max_decline": 2.0,  # forecast A
             "esf_3pct_n": 10.0,  # 1,100 / 1,000 - 1
+            "esf_3pct_drop_needed_n": 11.8,  # 1 - 970 / 1,100 = 0.1182
         }, got
 
 
