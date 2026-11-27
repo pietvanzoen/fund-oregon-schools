@@ -40,9 +40,9 @@ Contents: [Voice](#voice) · [Structure](#structure) · [Weight and certainty](#
   - **Bullets** only for parallel items (positions, conditions, options, open questions): at least two, after a
     lead-in sentence, and each bullet keeps its own citations. An argument or an if/then chain stays in prose. Don't
     put several lists close together.
-  - Yes: "### Positions on record" / "Officials' positions on a draw differ in when they were stated and which draw
-    they were about:", then one cited bullet per official, each with its date, and the inference after the list in
-    prose.
+  - Yes: "### Positions on record", a lead-in that says where the positions stand ("In May 2026 the two Ways and
+    Means co-chairs saw no reason for a 2025-27 draw; in November 2026 Kotek said…"), then one cited bullet per
+    person, each with its date, and the inference after the list in prose.
   - No: one 250-word paragraph that runs from the vote rule through a proposal to officials' objections.
   - Why: `adr/20261127-0051-analysis-subheadings-and-lists.md`.
 - **In short.** Each topic file has a `summary` in its front matter, shown as "In short". Two or three sentences in

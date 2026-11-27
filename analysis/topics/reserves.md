@@ -19,8 +19,9 @@ summary: >
 ### What a draw needs
 
 Any draw from the Education Stability Fund needs a three-fifths vote in each chamber and either an economic trigger
-or an emergency declaration. For a 2025-27 draw, Gov. Tina Kotek said in April 2026 that she did not plan at that time
-to declare an emergency unless the votes were there [SRC:gov/eo/eo-26-06_faq.pdf p.2] [SRC:gov/eo/eo-26-06_faq.pdf p.3]
+or an emergency declaration. For a 2025-27 draw, Gov. Tina Kotek's office said in April 2026 that she remained open to
+discussing all options but did not plan at that time to declare an emergency unless the presiding officers indicated
+three-fifths of each chamber would approve [SRC:gov/eo/eo-26-06_faq.pdf p.2] [SRC:gov/eo/eo-26-06_faq.pdf p.3]
 [NEWS:NEWS-20260416-ktvz-1]. Revenue the forecast already expects needs neither, though a tax increase
 also needs three-fifths of each chamber [SRC:legislature/constitution/oregon-constitution.html]. That holds for a
 large, general draw.
@@ -33,23 +34,30 @@ the same vote and trigger. Ruiz describes his proposal as relief while longer-te
 
 ### Positions on record
 
-Officials' positions on a draw differ in when they were stated and which draw they were about:
+In May 2026 the two Ways and Means co-chairs saw no reason for a 2025-27 draw; in November 2026 Kotek said a draw
+for Portland Public Schools' budget problems goes against enrollment-driven investment, and a newly elected House
+member suggested one. The positions on record, each with when it was stated and which draw it was about:
 
-- Sen. Kate Lieber, D-District 14 (Beaverton & Southwest Portland) [SRC:legislature/members/lieber.html], objected
-  in May 2026, about a 2025-27 draw, to one-time money for ongoing costs [NEWS:NEWS-20260510-wweek-1].
+- Sen. Kate Lieber, D-District 14 (Beaverton & Southwest Portland) [SRC:legislature/members/lieber.html], at a May
+  7, 2026, school funding forum, about a 2025-27 draw, objected to one-time money for ongoing costs; she said the
+  Legislature might have looked to the fund in the 2026 session had it been forced to cut school funding below the
+  current service level [NEWS:NEWS-20260510-wweek-1].
 - Rep. Tawna Sanchez, D-District 43 (North and Northeast Portland) [SRC:legislature/members/sanchez.html], at the
-  same May 2026 forum, objected mainly on timing: saving the fund for worse years [NEWS:NEWS-20260510-wweek-1].
+  same forum, objected on timing, saying worse years are coming, and cautioned against relying on one-time dollars
+  [NEWS:NEWS-20260510-wweek-1].
 - Kotek said in November 2026 that tapping one-time reserves for Portland Public Schools' budget problems goes
-  against enrollment-driven state investment [NEWS:NEWS-2026-katu-kotek-pps-1]. In October 2026 she described a
-  similar objection, from unnamed legislative leaders who dismissed using the fund when she raised it, as one she can
-  understand, framing it as their argument [NEWS:NEWS-20261102-opb-1].
+  against enrollment-driven state investment [NEWS:NEWS-2026-katu-kotek-pps-1]. In October 2026 she described
+  unnamed legislative leaders' objection to filling an ongoing budget hole with one-time money, like Lieber's, as one
+  she can understand, framing it as their argument; she said they dismissed using the fund when she raised it [NEWS:NEWS-20261102-opb-1].
 - Tammy Carpenter, D-District 27 (Beaverton and Cedar Hills), who won the seat in the Nov. 3, 2026, election
   (unofficial results), suggested in November 2026, in the debate over Portland Public Schools' 2027-28 gap, drawing
-  on the fund to help schools while lawmakers work on a longer-term plan, with no amount [NEWS:NEWS-20261112-katu-2]
+  on the fund to help schools while lawmakers work on a longer-term plan, with no amount, as KATU paraphrased her
+  [NEWS:NEWS-20261112-katu-2]
   [SRC:legislature/members/2026-11-03_general-election-results_state-representative.html]
   [SRC:legislature/members/helm.html].
 
-PERS contributions are an ongoing cost, so Lieber's objection could also apply to Ruiz's proposal. The archive has no
+PERS contributions are an ongoing cost, so Lieber's objection could also apply to Ruiz's proposal and to Portland
+Public Schools' request for $500 million to buy down PERS rates [NEWS:NEWS-20261102-opb-1]. The archive has no
 statement on the fund from Lieber or Sanchez since May 2026.
 
 ### Past draws and the 2021 veto
@@ -146,7 +154,7 @@ billion balance projected for the end of 2025-27 in the December 2026 forecast [
 
 ### Proposals and positions, 2026
 - In an FAQ released with Executive Order 26-06 in April 2026 [NEWS:NEWS-20260416-ktvz-1], the Governor's office
-  said that "at this time she does not plan to declare an economic emergency and call a special session" to access
+  said that "The Governor remains open to discussing all options to support districts" but that "at this time she does not plan to declare an economic emergency and call a special session" to access
   the fund unless the presiding officers indicate that three-fifths of members serving in each house would approve
   [SRC:gov/eo/eo-26-06_faq.pdf p.2] [SRC:gov/eo/eo-26-06_faq.pdf p.3].
 - At a May 7, 2026, school funding forum, as reported by Willamette Week, Ways and Means co-chairs Sen. Kate Lieber
