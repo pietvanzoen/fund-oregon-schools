@@ -36,7 +36,9 @@ Contents: [Voice](#voice) · [Structure](#structure) · [Weight and certainty](#
   or finds ("What a draw needs", "Positions on record"), not a label ("Background", "Other issues"). Use `###`
   only: never add a `##` (`.claude/rules/analysis.md` rule 4), and if two levels aren't enough, simplify the text.
   Each subsection opens with its answer, as above.
-  - **Paragraphs** stay under about 120 words, one idea each.
+  - **Paragraphs** have no more than 5 sentences, one idea each (GOV.UK; Vale `FOS.ParagraphLength`).
+  - **Subheadings** about every 3 to 5 paragraphs (GOV.UK); no tool checks this, so whoever writes the section
+    places them.
   - **Bullets** only for parallel items (positions, conditions, options, open questions): at least two, after a
     lead-in sentence, and each bullet keeps its own citations. An argument or an if/then chain stays in prose. Don't
     put several lists close together.

@@ -74,7 +74,9 @@ Contents: rules 2 (citations), 3 (quotes), 4 (sources, calculations and inferenc
     overstatement; news summaries in own words, quotes under 25 words; nothing in the wrong section (an inference
     among source facts, or a calculation shown as a source figure instead of a DER row), "Analysis:" kept apart from
     fact, and nothing unfair to a named official; derived figures match their method and inputs; uncited claims;
-    both tool checks pass. Claims resting on queued, unfetched sources are
+    both tool checks pass. Reviews run in up to three rounds: all three reviewers on every change, then up to two
+    rounds limited to the lines changed by substantive fixes, with only the reviewers whose findings led to them
+    (`fos-work-issue/steps/review.md`). Claims resting on queued, unfetched sources are
     reported as "verify after fetch", not guessed. The session verifies each finding against the source before fixing
     it, and the PR description says what the fact-check found and what changed.
 11\. **Glossary.** When analysis uses an abbreviation or term of art that isn't in `analysis/glossary.csv`, add a
