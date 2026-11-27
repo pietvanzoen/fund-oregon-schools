@@ -31,6 +31,22 @@ Contents: [Voice](#voice) · [Structure](#structure) · [Weight and certainty](#
   - Yes: "Kotek has not said how much her budget will give schools; it's due Dec. 1."
   - No: "In 2024, during her campaign, Kotek said… [three sentences later] She hasn't given a figure."
 - **One idea per sentence** where you can. Active voice: say who did it.
+- **Analysis sections a reader can scan.** Readers scan a page before they read it. A topic's `## Analysis` longer
+  than about 250 words gets `###` subheadings, one per question it answers. A subheading says what that part covers
+  or finds ("What a draw needs", "Positions on record"), not a label ("Background", "Other issues"). Use `###`
+  only: never add a `##` (`.claude/rules/analysis.md` rule 4), and if two levels aren't enough, simplify the text.
+  Each subsection opens with its answer, as above.
+  - **Paragraphs** have no more than 5 sentences, one idea each (GOV.UK; Vale `FOS.ParagraphLength`).
+  - **Subheadings** about every 3 to 5 paragraphs (GOV.UK); no tool checks this, so whoever writes the section
+    places them.
+  - **Bullets** only for parallel items (positions, conditions, options, open questions): at least two, after a
+    lead-in sentence, and each bullet keeps its own citations. An argument or an if/then chain stays in prose. Don't
+    put several lists close together.
+  - Yes: "### Positions on record", a lead-in that says where the positions stand ("In May 2026 the two Ways and
+    Means co-chairs saw no reason for a 2025-27 draw; in November 2026 Kotek said…"), then one cited bullet per
+    person, each with its date, and the inference after the list in prose.
+  - No: one 250-word paragraph that runs from the vote rule through a proposal to officials' objections.
+  - Why: `adr/20261127-0051-analysis-subheadings-and-lists.md`.
 - **In short.** Each topic file has a `summary` in its front matter, shown as "In short". Two or three sentences in
   everyday words, for a parent with no budget background: name the thing, say what the archive found, and what it
   can't yet say. Use a number only if it needs no context ("almost all", "about $2 billion") and it matches the

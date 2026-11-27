@@ -1,0 +1,36 @@
+// Flags a paragraph with more than 5 sentences (STYLE.md). A sentence break is a full stop, ? or !
+// followed by a capital; a stop after a title or month abbreviation ("Gov.", "Sen.", "Nov.") isn't one.
+text := import("text")
+
+abbr := ["Gov", "Sen", "Sens", "Rep", "Reps", "Rev", "Dr", "Mr", "Ms", "Mrs", "St", "No", "Nos", "Jan", "Feb",
+  "Mar", "Apr", "Aug", "Sept", "Sep", "Oct", "Nov", "Dec", "Inc", "Co", "Jr", "vs", "p", "pp", "U.S", "e.g", "i.e"]
+max := 5
+
+matches := []
+breaks := 0
+for m in text.re_find(`[.!?][*"”’)\]]*\s+[*"“(\[]?[A-Z0-9$]`, scope, -1) {
+  begin := m[0].begin
+  word := ""
+  i := begin - 1
+  for i >= 0 && !text.contains(" \n\t(", scope[i:i+1]) {
+    word = scope[i:i+1] + word
+    i = i - 1
+  }
+  skip := false
+  for a in abbr {
+    if word == a { skip = true }
+  }
+  if !skip {
+    breaks = breaks + 1
+    if breaks == max {
+      // Match the first few words of the sixth sentence: Vale finds the line by this text, so it must be
+      // longer than one character and stop before a citation tag or line break.
+      start := m[0].end - 1
+      end := start
+      for end < len(scope) && end < start + 24 && !text.contains("[\n", scope[end:end+1]) {
+        end = end + 1
+      }
+      matches = append(matches, {begin: start, end: end})
+    }
+  }
+}
