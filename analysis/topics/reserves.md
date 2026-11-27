@@ -4,8 +4,9 @@ description: >
   2020), and the vote and conditions to use it.
 summary: >
   The Education Stability Fund is one of the state's two general savings accounts, expected to hold about $1.3
-  billion at the end of the 2025-27 budget; taking money out takes a three-fifths vote in both the House and the
-  Senate, plus a trigger tied to the economy or an emergency declared by the governor. The state has used
+  billion at the end of the 2025-27 budget; spending that money takes a three-fifths vote in both the House and the
+  Senate, plus a trigger tied to the economy or an emergency declared by the governor, while the interest the fund
+  earns is paid out under ordinary state law, at present all to college financial aid. The state has used
   it nine times, mostly to help balance the state budget in downturns by paying for schools with it,
   most recently $400 million approved in 2020; in 2021 Gov. Kate Brown vetoed the spending of a $200 million draw, saying
   the conditions for using the fund were not met. Portland Public Schools has asked for $500 million of it to lower
@@ -18,8 +19,23 @@ summary: >
 
 ### What a draw needs
 
-Any draw from the Education Stability Fund needs a three-fifths vote in each chamber and either an economic trigger
-or an emergency declaration. For a 2025-27 draw, Gov. Tina Kotek's office said in April 2026 that she remained open to
+A draw on the Education Stability Fund's principal needs a three-fifths vote in each chamber and either an economic
+trigger or an emergency declaration; the fund's investment earnings follow a different rule
+[SRC:legislature/constitution/oregon-constitution.html]. The Oregon Constitution sets the vote and trigger for the
+principal only and leaves it to state law how earnings are spent on public education (below). Current law pays all
+of them out, and the state's budget tables show them all going to the Oregon Opportunity Grant, financial aid for
+college students [SRC:legislature/ors/ors348.html] [SRC:legislature/olis/2026R1/315811_sb5703-revenue-allocations.pdf p.3]
+[SRC:fiscal/oea/2026-12_forecast.pdf p.73] [SRC:fiscal/lfo/2020-09_budget-reserve-funds.pdf p.2]. In the December 2026
+forecast the fund pays out about what it earns in each budget period, so the balance of about $1.27 billion projected
+for the end of 2025-27 has grown from lottery deposits, not from kept earnings [SRC:fiscal/oea/2026-12_forecast.pdf p.73]
+[SRC:fiscal/oea/2026-12_forecast.pdf p.41]. Spending that balance takes the vote and a trigger; sending the earnings
+somewhere else, about $116 million projected for 2027-29, would take a change to state law and would take that money
+from college aid [SRC:fiscal/oea/2026-12_forecast.pdf p.73] [SRC:fiscal/lfo/2020-09_budget-reserve-funds.pdf p.3].
+
+The archive doesn't settle whether earnings kept in the fund, rather than paid out, would become principal: the
+constitution, the statutes and the Legislative Fiscal Office's briefs in the archive don't say.
+
+For a 2025-27 draw, Gov. Tina Kotek's office said in April 2026 that she remained open to
 discussing all options to support districts. It said she did not plan at that time to declare an economic emergency and call a
 special session unless the presiding officers indicated three-fifths of each chamber would approve [SRC:gov/eo/eo-26-06_faq.pdf p.2] [SRC:gov/eo/eo-26-06_faq.pdf p.3]
 [NEWS:NEWS-20260416-ktvz-1]. Revenue the forecast already expects needs neither, though a tax increase
@@ -96,6 +112,12 @@ billion balance projected for the end of 2025-27 in the December 2026 forecast [
   [SRC:fiscal/oea/2026-12_forecast.pdf p.1] [SRC:fiscal/oea/2026-12_forecast.pdf p.41]. Withdrawal takes a
   three-fifths vote in each chamber plus either an economic trigger or a governor's emergency declaration
   [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1] (news coverage: [NEWS:NEWS-20261102-opb-1]).
+- The Oregon Constitution sets that vote and trigger for "any portion of the principal" of the fund. Of its earnings
+  it says they "shall be retained in the fund or expended for the public purpose of financing public education in
+  Oregon as provided by law" [SRC:legislature/constitution/oregon-constitution.html]. The Legislative Fiscal Office
+  describes the vote and trigger as the conditions to access the principal [SRC:fiscal/lfo/2020-09_budget-reserve-funds.pdf p.2],
+  and says the retention of earnings in the fund and their use for public education are constitutional requirements,
+  while the actual distribution is set in statute [SRC:fiscal/lfo/2020-09_budget-reserve-funds.pdf p.3].
 - Withdrawals must be used for public education; the fund has no repayment provision; its cap is 5% of General Fund
   revenue in the prior budget period [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1]. The Legislative Fiscal Office
   says public education here means K-12 and post-secondary education, and that some public early learning programs may
@@ -104,6 +126,39 @@ billion balance projected for the end of 2025-27 in the December 2026 forecast [
   [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1].
 - The fund held $1,012 million on July 1, 2025, and $1,041 million on Oct. 1, 2025
   [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1].
+
+### The fund's earnings
+
+- Under ORS 348.696, all declared earnings on the fund, including those on the Oregon Growth Account within it, are
+  transferred and continuously appropriated: 75% to the Oregon Education Fund and 25% to the Higher Education
+  Coordinating Commission for the Oregon Opportunity Grant program. If the director of the Department of
+  Administrative Services determines that the Oregon Education Fund's share in a budget period exceeds what is needed
+  for public education and education lottery bond debt service, the excess goes to the Opportunity Grant as well.
+  Under ORS 348.716, the Oregon Education Fund is continuously appropriated to the department for public education and
+  education lottery bond debt service [SRC:legislature/ors/ors348.html].
+- The Legislative Fiscal Office wrote in 2020 that the earnings had paid debt service on bonds for schools approved in
+  the 1997 and 1999 sessions, and that the Opportunity Grant provides financial assistance to post-secondary students
+  [SRC:fiscal/lfo/2020-09_budget-reserve-funds.pdf p.2]. It said the Legislature amended ORS 348.696 in 2015 so that
+  Oregon Education Fund transfers not needed for debt service go to the Opportunity Grant, and that lottery bond
+  obligations were expected to end after 2019-21, with no further transfer to the Oregon Education Fund required
+  [SRC:fiscal/lfo/2020-09_budget-reserve-funds.pdf p.3].
+- The Legislative Fiscal Office's lottery tables for Senate Bill 5703 (March 2026) list the fund's distributions as
+  going to the Oregon Opportunity Grant Program: $97,197,652 in the 2023-25 approved budget and $98,481,347 in the
+  2025-27 budget as of March 2026, with no debt service allocation to the Department of Education and no withdrawal
+  in either period [SRC:legislature/olis/2026R1/315811_sb5703-revenue-allocations.pdf p.3].
+- The December 2026 forecast's reserve table (Table B.10) shows the fund's interest earnings and where they went
+  [SRC:fiscal/oea/2026-12_forecast.pdf p.73]:
+
+  | Budget period | Interest earnings, $ million | Distributions, all to the Oregon Opportunity Grant, $ million | Withdrawals, $ million | Source |
+  |---|---|---|---|---|
+  | 2021-23 | 21.9 | 19.8 | 0.0 | [SRC:fiscal/oea/2026-12_forecast.pdf p.73] |
+  | 2023-25 | 85.1 | 83.7 | 0.0 | [SRC:fiscal/oea/2026-12_forecast.pdf p.73] |
+  | 2025-27 | 102.3 | 106.1 | 0.0 | [SRC:fiscal/oea/2026-12_forecast.pdf p.73] |
+  | 2027-29 (projected) | 116.1 | 116.1 | 0.0 | [SRC:fiscal/oea/2026-12_forecast.pdf p.73] |
+
+  The table leaves out the Oregon Growth and Oregon Resource and Technology Development subaccounts. Its footnote
+  says interest earnings go 75% to the Oregon Education Fund and 25% to the State Scholarship Fund while debt remains
+  outstanding, and all to the State Scholarship Fund once it is paid off [SRC:fiscal/oea/2026-12_forecast.pdf p.73].
 
 ### Past allocations
 
