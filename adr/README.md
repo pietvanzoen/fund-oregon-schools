@@ -68,4 +68,5 @@ The concrete signal that should reopen this.
 | [2026-11-26](20261126-0046-agent-rules-split-by-area.md) | Agent rules are split by area: a short CLAUDE.md, rule files, and one file per work step |
 | [2026-11-26](20261126-1944-tests-per-tool-with-unittest.md) | Every tool has its own test file, run with unittest; derive scripts are tested against hand-worked fixtures |
 | [2026-11-26](20261126-2010-makefile-for-common-commands.md) | Common commands live in a Makefile, and CI's check job runs its targets |
+| [2026-11-26](20261126-2036-partial-answers-on-open-questions.md) | An open question can link to what's known so far; there's no "partly answered" status |
 | [2026-11-27](20261127-0051-analysis-subheadings-and-lists.md) | Long Analysis sections get specific subheadings, short paragraphs and lists only for parallel items |

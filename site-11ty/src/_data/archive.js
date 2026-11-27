@@ -958,13 +958,14 @@ function listPage(id, url, title, text, files, { seo, description, boxes = true,
   return p;
 }
 
+// an open question's answer is what's known so far (adr/20261126-2036-partial-answers-on-open-questions.md)
+const knownSoFar = (q) => (q.status === "open" && q.answer ? ` · what's known so far: \`${q.answer}\`` : "");
+
 function questionRows(qs) {
   const status = (q) =>
     q.status === "answered" && q.answer
       ? `answered: \`${q.answer}\``
-      : q.issue
-        ? `${q.status} · [follow the work](${REPO}/issues/${q.issue})`
-        : q.status;
+      : q.status + knownSoFar(q) + (q.issue ? ` · [follow the work](${REPO}/issues/${q.issue})` : "");
   return mdTable(
     ["Question", "Asked by", "Needed by", "Status"],
     qs.map((q) => [q.question, q.asked_by, q.needed_by || "no date", status(q)]),
@@ -1068,6 +1069,7 @@ function questionRows(qs) {
       ...open.map(
         (q) =>
           `- **${q.question}**  \n  ${about(q)} · asked by ${q.asked_by} · needed by ${q.needed_by || "no date"}` +
+          knownSoFar(q) +
           (q.issue ? ` · [follow the work](${REPO}/issues/${q.issue})` : ""),
       ),
     ].join("\n"),
@@ -1156,7 +1158,7 @@ ${mdTable(
     );
   });
   p.body =
-    `<p>Exact words from the officials who decide school funding, each with its source. Pick a person to filter.</p>` +
+    `<p>Exact words from the officials who set Oregon's school funding and its rules: the Governor, the legislators who write the school budget, and state education leaders. Each has its source. Pick a person to filter.</p>` +
     `<div class="filters quote-filter" role="group" aria-label="Filter quotes by person" hidden><ul><li><button type="button" data-person="" aria-pressed="true">Everyone</button></li>` +
     who
       .map((w) => `<li><button type="button" data-person="${esc(w)}" aria-pressed="false">${esc(w)}</button></li>`)
@@ -1173,7 +1175,7 @@ ${mdTable(
     seo: "What officials have said about Oregon school funding",
     script: "quotes",
     description:
-      "Verbatim, dated and cited statements on K-12 funding from Gov. Tina Kotek and the Oregon legislators who write the school budget.",
+      "Verbatim, dated and cited statements on K-12 funding from Gov. Tina Kotek, the legislators who write the school budget and state education leaders.",
   });
   pages.push(p);
 }
