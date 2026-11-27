@@ -177,8 +177,8 @@ document from the Governor with the $12.57 billion figure.
   was built on; the December 2026 forecast puts it $205.8 million above [SRC:fiscal/oea/2025-09_forecast.pdf p.1] [SRC:fiscal/oea/2025-09_forecast.pdf p.27]
   [SRC:fiscal/oea/2026-12_forecast.pdf p.29]. Our estimate: the largest decline in any of the six 2025-27 forecasts was
   1.76%, in September 2025; the 2% test needs a decline of at least 2% [DER:reserves/esf_2pct_gross_max_decline].
-  The 3% test asks whether the last forecast of the budget period puts the money available for the next budget at
-  least 3% below current appropriations; that forecast is tentatively scheduled for May 12, 2027 [SRC:fiscal/oea/2027_forecast-calendar.pdf p.1]
+  The 3% test asks whether the last forecast of the budget period puts General Fund money available for the next
+  budget at least 3% below General Fund appropriations for the current budget period; that forecast is tentatively scheduled for May 12, 2027 [SRC:fiscal/oea/2027_forecast-calendar.pdf p.1]
   [SRC:fiscal/oea/2026-12_forecast.pdf p.33] [SRC:legislature/constitution/oregon-constitution.html]. Our estimate
   from the December 2026 forecast: 2027-29 net General Fund revenue (after offsets and transfers) is about 13.5% more than
   2025-27 appropriations, leaving out the beginning balance [DER:reserves/esf_3pct_2026-12].
@@ -192,7 +192,7 @@ document from the Governor with the $12.57 billion figure.
   from the fiscal offices, the forecasters or Legislative Counsel says whether a trigger is met now. The Oregon School
   Boards Association and the Coalition of Oregon School Administrators wrote in April 2026, before the June 2026
   forecast first showed the January-March decline, that the 2026 Legislature used neither the Education Stability
-  Fund nor the Rainy Day Fund "despite meeting the economic triggers to access those funds", without saying which
+  Fund nor the Rainy Day Fund to balance the budget "despite meeting the economic triggers to access those funds", without saying which
   [SRC:orgs/osba-cosa/2026-04-08_legislative-report.pdf p.4].
 - Analysis: so far no forecast has met a revenue test, so for now a draw turns on the jobs test or an emergency
   declaration. If the Legislature finds the jobs test met, a draw needs only the three-fifths votes; if not, it also

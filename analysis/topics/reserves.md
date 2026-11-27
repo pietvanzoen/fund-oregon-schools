@@ -7,7 +7,7 @@ summary: >
   billion at the end of the 2025-27 budget; taking money out takes a three-fifths vote in both the House and the
   Senate, plus a trigger tied to the economy or an emergency declared by the governor. No state revenue forecast so far
   has shown a drop large enough to meet a revenue trigger, and the last test for 2025-27 comes with the May 2027
-  forecast, tentatively scheduled; the state's first job estimates showed two quarters of decline in the first half of 2026, but one was
+  forecast (its date is tentative); the state's first job estimates showed two quarters of decline in the first half of 2026, but one was
   later revised up, so whether the jobs trigger is met is unsettled. The state has used the fund nine
   times, most recently $400 million approved in 2020; Portland Public Schools has asked for $500 million of it to
   lower districts' pension payments, and a state representative and a newly elected House member have suggested
@@ -62,17 +62,17 @@ The 3% test uses the last forecast of the budget period, which the forecasters' 
 itself, the 2% test can't be applied until the 2027-29 close-of-session forecast exists, after the 2027 session.
 
 If the Legislature finds the jobs trigger met, then a draw needs only the three-fifths votes. If it doesn't, then a
-draw also needs an emergency declaration. Asked in April 2026 about a draw in the middle of the 2025-27 budget,
-Kotek's office said she did not then plan to declare an economic emergency and call a special session unless the
-presiding officers indicated three-fifths support (above). The archive has no statement from her on a declaration
+draw also needs an emergency declaration, which Kotek's office said in April 2026, about a draw in the middle of
+the 2025-27 budget, she did not then plan to make (see "What a draw needs"). The archive has no statement from her on a declaration
 during the 2027 session.
 
 The Legislature makes the finding, and no archived source from the Legislative Fiscal Office, the Legislative
 Revenue Office, the forecasters or Legislative Counsel says whether any trigger is met now. The Oregon School Boards
 Association and the Coalition of Oregon School Administrators, in an April 2026 report, said the 2026 Legislature
-used neither the Education Stability Fund nor the Rainy Day Fund "despite meeting the economic triggers to access
-those funds"; they didn't say which triggers [SRC:orgs/osba-cosa/2026-04-08_legislative-report.pdf p.4]. Their report
-came out before the June 2026 forecast, the first to show the January-March 2026 decline.
+used neither the Education Stability Fund nor the Rainy Day Fund to balance the budget "despite meeting the economic
+triggers to access those funds"; they didn't say which triggers [SRC:orgs/osba-cosa/2026-04-08_legislative-report.pdf p.4]. Their report
+came out before the June 2026 forecast, released May 20, 2026, the first to show the January-March 2026 decline
+[SRC:fiscal/oea/2026-06_forecast.pdf p.1]; the archive can't tell what they relied on.
 
 Timing is the other open point. The jobs test counts declines "in the last 12 months"
 [SRC:legislature/constitution/oregon-constitution.html], and January-March 2026 ended March 31, 2026; the archive
@@ -189,8 +189,9 @@ billion balance projected for the end of 2025-27 in the December 2026 forecast [
   [SRC:fiscal/oea/2026-12_forecast.pdf p.1].
 - In the September 2025 forecast, the office wrote that with H.R. 1, "General Fund revenues have been
   lowered $621.1 million relative to the Close-of-Session forecast", and that with the lower beginning balance
-  "total available resources are down $845.5 million" [SRC:fiscal/oea/2025-09_forecast.pdf p.6]. The forecast's summary table shows gross revenue down $627.9 million and
-  the line for offsets, transfers and actions up $6.8 million from the close-of-session forecast
+  "total available resources are down $845.5 million" [SRC:fiscal/oea/2025-09_forecast.pdf p.6]. The forecast's summary table shows gross revenue down $627.9 million,
+  and $6.8 million less taken out for offsets, transfers and actions (-$200.2 million, against -$206.9 million in the
+  close-of-session forecast)
   [SRC:fiscal/oea/2025-09_forecast.pdf p.27]. The office called the $627.9 million "The bottom-line revenue
   difference from the Close-of-Session estimate (on which the Legislatively Adopted Budget was based)", and said the
   change was "also a product of economic revisions and a changed kicker credit offset"
