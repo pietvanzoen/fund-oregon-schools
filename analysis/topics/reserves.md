@@ -26,11 +26,10 @@ special session unless the presiding officers indicated three-fifths of each cha
 also needs three-fifths of each chamber [SRC:legislature/constitution/oregon-constitution.html]. That holds for a
 large, general draw.
 
-In November 2026, Rep. Ricki Ruiz, D-District 50 (Gresham), a co-chair of the Ways and Means Education Subcommittee
-in 2026, described an initial proposal for targeted, one-time Public Employees Retirement System (PERS) relief from
+In November 2026, Rep. Ricki Ruiz, D-District 50 (Gresham) [SRC:legislature/members/ruiz.html], a co-chair of the Ways and Means
+Education Subcommittee in 2026 [SRC:legislature/appointments/2026-01-23_house-committee-assignments.pdf p.3], described an initial proposal for targeted, one-time Public Employees Retirement System (PERS) relief from
 the fund. It suggests a narrower draw is being discussed, though it rests on one social media post with no amount or
-bill. It still needs
-the same vote and trigger. Ruiz describes his proposal as relief while longer-term reform is developed
+bill. It still needs the same vote and trigger. Ruiz describes his proposal as relief while longer-term reform is developed
 [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt].
 
 ### Positions on record
@@ -43,8 +42,8 @@ positions on record, each with when it was stated and which draw it was about:
 
 - Sen. Kate Lieber, D-District 14 (Beaverton & Southwest Portland) [SRC:legislature/members/lieber.html], at a May
   7, 2026, school funding forum, about a 2025-27 draw, objected to one-time money for ongoing costs; she said the
-  Legislature might have looked to the fund in the 2026 session had it been forced to fund schools at less than
-  the current service level (what it costs to keep existing programs going for the next two years) [NEWS:NEWS-20260510-wweek-1].
+  Legislature might have looked to the fund in the 2026 session had it been forced to cut school funding below the
+  current service level (what it costs to keep existing programs going for the next two years) [NEWS:NEWS-20260510-wweek-1].
 - Rep. Tawna Sanchez, D-District 43 (North and Northeast Portland) [SRC:legislature/members/sanchez.html], at the
   same forum, objected on timing, saying worse years are coming, and cautioned against relying on one-time dollars
   [NEWS:NEWS-20260510-wweek-1].
@@ -59,8 +58,9 @@ positions on record, each with when it was stated and which draw it was about:
   [SRC:legislature/members/2026-11-03_general-election-results_state-representative.html]
   [SRC:legislature/members/helm.html].
 
-PERS contributions are an ongoing cost, so the objections on record to one-time money for ongoing costs (Lieber's,
-Sanchez's caution and the leaders' objection Kotek described) could also apply to Ruiz's proposal. The archive has no
+PERS contributions are an ongoing cost, so the objections on record to one-time money for ongoing costs (Lieber's and
+the leaders' objection Kotek described) could also apply to Ruiz's proposal, as could Sanchez's caution against
+relying on one-time dollars. The archive has no
 statement on the fund from Lieber or Sanchez since May 2026.
 
 ### Past draws and the 2021 veto
