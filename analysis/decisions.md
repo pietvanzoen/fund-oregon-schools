@@ -170,8 +170,47 @@ document from the Governor with the $12.57 billion figure.
 
 - The fund, one of the state's two general reserve accounts, is projected at $1,273.3 million at the end of 2025-27
   [SRC:fiscal/oea/2026-12_forecast.pdf p.73].
-- Withdrawal takes a three-fifths vote in each chamber plus either an economic trigger or a governor's emergency
-  declaration [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1].
+- A withdrawal of principal takes a three-fifths vote in each chamber plus either an economic trigger or a governor's
+  emergency declaration [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1] [SRC:legislature/constitution/oregon-constitution.html].
+- No 2025-27 revenue forecast so far has met a revenue test (question `esf-trigger-2027`). The 2% test asks whether a
+  quarterly forecast puts current-budget General Fund revenue at least 2% below the forecast the budget was built on
+  [SRC:legislature/constitution/oregon-constitution.html]. The September 2025 forecast, released Aug. 27, 2025, put
+  2025-27 gross General Fund revenue $627.9 million below that close-of-session forecast; the December 2026 forecast
+  puts it $205.8 million above [SRC:fiscal/oea/2025-09_forecast.pdf p.1] [SRC:fiscal/oea/2025-09_forecast.pdf p.27]
+  [SRC:fiscal/oea/2026-12_forecast.pdf p.29]. Our estimate: the largest decline from the close-of-session forecast
+  in the six 2025-27 forecasts so far was 1.76%, in September 2025 [DER:reserves/esf_2pct_gross_max_decline]. Two more
+  forecasts are due, tentatively Feb. 24 and May 12, 2027 [SRC:fiscal/oea/2027_forecast-calendar.pdf p.1]
+  [SRC:fiscal/oea/2026-12_forecast.pdf p.33].
+- The 3% test asks whether the last forecast of the budget period, tentatively the May 2027 one, puts General Fund money available
+  for the next budget at least 3% below General Fund appropriations for the current budget period
+  [SRC:legislature/constitution/oregon-constitution.html]. Our estimate from the December 2026 forecast: 2027-29 net
+  General Fund revenue (after transfers out) is about 13.5% more than 2025-27 appropriations, leaving out the
+  beginning balance [DER:reserves/esf_3pct_2026-12].
+- The jobs test needs a decline in seasonally adjusted payroll jobs "for two or more consecutive quarters in the
+  last 12 months" [SRC:legislature/constitution/oregon-constitution.html]. The Office of Economic Analysis's first
+  estimates showed declines in January-March 2026 (-0.8% at an annual rate) and April-June 2026 (-0.3%)
+  [SRC:fiscal/oea/2026-06_forecast.pdf p.48] [SRC:fiscal/oea/2026-09_forecast.pdf p.47]. The September 2026
+  forecast revised January-March up, from about 1,967,900 jobs to 1,976,000
+  [SRC:fiscal/oea/2026-06_forecast.pdf p.50] [SRC:fiscal/oea/2026-09_forecast.pdf p.49], and gives no figure for
+  October-December 2025, so the archive can't say whether January-March still shows a decline. No archived source
+  from the Legislative Fiscal Office, the Legislative Revenue Office, the Office of Economic Analysis or Legislative
+  Counsel says whether a trigger is met now. The Oregon School Boards Association and the Coalition of Oregon School
+  Administrators wrote in April 2026, before the June 2026 forecast (released May 20, 2026) first showed the
+  January-March decline, that the 2026 Legislature used neither the Education Stability Fund nor the Rainy Day Fund to
+  balance the budget "despite meeting the economic triggers to access those funds", without saying which
+  [SRC:orgs/osba-cosa/2026-04-08_legislative-report.pdf p.4] [SRC:fiscal/oea/2026-06_forecast.pdf p.1].
+- Analysis: so far no forecast has met a revenue test, so for now a draw on the principal turns on the jobs test or an
+  emergency declaration. If the Legislature finds the jobs test met, a draw on the principal needs the three-fifths
+  votes but no emergency declaration, though the Governor can still veto single items in an appropriation bill
+  [SRC:legislature/constitution/oregon-constitution.html], as Gov. Kate Brown did with spending from the fund in 2021
+  (below). If the Legislature doesn't find a trigger met, a draw also needs Kotek's emergency declaration. Asked in April 2026 about a draw in the middle of the
+  2025-27 budget, her office said she did not then plan to declare an emergency and call a special session unless the
+  presiding officers indicated three-fifths support [SRC:gov/eo/eo-26-06_faq.pdf p.2]
+  [SRC:gov/eo/eo-26-06_faq.pdf p.3]; the archive has no statement from her on a declaration in the 2027 session. The
+  archive has no source on how the jobs test's 12 months are counted for a finding in 2027, or on whether a trigger met
+  in 2025-27 supports spending in 2027-29; the 2021 dispute between Legislative Counsel and Brown (below) was over a
+  trigger met earlier in the budget period. For 2027-29 itself, the 2% test can't be applied until the 2027-29
+  close-of-session forecast exists, after the 2027 session. See `topics/reserves.md`.
 - State reserves are currently 9.7% [SRC:fiscal/oea/2026-12_forecast_slides.pdf p.37]; the projected 2027-29 balances
   ($2.9 billion in the Rainy Day Fund, $1.6 billion in the Education Stability Fund) would be 10.6% of the General Fund projection
   [SRC:fiscal/oea/2026-12_forecast.pdf p.41].

@@ -1,0 +1,7 @@
+id,forecast,released,gross_gf_revenue_million,cos_gross_gf_revenue_million,gross_change_from_cos_million,net_available_resources_million,cos_net_available_resources_million,resources_change_from_cos_million,source
+2025-09,September 2025,2025-08-27,35131.9,35759.8,-627.9,36950.5,37795.9,-845.5,[SRC:fiscal/oea/2025-09_forecast.pdf p.1] [SRC:fiscal/oea/2025-09_forecast.pdf p.27]
+2025-12,December 2025,2025-11-19,35441.0,35759.8,-318.8,37260.0,37795.9,-535.9,[SRC:fiscal/oea/2025-12_forecast.pdf p.1] [SRC:fiscal/oea/2025-12_forecast.pdf p.23]
+2026-03,March 2026,2026-02-04,35561.8,35759.8,-197.9,37512.7,37795.9,-283.2,[SRC:fiscal/oea/2026-03_forecast.pdf p.1] [SRC:fiscal/oea/2026-03_forecast.pdf p.25]
+2026-06,June 2026,2026-05-20,35913.1,35759.8,153.3,37857.7,37795.9,61.8,[SRC:fiscal/oea/2026-06_forecast.pdf p.1] [SRC:fiscal/oea/2026-06_forecast.pdf p.25]
+2026-09,September 2026,2026-08-26,35953.7,35759.8,193.9,37913.1,37795.9,117.2,[SRC:fiscal/oea/2026-09_forecast.pdf p.1] [SRC:fiscal/oea/2026-09_forecast.pdf p.28]
+2026-12,December 2026,2026-11-18,35965.5,35759.8,205.8,37924.2,37795.9,128.3,[SRC:fiscal/oea/2026-12_forecast.pdf p.1] [SRC:fiscal/oea/2026-12_forecast.pdf p.29]

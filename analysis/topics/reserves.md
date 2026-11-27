@@ -1,17 +1,20 @@
 ---
 description: >
-  Oregon's Education Stability Fund: about $1.3 billion forecast for mid-2027, nine past allocations (last in
-  2020), and the vote and conditions to use it.
+  Oregon's Education Stability Fund: about $1.3 billion forecast for mid-2027, the vote and triggers to spend its
+  balance, whether one is met, and past uses.
 summary: >
   The Education Stability Fund is one of the state's two general savings accounts, expected to hold about $1.3
   billion at the end of the 2025-27 budget; spending that balance takes a three-fifths vote in both the House and the
-  Senate, plus a trigger tied to the economy or an emergency declared by the governor, while its interest earnings
-  are paid out under state law, at present all to college financial aid. The state has used
-  it nine times, mostly to help balance the state budget in downturns by paying for schools with it,
-  most recently $400 million approved in 2020; in 2021 Gov. Kate Brown vetoed the spending of a $200 million draw, saying
-  the conditions for using the fund were not met. Portland Public Schools has asked for $500 million of it to lower
-  districts' pension payments, and a state representative and a newly elected House member have suggested one-time
-  help from it, with no amount named.
+  Senate, plus one of three economic conditions or an emergency declared by the governor, while its interest earnings
+  are paid out under state law, at present all to college financial aid. No state revenue forecast so far has fallen
+  far enough to meet a revenue condition, and two more are due in 2027; the state's first estimates showed payroll jobs
+  falling two quarters in a row in the first half of 2026, which could meet the jobs condition, but one quarter's
+  estimate was later raised, the archive can't yet say whether it still shows a fall, and it has no source on how the
+  condition's 12-month window is counted in 2027. The state has used the fund nine times, most recently $400
+  million approved in 2020, and in 2021 Gov. Kate Brown vetoed the spending of a $200 million draw, saying the
+  conditions were not met; Portland Public Schools has asked for $500 million of it to lower districts' pension
+  payments, and Gov. Tina Kotek has said tapping one-time reserves for the district's budget problems goes against what she
+  called "enrollment-driving state investment".
 ---
 # The Education Stability Fund: Oregon's school reserve
 
@@ -62,6 +65,72 @@ Education Subcommittee in 2026 [SRC:legislature/appointments/2026-01-23_house-co
 the fund. It suggests a narrower draw is being discussed, though it rests on one social media post with no amount or
 bill. It still needs the same vote and trigger. Ruiz describes his proposal as relief while longer-term reform is developed
 [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt].
+
+### Whether an economic trigger is met
+
+So far no revenue forecast for 2025-27 has met a revenue trigger, so a draw on the principal rests on the jobs
+trigger or the Governor's emergency declaration, unless a 2027 forecast is low enough to meet one (below). The
+constitution sets three triggers: a quarterly forecast putting current-budget General Fund revenue at least 2% below
+the forecast the budget was built on (the 2% test); a decline in payroll jobs for two or more quarters in a row within
+the last 12 months (the jobs test); or the budget period's last forecast putting General Fund money for the next budget
+at least 3% below current appropriations (the 3% test) [SRC:legislature/constitution/oregon-constitution.html].
+
+The jobs test is the open one. The state's forecasters, the Office of Economic Analysis, first estimated that Oregon
+payroll jobs fell in January-March and again in April-June 2026, which would be two quarters in a row. But the
+September 2026 forecast raised the January-March figure, and the archive has no figure from that forecast for the
+quarter before it, so it can't say whether January-March still shows a decline (below). The forecasters wrote only
+that revisions back to April 2025 changed little in the direction or magnitude of Oregon's job market overall
+[SRC:fiscal/oea/2026-09_forecast.pdf p.13].
+
+The 2% test hasn't been met by any of the six 2025-27 forecasts through the December 2026 revenue forecast, released
+Nov. 18, 2026. The largest decline in gross General Fund revenue (all General Fund tax and other revenue, before
+transfers out) from the close-of-session forecast (the forecast the 2025-27 budget was built on, $35,759.8 million)
+was 1.76%, in the September 2025 forecast, released Aug. 27, 2025 [SRC:fiscal/oea/2025-09_forecast.pdf p.27]
+[DER:reserves/esf_2pct_gross_max_decline]. The forecasters put that drop down mostly to the federal tax law H.R. 1,
+with economic revisions and a changed kicker credit also playing a part [SRC:fiscal/oea/2025-09_forecast.pdf p.6]
+[SRC:fiscal/oea/2025-09_forecast.pdf p.27]. Every forecast since June 2026 has put revenue above the close-of-session
+forecast. Available resources, which add the balance carried in from 2023-25, fell 2.24% in September 2025
+[DER:reserves/esf_2pct_resources_2025-09], but the constitution's test is about revenue.
+
+The 3% test uses the last forecast of the budget period, which the forecasters' tentative calendar puts on May 12,
+2027 [SRC:fiscal/oea/2027_forecast-calendar.pdf p.1] [SRC:fiscal/oea/2026-12_forecast.pdf p.33]. In the December
+2026 forecast, 2027-29 net General Fund revenue (gross revenue less transfers out), $42,592.8 million, is about 13.5%
+more than the 2025-27 General Fund appropriations of $37,513.1 million, our estimate, which leaves out the beginning
+balance [SRC:fiscal/oea/2026-12_forecast.pdf p.33] [SRC:fiscal/oea/2026-12_forecast.pdf p.29]
+[DER:reserves/esf_3pct_2026-12]. Meeting the test would take the May 2027 forecast of 2027-29 revenue to fall about
+14.6% below the December 2026 figure, our estimate, assuming appropriations stay as they are
+[DER:reserves/esf_3pct_drop_needed_2026-12]. For 2027-29 itself, the 2% test can't be applied until the 2027-29
+close-of-session forecast exists, after the 2027 session.
+
+If the Legislature finds the jobs test met, a draw on the principal needs the three-fifths votes but no emergency
+declaration. The Governor can still veto single items in an appropriation bill
+[SRC:legislature/constitution/oregon-constitution.html], as Gov. Kate Brown did with spending from the fund in 2021
+(below). If the Legislature
+doesn't find a trigger met, a draw also needs an emergency declaration. In April 2026, asked about a draw in the
+middle of the 2025-27 budget, Kotek's office said she did not then plan to declare one and call a special session
+unless the presiding officers indicated three-fifths support in each chamber (see "What a draw needs"). The archive has
+no statement from her on a declaration during the 2027 session.
+
+The Legislature makes the finding, and no archived source from the Legislative Fiscal Office, the Legislative
+Revenue Office, the forecasters or Legislative Counsel (the Legislature's lawyers) says whether any trigger is met
+now. The Oregon School Boards Association and the Coalition of Oregon School Administrators, in an April 2026 report,
+said the 2026 Legislature used neither the Education Stability Fund nor the Rainy Day Fund to balance the budget
+"despite meeting the economic triggers to access those funds"; they didn't say which triggers
+[SRC:orgs/osba-cosa/2026-04-08_legislative-report.pdf p.4]. Their report came out before the June 2026 forecast,
+released May 20, 2026, the first to show the January-March 2026 decline [SRC:fiscal/oea/2026-06_forecast.pdf p.1].
+Before then the archive has two figures that come closest: the 2.24% fall in available resources from the close-of-session
+forecast in September 2025, a measure the 2% test doesn't use (above), and a 1.5% drop, at an annual rate, in payroll
+jobs in April-June 2025. The archive lacks the quarter before it, January-March 2025; if that quarter also fell, the
+two would make two quarters in a row, though it ended more than 12 months before their report
+[SRC:fiscal/oea/2025-09_forecast.pdf p.44] [SRC:fiscal/oea/2025-09_forecast.pdf p.46]. The archive can't tell what
+they relied on.
+
+Timing is the other open point. The jobs test counts declines "in the last 12 months"
+[SRC:legislature/constitution/oregon-constitution.html], and January-March 2026 ended March 31, 2026; the archive
+has no source on how those 12 months are counted for a finding in the 2027 session. In 2021 a Legislative Counsel
+opinion argued that a trigger met earlier in the budget period left the fund available, and Gov. Kate Brown vetoed
+the draw anyway (below). Nor does the archive say whether a trigger found in 2025-27 would support spending in the
+2027-29 budget.
 
 ### Positions on record
 
@@ -185,6 +254,88 @@ million balance projected for the end of 2025-27 in the December 2026 forecast [
   outstanding, and all to the State Scholarship Fund once it is paid off; the table itself lists the distributions
   under the Oregon Opportunity Grant [SRC:fiscal/oea/2026-12_forecast.pdf p.73].
 
+### The economic triggers in 2025-27
+
+- The constitution lets the Legislature spend the fund's principal on public education with a three-fifths vote in
+  each house if it finds one of three conditions: the last quarterly forecast for a budget period shows money
+  available for the next one at least 3% less than the current period's General Fund appropriations; "a decline for two or more
+  consecutive quarters in the last 12 months in seasonally adjusted nonfarm payroll employment"; or a quarterly
+  forecast projects current-period General Fund revenue at least 2% below the forecast the adopted budget was based on. The other route is a three-fifths
+  vote and the Governor's emergency declaration [SRC:legislature/constitution/oregon-constitution.html]. The
+  Legislative Revenue Office's February 2026 summary describes the same triggers, and says the 3% test compares
+  General Fund revenue in the next period with current appropriations [SRC:fiscal/lro/2026-02_basic-facts.pdf p.18].
+- The close-of-session forecast is the May forecast plus revenue changes signed into law
+  [SRC:fiscal/oea/2025-09_forecast.pdf p.55]; the Office of Economic Analysis calls it the forecast "on which the
+  Legislatively Adopted Budget was based" [SRC:fiscal/oea/2025-09_forecast.pdf p.6]. It put 2025-27 gross General Fund revenue at
+  $35,759.8 million and net available resources at $37,795.9 million [SRC:fiscal/oea/2025-09_forecast.pdf p.27].
+- The 2025-27 quarterly forecasts, change in gross General Fund revenue and in net available resources from the
+  close-of-session forecast, as each printed it in its Table R.1 [SRC:fiscal/oea/2025-09_forecast.pdf p.27]
+  [SRC:fiscal/oea/2025-12_forecast.pdf p.23] [SRC:fiscal/oea/2026-03_forecast.pdf p.25]
+  [SRC:fiscal/oea/2026-06_forecast.pdf p.25] [SRC:fiscal/oea/2026-09_forecast.pdf p.28]
+  [SRC:fiscal/oea/2026-12_forecast.pdf p.29]:
+
+  | Forecast | Released | Gross revenue, $ million | Change, $ million | Resources change, $ million | Source |
+  |---|---|---|---|---|---|
+  | September 2025 | Aug. 27, 2025 | 35,131.9 | -627.9 | -845.5 | [SRC:fiscal/oea/2025-09_forecast.pdf p.27] |
+  | December 2025 | Nov. 19, 2025 | 35,441.0 | -318.8 | -535.9 | [SRC:fiscal/oea/2025-12_forecast.pdf p.23] |
+  | March 2026 | Feb. 4, 2026 | 35,561.8 | -197.9 | -283.2 | [SRC:fiscal/oea/2026-03_forecast.pdf p.25] |
+  | June 2026 | May 20, 2026 | 35,913.1 | 153.3 | 61.8 | [SRC:fiscal/oea/2026-06_forecast.pdf p.25] |
+  | September 2026 | Aug. 26, 2026 | 35,953.7 | 193.9 | 117.2 | [SRC:fiscal/oea/2026-09_forecast.pdf p.28] |
+  | December 2026 | Nov. 18, 2026 | 35,965.5 | 205.8 | 128.3 | [SRC:fiscal/oea/2026-12_forecast.pdf p.29] |
+
+  Release dates are from each forecast's cover [SRC:fiscal/oea/2025-09_forecast.pdf p.1]
+  [SRC:fiscal/oea/2025-12_forecast.pdf p.1] [SRC:fiscal/oea/2026-03_forecast.pdf p.1]
+  [SRC:fiscal/oea/2026-06_forecast.pdf p.1] [SRC:fiscal/oea/2026-09_forecast.pdf p.1]
+  [SRC:fiscal/oea/2026-12_forecast.pdf p.1].
+- In the September 2025 forecast, the office wrote that with H.R. 1, "General Fund revenues have been
+  lowered $621.1 million relative to the Close-of-Session forecast", and that with the lower beginning balance
+  "total available resources are down $845.5 million" [SRC:fiscal/oea/2025-09_forecast.pdf p.6]. The forecast's summary table shows gross revenue down $627.9 million,
+  and $6.8 million less taken out for offsets, transfers and actions (-$200.2 million, against -$206.9 million in the
+  close-of-session forecast)
+  [SRC:fiscal/oea/2025-09_forecast.pdf p.27]. The office called the $627.9 million "The bottom-line revenue
+  difference from the Close-of-Session estimate (on which the Legislatively Adopted Budget was based)", and said the
+  change was "also a product of economic revisions and a changed kicker credit offset"
+  [SRC:fiscal/oea/2025-09_forecast.pdf p.27].
+- The December 2026 forecast puts 2027-29 net General Fund revenue at $42,592.8 million
+  [SRC:fiscal/oea/2026-12_forecast.pdf p.33] and 2025-27 appropriations at $37,513.1 million
+  [SRC:fiscal/oea/2026-12_forecast.pdf p.29]. That forecast says the office "will release two more forecast updates
+  and a final accounting" for 2025-27 [SRC:fiscal/oea/2026-12_forecast.pdf p.33]. Its 2027 calendar sets forecast
+  releases for Feb. 24 and May 12, 2027, and says "these dates are tentative"
+  [SRC:fiscal/oea/2027_forecast-calendar.pdf p.1].
+- Each forecast's employment tracking table gives the first estimate for the latest quarter of Oregon total nonfarm
+  payroll jobs, seasonally adjusted, and its change from the quarter before at an annual rate
+  [SRC:fiscal/oea/2025-09_forecast.pdf p.44] [SRC:fiscal/oea/2025-12_forecast.pdf p.40]
+  [SRC:fiscal/oea/2026-03_forecast.pdf p.44] [SRC:fiscal/oea/2026-06_forecast.pdf p.48]
+  [SRC:fiscal/oea/2026-09_forecast.pdf p.47] [SRC:fiscal/oea/2026-12_forecast.pdf p.52]:
+
+  | Quarter | Forecast | Jobs (thousands) | Change, annual rate | Source |
+  |---|---|---|---|---|
+  | April-June 2025 | September 2025 | 1,973.6 | -1.5% | [SRC:fiscal/oea/2025-09_forecast.pdf p.44] |
+  | July-September 2025 | December 2025 | 1,984.8 | 0.4% | [SRC:fiscal/oea/2025-12_forecast.pdf p.40] |
+  | October-December 2025 | March 2026 | 1,987.3 | 0.3% | [SRC:fiscal/oea/2026-03_forecast.pdf p.44] |
+  | January-March 2026 | June 2026 | 1,967.9 | -0.8% | [SRC:fiscal/oea/2026-06_forecast.pdf p.48] |
+  | April-June 2026 | September 2026 | 1,974.4 | -0.3% | [SRC:fiscal/oea/2026-09_forecast.pdf p.47] |
+  | July-September 2026 | December 2026 | 1,978.0 | 0.7% | [SRC:fiscal/oea/2026-12_forecast.pdf p.52] |
+
+- Later forecasts revise these figures. The June 2026 forecast put October-December 2025 at 1,971.8 thousand
+  [SRC:fiscal/oea/2026-06_forecast.pdf p.50], lower than the March 2026 forecast's 1,987.3 thousand
+  [SRC:fiscal/oea/2026-03_forecast.pdf p.44]. The September
+  2026 forecast put January-March 2026 at 1,976.0 thousand [SRC:fiscal/oea/2026-09_forecast.pdf p.49], higher than
+  the June forecast's 1,967.9 thousand [SRC:fiscal/oea/2026-06_forecast.pdf p.48], and the December 2026 forecast's table starts at April-June 2026
+  [SRC:fiscal/oea/2026-12_forecast.pdf p.54]. In June 2026 the office wrote that later Oregon Employment Department
+  releases "will encompass revisions that may alter the magnitude of these trends"
+  [SRC:fiscal/oea/2026-06_forecast.pdf p.12]. In September 2026 it wrote: "With recent revisions going back to April
+  2025, there has been little change in the direction or magnitude of Oregon's labor market"
+  [SRC:fiscal/oea/2026-09_forecast.pdf p.13]. The earliest quarter in any archived forecast's employment table is April-June
+  2025 [SRC:fiscal/oea/2025-09_forecast.pdf p.46], so the archive has no figure for January-March 2025. In
+  December 2026 the office wrote that September 2026 data showed the first
+  year-over-year job gain since February 2025 [SRC:fiscal/oea/2026-12_forecast.pdf p.13].
+
+- The Oregon School Boards Association and the Coalition of Oregon School Administrators, in their legislative report
+  published April 8, 2026, and revised April 28, 2026 [SRC:orgs/osba-cosa/2026-04-08_legislative-report.pdf p.1], wrote that the Legislature did not use the Education Stability Fund or the Rainy Day Fund to
+  balance the budget "despite meeting the economic triggers to access those funds"; the report doesn't say which
+  trigger [SRC:orgs/osba-cosa/2026-04-08_legislative-report.pdf p.4].
+
 ### Past allocations
 
 - The Legislative Fiscal Office lists nine allocations from the fund through 2020 (amounts as recorded in the
@@ -274,3 +425,7 @@ million balance projected for the end of 2025-27 in the December 2026 forecast [
 |---|---|---|
 | Total of the nine allocations listed for 2001-03 to 2019-21, not adjusted for inflation | $1,540.6 million | [DER:reserves/esf_withdrawals_total] |
 | Portland Public Schools' $500 million request as a share of the fund's projected balance at the end of 2025-27 | 39% | [DER:reserves/pps_ask_share_of_esf] |
+| Largest decline in 2025-27 gross General Fund revenue from the close-of-session forecast (September 2025 forecast) | 1.76% | [DER:reserves/esf_2pct_gross_max_decline] |
+| September 2025 forecast: decline in 2025-27 net available resources from the close-of-session forecast | 2.24% | [DER:reserves/esf_2pct_resources_2025-09] |
+| December 2026 forecast: 2027-29 net General Fund revenue compared with 2025-27 General Fund appropriations (our estimate; leaves out the beginning balance) | 13.5% | [DER:reserves/esf_3pct_2026-12] |
+| How far 2027-29 net General Fund revenue would have to fall from the December 2026 forecast to meet the 3% test (our estimate; appropriations unchanged) | 14.6% | [DER:reserves/esf_3pct_drop_needed_2026-12] |

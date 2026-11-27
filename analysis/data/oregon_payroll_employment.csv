@@ -1,0 +1,7 @@
+id,quarter,forecast,total_nonfarm_thousands,qoq_saar_pct,yoy_pct,source
+2025q2-in-2025-09,2025:2,September 2025,1973.6,-1.5,-1.0,[SRC:fiscal/oea/2025-09_forecast.pdf p.44]
+2025q3-in-2025-12,2025:3,December 2025,1984.8,0.4,-0.4,[SRC:fiscal/oea/2025-12_forecast.pdf p.40]
+2025q4-in-2026-03,2025:4,March 2026,1987.3,0.3,-0.4,[SRC:fiscal/oea/2026-03_forecast.pdf p.44]
+2026q1-in-2026-06,2026:1,June 2026,1967.9,-0.8,-1.0,[SRC:fiscal/oea/2026-06_forecast.pdf p.48]
+2026q2-in-2026-09,2026:2,September 2026,1974.4,-0.3,-0.6,[SRC:fiscal/oea/2026-09_forecast.pdf p.47]
+2026q3-in-2026-12,2026:3,December 2026,1978.0,0.7,-0.2,[SRC:fiscal/oea/2026-12_forecast.pdf p.52]

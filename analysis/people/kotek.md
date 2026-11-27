@@ -55,15 +55,15 @@ Governor's Recommended Budget for 2027-29 in December [NEWS:NEWS-2026-salemrepor
 - Analysis: as of Nov. 20, 2026, no proposal from her on virtual schools is in the archive; see `topics/virtual-charters.md`.
 
 ## On the Education Stability Fund
-- Using it requires a three-fifths vote in each chamber plus either an economic trigger or a governor's emergency
-  declaration [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1] (OPB described it as an emergency declaration and a
+- Using its principal requires a three-fifths vote in each chamber plus either an economic trigger or a governor's
+  emergency declaration [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1] [SRC:legislature/constitution/oregon-constitution.html] (OPB described it as an emergency declaration and a
   three-fifths vote [NEWS:NEWS-20261102-opb-1]).
 - Asked by OPB in October 2026 about past calls to use the fund for schools, she said "That is up to the
   legislature" and, of raising it with legislative leaders, "I would bring it up, and it was summarily dismissed".
   She described their argument, which she said she could understand, that "if you use one-time dollars, which is
   what a reserve fund is, that will have a greater cliff down the line" [NEWS:NEWS-20261102-opb-1].
 - The April 2026 FAQ for Executive Order 26-06: she "remains open to discussing all options to support districts," but does not plan
-  to declare an emergency and call a special session for the fund unless legislative leaders indicate a three-fifths
+  to declare an emergency and call a special session for the fund unless the presiding officers indicate a three-fifths
   majority would approve it [SRC:gov/eo/eo-26-06_faq.pdf p.2] [SRC:gov/eo/eo-26-06_faq.pdf p.3]. (KTVZ described
   this as openness to tapping the fund [NEWS:NEWS-20260416-ktvz-1]; the FAQ itself is more guarded.)
 - Nov. 6, 2026, press conference: KATU reports she does not support using one-time state reserves for Portland Public
