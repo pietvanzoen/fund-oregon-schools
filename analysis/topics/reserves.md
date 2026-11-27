@@ -66,8 +66,8 @@ bill. It still needs the same vote and trigger. Ruiz describes his proposal as r
 
 ### Whether an economic trigger is met
 
-So far no revenue forecast for 2025-27 has met a revenue trigger, so a draw rests on the jobs trigger or the
-Governor's emergency declaration, unless a 2027 forecast is low enough to meet one (below). The jobs trigger is the open one. The
+So far no revenue forecast for 2025-27 has met a revenue trigger, so a draw on the principal rests on the jobs
+trigger or the Governor's emergency declaration, unless a 2027 forecast is low enough to meet one (below). The jobs trigger is the open one. The
 state forecasters' first estimates showed Oregon payroll jobs falling in January-March and again in April-June 2026,
 which would be two quarters in a row. But the September 2026 forecast raised the January-March figure, and the
 archive has no figure from that forecast for the quarter before it, so it can't say whether January-March still
@@ -92,8 +92,8 @@ The 3% test uses the last forecast of the budget period, which the forecasters' 
 [DER:reserves/esf_3pct_drop_needed_2026-12]. For 2027-29
 itself, the 2% test can't be applied until the 2027-29 close-of-session forecast exists, after the 2027 session.
 
-If the Legislature finds the jobs trigger met, then a draw needs only the three-fifths votes. If it doesn't, then a
-draw also needs an emergency declaration, which Kotek's office said in April 2026, about a draw in the middle of
+If the Legislature finds the jobs trigger met, then a draw on the principal needs only the three-fifths votes. If it
+doesn't, then such a draw also needs an emergency declaration, which Kotek's office said in April 2026, about a draw in the middle of
 the 2025-27 budget, she did not then plan to make (see "What a draw needs"). The archive has no statement from her on a declaration
 during the 2027 session.
 

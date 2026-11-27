@@ -55,8 +55,8 @@ Governor's Recommended Budget for 2027-29 in December [NEWS:NEWS-2026-salemrepor
 - Analysis: as of Nov. 20, 2026, no proposal from her on virtual schools is in the archive; see `topics/virtual-charters.md`.
 
 ## On the Education Stability Fund
-- Using it requires a three-fifths vote in each chamber plus either an economic trigger or a governor's emergency
-  declaration [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1] (OPB described it as an emergency declaration and a
+- Using its principal requires a three-fifths vote in each chamber plus either an economic trigger or a governor's
+  emergency declaration [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1] [SRC:legislature/constitution/oregon-constitution.html] (OPB described it as an emergency declaration and a
   three-fifths vote [NEWS:NEWS-20261102-opb-1]).
 - Asked by OPB in October 2026 about past calls to use the fund for schools, she said "That is up to the
   legislature" and, of raising it with legislative leaders, "I would bring it up, and it was summarily dismissed".

@@ -170,8 +170,8 @@ document from the Governor with the $12.57 billion figure.
 
 - The fund, one of the state's two general reserve accounts, is projected at $1,273.3 million at the end of 2025-27
   [SRC:fiscal/oea/2026-12_forecast.pdf p.73].
-- Withdrawal takes a three-fifths vote in each chamber plus either an economic trigger or a governor's emergency
-  declaration [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1].
+- A withdrawal of principal takes a three-fifths vote in each chamber plus either an economic trigger or a governor's
+  emergency declaration [SRC:fiscal/lro/2025-11_reserve-funds.pdf p.1] [SRC:legislature/constitution/oregon-constitution.html].
 - Whether a trigger is met (question `esf-trigger-2027`), the revenue tests: the September 2025 forecast, released
   Aug. 27, 2025, put 2025-27 gross General Fund revenue $627.9 million below the close-of-session forecast the budget
   was built on; the December 2026 forecast puts it $205.8 million above [SRC:fiscal/oea/2025-09_forecast.pdf p.1] [SRC:fiscal/oea/2025-09_forecast.pdf p.27]
@@ -194,8 +194,8 @@ document from the Governor with the $12.57 billion figure.
   forecast first showed the January-March decline, that the 2026 Legislature used neither the Education Stability
   Fund nor the Rainy Day Fund to balance the budget "despite meeting the economic triggers to access those funds", without saying which
   [SRC:orgs/osba-cosa/2026-04-08_legislative-report.pdf p.4].
-- Analysis: so far no forecast has met a revenue test, so for now a draw turns on the jobs test or an emergency
-  declaration. If the Legislature finds the jobs test met, a draw needs only the three-fifths votes; if not, it also
+- Analysis: so far no forecast has met a revenue test, so for now a draw on the principal turns on the jobs test or an emergency
+  declaration. If the Legislature finds the jobs test met, a draw on the principal needs only the three-fifths votes; if not, it also
   needs Kotek's emergency declaration. Asked in April 2026 about a draw in the middle of the 2025-27 budget, her office
   said she did not then plan to declare an emergency and call a special session unless the presiding officers indicated three-fifths
   support [SRC:gov/eo/eo-26-06_faq.pdf p.2] [SRC:gov/eo/eo-26-06_faq.pdf p.3]; the archive has no statement from her
