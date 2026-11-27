@@ -37,11 +37,8 @@ The Legislative Fiscal Office's lottery tables for Senate Bill 5703 (March 2026)
 to the grant, with nothing for bond payments: $97,197,652 in the 2023-25 approved budget and $98,481,347 in the 2025-27
 budget as of March 2026 [SRC:legislature/olis/2026R1/315811_sb5703-revenue-allocations.pdf p.3]. The December 2026
 revenue forecast, released Nov. 18, 2026, projects $116.1 million in interest earnings for the 2027-29 budget, all of it
-going to the grant [SRC:fiscal/oea/2026-12_forecast.pdf p.1] [SRC:fiscal/oea/2026-12_forecast.pdf p.73]. The statute
-lets the Education Fund's share pay for public education as well as bonds, which would leave less for the grant, while
-the forecast's footnote and the Legislative Fiscal Office's briefs tie that share to bond debt (below). The archive
-doesn't show how the director decides how much of the Education Fund's share is needed, and it has no proposal on
-record to redirect the earnings.
+going to the grant [SRC:fiscal/oea/2026-12_forecast.pdf p.1] [SRC:fiscal/oea/2026-12_forecast.pdf p.73]. The archive
+has no proposal on record to redirect the earnings.
 
 The December 2026 forecast projects the balance a draw would come from at $1.271 billion for the end of 2025-27
 [SRC:fiscal/oea/2026-12_forecast.pdf p.41]. In its reserve table, which starts with 2021-23, the fund pays out about
