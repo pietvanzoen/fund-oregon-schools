@@ -1,7 +1,7 @@
 ---
 description: >
   Oregon's Education Stability Fund: about $1.3 billion forecast for mid-2027, what a draw on its principal takes,
-  whether a trigger is met, and nine past allocations.
+  whether a trigger is met, and nine past draws.
 summary: >
   The Education Stability Fund is one of the state's two general savings accounts, expected to hold about $1.3
   billion at the end of the 2025-27 budget; spending that balance takes a three-fifths vote in both the House and the
