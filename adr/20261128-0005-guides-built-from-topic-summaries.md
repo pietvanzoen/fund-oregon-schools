@@ -1,6 +1,6 @@
 # Guides walk through topics in order, built from each topic's summary
 
-Status: accepted (2026-11-28, PR #TBD)
+Status: accepted (2026-11-28, PR #234)
 
 ## Context
 Each topic holds the evidence on one subject, and Start here and What's being decided assume the reader knows how
