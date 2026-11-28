@@ -28,6 +28,12 @@ class Search(ArchiveTest):
         }, got
         r = self.run_tool("search.py", "zebra", "--kind", "cited", "--kind", "derived")
         assert "k.md:13" in r.stdout and "[DER:k/z1]" in r.stdout and "k.md:9" not in r.stdout, r.stdout
+        # a guide's topics list is searchable with the rest of its front matter
+        self.write("analysis/guides/g.md", "---\nsummary: >\n  S.\ntopics:\n  - zebras\n---\n# G\n")
+        r = self.run_tool("search.py", "zebras", "--json")
+        assert ("summary", "analysis/guides/g.md front matter") in {
+            (h["kind"], h["cite"]) for h in json.loads(r.stdout)
+        }
 
     def test_video_transcript(self):
         # search cites the line's timestamp and the transcript header isn't indexed

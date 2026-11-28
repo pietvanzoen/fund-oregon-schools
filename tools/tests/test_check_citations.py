@@ -286,6 +286,21 @@ class CheckCitations(ArchiveTest):
         out = r.stdout
         assert r.returncode == 1 and out.count("ERROR") == 3, out
         assert "g.md: no topic c" in out and "must match `topics`" in out and "x.md: only topic files" in out, out
+        # topics as a plain value, a topic listed twice, a list where text goes, a marker outside guides
+        self.write(
+            "analysis/guides/g.md", head.replace("topics:\n  - a\n  - b", "topics: a") + "<!-- site: summary a -->\n"
+        )
+        self.write(
+            "analysis/guides/h.md",
+            head.replace("  - b", "  - a").replace("description: >\n  D.", "description:\n  - D.")
+            + "<!-- site: summary a -->\n<!-- site: summary a -->\n",
+        )
+        self.write("analysis/x.md", "<!-- site: summary a -->\n")
+        r = self.run_tool("check_citations.py")
+        out = r.stdout
+        assert r.returncode == 1 and out.count("ERROR") == 4, out
+        assert "g.md: `topics` is a list" in out and "h.md: summary markers" in out, out
+        assert "h.md: the description is text" in out and "x.md: only guides place topic summaries" in out, out
 
 
 if __name__ == "__main__":

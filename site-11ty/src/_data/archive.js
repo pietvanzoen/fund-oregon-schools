@@ -599,7 +599,7 @@ class Page {
     text = text.replace(/<!-- site: summary ([\w-]+) -->/g, (_, id) => {
       const e = entities[`topic:${id}`];
       if (!e?.summary) throw new Error(`${srcFile}: no topic summary ${id}`);
-      return `<div class="guide-topic">\n\n${e.summary}\n\n<p class="guide-more">The evidence: <a href="${e.url}">${esc(e.title)}</a></p>\n\n</div>`;
+      return `<div class="guide-topic" role="group" aria-label="In short, from the topic ${esc(e.title)}">\n\n${e.summary}\n\n<p class="guide-more">The evidence: <a href="${e.url}">${esc(e.title)}</a></p>\n\n</div>`;
     });
     text = text.replace(/`([\w./-]+\.(?:md|csv|jsonl))(#[\w-]+)?`/g, (m, ref, anchor = "") => {
       const key = path.posix.normalize(path.posix.join(path.posix.dirname(srcFile), ref));

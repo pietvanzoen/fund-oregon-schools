@@ -235,6 +235,8 @@ def main():
                     errors.append(
                         f"{rel}: only topic files, person profiles and guides may have front matter (.claude/rules/analysis.md rule 4)"
                     )
+                if SUMMARY_MARKER.search(text) and os.path.dirname(full) != os.path.join(ANALYSIS, "guides"):
+                    errors.append(f"{rel}: only guides place topic summaries (<!-- site: summary ... -->)")
             elif dirpath == DERIVED:
                 continue  # checked above
             elif full == UPDATES:
@@ -559,9 +561,12 @@ def check_front_matter(rel, meta, body, required, errors):
             f"{rel}: front matter key {k} isn't used; this file holds only {', '.join(sorted(required | {'title'}))}"
         )
     for k in sorted(meta.keys() & {"summary", "description", "title"}):
+        if not isinstance(meta[k], str):
+            errors.append(f"{rel}: the {k} is text (`{k}: >` and indented lines), not a list")
+            continue
         if TAG_RE.search(meta[k]):
             errors.append(f"{rel}: the {k} carries no citations; back each sentence with a cited line below")
-    if len(meta.get("description", "")) > DESC_MAX:
+    if isinstance(meta.get("description", ""), str) and len(meta.get("description", "")) > DESC_MAX:
         errors.append(
             f"{rel}: description is {len(meta['description'])} characters; search results show about {DESC_MAX}"
         )
