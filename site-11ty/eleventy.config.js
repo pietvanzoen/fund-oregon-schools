@@ -10,6 +10,16 @@ export default function (cfg) {
   cfg.addPassthroughCopy({ "node_modules/charts.css/dist/charts.min.css": "assets/charts.min.css" }); // bar charts (adr/20261125-0411-visuals-as-derived-entities.md)
   cfg.addPassthroughCopy("src/CNAME"); // records the domain; an Actions deploy takes it from the repo's Pages settings
 
+  // Write the contact address as HTML entities so plain-text address scrapers miss it; browsers show and link it as usual.
+  // "mailto:" stays literal for the link check below. shortcut: the address stays plain in the repo's README and
+  // LICENSE-content.md on GitHub; move to a contact form only if Fastmail's spam filter and Screener stop coping.
+  const CONTACT = "hello@oregonedtrail.org";
+  const CONTACT_ENCODED = [...CONTACT].map((c) => `&#${c.charCodeAt(0)};`).join("");
+  cfg.addTransform("encode-contact", function (html) {
+    if (!this.page.outputPath?.endsWith(".html")) return html;
+    return html.replaceAll(CONTACT, CONTACT_ENCODED);
+  });
+
   if (PREVIEW)
     cfg.addTransform("relative-links", function (html) {
       if (!this.page.outputPath?.endsWith(".html")) return html;
