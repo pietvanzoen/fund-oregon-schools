@@ -160,9 +160,8 @@ positions on record, each with when it was stated and which draw it was about:
 
 PERS contributions are an ongoing cost, so the objections on record to one-time money for ongoing costs (Lieber's and
 the leaders' objection Kotek described) could also apply to Ruiz's proposal, as could Sanchez's caution against
-relying on one-time dollars. Ruiz's post doesn't say whether the relief would pay ongoing contributions or make a
-one-time payment, such as the rate buy-down Portland Public Schools asks for, which the objection might not cover
-[SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt] [NEWS:NEWS-20261102-opb-1]. The archive has no
+relying on one-time dollars, though his post doesn't say what form the relief would take
+[SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt]. The archive has no
 statement on the fund from Lieber or Sanchez since May 2026.
 
 ### Past draws and the 2021 veto

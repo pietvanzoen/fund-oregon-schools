@@ -266,12 +266,8 @@ document from the Governor with the $12.57 billion figure.
   for ongoing costs; Sanchez's is about timing, alongside a caution about one-time dollars.
 - Analysis: PERS contributions are an ongoing cost, so the objections to one-time money for ongoing costs (Lieber's
   and the leaders' objection Kotek described) could also apply to Ruiz's proposal, as could Sanchez's caution against
-  relying on one-time dollars. His post doesn't say whether the relief would pay ongoing contributions or make a
-  one-time payment, such as the rate buy-down Portland Public Schools asks for, which the objection might not cover.
-  The post calls using one-time dollars responsibly to stabilize struggling districts, while lasting reforms are
-  developed, "a thoughtful way to address both needs", and says it won't fix the long-term issues until the whole
-  funding system is overhauled [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt]
-  [NEWS:NEWS-20261102-opb-1].
+  relying on one-time dollars, though his post doesn't say what form the relief would take
+  [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt].
 - Analysis: every option here needs the same three-fifths votes and a trigger or an emergency declaration (above).
   The Governor's reading of those conditions matters as well as the votes: in 2021 Gov. Kate Brown vetoed spending
   the Legislature had budgeted from the fund, arguing it didn't meet the conditions for using the fund
