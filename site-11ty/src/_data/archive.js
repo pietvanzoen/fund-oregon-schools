@@ -608,8 +608,8 @@ class Page {
       const link = LINKS[key] || LINKS[ref];
       return link ? `[${link[0]}](${link[1]}${anchor})` : m;
     });
-    // Plain Markdown links to those files, e.g. [About this site](about.md)
-    text = text.replace(/\]\(([\w./-]+\.md)(#[\w-]+)?\)/g, (_, ref, anchor = "") => {
+    // Plain Markdown links to those files, e.g. [About this site](about.md) or [Who decides](people/people.csv)
+    text = text.replace(/\]\(([\w./-]+\.(?:md|csv))(#[\w-]+)?\)/g, (_, ref, anchor = "") => {
       const ent = FILE_ENTITY[ref] || FILE_ENTITY[`topics/${ref}`];
       const url = ent ? entities[ent].url : LINKS[ref]?.[1] || PAGE_FILES[ref];
       if (!url) throw new Error(`${srcFile}: link to ${ref} has no page`);
