@@ -7,7 +7,7 @@ paths:
 Contents: rules 2 (citations), 3 (quotes), 4 (sources, calculations and inference kept apart; the topic-file layout), 5 (advocacy), 8 (structured files), 10 (independent review), 11 (glossary); Key files.
 
 2. `analysis/` is derived. Every factual claim carries a citation, with one exception: front matter (rule 4: a
-   topic's `summary`, `description` and `title`, a profile's `description` and `title`) has no citations, and every
+   topic's or guide's `summary`, `description` and `title`, a profile's `description` and `title`) has no citations, and every
    sentence in it restates a cited line further down the same page:
    - Archived file: `[SRC:<path under sources/> p.<page>]` (page = PDF page; `.pdf.txt` separates pages with \f).
      Omit `p.` for HTML pages, and for a claim about a whole PDF ("mentions no charter bill"). Path conventions: `.claude/rules/sources.md`.
@@ -31,10 +31,12 @@ Contents: rules 2 (citations), 3 (quotes), 4 (sources, calculations and inferenc
      two or three plain sentences (`STYLE.md`, "In short"); a `description` for search results and link previews
      (one plain sentence, at most 160 characters); and a `title` when the H1 is over 55 characters (the browser tab
      and search results; at most 55). `tools/check_citations.py` enforces all three and both lengths. Person profiles (`analysis/people/<id>.md`) hold a `description` and may hold
-     a `title`; people keep factual cards from `people.csv`, never a summary. Write each as `key: >` with indented
+     a `title`; people keep factual cards from `people.csv`, never a summary. Guides (`analysis/guides/<slug>.md`) hold
+     a `summary`, a `description`, an optional `title` and `topics`, the ordered list of topics whose summaries they
+     show (below). Write each text as `key: >` with indented
      lines. Like the summary, a description or title carries no citations and says nothing the cited lines below
-     don't. Only `key: value` and folded `>` are read (no YAML library), and no other file in `analysis/` has front
-     matter. Why: `adr/20261124-0555-topic-summaries-in-front-matter.md`, `adr/20261124-1751-page-titles-and-descriptions-in-front-matter.md`. The H1
+     don't. Only `key: value`, folded `>` and a block list (`key:` then `  - item` lines) are read (no YAML library),
+     and no other file in `analysis/` has front matter. Why: `adr/20261124-0555-topic-summaries-in-front-matter.md`, `adr/20261124-1751-page-titles-and-descriptions-in-front-matter.md`. The H1
      comes right after it.
    - Topic files have three sections, in this order: `## Analysis` (our interpretation;
      no "Analysis:" label needed; first, so the page leads with it, and it reads on its own: point to the evidence as
@@ -54,6 +56,10 @@ Contents: rules 2 (citations), 3 (quotes), 4 (sources, calculations and inferenc
      and arrow carries its own citation; a path no archived source confirms is marked `open` (with why) or left
      out, and the maintainer chooses which. Colour is never the only way to tell bars apart: each bar names its
      group. Embedded in a page, a visual shows no citations or notes and links to its own page, which has both. Why: `adr/20261125-0411-visuals-as-derived-entities.md`.
+   - Guides walk through topics in order: one `##` section per step, each placing a topic's summary with
+     `<!-- site: summary <slug> -->` (in the order of `topics`, each once) and joining the steps with a sentence or two of
+     our own, cited like any analysis. A guide adds no other claims and embeds visuals by id. Why:
+     `adr/20261128-0005-guides-built-from-topic-summaries.md`.
    - Outside `topics/`, our figures go in their own sentences, marked "our sum" or "our estimate" with
      the DER tag; inference elsewhere starts its own paragraph or list item with "Analysis:". The site shows that
      marker, and a topic's `## Analysis` section, as "Our analysis"; files keep "Analysis:" (#167).
@@ -100,6 +106,8 @@ Contents: rules 2 (citations), 3 (quotes), 4 (sources, calculations and inferenc
   `/visuals/`); `id` columns in
   `analysis/data/*.csv` exist for the rows visuals point to
 - `analysis/topics/<topic>.md` — topic files: `summary`, `description` (and `title` if the H1 is long) in front matter, then the three sections; each is published on the website automatically
+- `analysis/guides/<slug>.md` — guides: `summary`, `description`, `topics` in front matter, then one section per
+  step with topic summaries placed by marker and cited joining sentences; published at `/guides/<slug>/`
 - `analysis/glossary.csv` — abbreviations and terms: full name, hover tooltip, cited definition
 - `analysis/START.md` (home page), `analysis/timeline.md`
 - `analysis/updates.csv` — What's new for readers (`date, text, page, pr, kind`; `kind` is `correction`,

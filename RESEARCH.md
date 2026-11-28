@@ -66,7 +66,7 @@ decision ── baseline and options ── positions (who stands where, when)
 ### The whole repo
 
 How every kind of file relates. Citations are the links from what we write to what sources say; the site turns
-each one into a chip. Guides (#188) are planned. Keep this diagram current: a new file type or relationship means
+each one into a chip. Keep this diagram current: a new file type or relationship means
 editing it (`.claude/rules/code.md`, "Before writing").
 
 ```mermaid
@@ -120,13 +120,14 @@ erDiagram
         file json "analysis/visuals/*.json: bars or flow"
     }
     GUIDE {
-        status planned "#188"
+        file md "analysis/guides/*.md: topic summaries in order, cited joining sentences"
     }
 
     CITATION }o--o| SOURCE : "SRC, VID point to"
     CITATION }o--o| NEWS_RECORD : "NEWS points to"
     CITATION }o--o| DERIVED_ROW : "DER points to"
     TOPIC ||--o{ CITATION : carries
+    GUIDE ||--o{ CITATION : "joining sentences"
     DATA_ROW ||--|{ CITATION : "source column"
     OPTION ||--|{ CITATION : "source column"
     POSITION ||--|{ CITATION : "source column"
@@ -149,7 +150,7 @@ erDiagram
     QUESTION }o--o| TOPIC : "answered in (or decisions.md)"
     TOPIC }o--o{ GLOSSARY_TERM : "uses"
     TOPIC }o--o{ VISUAL : embeds
-    GUIDE }o--|{ TOPIC : "steps link to"
+    GUIDE }o--|{ TOPIC : "places summaries of, in order"
     GUIDE }o--o{ VISUAL : embeds
 ```
 
@@ -246,6 +247,7 @@ issues to it in the order they should run, and agents take the first free one.
 |---|---|---|
 | Start here (the home page) | `analysis/START.md` | What's being decided now, the comparison set of key numbers, where to go next |
 | What's being decided | `decisions.csv`, `options.csv`, `positions.csv`, `questions.csv`, `analysis/decisions.md` | Per decision: who decides and by when, the baseline and options, who stands where and when, what's known, open questions |
+| Guides (`/guides/`) | `analysis/guides/*.md`, placing each linked topic's `summary` | Walk a new reader through how the parts fit, step by step, each step linked to the topic with its evidence |
 | Topics | `analysis/topics/*.md` | The evidence on one subject |
 | People, What they've said, Promises, The numbers, Timeline, Glossary, Sources | as named | Reference |
 | Charts and diagrams (`/visuals/`), each with its own page | `analysis/visuals/*.json` | Show a comparison or a flow at a glance, embedded in any page; each visual's page gives its text version, notes and sources |

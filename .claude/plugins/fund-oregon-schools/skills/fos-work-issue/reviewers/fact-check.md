@@ -41,7 +41,7 @@ scrambled, or text below a `--- OCR of this page` line (machine OCR of a picture
 3. **Claims**: the citation supports the sentence as written, without overstatement ("plans to" vs "has
    committed to", "about" vs an exact figure, one district vs "districts").
 4. **Uncited claims**: any factual sentence with no citation. The one exception is front matter (`.claude/rules/analysis.md` rule 2:
-   a topic's `summary`, `description` and `title`, a person profile's `description` and `title`): it carries no
+   a topic's or guide's `summary`, `description` and `title`, a person profile's `description` and `title`): it carries no
    citations, but **each sentence in it must be backed by a cited line further down the same page**. For each
    summary or description sentence, name the cited line(s) that back it and check those
    against their sources as usual. A summary sentence with no backing line, or one that says more than its backing
@@ -73,6 +73,13 @@ scrambled, or text below a `--- OCR of this page` line (machine OCR of a picture
     contradicts the topic it links to. Notes are checked like any sentence. Read the generated text version (the
     site build writes it from the file; `cd site-11ty && npm ci && npx eleventy`, then `_site/visuals/<id>/`) and
     report anything in it that misstates the file.
+11. **Guides** (`analysis/guides/*.md`; `adr/20261128-0005-guides-built-from-topic-summaries.md`): for each new or
+    changed guide, check **every joining sentence** (the guide's own text between and around the
+    `<!-- site: summary <slug> -->` markers) like any claim above, and check **every visual it embeds**
+    (`<!-- site: visual <id> -->`) as in item 10, whether or not the visual changed in this branch. Also check that
+    no joining sentence contradicts the topic summary it introduces, and that the guide's front-matter `summary` and
+    `description` say nothing the joining sentences or the placed topic summaries don't back. The topic summaries
+    themselves are checked where they live, unless this branch changes them.
 
 ## Scope
 

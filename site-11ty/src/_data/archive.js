@@ -178,6 +178,27 @@ for (const f of topicFiles) {
     description: data.description?.trim(),
   };
 }
+// Guides walk through topics in order: each step places a topic's summary (adr/20261128-0005-guides-built-from-topic-summaries.md)
+const guideFiles = fs
+  .readdirSync(path.join(ROOT, "analysis/guides"))
+  .filter((f) => f.endsWith(".md"))
+  .sort();
+for (const f of guideFiles) {
+  const { data, content: text } = matter(read(`analysis/guides/${f}`));
+  const summary = String(data.summary || "").trim();
+  entities[`guide:${f.slice(0, -3)}`] = {
+    kind: "Guide",
+    icon: "topic",
+    title: (text.match(/^# (.+)$/m)?.[1] ?? f).trim(),
+    url: `/guides/${f.slice(0, -3)}/`,
+    lines: [summary],
+    summary,
+    text,
+    topics: data.topics || [],
+    seo: data.title?.trim(),
+    description: data.description?.trim(),
+  };
+}
 // Each row links to its term page on first use (a term of art in any case, its card showing the start of its definition).
 // A label, a word this site gives its own meaning, gets no link in running text but still lists in Terms on this page.
 for (const g of glossaryAll.filter((g) => g.kind !== "label"))
@@ -524,6 +545,7 @@ function shortTitle(t) {
 const FILE_ENTITY = Object.fromEntries([
   ...people.map((p) => [`people/${p.id}.md`, `person:${p.id}`]),
   ...topicFiles.map((f) => [`topics/${f}`, `topic:${f.slice(0, -3)}`]),
+  ...guideFiles.map((f) => [`guides/${f}`, `guide:${f.slice(0, -3)}`]),
 ]);
 // Files with a page of their own that isn't a topic or person: [link text, where it goes]
 const LINKS = {
@@ -572,6 +594,12 @@ class Page {
       this.refs.add(`visual:${id}`);
       if (visuals[id]?.kind === "bars") this.charts = true; // loads Charts.css
       return visualHtml(id, this.id === `visual:${id}`);
+    });
+    // A guide step: the topic's own summary, which its page backs with citations, and a link to that page
+    text = text.replace(/<!-- site: summary ([\w-]+) -->/g, (_, id) => {
+      const e = entities[`topic:${id}`];
+      if (!e?.summary) throw new Error(`${srcFile}: no topic summary ${id}`);
+      return `<div class="guide-topic">\n\n${e.summary}\n\n<p class="guide-more">The evidence: <a href="${e.url}">${esc(e.title)}</a></p>\n\n</div>`;
     });
     text = text.replace(/`([\w./-]+\.(?:md|csv|jsonl))(#[\w-]+)?`/g, (m, ref, anchor = "") => {
       const key = path.posix.normalize(path.posix.join(path.posix.dirname(srcFile), ref));
@@ -903,6 +931,35 @@ for (const v of Object.values(visuals)) {
     sourceFile: "analysis/visuals",
     seo: "Charts and diagrams of Oregon school funding",
     description: "Every chart and diagram on this site, each with a text version and the documents it's drawn from.",
+  });
+  pages.push(p);
+}
+
+for (const f of guideFiles) {
+  const e = entities[`guide:${f.slice(0, -3)}`];
+  const p = new Page(`guide:${f.slice(0, -3)}`, e.url, e.title);
+  p.summaryHtml = e.summary && p.render(e.summary, `guides/${f}`);
+  p.body = p.render(e.text, `guides/${f}`);
+  // "Last updated" counts the topics whose summaries the guide shows
+  const files = [`analysis/guides/${f}`, ...e.topics.map((t) => `analysis/topics/${t}.md`)];
+  Object.assign(p, { summary: e.summary, line: e.summary, seo: e.seo, description: e.description, sourceFile: files });
+  p.boxes = true;
+  pages.push(p);
+}
+{
+  const p = new Page("guides", "/guides/", "Guides");
+  p.body = `<ul class="topic-list box">${guideFiles
+    .map((f) => {
+      const id = p.card(`guide:${f.slice(0, -3)}`, entities[`guide:${f.slice(0, -3)}`]);
+      const e = entities[id];
+      return `<li><a class="list-link" href="${e.url}" data-card="${id}">${esc(e.title)}</a><p>${esc(e.description)}</p></li>`;
+    })
+    .join("")}</ul>`;
+  Object.assign(p, {
+    sourceFile: "analysis/guides",
+    seo: "Guides to Oregon school funding",
+    description:
+      "Step-by-step walkthroughs of Oregon K-12 funding, each step linked to the topic page that holds its evidence.",
   });
   pages.push(p);
 }
@@ -1385,7 +1442,8 @@ for (const p of pages) {
         p.html;
   }
   p.aside = "";
-  if (p.id.startsWith("topic:") && heads.length > 1)
+  const walk = p.id.startsWith("guide:");
+  if ((p.id.startsWith("topic:") || walk) && heads.length > 1)
     p.aside += `<nav class="box side-box side-top" aria-labelledby="otp"><h2 class="side-title" id="otp">On this page</h2><ul class="side-list">${heads.map(([id, t]) => `<li><a href="#${id}">${esc(t)}</a></li>`).join("")}</ul></nav>`;
   if (p.backlinks.length)
     p.aside += `<section class="box side-box" aria-labelledby="rel"><h2 class="side-title" id="rel">Related pages</h2><ul class="side-list">${p.backlinks
@@ -1422,6 +1480,8 @@ for (const p of pages) {
       /<h2 id="([^"]+)">[\s\S]*?(?=<h2 id=|$)/g,
       (sec, id) => `<section class="box" aria-labelledby="${id}">${sec}</section>`,
     );
+  if (walk && p.summary)
+    p.html = `<section class="box box-short" aria-labelledby="in-short"><h2 id="in-short">In short</h2>${p.summaryHtml}</section>${p.html}`;
   p.meta = (p.note || "") + pageMeta([p.sourceFile].flat());
   p.back = p.id.startsWith("person:")
     ? ["Who decides", "/who-decides/"]
@@ -1429,8 +1489,13 @@ for (const p of pages) {
       ? ["Glossary", "/glossary/"]
       : p.id.startsWith("visual:")
         ? ["Charts and diagrams", "/visuals/"]
-        : null;
-  p.kind = { topic: "Topic", person: "Person", glossary: p.id.includes(":") ? "Term" : "" }[p.id.split(":")[0]] || "";
+        : walk
+          ? ["Guides", "/guides/"]
+          : null;
+  p.kind =
+    { topic: "Topic", guide: "Guide", person: "Person", glossary: p.id.includes(":") ? "Term" : "" }[
+      p.id.split(":")[0]
+    ] || "";
 }
 
 // "Last updated" and the files a page is built from, at its foot

@@ -57,5 +57,6 @@ Least new code that fully does the job; adapted from the ponytail rules
 - `Makefile` — the common commands (`make` lists them); CI's check job runs `make citations sources test derive-check`.
   Why: `adr/20261126-2010-makefile-for-common-commands.md`
 - Site: `site-11ty/` builds oregonedtrail.org with Eleventy (`make serve`);
-  every page but About (`website/about.md`) is generated from `analysis/` and `sources/` in `src/_data/archive.js`.
+  every page but About (`website/about.md`) is generated from `analysis/` and `sources/` in `src/_data/archive.js`,
+  guides included (`/guides/`, `adr/20261128-0005-guides-built-from-topic-summaries.md`).
   Why Eleventy: `adr/20261124-0837-site-built-with-eleventy.md`

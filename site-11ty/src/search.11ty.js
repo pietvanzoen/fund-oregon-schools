@@ -8,6 +8,7 @@ export const data = { permalink: "/search/" };
 // Filter pills, in this order. A Documents pill joins them when the archived documents are indexed
 const KINDS = [
   ["", "All"],
+  ["Guide", "Guides"],
   ["Topic", "Topics"],
   ["Person", "People"],
   ["Term", "Terms"],

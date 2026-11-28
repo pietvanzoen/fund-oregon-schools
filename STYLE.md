@@ -1,7 +1,7 @@
 # House style
 
 How the archive's reader-facing text sounds and looks: `analysis/START.md`, `analysis/decisions.md`,
-`analysis/topics/`, `analysis/people/` pages and `analysis/timeline.md`. It applies to our own sentences; quotes stay
+`analysis/guides/`, `analysis/topics/`, `analysis/people/` pages and `analysis/timeline.md`. It applies to our own sentences; quotes stay
 verbatim. The rules on citations, sections and quotes are in `.claude/rules/analysis.md`; this file covers wording. Where AP style
 covers something this file doesn't, follow AP. Why these choices: `adr/20261122-1607-house-style.md`.
 
@@ -55,6 +55,8 @@ Contents: [Voice](#voice) · [Structure](#structure) · [Weight and certainty](#
   - Yes: "Schools and other grantees spent almost all of this money each year, mostly on staff. The state's reports
     don't yet show whether it changed results for students."
   - No: "The money didn't work." (the reports can't tell, which isn't the same)
+  - A guide's `summary` follows the same rules; each sentence restates a joining sentence or a topic summary on the
+    guide's page.
 - **Search titles and descriptions.** Topic files and person profiles have a `description` in front matter, shown
   under the page's link in search results and link previews; a topic with a long H1 also has a
   shorter `title` (the lengths: `.claude/rules/analysis.md` rule 4, enforced by `tools/check_citations.py`). The

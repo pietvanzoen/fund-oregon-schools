@@ -70,7 +70,19 @@ def analysis_rows(rel, text):
         meta, body = front_matter(text)
     except ValueError:  # check_citations reports it; still index the text
         meta, body = {}, text
-    rows = [("summary", f"{rel} front matter", "", "", "  ".join(meta.values()))] if meta else []
+    rows = (
+        [
+            (
+                "summary",
+                f"{rel} front matter",
+                "",
+                "",
+                "  ".join(" ".join(v) if isinstance(v, list) else v for v in meta.values()),
+            )
+        ]
+        if meta
+        else []
+    )
     buf, section, heading = [], "", ""
 
     def flush():
