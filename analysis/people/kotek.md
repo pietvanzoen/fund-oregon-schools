@@ -71,7 +71,7 @@ Governor's Recommended Budget for 2027-29 in December [NEWS:NEWS-2026-salemrepor
 - Analysis: the April FAQ is conditional (no special session for the fund at that time unless a supermajority is
   lined up); the November statement, as KATU reported it, sets her against one-time reserves for Portland Public Schools'
   budget problems. On one-time money for ongoing costs, the archive has her describing unnamed legislative leaders'
-  objection as one she can understand (October 2026), framed as their argument.
+  objection as one she could understand (October 2026), framed as their argument.
 
 ## On Portland Public Schools closures
 - Oct. 13, 2026, letter to Portland Public Schools Superintendent Kimberlee Armstrong and School Board Chair Eddie Wang [SRC:gov/letters/2026-10-13_kotek-letter-to-pps-school-closures.pdf p.1]:
