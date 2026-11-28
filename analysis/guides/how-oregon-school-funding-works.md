@@ -35,8 +35,9 @@ Oregon Encyclopedia [SRC:reference/oregon-encyclopedia_measure-5.html]; step 4 c
 doesn't yet have a full split of today's school money between the state, local taxes and the federal government, or a
 source on how federal money outside the formula reaches districts.
 
-That state share is the State School Fund, whose amount the Legislature sets
-[SRC:legislature/olis/2025R1/293759_ssf-budget-review.pdf p.1]; step 2 covers how.
+The state's part of the formula's money, about two-thirds, is the State School Fund, whose amount the Legislature sets
+[SRC:legislature/olis/2025R1/293759_ssf-budget-review.pdf p.1] [SRC:fiscal/lfo/2025-07_lab-summary-2025-27.pdf p.1];
+step 2 covers how.
 
 ## 2. How the state decides how much {#how-the-state-decides-how-much}
 
@@ -52,8 +53,9 @@ its 2026 report in August 2026 [SRC:ode/qec/2026_qem_report.pdf p.1] [SRC:ode/qe
 <!-- site: visual funding-2027-29 -->
 
 The Quality Education Model is a second, separate benchmark: the commission's estimate of what schools need. It counts
-other state money as well as the State School Fund, so its own estimate of what keeping 2025-27 services would take,
-$13.78 billion, is about $1.2 billion more than the current service level [SRC:ode/qec/2026_qem_report.pdf p.103]:
+other state money as well as the State School Fund, so its estimate of the state money needed to keep 2025-27 services
+in 2027-29, $13.78 billion, is about $1.2 billion more than the current service level
+[SRC:ode/qec/2026_qem_report.pdf p.103] [SRC:ode/qec/2026_qem_report.pdf p.117]:
 
 <!-- site: summary quality-education-model -->
 
@@ -100,9 +102,10 @@ when.
 
 ## 6. Who decides, and when {#who-decides-and-when}
 
-The Governor sends the Legislature a recommended budget by Dec. 1 of each even-numbered year, unless a new governor
-takes office the next January [SRC:legislature/ors/ors291.html]. In 2025, the Education Subcommittee of the
-Legislature's Joint Committee on Ways and Means took up the State School Fund budget bill, Senate Bill 5516
+The Governor sends the Legislature a recommended budget by Dec. 1 of each even-numbered year; when a new governor
+takes office the next January, the governor-elect may revise it, and the revised budget goes to legislators by Feb. 1
+[SRC:legislature/ors/ors291.html]. In 2025, the Education Subcommittee of the Legislature's Joint Committee on Ways
+and Means took up the State School Fund budget bill, Senate Bill 5516
 [SRC:legislature/olis/2025R1/307212_sb5516-ssf-work-session.pdf p.1]. Who holds each role:
 [Who decides](people/people.csv). What's being decided now, with each option and where it stands:
 [What's being decided](decisions.md).
