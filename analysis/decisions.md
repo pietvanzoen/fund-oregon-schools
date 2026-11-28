@@ -251,7 +251,7 @@ document from the Governor with the $12.57 billion figure.
 - At a May 7, 2026, school funding forum, as Willamette Week reported it, the two Ways and Means co-chairs saw no
   reason to tap the fund that year. Lieber objected to one-time money for ongoing costs, and said the Legislature
   might have looked to the fund in the 2026 session had it been forced to fund schools at less than the current
-  service level. Sanchez said worse years are coming as the 2025 federal law H.R. 1 shifts social-service costs to the
+  service level. Sanchez said worse years are coming as the 2025 federal law H.R. 1 could shift social-service costs to the
   state in 2027-29 and 2029-31, and cautioned against relying on one-time dollars [NEWS:NEWS-20260510-wweek-1]
   [SRC:fiscal/lfo/2026_budget-highlights-update-2025-27.pdf p.6]. In October
   2026 Kotek described unnamed legislative leaders' objection to filling an ongoing budget hole with one-time money
