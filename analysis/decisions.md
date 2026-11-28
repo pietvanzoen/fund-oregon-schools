@@ -248,21 +248,34 @@ document from the Governor with the $12.57 billion figure.
   2025-27 [SRC:fiscal/oea/2026-12_forecast.pdf p.73] [DER:reserves/pps_ask_share_of_esf]. Ruiz names no amount and no test for which districts would qualify
   beyond "significant financial strain" [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt]. The
   archive has no statewide total of district budget gaps for 2027-28.
-- Analysis: every option here needs the same vote and trigger. Lieber objects on the record to one-time money
-  for ongoing costs [NEWS:NEWS-20260510-wweek-1]; Kotek has described a similar objection, from unnamed legislative leaders, as
-  one she can understand [NEWS:NEWS-20261102-opb-1], and has said tapping one-time reserves for Portland Public Schools'
-  budget problems goes against enrollment-driven state investment [NEWS:NEWS-2026-katu-kotek-pps-1]. PERS
-  contributions are an ongoing cost, so the objection could apply both to Ruiz's proposal and to Portland Public Schools' request for $500 million to
-  buy down PERS rates [NEWS:NEWS-20261102-opb-1], while
-  supporters describe a one-time draw as a bridge until lasting reform. The objection stated by Sanchez is mainly timing:
-  saving the fund for worse years. Kotek's stance in April 2026 and Lieber's and Sanchez's in May 2026 were about a draw in 2025-27
+- At a May 7, 2026, school funding forum, as Willamette Week reported it, the two Ways and Means co-chairs saw no
+  reason to tap the fund that year. Lieber objected to one-time money for ongoing costs, and said the Legislature
+  might have looked to the fund in the 2026 session had it been forced to fund schools at less than the current
+  service level. Sanchez said worse years are coming as the 2025 federal law H.R. 1 shifts social-service costs to the
+  state in 2027-29 and 2029-31, and cautioned against relying on one-time dollars [NEWS:NEWS-20260510-wweek-1]
+  [SRC:fiscal/lfo/2026_budget-highlights-update-2025-27.pdf p.6]. In October
+  2026 Kotek described unnamed legislative leaders' objection to filling an ongoing budget hole with one-time money
+  as one she could understand [NEWS:NEWS-20261102-opb-1]. At a Nov. 6, 2026, press conference she said tapping one-time
+  reserves for Portland Public Schools' budget problems goes against enrollment-driven state investment
+  [NEWS:NEWS-2026-katu-kotek-pps-1].
+- Analysis: Kotek's stance in April 2026 and Lieber's and Sanchez's in May 2026 were about a draw in 2025-27
   [SRC:gov/eo/eo-26-06_faq.pdf p.2] [SRC:gov/eo/eo-26-06_faq.pdf p.3] [NEWS:NEWS-20260510-wweek-1]; Kotek's
   November 2026 stance and Carpenter's suggestion came in the debate over Portland Public Schools' 2027-28 gap
   [NEWS:NEWS-2026-katu-kotek-pps-1] [NEWS:NEWS-20261112-katu-2], and her October 2026 comments were reported in it
-  [NEWS:NEWS-20261102-opb-1]. In 2021 Gov. Kate Brown vetoed spending the Legislature had budgeted from the fund, arguing it
-  didn't meet the conditions for using the fund [NEWS:NEWS-20210617-eastoregonian-1], so the Governor's reading of
-  those conditions matters as well as the votes. See
-  `topics/reserves.md`.
+  [NEWS:NEWS-20261102-opb-1]. Lieber's objection and the leaders' objection Kotek described are about one-time money
+  for ongoing costs; Sanchez's is about timing, alongside a caution about one-time dollars.
+- Analysis: PERS contributions are an ongoing cost, so the objections to one-time money for ongoing costs (Lieber's
+  and the leaders' objection Kotek described) could also apply to Ruiz's proposal, as could Sanchez's caution against
+  relying on one-time dollars. His post doesn't say whether the relief would pay ongoing contributions or make a
+  one-time payment, such as the rate buy-down Portland Public Schools asks for, which the objection might not cover.
+  The post calls using one-time dollars responsibly to stabilize struggling districts, while lasting reforms are
+  developed, "a thoughtful way to address both needs", and says it won't fix the long-term issues until the whole
+  funding system is overhauled [SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt]
+  [NEWS:NEWS-20261102-opb-1].
+- Analysis: every option here needs the same three-fifths votes and a trigger or an emergency declaration (above).
+  The Governor's reading of those conditions matters as well as the votes: in 2021 Gov. Kate Brown vetoed spending
+  the Legislature had budgeted from the fund, arguing it didn't meet the conditions for using the fund
+  [NEWS:NEWS-20210617-eastoregonian-1]. See `topics/reserves.md`.
 
 <!-- site: decision esf-draw-2027-29 -->
 
