@@ -115,6 +115,8 @@ article>.box+h2{margin-top:16px}
 /* our interpretation inside a list of facts */
 aside.analysis{background:var(--think);border-radius:10px;padding:14px 18px 2px;margin:0 0 18px}
 .box-analysis aside.analysis{background:var(--white)}
+.guide-topic{border-left:4px solid var(--blue);padding:2px 0 2px 16px;margin:0 0 18px}
+.guide-more{font-size:16px;color:var(--muted)}
 span.analysis{background:var(--think);border-radius:6px;padding:2px 6px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
 
 /* source pills: kinds differ by icon and word first, colour second */

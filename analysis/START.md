@@ -5,6 +5,8 @@
 A research archive on Oregon K-12 funding, focused on the 2027-29 budget. It collects the primary documents and
 cites every claim, so parents, reporters and anyone else can check facts and build their own materials.
 
+New to Oregon school funding? Start with `guides/how-oregon-school-funding-works.md`.
+
 Run by Oregon public school parents. [About this site](about.md)
 
 - 🗳️ **What's being decided:** the Governor's budget, the State School Fund amount, reserves and the cost model, with the options on the table → `decisions.md`

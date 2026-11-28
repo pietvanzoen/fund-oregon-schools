@@ -63,7 +63,7 @@ ${SPRITE}
   <div class="wrap masthead-row">
     <a class="brand" href="/">${MARK}<span><span class="brand-name">Oregon Ed Trail</span><span class="brand-tag">Following the money behind Oregon's schools</span></span></a>
     <button type="button" id="menu-button" class="menu-button" aria-expanded="false" aria-controls="menu">${icon("chevron")}Menu</button>
-    <nav id="menu" class="topnav" aria-label="Main"><ul><li><a href="/topics/">Topics</a></li><li><a href="/who-decides/">Who decides</a></li><li><a href="/decisions/">What's being decided</a></li><li class="menu-about"><a href="/about/">About this site</a></li></ul></nav>
+    <nav id="menu" class="topnav" aria-label="Main"><ul><li><a href="/guides/">Guides</a></li><li><a href="/topics/">Topics</a></li><li><a href="/who-decides/">Who decides</a></li><li><a href="/decisions/">What's being decided</a></li><li class="menu-about"><a href="/about/">About this site</a></li></ul></nav>
     <span class="mast-divider" aria-hidden="true"></span>
     <a href="/search/" id="search-toggle" class="search-toggle" aria-label="Search">${icon("search")}</a>
   </div>

@@ -10,7 +10,9 @@ malformed analysis/derived/<topic>.csv, unknown [DER:topic/id], a DER value not 
 a DER figure outside topics/ without "our sum"/"our estimate" in its sentence;
 a topic file without an uncited `summary` and `description` in its front matter, a person profile without a
 `description`, a `title` or `description` too long for search results (or no `title` when the H1 is), front matter
-outside topics/ and people/ or beyond `key: value` and folded `>`; a topic file without the three sections in order (Analysis first), or a line under
+outside topics/, people/ and guides/ or beyond `key: value`, folded `>` and `  - item` lists; a guide
+(analysis/guides/<slug>.md) without `summary`, `description` and a `topics` list of existing topic files, each placed
+once, in that order, by a `<!-- site: summary <slug> -->` marker; a topic file without the three sections in order (Analysis first), or a line under
 "What the sources say" with no source citation or with "Analysis:".
 Warnings also flag a number under "What the sources say" that isn't in the text of a source the line cites.
 analysis/updates.csv (What's new) has its own columns instead of a source: date, text, page, pr, kind
@@ -75,6 +77,7 @@ QUESTION_STATUS = {"open", "answered", "not planned"}
 ZERO_WIDTH = re.compile("[\u200b-\u200d\ufeff]")
 VISUALS = os.path.join(ANALYSIS, "visuals")
 VISUAL_MARKER = re.compile(r"<!-- site: visual ([\w-]+) -->")
+SUMMARY_MARKER = re.compile(r"<!-- site: summary ([\w-]+) -->")
 NUM_RE = re.compile(r"\d[\d,]*(?:\.\d+)?")
 BLOCK_START = re.compile(r"^\s*(?:[-*] |\d+\. |\||#+ )")
 # shortcut: an abbreviation like "Gov. " also ends a sentence; reword the sentence if it splits a DER figure off
@@ -225,10 +228,15 @@ def main():
                     check_sections(rel, body_lines, news_text, errors, warnings)
                 elif os.path.dirname(full) == os.path.join(ANALYSIS, "people"):
                     check_front_matter(rel, meta, body, {"description"}, errors)
+                elif os.path.dirname(full) == os.path.join(ANALYSIS, "guides"):
+                    check_front_matter(rel, meta, body, {"summary", "description", "topics"}, errors)
+                    check_guide(rel, meta, body, errors)
                 elif meta:
                     errors.append(
-                        f"{rel}: only topic files and person profiles may have front matter (.claude/rules/analysis.md rule 4)"
+                        f"{rel}: only topic files, person profiles and guides may have front matter (.claude/rules/analysis.md rule 4)"
                     )
+                if SUMMARY_MARKER.search(text) and os.path.dirname(full) != os.path.join(ANALYSIS, "guides"):
+                    errors.append(f"{rel}: only guides place topic summaries (<!-- site: summary ... -->)")
             elif dirpath == DERIVED:
                 continue  # checked above
             elif full == UPDATES:
@@ -553,9 +561,12 @@ def check_front_matter(rel, meta, body, required, errors):
             f"{rel}: front matter key {k} isn't used; this file holds only {', '.join(sorted(required | {'title'}))}"
         )
     for k in sorted(meta.keys() & {"summary", "description", "title"}):
+        if not isinstance(meta[k], str):
+            errors.append(f"{rel}: the {k} is text (`{k}: >` and indented lines), not a list")
+            continue
         if TAG_RE.search(meta[k]):
             errors.append(f"{rel}: the {k} carries no citations; back each sentence with a cited line below")
-    if len(meta.get("description", "")) > DESC_MAX:
+    if isinstance(meta.get("description", ""), str) and len(meta.get("description", "")) > DESC_MAX:
         errors.append(
             f"{rel}: description is {len(meta['description'])} characters; search results show about {DESC_MAX}"
         )
@@ -566,6 +577,20 @@ def check_front_matter(rel, meta, body, required, errors):
             f"{rel}: page title is {len(title)} characters; search results show about {TITLE_MAX}, so "
             f"{'shorten the `title`' if 'title' in meta else 'add a shorter `title` to the front matter'}"
         )
+
+
+def check_guide(rel, meta, body, errors):
+    """A guide's `topics` list is its steps' order; each topic's summary is placed once, in that order, by a marker."""
+    topics = meta.get("topics", [])
+    if not isinstance(topics, list):
+        errors.append(f"{rel}: `topics` is a list (`topics:` then `  - <topic>` lines)")
+        return
+    for t in topics:
+        if not os.path.exists(os.path.join(ANALYSIS, "topics", f"{t}.md")):
+            errors.append(f"{rel}: no topic {t} (analysis/topics/{t}.md)")
+    placed = SUMMARY_MARKER.findall(body)
+    if placed != topics or len(set(topics)) != len(topics):
+        errors.append(f"{rel}: summary markers {placed} must match `topics` {topics}: each once, in the same order")
 
 
 def check_sections(rel, lines, news_text, errors, warnings):

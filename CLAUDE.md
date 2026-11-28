@@ -32,7 +32,7 @@ archive's emails and records requests.
   to do something). Read the relevant ones before changing `tools/`, workflows or how `sources/` is stored; add one
   when you weigh options and pick one (template in `adr/README.md`).
 - **Where things stand:** `analysis/decisions.md` (what's being decided, per decision) and `analysis/START.md` (the
-  website's home page).
+  website's home page). Guides (`analysis/guides/`) walk a new reader through topics in order.
 - **Rules by area** are in `.claude/rules/`: `sources.md` (archiving: path conventions, news records),
   `analysis.md` (citations, quotes, how analysis files are laid out, glossary) and `code.md` (tools, workflows,
   site build). Each loads on its own when a session reads files in its folders; skills and reviewers also name

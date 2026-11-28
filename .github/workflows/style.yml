@@ -22,7 +22,7 @@ jobs:
         with:
           version: 3.13.0
           sync: false
-          files: '["analysis/START.md", "analysis/decisions.md", "analysis/timeline.md", "analysis/topics", "analysis/people"]'
+          files: '["analysis/START.md", "analysis/decisions.md", "analysis/timeline.md", "analysis/guides", "analysis/topics", "analysis/people"]'
           filter_mode: added
           # Review comments, not a check run reviewdog must update (404s there: #140). adr/20261123-1927-vale-review-comments.md.
           reporter: github-pr-review

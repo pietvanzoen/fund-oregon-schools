@@ -11,6 +11,10 @@ class FrontMatter(unittest.TestCase):
             {"summary": "One two. Three.", "k": "v"},
             "# T\nx",
         )
+        assert front_matter("---\ntopics:\n  - a\n  - b-c\nk: v\n---\n# T") == (
+            {"topics": ["a", "b-c"], "k": "v"},
+            "# T",
+        )
 
     def test_rejects(self):
         for bad in (
@@ -24,6 +28,9 @@ class FrontMatter(unittest.TestCase):
             "---\n- a\n---\n",
             "---\nk: v\nk: w\n---\n",
             "---\nk: v # c\n---\n",
+            "---\nk:\n---\n",
+            '---\nk:\n  - "a"\n---\n',
+            "---\nk:\n  x\n---\n",
         ):
             with self.subTest(bad=bad), self.assertRaises(ValueError):
                 front_matter(bad)

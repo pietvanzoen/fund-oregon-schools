@@ -265,6 +265,43 @@ class CheckCitations(ArchiveTest):
         assert "bad-flow.json: arrow a -> nope: no box nope" in out and "unknown NEWS id NEWS-9" in out, out
         assert "bad-flow.json: arrow 'y' has no citation" in out and "renamed.json: id must be 'renamed'" in out, out
 
+    def test_guides(self):
+        # a guide's topics list sets the order; each summary is placed once by a marker; other files keep no front matter
+        topic = "---\nsummary: >\n  S.\ndescription: >\n  D.\n---\n# {}\n\n## Analysis\n\nA.\n\n## What the sources say\n\n- F [SRC:gov/test_page.html]\n\n## Derived figures\n\nNone.\n"
+        self.write("analysis/topics/a.md", topic.format("A"))
+        self.write("analysis/topics/b.md", topic.format("B"))
+        head = "---\nsummary: >\n  S.\ndescription: >\n  D.\ntopics:\n  - a\n  - b\n---\n# G\n\n"
+        self.write(
+            "analysis/guides/g.md",
+            head + "<!-- site: summary a -->\n\nJoin [SRC:gov/test_page.html].\n\n<!-- site: summary b -->\n",
+        )
+        r = self.run_tool("check_citations.py")
+        assert r.returncode == 0 and "0 errors" in r.stdout, r.stdout
+        self.write(
+            "analysis/guides/g.md",
+            head.replace("  - b", "  - b\n  - c") + "<!-- site: summary b -->\n<!-- site: summary a -->\n",
+        )
+        self.write("analysis/x.md", "---\nk: v\n---\n# X\n")
+        r = self.run_tool("check_citations.py")
+        out = r.stdout
+        assert r.returncode == 1 and out.count("ERROR") == 3, out
+        assert "g.md: no topic c" in out and "must match `topics`" in out and "x.md: only topic files" in out, out
+        # topics as a plain value, a topic listed twice, a list where text goes, a marker outside guides
+        self.write(
+            "analysis/guides/g.md", head.replace("topics:\n  - a\n  - b", "topics: a") + "<!-- site: summary a -->\n"
+        )
+        self.write(
+            "analysis/guides/h.md",
+            head.replace("  - b", "  - a").replace("description: >\n  D.", "description:\n  - D.")
+            + "<!-- site: summary a -->\n<!-- site: summary a -->\n",
+        )
+        self.write("analysis/x.md", "<!-- site: summary a -->\n")
+        r = self.run_tool("check_citations.py")
+        out = r.stdout
+        assert r.returncode == 1 and out.count("ERROR") == 4, out
+        assert "g.md: `topics` is a list" in out and "h.md: summary markers" in out, out
+        assert "h.md: the description is text" in out and "x.md: only guides place topic summaries" in out, out
+
 
 if __name__ == "__main__":
     unittest.main()
