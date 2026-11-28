@@ -35,9 +35,8 @@ Oregon Encyclopedia [SRC:reference/oregon-encyclopedia_measure-5.html]; step 4 c
 doesn't yet have a full split of today's school money between the state, local taxes and the federal government, or a
 source on how federal money outside the formula reaches districts.
 
-With about two-thirds of the formula's money coming from the state
-[SRC:legislature/olis/2025R1/293759_ssf-budget-review.pdf p.1], the larger part of it is the State School Fund amount
-the Legislature sets, which is step 2.
+That state share is the State School Fund, whose amount the Legislature sets
+[SRC:legislature/olis/2025R1/293759_ssf-budget-review.pdf p.1]; step 2 covers how.
 
 ## 2. How the state decides how much {#how-the-state-decides-how-much}
 
@@ -45,15 +44,16 @@ The Legislature sets the State School Fund amount in each two-year budget; for 2
 [SRC:fiscal/lfo/2025-07_lab-summary-2025-27.pdf p.1]. The baseline the archive compares 2027-29 proposals against, on
 `decisions.md`, is the State School Fund's current service level, the amount needed to continue existing programs
 [SRC:gov/press/2024_ssf-csl-proposal.html]. The Department of Administrative Services works it out by adjusting the
-last budget's State School Fund spending for inflation and enrollment [SRC:ode/qec/2026_qem_report.pdf p.100]. Its
-2027-29 figure is $12.56 billion, the estimate available when the Quality Education Commission published its 2026
-report in August 2026 [SRC:ode/qec/2026_qem_report.pdf p.1] [SRC:ode/qec/2026_qem_report.pdf p.103]
+last budget's State School Fund spending for inflation and enrollment [SRC:ode/qec/2026_qem_report.pdf p.100]. The
+department's 2027-29 figure is $12.56 billion, the estimate available when the Quality Education Commission published
+its 2026 report in August 2026 [SRC:ode/qec/2026_qem_report.pdf p.1] [SRC:ode/qec/2026_qem_report.pdf p.103]
 [SRC:ode/qec/2026_qem_report.pdf p.117].
 
 <!-- site: visual funding-2027-29 -->
 
-The Quality Education Model is a second, separate benchmark: the commission's estimate of what schools need, counting
-other state money as well as the State School Fund [SRC:ode/qec/2026_qem_report.pdf p.103]:
+The Quality Education Model is a second, separate benchmark: the commission's estimate of what schools need. It counts
+other state money as well as the State School Fund, so its own estimate of what keeping 2025-27 services would take,
+$13.78 billion, is about $1.2 billion more than the current service level [SRC:ode/qec/2026_qem_report.pdf p.103]:
 
 <!-- site: summary quality-education-model -->
 
@@ -76,8 +76,9 @@ locally and keep.
 
 ## 4. What districts can add locally, and the limits {#what-districts-can-add-locally-and-the-limits}
 
-Up to a cap, money from a local option levy isn't subtracted from a district's State School Fund grant; its regular
-property taxes are [SRC:legislature/ors/ors327.html]:
+A district's voters can approve a local option levy, an extra property tax for day-to-day costs
+[SRC:fiscal/dor/2009-06_brief-history-property-taxation.pdf p.4]. Up to a cap, that money isn't subtracted from the
+district's State School Fund grant, but its regular property taxes are [SRC:legislature/ors/ors327.html]:
 
 <!-- site: summary measures-5-and-50 -->
 
@@ -93,15 +94,15 @@ Appropriation counted as core K-12 funding for 2025-27, the largest is the Stude
 <!-- site: summary student-investment-account -->
 
 The archive has little yet on what the money buys. The State Board of Education's statewide targets for student
-results, adopted on April 28, 2026, for 2029-30, are on `topics/results.md`
-[SRC:ode/accountability/2026-05_statewide-performance-growth-targets.pdf p.1]. Step 6 covers who sets the budget,
-and when.
+results in 2029-30, adopted April 28, 2026, are on `topics/results.md`
+[SRC:ode/accountability/2026-05_statewide-performance-growth-targets.pdf p.1]. Step 6 covers who sets the budget, and
+when.
 
 ## 6. Who decides, and when {#who-decides-and-when}
 
-The Governor sends the Legislature a recommended budget by Dec. 1 of each even-numbered year
-[SRC:legislature/ors/ors291.html]. In 2025, the Education Subcommittee of the Legislature's Joint Committee on Ways
-and Means took up the State School Fund budget bill, Senate Bill 5516
-[SRC:legislature/olis/2025R1/307212_sb5516-ssf-work-session.pdf p.1]. Who holds each role is on
-[Who decides](people/people.csv), and what's being decided now, with each option and where it stands, is on
+The Governor sends the Legislature a recommended budget by Dec. 1 of each even-numbered year, unless a new governor
+takes office the next January [SRC:legislature/ors/ors291.html]. In 2025, the Education Subcommittee of the
+Legislature's Joint Committee on Ways and Means took up the State School Fund budget bill, Senate Bill 5516
+[SRC:legislature/olis/2025R1/307212_sb5516-ssf-work-session.pdf p.1]. Who holds each role:
+[Who decides](people/people.csv). What's being decided now, with each option and where it stands:
 [What's being decided](decisions.md).
