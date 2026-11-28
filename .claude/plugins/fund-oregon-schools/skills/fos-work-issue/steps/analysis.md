@@ -63,6 +63,14 @@ Then, as the issue needs:
   row for its number. The PR description is the maintainers' record; this is for readers. For a PR readers don't need to hear about (a typo, a citation page fix), the maintainer labels it
   `no-update` instead; don't add that label yourself.
 
+**Give an option space in line with its formality** (`RESEARCH.md`, "The model": law, bill, budget line, formal
+request, statement, social post). A statement or social post with no amount and no bill gets a sentence in the
+decision's Analysis, not a bullet of its own, and never more space than the stated positions of the people who
+decide (committee chairs, leadership, the Governor). Its own framing goes in its source bullet once, not again in
+the analysis. On #221, review fixes grew one Instagram post about an "initial proposal" into a five-line Analysis
+bullet with a caveat and quotes; the maintainer had it cut to one sentence (#235). If a reviewer's finding on such
+a source asks for more context, answer it with a short clause or a pointer to the source bullet.
+
 Stay within what the issue asks. Note related gaps as `open` rows in `analysis/questions.csv` or as a follow-up
 issue rather than chasing them.
 
