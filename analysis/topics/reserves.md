@@ -160,7 +160,8 @@ positions on record, each with when it was stated and which draw it was about:
 
 PERS contributions are an ongoing cost, so the objections on record to one-time money for ongoing costs (Lieber's and
 the leaders' objection Kotek described) could also apply to Ruiz's proposal, as could Sanchez's caution against
-relying on one-time dollars. The archive has no
+relying on one-time dollars, though his post doesn't say what form the relief would take
+[SRC:legislature/social/2026-11-19_ruiz-instagram-osba-panel.txt]. The archive has no
 statement on the fund from Lieber or Sanchez since May 2026.
 
 ### Past draws and the 2021 veto

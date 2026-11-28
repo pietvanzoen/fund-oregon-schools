@@ -36,5 +36,6 @@ Part of the Portland delegation.
   against one-time fixes [NEWS:NEWS-20260510-wweek-1].
 - She also stressed her interest in revenue reform and warned that relying on one-time dollars is risky (reporter's
   paraphrase) [NEWS:NEWS-20260510-wweek-1].
-- Analysis: her objection is mainly timing (save the fund for a bigger storm), alongside a general caution about
-  one-time money.
+- Analysis: her objection is about timing (she said worse years are coming, as federal H.R. 1 could shift
+  social-service costs to the state in 2027-29 and 2029-31), alongside a caution about relying on one-time money
+  [NEWS:NEWS-20260510-wweek-1].
